@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002484"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to William Sunley, 14 March 1866</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001335</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5318, Acc. Reg. 4669</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1886</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>					
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to </title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1866-03-14">14 March 1866</date><!-- Change -->
+                    <placeName type="compositionPlace">Zanzibar</placeName><!-- Change -->
+                    <persName type="addressee">William Sunley</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-27" who="#AW">Coding review</change>
+            <change when="2015-05-07" who="#AA">Proofing</change>
+        	<change when="2015-04-21" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002484_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><add place="inspace" rend="left gray small" hand="#U1">5-6-9</add><!-- diagonal --> <dateline rend="right"><placeName><geogName type="island">Zanzibar</geogName></placeName> <date when="1866-03-14">14 March <add place="above" rend="right gray small" hand="#U1">MS 8/14</add>
+<lb rend="right"/>1866</date></dateline>
+<lb/><salute>My Dear <persName>Sunley</persName></salute><!-- Change line info as appropriate -->
+</opener>
+<lb/><p><space extent="7" unit="chars"/>Having <choice><sic>recieved</sic><corr>received</corr></choice> no
+<lb/>letter from you till I was
+<lb/>on the point of leaving
+<lb/><placeName><settlement type="city">Bombay</settlement></placeName> I took some
+<lb/><orgName>sepoys</orgName> &amp; <term type="people">Africans</term>,
+<lb/>but I would have <w>pre-
+<lb break="no"/>ferred</w> the whole to have
+<lb/>been <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName> 
+<lb/>I took your silence as
+<lb/>evidence that you could
+<lb/>not get what I wanted    
+                
+    <pb facs="liv_002484_0002" n="0002"/>
+<lb/>I am glad to <choice><sic>recieve</sic><corr>receive</corr></choice> the
+<lb/>men you sent and though
+<lb/>the pay is higher than I
+<lb/>intended it is all right.
+<lb/>It only makes it a little
+<lb/><choice><sic>ackward</sic><corr cert="high">awkward</corr></choice> for me with
+<lb/>the others because the 
+<lb/>others are at 5 &amp; your
+<lb/>friends will tell that
+<lb/>they get 7 However I
+<lb/>shall make the best of it
+<lb/>and I thank you for
+<lb/>the trouble you took in
+<lb/>the matter. This <persName>Musa</persName> 
+<lb/>was not a bad one &amp;
+<lb/>I was glad to see him again
+
+    <pb facs="liv_002484_0003" n="0003"/>
+<lb/>I was glad to see old <persName><unclear cert="medium">Seedy</unclear></persName>
+<lb/>again. I hope you will
+<lb/>soon make a lot of money
+<lb/>and set yourself free to
+<lb/>follow your own bent.
+<lb/>One cannot always do the
+<lb/>good he would. We are
+<lb/>led very often &amp; have to
+<lb/>confess that there is a
+<lb/>Divinity that shapes our
+<lb/>ends, rough hew them
+<lb/>how we will <!--What is this punctuation? -AA --><!-- I think it's an equal sign, one of DL's usual methods --><unclear cert="medium">=</unclear> I can
+<lb/>sympathize sincerely
+<lb/>with all earnest <unclear cert="medium">workers</unclear>
+<lb/>whether successful ones
+<lb/>or not -</p>
+    
+    <pb facs="liv_002484_0004" n="0004"/>
+<lb/><p>I shall attend to the £29-2-11 <add place="below inspace" hand="#U2"><date when="1844-03-14">March 14 1866</date></add>
+<lb/>which was advanced for <add place="below inspace" hand="#U2"><persName>Livingstone</persName></add> <!-- There appears to be some text between these two lines. I cannot make it out. The name "Livingstone" appears to be written between the next two lines. I am not sure how to encode this. JM --><!-- Done. AW -->
+<lb/>me. The journal was
+<lb/>what I wanted. It will <add place="below inspace" hand="#U2"><choice><abbr>Rec<hi rend="sup">d</hi></abbr><expan>Received</expan></choice> <date when="1844-03-31">31 March</date></add> <!-- "Received" together with the date 31 March is written between the next two lines. Please advise on how to encode this. JM --><!-- Done. AW -->
+<lb/>do for reference &amp;	<add place="below inspace" hand="#U2"><gap extent="1" unit="words" agent="illegible"/></add>
+<lb/>waste paper &amp; that was
+<lb/>all I wanted.</p>
+<lb/><p><persName>Dr. Kirk</persName> comes out here
+<lb/>soon as successor to <persName>Dr.
+<lb/>Seward</persName>. My brother is
+<lb/>at <placeName><unclear cert="medium">Fernando</unclear></placeName> <unclear>&amp;</unclear> <persName>Meller</persName>
+<lb/>you know is at <placeName><geogName type="island"><w>Mada<supplied>-</supplied>
+<lb break="no"/>-gascar</w></geogName></placeName>. My son perished
+<lb/>at <placeName><settlement type="town">Richmond</settlement></placeName>. <unclear><subst><del><gap extent="1" unit="words"/></del><add place="over-text">We</add></subst></unclear> only know
+<lb/>that he was captured by the
+<lb/>confederates.</p> <closer><salute>Very sincerely your</salute>
+<lb/><space extent="6" unit="chars"/><signed><persName>David Livingstone</persName></signed></closer>
+    
+            </div>
+        </body>
+    </text>
+
+</TEI>

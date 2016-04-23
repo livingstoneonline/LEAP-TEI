@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002451"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to John Kirk, 13 December 1865</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+               	</respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002451</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 6401</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1853</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to John Kirk, 13 December 1865</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1865-12-13">13 December 1865</date><!-- Change -->
+                    <placeName type="compositionPlace">Bombay</placeName><!-- Change -->
+                    <persName type="addressee">John Kirk</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-09-29" who="#AW">Coding review</change>
+            <change when="2015-09-24" who="#EM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002451_0001" n="0001"/>
+
+<opener>
+<lb/><add place="above marginright" hand="#U">ms 17/3</add> <dateline rend="right"><placeName><settlement type="city">Bombay</settlement></placeName> <date when="1865-12-13">13 <choice><abbr>Dec</abbr><expan>December</expan></choice>
+<lb/>1865</date></dateline>
+<lb/>    
+<lb/><salute>My Dear Kirk</salute><!-- Change line info as appropriate -->
+</opener>
+
+<lb/><p>In reference to
+<lb/>my last I find that
+<lb/><persName>Dr. Birdwood</persName> can
+<lb/>not say more till
+<lb/>he has seen the
+<lb/><term type="occupation"><persName>Governor</persName></term> and that
+<lb/>will probably be
+<lb/>between the <date when="1865-12-15">15<hi rend="sup underline">th</hi></date> &amp; <date when="1865-12-20"><hi rend="sup underline">20</hi></date>
+<lb/><choice><abbr>currt</abbr><expan>current</expan></choice> - He complains
+<lb/>of getting worse 
+<lb/>so I think is not
+<lb/>likely to stay long
+<lb/>in this country -
+
+	<pb facs="liv_002451_0002" n="0002"/>
+<lb/>I gave you as fair
+<lb/>an account as I
+<lb/>could of the <unclear cert="high">advantage<gap extent="1" unit="chars" agent="blot"/><supplied>s</supplied></unclear>
+<lb/>and disadvantages
+<lb/>of the situation (if
+<lb/>offered) I would take
+<lb/>it only as a stepping
+<lb/>stone if nothing
+<lb/>better offers - I think
+<lb/>that the pracatice would
+<lb/>in time surpass any
+<lb/>thing in a country
+<lb/>town but I <choice><sic>dont</sic><corr>don't</corr></choice> know
+<lb/>much in that line - If
+<lb/>the <term type="occupation"><persName>Governor</persName></term> invites
+<lb/>you I suppose he would
+<lb/>do you a good turn
+
+	<pb facs="liv_002451_0003" n="0003"/>
+<lb/>if opportunity offered
+<lb/>afterwards but this is 
+<lb/>merely conjecture - </p>
+<lb/><p>I am in daily
+<lb/>expectation of others
+<lb/>to embark on the Thule
+<lb/>by which ship I am to
+<lb/>go but probably the
+<lb/><term type="occupation"><persName>Governor</persName></term> will come
+<lb/>about <date when="1865-12-15">15<hi rend="sup underline">th</hi></date> &amp; give
+<lb/>the necessary orders
+<lb/>to sail - I am very 
+<lb/>tired of doing nothinG</p>
+<lb/><p>The <orgName>Africans</orgName> who
+<lb/>came with me have
+<lb/>lost the peculiar odour
+<lb/>and now emit the
+<lb/>peculiar <term type="nationality">Indian</term> mousey 
+<lb/>or aloetic smell !!
+
+	<pb facs="liv_002451_0004" n="0004"/>
+<lb/>I have observed it ever
+<lb/>since my return and
+<lb/>they complain of
+<lb/>weakness - The <orgName>Arabs</orgName>
+<lb/>imbibe the <orgName>African</orgName>
+<lb/>odour on the continent
+<lb/>&amp; you remember what
+<lb/>we imbibed at <placeName><geogName type="river">Kongone</geogName></placeName> - </p>
+<lb/><p><persName>Grant</persName> has been feasted
+<lb/>at <placeName><settlement type="city">Calcutta</settlement></placeName> - <term type="people">Scotchmen</term>
+<lb/>predominate there as 
+<lb/>well as here and all are
+<lb/>pretty clannish - no
+<lb/>news from the coast
+<lb/>for a long time - the <seg type="weather">weather
+<lb/>is now cool &amp; pleasant</seg>
+<lb/>here - but I wish I were
+<lb/>away to my work</p>
+
+<closer>
+<lb/><salute>Very <choice><abbr>Affectly</abbr><expan>Affectionately</expan></choice> yours</salute>
+<lb/><signed><persName>David Livingstone</persName></signed> 
+</closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

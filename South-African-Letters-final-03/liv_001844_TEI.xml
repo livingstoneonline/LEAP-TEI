@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001844"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Edward Glover, 17 October 1862</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001844</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 6098</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1290</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Edward Glover, 17 October 1862</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1862-10-17"></date><!-- Change -->
+                    <placeName type="compositionPlace">Quillimane</placeName><!-- Change -->
+                    <persName type="addressee">Edward Glover</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-26" who="#AW">Coding review</change>
+            <change when="2015-05-07" who="#AA">Proofing</change>
+        	<change when="2015-04-10" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001844_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><add place="margintop" rend="center gray" hand="#U">LX</add> <dateline rend="right"><placeName><settlement type="village">Quillimane</settlement></placeName> <date when="1862-10-17">17<hi rend="sup underline">th</hi><choice><abbr>Oct.</abbr><expan>October</expan></choice>      
+<lb rend="right"/>1862</date></dateline> 
+<lb/>
+<lb/><salute>Dear Sir</salute><!-- Change line info as appropriate -->
+</opener>
+<lb/><p><space extent="8" unit="chars"/>We were obliged to      
+<lb/>come into this <unclear cert="low">river</unclear> to cut wood
+<lb/>a few days ago &amp; when on our
+<lb/>way down met a boat from <unclear cert="low">to</unclear>
+<lb/><choice><abbr>M.S.</abbr><expan>Motor Ship</expan></choice> Rapid with your letter
+<lb/>and lots of provisions for the
+<lb/><placeName><settlement type="village">Oxford</settlement></placeName> &amp; <placeName><settlement type="village">Cambridge</settlement></placeName> mission 
+<lb/>As we are full of provisions
+<lb/>we cannot possibly take them
+<lb/>on board our deck even being lumbered
+<lb/>up with draught <term type="animal">oxen</term>. I came
+<lb/>up with the man of war's boat</p>
+
+<!-- The following segment continues on from the end of the page. AW -->
+<cb rend="vertical left"/><ab>which led me to fill <unclear cert="low">a</unclear> sheet of foolscap <!-- I cannot make out this word. JM --><!-- Fixed. AW --> &amp; I am not <!-- I cannot make out this word. JM --> 
+<lb/><unclear cert="medium">through</unclear> so it is his own fault. The necessary consequence 
+<lb/>in fact of his letter I cannot finish mine
+<lb rend="center"/><persName>David Livingstone</persName></ab>  <!-- Oxygen would not allow me to mark this line as a closer or as a signature. JM --><!-- We may need to get guidance on this. AW -->
+                
+    <pb facs="liv_001844_0002" n="0002"/>
+<lb/><p>and have arranged with <persName>Colonel
+<lb/>Nunés</persName> to send down his launch
+<lb/>to take the mission provisions
+<lb/>I must say he behaves very
+<lb/>handsomely in the matter for
+<lb/>everyone else refuses to lend
+<lb/>either launch or boat but by
+<lb/>promising to tow this one out
+<lb/>and in again over the <unclear cert="high">bar</unclear> he has
+<lb/>kindly assented to my request
+<lb/>He is a good fellow and his
+<lb/>nephew <persName>José Mellitás Nunes</persName> 
+<lb/>is no less. <persName>Waller</persName> was down
+<lb/>here lately (<date when="1862-10-05">5<hi rend="sup underline">th</hi>October</date> and took
+<lb/>what provisions &amp; <term type="foodstuff">grog</term> he could
+
+    <pb facs="liv_001844_0003" n="0003"/>
+<lb/>get. I am glad to see plenty
+<lb/>of medical comforts. <subst><del><unclear cert="low">very</unclear></del><add place="over-text">They</add></subst> will
+<lb/>be very acceptable. I believe
+<lb/>they all felt better for the <term type="foodstuff">brandy</term>
+<lb/>we took up part of the way
+<lb/>and this <unclear cert="high">fresh</unclear> supply will
+<lb/>no doubt be useful too -
+<lb/>should their <unclear cert="medium">reverences</unclear> ever
+<lb/>get "drunk and disorderly" <unclear cert="medium">thereon</unclear>
+<lb/>may hence the capital excuse
+<lb/>that it was the "necessary
+<lb/>consequence" of my having
+<lb/>towed it over the <unclear cert="high">bar</unclear>. In my
+<lb/>simplicity I have invariably
+
+    <pb facs="liv_001844_0004" n="0004"/>
+<lb/>ascribed my mistakes to my
+<lb/>own stupidity or worse &amp; imagined
+<lb/>it would have been <hi rend="underline">unmanly</hi>
+<lb/>to blame another for what I had
+<lb/>deliberately done - but the longer one
+<lb/><unclear cert="high">lives</unclear> the more one learns (sage
+<lb/>observation)and our friends up
+<lb/><placeName><geogName>Shire</geogName></placeName> are our friends still and
+<lb/>I hope will be to the end of the 
+<lb/>chapter. <space extent="3" unit="chars"/> Thanks for your
+<lb/>kind letter, and be good enough
+<lb/>to communicate the little <w>inform<supplied>-</supplied>
+<lb break="no"/>-ation</w> I have at present to give
+<lb/>to the bishop. I rejoice that a 
+<lb/>new bishop will come. Mistakes
+<lb/>and disappointments will happen.
+<lb/>but the end of all these Christian
+<lb/>efforts will be glorious. Please
+<lb/>present kind salutations to your
+<lb/>Lady &amp; say to <persName>M<hi rend="sup underline">r</hi> Frere</persName> that I shall write
+<lb/>him as soon as possible. He put <add place="below">^</add> <add place="above">me</add> on a tack</p>
+
+              </div>
+        </body>
+    </text>
+
+</TEI>

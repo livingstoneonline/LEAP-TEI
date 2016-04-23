@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001808"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Richard Thornton, 30 July 1862</title><!-- I could not find the recipient of this letter on LO, though it appears to be R. Thornton --><!-- Always check the MODS record, which is already in Agnes. AW -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001335</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Kimberley</settlement><!-- Change as needed -->
+                        <repository>Kimberley Africana Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- I am not sure what to include here from the MODS file. Please advise. JM --><!-- We don't have one. OK to leave blank. AW -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1255</idno><!-- I could not find the CC number for this letter --><!-- This is correct. AW -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to </title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1863-07-30">30 July 1862</date><!-- Change -->
+                    <placeName type="compositionPlace">Kongone</placeName><!-- Change -->
+                    <persName type="addressee">Richard Thornton</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-26" who="#AW">Coding review</change>
+            <change when="2015-05-07" who="#AA">Proofing</change>
+        	<change when="2015-03-21" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001808_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><add place="over-text margintop" rend="right"><figure><head>13</head><figDesc>Sticker over letter</figDesc></figure></add>
+<lb/><dateline rend="right"><placeName><settlement type="village">Kongone</settlement></placeName> <date when="1862-07-30">30<hi rend="underline">th</hi> July 1862</date></dateline>     
+<lb/> 
+<lb/><salute>My Dear Sir</salute>
+</opener>
+<lb/><p><space extent="11" unit="chars"/>In coming down
+<lb/>we ran aground twice after
+<lb/>you left us. The prospect
+<lb/>of finding the <unclear cert="medium">river</unclear> still
+<lb/>lower a month hence made
+<lb/>us almost conclude that
+<lb/>it will be better to spend
+<lb/>the months between August
+<lb/>&amp; November in boat
+<lb/>exploration of the  <placeName><geogName type="river">Rovuma</geogName></placeName> 
+<lb/>than in slowly threading   
+                
+    <pb facs="liv_001808_0002" n="0002"/>
+<lb/>our way up <placeName><geogName type="river">Zambesi</geogName></placeName> <unclear cert="medium">&amp;</unclear>      
+<lb/><placeName><geogName type="river">Shire</geogName></placeName>. It is not quite decided
+<lb/>yet but we must go to
+<lb/><placeName><geogName type="island">Johanna</geogName></placeName> for though the
+<lb/>Ariel called she had no
+<lb/><orgName><placeName><geogName type="island">Johanna</geogName></placeName> crew</orgName> with her
+<lb/>and was on her way to
+<lb/>the <placeName><region>Cape</region></placeName>. We parted with
+<lb/>our incorrigibles &amp; got a 
+<lb/>carpenter &amp; quartermaster -
+<lb/>instead: we are now getting
+<lb/>ready for sea. In the mail
+<lb/>I see one letter for you. 
+<lb/>Please to send forward
+
+    <pb facs="liv_001808_0003" n="0003"/>
+<lb/>the mail for the Mission
+<lb/><unclear cert="medium"><persName>Vianna</persName></unclear><!-- I cannot make out this word. It could be the name of a place or an organisation. JM --><!-- This is my best guess. We can research this later. AW -->  will do it at their
+<lb/>expense.</p>
+<lb/><p><space extent="3" unit="chars"/><persName>Captain Oldfield</persName> said that
+<lb/>the <persName>Baron</persName> had grumbled to the
+<lb/>men of war at your having
+<lb/>published a paper. <space extent="4" unit="chars"/>I
+<lb/>understood that you were
+<lb/>perfectly free to do so and
+<lb/>think you had better let
+<lb/>your friends know the
+<lb/>footing on which you 
+<lb/>went in case the <persName>Baron</persName>
+<lb/>should say publicly that
+<lb/>you had broken your
+<lb/>engagement. I give you
+    
+    <pb facs="liv_001808_0004" n="0004"/>
+<lb/>this hint as the <term type="people">Germans</term> will
+<lb/>be sure to appropriate all the
+<lb/>credit to themselves if they can.
+<lb/>If you go to <placeName><region>Gorongoza</region></placeName> look
+<lb/>well after the inscriptions
+<lb/>and in <placeName><settlement type="village">Manica</settlement></placeName> it will be well
+<lb/>to ascertain the exact gold 
+<lb/>bearing stratum. Hoping that
+<lb/>you will keep your health
+<lb/>&amp; be protected by our
+<lb/>Almighty Father</p>
+<lb/><closer rend="center"><salute>I am &amp;c.</salute>
+<lb/><signed><persName>David Livingstone</persName></signed>
+<lb/><space dim="vertical" extent="5" unit="lines"/>
+<lb/><address><addrLine/><persName>M<hi rend="sup underline">r</hi> <choice><abbr>R.</abbr><expan>Richard</expan></choice> Thornton</persName></address>
+</closer>
+
+<!--There is a name written at the bottom of this page also. See Jared's previous question about how to code. -AA --><!-- Fixed. See above. AW -->
+            </div>
+        </body>
+    </text>
+
+</TEI>

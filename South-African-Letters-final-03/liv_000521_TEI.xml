@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000521">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Hamilton M. Dyke, 24 February 1843</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000521</idno><!-- Change as needed -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Grahamstown</settlement><!-- Change as needed -->
+                        <repository>Cory Library for Historical Research</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0066</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Hamilton M. Dyke, 24 February 1843</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1843-02-24">24 February 1843</date><!-- Change -->
+                    <placeName type="compositionPlace">Motito</placeName><!-- Change -->
+                    <persName type="addressee">Hamilton M. Dyke</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-12-14" who="#AW">Coding review</change>
+			<change when="2015-12-07" who="#MB">Proofreading</change>
+			<change when="2015-11-19" who="#AW">Initial coding review</change>
+            <change when="2015-10-26" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000521_0001" n="0001"/><!-- Change both @facs and @n -->
+<lb rend="right"/><dateline><placeName><settlement type="village">Motito</settlement></placeName> <date when="1843-02-24">24 <choice><abbr>Feb</abbr><expan>February</expan></choice> 1843</date></dateline>    
+<lb/><salute>My Dear Brother</salute><!-- Change line info as appropriate -->
+<lb/><p rend="center">I was very much gratified
+<lb/>indeed by the reception of the kind favour you
+<lb/>sent by <persName>M<hi rend="sup">r</hi> Lennie</persName> &amp;<gap extent="1" unit="chars" agent="blot"/>s I am just about 
+<lb/>to cross the boundary <unclear cert="medium">of</unclear> comparative <unclear cert="low"><w>civilizat<supplied>-</supplied><!-- EM and MB unsure --><!-- All good. AW -->
+<lb break="no"/>-ion</w></unclear> <unclear cert="medium">in</unclear> order to visit the interior I should be
+<lb/>sorry did not give you a word in 
+<lb/>passing by way of acknowledgment.
+<lb/>An answer it cannot be for I have
+<lb/>unfortunately left yours behind at <placeName><settlement type="village"><w>Kuru<supplied>-</supplied>
+<lb break="no"/>-man</w></settlement></placeName><!-- Not sure what this is -EM --><!-- Fixed. AW --> But i hope you will receive it such
+<lb/>as it <unclear cert="low">is</unclear> with forbearance</p>
+<lb/><p>I am most happy to hear the heart
+<lb/>enlivening accounts of the state of your
+<lb/><orgName>missions</orgName> among the <unclear cert="low"><choice><orig>Bassoutos</orig><reg>Basoutos</reg></choice></unclear><!-- Not sure what this is -EM --><!-- Tidied up. AW -->, you
+<lb/>have been very highly favoured May the
+<lb/>Lord grant that you be blessed still
+<lb/>more &amp; that you may not only become
+<lb/>the benefactors of the people among
+<lb/>whom you at present are But that
+<lb/>by means of them you may become
+<lb/>blessing to many beyond you in the
+<lb/><placeName><region>Interior</region></placeName><!--region appropriate here? MB-->. Many being raised up by your
+<lb/><del type="strikethrough"><gap extent="6" unit="chars" agent="illegible"/></del> instrumentality <unclear cert="medium">to</unclear> spread the knowledge</p>
+
+<cb rend="vertical"/>
+<ab>
+<lb/>I expect to return <unclear>(D<gap extent="1" unit="chars"/>)</unclear><!-- Not sure what this is -EM --><!-- Looks like abbrevation for something. AW --> in about 4 months. If you kindly <unclear cert="low">write</unclear>
+<lb/>so that I recieve it on my return &amp; I shall be glad, <space extent="2" unit="chars"/><unclear cert="low">they found</unclear><!-- Not sure what this is -EM --><!-- ? AW --><!-- This is my guess. MB --> you 
+<lb/>try &amp; decipher putting in words away try &amp; having <unclear cert="medium">out</unclear> those which	ought
+<lb rend="right"/>never <del type="strikethrough">to</del>how
+<lb rend="right"/>been in
+<lb rend="right"/><persName><choice><abbr>D.L.</abbr><expan>David Livingstone</expan></choice></persName>
+</ab>
+
+	<pb facs="liv_000521_0002" n="0002"/>
+<lb/><p rend="no-indent">of the everlasting gospel. <space extent="2" unit="chars"/><persName>M<hi rend="sup">rs</hi> <choice><abbr>L</abbr><expan>Livingstone</expan></choice></persName> had no
+<lb/>doubt given you an account of the state
+<lb/>of affairs her &amp; at <choice><abbr>K.</abbr><expan cert="high">Kuruman</expan></choice><!-- Not sure what K. abbreviates -EM --><!-- Fixed. AW --><space extent="2" unit="chars"/>The aspect of
+<lb/>The\<orgName>Mission</orgName> is not so wanting as one might
+<lb/>expect <space extent="1" unit="chars"/>But still the change which has been
+<lb/>affected in a portion of this people is very
+<lb/>great indeed. <space extent="2" unit="chars"/>It is not such as would
+<lb/>strike a <unclear cert="high">visitor</unclear> from <placeName><bloc>Europe</bloc></placeName> or the colony
+<lb/>with any thing but <unclear cert="medium"><choice><sic>disapointment</sic><corr>disappointment</corr></choice></unclear>, particular<supplied>ly</supplied><gap extent="2" unit="chars" agent="hole"/>
+<lb/>if he had heard the accounts of it which
+<lb/>the good <term type="faith">Christians</term> in <placeName><country>England</country></placeName> <del type="strikethrough">by</del> usually
+<lb/>do <space extent="1" unit="chars"/>But after one sees the depths from
+<lb/>which they have been elevated exemplified
+<lb/>in the <placeName><region>Interior</region></placeName><!--region appropriate? MB--> tribes there is considerable
+<lb/>cause for Thanksgiving <space extent="2" unit="chars"/>By the way when
+<lb/>I think of the degradation of these people I shall
+<lb/>be glad if you <del type="strikethrough">bel</del> let me know if you
+<lb/>believe they are really so very far sunk
+<lb/>as has been represented, I heard <unclear cert="low"><persName>M<hi rend="sup">r</hi> Moffat</persName></unclear><!-- Not sure on this name -EM --><!-- Fixed. AW -->
+<lb/>say in <placeName><country>England</country></placeName> that the <term type="tribe">Bechuanas</term> had
+<lb/>really no conscience until it was formed
+<lb/>by the <orgName><term type="occupation">missionaries</term></orgName>, Now although the
+<lb/>statement excited my <app><rdg cert="high">risible</rdg><rdg>visible</rdg></app><!-- Option reading? MB --><!-- OK. AW --> faculties a
+<lb/>little as the time <space extent="1" unit="chars"/>thinking it was only a
+<lb/>poetical figure expressive of the wonderful
+<lb/>creative powers of us <unclear cert="low"><hi rend="underline">Sentelings</hi></unclear><!-- Not sure what this is -EM --><!-- Took a shot. AW --> <space extent="1" unit="chars"/>The same
+<lb/>statement nearly appearing in his book
+
+	<pb facs="liv_000521_0003" n="0003"/>
+<lb/>as I understand inclines we now to believe
+<lb/>that it was meant as plain prose. What
+<lb/>do you say as to their belief? I mean of the
+<lb/><term type="tribe">Bechuanas</term> in relation to God. Futurely &amp;c.
+<lb/>Besides other fragments of knowledge which
+<lb/>I have found among them they seem to have
+<lb/>had the idea of <del type="strikethrough">the</del> future existence clearly
+<lb/>For instance what else than <unclear cert="high">this</unclear> idea can we
+<lb/>deduce from the fable of <hi rend="sup">the</hi> <term type="animal"><choice><sic>Cameleon</sic><corr>Chameleon</corr></choice></term> &amp; 
+<lb/>dark <term type="animal">lizard</term>, I heard <unclear cert="medium">Imokhuana</unclear><!-- Not sure what this is -EM --><!-- Modified slightly. AW --> in an
+<lb/>address reason thus, "Is it not a fact that
+<lb/>we <term type="tribe">Becuanas</term> of old believed that we should
+<lb/>not perish entirely at death.  I <choice><sic>dont</sic><corr>don't</corr></choice> speak
+<lb/>of the knowledge the white man had brought
+<lb/>I speak of the knowledge we had of old, God
+<lb/>sent the <term type="animal"><choice><sic>Cameleon</sic><corr>Chameleon</corr></choice></term> with a message to man
+<lb/><add place="marginleft below" rend="diagonal">saying</add> you must not do wickedly, you must
+<lb/>reform for when you die you will
+<lb/>come again, you will not "<foreign xml:lang="und">nyelela hela</foreign>"
+<lb/>But the Black <term type="animal">lizard</term> (<foreign xml:lang="und"><term type="animal"><persName>Katoane</persName></term></foreign>)<!-- or persName? MB --><!-- Animal. AW --> was sent
+<lb/>by the devil (<foreign xml:lang="und"><persName>Barim</persName><gap extent="2" unit="chars" agent="hole"/></foreign>)<!-- or persName? MB --><!-- Sure. AW --> &amp; as it runs fast it
+<lb/>soon preceded the <term type="animal"><choice><sic>Cameleon</sic><corr>Chameleon</corr></choice></term> &amp; said to man
+<lb/>you may live as you like, there is no
+<lb/>God, &amp; when you die you are gone
+<lb/>forever, another messenger is coming &amp;
+<lb/>he will tell you lies, He will say you
+<lb/>will be judged for your deeds but <choice><sic>dont</sic><corr>don't</corr></choice>
+<lb/>believe him - So spake the <term type="animal">Katoane</term>
+
+	<pb facs="liv_000521_0004" n="0004"/>
+<lb/>Now this <persName>Mocuana</persName> after <w>appeallin<gap agent="fading" extent="1" unit="chars"/><supplied cert="high">g</supplied></w> to his <w>audienc<supplied cert="high">e</supplied></w>
+<lb/>if this were not <choice><sic>reall</sic><corr>real</corr></choice> <term type="tribe">Bechuanas</term> belief of old
+<lb/>turned <unclear cert="low">to</unclear> <persName>M<hi rend="sup">r</hi> Edwards</persName> &amp; myself &amp; said, these
+<lb/>men are the <term type="animal"><choice><sic>cameleon</sic><corr>Chameleon</corr></choice></term>, The devil's messengers
+<lb/>came before them &amp; has destroyed both
+<lb/>us &amp; our fathers But now I beseech you
+<lb/>listen to the message of the <choice><sic>Cameleon</sic><corr>Chameleon</corr></choice> &amp; live
+<lb/>the same individual referred also in his
+<lb/>address to the <term type="tribe">Bechuana</term> idea of the soul &amp;
+<lb/>reasoned with his countrymen most <w>power<supplied>-</supplied>
+<lb break="no"/>-fully</w>, arguing that our doctrine was
+<lb/>not new even to the people he was <choice><sic><w>add<supplied>-</supplied>
+<lb break="no"/>-vising</w></sic><corr>advising</corr></choice>. <space extent="1" unit="chars"/>I was much pleased the other
+<lb/>day to hear from <unclear cert="low"><persName>M<hi rend="sup">r</hi> Lemus</persName></unclear> that the
+<lb/>word he made use of to express "soul"
+<lb/>is the same as the <term type="tribe">Ses<subst><del>u</del><add place="over-text">o</add></subst>uto</term><!-- Is this a tribe? -EM --><!-- Yes. AW --> namely
+<lb/><foreign xml:lang="und">Muruts</foreign> or shade, not "<foreign xml:lang="und">moea</foreign>" the breath
+<lb/>which as been adopted by the <term type="occupation">missionary</term>
+<lb/>He <!-- We doesn't make sense in this context MB --><!-- Fixed. AW --> went so far as to describe the food
+<lb/>of souls in the <unclear cert="low">o<gap extent="1" unit="chars" agent="hole"/><supplied>t</supplied>her</unclear> would, namely
+<lb/>common flies dried in the same way
+<lb/>as is <choice><sic>usualy</sic><corr>usually</corr></choice> done to the <term type="insect">locusts</term> &amp; I have
+<lb/>since found that these &amp; other points
+<lb/>were really the common belief of old
+<lb/>If you even give me any information
+<lb/>respecting their <unclear cert="low">autumn</unclear> creed I shall feel obliged</p>
+            
+			</div>
+        </body>
+    </text>
+
+</TEI>

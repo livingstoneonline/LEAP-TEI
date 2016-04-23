@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001560"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<!-- Change title below -->
+                <title>Letter to Robert Gray, 8th April 1860</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<!-- Add or remove <respStmt> as appropriate below -->
+				<!-- Change xml:id below -->
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+				<!-- Change date below if necessary -->
+                <date>2016</date>
+				<!-- Change base file name below -->
+                <idno type="LEAP-ID">liv_001560</idno>
+				<!-- Change the license below if necessart -->
+			    <availability>
+        			<licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+            			All materials are licensed for use under the 
+            			<ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                		Creative Commons Attribution-Noncommercial 3.0 Unported License
+            			</ref>. (c) Dr. Neil Imray Livingstone Wilson, 2011
+        			</licence>
+    			</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+						<!-- Change country below as needed -->
+                        <country>South Africa</country>
+						<!-- Change settlement below as needed -->
+                        <settlement>Johannesburg</settlement>
+						<!-- Change repository below as needed -->
+                        <repository>Brenthurst Library</repository>
+						<!-- Change shelfmark below as needed -->
+                        <idno type="shelfmark">Book no. 5318, Acc. Reg. 4669</idno>
+                        <altIdentifier>
+							<!-- Change CC number below as needed -->
+                            <idno type="ccnumber">Letters, 1016</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+							<!-- Add additional <handNote> elements below as needed. -->
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+					<!-- Change title below -->
+                    <title>Letter to Robert Gray, 8 April 1860</title>
+                    <author xml:id="DL">David Livingstone</author>
+					<!-- Change @when and date below -->					
+                    <date type="composition" when="1860-04-08">8 April 1860</date>
+					<!-- Change place below -->
+                    <placeName type="compositionPlace"><unclear>Senna</unclear></placeName>
+					<!-- Change addressee below -->
+                    <persName type="addressee">Robert Gray</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. 
+				English should be first, then add all other languages, as appropriate, 
+				in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<!-- Change @when, @who, and work description below. -->
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Add new <change> elements below as needed. -->
+			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2015-09-10" who="#AW">Coding review</change>
+            <change when="2015-09-07" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<!-- Change both @facs and @n below -->
+	<!-- Start each page with a <pb> formatted as below -->               
+	<pb facs="liv_001560_0001" n="0001"/>
+
+<opener>
+<lb/><add place="above marginright" hand="#U">ms 8/6</add><dateline rend="right"><placeName><settlement type="village">Senna</settlement></placeName> <date when="1860-04-08">8<hi rend="sup underline">th</hi> April 1860</date></dateline>
+<lb/>
+<lb/>
+<lb/><add place="above" hand="#U" rend="gray">5-6-9</add> <hi rend="underline">Private</hi>    
+<lb/><salute rend="center">My Dear Sir</salute><!-- Change line info as appropriate -->
+</opener>
+<lb/><p rend="right">On recieving your
+<lb/><bibl>letter</bibl> of <date when="1859-03-31">31<hi rend= "sup underline">nd</hi> March 1859</date> I wrote at once
+<lb/>from <placeName><settlement type="village">Mazaro</settlement></placeName> in reply but being hurried
+<lb/>by the departure of the mail, I omitted
+<lb/>some things which considering that
+<lb/>I shall be away from the region
+<lb/>of letter writing for some months,
+<lb/>it may be well for me now to supply.</p>
+<lb/><p>I had no reason whatever for
+<lb/>not wishing your mission to go into
+<lb/>the <placeName><region><term type="tribe">Makololo</term> country</region></placeName>, except that the
+<lb/>way having lately been opened by the 
+<lb/>river <placeName><geogName type="river">Shire</geogName></placeName> to a much more inviting
+<lb/>field, and one specially adapted for
+<lb/>such a mission as the Universities
+<lb/>propose to send, I concluded that as
+<lb/>soon as you became aware of its
+<lb/>features it would at once secure
+<lb/>your preference -  I entertained a strong</p>
+
+<cb rend="vertical"/><ab>I believe that <persName>Don Pedro</persName> the king would favour the mission and our
+<lb/>own <persName>Prince Consort</persName> would use his influence with him, I am &amp;c] <add hand="#U" rend="gray">]</add>
+<lb rend="right"/><persName>David Livingstone</persName></ab>
+		
+	<pb facs="liv_001560_0002" n="0002"/>
+<lb/><p>conviction too, that the <orgName><term type="faith">Church of England</term></orgName>
+<lb/>ought there to step into the van. There is a
+<lb/>difficulty in the way to each sphere of
+<lb/>labour.  The <placeName><geogName type="river">Shire</geogName></placeName> has <measure>33 miles</measure> of
+<lb/>cataracts and there the passage must<!-- geog: cataracts of Shire -->
+<lb/>alaways be by land - The rapids of <placeName><geogName type="rapids"><w>Kebra-
+<lb break="no"/>-basa</w></geogName></placeName> are about the same length and at
+<lb/>present we believe that a powerful steamer
+<lb/>may go up during the period of flood,
+<lb/>but that is during only three or four
+<lb/>months in the year, <space extent="2" unit="chars"/>and it has not been
+<lb/>tried yet. <space extent="2" unit="chars"/>I will not say but that
+<lb/>the difficulties you will have to encounter
+<lb/>with an unreduced language, and among
+<lb/>a people who are entirely ignorant of what
+<lb/><term type="occupation"><orgName>missionaries</orgName></term> intend, are a litle more<!-- Heather, should we use <orgName> here? AW -->
+<lb/>formidable than those of the <placeName><region><term type="tribe">Makololo</term> country</region></placeName>
+<lb/>but then the field is you own, and
+<lb/>if your <orgName>University men</orgName> have not the pluck
+<lb/>and desire to go beyond other men's
+<lb/>line of things made ready to their hands,
+<lb/>they are not the stuff I thought them made of.</p>
+<lb/><p>A steamer may take them at once past
+<lb/>the unfriendly coast tribes.  The <term type="tribe"><unclear>Borderors</unclear></term>-
+<lb/>and into the land of a comparatively mild
+<lb/>race.  They have no desire to hear the
+<lb/>gospel for they know nothing about
+<lb/>it - but they have no prejudices nor 
+<lb/>bigotry.  And this is the character of the
+<lb/>population of the vast region lately explored
+
+	<pb facs="liv_001560_0003" n="0003"/>
+<lb/>by <persName>Burton</persName> and <persName>Speke</persName>. It is not this
+<lb/>people alone that will be benefitted.  The
+<lb/>country we saw is admirably adopted
+<lb/>for <orgName>European</orgName> enterprise &amp; residence:
+<lb/>and I believe that no one who comes
+<lb/>after us will ever call the scenery tame
+<lb/>or uninteresting -  I have no doubt
+<lb/> but these highlands will prove a blessing<!-- geog: -->
+<lb/>to our own over crowded population
+<lb/>at home, nor have the least <w>mis-
+<lb break="no"/>giving</w> as to the ability of the <orgName><term type="faith"><term type="people">English
+<lb/>church</term></term></orgName> to become a double blessing -
+<lb/>by engaging in the work with a will -
+<lb/>To me it seems as if she never had
+<lb/>such an opportunity of entering on a
+<lb/>work which will eventually eat out
+<lb/>not only <orgName>slaver<subst><del type="cancelled">y</del> <add place="over-text">trade</add></subst></orgName> but <orgName>slavery</orgName> -
+<lb/>everywhere -</p>
+<lb/><p>In ventureing to advise the mission
+<lb/>not to leave the <placeName><region>Cape</region></placeName> till <date when="1860-11">November</date> when
+<lb/>we return from the <placeName><region><term type="tribe">Makololo</term> country</region></placeName>,
+<lb/>or until they have a steamer as a temporary
+<lb/>home, I do not assume that we are
+<lb/>indispensible in any respect.  We can
+<lb/>cure the <term type="ailment">fever</term>, and it will be an advantage
+<lb/>for the <term type="occupation"><orgName>missionaries</orgName></term> to have a knowledge
+<lb/>of that.  To us it will be a privilege to
+<lb/>render any assistance in our power.
+<lb/>If we get a steamer, it will be at their
+<lb/>service.  It seems of the utmost importance
+
+	<pb facs="liv_001560_0004" n="0004"/>
+<lb/>to have no fatality in the outset on account
+<lb/>of the bad effect it may have at home so
+<lb/>any one likely to give way might be
+<lb/>detained for a time at the <placeName><region>Cape</region></placeName>.  Good
+<lb/>living is absolutely necessary - plenty
+<lb/>of animal food twice a day &amp; plenty
+<lb/>of exercise.  <term type="foodstuff">Wine</term> as a beverage is not
+<lb/>necessary but on recovering from 
+<lb/><term type="ailment">fever</term> it is beneficial.  <term type="medicament">Quinine</term> is
+<lb/>invaluable in the cure of the complaint,
+<lb/>but <add place="above">it</add> never wards off an attack.  <term type="foodstuff">Preserved
+<lb/>meats</term> are indispensibly necessary, and 
+<lb/>these with <term type="foodstuff">coffee</term> <term type="foodstuff">Tea</term> &amp; <term type="foodstuff">sugar</term> - and abundance
+<lb/>of <term type="foodstuff">biscuits</term> (or carefully preserved  <term type="foodstuff">flour</term>)
+<lb/>are all the essentials -</p>
+<lb/><p><term type="insect">Mosquisto</term> curtains or materials to 
+<lb/>make them with, are invaluable for the 
+<lb/><placeName><geogName type="delta">Delta</geogName></placeName> and <placeName><region>lower <placeName><geogName type="river">Shire</geogName></placeName></region></placeName> - The invention deserves
+<lb/>a statue in <placeName>Westminster Abbey</placeName>.  On the <placeName><region>Highlands</region></placeName>
+<lb/>there are few or no<subst><del>ne</del><add place="over-text">^</add></subst> <add place="above"><term type="insect">mosquitos</term></add> - On the banks of
+<lb/><placeName><geogName type="lake">Shirwa</geogName></placeName> many, but few on those of <placeName><geogName type="lake">Lake <lb/>Nyasa</geogName></placeName>-</p>
+<lb/><p><add place="inline" hand="#U" rend="gray">(</add>[I have written to <persName>Sir George Gray</persName> about
+<lb/>the entrance of the <term type="people">French</term>. I am in doubts as
+<lb/>to whether we ought to ask liberty from the
+<lb/><term type="people">Portuguese</term> to go up the <placeName><geogName type="river">Shire</geogName></placeName>. Possibly it
+<lb/>may be the better plan to go and simply 
+<lb/>notify to their <orgName>Government</orgName> of the fact.
+<lb/>They already prefer anxiety to civilize the 
+<lb/><orgName>natives</orgName>. The Lakes are not in their dominion.</p><!-- geog: Shirwa and Nyassa -->
+
+
+<!-- More transcribed text -->
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002221"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to William C. Oswell, 9 March 1865</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002221</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5225</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1635</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to William C. Oswell, 9 March 1865</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1865-03-09">9 March 1865</date><!-- Change -->
+                    <placeName type="compositionPlace">Newstead Abbey</placeName><!-- Change -->
+                    <persName type="addressee">William C. Oswell</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-27" who="#AW">Coding review</change>
+            <change when="2015-05-07" who="#AA">Proofing</change>
+        	<change when="2015-04-21" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+  
+  <!--Adrian, the handwriting on this letter is pretty bad. I recommend checking our work more slowly than usual. -AA -->
+               
+	<pb facs="liv_002221_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><!-- There is a note written in a different hand to Livingstone's in the upper left hand corner of this page. JM --><add place="inspace" rend="left gray small" hand="#U"><!-- diagonal -->M/6/4 <lb/><milestone unit="section" rend="quarter-line"/> <lb/>£20. <date when="1945-05-29">29/5/45</date> <lb/> From <persName>R.H. Beresford</persName> <lb rend="center"/>---</add> <dateline rend="right"><date when="1865-03-09">9<hi rend="sup underline">th</hi> March 1865</date></dateline>
+<lb/>
+<lb/><salute>My Dear <persName><choice><abbr>O.</abbr><expan>Oswell</expan></choice></persName></salute>
+</opener>
+<lb/><p><space extent="7" unit="chars"/>Our literary friend
+<lb/>has turned up all right
+<lb/>but you <unclear cert="medium">caught</unclear> off
+<lb/>your engagement
+<lb/>for all that. <unclear cert="medium">He</unclear>
+<lb/><!-- I cannot make out this word. JM --><!-- Me neither. AW --><gap extent="1" unit="words"/> want <unclear cert="low">of</unclear>
+<lb/>dates <unclear cert="low">for</unclear> <unclear cert="low">the</unclear> journey
+<lb/>up the River to
+<lb/><placeName><settlement type="town">Sesheke</settlement></placeName> but likes <unclear cert="low">the</unclear>
+<lb/>matter - </p>
+<lb/><p>I send you on 3 <hi rend="sup">d</hi>
+<lb/><unclear cert="low">Reverse</unclear> 13 - 28 with
+<lb/><add place="marginleft" hand="#U"><unclear cert="medium">aoo</unclear></add> old copy which you    
+                
+    <pb facs="liv_002221_0002" n="0002"/>
+<lb/>please to look at if
+<lb/>the transportations <!--I read "transpositions" -AA --><!-- Looks right to me. AW -->
+<lb/>are as you <unclear cert="high">wish</unclear>
+<lb/>them. I may have
+<lb/>mistaken you - also
+<lb/>29 - 44 3<hi rend="sup">d</hi> D<hi rend="sup underline">o</hi> &amp; old
+<lb/>copy - no old copy
+<lb/>need be returned
+<lb/>Some of your
+<lb/>questions I see
+<lb/>have been intended
+<lb/>for me but have
+<lb/>gone to the <term type="occupation">Printer</term>
+<lb/>1-12 of 3 <unclear cert="low">Reverse</unclear>
+<lb/>you already have
+<lb/>I go to town tomorrow
+<lb/>evening or next
+
+    <pb facs="liv_002221_0003" n="0003"/>
+<lb/>day so nothing need
+<lb/>be <unclear cert="medium">senthere</unclear> here till
+<lb/>Tuesday or Wednesday
+<lb/>I say a little at a 
+<lb/>meeting of <choice><abbr>R.G.S.</abbr><expan>Royal Geographical Society</expan></choice>
+<lb/>on Monday
+<lb/>about a paper read
+<lb/>by somebody - 
+<lb/>see he become Mr
+<lb/>somebody cannot
+<lb/>contradict me</p>
+<lb/><p>You were right
+<lb/><unclear cert="high">about</unclear> the <unclear cert="low">&amp;c</unclear>
+<lb/>seconds as
+<lb/>you will see
+<lb/>by the enclosed
+<lb/>note from <persName>Dr
+<lb/><unclear cert="medium">Whewell</unclear></persName> master
+    
+    <pb facs="liv_002221_0004" n="0004"/>
+<lb/>of Trinity</p>
+<lb/><p><space extent="4" unit="chars"/> <persName>Ms Webb</persName> is <term type="occupation">High
+<lb/>Sheriff</term> for this year
+<lb/>for <placeName><settlement type="town"><choice><abbr>Notts</abbr><expan>Nottingham</expan></choice></settlement></placeName> &amp; is off
+<lb/>today to <unclear cert="low">receive</unclear>
+<lb/>no judges - I am
+<lb/>at <unclear cert="medium">manuscript</unclear>
+<lb/>entirely just now
+<lb/><persName>Murray</persName> wants to 
+<lb/>be out before
+<lb/>Easter <!-- This looks like the word "so", but with an extra o, perhaps for emphasis. JM --> <!--I think it's "& so" -AA --><!-- Looks like that to me too. AW --><unclear cert="high">&amp; so</unclear> do I.</p>
+<closer>
+<lb/><salute>I am sure</salute>
+<lb/><signed><persName>David Livingstone</persName></signed>
+</closer>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

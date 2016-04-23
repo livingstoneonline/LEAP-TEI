@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002060"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Unknown, 1 September 1864</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001335</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5318, Acc. Reg. 4669</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1481</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Unknown, 1 September 1864</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1864-09-01">1 September 1864</date><!-- Change -->
+                    <placeName type="compositionPlace">Hamilton</placeName><!-- Change -->
+                    <persName type="addressee">Unknown</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-26" who="#AW">Coding review</change>
+            <change when="2015-05-07" who="#AA">Proofing</change>
+        	<change when="2015-04-21" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002060_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><add place="margintop" rend="left gray small" hand="#U"><!-- diagonal -->5-6-9</add> <dateline rend="center"><placeName><settlement type="town">Hamilton</settlement></placeName> <add place="margintop" rend="right gray small">MS 8/12</add>     
+<lb rend="right"/><date when="1864-09-01">1<hi rend="sup underline">st</hi> <choice><abbr>Sept</abbr><expan>September</expan></choice> 
+<lb rend="right"/>1864</date></dateline>
+<lb/>
+<lb/><salute>My Dear Sir</salute><!-- Change line info as appropriate -->
+</opener>
+<lb/><p><space extent="5" unit="chars"/>Absence in
+<lb/>the <placeName><region>Highlands</region></placeName> has
+<lb/>prevented my
+<lb/>answering your
+<lb/>letter of the <date when="1864-08-09">9<hi rend="sup underline">th</hi></date> <choice><abbr>ult</abbr><expan>ultimo</expan></choice>
+<lb/>sooner.</p>
+<lb/><p><space extent="4" unit="chars"/>All the <term type="insect">insects</term>
+<lb/>collected were <w>for-
+<lb break="no"/>warded</w> to <placeName><country>England</country></placeName>
+<lb/>at different times
+<lb/>and the <unclear cert="high"><placeName><settlement type="city">Bristol</settlement></placeName></unclear>
+<lb/>Museum has had    
+                
+    <pb facs="liv_002060_0002" n="0002"/>
+<lb/>the choice. The
+<lb/><term type="insect">parasites</term> you wish
+<lb/>are I suppose in
+<lb/>the possession
+<lb/>of the Trustees.
+<lb/>I have none. More
+<lb/>on the <term type="animal">Giraffe</term>
+<lb/><term type="animal">Rhinoceros</term> &amp;c
+<lb/>are identical <choice><abbr>viz</abbr><expan>videlicet</expan></choice>
+<lb/>a large <term type="insect">tick</term> with
+<lb/>yellow spots. 
+<lb/>Another small one
+<lb/>of a dark brown
+<lb/>colour is on
+
+    <pb facs="liv_002060_0003" n="0003"/>
+<lb/>nearly all animals.</p>
+<lb/><closer rend="center">I am &amp;c
+<lb/><signed><persName>David Livingstone</persName></signed></closer>
+<lb/>
+<lb/><postscript><p><choice><sic>a</sic><corr>A</corr></choice> large <term type="insect">louse</term> is
+<lb/>met with on
+<lb/><term type="animal">Pelican</term>s - specimens
+<lb/>of all were sent
+<lb/>home. I failed to
+<lb/>secure the <term type="insect">leeches</term>
+<lb/>in <term type="animal"><choice><sic>crockodile</sic><corr cert="high">crocodile</corr></choice></term>'s
+<lb/>mouths.</p></postscript>
+
+    <pb facs="liv_002060_0004" n="0004"/>
+<!-- There is no text on this page. JM -->
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

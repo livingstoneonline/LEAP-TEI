@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000893"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<!-- Change title below -->
+                <title>Letter to Alfredo Duprat, 26 March 1856</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<!-- Add or remove <respStmt> as appropriate below -->
+				<!-- Change xml:id below -->
+                <respStmt xml:id="JM">
+					<!-- Change name below -->
+                    <name>Jared McDonald</name>
+					<!-- Change, remove, or add more <resp> as appropriate below -->
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="MB">
+                    <name>Mary E. Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+				<!-- Change date below if necessary -->
+                <date>2016</date>
+				<!-- Change base file name below -->
+                <idno type="LEAP-ID">liv_000893</idno>
+				<!-- Change the license below if necessart -->
+			    <availability>
+        			<licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+            			All materials are licensed for use under the 
+            			<ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                		Creative Commons Attribution-Noncommercial 3.0 Unported License
+            			</ref>. (c) Dr. Neil Imray Livingstone Wilson, 2011
+        			</licence>
+    			</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+						<!-- Change country below as needed -->
+						<!-- I had some troublewith this MB -->
+                        <country>South Africa</country>
+						<!-- Change settlement below as needed -->
+                        <settlement>Cape Town</settlement>
+						<!-- Change repository below as needed -->
+                        <repository>National Library of South Africa</repository>
+						<!-- Change shelfmark below as needed -->
+                        <idno type="shelfmark">Grey Collection, G.13.b.45(36)8</idno>
+                        <altIdentifier>
+							<!-- Change CC number below as needed -->
+                            <idno type="ccnumber">Letters, 0229</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+							<!-- Add additional <handNote> elements below as needed. -->
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+					<!-- Change title below -->
+                    <title>Letter to Alfredo Duprat, 26 March 1856</title>
+                    <author xml:id="DL">David Livingstone</author>
+					<!-- Change @when and date below -->					
+                    <date type="composition" when="1856-03-26">26 March 1856</date>
+					<!-- Change place below -->
+                    <placeName type="compositionPlace">Tete or Nyungwe on the Zambesi. Africa</placeName>
+					<!-- Change addressee below -->
+                    <persName type="addressee">Alfredo Duprat</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. 
+				English should be first, then add all other languages, as appropriate, 
+				in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<!-- Change @when, @who, and work description below. -->
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Add new <change> elements below as needed. -->
+			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2015-10-21" who="#AW">Coding reveiw</change>
+            <change when="2015-09-29" who="#MB">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<!-- Change both @facs and @n below -->
+	<!-- Start each page with a <pb> formatted as below -->               
+	<pb facs="liv_000893_0001" n="0001"/>
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><dateline rend="right"><placeName><settlement type="village">Tete</settlement></placeName>, or <placeName><settlement type="village">Nyungué</settlement></placeName> <add place="above" rend="gray" hand="#U">36</add>
+<lb/>on the <placeName><geogName type="river">Zambesi</geogName></placeName>, <placeName><bloc>Africa</bloc></placeName>
+<lb/><date when="1856-03-26">26<hi rend="sup underline">th</hi> March 1856</date></dateline> 
+<lb/><persName>Alfred Duptrat, Esquire</persName>
+<!-- Change line info as appropriate -->
+<!-- Begin each line with <lb/> as here -->
+<lb/>    
+<lb/><salute rend="center">My Dear Sir</salute><!-- Change line info as appropriate -->
+</opener>
+
+<lb/><p rend="right">I begin another
+<lb/>notefor you without any intention of
+<lb/>finishing it till I am farther down
+<lb/>the river, but the subject being still<!-- geog: Zambesi -->
+<lb/>fresh in my mind I like to "strike
+<lb/>while the iron is hot<choice><sic>.</sic><corr>."</corr></choice> <space extent="3" unit="chars"/>The <placeName><placeName><region>Cape</region></placeName> Botanic
+<lb/>garden</placeName> is formed I believe for the purpose 
+<lb/>of diffusing a taste for flowers, and 
+<lb/>also to spread abroad better varieties
+<lb/>of fruits, vegetables &amp; than can be
+<lb/>obtained by private individuals, I 
+<lb/>approve most cordially <del>of</del> its objects and 
+<lb/>I believe you are very much of the same
+<lb/>mind. <space extent="2" unit="chars"/>Well, will you cooperate with 
+<lb/>some of your contrymen here, and 
+<lb/>send some <term type="plant_foodstuff"><placeName><region>Cape</region></placeName> seeds</term>, perhaps trees
+<lb/>in return for <term type="plant_foodstuff">seeds of eatable wild
+<lb/>fuits of the forest</term>. <space extent="2" unit="chars"/>I tried many 
+<lb/>years ago to get a collection of them
+<lb/>together for <placeName><country>India</country></placeName>, believing that
+<lb/>cultivation of them there would produce
+
+	<pb facs="liv_000893_0002" n="0002"/>
+<lb/>in time excellent varieties, now quite
+<lb/>unknown but through I did what I could
+<lb/>I heard no more about them. It is true
+<lb/>I could not do much for <del type="cancelled">Interior</del> <term type="occupation">missionaries</term><!-- geog: Interior Africa -->
+<lb/>who go to the <hi rend="underline">actual</hi> <orgName>heathen</orgName> must be
+<lb/><term type="occupation">carpenters</term>, <term type="occupation">smiths</term>, <term type="occupation">gardeners</term>, <term type="occupation">schoolmasters</term>
+<lb/><term type="occupation">ministers</term>, often <term type="occupation">doctors</term> and sometimes <w>ma<gap extent="1" unit="chars"/></w>
+<lb/><term type="occupation">midwives</term> too. <space extent="3" unit="chars"/>To expect much <w>fro<gap extent="1" unit="chars"/><supplied>m</supplied></w>
+<lb/>such in the way of collecting except
+<lb/>for <w><subst><del>his</del><add place="over-text">their</add></subst></w> own table, is like thinking of 
+<lb/>bolting a castle gate with a <term type="plant_foodstuff">boiled carro<gap extent="1" unit="chars"/><supplied cert="medium">t</supplied></term>
+<lb/>a definition of "nonsense" I have <w>somew<gap extent="2" unit="chars"/><supplied>here</supplied></w>
+<lb/>seen. <space extent="2" unit="chars"/>The <orgName>Jesuits</orgName> did a great deal
+<lb/>however, but whoever heard of a 
+<lb/>poor <orgName>Jesuit</orgName>? They were rich all the 
+<lb/>world over whenever <w>ric<subst><add place="over-text">h</add><del>i</del></subst>es</w> were needed
+<lb/>I am not aware of a single rich
+<lb/><term type="occupation">missionary</term> in <placeName><bloc>Africa</bloc></placeName> - for myself,
+<lb/>I am <choice><sic>consderably</sic><corr>considerably</corr></choice> poorer than when
+<lb/>I landed on its shores 16 years ago.
+<lb/>you need expect nothing from me
+<lb/>then, but the present <term type="occupation">Governor</term> of 
+<lb/><placeName><settlement type="village">Tete</settlement><!-- Is Tete a city or a village? MB --></placeName>, <persName><term type="occupation">Mayor</term> Augusto d' Araujo
+<lb/>Secard</persName>, will very gladly collect or
+<lb/>cause to be collected - <del><gap extent="2" unit="chars"/></del> the <term type="plant_foodstuff">seeds of 
+<lb/>all the edible fruits</term> in this vicinity
+<lb/>and I promise in your name of
+
+<pb facs="liv_000893_0003" n="0003"/>
+<lb/>course, that you will send some <term type="plant_foodstuff"><placeName><region>Cape</region></placeName>
+<lb/>or <term type="nationality">English</term> vegetable seeds</term> when you have
+<lb/>an opportunity. <space extent="3" unit="chars"/>All <term type="plant_foodstuff"><placeName><region>Cape</region></placeName> seeds</term> do well
+<lb/>here for some time then deteriorate perhaps
+<lb/>from the heat for the soil is exceedingly
+<lb/>fertile - <space extent="1" unit="chars"/>A living <term type="plant"><term type="plant_foodstuff">peach</term>, <term type="plant_foodstuff">Apricot</term> or <term type="plant_foodstuff">apple</term>
+<lb/>tree</term> <!-- Should I also encode this as a plant? MB -->would be highly valued. The <term type="plant_foodstuff">wild 
+<lb/>fruits</term> I can assure you are very 
+<lb/>much superior to the <term type="plant_foodstuff"><w><subst><del>e</del><add place="over-text">c</add></subst>rab</w> apples</term> &amp;
+<lb/><term type="plant_foodstuff">sloes</term> from which our <term type="plant_foodstuff">fruits</term> are
+<lb/>said to have come. <space extent="2" unit="chars"/>We all <del type="cancelled">eat</del> devoured
+<lb/>enourmous quantities of one named 
+<lb/><term type="plant_foodstuff">Masuka</term> on our way down. Its 
+<lb/>taste is that of a pear but it does not 
+<lb/>gratify one like that fruit by having 
+<lb/>enough of the fleshy part. It is <w>referr<gap agent="hole" extent="2" unit="chars"/><supplied>ed</supplied></w>
+<lb/>to at the end of <bibl><persName>Borodick</persName>'s work</bibl>. 
+<lb/>Others are equally good and contain
+<lb/>saccharine matter enough to 
+<lb/>yield <term type="medicament"><term type="foodstuff">aquardiente</term></term><!-- Is this a foodstuff? Or can it also be used for medicine? MB --> by distillation
+<lb/>with pots and a gun barrel - a process
+<lb/>the knowledge of which among the
+<lb/><orgName>natives</orgName> does not tend to promote
+<lb/>their welfare.</p>
+<lb/><p>In case you may be at a loss
+<lb/>what to send I name <term type="plant_foodstuff">cabbages</term>
+<lb/><term type="plant_foodstuff">Broccolis</term>, <term type="plant_foodstuff">turnips</term>, <term type="plant_foodstuff">carrots</term>, <term type="plant_foodstuff">radishes</term>
+<lb/><term type="plant_foodstuff">Beet root</term>, <term type="plant_foodstuff">cresses</term>, <term type="plant_foodstuff">Spinach</term>, &amp; <term type="plant_foodstuff">melons</term> <add place="below">&amp;c &amp;c</add>
+
+<pb facs="liv_000893_0004" n="0004"/>
+<lb/>In case of not having time to finish
+<lb/>this when an opportunity of sending a 
+<lb/>packet happens I shall now conclude
+<lb/>begging to be excused for again troubling
+<lb/>you and</p> <closer><salute>presenting my cordial salutatio<gap extent="1" unit="chars"/><supplied cert="high">n</supplied></salute>
+<lb rend="right"/><signed><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></signed></closer>
+<lb/><postscript><p><seg rend="left">P.S.</seg> I shall either bring or send the seeds.</p></postscript>
+		</div>
+
+		<div>
+	<cb rend="vertical"/>
+	<ab><address rend="right">
+<lb/><addrLine><persName>Alfred Duprat, Esquire</persName></addrLine>
+<lb/><addrLine>H. F. M's Commissioner</addrLine>
+<lb/><addrLine/><hi rend="underline"><placeName><region>Cape of Good Hope</region></placeName></hi>
+<!-- wax seal -->
+	</address></ab>
+
+            </div>
+			
+			<div>
+<lb/><p>The <term type="occupation">mayor</term> got 12 varieties together after the
+<lb/>above was penned <unclear cert="low">one however</unclear> is the <term type="plant_foodstuff">mango</term><!-- I'm having trouble reading this line. MB -->
+<lb/>He will be able to do much more. I have
+<lb/>collected at different times upwards of 30
+<lb/>kinds of <term type="plant_foodstuff">fruits</term> and <term type="plant_foodstuff">berries</term>. I exclude from <w>the<gap extent="1" unit="chars"/><supplied>m</supplied></w>
+<lb/>those which though eaten are <w><choice><sic>disagreable</sic><corr>disagreeable</corr></choice></w>. <w>On<gap extent="1" unit="chars"/><supplied>e</supplied></w>
+<lb/>the <term type="occupation">Major</term> now sends is used for making a 
+<lb/><term type="foodstuff">sweet meat</term> or <term type="foodstuff">preserve</term> as <term type="plant_foodstuff">almonds</term> are. 
+</p>
+			</div>
+        </body>
+    </text>
+
+</TEI>

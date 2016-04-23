@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000634"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Andrew Murray, 10 June 1847</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000634</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Graaff-Reinet</settlement><!-- Change as needed -->
+                        <repository>Graaff-Reinet Museum</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0169</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Andrew Murray, 10 June 1847</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1847-06-10">10 June 1847</date><!-- Change -->
+                    <placeName type="compositionPlace">Kuruman</placeName><!-- Change -->
+                    <persName type="addressee">Andrew Murray</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="fr">French</language>				
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-11-12" who="#AW">Coding review</change>
+            <change when="2015-11-11" who="#AA">Proofing</change>
+        	<change when="2015-10-04" who="#EM">Initial transcription and XML encoding</change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000634_0001" n="0001"/>
+<opener>
+<lb/><dateline rend="right"><placeName>Kuruman</placeName> <date when="1847-06-10">10 June 1847</date></dateline>
+<lb/><persName><term type="occupation"><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice></term> <choice><abbr>A.</abbr><expan>Andrew</expan></choice> Murray</persName> <add rend="right" hand="#U"><date>35D/2/15</date></add>
+<lb rend="center"/><salute>My Dear Sir</salute>
+</opener>
+
+<lb/><p rend="right">Your very welcome <bibl>letter</bibl> safely reached
+<lb/>its destination about two months ago.  I need not state how acceptable
+<lb/>it was - for communications from our friends always come 
+<lb/>like cold water to a thirsty soul - We have been enjoying the pleasure
+<lb/>of a visit to our friends out here for sometime back - The 
+<lb/>chief object I had in view in coming was to attend a meeting
+<lb/>of committee - The chief object of my wife seems to have
+<lb/>been to add another unit to the population of this planet - The
+<lb/>newspapers say that a new one has been discovered in our
+<lb/>solar system, so if you are a disciple of <persName>M<hi rend="sup">r</hi> Matthew</persName> you will
+<lb/>not be disheartened by the above little bit of information
+<lb/>there is yet plenty of Room in the wide creation - </p>
+<lb/><p>It is with much pleasure I acknowledge your kind <bibl>epistle</bibl>
+<lb/>previous to returning to our sphere of labour.  We are glad
+<lb/>to hear that your elder sons are so honourably engaged
+<lb/>May God grant that they may ever feel it both a privilege &amp; an
+<lb/>honour to be permitted to enter into the sevice of our Great 
+<lb/>Redeemer. <space extent="1" unit="chars"/>We were delighted to hear from <persName>M<hi rend="sup">s</hi> Melmore</persName> that
+<lb/>your son <persName>John</persName> had some desire to be a <term type="occupation">missionary</term> - I hope
+<lb/>he will dedicate his whole being to <add place="below">^</add> <add place="above">the</add> service of Christ - He has
+<lb/>plenty of work for all his people and will if he commits his
+<lb/>way unto him, so direct his paths as that he will be loved
+<lb/>&amp; useful through life and in death he will not be unlamented
+<lb/>I confess I feel in respect to him a little of what the <term type="people">French</term>
+<lb/>call <foreign xml:lang="fr">"esprit de Corps"</foreign> <space extent="1" unit="chars"/>We all belong to one army - all
+<lb/>fight one side you however belong to <choice><sic>Regements</sic><corr>Regiments</corr></choice> of the Line
+<lb/>and we are like the Rifle brigade scattered in over the
+<lb/>ground still occupied by the enemy - It will therefore
+
+	<pb facs="liv_000634_0002" n="0002"/>
+<!-- A number of the sentences become cut off at the right side of the page starting at this point EM-->
+<lb/>be no great harm though I should love my fellow sharp shoote<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">r</supplied>
+<lb/>with peculiar affection - I hope he will not be a <term type="occupation">missionar<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">y</supplied></term>
+<lb/>in the colony - For if I had my will I would have all the <orgName>missio<gap extent="1" unit="chars" agent="illegible"/><supplied cert="medium">n</supplied></orgName>
+<lb/>out of it &amp; in the real <orgName>mission</orgName> fields which are now lying
+<lb/>totally uncultivated - <space extent="1" unit="chars"/>But <term type="occupation">Directors</term> must be wiser peopl<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">e</supplied>
+<lb/>than I am.</p>
+<lb/><p>I beg have to thank <persName>Charles</persName> for his kind intentions - <unclear>Ho<gap extent="2" unit="chars" agent="illegible"/></unclear>
+<lb/>The seeds will come before spring - What does he inted to be? <unclear cert="high">I</unclear>
+<lb/>remember seeing him one morning reading the <bibl>Bible</bibl> - Set <unclear cert="low">Th<gap extent="2" unit="chars" agent="illegible"/></unclear>
+<lb/>be the man of his counsel &amp; he <choice><sic>wont</sic><corr>won't</corr></choice> stick in the world <unclear>no<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">t</supplied></unclear>
+<lb/>yet cause any of his relatives to feel shame in saying that is "ou<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">r</supplied>
+<lb/><persName>Charles</persName> - A young brother of mine who bears the same nam<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">e</supplied>
+<lb/>has attained the degree of A.B. in a <orgName>College</orgName> in <placeName><region>Ohio</region></placeName> &amp; is now study<gap extent="3" unit="chars" agent="illegible"/><supplied cert="high">ing</supplied> 
+<lb/>theology - He would like to be a <term type="occupation">missionary</term>, but health impaired
+<lb/>hardship seems to forbid the accomplishment of his desire, I remembe<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">r</supplied>
+<lb/><persName>Martha</persName> very well - Her namesake of old seems to have been a <unclear cert="medium">right</unclear>
+<lb/>good housewife.  What a terrible pucker she was in to have every
+<lb/>exquisite in her "set out" Hope our <persName>Martha</persName> will be as good in <w><unclear>d<gap extent="3" unit="chars" agent="illegible"/><supplied cert="high">dom</supplied> 
+<lb break="no"/>-estic</unclear></w> affairs and a great deal better in attention to the words of Him
+<lb/>into whose legs grace was poured &amp; who spake as never man spa<gap extent="2" unit="chars" agent="illegible"/><supplied cert="medium">ke</supplied>
+<lb/>May He dwell in all your hearts - </p>
+<lb/><p>Previous to coming out to this quarter <persName>M<hi rend="sup">rs</hi> <choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName> &amp; I took a lon<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">g</supplied> trip to the Eastward of the <placeName><region>Bakwain Country</region></placeName> - our route by
+<lb/>North of what is called <placeName>Magale's berg</placeName> - a very fine country indeed - no<gap extent="1" unit="chars" agent="illegible"/><supplied cert="medium">w</supplied>
+<lb/>both above &amp; below - for both copper iron &amp; tin ores abound
+<lb/>It is well ventured by the tributaries of the <term type="tribe">Ourie</term> or <term type="tribe">Limpopo</term> - The
+<lb/>state of the people however does not present features so
+<lb/>pleasing - We visited several tribes which were once under
+<lb/>the power of <persName>Mosilikatse</persName> - &amp; were kindly received - one
+<lb/>chief told us that he was an attendant on that dignitary
+<lb/>when he visited <persName>M<hi rend="sup">r Moffat's</hi></persName> waggon - But both these
+<lb/>and other tribes situated farther to the North East live
+	
+	<pb facs="liv_000634_0003" n="0003"/>
+<lb/>in a state of hopeless ignorance - about <measure>6 days</measure> Eastward from the
+<lb/><term type="tribe">Ourie</term> we came to the <term type="tribe">Ragalaka</term> - quite a cluster of tribes - and all
+<lb/>very populous - they seem to be as numerous as all the rest
+<lb/>of the <term type="tribe">Bechuanas</term> put together - Rich in cattle and able to manufacture the different ores with which their country
+<lb/>abounds - they know how to mix copper &amp; tin in order to
+<lb/>form an amalgam which resembles gold or fine brass
+<lb/>We procured a few spindles &amp; distaffs with which they sp<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">in</supplied>
+<lb/>cotton and that seems indiginous for we saw some cotton
+<lb/>trees growing in the hills - all live in entire ignora<gap extent="3" unit="chars" agent="illegible"/><supplied cert="high">nce</supplied>
+<lb/>of what our Great Redeemer did for us 1800 years ago
+<lb/>some thing of <term type="occupation">missionary</term> life as one of great sacrifice
+<lb/>the most trying thing to me in it is to see such fields &amp; feel
+<lb/>that I do &amp; can do so little for their cultivation while so
+<lb/>much remains to be done - Pray ye the Lord of this to avert <unclear></unclear><gap extent="2" unit="chars" agent="illegible"/>
+<lb/>in all probability these crowds of poor sinful beings will
+<lb/>pass away into the region of the dead without fully  <w>com-
+<lb break="no"/>-prehending</w> whither they are going - you will understand
+<lb/>that we can do but little for these distant tribes when 
+<lb/>I mention that we were <measure>19 days</measure> travelling before we
+<lb/>reached the most distant - </p>
+<lb/><p>There are a great number of <term type="nationality">Dutch</term> <orgName>emigrants</orgName> in that
+<lb/>quarter and to these I beg have to draw a little of your sympathy
+<lb/>I shall beg something else besides sympathy and when I do
+<lb/>so I have no expectation that though you see the word
+<lb/>Give Give you will turn to <persName>M<hi rend="sup">rs</hi> <choice><abbr>M.</abbr><expan>Murray</expan></choice></persName> &amp; say "Why here is anoth<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">er</supplied> 
+<lb/>horse leech at me" - <space extent="1" unit="chars"/>  the state of these people - our own
+<lb/>flesh &amp; blood is anything but encouraging - they are beyond
+<lb/>the range of <orgName>Colonial</orgName> laws and the bad among them will
+<lb/>not obey the wishes of the better disposed - <space extent="1" unit="chars"/>The children
+<lb/>whom I saw are growing up in comparative ignoran<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">ce</supplied>
+<lb/>of Divine things &amp; the parents in many instances did
+
+	<pb facs="liv_000634_0004" n="0004"/>
+<lb/>not seem much to regret the want of a knowledge of letters
+<!-- A number of the sentences become cut off at the left side of the page starting at this point EM-->
+<lb/><gap extent="2" unit="chars" agent="illegible"/> grieved me for I had the impression that their <unclear><w>fore-
+<lb break="no"/><gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">fa</supplied>thers</w></unclear> like our own always desired their children to be taught
+<lb/><gap extent="2" unit="chars" agent="illegible"/> <persName>Gert Kruiger</persName> the commandment of the <placeName><region>Mogale's berg</region></placeName> district
+<lb/><gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">in</supplied>formed me that several _____ of elementary books had
+<lb/><gap extent="2" unit="chars" agent="illegible"/><supplied cert="medium">be</supplied>en sent to <persName><region>Delagoa Bay</region></persName> by the good people in <placeName><country>Holland</country></placeName>
+<lb/><gap extent="1" unit="chars" agent="illegible"/><supplied cert="medium">b</supplied>ut no one was public spirited enough to go down for them
+<lb/><gap extent="2" unit="chars" agent="illegible"/> however professed to be anxious that his children be <w>furn-
+<lb break="no"/><gap extent="4" unit="chars" agent="illegible"/><supplied>-ish</supplied>ed</w> with books - He was once an attendant on your ministry
+<lb/><gap extent="2" unit="chars" agent="illegible"/>spoke of you with great affection - and I confess I spoke
+<lb/><gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">ab</supplied>out you in the same terms in the way of trying to make
+<lb/><gap extent="2" unit="chars" agent="illegible"/> friendship a kind of passport to his own - they have
+<lb/><gap extent="2" unit="chars" agent="illegible"/> general a great aversion to <term type="occupation">missionaries</term> - the cause
+<lb/><gap extent="1" unit="chars" agent="illegible"/><supplied cert="medium">o</supplied>f their dislike seems to be an idea that we wish to furnish
+<lb/><gap extent="2" unit="chars" agent="illegible"/> natives with fire arms and whether right or wrong
+<lb/><gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">a</supplied>lways take the side of the latter - <space extent="1" unit="chars"/>the Road of the <term type="occupation"><w>Com-
+<lb break="no"/><gap extent="2" unit="chars" agent="illegible"/><supplied>-m</supplied>andant</w></term> <persName>Totgeiter</persName> determined to disarm the chief with
+<lb/><gap extent="2" unit="chars" agent="illegible"/><unclear>hoth</unclear> we like - As I believed an attack would disperse
+<lb/><gap extent="2" unit="chars" agent="illegible"/> tribe and scatter all by labours to the winds - I represent
+<lb/><gap extent="2" unit="chars" agent="illegible"/> the case to them &amp; appealed to their better feelings
+<lb/><gap extent="2" unit="chars" agent="illegible"/><supplied cert="medium">on</supplied> behalf of the station - they very kindly acceded to my
+<lb/><gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">r</supplied>equest to let him alone - Still they look upon me
+<lb/><gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">w</supplied>ith distrust and are divided in thier opinions as
+<lb/><gap extent="2" unit="chars" agent="illegible"/><supplied cert="medium">to</supplied> whether the concession made ought not to be rescinded 
+<lb/><gap extent="2" unit="chars" agent="illegible"/> case causes me uneasiness - my hearts desire is
+<lb/><gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">t</supplied>o do good to all as I have opportunity &amp; have as little to
+<lb/><gap extent="2" unit="chars" agent="illegible"/><supplied cert="medium">do</supplied> with Politics as possible - To owe you any <add place="below">^</add> <add place="above"><term type="nationality">Dutch</term></add> tracts
+<lb/><gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">a</supplied>t your disposal? I should much like to have it in
+<lb/><gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">a</supplied>ny power to give a tract where I can do nothing else
+<lb/>Will you help me in this respect? - If you can
+<lb/><gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">a</supplied>ssist the <orgName>emigrants</orgName> by <del type="strikethrough">my</del> means of tracts perhaps a
+<lb/><gap extent="2" unit="chars" agent="illegible"/><unclear>tes</unclear> to some of them by whom you are known
+
+	<pb facs="liv_000634_0005" n="0005"/>
+<lb/>in commendation of the doctrines taught <add place="below">^</add> <add place="above"><unclear></unclear></add> will ensure their favoura<gap extent="3" unit="chars" agent="illegible"/><supplied cert="high">ble</supplied>
+<lb/>reception - or perhaps some of your influential members
+<lb/>might write their friends in the <placeName><region>Mogale's berg</region></placeName> quarter - I should 
+<lb/>be happy to forward any communication sent - I make
+<lb/>these remarks not in the way of dictation - but as hints -
+<lb/>a hint has often put me into plan of usefulness so I think
+<lb/>you will - whether you think them proper or not take
+<lb/>mine in good part - </p>
+<lb/><p>I have a great desire to place a native teacher in one of
+<lb/>the tribes over there - But the distrust with which we are
+<lb/>regarded seems misfavourable to the project - the <orgName>emigrants</orgName>
+<lb/>lately attacked a large tribe of <term type="tribe">Bagalaka</term> which was situated
+<lb/>a little beyond those we visited - To me the affair appears
+<lb/>to have been entirely wrong - the most that can be said in defence
+<lb/>of the massacre is that information was obtained from other
+<lb/>chiefs that the chief of that tribe <hi rend="underline">intended</hi> to attack the <orgName>Emigran<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">ts</supplied></orgName>
+<lb/>a chief scarcely ever speaks well of his neighbors - But independe<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">nt</supplied>
+<lb/>of this we know that revenge never dies in the savage <unclear cert="medium">boso<gap extent="1" unit="chars" agent="illegible"/><supplied cert="medium">m</supplied></unclear>
+<lb/>and though they have no fire arms now they may yet
+<lb/>procure them &amp; prove as troublesome as the <orgName>Caffres</orgName> - I say
+<lb/>this much about it that you may understand what
+<lb/>I shall now state - We went to the <term type="tribe">Bagalaka</term> simply to
+<lb/>preach the gospel - We did not go near the tribe which
+<lb/>was lately attacked, yet a general impression was made
+<lb/><add place="above">among the <orgName>Boers</orgName></add> that our object was to <hi rend="underline">obtain information for the
+<lb/><orgName>Colonial Government</orgName></hi>!!  It is trying to have one's motives
+<lb/>looked upon in that light, I have not yet attained to
+<lb/>a resignation which will admit my good to be evil
+<lb/>spoken of without a pang.
+<lb/>
+<lb/><add place="below marginright" hand="#U">____</add></p>
+
+	<pb facs="liv_000634_0006" n="0006"/>
+<lb/><p rend="no-indent">We have not been long with <add place="below">^</add> <add place="above">the</add> <term type="tribe">Bakwains</term>, but have reason
+<lb/>for thankfulness in the symptoms of progress made amo<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">ng</supplied>
+<lb/>them - they were entire heathens when we came - and in
+<lb/>a state totally unlike that of the tribes in the vicinity of
+<lb/>the <term type="tribe">Kurumen</term> - The Heaven has spread &amp; been spreading
+<lb/>during the last 25 years - through all the Southern tribes
+<lb/>of <term type="tribe">Bechuanas</term> - they have been brought into a state
+<lb/>favourable for <term type="occupation">missionary</term> operations and as soon
+<lb/>as a <term type="occupation">missionary</term> settles with them the favourably inclined
+<lb/>draw around him and soon obtain confidence enough
+<lb/>to make a profession But in the interior tribes it is 
+<lb/>quite different - the whole subject is new to them
+<lb/>They have no objection to meeet once or twice but
+<lb/>when they <choice><sic>percieve</sic><corr>p</corr></choice> that we repeat our message again
+<lb/>and again - they think, "this will never do - there is no
+<lb/>end to this preaching and praying" - One said to me "I tel<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">l</supplied>
+<lb/>you what it is, we should like you much better if you
+<lb/>came and traded with us &amp; then went away about you<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">r</supplied>
+<lb/>business" "We <choice><sic>dont</sic><corr>don't</corr></choice> like this "word God" at all"
+<lb/>yet we <choice><sic>percieve</sic><corr>perceive</corr></choice> amongst many a desire to learn - all
+<lb/>are kind &amp; respectful to us - <space extent="1" unit="chars"/>several adults are trying
+<lb/>to acquire the knowledge of reading - In this the chief
+<lb/>has succeeded best - Having read through the
+<lb/>selection before I left - and reached <persName>Mark</persName> in the <bibl>New
+<lb/>Testament</bibl> - He is very desirous of obtaining <w>inform<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">-</supplied>
+<lb break="no"/>-ation</w> on what he reads. But whether it will end
+<lb/>in his conversion we can only hope &amp; pray that
+<lb/>it may - <space extent="2" unit="chars"/>That he is desirous of civilization
+
+	<pb facs="liv_000634_0007" n="0007"/>
+<lb/>I think we may conclude once he sent out goods with us to
+<lb/>purchase a mattress - 4 lanterns - 6 candle boxes - a baking po<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">t -</supplied>
+<lb/>a smoothing iron - a table &amp;c and soap in an article which bot<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">h</supplied>
+<lb/>he &amp; others eagerly buy - <space extent="2" unit="chars"/>It is the day of small things wi<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">th</supplied> 
+<lb/>us - so we count almost everything a favourable sympto<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">m</supplied>
+<lb/>you will remember us in your prayers that our
+<lb/>labour may not be in vain</p>
+<lb/><p>All the <term type="occupation">missionaries</term> here are well, <persName>Mr Hamilton</persName> ha<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">s</supplied>
+<lb/>first returned from visiting an outpost or two &amp; though 
+<lb/>frail is moving about - His usefullness is not over
+<lb/>yet for he taught me to make windows lately - If you
+<lb/>say this <bibl>letter</bibl> is badly written Remember it is penned
+<lb/>just after forging a set of harrow teeth out of an old
+<lb/>waggon wheel band - Fine doctoring this yet my
+<lb/>fingers must be nimble enough to cut out a <term type="ailment">tumour</term>
+<lb/><date when="1847-06-10">tomorrow</date> out of a woman's back - if your son
+<lb/>becomes a <term type="occupation">missionary</term> in this country he must lay
+<lb/>his account with being a jack of all trades - It is not
+<lb/>at all unpleasant to be so - The thought "can do" sooth<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">es</supplied>
+<lb/><choice><sic>ones</sic><corr>one's</corr></choice> pride &amp; we feel it <choice><orig>agreable</orig><reg>agreeable</reg></choice> to be somewhat independent</p>
+<lb/><p>Please present very kind regards <add place="above"><persName>Mrs <choice><abbr>M.</abbr><expan>Murray</expan></choice></persName> from <persName>Mr &amp; Mrs Moffat</persName>
+<lb/>the latter intends a visit to the <placeName>Cape</placeName> soon - If <persName>Mr <unclear cert="high">Ashton</unclear></persName> knew
+<lb/>I was writing they would salute you too.  They lost a fine
+<lb/>little boy a short time ago.  <persName>M<hi rend="sup">rs</hi> <choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName></add> &amp; self desire to be kindly
+<lb/>remembered to <persName>M<hi rend="sup">rs</hi> <choice><abbr>M.</abbr><expan>Murray</expan></choice></persName> &amp; all the children we know. May
+<lb/>you each be favoured with grace according to your
+<lb/>need is the wish of your affectionately</p>
+<lb rend="right"/><closer><signed><persName><choice><abbr>D</abbr><expan>David</expan></choice> Livingstone</persName></signed></closer> 
+
+<pb facs="liv_000634_0008" n="0008"/>
+<!-- The is something cut off in the aboveright margin EM -->
+<postscript>
+<lb/><p>I do not wonder that the <orgName><choice><orig>Boors</orig><reg>Boers</reg></choice></orgName> should now be loathe to go down to
+<lb/><placeName><geogName>Delagoa Bay</geogName></placeName> for books, or a <term type="occupation">minister</term>, as I saw a <term type="occupation">trader</term> who wen<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">t</supplied>
+<lb/>down from <placeName>Bridstadt</placeName> with four others and he alone returned t<gap extent="1" unit="chars" agent="illegible"/><supplied cert="high">o</supplied>
+<lb/>tell the tale - the others were cut off by <term type="ailment">fever</term> - they had declin<gap extent="2" unit="chars" agent="illegible"/><supplied cert="high">ed</supplied>
+<lb/>going previous to the danger of <term type="ailment">fever</term> being known -
+<lb/>Their disinclination however need not influence our
+<lb/>efforts for their good - <persName><choice><abbr>DL.</abbr><expan>David Livingstone</expan></choice></persName></p>
+</postscript>
+	</div>
+
+	<div>
+<cb rend="vertical"/>
+<ab>
+<address>
+<lb/><addrLine rend="center">The <persName><term type="occupation"><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice></term> <choice><abbr>A.</abbr><expan>Andrew</expan></choice> Murray</persName></addrLine>
+<lb/><addrLine rend="center"><hi rend="underline"><persName>Graaf Reinett</persName></hi></addrLine>
+<lb/><addrLine><hi rend="underline">Pend</hi></addrLine>
+</address>
+</ab>
+
+<ab rend="upside-down">
+<!-- Flipped text opposite of the address reveals only bottom portion of text as top was cut off from photo. -->
+<lb/>grows of <term type="foodstuff">Rye</term> too - ?
+</ab> 
+
+<postscript rend="upside-down">
+<lb/><p>I hope you will not refrain using your influence with the
+<lb/><orgName>emigrants</orgName> I have mentioned from <unclear cert="low">an</unclear> an idea that you have
+<lb/>none - they spoke of you with great affection &amp; respect
+<lb/>and I am sure whatever &amp; whoever you might recommend
+<lb/>would be favourably <choice><sic>recieved</sic><corr>received</corr></choice> </p>
+</postscript>
+
+			</div>
+        </body>
+    </text>
+
+</TEI>

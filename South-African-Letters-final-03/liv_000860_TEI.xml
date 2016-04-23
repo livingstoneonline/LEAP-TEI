@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000860"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Alfredo Duprat, 12 September 1855</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000860</idno><!-- Change as needed -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Pretoria</settlement><!-- Change as needed -->
+                        <repository>National Library of South Africa</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Grey Collection, G.13.b.45(47.1)</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0378</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Alfredo Duprat, 12 September 1855</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1855-09-12">12 September 1855</date><!-- Change -->
+                    <placeName type="compositionPlace">Banks of Chobe River</placeName><!-- Change -->
+                    <persName type="addressee">Alfredo Duprat</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-10-13" who="#AW">Coding review</change>
+            <change when="2015-10-08" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000860_0001" n="0001"/><!-- Change both @facs and @n -->
+	
+<opener>
+<lb/><dateline rend="right"><add place="above marginleft" rend="gray" hand="#U">G.13.b.45(47.1)</add> <placeName><geogName type="banks">Banks of <placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice> Chobe</geogName></placeName></geogName></placeName> 
+<lb/><date when="1855-09-12">12 <choice><abbr>Sep<hi rend="sup">t</hi></abbr><expan>September</expan></choice> <choice><abbr>/55</abbr><expan>1855</expan></choice></date></dateline>
+<lb/><persName>Alfred Duprat Esquire</persName>    
+<lb rend="center"/><salute>My Dear Sir</salute><!-- Change line info as appropriate -->
+</opener>
+
+<lb/><p rend="right">I have an
+<lb/>unexpected opportunity
+<lb/>of sending <bibl>notes</bibl> to
+<lb/><placeName><country>Angola</country></placeName> and having
+<lb/>recommended some
+<lb/>friends in <placeName><settlement type="city">Loanda</settlement></placeName>
+<lb/>to procure and plant
+<lb/>the seeds of the berry wax
+<lb/>I have to beg your
+<lb/>assistance in the
+<lb/>matter. <space extent="1" unit="chars"/>It is to be
+<lb/>hoped a <term type="nationality">Portuguese</term> ship</p>
+
+<cb rend="vertical"/>
+<ab>
+<lb/>I go down the <geogName type="river">Zambesi</geogName> next month, cannot
+<lb/>possibly add more <persName>David Livingstone</persName>
+</ab><!-- Closer. AW -->
+
+	<pb facs="liv_000860_0002" n="0002"/>
+<lb/><p rend="no-indent">of war in coming round
+<lb/>from <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> will
+<lb/>be directed to call for
+<lb/>seed and it may be
+<lb/>well to have a quantity
+<lb/>ready beforehand. I
+<lb/>expect <persName>Mr Feeny</persName>'s account
+<lb/>of the wax before the
+<lb/><orgName><region>Cape</region> <choice><abbr>Agr<hi rend="sup">l</hi></abbr><expan>Agricultural</expan></choice> Society</orgName> will
+<lb/>be published in the
+<lb/><bibl>Boletim</bibl>.  <space extent="1" unit="chars"/>and as
+<lb/>more <add place="inspace">x</add> <add place="marginleft" rend="vertical">x more than double</add> is given for<!-- DL uses the inline x to mark an addition in the margin. AW -->
+<lb/>the <choice><abbr>lb</abbr><expan>pound</expan></choice> of common
+<lb/>wax on the banks of
+<lb/>the <placeName><geogName type="river">Quango</geogName></placeName> upwards
+<lb/>of <measure>300 miles</measure> from the
+<lb/>coast than suffices
+<lb/>for raising a <choice><abbr>lb</abbr><expan>pound</expan></choice> of <choice><sic>of</sic><corr/></choice>
+
+	<pb facs="liv_000860_0003" n="0003"/>
+<lb/>berry wax. Its introduction
+<lb/>on the sands around
+<lb/><placeName><settlement type="city">Loanda</settlement></placeName> would be a boon
+<lb/>to the county</p>
+<lb/><p>As you appeared to be
+<lb/><gap extent="1" unit="words"/> friend of the
+<lb/>Botanic garden, May
+<lb/>I suggest your getting
+<lb/><term type="foodstuff">Coffee seeds</term> from <placeName><country>Angola</country></placeName>
+<lb/>for redistribution.  The first
+<lb/>of the <term type="foodstuff"><placeName><country>Angola</country></placeName> seeds</term> were
+<lb/>a few <term type="foodstuff">Mocha berries</term> <add place="inspace">x</add>
+<add place="marginleft" rend="vertical"><note>
+<lb/>the <term type="occupation">missionaries</term> introduced <del type="strikethrough">introduced</del>
+<lb/>many delicious <term type="foodstuff"><placeName><bloc>South America</bloc></placeName>n fruits</term>
+<lb/>what would you give for miles of 
+<lb/><term type="foodstuff"><choice><sic>pine apple</sic><corr>pineapple</corr></choice></term> <unclear cert="high">road edging</unclear> at the <placeName><region>Cape</region></placeName>
+</note></add>
+<lb/>brought by a <term type="occupation">missionary</term>
+<lb/>The <term type="occupation">missionaries</term> are
+<lb/>all dead but the
+<lb/><term type="foodstuff">coffee</term> has spread over
+<lb/>the whole country - new
+<lb/>plantations of it are
+<lb/>discovered daily and
+
+	<pb facs="liv_000860_0004" n="0004"/>
+<lb/>the <term type="foodstuff">coffee</term> is really the best I 
+<lb/>ever tasted. It is of great importance to have the best
+<lb/>seed when commencing it,
+<lb/>cultivation as at <placeName><region>Natal</region></placeName>
+<lb/>I brought a lot here
+<lb/>but cannot send it.</p>
+            </div>
+
+<!-- 2 Postal Marks EM-->
+
+			<div rend="upside-down">
+<ab>
+<address>
+<addrLine rend="center"><hi rend="underline">via <placeName><geogName type="island">St Helena</geogName></placeName></hi></addrLine>
+<addrLine rend="center"><persName>Alfred Duprat Esquire</persName></addrLine>
+<addrLine rend="right"><placeName><settlement type="town">Cape Town</settlement></placeName></addrLine>
+<addrLine rend="right"><placeName><region>Cape of Good Hope</region></placeName></addrLine>
+</address>
+</ab>
+			</div>
+        </body>
+    </text>
+
+</TEI>

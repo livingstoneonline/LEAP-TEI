@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002675">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Thomas Maclear, 13 December 1852</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002675</idno><!-- Change as needed -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Cape Town</settlement><!-- Change as needed -->
+                        <repository>National Library of South Africa</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 6754</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0306</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Thomas Maclear, 13 December 1852</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1852-12-13">13 December 1852</date><!-- Change -->
+                    <placeName type="compositionPlace">Kuruman</placeName><!-- Change -->
+                    <persName type="addressee">Thomas Maclear</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-12-10" who="#AW">Coding review</change>
+            <change when="2015-12-10" who="#JM">Proofreading</change>
+			<change when="2015-10-29" who="#AW">Limited coding review</change>
+            <change when="2015-10-26" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002675_0001" n="0001"/><!-- Change both @facs and @n -->
+	
+<opener>
+<lb/><add place="above marginleft">Copy</add><add place="above marginright" rend="gray" hand="#U">(<choice><abbr>Nav Arch Rhod.</abbr><expan>Naval Archives Rhodesia</expan></choice>) <seg rend="diagonal">32</seg></add>
+<lb/><add place="marginleft" rend="gray"><choice><abbr>No</abbr><expan>Number</expan></choice> 1</add><dateline rend="right"><placeName><settlement type="town">Kuruman</settlement></placeName> <date when="1852-12-13">13<hi rend="sup underline">th</hi> December 1852</date></dateline>
+<lb/><persName><choice><abbr>Thos</abbr><expan>Thomas</expan></choice> Maclear <choice><abbr>Esq.</abbr><expan>Esquire</expan></choice></persName>   
+<lb/><salute>My Dear Sir,</salute>
+</opener>
+
+<lb/><p rend="center"> I am sorry that all
+<lb/>I have yet to say to you amounts
+<lb/>only to 0. I have been detained here
+<lb/>during the last four months in
+<lb/>consequence of the <orgName>Boers</orgName> having seized
+<lb/>our path to the interior. - Now
+<lb/>however that the <seg type="weather">rains</seg> have commenced
+<lb/>I can pass by a still more westerly
+<lb/>path in spite of them. - I shall
+<lb/>start tomorrow and hope that when
+<lb/>I next write I shall have
+<lb/>something of interest to communicate
+<lb/><fw rend="right">(all</fw>
+
+	<pb facs="liv_002675_0002" n="0002"/>
+<lb/>all about the <term type="animal">Unicorn</term>, <term type="animal">Salamander</term>,
+<lb/><term type="animal">Phoenix</term> &amp;!) You must be kind
+<lb/>enough to take this in the light
+<lb/>of a parting salutation. -</p>
+<lb/><p>I had several hindrances in
+<lb/>the way up - These prevented me
+<lb/>from falling into the hands of thee
+<lb/><orgName>Boers</orgName>, for it if I had come along
+<lb/>as quickly as I wished I should
+<lb/>have been at <placeName><settlement type="village">Kolobeng</settlement></placeName> at the
+<lb/>very time the <term type="occupation">Commando</term> rifled my
+<lb/>house, - they expressed much sorrow
+<lb/>because they had not got my head
+<lb/>as well as my property. They hate
+<lb/>me cordially, and I <choice><sic>dont</sic><corr>don't</corr></choice> think there
+<lb/>is much love lost between us. The
+<lb/><fw rend="right">reason</fw>
+
+	<pb facs="liv_002675_0003" n="0003"/>
+<lb/>reason why they distinguish me so
+<lb/>much is the fact that the <term type="tribe">Bakuanis</term>
+<lb/>fought bravely. - They have attacked
+<lb/>and dispersed eight Tribes during
+<lb/>the last ten years and not a
+<lb/>single <orgName>boer</orgName> was ever lost by the
+<lb/>the hand of a <orgName>Native</orgName>. Having guns
+<lb/>and <term type="animal">horses</term> they keep completely out
+<lb/>of the way of the <orgName>blacks</orgName>. But
+<lb/>the <term type="tribe">Bakuanis</term> managed to kill
+<lb/>about thirty five of the <orgName>Boers</orgName>,
+<lb/>therefore that <persName>Skellum Dokter</persName> must
+<lb/>have taught them. - <persName>M<hi rend="sup underline">rs</hi> <choice><abbr>M.</abbr><expan>Morton</expan></choice></persName> must
+<lb/>try and fancy his Reverence
+<lb/>"teaching the young idea how to
+<lb/>shoot" <orgName>boers</orgName>, when she thinks of
+<lb/><fw rend="right">missionary</fw>
+
+	<pb facs="liv_002675_0004" n="0004"/>
+<lb/>missionary life in the interior of
+<lb/><placeName><bloc>Africa</bloc></placeName>. I am very much grieved
+<lb/>at this outburst on the part of the
+<lb/><orgName>Boers</orgName>. I can assert most positively
+<lb/>that <persName>Sechele</persName> gave them no cause
+<lb/>for offense except that he would
+<lb/>not prevent <term type="people">Englishmen</term> from
+<lb/>passing him to the north. - They
+<lb/>made frequent attempts to induce
+<lb/>him to do so, thinking by that
+<lb/>means to divert the trade in
+<lb/>ivory through their own Territory. -
+<lb/>But the path through <placeName><settlement type="village">Kuruman</settlement></placeName>
+<lb/>and <placeName><settlement type="village">Kolobeng</settlement></placeName> was discovered in
+<lb/>its entire course by <term type="people">Englishmen</term>
+<lb/>and they have hitherto carried on
+<lb/><fw rend="right">the</fw>
+
+	<pb facs="liv_002675_0005" n="0005"/>
+<lb/>the trade. - It does not seem
+<lb/>right for our <orgName>Government</orgName> to hand 
+<lb/>over this path to the <orgName>Boers</orgName>. Previous
+<lb/>to my residence at <placeName><settlement type="village">Kolobeng</settlement></placeName> there
+<lb/>was no trade and petty wars were
+<lb/>of frequent occurrence but trade was
+<lb/>soon established not only with the
+<lb/>tribes in the vicinity of <placeName><settlement type="village">Kolobeng</settlement></placeName>
+<lb/>but with many in the Countries far
+<lb/>beyond. - And if you look at the
+<lb/>map you will see that our path
+<lb/>runs to the westward of the <placeName><orgName>Boer</orgName> 
+<lb/>Territory</placeName>, the nearest point occupied
+<lb/>by the <orgName>Boers</orgName> is at least a degree
+<lb/>of longitude east of our route. And
+<lb/>then this is the only route by which
+<lb/><fw rend="right">the</fw>
+
+	<pb facs="liv_002675_0006" n="0006"/>
+<lb/>the interior of <bloc>Africa</bloc> is open. -
+<lb/>The <term type="ailment">fever</term> presents a barrier on
+<lb/>almost every other side. One of the
+<lb/>Chief objects of my present expedition
+<lb/>is to investigate the character of
+<lb/>that disease which is the main
+<lb/>obstacle to <placeName><bloc>Africa</bloc></placeName> being opened to
+<lb/>beneficial intercourse with the rest
+<lb/>of the world. - If I can only
+<lb/>discover a healthy range of Country
+<lb/>and means to foil that terrible
+<lb/><term type="ailment">plague</term>, I shall be content to let
+<lb/>the <term type="animal">Unicorn</term> <unclear><gap extent="2" unit="chars"/></unclear> sleep in everlasting
+<lb/>oblivion. - The blocking up of our
+<lb/>path this way only makes me more
+<lb/>determined to find out another on
+<lb/><fw rend="right">either</fw>
+
+	<pb facs="liv_002675_0007" n="0007"/>
+<lb/>either one coast or the other. My
+<lb/>detention here has been difficult to
+<lb/>bear, but my first hindrances having
+<lb/>been the means by which a kind
+<lb/>Providence prevented me from falling
+<lb/>into the hands of the <orgName>Boers</orgName>, I am
+<lb/>encouraged to hope that the present
+<lb/>may have been the means by which
+<lb/>through God's mercy I may escape
+<lb/>being a victim of the <term type="ailment">fever</term>. I have
+<lb/>written to <persName>Sir John Pakington</persName> complaining
+<lb/>bitterly against the loss of our path
+<lb/>and the destruction of my own and
+<lb/>the <term type="nationality">English</term> <term type="occupation">hunters</term>' goods which were
+<lb/>deposited in my house. - I have not
+<lb/>yet got the length of taking
+<lb/><fw rend="right">joyfully</fw>
+
+<pb facs="liv_002675_0008" n="0008"/>
+<lb/>joyfully the sporting of my goods, -
+<lb/>my books were torn to pieces and
+<lb/>the leaves scattered to the winds,
+<lb/>and the bottles containing medicines
+<lb/>all smashed. I would have forgiven
+<lb/>them, if they had only taken the
+<lb/>property which they could have used, -
+<lb/>but having destroyed my medicines
+<lb/>and library I feel quite grumpy
+<lb/>when I think of a big fat <orgName>Boer</orgName> up
+<lb/>lying on my sofa and drinking
+<lb/><term type="foodstuff">coffee</term> out of my wife's <term type="foodstuff">coffee</term> pot,
+<lb/>Ugh! I suppose <persName>King Pretorius</persName> will
+<lb/>write his despatches on my wife's
+<lb/>writing desk. Well i hope to get
+<lb/>over it in time. I would not grudge
+<lb/><fw rend="right">my</fw>
+
+	<pb facs="liv_002675_0009" n="0009"/>
+<lb/>my losses if the <orgName>Government</orgName> would
+<lb/>only secure our path for all who
+<lb/>choose to travel it. My house was
+<lb/>situated <measure>eight miles</measure> from the Tours 
+<lb/>of the plundering of it has nothing
+<lb/>to do with their policy to the <orgName>Natives</orgName>.
+<lb/>As I am nobody I scarcely expect
+<lb/>the <orgName>Government</orgName> will take any notice
+<lb/>of the affair.  I hear from <persName>Mr<hi rend="sup">r</hi> <choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName>
+<lb/>that <persName>Oswell</persName> is already casting a longing eye back to <placeName>><bloc>Africa</bloc></placeName>.</p>
+<lb/><p>I am very sorry that I
+<lb/>stupidly left without saying goodbye
+<lb/>to <persName>M<hi rend="sup underline">r</hi> Morton</persName>. I was somewhat
+<lb/>like one of our girls who was quite
+<lb/>stupified by the sight of <placeName><settlement type="town">Cape Town</settlement></placeName>
+<lb/><fw rend="right">I</fw>
+
+	<pb facs="liv_002675_0010" n="0010"/>
+<lb/>I had not all my wits about
+<lb/>me. Will you be kind enough to
+<lb/>present my apology and salutations
+<lb/>to <persName>M<hi rend="sup underline">r</hi> <choice><abbr>M.</abbr><expan>Morton</expan></choice></persName> the girl above mentioned
+<lb/>found her tongue again when we
+<lb/>got away and the nearer we get
+<lb/>to her home it runs the faster. -
+<lb/>I expect when we reach <placeName><settlement type="village">Kolobeng</settlement></placeName>
+<lb/>it will be the "perpetual motion"
+<lb/>at last. -</p>
+
+<closer>
+<lb rend="center"/><salute>With many kind salutations to
+<lb rend="center"/><persName>M<hi rend="sup underline">rs</hi> <choice><abbr>M.</abbr><expan>Morton</expan></choice></persName> and family
+<lb rend="center"/>Believe me, Yours very Sincerely
+<lb rend="center"/><unclear cert="medium"><choice><abbr>Sig<hi rend="sup">d</hi></abbr><expan>Signed</expan></choice></unclear> </salute><signed><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName></signed><!-- Change as appropriate --> 
+</closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

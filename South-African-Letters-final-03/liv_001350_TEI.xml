@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001350"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to John Kirk, 25 August 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001350</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 6401</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0819</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to John Kirk, 25 August 1858</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-08-25">25 August 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Island of Pita</placeName><!-- Change -->
+                    <persName type="addressee">John Kirk</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-09-22" who="#AW">Proofing and coding review</change>
+            <change when="2015-09-17" who="#EM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001350_0001" n="0001"/>
+
+<opener>
+<lb/><add place="above marginleft" rend="gray" hand="#U1">ms 17/1</add><dateline rend="right"><placeName><geogName type="island">Island of Pita</geogName></placeName>, above <placeName><settlement type="village">Senna</settlement></placeName> 
+<lb/><date when="1858-08-25">25<hi rend="sup underline">th</hi> August 1858</date></dateline><!-- Change line info as appropriate -->
+<lb/><space extent="9" unit="chars"/><add rend="red" hand="#U2">14</add>  
+<lb/><salute>My Dear Dr. Kirk</salute><!-- Change line info as appropriate -->
+</opener>
+
+
+<lb/><p rend="center">I send this in order to
+<lb/>let you know that we have been obliged
+<lb/>to alter our plan so far as to leave
+<lb/>the Pinnace here in charge of <persName>M<hi rend="sup underline">r</hi> <unclear>Baines</unclear></persName>
+<lb/>We reached <placeName><geogName><settlement type="village">Senna</settlement></geogName></placeName> in <measure>four days</measure> being
+<lb/>the shortest voyage made though
+<lb/>the water is now getting very shoal
+<lb/>and we had a whole boat overturned
+<lb/>by the paddle <space extent="1" unit="chars"/> <persName>Tom</persName> will &amp; <persName>Peter</persName> moving
+<lb/>it aft While we were going though I
+<lb/>told them I should stop to allow them
+<lb/>to do so - We lost merely the box of 
+<lb/>plants &amp; some iron things - The casks
+<lb/>floated &amp; were all recovered - <persName>Toby</persName> was
+<lb/>nearly carried away by the current
+<lb/>he having jumped in to save things
+<lb/>and <persName>Tom Jumbo</persName> nobly saved him
+<lb/>We spent part of two days at <placeName><settlement type="village">Senna</settlement></placeName>
+<lb/>then came on - with two pilots who
+<lb/>have led us into difficulties several
+<lb/>times - In going into doubtful places</p>
+
+<cb rend="vertical"/>
+<ab>
+<lb/>Should you be desirous of getting away before I come &amp; can arrange 
+<lb/>with the <term type="people">Portuguese</term> to take you &amp; a cargo for say £20 or £25 - pray <choice><sic>dont</sic><corr>don't</corr></choice> hesitate
+</ab> 
+
+	<pb facs="liv_001350_0002" n="0002"/>
+<lb/><p rend="no-indent">it is necessary to go slowly - the Pinnace
+<lb/>catches first and the slightest touch makes
+<lb/>the Launch <choice><orig>shew</orig><reg>show</reg></choice> her want of power by
+<lb/>slewing round - Three times she has done that
+<lb/>with me - (<persName>Bedingfeld</persName> did it often) and when
+<lb/>she goes a shoal the current keeps her on 
+<lb/>and much time is lost.  We heightened the Pinnace
+<lb/>as much as possible into the Launch but still
+<lb/>she draws so much as to be a great hindrance
+<lb/><persName>Baines</persName> volunteered to remain with her and
+<lb/>I declined as one of the objects I had in view
+<lb/>was to get him up to <placeName><settlement type="village"><choice><orig>Tete</orig><reg>Tette</reg></choice></settlement></placeName>, but having lost
+<lb/>a whole day by <persName>Jumbo</persName> not having the
+<lb/>anchor ready when she began to slew round
+<lb/>I see is it absolutely necessary to make a
+<lb/>trial trip in the Launch first &amp; then when
+<lb/>we know the river <choice><sic>take</sic><corr>takes</corr></choice> the Pinnace -
+<lb/>Please to speak about these matters to
+<lb/><persName>Thornton</persName> only, <persName>Bedingfeld</persName> will chuckle
+<lb/>over any of our difficulties and make
+<lb/>more of them than any truthful man would
+<lb/>He may possibly try by misrepresentation
+<lb/>to present our getting any fresh graut
+<lb/>for what we shall need.</p>
+<lb/><p>As I mention his name I may on
+<lb/>this occasion state that <orgName><choice><abbr>H.M.'s</abbr><expan>Her Majesty's</expan></choice> Government</orgName>
+<lb/>in order to prevent insubordination such
+<lb/>as <persName>Baikie</persName> suffers from in the <placeName><country>Niger</country></placeName> 
+<lb/><orgName>Expedition</orgName> invested me with magisterial 
+<lb/>power as a <term type="occupation">consul</term> expressly to meet
+
+	<pb facs="liv_001350_0003" n="0003"/>
+<lb/>such a case as <persName>Bedingfeld</persName>'s - I find
+<lb/>from the document purporting to be a <bibl>Log</bibl>
+<lb/>kept on board the Ma Robert which you
+<lb/>delivered to me that he trusts in the power
+<lb/>of reiterated assertion to prove my harshness
+<lb/>&amp;c &amp;c - I retain the document as evidence
+<lb/>and will require you to certify having
+<lb/>got it from him as a <bibl>Log</bibl> - for the satisfaction
+<lb/>of the <term type="occupation"><persName>Foreign Secretary of State</persName></term> - As I
+<lb/>must give a full statement of the
+<lb/>whole affair to the <orgName>Foreign Office</orgName> I shall
+<lb/>require your <add place="below">^</add> <add place="above">(medical)</add> evidence as to the state of
+<lb/>filth in which on taking charge of the
+<lb/>Ma Robert we found the decks as I <w>con<supplied>-</supplied>
+<lb break="no"/>-sidered</w> it prejudicial to the health and
+<lb/>long before that recommended him to
+<lb/>adopt a regular system of cleaning them -
+<lb/>As also in respect to his having
+<lb/>told you that he had given <add place="below">^</add> <add place="above">into</add> me a
+<lb/>second resignation, and as you are
+<lb/>now the second in command your
+<lb/>opinion expressed to me when I
+<lb/><choice><orig>shewed</orig><reg>showed</reg></choice> you my acceptance of that
+<lb/>resignation that it was absolutly
+<lb/>necessary to save the <orgName>Expedition</orgName>
+<lb/>from complete disorganization
+<lb/>or words to that effect would prove
+
+	<pb facs="liv_001350_0004" n="0004"/>
+<lb/>of no ordinary value to the <term type="occupation"><persName>Foreign Secretary</persName></term>
+<lb/>from an impartial witness, for whom alone
+<lb/>the evidence is required - It goes to him direct
+<lb/>and is not published - As <persName><choice><abbr>B.</abbr><expan>Bedingfeld</expan></choice></persName> seems disposed
+<lb/>to make something out by your signing a
+<lb/>paper I think it would be well to state
+<lb/>also how much he asked &amp; how much
+<lb/>you meant in doing so.  He refers to it
+<lb/>in <bibl>two documents</bibl> - I am not conscious
+<lb/>of anything <choice><sic>disagreable</sic><corr>disagreeable</corr></choice> or harsh in my <w>con<supplied>-</supplied>
+<lb break="no"/>-duct</w> nor have I been quarrelsome with
+<lb/>anyone and in sending evidence to the
+<lb/><orgName>Foreign Office</orgName> I do so with extreme regret
+<lb/>and sorrow that public duty requires it
+<lb/>to be done against any of our number
+<lb/>I earnestly hope &amp; pray that nothing may
+<lb/>arise to disturb the harmony which has
+<lb/>hitherto existed among the rest of us </p>
+<lb/><p><space extent="3" unit="chars"/><persName>Baines</persName> is much better and has
+<lb/>been working at everthing in which he
+<lb/>could be useful - <space extent="1" unit="chars"/>Black will is bilious
+<lb/><persName>M<hi rend="sup underline">r</hi> Rae</persName> is better but a little shaken
+<lb/><persName>M<hi rend="sup underline">r</hi> L.</persName> was second engineer when
+<lb/><persName><choice><abbr>R.</abbr><expan>Rae</expan></choice></persName> - <persName>Coffee</persName> thought  
+<lb/>the first -  The <term type="tribe">Kroomen</term> all work
+<lb/>admirably - They cut as much wood
+<lb/>in one hour as they used to do in four
+<lb/>can you give <persName><term type="occupation">Major</term> Secard</persName> a little <term type= "foodstuff"><w>bla<gap extent="2" unit="chars" agent="blot"/><supplied cert="high">ck</supplied></w>
+<lb/>tea</term> as he says it is <choice><sic>duiretic</sic><corr>diuretic</corr></choice> <space extent="1" unit="chars"/></p> <closer>Ever <w>you<gap extent="2" unit="chars" agent="blot"/><supplied>rs</supplied></w>  <add place="below" rend="right"><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName></add></closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

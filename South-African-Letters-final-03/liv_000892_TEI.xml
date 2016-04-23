@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000892"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Jose R. Coelho do Amaral, 25 March, [25 June 1856?]</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000892</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 22</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0406</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Jose R. Coelho do Amaral, 25 March, [25 June 1856?]</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-03-25">25 March 1856</date><!-- Change -->
+                    <placeName type="compositionPlace">Tete-Quilimane</placeName><!-- Change -->
+                    <persName type="addressee">Coelho do Amaral, Jose R., 1808-1873</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-01-22" who="#AW">Final coding review</change>
+			<change when="2016-01-17" who="#EM">Proofing and coding review</change>
+			<change when="2015-12-22" who="#AW">Light coding review</change>
+            <change when="2015-12-21" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000892_0001" n="0001"/>
+    <opener>
+<lb/><dateline><hi rend="right"><placeName><settlement type="village">Tete</settlement></placeName>, on the <placeName><geogName type="river">Zambesi</geogName></placeName></hi>
+<lb rend="right"/><placeName><region>East Africa</region></placeName>
+<lb rend="right"/>His Excellency <persName>Jose R. <choice><abbr>C.</abbr><expan>Coelho</expan></choice> do Amaral</persName>, <date when="1856-03-25"/>25<hi rend="sup underline">th</hi> March 1856</dateline>
+<lb rend="right"/>The <term type="occupation">Governor</term> of <placeName><country>Angola</country></placeName> and its Dependencies
+<lb rend="right"/><salute>May it please your excellency</salute>
+    </opener>
+                
+<lb rend="right"/><p>I was entrusted
+<lb/>with certain presents and a letter from the
+<lb/><orgName>Government of <placeName><country>Angola</country></placeName></orgName> for <persName>Sekeletu</persName> the
+<lb/><term type="occupation">chief</term> of the people called <term type="tribe">Makololo</term> living on the
+<lb/><placeName><geogName type="river">Zambesi</geogName></placeName> near the centre of the continent, it
+<lb/>is my duty to give your excellency as full
+<lb/>an account of the manner in which the
+<lb/>bounty was <choice><orig>recieved</orig><reg>received</reg></choice> as possible. I wrote
+<lb/>a hasty letter to the <persName>Right Reverend Lord Bishop</persName>
+<lb/>of <placeName><country>Angola</country></placeName> immediately after my arrival
+<lb/>at the town of <persName>Sekeletu</persName> and sent it by the
+<lb/><orgName>Arab</orgName> <persName>Ben Habib</persName> of <placeName><geogName type="island">Zanzibar</geogName></placeName> who was
+<lb/>appointed to head another party with ivory
+<lb/>for <placeName><settlement type="city">Loanda</settlement></placeName>. This letter may appear as
+<lb/>a repitition of the information contained
+<lb/>in that, but such is the case only because
+<lb/>of my earnest desire to be certain that
+<lb/>the <orgName>government</orgName> <del type="strikethrough">should</del> <add place="above">had</add> <choice><orig>recieved</orig><reg>received</reg></choice> precise
+<lb/>intelligence that its kind treatment of
+<lb/><persName>Sekeletu</persName> and his people has been well
+<lb/>appreciated as could have been expected
+    
+    <pb facs="liv_000892_0002" n="0002"/>
+<lb/>from a savage nation. The presents of both
+<lb/>the <orgName>Government</orgName> and <orgName><term type="occupation">merchants</term> of <placeName><settlement type="city">Loanda</settlement></placeName></orgName>
+<lb/>were delivered in presence of a large concourse 
+<lb/>of people including some strangers, and
+<lb/>translations of the <bibl>letters</bibl> to <persName>Sekeletu</persName> read aloud
+<lb/>so as to make the matter as public as
+<lb/>possible. The <term type="occupation">General</term>'s dress, sword, sash,
+<lb/>epaulettes and cocked hat, were all exhibited
+<lb/>to the admiring gaze of the crowd. And the tail
+<lb/>of the <term type="animal">horse</term> which unfortunately died at
+<lb/><placeName><settlement type="town">Golungo Alto</settlement></placeName> was shown in evidence of the
+<lb/>fact by my companions. Every article
+<lb/>too sent by the <term type="occupation">merchants</term> was fully
+<lb/>examined by all. And <persName>Sekeletu</persName> with his 
+<lb/>principal men expressed repeatedly great
+<lb/>satisfaction at the result of our journey
+<lb/>thankfulness for the frienship of the head
+<lb/>of the <orgName>Provisional Government</orgName>, and joy
+<lb/>in prospect of being able to trade with
+<lb/><placeName><settlement type="city">Loanda</settlement></placeName> expressed over and over again
+<lb/>must be considered as the answer
+<lb/>to the letters of <orgName>Government</orgName> and the <term type="occupation">Merchants</term>
+<lb/>for when I asked afterwards what I
+<lb/>should say in my letter the same expression
+<lb/>was made use of. I consider the
+<lb/>prompt dispatch of another party with, 
+<lb/>it is said, forty tusks for <placeName><settlement type="city">Loanda</settlement></placeName>, 
+<lb/>as more valuable evidence of confidence 
+    
+    <pb facs="liv_000892_0003" n="0003"/>
+<lb/>than any expressions of the tongue, And my
+<lb/>opinion was asked whether presents for the
+<lb/><term type="occupation">governor</term> and <term type="occupation">merchants</term> ought to be
+<lb/>sent now or by my late companions
+<lb/>Not having entire confidence in the <orgName>Arab</orgName> 
+<lb/>who has unlimited power over the ivory
+<lb/>the party being ordered only to "look and
+<lb/>learn", I gave my opinion that it would
+<lb/>be better to send them via <persName>Pitsane</persName>, As
+<lb/>both the <orgName>Government</orgName> and <term type="occupation">merchants</term>
+<lb/>would estimate their value not by the
+<lb/>amount, but as <choice><orig>shewing</orig><reg>showing</reg></choice> proper feelings
+<lb/>of respect and gratitude. The fact of
+<lb/><persName>Sekeletu</persName> asking spontaneously the
+<lb/>above question, will no doubt be
+<lb/>considered as so far satisfactory. My
+<lb/>late companions are allowed to rest
+<lb/>some time and it is intended that they will
+<lb/>then return as independent <term type="occupation">traders</term>. They
+<lb/>all express joy at the prospect, and this
+<lb/>is more than I expected from men who
+<lb/>underwent so much hunger and fatigue,
+<lb/>for they have all plenty of food and liquor
+<lb/>at home. Other tribes as those of <unclear cert="medium"><term type="tribe">Katema</term></unclear>
+<lb/>and <term type="tribe">Shinte</term> promised to send men with
+<lb/>them for the same purposes, and I believe
+<lb/>if no untoward event transpires a brisk
+    
+    <pb facs="liv_000892_0004" n="0004"/>
+<lb/>trade will in a few years be formed
+<lb/>between the interior and the coast.</p>
+<lb/><p>In coming Eastwards lately I found
+<lb/>the navigation of the <placeName><geogName type="river">Zambesi</geogName></placeName> obstructed
+<lb/>by a large <unclear cert="medium">rent</unclear> from bank to
+<lb/>bank of the rocky bottom. This <unclear cert="medium">rent</unclear>
+<lb/>is <measure>one hundred feet down</measure> and its
+<lb/>lips are from <measure>60 to 80 feet apart</measure>. It is
+<lb/>made first from bank to bank 
+<lb/>and then prolonged from the left bank
+<lb/>away through <measure>thirty or forty miles</measure> of
+<lb/>hills. Into this the <placeName><geogName type="river">Zambesi</geogName></placeName> of a <measure>thousand
+<lb/>yards broad</measure> rolls and is compressed at
+<lb/>the bottom into <measure>fifteen or twenty yards</measure>
+<lb/>the enormous compression it suffers
+<lb/>from the force of its own fall down
+<lb/><measure>100 feet</measure>, causes the formation and
+<lb/>ascent of columns of vapour which
+<lb/>like steam ascend <measure>300 or 400 feet high</measure>,
+<lb/>then lose their steam colour, become
+<lb/>dark and descend in a constant
+<lb/>shower. These columns of vapour
+<lb/>may be seen, (when the river is full)
+<lb/>and the sound heard, <measure>ten or twelve
+<lb/>miles off</measure>.</p> <!-- tweet -JM--><!-- Livingstone's description of Victoria Falls evokes the local name: Mosi oa Tunya, the Smoke that Thunders. JM -->
+<lb/><p>It is evident that this remarkable
+<lb/><unclear cert="medium">rent</unclear> must always have been a barrier
+<lb/>to canoe navigation up the <placeName><geogName type="river">Zambesi</geogName></placeName>
+    
+    <pb facs="liv_000892_0005" n="0005"/>
+<lb/>But something else <add place="above margintop" hand="#U">5</add> must have prevented <add place="above margintop" hand="#U">ms 22</add>
+<lb/><orgName>European</orgName> commerce from entering the
+<lb/>great valley in which <persName>Sekeletu</persName> lives. 
+<lb/>The settlement of <unclear cert="medium"><placeName><settlement type="village">Zumbo</settlement></placeName></unclear> is not far
+<lb/>distant, not more than <measure>200 miles</measure>, 
+<lb/>and the <term type="people">Portuguese</term> of those days in
+<lb/>which <placeName><settlement type="town">Zumbo</settlement></placeName> flourished were not
+<lb/>wanting in energy. But I believe the
+<lb/>savage customs of the tribes around
+<lb/>the falls were sufficient to account
+<lb/>for the want of intercourse. The crania
+<lb/>of strangers were considered ornamental 
+<lb/>and <choice><sic>asassination</sic><corr>assassination</corr></choice> frequently resorted to,
+<lb/>to procure them. I counted between
+<lb/>fifty and sixty such mounted on <!-- I am not certain whether I should use the measure tag in this line. JM --><!-- No. AW -->
+<lb/>poles in one village. It would have
+<lb/>been impossible to have made a way
+<lb/>through such a people, but <persName>Sebituana</persName>
+<lb/>the father of <persName>Sekeletu</persName>, conquered them
+<lb/>all, and thereby rendered a good service
+<lb/>both to humanity and commerce. 
+<lb/>The only use formerly made of ivory
+<lb/>in this region was armlets and 
+<lb/>gravestones. On the island called
+<lb/><placeName><geogName type="island">Kalai</geogName></placeName>, <measure>8 miles</measure> above the falls
+<lb/>I saw seventy large tusks planted
+<lb/>round the grave of a late <term type="occupation">chief</term> and
+    
+    <pb facs="liv_000892_0006" n="0006"/>
+<lb/>there were thirty more over the resting
+<lb/>places of his relatives. I imagine no
+<lb/>more ivory will be wasted in that way
+<lb/>now that the people <choice><orig>percieve</orig><reg>perceive</reg></choice>its value.</p>
+<lb/><p>I intend to proceed to <placeName><country>England</country></placeName>
+<lb/>now, but on my return, there may not
+<lb/>be very much difficulty in establishing
+<lb/>a communication between the
+<lb/>Western and Eastern possessions
+<lb/>of the <term type="people">Portuguese</term><!-- Or OrgName? EM--><!-- OK as is. AW -->. This has I understand
+<lb/>been the wish of different <term type="occupation">governor</term>s <hi rend="large">*</hi> <!-- There is a star symbol drawn in the right-hand margin here that directs the reader to the vertical note in the left-hand margin of the page JM -->
+
+<add place="marginleft" rend="vertical"><note><!-- The corresponding star symbol is found in the bottom left-hand corner of the page and designates the beginning of the vertical note mentioned above. JM --><hi rend="large">*</hi> <space extent="2" unit="chars"/>The want of such a path may now not be so apparent as in former
+<lb/>times when there was no communication by the <placeName><geogName type="sea">Red Sea</geogName></placeName> and <placeName><country>Egypt</country></placeName></note></add>
+
+<lb/>and if it still appears desirable I may
+<lb/>suggest the way from <placeName><settlement type="village">Pungo Andongo</settlement></placeName>
+<lb/>to <placeName><settlement type="village">Bike</settlement></placeName>. From <placeName><settlement type="village">Bike</settlement></placeName> to the nearest
+<lb/><term type="tribe">Makololo</term> on the <placeName><geogName type="river">Zambesi</geogName></placeName>, say to
+<lb/><persName>Mpololo</persName> the uncle of <persName>Sekeletu</persName> who
+<lb/>lives at <placeName><settlement type="village">Naliele</settlement></placeName> (<choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 15º 24' South and 
+<lb/><choice><abbr>Long</abbr><expan>Longitude</expan></choice> 23º East.) The <term type="tribe">Makololo</term> would
+<lb/>send any letters or dispatches safely
+<lb/>down to my future dwelling place
+<lb/>which will probably be near the 
+<lb/>falls (<choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 15º 57' South. <choice><abbr>Long.</abbr><expan>Longitude</expan></choice> 26º 6' <choice><abbr>E.</abbr><expan>East</expan></choice>)
+<lb/>And as we hope to have water
+<lb/>communication with <placeName><settlement type="village">Tete</settlement></placeName>, this
+<lb/>would complete the only difficult
+<lb/>part of the continent. It is only
+    
+    <pb facs="liv_000892_0007" n="0007"/>
+<lb/>a suggestion at present.<add place="above margintop" hand="#U">7</add> And I mention <add place="above margintop" hand="#U">ms 22</add>
+<lb/><placeName><settlement type="village">Pungo Andongo</settlement></placeName> and <placeName><settlement type="village">Bike</settlement></placeName> because of
+<lb/>the well known public spirit of <persName><choice><abbr>S<hi rend="underline">t</hi></abbr><expan>Saint</expan></choice>
+<lb/>Pires</persName> who has trade relations with all that
+<lb/>country. There would be more difficulty
+<lb/>in the return from <placeName>Mpololo</placeName><!-- Or is this a settlement? EM--><!-- Does indeed sound like a settlement. AW --> to <placeName><settlement type="village">Bike</settlement></placeName>.
+<lb/>I need scarcely add that any service
+<lb/>I could render not involving an
+<lb/>actual outlay of my small salar<hi rend="sup">ry</hi>
+<lb/>would be cheerfully and gratuitously
+<lb/>rendered. I mention this because
+<lb/>the <orgName>society</orgName> to which I am attached, does
+<lb/>not pretend to give a salary, but only
+<lb/>enough for subsistence and it varies
+<lb/>according to the expence of living in 
+<lb/>different countries.</p>
+<lb/><p>I have found the <term type="people">Portuguese</term>
+<lb/>here as kind as in <placeName><country>Angola</country></placeName>, and that
+<lb/>is saying a great deal, for I shall
+<lb/>ever remember the hospitality and
+<lb/>good will of the <term type="people">Angolese</term> both official
+<lb/>and private, with gratitude and affection
+<lb/>some how or other, I had imbibed a
+<lb/>sort of prejudice against the <term type="people">Portuguese</term>
+<lb/>probably on account of some few
+<lb/>sticking most <unclear cert="high">pertinaceously</unclear> to the <orgName>slave trade</orgName>. But the uniform kind
+    
+    <pb facs="liv_000892_0008" n="0008"/>
+<lb/>treatment and politeness completely removed
+<lb/>all prejudice and now when I make
+<lb/>use of expressions of gratitude they are
+<lb/>really those of the heart.</p><space extent="5" unit="chars"/> <closer> <salute>Believe me 
+<lb rend="right"/>Your Excellency's most 
+<lb rend="right"/>obedient servant</salute>
+<lb/><signed><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></signed></closer>
+            </div>
+
+			<div>
+    <cb rend="vertical"/>
+    <ab>
+    <address>
+<addrLine>To His Excellency <persName>Jose R. <choice><abbr>C.</abbr><expan>Coelho</expan></choice> do Amaral</persName></addrLine>
+<addrLine>the <term type="occupation">Governor General</term></addrLine>
+<addrLine>of <placeName><country>Angola</country></placeName> &amp;c. &amp;c. &amp;c.</addrLine>
+<addrLine><hi rend="left"><placeName><region>West Coast</region></placeName></hi></addrLine>
+<addrLine><hi rend="left"><hi rend="double-underline">of</hi> <placeName><bloc>Africa</bloc></placeName></hi> <hi rend="center"> <placeName><settlement type="city">Loanda</settlement></placeName></hi> </addrLine>
+    </address>
+    </ab>
+			</div>
+
+			<div>
+<lb/><p>Reached <placeName><settlement type="village">Quilimane</settlement></placeName> on the <date when="1856-05-20"/>20<hi rend="sup">th</hi> May 1856
+<lb/>and forwarded this letter to the <term type="occupation">Governor General</term>
+<lb/>of <placeName><country><choice><sic>Mosambique</sic><corr>Mozambique</corr></choice></country></placeName> His Excellency <persName>Vasco Guedes
+<lb/>Carvalho e Menezes</persName> on <date when="1856-06-25"/>25<hi rend="sup">th</hi> June. <persName><choice><abbr>D.</abbr><expan>David</expan></choice> <choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName></p><!-- Postscript. AW -->
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

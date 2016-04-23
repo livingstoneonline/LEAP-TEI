@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001373">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to George L. Conyngham</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001373</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country>
+                        <settlement>Johannesburg</settlement>
+                        <repository>Brenthurst Library</repository>
+                        <idno type="shelfmark"></idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0841</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to George L. Conyngham, 5 October 1858</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-10-05">5 October 1858</date>
+                    <placeName type="compositionPlace">Zambesi River</placeName>
+                    <persName type="addressee">Conyngham, George L., ?-1866</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-26" who="#AW">Coding review</change>
+            <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>
+            <change when="2015-05-15" who="#JM">Proofreading</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001373_0001" n="0001"/>
+<opener>
+<lb/><dateline rend="right"><add place="margintop" rend="left vertical gray small" hand="#U"><!-- diagonal -->S-6 9</add> <placeName><geogName type="river">Zambesi River</geogName></placeName> <date when="1858-10-05">5<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice> <add place="margintop" rend="right gray small" hand="#U1">MS 8/5</add>
+<lb/>1858</date></dateline>
+<lb/>    
+<lb/><salute>My Dear <persName>M<hi rend="sup underline">r</hi> Conyngham</persName></salute>
+</opener>
+<lb/><p>We have an opportunity
+<lb/>of writing home again sooner than
+<lb/>we expected and I have had the
+<lb/>most unpleasant letter to write I
+<lb/>ever penned. The <term type="occupation">naval officer</term>
+<lb/><persName>Commander Bedingfeld</persName> who came
+<lb/>with us got to <placeName>Loggerheads</placeName> with
+<lb/>the <term type="occupation">captain</term> of the Pearl and I knowing	
+<lb/>how we were situated with the vessel
+<lb/>of the colonial office had to protect
+<lb/><persName>Captain Duncan</persName>, and on the first
+<lb/>occasion in which I did so by
+<lb/>saying "<persName>C<hi rend="sup underline">m</hi> Bedingfeld</persName> I must have
+<lb/>no more of these public alterations"</p>
+ 
+<cb rend="vertical"/>           	    	
+<p><add place="marginleft"><lb/>Would you be kind enough to send from
+<lb/><term type="occupation">stationer</term> a supply of proper official paper &amp; envelopes
+<lb/>with the newspapers at your convenience</add></p>
+
+	<pb facs="liv_001373_0002" n="0002"/>
+<lb/><p>he tendered his resignation - He was
+<lb/>evidently of opinion that I could not move
+<lb/>mile without him - and tendered his 
+<lb/>resignation several times. At last I mounted
+<lb/>the paddle box myself and to my no small
+<lb/>wonder found out I was a <term type="occupation">skipper</term>
+<lb/>and have been <unclear cert="high">howling</unclear> out "Ease her, stop her
+<lb/>&amp;c<!--Adrian, I think this is that and-cetera mark I saw once before, but I can't find the way to code it. If it's not in the manual, could we add it? -AA --><!-- I have encoded this as it should be, I think. JM --><!-- Correct. AW --> ever since - <persName><choice><abbr>B.</abbr><expan>Bedingfeld</expan></choice></persName> - was very much disgusted
+<lb/>when he found he could be dispensed
+<lb/>with and set about plans to secure his
+<lb/>pay - Now I have been obliged to write
+<lb/>long accounts to <persName>Lord Malmesbury</persName> of his
+<lb/>conduct and never felt more averse to
+<lb/>the pen for it is the first time I have
+<lb/>sat down to write against anyone - 
+<lb/>I know it must be distasteful to his
+<lb/>Lordship to read it and to make the affair
+<lb/>worse it was I myself that recommended
+<lb/>him for the appointment. It was only after
+<lb/>I heard him boasting of having been tried
+<lb/>by court martial that I felt I had made a
+<lb/>mistake - I was very careful to ascertain
+	
+	<pb facs="liv_001373_0003" n="0003"/>
+<lb/>the tempers of my companions but <choice><sic>his</sic><corr>he has</corr></choice>
+<lb/>eluded my vigilance till it was too late.
+<lb/>In one point I expect abuse and that
+<lb/>is working on Sundays. The <orgName>Great Niger
+<lb/>Expedition</orgName> you may remember lost
+<lb/>nearly all the new <term type="occupation">officers</term>. They 
+<lb/>kept Sundays and had prayers three
+<lb/>times a day even while in the <term type="plant">Mangrove</term>
+<lb/>swamps - but when I came into
+<lb/>similar situations I made all haste
+<lb/>to get out of them. It would have been
+<lb/>more in accordance with my 
+<lb/>feelings to have rested but by my plan
+<lb/>I sent the crew of the Pearl off all well
+<lb/>more blame would have been attached
+<lb/>to my name had I lost the men than
+<lb/>will be now but <persName>Bedingfeld</persName> will
+<lb/>make the most he can of it.</p>
+<lb/><p>The most important piece of
+<lb/>news I have to tell is we dug the
+
+	<pb facs="liv_001373_0004" n="0004"/>
+<lb/>very first coal ever taken from
+<lb/>the earth in this country and
+<lb/>having tried a ton &amp; a half our
+<lb/><term type="occupation">engineer</term> pronounces it very good.
+<lb/>With a great abundance of good
+<lb/>coal and no end of the finest iron
+<lb/>ore surely something will be done
+<lb/>for the civilization of <placeName><bloc>Africa</bloc></placeName>
+<lb/>My men were overjoyed in receiving
+<lb/>me back again - Thirty of them
+<lb/>had died of <term type="ailment">small pox</term> and six
+<lb/>were killed by a rebel chief
+<lb/>but all the rest are ready to return
+<lb/>to their won land with me -</p>	
+<lb/><p>I beg leave to trouble
+<lb/>you again with a packet of
+<lb/>letters and am ever yours</p>
+<closer>
+<lb/><salute>Most truly</salute>
+<lb/><signed><persName>David Livingstone</persName></signed>
+</closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

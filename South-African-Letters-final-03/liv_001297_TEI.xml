@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001297"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to George L. Conyngham, 25 March 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001297</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5700</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0771</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to </title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-03-25">25 March 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Steamer "Pearl"</placeName><!-- Change -->
+                    <persName type="addressee">George L. Conyngham</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-26" who="#AW">Coding revew</change>
+            <change when="2015-05-07" who="#AA">Proofing</change>
+        	<change when="2015-03-21" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001297_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb rend="right"/><dateline><add place="margintop" rend="left vertical gray small" hand="#U"><!-- diagonal -->C/4/49</add> <placeName>Steamer Pearl</placeName> <add place="margintop" rend="right gray small" hand="#U">MS 7/1</add><!-- I am not sure how to encode "Steamer Pearl". Please advise. JM --><!-- It's a ship, so I guess placeName is OK. AW -->
+<lb/><date when="1858-03-25">25 March 1858</date>
+</dateline>
+<add place="marginleft"><hi rend="underline">Private</hi></add>
+<lb/><salute>My Dear Sir</salute>
+</opener>
+<lb/><p><space extent="6" unit="chars"/>We have been going   
+<lb/>at the rate of <measure>200 miles</measure> 
+<lb/>a day ever since we
+<lb/>left <placeName><settlement type="city">Liverpool</settlement></placeName> on the
+<lb/><date when="1858-03-10">10<hi rend="underline">th</hi></date> and are now in
+<lb/>glorious summer weather
+<lb/>pitying the natives we
+<lb/>have left behind in
+<lb/>their miserable frost
+<lb/>and now - We go
+<lb/>into <placeName><country>Sierra Leone</country></placeName>
+<lb/>today and will get
+<lb/>nicely thawed out
+    
+    <pb facs="liv_001297_0002" n="0002"/>
+<lb/>after all the chills we
+<lb/>endured in <placeName><country>England</country></placeName>
+<lb/>The Pearl has done
+<lb/>her duty nicely and
+<lb/>the captain, a good
+<lb/>man, is thoroughly
+<lb/>up to his duty - 
+<lb/>My companions
+<lb/>seem all men of
+<lb/>of the right stamp and
+<lb/>I am thankful
+<lb/>to a kind Providence
+<lb/>for favouring us
+<lb/>thus far. When we
+<lb/>have <unclear cert="high">waled</unclear> we
+<lb/>proceed to the <placeName><region>Cape</region></placeName>.</p>
+<lb/><p><space extent="4" unit="chars"/>I enclose to
+<lb/>you a packet of
+
+    <pb facs="liv_001297_0003" n="0003"/>
+<lb/>letters which you will
+<lb/>be kind enough to
+<lb/>forward to their destinations
+<lb/>Any expense you
+<lb/>may incur will be
+<lb/>paid by <persName>M<hi rend="sup underline">r</hi> <unclear cert="low">Coults &amp;c</unclear></persName>
+<lb/>We are not late enough
+<lb/>to send home a certificate
+<lb/>of life for this
+<lb/>quarter but we shall
+<lb/>do it at the <placeName><region>Cape</region></placeName>
+<lb/>Will you be kind
+<lb/>enough to let <persName>M<hi rend="sup underline">r</hi> Elliott</persName>
+<lb/>know that <persName>M<hi rend="sup underline">r</hi> Duncan</persName>
+<lb/>has furnished us with
+<lb/>a most excellent
+<lb/>captain - very few
+<lb/>equal him in knowledge
+<lb/>of his work. He formerly
+<lb/>commanded one of the
+<lb/>large <placeName><settlement type="city">New York</settlement></placeName> steamers</p>
+    
+    <pb facs="liv_001297_0004" n="0004"/>
+<lb/><p>We hope to be at the    
+<lb/><placeName><geogName type="river">Zambesi</geogName></placeName> by the <date when="1858-05-01">first
+<lb/>of May</date>. The Colonial
+<lb/>Office have acted from
+<lb/>first to last in the
+<lb/>most handsome way
+<lb/>to us and I am sure
+<lb/>I feel grateful</p>
+<lb/><p><space extent="4" unit="chars"/>I am so sorry that
+<lb/>we did not arrange the
+<lb/>insurance so that we
+<lb/>could have gone in to
+<lb/><placeName><settlement type="town">Loanda</settlement></placeName>. I would have
+<lb/>sent a specimen of the
+<lb/><placeName><country>Angola</country></placeName> <term type="foodstuff">coffee</term> which
+<lb/>would have pleased you
+<lb/>more than <term type="insect">beetles</term> <term type="insect">bugs</term> 
+<lb/>&amp; <term type="insect">cockroaches</term>, it is the
+<lb/>finest I ever tasted and
+<lb/>I wish it were known
+<lb/>at home.</p> <closer>Accept of my 
+<lb/>hearty thanks for all
+<lb/>your kindness <salute>I am &amp;C</salute> <signed><persName>David Livingstone</persName></signed></closer>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

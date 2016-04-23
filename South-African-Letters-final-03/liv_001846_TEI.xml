@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001846">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to William Sunley</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_001846</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country>
+                        <settlement>Johannesburg</settlement>
+                        <repository>Brenthurst Library</repository>
+                        <idno type="shelfmark">Book no. 5318, Acc. Reg. 4669</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1290</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to William Sunley, 19 November 1862</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1862-11-19">19 November 1862</date>
+                    <placeName type="compositionPlace">Quillimane</placeName>
+                    <persName type="addressee">Sunley, William, ?-1886</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-26" who="#AW">Coding review</change>
+            <change when="2015-05-15" who="#JM">Proofreading</change>
+            <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001846_0001" n="0001"/>
+<opener>
+<lb/><add place="margintop" rend="left gray small" hand="#U">5-6-9</add><!-- diagonal --> <dateline rend="right"><placeName><settlement type="town">Quillimane</settlement></placeName> <date when="1862-11-19">19<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> <add place="margintop" rend="right gray small" hand="#U">MS 8/8</add>
+<lb/>1862</date></dateline>   
+<lb/><salute>My Dear Sunley</salute>
+</opener>
+
+<lb/><p><space extent="3" unit="words"/>We left you
+<lb/>on <choice><sic>Wedensday</sic><corr>Wednesday</corr></choice> and were down
+<lb/>within <measure>30 miles</measure> of the <placeName><geogName type="river">Zambesi</geogName></placeName>
+<lb/>on Monday, but our coals were
+<lb/>expended and the wind being
+<lb/>contrary we bore away to the
+<lb/><placeName><geogName type="river">Quillimane River</geogName></placeName> to cut wood
+<lb/>We saw <persName>Prince Mahomet</persName>s
+<lb/>boat close in shore about half
+<lb/>past one - we were scarcely a
+<lb/>mile from the beach and a
+<lb/>heavy sea was beating towards
+<lb/>the land. I ran up the <term type="occupation">ensign</term>
+<lb/>to the masthead and doubled
+<lb/>back on our course as a hint
+<lb/>to him to come out to us but he
+<lb/>paid no attention &amp; held on
+<lb/>towards the town. I was afraid</p>
+<!-- The following continues on from the end of the letter. AW -->
+<cb rend="vertical left"/><ab>
+<lb/>then if he does not do well it is his own look out
+<lb/><persName>Rae</persName> has just come to say that the negotiation
+</ab>
+	
+	<pb facs="liv_001846_0002" n="0002"/>	
+<lb/><p>of running on the reef if we
+<lb/>approached him. We then went
+<lb/>on to the town and saw a boat
+<lb/>attempt to put off and give up
+<lb/>the case as hopeless - the heavy
+<lb/>sea was breaking on the reef
+<lb/>I felt sorry I could not deliver
+<lb/>your message to <persName>Prince Mahomet</persName> 
+<lb/>but the obstinate way in which
+<lb/>he held on his course when he
+<lb/>could have come out to us in
+<lb/>half an hour convinced me that
+<lb/>he was led by his less worthy
+<lb/>companion. The glass was
+<lb/>lower than we had seen it at
+<lb/><placeName><geogName type="island">Johanna</geogName></placeName> and as it would have
+<lb/>been a useless risk of life to
+<lb/>land we hurried on and by
+<lb/>evening had got into a much
+<lb/>calmer sea. I had ordered a</p>
+<cb rend="vertical left"/><ab>
+<lb/>for the engine and sugar mill seems to
+<cb rend="vertical right"/>
+<lb/>going on favourably
+</ab>
+
+	<pb facs="liv_001846_0003" n="0003"/>
+<lb/><p>man called <persName>Abdullah</persName> to get
+<lb/>fresh meat - fowls - vegetables &amp;c<!-- and cetera? -AA --><!-- Correct. AW -->	
+<lb/>and bring them off without
+<lb/>waiting to come off to be told
+<lb/>what to bring - If you will
+<lb/>kindly pay him for what
+<lb/>he expended I shall feel much
+<lb/>obliged - I am anxious that he
+<lb/>does not lose by trusting to my
+<lb/>word - The amount would be
+<lb/>about 30 <choice><abbr>lbs</abbr><expan>pounds</expan></choice> of <term type="foodstuff">meat</term> 2 dozen
+<lb/><term type="foodstuff">fowls</term> with a few bushels of
+<lb/><term type="plant_foodstuff">potatoes</term> - <term type="plant_foodstuff">cassava</term> &amp;c<!-- and cetera? -AA --><!-- Correct. AW -->. <persName>Abdullah</persName>
+<lb/>is a sort of <term type="occupation">factotum</term> of the
+<lb/><term type="occupation">Queen</term> &amp; general <term type="occupation">interpreter</term></p>            	
+<lb/><p>I am in <persName>Colonel <unclear cert="low">Dunes</unclear></persName> house
+<lb/>and have given your invitation
+<lb/>with which he seems much
+<lb/>pleased - We see <persName>D<hi rend="sup underline">r</hi> <del type="strikethrough">crew</del> Crux</persName>'s
+<lb/>field of <term type="plant_foodstuff">Bourbon sugar cane</term>
+<lb/>totally neglected. and the size
+<lb/>of rat's tents - It is moreover
+<lb/>planted in a sandy salt place -
+<lb/>The <unclear cert="low">olen</unclear> look well &amp; the <orgName><placeName><geogName type="island">Johanna</geogName></placeName> <lb/>men</orgName> are doing well.</p>
+            	
+	<pb facs="liv_001846_0004" n="0004"/>            	
+<lb/><p>40 of our <term type="nationality">English</term> <term type="occupation">crew</term> had to <supplied cert="high">be</supplied> brought
+<lb/>down to the ship by <term type="occupation">soldiers</term>
+<lb/>victims of grog. We have met
+<lb/>the Rapid here with <persName>Captain
+<lb/>Jago</persName> whom you may remember
+<lb/>as first <term type="occupation">Lieutenant</term> of the
+<lb/><unclear cert="medium">Hermes</unclear>	
+<lb/>cattle overland from this
+<lb/>and will go in a day or two to
+<lb/>the <placeName><geogName type="river">Zambesi</geogName></placeName> - The river has
+<lb/>not yet begun to rise. <persName>Rae</persName>
+<lb/>has had a little touch of <term type="ailment">fever</term>
+<lb/>otherwise we are all well -</p>          	
+<lb/><closer><salute>With kind recollections of
+<lb/>your kindness I am most
+<lb/>sincerely yours</salute> <signed><persName>David Livingstone</persName></signed></closer>
+<lb/><postscript><p>P.S. <persName>Robert</persName> my eldest boy is going
+<lb/>to <placeName>Edinburgh College</placeName>. I suppose <persName><choice><abbr>Prof</abbr><expan>Professor</expan></choice>
+<lb/>Playfair</persName> has obtained influence over
+<lb/>him. This agrees with my desire to
+<lb/>give him a good education &amp;</p></postscript> <!--This text spills onto page 1 as vertical text. -AA -->	<!--I cannot seem to make the postscript code work, no matter where I put it. Is the manual's example correct? If so, does it go inside or outside the closer? -AA --><!-- I cannot offer any clarity here and would be interested to know the correct way of encoding this, JM --><!-- See how I've done this. The trick is to use <postscript> plus <p>. Also, the closer ends here although technically it continues on to the first page. On the first page, I have marked the additional bit as part of the closer. AW -->
+	
+	
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

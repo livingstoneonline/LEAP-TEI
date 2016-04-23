@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000943">
+    <!-- xml:id attribute value above should be same as the LEAP file name (without .xml suffix) -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to William O. Livingstone, 9 January 1857</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="SF">
+					<name>Samantha Fitch</name>
+					<resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="EC">
+					<name>Erin Cheatham</name>
+					<resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License
+                        </ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 764</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0453</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to William O. Livingstone, 9 January 1857</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1857-01-09">9 January 1857</date>
+                    <placeName type="compositionPlace">London</placeName>
+                    <persName type="addressee">unknown</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-10-17" who="#CL">Corrections</change>
+			<change when="2015-08-22" who="#AW">Coding Review</change>
+            <change when="2015-07-27" who="#HB">Proofing and Quality Control</change>
+            <change when="2014-10-07" who="#AM">Additional Transcription and TEI Encoding of missing pages 2 and 3</change>
+            <change when="2014-08-16" who="#AM">Initial Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                
+            <pb facs="liv_000943_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><placeName><settlement type="city">London</settlement></placeName> 
+<lb/><date when="1857-01-09">9<hi rend="sup underline">th</hi> <choice><abbr>Jany</abbr><expan>January</expan></choice> 1857</date></dateline>
+<lb/>    
+<lb/><salute>My Dear <persName>Zouga</persName></salute></opener>
+<lb/><p>I have very
+<lb/>little time to write
+<lb/>you but as I
+<lb/>wrote to <persName>Robert</persName>
+<lb/><persName>Agnes</persName> &amp; <persName>Thomas</persName>
+<lb/>I must send a
+<lb/>line to you also</p>
+ 
+<!-- No images of the following 2 pages are currently available as they are obscured by frame - they are therefore transcribed by copying an existing transcript (in same frame as pages 1 & 4 of the letter). This is not ideal as line breaks and other textual formatting features cannot be determined, nor can it be determined where the page break between 2 & 3 occurs. I have used <supplied> to mark these sections - AM-->	
+			<pb facs="liv_000943_0002" n="0002"/>
+<lb/><p><supplied>I hope you are a good boy and remembering your creator and his son <persName>Jesus</persName> with love every day of your life. He is so good to us all and it is good to feel that he is our father and friend and saviour all the way through life, watching over us and taking care of us by day and by night, in health and in sickness, in every place we go to and even in death, that you</supplied>
+			<pb facs="liv_000943_0003" n="0003"/>
+
+			<pb facs="liv_000943_0004" n="0004"/>
+<lb/>must not fail
+<lb/>to seek his favour
+<lb/>and friendship
+<lb/>His love is an
+<lb/>inexpressible love
+<lb/>He died for us
+<lb/>through love. We
+<lb/>cannot enjoy this
+<lb/>love if we love
+<lb/>sin.</p> <closer><salute>Kind kisses
+<lb/>to all of you from
+<lb/><persName>Mama</persName> &amp; me</salute>
+<lb/><signed><persName>David Livingstone</persName></signed></closer>
+ 
+            </div>
+        </body>
+    </text>
+
+</TEI>

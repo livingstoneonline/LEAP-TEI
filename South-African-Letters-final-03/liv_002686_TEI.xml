@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002686"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to J. Dyke, Date Unknown</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002686</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Grahamstown</settlement><!-- Change as needed -->
+                        <repository>Cory Library for Historical Research</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber"></idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to J. Dyke, Date Unknown</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition">Unknown</date><!-- Change -->
+                    <placeName type="compositionPlace">Unknown</placeName><!-- Change -->
+                    <persName type="addressee">J. Dyke</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-09-29" who="#AW">Coding review</change>
+            <change when="2015-09-28" who="#EM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002686_0001" n="0001"/>
+
+<cb rend="vertical"/>
+<ab>
+<lb rend="center"/><persName><choice><abbr>Rev<hi rend="sup">d</hi></abbr><expan>Reverend</expan></choice> J. Dyke</persName>
+<lb rend="center"/>at <placeName><geogName>Thaba Bossiu</geogName></placeName>
+<lb rend="center"/>Care of <persName><choice><abbr>Rev<hi rend="sup">d</hi></abbr><expan>Reverend</expan></choice> J. Alkinson</persName>
+<lb rend="center"/><placeName><settlement type="town">Colesberg</settlement></placeName>
+</ab> 
+
+	<pb facs="liv_002686_0002" n="0002"/>
+<lb/><p rend="no-indent">Please accept my hearty thanks for your
+<lb/>sketch of the locality where you are stationed
+<lb/>There are many interesting questions connected with
+<lb/>it &amp; every other part of the country &amp; which if
+<lb/>our other duties would allow one would have
+<lb/>much pleasure in investigating. How different
+<lb/>from what it once was &amp; How pleasant
+<lb/>when noble rivers everywhere rolled on their
+<lb/>waters to the sea or inland lakes Last year I
+<lb/>followed the course of one for nearly <measure>40 miles</measure>
+<lb/>It must have been a spacious river &amp; at the
+<lb/>point of junction with a lake I discovered
+<lb/>what might have been expected, a <unclear cert="medium">mou<gap extent="2" unit="chars" agent="blot"/><supplied>nd</supplied></unclear> 
+<lb/><unclear cert="medium"><gap extent="2" unit="chars"/><supplied cert="high">of</supplied></unclear> fluvial deposit, consisting of Tuff  <gap extent="2" unit="chars" agent="blot"/>
+<lb/>well consolidated &amp; containing a heap of
+<lb/>fossils in a beautiful state of preservation
+<lb/>They were standing out on the face of the rock
+<lb/>in relief &amp; the teeth of the animal (apparently
+<lb/>a kind of large <term type="animal">antelope</term>) were so perfect one
+<lb/>could hardly conceive they were <del type="strikethrough"><unclear cert="medium">hon</unclear></del> stone
+<lb/>The radiated structure of the enamel was <unclear>quite</unclear>
+<lb/><unclear>&amp;</unclear> apparent when broken &amp; the little orifice 
+<lb/>for the transmission of the nerve &amp; blood <unclear cert="low">venels</unclear>
+<lb/>was perfectly <unclear cert="low">patent</unclear> &amp; even the <unclear cert="low">taitas</unclear> on
+<lb/>the outside which in <add place="below">^</add> <add place="above">herbivorous</add> animals is usually dark
+<lb/>coloured was as natural as in <unclear cert="medium">the</unclear> recent
+<lb/>subjects. </p> <closer>Mr &amp; Mrs Leinne's affectionate regards to you &amp;c
+<lb/><signed><persName><choice><abbr>D</abbr><expan>David</expan></choice> <choice><orig>Liv<gap extent="3" unit="chars" agent="hole"/><supplied>ing</supplied>ston</orig><reg>Livingstone</reg></choice></persName></signed>
+</closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

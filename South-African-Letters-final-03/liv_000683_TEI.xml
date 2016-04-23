@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000683"><!-- Change @xml:id -->
+<!-- Jared, Angela, please carry over the header changes I suggest in the other file to this one. AW -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Benjamin Pyne, 15 October 1849</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name><!-- Change -->
+                    <resp>Coding review</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Proofing</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<!-- Add here a new full <respStmt>, format as above, for each person who works on the file. -->
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License
+                        </ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5318, Acc. Reg. 4669</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0214</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U3"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Benjamin Pyne, 15 October 1849</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1849-10-15">15 October 1849</date><!-- Change -->
+                    <placeName type="compositionPlace">Kolobeng</placeName><!-- Change -->
+                    <persName type="addressee">Benjamin Pyne</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-03-12" who="#AW">Coding review</change>
+			<change when="2015-03-12" who="#JM">Proofing</change>	
+			 <change when="2015-01-30" who="#AA">XML encoding</change>
+        	<change when="2015-01-22" who="#AW">XML encoding</change>
+            <change when="2015-01-21" who="#AA">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000683_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->          	
+<opener>
+<lb/><dateline rend="right"><placeName><settlement type="village">Kolobeng</settlement></placeName> <date when="1849-10-15">15 October 1849<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --></date></dateline><add place="margintop" rend="right gray small" hand="#U1">MS 8/3</add><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>My very dear Friends</salute><!-- Change line info as appropriate -->
+</opener>
+
+<lb/><p><space extent="4" unit="words"/>I believe I told you in my 
+<lb/>last that I intended to visit a reported Lake in
+<lb/>the regions beyond us. I am happy to say
+<lb/>that after a <measure>1200 miles</measure> trip I have been
+<lb/>permitted to return in safety having seen
+<lb/>the Lake and a people speaking a different
+<lb/>language from the <term type="tribe"><choice><orig>Bechuana</orig><reg>Batswana</reg></choice></term>- After
+<lb/>travelling <measure>300 miles</measure> we struck the beautiful river <placeName><geogName type="river">Zonga</geogName></placeName> and then by winding along
+<lb/>its banks about <measure>300 more</measure> to the westward
+<lb/>we came to the <placeName><geogName type="river">Lake Ngami</geogName></placeName>. The river
+<lb/>is very beautiful indeed - it is subject
+<lb/>to a periodical rise &amp; fall &amp; probably derives
+<lb/>its water from melting snow. It was
+<lb/>rising when <add place="above">we</add> were there &amp; was notwithstanding
+<lb/>perfectly pure - from <measure>50 yards wide</measure> <gap extent="1" unit="words"/><supplied cert="low">where</supplied>
+<lb/>we struck it widened as we ascended till
+<lb/>it was more than a <measure><app><rdg>160</rdg><rdg>100</rdg></app> yards</measure> of deep
+<lb/>water between a broad belt of <term type="plant">reed</term> growing
+<lb/>with shallower parts<space extent="1" unit="chars"/>. <space extent="3" unit="chars"/>great shoals
+<lb/>o<supplied cert="high">f</supplied> <term type="animal">fish</term> come down with the water - 	
+	
+            	
+	<pb facs="liv_000683_0002" n="0002"/>
+<lb/>and the <term type="tribe">Bakoba</term> catch them with nets - they
+<lb/>are darker in complexion than <term type="tribe"><choice><orig>Bechuana</orig><reg>Batswana</reg></choice></term>
+<lb/>and paddle along the Lake &amp; rivers <choice><sic>ajasent</sic><corr>adjacent</corr></choice> in
+<lb/>canoes - I often <unclear><w>sai<subst><del>d</del><add place="over-text">led</add></subst></w></unclear> along in them &amp; visted 
+<lb/>their villages, as the wagon went along the
+<lb/>bank - They seemed to understand the message	
+<lb/>of mercy better than any people I ever spoke	
+<lb/>to for the first time - We all admired the frankness
+<lb/>of their manners - We reached the <term type="tribe"><choice><orig>Bataoana</orig><reg>Batawana</reg></choice></term> on
+<lb/><date when="1849-08-01">the first of August</date> &amp; rode <measure>6 miles</measure> beyond to
+<lb/>the broadest part of the Lake - It presented a
+<lb/>horizon of water to the South South West - so we
+<lb/>could not tell its size <space extent="3" unit="chars"/> it may be <measure>70 miles</measure>
+<lb/>long for a native takes three days to walk
+<lb/>around to the narrow part at the <choice><abbr>Norwest</abbr><expan>North West</expan></choice>	
+<lb/>the banks of the <placeName><geogName type="river">Tonga</geogName></placeName> however with the
+<lb/><placeName><geogName type="river">Tumanakle</geogName></placeName> flowing into it arrested nearly
+<lb/>all my thoughts - they are extremely beautiful
+<lb/>and seem like a navigable highway into
+<lb/>a large section of country - gigantic trees
+<lb/>line their banks - three of these are new
+<lb/>&amp; fruit-bearing - one I saw on the opposite
+<lb/>bank of the <placeName><geogName type="river"><choice><abbr>T.</abbr><expan>Tonga</expan></choice></geogName></placeName>had fruit more than <measure>a foot
+<lb/>long &amp; 3 inches in diameter</measure> hanging from its
+
+	<pb facs="liv_000683_0003" n="0003"/>
+<lb/>branches - the tribes we visted were the <term type="tribe">Bakurutse</term>
+<lb/><term type="tribe">Battelle</term> - <term type="tribe"><choice><orig>Bataoana</orig><reg>Batawana</reg></choice></term> &amp; <term type="tribe">Bakoba</term> - - I wished to visit
+<lb/>a tribe <measure>200 miles</measure> beyond but the <term type="tribe"><choice><orig>Bataoana</orig><reg>Batawana</reg></choice></term>
+<lb/><term type="occupation">chief</term> kept all the canoes at the ford out of our
+<lb/>sight - as it was - I have been absent from
+<lb/>wife &amp; family for 4 months and 10 days.
+<lb/>The gentlemen who came from <placeName><country>England</country></placeName>
+<lb/>to accompany me are passing homewards
+<lb/>I have not time to write you at length
+<lb/>but give you a few lines rather than
+<lb/>none at <choice><sic>at</sic><corr/></choice> all - the <choice><abbr>Noreast</abbr><expan>North East</expan></choice> Extremity
+<lb/>of the Lake is in <measure>20° 20' <choice><abbr>S.</abbr><expan>South</expan></choice></measure> the <choice><abbr>long.</abbr><expan>longitude</expan></choice>
+<lb/>may be 24° <choice><abbr>E.</abbr><expan>East</expan></choice>. <space extent="5" unit="chars"/> I think I told you in <choice><sic>in</sic><corr/></choice>
+<lb/>my last that we had another son. <persName>M<hi rend="sup">rs.</hi> <choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName>
+<lb/>united with me in very kind salutations
+<lb/>to you and your family - May you
+<lb/>enjoy every <unclear cert="medium">needed</unclear> blessing -
+</p>
+
+<!-- If there is a letter or similar with a closer with content such as salute or signed -->
+<closer>
+<lb rend="center"/><salute>affectionately yours</salute><!-- Change as appropriate -->
+<lb rend="right"/><signed><persName><choice><abbr>D</abbr><expan>David</expan></choice> Livingstone</persName></signed><!-- Change as appropriate --> 
+</closer>
+<lb/>
+<postscript>
+<lb/><p>We expect <persName>M<hi rend="sup">r</hi> Freeman</persName> soon</p>
+</postscript>
+
+    </div>
+	<div><!-- New <div> as the address is really a different entity from the letter proper. AW -->           
+ 	
+	<pb facs="liv_000683_0004" n="0004"/>
+<ab><add rend="right gray" hand="#U2"><placeName><geogName type="river">River Za<gap extent="5" unit="chars"/></geogName></placeName></add></ab>
+
+<ab><add place="bottom" rend="right gray" hand="#U3">9<hi rend="sup">00</hi></add></ab>
+<!-- For the U1 and U2 in the @hands above, Angela, see also the change I've made in the physDesc section of the header. AW -->
+
+<cb rend="right vertical upside-down"/><ab><lb/>you must excuse this short letter - <choice><abbr>Do</abbr><expan>Ditto</expan></choice></ab>
+
+<cb rend="left vertical"/>
+<p rend="no-indent"><!-- I've used <p> here as I'm treating the main function of this page being to provide the address, so <p> is the "normal" thing to contain it and so DL's other text above above gets <ab> and upside-down, as I'm deciding that that's a bit of text of unclear purpose on this page since the page is for the address. Does that make sense? AW -->
+<address>
+<addrLine><del type="cancelled">leave of <unclear cert="low">Rio W. Blaly's</unclear> <placeName><settlement type="village">Cape Town</settlement></placeName></del></addrLine>
+<addrLine rend="center"/><addrLine>Benjamin Pyne <unclear cert="low">Asepil</unclear></addrLine>
+<addrLine rend="center"/><addrLine>Wildingtree</addrLine>
+<addrLine rend="right"/><addrLine>Ongas</addrLine>
+<addrLine rend="right"/><addrLine>Essex</addrLine>
+</address>
+</p>
+
+<!-- Several postmarks are scattered on this page, including a large circled 57 in brown ink, an orange postmark that seems to include the year 1850, a black postmark possibly marked Ja 31 1850, two green postmarks with incomplete lettering, and a circular red mark. -AA  -->
+<!--Since this is our first time trying to describe the markings on a page, anyone should feel free to revise the way I did this. You may even be able to read it better than I can. -AA --><!-- We could use one general <figure><figDesc> for postmarks. AW -->
+            	
+            </div>
+        </body>
+    </text>
+
+</TEI>

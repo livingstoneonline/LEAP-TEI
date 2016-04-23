@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002016"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to William Sunley, 25 April 1864</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002016</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5318, Acc. Reg. 4669</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1442</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to William Sunley, 25 April 1864</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1864-04-25">25 April 1864</date><!-- Change -->
+                    <placeName type="compositionPlace">Zanzibar</placeName><!-- Change -->
+                    <persName type="addressee">William Sunley</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-09-29" who="#AW">Coding review</change>
+            <change when="2015-09-26" who="#EM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002016_0001" n="0001"/>
+<opener>
+<lb/><add rend="gray" hand="#U1">5-6-9</add> <add place="above marginright" rend="gray" hand="#U1">ms 8/11</add> <dateline rend="right"><placeName><geogName type="island">Zanzibar</geogName></placeName> <date when="1864-04-25">25 April
+<lb/>1864</date></dateline>
+<lb/>    
+<lb/><salute>My Dear Sunley,</salute>
+</opener>
+
+<lb/><p rend="center">We left <placeName><country><choice><orig><w>Mosam-<lb break="no"/>-bique</w></orig><reg><w>Mozam-
+<lb break="no"/>-bique</w></reg></choice></country></placeName> on <date when="1864-04-16">16<hi rend="sup underline">th</hi></date> and 
+<lb/>arrived here on the
+<lb/><date when="1864-04-23">23<hi rend="sup underline">rd</hi></date> hoping to meet
+<lb/>you, <subst><del><gap extent="1" unit="words" agent="overwriting"/></del><add place="over-text"><gap extent="1" unit="words" agent="illegible"/></add></subst> have
+<lb/>been unfortunate
+<lb/>enough to miss 
+<lb/>you - We set out
+<lb/>with the intention
+<lb/>of calling at <placeName><geogName type="island">Johanna</geogName></placeName> -
+<lb/>- paying the odd <orgName><placeName><geogName type="island">Johanna</geogName></placeName> man</orgName> and
+
+	<pb facs="liv_002016_0002" n="0002"/>
+<lb/><add place="above marginleft" rend="gray" hand="#U1">2</add> and then push on to
+<lb/>this place to which
+<lb/>we heard you had
+<lb/>come - but we made
+<lb/>more leeway than
+<lb/>we expected, and
+<lb/>either that, or the
+<lb/>current swept us,
+<lb/>on the second day,
+<lb/>past the latitude of
+<lb/><placeName><geogName type="island">Johanna</geogName></placeName>, and to
+<lb/>about <measure>70 miles</measure>
+<lb/>west of the south
+<lb/>end of <placeName><geogName type="island">Great Comoro</geogName></placeName>-
+<lb/>We tried to sail to
+<lb/>the east but in
+
+	<pb facs="liv_002016_0003" n="0003"/>
+<lb/><measure>six hours</measure> only <add place="above marginright" rend="gray" hand="#U1">3</add>
+<lb/>made <measure>eight <add place="below">^</add> <add place="above">miles</add></measure> of
+<lb/>Easting - Then
+<lb/>made away for <placeName><geogName type="island">Zanzibar</geogName></placeName> - I knew
+<lb/>that you were very 
+<lb/>anxious to see
+<lb/><persName>Rae</persName>, and I was
+<lb/>very desirous to
+<lb/>confer with you
+<lb/>about the future
+<lb/>but we have
+<lb/>very unluckily
+<lb/>been deprived
+<lb/>of the pleasure -</p>
+
+	<pb facs="liv_002016_0004" n="0004"/>
+<lb/><p><add place="above marginleft" rend="gray" hand="#U1">4</add> I was bringing
+<lb/>a waggon capable
+<lb/>of carrying your 
+<lb/>heavy machinery
+<lb/>and now place it
+<lb/>in <persName>M<hi rend="sup underline">s</hi> De Witte</persName>'s
+<lb/>charge for you -
+<lb/>I have a small
+<lb/>box of medicines
+<lb/>from the <placeName><region>Ariel</region></placeName>
+<lb/>for you and some
+<lb/>seeds from the
+<lb/><placeName><region>Cape</region></placeName> which I put
+<lb/>into the same charge </p>
+<lb/><p><term type="occupation">Captain</term><persName>Frazer</persName>
+
+	<pb facs="liv_002016_0005" n="0005"/>
+<lb/>took the <add place="margintop" rend="gray" hand="#U1">5</add> waggon <add place="above marginright" rend="gray" hand="#U1">MS 8/11</add> instead
+<lb/>of <persName>de Witte</persName> and I
+<lb/>see he has it mounted
+<lb/>I have to hurry away
+<lb/>as fast as possible
+<lb/>on account of
+<lb/>the nearness of the
+<lb/>breaking up of the
+<lb/><seg type="weather">Monsoon</seg>. -</p>
+<lb/><p>I send through
+<lb/><persName>D<hi rend="sup underline">r</hi> Seward</persName> the
+<lb/>sum of £18 for 
+<lb/>the <placeName><geogName type="island">Johanna</geogName></placeName> man
+<lb/>left unpaid -
+<lb/>It is rather more
+
+	<pb facs="liv_002016_0006" n="0006"/>
+<lb/><add place="above marginleft" rend="gray" hand="#U1">6</add> than his due as
+<lb/>he had advances
+<lb/>but he may
+<lb/>have it.</p>
+<lb/><p>The loss of <persName>Rae</persName>
+<lb/>is a disadvantage
+<lb/>to me but I hope
+<lb/>he will be all
+<lb/>you wish - &amp; that
+<lb/>your undertaking
+<lb/>will prosper - </p>
+
+<closer>
+<lb/><salute>Ever yours</salute><!-- Change as appropriate -->
+<lb/><signed><persName>David Livingstone</persName></signed><!-- Change as appropriate --> 
+</closer>
+
+            </div>
+			<div>
+
+	<pb facs="liv_002016_0007" n="0007"/>
+<!-- Blank Page -->
+
+	<pb facs="liv_002016_0008" n="0008"/>
+	<note>
+	<add hand="#U2">
+<lb rend="right"/><date when="1864-04-23">23 April 1864</date>
+<lb rend="right"/><persName>Livingstone</persName>
+<lb rend="right"/>Rec<hi rend="sup">d</hi> <date when="1864-07-18">18 July</date>            
+<lb rend="right"/><gap extent="1" unit="words" agent="illegible"/> 27 <gap extent="1" unit="words" agent="illegible"/>
+	</add>
+	</note>
+
+			</div>
+        </body>
+    </text>
+
+</TEI>

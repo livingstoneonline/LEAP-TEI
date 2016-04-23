@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://jamescummings.github.io/LEAP/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000758"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Mary Livingstone, 28 May 1852</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                	<resp>Coding review</resp>
+				</respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000758</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 20</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0280</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Mary Livingstone, 28 May 1852</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1852-05-28">28 May 1852</date><!-- Change -->
+                    <placeName type="compositionPlace">Cape Town</placeName><!-- Change -->
+                    <persName type="addressee">Livingstone, Mary, 1821-1862</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-09-16" who="#AW">Additional corrections</change>
+			<change when="2015-09-14" who="#AW">Coding review</change>
+            <change when="2015-09-14" who="#AA">XML encoding</change>
+        	<change when="2015-08-21" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000758_0001" n="0001"/>
+<opener>
+<lb/><dateline rend="center"><choice><abbr>No</abbr><expan>Number</expan></choice>4 <placeName><settlement type="town">Cape Town</settlement></placeName> <date when="1852-05-28">28 <hi rend="sup">th</hi> May 1852</date></dateline></opener>
+<lb/>
+<lb/><salute>My ever dear <persName>Mary</persName></salute>
+<lb/><p><space extent="16" unit="chars"/>This is the last note I can write
+<lb/>you <gap extent="2" unit="chars" agent="blot"/> <placeName><settlement type="town">Cape Town</settlement></placeName> for I must go off tomorrow morning
+<lb/>the waggon went off on <date when="1852-05-25"><choice><sic>tuesday</sic><corr>Tuesday</corr></choice></date> and this is <date when="1852-05-28"><choice><sic>friday</sic><corr>Friday</corr></choice></date>
+<lb/>I spend <date when="1852-05-25"><choice><sic>tuesday</sic><corr>Tuesday</corr></choice></date> at the <placeName><settlement type="village">Paarl</settlement></placeName> &amp; on <date when="1852-05-30"><choice><sic>sunday</sic><corr>Sunday</corr></choice></date> go on
+<lb/>after the waggon on <term type="animal">horse</term>back. I have been bidding
+<lb/>farewell to several - as the <persName>Stapleton</persName>s, <persName>Maclear</persName>
+<lb/><persName>Hofmeyer</persName> &amp;c today we go out to <persName>Mr <w>Ruthe<subst><del>f</del><add place="over-text">r</add></subst>ford</w></persName>'s
+<lb/>to dine. I told old <persName>Lady Hofmeyer</persName> when she invited
+<lb/>you to come back to her house with your youngest
+<lb/>child that perhaps you might have two youngest
+<lb/>for you always began about six months
+<lb/>after the other even although you were suckling
+<lb/>I mentioned this that you may not be suspected
+<lb/>there should you go to her - <space extent="1" unit="chars"/>She said that could
+<lb/>she know beforehand of your coming she
+<lb/>would let you have a bedroom opening
+<lb/>off into the stoep. A large one and you would
+<lb/>board with her if she were alive. She sends
+<lb/>lots of salutations to you.</p>
+<lb/><p><space extent="7" unit="chars"/>We heard <date when="1852-05-27">yesterday</date> from <placeName><settlement type="village">Kuruman</settlement></placeName>
+<lb/>they are apparently all well - they are sending
+    
+    <pb facs="liv_000758_0002" n="0002"/>
+<lb/>for a grave stone for <persName>Mr Hamilton</persName> - And they
+<lb/>mention that <persName>Sechele</persName> has sent out <persName>Sebele</persName>, <persName>Ope
+<lb/><app><rdg>Balirileñ</rdg><rdg>Malirileñ</rdg></app></persName> and <persName><app><rdg>Kireleolechve</rdg><rdg>Kireleolechoe</rdg></app></persName> to the old couple
+<lb/>to be educated - He sent them out in his
+<lb/>own waggon of course - although they were
+<lb/>forbidden to be brought on account of
+<lb/><persName>Moyle</persName>'s affair - <space extent="1" unit="chars"/>He promises to restore
+<lb/>all <persName>Moyle</persName>'s things when he comes - <space extent="1" unit="chars"/>This is so
+<lb/>far good. Several <bibl>letters</bibl> had passed between
+<lb/><persName>Sechele</persName> and Father. It was only a hastily
+<lb/>written <bibl>letter</bibl> to <persName>M<hi rend="sup">r</hi> Thompson</persName> - They believe
+<lb/>that I am near the <placeName><geogName type="river">Orange river</geogName></placeName>.</p>
+<lb/><p><space extent="5" unit="chars"/>I wrote you <bibl>two long letters</bibl> or rather
+<lb/>one long one for yourself and another
+<lb/>containing <bibl>three little letters</bibl> for the children
+<lb/>They go by the same mail as this and
+<lb/>two daguerrotypes <!--Just curious...do we know which ones? -AA--> go by a private hand
+<lb/>a <persName>M<hi rend="sup underline">r</hi> De Schmidt</persName> of <placeName><settlement type="town">Cape Town</settlement></placeName> - They
+<lb/>are to be left at the <orgName>Mission House</orgName> to the
+<lb/>care of either <persName>M<hi rend="sup underline">r</hi> Beal</persName> or to <persName>D<hi rend="sup underline">r</hi> Tidman</persName> 
+<lb/>they are in a small parcel wrapped in brown <add place="below">paper</add></p>
+                
+    <pb facs="liv_000758_0003" n="0003"/>
+<lb/><p>You left your Tartan gown with me. A child's cap &amp;
+<lb/>some other things not necessary for me. When you
+<lb/>write please number your letters so that I may know
+<lb/>whether any are lost this is <choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 4. of mine - Put the
+<lb/>numbers at the beginning - Give each of the children
+<lb/>my love and a kiss for me, tell them I love them
+<lb/>still though they are far from me, and though I have
+<lb/>parted with them I still love them and will pray for
+<lb/>them, but they must pray for themselves and for
+<lb/>me. <space extent="1" unit="chars"/>And they must all learn to read &amp; write &amp;
+<lb/>then write <bibl>letters</bibl> to me - A servant of <persName>M<hi rend="sup underline">r</hi> Rutherfoord</persName>
+<lb/>wishes to go along with <persName>George</persName> but I fear he will
+<lb/>tire long before he gets there. He seems an Eng<gap extent="7" unit="chars" agent="hole"/><supplied cert="high">lishman</supplied>
+<lb/>We heard today of <persName>M<hi rend="sup underline">r</hi> <choice><sic>Oswel</sic><corr>Oswell</corr></choice></persName> having touched at
+<lb/><placeName><country>Sierra Leone</country></placeName> and that he admired the place
+<lb/>very much. - I have put a great deal down to the
+<lb/><orgName>Society</orgName>, yet I am nearly two years ahead. <persName>M<hi rend="sup underline">r</hi> Thompson</persName>
+<lb/>does all he can to make the sum less. You will need
+<lb/>to take care how you appear and what you say
+<lb/>to croakers who croak against the <orgName>Directors</orgName>. If you
+<lb/>see <persName>M<hi rend="sup underline">r</hi> <choice><sic>Oswel</sic><corr>Oswell</corr></choice></persName> ask him to give you of me a daguerrotype
+<lb/>of himself - This <orgName>Caffre</orgName> war goes on comfortably as usual
+<lb/>I got as much powder as I needed from the<persName><term type="occupation">Lieutenant
+<lb/>Governor</term></persName> - Please when you send the <bibl>map</bibl> to <persName><term type="occupation">Professor</term> 
+<lb/>Buchanan</persName> of <placeName><settlement type="city">Glasgow</settlement></placeName> send also a copy of the <bibl>notes</bibl> as
+<lb/>a loan - You might <choice><orig>shew</orig><reg>show</reg></choice> one to <persName>D<hi rend="sup underline">r</hi> Tidman</persName> too if he has
+<lb/>not seen it - <persName><term type="occupation">Professor</term> Buchanan</persName> may help
+    
+    <pb facs="liv_000758_0004" n="0004"/>
+<lb/>us in the event of anyone of our children going to college
+<lb/><choice><sic>Dont</sic><corr>Don't</corr></choice> let the children speak Scotch, nor aspirate the words
+<lb/>as the <term type="people">English</term> do. The hegg of a 'enn</p> <!--Does this phrase need to be coded in any way? Also, possibly an interesting tweet? -AA --><!-- the egg of a hen. EM -->
+<lb/><p><space extent="18" unit="chars"/><bibl>2 letters</bibl> in another envelope by
+<lb/><space extent="18" unit="chars"/>same mail</p>
+
+<cb rend="vertical"/>
+<ab>
+<address>
+<addrLine><hi rend="underline">Prepaid</hi></addrLine>
+<addrLine rend="center"><persName>M<hi rend="sup underline">rs</hi> <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></addrLine>
+<addrLine rend="center">Care of <persName><term type="occupation"><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice></term> Dr. Tidman </persName></addrLine>
+<addrLine rend="right"><placeName>Mission House</placeName></addrLine>
+<addrLine rend="right"><placeName>Blomfield <choice><abbr>St.</abbr><expan>Street</expan></choice></placeName></addrLine>
+<addrLine rend="right"><placeName><settlement type="city">London</settlement></placeName></addrLine>
+</address><!-- 4 Postal Marks and red squiggles EM-->
+</ab> 
+
+<cb/>
+<lb/><p>Farewell my dearest my own sweet love
+<lb/>When shall I see you again. I shall write
+<lb/>you from <placeName><geogName type="falls">Victoria</geogName></placeName> perhaps or certainly
+<lb/>from <placeName><settlement type="village">Kuruman</settlement></placeName>.</p> <closer>God bless &amp; comfort
+<lb/>you love to the children. <signed><persName><choice><abbr>D</abbr><expan>David</expan></choice> <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></signed></closer>
+
+                
+            </div>
+        </body>
+    </text>
+
+</TEI>

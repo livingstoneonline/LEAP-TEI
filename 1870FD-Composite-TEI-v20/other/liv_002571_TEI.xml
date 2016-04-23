@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002571">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to John Kirk, 14 May 1871</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2015</date>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/"> All materials are licensed for
+						use under the <ref target="https://creativecommons.org/licenses/by-nc/3.0/"> Creative Commons
+						Attribution-Noncommercial 3.0 Unported License </ref>. (c) Dr. Neil Imray Livingstone Wilson, 2014
+					</licence>
+				</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno type="shelfmark">MS.10768, f. 81</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1970</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab>Written over:
+                                <biblStruct>
+                                    <monogr>
+                                        <title level="j">Sheet of paper used by John Kirk to wrap quinine sent to Livingstone, recto</title>
+                                        <imprint>
+                                            <biblScope></biblScope>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </ab>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="JK"><label>John Kirk</label></handNote>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to John Kirk, 14 May 1871</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1871-05-14">14 May 1871</date>
+                    <placeName type="compositionPlace">Nyangwe</placeName>
+                    <persName type="addressee">John Kirk</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="mg">Malagasy</language>
+                <language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-02-10" who="#AW">Coding corrections</change>
+			<change when="2015-04-03" who="#AW">Coding Review</change>
+			<change when="2015-02-22" who="#HB">Quality Control and Integration</change>
+            <change when="2015-01-18" who="#AW">Conversion to LEAP Standards</change>
+            <change when="2015-01-17" who="#AK">Proofing and TEI Encoding</change>
+			<change when="2014-12-16" who="#MW">Proofing and TEI Encoding</change>
+			<change when="2011-09-12" who="#AW">Editing</change>
+			<change when="2011-09-12" who="#KS">Proofing</change>
+			<change when="2011-06-04" who="#AW">Initial Transcription and TEI Encoding</change>		
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+<!-- This folio bears the word "Quinine" and the initials "JK" in a second, unknown hand, probably John Kirk's, so I've assumed they're his. AW -->
+
+	<pb facs="liv_002571_0001" n="0001"/>
+<delSpan spanTo="#cancelled"/>
+<lb/><fw><add place="margintop" rend="right" hand="#U1">66</add> <add place="margintop" rend="right" hand="#U2">62</add></fw><space extent="3" unit="chars"/><opener><dateline><date when="1871-05-14">14<hi rend="sup underline">th</hi> May 1871</date></dateline></opener> <p><space extent="3" unit="chars"/><persName>Chakanja</persName> <persName>Ludha</persName>'s <orgName>slave</orgName> and <persName>Juma</persName> <orgName>slave</orgName> <!-- Adrian, there are two numbers above the end of the dateline, 66 and 62, in diff hands, but not sure if should be adding in, and if so, as just a random add hand U or are these fws? HB --><!-- Fixed. AW -->
+<lb/>of <persName>Mamea</persName> ringleaders of mutiny and the loudest in asserting that the
+<lb/><term type="occupation">Consul</term> told him not to go forward <unclear cert="medium">but</unclear> <gap reason="damage" extent="8" unit="chars" agent="blot"/>back - and not to
+<lb/>follow me if I went to a "bad country" demanded leave for 15 days to go &amp; buy
+<lb/><unclear cert="medium">gaudy</unclear> <foreign xml:lang="mg">lambas</foreign> where cheap on our <placeName><region>West</region></placeName> and on my refusing went &amp;
+<lb/>told <persName>Abed</persName> what ample rations they got at <placeName><region>the coast</region></placeName> and now would
+<lb/>leave me - I refused because <persName>Abed</persName> has got a canoe for me - price not
+<lb/>settled as owner is sick - and I sent a party about <measure>six miles off</measure> to examine
+<lb/>another - see the owner - measure it and come back with him if willing for
+<lb/>the price next day - They remained away six days - I could not trust these
+<lb/>ringleaders out of sight so sent other two of the <orgName>slaves</orgName> with <term type="occupation">guides</term> to order
+<lb/>the first party back - These went on with them to kill <term type="tribe">Manyema</term> &amp; they
+<lb/>did kill three men - I told them I would never let them go anywhere unless
+<lb/>I could go myself - a party is going to buy copper as it is smelted near us
+<lb/>They killed a great number who stood in mute amazement at the guns
+<lb/>and their effects - These ringleading worthies in everything that is <space extent="3" unit="chars"/>bad
+<lb/>hope to repeat this bloodshed because they incur no danger &amp;
+<lb/>would get <orgName>slaves</orgName> - I <unclear cert="medium">never imagined</unclear> that <unclear cert="medium">human</unclear> or <term type="faith"><choice><orig>Muhamadan</orig><reg>Muhammadan</reg></choice></term>
+<lb/>nature rather could be so atrociously vile - By the back of this I give
+<lb/>them a dismissal - Twice I refused to go North at <placeName><settlement type="village">Bambarre</settlement></placeName> - then
+<lb/>in the way threw back their rations of beads demanded double though
+<lb/>what I gave was three times more than the <orgName>Arabs</orgName> give their <orgName>slaves</orgName> - I
+<lb/>am glad to get rid of them by their own desire = They <space extent="2" unit="chars"/>got two to follow
+<lb/>them by loud talking of what they get at <placeName><region>the coast</region></placeName> - and they know that
+<lb/>my beads <add place="inspace" hand="#JK" rend="gray"><hi rend="underline large"><term type="medicament">Quinine</term></hi></add> are nearly all at <placeName><settlement type="village">Ujiji</settlement></placeName> - As to wages you will known best
+<lb/>they compelled me to an advance to six dollars at <placeName><settlement type="village">Bambarre</settlement></placeName> - a distinct
+<lb/>breach of their engagement with you</p>
+<lb/><p><space extent="2" unit="chars"/>I am far <add place="inspace" hand="#JK" rend="gray"><hi rend="underline large">JK</hi></add> West - <placeName><geogName type="river">Loeki</geogName></placeName> <unclear cert="high">or</unclear> <placeName><geogName type="river">Lomame</geogName></placeName> is at least <measure>60'</measure> further - very broad
+<lb/>a true <placeName><geogName type="lake">Lake <persName>Lincoln</persName></geogName></placeName> above - When on its West bank we shall be <measure>some six
+<lb/>weeks only from the mouth of the <placeName><geogName type="river">Congo</geogName></placeName></measure> - The people swarming and 
+<lb/>friendly till abused by <term type="animal">blood hounds</term> - They drink a cup of <term type="plant_foodstuff">coffee</term> after each
+<lb/>meal - the trees are abundant - I am to get some - It is well dried in
+<lb/>the <term type="plant_foodstuff">fruit rind</term> - If <persName>Waller</persName> likes to set a trap for <persName>Cooley</persName> he might publish
+<lb/>about my great Westing and draw the author of "<bibl>Inner Africa
+<lb/><hi rend="double-underline">laid</hi> open</bibl>" out among stupidity in thinking <placeName><geogName type="river">Lualaba</geogName></placeName> aught else
+<lb/>but the <placeName><geogName type="river">Congo</geogName></placeName> - Then publish this addendum - you will naturally
+<lb/>if very pigheaded <add place="below">^</add> <add place="above">like the <space extent="3" unit="chars"/>great <space extent="2" unit="chars"/><term type="occupation">apostle</term> of hearsay geography</add> swear I have been following the <placeName><geogName type="river">Congo</geogName></placeName> instead of the
+<lb/><placeName><geogName type="river">Nile</geogName></placeName> but here the mighty river takes a sweep towards <placeName><region>the East</region></placeName> - <unclear cert="high">takes</unclear> <!-- geog: Nile -->
+<lb/>in the <placeName><geogName type="river">Lomame</geogName></placeName> and becomes more grand than ever <measure><measure>6</measure> or <measure>8 miles broad</measure></measure>
+<lb/>with many very great inhabited islands in it before it joins or <choice><sic>recieves</sic><corr>receives</corr></choice>
+<lb/>the <hi rend="underline"><placeName><geogName type="lake">Kiziwa</geogName></placeName></hi> which might be <placeName><geogName type="lake">Lake Albert</geogName></placeName> - Ivory is like grass - This
+<lb/>is great news for <orgName><choice><orig>Suaheli</orig><reg>Swahili</reg></choice></orgName> &amp; at 2 rings of copper a tusk - I wish that
+<lb/>license were refused to all the <orgName><choice><sic><term type="occupation">Sultan</term>s</sic><corr><term type="occupation">Sultan</term>'s</corr></choice> subjects</orgName> for <placeName><region>Interior</region></placeName> trade
+<lb/>who are guilty of bloodshed causelessly</p> <closer><signed><persName>David Livingstone</persName></signed></closer><anchor xml:id="cancelled"/><!--I can't figure out why it doesn't like "signed" here.  I tried "closer," too. MW--> <!-- Ditto on this! -AK--><!-- Fixed. AW -->
+                
+            </div> 
+        </body>
+    </text>
+
+</TEI>

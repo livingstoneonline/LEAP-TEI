@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000839">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Edmund Gabriel, 5, 18, 20, 23 January 1855</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="MB">
+                    <name>Mary Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_000839</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country>
+                        <settlement>Johannesburg</settlement>
+                        <repository>Brenthurst Library</repository>
+                        <idno type="shelfmark">Book no. 6754</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0359</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Edmund Gabriel, 5, 18, 20, 23 January 1855</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1855-01-05">5 January 1855</date>
+                    <placeName type="compositionPlace">Malange-Cassange</placeName>
+                    <persName type="addressee">Gabriel, Edmund, 1821-1862</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+				<language ident="pt">Portuguese</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <!-- Integration -->
+			<change when="2016-02-25" who="#HB">Quality Control and Integration</change>
+            <!-- 0035 -->
+			<change when="2016-02-24" who="#AW">Final Coding Review</change>
+			<change when="2016-02-24" who="#MB">Proofing</change>
+			<change when="2016-02-19" who="#AW">Light Coding Review</change>
+			<change when="2016-02-17" who="#EM">Initial Transcription and TEI Encoding, pp. 35-40</change>
+            <!-- 0028 -->
+			<change when="2016-02-10" who="#AW">Coding Review</change>
+			<change when="2016-02-09" who="#EM">Proofing, pp. 28-34</change>
+			<change when="2016-01-18" who="#MB">Initial Transcription and TEI Encoding, pp. 28-34</change>
+            <!-- 0021 -->
+			<change when="2016-02-10" who="#AW">Coding Review</change>
+			<change when="2016-02-06" who="#EM">Proofing</change>
+			<change when="2016-01-25" who="#AW">Light Coding Review</change>
+			<change when="2016-01-18" who="#MB">Initial Transcription and TEI Encoding, pp. 21-27</change>
+            <!-- 0011 -->
+			<change when="2016-02-05" who="#AW">Final Coding Review</change>
+			<change when="2016-02-03" who="#EM">Proofing</change>
+			<change when="2016-01-19" who="#AW">Light Coding Review</change>
+            <change when="2016-01-18" who="#MB">Initial Transcription and TEI Encoding, pp. 11-20</change>
+            <!-- 0001 -->
+			<change when="2016-01-27" who="#AW">Coding review</change>
+			<change when="2016-01-25" who="#EM">Proofing</change>
+            <change when="2016-01-20" who="#JM">Initial Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+    <!-- jm, em, aw -->
+
+    <pb facs="liv_000839_0001" n="0001"/>
+    <opener>
+<lb/><metamark/><add place="margintop" hand="#U">1</add><!-- This number is circled. EM --> <dateline rend="right"><placeName><settlement type="village">Malange</settlement></placeName> <date when="1855-01-05">5<hi rend="sup underline">th</hi></date></dateline>
+<lb/><dateline rend="right">1855</dateline>
+<lb/><salute>My Dear <persName>M<hi rend="sup underline">r</hi> Gabriel</persName></salute>
+</opener>
+<lb rend="center"/><p>That I may not again <!-- Changed this from a space tag to lb rend center as that's how we've been coding. HB -->
+<lb/>be in the sorry plight of scratching a few
+<lb/><unclear cert="medium">trivial</unclear> sentences on paper during the
+<lb/>last moments previous to my own
+<lb/>or the mail's departure I have
+<lb/>resolved to devote a little time to you
+<lb/>now. <space extent="6" unit="chars"/>And first of all I may
+<lb/>mention that I left for your address, 
+<lb/><persName>Mr <unclear cert="low">Schmit</unclear></persName>'s <unclear cert="high">tepoia</unclear> and some odds &amp;
+<lb/>ends I had picked up, in charge of 
+<lb/><persName>Mr Pires</persName> of <placeName><settlement type="town">Punto Andongo</settlement></placeName> who
+<lb/>promised to forward all with care
+<lb/>I delivered also <bibl>a packet</bibl> into his care, 
+<lb/><hi rend="left">consisting</hi> of <bibl>a letter and note for <persName>Sir <choice><abbr>R.</abbr><expan>Roderick</expan></choice> Murchison</persName></bibl>
+<lb/>with a rough copy of the same
+        
+    <pb facs="liv_000839_0002" n="0002"/>
+<lb/>Also a short note for yourself. There
+<lb/>were a few specimens of the rocks
+<lb/>of <placeName><settlement type="town">Punto Andongo</settlement></placeName> but it being very
+<lb/>difficult if not impossible to get
+<lb/>a piece in which all the rocks are
+<lb/>embodied I had to select such only
+<lb/>as would convey to you an idea
+<lb/>of the great <unclear cert="medium">masses</unclear> of conglomerate
+<lb/>which form the famous <placeName>Pedras</placeName> <!-- Is this a mountain of some sort, or other geogName? HB -->
+<lb/>There are different kinds of <unclear cert="medium">porphyries</unclear><!-- Fixed. EM -->
+<lb/>also gneiss, granite syemite or <!-- Changed unclear greiss to gneiss, as that is a form of rock we've encountered in other transcriptions. HB -->
+<lb/>the granite of which the <term type="people">Egyptians</term>
+<lb/>made so much use in their
+<lb/>sculpture - <add place="below">^</add> <add place="above">sandstone</add> - schist in humps and
+<lb/>stratified clay schist and a pulverulent<!-- I cannot make out this word. JM --><!-- Figured it out. EM -->
+<lb/>light coloured rock containing silica &amp;
+<lb/>something else. <unclear cert="high">quartzite</unclear> coloured green
+<lb/><unclear cert="low">greyneoeke</unclear> &amp;c &amp;c. all rounded and
+<lb/>water worn as you will see
+    
+    <pb facs="liv_000839_0003" n="0003"/>
+<lb/>in the specimens. Indeed to look at the rocks
+<lb/>they resemble gigantic bauks of shingle <!-- Not sure what bauks is here, as I found definitions of both Serbian and Scottish origin, neither seeming to really fit this case? HB -->
+<lb/>stuck in a matrix hard bluish pale
+<lb/>red sandstone - suck bauks are seen <!-- Again, bauks, and is this six not suck? HB -->
+<lb/>near <placeName><settlement type="village">Kolobeng</settlement></placeName> but only 2 <choice><abbr>yds</abbr><expan>yards</expan></choice> thick
+<lb/>Here they are about 300 or 400 feet in 
+<lb/>perpendicular diameter and rest on 
+<lb/>horizontal strata of the rock which
+<lb/>forms the matrix. In strata
+<lb/>however and forming the earth's
+<lb/><unclear cert="high">crust</unclear> down to the <placeName><geogName type="river">Coanya</geogName></placeName> southwards
+<lb/>and <measure>20 miles</measure> East of <placeName><settlement type="town">Pungo</settlement></placeName>. It
+<lb/>has only a few pebbles in it these
+<lb/>gradually become smaller as we go
+<lb/>East until it is entirely a sandstone
+<lb/>rock. It would take a week to
+<lb/>collect all the varieties of rock in
+<lb/>the conglomerate of <placeName><settlement type="town">Pungo</settlement></placeName>. I <w>def<del type="strikethrough">f</del>erred</w>
+<lb/>my excursion to the last partly
+    
+    <pb facs="liv_000839_0004" n="0004"/>
+<lb/>in consequence of <term type="ailment">fever</term> and partly
+<lb/>from being engaged in rewriting. 
+<lb/>You must come and geologize yourself
+<lb/>I intended to examine the iron said
+<lb/>to exist but only saw broken 
+<lb/><unclear cert="high">Haematite</unclear><!-- Fixed. EM --> and an ore very much
+<lb/>like Litaniferous iron ore only it is
+<lb/>not magnetic. The <term type="people">Portuguese</term> think
+<lb/>the <placeName>Pedras</placeName> are the result of volcanic <!-- Again, what geogName is Pedras? HB -->
+<lb/>influence but I doubt the idea
+<lb/>The rocks lie in lines running
+<lb/><choice><abbr>N</abbr><expan>North</expan></choice> and <choice><abbr>S.</abbr><expan>South</expan></choice> nearly and present the
+<lb/>appearance of having been left as
+<lb/>they are by denudation A more
+<lb/>extended examination however is
+<lb/>necessary and I hope you will
+<lb/>have health one day to perform it.</p>
+<lb/><p>With respect to the plants sent
+<lb/>you will see some true <placeName><region>Cape</region></placeName> <term type="plant">bulbs</term></p>
+        
+    <pb facs="liv_000839_0005" n="0005"/>
+<lb/><p><add place="above"><choice><abbr>2<hi rend="sup">d</hi></abbr><expan>second</expan></choice> sheet</add></p>
+<lb/><p>The seeds are wrapped up <w><choice><orig>higglety piglety</orig><reg>higgledy pigledy</reg></choice> 
+<lb break="no"/>-wise</w>, but you will notice two <term type="plant_foodstuff">fruits</term>
+<lb/>which if I mistake not are among
+<lb/>our best <term type="plant_foodstuff">wild fruits</term> on the <placeName><geogName type="river">Zambesi</geogName></placeName>
+<lb/>They are nearly ripe and may vegetate
+<lb/>some bulbs wrapped up in grass
+<lb/>Will show you a species of flower
+<lb/>which abounds but of different
+<lb/>colours and sizes all the way to
+<lb/><placeName><settlement type="village">Kolobeng</settlement></placeName>. I have heard it called
+<lb/><foreign xml:lang="und"><term type="plant">"Watsonia"</term></foreign> x<anchor xml:id="marginadd-1"/><!-- There is an x symbol here. JM --><!-- Indicating the note to the side. EM --> The specimens sent are
+<lb/>tied to the pole of the <unclear cert="high">Tepoia</unclear> and the
+<lb/>colours are very lovely. I had not
+<lb/>time to put up <term type="plant">wild vines</term> but
+<lb/><persName>Mr Pires</persName> promised to send one of
+<lb/>each variety. The country is literally
+<lb/>laden with other <term type="plant_foodstuff">fruit</term> or flowers
+<lb/>presenting a <unclear cert="medium">curious</unclear> contrast to</p>
+
+<cb rend="vertical"/><note><add place="marginleft" corresp="#marginadd-1">Have seen <foreign xml:lang="und"><term type="plant">Watsonia</term></foreign> since. it is different</add></note>
+        
+    <pb facs="liv_000839_0006" n="0006"/>
+<lb/><p>the <term type="plant">vines</term> of <placeName><country>Portugal</country></placeName> and <placeName><country>Trinidad</country></placeName>
+<lb/>which are now reported to be perishing
+<lb/>by the disease. If I were in a position
+<lb/>proper for it I have a lot of experiments
+<lb/>in my head for them, but I suspect
+<lb/>my first permanent possession will
+<lb/>be in the narrow house with the "<unclear cert="medium"><choice><sic>clods</sic><corr>clouds</corr></choice></unclear>
+<lb/>of the valley over me" I sit on the <term type="animal">ox</term>
+<lb/>and think till the sun permits neither
+<lb/>thinking nor travelling. My poor
+<lb/><unclear cert="medium"><persName>Bucephalus</persName></unclear> <!-- This appears to be someone's name. JM --><!-- I think this is a person. AW --> is none the better of his
+<lb/>sojourn at <placeName><settlement type="village">Ambaca</settlement></placeName> and <placeName><settlement type="village">Pitsanes</settlement></placeName>,
+<lb/>a perfect nonesuch, had become
+<lb/>so lean and haggard a <orgName>council of
+<lb/>war</orgName> decided <date when="1855-01-04">yesterday</date> that he must <!-- Adrian, I think that date is correct but pls check. HB -->
+<lb/>be killed in order to save his (life)
+<lb/><unclear cert="medium"><choice><orig>carcase</orig><reg>carcass</reg></choice></unclear>. Yet my <!-- I cannot make out this word. JM --><!-- I guessed that he meant 'carcass' and corrected it as such. EM --> preserves
+<lb/>his mental peculiarities entire. I never
+<lb/>could keep an umbrella up without
+        
+    <pb facs="liv_000839_0007" n="0007"/>
+<lb/>imminent risk of a tumble. He has the 
+<lb/>aversion to my reading <bibl>Punch</bibl>
+<lb/>although I take it quietly out of my 
+<lb/>pocket trying to prevent him seeing it
+<lb/>If he carries me back to the <placeName><geogName type="river">Zambesi</geogName></placeName>
+<lb/>I must write his biography and get
+<lb/>the <term type="occupation">Poet</term> Laureate <persName>Tennyson</persName> *<anchor xml:id="marginadd-2"/><!-- There is an x here, functioning as an asterisk, drawing attention to the vertical note in the left-hand margin. JM --> to make
+    
+<cb rend="vertical"/><!-- The corresponding x is located in the left-margin, prececing the following note. JM --><add place="marginleft" corresp="#marginadd-2">or the author of <bibl>Dido Pigmen</bibl>, <persName>Arsenio</persName></add> <!-- A Portuguese book published in 1853. JM -->
+
+<lb/>an epitaph for him.</p> <!-- Adrian, not sure if the biography and epitaph were written, but if so they should be tagged as bibls. HB -->
+<lb/><p>Among notices which I have seen
+<lb/>in ><bibl>the newspapers</bibl> are the following which 
+<lb/>may have escaped your observation.</p>
+<lb/><p><term type="occupation">Assistant Surgeon</term> <persName>John T. Gabriel</persName> 
+<lb/>confined to the Victory <!-- I am not sure what the Victory is. JM --><!-- Ditto. EM --><!-- Sounds like a ship. AW --> (101) <placeName><settlement type="town">Portsmouth</settlement></placeName>. 
+<lb/>I suppose this is your cousin, the
+<lb/>name not being very common.</p>
+<lb/><p>A new society under the auspices
+<lb/>of the <persName>Duke of Wellington</persName> &amp;c &amp;c for
+<lb/>"the exploration of <placeName><bloc>Africa</bloc></placeName> with a view
+
+    <pb facs="liv_000839_0008" n="0008"/>
+<lb/>to its evagelization" I imagine this must
+<lb/>be in aid of <persName>D<hi rend="sup underline">r</hi> Krapf</persName> on the <placeName><region>Eastern side</region></placeName></p>
+<lb/><p>A dinner or other feed took place down
+<lb/>the <placeName><geogName type="river">Thames</geogName></placeName> somewhere in which <persName>Sir <choice><abbr>R.</abbr><expan>Roderick</expan></choice>
+<lb/>Murchison</persName> took a prominent part,
+<lb/>announcing that in the evening before <!-- Not sure what this date would be...still in January or earlier? HB -->
+<lb/>£500 had been awarded by <orgName>Parliament</orgName>
+<lb/>to the <orgName>Royal Geographical Society</orgName>.</p>
+<lb/><p><persName><term type="occupation"><choice><abbr>Lieut<hi rend="sup underline">t</hi></abbr><expan>Lieutenant</expan></choice> Colonel</term> Steele</persName> commended by
+<lb/><persName>Lord <unclear cert="medium">Raglan</unclear></persName> in his <bibl>dispatch</bibl>. I suppose <!-- DL tends to spell this despatch, so can we check copy? HB --><!-- Also Adrian, we need to address (possibly again if we already have and I've forgotten) if titles like Lord and Duke are tagged as occupations, and if so whether the term type occupation is within the persName tag or separate. HB -->
+<lb/>it will ensure further promotion. He
+<lb/>wrote several times to me in this strain
+<lb/>"If you require anything be sure and
+<lb/>tell me, for I wish to serve you with
+<lb/>my purse. I really mean what I say."
+<lb/>I never needed to make a call for his
+<lb/>assistance but his generous offers made
+<lb/>and makes my heart warm to him &amp;
+<lb/>I pray God to be his shield in the day of battle.</p>
+        
+    <pb facs="liv_000839_0009" n="0009"/>
+<lb/><p><add place="margintop" rend="left"><choice><abbr>3<hi rend="sup">d</hi></abbr><expan>third</expan></choice> sheet</add>
+<lb/>The road from <placeName><settlement type="town">Pungo Andongo</settlement></placeName> to <placeName><settlement type="town">Lombe</settlement></placeName>
+<lb/>runs along the bank of the <placeName><geogName type="river">Coanya</geogName></placeName> and
+<lb/>the <unclear cert="high">straggling</unclear> forest gives the exact picture
+<lb/>of the country near the <placeName><region>Casai</region></placeName> or <placeName><region>Kasye</region></placeName>
+<lb/>most of the trees are identical. <measure>A few
+<lb/>miles</measure> from <placeName><geogName type="river">Lombe</geogName></placeName> there is a fine <placeName><geogName type="waterfall">fall
+<lb/>of the <placeName><geogName type="river">Coanya</geogName></placeName></geogName></placeName> as deep as your house
+<lb/>I did not go to see it because I had
+<lb/>no one to admire it with me. <persName>Mr. Pires</persName>
+<lb/>has a house at <placeName><geogName type="river">Lombe</geogName></placeName> and one half
+<lb/>way there. I would recommend you
+<lb/>to come as far as the water fall.</p> <!-- geog: Coanya -->
+<lb/><p><persName>M<hi rend="sup underline">r</hi> Canto</persName> thinks if the <term type="occupation">Governor</term> does
+<lb/>not know of the affair of the <orgName>slaves</orgName>
+<lb/><persName>Mr Possoulo</persName> the <term type="occupation">secretary</term> may have
+<lb/>kept back <bibl>his letter to the <term type="occupation">Governor</term></bibl> for
+<lb/>a consideration. <persName>Mr <choice><abbr>C.</abbr><expan>Canto</expan></choice></persName> commences a
+<lb/>process too, against the <term type="occupation"><orgName>slave</orgName> driver</term> but
+<lb/>if that fails can do no more.</p>
+         
+    <pb facs="liv_000839_0010" n="0010"/>
+<lb/><p>You may <unclear cert="high">observe</unclear> in <bibl>my letter to <persName>Sir <choice><abbr>R.</abbr><expan>Roderick</expan></choice> <choice><abbr>M.</abbr><expan>Murchison</expan></choice></persName></bibl>
+<lb/>I allude to some geographical information having
+<lb/>been sent to <placeName><country>Germany</country></placeName>. <persName>Dr. <unclear cert="medium">Welwatsch</unclear></persName> told me
+<lb/>he had written to <orgName>Berghaus</orgName>, the <term type="occupation">publisher</term> of a
+<lb/><bibl>very good map</bibl> on <placeName><bloc>Africa</bloc></placeName>, an account of <!-- Adrian, does this account warrant a bibl tag? HB -->
+<lb/>my journey, he did so after he had got a
+<lb/>sketch, had I known sooner he would have
+<lb/>been minus that. <space extent="4" unit="chars"/>In connection with
+<lb/>this subject I may mention as fine
+<lb/>a case of a man turning himself "inside
+<lb/>out" as I have met in <placeName><bloc>Africa</bloc></placeName>. When at
+<lb/><placeName><settlement type="village">Massangano</settlement></placeName> my friend <persName>Mr Condido Coata</persName>
+<lb/>volunteered to take down the observations
+<lb/>for altitude of the sun as I made them. I
+<lb/>turned down a blank page and having to
+<lb/>wait for <seg type="weather">the passage of a cloud</seg>. I saw
+<lb/>him turn over and look at the Longitude
+<lb/>of <placeName>Golungo Alto</placeName> as I then had it <measure>14° 52' 30"</measure>
+<lb/>and that of his own house. <measure>14° 52'</measure> when
+<lb/>he saw I had detected him his face
+<lb/>assumed the confused look common
+<lb/>when guilt is felt. As I had previously
+<lb/>resolved to give him some Latitudes
+
+    <!-- mb, aw, em, aw -->
+
+	<pb facs="liv_000839_0011" n="0011"/>
+<lb/>and Longitudes <space extent="2" unit="chars"/>I did not feel annoyed more
+<lb/>than that he might have waited my pleasure
+<lb/>Well, from feelings of pity and a wish 
+<lb/>to enable him to make a good <bibl>map</bibl> I
+<lb/>gave him a number of paints, but not
+<lb/>being quite satisfied with <placeName><settlement>Golungo Alto</settlement></placeName>
+<lb/>I reserved at for further observations
+<lb/>From a short glance I had of his <bibl>map</bibl>
+<lb/>I perceived it was enormously wrong <!-- DL frequently misspells perceive, so can we check copy to confirm? HB -->
+<lb/>I had a feeling of compassion for he
+<lb/>had evidently laboured hard upon it
+<lb/><placeName><settlement>Cassange</settlement></placeName> for instance was considerably
+<lb/>more than <measure>120 miles</measure> too far North
+<lb/>and many other places were equally 
+<lb/>misplaced, so I recommended to begin
+<lb/>again and measure from the points
+<lb/>I had given- all <space extent="2" unit="chars"/>I expected or wished
+<lb/>being to acknowledge whence these
+<lb/>points had been derived. <space extent="2" unit="chars"/>When I reached
+<lb/><placeName><settlement>Golungo</settlement></placeName> and had made additional
+<lb/>observations I wrote him and gave
+<lb/><subst><del><gap extent="1" unit="chars"/></del><add place="over-text">some</add></subst> hints as to his measurements
+
+	<pb facs="liv_000839_0012" n="0012"/>
+<lb/>if in a hilly country to make allowances for the greater distance traveled over-
+<lb/><figure><figDesc>Two hills with a dotted line running over the top of each.</figDesc></figure> the dotted line or path being much
+<lb/>longer than the straight line or actual distance
+<lb/>which alone can be put into a map.
+<lb/>also to watch whether a path in a hilly
+<lb/>country ran in a valley. If so the distance
+<lb/>is the same as if on a plain &amp;c &amp;c- for
+<lb/>these hints he is duly thankful, but the 
+<lb/>laughable part is when he tells me that
+<lb/>by "his calculation <placeName><settlement><w>Gol<gap extent="1" unit="chars"/>ungo</w> Alto</settlement></placeName> stands
+<lb/>in <measure>14° 57.30<add place="above">"</add> &amp; his own house in 14° 52' <hi rend="underline">30"
+<lb/>and Oeiras<!-- usure what this word is. - referring to Oeiras, Portugal? MB --><!-- ? but word looks OK. AW --> 14° 43' 40</hi>"" <space extent="2" unit="chars"/>Golungo &amp; his house
+<lb/>minus 30"</measure> are from <bibl>my book</bibl> - exactly. 
+<lb/>Oeiras<!-- same word as above. MB --><!-- See above. AW --> is his own. Now <measure>40" are equal to 
+<lb/>2 Seconds and 40 thirds</measure> of time - You don't <!-- Again, can we check that the apostrophe is here as DL frequently omits? HB -->
+<lb/>know what clever people you have
+<lb/>in <placeName><country>Angola</country></placeName>- calculating longitudes to thirds
+<lb/>of time - <space extent="3" unit="chars"/>The <persName><term type="occupation"><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice></term> <choice><abbr>J.</abbr><expan></expan></choice> Challis</persName>, (<term type="occupation">professor <!-- Do we know what the expansion is of the first initial J? HB -->
+<lb/>of astronomy</term> (I believe -) of <placeName><settlement type="city"><orgName>Cambridge</orgName></settlement></placeName><!-- University as an org? MB --><!-- OK. AW -->
+<lb/>gives in the <bibl>Nautical Almanac</bibl> for <choice><sic>for</sic><corr/></choice> <date when="1854"><choice><abbr>/54</abbr><expan>1854</expan></choice></date>
+<lb/>an easy mathematical way for calculating
+<lb/>a Longitude from a Lunar distance
+
+	<pb facs="liv_000839_0013" n="0013"/>
+<lb/><add place="above"><hi rend="underline">4<hi rend="sup underline">th</hi> s</hi>heet</add> and in his example works out an observation
+<lb/>made of an occulation of a star by the
+<lb/>moon. The distance is then between the
+<lb/>edge of the moon and its centre and is 
+<lb/>measured with an accuracy to which
+<lb/>no sextant can approach. <space extent="3" unit="chars"/>To get
+<lb/>something like its accuracy we take the
+<lb/>mean of a number of distances <del>.</del><!-- unsure how to encode this marking. MB --><!-- Fixed. AW --> Well
+<lb/>by this improved method of calculation
+<lb/>he ^<add place="above"><persName>M<hi rend="sup underline">r</hi> Challis</persName></add>that he is only <measure>4 seconds</measure> from
+<lb/>the true longitude of the <placeName><placeName><settlement type="city">Cambridge</settlement></placeName> observatory</placeName><!-- also org? MB --><!-- OK as is. AW --><!-- Added in placeName and settlement tags. HB -->
+<lb/>while by the usual method he would have
+<lb/>been <measure>24 seconds distant</measure>- <persName>M<hi rend="sup">r</hi> Challis</persName> does
+<lb/>not pretend to thirds as my friend <persName>M<hi rend="sup">r</hi> Costa</persName>
+<lb/>does. <space extent="2" unit="chars"/>Nobody else goes below <measure>15" seconds</measure>
+<lb/>and these only when they result from
+<lb/>the Mean<!-- unsure about this word. MB --><!-- Looks right. AW --> of a number of observations
+<lb/>they cannot be indicated by the point
+<lb/>of the compass on any ordinary map
+<lb/>I send you <bibl><persName>M<hi rend="sup underline">r</hi> <choice><abbr>C</abbr><expan>Costa</expan></choice></persName>'s letter</bibl> as a curiosity
+<lb/>and as his calculations are so far
+<lb/>superior to mine and he has evidence</p>
+
+	<cb rend="vertical"/>
+	<ab>
+<lb/>I often take ten distances straining my eyes to the <!-- eye-strain as ailment? MB --><!-- No. AW -->
+<lb/>utmost at each. The seconds stop in the watch assisting <!-- unsure about this word. MB --><!-- OK. AW -->
+<lb/>much &amp; then take the mean of distances &amp; times
+	</ab>
+
+	<pb facs="liv_000839_0014" n="0014"/>
+<lb/><p rend="no-indent">he has evidence before his eyes in <bibl>his
+<lb/>own map</bibl> that he cannot unassisted
+<lb/>make the most distant approach to
+<lb/>accuracy <space extent="2" unit="chars"/>I think I must leave him
+<lb/>with the points he has already got - I 
+<lb/>always lay my account with being 
+<lb/>bamboozled a little in any good work
+<lb/>I attempt and would give him more
+<lb/>even now but the concluding part 
+<lb/>of <bibl>this letter</bibl> <choice><orig>shews</orig><reg>shows</reg></choice> it would only be
+<lb/>assisting him to tell stories</p>
+<lb/><p>He had a great portion of the <placeName><geogName type="river">Quango</geogName></placeName>
+<lb/>down in <bibl>his map</bibl> and asserted it
+<lb/>was from actual observation having
+<lb/>gone from <placeName><settlement>Cassange</settlement></placeName> down the river <!-- geog: Quango -->
+<lb/>to <placeName><settlement>Ambivy</settlement></placeName> <space extent="2" unit="chars"/>As all the <term type="people">Portuguese</term> assert
+<lb/>that no <orgName>white man</orgName><!-- ? MB. --><!-- OK. AW --> ever went 
+<lb/>down the <placeName><geogName type="river">Quango</geogName></placeName> and I feel an interest
+<lb/>in that river. I put a question to <!-- geog: Quango -->
+<lb/>him which has led him to confess quite
+<lb/>unconsciously the incorrectness of his
+<lb/>former assertion. He went from
+
+	<pb facs="liv_000839_0015" n="0015"/>
+<lb/><placeName><settlement>Cassange</settlement></placeName> to some point near the ford at <!-- geog: ford on the Cassange -->
+<lb/>which I crossed <add place="below">^</add> <add place="above">probably not so far it took me <measure>3 days</measure></add> <!-- addition continues on next line. MB --><add place="below" rend="left">to reach <placeName><settlement>Cassange</settlement></placeName></add> that river bought some <!-- geog: Quango, I think. HB -->
+<lb/><orgName>slaves</orgName> &amp; took them back to <placeName><settlement>Cassange</settlement></placeName>
+<lb/>thence went to <placeName><settlement>Malange</settlement></placeName> or<!-- or on? MB --><!-- or is OK. AW --> <placeName><settlement>Ambaca</settlement></placeName>
+<lb/>and followed the only route known 
+<lb/>to <term type="occupation"><orgName>slave</orgName> dealers</term> to <placeName><settlement>Ambivy</settlement></placeName>- <space extent="2" unit="chars"/><persName>Arsenio</persName> sent
+<lb/>his <orgName>slaves</orgName>, <term type="animal">cattle</term> <space extent="2" unit="chars"/><term type="foodstuff">meal</term> &amp;c. by the same
+<lb/>road. It lies North of <placeName><settlement>Ambaca</settlement></placeName> - and they
+<lb/>cross the <placeName><geogName type="river">Dande</geogName></placeName> in <!-- or on? MB --><!-- Looks like 'in' to me. EM --> their way to <placeName><settlement>Ambivy</settlement></placeName>.</p>
+<lb/><p>I found <persName>M<hi rend="sup">r</hi> Pires</persName> very friendly
+<lb/>and hospitable. He has an immense
+<lb/>number of <orgName>slaves</orgName> and is said to be
+<lb/>rich. All being the produce of his
+<lb/>own industry it is natural he
+<lb/>should feel a little proud - I found 
+<lb/>him very obliging and kind both while
+<lb/>with him and after I left. He is in 
+<lb/>a more healthy situation than the <foreign xml:lang="pt">presidio</foreign><!-- settlement type. MB -->
+<lb/>which is subjected to <seg type="weather">sudden draughts
+<lb/>of wind</seg> which induce <term type="ailment">inflammation</term>
+<lb/>When making inquires elsewhere <!-- Should this be i/enquiries? HB -->
+<lb/>about the productions of the country
+
+	<pb facs="liv_000839_0016" n="0016"/>
+<lb/>Have you <term type="plant_foodstuff">wheat</term>? Yes at <placeName><settlement>Pungo Andongo</settlement></placeName>
+<lb/>Have you <term type="plant_foodstuff">grapes</term> -? at <placeName><settlement>Pungo Andongo</settlement></placeName>
+<lb/>Have you <term type="foodstuff">butter</term>, <term type="foodstuff">cheese</term>, <term type="plant_foodstuff">fruits</term>, &amp;c &amp;c O
+<lb/>yes - at <placeName><settlement>Pungo Andongo</settlement></placeName>- I expected
+<lb/>wonders here but find all productions
+<lb/>are those of one man <persName><w>M<hi rend="sup underline">r</hi></w> <choice><abbr>P.</abbr><expan>Pires</expan></choice></persName> and
+<lb/>he has only a small quantity of each
+<lb/>he has however lately planted a vineyard
+<lb/>and has a small patch of <term type="plant_foodstuff">wheat</term>. I 
+<lb/>could not get any seed. <term type="foodstuff">Butter</term> &amp; <term type="foodstuff">cheese</term>
+<lb/>are made for sale. The former very
+<lb/>good. <space extent="2" unit="chars"/>The latter indifferent. I saw
+<lb/><term type="foodstuff">butter</term> packed in new &amp; of course
+<lb/>perfectly clean to whistling jugs, yet the <w>associat<gap extent="4" unit="chars"/><supplied cert="medium">ion</supplied></w>
+<lb/>of ideas made me feel as some <orgName><orgName>Judian</orgName>
+<lb/><term type="occupation">officers</term></orgName> did when they went to dinner &amp;
+<lb/>found a <term type="occupation">Nabob</term> displaying a new set
+<lb/>of china. 1/2 a dozen unknown utensils
+<lb/>being arranged along the centre of the table
+<lb/>full of milk- When you meet a <foreign xml:lang="pt"><term type="occupation">Carregadore</term></foreign><!-- Carregadore is a shipper. MB --> 
+<lb/>with one in full view of the sun, you
+<lb/>may be sure of a <term type="nationality">Portuguese></term> being in his <w>reas<gap extent="1" unit="chars"/></w> <add place="below">to be continued.</add></p>
+
+    </div>
+
+    <div>
+	<pb facs="liv_000839_0017" n="0017"/>
+<lb/><dateline><add place="above" hand="#U2" rend="center">2</add> <add place="above" hand="#U1">I,</add> <placeName><settlement>Cassange</settlement></placeName><date when="1855-01-18">18th January 1855</date>.</dateline><p rend="no-indent">I <choice><sic>recieved</sic><corr>received</corr></choice> your
+<lb/>welcome <bibl>epistle of <date when="1854-12-30">30<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup">r</hi></abbr><expan>December</expan></choice></date></bibl> <date when="1855-01-16">the day before
+<lb/>yesterday</date> and felt glad an opportunity
+<lb/>had occurred for a health trip - I earnestly
+<lb/>hope it has been successful in restoring
+<lb/>you to your wanted vigour. I remained
+<lb/>three days at <placeName><settlement>Tala Mongongo</settlement></placeName> waiting for
+<lb/>an observation but was obliged to leave
+<lb/>after all without one. I got one on 
+<lb/>the <placeName><geogName type="river">Cuije</geogName></placeName> or <placeName><geogName type="river">Quiye</geogName></placeName> about <measure>1<choice><orig>½</orig><reg>1/2</reg></choice>' distant</measure>
+<lb/>which will do - Did not visit
+<lb/>the <persName>Duque de Braganza</persName> it would have <!-- Is Duque a title or occupation, and is Braganza a placeName? HB -->
+<lb/>been considerably out of my way
+<lb/>and funds are getting low, for 
+<lb/>though I have kept my companions
+<lb/>on as small rations as I could the 
+<lb/>constant drain during my visit 
+<lb/>to <placeName><settlement>Cayengo</settlement></placeName> and subsequently during 
+<lb/>my long sojourn at <placeName><settlement>Golungo Alto</settlement></placeName>
+
+	<pb facs="liv_000839_0018" n="0018"/>
+<lb/>and <placeName><settlement>Pungo Adongo</settlement></placeName> reduced the sum 
+<lb/>in my purse to a very low figure. I have
+<lb/>been giving <foreign xml:lang="pt">fazendas</foreign><!-- type of cloth MB --> since and now 
+<lb/>feel anxious to be as soon as possible
+<lb/>in the country where we can use
+<lb/>beads. I had 20 <foreign xml:lang="pt"><orgName><term type="occupation">Carregadores</term></orgName></foreign> besides
+<lb/><orgName>my own party</orgName>. These were never 
+<lb/>satisfied, and complained of me to 
+<lb/>every one we met: though I was instructed
+<lb/>to give them nothing <hi rend="sub">^</hi> <add place="marginleft" rend="vertical">because already paid by the <term type="occupation">merchant</term></add> I gave a small
+<lb/>ration <choice><abbr>viz.</abbr><expan>vidilicet</expan></choice> as much <term type="foodstuff">meal</term> as they
+<lb/>could eat - my men buying it and
+<lb/>when we slaughtered an <term type="animal">ox</term> they got
+<lb/>a quarter - The gentlemen once left it
+<lb/>lying on the spot - saying they must
+<lb/>have the half of the <term type="animal">ox</term>. I reduced
+<lb/>their allowance one half every time
+<lb/>they grumbled. This is one of the
+
+	<pb facs="liv_000839_0019" n="0019"/>
+<lb/>odd things one meets with throughout <placeName><bloc>Africa</bloc></placeName>,
+<lb/>generosity is looked upon as weakness,
+<lb/>but one must just do good knowing 
+<lb/>the master whom we serve. The <foreign xml:lang="pt"><orgName>Empaccaserros</orgName></foreign>
+<lb/>took <term type="nationality">French</term> leave of me at <placeName><settlement>Malange</settlement></placeName>-
+<lb/>Thus going <measure>3 or 4 days</measure> march instead of 
+<lb/>asmany or more months. Thy left
+<lb/>during the night - I have not the smallest
+<lb/>idea of what they thought: the <term type="people">Portuguese</term>
+<lb/>believed they would go to <placeName><settlement>Cassange</settlement></placeName> at 
+<lb/>least. Everything went on <choice><sic>agreably</sic><corr>agreeably</corr></choice> 
+<lb/>except the grumbling of the <foreign xml:lang="pt"><orgName><term type="occupation">Carregadores</term></orgName></foreign>
+<lb/>of which I only heard incidentally too
+<lb/>yet off they went and they <w><del><gap extent="1" unit="chars"/></del>were</w> welcome
+<lb/>We met <orgName>half blood</orgName> in the <placeName><region><placeName><geogName type="river">Londa</geogName></placeName> 
+<lb/>country</region></placeName> who told <orgName>my people</orgName> I should
+<lb/>never reach <placeName><settlement>Loanda</settlement></placeName> or <placeName><settlement>Cassange</settlement></placeName>
+<lb/>even unless I waited for him and
+<lb/>took him as a <term type="occupation">guide</term> - We met one
+
+	<pb facs="liv_000839_0020" n="0020"/>
+<lb/>of <orgName>his people</orgName> the other day and find he
+<lb/>went down as far as <placeName><settlement><choice><sic><persName>Kabompo</persName>s</sic><corr><persName>Kabompo</persName>'s</corr></choice></settlement></placeName> or 
+<lb/><placeName><settlement>Shinte</settlement></placeName> and sent <orgName>slaves</orgName> still farther
+<lb/>not to the <placeName><geogName type="river">Zambesi</geogName></placeName> and now returns 
+<lb/>with upwards of 50 tusks of ivory &amp;
+<lb/>66 <orgName>slaves</orgName>. He will of course return.
+<lb/>Another a <orgName>black man</orgName> named
+<lb/><persName>Guerra</persName> we met at <placeName><settlement>Tala Mongongo</settlement></placeName>
+<lb/>He has been as far as <placeName><settlement>Kabompo</settlement></placeName>
+<lb/>or <placeName><settlement>Kaompo</settlement></placeName> or <placeName><settlement>Shinte</settlement></placeName> and made a good
+<lb/>speculation - This is his third journey
+<lb/>and he goes East of that too. He is 
+<lb/>in connection with <persName>M<hi rend="sup">r</hi> Pires</persName> and 
+<lb/>lives at <placeName><settlement>Lombe</settlement></placeName> in a good house.
+<lb/><persName>M<hi rend="sup">r</hi> Pires</persName> suggests the probability of being 
+<lb/>able to send <bibl>letters</bibl> by such persons. 
+<lb/>either to his care or to that of his <term type="occupation">assistants</term>
+<lb/>in <placeName><settlement>Bihé</settlement></placeName> "<foreign xml:lang="pt"><persName>Guilherme José Gonsalves</persName>, <term type="occupation">Asistente</term>
+<lb/>no <placeName><settlement>Bihé</settlement></placeName></foreign>" who will forward them 
+<lb/>to him. If I see any one I shall
+
+    <!-- mb, aw, em, aw -->
+
+	<pb facs="liv_000839_0021" n="0021"/>
+<lb/><add place="above" hand="#U1">II.</add> certainly send you a scrawl. If <persName>M<hi rend="sup">s</hi> <choice><abbr>P.</abbr><expan>Pires</expan></choice></persName> <!-- Should scrawl be tagged as bibl as we know DL is never really terse so a diminuitive scrawl could actually be a missal? :) HB -->
+<lb/>knew of any one going in the same 
+<lb/>direction I take a few <bibl><w>ne<del>s</del><add place="over-text">w</add>spapers</w></bibl>
+<lb/>might be forwarded to me as a
+<lb/>treat <space extent="2" unit="chars"/><hi rend="underline">I shall remain in the <placeName><region>country 
+<lb/>of <persName>Sekeletu</persName></region></placeName> some months before
+<lb/>leaving for <placeName><settlement>Quilimane</settlement></placeName></hi>. I hope <persName>M<hi rend="sup">r</hi>
+<lb/><choice><abbr>P.</abbr><expan>Pires</expan></choice></persName> sent you two good <term type="plant">wild vines</term>
+<lb/>he has enough of garden ones<!-- term: plant? MB --><!-- Leave as is. AW --> too &amp;
+<lb/>fine young <term type="plant">fig trees</term>. There is one here
+<lb/>from his establishment brought
+<lb/>by the new <term type="occupation"><choice><orig>chefe</orig><reg>chef</reg></choice></term> <!-- sic "cheif?" MB --><!-- I think it's chef. AW --> &amp; already laden with
+<lb/><term type="plant_foodstuff">figs</term>. <space extent="2" unit="chars"/>This gentleman kindly invited me
+<lb/>to the <foreign xml:lang="pt">residencia</foreign> but I could not
+<lb/>properly prefer him to <persName>M<hi rend="sup">r</hi> Neves</persName> who 
+<lb/><choice><orig>shewed</orig><reg>showed</reg></choice> his kindness when I was in 
+<lb/>greater need. - <persName>M<hi rend="sup underline">r</hi> <choice><abbr>N.</abbr><expan>Neves</expan></choice></persName> has a bad hand
+<lb/>arising from <term type="ailment"><choice><orig>Lumphatic</orig><reg>Lymphatic</reg></choice><!-- unclear MB --><!-- Fixed. AW --> inflammation</term>
+<lb/>caused by a mere scratch got in
+
+	<pb facs="liv_000839_0022" n="0022"/>
+<lb/>giving a <orgName>slave</orgName> a blow. This getting better -
+<lb/>He has a magnificent crop of <term type="plant_foodstuff">potatoes</term>
+<lb/>only 2 <choice><orig>½</orig><reg>1/2</reg></choice> months old. <term type="plant_foodstuff">Wheat</term> I think
+<lb/>would grow but who tries it. I 
+<lb/>cannot get a seed of it. - Well I saw
+<lb/><term type="plant_foodstuff">coffee</term> growing at <placeName><settlement>Tala Mongongo</settlement></placeName> &amp;
+<lb/>drank of it too. It is excellent and 
+<lb/>the country to the North abounds in 
+<lb/>it. <space extent="2" unit="chars"/>In <placeName><settlement>Cazengo</settlement></placeName> I could not with 
+<lb/>the utmost hatred I could muster
+<lb/>avoid tracing its present existence
+<lb/>as a self sown plant to the <orgName>Jesuits</orgName>
+<lb/>as the primary introducers for go 
+<lb/>where we will we find <term type="plant"><placeName><bloc>South American</bloc></placeName>
+<lb/>plants</term> with it as well. <term type="plant_foodstuff">Guavas</term>
+<lb/>they grow wild along the rivers
+<lb/>here. <space extent="2" unit="chars"/><foreign xml:lang="pt"><term type="plant_foodstuff">Fruita da Coude</term></foreign>. <term type="plant_foodstuff">Jambos</term>
+<lb/><term type="plant_foodstuff">Bananas</term>. <foreign xml:lang="pt"><term type="plant_foodstuff">Ananas</term></foreign>. and <term type="plant_foodstuff">orange
+<lb/>trees</term> even but here nearly <measure>300
+<lb/>miles</measure> inland Has it spread thus
+
+	<pb facs="liv_000839_0023" n="0023"/>
+<lb/>for from <placeName><settlement>San Salvador</settlement></placeName> or <placeName><settlement><persName><choice><abbr>St</abbr><expan>Saint</expan></choice> José de <!-- Added in persName tag for Saint - pls correct if unneeded. HB -->
+<lb/>Eucage</persName></settlement></placeName>. ?<!-- unlcear what this mark is. MB --> <space extent="2" unit="chars"/>I am going to Look carefully
+<lb/>for it in <placeName><settlement>Londa</settlement></placeName>. <space extent="3" unit="chars"/>I see trees resembling
+<lb/>it and the flowers may <choice><orig>shew</orig><reg>show</reg></choice> them
+<lb/>to be species of <term type="plant_foodstuff">coffee</term> - and if so it may
+<lb/>help to solve the question of the indiginousness <!-- Indiginous should have an e in it - is this spelling DL or transcriber? HB -->
+<lb/>of the plant. <space extent="2" unit="chars"/>Whether it is really so or 
+<lb/>not we see in the plantations already
+<lb/>discovered on of the ways in which 
+<lb/>God provides means for me to 
+<lb/>abandon evil ways if they will
+<lb/>No man is forced to be a
+<lb/>sinner unless he chooses. There are 
+<lb/>many loopholes made for him to 
+<lb/>escape if he will - But in countries
+<lb/>entirely <orgName>heathen</orgName> as <placeName><bloc>Africa</bloc></placeName> for
+<lb/>instance as does not seem possible
+<lb/>to escape into the true path and
+<lb/>priveleges in which it has been <!-- Again, priveleges DL or transcriber spelling? HB -->
+<lb/><unclear cert="medium">ours</unclear> never to be forgotten <choice><sic>privelege</sic><corr>privilege</corr></choice>
+
+	<pb facs="liv_000839_0024" n="0024"/>
+<lb/>to have been born - They will no 
+<lb/>doubt be judged and treated in another
+<lb/>way than we shall be if we fail to 
+<lb/>embrace the offers of mercy through the 
+<lb/>only Savior.</p>
+<lb/><p>I have seen such beauties of flowers
+<lb/>on the road and regretted exceedingly
+<lb/>they are not in seed. The seeds I have
+<lb/>already sent may not be anything
+<lb/>worth while The beauties may all be 
+<lb/>missed - <space extent="2" unit="chars"/>I shall send a few bulbs
+<lb/>one is rather pretty having a dark <w>blu<del>e</del><add place="over-text">i</add>sh</w> red
+<lb/>flower and yellow tongue instead of a 
+<lb/>pistil or stamina - The roots are nearly
+<lb/>fibrous - scarcely <term type="plant_foodstuff">onion</term> but approaching
+<lb/>that form - <space extent="2" unit="chars"/>Another is I believe
+<lb/>what I have called <foreign xml:lang="und"><term type="plant">watsonia</term></foreign> perhaps 
+<lb/>erroneously. <space extent="2" unit="chars"/>It may be propagated by
+<lb/>cutting the bulbes into parts. I learned 
+<lb/>this by cutting one by accident with a <add place="below">spade</add>
+
+	<pb facs="liv_000839_0025" n="0025"/>
+<lb/><add place="marginleft" hand="#U1">III</add> I am ashamed to send more <add place="below">^</add> <add place="above">bulky ones</add> because
+<lb/>the mail goes so far - <add place="above"><term type="plant"><placeName><region>Cape</region></placeName><!-- region? MB --><!-- Region. EM --> bulbs</term> abound</add> A few seeds are
+<lb/>enclosed likewise one sort of pretty 
+<lb/>blue flower which abounds near
+<lb/><placeName><settlement>Pungo Andongo</settlement></placeName>- different varieties of
+<lb/><term type="plant">Asclepia</term> abound - one blood red - another
+<lb/>blue with white <w>s<del>r</del><add place="over-text">t</add>amens</w>- and a third
+<lb/>covers the country with flowers about
+<lb/>3 inches long and like a <term type="plant">convoloulus</term>
+<lb/>It is pure white with a blush of red
+<lb/>in the interior - unfortunately not in 
+<lb/>seed now - <space extent="2" unit="chars"/>There is a little shrub which
+<lb/>attains a height of about a foot
+<lb/><term type="nationality">Zanebesians</term> call it <foreign xml:lang="und"><term type="plant">Maroro</term></foreign>. It 
+<lb/>yields a yellow fruit about the size
+<lb/>of a <term type="plant_foodstuff">guava</term>. some are pleasant
+<lb/>tasted - <orgName>my men</orgName> &amp; <orgName>the inhabitants
+<lb/>of the country</orgName> eat it freely - I send
+<lb/>the seeds - It <del><gap extent="1" unit="chars"/></del><!-- overwriting here? MB--><!-- Fixed. AW -->resembles the <term type="plant_foodstuff">sweet sop</term>
+<lb/>or <term type="plant_foodstuff">custard apple of <placeName><country>India</country></placeName></term>
+
+	<pb facs="liv_000839_0026" n="0026"/>
+<lb/>I send a full grown specimen of
+<lb/>the distiller in a quill - also a little
+<lb/>bit of the rock forming the descent
+<lb/>at <placeName><settlement>Tala Mongongo</settlement></placeName> and most of 
+<lb/>the <placeName><geogName type="basin"><settlement>Cassange</settlement> basin</geogName></placeName><!-- this coded correctly? MB --><!-- Fixed. AW --></p>
+<lb/><p>I have not needed much coaxing
+<lb/>to loiter on the way for when one
+<lb/>receives the exciting news of the near <!-- Again, can we check receives to confirm DL spelled correctly? HB -->
+<lb/>anxiety to hear how it has gone since
+<lb/>becomes exceedingly strong - I shall
+<lb/>of course wait till the <bibl>mail of the 
+<lb/>16<hi rend="sup">th</hi></bibl> comes to hand - you will have
+<lb/>seen by <bibl>one letter I sent from
+<lb/><placeName><settlement>Pungo Andongo</settlement></placeName></bibl> that this would be
+<lb/>the case - I cannot remain longer
+<lb/>here on account of the scarcity
+<lb/>of <orgName>native</orgName> food - but when I
+<lb/>get the post <bibl>letters</bibl> will move
+
+	<pb facs="liv_000839_0027" n="0027"/>
+<lb/>on to the <app><rdg><placeName><geogName type="river">Quango</geogName></placeName></rdg><rdg><placeName><geogName type="valley">Quango</geogName></placeName></rdg></app><!-- settlement or river? MB --><!-- Let's do both. AW --> and will remain a 
+<lb/>few days there in order to write you for
+<lb/>the last time and send the Longitude
+<lb/>as well - <space extent="2" unit="chars"/>Then I am over the border &amp;
+<lb/>away - Sorry to hear our <term type="occupation">Admirals</term>
+<lb/><w><del><gap extent="2" unit="chars"/></del><add place="over-text">ha</add>ve</w> turned out indifferent stuff - There 
+<lb/>is plenty of new blood however in
+<lb/>the lower ranks of the <orgName>naval service</orgName><!-- orgName? MB --><!-- Yep. AW -->
+<lb/>and recourse must be had to it
+<lb/>for they are not a whit behind then
+<lb/><orgName>fellow countrymen</orgName> in red jackets - 
+<lb/>In one view it is fortunate the 
+<lb/>defects appear in the old school
+<lb/>for had it been otherwise the blame
+<lb/>might have been cast on the 
+<lb/>improvements in morals and 
+<lb/>education which have been made 
+<lb/>in the <orgName>naval service</orgName>. We must
+
+    <!-- mb, em, aw -->
+
+	<pb facs="liv_000839_0028" n="0028"/>
+<lb/><persName><term type="occupation">Captain</term> Hall</persName> as belonging to the new school <!-- Content doesn't seem to transition from previous page - ignore, or end/start another p tag? HB -->
+<lb/><persName>Lord Raglun</persName> is a worthy old <unclear cert="low"><app><rdg>sturnper</rdg><rdg>stumper</rdg><rdg>stuinper</rdg></app></unclear><!-- unsure. MB EM --> <add place="below">^</add> <note place="below">I beg his pardon for calling him so</note>
+<lb/>though no one ever heard his name before
+<lb/>If <persName><unclear cert="medium">Mr</unclear> Charles</persName> had said less before less
+<lb/>would have been said about him now
+<lb/>but poor old fellow he will catch it in
+<lb/><placeName><country>England</country></placeName> Be sure &amp; send me <bibl>Punch</bibl><!-- Person name? EM --><!-- No. AW --> on 
+<lb/>that subject - <space extent="2" unit="chars"/>I hope <persName><term type="occupation"><choice><abbr><w>Lieut<hi rend="sup underline">t</hi></w></abbr><expan>Lieutenant</expan></choice></term> Hoskins</persName>'
+<lb/>removal to the scourge will secure his 
+<lb/>promotion - The <placeName><geogName type="sea">Baltic</geogName></placeName> is not all glory -
+<lb/>no more than <placeName><settlement>Ambaca</settlement></placeName> indeed at present</p>
+<lb/><p><persName><term type="occupation"><choice><abbr><w>Capt<hi rend="sup underline">n</hi></w></abbr><expan>Captain</expan></choice></term> Neves</persName> has published a 
+<lb/><bibl>small journal of the expedition to 
+<lb/><placeName><settlement>Cassange</settlement></placeName></bibl> which contains some
+<lb/>information worth looking at I believe
+<lb/>though I have not read it - A <bibl>few copies</bibl> <!-- Neves expedition journal --> <!-- Adrian not sure if I should note the bibl tag ref here if we know it, like we do with geog? HB -->
+<lb/>have come to <placeName><settlement>Loanda</settlement></placeName> to <persName>D<hi rend="sup underline">r</hi> Begende</persName>
+<lb/>I have been presented presented with the <bibl>only <!-- Is this double presented DL to be corrected or just transcription? HB -->
+<lb/>copy here</bibl> -</p> <!-- Neves expedition journal -->
+
+	<pb facs="liv_000839_0029" n="0029"/>
+<lb/><p><add place="margintop marginleft">IV.</add> <persName><w>M<hi rend="sup">r</hi>.</w> Neves</persName> informs me that <persName>Arsenio</persName>
+<lb/>mentioned to him that "I had been cheated
+<lb/>by a <term type="occupation">trader</term> in <placeName><settlement>Cassange</settlement></placeName> in the affair
+<lb/>of the ivory and that I had told him
+<lb/>so" Now as I never understood the
+<lb/>price of the ivory we received I never <!-- Again a check on receive. HB -->
+<lb/>entertained suspicion of unfair play
+<lb/>I did not understand the money
+<lb/>and the goods were certainly more
+<lb/>than the man would have got
+<lb/>at <placeName><settlement type="town">Kuruman</settlement></placeName> or even in the
+<lb/><placeName><region>colony</region></placeName> <!-- region correct here? MB, EM--><!-- Gray, we can leave. AW --> I was very well satisfied
+<lb/>with what had been done - and 
+<lb/>I am so still - We did the best we
+<lb/>could in the <choice><sic>circuimstances</sic><corr>circumstances</corr></choice> - and
+<lb/>that being my feeling hitherto I feel 
+<lb/>certain I never spoke to any one
+<lb/>as if I had been cheated - Perhaps
+<lb/>you may remember when
+
+	<pb facs="liv_000839_0030" n="0030"/>
+<lb/>I was first visited by <persName><w>M<hi rend="sup">r</hi></w> Schut</persName> he
+<lb/>enquired how much they gave for
+<lb/>ivory in <placeName><settlement>Cassange</settlement></placeName> and I could
+<lb/>not tell - I am not aware at 
+<lb/>this moment how much per <choice><abbr>lb.</abbr><expan>pound</expan></choice>
+<lb/>we got nor how much we got at
+<lb/>all - for I paid away for food
+<lb/>whenever we needed and never
+<lb/>could get the relative value of
+<lb/>Makutas<!-- foreign tag here? MB, EM --> and pence till I got it
+<lb/>from you - I thought Makutas<!-- foreign tag here? MB, EM --><!-- OK without. AW --><!-- Removed from previous tag as well. HB --> were
+<lb/>about the value of half pence - <persName><w>M<hi rend="sup">r</hi></w>
+<lb/><choice><abbr>N.</abbr><expan>Neves</expan></choice></persName> does not mention <persName>Arsenio</persName>'s 
+<lb/>name but he is the only man I
+<lb/>spoke to in <placeName><settlement>Ambaca</settlement></placeName> and I feel
+<lb/>certain I did not speak about
+<lb/>Ivory on <persName><term type="occupation"><choice><abbr><w>Cap<hi rend="sup underline">n</hi></w></abbr><expan>Captain</expan></choice></term> Neves</persName> either
+<lb/>it is vexatious to be misprepresented
+<lb/>but we must put up with
+
+	<pb facs="liv_000839_0031" n="0031"/>
+<lb/>many disagreables - The only persons
+<lb/>in <placeName><country>Angola</country></placeName> whom I consider to have
+<lb/>taken unfair advantage of my ignorance
+<lb/>are <persName>Nictoriano</persName> and his <term type="occupation">ferrymen</term>
+<lb/>over the <placeName><geogName type="river">Lucalla</geogName></placeName> - Should you see
+<lb/>my reference to him (<persName><term type="occupation"><choice><abbr><w>Cap<hi rend="underline">nn</hi></w></abbr><expan>Captain</expan></choice></term> Neves</persName>) in 
+<lb/>print I should feel obliged if you
+<lb/>mention it to him if you can do
+<lb/>so without inconvenience - It may
+<lb/>serve to remove an unfavourable
+<lb/>impression from his mind - which 
+<lb/>may still be lurking though he professes
+<lb/>to have scarcely ever believed my
+<lb/>having said - In my own mind
+<lb/>I feel perfectly innocent</p>
+<lb/><p>I hope I am not doing wrong
+<lb/>in reference to <persName><w>M<hi rend="sup">r</hi></w> Candido</persName>, he promised
+<lb/>distinctly to acknowledge the source
+<lb/>whence he derived his positions
+
+	<pb facs="liv_000839_0032" n="0032"/>
+<lb/>but <choice><orig>shews</orig><reg>shows</reg></choice> plainly he does not mean
+<lb/>to do it even to myself - I suppose my
+<lb/>part of the contract is invalided thereby</p>
+<lb/><p>I met a <term type="occupation">missionary</term> at <placeName><settlement>Pungo 
+<lb/>Andongo</settlement></placeName> - <foreign xml:lang="pt"><persName>Antonio Franciso das <w>Ne<subst><del type="strikethrough">s</del><add place="inline">c</add></subst>essidades</w></persName>
+<lb/>Visitador em Missaõ <w>f<hi rend="sup">n</hi></w> sua <w>Ex<hi rend="sup">a</hi></w> <w>Rev<hi rend="sup underline">a</hi></w>
+<lb/>et visitas the</foreign> - He is a <term type="occupation">Canon</term> of the 
+<lb/><orgName><term type="faith"><choice><abbr>R. C.</abbr><expan>Roman Catholic</expan></choice></term> church</orgName><!-- RC Church an orgName? MB, EM --><!-- Yes. AW --> - lately returned from 
+<lb/><placeName><country>Portugal</country></placeName> whither he had conducted
+<lb/>the <persName><term type="occupation">Prince</term> of <placeName><country>Congo</country></placeName></persName> - An honour was
+<lb/>conferred upon him for it - He
+<lb/>says they have 12 churches<!-- or too general for orgName? MB, EM --><!-- Yes. AW --> in the 
+<lb/><placeName><region>Kingdom of <country>Congo</country></region></placeName><!-- or is Congo a region? MB, EM --><!-- Kind of grey as to how to code this. AW --> ! but no <foreign xml:lang="pt"><term type="occupation">padres</term></foreign>
+<lb/>He is said to be a man of good
+<lb/>morals - <orgName>black</orgName> &amp; about 45 years or
+<lb/>upwards - I believe he lives in
+<lb/><placeName><settlement>Loanda</settlement></placeName> generally - <space extent="2" unit="chars"/>This is not the
+<lb/>last or I should fondly drag it 
+<lb/>out longer -</p> <closer>Therefore I conclude with
+<lb/>affectionate salutations <signed>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></signed></closer></div>
+
+	<pb facs="liv_000839_0033" n="0033"/>
+<lb/><div><opener><add place="above" rend="center"><hi rend="double-underline">Appendix</hi> !!</add> <add place="above" hand="#U2">2</add> <date when="1855-01-20">20<hi rend="sup underline">th</hi></date></opener> <space extent="2" unit="chars"/><p>As the <bibl><orgName>Mail</orgName></bibl> is not to leave for another <!-- Not sure what tag is appropriate for the Mail here and on the next line? HB -->
+<lb/>day or two I add a little more to this prolix
+<lb/>production - The <bibl><orgName>Mail</orgName> of the <date when="1855-01-16">16<hi rend="sup underline">th</hi></date></bibl> will
+<lb/>not reach this till <date from="1885-02-05" to="1855-02-06">the 5 or 6<hi  rend="double-underline">th</hi> of February</date> -
+<lb/>I shall either wait or get the contents
+<lb/>on the <placeName><geogName type="river">Quango</geogName></placeName> - So you need not be 
+<lb/>apprehensive what you have <unclear cert="medium">dispatched</unclear> 
+<lb/>on the <date when="1855-01-16">16<hi rend="sup">th</hi></date> will be in vain - I have
+<lb/>just learned from <persName><term type="occupation"><choice><abbr><w>Cap<hi rend="sup underline">n</hi></w></abbr><expan>Captain</expan></choice></term> Neves</persName> that
+<lb/>he saw shells on the tops of the rocks
+<lb/>of <placeName><settlement>Pungo Andongo</settlement></placeName> - I feel quite
+<lb/>disgusted with myself at not seeing
+<lb/>them too - but in enquiring I was
+<lb/>told positively there were more - And 
+<lb/>though I looked myself yet a careful
+<lb/>search in similar shingly <unclear cert="low">branches</unclear><!-- unsure about these two words. MB, EM --><!-- Sorted out the first. Second looks OK. AW -->
+<lb/>near <placeName><settlement>Kolobeng</settlement></placeName> had its influence on
+
+	<pb facs="liv_000839_0034" n="0034"/>
+<lb/>my mind and I saw more they must 
+<lb/>be in the soft friable limestone looking
+<lb/>rock I believe I mentioned - I let you
+<lb/>know that you may discover them
+<lb/>and likewise ascertain by their 
+<lb/>means the age of the rock in which
+<lb/>they lie - He says those he ascended
+<lb/>were in the centre of the town or <foreign xml:lang="pt">presidio</foreign>
+<lb/>I have written a something or other for
+<lb/>My <persName><term type="occupation">Lord</term> <w>C<subst><del>e</del><add place="over-text">l</add></subst>arendon</w></persName> or for your kitchen
+<lb/>fire - <choice><sic>Its</sic><corr>It's</corr></choice> of no use saying why I <w>ma<subst><del>k</del><add place="over-text">d</add></subst>e</w>
+<lb/>such a wretched abortion - I <choice><sic>could'nt</sic><corr>couldn't</corr></choice> 
+<lb/>and <choice><sic>thats</sic><corr>that's</corr></choice> all about it - If I tried to 
+<lb/>give an <bibl>agricultural Report</bibl> I found
+<lb/>a want of materials - the general resources 
+<lb/>and <unclear cert="high">statistics</unclear><!-- unsure about this word. MB --><!-- Fixed. EM --> - more materials but very
+<lb/>dry <space extent="2" unit="chars"/>Then <date when="1855-01-20">today</date> I have finished a 
+<lb/>real <bibl><orgName>slave trade</orgName> letter</bibl> and I rely upon
+<lb/>your candour to put it into the
+<lb/>fire if you approve it not
+
+    <!-- em, aw, mb, aw -->
+
+	<pb facs="liv_000839_0035" n="0035"/>
+<lb/>The writing is unusually bad because I have
+<lb/>to do it on a high stage made of sticks and
+<lb/><term type="plant_foodstuff">corn stalks</term>, all the houses are infested
+<lb/>with <term type="insect"><choice><sic>tampan's</sic><corr>tampans</corr></choice></term>. The tent under a tree
+<lb/>is infinitely superior - Now remember
+<lb/>the fire with if it <choice><sic>wont</sic><corr>won't</corr></choice> pass muster
+<lb/>I might make some small improvements
+<lb/>if I wrote a copy but I really have not time at present. </p>
+<lb/><p>The bellies of the distillers shrivelled
+<lb/>up to nothing. They must have been
+<lb/>full of water - A <bibl>note of thanks</bibl>
+<lb/>is enclosed for <persName><term type="occupation">Captain</term> Neves</persName> -
+<lb/>alos a <bibl>Letter</bibl> for <persName>D<hi rend="sup underline">r</hi> Tidman</persName>
+<lb/>enclosing <bibl>one for my wife</bibl>
+<lb/>I send also another draught for
+<lb/>the £25 supposing the one already
+<lb/>given has gone down in the
+<lb/>Forerunner - that for £50 is I
+<lb/><choice><sic>concieve</sic><corr>conceive</corr></choice> safe in <placeName><country>England</country></placeName>
+
+	<pb facs="liv_000839_0036" n="0036"/>
+<lb/>I have advised <persName>D<hi rend="sup underline">r</hi> Tidman</persName> in the
+<lb/>present <bibl>letter</bibl> of both bills - <foreign xml:lang="la"><choice><abbr>viz.</abbr><expan>vidilicet</expan></choice></foreign> - for
+<lb/>£50 and £25. and (my <term type="occupation">trumpeter</term> being
+<lb/>out of the way at present) fancy you
+<lb/><choice><sic>wont</sic><corr>won't</corr></choice> - be able to pick a flaw in
+<lb/>the enclosed most business like
+<lb/>production! I have mentioned
+<lb/>too <orgName><persName>Woodhead</persName> &amp; <choice><abbr>Co</abbr><expan>Company</expan></choice></orgName>, as your <term type="occupation">agents</term>.
+<lb/>I enclose <w>a<subst><del>t</del><add place="over-text">l</add></subst>so</w> a thing which I have ventured
+<lb/>to call an ideal section of the country for
+<lb/><persName>Sir Roderick</persName>. If he does not cry out, "My
+<lb/>dear fellow no more of your nonsense"
+<lb/>it will be because he is less clever than
+<lb/>I take him to be. The ideal section of the
+<lb/><placeName><geogName type="river">river Niger</geogName></placeName> had however less in it than
+<lb/>mine. I am too far <unclear cert="low">Lost</unclear> with <persName>Tingo</persName>
+<lb/>but it is not geography I am teaching him
+<lb/>The <bibl><orgName>Mail</orgName></bibl> takes about <measure>20 days</measure> to go from this
+<lb/>to that city and is often longer in coming
+<lb/>so that of the <date when="1855-01-16">16<hi rend="sup underline">th</hi></date> will certainly be my final one
+<lb/>sorry such pleasant correspondence must cease</p>
+
+	<pb facs="liv_000839_0037" n="0037"/>
+<lb/><p><add place="above">A. 1.<!-- There are two lines that run between these two characters. --><!-- Rust from a paperclip. AW --></add> The <bibl><orgName>Mail</orgName></bibl> from <add place="above" rend="gray" hand="#U1"><metamark/><!-- A circle is drawn around the number -->3</add> <placeName><settlement type="city">Loanda</settlement></placeName> came <add place="above" rend="gray" hand="#U2"><date when="1855-01-23"><choice><abbr>Jan</abbr><expan>January</expan></choice> 23 <add place="below">?</add> <!-- Not sure what this middle character is. EM --><!-- Fixed. AW --> 1855</date></add> in <date when="1855-01-23">today
+<lb/>23<hi rend="sup underline">d</hi> <choice><abbr>Jany.</abbr><expan>January</expan></choice></date> but of course contained nothing
+<lb/>for me - yours by next is my blue
+<lb/>Peter<!-- Not sure if this is a person or...? EM --><!-- Not sure what it is. AW --> - The <bibl>Boletin</bibl> contains what our
+<lb/>folks here consider grand news. <placeName><settlement>Ambriz</settlement></placeName>
+<lb/>a <orgName><term type="nationality">Portuguese</term> Colony</orgName>! I have not seen
+<lb/><bibl>the paper</bibl> but it is described as
+<lb/><foreign xml:lang="pt">muitissimo boa</foreign> <!-- Not sure what this is. EM --><!-- Fixed. AW --> - They might form a
+<lb/><orgName>copper company</orgName> for working
+<lb/>mines there now - I see the <orgName>Morning Herald</orgName> is down on <persName>Sir <choice><abbr>J</abbr><expan>John</expan></choice> Young</persName> <term type="occupation">chief
+<lb/>secretary</term> for <placeName><country>Ireland</country></placeName> for holding <orgName>slaves</orgName>
+<lb/>and a <orgName>slave plantation</orgName> in <placeName><country>Suriname</country></placeName>
+<lb/>He is of course a member of <orgName><persName>Lord
+<lb/>Aberdeen</persName><choice><sic>s</sic><corr>'s</corr></choice><!-- Do we need to fix the apostrophe? MB --><!-- Fixed. AW --> Government</orgName>. I see too
+<lb/>I am behind in my knowledge of
+<lb/>the progress of <orgName>antislavery</orgName> in the world
+<lb/>but how can I be otherwise?
+
+<pb facs="liv_000839_0038" n="0038"/>
+<lb/>I have repeated before and again say
+<lb/>if the better to <persName>Lord Clarendon</persName> is not
+<lb/>a proper one and my impressions
+<lb/>are that it is not. Do commit it
+<lb/>to the flames - I shall begin the <bibl>map</bibl>
+<lb/><date when="1855-01-24">tomorrow</date>, I have been close at work
+<lb/>ever since I came - and will send
+<lb/>it and some observations for <persName>M<hi rend="sup underline">r</hi>
+<lb/>Macclear</persName> by next <bibl><orgName>Mail</orgName></bibl>. Also a concluding
+<lb/><bibl>letter</bibl> for <persName>Sir Roderick</persName> <foreign xml:lang="la"><choice><abbr>viz.</abbr><expan>vidilicet</expan></choice></foreign> on the <placeName><region>Province</region></placeName>
+<lb/>Have you colours to give a slight tint
+<lb/>to the different rocks - in the sketch - If
+<lb/>not never mind - I have taken one
+<lb/>sketch of <placeName><geogName>Pungo Andongo</geogName></placeName><!-- settlement or region? MB --><!-- Let's just do geogName. AW --> from
+<lb/><persName>Mr Piris</persName> house if I have time I will
+<lb/>send you a copy - It is of course
+<lb/>drawn in superior style. I think
+<lb/>I have mentioned everything worth
+<lb/>mentioning and many that were not
+
+	<pb facs="liv_000839_0039" n="0039"/>
+<lb/>I may now in case of any misadventure
+<lb/>in my <bibl>letter from the <placeName><geogName type="river">Quango</geogName></placeName></bibl><!-- Unsure of the type. EM --><!-- OK. AW --> come to
+<lb/>a conclusion. our corresponence has
+<lb/>afforded me unmixed pleasure - And I have
+<lb/>an equal amount of pain knowing
+<lb/>now that this is near the end of it
+<lb/>It is doubtful whether we shall meet
+<lb/>again in this world - But I pray to <!-- Aw, sentimental DL!! HB -->
+<lb/>our Heavenly Father that we may
+<lb/>meet in joy before him in a better
+<lb/>land. I remember promising to tell
+<lb/>how I might do in <persName><country>England</country></persName> if by
+<lb/><choice><sic>Gods</sic><corr>God's</corr></choice> good providence I should reach it
+<lb/>The country explored is unfit for a
+<lb/><orgName>European</orgName> family - I might live and
+<lb/>do good in it but it would be
+<lb/>subjecting those whom God has
+<lb/>committed to my care to an extended
+
+	<pb facs="liv_000839_0040" n="0040"/>
+<lb/>orphanage - On their account I would
+<lb/>if a situation under <orgName><choice><abbr>Gov<hi rend="sup underline">t</hi></abbr><expan>Government</expan></choice></orgName> fairly
+<lb/>be obtained <del type="strikethrough">might</del> accept of it. But
+<lb/>it would be with a pang and on <w>thei<supplied>r</supplied></w>
+<lb/>account alone. (He that careth not for
+<lb/>his own and especially for those of his
+<lb/>own house hath denied the faith and
+<lb/>is worse than an "<orgName>infidel</orgName>" <persName><choice><abbr>St</abbr><expan>Saint</expan></choice> Paul</persName>). For
+<lb/>I always since I knew the value of
+<lb/><orgName>Christianity</orgName> wished to spend my life in
+<lb/>propagating its blessings among men.
+<lb/>I have the same desire now undiminished
+<lb/>but to leave my family to the tender
+<lb/>mercies of a charitable institution. Some
+<lb/>of the members of which have a sort of spite
+<lb/>at my success in exploration, seems hard
+<lb/>I can only hope that He who has helped
+<lb/>and guided me hitherto will be with me
+<lb/>still - </p><closer>Into His Everlasting care I commend
+<lb/>you as your most affectionate Friend
+<lb rend="right"/><signed><persName>David Livingstone</persName></signed></closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

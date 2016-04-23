@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002416">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to William S. Price, 27 September 1865</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+ 				<respStmt xml:id="MB">
+                    <name>Mary E. Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002416</idno><!-- Change as needed -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5318, Acc. Reg. 4669</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1821</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to William S. Price, 27 September 1865</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1865-09-27">27 September 1865</date><!-- Change -->
+                    <placeName type="compositionPlace">Bombay</placeName><!-- Change -->
+                    <persName type="addressee">William S. Price</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-02-28" who="#AW">Coding Review</change><!-- Was actualy February 29 but Oxygen doesn't accept! AW -->
+			<change when="2015-02-28" who="#MB">Proofreading</change> <!-- Was actualy February 29 but Oxygen doesn't accept! MB -->
+			<change when="2015-12-11" who="#AW">Initial Proofing</change>
+            <change when="2015-12-04" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002416_0001" n="0001"/><!-- Change both @facs and @n -->
+<lb/><dateline><add place="above marginleft" rend="gray" hand="#U">5-6-9</add> <placeName><settlement type="city">Bombay</settlement></placeName> <date when="1865-09-27">27 <choice><abbr>Sept</abbr><expan>September</expan></choice> 1865</date> <add place="above marginright" rend="gray" hand="#U">MS 8/13</add></dateline>
+<lb/>
+<lb/>    
+<lb/><salute>My Dear M<hi rend="sup underline">r</hi> Price</salute><!-- Looks like an "s," but the letter is addressed to William. MB --><!-- Looks like an "s" but evidence suggests "r" so we'll go with that. AW -->
+<lb/><p> I was leaving
+<lb/><placeName><settlement>Poonah</settlement></placeName> when I got
+<lb/>your <bibl>letter</bibl> of the <date when="1865-09-23">23</date> and I have
+<lb/>been so occupied since
+<lb/>as to be unable to 
+<lb/>answer <gap extent="2" unit="chars" agent="blot"/> <unclear cert="high">the</unclear> questions
+<lb/>which the eight volunteers
+<lb/>naturally put - </p>
+<lb/><p>In travelling they
+<lb/>will be required to act
+<lb/>as carriers of the calico
+<lb/>and beads which are
+<lb/>argued to pay our
+<lb/>way - There are instruments
+<lb/>also - but I go in as light
+
+	<pb facs="liv_002416_0002" n="0002"/>
+<lb/>marching order as possible
+<lb/>I never carried a bed
+<lb/>nor liquor and my
+<lb/>men knowing that the
+<lb/>burdens are all for use
+<lb/>and like <unclear cert="high"><persName>Aesop</persName>'s</unclear><!-- Not sure what this is. EM--><!-- Best shot. AW --> become
+<lb/><gap extent="2" unit="chars" agent="blot"/> <unclear cert="low">clearly</unclear> more light have
+<lb/>always been eager to
+<lb/>take as much as they
+<lb/>could - <gap extent="2" unit="chars" agent="blot"/> <unclear cert="high">If</unclear> one has been
+<lb/>sick but able to walk
+<lb/>then they divided his
+<lb/>burden among them
+<lb/>Food from a place
+<lb/>where it abounded has
+<lb/>often been added - The
+<lb/>strong helping the weak -
+<lb/>I look to them to regulate
+<lb/>somethings themselves
+<lb/>and I find that though
+
+	<pb facs="liv_002416_0003" n="0003"/>
+<lb/>they have to <gap extent="1" unit="chars" agent="blot"/> <unclear cert="high">bear</unclear> fatigue they
+<lb/><choice><sic>dont</sic><corr>don't</corr></choice> lose their spirits -
+<lb/>Besides carrying the
+<lb/>goods they are expected
+<lb/>after travelling about
+<lb/>5 hours to prepare a
+<lb/>sleeping place for me
+<lb/>and themselves - if it
+<lb/>is likely to rain sheds
+<lb/>are made with branches
+<lb/>of trees <gap extent="8" unit ="chars" agent="blot"/> <unclear cert="high">and long grass</unclear> <!-- or long grass? MB --><!-- Looks OK to me. AW -->-
+<lb/>when accustomed to this
+<lb/>all will be under shelter
+<lb/>in an hour &amp; a half
+<lb/>or two hours - Dry wood
+<lb/>is always abundant &amp;
+<lb/>near except when we
+<lb/>sleep in a village but
+<lb/>it must be brought in
+<lb/>both for cooking and
+<lb/>protection </p>
+
+	<pb facs="liv_002416_0004" n="0004"/>
+<lb/><p>At the principal villages 
+<lb/>we usually rest a few days
+<lb/>and it is sometimes
+<lb/>necessary that two or three
+<lb/>go to adjacent villages
+<lb/>to purchase food at a
+<lb/>cheaper rate than where
+<lb/>we may be - they are
+<lb/>expeccted to <unclear cert="high">take</unclear> an intelligent
+<lb/><gap extent="16" unit="chars" agent="blot"/> <unclear cert="low">interest in the Expedition</unclear>
+<lb/>get information on
+<lb/>every subject and whatever
+<lb/>happens never turn tail
+<lb/>and run away - </p>
+<lb/><p>I would like them
+<lb/>distinctly to understand
+<lb/>that they are to perform
+<lb/>any reasonable duty for
+<lb/>me because the late
+<lb/>good <persName><term type="occupation"><choice><sic>bishop</sic><corr>Bishop</corr></choice></term> Mackenzie</persName> 
+
+	<pb facs="liv_002416_0005" n="0005"/>
+<lb/>brought some men from
+<lb/>the <placeName><region>Cape</region></placeName><!-- "Cape" is a region? MB --><!-- Yep. AW --> and when they got
+<lb/>into the country they wished
+<lb/>to be served rather than
+<lb/>serve - they expected to
+<lb/>have they same food as the
+<lb/><term type="occupation"><choice><sic>bishop</sic><corr>Bishop</corr></choice></term>'s associates who
+<lb/>were clergymen gentlemen
+<lb/>They had boxes with them
+<lb/>which they could not have
+<lb/>carried to <unclear cert="medium">save</unclear> their lives
+<lb/>if your men have luggage
+<lb/>of that kind it will be
+<lb/>necessary to have it at
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName> or other place of
+<lb/>security and a blanket
+<lb/>with spare shirts &amp; trousers
+<lb/>only be taken till we see
+<lb/>our way clear to a more
+<lb/>permanent place of abode
+<lb/>inland -
+
+	<pb facs="liv_002416_0006" n="0006"/>
+<lb/>The country people have
+<lb/>a strong inclination to
+<lb/>detain every traveller as
+<lb/>long as they can at their
+<lb/>own village &amp; often invent
+<lb/>stories of "war in front"
+<lb/>to effect their object -
+<lb/>They wish to get him to
+<lb/>spend all <unclear cert="medium">their</unclear> goods in
+<lb/>buying food from them
+<lb/>I expect my men to
+<lb/>march when the word is
+<lb/>given without minding
+<lb/>the palavers of others - I
+<lb/>intend to take some
+<lb/><term type="animal">buffaloes</term> as beasts of
+<lb/>burden and if they are
+<lb/>capable as <gap extent="1" unit="words" agent="illegible"/><unclear cert="medium">I <choice><sic>epect</sic><corr>expect</corr></choice></unclear><!-- Not sure what this is. EM --><!-- This is my guess. MB --><!-- Looks OK to me. AW --> they
+<lb/>will be of withstanding
+
+	<pb facs="liv_002416_0007" n="0007"/>
+<lb/>the bite of the fly (<term type="insect">tsetse</term>) they
+<lb/>will lighten all our labour
+<lb/>your men will lend a
+<lb/>hand with them - and
+<lb/>as I shall never desire
+<lb/>them to do anything <w>un<supplied>-</supplied>
+<lb break="no"/><supplied>-</supplied>reasonable</w> I think that
+<lb/>they ought to make up
+<lb/>their minds <hi rend="underline">to do as
+<lb/>they are <unclear cert="high">told</unclear> in all cases</hi></p>
+<lb/><p>If I leave <placeName><bloc>Africa</bloc></placeName>
+<lb/>without finding a place
+<lb/>and chief <unclear cert="low">untable</unclear><!-- Not sure what this is. EM--><!-- My best shot. AW --> and 
+<lb/>in their <unclear cert="high">judgment</unclear> desirable
+<lb/>for residence then I shall
+<lb/>bring them with me to
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName>.</p>
+<lb/><p>We are to have a <unclear cert="medium">passage</unclear>
+<lb/>in a man of war
+
+	<pb facs="liv_002416_0008" n="0008"/>
+<lb/>probably in <seg type="weather"><date when="1865-11">November</date>
+<lb/>The rains begin then - past
+<lb/>now</seg> the feet would be
+<lb/>made sore by travelling
+<lb/>on in hot dry paths - In a
+<lb/>man of war they are
+<lb/>aware that every one
+<lb/>conforms to the regulations</p>
+<lb/><p>I am going back to
+<lb/><placeName><settlement><choice><orig>Guniskind</orig><reg>Ganeshkhind</reg></choice></settlement></placeName> on <choice><sic>monday</sic><corr>Monday</corr></choice>
+<lb/>next and have to give a
+<lb/>little lecture on Tuesday
+<lb/><unclear>then</unclear> - I shall be at <w>Govern<supplied>-</supplied>
+<lb break="no"/><supplied>-</supplied>ment</w> house till <choice><sic>monday</sic><corr>Monday</corr></choice>
+<lb/>following &amp; will be glad
+<lb/>when how your men
+<lb/><choice><sic>recieve</sic><corr>receive</corr></choice> this - anxiety to
+<lb/>avoid <persName><choice><sic>bishop</sic><corr>Bishop</corr></choice> Mackenzie</persName>'s
+<lb/>difficulty makes me
+<lb/>particular in specifying the
+<lb/>duties -</p> <closer><persName>David Livingstone</persName></closer> 
+
+	<pb facs="liv_002416_0009" n="0009"/>
+<lb/><postscript><p>P.S. I should like
+<lb/>to know if any
+<lb/>of the men have
+<lb/>a knowledge of
+<lb/>carpentery, as it
+<lb/>may be necessary
+<lb/>to build up on a
+<lb/>canoe for navigating
+<lb/>the <placeName><geogName type="lake">Lake <w>Tangan-
+<lb break="no"/>-yika</w></geogName></placeName></p></postscript>
+
+            </div>
+			<div>
+
+<pb facs="liv_002416_0010" n="0010"/>
+<lb/><addSpan rend="right" spanTo="#add1"/><p><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName>
+<lb/><date when="1865-10"><choice><abbr>Oct.</abbr><expan>October</expan></choice> 1865</date></p><anchor xml:id="add1"/>
+<lb/><space dim="vertical" extent="19" unit="lines"/>
+<lb/><addSpan rend="right gray" place="bottom" spanTo="#add2"/><p>MS 8/13/3</p><anchor xml:id="add2"/>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

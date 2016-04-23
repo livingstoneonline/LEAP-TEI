@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001954"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<!-- Change title below -->
+                <title>Letter to [? Livingstone], 25 July 1863</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<!-- Add or remove <respStmt> as appropriate below -->
+				<!-- Change xml:id below -->
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+				<!-- Change date below if necessary -->
+                <date>2016</date>
+				<!-- Change base file name below -->
+                <idno type="LEAP-ID">liv_001954</idno>
+				<!-- Change the license below if necessart -->
+			    <availability>
+        			<licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+            			All materials are licensed for use under the 
+            			<ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                		Creative Commons Attribution-Noncommercial 3.0 Unported License
+            			</ref>. (c) Dr. Neil Imray Livingstone Wilson, 2011
+        			</licence>
+    			</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+						<!-- Change country below as needed -->
+                        <country>South Africa</country>
+						<!-- Change settlement below as needed -->
+                        <settlement>Kimberley</settlement>
+						<!-- Change repository below as needed -->
+                        <repository>Kimberely Africana Library</repository>
+						<!-- Change shelfmark below as needed -->
+                        <idno type="shelfmark"></idno>
+                        <altIdentifier>
+							<!-- Change CC number below as needed -->
+                            <idno type="ccnumber">Letters, 1384</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+							<!-- Add additional <handNote> elements below as needed. -->
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+					<!-- Change title below -->
+                    <title>Letter to [? Livingstone], 25 July 1863</title>
+                    <author xml:id="DL">David Livingstone</author>
+					<!-- Change @when and date below -->					
+                    <date type="composition" when="1863-07-25">25 July 1863</date>
+					<!-- Change place below -->
+                    <placeName type="compositionPlace">Cataracts of the Shire</placeName>
+					<!-- Change addressee below -->
+                    <persName type="addressee">[? Livingstone]</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. 
+				English should be first, then add all other languages, as appropriate, 
+				in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<!-- Change @when, @who, and work description below. -->
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Add new <change> elements below as needed. -->
+			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2015-09-09" who="#EM">Coding review</change>
+			<change when="2015-09-08" who="#AW">Coding review</change>
+            <change when="2015-09-07" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<!-- Change both @facs and @n below -->
+	<!-- Start each page with a <pb> formatted as below -->               
+	<pb facs="liv_001954_0001" n="0001"/>
+
+<opener>
+<lb/><dateline rend="right"><placeName><geogName type="cataracts">Cataracts of the </geogName></placeName> <placeName><geogName type="river">Shire</geogName></placeName> <date when="1863-07-25">25 July <add place="above marginright" rend="black"><hi rend="underline">2</hi></add> 
+<lb/>1863</date></dateline>
+<lb/><!-- Stamp: Kimbereley Public Library -->    
+<lb/><salute>My Dear Nephew</salute>
+</opener>
+
+<lb/><p rend="right">I received your
+<lb/>letter on the <date when="1863-07-04">4<hi rend="sup underline">th</hi> of this month</date>
+<lb/>and was very much pleased
+<lb/>with it.  Your brother's did
+<lb/>not come so I suspect
+<lb/>it did not go to the Post
+<lb/>which he may take as
+<lb/>a hint to improve his
+<lb/>handwriting.  This hint I
+<lb/>should be glad to take to
+<lb/>myself but I fear that
+<lb/>my hand is incurably
+<lb/>bad and I trust that
+<lb/>you will continue to
+<lb/>write as fair a hand
+<lb/>as you do now and
+<lb/>never make your <bibl>letters</bibl>
+<lb/>as some do about as
+<lb/>good as if they had dipped 
+<lb/>a <choice><sic>spiders</sic><corr>spider's</corr></choice> legs in ink &amp;
+
+	<pb facs="liv_001954_0002" n="0002"/>
+<lb/>let it run across the
+<lb/>sheet.</p>
+<lb/><p><add rend="gray" hand="#U">"</add>While writing to you
+<lb/>I am surrounded by a
+<lb/>number of people who
+<lb/>never had the means
+<lb/>of aquiring a knowledge
+<lb/>of writing or letters. They
+<lb/>think it a wonderful thing
+<lb/>that we should be able
+<lb/>to communicate our
+<lb/>thoughts to people at a
+<lb/>distance<add rend="gray" hand="#U">;</add> <space extent="3" unit="chars"/>and <add rend="gray" hand="#U">they</add> lament
+<lb/>the sad fate of <persName><choice><sic>bishop</sic><corr>Bishop</corr></choice> 
+<lb/>Mackenzie</persName> who had the
+<lb/>gift of soon gaining
+<lb/>their confidence - "By
+<lb/><persName><choice><sic>Sebitane</sic><corr>Sebituane</corr></choice></persName>" said one to me<add rend="gray" hand="#U">,</add>
+<lb/><add rend="gray" hand="#U">"</add>had he not died<add rend="gray" hand="#U">,</add> we should
+<lb/>all have been living 
+<lb/>with him now <add rend="gray" hand="#U">,</add> and <add rend="gray" hand="#U">would</add>
+<lb/>have known the book <add rend="gray" hand="#U">"</add>
+<lb/>Poor fellows<add rend="gray" hand="#U">!</add> theirs is a
+<lb/>sad position in life<add rend="gray" hand="#U">,</add>
+<lb/>and ours might have been
+
+	<pb facs="liv_001954_0003" n="0003"/>
+<lb/>similar but for this 
+<lb/>grace of God. Let us
+<lb/>never live so as
+<lb/>to be <orgName>heathen</orgName> all but in
+<lb/>name</p>
+<lb/><p>I am carrying about
+<lb/>past the <placeName><geogName type="cataracts">cataracts</geogName></placeName> of the 
+<lb/><placeName><geogName type="river">Shire</geogName></placeName><add rend="gray" hand="#U">,</add> to explore<add rend="gray" hand="#U">,</add> if possible <add rend="gray" hand="#U">,</add>
+<lb/>the <placeName><region>North end of the 
+<lb/><placeName><geogName type="lake">Lake Nyassa</geogName></placeName></region></placeName> before 
+<lb/>leaving the country<add rend="gray" hand="#U">,</add>
+<lb/>as we must do 
+<lb/>by <date when="1863-12">December</date> next <add rend="gray" hand="#U">,</add> and
+<lb/>go home -  <space extent="2" unit="chars"/>We went
+<lb/>near that point last
+<lb/>time we were up <add rend="gray" hand="#U">,</add> &amp;
+<lb/>left our boat hung up
+<lb/>on a tree <add rend="gray" hand="#U">;</add> but fire
+<lb/>had laid hold on it,
+<lb/>probably from the 
+<lb/>grass being burned off
+<lb/>and we found only
+<lb/>its skeleton<add rend="gray">.</add>- The people
+<lb/>were anxious to make
+
+	<pb facs="liv_001954_0004" n="0004"/>
+<lb/>me believe that their
+<lb/>enemies had done it<add rend="gray">;</add>
+<lb/>but the trees all about<add rend="gray">,</add>
+<lb/>even <measure>50 yards</measure> off<add rend="gray">,</add> were
+<lb/><del>sc</del> scorched so I knew
+<lb/>the enemy had no ill will to trees.  the grass
+<lb/>here is over head &amp; is 
+<lb/>burned off as soon as it dries every year - One cannot
+<lb/>get game on account 
+<lb/>of it for the beasts hear you 
+<lb/>before you can see them<add rend="gray">.</add>
+<lb/>A few days ago I came on a 
+<lb/>herd of buffaloes<add rend="gray">,</add> -<add rend="gray">and</add> sent back
+<lb/>for my rifle<add rend="gray">;</add> but on getting
+<lb/>close up to them their
+<lb/>guardian birds flew up &amp;
+<lb/>screamed <add rend="gray">,</add> and off all <unclear>ran</unclear>
+<lb/>without giving me a glimpse 
+<lb/>of them<add rend="gray">.</add><add rend="gray">"</add>  Remember you
+<lb/>have a guardian over
+<lb/>you whom you must you must love
+<lb/>&amp; fear -  <unclear>with</unclear> his hands &amp;
+<lb/>commend you <persName>David Livingstone</persName></p>
+<!-- More transcribed text -->
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

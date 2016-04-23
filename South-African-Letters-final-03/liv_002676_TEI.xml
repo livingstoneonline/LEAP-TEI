@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002676">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Alfredo Duprat</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_002676</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country>
+                        <settlement>Cape Town</settlement>
+                        <repository>National Library of South Africa, Cape Town Campus</repository>
+                        <idno type="shelfmark">Grey Collection, G.13.b.45(35)</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0401</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Alfredo Duprat, 4 March 1856</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-03-04">4 March 1856</date>
+                    <placeName type="compositionPlace">Tette</placeName>
+                    <persName type="addressee">Duprat, Alfredo, 1816-1881</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-27" who="#AW">Coding review</change>
+            <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>
+            <change when="2015-05-15" who="#JM">Proofreading</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002676_0001" n="0001"/>
+<opener>
+<lb/><add place="margintop" rend="right" hand="#U">35</add> <dateline rend="right"><placeName><settlement type="town">Tette</settlement></placeName> <date when="1856-03-04">4 March 1856</date></dateline>
+<lb/>
+<lb/>Alfredo Duprat <choice><abbr>Esqu.</abbr><expan>Esquire</expan></choice> 
+<lb/><salute>My dear Sir,</salute>
+</opener>
+
+<lb/><p>Having reached this the farthest
+<lb/>inland station at present occupied
+<lb/>by the <term type="people">Portuguese</term> on the morning
+<lb/>of the 2<hi rend="sup">nd</hi> current, I was received
+<lb/>with the usual politeness and generosity
+<lb/>of your nation. The <term type="occupation">governor</term> kindly
+<lb/>proposed to send an express forward
+<lb/>to <unclear cert="medium"><persName>Senna</persName></unclear> with letters and I have
+<lb/>been constantly employed in writing
+<lb/>ever since. The enclosed you will see
+<lb/>is intended to show the <persName><term type="occupation">King of
+<lb/>Portugal</term></persName> <!-- Could this be more accurately encoded as <term type="occupation">? JM --><!-- We can have both! AW -->my gratitude by giving
+<lb/>him the earliest intelligence of my
+<lb/>discoveries. I cannot be sure whether
+<lb/>it will be acceptable or not, but on
+<lb/>reading it you will see I avoid the
+<lb/>appearance of intrusion by saying
+<lb/>that no answer is expected; and
+<lb/>indeed if it only reaches his eye, I hope
+<lb/>for no more. Even though he may not
+<lb rend="right"/>have
+
+
+	<pb facs="liv_002676_0002" n="0002"/>
+<lb/>have <choice><sic>leizure</sic><corr>leisure</corr></choice> to look into it, the          	
+<lb/>attention of an influential minister
+<lb/>may be attached to some of the
+<lb/>points mentioned, and even this
+<lb/>will be so far good.</p> 
+            	
+<lb/><p>I hope you have received
+<lb/>my note about the "berryman". It
+<lb/>would prove a real boon to <placeName><country>Angola</country></placeName>.
+<lb/>But the enclosed will give you
+<lb/>some information so I need not
+<lb/>enlarge. This is a magnificent
+<lb/>river. I hope to ascend it with
+<lb/>my family to within one or two
+<lb/>degrees off <placeName><settlement type="village"><persName>Sekeletu</persName></settlement></placeName> by means of
+<lb/>flat bottomed boats. And it is
+<lb/>a magnificent country too; but
+<lb/>trade is ruined by "Caffre <!--Either Caffir or Coffee...I can't tell which. -AA --><!-- It is Caffre, as I have corrected it. JM --> wars".	
+<lb/>The natives rob, so there are no
+<lb/>goods here for trade. A man
+<lb/>named <persName>Nyaode</persName> living on an
+<lb/>island below this, takes what
+<lb/>and as much as he likes - out of
+<lb/>every boat that ascends. There
+<lb rend="right"/>is</p>
+
+	<pb facs="liv_002676_0003" n="0003"/>
+<lb/><p>There is a fine bed of coal close to
+<lb/>this on the surface almost, and
+<lb/>superior iron too. What fools! not
+<lb/>to have a small flat bottomed
+<lb/>steamer flying between this and 
+<lb/><placeName><settlement type="village"><persName>Senna</persName></settlement></placeName>. Two swivels would keep
+<lb/>off all robbers and in six months
+<lb/>her price would be paid. The only
+<lb/>impediments I have seen besides
+<lb/><placeName><geogName type="fissure">Monoatunya</geogName></placeName> are insignificant
+<lb/>rapids which would not delay the <term type="tribe">Makololo</term> a day.</p>
+            	
+<lb/><p>Wait a little, we shall see,
+<lb/>if we live. I have had excellent
+<lb/>health all the way down here,
+<lb/>but am very thin and tired from
+<lb/>marching on foot; but will soon
+<lb/><unclear cert="low">r---</unclear>.</p>
+
+<lb/><p>I often remember my <w>obliga-
+<lb break="no"/>-tions</w> to your kind recommendations.
+<lb/>May God bless and reward you, is
+<lb/>the sincere wish of</p>
+<closer>
+<lb/><salute>your <choice><abbr>obedt</abbr><expan>obedient</expan></choice></salute>
+<lb/><signed><choice><abbr>Sigt</abbr><expan>Signature</expan></choice> <persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></signed>
+</closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

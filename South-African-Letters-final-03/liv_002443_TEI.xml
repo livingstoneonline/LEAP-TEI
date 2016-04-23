@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002443">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to John Kirk, 2 December 1865</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary E. Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002443</idno><!-- Change as needed -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 6401</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1846</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+							<handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to John Kirk, 2 December 1865</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1865-12-02">2 December 1865</date><!-- Change -->
+                    <placeName type="compositionPlace">Bombay</placeName><!-- Change -->
+                    <persName type="addressee">John Kirk</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-02-02" who="#AW">Coding review</change>
+			<change when="2016-02-01" who="#MB">Proof reading</change>
+			<change when="2016-01-13" who="#AW">Light coding review</change>
+            <change when="2016-01-04" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002443_0001" n="0001"/><!-- Change both @facs and @n -->
+<lb/><dateline><add place="above marginleft" rend="gray" hand="#U1">MS/17/2</add> <placeName><settlement type="city">Bombay</settlement></placeName> <date when="1865-12-02">2 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1865</date> <add place="below" rend="red" hand="#U2">60</add></dateline>
+<lb/><!-- empty line break to indicate space? MB -->
+<lb/><salute>My Dear Kirk</salute>
+<lb/><p rend="right"><persName>D<hi rend="sup underline">r</hi> Birdwood</persName>
+<lb/>The <term type="occupation">curator</term> of the <orgName>Botanical garden
+<lb/>and Museum</orgName> here told me <w>yester-<!-- dash at the end of this line? MB --><!-- Fixed. AW -->
+<lb break="no"/>day</w> that he would recommend
+<lb/>you to the <term type="occupation">Governor</term> as a fit
+<lb/>person to occupy his place - He
+<lb/>was at college with you but did
+<lb/>not know you otherwise than by
+<lb/>sight - As it is likely from what
+<lb/>I said to the <term type="occupation">Governor</term> that you
+<lb/>may get an offer I shall try to
+<lb/>give you as clear an idea of the
+<lb/>affair as possible - The salary is
+<lb/>300 Rupees a month say £500 or
+<lb/>£600 a year with a good house
+<lb/>which as rents have risen
+<lb/>enormously is as much more 
+<lb/>He is going to ask an advance of
+<lb/>pay &amp; believes it will be <subst><del>£</del><add place="over-text"><choice><abbr>R</abbr><expan>Rupees</expan></choice></add></subst><!-- or del R add £? MB -->700 a
+<lb/>month or £840. This is not so
+<lb/>much as it looks like <unclear cert="medium">owing</unclear> to the
+<lb/>high price of living now in <placeName><settlement type="city"><w>Bom-<!-- dash at the end of this line? MB --><!-- Fixed. AW -->
+<lb break="no"/>bay</w></settlement></placeName> - A <term type="animal">horse</term> &amp; phaeton with <term type="animal">horse</term>
+<lb/><term type="occupation">boy servants</term> would cost you
+<lb/>in your free house 300 <choice><abbr>R</abbr><expan>Rupees</expan></choice> or £300</p>
+
+<cb rend="vertical"/>
+	<ab>
+<lb/>a sad end was that of poor <persName>Ral</persName> - <persName>M<hi rend="sup">r</hi> Brown</persName> of
+<lb/>the same company <unclear cert="medium">now</unclear> says that they are	
+	</ab><!-- follows to veritcal passage on page 2. -->
+	
+	<pb facs="liv_002443_0002" n="0002"/>
+<lb/><p rend="no-indent">month, so with your <choice><abbr>R</abbr><expan>Rupees</expan></choice> 500 to 700
+<lb/>you would have £20 &amp; £40 over
+<lb/><add place="above">say £240 or £480 to same <space extent="1" unit="words"/>yearly</add> <!-- Is it necessary to add a <space> here in the 'above' note? EM --><!-- Yes. AW -->
+<lb/>the cost of <term type="animal">horse</term> &amp; phaeton would
+<lb/>be £150 - In house is in the <orgName>Botanic
+<lb/>Garden</orgName> - and that is new - The
+<lb/><orgName>Museum</orgName> is only building - and
+<lb/>is rather a fine building at the
+<lb/>entrance to the Garden - you would
+<lb/>direct the planting out and select
+<lb/>plants - seeds and have men under
+<lb/>you to do the work - The situation
+<lb/>is flat, and during the monsoon
+<lb/>patches of water lie adjacent - <persName>D<hi rend="sup underline">r</hi>
+<lb/>Birdwood</persName> has been the chief hand
+<lb/>in getting up the <choice><sic>gardens</sic><corr>garden's</corr></choice> looks on
+<lb/><unclear cert="medium">them</unclear> with great affection, and
+<lb/>hence his anxiety to get a fit occupant
+<lb/>while he retires I believe for a time
+<lb/>on account of want of wealth &amp;
+<lb/>having been ten years out in
+<lb/><placeName><settlement type="city">Bombay</settlement></placeName> - He suffers from <term type="ailment">fever</term>
+<lb/>and his stomach cannot bear
+<lb/><term type="medicament">quinine</term> or <term type="medicament">arsenic</term> - He is rather
+<lb/>desponding as to his state of health
+<lb/>The <term type="occupation">Governors</term> band plays in the
+<lb/>gardens &amp; people flock to hear it -
+<lb/>as you are a lady killer you might
+<lb/>be successful in the matrimonial
+<lb/>line there - Fruit &amp; vegetables you
+<lb/>would have free - The medical
+<lb/><term type="occupation">professor</term> does not stand high</p>
+
+<cb rend="vertical"/>
+	<ab><!-- follows from vertical passage on page 1 -->
+<lb/>disassociated from the sultan now - the will hire
+	</ab><!-- follows to vertical passage on page 3 -->
+
+	<pb facs="liv_002443_0003" n="0003"/>
+<lb/><p rend="no-indent">and you would have a fair share
+<lb/>in <unclear cert="high">home</unclear> probably a large one - of the
+<lb/>practice - <persName>D<hi rend="sup underline">r</hi> Birdwood</persName> devotes
+<lb/>his time more to literary pursuits
+<lb/>than practice, hence &amp; guess his duties
+<lb/>do not occupy a large portion of
+<lb/>his time - He is <term type="occupation"><choice><abbr>Gov</abbr><expan>Governor</expan></choice> Secretary</term> to the
+<lb/><orgName><placeName><settlement type="city">Bombay</settlement></placeName> Asiatic society</orgName> &amp; something
+<lb/>else which bring honour &amp; bother
+<lb/>only - My impression is that if
+<lb/>nothing better has turned up yet
+<lb/>and the offer comes you might
+<lb/>accept it as a step in the right
+<lb/>direction - If employed the <term type="occupation">Governor</term>
+<lb/>would provide for you elsewhere
+<lb/>in the event of <persName>Birdwood</persName> resuming
+<lb/>his duties - He gave his private
+<lb/><term type="occupation">physician</term> <persName>D<hi rend="sup underline">Steadman</hi></persName> a good
+<lb/>appointment as head of the <placeName><persName>Sir
+<lb/><choice><orig>Jamsetyee Jhejeebhoy</orig><reg>Jamsetjee Jeejebhoy</reg></choice></persName> hospital</placeName><!-- or orgName? MB--><!-- Placename is OK. AW --> - 
+<lb/>there are many <term type="people">Scotchmen</term><!-- or nationality? MB --><!-- OK. AW --> here - and
+<lb/>they are clannish but all making
+<lb/>money &amp; eager to go home - The
+<lb/>climate is not good but with care
+<lb/>one may enjoy good health - whether
+<lb/>you ought to take this when offered
+<lb/>as a stepping stone to something
+<lb/>else or decline it as likely to shelve
+<lb/>you into <term type="nationality">Indian</term> ways I <choice><sic>cant</sic><corr>can't</corr></choice> say
+<lb/>It is an important step in life and
+<lb/>with more risk than at home - <!-- encode an extra mark? MB --><!-- Looks like a stray mark. AW -->I
+<lb/>would run the risk of a <unclear cert="high">higher</unclear></p>
+
+<cb rend="vertical"/>
+	<ab><!-- follows from vertical passage on page 2 -->
+<lb/>their labour in open market he does not know
+<lb/>of <persName>Ral</persName>'s brother coming out - Is <persName>Ral</persName>'s wife his <add place="below">heir?</add>
+	</ab>
+
+	<pb facs="liv_002443_0004" n="0004"/>
+<lb/><p>stake than usually offers a shove
+<lb/>but you must decide &amp; I trust
+<lb/>that God will give wisdom
+<lb/>to act for the best -</p>
+<lb/><p>It is rather premature in me
+<lb/>to write so much about what
+<lb/>His Excellency may or may not
+<lb/>do - I think it likely He will be
+<lb/>disposed to make you an offer
+<lb/>He is a very good man - is accused
+<lb/>of being too soft - but it is in <w>man<supplied>-</supplied><!-- dash needed below? MB -->
+<lb break="no"/>-ner</w> only - when I hear more
+<lb/>I shall let you have it <space extent="1" unit="chars"/>This
+<lb/>goes by a new company started
+<lb/>by <term type="nationality">American</term>'s "Stearns Hobart <unclear>&amp;c</unclear>"
+<lb/>who send <term type="plant">cotton</term> by the overland 
+<lb/>route &amp; charge <unclear cert="medium">only</unclear><!-- There is a white smudge here EM--> £60 <add place="below">^</add> <add place="above">passage money</add> from this
+<lb/>to <placeName><settlement type="city">Liverpool</settlement></placeName> - I am living with
+<lb/>one of them <persName>M<hi rend="sup underline">r</hi> Stearns</persName> a very
+<lb/>good fellow - I <choice><sic>dont</sic><corr>don't</corr></choice> know my
+<lb/>starting day &amp; hence I write now
+<lb/>in case of being called off - all
+<lb/>my men are ready - I am not
+<lb/>to wait for a man of war but go
+<lb/>in one of <unclear cert="medium">Sherow</unclear> <choice><sic><persName>Osborne</persName>s</sic><corr><persName>Osborne</persName>'s</corr></choice><!-- Way to correct this while omitting the apostrophe --><!-- Fixed. AW --> fleet
+<lb/>called Mule a present <unclear cert="low">of</unclear> the <term type="occupation">Sultan</term>
+<lb/>of <placeName><geogName type="island">Zanzibar</geogName></placeName><!-- or country? MB --> - <persName>Seward</persName> is acting
+<lb/>there - no appointment has been
+<lb/>made</p> <closer>Affectionably yours
+<lb/><signed>David Livingstone</signed></closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

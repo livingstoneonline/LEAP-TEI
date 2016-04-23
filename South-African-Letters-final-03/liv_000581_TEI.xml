@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000581"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<!-- Change title below -->
+                <title>Letter to Robert Moffat 2, 28 April 1845</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<!-- Add or remove <respStmt> as appropriate below -->
+				<!-- Change xml:id below -->
+                <respStmt xml:id="JM">
+					<!-- Change name below -->
+                    <name>Jared McDonald</name>
+					<!-- Change, remove, or add more <resp> as appropriate below -->
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+					<name>Mary E. Borgo</name>
+					<resp>Transcription</resp>
+					<resp>Encoding</resp>
+				</respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+				<!-- Change date below if necessary -->
+                <date>2016</date>
+				<!-- Change base file name below -->
+                <idno type="LEAP-ID">liv_000581</idno>
+				<!-- Change the license below if necessart -->
+			    <availability>
+        			<licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+            			All materials are licensed for use under the 
+            			<ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                		Creative Commons Attribution-Noncommercial 3.0 Unported License
+            			</ref>. (c) Dr. Neil Imray Livingstone Wilson, 2011
+        			</licence>
+    			</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+						<!-- Change country below as needed -->
+                        <country>South Africa</country>
+						<!-- Change settlement below as needed -->
+                        <settlement>Johannesburg</settlement>
+						<!-- Change repository below as needed -->
+                        <repository>Brenthurst Library</repository>
+						<!-- Change shelfmark below as needed -->
+                        <idno type="shelfmark">Book no. 5318, Acc. Reg. 4669</idno>
+                        <altIdentifier>
+							<!-- Change CC number below as needed -->
+                            <idno type="ccnumber">Letters, 0119</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+							<!-- Add additional <handNote> elements below as needed. -->
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+					<!-- Change title below -->
+                    <title>Letter to Robert Moffat 2, 28 April 1845</title>
+                    <author xml:id="DL">David Livingstone</author>
+					<!-- Change @when and date below -->					
+                    <date type="composition" when="1845-04-28">28 April 1845</date>
+					<!-- Change place below -->
+                    <placeName type="compositionPlace">Mabotsa</placeName>
+					<!-- Change addressee below -->
+                    <persName type="addressee">Robert Moffat 2</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. 
+				English should be first, then add all other languages, as appropriate, 
+				in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<!-- Change @when, @who, and work description below. -->
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Add new <change> elements below as needed. -->
+			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2015-10-08" who="#AW">Coding review</change>
+            <change when="2015-09-21" who="#MB">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<!-- Change both @facs and @n below -->
+	<!-- Start each page with a <pb> formatted as below -->               
+	<pb facs="liv_000581_0001" n="0001"/>
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><add place="above" rend="gray diagonal" hand="#U1">5-6-9</add> <dateline rend="right"><placeName><settlement type="village">Mabotsa</settlement></placeName> <date when="1845-04-28">28 April 1845</date> <add place="above" rend="gray" hand="#U1">MS 8/1</add></dateline><!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
+<lb/>    
+<lb/><salute>My Dear Brother in the Lord,</salute><!-- Change line info as appropriate -->
+</opener>
+
+<lb/><p rend="right">Your welcome <bibl>notes</bibl>
+<lb/>came safely to hand and like everything from home
+<lb/>partook of the nature of cold water to a thirsty
+<lb/>soul, they were really very good (but shall
+<lb/>I tell their <w>faul<subst><del>s</del><add place="over-text">t</add></subst>s</w>) they were really very short
+<lb/>When you write a brother parching in a dry
+<lb/>&amp; thirsty land <del type="strikethrough">for water</del> <unclear cert="medium">to out</unclear> again only
+<lb/>dip in the tip of your finger But try &amp;
+<lb/>give a refreshing draught and then though
+<lb/>I thank you now for the little I shall be
+<lb/>much more cordial in my acknowledgements
+<lb/>for the more.</p>
+<lb/><p>All things work together for good. Can
+<lb/>anything be better than that? this affliction
+<lb/>you refer to I think has, one soon becomes
+<lb/>inured to danger. When I left you I am sure
+<lb/>the hair on my head would have stood
+<lb/>on end at the sight of a <term type="animal">serpent</term> in my
+<lb/>path <space extent="1" unit="chars"/>But as residence among such
+<lb/>dangers takes away the dread. We become
+<lb/>familiar with what would have shocked
+<lb/>us before - (may I never become so with sin)
+<lb/>Well I had experienced so many instances
+<lb/>of merciful preservation, such as escaping 
+<lb/>from dangerous animals although no
+    
+    <pb facs="liv_000581_0002" n="0002"/>
+<lb/>means had been taken for preservation I became
+<lb/>heedless and when the people became dispersed by
+<lb/>the frequent attacks of <term type="animal">lions</term> and the <w>beli<subst><del>a</del><add place="over-text">e</add></subst>f</w> that 
+<lb/>they were delivered into the power of those animals
+<lb/>by <w>witch<subst><del><gap extent="2" unit="chars" agent="overwriting"/></del><add place="over-text">cr</add></subst>aft</w> &amp; always left off <add place="below">^</add> <add place="above">the</add> work which
+<lb/>I was superintending at the time as soon as the 
+<lb/>news came of <choice><sic>distruction</sic><corr>destruction</corr></choice> at any of their 
+<lb/><term type="animal">cattle</term> posts. I went with them <choice><sic>accross</sic><corr>across</corr></choice> the 
+<lb/>valley to encourage them to kill two which 
+<lb/>had that morning killed 9 <term type="animal">sheep</term> belonging
+<lb/>to them. <space extent="1" unit="words"/>A few of the <orgName><placeName><settlement type="village">Kuruman</settlement></placeName> people</orgName>
+<lb/>were formost &amp; having guns were put in the
+<lb/>advance by the <term type="tribe">Bakhatla</term>. I saw the animal<!-- animal: lion -->
+<lb/>ascend behind some rocks towards our people 
+<lb/>&amp; was as near to them as you at your desk
+<lb/>are to <persName>Mr. Arundel</persName> at his. I ran forward to 
+<lb/>be within reach of call &amp; warn them of their
+<lb/>eminent danger, the animal did them
+<lb/>no harm I then rushed to draw them away
+<lb/>home &amp; in doing so came round by the end 
+<lb/>of the hill close to the wounded animal. the
+<lb/><term type="occupation">chief</term> &amp; one of the <orgName><placeName><settlement type="village">Kuruman</settlement></placeName> people</orgName> were
+<lb/>between me &amp;it <space extent="1" unit="chars"/>the former ran behind a tree
+<lb/>&amp; the latter fell into a hole. <space extent="3" unit="chars"/>It was the work
+<lb/>of a moment, <persName>Melealoe</persName> our good <orgName>native</orgName>
+<lb/><w>as<gap extent="1" unit="chars" agent="hole"/><supplied cert="high">s</supplied>istant</w> was close by where the <term type="animal">lion</term> was
+<lb/>tearing me. He advanced close up to him
+<lb/>&amp; tried to fire but his gun missed fire &amp;
+<lb/>the animal sprung from me upon him<!-- animal: lion -->
+<lb/><unclear cert="medium">&amp;</unclear> <persName>Mokhatla</persName> tried to rescue him &amp; was also
+<lb/>torn but another finished the business by
+    
+    <pb facs="liv_000581_0003" n="0003"/>
+<lb/>by as that time pitching his spear into the <choice><sic>monsters</sic><corr>monster's</corr></choice>
+<lb/>heart. this was the fifth they had killed within
+<lb/>a short time. I walked home without assistance
+<lb/>the <orgName>natives</orgName> <unclear cert="medium">cut</unclear> were carried. The excessive discharge
+<lb/>however soon reduced me to a skeleton &amp; there 
+<lb/>is a little <orgName>native</orgName> hut I spent many a weary night
+<lb/>dreaming that I saw <persName>D<hi rend="sup">r</hi> Bennet</persName> putting up my
+<lb/>arm with proper splints in <placeName><settlement type="city">London</settlement></placeName>, But
+<lb/>the Lord has had compassion on me Bless 
+<lb/>his name O my soul &amp; all that is within me &amp;c.</p>
+<lb/><p>I have recently built a large good house 
+<lb/>though my arm gave me pain all the time
+<lb/>We cannot delay here, we have no <gap agent="hole"/>
+<lb/>hands. <subst><del><gap extent="1" unit="words"/></del><add place="over-text">But</add></subst> few <term type="occupation">porters</term> &amp; <add place="below">^</add> <add place="above">we</add> must be p<gap agent="hole"/>
+<lb/>at the head tail &amp; middle of every oper<gap agent="hole"/>
+<lb/>if something goes wrong. We must <gap agent="hole"/> 
+<lb/>from preaching the gospel to mending <gap agent="hole"/>
+<lb/>or giving an <term type="medicament">emetic</term>. But we shall<gap agent="hole"/>
+<lb/><w>ple<gap extent="3" unit="chars"/><supplied cert="medium">nt</supplied>y</w> of time to rest. <space extent="2" unit="chars"/>In that re<gap agent="hole"/>
+<lb/>glorious rest may we meet together.<gap agent="hole"/>
+<lb/>hope for everything though him th<gap agent="hole"/>
+<lb/>us and gave himself for us. that<gap agent="hole"/> 
+<lb/>warms your hearts at home. It re<gap agent="hole"/>
+<lb/>ours here. It never grows old. It<gap agent="hole"/>
+<lb/>find its way into the hearts of the Bakh<gap agent="hole"/>
+<lb/>it will it must.</p>
+<lb/><p>I have written to you very hurriedly<gap agent="hole"/>
+<lb/>understand it is strictly private. I do not 
+<lb/>like notoriety. it creates envy. Will you
+<lb/>kindly jog <persName>Mr Arundel</persName>'s memory for me
+<lb/>relative to my watch sent home by <persName>Mr
+<lb/>Birt</persName>. Perhaps you will take it for me
+<lb/>to <persName>Mr Yonge</persName>. I ask this because I know
+
+   <pb facs="liv_000581_0004" n="0004"/>
+<lb/>multiplicity of <persName>Mr <choice><abbr>A</abbr><expan cert="medium">Arundel</expan></choice></persName>'s engagements. I know too you
+<lb/>will be able to tell <persName>Mr. Yonge</persName> the watch was a 
+<lb/>thorough bad one &amp; not wound his feelings. <w>Ind<gap extent="3" unit="chars" agent="blot"/><supplied cert="low">eed</supplied></w>
+<lb/>I am sick of it But would give something more 
+<lb/>cheerfully if it would not be a plague to me anymore
+<lb/>if it is as the old guns of the <term type="tribe">Bakhalta</term> are
+<lb/>"dead" then half price for it to be sent out in 
+<lb/>medicines will suffice. A good watch is very 
+<lb/>valuable however. We must try &amp; make something <add place="below">of it</add></p>
+
+	<cb rend="right vertical"/>
+	<ab>
+<lb/>I have written <persName>Mr <choice><sic>Arundell</sic><corr>Arundel</corr></choice></persName> by same opportunity
+	</ab>
+        </div>
+		
+		<div>
+	<cb rend="left vertical upside-down"/>
+	<ab>
+<lb/><gap agent="hole"/>
+	<address>
+<addrLine>Care of <persName><choice><abbr>Rev.</abbr><expan>Reverend</expan></choice> D<hi rend="sup underline">r</hi> Philip</persName>. <placeName><hi rend="underline">Cape Town</hi></placeName></addrLine>
+	</address>
+	<addSpan hand="#U2" spanTo="#paste-on"/>
+<lb/>An Original letter of Dr. <choice><orig><persName>Livingston</persName></orig><reg><persName>Livingstone</persName></reg></choice>'s
+<lb rend="center"/><milestone unit="section" rend="quarter-line"/>
+<lb/>Presented by
+<lb/><persName>Mr <choice><abbr>Rev<hi rend="sup">d</hi></abbr><expan>Reverend</expan></choice> (: H. Bateman</persName>
+<lb/><gap extent="1" unit="words" agent="overwriting"/>
+<lb/><gap extent="1" unit="words" agent="overwriting"/>
+	<anchor xml:id="paste-on"/>
+	<address>
+<addrLine rend="center"><placeName>Mission House</placeName></addrLine>
+<addrLine rend="center"><space extent="1" unit="words"/><placeName>Bloomfield St</placeName></addrLine>
+<addrLine rend="right"><add place="marginleft"><hi rend="underline">single</hi></add><placeName>London</placeName></addrLine>
+	</address>
+	</ab>
+
+<!-- circular stamp
+KK
+22N022
+1845 -->
+		</div>
+
+		<div>
+<lb/><p>If you find time to write again write a long one
+<lb/>and it will be all the more acceptable to.</p> 
+<lb/><closer><space extent="1" unit="words"/>your affectionate brother in the faith
+<lb/><space extent="2" unit="words"/>&amp; hope of the gospel <signed><persName><choice><abbr>D</abbr><expan>David</expan></choice> Livingstone</persName></signed></closer>
+            </div>
+        </body>
+    </text>
+
+</TEI>

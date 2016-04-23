@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001070">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to J.E. Grey</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_001070</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country>
+                        <settlement>Johannesburg</settlement>
+                        <repository>Brenthurst Library</repository>
+                        <idno type="shelfmark">Book no. 5352</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0563</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to J.E. Grey</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1857-07-31">31 July [1857]</date>
+                    <placeName type="compositionPlace">50 A Albemarle St., London</placeName>
+                    <persName type="addressee">Grey, J.E.</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-22" who="#AW">Coding review</change>
+            <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>
+            <change when="2015-03-25" who="#JM">Proofreading</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001070_0001" n="0001"/>
+<opener>
+<lb/><dateline rend="right"><date when="1857-07-31"><subst><del>29<hi rend="sup">th</hi></del><add place="over-text">July 31<hi rend="sup">st</hi> </add></subst>
+</date></dateline>
+<lb/>    
+<lb/><salute>My Dear Sir</salute>
+</opener>
+
+<lb/><p>I shall be
+<lb/>by your giving
+<lb/><persName>M<hi rend="sup">r</hi> Ford</persName> instructions
+<lb/>to draw the <term type="insect">Tsetse</term>	
+<lb/>on wood (a small <add place="below">block</add>
+<lb/><add place="marginbottom"><persName>J.E. Grey <choice><abbr>Esq.</abbr><expan>Esquire</expan></choice></persName></add>
+
+	<pb facs="liv_001070_0002" n="0002"/>
+<lb/>to be inserted in
+<lb/>the page) If it
+<lb/>is inconvenient 
+<lb/>to do it on wood
+<lb/>then a drawing
+<lb/>on paper which
+<lb/>could be transferred
+<lb/>to wood will
+<lb/>suit us. I should
+<lb/>like it the size
+
+	<pb facs="liv_001070_0003" n="0003"/>
+<lb/>of life and the
+<lb/>wings in the 
+<lb/>natural position
+<lb/>&amp; another <unclear cert="low">equal to</unclear>
+<lb/>the wings open
+<lb/>to <choice><orig>shew</orig><reg>show</reg></choice> the	
+<lb/>yellow bars
+<lb/>across the
+<lb/>after part of the
+<lb/>body - the wings
+<lb/>project beyond
+<lb/>this part in this	
+
+	<pb facs="liv_001070_0004" n="0004"/>
+<lb/>natural position
+<lb/><figure><figDesc>A tiny sketch of the tsetse's natural position</figDesc></figure></p>
+<lb/><p>Please send it
+<lb/>to <persName>M<hi rend="sup">r</hi> Cooke</persName> <persName>M<hi rend="sup">r</hi>
+<lb/>Murray</persName>'s cousin	
+<lb/>as that gentleman is
+<lb/>at present absent
+<lb/>He is at this address
+<lb/>I thank you most
+<lb/>heartily for your
+<lb/>prompt attention
+<lb/>to my request
+</p>
+
+<closer>
+<lb/><salute>I am to you obliged</salute>
+<lb/><signed><persName>David Livingstone</persName></signed>
+</closer>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

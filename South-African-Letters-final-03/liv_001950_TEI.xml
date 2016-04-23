@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001950">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Edward D. Young</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_001950</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country>
+                        <settlement>Kimberley</settlement>
+                        <repository>Kimberley Africana Library</repository>
+                        <idno type="shelfmark">NLS, MS.10779</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1380</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Edward D. Young, 17 [July 1863]</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1863-07-17">17 [July 1863]</date>
+                    <placeName type="compositionPlace">Cataracts of the Shire</placeName>
+                    <persName type="addressee">Young, Edward D., 1831-1896</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-26" who="#AW">Coding review</change>
+            <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>
+            <change when="2015-05-15" who="#JM">Proofreading</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001950_0001" n="0001"/>
+<lb/><opener rend="center"><dateline rend="right"><persName>M<hi rend="sup underline">r</hi> Young</persName></dateline>
+<lb/><salute>Dear Sir</salute></opener>
+<lb/><p><space extent="7" unit="chars"/>I have been
+<lb/>counselled by my
+<lb/><term type="tribe">Makololo</term> friends here
+<lb/>to send for those
+<lb/>of you down about
+<lb/>the mission who
+<lb/>are it seems numerous
+<lb/>enough to carry the
+<lb/>boat - and as we
+<lb/>are getting on rather
+<lb/>slowly and will
+<lb/>be glad of anything
+<lb/>to expedite the journey
+            
+	<pb facs="liv_001950_0002" n="0002"/>
+<lb/>I have listened to their
+<lb/>advice and written
+<lb/>to <persName>Mr Waller</persName> to send
+<lb/>40- You will send
+<lb/>the accompanying
+<lb/>letter down to him
+<lb/>and if they come send
+<lb/>the <term type="tribe">Ajawa</term> on to me
+<lb/>by some who knows 
+<lb/>the way - all as
+<lb/>quickly as you
+<lb/>conveniently can
+<lb/>I have mentioned to
+<lb/><persName>Waller</persName> the payment
+<lb/>I promise to give
+<lb/>and he will give you	
+        	
+	<pb facs="liv_001950_0003" n="0003"/>
+<lb/>a list of the same if they
+<lb/>do not prefer waiting
+<lb/>till my return - 
+<lb/>the calico will be
+<lb/>the handkerchief stuff
+<lb/>or good prints</p>
+<lb/><p>Your deep gully
+<lb/>was close at hand
+<lb/>when you turned
+<lb/>yesterday - we took
+<lb/>the way you through
+<lb/>&amp; there slept - all
+<lb/>this blessed morning
+<lb/>handing the beastly
+<lb/>thing up the hill - 
+<lb/><unclear cert="medium">purchase</unclear> broke by
+<lb/>sheer pulling through
+<lb/>the sand <add place="inline">^</add> <add place="marginleft" rend="vertical">spliced beautifully by Musa and I!!</add> and one<!-- Not entirely certain about this line. -AA --><!-- I have no idea what the VJ is an abbreviation for. JM --><!-- Fixed. AW -->
+
+	<pb facs="liv_001950_0004" n="0004"/>
+<lb/>of the rows is now <figure><figDesc>Sketch of a yoke</figDesc></figure>
+<lb/><figure><figDesc>Sketch of a broken yoke</figDesc></figure>. Pole broken
+<lb/>at both ends and these
+<lb/><unclear cert="low"><choice><sic>thinks</sic><corr>things</corr></choice></unclear> may be but a
+<lb/>sample <!-- Tweet! -->for the <term type="animal">oxen</term>
+<lb/>are not behaving
+<lb/>like gentlemen at all
+<lb/>We shall in the even
+<lb/>of the <term type="tribe">Ajawa</term> coming
+<lb/>leave the waggon &amp;
+<lb/>the iron can be taken
+<lb/>back at your leisure</p>
+    
+<closer>
+<lb/><signed><persName>David Livingstone</persName></signed>
+<lb/><date when="1863-07-17">Thursday 17<hi rend="sup underline">th</hi> 2PM</date>
+</closer>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

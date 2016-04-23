@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000627">
+    <!-- xml:id attribute value above should be same as the LEAP file name (without .xml suffix) -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Charles Livingston, 16 March 1847</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="SF">
+					<name>Samantha Fitch</name>
+					<resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="EC">
+					<name>Erin Cheatham</name>
+					<resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License
+                        </ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 781</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0162</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="ml"><label>Mary Livingstone's hand</label> This hand is known
+                                to be that of Mary Livingstone.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Charles Livingston, 16 March 1847</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1847-03-16">16 March 1847</date>
+                    <placeName type="compositionPlace">Kuruman</placeName>
+                    <persName type="addressee">Charles Livingston</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-10-16" who="#CL">Corrections</change>
+			<change when="2015-08-22" who="#AW">Coding review</change>
+            <change when="2015-07-26" who="#HB">Proofing and Quality Control</change>
+            <change when="2014-10-20" who="#MW">Proofreading and XML encoding</change>
+            <change when="2014-08-07" who="#AM">Initial Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <pb facs="liv_000627_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><placeName><settlement type="village">Kuruman</settlement></placeName> <date when="1847-03-16">16 March 1847</date></dateline>
+<lb/><salute>My Dear Brother</salute></opener>
+<lb/><p>Your favour of <date when="1846-07-10">10 July <choice><abbr>/46</abbr><expan>1846</expan></choice></date> lately reached this station
+<lb/>Another to my better half bore it company and when we <add place="below">^</add> <add place="above" rend="gray">arrived</add> worried a few days ago
+<lb/>our hearts were gladdened by perusing them. We are right glad to hear from
+<lb/>you. Our pleasure however had a little alloy of pain. You mention
+<lb/>the failure of your health. And this although we know that you are
+<lb/>in better keeping than that of your best earthly friends. We had fondly
+<lb/>hoped that you should be allowed to devote your life to that work in
+<lb/><unclear cert="low">all</unclear> which we hope to live &amp; in which we desire to die. Good <w>howev<supplied>-</supplied>
+<lb break="no"/>er</w> is the will of the Lord - this is not our house. We look for a
+<lb/>better <add place="below">^</add> <add place="above">land</add> where no obstacle will ever arise in our service through infirmity
+<lb/>of body. Hope you will yet recover. Divine Providence will guide
+<lb/>your steps. May the Almighty God lift upon you the light of His
+<lb/>countenance &amp; bless you. I have had no time for correspondence
+<lb/>during the last eight months I have travelled &amp; <choice><orig>builded</orig><reg>built</reg></choice> much
+<lb/>but having come out to attend a meeting of committee I
+<lb/>have a little time to spare &amp; will make the most of it for my
+<lb/>distant friends. Do not expect fine composition or fine
+<lb/><unclear cert="medium">anything</unclear>. I am becoming more &amp; more a barbarian - can
+<lb/>read but little. And yet must keep up some acquaintance
+<lb/>with the medical &amp; other sciences. Could not now deliver a speech
+<lb/>in English. My sentences are Sitchuanized by constantly expressing
+<lb/>my ideas in that language. Have lately been obliged to speak
+<lb/>Dutch of all languages the nastiest This is good only for <term type="animal">oxen</term> <!-- Anne, I removed the nationality tags as you correctly surmised we do not use for languages. HB -->
+<lb/>You are aware I have left <placeName><settlement type="village">Mabotsa</settlement></placeName>. It was my station. <persName>Edwards</persName>
+<lb/>got there through my influence But no sooner was he sure
+<lb/>of being finally away from <placeName><settlement type="village">Kuruman</settlement></placeName> where he had been an
+<lb/><term type="occupation">assistant missionary</term> than every means were put into <w>oper<supplied>-</supplied>
+<lb break="no"/>-ation</w> to get the station to himself. He felt that he would be
+<lb/>nothing beside me. This spirit dictated the <bibl>letter</bibl> which was
+<lb/>published in the <orgName><choice><abbr>M.S.</abbr><expan>Missionary Sketches</expan></choice></orgName> about the <term type="animal">lion</term> affair: I was not aware <!-- Adrian, not sure what the MS is an abbr for, but tagging as orgName as I consider it's some publication name. HB --><!-- Not sure, but Chris may know so I've added the tag as a placeholder. AW -->
+<lb/>of the spirit by which <persName>M<hi rend="sup">r</hi> &amp; M<hi rend="sup">rs</hi> <choice><abbr>E</abbr><expan>Edwards</expan></choice></persName> were actuated and was only
+<lb/>anxious for the promotion of their honour &amp; influence among
+<lb/>the <orgName>natives</orgName>. We have endured the scourge of tongues All manner
+<lb/>of accusations were made against me And the poor unhappy
+<lb/><unclear cert="medium">couple</unclear> believed that I <add place="below">^</add> <add place="above">too</add> had scandalized them. They thought I had
+<lb/>been actuated by the same spirit as themselves. They had an intense
+<lb/>desire to get quit of me and actually came all the way out to
+<lb/><placeName><settlement type="village">Kuruman</settlement></placeName> beseeching <persName>M<hi rend="sup">r</hi> Moffat</persName> to use all his influence with me to
+<lb/>induce me to leave <placeName><settlement type="village">Mabotsa</settlement></placeName>. <persName>M<hi rend="sup">r</hi> <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName> replied Why <persName>M<hi rend="sup">r</hi> <choice><abbr>L</abbr><expan>Livingstone</expan></choice></persName> consulted us
+<lb/>all as to the propriety of his going to another tribe in order that the
+<lb/>gospel might have a wider range in the <placeName><region>Interior</region></placeName>. "O had I known
+<lb/>that<supplied>"</supplied> said <persName>Edwards</persName><!-- last two words should not be inside the quote AM (2014-5-26) --><!-- Fixed. AW --> <supplied>"</supplied>I should not have acted as I have done" <persName>M<hi rend="sup">r</hi> <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName> told
+<lb/>him also to his utter amazement that no one had ever heard me
+<lb/>say a word about him but of respect &amp; kindness: Poor fellow
+<lb/>Led astray by his own heart &amp; desire to be great I sincerely pity
+<lb/>him. <persName>Inglis</persName> took up his abode in my cause but was lately
+<lb/><unclear cert="medium">driven away</unclear> by the <term type="tribe">Bakhatla</term> &amp; <persName>Edwards</persName> was obliged to bribe
+<lb/>them by a large present to allow him to remain - they were loud
+
+                <pb facs="liv_000627_0002" n="0002"/>
+<lb/>in their <choice><sic>denuntiations</sic><corr>denunciations</corr></choice> - "You have driven away our true friend" &amp;c. I mention this
+<lb/>that you may be prepared for trials of a similar kind as those we have
+<lb/>experienced - But few pass through life without feeling sorrow But
+<lb/>few escape the scourge of the tongue. We ought to consecrate our whole
+<lb/>being to the Divine glory - and do good whosoever does ill. Pray for us
+<lb/>that we may be faithful unto death - follow the Saviour through
+<lb/>good &amp; evil report.</p>
+<lb/><p>We are very happy in our work at <placeName><settlement type="village">Chonuane</settlement></placeName>. The <term type="occupation">Chief</term> <persName>Sechele</persName> is
+<lb/>a sensible man - now reads pretty well - is fond of his testament
+<lb/>and has an intense desire for everything connected with civilization
+<lb/>We are poor &amp; cannot help much. But when he has no soap
+<lb/>he washes his clothes with pipe clay - We hope his people will
+<lb/>follow his example. He &amp; his wives are our best <term type="occupation">scholars</term> &amp;
+<lb/>afford us much satisfaction None however are converted
+<lb/>This is the great <foreign xml:lang="la">desideratum</foreign>. Our thoughts always light on
+<lb/>it. The locality we now inhabit is not good - our water
+<lb/>is scanty &amp; bad but we hope to remove to a better shortly
+<lb/>This will make hard work for me but it is all in the
+<lb/>course of the service of a good <term type="occupation">master</term>. So we cannot grumble
+<lb/>this subject brings a remark of yours to <choice><sic>to</sic><corr/></choice> my recollection
+<lb/>You worked a day or two on <choice><sic><persName>John</persName>s</sic><corr><persName>John</persName>'s</corr></choice> farm &amp; got knocked up for <w>sever<supplied cert="medium">al</supplied></w>
+<lb/>days after - Did you wonder at it - What a <term type="occupation">physiologist</term> you are.!
+<lb/>Suppose you had worked two hours <add place="below">^</add> <add place="above">each day</add> for the first week three for the
+<lb/>second &amp; four for the third &amp; so on would you have been
+<lb/>knocked up<supplied cert="high">?</supplied> Your system may not yet be all fitted for work
+<lb/>but we cannot conclude that it never will be - you are not yet old
+<lb/>When I thought of writing to the <orgName>Directors</orgName> - it was with the persuasion
+<lb/>that you would be qualified both physically &amp; mentally for <term type="occupation">missionary
+<lb/>labour</term> and a recommendation from any one in whom the
+<lb/><orgName>Directors</orgName> had confidence would have materially facilitated your
+<lb/>acceptance - In <placeName><country>China</country></placeName> there is not much <choice><orig>bodyly</orig><reg>bodily</reg></choice> or other manual
+<lb/>labour &amp; so in <placeName><country>India</country></placeName> But here we have more manual exertion
+<lb/>than mental<supplied cert="high">.</supplied> Commit thy way unto the Lord - Trust also in Him
+<lb/>We have recently returned from a long tour through the <placeName><region>region
+<lb/>lying Eastward of <placeName><settlement type="village">Chonuane</settlement></placeName></region></placeName> We visited very many tribes who have
+<lb/>never seen a <term type="occupation">missionary</term> before - the country is more populous <!-- geog: -->
+<lb/>than anywhere else in the <placeName><region><term type="tribe">Bechuana</term> land</region></placeName>. The <w>near<supplied cert="high">er</supplied></w> we approach
+<lb/>the coast the population becomes the more dense - more civilized
+<lb/>too for they weave <term type="plant">cotton</term> &amp; work in iron Tin, Copper &amp; brass
+<lb/>The men too carry on the operations of <term type="occupation">husbandry</term>. A large river
+<lb/>called the <placeName><geogName type="river">Ourie</geogName></placeName> or <placeName><geogName type="river">Limpopo</geogName></placeName> wends its way to the sea. It is <measure>more
+<lb/>than 400 <choice><abbr>yds</abbr><expan>yards</expan></choice> <choice><sic>accross</sic><corr>across</corr></choice></measure>. But all the fountains have been seized<!-- geog: fountains of Limpopo -->
+<lb/>by <term type="people">Dutch emigrants</term> commonly called <orgName><choice><sic>Boors</sic><corr>Boers</corr></choice></orgName> - and they
+<lb/>treat the <orgName>natives</orgName> very badly. Many of the <orgName>natives</orgName> fled from
+<lb/>our waggon when we were travelling as if they had beheld an
+<lb/>enemy - Poor people they are destroyed for lack of knowledge
+<lb/>they hate &amp; kill each other so the <orgName><choice><sic>Boors</sic><corr>Boers</corr></choice></orgName> find them an easy
+<lb/>prey. The <term type="tribe">Bechuanas</term> are admitted by all the <orgName><choice><sic>Boors</sic><corr>Boers</corr></choice></orgName> to be an
+<lb/>honest, quiet people yet they treat them as <term type="occupation">slaves</term> - make
+<lb/>them work without wages, and beat them shamefully -
+<lb/>They lately attacked one tribe - killed a great number and
+<lb/>took 400 <orgName>captives</orgName> - the booty amounted to 10,000 <term type="animal">sheep</term> and
+<lb/><term type="animal">cattle</term> beyond number - their Redeemer is mighty But
+
+                <pb facs="liv_000627_0003" n="0003"/>
+<lb/>they know him not - your question respecting the complete
+<lb/>annihilation of the idea of a supreme being in the <term type="tribe">Bechuana</term>
+<lb/>mind is rather difficult of solution - We come after <term type="occupation">missionaries</term>
+<lb/>have been in the country 30 years. <foreign xml:lang="und"><unclear cert="low">Morimo</unclear></foreign> or God or <term type="occupation">Chief</term> is <!-- geog: -->
+<lb/>with every one's mouth. Intelligent <orgName>natives</orgName> say their forefathers
+<lb/><unclear cert="low">spoke</unclear> of God in the same way. A man escapes from an <term type="animal">Elephant</term>
+<lb/>or <term type="animal">lion</term> - He instantly exclaims <supplied cert="high">"</supplied>How good God is to me! <choice><sic>"</sic><corr></corr></choice>What a heart
+<lb/>God has to me!" A person is sick or dies - the exclamation then is
+<lb/>"God has no heart<supplied cert="high">"</supplied> <del type="strikethrough"><choice><abbr>viz</abbr><expan>videlicet</expan></choice></del> <add place="above">i.e.</add> He is not kind - they have parables from
+<lb/><gap extent="1" unit="words" agent="illegible"/> we who are better informed can gather the idea of a future
+<lb/>state The knowledge of some of these parables is universal and
+<lb/>if we can believe testimony it was so of old - Here is one - God
+<lb/>sent a <term type="animal"><choice><orig>Cameleon</orig><reg>Chameleon</reg></choice></term> to say to men - <supplied cert="high">"</supplied>though you die you do not vanish
+<lb/>(or become annihilated), you will return again" the <term type="animal"><choice><orig>Cameleon</orig><reg>Chameleon</reg></choice></term> being
+<lb/>a slow walker was outstripped by the little black <term type="animal">lizard</term> sent by
+<lb/>another And the latter came first to man - the Black <term type="animal">Lizard</term> <unclear cert="low">said</unclear>
+<lb/>to men <supplied cert="high">"</supplied>One will come after me &amp; tell you that when you die you
+<lb/>will not perish but will return again - It is all a message of lies
+<lb/>When you die you perish as an <term type="animal">ox</term><supplied cert="high">"</supplied> - When the <term type="animal"><choice><orig>Cameleon</orig><reg>Chameleon</reg></choice></term> came, men
+<lb/>stopped his mouth by saying <supplied>"</supplied>O we know your message it is all
+<lb/>lies -" There are cairns in the hills and when a <term type="occupation">traveller</term> comes
+<lb/>to one he throws a stone or branch of a tree to it and says with a
+<lb/>loud voice <supplied>"</supplied>Hail O King - Let it be well with me in the way I now
+<lb/>go - Let me find game - Let it be pleasant for me among the people
+<lb/>I may meet<supplied cert="high">"</supplied> - from these &amp; other facts we who are more enlightened
+<lb/>can gather fragments which seem to point to a primitive faith &amp;
+<lb/>worship. But none of the <term type="tribe">Bechuanas</term> in distant parts can <w>conn-
+<lb break="no"/>ect</w> these fragments together so as to form one rational idea on the
+<lb/>subject of the Godhead or futurity - They seem at one period to
+<lb/>have worshipped animals. A little <term type="insect">beetle</term> is tied on the hair and
+<lb/>something like a prayer is sometimes made to it If a <term type="tribe">Marolong</term> (one
+<lb/>of the tribes) kills a <term type="animal">khoodoo</term> he breaks out into a loud wail - <supplied>"</supplied>O
+<lb/>I have killed my father. What shall I do yo yo yo yo<supplied>"</supplied>. If asked why
+<lb/>they do so - "It is our custom. We saw our forefathers do so &amp; we do
+<lb/>the same<supplied>"</supplied>. They laugh at it - Have not the smallest devotional <w>feel<supplied>-</supplied>
+<lb break="no"/></w>-ing unless spitting on the ground when they see the animal after
+<lb/>which their tribe is named can be denominated such an
+<lb/>emotion. <space extent="1" unit="words
+"/>Am glad you decide not to go to <placeName><settlement type="town">Kilmarnock</settlement></placeName> It
+<lb/>would be a false step - <space extent="1" unit="chars"/><persName>Father</persName> does not understand the matter
+<lb/>I have examined the "new views" as they are called and find as you do
+<lb/>many excellent things in connection with them But still in relation
+<lb/>to the fundamental points I believe they are quite erroneous. I came to
+<lb/>that conclusion without any regard to "Authority" of names or systems
+<lb/>They are favoured with success in <placeName><country>Scotland</country></placeName> just because the
+<lb/>majority of the <term type="people">Scotch</term> preaching has been outrageously wrong in
+<lb/>the opposite direction - I question whether success would attend
+<lb/>them where the "mercantile views" the "waiting systems" have not been
+<lb/>prominent in the preaching of <term type="occupation">ministers</term>. Study thoroughly my
+<lb/>Dear brother If you become a <term type="occupation">missionary</term> you will have little
+<lb/>time then. I wish I had a thorough education. If your constitution
+<lb/>is not ruined you would be better in connection with <orgName>our
+<lb/>Society</orgName> than <term type="occupation">school keeping</term> because you would have both
+<lb/>summer and winter for study. If you can afford it Go to
+<lb/>some eminent <term type="occupation">physician</term> &amp; request his opinion on your health,
+
+                <pb facs="liv_000627_0004" n="0004"/>
+<lb/>also whether you may think of <term type="occupation">Missionary labour</term>. <orgName>Our Society</orgName> has been trying
+<lb/>to get <term type="occupation">agents</term> for <placeName><country>China</country></placeName> &amp; after trial of several have come to the resolution of
+<lb/>educating sixteen expressly for that <orgName>Mission</orgName>. The funds are at present
+<lb/>depressed but will come round again. However you will know
+<lb/>best how to act. Let us hear from you soon &amp; often. We answer all
+<lb/>who write us but find it beyond our <choice><sic>tempers</sic><corr>tempers'</corr></choice> utmost stretch to
+<lb/>write those who maintain majestic silence. I thank you most
+<lb/>heartily for the <bibl>books</bibl> you sent. Am sorry I cannot possibly send you
+<lb/>any money. The reason - a most cogent one - is, I have none - We got <!-- Ha! I love DL's login on that one :) HB -->
+<lb/><bibl>letter after letter from home</bibl> breathing the most ardent aspirations
+<lb/>for emigration - We made a great effort &amp; sent £20 to enable them to
+<lb/>emigrate <space extent="3" unit="chars"/> Think of the acknowledgement It runs as follows - "<persName>John</persName>'s
+<lb/>views of emigration exactly correspond or coincide with ours - He says
+<lb/>You may do something to a garden But old trees seldom bear <w>trans-
+<lb break="no"/>planting</w> well" This after boring me for years with their wishes to
+<lb/>emigrate - probably there has been a process of conviction but
+<lb/>of that I am ignorant - All I know is as the intense longings side
+<lb/>by side with "<persName>John</persName>'s views of emigration exactly coinciding with
+<lb/>ours". I shall read <bibl><persName>D'Aubigne</persName></bibl> on our way homewards, and the
+<lb/><bibl>work of <persName>Mahan</persName></bibl> also - should have been delighted with his mental 
+<lb/>philosophy. Admire <persName>Brown</persName> very much - a favourite <bibl>work</bibl> to
+<lb/>have to read on my travels</p>
+<lb/><p>My wife will put in a line or two -</p>
+<lb/><closer><salute> Yours affectionately</salute> <signed><persName><choice><abbr>D</abbr><expan>David</expan></choice> <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></signed></closer>
+            </div>
+
+<!-- Not sure if it is correct to end the body here and code the next section as back matter - this was a way round the fact that the editor seems to want <closer> details to be last thing in the body AM  -->
+<!-- Removed. I think a new div is sufficient. AW -->
+
+			<div>
+<lb/><p><add hand="#ml">My Dear Brother Charles
+<lb/>Many thanks for your kind <bibl>letters</bibl>
+<lb/>received about a fortnight ago. I feel sorry to hear your <!-- Adrian, this is too vague for a date tag, correct? HB --><!-- Yes. AW -->
+<lb/>health has failed, but I trust you will soon recover. We hear 
+<lb/>you have grown very tall, we have hopes, when you <add place="above">have</add> done 
+<lb/>growing you will improve in health and become as strong 
+<lb/>as my dear husband, he has very good health, which is a 
+<lb/>great blessing in this country, he works very hard <term type="occupation">building</term>, <!-- geog: -->
+<lb/><term type="occupation">gunmending</term> and all kinds of work. We are now on a visit 
+<lb/>to <placeName><settlement type="village">Kuruman</settlement></placeName> where my parents reside, and hope to return 
+<lb/>to our own home in about two months, hence I have 
+<lb/>not time to say much more now, but hope sometime or other to 
+<lb/>answer your kind <bibl>letters</bibl>. Accept the love of your affectionate sister
+<lb rend="right"/><persName>Mary <choice><abbr>L</abbr><expan>Livingstone</expan></choice></persName></add></p>                
+  
+<cb/><ab>
+<lb/>Care of <persName>Rev<hi rend="sup underline">d</hi> D<hi rend="sup">r</hi> Philip</persName>, <placeName><settlement type="city">Cape Town</settlement></placeName>
+<lb/>For <!-- In large red letters "P P 4" appears here, propably in another hand - AM -->
+<address>
+<addrLine n="1"/><persName>M<hi rend="sup underline">r</hi> Charles <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName>
+<addrLine n="2"/><placeName>Almada St</placeName> <!-- Adrian, are we using placeName for street addresses only within the postmark section, or within text as well? (happens in earlier letter but I left untagged) HB --><!-- Both, but I don't see the other instance. AW -->
+<addrLine n="3"/><placeName><settlement type="town">Hamilton</settlement></placeName>
+<addrLine n="4"/><placeName><region>Lanarkshire</region></placeName>
+<addrLine n="5"/><placeName><choice><abbr>N B</abbr><expan>North Britain</expan></choice></placeName> <!-- Not sure what this is abbr for? HB --><!-- Me either, but have put in a placeholder in case Chris knows. AW --><!-- I have filled this in but it's a bit of a guess AM -->
+</address>    
+</ab>              
+            </div>
+        </body>
+    </text>
+
+</TEI>

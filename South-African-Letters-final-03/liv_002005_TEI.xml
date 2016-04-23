@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002005"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<!-- Change title below -->
+                <title>Letter to William Sunley, 4 March 1864</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<!-- Add or remove <respStmt> as appropriate below -->
+				<!-- Change xml:id below -->
+                <respStmt xml:id="JM">
+					<!-- Change name below -->
+                    <name>Jared McDonald</name>
+					<!-- Change, remove, or add more <resp> as appropriate below -->
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+				<!-- Change date below if necessary -->
+                <date>2016</date>
+				<!-- Change base file name below -->
+                <idno type="LEAP-ID">liv_002005</idno>
+				<!-- Change the license below if necessary -->
+			    <availability>
+        			<licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+            			All materials are licensed for use under the 
+            			<ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                		Creative Commons Attribution-Noncommercial 3.0 Unported License
+            			</ref>. (c) Dr. Neil Imray Livingstone Wilson, 2011
+        			</licence>
+    			</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+						<!-- Change country below as needed -->
+                        <country>South Africa</country>
+						<!-- Change settlement below as needed -->
+                        <settlement>Johannesburg</settlement>
+						<!-- Change repository below as needed -->
+                        <repository>Brenthurst Library</repository>
+						<!-- Change shelfmark below as needed -->
+                        <idno type="shelfmark">778</idno>
+                        <altIdentifier>
+							<!-- Change CC number below as needed -->
+                            <idno type="ccnumber">Letters, 1432</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+							<!-- Add additional <handNote> elements below as needed. -->
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>                   	
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+					<!-- Change title below -->
+                    <title>Letter to William Sunley, 4 March 1864</title>
+                    <author xml:id="DL">David Livingstone</author>
+					<!-- Change @when and date below -->					
+                    <date type="composition" when="1864-03-04">18 August 1850</date>
+					<!-- Change place below -->
+                    <placeName type="compositionPlace">Mosambique</placeName>
+					<!-- Change addressee below -->
+                    <persName type="addressee">Sunley, William, ?-1886</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. 
+				English should be first, then add all other languages, as appropriate, 
+				in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<!-- Change @when, @who, and work description below. -->
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Add new <change> elements below as needed. -->
+			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2016-03-30" who="#AW">Integrating duplicate versions</change>
+			<change when="2015-12-10" who="#AW">Coding review</change>
+			<change when="2015-12-10" who="#JM">Proofreading</change>		
+			<change when="2015-10-29" who="#AW">Coding review</change>
+           	<change when="2015-10-28" who="#EM">Proofing</change>
+			<change when="2015-09-08" who="#AA">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<!-- Change both @facs and @n below -->
+	<!-- Start each page with a <pb> formatted as below -->               
+	<pb facs="liv_002005_0001" n="0001"/>
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><add place="margintop" rend="right gray small" hand="#U1">MS 8/10</add>
+<lb/><add place="margintop" rend="left gray small" hand="#U1">8-6-9</add>
+<lb/><dateline rend="right"><placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> <date when="1866-03-04">4 March 
+<lb/> 1866</date></dateline><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>My Dear <persName>Sunley</persName></salute><!-- Change line info as appropriate -->
+</opener>
+
+<lb/><p>We left the
+<lb/><placeName><geogName type="river">Zambesi</geogName></placeName> on <date when="1866-02-15">15<hi rend="sup underline">th</hi></date> <choice><abbr>ult.</abbr><expan>ultimo</expan></choice><!--I'm not sure of date/ abbreviation. -AA -EM --><!-- 15th ultimo, meaning 15 February. JM -->
+<lb/>The Ariel taking the
+<lb/>Lady Nyassa and the Orestes the Pioneer
+<lb/>in tow. We had a
+<lb/>gale on the <date when="1866-02-16">16<hi rend="sup underline">th</hi></date> &amp; <date when="1866-02-17">17<hi rend="sup">th</hi></date> <!--Uncertain on dates...see previous comment. -AA -EM--><!-- OK. AW -->
+<lb/>and readied this
+<lb/>on the <date when="1866-02-24">24<hi rend="sup underline">th</hi></date><!--date uncertain -EM --><!-- OK. AW --> expecting
+<lb/>to find the Orestes	
+<lb/>but she has not
+<lb/>yet come in sight
+
+	<pb facs="liv_002005_0002" n="0002"/>
+<lb/><add place="margintop" rend="left gray small" hand="#U1">2/</add>
+<lb/>and possibly may
+<lb/>have gone on to <placeName><region>Natal</region></placeName>
+<lb/><persName>Captain Chapman</persName>
+<lb/>had a great deal to
+<lb/>do in getting off a lee
+<lb/>shore with us in
+<lb/>tow and a hawser
+<lb/>wound round his
+<lb/>screw so as to stop
+<lb/>the engines - but
+<lb/>managed very nicely
+<lb/>and to my great
+<lb/>comfort with great
+<lb/>good humour - The
+<lb/>Lady Nyassa proved
+<lb/>herself a good seaboat
+
+	<pb facs="liv_002005_0003" n="0003"/>
+<lb/><add place="margintop" rend="right gray small" hand="#U1">3</add>
+<lb/>though she did kick
+<lb/>about &amp; no mistake</p>
+<lb/><p>I hear that you
+<lb/>are bent on going to
+<lb/><placeName><country>England</country></placeName> and I
+<lb/>shall be very sorry
+<lb/>to find you gone
+<lb/>and write this to
+<lb/>say which I hardly
+<lb/>need how glad
+<lb/>I should be to see you
+<lb/>at your own place
+<lb/>once more - <persName>Rae</persName> is
+<lb/>with me of course
+<lb/>and so is <persName>Waller</persName>
+<lb/>with some helpless
+<lb/>orphans &amp; widows 
+	
+	<pb facs="liv_002005_0004" n="0004"/>	
+<lb/><add place="margintop" rend="left gray small" hand="#U1">4</add>
+<lb/>who having been 
+<lb/>attached to the <orgName>Mission</orgName>
+<lb/>by <persName><term type="occupation">Bishop</term> Mackenzie</persName>
+<lb/>we did not think
+<lb/>it honourable to
+<lb/>abandon - They would
+<lb/>inevitably have been
+<lb/>sold or taken into
+<lb/><orgName>slavery</orgName> and our
+<lb/>good <term type="nationality">English</term> name
+<lb/>been dishonoured
+<lb/>thereby - We wish to
+<lb/>send them to the <placeName><region>Cape</region></placeName>
+<lb/>where possibly the
+<lb/>Orestes has taken
+<lb/>25 orphan boys who
+<lb/>were in similar plight
+<lb/>to our passengers	
+
+	<pb facs="liv_002005_0005" n="0005"/>	
+<lb/><add place="margintop" rend="center gray small" hand="#U1">5</add>	
+<lb/><add place="margintop" rend="right gray small" hand="#U1">MS 8/10</add>
+<lb/>The <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName>
+<lb/>unfortunately diminished
+<lb/>by three are in the
+<lb/>Pioneer under <persName>Cap<hi rend="sup underline">tain</hi>
+<lb/>Gardner</persName>'s care - He
+<lb/>will no doubt see
+<lb/>them safely to <placeName><geogName type="island">Johanna</geogName></placeName> -
+<lb/>but we were in
+<lb/>such a hurry at
+<lb/><unclear cert="low">Hongone</unclear> that no
+<lb/>arrangements could
+<lb/>be made and fully
+<lb/>expected to find
+<lb/>the Pioneer here -
+<lb/>one man died of <term type="ailment">dysentery</term> - one was
+<lb/>taken off by a <term type="animal"><choice><orig>crockodile</orig><reg>crocodile</reg></choice></term>
+
+	<pb facs="liv_002005_0006" n="0006"/>
+<lb/><add place="margintop" rend="left gray small" hand="#U1">6</add>
+<lb/>close to the ship his
+<lb/>companions all
+<lb/>standing by but not
+<lb/>stirring to help him
+<lb/>and the third - a
+<lb/><orgName>slave</orgName> imposed on <unclear cert="low">now</unclear>
+<lb/>and a native of
+<lb/>the country about
+<lb/><placeName><geogName type="lake">Nyassa</geogName></placeName> ran away
+<lb/>&amp; lived among his
+<lb/>people with three
+<lb/>or four wives - Before
+<lb/>we left he came &amp;
+<lb/>asked his wages
+<lb/>which were of course
+<lb/>given him - I am
+<lb/>sorry that I have not
+<lb/>a better report to give
+
+	<pb facs="liv_002005_0007" n="0007"/>
+<lb/><add place="margintop" rend="right gray small" hand="#U1">7</add>
+<lb/>of the conduct of the
+<lb/>rest than what you
+<lb/>gave of the <orgName><placeName><geogName type="island">Johannese</geogName></placeName></orgName>
+<lb/>generally to the <orgName><term type="occupation"><w>mission<supplied>-</supplied>
+<lb break="no"/>-ary</w></term> society</orgName> -</p>
+<lb/><p>We are going South
+<lb/>probably to <unclear cert="medium">Promtery</unclear>
+<lb/>to sell Lady Nyassa
+<lb/>We are now getting a
+<lb/>yard &amp; square<gap extent="1" unit="chars" agent="overwriting"/> sail to
+<lb/>help us -</p>
+<lb/><p>The <term type="occupation">Governor <w>Gener<supplied>-</supplied>
+<lb break="no"/>-al</w></term> went off to the
+<lb/><placeName><region>Cape</region></placeName> in ill health two
+<lb/>days ago - poor fellow
+<lb/>He is red hot against
+<lb/>me I suspect from
+<lb/>finding that I had
+<lb/>reported his <orgName>pro-slavery</orgName>
+<lb/>proclivities as
+
+	<pb facs="liv_002005_0008" n="0008"/>
+<lb/><add place="margintop" rend="left gray small" hand="#U1">8</add>
+<lb/>unwittingly <add place="above">March 4'</add> <w>communi<supplied>-</supplied>
+<lb break="no"/>-cated</w> to me by his
+<lb/>brother at <add place="above">Livingstone</add> <placeName><settlement type="village">Tette</settlement></placeName> - He
+<lb/>certainly never <add place="above"><unclear cert="low">?? 11 March 1864</unclear></add> expected
+<lb/>his brother to blab &amp;
+<lb/>shew up his big brother
+<lb/>as the very antipodes
+<lb/>of what he professed
+<lb/>himself to be to the cruizer's
+<lb/>the late <term type="occupation">Governor</term> of
+<lb/><placeName><region>Quillimane</region></placeName> died 20 
+<lb/>days after landing in 
+<lb/><placeName><settlement type="city">Lisbon</settlement></placeName> - <persName><term type="occupation">Bishop</term> Tozer</persName>
+<lb/>was at <placeName><region>Quillimane</region></placeName> when
+<lb/>we passed, in the act of
+<lb/>bolting - the Orestes says
+<lb/>that he never intended
+<lb/>to settle in the country
+<lb/><persName>Rae</persName> is writing so I will now
+<lb/>say Goodbye
+</p>
+
+<!-- If there is a letter or similar with a closer with content such as salute or signed -->
+<closer>
+<lb/><signed><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName></signed><!-- Change as appropriate --> 
+</closer>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

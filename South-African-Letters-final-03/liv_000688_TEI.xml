@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000688"><!-- Change @xml:id --><!-- Angela, Jared, note I put the xml:id second here. Please change in template. AW -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Henry Denny, 7 December 1849</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<!-- Add here a new full <respStmt>, format as above, for each person who works on the file. -->
+<!-- Angela, you forgot to include a statment for you below. I say you take the template, and permanently put in our three names with these details and in this order. -->
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary --><!-- Angela, Jared, change to 2015 in template. AW -->
+				<idno type="LEAP-ID">liv_000688</idno><!-- Angela, Jared, note the addition of this line. Please add to template. AW -->
+<!-- Angela, Jared, I removed the availability seciton here. Please do so in the template as well. Since these letters are all in SA not the UK, we're going to assume that all we need to clear is image copyright and that the actual texts are public domain and so no kind of permission statement needed in the XML. -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed --><!-- Angela, Jared, this will be in the MODS. AW -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0218</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Henry Denny, 7 December 1849</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1849-12-07">7 December 1849</date><!-- Change -->
+                    <placeName type="compositionPlace">Kolobeng, Bakwain Country</placeName><!-- Change -->
+                    <persName type="addressee">Henry Denny</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-22" who="#AW">Coding review</change>
+			<change when="2015-03-11" who="#AW">Coding review</change>
+			<change when="2015-02-15" who="#AA">Proofing</change><!-- Angela, you forgot to do this. I made up a date for you. AW -->
+            <change when="2015-01-23" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+<pb facs="liv_000688_0001" n="0001"/><!-- Change both @facs and @n --><!-- Angela, I removed  from the @facs. Please also fix this in the template. AW -->
+	<!-- Start each page with a <pb> formatted as above --><!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><add place="inspace" hand="#U" rend="vertical gray small"><!-- Change vertical to diagonal --><seg rend="center">S-6-9</seg> <seg rend="right">MS 8/4</seg></add> <dateline rend="right"><placeName><settlement type="village">Kolobeng</settlement></placeName>, <placeName><region>Bakwain Country</region></placeName><!-- Angela, Jared, I moved the dateline to the first line of the transcription. Take a look at the manual to see what the dateline tag encompasses: http://research.it.ox.ac.uk/LEAP/leap.html#TEI.dateline  -->
+<lb/><placeName></placeName> <date when="1849-12-07">7<hi rend="sup">th</hi> <choice><abbr>Dec</abbr><expan>December</expan></choice> 1849</date></dateline>
+<lb/>    
+<lb/><salute>My Dear Sir,</salute></opener><!-- Change line info as appropriate -->
+<lb/><p><space unit="words" extent="3"/>Your letter of <date when="1849-05-25">25<hi rend="sup">th</hi> May <!--<supplied cert="high">1849</supplied> This is implied so no need to supply it. AW--></date> requesting my
+<lb/>assistance <!--Jared had marked this as a typo, but I think that Livingstone's "a" is just sloppy. -AA --><!-- Agree with AA. AW --> in the collection of <term type="insect">parasitic insects</term> which
+<lb/>infest the larger quadrupeds in this country,
+<lb/>reached its destination a few weeks ago. I regret
+<lb/>that I was not favoured with your <w>com-
+<lb break="no"/>-munication</w> half a year sooner for I was
+<lb/>then commencing a journey of about <measure>600
+<lb/>miles</measure> <choice><abbr>N W</abbr><expan>North West</expan></choice> and the gentleman who <w>accom<supplied>-</supplied>
+<lb break="no"/>-panied</w> me in order to be present at the discovery
+<lb/>of a Lake long reported as existing in that direction
+<lb/>having <term type="animal">horses</term> with them found no difficulty
+<lb/>in killing many of the animals to which
+<lb/>you direct my attention. I could with ease
+<lb/>have collected the insects you seek had I only
+<lb/>known in time. Many <term type="animal">Rhinoceros</term> <term type="animal">buffaloes</term> 
+<lb/><term type="animal">Elephants</term> <term type="animal">quaggas</term> <term type="animal"><choice><sic>tessebes</sic><corr>tsessebe</corr></choice></term>, <term type="animal"><choice><sic>eilands</sic><corr>elands</corr></choice></term> (30) were<!-- Jared, Angela, both these sic/corr are fine. However, in working with Chris on the FDs it's become very clear that we need to consider in each case whether DL is indeed mispelling a word or just using a c19 varient. I try to look in the OED whenever I can (you may have access to an electronic version of this via your universities. If it's just a c19 spelling, use orig/reg. AW -->
+<lb/>killed. Also an <term type="animal">antelope</term> hitherto unknown
+<lb/>called the <term type="animal"><choice><sic>Lechee</sic><corr>Lechwe</corr></choice></term> and 2 <term type="animal">alligators</term>. My regret
+<lb/>is increased when I reflect that I shall
+<lb/>not have any opportunity of attending to your
+
+<pb facs="liv_000688_0002" n="0002"/>
+<lb/>request till the middle of next year and I am not
+<lb/>at all sure that I shall have such another opportunity
+<lb/>even then. For I do not know whether in
+<lb/>the event of making another trip I shall have
+<lb/>companions who possess <term type="animal">horses</term> for hunting. It
+<lb/>is more probable I shall have native companions
+<lb/>alone. And I am unwilling to raise your
+<lb/>expectations as to the result.</p>
+<lb/><p>I never observed any <term type="insect">parasitical insects</term> on
+<lb/>the <term type="animal">Elephant</term> or <term type="animal">Rhinoceros</term> except a kind of
+<lb/><term type="insect">worm</term> between the eyeball &amp; lid in the latter. Yet
+<lb/>it must have some for I have very seldom
+<lb/>seen a <term type="animal">rhinoceros</term> without some birds on
+<lb/>its back which probably feed<del type="strikethrough">s</del> on such insects
+<lb/>We know the bird chiefly as giving warning
+<lb/>to the animal when any one is approaching
+<lb/>I have observed the different kinds of <term type="insect">intestinal
+<lb/>worms</term> in the bowels of the <term type="animal">Rhinoceros</term> &amp;
+<lb/><term type="animal">Zebra</term>. In the former they are enormous
+<lb/>in size &amp; very numerous. On the <term type="animal">wild pig</term>
+<lb/>a small kind of <term type="insect">flea</term> abounds. A smaller
+<lb/>kind is found on the domestic <term type="animal">fowl</term> &amp; <term type="animal">goat</term>
+<lb/>A kind of <term type="insect">tick</term> abounds in some parts of
+
+<pb facs="liv_000688_0003" n="0003"/>
+<lb/>the country and it must infest some kinds of
+<lb/>game for when we sit down under a tree
+<lb/>we often see them marching up to us. I never
+<lb/>saw it except on <term type="animal">oxen</term> &amp; <term type="animal">dogs</term>. It occasionally
+<lb/>commences operations on man. Half a dozen <add place="below">fastening on the organs of generation</add>
+<lb/>will kill a young animal. <term type="animal">Dogs</term> are infested
+<lb/>with a <term type="insect">fly</term> under the neck as well. One like
+<lb/>the <term type="insect">common flea</term> the other much larger
+<lb/>If numerous they kill <term type="animal">whelps</term></p>
+<lb/><p>But the fly called <term type="insect">"tsetse"</term> beats all others
+<lb/>hollow. It is about the size of the <term type="insect">common
+<lb/>house fly</term> but has four or five yellow bars
+<lb/>across the after part of the body. Its bite
+<lb/>is fatal to <term type="animal">oxen</term> <term type="animal">horses</term> &amp; <term type="animal">dogs</term> but has no
+<lb/>effect whatever in man, <term type="animal">goats</term> &amp;c &amp;c<!-- I am not sure how to code &c. Please advise. JM --><!-- See what I've done. AW --> I have
+<lb/>seen several animals which have been
+<lb/>bitten and they immediately begin to lose
+<lb/>flesh and gradually decline till they perish
+<lb/>from mere exhaustion. A <term type="animal">horse</term> of mine
+<lb/>underwent the wasting process during a period
+<lb/>of 6 months, generally however the first
+<lb/>rain that falls after being bitten hastens
+<lb/>their dissolution. Several travellers have had
+
+<pb facs="liv_000688_0004" n="0004"/>
+<lb/>all their <term type="animal">oxen</term> &amp; <term type="animal">horses</term> killed by this potent little thing
+<lb/>I had specimens but find they have been destroyed
+<lb/>by other insects. There are none within <measure>100 miles</measure> 
+<lb/>of my residence. <persName>Mr. Elliot</persName> is about <measure>1200 miles</measure> distant <!--Does anything go here to indicate that the following text is on the bottom now? Or does the letter, when folded, simply continue? -AA --><!-- Angela, see what I've done on the next line. AW -->
+<lb/><space extent="14" unit="lines" dim="vertical"/>
+<lb/>I am <measure>250 miles</measure> from <persName>Mr. Moffat</persName> but hear from
+<lb/>him frequently. Never heard him mention your
+<lb/>letter. Nor yet <persName>Mr. Erly</persName>'s. I had not the pleasure
+<lb/>of the acquaintance of <persName>Mr. Hamilton</persName> nor have
+<lb/>I ever been in your part of the country. I write now
+<lb/>in order that you may not delay in the <w>expect<add place="below">ation</add></w> <!-- I am not sure how to code this last word, "expectation". Please advise. JM --><!-- See what I've done. AW -->
+<cb rend="right vertical upside-down"/>
+<lb/>that I shall have it in my power to do much <!-- Is the cb rend section here correct? AA --><!-- Yes, this is OK, but we just need to remember that from now on for vertical writing like this, but oriented the other way, that would *not* be upside-down and so is default. Make sense? AW -->
+<lb/>soon. My attention being now directed to the<!-- Changed a bunch of cbs here to lbs. AW -->
+<lb/>subject I may be of some use in a second
+<lb/>edition of your work. Believe me Dear Sir</p>
+<closer>
+<lb/>Yours sincerely
+<lb rend="right"/><signed><persName>David Livingstone</persName></signed><!-- Added rend="right" AW --> 
+</closer>
+            </div>
+        	<div>
+<cb rend="left vertical"/><!-- Yes, correct, writing this direction is default, so should *not* be upside down. AW -->
+<p rend="no-indent">
+<address>
+<addrLine rend="center"><del type="strikethrough">Care of <persName>Rev<hi rend="sup underline">d</hi> D<hi rend="sup underline">r</hi> Philip</persName> <placeName><settlement type="town">Cape Town</settlement></placeName></del></addrLine>
+<addrLine rend="center"/><addrLine><persName>Henry Denny <choice><abbr>Esq<hi rend="underline">u</hi></abbr><expan>Esquire</expan></choice></persName> <choice><abbr>A.L.S.</abbr><expan cert="medium">Associate of the Linnean Society</expan></choice></addrLine><!--Not sure what this abbreviation means. -Also, based on the previous test letter, I assume we don't format people and place names in addresses. AA --><!-- Whoops, no that's not correct. We do! I've fixed. AW --><!-- Also addrLine or lb, not both. I've fixed. AW --><!-- I think that ALS is Associate of the Linnean Society, so have thus coded. Thanks OED! AW -->
+<addrLine rend="center"/><addrLine><placeName>Philosophical Hall</placeName></addrLine>
+<addrLine rend="center"/><addrLine><placeName><settlement type="city">Leeds</settlement></placeName>.</addrLine>
+<addrLine rend="right"/><addrLine><hi rend="underline"><placeName><settlement>Yorkshire</settlement></placeName></hi></addrLine>
+</address><!-- Anglea, Jared, please review how I've done the address. AW -->
+</p>
+<!-- Several postmarks are scattered on this page, including a large circled 57 in brown ink, an orange postmark that includes 2 JY 2 1850, a black postmark for the General Post Office Cape Town, a blue postmark for Leeds JY 2 1850, and a red scribble. -AA  -->
+<!--I know we discussed this before, Adrian, but I think we need some better documentation for letter format, especially for the closer. I suspect that Jared didn't include the address because he was just as lost as I was before you and I corresponded about my test letter; as it stands, I'm not confident with what I've done here. -AA --><!-- Resolved, no? AW -->
+        </div>	
+        </body>
+    </text>
+
+</TEI>

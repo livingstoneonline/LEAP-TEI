@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001290">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to John Kirk, 18 March 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001290</idno><!-- Change as needed -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 19</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0765</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+							<handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to John Kirk, 18 March 1858</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-04-04">18 March 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Screw Streamship Pearl at sea off Madeira</placeName><!-- Change -->
+                    <persName type="addressee">John Kirk</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-12-17" who="#AW">Coding review</change>
+            <change when="2015-12-17" who="#JM">Proofreading</change>
+			<change when="2015-12-01" who="#AW">Initial coding review</change>
+            <change when="2015-10-26" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001290_0001" n="0001"/><!-- Change both @facs and @n -->
+<lb/><opener rend="right"><add place="inspace" rend="left red diagonal" hand="#U2">12</add> <dateline><placeName>Screw Steamship Pearl <lb/>at Sea off <placeName><geogName type="island">Madeira</geogName></placeName></placeName><!-- Not sure if this needs a more specific postition indicator on the page. EM --><!-- Looks OK. AW -->
+<lb/><date when="1843-03-18">18 March 1858</date> <add place="above marginright" rend="gray" hand="#U1">MS 19</add><add place="above margintop">(1)</add></dateline>
+<lb/>    
+<lb/><salute>D<hi rend="sup underline">r</hi> John Kirk 
+<lb rend="center"/>Sir</salute></opener><!-- Did I do this correctly? EM --><!-- Yes. AW -->
+<lb/><p rend="right">The main object
+<lb/>of the <orgName>Expedition</orgName> to which you
+<lb/>are appointed <term type="occupation">Economic
+<lb/>Botanist</term> and <term type="occupation">Medical Officer</term>
+<lb/>is to extend the knowledge
+<lb/>already attained of the geography
+<lb/>and mineral and agricultural
+<lb/>resources of <placeName><region>Eastern and
+<lb/>Central <bloc>Africa</bloc></region></placeName><!-- Should Eastern/Central be marked as 'Regions' in this case? EM--><!-- Yes. AW -->, to improve 
+<lb/>our acquaitance with the 
+<lb/>inhabitants, and to engage
+<lb/>them to apply their energies
+
+	<pb facs="liv_001290_0002" n="0002"/>
+<lb/>to industrial pursuits, and
+<lb/>to the cultivation of their
+<lb/>lands with a view to the
+<lb/>production of raw material
+<lb/>to be exported to <placeName><country>England</country></placeName>
+<lb/>in return for <term type="nationality">British</term>
+<lb/>manufactures; and it may
+<lb/>be hoped that by encouraging
+<lb/>the <orgName>natives</orgName> to occupy <w>them-
+<lb break="no"/>-selves</w> in the development of
+<lb/><choice><sic>of</sic><corr/></choice><!-- Did I do this correctly? EM --><!-- Yes. AW --> the resources of their country
+<lb/>a considerable advance may
+<lb/>be made towards the extinction
+<lb/>of the slave trade, as the
+<lb/><orgName>natives</orgName> will not be long
+<lb/>in discovering that the former
+<lb/>will eventually become a
+<lb/>more certain source of profit
+<lb/>than the latter.</p>
+<lb/><p><add place="marginleft">2.</add> It is intended that the
+<lb/><orgName>Expedition</orgName> should pass
+
+	<pb facs="liv_001290_0003" n="0003"/>
+<lb/>through the <term type="ailment">malarious</term> district
+<lb/>at the lower portion of the
+<lb/><placeName><geogName type="river">Zambesi river</geogName></placeName> as quickly
+<lb/>as possible, and it will
+<lb/>be necessary for you to
+<lb/>put into practice those
+<lb/>precautionary measures
+<lb/>against <term type="ailment">fever</term> by the use
+<lb/>of Quinine which the
+<lb/>experience of the <orgName>Niger
+<lb/>Expedition</orgName>, and your
+<lb/>own Judgment may
+<lb/>suggest as likely to secure
+<lb/>the health of your
+<lb/>companions -</p>
+<lb/><p><add place="marginleft">3.</add>The efforts of every member
+<lb/>of the <orgName>Expedition</orgName> will probably
+<lb/>be required to facilitate the
+<lb/>transport of the luggage
+<lb/>to and beyond <unclear cert="medium"><placeName><choice><sic>Tett</sic><corr>Tete</corr></choice></placeName></unclear><!-- Not sure what this is. Tete? EM --><!-- Yes, Tete. JM --> the most
+
+	<pb facs="liv_001290_0004" n="0004"/>
+<lb/>advanced part of civilization
+<lb/>but the <term type="occupation">chief</term> power in the
+<lb/>country adjacent being in the
+<lb/>hands of two or three <unclear cert="high"><w>influenc<gap extent="3" unit="chars" agent="blot"/><supplied>ing</supplied></w></unclear> 
+<lb/><term type="occupation">chiefs</term>, it will be our duty to
+<lb/>visit them and invite them
+<lb/>to turn the attention of their
+<lb/>people to the cultivation of
+<lb/><term type="plant">cotton</term> by giving them a
+<lb/><choice><sic>a</sic><corr/></choice><!-- Did I do this correctly? EM --><!-- Yes. AW --> supply of better seed than
+<lb/>that which they already
+<lb/>possess, and also to explain
+<lb/>the benefit that they would
+<lb/>derive from an exchange of
+<lb/>the natural productions of
+<lb/><bloc>Africa</bloc> as Ivory, <term type="plant">cotton</term>, <unclear cert="medium">oil</unclear><supplied>,</supplied>
+<lb/>beeswax, <unclear><term type="plant"><choice><sic>Cauze</sic><corr>Buaze</corr></choice></term></unclear><!-- Should this be Buaze? To which he refers to later? EM --><!-- OK. AW --> &amp;c - for the
+<lb/>manufactures of <bloc>Europe</bloc>, and
+<lb/>generally to hold our every
+<lb/>encouragement in order to
+<lb/>induce them to give up <unclear cert="medium">the</unclear>
+<lb/>warlike and predatory <unclear cert="high">habit</unclear>
+
+	<pb facs="liv_001290_0005" n="0005"/>
+<lb/>and substitute the more <w>peace-
+<lb break="no"/>-able</w> pursuits of agriculture
+<lb/>and commerce; the time
+<lb/>occupied in attending to these
+<lb/>matters, will enable you,
+<lb/>if we find it to be consistent
+<lb/>with your personal safety,
+<lb/>to glean a general idea of
+<lb/>the resources of the country
+<lb/>to the North of <placeName><choice><sic>Tett</sic><corr>Tete</corr></choice></placeName><!-- Still not certain about this location. EM --><!-- Tete is in modern-day Mozambique, on the Zambezi River. JM --> and
+<lb/>to ascertain in as full detail
+<lb/>as the time will allow the
+<lb/>nature of the plant called
+<lb/><term type="plant">Buaze</term>, paying particular
+<lb/>attention to the probable
+<lb/>amount to which it and
+<lb/>any other fiberous substances
+<lb/>might be obtained, you
+<lb/>will be good enough to
+<lb/>furnish me with a Report
+<lb/>thereon for transmission
+<lb/>home to the <orgName>Foreign Office</orgName>-</p>
+
+	<pb facs="liv_001290_0006" n="0006"/>
+<lb/><p><add place="marginleft">4.</add>Your attention is
+<lb/>particularly requested to the
+<lb/>discovery of dyestuffs,
+<lb/><unclear cert="medium">gums</unclear>, and medicinal
+<lb/>substances, in the hope that
+<lb/>should either these or fibrous
+<lb/>tissues exist in quantities
+<lb/>sufficient to warrant <w>com-
+<lb break="no"/>-mercial</w> enterprise you may
+<lb/>aid in the great work of
+<lb/>supplanting by lawful commerce
+<lb/>the odious traffic in <orgName>slaves</orgName> -
+<lb/>It is gratifying to me to
+<lb/>feel assured that this object
+<lb/>commends itself to your mind
+<lb/>as a most important and
+<lb/>noble one, and I have the
+<lb/>pleasure of handing you a
+<lb/>copy of a sketch of the
+<lb/>principle duties expected of
+<lb/>you in the botanical <w>depart-
+<lb break="no"/>-ment</w> drawn up by that
+
+	<pb facs="liv_001290_0007" n="0007"/>
+<lb/>eminent traveller and
+<lb/><term type="occupation">Botanist</term> <persName>D<hi rend="sup underline">r</hi> <choice><abbr>J.D.</abbr><expan>Joseph Dalton</expan></choice> Hooker</persName>
+<lb/>whose success in reflecting
+<lb/>honour on our country
+<lb/>I heartily wish you may
+<lb/>equal, and requesting,
+<lb/>for this part of our travels 
+<lb/>at least, your earnest and
+<lb/>exclusive attention to the same
+<lb/>other objects of interest will
+<lb/>no doubt press on your
+<lb/>notice, but considering that
+<lb/>the botany of this region
+<lb/>is nearly unexplored - that
+<lb/>there is a danger of <w>over-
+<lb break="no"/><supplied>-</supplied>working</w> yourself - that
+<lb/>your energies will be greater
+<lb/>in the second than in the
+<lb/>first year - and that the
+<lb/>primary objects of the
+<lb/><orgName>Expedition</orgName> are to gain
+<lb/>accurate information
+<lb/>respecting the vegetable and
+
+<pb facs="liv_001290_0008" n="0008"/>
+<lb/>and mineral resources of <unclear><gap extent="2" unit="chars" agent="illegible"/></unclear><!-- Edge of the page is cut off in a few places from here on. EM -->
+<lb/>country, I trust you will
+<lb/>see the propriety of <unclear cert="high"><w>limiti<gap extent="2" unit="chars" agent="illegible"/><supplied>ng</supplied></w></unclear>
+<lb/>for a time the range of
+<lb/>your pursuits.</p>
+<lb/><p><add place="marginleft">5.</add> Our stay in the <unclear cert="medium"><w>vici<gap extent="4" unit="chars" agent="illegible"/><supplied>nity</supplied></w></unclear>
+<lb/>of <placeName><choice><sic>Tett</sic><corr>Tete</corr></choice></placeName> must necessarily <unclear cert="medium">be</unclear>
+<lb/>short because it is <unclear cert="medium"><w>essen<gap extent="4" unit="chars" agent="illegible"/><supplied>tial</supplied></w></unclear>
+<lb/>to proceed at an early <unclear cert="medium"><w>perio<gap extent="1" unit="chars" agent="illegible"/><supplied>d</supplied></w></unclear>
+<lb/>to the rapid <placeName><geogName type="rapids">Kebra basa</geogName></placeName> <gap extent="4" unit="chars" agent="illegible"/>
+<lb/><unclear cert="low"><placeName><geogName type="rapids">Chicova</geogName></placeName></unclear> to ascertain the
+<lb/>possibility of passing it <unclear cert="low"><gap extent="4" unit="chars" agent="illegible"/></unclear>
+<lb/>the river is still <unclear cert="low"><w>comparati<gap extent="6" unit="chars" agent="illegible"/><supplied>tively</supplied></w></unclear>
+<lb/>high and thus avoid the
+<lb/>necessity of taking the
+<lb/>Launch to pieces for <unclear cert="medium">port<gap extent="4" unit="chars" agent="illegible"/></unclear>
+<lb/>The people near to the <unclear cert="high"><term type="nationality"><w>Portugu<gap extent="3" unit="chars" agent="illegible"/><supplied>ese</supplied></w></term></unclear>
+<lb/>settlements who have been
+<lb/>in contact with <orgName>slave trade</orgName>
+<lb/>not being so trustworthy <unclear cert="medium"><w>a<gap extent="1" unit="chars" agent="illegible"/><supplied>s</supplied></w></unclear>
+<lb/>those farther inland <unclear cert="medium"><w>wh<gap extent="1" unit="chars" agent="illegible"/><supplied>o</supplied></w></unclear>
+<lb/>have not been subjected
+<lb/>to the prejudicial influence
+	
+	<pb facs="liv_001290_0009" n="0009"/>
+<lb/><add place="margintop">(3)</add> of such communication, it
+<lb/>will be unadvisable to make
+<lb/>any distant excursions - Our
+<lb/>energies must be bent to
+<lb/><choice><sic>to</sic><corr/></choice> the establishment of a depot
+<lb/>at some eligible spot beyond
+<lb/>the confluence of the <placeName><geogName type="river">Kafue</geogName></placeName> 
+<lb/>and <placeName><geogName type="river">Zambesi</geogName></placeName> - Having
+<lb/>reached a tolerable elevation
+<lb/>and examined the country
+<lb/>adjacent it will be advisable
+<lb/>after obtaining the consent
+<lb/>of any <orgName>natives</orgName> who may
+<lb/>lay claim to the soil to set
+<lb/>up the iron house to serve
+<lb/>as a central station = As the
+<lb/>spot selected will probably
+<lb/>be on the side of one of the
+<lb/>hills which flank the River
+<lb/>and sufficiently high to secure
+<lb/>salubrity, a small plot of
+<lb/>ground may at that altitude
+<lb/>be planted with <term type="plant">wheat</term> and
+
+	<pb facs="liv_001290_0010" n="0010"/>
+<lb/><orgName>European</orgName> vegetables as an
+<lb/>experiment, and also in order
+<lb/>to promote the comfort and
+<lb/>health of the <orgName>Expedition</orgName> = While
+<lb/>another small spot at a lower
+<lb/>level may be planted with
+<lb/><term type="plant">cotton</term> and <term type="plant">sugar cane</term>, and
+<lb/>given in charge to the headaman
+<lb/>of any village adjacent in
+<lb/>order to induce the <orgName>natives</orgName>
+<lb/>to take an interest in the
+<lb/>Result.</p>
+<lb/><p><add place="marginleft">6.</add>The central depot once
+<lb/>established and and intercourse with
+<lb/>the <orgName>natives</orgName> set on foot, a more
+<lb/>extended range of scientific <w>observa-
+<lb break="no"/>-tion</w> will then be <w>advis<del type="strikethrough">e</del>able</w> -
+<lb/>You may then follow out as
+<lb/>opportunity offers the instructions
+<lb/>on Zoology from <term type="occupation">Professor</term> 
+<lb/><add place="marginleft"><bibl>Appendix <choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 2</bibl></add> <persName>Owen</persName> contained in <bibl>Appendix <choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 2</bibl>.
+<lb/>and without discarding your
+<lb/>botanical labours collect
+
+	<pb facs="liv_001290_0011" n="0011"/>
+<lb/>any new or rare a<del><add place="over-text">n</add></del>imals
+<lb/>birds fishes or insects
+<lb/>that may be met with
+<lb/>in excursions which 
+<lb/>in company with the
+<lb/><term type="tribe">Makololo</term> may safely be
+<lb/>made, and the results
+<lb/>be deposited at the central
+<lb/>station</p>
+<lb/><p><add place="marginleft">7.</add> Although these
+<lb/>explorations and collections
+<lb/>are very desirable, you will
+<lb/>understand that <orgName>Her Majesty's
+<lb/>Government</orgName> attach more
+<lb/>importance to the moral
+<lb/>influence which may be
+<lb/>exerted on the mind of the
+<lb/><orgName>natives</orgName> by a well regulated
+<lb/>and orderly household of
+<lb/><orgName>Europeans</orgName> setting an
+<lb/>example of <choice><sic>consitent</sic><corr>consistent</corr></choice> moral
+<lb/>conduct to all who may
+
+	<pb facs="liv_001290_0012" n="0012"/>
+<lb/>congregate around the <w>settle-
+<lb break="no"/>-ment</w> - Treating the people
+<lb/>with kindness and relieving
+<lb/>their wants - teaching them
+<lb/>to make experiments in
+<lb/>agriculture - explaining
+<lb/>to them the more simple
+<lb/>arts - imparting to them
+<lb/>religious instruction as fa<unclear cert="medium"><w>a<gap extent="1" unit="chars" agent="illegible"/><supplied>r</supplied></w></unclear>
+<lb/>as they are capable of
+<lb/><choice><sic>recieving</sic><corr>receiving</corr></choice> it, and inculcating
+<lb/>peace and goodwill to
+<lb/>each other</p>
+<lb/><p><add place="marginleft">8.</add> One especial means
+<lb/>of gaining their favour <unclear cert="high"><w>wil<gap extent="1" unit="chars" agent="illegible"/><supplied>l</supplied></w></unclear>
+<lb/>be by giving them the <unclear cert="high"><w>benef<gap extent="2" unit="chars" agent="illegible"/><supplied>it</supplied></w></unclear>
+<lb/>of your medical skill and
+<lb/>remedial aid - they possess
+<lb/>medical men among <unclear cert="high"><w>themselv<gap extent="3" unit="chars" agent="illegible"/><supplied>es</supplied></w></unclear>
+<lb/>who are generally the most
+<lb/>observant people to be met
+<lb/>with = It is desirable to be at <unclear cert="medium"><w>a<gap extent="2" unit="chars" agent="illegible"/><supplied>ll</supplied></w></unclear>
+<lb/>times on good terms with them
+
+	<pb facs="liv_001290_0013" n="0013"/>
+<lb/><add place="margintop">(4)</add>
+<lb/>In order to this slight complaint,
+<lb/>except among the very poor,
+<lb/>ought to be referred to their 
+<lb/>care, and severe cases before
+<lb/>being undertaken should be
+<lb/>enquired into of the doctor himself
+<lb/>and no disparaging remark
+<lb/>ever made on the previous
+<lb/>treatment in the presence of the
+<lb/>patient - This line of conduct
+<lb/>will lead to the more urgent
+<lb/>cases only being referred to you;
+<lb/>time and medicine will both
+<lb/>be saved while your influence
+<lb/>will be extended. Never
+<lb/>neglect the opportunity which
+<lb/>the bed of sickness presents
+<lb/>of saying a few kind words
+<lb/>in a natural respectful
+<lb/>manner and imitate as in
+<lb/>as far as you can the conduct
+<lb/>of the Great Physician whose
+<lb/>followers we profess to be -</p>
+
+	<pb facs="liv_001290_0014" n="0014"/>
+<lb/><p><add place="marginleft">9.</add> The <orgName>Expedition</orgName> is well
+<lb/>supplied with arms and ammunition
+<lb/>and it will be necessary at
+<lb/>times to use these in order to
+<lb/>obtain supplies of food as
+<lb/>well as specimens of animals
+<lb/>for the purposes of natural
+<lb/>history. In many parts of
+<lb/>the country which we hope
+<lb/>to traverse the larger animals
+<lb/>exist in great numbers
+<lb/>and being comparatively
+<lb/>tame may be easily secured.
+<lb/>I would earnestly press on
+<lb/>you the duty of a sacred
+<lb/>regard to life and never
+<lb/>to destroy it unless some
+<lb/>justifiable end is to be answered
+<lb/>by its extinction - The most
+<lb/>vital part ought to be aimed
+<lb/>at, and no shot fired unless
+<lb/>the animal be within a range
+<lb/>that renders it probable that
+
+	<pb facs="liv_001290_0015" n="0015"/>
+<lb/>the mortal part will be struck.
+<lb/>The wanton waste of animal
+<lb/>life which I have witnessed
+<lb/>from night hunting and
+<lb/>from ferocious but
+<lb/>childlike abuse of instruments
+<lb/>of destruction, as well as the
+<lb/>wish that the habits of certain
+<lb/>races of animated creation
+<lb/>which are evidently destined
+<lb/>at no very distant date
+<lb/>to extinction, should be
+<lb/>calmly and philosophically
+<lb/>observed while there remains
+<lb/>the opportunity, make me
+<lb/>anxious that none of my
+<lb/>companions should be
+<lb/>guilty of similar abominations</p>
+<lb/><p><add place="marginleft">10.</add> It is hoped that we
+<lb/>may never have occasion
+<lb/>to use our arms for protection
+<lb/>from the <orgName>natives</orgName>, but the
+<lb/>best security from attack
+
+	<pb facs="liv_001290_0016" n="0016"/>
+<lb/>consists in upright <unclear cert="high"><w>condu<gap extent="2" unit="chars" agent="illegible"/><supplied>ct</supplied></w></unclear>
+<lb/>and the <orgName>natives</orgName> seeing that <unclear cert="high"><w>w<gap extent="1" unit="chars" agent="illegible"/><supplied>e</supplied></w></unclear>
+<lb/>are prepared to meet it - At
+<lb/>the same time you are strictly
+<lb/>enjoined to exercise the
+<lb/>utmost forbearance toward
+<lb/>the people, and while <unclear cert="high"><w>retaini<gap extent="2" unit="chars" agent="illegible"/><supplied>ng</supplied></w></unclear>
+<lb/>proper firmness in the
+<lb/>event of any <unclear cert="medium"><w>mis-understan<gap extent="4" unit="chars" agent="illegible"/><supplied>ding</supplied></w></unclear>
+<lb/>to conciliate as far as <del type="strikethrough"><gap extent="4" unit="chars" agent="illegible"/></del>
+<lb/>possibly can be admitted
+<lb/>with safety to our own party</p>
+<lb/><p><add place="marginleft">11.</add> It is unnecessary
+<lb/>for me to enjoin the <unclear cert="high"><w>strictes<gap extent="1" unit="chars" agent="illegible"/><supplied>t</supplied></w></unclear>
+<lb/>justice in dealing with the
+<lb/>people - This your own
+<lb/>principles will lead you
+<lb/>invariably to follow, but
+<lb/>it is decidedly necessary
+<lb/>to be careful not to <unclear cert="medium"><w><hi rend="underline">appea<gap extent="1" unit="chars" agent="illegible"/><supplied>r</supplied></hi></w></unclear>
+<lb/>to overreach or insult <unclear cert="medium"><w>an<gap extent="1" unit="chars" agent="illegible"/><supplied>y</supplied></w></unclear>
+<lb/>one - Care must be taken
+<lb/>in every case in which
+
+	<pb facs="liv_001290_0017" n="0017"/>
+<lb/><add place="margintop">(5)</add>
+<lb/>a <orgName>native</orgName> is to be employed
+<lb/>that the terms be well <w>under<supplied>-</supplied>
+<lb break="no"/>-stood</w> and a little patience
+<lb/>in settling the amount of
+<lb/>remunertation in the presence 
+<lb/>of witnesses and the exact
+<lb/>number of persons engaged will prevent that
+<lb/>heartburning and discontent
+<lb/>which otherwise may ensue
+<lb/>Let the payment be invariably
+<lb/>made into the hands of the
+<lb/>man who has performed
+<lb/>the work - Unless this is
+<lb/>done, the idea of property
+<lb/>in the labour of the lower
+<lb/>classes of the population
+<lb/>is apt to be engendered in
+<lb/>the minds of the <term type="occupation">underchiefs</term>,
+<lb/>but by direct payment
+<lb/>a most important doctrine
+<lb/>is widely inculcated and
+<lb/>in process of time each man
+	
+	<pb facs="liv_001290_0018" n="0018"/>
+<lb/>comes to feel that he owes
+<lb/>subjection to the head chief
+<lb/>alone and is otherwise a
+<lb/>free subject -</p>
+<lb/><p><add place="marginleft">12.</add> The <term type="occupation">chiefs</term> of tribes and
+<lb/>leading men of villages ought
+<lb/>always to be treated with
+<lb/>great respect and nothing
+<lb/>should be done to weaken their
+<lb/>authority - Any present of
+<lb/>food whould be accepted
+<lb/>frankly - It is <unclear cert="high">impolite</unclear> to 
+<lb/>allow the ancient custom
+<lb/>of feeding strangers to go into
+<lb/>disuse - We come among
+<lb/>them as members of a superior
+<lb/>race, and servants of a <orgName><w>Gover-
+<lb break="no"/>-ment</w></orgName> that desires to elevate
+<lb/>the more degraded portions
+<lb/>of the human family - We
+<lb/>are also adherents of a holy
+<lb/>benign religion and may by
+<lb/>wise patient efforts be the
+<lb/>harbingers of peace to a
+
+	<pb facs="liv_001290_0019" n="0019"/>
+<lb/>hitherto distracted and <unclear cert="high">trodden</unclear>
+<lb/>down race - No great result
+<lb/>is ever attained without
+<lb/>patient and long continued
+<lb/>efforts. In this enterprise
+<lb/>in which we have the
+<lb/>honour to be engaged,
+<lb/>sympathy, consideration and
+<lb/>kindness which when viewed
+<lb/>in detail may seem thrown
+<lb/>away if steadily persisted
+<lb/>in, are sure ultimately to
+<lb/>exercise a commanding
+<lb/>influence. Depend upon it
+<lb/>a kind word or deed is
+<lb/>never lost.</p>
+<lb/><p><add place="marginleft"><del type="strikethrough" rend="gray" hand="#U1">12</del><add place="above" rend="gray" hand="#U1">13</add></add> You will have access
+<lb/>to <bibl><persName>Koelle</persName>'s <choice><orig>pol<subst><del>l</del><add place="over-text">y</add></subst> glotta</orig><reg>Pol<subst><del>l</del><add place="over-text">y</add></subst>glotta</reg></choice> Africana</bibl>.
+<lb/><bibl><choice><sic><persName>Bleek</persName>s</sic><corr><persName>Bleek</persName>'s</corr></choice> vocabulary of the
+<lb/>languages of <placeName><country><choice><sic>Mosambique</sic><corr>Mozambique</corr></choice></country></placeName></bibl> 
+<lb/>and an <bibl>Analysis of the
+<lb/>Sechuana tongue</bibl>, and you
+<lb/>are to endeavour to master
+<lb/>the latter language as it
+
+	<pb facs="liv_001290_0020" n="0020"/>
+<lb/>is generally spoken in the
+<lb/><placeName><term type="tribe">Makololo</term> country</placeName> and its
+<lb/>acquisition will <unclear cert="medium"><w>material<gap extent="3" unit="chars" agent="illegible"/><supplied>ize</supplied></w></unclear>
+<lb/>aid you in all your <unclear cert="high"><w>pursu<gap extent="3" unit="chars" agent="illegible"/><supplied>its</supplied></w></unclear>
+<lb/>should opportunity offer <unclear cert="high"><w>you<gap extent="1" unit="chars" agent="illegible"/><supplied>u</supplied></w></unclear>
+<lb/>are expected to collect
+<lb/>vocabularies of other dialects
+<lb/>using the system already
+<lb/>employed in the Sechuana -
+<lb/>taking the English consonants
+<lb/>and giving the vowels the
+<lb/>sound they have in Italian
+<lb/>Spanish &amp; in most <orgName>European</orgName>
+<lb/>languages.</p>
+<lb/><p><add place="marginleft">14.</add>You are distinctly to
+<lb/>understand that your 
+<lb/>services are engaged for
+<lb/>two years unless any
+<lb/>unforseen accident should
+<lb/>happen to the <orgName>Expedition</orgName>,
+<lb/>when you will be set free
+<lb/>as soon as an opportunity
+<lb/>is afforded for returning
+<lb/>to <placeName><country>England</country></placeName>-</p>
+
+	<pb facs="liv_001290_0021" n="0021"/>
+<lb/><p><add place="marginleft">15.</add> <add place="margintop">(6)</add> In the event of my being
+<lb/>prostrated by illness or
+<lb/>my accident rendered
+<lb/>incapable of conducting
+<lb/>the <orgName>Expedition</orgName>, the charge
+<lb/>of it will devolve on
+<lb/><persName>Commander Redingfeld</persName>,
+<lb/>If he too should fail
+<lb/>it will devolve on you,
+<lb/>and then on <persName>M<hi rend="sup underline">r</hi> Charles
+<lb/>Livingstone</persName>, but immediate
+<lb/>information of such an
+<lb/>event is if possible
+<lb/>to be transmitted to
+<lb/><placeName><country>England</country></placeName> for further
+<lb/>instructions.</p>
+<lb/><p><add place="marginleft">16.</add> You are at liberty
+<lb/>to consult a copy of the
+<lb/>original instructions
+
+	<pb facs="liv_001290_0022" n="0022"/>
+<lb/>I hold from <orgName>Her Majesty's
+<lb/>Government</orgName>, and it is
+<lb/>hoped that you will enter
+<lb/>cordially into the spirit of
+<lb/>them and so far as
+<lb/>circumstances will allow
+<lb/>endeavour to carry them
+<lb/>into effect.</p>
+<lb/><p><add place="marginleft">17</add> Finally, you are
+<lb/>strictly enjoined to take the
+<lb/>greatest care of your own
+<lb/>health and that of the
+<lb/><orgName>Expedition</orgName>. My own
+<lb/>experience teaches the necessity
+<lb/>of more than ordinary
+<lb/>attention to the state of the
+<lb/>alimentary canal - <term type="ailment">Constipation</term>
+<lb/>is almost sure to bring on
+<lb/><term type="ailment">fever</term> - and it would be
+<lb/>well if you kindly explain
+<lb/>to the different members
+<lb/>the necessity of timely remedial
+
+	<pb facs="liv_001290_0023" n="0023"/>
+<lb/>aid to overcome any tendency
+<lb/>to it especially if <w>accom-
+<lb break="no"/>-panied</w> by <term type="ailment">dreaming</term>,
+<lb/><term type="ailment">drowsiness</term>, <term type="ailment">want of appetite</term>
+<lb/>or <term type="ailment">unpleasant taste in the
+<lb/>mouth in the mornings</term>.
+<lb/>If <term type="medicament">Quinine</term> combined with
+<lb/><term type="medicament">a mild aperient</term> be
+<lb/>administered, this <w>pre-
+<lb break="no"/>-cautionary</w> measure will
+<lb/>often ward off an attack
+<lb/>of this formidable disease -
+<lb/>Feeling the fullest confidence
+<lb/>in your zeal in the great
+<lb/>cause of <orgName>African</orgName> civilization
+<lb/>and rejoicing in being
+<lb/>associated with you
+<lb/>in this noble work, I
+<lb/>heartily commit you
+<lb/>and the cause in which
+
+	<pb facs="liv_001290_0024" n="0024"/>
+<lb/>you will I hope be an
+<lb/>influential Pioneer to
+<lb/>the safe keeping of
+<lb/>the Almighty Disposer
+<lb/>of Events.</p>
+
+<closer>
+<lb rend="center"/><salute>I am your
+<lb rend="right"/>Most Obedient Servant</salute><!-- Change as appropriate -->
+<lb rend="center"/><signed><persName>David Livingstone</persName></signed><!-- Change as appropriate --> 
+</closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

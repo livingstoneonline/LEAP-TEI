@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001335"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to George L. Conyngham, 26 June 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001335</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5700</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0805</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to </title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-06-26">26 June 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Zambesi</placeName><!-- Change -->
+                    <persName type="addressee">Geroge L. Conyngham</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-26" who="#AW">Coding review</change>
+            <change when="2015-05-07" who="#AA">Proofing</change>
+        	<change when="2015-03-21" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001335_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><dateline rend="right"><add place="margintop" rend="left vertical gray small" hand="#U"><!-- diagonal -->C/4/49</add> <placeName><geogName type="river">Zambesi</geogName></placeName><date when="1858-06-26">26<hi rend="underline">th</hi> June <add place="margintop" rend="right gray small" hand="#U1">MS 7/8</add>     
+<lb/><space extent="7" unit="chars"/>1858</date></dateline>
+<lb/><add place="inspace" hand="#U2"><unclear><del type="strikethrough"><gap extent="1" unit="chars"/></del></unclear> <date when="1858-08-27"><choice><abbr>Aug</abbr><expan>August</expan></choice> 27/<choice><abbr>58</abbr><expan>1858</expan></choice></date></add><!-- It looks like a note has been made here by another hand. I am not sure how to encode this. JM --><!-- Fixed. AW -->    
+<lb/><salute>My Dear <persName>M<hi rend="sup underline">r</hi> Conyngham</persName></salute>
+</opener>
+<lb/><p><space extent="7" unit="chars"/>I am just going
+<lb/>into the Launch Ma Robert
+<lb/>to sail away up this
+<lb/>river from the Pearl
+<lb/>I have been up all
+<lb/>night writing and now
+<lb/>feel ashamed to give
+    
+    <pb facs="liv_001335_0002" n="0002"/>
+<lb/>but one word - you will
+<lb/>no doubt hear how we
+<lb/>are obliged to part with
+<lb/>the Pearl as it was
+<lb/>too big for us and
+<lb/>we were under such
+<lb/>terribly stringent orders
+<lb/>not to risk her <unclear cert="medium">remaining</unclear>
+<lb/>in the river &amp;c. that 
+<lb/>I got quite a load off
+<lb/>my mind when I could
+<lb/>say off with you to
+
+    <pb facs="liv_001335_0003" n="0003"/>
+<lb/><placeName><country>Ceylon</country></placeName> though many loads
+<lb/>must be carried in the
+<lb/>poor little Ma Robert before
+<lb/>we reach our destination.
+<lb/>You must give me
+<lb/>another ship a decent
+<lb/>little paddle and not a
+<lb/><measure>160 <choice><abbr>ft</abbr><expan>feet</expan></choice></measure> <del><gap extent="1" unit="words"/></del> that could
+<lb/>not back though she
+<lb/>saw a bank at her
+<lb/>nose. <!--Tweet -AA -->The <term type="animal">hippopotami</term>
+<lb/>can't stomach a 
+<lb/>steamer at all. They   
+    
+    <pb facs="liv_001335_0004" n="0004"/>
+<lb/>tumble head over heels
+<lb/>to get out of her way
+<lb/>I shall write you a longer
+<lb/>tale next time.</p>
+<lb/><p>This is the <date when="1858-06-26">26 June</date>
+<lb/>will it do for a certificate
+<lb/>of my <unclear cert="medium">existence</unclear> on the
+<lb/><date when="1858-06-30">30<hi rend="underline">th</hi></date> <space extent="4" unit="chars"/>If so tell <persName>Mr. Coutts</persName>
+<lb/>to draw for my salary
+<lb/>Here I am and no mistake
+<lb/>witness my hand!</p>
+<lb/><closer><signed><persName>David Livingstone</persName></signed></closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

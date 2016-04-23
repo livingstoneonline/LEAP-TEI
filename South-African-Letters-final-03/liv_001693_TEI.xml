@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001693"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<!-- Change title below -->
+                <title>Letter to William Sunley, 18th November 1861</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<!-- Add or remove <respStmt> as appropriate below -->
+				<!-- Change xml:id below -->
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+				<!-- Change date below if necessary -->
+                <date>2016</date>
+				<!-- Change base file name below -->
+                <idno type="LEAP-ID">liv_001693</idno>
+				<!-- Change the license below if necessart -->
+			    <availability>
+        			<licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+            			All materials are licensed for use under the 
+            			<ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                		Creative Commons Attribution-Noncommercial 3.0 Unported License
+            			</ref>. (c) Dr. Neil Imray Livingstone Wilson, 2011
+        			</licence>
+    			</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+						<!-- Change country below as needed -->
+                        <country>South Africa</country>
+						<!-- Change settlement below as needed -->
+                        <settlement>Johannesburg</settlement>
+						<!-- Change repository below as needed -->
+                        <repository>Brenthurst Library</repository>
+						<!-- Change shelfmark below as needed -->
+                        <idno type="shelfmark">Book no. 5318, Acc. Reg. 4669</idno>
+                        <altIdentifier>
+							<!-- Change CC number below as needed -->
+                            <idno type="ccnumber">Letters, 1146</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+							<!-- Add additional <handNote> elements below as needed. -->
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+					<!-- Change title below -->
+                    <title>Letter to William Sunley, 18th November 1861</title>
+                    <author xml:id="DL">David Livingstone</author>
+					<!-- Change @when and date below -->					
+                    <date type="composition" when="1861-11-18">18 November 1861</date>
+					<!-- Change place below -->
+                    <placeName type="compositionPlace">River Shire</placeName>
+					<!-- Change addressee below -->
+                    <persName type="addressee">William Sunley</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. 
+				English should be first, then add all other languages, as appropriate, 
+				in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<!-- Change @when, @who, and work description below. -->
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Add new <change> elements below as needed. -->
+			<!-- Note that the most recent <change> should always be placed first, at the top -->
+            <change when="2015-09-15" who="#AW">Coding review</change>
+            <change when="2015-09-08" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<!-- Change both @facs and @n below -->
+	<!-- Start each page with a <pb> formatted as below -->               
+	<pb facs="liv_001693_0001" n="0001"/>
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+    <lb/><add place="above marginright" rend="gray" hand="#U">ms 8/7</add> <dateline rend="right"><placeName><geogName type="river">River Shire</geogName></placeName> <date when="1861-11-18">18<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1861</date></dateline>
+<lb/><space extent="2" unit="chars"/><hi rend="underline">Private</hi>    
+<lb/><space extent="2" unit="chars"/><salute>My Dear Sunley,</salute>
+</opener>
+
+<lb/><p rend="center">We went up to <placeName><geogName type="lake">Lake
+<lb/>Nyasa</geogName></placeName> by carrying a boat past the
+<lb/>cataracts of this river intending to find out<!-- geog: Cataracts of River Shire -->
+<lb/>more about the <placeName><geogName type="river">Rovuma</geogName></placeName> from above
+<lb/>than we could from below, but we
+<lb/>were unsuccessful - We were on the 
+<lb/>Lake during the <seg type="weather">Equinoctial gales</seg><!-- geog: Lake Nyassa -->
+<lb/>and like all narrow seas surrounded
+<lb/>with mountains tremendous seas
+<lb/>get up in a quarter of an hour or 
+<lb/>twenty mintues - We went up the 
+<lb/>Western shore and the frequency of<!-- geog: Western shore of Lake Nyassa -->
+<lb/><seg type="weather">storms</seg> in which no open boat
+<lb/>could live prevented our crossing &amp;
+<lb/>finding out all about <placeName><geogName type="river">Rovuma</geogName></placeName>
+<lb/>Reports were rife enough from the
+<lb/>positive assertion that we could sail
+<lb/>from the Lake into the River to the</p><!-- geog: Lake Nyassa --><!-- geog: Rovuma River -->
+
+<cb rend="vertical"/>
+<ab>
+<lb/>Do you know where a place called by the <orgName>Arabs</orgName> <placeName>Shamo</placeName>
+<lb/>is?
+</ab> 
+
+	<pb facs="liv_001693_0002" n="0002"/>
+<lb/><p>equaly positive statement that we must
+<lb/>carry it a month - We found the Lake to be<!-- geog: Lake Nyassa -->
+<lb/>very deep - no bottom at <measure><measure>116 fathoms</measure> a <measure>mile</measure>
+<lb/>out</measure> - and generally a ship must be near
+<lb/>shore to find anchorage - Width from <measure>20 
+<lb/>to 50 or 60 miles</measure> - <space extent="1" unit="chars"/>Length over <measure>200</measure>
+<lb/>Its northern end is <measure><choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 10º South</measure> - -<!-- geog: northern end of Lake Nyassa -->
+<lb/>An <orgName>Arab</orgName> dhow has lately been built on 
+<lb/>it to supply, we suppose, the trade at <placeName><settlement type="village">Iboe</settlement></placeName>.
+<lb/>It fled from us twice and we could
+<lb/>not cross to the East side to look at it.<!-- geog: East Side of Lake Nyassa -->
+<lb/>We heard that <persName>Ben Habib</persName> the <orgName>Arab</orgName> who
+<lb/>abducted 95 <term type="tribe">Makololo</term> had gone back
+<lb/>in a great hurry, we suspect stirred up by 
+<lb/><persName><choice><abbr>Col</abbr><expan>Colonel</expan></choice> Ryby</persName> - He has had them
+<lb/>away seven years - Your <orgName><placeName><geogName type="island">Johanna</geogName></placeName> 
+<lb/>men</orgName> have turned out very well -
+<lb/>they are better than the <term type="tribe">Kroomen</term> we
+<lb/>formaly had - they have been most
+<lb/>of their time at the foot of the cataracts<!-- geog: Cataracts of the River Shire -->
+<lb/>where <term type="foodstuff">rice</term> is not to be had, but <term type="foodstuff">meal</term>
+<lb/>seems to go down with them - I did
+<lb/>not take them up to <placeName><geogName type= "lake">Nyasa</geogName></placeName> as
+
+	<pb facs="liv_001693_0003" n="0003"/>
+<lb/>they were required to guard the ship -
+<lb/>If you can engage twelve or fourteen
+<lb/>I could do better with them than with some
+<lb/>of the whites who are frequently ill - If I
+<lb/><choice><sic>I</sic><corr/></choice> cannot come to <placeName><geogName type="island">Johanna</geogName></placeName> I shall send
+<lb/>these by man of war - At present they
+<lb/>are all well, and do not express any
+<lb/>anxiety about returning -</p>
+<lb/><p>I met two <orgName><placeName><geogName><region>Zanzibar</region></geogName></placeName> <orgName>Arabs</orgName></orgName> who
+<lb/>had come down from <placeName><geogName><region>Katanga</region></geogName></placeName> in the
+<lb/>far interior to buy cloth at <placeName><geogName type="lake">Nyasa</geogName></placeName>
+<lb/>they had been some 14 years up there!
+<lb/>Their names were <persName>Juma bin Saide</persName> 
+<lb/>and <persName>Amar b<subst><del>e</del><add place="over-text">i</add></subst>n Saleme</persName> -</p>
+<lb/><p><orgName>Slaving</orgName> in the only trade on <placeName><geogName type="lake">Nyasa</geogName></placeName>
+<lb/>at present - population prodigious -
+<lb/>the <term type="occupation">bishop</term> is in the heart of the <orgName>slavery</orgName>
+<lb/>when I went up to the highlands with<!-- geog: Highlands of Lake Nyassa -->
+<lb/>him I met <placeName><settlement type="village">Tette</settlement></placeName> people coming with
+<lb/>84 captives - they fled &amp; left these
+<lb/>and many others in my hand so
+<lb/>I gave them over to the <orgName>mission</orgName> &amp;
+<lb/>may get into a scrape for it. The
+
+	<pb facs="liv_001693_0004" n="0004"/>
+<!-- This is an address under Livingstone's text here, in another hand. It appears that Livingstone wrote this letter over a piece of paper that was originally written to him. The first line of the undertext reads "Dr. Livingstone" but we have been unable to read the rest of it. AW -->
+<lb/><term type="people">Portuguese</term> had employed a tribe called 
+<lb/><term type="tribe">Ajawa</term> to hunt <orgName>slaves</orgName> for them - as all
+<lb/>the <term type="occupation">bishop</term>'s people were fleeing I went to
+<lb/>try and induce the <term type="tribe">Ayawa</term> to give it up.
+<lb/>They got but 2 fathoms for a man &amp; 1 for 
+<lb/>a woman - but we came as they were
+<lb/>in the act of burning three villages and
+<lb/>attacked us as if they meant to make
+<lb/><orgName>slaves</orgName> of us.  We had to drive them off -
+<lb/>The <term type="occupation">bishop</term> has been at them since fighting 
+<lb/>and intending to fight like a brick - I
+<lb/><choice><sic>dont</sic><corr>don't</corr></choice> know how this will go down
+<lb/>at home - I am in for a share of the
+<lb/>blame - We found no difficulty in <w>collec<supplied>-</supplied>
+<lb break="no"/>-tive</w> <term type="plant">cotton</term> at a cheap rate though it was
+<lb/>not the season but our ship <subst><del><gap extent="1" unit="chars"/></del><add place="over-text">is</add></subst> much
+<lb/>too long and deep so our opertations
+<lb/>have been confined to a <measure>few miles</measure>
+<lb/>if we get out little steamer on the Lake<!-- geog: Lake Nyassa -->
+<lb/>the area will be increased -</p>
+<lb/><p>We hear from <persName>M<hi rend="sup underline">s</hi> Burrup</persName> who arrived
+<lb/>on <date when="1861-11-13">13<hi rend="sup underline">th</hi></date> that <persName>May</persName> had remained with you
+<lb/>till lately - you must make out a bill
+<lb/>against the Expedition and I shall get it 
+<lb/>paid -</p> <closer>I am &amp;c <signed><persName>David Livingstone</persName></signed></closer>
+            </div>
+        </body>
+    </text>
+
+</TEI>

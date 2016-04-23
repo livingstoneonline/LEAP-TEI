@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001443"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Edmund Gabriel, 4 June 1859</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001443</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 6754. Ex</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0906</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Edmund Gabriel, 4 June 1859</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1859-06-04">4 June 1859</date><!-- Change -->
+                    <placeName type="compositionPlace">River Shire</placeName><!-- Change -->
+                    <persName type="addressee">Edmund Gabriel</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="pt">Portuguese</language>
+				<language ident="und">Undetermined</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-12-17" who="#AW">Coding review</change>
+            <change when="2015-12-17" who="#JM">Proofreading</change>
+			<change when="2015-12-01" who="#AW">Light coding review</change>
+            <change when="2015-11-27" who="#MB">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001443_0001" n="0001"/><!-- I am supposed to remove the .jpeg, yes? Double check for all. MB --><!-- OK. AW -->
+<lb/><p><gap agent="hole"/><!-- Damage spans 3/4 of the page. MB --><add place="marginleft"><figure><figDesc>Hand pointing to the added text.</figDesc>
+</figure><hi rend="diagonal">Look to the end for the beginning.</hi></add>found the people all friendly,
+<lb/>we left the vessel in charge
+<lb/>of the <term type="occupation">Quater master</term> and stoker <!-- or stoker? MB --><!-- I think it's stoker. AW -->
+<lb/>with a <term type="occupation">chief</term> named <persName>Chibisa</persName> <!-- Appears to be Chibisa on the following page. JM -->
+<lb/>(<choice><abbr>Lat.</abbr><expan>Latitude</expan></choice> 16°2' <choice><abbr>S. Long.</abbr><expan>South Longitude</expan></choice> 35° <choice><abbr>E.</abbr><expan>East</expan></choice>) and
+<lb/>with <persName>D<hi rend="sup underline">r</hi> Kirk</persName> and thirteen-
+<lb/><term type="tribe">Makololo</term> proceeded on foot
+
+	<pb facs="liv_001443_0002" n="0002"/>
+<lb/><gap agent="hole"/><!-- Damage spans 3/4 of the page. MB -->chiefly North and along the
+<lb/>banks of the <geogName type="river">Shire</geogName>; We were
+<lb/>in a mountainous country
+<lb/>and the observations<metamark/><add place="marginright"><note>Enclosure <choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> 1.</note></add><!-- Livingstone writes "Enclosure No 1." in the margin, then uses a long line to connect "observation" with marginalia. MB --><!-- OK. AW --> of the
+<lb/>Aneroid Barometer registered
+<lb/>by <persName>D<hi rend="sup underline">r</hi> Kirk</persName> show that we
+
+	<pb facs="liv_001443_0003" n="0003"/>
+<lb/>daily <add place="above" hand="#U">9</add> gained some hundreds of 
+<lb/>feet of elevation - The river besides <!-- geog: River Shire -->
+<lb/>rushing over several cateracts
+<lb/>has generally a current as rapid 
+<lb/>as a millrace. About <choice><abbr>Lat.</abbr><expan>Latitude</expan></choice> 15°30'
+<lb/>South it is only about <measure>thirty yards</measure>
+<lb/>wide and the channel being 
+<lb/>but little below the level of the 
+<lb/>banks, it gave the idea of 
+<lb/>water power without dams
+<lb/>sufficient to drive all the
+<lb/>mills in <placeName><country>England</country></placeName>. Our route
+<lb/>was much more tortuous than
+<lb/>the river because we were <!-- geog: River Shire -->
+<lb/>obliged to go from one <term type="occupation">headman</term>'s 
+<lb/>village to another, and much 
+<lb/>delay is occasioned by the 
+<lb/>formalities necessary to convince
+<lb/>every little great man that
+<lb/>we are not a company of 
+<lb/><term type="occupation">marauders</term>. <persName>Chibisa</persName> is the 
+<lb/>only man who did not feel it 
+<lb/>incumbent on him to collect
+<lb/>all his people together before</p>
+
+<cb rend="left vertical"/>
+<ab>
+<lb/>We got on well enough with the <term type="people">Portuguese</term> but <!-- unsure how to encode the lines in the margin. MB --><!-- OK. AW -->
+<lb/>when any of them get drunk we hear that they <choice><sic>dont</sic><corr>don't</corr></choice> like the 
+<lb/>expedition - We are hoping to get a vessel to take us up the
+<lb/>rapids if not then we go on our own pius &amp; independent
+</ab>
+
+	<pb facs="liv_001443_0004" n="0004"/>
+<lb/><p rend="no-indent">giving us an audience, but he
+<lb/>possesses a firm belief in his 
+<lb/>own inherent dignity and he
+<lb/>told us that his father communicated
+<lb/>an influence to him where by
+<lb/>"all who heard him speak
+<lb/>feared his words". He spoke
+<lb/>of it as one would a fact in 
+<lb/>Natural History. and we
+<lb/>formed that he possesses great
+<lb/>influence in the country <w>North<supplied>-</supplied>
+<lb break="no"/>wards</w> from which he is 
+<lb/>traditionally descended - <space extent="1" unit="chars"/>the
+<lb/>influence of his name through
+<lb/>a man he sent was of
+<lb/>essential benefit. Our progress
+<lb/>was however slow for after 
+<lb/><measure>a fornight's journey</measure> from 
+<lb/>the ship we were not much
+<lb/>more than <measure>forty miles</measure> distant.</p>
+<lb/><p>We had come in sight of 
+<lb/>a lofty mountain named
+<lb/><placeName><geogName type="mountain">Dzomba</geogName></placeName> or <placeName><geogName type="mountain">Zomba</geogName></placeName> and
+<lb/>on crossing the southern talus 
+
+	<pb facs="liv_001443_0005" n="0005"/>
+<lb/><add place="marginleft">2/</add>of this mountain we first got<!-- geog: Zomba Mountain-->
+<lb/>a distant view of <add place="below">^</add> <add place="above">a part of</add> <placeName><geogName type="lake">Lake Shirwa</geogName></placeName>
+<lb/>at the foot of a range of lofty
+<lb/>mountains in the East. We 
+<lb/>had traced the <placeName><geogName type="river">Shire</geogName></placeName> up to 
+<lb/>the Northern end of <placeName><geogName type="mountain">Zomba</geogName></placeName>,
+<lb/>and were prevented by a marsh from following it further on that side. <space extent="2" unit="chars"/>On
+<lb/>coming round its southern flank <!-- geog: Zomba Mountain-->
+<lb/>we were informed that the
+<lb/>river we had left so near,
+<lb/>had no connections with
+<lb/><placeName><geogName type="lake">Lake Shirwa</geogName></placeName> - <space extent="2" unit="chars"/>We then
+<lb/>proceeded Eastwards and
+<lb/>on the <date when="1859-04-18">18th April</date> reached
+<lb/>its shores - <space extent="2" unit="chars"/>a goodly sight
+<lb/>it is to see, for it is -
+<lb/>surrounded by lofty <w>moun-
+<lb break="no"/>tains</w>, and its broad blue
+<lb/>waters look like an arm
+<lb/>of the sea. There is no
+<lb/>outlet known; a great
+<lb/>many streams run into it 
+
+	<pb facs="liv_001443_0006" n="0006"/>
+<lb/>for the adjacent country is
+<lb/>well watered - The <placeName><geogName type="river">Palombe</geogName></placeName>
+<lb/>and <placeName><geogName type="river">Sombane</geogName></placeName> flow in 
+<lb/>from the South - The water
+<lb/>has a bitter taste but is 
+<lb/>drinkable - Fish abound,<!-- very vague reference to fish. MB --><!-- No coding necessary. AW -->
+<lb/>and so do <term type="animal">alligators</term> and
+<lb/><term type="animal">hippopotami</term>. We saw the
+<lb/>waves breaking on the rocks
+<lb/>on the shore as in the sea
+<lb/>and when the southern wind 
+<lb/>blows strongly the water
+<lb/>retires sufficiently from 
+<lb/>the southern shore as to
+<lb/>enable the people to catch
+<lb/>fish in weirs planted there <!-- Weir is a type of fishing trap, so I haven't encoded it as a plant. MB --></p>
+<lb/><p>The Lake is of a pear<!-- geog: Lake Shirwa -->
+<lb/>shape only the narrow end
+<lb/>is prolonged some <measure>thirty miles</measure> 
+<lb/>from the body - There is an
+<lb/>inhabited mountain near 
+<lb/>the beginning of the narrow 
+<lb/>part. <space extent="2" unit="chars"/>The broad part
+<lb/>is about <measure>(25) twenty five</measure></p><!-- I would encode this as a measure, but I am unable due to the added text. MB --><!-- OK. AW -->
+
+<cb rend="right vertical"/>
+<!-- place is in the right margin. This note continues onto the margins of the next page. MB -->
+<ab>
+<lb/>If you could send me a bag of <term type="plant">Palm tree</term> <term type="foodstuff">nuts</term> - you 
+<lb/>would confer a benefit - Here there are none - I am about
+<lb/>to send <term type="plant">Buarye trees and seeds</term> to <placeName><settlement>Mora</settlement></placeName> - also another tree
+
+	<pb facs="liv_001443_0007" n="0007"/>
+<!-- The following lines are in the right margin are are a continuation of text added to the proceeding page. MB -->
+<lb/>the seed of which yields both an <term type="foodstuff">oil</term> &amp; <term type="foodstuff">hard fat</term>.<!-- Would both of these be a "plant_foodstuff"? MB --> The Buarye yields
+<lb/>a crop annually by being pollarded - yet the <term type="people">Portuguese</term> <choice><sic>wont</sic><corr>won't</corr></choice>
+<lb/>collect it - they attend to ivory<!-- unsure. MB --><!-- Fixed. AW --> alone - and are born <term type="animal"><choice><orig>donkies</orig><reg>donkeys</reg></choice></term> <!-- Even though this refers to an animal, do we encode it as such since this is a metaphor? MB --><!-- OK. AW -->
+<lb/>and worse. They think a "<foreign xml:lang="pt">compania</foreign>" will make them all rich
+<lb/>while they lie on their backs smoking
+</ab> 
+
+<lb/><p rend="no-indent">or (30) <measure>thirty miles</measure>, and when
+<lb/>we ascended some way up a 
+<lb/>hill (<placeName><geogName type="hill">Pirimiti</geogName></placeName>) and looked away
+<lb/>to the <choice><abbr>S.S.E.</abbr><expan>South South East</expan></choice> we had 26° of
+<lb/>watery horizon with two mountain
+<lb/>tops rising in the blue distance
+<lb/>like little islands <measure>fifty or 
+<lb/>sixty miles</measure> away - The 
+<lb/><orgName>natives</orgName> use large canoes,
+<lb/>and count <measure>four days journey</measure>
+<lb/>as the length but when 
+<lb/>the wind blows strongly
+<lb/>they can accomplish it 
+<lb/>in two. It is therefore not
+<lb/>an over estimate to say it is 
+<lb/><measure>sixty (60) or seventy (70) miles</measure>
+<lb/>long, exclusive of the southern
+<lb/>narrow portion of <measure>thirty miles</measure></p>
+<lb/><p>The height of the Lake <!-- geog: Lake Shirwa -->
+<lb/>above <persName>Chibisa</persName>'s land
+<lb/>where we left the ship was
+<lb/><measure>1800 feet</measure> or in round
+<lb/>numbers <measure>2000 feet</measure> above
+<lb/>the level of the sea. <placeName><geogName type="mountain">Zomba
+<lb/>mountain</geogName></placeName> is quite <measure>6000 feet</measure>
+
+	<pb facs="liv_001443_0008" n="0008"/>
+<lb/>high and inhabited. We could
+<lb/>see cultivated patches from
+<lb/>below. <placeName><geogName type="range">Milanje range</geogName></placeName> is inhabited 
+<lb/>too, but another range on
+<lb/>the Eastern side of the Lake <!-- geog: Lake Shirwa -->
+<lb/>seems over <measure>six thousand feet</measure>
+<lb/>and so bold and rugged it 
+<lb/>looks inaccessible - The whole
+<lb/>region is an elevated one.
+<lb/>In crossing the Southern talus 
+<lb/>of <placeName><geogName type="mountain">Zomba</geogName></placeName> we were <measure>3400 feet</measure>
+<lb/>above the ship at <persName>Chibisa</persName>'s
+<lb/>and the great mass of the
+<lb/>mountain itself rose on
+<lb/>our left higher (apparently)
+<lb/>than <placeName><geogName type="mountain">Morambala</geogName></placeName> which 
+<lb/>by ascending we ascertained
+<lb/>to be <measure>4000 feet</measure> high - our
+<lb/>estimate is therefore moderate
+<lb/>To a spectator in the far North
+<lb/>it will appear as standing in
+<lb/>the Lake - It is not acually <!-- geog: Lake Shirwa -->
+<lb/>on its shores but it separates
+<lb/>the <placeName><geogName type="valley">Shirwa</geogName></placeName> and the <placeName><geogName type="valley">Shire vallies</geogName></placeName>
+
+	<pb facs="liv_001443_0009" n="0009"/>
+<lb/><add place="marginleft">3/</add>and as the <orgName>natives</orgName> report
+<lb/><placeName><geogName type="lake">Lake Shirwa</geogName></placeName> to be separated
+<lb/>from a much larger Lake,
+<lb/><placeName><geogName type="lake">Nyinyesi</geogName></placeName>, by a strip of
+<lb/>comparatively level land
+<lb/>we see the general correctness
+<lb/>so far, of information 
+<lb/>collected by the <persName><choice><abbr>Rev<hi rend="sup">d</hi>-</abbr><expan>Reverend</expan></choice> Erkhardt</persName>
+<lb/>of the <orgName>church <term type="occupation">missionary</term>
+<lb/>Society</orgName>. <placeName><geogName type="lake">Nyinyesi</geogName></placeName> is also
+<lb/>called the <placeName><geogName type="lake">Nyanja</geogName></placeName>, 
+<lb/>but this word is applied
+<lb/>to any collection of water, and
+<lb/>even to rivers; <placeName><geogName type="lake"><foreign xml:lang="und">Nyinyesi</foreign></geogName></placeName><!-- Here, he seems to be talking about the word. Encode as foreign lang? MB --><!-- Yes. AW -->=
+<lb/>"stars" seems preferable.</p>
+<lb/><p>The whole region seemed 
+<lb/>well, though not densely peopled
+<lb/>with <term type="tribe">Mang-anja</term> who inhabit
+<lb/>both banks of the <placeName><geogName type="river">Shire</geogName></placeName> from
+<lb/><placeName><settlement>Morambala</settlement></placeName> up to <placeName><settlement type="village">Ihibisa</settlement></placeName><!-- This could be referring to Chibisa's village and so should be encoded as a person's name, but I am not sure. JM -->; 
+<lb/>but the Eastern bank and 
+<lb/>adjacent mountains beyond</p>
+
+	<cb rend="left vertical"/>
+	<!-- Place is in the left margin. MB -->
+	<ab>
+<lb/>The Highland region in which the Lake is situated is so <!-- geog: Lake Shirwa -->
+<lb/>appropriate as a mission field that I have written to the 
+<lb/><orgName>Church <term type="occupation">Missionary</term> Society</orgName> recommending it - they have long
+<lb/>been trying to find a field in <geogName><region>Eastern Africa</region></geogName>
+	</ab>
+
+	<pb facs="liv_001443_0010" n="0010"/>
+<lb/><p rend="no-indent">him; The western bank above 
+<lb/>the same <term type="occupation">chief</term> is inhabited
+<lb/>by the <term type="tribe">Maravi</term>-<!-- unclear. MB --><!-- OK. AW --> There are
+<lb/>none of this tribe anywhere
+<lb/>near <placeName><geogName type="lake">Shirwa</geogName></placeName>, so it would 
+<lb/>appear improper to identify
+<lb/>it with the "<placeName><geogName type="lake">Lake Maravi</geogName></placeName>"
+<lb/>of the <bibl>maps</bibl>;<!-- bibl here? --><!-- Yes. AW --> nor can we
+<lb/>set it down as that mentioned by
+<lb/><persName>Sehor Candido</persName> of <placeName><settlement>Tette</settlement></placeName> as <measure>forty five
+<lb/>days</measure> <choice><abbr>S.S.W.</abbr><expan>South South West</expan></choice> of that point.
+<lb/>No <term type="people">Portuguese</term> even pretends to
+<lb/>know anything about it. I think
+<lb/>it necessary to state this, because <!-- There is a note in the margins here that refers to a later portion of text. See below for transcription. MB-->
+<lb/>after the first <hi rend="underline"><orgName>European</orgName></hi> had
+<lb/>crossed the continent the honour
+<lb/>was claimed by a <term type="nationality">Portuguese</term>
+<lb/><term type="occupation">Minister</term> <metamark/><add place="marginright above"><note><bibl>Blue Book</bibl> <lb/>for <date when="1856">1856</date> or <date when="1857"><supplied>185</supplied>7</date></note></add><!-- Livingstone writes "Blue Book" in the margin, then uses a long line to connect "Minister" with marginalia. A line break occurs between "Book" and "for." MB --><!-- OK. AW --> for two <hi rend="underline">blackmen</hi>
+<lb/>("<foreign xml:lang="pt"><hi rend="underline">feirantes pretos</hi></foreign>" according to the 
+<lb/><bibl>History of Angola</bibl> &amp; <term type="nationality">Portuguese</term> Archives)
+<lb/>who in the memory of a lady
+<lb/>now living at <placeName><settlement type="village">Tette</settlement></placeName> came thither
+<lb/>but proceeded no further - They
+<lb/>failed by <measure>300 miles</measure> of what was
+<lb/>claimed for them, and had they 
+
+	<pb facs="liv_001443_0011" n="0011"/>
+<lb/>gone over land to <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> must
+<lb/>have mentioned surely either <placeName><geogName type="lake">Nyinyesi</geogName></placeName>
+<lb/>or <placeName><geogName type="lake">Shirwa</geogName></placeName>, if not the passage
+<lb/>between them. We made frequent
+<lb/>enquires among the people if they
+<lb/>had ever been visited by <orgName>white
+<lb/>men</orgName> before and the invariable
+<lb/>answer was in the negative - A
+<lb/><orgName>black</orgName> <term type="occupation"><orgName>slave</orgName> trader</term> with wooly
+<lb/>hair had once visited the part
+<lb/>but the discovery is claimed 
+<lb/>for <persName>D<hi rend="sup underline">r</hi> Kirk</persName> and myself as 
+<lb/><hi rend="underline"><orgName>Europeans</orgName></hi>, and we do not
+<lb/>enter into competition with <orgName>black
+<lb/>people</orgName>, nor with secret discoveries
+<lb/>locked up in Archives.
+<lb/><metamark/><add place="marginleft" rend="left vertical">This part is made rather <lb/>milder in the real despatch</add></p><p>I take the liberty of giving
+<lb/>the foregoing explanation because
+<lb/>the <term type="people">Portuguese</term> are in the habit 
+<lb/>of depreciating our explorations
+<lb/>by declaring that they have full
+<lb/>information about the whole
+<lb/>country in the Archives, and 
+<lb/>the <term type="nationality">Portuguese</term> <term type="occupation">minister</term> adopted
+<lb/>the same tone to <persName>Lord Clarendon</persName>
+
+	<pb facs="liv_001443_0012" n="0012"/>
+<lb/>and referred to <bibl><persName>Bowdich</persName>'s examination</bibl>
+<lb/>thereof though he found out the
+<lb/>very fact I have stated. <space extent="2" unit="chars"/>The
+<lb/><term type="people">Portuguese</term> dare not enter the <placeName><geogName type="river">Shire</geogName></placeName>
+<lb/>The only expedition they ever sent
+<lb/>up was beaten back by the <orgName>natives</orgName>
+<lb/>before they had ascended <measure>25 miles</measure>
+<lb/>We have gone <measure>one hundred and fifty
+<lb/>miles</measure>, and never came into 
+<lb/>collision with any one.</p>
+<lb/><p>The <term type="tribe">Manganja</term> cultivate the
+<lb/>soil very extensively, and the land
+<lb/>is exceedingly rich; The <term type="plant">grass</term>
+<lb/>is generally from <measure>six to eight feet</measure>
+<lb/>high and overhanging the paths
+<lb/>which are only about <measure>a foot</measure> wide
+<lb/>There is a perpetual patter on the 
+<lb/>face in walking - <measure>A few yards</measure>
+<lb/>distance from a companion
+<lb/>hides him completely, and <term type="occupation">guides</term>
+<lb/>are <del type="strikethrough">absolutely</del> necessary, it being
+<lb/>absolutely impossible to see, on
+<lb/>entering a path, where it will
+<lb/>lead, Even the hills though
+<lb/>very stoney are very fertile and
+<lb/>gardens are common high up their
+<lb/>sides and on their tops-</p>
+
+<cb rend="right vertical"/>
+<!-- place is in the right margin. MB -->
+<ab>
+<lb/>You have a piece of plate at <persName>M<hi rend="sup">r</hi> Horsfall</persName>'s ready for <persName>M<hi rend="sup underline">rs</hi>
+<lb/>Gabriel</persName> whenever that lady takes you under her wing - My
+<lb/>wife is at <placeName><settlement type="village">Kuruman</settlement></placeName> with her parents to be confined
+</ab>
+
+	<pb facs="liv_001443_0013" n="0013"/>
+<lb/><p rend="no-indent"><term type="plant">Cotton</term> is cultivated largely and the
+<lb/>farther we went it appeared to be 
+<lb/>of the greater importance as an
+<lb/>object of culture, though only the
+<lb/>women were well clothed - Every
+<lb/>one seemed to spin and weave it
+<lb/>even <term type="occupation">chiefs</term> may be seen with
+<lb/>the spindle and bag which serves
+<lb/>as a distaff, and the process of
+<lb/>manufacture is the most tedious
+<lb/>and crude that can be conceived - the
+<lb/><term type="plant">cotton</term> undergoes five processes
+<lb/>before if comes to the loom - time 
+<lb/>is of no value - They have two 
+<lb/>varieties of the plant= one indigenous-
+<lb/>yields <term type="plant">cotton</term> more like wool than
+<lb/>that of other countries - It is very
+<lb/>strong and rough in the hand - The
+<lb/>other is from Foreign <term type="plant">seed</term> and yields
+<lb/>a <term type="plant">cotton</term> which renders it unnecessary
+<lb/>to furnish the people with <term type="nationality">American</term>
+<lb/><term type="plant">seed</term>. <space extent="2" unit="chars"/>A point in its culture worth
+<lb/>noticing is the time for planting
+<lb/>has been selected so that the plants
+<lb/>remain in the ground during the
+<lb/>winter, and five months from
+<lb/>sowing it comes to maturity</p>
+
+<cb rend="right vertical"/>
+<!-- Marginalia is in the left margin. MB -->
+<ab>
+<lb/>The <orgName><placeName><settlement type="city">London</settlement></placeName> <term type="occupation">Missionary</term> Society</orgName> did not behave itself to me
+<lb/>and now abuses me for turning consul - What they will say
+<lb/>when they know I have turned <term type="occupation">"skipper"</term> I <choice><sic>dont</sic><corr>don't</corr></choice> know - Would
+<lb/>they turn black in the face
+</ab>
+
+	<pb facs="liv_001443_0014" n="0014"/>
+<lb/><p rend="no-indent">before the rains commence or
+<lb/>insects come forth to damage
+<lb/>the crop.</p>
+<lb/><p>The <term type="tribe">Manganya</term> have no
+<lb/>domestic animals except <term type="animal">sheep</term>
+<lb/><term type="animal">goats</term> and <term type="animal">fowls</term>. We get abundance
+<lb/>of provisions at a cheap rate -
+<lb/>They have no ivory - but few
+<lb/>wild anilmals; And say that they
+<lb/>abound among the <term type="tribe">Maravi</term>
+<lb/>West of the <placeName><geogName type="river">Shire</geogName></placeName>. Their weapons
+<lb/>are large bows and poisoned arrows
+<lb/>with iron heads. <space extent="2" unit="chars"/> Every one carries
+<lb/>a knife - and almost every village
+<lb/>has a durnace for smelting iron
+<lb/>spears were rarely seen but very
+<lb/>well made and of excellent iron
+<lb/>Both sexes are tattooed in straight
+<lb/>raised lines radiating from various 
+<lb/>points, and all file their teeth
+<lb/>with stones so as to leave them
+<lb/>of a semilunar shape <figure><figDesc>Livingstone draws a tooth with a semi -circular indentation.</figDesc></figure> - The
+<lb/>women perforate the upper lip 
+<lb/>close to the nose and enlarge the
+<lb/>opening till they can insert a 
+<lb/>ring of ivory of <measure>two inches</measure> diameter
+<lb/>Some ladies of fashion have the
+<lb/>lip drawn out so the ring comes
+<lb/>down below the chin and the mouth</p>
+
+	<cb rend="right vertical"/>
+	<!-- This note is in the right margin and continues onto the next page. MB -->
+	<ab>
+<lb/>We caught a young <term type="animal">elephant</term> coming down the river 
+<lb/>but one of the <term type="tribe">Makololo</term> in excitement cut its proboscus so as at
+<lb/>last to cause its death - It lived two days and to use the language
+<lb/>of the Newspapers when tearfully pathetic. "In spite of the unwearied
+
+	<pb facs="liv_001443_0015" n="0015"/>
+<!-- Marginal note continued from previous page. MB -->
+<lb/>caution of the medical gentlemen in attendance the vital spark
+<lb/>cut its stick" - It would have been a great curiosity at home
+<lb/>as no <term type="animal">African elephant</term> has in modern times been seen in 
+<lb/><placeName><country>England</country></placeName>.
+	</ab>
+
+<lb/><p rend="no-indent">appears through the upper lip - All 
+<lb/>were timid - Men whom we met
+<lb/>suddenly among the long grass threw
+<lb/>down their burdens and ran away
+<lb/>It is probable that our dress is
+<lb/>as uncouth to them as their
+<lb/>nakedness and lip rings are to us,
+<lb/>for when we entered a village
+<lb/>the <term type="animal">fowls</term> would take to wing
+<lb/>and leave their <term type="animal">chickens</term>. &amp; The 
+<lb/>women rushed into their huts &amp;
+<lb/>shut the doors in terror -</p>
+<lb/><p>When at <placeName><geogName type="lake">Lake Shirwa</geogName></placeName> the
+<lb/>people pointed out a pass in the 
+<lb/>end of the mountain range <placeName><geogName type="range">Milange</geogName></placeName>
+<lb/>through which a tribe called <term type="tribe">Anguru</term>, 
+<lb/>came to attack them with guns.
+<lb/>The <term type="tribe">Manganja</term> have no fire-arms
+<lb/>except a rude kind of pistol made 
+<lb/>by themselves for the purpose of
+<lb/>making a noise at funerals-
+<lb/>gunpowder was enquired for in 
+<lb/>order to this alone - We came close
+<lb/>to a large party of <term type="tribe">Bajaua</term>
+<lb/><term type="occupation"><orgName>slave</orgName> traders</term> who are in the habit
+<lb/>of taking <orgName>slaves</orgName> down to <placeName><settlement type="village">Quilimane</settlement></placeName>
+<lb/>but they persuaded the people to 
+<lb/>mislead us so that we did not
+<lb/>see them. Some of the women
+
+	<pb facs="liv_001443_0016" n="0016"/>
+<lb/>told the <term type="tribe">Makololo</term> that <term type="tribe">Bajana</term>
+<lb/>said that <term type="people">English</term> would stop their
+<lb/>trade and no more foreign cloth
+<lb/>be brought into the country The
+<lb/><term type="occupation">chiefs</term> tried to justify their
+<lb/>cooperation in the traffic by 
+<lb/>saying "only crimminals were
+<lb/>sold." No one attempeted to treat
+<lb/>imprudently except some of these
+<lb/><term type="tribe">Bajana</term> <term type="occupation"><orgName>slavetraders</orgName></term> and they 
+<lb/>changed their conduct instantly
+<lb/>only learning that we were
+<lb/><term type="people">English</term> and not the <term type="people">Portuguese</term>
+<lb/>with whom they had been accustomed to do business.</p>
+			</div>
+
+			<div>
+<!-- The following lines are the opening of the letter -->
+<lb/><opener><salute>My Dear Friend <persName>Gabriel</persName></salute> <dateline><placeName><geogName type="river">River Shire</geogName></placeName> <add place="below"><date when="1859-06-04">4 June 1859</date></add></dateline></opener>
+<lb/><p>The foregoing is the rough copy
+<lb/>of a <choice><orig>despatch</orig><reg>dispatch</reg></choice> giving an account of the discovery
+<lb/>of a magnificent Lake called <placeName><geogName type="lake">Shirwa</geogName></placeName> - I have
+<lb/>written on all my paper - so if you are not
+<lb/>please with a mutilation you must <w>sen<gap agent="fading" extent="1" unit="chars"/><supplied cert="high">d</supplied></w>
+<lb/>it back and I shall write it over again. <placeName><geogName type="lake">Shirwa</geogName></placeName>
+<lb/>has no known outlet and it has only five
+<lb/>or six miles of partition between it and <placeName><geogName type="lake"><w>Nyanj<gap agent="fading" extent="1" unit="chars"/><supplied cert="high">a</supplied></w></geogName></placeName>
+<lb/>or <placeName><geogName type="lake">Nyinyesi</geogName></placeName>= The stars which reaches pretty
+<lb/>well up to the equator - The Southern portion
+<lb/>of <placeName><geogName type="lake">Shirwa</geogName></placeName> is only about <measure>30 miles</measure> distant
+<lb/>from the navigable <placeName><geogName type="river">Shire</geogName></placeName>= The <term type="people">Portuguese</term>
+<lb/>know nothing about it - We have had <w>som<gap agent="fading" extent="1" unit="chars"/><supplied cert="high">e</supplied></w>
+<lb/><term type="ailment">fever</term> but very mild</p> <!-- This is the closer. MB --><closer><signed><persName>David Livingstone</persName></signed></closer>
+            </div>
+
+			<div>
+	<pb facs="liv_001443_0017" n="0017"/>
+<lb/><p><add place="above" hand="#U"><hi rend="center">10</hi><hi rend="right diagonal">2 after 1859</hi></add>I did not see the <bibl>Blue Book</bibl> till lately
+<lb/>in which the <term type="people">Portuguese</term> claimed the honour
+<lb/>of first traversing the continent for two
+<lb/><orgName>black</orgName> men - <placeName><geogName type="lake">Shirwa</geogName></placeName> lies some <measure>forty or 
+<lb/>fifty miles</measure> on each side of the Latitude
+<lb/>of <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> - How is it that these
+<lb/><foreign xml:lang="pt">feirantes pretos</foreign> as the <bibl>History of Angola</bibl>
+<lb/>calls them did not cross or come near
+<lb/>it - <space extent="2" unit="chars"/>An old lady at <placeName><settlement type="village">Tette</settlement></placeName> remembers
+<lb/><persName>Baptisla</persName> &amp; <persName>Jose</persName> coming to <placeName><settlement type="village">Tette</settlement></placeName> - <orgName>black
+<lb/>men</orgName> with the wool dressed <term type="tribe">Londa</term> <w>fashi<gap agent="hole" extent="2" unit="chars"/></w>
+<lb/>and Lond swords on their shoulders I<gap agent="hole" extent="4" unit="chars"/>
+<lb/>must know farther cousequently failed
+<lb/>by <hi rend="underline">some</hi> <measure>400 miles</measure> of going across
+<lb/><placeName><bloc>Africa</bloc></placeName>-But they want all to appear 
+<lb/>theirs so we <choice><sic>dont</sic><corr>don't</corr></choice> tell them how near
+<lb/><placeName><geogName type="lake">Shirwa</geogName></placeName> is to them nor how it may be
+<lb/>approached by the <placeName><geogName type="lake">Shirwa</geogName></placeName> - We go back
+<lb/>next month towards <placeName><geogName type="lake">Nyinyesi</geogName></placeName> - We have
+<lb/>had no <orgName>European</orgName> news for a <measure>twelve month</measure>
+<lb/>so <choice><sic>dont</sic><corr>don't</corr></choice> know if <persName>Burton</persName> has reached
+<lb/><placeName><geogName type="lake">Nyanja</geogName></placeName>= I am of the decided opinion now
+<lb/>that a colony of our own people must
+<lb/>be planted in the <placeName><region>Interior</region></placeName> for any good to 
+<lb/>be done - <orgName><term type="nationality">French</term> emigration</orgName> in chains goes 
+<lb/>on from <placeName><settlement type="village">Quilimane</settlement></placeName> regularly - <persName>Secard</persName> is 
+<lb/>superseded by <term type="occupation">Governors</term> under <term type="people">French</term> influence</p>
+
+<cb rend="left vertical upside-down"/>
+<!-- The following lines have been added in the left margin. MB -->
+<ab>
+<lb/>If is only by remembering that there is a <w><subst><del>P</del><add place="over-text">G</add></subst>reat</w> Power above overruling all
+<lb/>that one can possess one's soul in patience - Love to <persName>Schut</persName> &amp; <persName>Demony</persName>
+<lb/>and to your <term type="animal">Marabou</term> in the yard.
+</ab>
+
+	<pb facs="liv_001443_0018" n="0018"/>
+	<cb rend="vertical"/>
+	<ab>
+<address>
+<addrLine><add place="marginleft" hand="#U" rend="diagonal brown"><lb/>Per <choice><abbr>HMS</abbr><expan>Her Majesty's Ship</expan></choice> <lb/><term type="animal">Buffalo</term> <lb/><milestone unit="section" rend="quarter-line"/></add> <persName>Edmund Gabriel, Esquire.</persName></addrLine>
+<addrLine rend="center">At <placeName><settlement><choice><abbr>St<hi rend="underline">.</hi></abbr><expan>Saint</expan></choice> Paul de Loanda</settlement></placeName></addrLine>
+<addrLine rend="right"><add place="marginleft"><persName>D<hi rend="sup">r</hi> Livingstone</persName></add> <placeName><region>West Coast of Africa</region></placeName></addrLine>
+<!-- Red wax seal. MB -->
+	</address>
+	</ab>
+
+	<ab>
+<lb/>Will <persName><term type="occupation">Admiral</term> Grey</persName> kindly forward this
+<lb/>at his convenience
+	</ab>
+            </div>
+        </body>
+    </text>
+
+</TEI>

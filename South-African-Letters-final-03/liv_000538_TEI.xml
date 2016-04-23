@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000538">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Robert N. Hayward, 17 July 1843</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000538</idno><!-- Change as needed -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5318, Acc. Reg. 4669</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0082</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U0"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+							<handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+							<handNote xml:id="U3"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+							<handNote xml:id="U4"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Robert N. Hayward, 17 July 1843</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-04-04">17 July 1843</date><!-- Change -->
+                    <placeName type="compositionPlace">Kuruman</placeName><!-- Change -->
+                    <persName type="addressee">Robert N. Hayward</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-12-17" who="#AW">Coding review</change>
+            <change when="2015-12-17" who="#JM">Proofreading</change>
+			<change when="2015-11-19" who="#AW">Initial coding review</change>
+            <change when="2015-11-18" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000538_0001" n="0001"/><!-- Change both @facs and @n -->
+<lb/><dateline><placeName><settlement type="village">Kuruman</settlement></placeName> <date when="1843-07-17">17<hi rend="sup underline">th</hi> July 1843</date> <add place="above marginright" rend="gray" hand="#U0">MS 8/2</add></dateline>
+<lb/>    
+<lb/><salute>My Dear <persName>Hayward</persName></salute><!-- Change line info as appropriate -->
+<lb/><p>Your kind and excellent <bibl>letter</bibl> afforded me quite a 
+<lb/>treat and I feel it merited sincere thanks and a more prompt
+<lb/>acknowledgement But having been during most of the time
+<lb/>that has intervened far away from the region of postage
+<lb/>I must be excused for what you may have considered a long
+<lb/>delay. I hope you will not follow the example I have
+<lb/>been compelled to give but write me again as soon as
+<lb/>convenient. Everything from home is interesting so
+<lb/>need not be at no loss as to the filling up of a <bibl>letter</bibl> much
+<lb/>longer than the last</p>
+<lb/><p>When I left <placeName><country>England</country></placeName> the <orgName>Directors</orgName> of our <orgName>Society</orgName> expected
+<lb/>that <persName>Mr Moffat</persName> would soon follow &amp; by his knowledge of the
+<lb/>people &amp; country assist us in choosing a locality for a new
+<lb/><orgName>mission</orgName>, instructed me to remain at <placeName><settlement type="village">Kuruman</settlement></placeName> and endeavour
+<lb/>to acquire as much of the language as possible before his arrival
+<lb/>I did not however find it so difficult as they imagine it to be
+<lb/>and finding too that <del type="strikethrough">frequent</del> in interrupted intercourse with the
+<lb/><orgName>natives</orgName> was the best way of acquiring an almost unwritten
+<lb/>language I very soon set off in order to obtain knowledge
+<lb/>of the country &amp; people for myself. I have had three long
+<lb/>journies into the interior, two of them occupied no less
+<lb/>than 4 months each, yet I did not reach <placeName><settlement type="city"><choice><sic>Timbuctoo</sic><corr>Timbuktu</corr></choice></settlement></placeName> nor
+<lb/>did I see anyone who had been much farther than myself
+<lb/>A great fresh water lake lying a little beyond my farthest
+<lb/>point north is the great barrier to penetrating far in that
+<lb/>direction. It stretches from north <add place="above">East</add> <del type="strikethrough">West</del> to South West
+<lb/>and should anyone take in a boat he might explore
+<lb/>a great extent of country with very little trouble. The
+<lb/><orgName>natives</orgName> have canoes upon it and it is called from them
+<lb/>the <placeName><geogName type="lake">Lake of Mokhoro</geogName></placeName> (of the canoe) or according to the
+<lb/>names of different nations living on its banks as of the <unclear cert="medium"><term type="tribe">Botleth</term></unclear> <add place="below">&amp;c</add>
+
+	<pb facs="liv_000538_0002" n="0002"/>
+<lb/><unclear cert="high">The</unclear> great drawback to travelling in the country is the slowness
+<lb/>of our locomotives. The heavy lumbering <orgName>Dutch</orgName> waggon
+<lb/><subst><del>a</del><add place="over-text">&amp;</add></subst> the riding ox are the only conveyances unless we choose
+<lb/>to try our own lower extremities, I have been as far
+<lb/>north as <measure><choice><abbr>Lat.</abbr><expan>Latitude</expan></choice> 22º <choice><abbr>S.</abbr><expan>South</expan></choice></measure>
+<lb/>and then is beyond every other <orgName>European</orgName>
+<lb/>During my last journey I should probably have seen the lake
+<lb/>had my people not been deterred from following me by
+<lb/>a dread of <persName>Mosilikatze</persName>. I saw some women who had been
+<lb/>taken captive by his men last. They escaped &amp; -
+<lb/>reached the <placeName><region><term type="tribe">Bakwain</term></region></placeName> country (on the Tropic) during the time
+<lb/>I was there. It had taken them nearly <measure>two months</measure> to reach
+<lb/>it &amp; had subsisted by gathering the roots of the desert as <unclear cert="low">then</unclear>
+<lb/>food by day &amp; climbing a high rock for protection by night
+<lb/>The sight of these poor creatures was enough for my people
+<lb/>near very weak hearts seemed to die within them, indeed they
+<lb/>buried their noses in the sand as if the <unclear cert="medium"><region>Arabian</region></unclear> <seg type="weather">simoon</seg>
+<lb/>had been passing &amp; declared it was madness to go a step
+<lb/>near the tyrant. I was then obliged to leave them &amp;
+<lb/>go forward on <term type="animal">ox</term> back with only the wild <term type="tribe">Bakwains</term> as
+<lb/>my guides, our diet consisted of all kinds of flesh that
+<lb/>came within the range of any gun &amp; all sorts of roots
+<lb/>when meat was awanting. Sometimes we had plenty &amp;
+<lb/>at other times we feasted on what we saw in our
+<lb/>dreams. I visited many new tribes &amp; was soundly treated
+<lb/>by all. I had some intercourse with <term type="animal">lions</term> but thanks
+<lb/>to kind Providence I did not recieve hurt from any
+<lb/>The journey was more than <measure>two hundred miles</measure> beyond
+<lb/>the place in which I left the wagoon yet the climate
+<lb/>being fine I enjoyed the best of health although sleeping
+<lb/>consistently on the bare ground. No consequence of
+<lb/>the long intercourse with the <orgName>natives</orgName> which these journies
+
+	<pb facs="liv_000538_0003" n="0003"/>
+<lb/>afforded I soon acquired faculty in expressing myself in
+<lb/>the language &amp; now it is nearly as natural to me as this English
+<lb/>The knowledge of the country <del type="strikethrough">too</del> which I have acquired has
+<lb/>been of service too for the <orgName>Directors</orgName> have instructed us
+<lb/>to begin a new <orgName>mission</orgName> a spot chosen by me although 
+<lb/><persName>M<hi rend="sup">r</hi> <choice><abbr>M</abbr><expan>M</expan></choice></persName><!-- Not sure who this is. AW --> has not yet arrived. It is very near to the
+<lb/>place where <persName>M<hi rend="sup">r</hi> Campbell</persName> in his progress of discovery
+<lb/>thought proper to turn about &amp; go home. The iron works
+<lb/>he heard of but was not permitted to see are situated
+<lb/>there, the same reason which prevented him getting a sight
+<lb/>of them prevails now &amp; it is a fear lest the iron should
+<lb/>become bewitched by the presence of a stranger, they will not
+<lb/>allow anyone who has had intercourse with the opposite sex
+<lb/>since the commencement of the period in which they
+<lb/>annually smelt the ore, To approach the furnaces. Iron
+<lb/>bewitched you will say what is that. It is simply the effect
+<lb/>of a too energetic working of the bellows and when they take
+<lb/>out the iron burned to a cinder they exclaim behold the effects
+<lb/>of witchcraft. <space extent="1" unit="chars"/>The evidence is so clear &amp; there before their
+<lb/>eyes no one attempts to doubt it. <space extent="1" unit="chars"/>They then apply a larger
+<lb/>portion of their prophylactics against witchcraft, put in
+<lb/>fresh ore &amp; begin the process anew. All the people employed
+<lb/>in these works sleep apart from their wives during the
+<lb/>period of smelting. Their implements are most original
+<lb/>The same I suppose as were invented by old <persName>Tubal Cain</persName>
+<lb/>a piece of the bark of a tree folded on itself with tongs
+<lb/>a stone is the forehammer and another the anvil of these
+<lb/><orgName>antidiluvians</orgName>, yet they manage to make pretty neat
+<lb/>work of it. The ore is found in great abundance &amp; nor
+<lb/>covered by any soil which will be an advantage to our new
+<lb rend="right"/>settlement</p>
+	
+	<pb facs="liv_000538_0004" n="0004"/>
+<lb/><p>I may mention here that all the notions of these people concerning
+<lb/>medicine are connected with the suggestion that witchcraft is
+<lb/>extremely practiced <space extent="4" unit="chars"/>Indeed they seem to behave that no one
+<lb/>would ever die unless he were bewitched, their <term type="occupation">doctors</term> suck
+<lb/>out all manner of things from the <unclear><gap extent="4" unit="chars" agent="illegible"/>res</unclear> for their patients -
+<lb/>these are exhibited &amp; I believed to have been put into the body
+<lb/>by some witch, no good is done to a patient nor evil
+<lb/>prevented except by their agency. Hence when I happen to cure
+<lb/>an individual they immediately ascribe it to my powers as
+<lb/>a <term type="occupation">wizard</term>. <space extent="1" unit="chars"/>They think too it is no matter how medicine is
+<lb/>applied provided it is only near to the patient. If I give a
+<lb/>child medicine &amp; <choice><sic>dont</sic><corr>don't</corr></choice> watch the mother will pour it on
+<lb/>its head or drink it herself. Not matter how <w>na<add place="below">^</add> <add place="above">u</add>seous</w> the
+<lb/>dose is if a patient expresses dislike to it some fellow
+<lb/>standing by will gulp it down instantly. If a man is
+<lb/>guilty of stealing from his relatives they give him an
+<lb/>emetic in order to make him vomit his had propensity
+<lb/>and the <term type="occupation">chief</term> of the <term type="tribe">Bakwains</term> <choice><orig>shewed</orig><reg>showed</reg></choice> me a root which he
+<lb/>powdered &amp; sprinkled on his legs in order to cause
+<lb/>him to run fast. <space extent="3" unit="chars"/>The friends of another <term type="occupation">chief</term> were very
+<lb/>angry with me because having assisted him they asserted
+<lb/>that instead of giving medicine to cure his disease I had
+<lb/>given him some to change his heart. Some actually
+<lb/>believed that I could raise the dead and perhaps it is owning to
+<lb/>my supposed knowledge in the black art I have never
+<lb/>yet had any thing stolen since I came to the <term type="tribe">Bechuana</term>
+<lb/>country, you will perceive by these details that their notions
+<lb/>of medicine are quite puerile, their knowledge on all
+<lb/>other subjects is quite as much limited, a few fables contain
+<lb/>all they have deserved from their ancestors and with respect
+<lb/>to the future all to them is darkness</p>
+
+	<pb facs="liv_000538_0005" n="0005"/>
+<lb/><p>The impurities they practice I cannot mention, They follow out<add place="above marginright" rend="gray" hand="#U0">MS /8/2</add>
+<lb/>the principles of <persName>Owen</persName> the socialist as far as they will go &amp;
+<lb/>though each woman has her husband who fathers her
+<lb/>children promiscuous intercourse is almost universal. Those
+<lb/>gentlemen who admire the morality of the heathen would do
+<lb/>well to examine before they sound its praises. The <term type="tribe"><w>Bechu<supplied>-</supplied>
+<lb break="no"/>-anas</w></term> are great cowards yet if they can kill when there is
+<lb/>little chance of being themselves killed they murder without
+<lb/>compunction. <space extent="2" unit="chars"/>They make long incisions on their body
+<lb/>the scars of which are their "scars of honour" the memorial
+<lb/>of having murdered helpless women &amp; children, they are proud
+<lb/>of these scars &amp; are not ashamed to point out those they
+<lb/>have made in rememberance of having killed females
+<lb/>A man is not ashamed either to say he cannot carry
+<lb/>a small burden and he will go &amp; call his wife to do it
+<lb/>These degraded beings we hope to raise to the level of
+<lb/>humanity &amp; civilization. If it were to be done by our
+<lb/>means I should despair but it is to be effected by the
+<lb/>power of God and this causes me to hope. Much has
+<lb/>already been done. There then is a church of about 300
+<lb/>members. Many can read well &amp; generally they are clothed
+<lb/>&amp; partially civilized. We hope the location to which I
+<lb/>shall soon remove will be another centre of height &amp;
+<lb/>civilization &amp; that good will ultimately be done to the
+<lb/>distant interior. The people to whom we go are
+<lb/>called the <term type="tribe">Bakhatla</term>. They live about <measure>20 miles</measure> beyond
+<lb/>the spot where <persName>Mosilikatze</persName> was seen by <persName>M<hi rend="sup">r</hi> Moffat</persName>
+<lb/>I lately walked over what was once the site of his
+<lb/>town &amp; where he suffered his last defeat by the <orgName>Boers</orgName>
+
+	<pb facs="liv_000538_0006" n="0006"/>
+<lb/>The grass had recently been burned off the country so I got a good
+<lb/>view of the whole &amp; a few human bones were all I could discover
+<lb/>of all that belonged to <persName>Mosilikatze</persName>, He is now situated about
+<lb/><measure>350 miles</measure> North East of his former location, But still goes on
+<lb/>in his murderous <choice><sic>carreer</sic><corr>career</corr></choice>, Last year he sent out a
+<lb/>marauding party which scoured all over the Interior, and
+<lb/>swept away all the <term type="animal">cattle</term> that came within their grasp. Many
+<lb/>were killed &amp;the rest of the people are now living in
+<lb/>holes in the rocks. This applies more especially to
+<lb/>the <term type="tribe">Bamangwato</term>, <term type="tribe">Bakoa</term> &amp; <term type="tribe">Makalaka</term> all of whom I have
+<lb/>visited. They live on the summit of a very high range
+<lb/>of basaltic rocks. The same, I believe at no very
+<lb/>distant date of active volcanic operations, there are many
+<lb/>large cup shaped cavities in these rocks, with flat bottoms
+<lb/>&amp; perpendicular sides destitute of vegetation, some of them
+<lb/>as large as <placeName>Finsbury Square</placeName> &amp; more than <measure>300 feet</measure> deep
+<lb/>they are rent &amp; riven in every direction, and in
+<lb/>some parts covered with huge fragments which falling
+<lb/>down &amp; <unclear cert="medium">infringing</unclear> on each other &amp; the rocks below
+<lb/>form innumerable cavities into which these
+<lb/><term type="animal">tubes</term> flee for shelter from their enemies. I entered one
+<lb/>&amp; it was capable of containing a hundred individuals
+<lb/>the entrance being so small a dozen men could stand
+<lb/>&amp; defend it against the ingress of a single individual
+<lb/>&amp; he crawling on all fours. <space extent="2" unit="chars"/>These holes as well as
+<lb/>those in the <term type="tribe">Bakwain</term> country are covered with a totally
+<lb/>different vegetation than that which exists on the plains
+<lb/>on the latter it is principally of a thorny stunted
+<lb/>character but as soon as you ascend the former
+<lb/>thorns entirely dis<del type="strikethrough">s</del>appear. <term type="plant">Fig</term> trees abound &amp;
+
+	<pb facs="liv_000538_0007" n="0007"/>
+<lb/>The netile shoots up <term>tea tree</term> <measure>30 feet</measure> high &amp; more than <measure>two</measure>
+<lb/>in diameter. <space extent="1" unit="chars"/>The tree which yields the <term type="tribe">Bushman</term> poison
+<lb/>is also there very large. There it is a mere shrub.
+<lb/>I hear it is stated at home that <persName>M<hi rend="sup">r</hi> Moffat</persName> intends to go with
+<lb/>the interior on a sort of exploring journey, I
+<lb/>hope he may not fall a victim of the <unclear cert="high"><term type="ailment">fever</term></unclear> which
+<lb/>then prevail. Near the <placeName><geogName type="lake">Lake Mokhoro</geogName></placeName> they are very
+<lb/>fatal to the <orgName>natives</orgName>. Towards the East of our to be
+<lb/>station they also prevail &amp; are very destructive to the
+<lb/>inhabitants of <unclear><placeName>De Sagoa Bay</placeName></unclear>. Besides a <unclear cert="high">fly</unclear> exists 
+<lb/>in that region or rather <choice><abbr>N.E.</abbr><expan>Northeast</expan></choice> of it which biting
+<lb/>the <term type="animal">oxen</term> destroys them as soon as the first <unclear cert="low">one</unclear>
+<lb/>falls.</p>
+<lb/><p>The <orgName>Boers</orgName> from all I have seen of them, appear
+<lb/>to deserve the character you bestow but you would not
+<lb/>choose to mingle much with them. They are kind &amp;
+<lb/>hospitable but very ignorant. Indeed the majority of
+<lb/>them are destitute of that general information which
+<lb/>makes company agreeable. <space extent="1" unit="chars"/>They have not the means of
+<lb/>informing themselves &amp; have been the dupes of a set
+<lb/>of unprincipled men in the <orgName>Colony</orgName>. I cannot go into
+<lb/>the subject at <unclear cert="high"><w>pre<gap extent="1" unit="chars" agent="blot"/><supplied>s</supplied>ent</w></unclear> but I believe they are <unclear cert="medium"><gap extent="1" unit="chars" agent="blot"/><supplied>m</supplied>ore</unclear> to be
+<lb/>pitied than blamed. The <orgName>Colonial government</orgName> has as large
+<lb/>a share in their misdemeanour as any one else.
+<lb/>They are generally such as respect religion But the frequent
+<lb/>commission of the grossest immoralities by them makes
+<lb/>me doubt whether they possess much more than they farm
+<lb/>Their language is easy &amp; resembles the <term type="nationality">Scotch</term> but not
+<lb/>having come much in contact with them I can only
+<lb/>speak the <unclear>colloquaen</unclear> dialect, &amp; not very good at that.
+
+	<pb facs="liv_000538_0008" n="0008"/>
+<lb/>I need not give you any information respecting their recent
+<lb/>rebellions <gap extent="1" unit="words" agent="illegible"/> or of the imbecile dealings of the <orgName>Colonial
+<lb/>government</orgName> as I am persuaded you will have heard of all by
+<lb/>means of public papers</p>
+<lb/><space extent="5" unit="lines" dim="vertical"/>
+
+	<cb rend="vertical"/>
+	<ab>
+	<address>
+<addrLine><del type="strikethrough">Care of <persName><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice> D<hi rend="sup underline">r</hi> <gap extent="1" unit="chars" agent="hole"/><supplied>P</supplied>hillip</persName>, <placeName><geogName type="cape"><hi rend="underline">Cape <unclear cert="low">Tovon</unclear></hi></geogName></placeName></del></addrLine>
+<addrLine><persName><choice><abbr>R.</abbr><expan>Robert</expan></choice> Hayward <add place="above" hand="#U2"><hi rend="large"><metamark/></hi></add> Esq<hi rend="sup underline">uire</hi></persName> <add place="above" rend="vertical large brown" hand="#U1"><del type="cancelled">Mr</del></add></addrLine>
+<addrLine rend="right"><del type="cancelled"><placeName>Victoria Cresent</placeName></del></addrLine>
+<addrLine rend="right"><del type="cancelled"><placeName>Ramsgate</placeName></del></addrLine>
+<addrLine rend="right"><placeName><country><hi rend="underline">England</hi></country></placeName></addrLine>
+	</address>
+	</ab>
+
+	<ab rend="upside-down">
+	<addSpan spanTo="#add1" hand="#U3" rend="large"/><add place="over-text" rend="diagonal red" hand="#U4">6/1</add><address>
+<addrLine><placeName>11 Church St</placeName></addrLine>
+<addrLine><placeName>Paddington Green</placeName></addrLine>
+<addrLine><placeName><settlement type="town">London</settlement></placeName></addrLine>
+	</address>
+	<anchor xml:id="add1"/>
+	</ab>
+
+<!-- There are various postage stamps, and some red marks scattered through the page.-->
+
+<lb/><p>I hope you will find time &amp; inclination to give me a long <bibl>letter</bibl>
+<lb/>I should like to write <persName>Houlton</persName> but <choice><sic>dont</sic><corr>don't</corr></choice> know his address
+<lb/>I am happy to hear that you have passed the college and
+<lb/>beg leave to congratulate you on the event. But perhaps
+<lb/>long ere this reaches you.  The pains &amp; fears of the examination
+<lb/>will all be forgotten.</p> <closer> <salute>Believe me yours sincerely</salute> <signed><persName><choice><abbr>D.</abbr><expan>David Livingstone</expan></choice></persName></signed> 
+</closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

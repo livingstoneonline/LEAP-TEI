@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001379"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Edmund Gabriel, 7 October 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexaner Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001379</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 6754</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0847</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Edmund Gabriel, 7 October 1858</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-10-07">7 October 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Kolobeng</placeName><!-- Change -->
+                    <persName type="addressee">Edmund Gabriel</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-09-17" who="#AW">Proofing and coding review</change>
+            <change when="2015-09-16" who="#EM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001379_0001" n="0001"/>
+<opener>
+<lb/><dateline><placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Kongone</geogName></placeName>; <placeName>Steamer Ma Robert</placeName>, 
+<lb rend="right"/><add rend="center gray" hand="#U"><metamark/><!-- The 8 is circled. AW -->8</add> <date when="1858-10-07">7 <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr></choice> 1858</date></dateline>
+<lb/>    
+<lb/><salute>My Very Dear friend,</salute>
+</opener>
+
+<lb/><p rend="center">I cannot forgive
+<lb/>you because I was never
+<lb/>offended having recieved from
+<lb/><persName>M<hi rend="sup underline">r</hi> Brand</persName> the assurances
+<lb/>you expected him to give
+<lb/>and even though I had not
+<lb/><unclear><metamark/></unclear><!-- Looks like just a squiggle. AW --> a poor friendship that
+<lb/>vanishes at a far - The Lynx
+<lb/>came into the <placeName><geogName type="river">Kongone river</geogName></placeName>
+<lb/>and sent up to me. I came
+<lb/>down at once and during
+<lb/>the time they have been
+<lb/>making some repairs I
+<lb/>have been writing long official
+<lb/>letters about our friend</p>
+
+<cb rend="vertical"/>
+<ab>
+<lb/>You ought to make old <persName>Jose Laurenco Marques</persName> 
+<lb/>the <term type="occupation">Governor</term> of <placeName><country>Angola</country></placeName> - Write care of <persName>Admiral Grey</persName>
+<lb/>no excuse now you know
+</ab> 
+
+	<pb facs="liv_001379_0002" n="0002"/>
+<lb/><p rend="no-indent"><persName>Bedingfeld</persName> - I gave him the appointment
+<lb/><persName>Lord Clarenden</persName> having put all into 
+<lb/>my power chiefly from what I
+<lb/>saw of him at your house and 
+<lb/>his offering to go and "be delighted
+<lb/>to serve under my command
+<lb/>I made his salary equal to double
+<lb/><term type="occupation">commander</term>'s full pay £600 -
+<lb/>and felt that I had an able
+<lb/><term type="occupation">coadjutor</term> <space extent="1" unit="chars"/>But he quarreled with
+<lb/>the <term type="occupation">commander</term> of the Pearl and
+<lb/>on public altercation <choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> 4 taking 
+<lb/>place I said - (Having previously
+<lb/>remonstrated in private) <persName><choice><abbr>C. B.</abbr><expan cert="high">Commander Bedingfeld</expan></choice></persName> I must 
+<lb/>have no more of these public
+<lb/>altercations - He resigned that night
+<lb/>and accused me of slighting him
+<lb/>injuring his professional reputation
+<lb/>by consulting the other <term type="occupation">Captain</term> more than
+<lb/>him &amp;c &amp;c <space extent="2" unit="chars"/>I explained and assured him
+<lb/>it was an entire mistake and allowed
+<lb/>him to withdraw the letter. But he <w>wou<supplied>ld</supplied></w>
+<lb/>quarrel again - gave in a second
+
+	<pb facs="liv_001379_0003" n="0003"/>
+<lb/>resignation from an idea that we
+<lb/>could not move a mule without
+<lb/>him - and then commenced a series of 
+<lb/>slanders, carping, complainings, 
+<lb/>and raising objections, which
+<lb/>the medical officer &amp; I looked
+<lb/>upon as the effects of irritable
+<lb/>bladder &amp; bowels on the mind
+<lb/>but it became so absolutely
+<lb/>unbearable especially from
+<lb/>the untruthfulness which I am 
+<lb/>sorry to say he indulged in
+<lb/>that - <space extent="1" unit="chars"/>I at last accepted his
+<lb/>resignation and sent him
+<lb/>to <placeName><settlement type="town"><choice><orig>Kilimane</orig><reg>Quelimane</reg></choice></settlement></placeName> to wait for a
+<lb/>passage to <placeName><country>England</country></placeName> - <w><subst><del>o</del><add place="over-text">Y</add></subst>ou</w> will
+<lb/>I have no doubt <unclear>find</unclear> it difficult 
+<lb/>to credit it of him and I would
+<lb/>not wonder in the least but
+<lb/>he recieved <subst><del>its</del><add place="over-text">this</add></subst> letter containing 
+<lb/>my acceptance of his resignation
+<lb/>with dancing and singing -
+<lb/>And when I took charge of the
+<lb/>steamer myself and came back</p>
+
+<cb rend="vertical"/>
+<ab>
+<lb/>I believe I forgot to tell you that I visited <persName>M<hi rend="sup underline">s</hi> <unclear cert="high">Horsfall</unclear></persName> at <placeName><unclear cert="medium">Bellamon</unclear> <unclear>Hall</unclear></placeName>
+<lb/>near <placeName><settlement type="town"><unclear cert="high">Rugeley</unclear></settlement></placeName> <placeName><region><choice><abbr><choice><abbr>Staff<hi rend="sup">d</hi></abbr><expan>Stafford</expan></choice></abbr><expan>Staffordshire</expan></choice></region></placeName> &amp; saw a _________ <w>te<subst><del>r</del><add place="over-text">s</add></subst>timonial</w> which is to be given to  
+<lb/><persName>M<hi rend="sup underline">rs</hi> Gabriel</persName> when you get to her!  He desired me to say so - Hope
+<lb/><w>who<add place="inline">e</add>ver</w> she is she may be a good one
+</ab> 
+
+	<pb facs="liv_001379_0004" n="0004"/>
+<lb/><p rend="no-indent">after making a quicker passage
+<lb/>with a heavier load than he even
+<lb/>did - I never once touched the
+<lb/>ground &amp; he did perpetually - this
+<lb/>brought him to his senses - He
+<lb/>tried various dodges to regain
+<lb/>his position but I had borne
+<lb/>to the utmost limits of endurance
+<lb/>and declined his services - All
+<lb/>my companions heartily approve
+<lb/>the step I took and as we never
+<lb/>had a single touch of ill nature except
+<lb/>from him we go on comfortably
+<lb/>He tries now to make himself out
+<lb/>a poor persecuted individual and
+<lb/>I can declare most solemnly that
+<lb/>I never entertained the idea of thwarting
+<lb/>him - and at the very time he was
+<lb/>asserting that I slighted him, and wished
+<lb/>to get rid of him by persecution, I was
+<lb/>writing highly of him to <persName>Lord Malmesbury</persName>
+<lb/>and <persName>Sir George Grey</persName>, and the latter
+<lb/>published my letter.  This subject
+<lb/>has occupied my time of late
+<lb/>and is the most disagreeable I ever attempted -</p>
+<lb/><p>Well I tried to come in to <placeName><settlement type="town"><choice><orig>Loanda</orig><reg>Luanda</reg></choice></settlement></placeName>
+<lb/>but could not honestly do it - as
+<lb/>you will have heard from 
+<lb/><placeName><country>Sierra Leone</country></placeName> <space extent="1" unit="chars"/>I have got the 
+<lb/>enclosure from the <term type="occupation"><persName>Bishop</persName></term>
+<lb/>all right -</p>
+
+	<pb facs="liv_001379_0005" n="0005"/>
+<lb/><p>We got into the <placeName><geogName>Zambesi</geogName></placeName> by a new
+<lb/>mouth named <placeName><geogName type="river">Kongone</geogName></placeName>, and being obliged
+<lb/>to send off the Pearl which brought us
+<lb/>out we have been slowly working
+<lb/>our luggage up river by this Launch
+<lb/>I have been to <placeName><settlement type="town">Tette</settlement></placeName> and found my
+<lb/>men waiting in anxious expectation
+<lb/>of my return but <term type="ailment">small pox</term> had
+<lb/>cut off thirty of them and six had
+<lb/>been killed by a neighbouring rebel
+<lb/><term type="occupation">chief</term> - <space extent="1" unit="chars"/>Poor <persName><unclear><app><rdg>Sekneeben</rdg><rdg>Sekweben</rdg><rdg>Sekwebin</rdg><rdg>Sekweber</rdg></app></unclear></persName>'s death
+<lb/>was a sad blow and though they
+<lb/>recieved me with screams of joy
+<lb/>and grasping me convulsively
+<lb/>The team came whether I would or
+<lb/>not. <space extent="2" unit="chars"/>Some time will be required
+<lb/>to bring up all our 25 tons of
+<lb/>luggage - for poor <persName>Bedingfeld</persName>'s
+<lb/>untruthfullness began in <placeName><country>England</country></placeName>
+<lb/>We got a steamer called the Ban drawing
+<lb/>only <measure>three feet</measure> which would have
+<lb/>sailed on the river the whole year, but<!-- geog: Shire -->
+<lb/>when <persName><choice><abbr>B.</abbr><expan>Bedingfeld</expan></choice></persName> heard he was to navigate
+<lb/>her out he wished me to apply for a 
+<lb/>second master and on my declining
+<lb/>though he had been well pleased with the Ban
+<lb/>he now condemned her enough because</p>
+
+<cb rend="vertical"/>
+<ab>
+<lb/>Kind regards to <persName>Schut</persName> &amp; all my acquaintances
+</ab> 
+
+	<pb facs="liv_001379_0006" n="0006"/>
+<lb/><p rend="no-indent">he knew what we learned afterward
+<lb/>that he could not from <term type="ailment">seasickness</term>
+<lb/>navigate her out - He reported to me
+<lb/>also that this was an admirable vessel
+<lb/>and required very little fuel - We spend
+<lb/>half our time woodcutting - It is with
+<lb/>great grief I tell you these things for
+<lb/>I know your good opinion of him as you
+<lb/>remarked to me on his leaving <placeName><settlement type="town"><choice><orig>Loanda</orig><reg>Luanda</reg></choice></settlement></placeName>
+<lb/>"he is A. I." &amp; that induced me to appoint him - </p>
+<lb/><p>We get a ton and a half of coals
+<lb/>at <placeName><settlement type="town">Tette</settlement></placeName> the first even taken out of 
+<lb/>the ground in this country and it is
+<lb/>very good coal too more like the <term type="nationality">Welsh</term>
+<lb/>than any other though what we got had
+<lb/>been exposed to the floods of the
+<lb/><placeName><geogName type="stream">Muatize</geogName></placeName> for ages - With abundance of
+<lb/>iron ore and coal surely the
+<lb/>Great <term type="occupation">Architect</term> designed &amp; will
+<lb/>work out something better for
+<lb/><placeName><bloc>Africa</bloc></placeName> that <choice><sic>that</sic><corr/></choice> she should always 
+<lb/>be a <orgName>slave</orgName> market - The <term type="people">Portugese</term> have
+<lb/>been as kind as ever and especially
+<lb/><persName>Major Secard</persName> - <space extent="1" unit="chars"/>they were fighting <unclear>when</unclear> 
+<lb/>we came but we went from one park
+<lb/>to the other without molestation by either
+<lb/>simply because we were <term type="nationality">English</term> - but
+<lb/>the war is now over for a few weeks <add place="below" rend="right">I <w>suppo<supplied>se</supplied></w></add></p>
+
+	<pb facs="liv_001379_0007" n="0007"/>
+<lb/><p>My <term type="occupation">missionary</term> friends are rather
+<lb/>grumpy with me for leaving them
+<lb/>and they snarl considerably since my
+<lb/>departure for <placeName><bloc>Africa</bloc></placeName> because I have
+<lb/>turned <term type="occupation">counsul</term> - <placeName><geogName type="rapids">Kebra-basa</geogName></placeName> is said
+<lb/>to be rocks jutting out of the stream
+<lb/>and rendering the deep channel tortuous
+<lb/>and dangerous but if half a years
+<lb/><unclear>slashing</unclear> will make an open way
+<lb/>for a steamer then what will
+<lb/>they say if I turn <term type="occupation">quarrymen</term> too.</p>
+<lb/><p>You recommended the
+<lb/><term type="nationality">German</term> <choice><abbr>D<hi rend="sup underline">r</hi></abbr><expan>Doctor</expan></choice> but they are not
+<lb/>in much <unclear cert="medium">favour</unclear> as home on
+<lb/>account of their greediness - Two
+<lb/>of them got away instruments
+<lb/>value two thousand pounds and
+<lb/>though paid by <placeName><country>England</country></placeName> published
+<lb/>the results in <placeName><country>Germany</country></placeName> &amp; kept
+<lb/>the instruments - But if you befriend
+<lb/>them you will won the <choice><sic><persName>Prince Consort</persName>s</sic><corr><persName>Prince Consort</persName>'s</corr></choice> heart - From what I have
+<lb/>seen and heard I am become so 
+<lb/>bigotted that I prefer an <term type="person">Englishman</term>
+<lb/><supplied cert="high">out</supplied> &amp; out to any one of the <term type="nationality"><choice><abbr>Wel</abbr><expan>Welsh</expan></choice></term>
+
+	<pb facs="liv_001379_0008" n="0008"/>
+<lb/>I think <placeName><country>England</country></placeName> ought to buy <placeName><country>Angola</country></placeName>
+<lb/>on this side but the <unclear cert="medium">Villa da Fleur</unclear>
+<lb/>was sent out to survey the <placeName><geogName type="river">Luabo</geogName></placeName>
+<lb/>and build a fort &amp; custom house
+<lb/>but they did not know where it
+<lb/>was and the <orgName>Government of
+<lb/><placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName></orgName> cannot pay its
+<lb/>own <term type="occupation">officers</term> though it costs the 
+<lb/>mother country 240 thousand <unclear cert="low">ambreis</unclear>
+<lb/>per annum -</p> 
+<lb/><p>We have had no <term type="ailment">fever</term> properly
+<lb/>so called though we have had illness
+<lb/>the <placeName><geogName type="river">Zambesi</geogName></placeName> maybe called a sand
+<lb/>river and not a muddy one like
+<lb/>those in the West - We have lots of
+<lb/>lignum vital &amp; ebony on its banks 
+<lb/>but full reports will be made by
+<lb/>my companions - My wife met
+<lb/>her father &amp; mother at <placeName><settlement type="town">Cape Town</settlement></placeName>
+<lb/>and went with them to be confined
+<lb/>at <placeName><settlement type="village">Kuruman</settlement></placeName> <space extent="1" unit="chars"/>When we left
+<lb/><placeName><country>England</country></placeName> we expected to come here
+<lb/>together - Three of our children are at
+<lb/>school <unclear>&amp;</unclear> one with his Mamma.  My 
+<lb/>brother is with me He was offered £800
+<lb/>a year if he would take the situation
+<lb/><persName>Monteiro</persName> <unclear cert="low">got</unclear> <persName>Thornton</persName> is with me as</p>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

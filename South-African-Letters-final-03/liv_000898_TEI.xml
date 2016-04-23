@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000898">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Edmund Gabriel, 4 April 1856</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, re<move, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary E. Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000898</idno><!-- Change as needed -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 6754</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0411</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Edmund Gabriel, 4 April 1856</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-04-04">4 April 1856</date><!-- Change -->
+                    <placeName type="compositionPlace"><choice><sic>Tete</sic><corr>Tette</corr></choice></placeName><!-- Change -->
+                    <persName type="addressee">Edmund Gabriel</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-12-14" who="#AW">Coding review</change>
+			<change when="2015-12-08" who="#MB">Proofreading</change>
+			<change when="2015-11-12" who="#AW">Initial coding review</change>
+            <change when="2015-10-26" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000898_0001" n="0001"/><!-- Change both @facs and @n -->
+<!-- missionaries an orgName or an occupation? Check throughout. MB --><!-- All reviewed. AW -->
+<lb/><dateline><add rend="gray" hand="#U">6</add><placeName><settlement type="village"><choice><sic>Tete</sic><corr>Tette</corr></choice></settlement></placeName> <date when="1856-04-04">4<hi rend="sub underline">th</hi> April 1856</date></dateline>
+<lb/>    
+<lb/><salute>My Dear M<hi rend="sup underline">r</hi> Gabriel</salute><!-- Change line info as appropriate -->
+<lb/><p rend="center">Herewith I send a <bibl>letter</bibl> to the
+<lb/><term type="occupation">Governor</term> of <placeName><country>Angola</country></placeName> - a mere repitition of that
+<lb/>sent from the town of <placeName><settlement type="town">Sekeletu</settlement></placeName>, and another for
+<lb/>the merchants though addressed to <persName>M<hi rend="sup">r</hi> Schut</persName>, and
+<lb/>I hope I have now done my duty in the way of
+<lb/>acknowledgement. There are also <bibl>letters</bibl> to <persName>M<hi rend="sup underline">rs</hi> 
+<lb/>Canto</persName>, &amp; <persName>Pires</persName> I would have <choice><orig>shewn</orig><reg>shown</reg></choice> the same
+<lb/>kind remembrance of <persName>M<hi rend="sup">r</hi> Neves</persName> had I not been
+<lb/>led to believe he left <placeName><country>Angola</country></placeName> in the beginning of
+<lb/>this year - I would fain hope I do no appear
+<lb/>less grateful than I really feel. There are salutations
+<lb/>for good <persName>Laurenco Marques</persName> &amp; others and I beg
+<lb/>to salute most kindly <persName>M<hi rend="sup underline">r</hi> Demony</persName> through
+<lb/>you.</p>
+<lb/><p>accompanying this also, you will see
+<lb/>a rough copy of a <bibl>letter</bibl> to the <persName>Earl Of Clarendon</persName>,
+<lb/>you will perhaps get some information in it
+<lb/>not included in your <bibl>letter</bibl> written above
+<lb/>this, which was sent down the river after my
+<lb/>arrival. This is intended to be nothing but gossip,
+<lb/>so you need not read farther unless you
+<lb/>make up your mind to be a sort of accomplice
+<lb/>in it. I intended on reaching <placeName><settlement type="village"><choice><sic>Tete</sic><corr>Tette</corr></choice></settlement></placeName> to move
+<lb/>down the river in <measure>3 or 4 days</measure>. but though
+<lb/>I soon began to recover flesh I felt <term type="ailment">something
+<lb/>wrong with the kidneys</term> - <term type="ailment">Urine thick &amp; full of
+<lb/>sediment, yet in small quantity</term> - <term type="ailment">pain in the back</term>.<!-- encode this as ailment? MB -->
+<lb/>I suspect it is what you had when at home.
+<lb/>As <placeName><settlement type="city">Quilimane</settlement></placeName> is reported very deadly and the
+<lb/><term type="occupation">Governor Mayor</term> <persName><choice><abbr><choice><sic>T.AA</sic><corr>T.A.A.</corr></choice></abbr><expan>Tito Augosto d'Araujo</expan></choice><!-- Not sure what the expanded version might be -EM --><!-- Fixed. AW --> Secard</persName> kindly advised
+<lb/>me to remain with him till this month which
+<lb/>is more salubrious. I thought my duty to <unclear cert="high">accede</unclear></p>
+
+	<cb rend="vertical"/>
+	<ab>
+<lb/>I don't know whether I ought to have mentioned the <term type="occupation">Bishop</term> more pointedly
+<lb/>Perhaps a verbal salutation will do, when you meet him. Please not to
+<lb/>forget kind salutations to our naval friends who may now be on the station
+	</ab>
+	
+	<pb facs="liv_000898_0002" n="0002"/>
+<lb/><p>I have no anxiety about the men for food
+<lb/>is extremely abundant. The <term type="occupation">Mayor</term> is very liberal
+<lb/>and they work as briskly at <term type="occupation">wood bringing</term> here as
+<lb/>the others did at <placeName><settlement type="city">Loanda</settlement></placeName> - I expect some too will be
+<lb/>employed as <term type="occupation">boatmen</term>, and I intend to leave as
+<lb/>soon as the new moon appears for the sake of
+<lb/>observations, which will happen in four or five
+<lb/>days. <space extent="2" unit="chars"/>I have heard that an <term type="nationality">English</term> brig of war
+<lb/>came in and made inquiries after me three times
+<lb/>this was much in my favour, and I feel
+<lb/>abundantly thankful to you and all concerned in
+<lb/>the matter - I expect a rich treat in <bibl>letters</bibl> when
+<lb/>I get there - But <placeName><settlement type="city">Quilimane</settlement></placeName> has such a bad
+<lb/>name I hope to get quickly past it. They can give
+<lb/>no information except that there is an instrument
+<lb/>and some luggage - I suppose <bibl>Newspapers</bibl>
+<lb/>from you. but we shall see.</p>
+<lb/><p>In thinking of <placeName><country>England</country></placeName> I am sometimes
+<lb/>in high spirits and often otherwise.  The society
+<lb/>with which I am connected recieves upwards
+<lb/>of sixty thousand Pounds annually and proceeds
+<lb/>upon the principle of employing a very great
+<lb/>number of agents and avowedly<!-- Not sure what this is -EM --><!-- Fixed. AW --> gives each <hi rend="underline">not</hi>
+<lb/>a salary but a bare subsistence. The motive is
+<lb/>good but I think they are penny wise and
+<lb/>pounds foolish in it. <space extent="1" unit="chars"/>annually on the <orgName>Hottentots</orgName><!-- Not sure what this is -EM --><!-- Fixed. AW --> who
+<lb/>have had their services for forty years and in the
+<lb/>villages are nearly all <term type="faith">christianized</term>, and only one
+<lb/>hundred Pounds - my salary, on the thousands of
+<lb/>actual heathen in the Interior. I want no more
+<lb/>if that will do. But when I go home I know
+<lb/>I shall be importuned to go through the country
+<lb/>among the constituents lecturing and imparting
+<lb/>information to them as a means of exciting more
+<lb/>liberality, Now, I cannot now speak English in public
+<lb/>nor <del type="strikethrough">I</del> am I willing to be a public <term type="occupation">beggar</term>. I wish
+<lb/>to rest myself a month or two then come back to
+<lb/>do some good in <placeName><bloc>Africa</bloc></placeName> before I die. Sometimes I
+<lb/>imagine a more extended mode of opertaion would</p>
+
+<cb rend="vertical"/>
+<ab>
+<lb/>I shall never forget them and our friend <persName>Laurenco Marques</persName>
+</ab>
+
+	<pb facs="liv_000898_0003" n="0003"/>
+<lb/><p>be preferrible to that of a <orgName>mission station</orgName><!-- orgName or occupation? MB -->, the <orgName>Jesuits</orgName>
+<lb/>did a great deal in their way but were always rich.
+<lb/>Can we learn nothing good from them? The <orgName>European 
+<lb/>monasteries</orgName> were, previous to becoming corrupt, good
+<lb/>models of what <orgName>missions</orgName> should be. But about
+<lb/>home. The most disagreeable thing I anticipate is
+<lb/>haggling about money. The <orgName>Directors</orgName> are upright<!-- LMS Directors. AW -->
+<lb/>generous hearted men but are somewhat hampered
+<lb/>by what are called "<term type="occupation">financiers</term>" among them. My wife
+<lb/>thinking to leave in <date when="1854">1854</date> for the <placeName><region>Cape</region></placeName> asked something
+<lb/>to furnish an outfit for the voyage. She had been visiting
+<lb/>some rich <orgName>Quakers</orgName><!-- Or should this be marked as "faith"? -EM --><!-- OK. As is. AW --> friends and the paltry £30 was
+<lb/>refused because some of these <term type="occupation">financiers</term> believed
+<lb/>she must have got presents during her visits. Expect
+<lb/>me to go begging money for them after that; I can
+<lb/>speak to no one else about it but you for when one
+<lb/>mentions money some covert motive is always <w>sus-
+<lb break="no"/><supplied>-</supplied>pected</w>, but you give me credit for more goodness
+<lb/>than I possess and will believe me when I say I am
+<lb/>not conscious in my soul of the love of money and
+<lb/>only wish to do good in my day and generation.
+<lb/>I feel quite relieved now that I have <choice><sic>undburdened</sic><corr>unburdened</corr></choice>
+<lb/>my mind to you. <choice><sic>Dont</sic><corr>Don't</corr></choice> refer to the subject again
+<lb/>please.</p>
+<lb/><p>Your iron boxes did famous service in the
+<lb/>rains - If I had possessed another I could have
+<lb/>brought three new <term type="animal">antelopes</term> skins with me. <space extent="1" unit="chars"/>The
+<lb/>Daguerreotype got the glass broken and misfortunately
+<lb/>is spoiling by contact of the air - Hope they can
+<lb/>restore them in <placeName><settlement type="city">London</settlement></placeName>. Hallo, did I tell you
+<lb/>about the <term type="foodstuff"><term type="medicament">Kognak</term></term>.<!-- medicament or foodstuff? MB --><!-- Both. AW --> We are not <term type="nationality">Frenchmen</term> in our
+<lb/>orthography. <space extent="1" unit="chars"/>I recovered very slowly from a very
+<lb/>severe <term type="ailment">fever</term> which began near the <placeName><geogName type="river">Quango</geogName></placeName>, and
+<lb/>after a month or two thought of the brandy. Taking
+<lb/>a spoonful in hot water and sugar and night
+<lb/>had a wonderful effect and I was becoming
+<lb/>quite <choice><sic>Bachanalian</sic><corr>Bacchanalian</corr></choice> when a ruffian boy whirled
+<lb/>the medicine box upside down and broke the
+
+	<pb facs="liv_000898_0004" n="0004"/>
+<lb/>bottle before it was half finished. <w><del>I</del><add place="over-text">Y</add>ou</w> may guess
+<lb/>I was sufficiently irate, but in revenge took <term type="foodstuff">curry
+<lb/>powder</term> when I got a fowl and that did as well-
+<lb/>Query. Would going up the centre of the continent
+<lb/><add place="above">East of <placeName><settlement>Matiamivo</settlement></placeName></add><!-- Not sure what this is -EM --><!-- Fixed. AW -->
+<lb/>and besides preaching good will to man 
+<lb/>inducing the tribes to trade to the coast be feasible
+<lb/>in your estimation. I intend first of all to
+<lb/>establish a <orgName>mission</orgName> with the <term type="tribe">Makololo</term> &amp;
+<lb/>get a good character among the heathen
+<lb/>first. <space extent="1" unit="chars"/>It is wonderful what influence a
+<lb/>good name has. <space extent="1" unit="chars"/><term type="occupation">Mayor</term> <persName>Secard</persName> has put
+<lb/>a stop to war four times by the good name
+<lb/>he bears. <space extent="1" unit="chars"/>And though it looks like self laudation
+<lb/>I know nothing (under God's blessing) which
+<lb/>has assisted me more than the praises of
+<lb/>my heathen friends. I have sometimes felt as
+<lb/>if I ought to shut my eyes in hearing what
+<lb/>some have said about me for I knew <unclear cert="high">that</unclear>
+<lb/>I am not much better than I out to be. The
+<lb/>avoidance of the grosser forms of sin, seems
+<lb/>to them wonderful goodness.</p>
+<lb/><p>I have written <persName><term type="occupation">Colonel</term> Steel</persName> with a trembling
+<lb/>heart - <persName>Lord Raylan</persName> and the other <term type="occupation">secretary</term> &amp; <term type="occupation">Escourt</term><!-- unclear if this is a person or occupation. MB -->
+<lb/>gone. This sad news I saw in a <term type="nationality">French</term> paper
+<lb/>here - Yet those that perish thus are serving
+<lb/>the same Master we do. It is not <term type="occupation">missionaries</term>
+<lb/><add place="below">^</add> <add place="above">&amp; <term type="occupation">ministers</term></add> alone who promote His cause. Every one who
+<lb/>resists oppression and wrong &amp; promotes the 
+<lb/>designs of our common Father, and everyone
+<lb/>who loves Him and aids his operations for
+<lb/>the elevation <!-- an &amp; here? MB --><unclear cert="high">&amp;</unclear> renovation of our fallen race
+<lb/>does acceptable service and will not be forgotten
+<lb/>when the Almighty Lord has brought to a glorious
+<lb/>consummation all His dealing with man.</p>
+
+<closer>
+<lb/><salute>Believe me Ever Yours Very Affectionate</salute><!-- Change as appropriate -->
+<lb rend="right"/><signed><persName>David Livingstone</persName></signed><!-- Change as appropriate --> 
+</closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

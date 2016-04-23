@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001193"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Thomas Baines, 28 January 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001335</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5445</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0677</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to </title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-01-28">28 January 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Manchester</placeName><!-- Change -->
+                    <persName type="addressee">Thomas Baines</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-05-22" who="#AW">Coding review</change>
+            <change when="2015-05-06" who="#AA">Proofing</change>
+        	<change when="2015-04-13" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001193_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><dateline rend="right"><placeName><settlement type="town">Manchester</settlement></placeName> <add place="margintop" rend="right gray small" hand="#U">MS 004</add>
+<lb/><date when="1858-01-28">28<choice><abbr>Jan y</abbr><expan>January</expan></choice>1858</date></dateline> 
+<lb/><salute>Sir</salute><!-- Change line info as appropriate -->
+</opener>
+<lb/><p><space extent="2" unit="chars"/>I have ordered
+<lb/>about <measure>1600 <unclear cert="medium"><choice><abbr>lbs</abbr><expan>pounds</expan></choice></unclear></measure>
+<lb/>of beads from 
+<lb/><persName><choice><abbr>Ms</abbr><expan>Miss</expan></choice>Kendal</persName> of
+<lb/>5 Leadan Mall <choice><abbr>St</abbr><expan>Street</expan></choice>
+<lb/>City - to be packed
+<lb/>in cases of    
+                
+    <pb facs="liv_001193_0002" n="0002"/>
+<lb/>about <measure>400 <choice><abbr>lbs</abbr><expan>pounds</expan></choice></measure> 
+<lb/>each. Each case
+<lb/>to contain  a
+<lb/>portion or <measure>1/4</measure> of
+<lb/>each colour so
+<lb/>that if we leave
+<lb/>any we may
+<lb/>always have a 
+<lb/>selection to take
+<lb/>on with us. The
+<lb/>cases are to
+
+    <pb facs="liv_001193_0003" n="0003"/>
+<lb/>be marked ♁1 <!-- There is a symbol above the number that appears to be a "plus" sign. JM --><!-- See character added. AW --><add place="margintop" rend="right gray small" hand="#U">MS 004</add>
+<lb/>♁2 <!-- The same symbol appears above this number. JM --> &amp;c <persName>D<hi rend="sup">r</hi>
+<lb/>Livingstones</persName>
+<lb/>expedition. I
+<lb/>would like
+<lb/>you to call at
+<lb/>your <w>con-
+<lb break="no"/>venience</w> and
+<lb/>see if the cases
+<lb/>are good. Take
+<lb/>a note of them
+    
+    <pb facs="liv_001193_0004" n="0004"/>
+<lb/>I have this day
+<lb/>ordered <measure>5 bales</measure>
+<lb/>of calicoes each of
+<lb/><!-- There appears to be the number "4" in the left-hand margin here, but it is not clear if it relates to the text. JM --><add place="marginleft">4</add> containing portions
+<lb/>of all the colours
+<lb/>&amp; one all unbleached
+<lb/>calico. Marked
+<lb/>41 42 &amp;c to
+<lb/>be sent as the
+<lb/>beads must be
+<lb/>to <persName>Mr Macgregor</persName>
+<lb/><unclear cert="low">Laurds</unclear> stores at
+ 
+    <pb facs="liv_001193_0005" n="0005"/>
+<lb/><placeName><unclear cert="medium">Borken</unclear> head</placeName> for <add place="margintop" rend="right gray small" hand="#U">MS 004</add>
+<lb/>embarkation
+<lb/>on the <date when="1858-02-15">15<hi rend="sup underline">th</hi></date>. Please
+<lb/>take a note of
+<lb/>them and an
+<lb/>additional bale
+<lb/>marked <unclear cert="medium">I</unclear>. A. T.</p>
+<lb/><p><space extent="2" unit="chars"/>A packet of
+<lb/>preserved <term type="plant">vegetables</term>
+<lb/>was left at
+<lb/><persName>Sir Morton Peto</persName>'s    
+    
+    <pb facs="liv_001193_0006" n="0006"/>
+<lb/>for samples. 
+<lb/>Captain <persName><unclear>Bedinfeld</unclear></persName>
+<lb/>will order <del type="strikethrough">them</del>
+<lb/>some from the
+<lb/>same parties
+<lb/>and you had
+<lb/>better put yourself
+<lb/>in communication
+<lb/>with him and
+<lb/>if he gives you
+<lb/>the order to get
+<lb/>them tell the    
+    
+    <pb facs="liv_001193_0007" n="0007"/>
+<lb/>parties that
+<lb/>the samples may
+<lb/>be removed now
+<lb/>your paintings
+<lb/>are still at <persName>Sir
+<lb/><choice><abbr>Mr</abbr><expan>Morton</expan></choice> Peto</persName>'s. The
+<lb/>Duke of <placeName>Argyll</placeName>
+<lb/>would like to
+<lb/>see them if I had
+<lb/>time to go with you.</p>
+<lb/><p>Your pay begins
+<lb/>on the <date when="1858-02-01">1<hi rend="sup">st</hi>February</date>
+<lb/>so you had better    
+    
+    <pb facs="liv_001193_0008" n="0008"/>
+<lb/>get ready for the
+<lb/><date when="1858-02-15">15<hi rend="sup underline">th</hi></date> of that
+<lb/>month. I shall
+<lb/>be in <placeName><settlement type="city">London</settlement></placeName>
+<lb/>on Saturday.</p>
+<lb/><closer rend="center"><salute>And am &amp;c</salute>
+<lb/><persName>David Livingstone</persName></closer>
+<lb/><space extent="5" unit="lines" dim="vertical"/>
+<lb/><trailer><persName>M<hi rend="sup underline">r</hi> Braines</persName></trailer>
+<!-- The name "Mr. T. Baines" appears in the bottom left-hand corner of this page. I am not sure how to encode this. JM --><!-- Fixed. AW -->
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

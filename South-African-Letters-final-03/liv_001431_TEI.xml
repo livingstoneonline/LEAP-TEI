@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001431">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Adam Sedgwick, 27 May 1859</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+					<name>Mary E. Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+				</respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001431</idno><!-- Change as needed -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 5521</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0895</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Adam Sedgwick, 27 May 1859</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1859-05-27">27 May 1859</date><!-- Change -->
+                    <placeName type="compositionPlace">River Zambesi, East Africa</placeName><!-- Change -->
+                    <persName type="addressee">Adam Sedgwick</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-11-13" who="#AW">Coding review</change>
+			<change when="2015-11-12" who="#MB">Proof reading</change>
+            <change when="2015-10-21" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001431_0001" n="0001"/><!-- Change both @facs and @n -->
+	
+<opener>
+<lb/><add place="margintop" rend="gray right" hand="#U">MS 1011</add> <dateline rend="right"><placeName><geogName type="river">River Zambesi</geogName><region>East Africa</region></placeName> 
+<lb/><date when="1859-05-27">27 May 1859</date></dateline>    
+<lb/><persName>Professor Sedgewick</persName>
+<lb/><salute>My Dear Friend</salute><!-- Change line info as appropriate -->
+</opener>
+
+<lb/><p rend="right">We have just
+<lb/>returned from the discovery of a magnificent
+<lb/>Lake called <placeName><geogName type="lake">Shirwa</geogName></placeName> <placeName><geogName type="lake">(Sheerwah)</geogName></placeName> and
+<lb/>a report of the <orgName>natives</orgName> on its banks, which
+<lb/>we see no reason to doubt, says, that <placeName><geogName type="lake">Shirwa</geogName></placeName>
+<lb/>is separated from a much larger Lake
+<lb/>by a strip of land of only <measure>five or six
+<lb/>miles</measure> in width - This larger Lake is called
+<lb/><placeName><geogName type="lake">Nyinyesi</geogName></placeName> = the stars - and is evidently<!-- Do we need to code place names with a foreign tag? MB --><!-- No. AW -->
+<lb/>the <placeName><geogName type="lake">Nyanja</geogName></placeName>, <placeName><geogName type="lake">Nyassa</geogName></placeName>, or <placeName><geogName type="lake">Uniamesi</geogName></placeName> of the <bibl>Maps</bibl><!-- Is "of the Maps" part of the placename? MB --><!-- See how I've done. AW -->
+<lb/>which stretches pretty well up to the Equator.
+<lb/>This opening is so important that I feel
+<lb/>bound to let you know about it as
+<lb/>soon as possible - in order that you
+<lb/>may sympathize in the emotions which
+<lb/>it calls forth in connection with the
+<lb/>great object we have in view - </p>
+<lb/><p>We visited the <placeName><geogName type="river">Shire</geogName></placeName> about the beginning<!-- "Shire" had been tagged as type="shire" throughout. I changed these to river- is this correct? MB--><!-- Yes! AW -->
+<lb/>of the present year and our presence
+<lb/>caused considerable alarm among the people
+<lb/>who had never seen white vistors before
+<lb/>We ascended in our little steamer about
+<lb/>a <measure>hundred miles</measure> of Latitute - the <term type="people">Portuguese</term><!-- Should Portuguese be tagged with orgName and term? MB -->
+<lb/>never went more than about <measure>25 miles</measure>
+<lb/>and having been beaten back had no
+<lb/>good word to say for those who had
+<lb/>drubbed them - <space extent="2" unit="chars"/>The <term type="tribe">Manganja</term> as
+<lb/>the people are called are brave and can
+<lb/>use well their &amp; poisoned arrows.</p>
+
+<cb rend="right vertical"/>
+<ab>
+<lb/>We have had <term type="ailment">fever</term> but of so mild a type that we failed for some months to recognize it
+<lb/><persName>D<hi rend="sup underline">r</hi> Kirk</persName> &amp; I have escaped altogether - The coal is excellent - one seam is <measure>twenty five feet</measure>
+<lb/>thick and exposed in a cliff section - another <measure>13 feet 7 <choice><abbr>in.</abbr><expan>inches</expan></choice></measure> old coal, I believe
+</ab> 
+
+
+	<pb facs="liv_001431_0002" n="0002"/>
+<lb/><p rend="no-indent">you must bear with my prosiness at first
+<lb/>My reasons will appear farther on - the river
+<lb/>is deep and easily navigated for <measure>one hundred
+<lb/>miles</measure> - Seeing the alarm we had created - The
+<lb/>people in large bodies <choice><sic>gaurding</sic><corr>guarding</corr></choice> us on both
+<lb/>banks night and day we retired in order
+<lb/>to let out (though I say it) decently civil conduct
+<lb/>have its effect, and in the end of <date when="1859-03">March</date>
+<lb/>returned, and found the inhabitants so <w>frien<add place="over-text">dl</add>y</w>,
+<lb/>that we left the vessel with a <term type="occupation">chief</term> named
+<lb/><persName>Chibisa</persName>; <add place="above"><measure>(16º2')</measure></add><!-- Are these geo coordinants? MB --><!-- Looks like it. AW --> and with <persName>D<hi rend="sup underline">r</hi> Kirk</persName> and 15 <term type="tribe">Makololo</term>
+<lb/>proceeded Northwards on foot - Our course
+<lb/>lay along the banks of the <geogName type="river">Shire</geogName> which then
+<lb/>was found flowing in a mountainous region.
+<lb/>and though our marches were but short we
+<lb/>each day gained <measure>200 or 300 feet</measure> of elevation;
+<lb/>In about <measure>10 days</measure> we were <measure>1500 feet</measure> above the
+<lb/>ship and in sight of a mountain - <geogName type="mountain">Dzomba</geogName> -
+<lb/>or as people near it call it <geogName type="mountain">Zomba</geogName>, over <measure>6000
+<lb/>feet</measure> high - A marsh prevented our following 
+<lb/>the <geogName type="river">Shire</geogName> to the Northern spur of <geogName type="mountain">Zomba</geogName> to which
+<lb/>it seemed to go or rather come, and in crossing
+<lb/>the Southern spur we were <measure>3400 <choice><abbr>ft</abbr><expan>feet</expan></choice></measure> high, and
+<lb/>thence we got our first sight of <placeName><geogName type="lake">Lake Shirwa</geogName></placeName>
+<lb/>in the East - <space extent="2" unit="chars"/> <measure>four days</measure> afterwards we stood on
+<lb/>its shores, and thanked the Great Father of All,
+<lb/>for permitting us the honour of first seeing its
+<lb/>broad blue waters - A grand sight it is for it
+<lb/>his among bold mountain scenery - and
+<lb/>all the mountains are clothed with vegetation
+<lb/>and several are inhabited even on their tops
+<lb/>We went some distance up a mountain and
+<lb/>could see <measure>26°</measure> of watery horizon in the <choice><abbr>N.</abbr><expan>North</expan></choice> <choice><abbr>N.</abbr><expan>North</expan></choice>, <choice><abbr>N.E.</abbr><expan>North-Northeast</expan></choice>
+<lb/>only, two mountain tops rose in the blue
+<lb/>distance like little islands <measure>fifty or sixty miles</measure>
+<lb/>away. the Lake is of a pear shape or were it <!-- geog: Shirwa -->
+<lb/>not so unpoetical I would call it of a tadpole
+
+	<pb facs="liv_001431_0003" n="0003"/>
+<lb/>shape - It is from <measure>25 to 30 miles</measure> wide in the
+<lb/>broad part but a narrow prologation stretches
+<lb/>south of where we stood some <measure>30 miles</measure>. No outlet
+<lb/>is known - its water is bitter but drinkable
+<lb/>and it contains plenty of <term type="animal">fish</term> <term type="animal">alligator</term>, and
+<lb/><term type="animal">hippopotami</term> - <term type="animal">Leeches</term> too as we found in
+<lb/>wading through a piece of marsh to get a
+<lb/>meridian observation of the Sun with the natural
+<lb/>horizon - The <geogName type="river">shire</geogName> probably comes out of <placeName><geogName type="lake">Nyinyesi</geogName></placeName>- 
+<lb/>It cannot come out of this for <hi rend="underline">its</hi> water is sweet.
+<lb/>We could obtain no information about <persName>Burton</persName>'s
+<lb/>party - but returning down the <placeName><geogName type="valley">valley of the 
+<lb/><geogName type="lake">Shirwa</geogName></geogName></placeName> - we as certained that there is one
+<lb/>point in which only which about <measure>30 miles</measure> of
+<lb/>land travel will be necessary between a
+<lb/>branch of the <geogName type="river">Shire</geogName>, and the southern end
+<lb/>of <placeName><geogName type="lake">Shirwa</geogName></placeName> - We have got no news from <placeName><country>England</country></placeName>
+<lb/>since we left - If <persName>Burton</persName> has preceded us to
+<lb/><placeName><geogName type="lake">Nyinyesi</geogName></placeName> then we have got a Lake of our own
+<lb/>and a short route to his - We mean to return
+<lb/>shortly and I hope then to be able to tell you more
+<lb/>about it.</p>
+<lb/><p>At present I have to say that this is a
+<lb/>real highland region - We saw many old people
+<lb/>and <persName>D<hi rend="sup underline">r</hi> Kirk</persName> and I slept on the ground out of
+<lb/>doors 20 nights and got our clothes wet with
+<lb/>dew from the tall grass (<measure>7 or 8 <choice><abbr>ft</abbr><expan>feet</expan></choice></measure>) every morning
+<lb/>yet returned to the ship in good health - The
+<lb/>vegetation &amp; people are much like what we
+<lb/>have in <placeName><settlement type="town">Londa</settlement></placeName> in the middle of the country
+<lb/>also many streams with bogs - the people
+<lb/>cultivate <term type="plant">cotton</term> very extensively - we never
+<lb/>saw so much anywhere and this is the
+<lb/>region I have pointed out as capable of becoming
+<lb/>a counter poise to <orgName><term type="nationality">American</term> <orgName>slave</orgName> labour</orgName><!-- Tag American with term? MB -->
+<lb/>The farther we went the more important did this
+<lb/>crop appear and every one spins &amp; weaves it.
+
+	<pb facs="liv_001431_0004" n="0004"/>
+<lb/>Now the <term type="people">Portuguese</term> knew nothing of this Lake<!-- Does Portugues need a term tag too? MB -->
+<lb/>being so near - <choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 15 23'. <choice><abbr>S.</abbr><expan>South</expan></choice> the point we reached
+<lb/><choice><abbr>Long.</abbr><expan>Longitude</expan></choice> 35° 35' &amp; 36° <choice><abbr>E.</abbr><expan>East</expan></choice> and we tell them very little -
+<lb/>we allow our own <orgName>Government</orgName> to do that
+<lb/>(tell them) for when I crossed the continent the <term type="people">Portuguese</term>
+<lb/><term type="occupation">minister</term> claimed the honour for two black men
+<lb/>(<bibl>Blue book for <date when="1857">1857</date></bibl>) with <term type="people">Portuguese</term> names, in
+<lb/>order to establish a claim to lordship over the
+<lb/>whole territory - then they propose to erect a
+<lb/>station at the mouth of the <geogName type="river">Shire</geogName> for the same
+<lb/>purpose - and a custom house at the mouth
+<lb/>of the <placeName><geogName type="river">Kongone</geogName></placeName> <placeName><geogName type="branch">branch of the <placeName><geogName type="river">Zambesi</geogName></placeName></geogName></placeName> which<!-- is there a tag for branch like source? MB -->
+<lb/>we discovered = <space extent="1" unit="chars"/>At present they are depopulating
+<lb/>the country by <orgName><term type="nationality">French</term> <hi rend="underline">free</hi> emigration</orgName> <!--Does this need to be encoded like a system --><!-- orgName is good. AW -->- The
+<lb/><orgName>emigrants</orgName> <!--emigrants encoded as orgName? MB --><!-- OK. AW -->being sent out in chains - you 
+<lb/>will thus see that I cannot have much
+<lb/>heart to open up a country for a parcel of
+<lb/><orgName><term type="people">Portuguese</term> pedlars</orgName> in mens bodies &amp; souls,
+<lb/>but I trust in Providence to turn all round to the
+<lb/>glory of God - We were obliged to wait for a
+<lb/>stronger vessel to take us up the rapids above
+<lb/><placeName><settlement type="village">Tette</settlement></placeName> - I would rather have gone up to make our
+<lb/>experiment in the <region><term type="tribe">Makololo</term> country</region> at once
+<lb/>but it has turned out for the opening of a
+<lb/>highland Lake region; and I pray that our
+<lb/>own <orgName><term type="faith">Christian</term> people</orgName> <!-- Tag with orgName? MB --><!-- Correct. AW -->may be permitted to
+<lb/>enter, and spread our blessed Redeemer's
+<lb/>kingdom - <space extent="2" unit="chars"/>Be kind enough to present my
+<lb/>kindest remembrances to <persName><term type="occupation">Professor</term> Whewell</persName>
+<lb/>I shall take the liberty of writing him on our
+<lb/>return from <placeName><geogName type="lake">Nyinyesi</geogName></placeName> - Our <term type="occupation">naval officer</term>
+<lb/>did not suit - Said he had not "his proper position
+<lb/>as second in command" so I had to become both
+<lb/>first &amp; second and you know stand upon a paddle 
+<lb/>box in a hot sun is not favourable to literary labour
+<lb/>Blessing be on you</p> <closer><salute>Ever Yours Affectionately</salute><!-- Change as appropriate -->
+<lb rend="right"/><signed><persName>David Livingstone</persName></signed><!-- Change as appropriate --> 
+</closer>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

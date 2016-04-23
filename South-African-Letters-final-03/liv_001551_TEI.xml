@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001551">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Edmund Gabriel, 25 March 1860</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001551</idno><!-- Change as needed -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Johannesburg</settlement><!-- Change as needed -->
+                        <repository>Brenthurst Library</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Book no. 6754</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1007</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Edmund Gabriel, 25 March 1860</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1860-03-25">25 March 1860</date><!-- Change -->
+                    <placeName type="compositionPlace">Mazaro, Zambesi River</placeName><!-- Change -->
+                    <persName type="addressee">Edmund Gabriel</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-12-10" who="#JM">Proofreading</change>
+            <change when="2015-10-17" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001551_0001" n="0001"/><!-- Change both @facs and @n -->
+	
+<opener>
+<lb/><dateline rend="right"><placeName><settlement type="village">Mazaro</settlement>,<geogName type="river">Zambesi River</geogName></placeName> 
+<lb/><date when="1860-03-25">25 March 1860</date></dateline>
+<lb/>    
+<lb/><salute>My Dear Friend</salute><!-- Change line info as appropriate -->
+</opener>
+
+<lb/><p rend="right">After the very
+<lb/><term type="ailment">scurvy</term> <bibl>letter</bibl> I sent you last
+<lb/>I feel bound to write you
+<lb/>again though I have nothing to
+<lb/>say - but I see that our friend
+<lb/><persName>Brand</persName> is appointed to <placeName><settlement type="city">Lagos</settlement></placeName>
+<lb/>and as we have succeeded in
+<lb/>rendering the <term type="ailment">fever</term> here not
+<lb/>more formidable than a common
+<lb/><term type="ailment">cold</term> it may be a good service
+<lb/>to let him know through
+<lb/>you how we treat it.  We cure
+<lb/>it quickly, and without loss of
+<lb/>strength to the patient by a pill
+<lb/>with which we shall cut out
+<lb/><placeName><settlement type="city">Holloway</settlement></placeName> when we have finished
+<lb/>with <bloc>Africa</bloc> - <space extent="1" unit="chars"/>It is composed
+<lb/>of for a full grown man, eight
+<lb/>grains of Resin of <term type="medicament">Jalap</term> - the </p>
+
+<cb rend="vertical"/>
+<ab>
+<lb/>Our little steamer is quite done - We have 35 patches on her bottom
+<lb/>held on by 60 bolts - The steel plate has undergone a peculiar chemical
+<lb/>decomposition and is full of minute holes besides - your
+<lb rend="right"/><choice><abbr>_____</abbr><expan>Affectionately</expan></choice> <persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName>
+</ab>
+
+	<pb facs="liv_001551_0002" n="0002"/>
+<lb/><p>same quantity of <term type="medicament">balomel</term> - four
+<lb/>or six grains of <term type="foodstuff">Rhubarb</term> &amp;
+<lb/>the same quantity of <term type="medicament">quinine</term>
+<lb/>the whole well rubbed together
+<lb/>in a mortar &amp; made into pills
+<lb/>with a few drops of the tincture
+<lb/>of <term type="foodstuff">Cardamoms</term> - will relieve
+<lb/>any <term type="ailment">fever</term> we have on this
+<lb/>coast. <space extent="1" unit="chars"/>Decreasing doses serve -
+<lb/>Half a grain of the mass has
+<lb/>now as much effect on us
+<lb/>as <del type="strikethrough">th</del> 24 or 28 grains formerly
+<lb/>had - It is what I found best
+<lb/>for my attacks when alone.
+<lb/>It produces a terrible raw inside
+<lb/>but all after effects are avoided
+<lb/>A fellow with his head like to
+<lb/>split or another in a state of
+<lb/>somnolency is relieved in a few
+<lb/>hours so that we have called
+<lb/>them "Rousers." A weaker man
+<lb/>than <persName>Brand</persName> would be operated
+<lb/>on by four <choice><abbr>g<hi rend="sup underline">rs</hi></abbr><expan>grains</expan></choice> of the first ingrediant
+<lb/>and three of the latter - </p>
+<lb/><p>Well we are determined to
+<lb/>get a small steamer on the <placeName><geogName type="lake">Lake
+<lb/>Nyana</geogName></placeName> and now send our
+<lb/>engineer <persName>M<hi rend="sup underline">r</hi> Rae</persName> home to superintend
+<lb/>its construction.  ___ <orgName>Government</orgName>
+
+	<pb facs="liv_001551_0003" n="0003"/>
+<lb/><choice><sic>wont</sic><corr>won't</corr></choice> afford the means I have a
+<lb/>few Thousand Pounds from my
+<lb/>book and have ordered them
+<lb/>to be spent therein - I want a
+<lb/>few <orgName>settlers</orgName> for I think that a
+<lb/>few good industrious <term type="people">English</term>
+<lb/>afforded protection by the steamer
+<lb/>would do more to eradicate
+<lb/><orgName>slavery</orgName> on a large section of the
+<lb/>East coast than several _____
+<lb/>on the ocean - <space extent="1" unit="chars"/>The <orgName>Portuguese</orgName>
+<lb/>are a <choice><sic>nuizance</sic><corr>nuisance</corr></choice> in the way but
+<lb/>I am in hopes that <persName>Lord John
+<lb/>Russell</persName> will get us freedom of 
+<lb/>navigation on the <placeName><geogName type="river">Zambesi</geogName></placeName> to our
+<lb/>discoveries by parts of the river
+<lb/>and of the <placeName><geogName type="river">Shire</geogName></placeName> with which these
+<lb/>people do nothing - Here they are
+<lb/>much more degraded than with you
+<lb/>very few in number &amp; awefully
+<lb/>immoral - Our painter joined their
+<lb/>orgies &amp; was dishonest so I had to
+<lb/>send him away.  We are hated
+<lb/>as sort of standing protests against
+<lb/>vice and uncleanness.</p>
+<lb/><p>Allow me to congratulate you
+<lb/>on your promotion - Will this
+
+	<pb facs="liv_001551_0004" n="0004"/>
+<lb/>involve another ten years service?
+<lb/>Hope your <orgName>naval</orgName> companion is
+<lb/>agreable <space extent="3" unit="chars"/>I begin to believe
+<lb/><persName>Bedingfeld</persName>'s repeated declaration that
+<lb/>"half of the <orgName>naval</orgName> <term type="occupation">Captains</term> are mad"
+<lb/>A <term type="occupation">captain</term> <persName>Gordon</persName> of "<placeName>Hermes</placeName>" came <!-- Not sure of what 'Hermes' refers to. EM --><!-- Sounds like a ship. AW -->
+<lb/>up with us to <placeName><settlement type="village">Mazaro</settlement></placeName> in his boats - We
+<lb/>parted good friends, but <persName>Bedingfeld</persName> &amp;
+<lb/>he having quarrelled with the <term type="occupation">Captain</term>
+<lb/>of the Pearl, <persName>Gordon</persName> subsequently
+<lb/>wrote a letter to <persName>Bedingfelt</persName> &amp; sent
+<lb/>me a copy - In it he blames <persName>Duncan</persName>
+<lb/>severely and accuses me of several
+<lb/>falsehoods and insultingly alludes to
+<lb/>the losses of men by Machine &amp; <persName>Berkeley</persName> 
+<lb/>on the bars of <placeName><settlement type="village">Quilimane</settlement></placeName> &amp; <placeName><settlement type="village">Luabo</settlement></placeName> as
+<lb/>attributable to "D<hi rend="sup underline">r</hi> Li undertakings" - I had
+<lb/>no more idea of stating what was untrue
+<lb/>than I have now of swearing at you -
+<lb/><persName>Gordon</persName> asserts that it is untrie that masse<supplied cert="high">s</supplied><gap extent="1" unit="chars" agent="illegible"/>
+<lb/>of putridity were exposed to view after I had
+<lb/>taken charge of this vessel though at the tim<supplied cert="high">e</supplied>
+<lb/>it happened he was at <placeName><geogName type="bay">Simon's Bay</geogName></placeName> - <persName>D<hi rend="sup underline">r</hi> Kir<gap extent="1" unit="chars" agent="illegible"/></persName>
+<lb/>certified it on the spot, and <persName>Bedingfeld</persName> had neglec<supplied>ted</supplied><gap extent="3" unit="chars" agent="illegible"/>
+<lb/>my orders about it - Every other statement is
+<lb/>made on mere hearsay &amp; it is plain that
+<lb/><persName>Bedingfeld</persName> has made a mere windbag of
+<lb/>him - I would have sent it home but though<supplied cert="high">t</supplied><gap extent="1" unit="chars" agent="illegible"/>
+<lb/>it more <term type="faith"><choice><sic>christian</sic><corr>Christian</corr></choice></term> to write &amp; explain the orders
+<lb/>under which I acted and the points of which
+<lb/>he had no personal knowledge, but this
+<lb/>affair does not increase my respect for <persName><unclear>R.N.</unclear></persName> - </p>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Thomas Maclear, 15 February, 2 March 1856</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000877</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Cape Town</settlement><!-- Change as needed -->
+                        <repository>National Library of South Africa</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0394</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Thomas Maclear, 15 February, 2 March 1856</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-03-02">2 March 1856</date><!-- Change -->
+                    <placeName type="compositionPlace">Near Tete or Nyunkwe-Tete</placeName><!-- Change -->
+                    <persName type="addressee">Thomas Maclear</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="und">undetermined</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-03-17" who="#AW">Coding review</change>
+            <change when="2016-03-15" who="#JM">Proofreading</change>
+            <change when="2016-03-12" who="#AM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div rend="black">
+               
+	<pb facs="liv_000877_0001" n="0001"/>
+
+<opener>
+<lb/><add place="inline" rend="gray" hand="#U">5) -</add> <add place="inline" rend="right gray" hand="#U">33.1</add>
+<lb/><dateline rend="right"><placeName>Near <placeName><settlement type="town">Tete</settlement></placeName> or <placeName>Nyunkwe</placeName></placeName> on
+<lb/>the river<placeName><geogName type="river"> Zambesi</geogName></placeName> <date when="1856-02-15">15<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice> 1856</date></dateline>
+<lb/>    
+<lb/><salute rend="center"><persName>Thomas Maclear, Esquire</persName>
+<lb/>
+<lb/>My Dear Sir</salute>
+</opener>
+
+
+<lb/><p><space extent="7" unit="words"/>If a note sent by way of
+<lb/><placeName><region>Angola</region></placeName> reached its destination you will be aware of my having
+<lb/>returned again to <placeName><settlement type="town">Linyanti</settlement></placeName> - so little time was allowed by
+<lb/>my <orgName>Arab</orgName> <term type="occupation">postman</term> for writing I could not send all the
+<lb/>observations made in the <placeName><region>North</region></placeName>. But those which remained
+<lb/>unsent refer chiefly to places of little interest as <placeName><settlement type="town">Bango</settlement></placeName>,
+<lb/>a town South East of <placeName>Kabango</placeName> - <placeName><settlement type="town">Town of <persName>Shinté</persName></settlement></placeName> or
+<lb/><placeName>Kabompo</placeName> - confluences of the <placeName><geogName type="river">Loéti</geogName></placeName> &amp; <placeName><geogName type="river">Njoko</geogName></placeName> - <add place="below">^</add> <add place="above"><placeName><settlement type="town">Town of</settlement></placeName></add> <placeName><settlement type="town">Sesheké</settlement></placeName> - &amp;c -
+<lb/>the present letter is therefore intended to give you some
+<lb/>idea of the <placeName><region>country East of <placeName><settlement type="town">Linyanti</settlement></placeName></region></placeName>, so that
+<lb/>performing your dry calculations you may have
+<lb/>something else for the imagination than the very
+<lb/>interesting powers of p = x<hi rend="sup">2</hi> &amp;c. &amp;c.</p>
+<lb/><p>We descended the <placeName><geogName type="river">Leeambye</geogName></placeName> from <placeName><settlement type="town">Sesheke</settlement></placeName> in <date when="1855-11">November
+<lb/>last</date> in company with a large convoy of <term type="tribe">Makololo</term> - the
+<lb/>confluence of the <placeName><geogName type="river">Chobe</geogName></placeName> and it is about <add place="below">^</add> <add place="above"><measure>15</measure> or</add> <measure>20 miles</measure> below <placeName><settlement type="town">Sesheké</settlement></placeName>
+<lb/>but I could get no observation - the new moon peeped out
+<lb/>from among the clouds enough only to let us know it must
+<lb/>have been visible but for clouds the night before. <measure>About ten
+<lb/>miles lower down</measure> we came to the beginning of the rapids
+<lb/>which end in <placeName><geogName type="rapid">Mosioatunya</geogName></placeName>. Leaving the canoes we now
+<lb/>marched <measure>about twenty miles</measure> along the bank to <placeName><geogName type="island">Kalai</geogName></placeName>,
+<lb/>otherwise named the <placeName><geogName type="island">island of <persName>Sekaté</persName></geogName></placeName>. As it was decided
+<lb/>by those who know the country well through which the river
+<lb/>flows in front that we should avoid the hilly country
+<lb/>there both on account of <term type="insect">tsetse</term> and the ruggedness of
+<lb/>the path, and turn away to the North East to meet the
+<lb/>river when it has become placid again, I took a canoe
+<lb/>at <placeName><geogName type="island">Kalai</geogName></placeName> and went down to see the most wonderful
+<lb/>sight I have seen in <placeName><bloc>Africa</bloc></placeName> - the "smoke-sounding"
+<lb/>falls of the <placeName><geogName type="river"><choice><orig>Leeamby</orig><reg>Leeambye</reg></choice></geogName></placeName> or <placeName><geogName type="river">Zambesi</geogName></placeName> - the direction was <!-- geog: Mosi-oa-tunya -->
+<lb/><choice><abbr>S.S.E</abbr><expan>South-Southeast</expan></choice> and the distance <measure>7 or 8 miles</measure> from <placeName><geogName type="island">Kalai</geogName></placeName> - I
+<lb/>mention this because all the observations were made
+<lb/>at the latter spot - When within <measure>six miles</measure> of the falls <!-- geog: Mosi-oa-tunya -->
+
+
+	<pb facs="liv_000877_0002" n="0002"/>
+<lb/>Five or six columns of vapour are seen ascending exactly
+<lb/>as occurs in extensive grass burnings in <placeName><bloc>Africa</bloc></placeName> - and
+<lb/>close behind them stands a range of low <choice><sic>tree covered</sic><corr>tree-covered</corr></choice> hills.
+<lb/>The River is here of great breadth - probably <measure>a thousand yards</measure> <!-- geog: River Zambesi -->
+<lb/>and covered with islands of great beauty in consequence
+<lb/>of being clothed with magnificent masses of <term type="plant">Tropical Forest</term>.
+<lb/>When close to the falls we got a little light canoe and <orgName>men</orgName> <!-- geog: Mosi-oa-tunya -->
+<lb/>well acquainted with the eddies in the <choice><sic>fast flowing</sic><corr>fast-flowing</corr></choice> water
+<lb/>and went to an island situated in the middle of the
+<lb/>river and edge of the lip over which the broad
+<lb/><placeName><geogName type="river">Zambesi</geogName></placeName> rolls. This cannot be done except when
+<lb/>the water is low - creeping to the verge we peer down
+<lb/>into a <unclear><choice><orig>gulph</orig><reg>gulf</reg></choice></unclear> from which an immense body of vapour
+<lb/>rushes up and find it is a rent made in the
+<lb/>hard basaltic bed from bank to bank - and the
+<lb/>river of <measure>a thousand yards</measure> leaps down <measure>a hundred
+<lb/>feet</measure> and is suddenly compressed at the bottom
+<lb/>into <measure>fifteen or twenty</measure> Excuse my using the
+<lb/>same language to you as I do in trying to convey
+<lb/>an idea of the thing to some of my <orgName>friends</orgName> native
+<lb/>of the island called <placeName><geogName type="island">Anglia</geogName></placeName> - If we imagine the <placeName><geogName type="river">Thames</geogName></placeName>
+<lb/>filled with low <choice><sic>tree covered</sic><corr>tree-covered</corr></choice> hills from the <w>Tunne<supplied>l</supplied></w>
+<lb/>to <placeName><settlement type="town">Gravesend</settlement></placeName> - the bed of hard basaltic rock instead
+<lb/>of <placeName><settlement type="city">London</settlement></placeName> mud and a rent or <choice><orig>fizzure</orig><reg>fissure</reg></choice> made therein
+<lb/>from one end of the tunnel to the other down through
+<lb/>the keystones of the arch - and the pathway <measure>100 feet
+<lb/>from the surface</measure> instead of what it is - If we
+<lb/>suppose farther the rent having its lips <measure>from 60 to 80
+<lb/>feet apart</measure> and prolonged from the left hand bank
+<lb/>away to <placeName><settlement type="town">Gravesend</settlement></placeName> - and the <placeName><geogName type="river">Thames</geogName></placeName> leaping bodily
+<lb/>into the <unclear><choice><orig>gulph</orig><reg>gulf</reg></choice></unclear> - forced to change its course and
+<lb/>flow in the narrow space at the bottom from the
+<lb/>right to the left bank - then turn a corner and go
+<lb/>boiling and roaring through the hills - And we have
+<lb/>something of what takes place with the <placeName><geogName type="river">Zambesi</geogName></placeName>.
+<lb/>When it emerges <measure>30 or 40 miles distant</measure> from its place
+<lb/>of confinement it flows broad and placid again
+<lb/>away to the <choice><abbr>N.N.E.</abbr><expan>North-northeast</expan></choice> or <unclear><choice><abbr>N = E.</abbr><expan>Northeast</expan></choice></unclear> till it reaches the
+<lb/><measure>Latitude of 15° 37' South</measure> - I have said <measure>100 feet
+<lb/>deep</measure> but this requires explanation - When looking
+<lb/>at the perpendicular walls of the <choice><orig>fizzure</orig><reg>fissure</reg></choice> we see
+<lb/>the opposite lip has a straight edge, while that
+<lb/>over which the water tumbles is serrated partly
+
+
+	<pb facs="liv_000877_0003" n="0003"/>
+<lb/>because a little worn by the torrent and partly because several
+<lb/>pieces have fallen. Looking down on the right of the
+<lb/>island where most of the <subst><del>water</del> <add place="above">stream</add></subst> precipitates itself at low water
+<lb/>we see a dense white cloud only with two bright rainbows
+<lb/>on it - (It was at midday we visited it &amp; the Declination of the
+<lb/>sun and Latitude of the place about equal) On the left a
+<lb/>large piece has fallen in and from that appearing above
+<lb/>the foam I conjecture the depth The vapour rushes
+<lb/>up with a force sufficient to lick up completely several
+<lb/>little rills which run down from the other side into the
+<lb/><choice><orig>fizzure</orig><reg>fissure</reg></choice> &amp; When it reaches <measure>300 or 400 feet in height</measure> it loses
+<lb/>its steam colour and becomes dark to descend in a
+<lb/><subst><del>sharp</del> <add place="above">smart</add></subst> shower which soon wets one to the skin - the falls <!-- geog: Mosi-oa-tunya -->
+<lb/>were formerly used as places of worship by three <term type="occupation">chiefs</term>
+<lb/>who then lived in the vicinity - the constant roar must
+<lb/>have inspired feelings of awe - When the river is in flood <!-- geog: River Zambesi -->
+<lb/>it is said <seg type="weather">to sound like distant thunder <measure>ten miles off</measure></seg> -
+<lb/>Trade does not seem to have extended itself to these parts
+<lb/>for one of these <choice><sic><term type="occupation">chieftains</term></sic><corr><term type="occupation">chieftains</term>'</corr></choice> graves may now be seen
+<lb/>on <placeName><geogName type="island">Kalai</geogName></placeName> ornamented with seventy large <term type="animal">elephants</term>'
+<lb/>tusks planted round it - there are thirty over the
+<lb/>resting places of <orgName>his relatives</orgName> Indeed through the whole
+<lb/><placeName><region><term type="tribe">Batoka</term> country</region></placeName> ivory was employed to make bracelets and
+<lb/>gravestones only. <seg type="weather">Sun and rain</seg> soon rot them. The
+<lb/><term type="occupation">chiefs</term> had too a great love for "ornamenting" their towns
+<lb/>with human skulls - I counted between fifty and sixty such
+<lb/>mounted on poles in one village - they were rooted out
+<lb/>of their island fastnesses by <persName>Sebituane</persName>.</p>
+<lb/><p>Our route then led us away to the North East <choice><sic>untill</sic><corr>until</corr></choice>
+<lb/>we reached the hills through which the <placeName><geogName type="river">Bashukulompo river</geogName></placeName>
+<lb/>flows before joining the <placeName><geogName type="river">Zambesi</geogName></placeName> - It is called <placeName><geogName type="river">Kahowhé</geogName></placeName>
+<lb/>and farther down the river <placeName><geogName type="river">Kafué</geogName></placeName> &amp; <placeName><geogName type="river">Kafurwé</geogName></placeName>.
+<lb/>Pursuing our course along the left bank we came among
+<lb/><term type="insect">Tsetse</term> and lost all our <term type="animal">oxen</term> except two untaught ones, so
+<lb/>I have to march on foot - the usual mode of travelling
+<lb/>is by canoes and there being no pathway boreing continually
+<lb/>through tangled thorny jungle is excesssively tedious -
+<lb/><measure>About 1° below the confluence</measure> of the <placeName><geogName type="river">Kafué</geogName></placeName> we came
+<lb/>to that of the <placeName><geogName type="river">Loangua</geogName></placeName> (<placeName><geogName type="river">Loangwa</geogName></placeName>) both of which <add place="below">^</add> <add place="above">streams</add> are
+<lb/>said to form but one river in the <placeName><region>North West</region></placeName> - the
+<lb/><placeName><geogName type="river">Kafue</geogName></placeName> is about <measure>300 yards broad</measure> - the <placeName><geogName type="river">Loangua</geogName></placeName> double
+<lb/>that but being in flood when we crossed it the
+<lb/>actual distance <choice><sic>accross</sic><corr>across</corr></choice> the ford was at least <measure>half a mile</measure>
+<lb/>We found the ruins of a church exactly at the confluence
+
+	<pb facs="liv_000877_0004" n="0004"/>
+<lb/>A building on a hill on the opposite side of the <placeName><geogName type="river">Zambesi</geogName></placeName>
+<lb/>must have been a fort and there are eight or 
+<lb/>ten large establishments of stone in ruins on the left
+<lb/>banks of both rivers - the broken church bell
+<lb/>contains no date and I could not ascertain from
+<lb/>the present <orgName>inhabitants</orgName> the name of the station
+<lb/>From two <term type="nationality">Portuguese</term> <term type="occupation">traders</term> I have met since
+<lb/>I learn that it is <orgName>Zumbo</orgName> - It is impossible to
+<lb/><choice><sic>concieve</sic><corr>conceive</corr></choice> a finer trading station than this must
+<lb/>have been - Besides being very beautiful from
+<lb/>having a fine <choice><sic>tree covered</sic><corr>tree-covered</corr></choice> hill named <placeName><geogName type="hill">Mazausue</geogName></placeName>
+<lb/>behind there is a magnificent view of the
+<lb/>broad <placeName><geogName type="river">Zambesi</geogName></placeName> and its tributary <placeName><geogName type="river">Loangua</geogName></placeName> in front
+<lb/>and there is water carriage in three directions beyond
+<lb/>one of them to <persName>Mosilikatze</persName> - another to the
+<lb/><placeName><geogName type="river">Bashukulompo</geogName></placeName> and by the <placeName><geogName type="river">Loangua</geogName></placeName> to near
+<lb/><persName>Cazembe</persName> in <placeName><region>Londa</region></placeName> - Indeed <persName>Pereira</persName> went
+<lb/>thither by this route - A <term type="plant"><term type="plant_foodstuff">mango</term> tree</term> measuring
+<lb/><measure>fifteen feet in circumference</measure> in one of the
+<lb/>gardens was with the exception of some <term type="plant_foodstuff">Tamarind</term>
+<lb/>the only <term type="plant_foodstuff">vegetable</term> relics I could discover. I <w>wonde<supplied>red</supplied></w>
+<lb/>much why the <term type="people">Portuguese</term> had abandoned
+<lb/>so fine a station The <orgName>natives</orgName> said they were
+<lb/>now visited by <term type="tribe">Babisa</term> <term type="occupation">traders</term> daily -
+<lb/>we got farther down we learned that <orgName>Caffre</orgName> Wars
+<lb/>were fashionable here too - and that the <term type="people">Portuguese</term>
+<lb/>being unable to make the mother country foot the
+<lb/>bills they had been for the last two years shut up
+<lb/>in their fort at <placeName><settlement type="town">Tete</settlement></placeName>. I cannot pretend to a
+<lb/>knowledge of the causes of this uncomfortable
+<lb/>state of things - "Uncomfortable" rather for me
+<lb/>for I have unwittingly lugged myself into the
+<lb/>midst of the <orgName>belligerents</orgName> - We have seen the
+<lb/><orgName>women</orgName> and <orgName>children</orgName> sent away several times -
+<lb/>and <orgName>parties of men</orgName> pouring in to certain
+<lb/>points during whole nights But they have
+<lb/>generally come to the conclusion that "after
+<lb/>he had been allowed to pass so many tribes
+<lb/>unscathed, it would be a pity to have it
+<lb/>said his progress had been stopped here" In
+<lb/>which wise conclusion I most heartily
+<lb/>coincided - The river generally is densely
+<lb/>peopled by a strong muscular <orgName>race</orgName> of
+
+
+	<pb facs="liv_000877_0005" n="0005"/>
+<lb/><fw n="heading_2"><hi rend="underline"><choice><abbr>2<hi rend="sup">d</hi></abbr><expan>second</expan></choice> sheet</hi></fw>
+<lb/><orgName>negroes</orgName>, much addicted to agriculture. We see both <orgName>men</orgName>
+<lb/>and <orgName>women</orgName> constantly <term type="occupation">employed in the gardens</term>, and
+<lb/>as the soil is extremely fertile they raise large quantities
+<lb/>of <term type="plant_foodstuff">grain</term> - the <term type="plant_foodstuff">maize</term> is nearly of the same size as
+<lb/><term type="nationality">American</term> seed I have seen sold in <placeName><settlement type="city">Cape Town</settlement></placeName> - And
+<lb/>they have been most liberal to both <orgName>my men</orgName> and self - indeed
+<lb/>had they been otherwise we should have starved for my
+<lb/><orgName>company</orgName> consists of 113 persons. The <term type="insect">Tsetse</term> has
+<lb/>been the barrier to their possession of <term type="animal">cattle</term> - yet should
+<lb/>the large game which now abounds, be exterminated,
+<lb/>I imagine the insect must cease to exist, for it
+<lb/>leaves a spot impregnated with effluvia from man -
+<lb/>and would then have no sustenance - there are
+<lb/>several tribes of <orgName>Caffres</orgName> among them - When I
+<lb/>say "<orgName>Caffres</orgName>" I mean <orgName>men of the Zula family</orgName> - No
+<lb/>one calls <term type="tribe">Basuta</term> or other <orgName>Bechuanas</orgName> by that
+<lb/>term unless he wishes it to be tacitly understood
+<lb/>that he has travelled or lived among <orgName>people</orgName> equal
+<lb/>to those who have <unclear cert="medium">bangled</unclear> about the brave <term type="nationality">British</term>
+<lb/><term type="occupation">soldier</term> <unclear cert="medium">so roughly</unclear> - It is noticeable that the tribe
+<lb/>which drove the <orgName>good men of <placeName><settlement type="town">Tete</settlement></placeName></orgName> into their fort is
+<lb/>of the real <orgName>Caffre</orgName> or <orgName>Zulah</orgName> tribe - And firearms &amp;
+<lb/>gunpowder are now contraband all along the coast.
+<lb/>as at the <placeName><region>Cape</region></placeName>. The <term type="occupation">missionaries</term> <del type="strikethrough">too</del> have had no
+<lb/>hand in it here - neither has <term type="occupation"><choice><sic><term type="animal">cattle</term> stealing</sic><corr><term type="animal">cattle</term>-stealing</corr></choice></term> for there
+<lb/>were none to <term type="occupation">steal</term> - What else can we do now but
+<lb/>turn up the whites of our eyes and exclaim, "<orgName>Caffre</orgName>
+<lb/>wars are ordained by the immutable decrees of Heaven,
+<lb/>and in engaging therein we labour under the same
+<lb/>"terrible necessity"  as the <term type="nationality">American</term> <term type="occupation">professor</term> of
+<lb/>chemistry (said <hi rend="underline">he</hi> was) to dismember quickly, the
+<lb/><choice><sic>the</sic><corr/></choice> man he murdered" the <orgName>native</orgName> laws are
+<lb/>very strict - the boundaries of the lands of each <term type="occupation">chief</term>
+<lb/>are well known and clearly defined by numerous
+<lb/>Torrent beds or "sand rivers". If anyone kills an
+<lb/><term type="animal">elephant</term> the half which lies on the ground belongs
+<lb/>to the lord of the soil, and should the <term type="occupation">huntsman</term>
+<lb/>commence <term type="occupation">cutting up</term> before a man comes from
+<lb/>the <term type="occupation">chief</term> to give permission, he loses both carcase
+<lb/>and tusks. This law and others equally stringent
+<lb/>apply to both <orgName>natives</orgName> and <orgName>Europeans</orgName> -</p>
+
+
+	<pb facs="liv_000877_0006" n="0006"/>
+<lb/><p>I must now give you a sketch of the physical
+<lb/>geography of the region which has come under my
+<lb/>observation - When I mentioned in my last the
+<lb/>curious phenomenon of the <placeName><geogName type="river">Lotembua</geogName></placeName> flowing from
+<lb/><placeName><settlement type="town">Dilolo</settlement></placeName> in two directions I had the whole excogitated
+<lb/>and ready, but had not yet mustered courage enough
+<lb/>to bare my back to the critical scourge of you knowing
+<lb/><term type="occupation">philosophers</term> - a short time afterwards however
+<lb/>I found by perusal of a speech made by <persName>Sir <choice><abbr>R.</abbr><expan>Roderick</expan></choice>
+<lb/>Murchison</persName> before the <orgName><choice><abbr>R.</abbr><expan>Royal</expan></choice> <choice><abbr>Geog.</abbr><expan>Geographical</expan></choice> Society</orgName> so long ago as
+<lb/><date when="1852">1852</date> the same views clearly expressed - As I arrived
+<lb/>at the conclusions by a route wholly my own and
+<lb/>have such an eminent forerunner I have now
+<lb/>no hesitation in expressing them - In <date when="1843">1843</date> I sent
+<lb/><bibl>a paper</bibl> to the <persName>Rev<hi rend="sup underline">d</hi> D<hi rend="sup underline">r</hi> Buckland</persName> in  which I trace
+<lb/>the gradual desiccation of the <placeName><region><orgName>Bechuana</orgName> country</region></placeName>
+<lb/>to the elevation of the country to the westward, And
+<lb/>indicated the course of a large river which
+<lb/>flowed from North to South exactly as the
+<lb/><placeName><geogName type="river"><choice><orig>Leeamby</orig><reg>Leeambye</reg></choice></geogName></placeName> does now - that the period of this
+<lb/>flow was geologically recent I inferred from
+<lb/>observing that it flowed into a large Lake which
+<lb/>must have been discharged when the <placeName><geogName type="river">Orange River</geogName></placeName>
+<lb/>found a <choice><orig>fizzure</orig><reg>fissure</reg></choice> made for it - (As described by
+<lb/><persName>Campbell</persName> it is not a waterfall, but a deep rent as
+<lb/>at <placeName><geogName type="waterfall">Mosioatunya</geogName></placeName>) And at its point of confluence
+<lb/>with the Lake there are several conical hills of
+<lb/>amygdaloid which caused an eddy and the deposit
+<lb/>of a mound of calcareous tufa containing
+<lb/>a mass of fossil bones which from being like
+<lb/>those of the <term type="animal">zebra</term> or <term type="animal">buffalo</term> I conjecture to be
+<lb/>recent. I have been remarkably unfortunate
+<lb/>in geologizing - when I discovered this mound
+<lb/>I had not even a hammer with me and would
+<lb/>not spoil the beautiful teeth &amp;c. which stood
+<lb/>out in bold relief on the rock. Many years
+<lb/>afterward my other duties led me back to
+<lb/>that point and fully armed I felt as a keen
+<lb/><term type="occupation">Antiquarian</term> would, if he expected to meet
+<lb/>a <bibl>manuscript history of the world</bibl> by <persName>Methusaleh</persName>
+
+
+	<pb facs="liv_000877_0007" n="0007"/>
+<lb/>with an appendix containing an account of the Flood
+<lb/>by <persName>Ham</persName> one of the <orgName>survivors</orgName> - you will not think
+<lb/>this exaggerated when you reflect that I had been peering
+<lb/>at rocks for many a day in a country where there <!-- geog: -->
+<lb/>is no <term type="occupation"><choice><sic>road making</sic><corr>road-making</corr></choice></term> or <term type="occupation">quarrying</term> or even torrents
+<lb/>laying fossils bare, and this was the only instance
+<lb/>in which Fossil bones gladdened my sight. But an
+<lb/>express came from <placeName><settlement type="village">Kuruman</settlement></placeName> - the son of another
+<lb/><term type="occupation">missionary</term> was dangerously ill - I galloped <measure>a hundred
+<lb/>miles</measure> back to find him in his grave, And never
+<lb/>had and now probably never will have an opportunity
+<lb/>of visiting that part again (it is near <placeName>Bootchap</placeName> <!-- geog: -->
+<lb/>and the mound is known to <persName>Rev<hi rend="sup underline">d</hi> <choice><abbr>H.</abbr><expan>Holloway</expan></choice> Helmore</persName> of
+<lb/><placeName>Likatlong</placeName> who would willingly <choice><orig>shew</orig><reg>show</reg></choice> it to any scientific
+<lb/><term type="occupation">traveller</term>) To crown my geological misfortunes
+<lb/>some epiphises &amp; other loose portions of bones I picked
+<lb/>up, with specimens to illustrate the geology of
+<lb/>the <placeName><region>Interior</region></placeName> though taken to <placeName><country>England</country></placeName> by <persName>Rev H. M.
+<lb/>Methven</persName><!-- unrecognised abbreviation AM --> were stolen from the railway before they
+<lb/>reached the venerable <choice><abbr>D<hi rend="sup underline">r</hi></abbr><expan>Doctor</expan></choice>'s hands, the thief, it is <!-- persName: -->
+<lb/>supposed, thinking the box contained plate! And the <orgName>Boers</orgName>
+<lb/>at <placeName><settlement type="village">Kolobeng</settlement></placeName> finished the remainder, I am not
+<lb/>aware whether any public use were made of that
+<lb/><bibl>paper</bibl> - But you will further on <choice><sic>percieve</sic><corr>perceive</corr></choice> the
+<lb/>connection there exists between this part of the
+<lb/>continent and that beyond <placeName><geogName type="lake">Lake Ngami</geogName></placeName> - the
+<lb/>one is a basin partially filled up with eruptive
+<lb/>rocks - the other is really of a basin or trough
+<lb/>form at the present time - In going North the
+<lb/>presence of large <term type="plant"><placeName><region>Cape</region></placeName> heaths</term> and <term type="plant">Rhododendrons</term>
+<lb/>made me imagine that we were travelling on
+<lb/>an elevated table land and the sudden descent
+<lb/>of at least <measure>a thousand feet</measure> into the valley of
+<lb/>the <placeName><geogName type="river">Quango</geogName></placeName> seemed to confirm the idea - But
+<lb/>having hopes of meeting an <w>Ane<subst><del><gap extent="6" unit="chars"/></del><add place="above">roid</add></subst></w> or Barometer
+<lb/>at <placeName><settlement type="town">Loanda</settlement></placeName> I did not try my only other resource 
+<lb/>for measuring elevations <foreign xml:lang="und"><choice><abbr>viz.</abbr><expan>videlicet</expan></choice></foreign> the point of ebullition
+<lb/>of water - Being disappointed by the <term type="occupation">autocrat</term> of
+<lb/>all the <placeName><bloc>Russias</bloc></placeName> requiring the presence of my friend
+
+
+	<pb facs="liv_000877_0008" n="0008"/>
+<lb/>I was obliged to trust to the Thermometer and as I
+<lb/>tried to use it always at the same hour of the day
+<lb/>and when the temperature of the air in the shade was
+<lb/>the same I hope the results may be taken as an
+<lb/>approximation - As I have not a table for reducing
+<lb/>the degrees to feet I must give you the degrees <w>them<supplied>-</supplied>
+<lb break="no"/>-selves</w>. Well, the highest point of <placeName><region>Pungo Andongo</region></placeName>
+<lb/>is the most westerly observation in measuring
+<lb/>an oblong ridge which lies parallel to and
+<lb/><measure>about 300 miles</measure> from the <placeName><region>West coast</region></placeName> - It <w>canno<supplied>t</supplied></w>
+<lb/>be less than <measure>20° of latitude long</measure> and from it <w>aris<supplied>e</supplied></w>
+<lb/>the <placeName><geogName type="river">Coanza</geogName></placeName> and <placeName><geogName type="river">Quango</geogName></placeName> on the <placeName><region>North West</region></placeName> -
+<lb/>the <placeName><geogName type="river">Loeti</geogName></placeName> on the <placeName><region>South</region></placeName> - the numerous rivers
+<lb/>which unite and form the  <placeName><geogName type="river">Chobe</geogName></placeName> - the <placeName><geogName type="river">Embarral</geogName></placeName>
+<lb/>or <placeName><geogName type="river">River of Loebe</geogName></placeName> on the <placeName><region>South West</region></placeName> - &amp; the
+<lb/><placeName><geogName type="river">Casai</geogName></placeName> and its many feeders on the <placeName><region>East</region></placeName></p>
+<lb/><p><hi rend="right">Brisk <choice><abbr>Ebull</abbr><expan cert="medium">Ebullition</expan></choice></hi></p>
+
+<lb/><list><item><space extent="6" unit="chars"/>Top of Rocks of <placeName><region>Pungo Andongo</region></placeName> <seg rend="right"><metamark/><hi rend="underline gray">4210</hi><!-- number encircled AM --><hi rend="sup gray">H</hi></seg><seg rend="right">204</seg></item>
+
+<lb/><item><space extent="6" unit="chars"/>Top of <placeName>Tala Mungongo</placeName> ------<!-- horizontal line of about 6 characters AM --><seg rend="right"><hi rend="gray">(3151)</hi></seg><seg rend="right">206</seg></item>
+
+<lb/><item><space extent="6" unit="chars"/>Bottom of descent of ditto ------<!-- horizontal line of about 6 characters AM --><seg rend="right"><hi rend="gray">(2097)</hi></seg><seg rend="right"><w>20<gap extent="1" unit="chars" agent="illegible"/></w></seg></item>
+
+<lb/><item><space extent="6" unit="chars"/>Bottom of Eastern ascent <seg rend="right"><hi rend="gray">(<hi rend="underline">3680</hi>)</hi></seg><seg rend="right"><w>20<gap extent="1" unit="chars" agent="illegible"/></w></seg></item>
+
+<lb/><item><space extent="6" unit="chars"/>Top of ditto --------------------<!-- horizontal line of about 20 characters AM --><seg rend="right"><hi rend="gray">(5278)</hi></seg><seg rend="right"><w>20<gap extent="1" unit="chars" agent="illegible"/></w></seg></item>
+
+<lb/><item><space extent="6" unit="chars"/><placeName>Dilolo</placeName> ----------------------<!-- horizontal line of about 22 characters AM --><seg rend="right"><hi rend="gray">(4741)</hi></seg><seg rend="right"><w>20<gap extent="1" unit="chars" agent="illegible"/></w></seg></item>
+
+<lb/><item><space extent="6" unit="chars"/>Confluence of <placeName><geogName type="river">Leeba</geogName></placeName> &amp; <placeName><geogName type="river">Leeambye</geogName></placeName> ------<!-- horizontal line of about 6 characters AM --><seg rend="right"><hi rend="gray">(4741)</hi></seg><seg rend="right"><w>20<gap extent="1" unit="chars" agent="illegible"/></w></seg></item>
+
+<lb/><item><space extent="6" unit="chars"/>Average of many <choice><abbr>obs<hi rend="sup">ns</hi></abbr><expan>observations</expan></choice> at <placeName><settlement type="town">Linyanti</settlement></placeName> <seg rend="right"><hi rend="gray">(<subst><del>3839<hi rend="sup">3571</hi></del><add place="below"><hi rend="underline">4051</hi></add></subst>)</hi></seg><seg rend="right"><w>20<gap extent="1" unit="chars" agent="illegible"/></w></seg></item>
+
+<lb/><item><note>Quoted from <lb/>memory <lb/><hi rend="underline">doubtful</hi></note><metamark/><!-- start of curly bracket linking the next 2 lines AM --><placeName><geogName type="lake">Lake Ngami</geogName></placeName> ------<!-- horizontal line of about 6 characters AM --><seg rend="right"><hi rend="gray">(2624)</hi></seg><seg rend="right">- 207°</seg><space extent="3" unit="chars"/><seg rend="right"><hi rend="gray">(?)<add place="below">3151</add></hi></seg><seg rend="right"><w>20<gap extent="1" unit="chars" agent="illegible"/></w></seg></item>
+
+<lb/><item><space extent="6" unit="chars"/><!-- continuation of curly bracket starting on previous line AM --><placeName><settlement type="village">Kolobeng</settlement></placeName> --------<!-- horizontal line of about 8 characters AM --><seg rend="right"><hi rend="gray">(3945)</hi></seg><seg rend="right">204<choice><orig>½</orig><reg>1/2</reg></choice></seg><space extent="2" unit="chars"/><seg rend="right"><hi rend="gray">(?)<add place="below">3680</add></hi></seg><seg rend="right"><w>20<gap extent="1" unit="chars" agent="illegible"/></w></seg></item></list>
+
+<lb/><p>If you do not reject my instrument in <w>tota<supplied>l</supplied></w>
+<lb/>the ascent of <placeName>Tala Mungongo</placeName> which to the eye
+<lb/>is much higher is in reality lower and not
+<lb/>much higher than <placeName><geogName type="lake">Lake Ngami</geogName></placeName> which is certainly
+<lb/>in a hollow - Indeed I believe when we were
+<lb/>looking at the <term type="plant">Rhododendrons</term> we were nearly on
+<lb/>the crest of the ridge and the <placeName><geogName type="river">Quango</geogName></placeName> has given
+<lb/>us a section of it <choice><orig>shewing</orig><reg>showing</reg></choice> it is composed of
+<lb/>red clay slate (<foreign xml:lang="und">scotticé Keebe</foreign>) Then <placeName><settlement type="town">Dilolo</settlement></placeName>
+<lb/>forms a sort of partition in the valley which
+<lb/>exists between this the <placeName><region>Western</region></placeName> and a similar
+<lb/>ridge which we have found <measure>about 10° Eastward</measure>
+
+
+	<pb facs="liv_000877_0009" n="0009"/>
+<lb/><fw n="heading_3"><hi rend="underline"><choice><abbr>3<hi rend="sup">d</hi></abbr><expan>third</expan></choice> sheet</hi></fw>
+<lb/>for all the rivers and rivulets turn Northerly or Southerly
+<lb/>from that point according as they belong <supplied cert="high">to</supplied> the <placeName><region>Western</region></placeName> or
+<lb/><placeName><region>Eastern</region></placeName> outgoing drains of the country - the <placeName><geogName type="river">Lotembua</geogName></placeName> <!-- geog: Central Africa -->
+<lb/>alone sends a portion of its waters to the <placeName><geogName type="ocean">Atlantic</geogName></placeName> and
+<lb/>another portion to the <placeName><geogName type="ocean"><term type="nationality">Indian</term> Ocean</geogName></placeName> The general direction
+<lb/>of the chains of hills, and the dip, of the old rocks which
+<lb/>contain impressions of <term type="plant">algae</term> only, or the ripple mark
+<lb/>with no fossils, being towards the centre of the continent
+<lb/><choice><orig>shew</orig><reg>show</reg></choice> that the present form is very <choice><sic>antient</sic><corr>ancient</corr></choice>. The
+<lb/>eruptive rock on which <placeName><settlement type="village">Kuruman</settlement></placeName> stands brought
+<lb/>up fragments of these bottom rocks in its substance
+<lb/>Geologically the country around and <placeName><region>North of <placeName><settlement type="village">Kuruman</settlement></placeName></region></placeName>
+<lb/>forms part of a great primaeval valley. It was
+<lb/>therefore with much satisfaction I noticed <persName>Sir <choice><abbr>R.M.</abbr><expan>Roderick Murchison</expan></choice></persName>
+<lb/>mentioning with approbation the views of <persName>M<hi rend="sup">r</hi> Bain</persName>
+<lb/>who is really a <term type="occupation">geologist</term> and not a mere dabbler
+<lb/>in the science like myself - I am however dosing
+<lb/>you with my observations and cogitations with a
+<lb/>specific object in view. If you cannot demolish
+<lb/>my theory I mean to give some useful advice to
+<lb/>all who may attempt to <term type="occupation">explore</term> or <term type="occupation">civilize</term> <placeName><bloc>Africa</bloc></placeName> -
+<lb/>So be patient -</p>
+<lb/><p>When we left <placeName><geogName type="island">Kalai</geogName></placeName> we went a little North into the
+<lb/>bed of the <placeName><geogName type="rivulet">Lekoné</geogName></placeName> a rivulet which joins the <placeName><geogName type="river"><choice><orig>Leeamby</orig><reg>Leeambye</reg></choice></geogName></placeName> a
+<lb/>few miles above <placeName><geogName type="island">Kalai</geogName></placeName>. Going up its bed it seems
+<lb/>wonderfully like what may have been the bed of the
+<lb/><placeName><geogName type="river">Leeambye</geogName></placeName> before the formation of the <choice><orig>Fizzure</orig><reg>Fissure</reg></choice> - but after
+<lb/>going <measure>ten or twelve miles</measure> we left the valley on our right
+<lb/>or South. I give the observations on the <placeName><region>Eastern ridge</region></placeName>
+<lb/>here</p>
+
+<lb/><list><item>Bed of the <placeName><geogName type="rivulet">Lekoné</geogName></placeName> near the falls - Brisk Ebullition <seg rend="right"><add place="above" rend="gray">(3945)</add></seg><seg rend="right">204°<choice><orig>½</orig><reg>1/2</reg></choice></seg></item>
+
+<lb/><item><placeName><persName>Marimba</persName>'s</placeName> after leaving <placeName><geogName type="rivulet">Lekoné</geogName></placeName> ------ <seg rend="right"><hi rend="gray">4608</hi></seg><seg rend="right">203<choice><orig>¼</orig><reg>1/4</reg></choice></seg></item>
+
+<lb/><item>Near source of <placeName><geogName type="river">Unguesi</geogName></placeName> ------------<!-- horizontal line about 12 characters--><seg rend="right"><hi rend="gray">5009</hi></seg><seg rend="right">202<choice><orig>½</orig><reg>1/2</reg></choice></seg></item>
+
+<lb/><item>Banks of the <placeName><geogName type="river">Kalomo</geogName></placeName> - (top of ridge) <seg rend="right"><hi rend="gray">5278</hi></seg><seg rend="right">202°</seg></item>
+
+<lb/><item><placeName>Naka Ahanto</placeName> on <placeName><region>Eastern</region></placeName> descent from Ridge <seg rend="right"><hi rend="gray">(4210)</hi></seg><seg rend="right">204°</seg></item>
+
+<lb/><item>Banks of the <placeName><geogName type="river">Kafué</geogName></placeName> or <placeName><geogName type="river">Bashukulompo <choice><abbr>R.</abbr><expan>River</expan></choice></geogName></placeName> <seg rend="right"><hi rend="gray">(3415)</hi></seg><seg rend="right">205<choice><orig>½</orig><reg>1/2</reg></choice></seg></item>
+
+<lb/><item>Top of the hills at <placeName><persName>Semalembue</persName>'s</placeName> <seg rend="right"><hi rend="gray">(4078)</hi></seg><seg rend="right">204<choice><orig>¼</orig><reg>1/4</reg></choice></seg></item>
+
+<lb/><item>Bottom of <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <seg rend="right"><hi rend="gray">(3288)</hi></seg><seg rend="right">205<choice><orig>¾</orig><reg>3/4</reg></choice></seg></item>
+
+<lb/><item>Banks of <placeName><geogName type="river">Zambesi</geogName></placeName> near <choice><abbr>conf<hi rend="sup underline">ce</hi></abbr><expan>confluence</expan></choice> of <placeName><geogName type="river">Kafué</geogName></placeName> <seg rend="right"><hi rend="gray">(1571)</hi></seg><seg rend="right">209°</seg></item>
+
+<lb/><item>----- <space extent="4" unit="chars"/>------- <space extent="5" unit="chars"/><!-- horizontal lines indicating repetition of "Banks of Zambesi" from previous line AM --> at <space extent="3" unit="chars"/>--- <space extent="3" unit="chars"/><!-- horizontal lines indicating repetition of "confluence"  from previous line AM --> of <placeName><geogName type="river">Loangwa</geogName></placeName> <seg rend="right"><hi rend="gray">(1440)</hi></seg><seg rend="right">209<choice><orig>¼</orig><reg>1/4</reg></choice></seg></item></list>
+
+
+	<pb facs="liv_000877_0010" n="0010"/>
+<lb/><p>Here it may be remarked that the <placeName><geogName type="rivulet">Lekoné</geogName></placeName> flows in the
+<lb/>contrary direction to the <placeName><geogName type="river">Zambesi</geogName></placeName> or <placeName><geogName type="river"><choice><orig>Leeamby</orig><reg>Leeambye</reg></choice></geogName></placeName> and so <w>d<supplied>oes</supplied></w>
+<lb/>the <placeName><geogName type="river">Unguesi</geogName></placeName> which indeed joins that river above
+<lb/>the commencement of the rapids at which we left
+<lb/>the canoes - The <placeName><geogName type="river">Kalomo</geogName></placeName> on the top of the ridge <w>flow<supplied>s</supplied></w>
+<lb/>South - the <placeName><geogName type="river">Mozuma</geogName></placeName> the first rivulet on the <placeName><region>Eastern
+<lb/>side</region></placeName> flows Easterly and then the rivulets flow away
+<lb/>into the <placeName><geogName type="river">Kafué</geogName></placeName> Suppose the bed of the <placeName><geogName type="rivulet">Lekoné</geogName></placeName>
+<lb/>or we may say the ancient bed of the <placeName><geogName type="river">Zambesi</geogName></placeName>
+<lb/>to have suffered little or no change of elevation by
+<lb/>formation of the <choice><orig>fizzure</orig><reg>fissure</reg></choice> then the elevation being one
+<lb/>a little more than that of <placeName><settlement type="town">Linyanti</settlement></placeName> we see the <w>machin<supplied>ery</supplied></w>
+<lb/>by which a vast lake was collected which embraced
+<lb/>in its bosom, most of the <add place="below">^</add> <add place="above">bed of the</add> <placeName><geogName type="river">Chobe</geogName></placeName> - <placeName><geogName type="lake">Lake Ngami</geogName></placeName> and
+<lb/>much of the country from <placeName>Nchokotsa</placeName> Eastwards - this
+<lb/>is abundantly evident otherwise for the whole of the
+<lb/>space thus indicated is covered over with a thick
+<lb/>bed of soft calcareous <foreign xml:lang="und">tufa</foreign> <del type="strikethrough">with</del> which the <w>water<supplied>s</supplied></w>
+<lb/>formerly seem to have deposited most copiously -
+<lb/>and considerably to the <placeName><region>South West of <placeName><geogName type="lake">Ngami</geogName></placeName></region></placeName> if an
+<lb/><term type="insect">anteater</term> digs his burrow shells are thrown up
+<lb/>identical with those now living in the <placeName><geogName type="river">Zambesi</geogName></placeName> &amp;
+<lb/><placeName><geogName type="river">Zouga</geogName></placeName> It is also pretty certain the waters <add place="below">^</add> <add place="above">pent up</add> in
+<lb/><placeName><region>Barotse Valley</region></placeName> were discharged by the <choice><orig>fizzure</orig><reg>fissure</reg></choice> of <placeName>Gonye</placeName>
+<lb/>and there are other <add place="below">^</add> <add place="above"><choice><orig>fizzure</orig><reg>fissure</reg></choice></add> falls in the country as one in
+<lb/>the <placeName><geogName type="river">Kabompo</geogName></placeName> or <placeName><geogName type="river">Leeambye</geogName></placeName> beyond <placeName><persName>Masiko</persName>'s</placeName> and
+<lb/>another in the <placeName><geogName type="river">Bashukulompo river</geogName></placeName> -</p>
+<lb/><p>That these ridges are much farther <placeName><region>North</region></placeName> than
+<lb/>my enquiries extend may perhaps be inferred
+<lb/>from the <placeName><geogName type="river">Congo</geogName></placeName> or <placeName><geogName type="river">Baire</geogName></placeName> being exceedingly narrow
+<lb/>where <persName>Captain Tackey</persName> turned yet <persName>Commander
+<lb/>Bedingfield</persName> informed me that it yields an extraordinary
+<lb/>large amount of water to the ocean - Indeed no sounding
+<lb/>can be found with ordinary lines near the mouth
+<lb/>though the stream is rapid and perfectly fresh - I <w>h<supplied>ave</supplied></w>
+<lb/>referred already to the <choice><orig>fizzure</orig><reg>fissure</reg></choice> outlet of the <placeName><geogName type="river">Orange River</geogName></placeName>
+<lb/>Information got from <orgName>Arabs</orgName> from <placeName><geogName type="island">Zanzibar</geogName></placeName>
+<lb/>and the <term type="tribe">Makololo</term> who went on a <subst><del>trading</del> <add place="above">marauding</add></subst> <w>expeditio<supplied>n</supplied></w>
+<lb/>to the <placeName><region>East</region></placeName> or <placeName><region><choice><abbr>E N E</abbr><expan>East Northeast</expan></choice></region></placeName> of <placeName>Masiko</placeName> while we <w>wer<supplied>e</supplied></w>
+<lb/>at <placeName><settlement type="town">Loanda</settlement></placeName> may be cited as next best to
+<lb/>actual observation - the <orgName>Arabs</orgName> say a large <w>rive<supplied>r</supplied></w>
+<lb/>flows from the East or country of <placeName><region>Banyassa</region></placeName>
+<lb/>(<placeName><region>N'yassa</region></placeName>) to the South West and passing near
+
+
+	<pb facs="liv_000877_0011" n="0011"/>
+<lb/><placeName>Cazembé</placeName> joins the <placeName><geogName type="river">Leeambye</geogName></placeName>. The <term type="tribe">Banyassa</term> live on
+<lb/>a hilly country and have no Lake in their own land
+<lb/>but to their <choice><abbr>NNW</abbr><expan>North-Northwest</expan></choice> the large <placeName><geogName type="lake">Lake Tanganyeñka</geogName></placeName> is
+<lb/>situated and that is connected with another still
+<lb/>farther North and is named <placeName><geogName type="lake">Kalagwé</geogName></placeName> (<placeName><geogName type="lake">Garague</geogName></placeName>?)
+<lb/>(I am <term type="occupation">writing</term> now in the most profound ignorance of
+<lb/>all that may have been done there during the last few
+<lb/>years) My <orgName>Arab</orgName> friend goes <subst><del>but</del><add place="above">either</add></subst> round the end of
+<lb/><placeName><geogName type="lake">Tanganyenka</geogName></placeName> or is taken <choice><sic>accross</sic><corr>across</corr></choice> it the distance
+<lb/>being <measure>three days</measure> and the canoe is <term type="occupation">punted</term> the whole
+<lb/>way. It is <measure>ten days</measure> North East of <placeName>Cazembe</placeName> - Is it
+<lb/>unreasonable to suppose these large shallow
+<lb/>collections of water are aught else but the result
+<lb/>of <seg type="weather">tropical rains</seg> - the <choice><orig>fizzures</orig><reg>fissures</reg></choice> in the <placeName><region>Eastern
+<lb/>ridge</region></placeName> not yet being deep enough to produce
+<lb/>perfect drainage</p>
+<lb/><p>The <term type="tribe">Makololo</term> when in their <placeName><region>Eastern</region></placeName> foray
+<lb/>were accompanied by the above referred to <orgName>Arab</orgName> -
+<lb/>and when near <placeName><w>Sebolamak<gap extent="1" unit="chars" agent="blot"/>ea</w></placeName> they found a
+<lb/>large river coming from a distant ridge to which
+<lb/>the <orgName>Arab</orgName> directed their attention saying "When we
+<lb/>see that we always know that we are only about
+<lb/>to begin our descent of <measure>ten or fifteen days</measure> to the
+<lb/>sea" - the same river named <placeName><geogName type="river">Lokanka</geogName></placeName> spreads out
+<lb/>into a Lake called <placeName><geogName type="lake">Shuia</geogName></placeName> (<placeName><geogName type="lake">Shooeea</geogName></placeName>) which gives off
+<lb/>two rivers - these uniting with the <placeName><geogName type="river">Kafue</geogName></placeName> again divide
+<lb/>and join it and the <placeName><geogName type="river">Loangwa</geogName></placeName> - the situation is that
+<lb/>assigned to <placeName><geogName type="lake">Lake Maravi</geogName></placeName> - But the country being
+<lb/>full of reedy marshes <choice><orig>shews</orig><reg>shows</reg></choice> clearly, with the directions
+<lb/>of the <placeName><geogName type="river">Loapola</geogName></placeName> and <placeName><geogName type="river">Lokanka</geogName></placeName>, that there too the basin
+<lb/>form prevails - the strike of the rocks of the <placeName><region>Eastern
+<lb/>ridge</region></placeName> makes me suppose it trends away to the
+<lb/>North East - this agrees with what both the <orgName>Arab</orgName> &amp;
+<lb/><term type="tribe">Makololo</term> report - </p> 
+<lb/><p>Now like the postscript of a <orgName>lady</orgName>'s <w><gap extent="2" unit="chars" agent="blot"/><supplied>le</supplied>tter</w> comes
+<lb/>the Kernel of the whole of this verbiage - Both <placeName><region>Eastern</region></placeName>
+<lb/>and <placeName><region>Western ridges</region></placeName> are decidedly salubrious <del type="strikethrough">While</del>
+<lb/>while the valley is as decidedly deadly. <orgName>Criminals</orgName>
+<lb/>who were doomed by the <term type="people">Portuguese</term> to the Black
+<lb/>rocks of <placeName><region>Pungo Andongo</region></placeName> were believed to be
+
+
+	<pb facs="liv_000877_0012" n="0012"/>
+<lb/>undergoing a much severer punishment than those
+<lb/>who were sentenced to transportation to the coast But
+<lb/>these same rocks are now known to be in the healthiest
+<lb/>District in <placeName><region>Angola</region></placeName> - And <placeName>Bihé</placeName> still farther in is
+<lb/>more salubrious still. It is the same with the
+<lb/><placeName><region>Eastern ridge</region></placeName> - We saw neither a marsh nor a <w>fount<gap extent="3" unit="chars" agent="illegible"/><supplied>ain</supplied></w>
+<lb/>on it, and though I have been for a month on the
+<lb/><placeName><geogName type="river">Zambesi</geogName></placeName> I have <del type="strikethrough">had</del> suffered nothing from <term type="ailment">fever</term>
+<lb/>this however is partly owing to having had <term type="foodstuff">wheaten bread</term>
+<lb/>and not the mere starch of <placeName><region>Londa</region></placeName> <foreign xml:lang="und"><term type="plant_foodstuff">manioc</term></foreign> &amp; <term type="plant_foodstuff"><term type="animal">bird</term>'s seed</term>.
+<lb/><placeName><region>Zumbo</region></placeName> was healthy - not because it was elevated for
+<lb/>the country is all low - the ranges of hills which run
+<lb/>all along on each side of the river are not so high as
+<lb/>the ridges we left behind - If then these salubrious
+<lb/>ridges run much farther to the North than my <w>enquirie<supplied>s</supplied></w>
+<lb/>extend it may be recommended to all those who
+<lb/><term type="occupation">engage in scientific pursuits</term> or in <term type="occupation">enterprises
+<lb/>of commerce and benevolence</term> to endeavour to
+<lb/>ascertain if these may not be directed from
+<lb/>sanatoria on these elevations. It is worth enquiry
+<lb/>at least - the <orgName><placeName><geogName type="river">Niger</geogName></placeName> expedition</orgName> may have turned
+<lb/>back when within <measure>fifty miles</measure> of such a desirable
+<lb/>position for its stricken and prostrate <orgName>members</orgName> -
+<lb/>I anticipate water carriage to within <measure>2°</measure> of the <term type="tribe"><w>Makolo<supplied>lo</supplied></w></term>
+<lb/>by means of <choice><sic>flat bottomed</sic><corr>flat-bottomed</corr></choice> boats - the chief obstruction
+<lb/>are rapids and I have seen none yet equal to those
+<lb/>below the <placeName><region>Barotse valley</region></placeName>. And if this can be effected
+<lb/>during a healthy part of the year I expect to be able to
+<lb/>pursue our plans in good health - I am not so
+<lb/>much elated by the feat of crossing the continent
+<lb/>being nearly accomplished as might be expected
+<lb/>the end of the geographical feat is but the
+<lb/>beginning of the <term type="occupation">missionary</term> enterprise - that I
+<lb/>may be honoured to do some good to this poor
+<lb/>degraded <choice><sic>trodden down</sic><corr>trodden-down</corr></choice> <placeName><bloc>Africa</bloc></placeName> is a wish in
+<lb/>which you will I doubt not cordially join -</p>
+<lb/><p>Reached <placeName><settlement type="town">Tette</settlement></placeName> <date when="1856-03-02">2<hi rend="sup">d</hi> March</date> pretty well tired from
+<lb/><term type="occupation">marching</term> through a rough stoney country without path
+<lb/><term type="people">Portuguese</term> very very kind, thanks to <persName>M<hi rend="sup">r</hi> Duprat</persName> -</p>
+<closer>
+<lb/><salute>Kind remembrance to <persName>M<hi rend="sup underline">rs</hi> <choice><abbr>M.</abbr><expan>Maclear</expan></choice></persName> &amp; family, Mann Morton &amp;c</salute>
+<lb/><signed><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></signed>
+</closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

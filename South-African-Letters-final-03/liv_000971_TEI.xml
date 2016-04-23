@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000971"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<!-- Change title below -->
+                <title>Letter to Unknown, 19 March 1857</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<!-- Add or remove <respStmt> as appropriate below -->
+				<!-- Change xml:id below -->
+                <respStmt xml:id="JM">
+					<!-- Change name below -->
+                    <name>Jared McDonald</name>
+					<!-- Change, remove, or add more <resp> as appropriate below -->
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+					<name>Mary E. Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+				</respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+				<!-- Change date below if necessary -->
+                <date>2016</date>
+				<!-- Change base file name below -->
+                <idno type="LEAP-ID">liv_000971</idno>
+				<!-- Change the license below if necessart -->
+			    <availability>
+        			<licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+            			All materials are licensed for use under the 
+            			<ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                		Creative Commons Attribution-Noncommercial 3.0 Unported License
+            			</ref>. (c) Dr. Neil Imray Livingstone Wilson, 2011
+        			</licence>
+    			</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+						<!-- Change country below as needed -->
+                        <country>South Africa</country>
+						<!-- Change settlement below as needed -->
+                        <settlement>Johannesburg</settlement>
+						<!-- Change repository below as needed -->
+                        <repository>Brenthurst Library</repository>
+						<!-- Change shelfmark below as needed -->
+                        <idno type="shelfmark">21</idno>
+                        <altIdentifier>
+							<!-- Change CC number below as needed -->
+                            <idno type="ccnumber">Letters, 0477.3</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+							<!-- Add additional <handNote> elements below as needed. -->
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+					<!-- Change title below -->
+                    <title>Letter to Unknown, 19 March 1857</title>
+                    <author xml:id="DL">David Livingstone</author>
+					<!-- Change @when and date below -->					
+                    <date type="composition" when="1857-03-19">19 March 1857</date>
+					<!-- Change place below -->
+                    <placeName type="compositionPlace">57 Sloane St., London</placeName>
+					<!-- Change addressee below -->
+                    <persName type="addressee">Unknown</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. 
+				English should be first, then add all other languages, as appropriate, 
+				in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<!-- Change @when, @who, and work description below. -->
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Add new <change> elements below as needed. -->
+			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2015-10-29" who="#AW">Coding review</change>
+            <change when="2015-10-29" who="#MB">Proofing</change>
+			<change when="2015-10-20" who="#AA">Initial transcription and XML encoding</change>
+		</revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<!-- Change both @facs and @n below -->
+	<!-- Start each page with a <pb> formatted as below -->               
+	<pb facs="liv_000971_0001" n="0001"/>
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><add place="margintop" rend="center gray small" hand="#U1">1</add><dateline rend="right"><placeName>57 Sloane <choice><abbr>St</abbr><expan>Street</expan></choice></placeName> <date when="1857-03-19">19<hi rend="sup">th</hi> March<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here -->  <add place="margintop" rend="right gray small" hand="#U1">MS 21</add>
+<lb/> 1857</date></dateline><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>Dear Sir</salute><!-- Change line info as appropriate -->
+</opener>
+
+<lb/><p>I beg you will
+<lb/>accept my sincere
+<lb/>thanks for the trouble
+<lb/>you have taken
+<lb/>about the hoes.
+<lb/>and will now
+<lb/>give the information
+<lb/>your friend desires</p>
+
+<lb/><p>The smaller hoes
+	
+	<pb facs="liv_000971_0002" n="0002"/>
+<lb/><add place="margintop" rend="center gray small" hand="#U1">2</add> were given me by
+<lb/><persName>Sekeletu</persName> whose town
+<lb/>is situated in <choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 18° 17'	
+<lb/>south &amp; <choice><abbr>Long</abbr><expan>Longitude</expan></choice> 23 50'
+<lb/>East. for the purpose
+<lb/>of purchasing a canoe
+<lb/>when I should strike
+<lb/>the <placeName><geogName type="river">Zambesi</geogName></placeName>	 in my
+<lb/>Eastern course. They
+<lb/>were insufficient for
+<lb/>the purpose so I brought
+<lb/>them home. He got
+<lb/>them from his subjects
+<lb/>the <term type="tribe">Batoka</term> as tribute
+
+	<pb facs="liv_000971_0003" n="0003"/>
+<lb/><add place="margintop" rend="center gray small" hand="#U1">3</add> The <term type="tribe">Batoka</term> live East
+<lb/>of him in <choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 16° &amp; 17° <choice><abbr>S.</abbr><expan>South</expan></choice>
+<lb/><choice><abbr>Long</abbr><expan>Longitude</expan></choice> 25°-26° East
+<lb/>They smelt &amp; work
+<lb/>the iron from the
+<lb/>ore which occurs
+<lb/>in rounded masses
+<lb/>all over their country
+<lb/>and may be detached
+<lb/>from beds in which
+<lb/>they lie with pointed
+<lb/>sticks. It occurs
+<lb/>in large quantity on
+<lb/>the North bank of 
+<lb/>the <placeName><geogName type="river">Zambesi</geogName></placeName> above
+	
+	<pb facs="liv_000971_0004" n="0004"/>
+<lb/><add place="margintop" rend="center gray small" hand="#U1">4</add> <placeName><settlement type="city">Tete</settlement></placeName> called the country
+<lb/>of the <term type="tribe">Basengo</term>. I
+<lb/>brought specimens
+<lb/>of it and they are
+<lb/>now in the museum
+<lb/>of practical geology
+<lb/><placeName>Jermyn <choice><abbr>St.</abbr><expan>Street</expan></choice></placeName> One of
+<lb/>these is the specular
+<lb/>iron ore. The <term type="tribe">Basengo</term>
+<lb/>work it as well
+<lb/>as the <term type="tribe">Batoka</term>. There
+<lb/>can be no doubt
+<lb/>of it being purely a
+<lb/>native manufacture
+	
+	<pb facs="liv_000971_0005" n="0005"/>	
+<lb/><add place="margintop" rend="left gray small" hand="#U1">5</add> The other <add place="below">^</add> <add place="above">or larger</add> hoes are <add place="margintop" rend="right gray small" hand="#U1">MS 21</add>
+<lb/>said to have been
+<lb/>made by some tribes
+<lb/>near <placeName><settlement type="city">Quilimane</settlement></placeName>	
+<lb/>I got them from
+<lb/><persName>Colonel Dunes</persName>
+<lb/>of that village as
+<lb/>an addition to
+<lb/>the <term type="tribe">Batoka</term> hoes.
+<lb/><del type="strikethrough">from that gentleman</del>	
+<lb/>when I mentioned
+<lb/><add place="below">^</add> <add place="above">to him</add> that I meant to get
+<lb/>the iron tested and if
+<lb/>possible make a gun	
+	
+	<pb facs="liv_000971_0006" n="0006"/>	
+<lb/><add place="margintop" rend="left gray small" hand="#U1">6</add> barrel of them <add place="below">^</add> <add place="above">he made an addition of the large ones</add> <!--The text above this caret extends across the top of pages 6 and 7 -AA --><!-- OK as is. AW --> so
+<lb/>I think there can be
+<lb/>little doubt but that
+<lb/>they too are <add place="below">^</add> <add place="above">a</add>	purely
+<lb/>native manufacture
+<lb/>if the inability of
+<lb/>your friend to make
+<lb/>a rifle arises from
+<lb/>want of material
+<lb/>only.<!-- Comma instead of period? MB --><!-- OK. AW --> I have two
+<lb/>still by. me. <unclear cert="low">wy-one</unclear><!-- I'm uncertain about this too. MB --><!-- Adjusted slightly. AW --> 
+<lb/>of each sort. I should
+<lb/>have most confidence
+<lb/>in the <term type="tribe">Batoka</term> iron
+
+	<pb facs="liv_000971_0007" n="0007"/>
+<lb/><add place="margintop" rend="right gray small" hand="#U1">7</add> as I have seen its
+<lb/>great toughness when
+<lb/>an assegai or spear
+<lb/>of it lighted on the 
+<lb/>cranium of a <term type="animal"><w>hippo-
+<lb break="no"/>potamus</w></term> it curled
+<lb/>up. <figure/> instead
+<lb/>of breaking and the
+<lb/>owner straightened
+<lb/>it again <hi rend="underline">cold</hi> with
+<lb/>two stones. could a
+<lb/>gun of any kind be
+<lb/>made of it? Or
+<lb/>anything else to test
+<lb/>its power. I should
+	
+	<pb facs="liv_000971_0008" n="0008"/>
+<lb/><add place="margintop" rend="left gray small" hand="#U1">8</add> be glad to be able to
+<lb/>refer to your friends
+<lb/>opinion of the iron
+<lb/>in my work</p>
+<lb/><p>Apart from the above
+<lb/>I am anxious to order
+<lb/>two good rifles for
+<lb/>about £15 each = double
+<lb/>barrelled - not highly
+<lb/>finished but quite
+<lb/>trustworthy. One is
+<lb/>for <persName>Sekeletu</persName> the other
+<lb/>for myself - I left
+<lb/>the ivory which
+<lb/><persName>Sekeletu</persName> sent to purchase
+	
+	<pb facs="liv_000971_0009" n="0009"/>	
+<lb/><add place="margintop" rend="left gray small" hand="#U1">9</add> his at <placeName><settlement type="city"><w>Quilim<subst><del>e</del><add place="over-text">a</add></subst>ne</w></settlement></placeName><!-- placename before word? MB --><!-- OK as is. AW --> <add place="margintop" rend="right gray small" hand="#U1">MS 21</add>
+<lb/>but will pay with
+<lb/>my won money
+<lb/>here.</p>
+<lb/><p rend="no-indent">I would not object
+<lb/>to giving more
+<lb/>than £15 say £20
+<lb/>if your friend
+<lb/>thinks I could not
+<lb/>get a reliable article
+<lb/>cheaper. I understand
+<lb/>the prices of rifles
+<lb/>are enhanced by
+
+	<pb facs="liv_000971_0010" n="0010"/>
+<lb/><add place="margintop" rend="left gray small" hand="#U1">10</add>the high finish. that
+<lb/>I care little about
+<lb/>and only want
+<lb/>the weapon made
+<lb/>of good stuff &amp;
+<lb/>able to do its duty
+<lb/>I cannot <w>exp<gap extent="1" unit="chars" agent="blot"/><supplied cert="high">e</supplied>ct</w>
+<lb/>you to write about
+<lb/>these matters but
+<lb/>as your brother
+<lb/>in law probably
+<lb/>knows the smith
+<lb/>to be a man on
+	
+	<pb facs="liv_000971_0011" n="0011"/>	
+<lb/><add place="margintop" rend="left gray small" hand="#U1">11</add> whose honour one
+<lb/>can depend I shall
+<lb/>feel obliged if
+<lb/>you give me his
+<lb/>address so that
+<lb/>if he is willing
+<lb/>to oblige me by
+<lb/>taking a small
+<lb/>order I may
+<lb/>apply to him myself</p>
+<lb/><p>I want also
+<lb/>to send a gun for repairs
+<lb/>will you oblige me
+
+	<pb facs="liv_000971_0012" n="0012"/>
+<lb/><add place="margintop" rend="left gray small" hand="#U1">12</add> by letting me know
+<lb/>also the place of
+<lb/>business of the gun
+<lb/>smith. I have been
+<lb/>so long out of the
+<lb/>world I feel quite
+<lb/><w>bewilde<gap extent="1" unit="chars" agent="fading"/><supplied cert="high">r</supplied>ed</w> in trying
+<lb/>to send anything
+<lb/>anywhere. Please
+<lb/>do not trouble yourself
+<lb/>to write a long note
+<lb/>about this offer
+</p>
+
+<!-- If there is a letter or similar with a closer with content such as salute or signed -->
+<closer>
+<lb/><salute>Believe me yours &amp;C</salute><!-- Change as appropriate -->
+<lb/><signed><persName>David Livingstone</persName></signed><!-- Change as appropriate --> 
+</closer>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
