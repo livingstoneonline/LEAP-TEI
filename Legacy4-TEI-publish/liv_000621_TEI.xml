@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000621">
+    <!-- xml:id attribute value above should be same as the LEAP file name (without .xml suffix) -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title>Letter to Charles Whish</title>
+                <title type="alternative">Letter to Charles Whish, 9 October 1846</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="SF">
+					<name>Samantha Fitch</name>
+					<resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="EC">
+					<name>Erin Cheatham</name>
+					<resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">780</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0156</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Charles Whish, 9 October 1846</title>
+                    <author>Livingstone, David, 1813-1873</author>
+                    <date type="composition" when="1846-10-09">9 October 1846</date>
+                    <placeName type="compositionPlace">Chonuane</placeName>
+                    <persName type="addressee">Whish, Charles</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-10-15" who="#CL">Corrections</change>
+			<change when="2015-08-22" who="#AW">Coding review</change>
+            <change when="2015-07-25" who="#HB">Proofing and Quality Control</change>
+            <change when="2014-10-20" who="#MW">Proofreading and XML encoding</change>
+			<change when="2014-10-02" who="#AK">Proofreading and XML encoding</change>
+            <change when="2014-08-07" who="#AM">Initial Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <pb facs="liv_000621_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><placeName><settlement type="village">Chonuane</settlement></placeName> <date when="1846-10-09">9<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi><expan>October</expan></abbr></choice>1846</date></dateline>
+<lb/><salute>My Dear Friend</salute></opener>              
+<lb/><p>I am sure you have wondered again &amp; again why
+<lb/>your seed box has been so long in making its appearance. The
+<lb/>reason of the delay has been the isolation <add place="below">^</add> <add place="above">to</add> which we have for
+<lb/>a long time been subject. Even our <orgName><placeName><settlement type="village">Kuruman</settlement></placeName> friends</orgName>
+<lb/>were in ignorance of our welfare for about six months
+<lb/>and the transmission of the box was an impossibility. The
+<lb/>country has been very much disturbed of late. The <term type="tribe">Caffre</term> <!-- geog: --><!-- Adrian, same q on this letter for Africa/vs other region. HB --><!-- Leaving blank for now as default. Anne may be best positioned to fill in all the instances of a blank geog: . AW -->
+<lb/>war has raged &amp; rendered communication through the
+<lb/><placeName><region>colony</region></placeName> very precarious. <space extent="1" unit="chars"/>You must have heard of the
+<lb/>destruction of nearly all the mission stations &amp;c throughout
+<lb/><placeName><region>Caffreland</region></placeName>. If I had sent sooner the whole of the contents
+<lb/>would probably have been lost by delay on the frontiers of
+<lb/>the <placeName><region>Colony</region></placeName> - or perhaps they might have fallen into lawless
+<lb/>hands. I need not say more about the delay except
+<lb/>that in process of time it has grown from a small box
+<lb/>to a pretty large one and contains - the following articles</p>
+<lb/><list><item n="1">Two <foreign xml:lang="und">Karosses</foreign> made of the feet of <term type="animal">Jackals</term></item>
+<lb/><item n="2">Two spotted <term type="animal">cat</term> <foreign xml:lang="und">Karosses</foreign> - (grey)</item>
+<lb/><item n="3">Two <term type="animal">Golden Jackal</term> <choice><abbr>Do</abbr><expan>Ditto</expan></choice></item>
+<lb/><item n="4">One <term type="animal">Ground Squirrel</term> <choice><abbr>Do</abbr><expan>Ditto</expan></choice></item>
+<lb/><item n="5">A parcel containing a <term type="animal">spotted cat</term> <foreign xml:lang="und">Kaross</foreign> for <persName>Professor
+<lb/>Andrew Buchanan</persName>, 13 Moore Place - (Roots &amp;c)</item>
+<lb/><item n="6">One <term type="animal">spotted cat</term> <foreign xml:lang="und">Kaross</foreign> for <persName>Rev<hi rend="sup">d</hi> D<hi rend="sup">r</hi> Heugh</persName>,</item>
+<lb/><item n="7">One white <term type="animal">Rhinoceros</term> horn 2 <choice><abbr>ft</abbr><expan>feet</expan></choice> 9 inches in length</item>
+<lb/><item n="8">A lot of (<term type="animal">Cameleopard</term> shape) <term type="tribe">Bechuana</term> spoons</item>
+<lb/><item n="9">One <term type="animal">ostrich</term> shaped <choice><abbr>Do</abbr><expan>Ditto</expan></choice> -</item> <item n="10">Two ladles -</item> <item n="11">One cooking pot
+<lb/>containing two snuff boxes -</item> <item n="12">a bird's nest -</item> <item n="13">seeds of a tree
+<lb/>called <term type="plant">Moana</term> - 51 feet in circumference &amp;c.</item> <item n="14">rings</item>
+<lb/><item n="15">Four <term type="tribe">Bechuana</term> caps -</item> <item n="16">One wooden bowl</item> <item n="18">one cup</item>
+<lb/><item n="19">Three sewing needles, in two cases.</item> <item n="20">One shield -</item> <item n="21">one
+<lb/>spear (the handle cut).</item> <item n="22">A <term type="occupation">Queen</term>'s sandals -</item> <item n="23">A lady's
+<lb/>petticoat (ornamented). How worn? Will be more difficult
+<lb/>for you to tell than the puzzle padlock will be to him
+<lb/>who stole it.</item> <space extent="3" unit="chars"/> <item n="24">A waistcoat made by <persName>Mokhatla</persName>, a
+<lb/><term type="occupation">chief</term> living East of <placeName><settlement type="village">Chonuane</settlement></placeName> -</item> <item n="25">A <term type="animal">serpent</term>'s skin</item>
+<lb/><item n="26">Point of <term type="animal">Rhinoceros</term>' horn. To make a handle to your
+<lb/>carving knife if you like, <choice><abbr>Do</abbr><expan>Ditto</expan></choice> Tail <choice><abbr>Do</abbr><expan>Ditto</expan></choice></item> <item n="27">Tail of <term type="animal">Elephant</term>
+<lb/>&amp;</item> <item n="28">point of <choice><sic>probocis</sic><corr>proboscis</corr></choice>.</item> <item n="29">At least 20 varieties of seeds
+<lb/>in two bottles.</item> <item n="30">Club of <term type="animal">Rhinoceros</term> horn -</item> <item n="31">Two
+<lb/>bracelets off <persName>Sechele</persName>'s arm,</item> <item n="32">a <orgName>native</orgName> pillow which
+<lb/>serves as stool by day "a cap by night <gap extent="2" unit="words" agent="hole"/> all the day"</item></list>
+
+<cb/><ab>
+<lb/>I feel sorry to conclude. I feel it as easy to write you as talk to a bosom crony But time or the want of it forbids <persName>M<hi rend="sup">r</hi> Inglis</persName> is in my
+<lb/>house at <placeName><settlement type="village">Mabotsa</settlement></placeName> &amp; has lately added another unit to the <choice><orig>Worlds</orig><reg>World's</reg></choice> population in the shape of a <del type="strikethrough">daughter</del> son. We go Eastward again
+<lb/>to take farther steps towards <placeName><settlement type="village"><persName>Paul</persName>'s settlement</settlement></placeName> with <persName>Mokhatla</persName>. Please present very kind regards from my rib to <persName>M<hi rend="sup">rs</hi> Connel</persName>
+<lb/>she finds it impossible at present to write. She works early &amp; late &amp; hard too    
+</ab>
+                
+                <pb facs="liv_000621_0002" n="0002"/> 
+<lb/><p rend="no-indent">The seven <foreign xml:lang="und">Karosses</foreign> or skin cloaks are placed at your disposal
+<lb/>and although I have a desire to present one to <persName>M<hi rend="sup">rs</hi> M<hi rend="sup">c</hi>Robert</persName> one
+<lb/>to <persName>M<hi rend="sup">rs</hi> Connel</persName> &amp; one to each of the friends <persName>Paton</persName>, <persName>White</persName> &amp;
+<lb/>I do not presume to dictate except in reference to these ladies
+<lb/>Let <persName>M<hi rend="sup">rs</hi> M<hi rend="sup">c</hi><choice><abbr>R</abbr><expan>Robert</expan></choice></persName> have her choice - then <persName>M<hi rend="sup">rs</hi> Connel</persName> then do what you
+<lb/>think proper in reference to every thing <subst><del>else</del><add place="over-text">and</add></subst> everybody else
+<lb/>Remember however to present my very warmest thanks
+<lb/>to each of the above named friends &amp; everyone besides who
+<lb/>may have placed me under obligation to do so - I am sorry
+<lb/><supplied>I</supplied> have appeared lacking in the acknowledgement line. It
+<lb/>certainly did not arise from want of gratitude and having
+<lb/>given a general assurance of thankfulness when I heard of
+<lb/>your projected kindnesses I thought I might wait till
+<lb/>I saw the presents. <space extent="2" unit="chars"/>The majority of the articles sent never
+<lb/>came. This loss was I believe mainly owing to their being
+<lb/>packed in casks. Even very strong ones soon yield to
+<lb/>the influence of the climate - the ends fall in and a strong
+<lb/>temptation is placed in the way of <term type="occupation">carriers</term>. The box
+<lb/>now sent will give you an idea of what does best
+<lb/>for this country. If dove tailed &amp; a feather put into <!-- geog: -->
+<lb/>the joinings such a box is just the thing. There is
+<lb/>another box in it wrapped up in an old bag to prevent
+<lb/>the charcoal in which the bulbs are packed from
+<lb/>permeating <unclear cert="high">through</unclear> &amp; spoiling the <foreign xml:lang="und">Karosses</foreign>. The bulbs
+<lb/>number upwards of twenty - but the varieties included
+<lb/>may not amount to so many. The delay has brought
+<lb/>them to the very "best" time of the year for conveyance
+<lb/>It was winter when they were taken up and as most
+<lb/>of them are very tenacious of life I think you will
+<lb/>have some satisfaction from them. They are not
+<lb/>in general covered with earth. A little more than
+<lb/>half ought to do &amp; <del type="strikethrough">but</del> little water will suffice - the
+<lb/>soil of all ought to contain <add place="above">a</add> considerable portion of
+<lb/>sand, I should imagine no manure, <term type="plant_foodstuff">vegetable</term> mould
+<lb/>need not predominate. The soil is usually firmly baked
+<lb/>around them whether by heat or rains I cannot tell
+<lb/>You probably have some new plants as the botany of this
+<lb/>region has never yet been explored. If you discover a <!-- geog: -->
+<lb/>new one it must be called - <foreign xml:lang="und"><term type="plant">Whishii</term></foreign> - <persName>M<hi rend="sup">rs</hi> Moffat</persName> <!-- Adrian, not sure if this is a general term for plant thus does not need a tag, but added in case. HB --><!-- Looks OK to me. AW -->
+<lb/>took the whole to the <placeName><settlement type="village">Kuruman</settlement></placeName> last month -</p>
+<lb/><p>After a protracted search I cannot lay my hands on yours <w>con-
+<lb break="no"/>taining</w> a list of queries - I must try &amp; answer much as I <w>re-
+<lb break="no"/>collect</w> &amp; such as may not be answered you will place to the
+<lb/>account of defect of memory &amp; nothing else<supplied>.</supplied> Salary for
+<lb/>an unmarried <term type="occupation">missionary</term> in <orgName>our Society</orgName> is £75. for a
+<lb/>married one £100. <orgName>Our Society</orgName> gives the least. The <orgName>Wesleyans</orgName>
+<lb/>have <unclear cert="medium">considerably</unclear> more. The <term type="people">French</term> have £20 to £50 to be</p>
+                
+<cb/><ab>
+<lb/>We have better prospects of usefulness here than at any former period. But there is not a single convert. Let us have
+<lb/>your prayers What may common windows without glass cost in <placeName><settlement type="city">Glasgow</settlement></placeName>? I have seen cast iron ones which would
+<lb/>do well for our chapel but may have <supplied>been</supplied> mistaken, I cannot make them not having the tools    
+</ab>                
+
+                <pb facs="liv_000621_0003" n="0003"/>
+<lb/><p rend="no-indent">expended on improvements on <add place="above">the</add> stations £80 being considered as
+<lb/>supply for the <term type="occupation">missionary</term>'s personal wants. I cannot specify
+<lb/>the salaries of other <orgName>Societies</orgName>. I have never been intimate with any except
+<lb/>the <term type="people">French</term>. They have a <term type="occupation">mechanic</term> on each station. Other <orgName>Societies</orgName>'
+<lb/><term type="occupation">missionaries</term> employ <term type="occupation">mechanics</term> from the <placeName><region>Colony</region></placeName> to build &amp;c &amp;c
+<lb/>We do all ourselves £75 seemed a large sum to me. I thought I could
+<lb/>maintain three <orgName>native</orgName> <term type="occupation">teachers</term> out of it But it takes all my £100
+<lb/>now to keep my station going. It would be impossible to do with
+<lb/>less. I think it would be an advantage if we had less manual labour
+<lb/>As I write now my hands have the same aching sensation I had when
+<lb/><term type="occupation">spinning</term>, my mind is often so exhausted by sympathy with the
+<lb/>body I cannot write in the evening &amp; this is the only time I have
+<lb/>I do not know in what I could curtail my expenses - these are
+<lb/>great chiefly in consequence of great distance from the <placeName><region>coast</region></placeName>
+<lb/>the prices of everything are doubled or more ere they reach us
+<lb/>A common clasp knife worth 6<hi rend="sup">d</hi> sells for /3 A wretched fustian <!-- Adrian, not sure what the expans are for the monetary units on this and the next line. HB --><!-- Leave as is. AW -->
+<lb/>Jacket /18 is - £1. &amp; other things in proportion. We <choice><sic>recieve</sic><corr>receive</corr></choice> our
+<lb/>salaries in money invariably. Perhaps your question about
+<lb/>the equality of salaries referred <add place="above">to</add> the <term type="occupation">missionaries</term> of <orgName>our society</orgName>
+<lb/>All <add place="below">^</add><add place="above">in our society</add> <choice><sic>recieve</sic><corr>receive</corr></choice> alike. The majority I believe are content &amp; we
+<lb/>try to leave the future with God. We have a man &amp; his wife as
+<lb/><term type="occupation">servants</term>, &amp; a girl as a <term type="occupation">nurse maid</term>. The man is <term type="occupation"><choice><sic>waggon</sic><corr>wagon</corr></choice> driver</term>
+<lb/>&amp; everything else he can do. His wife a <term type="occupation">servant</term> of all work
+<lb/>these form <orgName>our establishment</orgName> But these are not all
+<lb/>we require. <term type="occupation">Grinding <term type="plant_foodstuff">corn</term></term> <term type="occupation">baking</term> <term type="occupation">washing</term> &amp;c. are done by calling
+<lb/>on <term type="occupation">assistants</term> from the town. <persName>M<hi rend="sup">rs</hi> <choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName> changes these <term type="occupation">assistants</term>
+<lb/>as soon as <add place="above">they</add> have acquired some knowledge of household duties <supplied>&amp;</supplied>
+<lb/>operations. These supernumeraries are taught reading as <unclear cert="medium">well</unclear>
+<lb/>as <term type="occupation">washing</term> &amp;c. All sleep in their own <w>hom<unclear cert="high">es</unclear></w> - they become
+<lb/>familiarized by the process - they are paid in beads, a variety which
+<lb/>costs about 3 shillings per pound. I mention this that you may
+<lb/>not think the three above specified all we employ. We adopted
+<lb/>the plan of employing others beside those absolutely necessary in
+<lb/>order to do good. <persName>M<hi rend="sup">rs</hi> <choice><abbr>L</abbr><expan>Livingstone</expan></choice></persName> superintends everything domestic &amp;
+<lb/>the <choice><sic>superintendance</sic><corr>superintendence</corr></choice> involves her arms up to the elbows in all
+<lb/>processes. We must be at the beginning middle &amp; end of
+<lb/>everything everywhere If not, matters invariably go wrong <persName>Mebaloe</persName>
+<lb/>is the only man I know who carries a piece of work right
+<lb/>on to a termination without being looked after. We are all <gap extent="2" unit="words" agent="illegible"/>
+<lb/>the <term type="occupation">working clergy</term> &amp; no mistake I bought 10 <term type="animal">cows</term> for about
+<lb/>£11 when I was married I have the same number yet Each
+<lb/>when in <term type="foodstuff">milk</term> gives about a mutchkin. I once had seven in <term type="foodstuff">milk</term>
+<lb/>at once &amp; the whole did not yield as much as one <term type="animal">cow</term> at home
+<lb/>they cost nothing for grass - the herd gets one yearly. A pen made
+<lb/>of <term type="plant">thorn bushes</term> is all their accommodation. To have plenty
+<lb/>of <term type="foodstuff">milk</term> throughout the year we ought to have forty <term type="animal">cows</term>. This
+<lb/>would equal 2 or three <term type="animal">cows</term> in <placeName><country>Scotland</country></placeName> - there is no Tryst
+<lb/>We cannot purchase from <term type="tribe">Bechuanas</term> From £1 to £1..10
+<lb/>is the price of a <term type="animal">cow</term> with the <term type="occupation">Traders</term> Few bring them on    
+<lb/>account of the losses they sustain by <term type="animal">lions</term> in the way
+<lb/>We have no <term type="animal">sheep</term>. I once bought 12 <term type="animal">goats</term> But whether
+<lb/>they have increased or diminished I do not know. The man
+<lb/>in whose charge I placed them lives so far off I have heard</p>
+                
+<cb/><ab>
+<lb/><persName>John <unclear cert="medium">Wardlaw</unclear></persName> once in <placeName><settlement type="city">Glasgow</settlement></placeName>. How employed? Do you know a <term type="occupation">surgeon</term> in <placeName><settlement type="city">Glasgow</settlement></placeName> <w>call<supplied cert="high">ed</supplied></w> <persName>David
+<lb/>Wylie</persName> - Can you give his address <unclear cert="medium">&amp;c</unclear> whatever you please If any of my answers require explanation
+<lb/>Request that too    
+</ab>                     
+                
+               <pb facs="liv_000621_0004" n="0004"/>                
+<lb/><p rend="no-indent">nothing about them for two years. I think I mentioned the price
+<lb/>of my <term type="animal">horse</term>. It was captured &amp; recaptured<supplied>.</supplied> I have it now
+<lb/>It is very useful - by sending out our man to ride down a
+<lb/><term type="animal">Giraffe</term> or <term type="animal">Eland</term> we get a good supply of meat Each of
+<lb/>these animals is very good but the <term type="animal">Rhinoceros</term> is our most
+<lb/>frequent fare. <persName>Baba</persName> a <placeName><settlement type="village">Kuruman</settlement></placeName> convert was killed by
+<lb/>one last week. Unprovoked it rushed on him &amp; ripped him up
+<lb/><persName>Mebaloe</persName> &amp; I galloped off when we heard of the accident -
+<lb/>A <term type="animal">Rhinoceros</term> disputed our passage and as it was midnight
+<lb/>we were preserved only by Divine care. We saw a fire in 
+<lb/>the distance &amp; believe it was <persName>Baba</persName> - a party made towards
+<lb/>it We found that he had died the day before, &amp; his <w>com-
+<lb break="no"/>panions</w> had gone on to lay his body in the dust at <placeName><settlement type="village">Mabotsa</settlement></placeName>
+<lb/>I cannot at present write you with the care I ought
+<lb/>You must excuse me - I shall do better when our
+<lb/>meeting house is finished I just now recollect another
+<lb/>question - the cost of <add place="above">conveyance</add> <supplied>of</supplied> a case is defrayed by <orgName>the society</orgName> as
+<lb/>far as <placeName><settlement type="town">Colesberg</settlement></placeName> - on this side <supplied>of</supplied> the <placeName><geogName type="river">Orange <choice><abbr>R.</abbr><expan>River</expan></choice></geogName></placeName> the expense is ours
+<lb/>Suppose a case <unclear cert="low">10<choice><abbr>st</abbr><expan>stones</expan></choice></unclear>. It costs about 30 shillings from
+<lb/><placeName><settlement type="town">Algoa Bay</settlement></placeName> to <placeName><settlement type="town">Colesberg</settlement></placeName>. From <placeName><settlement type="town">Colesberg</settlement></placeName> to <placeName><settlement type="village">Kuruman</settlement></placeName> about
+<lb/>£1 more &amp; then from <placeName><settlement type="village"><choice><abbr>K.</abbr><expan>Kuruman</expan></choice></settlement></placeName> to <placeName><settlement type="village">Chonuane</settlement></placeName> about 10 shillings
+<lb/>I do not know the freight by sea</p>
+<lb/><p>I thank you most heartily for the medicines you
+<lb/>sent - they are excellent. The gentleman you bought them
+<lb/>of has acted conscientiously. There was no trash in the box. It
+<lb/>came most opportunely I was nearly out of some articles
+<lb/>I have seen boxes of medicines sent out to this country <!-- geog: -->
+<lb/>(value £10 - £12) &amp; nothing in them of value - the price was
+<lb/>made up by as much <term type="medicament">sulphur</term> as would have cured all
+<lb/><placeName><region>Argyleshire</region></placeName> of the <term type="ailment">itch</term> (&amp; we have none of it here) &amp; <term type="medicament">salts</term> &amp; <term type="medicament">senna</term>
+<lb/>capable of giving a black draught to all the <orgName>blacks</orgName> from this to <placeName><settlement type="town">Timbuctoo</settlement></placeName>
+
+<cb/>
+<lb/>But yours are most judiciously selected &amp; I
+<lb/>thank you most sincerely for your kindness</p>
+<lb/><p>This is no <bibl><term type="occupation">missionary</term> letter</bibl> &amp; the fault
+<lb/>is entirely yours. May the Lord be with you
+<lb/>&amp; bless you <w>accor<unclear cert="medium">ding</unclear></w> to all your need.</p>
+                
+<cb/><ab>
+
+<lb/>Care of <persName>Rev<hi rend="sup underline">d</hi> D<hi rend="sup">r</hi> Philips</persName> <placeName><settlement type="city">Cape Town</settlement></placeName>
+<address>
+<addrLine n="1"/><persName>Charles Whish Esquire</persName>
+<addrLine n="2"/><placeName>144 New City Road</placeName>
+<addrLine n="3"/><placeName><settlement type="city"><hi rend="underline">Glasgow</hi></settlement></placeName><!-- date appearing as perpendicular text down RHS of address portion "Date Octr 9 1846"-->
+</address>
+    
+</ab>          
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

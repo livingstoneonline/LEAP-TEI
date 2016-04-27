@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000483">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to David G. Watt</title>
+                <title type="alternative">Letter to David G. Watt, 7 July, 4 August 1841</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<pubPlace>London, UK</pubPlace>
+				<publisher>University College London</publisher>
+				<date>2012</date>
+				<idno type="LEAP-ID">liv_000483</idno>
+			</publicationStmt>
+		    <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>England</country><!-- Change as needed -->
+                        <settlement>London</settlement><!-- Change as needed -->
+                        <repository>University of London. School of Oriental and African Studies</repository><!-- Change as needed -->
+                        <idno type="shelfmark">CWM/LMS/Livingstone Wooden Box, item 14</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0028</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to David G. Watt, 7 July, 4 August 1841</title>
+                    <author>Livingstone, David, 1813-1873</author>
+                    <date type="composition" when="1841-07-07">7 July, 4 August 1841</date><!-- Date encoded correctly? MB -->
+                    <placeName type="compositionPlace">Past Colesberg Kuruman</placeName><!--placeName correct? MB-->
+                    <persName type="addressee">Watt, David G., 1817-1897</persName>
+                </bibl>
+            </sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+				<language ident="la">Latin</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2012-03-14</date>
+				<name xml:id="AJS">AJ Schmitz</name>Initial transcription and XML encoding.
+            
+			</change>
+			<change>
+				<date>2012-06-21</date>
+				<name xml:id="KS">Kathryn Simpson</name>Proofreading
+            
+			</change>
+			<change>
+				<date>2012-10-04</date>
+				<name xml:id="HFB">Heather F. Ball</name> XML editing.
+
+			</change>
+			<change><date when="2016-03-07"/><name xml:id="mb">Mary Borgo</name>Updated encoding</change><!-- Is this ok? MB -->	
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div>
+
+	<pb n="0001" facs="liv_000483_0001"><!--pb/@n='1r'--></pb>
+<lb/><p rend="right"><placeName><geogName type="lake">Ontspanned</geogName></placeName>, alias anchored in loco innomenato<!-- encode as foreign? MB --></p>
+<lb/><p rend="right"><date when="1841-07-07">7<hi rend="sup underline">th</hi> July 1841</date></p><!-- add dateline? MB -->
+<lb/><p rend="left">My Dear <persName>Watt</persName></p>
+<lb/><p>Your most welcome <bibl>epistle</bibl> I received at <placeName><settlement type="town">Colesberg</settlement></placeName> &amp; though of necessity 
+<lb/>a short one it proved quite a reviving draught in this thirsty land &amp; this not so 
+<lb/>much by what it contained as by the flood of pleasing recollections it made 
+<lb/>whirl through my mind. I intended writing you from <placeName><settlement type="city">Cape Town</settlement></placeName> &amp; I assure you 
+<lb/>nothing prevented me fulfilling that intention but a strange fatuity which 
+<lb/>seized me there &amp; made me really believe I should meet you there, We 
+<lb/>were a long time on the passage in consequence of having been obliged to put into 
+<lb/><placeName><settlement type="city">Rio De Janiero</settlement></placeName> &amp; after coming to <placeName><settlement type="city">Cape Town</settlement></placeName> we had to wait a month for 
+<lb/>our vessel unloading at <placeName><geogName type="bay"><choice><sic>Limon's</sic><corr>Limon</corr></choice> Bay</geogName></placeName>. I did not regret going into <placeName><settlement type="city"><choice><abbr>Rio</abbr><expan>Rio De Janiero</expan></choice></settlement></placeName>
+<lb/>It is certainly the finest place I ever saw. Everything delighted me except 
+<lb/>man. Even the "church Establishment" there is beautiful. They really do 
+<lb/>the things in style there. If even I form an Establishment it <choice><sic>wont</sic><corr>won't</corr></choice> be either 
+<lb/>of the poor degenerate "sisters" at home but the good mother herself in <placeName><country>Brazil</country></placeName>
+<lb/><unclear cert="high">But</unclear> I must be very concise or I <choice><sic>wont</sic><corr>won't</corr></choice> be able to give you even the heads of <unclear cert="high">the</unclear>
+<lb/>discourse I have so much to say <add place="above">to</add><add place="below">^</add> you. [I secured a series of letters "on the status
+<lb/>&amp; prospects of the <orgName><term type="nationality">Brazilian</term> Empire</orgName> for the <orgName><term type="nationality">Scottish</term> <choice><abbr>Cong.</abbr><expan>Congregational</expan></choice><choice><abbr>Assy.</abbr><expan>Assembly</expan></choice></orgName><!-- The expansion may be slightly incorrect as in Congregationalist instead of Congregational, ks, 24.6.12 --> by an <term type="faith"><term type="nationality">American</term> 
+<lb/>Episcopal methodist</term> <term type="occupation">missionary</term> there, a good sort of fellow, once a 
+<lb/><term type="occupation">chaplain</term> in the <orgName><term type="nationality">American</term> Navy</orgName> &amp; [devoid of the characteristic cant of <del type="cancelled">of</del><term type="faith"><term type="nationality"><choice><abbr>Engl.</abbr><expan>English</expan></choice></term>
+<lb/>Wesleyans</term>]. We lived in his home during our sojourn. I think you would 
+<lb/>have liked him. Alas he is the only <term type="faith">protestant</term> near I in <placeName><country>Brazil</country></placeName> &amp; all sects 
+<lb/>are tolerated. He can however do a little in the way of rooting out ignorance 
+<lb/><bibl>Tracts</bibl> &amp; <bibl>bibles</bibl> are circulated &amp; some efforts might be expected were a most 
+<lb/>injurious influence not exercised by <orgName>European</orgName> visitors. These alone disgrace 
+<lb/>the members of the religion they profess by drunkeness. All other vices are common 
+<lb/>in <placeName><settlement type="city"><choice><abbr>Rio</abbr><expan>Rio De Janiero</expan></choice></settlement></placeName>. When will the beams of divine light dispel the darkness of the beautiful 
+<lb/>Empire? The climate is delightful, I wonder if disabled <term type="nationality">Indian</term> <term type="occupation">missionaries</term> 
+<lb/>could not make themselves useful there]?</p>
+<lb/><p>We left <placeName><geogName type="bay">Algoa Bay</geogName></placeName> on the <date when="1841-05-20">20<hi rend="sup">th</hi> may</date> &amp; still we are <measure>a month</measure> from <placeName><settlement type="town">Kuruman</settlement></placeName>
+<lb/>We crossed the <placeName><geogName type="river">Orange</geogName></placeName> 10 days ago at a rather difficult ford near <placeName><settlement type="village"><unclear cert="low">hillappoba</unclear></settlement></placeName><!-- unable to determine exact place, ks -->
+<lb/>in navigating my ponderous vehicle through the stream I got aground &amp; 
+<lb/>my <term type="animal">oxen</term> got "reel ral" some with their heads where their tails should be 
+<lb/>&amp; others with their heads twisted round in the yoke so far they appeared bent 
+<lb/>on committing suicide or overturning the <choice><orig>waggon</orig><reg>wagon</reg></choice>.  In this predicament 
+<lb/>I was glad to see an acquaintance of yours approaching from the other 
+<lb/>bank to my assistance. It was no other than "<persName>Sedras</persName>" who fortunately 
+<lb/>came to the ford on his way to <placeName><settlement type="town">Colesberg</settlement></placeName> to buy goods with £10 he has 
+<lb/>scraped together somehow. He is a smart fellow &amp; decidedly the best 
+<lb/>spearman of <term type="tribe">Bechuanas</term> I have seen - I like travelling very much indeed 
+<lb/>there is so much freedom connected with our <orgName>African</orgName> manners. We pitch our 
+<lb/>tent, make our fire &amp;c, wherever we choose, walk, ride or shoot at abundance 
+<lb/>of all sorts of game as our inclination leads us. but there is a great drawback 
+<lb/><gap extent="2" unit="chars" agent="blotting"/><supplied cert="high">we</supplied><choice><sic>cant</sic><corr>can't</corr></choice> study or read when we please, I feel this very much. I have 
+<lb/>made but very little progress in the language - (can speak a little dutch) 
+<lb/>but I long for the time when I shall give my undivided attention to it &amp; thus 
+<lb/>be furnished with the means of making known the truth of the gospel</p>
+<lb/><p>I was introduced by <persName>D<hi rend="sup">r</hi> Phillip</persName> to the <term type="occupation">Colonial <choice><abbr>Sec<hi rend="sup">y</hi></abbr><expan>Secretary</expan></choice></term> &amp; the "cases" were promptly ordered 
+<lb/>I found three of them but most unfortunately an error in packing has caused the 
+<lb/>destruction of many of the glass vessels. I hope however to have as many as make 
+<lb/>one complete &amp; if so I may say from what I have seen of the animals of this country 
+<lb/>it would be difficult to make it of some value to <persName>Mr Owen</persName> - I saw many 
+<lb/>specimens of agatized wood in the bed of the <placeName><geogName type="river">Orange</geogName></placeName>, the concentric rings beautifully 
+<lb/>distinct &amp; the pith chrystalized regularly &amp; as clear as crystal. but the edges of the 
+<lb/>chrystals were mostly rubbed off by friction amongst other stones - In a plane about 
+<lb/><measure>50 miles</measure> from the river I passed an entire tree completely agatized &amp; retaining so 
+<lb/>much of the original appearance I took it at first for real wood - It was 
+<lb/>broken into blocks of about a foot &amp; a half in length. I took <choice><sic>peices</sic><corr>pieces</corr></choice> of it but I 
+<lb/>must not begin to describe all or any of the wonders I have seen. Any book 
+<lb/>of travels will supply with wonders ad infinitum?</p>
+<lb/><p>The missions on this side <supplied cert="high">of</supplied> the river are in a sad state. Every man's hand 
+<lb/>is against his neighbour.  Whatever may have been the original cause of 
+<lb/>dispute the present state of feeling amongst our <choice><orig>bretheren</orig><reg>brethren</reg></choice> is most disgraceful 
+<lb/><persName>Mr Moffat</persName> is not on speaking terms with the <placeName><settlement type="town">Guqua</settlement></placeName> town <term type="occupation">missionaries</term> &amp; 
+<lb/>takes another route when visiting the Colony<!-- Cape Town Colony? MB --> to avoid seeing them.  They <unclear cert="medium">in their</unclear><!-- the preceeding may be two words or one, I am highly unsure, ks, 7.7.12 --><!-- changed from "in then" to "in their." MB-->
+<lb/>turn <hi rend="underline">hate</hi> the <choice><orig>bretheren</orig><reg>brethren</reg></choice> in the Colony<!-- Cape Town Colony? MB --> &amp; amongst the whole there exists a pretty 
+<lb/>respectable amount of floating scandal one against the other. All uniting on 
+<lb/>this side to scandalize <persName>D<hi rend="sup">r</hi> Phillip</persName>. All on the other side generally favourable to 
+<lb/>the <choice><sic>D<hi rend="sup">r</hi></sic><expan>Doctor Phillip</expan></choice> &amp; unfavourable to those on this side. The Devil is in it but they <choice><sic>cant</sic><corr>can't</corr></choice> see 
+<lb/>him or rather <choice><sic>wont</sic><corr>won't</corr></choice>. I am determined to stand aloof from both parties but 
+<lb/>because I attempted to set a couple of <del type="cancelled">at</del> <orgName>anti Phillipites</orgName> right, I am set <del type="cancelled"><unclear cert="low">right</unclear></del> down</p>
+	<ab>
+<lb/><date when="1841-08-04"><choice><abbr>Aug<hi rend="sup">st</hi></abbr><expan>August</expan></choice> 4<hi rend="sup">th</hi></date><placeName><settlement type="village">Kuruman</settlement></placeName>.  We arrived here on <date when="1841-07-14"/><gap extent="4" unit="chars" agent="fading"/><date when="1841-07-14"><supplied cert="medium">14<hi rend="sup">th</hi></supplied> July</date> in <unclear cert="low">Sabety</unclear>.  <persName>Sedras</persName> has been <gap agent="illegible" extent="19" unit="chars"/> most desperately wicked characters in <choice><abbr>K.</abbr><expan><placeName><settlement type="village">Kuruman</settlement></placeName></expan></choice>.  A determined resolute fellow above all 
+<lb/>his companions but now he  is under strong convictions of sin. I saw him weep all day in chapel The <term type="occupation"><choice><abbr>Miss<hi rend="sup">s</hi></abbr><expan>missionaries</expan></choice></term> say his conversion will be a miracle
+<lb/>greater than
+<lb/>any they have
+<lb/>seen
+       </ab>
+
+	<pb n="0002" facs="liv_000483_0002"><!--pb/@n='1v'--></pb>
+<lb/><p>down as a <orgName>Phillipite</orgName> myself &amp; looked upon with suspicion by all the anti <!-- Those against Dr. Phillip. MB -->
+<lb/>I confess I feel very differently on the subject of the D<hi rend="sup">r</hi>s superintendance now 
+<lb/>but you must not imagine I am in the least changed in my senses 
+<lb/>respecting thorough going independancy, the burden of <persName>M<hi rend="sup">r</hi> &amp; M<hi rend="sup">rs</hi>Moffat</persName>'s    
+<lb/>soup to me was always derogatory to the character of D<hi rend="sup">r</hi> &amp; <persName>M<hi rend="sup underline">rs</hi> <choice><abbr>P.</abbr><expan>Phillip</expan></choice></persName>. This filled in 
+<lb/>with prejudice against the latter. A month's residence in their house during 
+<lb/>which time I had sufficient opportunities of scrutinizing their characters, has 
+<lb/>completely dissolved the whole of it.  With respect to his superintendance, he 
+<lb/>told me he never had considered himself as anything more than the money 
+<lb/>agent of the <orgName>Society</orgName>. With spiritual affairs or modes of operation he had <!--orgName: London Missioanry Society. MB-->
+<lb/>nothing to do &amp; never wished to interfere in these matters but he had been 
+<lb/>frequently compelled by the <orgName>Society</orgName> referring disputes to his decision to act a part <!--orgName: London Missioanry Society. MB-->
+<lb/>he had no intention to, for generally one party was dissatisfied &amp; he came 
+<lb/>his calumniator.  He may have domineered in some instances but <persName>Mr 
+<lb/><choice><abbr>M.</abbr><expan>Moffat</expan></choice></persName> is I understand not the man who would cast the first stone- The D<hi rend="sup">r</hi> is now 
+<lb/>in his dotage &amp; <choice><sic>wont</sic><corr>won't</corr></choice> do any more harm but were he in his vigour I should 
+<lb/>greatly prefer the despotism of <hi rend="underline">one</hi> to that of the many. The later <persName>Mr <choice><abbr>M.</abbr><expan>Moffat</expan></choice></persName> seems 
+<lb/>bent on establishing &amp; my poor neighbour here seems delighted with the idea 
+<lb/>of having a "<hi rend="underline"><orgName>Presbytery</orgName></hi>" I hope <persName>Griffith</persName> is a staunch <orgName><choice><sic>Independant</sic><corr>Independent</corr></choice></orgName>, you see the 
+<lb/>part I must act. The present system is real liberty compared <add place="below">^</add><add place="above">with</add> committeeocracy 
+<lb/>I feel I am giving you a very partial view of the subject It would take a day<supplied cert="high">'</supplied>s talk 
+<lb/>to explain the whole subject. I <choice><sic>cant</sic><corr>can't</corr></choice> fully explain the Colonial feeling. It is 
+<lb/>some what like caste in <placeName><country>India</country></placeName>. <persName>D<hi rend="sup">r</hi> Phillip</persName> has been the staunch advocate of the 
+<lb/><orgName>coloured</orgName> population. There is a strong feeling amongst the <orgName>Colonists</orgName> against <del type="cancelled">the</del>
+<lb/>him &amp; them &amp; strange to say most of the D<hi rend="sup">rs</hi> enemies have imbibed it. I mean 
+<lb/>of the <term type="occupation">missionaries</term>. I <choice><sic>wont</sic><corr>won't</corr></choice> say all but all I have seen certainly have- They 
+<lb/>divide into radicals &amp; conservatives. They have not these names but it is of 
+<lb/>that nature.  <hi rend="underline">You</hi> would be a friend of the natives you would plead their cause 
+<lb/>against the <orgName><choice><orig><sic>boors</sic></orig><corr>Boors</corr><reg>Boers</reg></choice></orgName>, I know you would for I know your feelings on that 
+<lb/>subject and from this I conclude you would take sides with the D<hi rend="sup">r</hi> &amp; his friends 
+<lb/>I <choice><sic>cant</sic><corr>can't</corr></choice> help feeling friendly to him when I think of all he has done in the cause 
+<lb/>of liberty &amp; when he tells me distinctly that he will not interfere at all in my 
+<lb/>operations, that he wishes all the <term type="occupation"><choice><abbr>miss<hi rend="sup">s</hi></abbr><expan>missionaries</expan></choice></term> to follow their own plans for these 
+<lb/>are generally the most efficient that they <add place="above">as</add><add place="below">^</add> individuals can employ - [every one 
+<lb/>has a way of doing things &amp; each can do more in his own way than he can by 
+<lb/>adopting the plans or modes of operation of another that he is only my money 
+<lb/>agent, the person who pays my salary on demand Why should I wish a 
+<lb/>change of affairs on the ground of the quarrels of another man? Whether it 
+<lb/>has been from the spirit of opposition that <persName>M<hi rend="sup">r</hi> Moffat</persName> has imbibed the Coloni<supplied cert="high">al</supplied>
+<lb/>feeling I know not but certainly he had a good quantity of it while here &amp; 
+<lb/>of course was a favorite with the <orgName><choice><orig><sic>boors</sic></orig><corr>Boors</corr><reg>Boers</reg></choice></orgName> But he found no Colonial feelin<supplied cert="high">g</supplied>
+<lb/>in <placeName><country>England</country></placeName>. He spoke out just in the same strain that <persName>D<hi rend="sup">r</hi><choice><abbr>P.</abbr><expan>Phillip</expan></choice></persName> always has done 
+<lb/>his speeches are full of affection to the <orgName>African</orgName> &amp; it appears he says <w>som<supplied cert="high">e-</supplied><lb break="no"/>thing</w> about the <orgName><choice><orig><sic>boors</sic></orig><corr>Boors</corr><reg>Boers</reg></choice></orgName> in connection with the <orgName>African</orgName>. The speeches most 
+<lb/>unfortunately have found their way to this country &amp; have given morta<supplied cert="high">l</supplied>
+<lb/>offence to the <orgName>Colonists</orgName>- They see he is a turncoat &amp; are greatly enraged 
+<lb/>with him- <bibl>The Ghram's Town Journal</bibl>. (conducted by the <term type="faith">Wesleyans</term>) another 
+<lb/>"<term type="occupation">Watchman</term>" has made known his inconsistency with joy. Altogether I sho<supplied cert="high">uld</supplied>
+<lb/>not like to be in <persName>Mr <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName>s place when he returns. Instead of being the pet of 
+<lb/>the <unclear cert="high">illiberals</unclear> on account of his opposition to the D<hi rend="sup">r</hi>. He will now be received 
+<lb/>with suspicion by both parties.  There was a great deal of sound sense &amp;
+<lb/>discrimination in your friend <persName>M<hi rend="sup">r</hi> Campbell</persName>'s sentiments respecting <persName>D<hi rend="sup">r</hi><choice><abbr>P.</abbr><expan>Phillip</expan></choice></persName>. 
+<lb/>I am sorry I ever said anything against him. I do not avow myself a 
+<lb/>friend or partizan of either but I certainly feel attached to the principles of the 
+<lb/>liberal rather than of the illiberal party This is rather a <unclear cert="medium">railled</unclear> story but I dare say y<supplied cert="high">ou</supplied>
+<lb/>will make out my meaning. The people in <placeName><country>England</country></placeName> have no idea of these 
+<lb/>matters &amp; it is very difficult to give the full idea in few words to one 
+<lb/>not actually on the spot?</p>
+<lb/><p>I find that the fresh water lake about which <term type="tribe">Mokoters</term> told us is a pon<supplied cert="medium">d</supplied>
+<lb/>about which there is an anxiety amongst all the <orgName><choice><abbr>Miss<hi rend="sup">s</hi></abbr><expan>Missionaries</expan></choice></orgName> to do something. <w>Every<supplied>-</supplied><lb break="no"/>one</w> would like to be the first to see it for it is quite certain that one does 
+<lb/>actually exist. The distance is 2 months in <term type="animal">bullock</term> <choice><orig>waggon</orig><reg>wagon</reg></choice>s &amp; no <term type="nationality">French</term>  
+<lb/><term type="occupation">missionaries</term> have it in contemplation soon to take a trip thither.  One 
+<lb/>of them rather an enterprising character was <unclear cert="low">shrited</unclear> to become a corresponding 
+<lb/>member of the <orgName>Geographical Society</orgName>, but decline as he meant to give all his 
+<lb/>discourses to the <orgName><add place="below">^</add><add place="above"><term type="occupation"><choice><abbr>Miss<hi rend="sup"/>s</abbr><expan>Missionaries</expan></choice></term></add> Society</orgName> &amp; let them make what use of them they choose</p>
+	<ab>
+<lb/>I shall <unclear cert="medium">return</unclear> to the <placeName><region>Interior</region></placeName> in about two months <persName>M<hi rend="sup">r</hi> Edwards</persName> is determined to accompany me <space dim="horizontal" extent="1" unit="words"/> Yours <persName><choice><abbr>DL</abbr><expan>David Livingstone</expan></choice></persName></ab>
+
+
+	<pb n="0003" facs="liv_000483_0003"><!--pb/@n='2r'--></pb>
+<lb/><p>His brother in law sounded me as to my intentions but got nothing out - <persName>M<hi rend="sup">r</hi> Moffat</persName>
+<lb/>has got £400 from some <choice><abbr>gent.</abbr><expan>gentleman</expan></choice> in <placeName><choice><abbr>Eng.</abbr><expan><country>England</country></expan></choice></placeName> for the purpose of fitting out our expedition to it 
+<lb/>This I heard incidentally.  <persName>Ross</persName> blabbed it out in my presence to one of <persName>Mr <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName>'s chief 
+<lb/>friends at the <placeName>Cape</placeName>. I am afraid this will find its way to the ears of the <term type="nationality">French</term> 
+<lb/><term type="occupation"><choice><abbr>Miss.<hi rend="sup">s</hi></abbr><expan>Missionaries</expan></choice></term> who will be sure to lose no time in setting out. If they give your humble 
+<lb/>servant a month or two to acquire the colloquial language they may spare 
+<lb/>themselves the pains of being first "in at the death". I can acquire the language while 
+<lb/>travelling, without this ponderous vehicle, as well as by remaining at <placeName><settlement type="village">Kuruman</settlement></placeName>
+<lb/>perhaps better for I shall live as they do &amp; mix constantly with them &amp; I can 
+<lb/>obtain information respecting the population &amp;c. at the same time, I wish you 
+<lb/>were here to give me some lessons in composition, I am a bad hand at that 
+<lb/>having never studied it &amp; my poor friend <persName>R.</persName> has such a precious idea of his 
+<lb/>extensive learning that I have not heart to ask him. I daresay I would 
+<lb/>after all stoop from my pride were I not fully concerned by all I have seen of 
+<lb/>him that he knows very little about that or anything else.  He &amp; I are not 
+<lb/>on good terms, because I speak out &amp; pay no more regard to his opinions on 
+<lb/><del type="strikethrough">account</del> the ground of his 9 years education (his wife's heart) than if he were my
+<lb/><gap extent="9" unit="chars" agent="fading"/><supplied cert="high"><term type="tribe">Hottentot</term></supplied> boy &amp; could not read. I could have made something <gap extent="2" unit="chars" agent="tear"/><persName>D<hi rend="sup">r</hi><gap extent="6" unit="chars" agent="fading"/></persName><gap agent="illegible" extent="3" unit="chars"/>
+<lb/>this man is <gap extent="5" unit="words" agent="fading"/> heard beyond <gap agent="illegible" extent="7" unit="chars"/> his wife is sensible but though married 
+<lb/>will remain an old maid to the end of the chapter. As for "olive plants round the table" 
+<lb/><foreign xml:lang="la">Aheu <w>f<del>a</del><add place="over-text">u</add>gaces</w> <choice><abbr>Post.</abbr><expan>Postume</expan></choice></foreign><!-- DL is quoting a Horatian Ode. MB --> &amp;c. They are both adjuncts of or to <persName><unclear cert="high">Mr <choice><abbr>M</abbr><expan>Moffat</expan></choice></unclear></persName>.  Nothing is right but 
+<lb/>what he has said. <persName>M<hi rend="sup">rs</hi> Sewell</persName> tells me in a <bibl>letter</bibl> I received at same time with yours 
+<lb/>that she believes you were heartily sorry you had not a help mate with you, I have 
+<lb/>told her I am sure you were not. I am conscious myself that I am better without 
+<lb/>&amp; with respect to scandal arising amongst the natives no fewer than <choice><orig>½</orig><reg>1/2</reg></choice><hi rend="underline">married</hi>
+<lb/><term type="occupation"><choice><abbr>Miss.<hi rend="sup">s</hi></abbr><expan>Missionaries</expan></choice></term> have been charged with incontinency. The charge however in each case has 
+<lb/>been, I believe, quite groundless.  I can be in no worse plight than they.  Should 
+<lb/>anything of that sort arise.  <persName>Mr <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName>. himself is one of the number &amp; <persName>D<hi rend="sup">r</hi><choice><abbr>P.</abbr><expan>Phillip</expan></choice>s</persName> believing 
+<lb/>the charge <choice><orig>untill</orig><reg>until</reg></choice> evidence was adduces to disprove it constitutes <persName>Mr <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName>'s chief 
+<lb/>objection to the D<hi rend="sup underline">r</hi> from these &amp; other considerations which I need not mention 
+<lb/>I conclude that marriage, like <term type="medicament">vaccination</term> in <term type="ailment">small pox</term>, is not as speci<gap extent="3" unit="chars" agent="damage"/>
+<lb/>preventative to scandal in <placeName><bloc>Africa</bloc></placeName>.  by the way tell me, if the matter from <gap extent="6" unit="chars" agent="damage"/>
+<lb/>is called "grease" of <term type="animal">horse</term>'s heels is <unclear cert="low">need in hidra</unclear><!-- unable to read this word, ks, 4.7.12 --><!-- unsure as well. MB -->  in the same manner that the 
+<lb/><term type="medicament">vaccine</term><term type="ailment">virus</term> is here &amp; in <placeName><country>Britain</country></placeName> - all the <term type="occupation"><choice><abbr>Miss.<hi rend="sup">s</hi></abbr><expan>Missionaries</expan></choice></term> wives I have seen denounce my <gap extent="4" unit="chars" agent="damage"/>
+<lb/>blessedness in no <unclear cert="low">uncertain</unclear> terms.  Some even insinuated that the reason why I ask 
+<lb/>thus is I have been unable to ge<gap extent="1" unit="chars" agent="tear"/><supplied cert="high">t</supplied> a spouse but I put down that very <choice><sic>speedaly</sic><corr>speedily</corr></choice> by 
+<lb/>assuming that it is a great <gap extent="4" unit="chars" agent="tear"/><supplied cert="low">deal</supplied> easier for a <term type="occupation"><choice><abbr>Miss.<hi rend="sup">y</hi></abbr><expan>Missionary</expan></choice></term> to get married in <placeName><country>England</country></placeName>
+<lb/>than to come out simple as in <gap extent="3" unit="chars" agent="tear"/><supplied cert="medium">the</supplied> latter case a vigorous resistance must be 
+<lb/>made but in the former ou<gap extent="2" unit="chars" agent="damage"/><unclear cert="medium">yield</unclear> up the affair into the hands of any friend &amp; it is 
+<lb/>managed for you in a twinkling, only hold the neck down like one of our <term type="animal">oxen</term> 
+<lb/>&amp; the yoke is fixed &amp; no mistake. Of course I have abundance of instances at 
+<lb/>my finger ends &amp; <choice><sic>dont</sic><corr>don't</corr></choice> fail to point to all the silly married people I can remember 
+<lb/>as proof of how easy it is to get noosed. This is a digression but perhaps it 
+<lb/>will come in seasonably  if <persName><supplied cert="high">M</supplied>r Kennedy</persName>'s spouse is hard upon you - you can 
+<lb/>however defend yourself well enough - I defended you as well as I was able 
+<lb/>one evening in <persName>D<hi rend="sup">r</hi> Phillip</persName>'s house when <persName>Mrs W. Phillip</persName> stated that she thought 
+<lb/>you could not get a wife.  She is a nice girl I liked her much better than 
+<lb/>him. He is at present engaged in surveying several of the stations.  I was at 
+<lb/><placeName><settlement type="village"/>Hankey</placeName> with him. The neighbouring farmers have encroached on the lands of 
+<lb/>many of our stations.  To set them right is the object he has in view.  After 
+<lb/>that he intends coming up to the country to <placeName><settlement type="town">Gugua Town</settlement></placeName> perhaps farther.  We 
+<lb/>may have a visit of him <gap agent="hole" extent="2" unit="chars"/><placeName><settlement type="village">Kuruman</settlement></placeName>. I should like <gap extent="21" unit="words" agent="damage"/>
+<lb/>no doubt but he, <unclear cert="low">weighs</unclear>, <gap agent="illegible" extent="8" unit="chars"/> &amp; I would manage <persName>Moffat</persName> in the event of his 
+<lb/>being entirely spoiled by the people in <placeName><country>England</country></placeName> -  If he is not spoiled it will 
+<lb/>be a great wonder - <space dim="horizontal" extent="6" unit="chars"/> What do you say to my going up to <placeName><country><w>Abbyssin<supplied>-</supplied><lb break="no"/>-ia</w></country></placeName>? This is talked of by many of the <term type="occupation">missionaries</term> as a desirable object,  &amp; some 
+<lb/>propose doing it. [Would it not promote our cause by making known to 
+<lb/>the Churches the awfully degraded state of our immense population?  Look 
+<lb/>at the <bibl>map</bibl> published by the <orgName>Society for the diffusion of <choice><abbr>U.K.</abbr><expan>Useful Knowledge</expan></choice></orgName> you see far    
+<lb/>beyond us "very populous country " &amp;c. I think one may be quite safe if 
+<lb/>above &amp; without anything to excite the cupidity of the natives. I should cost 
+<lb/>the <orgName>Society</orgName> <del type="cancelled">of</del> nothing during those years I should be away. It might be 6 or 7 <!-- orgName: Society for the diffusion of useful knowledge. MB -->
+<lb/>years before I should return, but if the languages are dialects of the <term type="tribe">Bechuana</term>
+<lb/>I could soon make known a little of the blessed plan of mercy to the different 
+<lb/>tribes on the way &amp; if I should never return perhaps my life will be as profitably 
+<lb/>spent as a forerunner as in any other way - I thank God I have no desire 
+<lb/>to accumulate money. Whatever way my life can be spent best to promote 
+<lb/>the glory of our gracious God I feel desirous to adopt it. I shall wait anxiously 
+<lb/>for your opinion &amp; advice - To you alone have I disclosed it I should like 
+<lb/>from you frequently as I have confidence in your Judgment more than 
+<lb/>in that of many others. Of course our communications will be only to ourselves</p>
+	<ab>
+<lb/>I have <gap agent="illegible" extent="11" unit="chars"/> at, <placeName><settlement type="town">Griqua Town</settlement></placeName> &amp; certainly he is the <unclear cert="low">openlist</unclear><!-- again my transcription makes no sense, ks, 7.7.12 --><!-- This is my guess. MB --><gap agent="illegible" extent="6" unit="chars"/>of strength <gap agent="illegible" extent="8" unit="chars"/>&amp; no miracle to account for it!!
+       </ab>
+
+
+	<pb n="0004" facs="liv_000483_0004"><!--pb/@n='2v'--></pb>
+<lb/><p><unclear cert="low">Let us</unclear> write frequently. I shall write again two months after arriving at <placeName><settlement type="village">Kuruman</settlement></placeName>
+<lb/>Will you write on receipt of this &amp; again 2 or 3 months after?  We have <w>comm<supplied>-</supplied><lb break="no"/>-unications</w> with the colony every 3 months &amp; a talk is amongst us of establishing 
+<lb/>a post to go down to <placeName><settlement type="town">Colesburg</settlement></placeName> once a month &amp; bring letters, parcels &amp;c. Address
+<lb/>me. Care of <persName>D<hi rend="sup">r</hi> Phillip</persName> Church Square <placeName><settlement type="town">Cape Town</settlement></placeName> - "<placeName><region><term type="tribe">Bechuana</term> Country</region></placeName>" is quite 
+<lb/>specific enough for finding my residence or you might say <placeName><settlement type="village">Kuruman</settlement></placeName> as the post 
+<lb/>will most probably be from thence to <placeName><settlement type="town">Colesberg</settlement></placeName>. I shall give you more certain 
+<lb/>information when I write next- At present I am ignorant myself I must 
+<lb/>take this to <placeName><settlement type="village"><choice><abbr>K</abbr><expan>Kuruman</expan></choice></settlement></placeName> &amp; send it back again with my people who return to <placeName><settlement type="town">Bethelsd</settlement></placeName><unclear cert="medium">or</unclear>
+<lb/>the <term type="occupation"><choice><abbr>Capt<hi rend="sup">n</hi></abbr><expan>Captain</expan></choice></term> of our vessel was very obliging to me &amp; gave me all this information 
+<lb/>respecting the use of this quadrant in his power, frequently sitting up till 12 o<supplied>'</supplied>clock 
+<lb/>at night for the purpose of taking lunar observations with me. He associated 
+<lb/>with none but myself &amp; <persName>D<hi rend="sup">r</hi> Grant</persName>- He soon got disgusted with all the others 
+<lb/>none of them behaved like gentlemen. You will understand my feelings not of the 
+<lb/>most agreable nature if you imagine me cooped up with another <persName>D<hi rend="sup">r</hi><unclear cert="low">Toguide</unclear></persName><!-- very unclear as  persons name, ks,  -->.  The <term type="occupation"><choice><abbr>Capt<hi rend="sup">n</hi></abbr><expan>Captain</expan></choice></term> is a 
+<lb/>well informed shrewd <term type="nationality">Scotchman</term> but no <term type="faith">Christian</term>. He rigged out the church on Sunday's 
+<lb/>&amp; we had service but I being a poor <term type="occupation">preacher</term> &amp; <persName>M<hi rend="sup">r</hi> R.</persName> addressing them as <term type="faith">Christians</term> in 
+<lb/>regular cold <term type="faith">presbyterian</term> style no moral influence was exerted &amp; even had there been 
+
+<!-- Text interrupted by postal information; continues after break at bottom of page HB 10/4/12 -->
+<lb/>on Sabbath, it would have been neutralized by the week day conduct. In fact no good 
+<lb/>was done, I felt quite alone. Although the <term type="occupation"><choice><abbr>Capt<hi rend="sup">n</hi></abbr><expan>Captain</expan></choice></term> courted my company I could not enjoy his
+<lb/>as if he had been a Christian. I hope <persName>M<hi rend="sup">r</hi> &amp; M<hi rend="sup">rs</hi> R.</persName> combined will make themselves of some 
+<lb/>use to the <term type="tribe">Bechuanas</term>, they appear anxious for it.  I hope they will for both I believe ar<supplied cert="high">e</supplied>
+<lb/>really pious.  Had he been to <placeName><settlement type="town">Ongas</settlement></placeName> I should not be at present circumstanced as I am 
+<lb/>I have met with very few indeed since I saw you intercourse with whom would
+<lb/>tend much to promote spirituality of mind,  I feel this painfully but at the same 
+<lb/>time am convinced this position I now occupy is intended by Him who orders our 
+<lb/>footsteps to make me more &amp; more dependant on Himself &amp; independant of 
+<lb/>every one else.  I am reading "Baron's Mental Philosophy<bibl></bibl>" carefully &amp; find it 
+<lb/>very useful in give me more defined ideas with respect to what emotions 
+<lb/>are or are not sinful.  <!-- there is a figure here that looks like a "9" --> How much need have we to watch our hearts 
+<lb/>these bitter fountains which nothing but Almighty grace can cleanse &amp; purify.  Do 
+<lb/>remember me in your prayers. I <choice><sic>wont</sic><corr>won't</corr></choice> &amp; have yet been unmindful of you 
+<lb/>I may mention here as I forgot to do when speaking of the <term type="tribe">Bechuana</term> language 
+<lb/>the <term type="tribe">Gallas</term> of <placeName><country>Abbysinia</country></placeName> whom <persName>Bruce</persName> &amp; <persName>Salt</persName> mention are imagined by some 
+<lb/>here to be the parent stock of the <term type="tribe">Bechuanas</term>  I do not restrict you to two 
+<lb/><bibl>letters</bibl>. As many as convenient. I shall do the same Yours very affectionately <persName><choice><abbr>D.L.</abbr><expan>David Livingstone</expan></choice></persName></p>
+
+
+	<ab>
+<lb/>I <choice><sic>wont</sic><corr>won't</corr></choice> yet attempt writing papers for the <bibl>Map</bibl>. Not <choice><orig>untill</orig><reg>until</reg></choice> I have paid 
+<lb/>some attention to composition will I write more to the <term type="occupation">Directors</term> even 
+<lb/>thou  necessity compells me.  Give my kind regards to <persName>I. <unclear cert="medium">Kerned</unclear></persName> if
+<lb/>he remembers me,  I was with him in <placeName><settlement type="city">London</settlement></placeName> in <persName>M<hi rend="sup">rs</hi> Sewell</persName>s
+       </ab>
+
+	<ab><lb/><hi rend="underline">Per Ship</hi>
+<lb/>Care of <persName>Rev<hi rend="sup">d</hi> D<hi rend="sup">r</hi> Phillip</persName>, Church square
+<lb/><placeName><settlement type="town"><hi rend="underline">Cape Town</hi></settlement></placeName>
+<lb/><persName>Rev<hi rend="sup">d</hi>David G. Watt</persName>
+<lb/><placeName><settlement type="town">Benares</settlement></placeName>
+<lb/><hi rend="underline">single sheet</hi><space dim="horizontal" extent="12" unit="chars"/><placeName><region><hi rend="underline">East Indies</hi></region></placeName>
+<lb/><choice><abbr>Recd</abbr><expan>Received</expan></choice> from <unclear cert="medium"><placeName><settlement>Cape</settlement></placeName></unclear>
+<lb/>Via <placeName><settlement type="city">Calcutta</settlement></placeName></ab>
+
+			
+</div>
+		</body>
+	</text></TEI>

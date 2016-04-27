@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001196"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title>Letter to Agnes Livingstone 3</title>
+                <title type="alternative">Letter to Agnes Livingstone 3, 28 January 1858</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="SF">
+                    <name>Samantha Fitch</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="EC">
+                    <name>Erin Cheatham</name>
+                    <resp>Proofing</resp>
+                </respStmt>
+				<!-- Add here a new full <respStmt>, format as above, for each person who works on the file. -->
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2014</date><!-- Change if necessary -->
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License
+                        </ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country><!-- Change as needed -->
+                        <settlement>Edinburgh</settlement><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 10704, ff. 5-6</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0680</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Agnes Livingstone 3, 28 January 1858</title><!-- Change -->
+                    <author>Livingstone, David, 1813-1873</author>
+                    <date type="composition" when="1858-01-28">28 January 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Manchester</placeName><!-- Change -->
+                    <persName type="addressee">Livingstone, Agnes 3, 1847-1912</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2014-09-18" who="#SF">Proofing</change>
+			<change when="2014-09-17" who="#EC">Proofing</change>
+            <change when="2014-09-09" who="#SF">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001196_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<opener>
+<lb/><dateline rend="center"><add rend="left" hand="#U">2</add><placeName><settlement type="city">Manchester</settlement></placeName><add rend="right" place="margintop" hand="#U">5</add>
+<lb/><!-- There is a postal mark here. SF -->
+<lb rend="right"/><date when="1858-01-28">28<hi rend="sup underline">th</hi> January<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
+<lb rend="right"/>1858</date></dateline><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>My Dear <persName>Nani</persName></salute><!-- Change line info as appropriate -->
+</opener>
+
+<lb/><p>I am sorry to
+<lb/>hear that your
+<lb/>eyes prevent you
+<lb/>from reading but
+<lb/>every thing that
+<lb/>happens to us
+<lb/>is by the will
+
+	<pb facs="liv_001196_0002" n="0002"/>
+<lb/>and according to the
+<lb/>direction of our
+<lb/>supreme Lord in
+<lb/>whom we live
+<lb/>and move and
+<lb/>have our being.
+<lb/>Let your heart bow
+<lb/>to him in lowly
+<lb/>submission. And
+<lb/>you may tell him
+<lb/>all your concerns
+<lb/>fears and cares
+<lb/>for truly he
+
+	<pb facs="liv_001196_0003" n="0003"/>
+<add rend="right" place="margintop" hand="#U">6</add>
+<lb/>careth for you, high
+<lb/>and lofty though he be.
+<lb/>The Lord bless and
+<lb/>keep you.</p>
+
+<lb/><p>We are getting all
+<lb/>ready for a start
+<lb/>if possible on the 
+<lb/><date when="1858-02-15">15<hi rend="sup">th</hi> of February</date><supplied cert="high">.</supplied>
+<lb/>I came down here
+<lb/>to purchase calicoes
+<lb/>for presents to the
+<lb/><gap extent="1" unit="lines" agent="hole"/> return 
+<lb/><gap extent="2" unit="lines" agent="hole"/><!-- I might change this to two different <gap> elements to reflect that you can partially see one line but cannot see anything on the lines after it. EC -->
+
+	<pb facs="liv_001196_0004" n="0004"/>
+<lb/>We went to a meeting
+<lb/>of the <orgName>geographical
+<lb/>society</orgName> on <date when="1858-01-25"><choice><sic>monday</sic><corr>Monday</corr></choice></date> but
+<lb/>failed to reach it
+<lb/>through the dense crowd
+<lb/>collected to see the
+<lb/>illuminations on
+<lb/>the occasion of the
+<lb/>wedding of the <persName>Princess
+<lb/>Royal</persName> - Mama was
+<lb/>never so squeezed
+<lb/>before. Kind regards
+<lb/>to your <term type="occupation">governer</term> and
+<lb/>your father's blessing
+<lb/><gap extent="3" unit="lines" agent="hole"/></p>
+
+<!-- No closer available because text has been removed. SF -->
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

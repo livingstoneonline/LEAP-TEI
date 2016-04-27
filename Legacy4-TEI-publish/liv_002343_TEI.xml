@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002343"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title>Letter to John Livingstone</title>
+                <title type="alternative">Letter to John Livingstone, 20 June 1865</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<!-- Add here a new full <respStmt>, format as above, for each person who works on the file. -->
+				<respStmt xml:id="SF">
+                    <name>Samantha Fitch</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="EC">
+                    <name>Erin Cheatham</name>
+                    <resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2014</date><!-- Change if necessary -->
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License
+                        </ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country><!-- Change as needed -->
+                        <settlement>Edinburgh</settlement><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 2522, ff. 70-71</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">1750</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to John Livingstone, 20 June 1865</title><!-- Change -->
+                    <author>Livingstone, David, 1813-1873</author>
+                    <date type="composition" when="1858-01-28">20 June 1865</date><!-- Change -->
+                    <placeName type="compositionPlace">Burnbank Road, Hamilton</placeName><!-- Change -->
+                    <persName type="addressee">Livingstone, John, 1811-1899</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2014-09-25" who="#SF">Proofing</change>
+			<change when="2014-09-24" who="#EC">Proofing</change>
+			<change when="2014-09-20" who="#SF">Transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002343_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+
+<opener>
+<lb/><dateline rend="right"><add place="above" rend="right" hand="U">70</add><placeName><placeName>Burnbank Road</placeName> 
+<lb/><add place="marginleft" hand="U">Acc. 912.</add><placeName>Hamilton</placeName></placeName><date when="1865-06-20">20 June
+<lb/>1865</date></dateline>
+<lb/>    
+<lb/><salute>My Dear Brother</salute>
+</opener>
+
+<lb/><p>I have to give 
+<lb/>you the intimation
+<lb/>of our mother's
+<lb/>departure to a better
+<lb/>world on <date when="1865-06-18">Sunday
+<lb/>the 18<hi rend="sup underline">th</hi> <choice><abbr>currt.</abbr><expan cert="medium">current</expan></choice></date> and
+<lb/>beg you to <w>com -
+<lb break="no"/>municate</w> the same
+<lb/>to <persName>Neil</persName> and any
+<lb/>other relatives at
+<lb/>your convenience
+
+	<pb facs="liv_002343_0002" n="0002"/>
+<lb/>She had been long
+<lb/>confined to bed but
+<lb/>an attack of <term type="ailment">Bronchitis</term>
+<lb/>took away most
+<lb/>of her remaining strength.
+<lb/>She lingered for more
+<lb/>than two months
+<lb/>in excessive weakness
+<lb/>&amp; <choice><sic>recieved</sic><corr>received</corr></choice> the 
+<lb/>unremitting attention
+<lb/>of <persName>Janet</persName> &amp; <persName>Agnes</persName>
+<lb/>night &amp; day - <persName>Janet</persName>
+<lb/>desires me to say
+<lb/>that she would have
+<lb/>written you long
+<lb/>ago but could not.
+<lb/>Mother was calm
+<lb/>&amp; collected to the last
+
+	<pb facs="liv_002343_0003" n="0003"/>
+<lb/>When the changes came <add place="inline" rend="right" hand="#U">71</add>
+<lb/>near <persName>Agnes</persName> said to
+<lb/>her <quote><q>"<persName>Jesus</persName> is coming
+<lb/>for you. Can you
+<lb/>lippen to him."</q></quote> She
+<lb/>replied <quote><q>"Yes."</q></quote> - gave 
+<lb/>her last look to
+<lb/><persName>Anna Mary</persName> &amp; said
+<lb/><quote><q>"bonnie well lassie"</q></quote>
+<lb/>&amp;fell asleep. She
+<lb/>is to be buried
+<lb/>beside Father on 
+<lb/><date when="1865-06-22">22</date> or <date when="1865-06-23">23<hi rend="sup underline">d</hi></date></p>
+<lb/><p>I was at <placeName><settlement type="city">Oxford</settlement></placeName>
+<lb/>at the time. Left her
+<lb/>a week ago better - 
+<lb/>and she continued
+
+	<pb facs="liv_002343_0004" n="0004"/>
+<lb/>so till the change came. 
+<lb/>A telegram called me
+<lb/>away <date when="1865-06-19">yesterday</date>
+<lb/>morning &amp; by travelling
+<lb/>express I arrived
+<lb/>this morning - and
+<lb/>thank Him who
+<lb/>after sparing her
+<lb/>82 years has preserved
+<lb/>her faithful to himself
+<lb/>All the rest are well -
+<lb/>No word of poor 
+<lb/><persName>Robert</persName> - Give our
+<lb/>love to all yours</p>
+
+<closer rend="center">
+<lb/><salute>Ever affectionately
+<lb/>yours -</salute>
+<lb/><signed><persName>David Livingstone</persName></signed><!-- There is a postal mark here. SF --> 
+</closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
