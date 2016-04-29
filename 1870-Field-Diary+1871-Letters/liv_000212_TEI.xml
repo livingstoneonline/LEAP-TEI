@@ -45,6 +45,11 @@
                     <resp>TEI Encoding</resp>
 					<resp>Proofreading</resp>
                 </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -85,6 +90,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
 			<change when="2016-02-09" who="#AW">Coding corrections</change>
             <change when="2015-02-18" who="#HB">Quality control and TEI encoding</change>
 			<change when="2015-01-31" who="#EC">Proofing</change>
@@ -104,18 +111,18 @@
 
 	<pb facs="liv_000212_0019" n="0019"/>
 <space extent="9" unit="lines" dim="vertical"/>
-<lb/><p rend="no-indent"><hi rend="underline"><placeName><settlement type="village">Bambarre</settlement></placeName>, <date when="1870-08-25">25<hi rend="sup double-underline">th</hi> August, 1870</date>.</hi></p>
+<lb/><p rend="no-indent"><hi rend="underline"><placeName><settlement type="village" ref="settlement.xml#0002">Bambarre</settlement></placeName>, <date when="1870-08-25">25<hi rend="sup double-underline">th</hi> August, 1870</date>.</hi></p>
 <lb/><p rend="no-indent">One of my waking dreams is that the legendary 
-<lb/>tales about <persName>Moses</persName> coming up into <placeName><region>Inner 
-<lb/><placeName><country>Ethiopia</country></placeName></region></placeName> with <persName>Merr</persName> his foster-mother, and 
+<lb/>tales about <persName ref="people.xml#0123">Moses</persName> coming up into <placeName><region>Inner 
+<lb/><placeName><country>Ethiopia</country></placeName></region></placeName> with <persName ref="people.xml#0099">Merr</persName> his foster-mother, and 
 <lb/>founding a city which he called in her honour 
-<lb/>"<placeName><settlement type="city">Meroe</settlement></placeName>," may have a substratum of fact. 
+<lb/>"<placeName><settlement type="city" ref="settlement.xml#0009">Meroe</settlement></placeName>," may have a substratum of fact. 
 <lb/>He was evidently a man of transcendent 
 <lb/>genius and we learn from the <bibl>speech of 
-<lb/><persName><choice><abbr>St.</abbr><expan>Saint</expan></choice> Stephen</persName></bibl> that "<quote>he was learned in all 
+<lb/><persName ref="people.xml#0174"><choice><abbr>St.</abbr><expan>Saint</expan></choice> Stephen</persName></bibl> that "<quote ref="quote.xml#0001">he was learned in all 
 <lb/>the wisdom of the <term type="people">Egyptians</term>, and was mighty
 <lb/>in words &amp; in deeds.</quote>" The deeds must have 
-<lb/>been well known in <placeName><country>Egypt</country></placeName> for "<quote>he supposed 
+<lb/>been well known in <placeName><country>Egypt</country></placeName> for "<quote ref="quote.xml#0002">he supposed 
 <lb/>that his <choice><sic>brethern</sic><corr>brethren</corr></choice> would have understood 
 <lb/>how that God by his hand would deliver 
 <lb/>them, but they understood not.</quote>" His supposition 
@@ -133,193 +140,193 @@
 
 	<pb facs="liv_000212_0020" n="0020"/>
 <lb/>if not powerful man. He "dwelt" in 
-<lb/><placeName><region>Midian</region></placeName> for some time before his gallant <!-- Not sure if Midian is city or town. HB --><!-- Region better. AW -->
+<lb/><placeName><region ref="region.xml#0015">Midian</region></placeName> for some time before his gallant <!-- Not sure if Midian is city or town. HB --><!-- Region better. AW -->
 <lb/>bearing towards the <term type="occupation">shepherds</term> by the well, 
 <lb/>commended him to the <term type="occupation">Priest</term> or <term type="occupation">Prince</term> 
 <lb/>of the country. An uninteresting wife and 
 <lb/>the want of intercourse with kindred spirits 
 <lb/>during the long forty years' solitude of a 
 <lb/><term type="occupation">herdsman</term>'s life, seems to have acted injuriously 
-<lb/>on his spirits, and it was not till he had 
-<lb/>with <persName>Aaron</persName> struck terror into the <term type="nationality">Egyptian</term> 
-<lb/>mind, that the "<quote>man <persName>Moses</persName></quote>" again became 
-<lb/>"<quote>very great in the eyes of <persName><term type="occupation">Pharaoh</term></persName> and 
+<lb/>on his spirits, and it was not till he had
+<lb/>with <persName ref="people.xml#0003">Aaron</persName> struck terror into the <term type="nationality">Egyptian</term> 
+<lb/>mind, that the "<quote ref="quote.xml#0011">man <persName ref="people.xml#0123">Moses</persName></quote>" again became 
+<lb/>"<quote ref="quote.xml#0010">very great in the eyes of <persName><term type="occupation">Pharaoh</term></persName> and 
 <lb/>his servants.</quote>" - The <term type="nationality">Ethiopian</term> woman whom 
 <lb/>he married could scarcely be the daughter 
-<lb/>of <persName>Reuel</persName> or <persName>Jethro</persName> for <persName>Midian</persName> was descended 
-<lb/>from <persName>Keturah</persName>, <persName>Abraham</persName>'s <term type="occupation">concubine</term>, and 
-<lb/>they were never considered <orgName>Cushite</orgName> or 
+<lb/>of <persName ref="people.xml#0152">Reuel</persName> or <persName ref="people.xml#0056">Jethro</persName> for <persName ref="people.xml#0100">Midian</persName> was descended 
+<lb/>from <persName ref="people.xml#0068">Keturah</persName>, <persName ref="people.xml#0007">Abraham</persName>'s <term type="occupation">concubine</term>, and 
+<lb/>they were never considered <orgName ref="orgName.xml#0008">Cushite</orgName> or 
 <lb/><term type="people">Ethiopian</term>. If he left his wife in <placeName><country>Egypt</country></placeName> 
 <lb/>she would now be some 50 or 60 years old, 
 <lb/>and all the more likely to be despised by 
-<lb/>the proud <term type="occupation">prophetess</term> <persName>Miriam</persName> as a daughter 
-<lb/>of <persName>Ham</persName>. I dream of discovering some 
-<lb/>monumental relics of <placeName><settlement type="city">Meroe</settlement></placeName> and if anything 
+<lb/>the proud <term type="occupation">prophetess</term> <persName ref="people.xml#0102">Miriam</persName> as a daughter 
+<lb/>of <persName ref="people.xml#0044">Ham</persName>. I dream of discovering some 
+<lb/>monumental relics of <placeName><settlement type="city" ref="settlement.xml#0009">Meroe</settlement></placeName> and if anything 
 <lb/>of confirmatory of sacred history does remain 
 <lb/>I pray to be guided thereunto. If the <bibl>sacred<!-- <bibl> is a bit of stretch here, but I think this is a ref to the Bible! AW --><!--Midian is too, yes? -AK-->
 <lb/>chronology</bibl> would thereby be confirmed, I would 
 <lb/>not grudge the toil &amp; hardships, hunger 
-<lb/>&amp; pain, I have endured - the irritable 
-<lb/><term type="ailment">ulcers</term> would only be discipline. -</p>
-<lb/><p rend="no-indent">This <placeName><region><term type="tribe">Manyema</term> country</region></placeName> is unhealthy not 
+<lb/>&amp; pain, I have endured - the 
+<lb/><term type="ailment" ref="ailment.xml#0015">irritable ulcers</term> would only be discipline. -</p>
+<lb/><p rend="no-indent">This <placeName><region ref="region.xml#0013"><term type="tribe" ref="ethnic-group.xml#0010">Manyema</term> country</region></placeName> is unhealthy not 
 <lb/>so much from <term type="ailment">fever</term> as from debility of the 
 <lb/>whole system, induced by <seg type="weather">damp, cold</seg>, and 
 <lb/><term type="ailment">indigestion</term>. This general weakness is ascribed 
 <lb/>by some to <term type="plant_foodstuff">maize</term> being the common food. It  	
 
 	<pb facs="liv_000212_0021" n="0021"/>
-<lb/>shows itself in <term type="ailment">weakness of bowels</term> &amp; <term type="ailment">choleraic <!-- I'm not sure if weakness of bowels qualifies as ailment. AW --> 
+<lb/>shows itself in <term type="ailment">weakness of bowels</term> &amp; <term type="ailment" ref="ailment.xml#0003">choleraic <!-- I'm not sure if weakness of bowels qualifies as ailment. AW --> 
 <lb/>purging</term>. This may be owing to bad water, 
 <lb/>there is no scarcity, but it is so impregnated 
 <lb/>with <term type="plant">dead vegetable matter</term>, as to have the <!-- Again, coding in this line may be a stretch. AW --> 
-<lb/>colour of <term type="plant_foodstuff">tea</term>. Irritable <term type="ailment">ulcers</term> fasten on any 
+<lb/>colour of <term type="plant_foodstuff">tea</term>. <term type="ailment" ref="ailment.xml#0015">Irritable ulcers</term> fasten on any 
 <lb/>part attached (?) by any accident, and 
-<lb/>it seems to be a spreading <term type="ailment">fungus</term> for the <!-- Again, questionable coding. AW --><!--I would count all of these ailments, but I may also be the kind of person who leans towards overtagging -AK--><!--I agree with the ailments being marked here. EC--><!-- Agreed! HB -->
+<lb/>it seems to be a spreading <term type="ailment" ref="ailment.xml#0010">fungus</term> for the <!-- Again, questionable coding. AW --><!--I would count all of these ailments, but I may also be the kind of person who leans towards overtagging -AK--><!--I agree with the ailments being marked here. EC--><!-- Agreed! HB -->
 <lb/>matter settling on any part near becomes a
 <lb/>fresh centre of propagation. The vicinity 
-<lb/>of the <term type="ailment">ulcer</term> is very tender, and it eats in 
+<lb/>of the <term type="ailment" ref="ailment.xml#0026">ulcer</term> is very tender, and it eats in 
 <lb/>frightfully if not allowed rest. Many <orgName>slaves</orgName> 
-<lb/>die of it, and its <term type="ailment">periodical discharges 
+<lb/>die of it, and its <term type="ailment" ref="ailment.xml#0016">periodical discharges 
 <lb/>of bloody <unclear cert="medium">ichor</unclear></term> makes me suspect it to be a 
 <lb/>development of <term type="ailment">fever</term>. Support seems to be 
-<lb/>essential, but the <term type="ailment"><unclear cert="medium">ichor</unclear> forcing its way out</term> is 
+<lb/>essential, but the <term type="ailment" ref="ailment.xml#0014"><unclear cert="medium">ichor</unclear> forcing its way out</term> is 
 <lb/>so painful the supporting bandages have to 
 <lb/>be loosed. I have found <term type="medicament">lunar caustic</term> useful. 
 <lb/>A <choice><sic>plaister</sic><corr>plaster</corr></choice> of wax, and a little finely ground 
 <lb/><term type="medicament">sulphate of copper</term> is used by the <orgName>Arabs</orgName>, and 
-<lb/>so is <term type="medicament"><term type="foodstuff"><term type="plant_foodstuff">cocoa-nut</term> oil</term></term><!--Should this be a <choice> tag too for "coconut oil" is more common?-AK--> and <term type="medicament"><term type="foodstuff">butter</term></term>. These <term type="ailment">ulcers</term> 
+<lb/>so is <term type="medicament"><term type="foodstuff"><term type="plant_foodstuff">cocoa-nut</term> oil</term></term><!--Should this be a <choice> tag too for "coconut oil" is more common?-AK--> and <term type="medicament"><term type="foodstuff">butter</term></term>. These <term type="ailment" ref="ailment.xml#0026">ulcers</term> 
 <lb/>are excessively intractable. There is no healing 
 <lb/>of them before they eat into the bone, especially 
 <lb/>on the shins. The pain causes <orgName>slaves</orgName> to cry 
 <lb/>the whole night long.</p>
-<lb/><p rend="no-indent"><term type="ailment">Rheumatism</term> is also common and it cuts 
+<lb/><p rend="no-indent"><term type="ailment" ref="ailment.xml#0018">Rheumatism</term> is also common and it cuts 
 <lb/>the <orgName>natives</orgName> off. The <term type="occupation">traders</term> fear these diseases 
 <lb/>and come to a stand if attacked, in order 
-<lb/>to use rest in the cure. "<term type="ailment">Taema</term>," or <term type="ailment"><term type="insect"><w>Tape-<!-- Do tapeworms qualify as rather as animal or insect? AW --><!--They are worms... could it be dually tagged as both? -AK--><!-- I'm going with insect. HB -->
+<lb/>to use rest in the cure. "<term type="ailment" ref="ailment.xml#0023">Taema</term>," or <term type="ailment" ref="ailment.xml#0024"><term type="insect"><w>Tape-<!-- Do tapeworms qualify as rather as animal or insect? AW --><!--They are worms... could it be dually tagged as both? -AK--><!-- I'm going with insect. HB -->
 <lb break="no"/>worm</w></term></term> is frequently met with - No remedy 
 <lb/>is known among the <orgName>Arabs</orgName> &amp; <orgName>natives</orgName> for it. 
-<lb/><term type="ailment">Syphilitic <del><gap extent="2" unit="chars"/></del> skin diseases</term> are common among 
-<lb/><term type="tribe">Manyema</term> - <term type="ailment">large scabs on face &amp; body</term>, 
+<lb/><term type="ailment" ref="ailment.xml#0022">Syphilitic <del><gap extent="2" unit="chars"/></del> skin diseases</term> are common among 
+<lb/><term type="tribe" ref="ethnic-group.xml#0010">Manyema</term> - <term type="ailment">large scabs on face &amp; body</term>, 
 <lb/>even among children. The <orgName>Arabs</orgName> increase 
 <lb/>them by impure intercourse. Filthy takers all.   	
 
 	<pb facs="liv_000212_0022" n="0022"/>
 <lb/><fw n="6"><add place="above" rend="left"><hi rend="underline">6</hi></add></fw> <fw n="11"><add place="above" rend="right"><metamark/>11</add></fw>
-<lb/><term type="ailment">White leprosy</term> is also common. <term type="medicament">Malachite</term> 
+<lb/><term type="ailment" ref="ailment.xml#0027">White leprosy</term> is also common. <term type="medicament">Malachite</term> 
 <lb/>ground on a stone with water is good for 
-<lb/><term type="ailment">irritable ulcers</term>.</p> 
-<lb/><p rend="no-indent">When <persName>Speke</persName> saw that his little river out of <!-- geog: I think this is called Victoria Nile. AW -->
-<lb/>the <placeName><geogName type="lake">Victoria Nyanza</geogName></placeName> would not account for 
-<lb/>the <placeName><geogName type="river">Nile</geogName></placeName>, the more philosophic course would 
+<lb/><term type="ailment" ref="ailment.xml#0015">irritable ulcers</term>.</p> 
+<lb/><p rend="no-indent">When <persName ref="people.xml#0170">Speke</persName> saw that his little river out of <!-- geog: I think this is called Victoria Nile. AW -->
+<lb/>the <placeName><geogName type="lake" ref="geogName.xml#0027">Victoria Nyanza</geogName></placeName> would not account for 
+<lb/>the <placeName><geogName type="river" ref="geogName.xml#0045">Nile</geogName></placeName>, the more philosophic course would 
 <lb/>have been instead of conjecturing a backwater, 
 <lb/>to strike <add place="below">^</add> <add place="above">west</add> across the great valley, and there 
-<lb/>not to mention <placeName><geogName type="lake"><persName>Baker</persName>'s water</geogName></placeName> which he too 
+<lb/>not to mention <placeName><geogName type="lake" ref="geogName.xml#0018"><persName ref="people.xml#0016">Baker</persName>'s water</geogName></placeName> which he too 
 <lb/>might have called a Lake, he would have <!-- geog: Lake Albert --> 
-<lb/>come to the <placeName><geogName type="river">central Lualaba</geogName></placeName>, not <measure><measure>90</measure> or <measure>100 
+<lb/>come to the <placeName><geogName type="river" ref="geogName.xml#0033">central Lualaba</geogName></placeName>, not <measure><measure>90</measure> or <measure>100 
 <lb/>yards</measure></measure> but from <measure><measure>2000</measure> to <measure>6000 yards</measure> and 
 <lb/>always deep</measure> - this  near the bottom of the 
 <lb/>trough, and then further West another 
-<lb/><placeName><geogName type="river">Lualaba</geogName></placeName>, a worthy companion to that in 
-<lb/>the centre. The <placeName><geogName type="river">central Lualaba</geogName></placeName> I would 
-<lb/>fain call the <placeName><geogName type="river">Lake River <persName>Webb</persName></geogName></placeName>, - the <placeName><geogName type="river">Western</geogName></placeName> 
-<lb/>the <placeName><geogName type="river">Lake River <persName>Young</persName></geogName></placeName>. The <placeName><geogName type="river">Lufira</geogName></placeName> and 
-<lb/><placeName><geogName type="river">Lualaba West</geogName></placeName> form a Lake <!-- geog: Chibungo or Lake Lincoln --> the <orgName>native</orgName> name 
-<lb/>of which, "<placeName><geogName type="lake">Chibungo</geogName></placeName>"  must give way to <placeName><geogName type="lake">Lake 
-<lb/><persName>Lincoln</persName></geogName></placeName>. I wish to name the <placeName><geogName type="fountain">fountain of 
-<lb/>the <placeName><geogName type="river">Liambai</geogName></placeName> or <placeName><geogName type="river">Upper Zambesi</geogName></placeName></geogName></placeName>, <placeName><geogName type="fountain"><persName>Palmerston</persName> 
+<lb/><placeName><geogName type="river" ref="geogName.xml#0033">Lualaba</geogName></placeName>, a worthy companion to that in 
+<lb/>the centre. The <placeName><geogName type="river" ref="geogName.xml#0033">central Lualaba</geogName></placeName> I would 
+<lb/>fain call the <placeName><geogName type="river" ref="geogName.xml#0035">Lake River <persName ref="people.xml#0192">Webb</persName></geogName></placeName>, - the <placeName><geogName type="river" ref="geogName.xml#0029">Western</geogName></placeName> 
+<lb/>the <placeName><geogName type="river" ref="geogName.xml#0031">Lake River <persName ref="people.xml#0194">Young</persName></geogName></placeName>. The <placeName><geogName type="river" ref="geogName.xml#0039">Lufira</geogName></placeName> and
+<lb/><placeName><geogName type="river" ref="geogName.xml#0029">Lualaba West</geogName></placeName> form a Lake <!-- geog: Chibungo or Lake Lincoln --> the <orgName>native</orgName> name 
+<lb/>of which, "<placeName><geogName type="lake" ref="geogName.xml#0021">Chibungo</geogName></placeName>"  must give way to <placeName><geogName type="lake" ref="geogName.xml#0021">Lake 
+<lb/><persName ref="people.xml#0075">Lincoln</persName></geogName></placeName>. I wish to name the <placeName><geogName type="fountain" ref="geogName.xml#0055">fountain of 
+<lb/>the <placeName><geogName type="river" ref="geogName.xml#0059">Liambai</geogName></placeName> or <placeName><geogName type="river" ref="geogName.xml#0059">Upper Zambesi</geogName></placeName></geogName></placeName>, <placeName><geogName type="fountain" ref="geogName.xml#0052"><persName ref="people.xml#0142">Palmerston</persName> 
 <lb/>fountain</geogName></placeName>, using these two names by way 
 <lb/>of placing my poor little garland on their 
-<lb/>tombs, and adding that of <persName>Sir Bartle 
-<lb/>Frere</persName> to the <placeName><geogName type="fountain">fountain of <placeName><geogName type="river">Lufira</geogName></placeName></geogName></placeName>. Three 
+<lb/>tombs, and adding that of <persName ref="people.xml#0036">Sir Bartle 
+<lb/>Frere</persName> to the <placeName><geogName type="fountain" ref="geogName.xml#0008">fountain of <placeName><geogName type="river" ref="geogName.xml#0039">Lufira</geogName></placeName></geogName></placeName>. Three 
 <lb/>names of men who have done more to 
 <lb/>abolish <orgName>slavery</orgName> &amp; the <orgName>slave-trade</orgName> than 
 <lb/>any of their contemporaries.</p>
 <lb/><p rend="no-indent"><hi rend="double-underline"><date when="1870-10-04">4<hi rend="sup double-underline">th</hi> October 1870</date></hi>. A <orgName><term type="occupation">trading</term> party</orgName> came from
-<lb/><placeName><settlement type="village">Ujiji</settlement></placeName>, arrived on <date when="1870-09-23">23<hi rend="sup underline">d</hi> <choice><abbr>Sep<hi rend="sup underline">t</hi></abbr><expan>September</expan></choice></date>, left for <choice><abbr>N.W.</abbr><expan>North West</expan></choice> four 
+<lb/><placeName><settlement type="village" ref="settlement.xml#0014">Ujiji</settlement></placeName>, arrived on <date when="1870-09-23">23<hi rend="sup underline">d</hi> <choice><abbr>Sep<hi rend="sup underline">t</hi></abbr><expan>September</expan></choice></date>, left for <choice><abbr>N.W.</abbr><expan>North West</expan></choice> four 
 <lb/>days afterwards. Report an epidemic raging 
-<lb/>between <placeName><region>coast</region></placeName> &amp; <placeName><settlement type="village">Ujiji</settlement></placeName> &amp; very fatal. <persName>Syde bin 
-<lb/>Habib</persName> and <persName>Dugumbe</persName> coming - they have <bibl>letters</bibl>
+<lb/>between <placeName><region>coast</region></placeName> &amp; <placeName><settlement type="village" ref="settlement.xml#0014">Ujiji</settlement></placeName> &amp; very fatal. <persName ref="people.xml#0181">Syde bin 
+<lb/>Habib</persName> and <persName ref="people.xml#0035">Dugumbe</persName> coming - they have <bibl>letters</bibl>
 
 	<pb facs="liv_000212_0023" n="0023"/>
 <lb/>and perhaps people for me, so I remain, though 
-<lb/>the <term type="ailment">irritable ulcers</term> are well-nigh healed. 
+<lb/>the <term type="ailment" ref="ailment.xml#0015">irritable ulcers</term> are well-nigh healed. 
 <lb/>I fear that <bibl>my packet</bibl> for <placeName><region>the coast</region></placeName> may 
-<lb/>have fared badly, for the <foreign xml:lang="und"><term type="occupation">Lewale</term></foreign> has kept <!-- I suspect the word is Swahili. AW --> 
-<lb/><persName>Musa Kamaal</persName> by him so that no evidence 
-<lb/>against himself or dishonest man <persName>Musa 
+<lb/>have fared badly, for the <foreign xml:lang="und" ref="foreign-word.xml#0008"><term type="occupation">Lewale</term></foreign> has kept <!-- I suspect the word is Swahili. AW --> 
+<lb/><persName ref="people.xml#0136">Musa Kamaal</persName> by him so that no evidence 
+<lb/>against himself or dishonest man <persName ref="people.xml#0135">Musa 
 <lb/>bin <choice><orig>Saloom</orig><reg>Salem</reg></choice></persName> should be given. My box and 
 <lb/>guns with <bibl>Despatches</bibl> I fear will never be sent. 
 <lb/><persName>Zahor</persName>, to whom I gave calico to pay <term type="occupation">carriers</term>
 <lb/>has been sent off to <placeName><settlement type="village">Lobemba</settlement></placeName>. <persName ref="people.xml#0002">Muhamad</persName>
 <lb/>sowed <term type="plant_foodstuff">rice</term> <date when="1870-10-03">yesterday</date>. Has to send his 
-<lb/>people who were unsuccessful among <term type="tribe"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term>
-<lb/>away to the <foreign xml:lang="und"><placeName><region><geogName type="forest"><choice><orig>Metambe</orig><reg>Metamba</reg></choice></geogName></region></placeName></foreign>, where they got ivory <!-- Metambe is the rainforest. I think other instances of it should be tagged like this, so we need to retro-implement. AW --><!-- Am implementing coding as per 2015 discussions. HB -->
+<lb/>people who were unsuccessful among <term type="tribe" ref="ethnic-group.xml#0009"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term>
+<lb/>away to the <foreign xml:lang="und" ref="foreign-word.xml#0009"><placeName><region ref="region.xml#0007"><geogName type="forest" ref="geogName.xml#0041"><choice><orig>Metambe</orig><reg>Metamba</reg></choice></geogName></region></placeName></foreign>, where they got ivory <!-- Metambe is the rainforest. I think other instances of it should be tagged like this, so we need to retro-implement. AW --><!-- Am implementing coding as per 2015 discussions. HB -->
 <lb/>before. - I cannot understand very well 
 <lb/>what a "Theoretical Discoverer" <!--I'm confused on when and how to use the quote tag; our guide says also to use "<q>" with this, is that correct? -AK--><!-- We actually only use the quote tag when DL is specifically quoting a book/speech/other material, so no tag needed here (changes will be made with new manual). Adrian, can you confirm all quotes are in fact coming from the Bible/other text and should thus have the quote tag? HB --> is. If anyone 
 <lb/>got up and declared in a public meeting 
 <lb/>that he was the theoretical discoverer of 
 <lb/>the "philosopher's stone", of perpetual motion 
 <lb/>for watches, should we not mark him as 
-<lb/>a little wrong in the head? So of the <placeName><geogName type="source"><placeName><geogName type="river">Nile</geogName></placeName> 
-<lb/>sources</geogName></placeName>. The <term type="people">Portuguese</term> crossed the <placeName><geogName type="river">Chambeze</geogName></placeName> 
+<lb/>a little wrong in the head? So of the <placeName><geogName type="source" ref="geogName.xml#0053"><placeName><geogName type="river" ref="geogName.xml#0045">Nile</geogName></placeName> 
+<lb/>sources</geogName></placeName>. The <term type="people">Portuguese</term> crossed the <placeName><geogName type="river" ref="geogName.xml#0037">Chambeze</geogName></placeName> 
 <lb/>some seventy years before I did, but to them 
-<lb/>it was a branch of the <placeName><geogName type="river">Zambesi</geogName></placeName> &amp; nothing 
-<lb/>more. <persName>Cooley</persName> put it down as the <placeName><geogName type="river">New Zambesi</geogName></placeName> 
+<lb/>it was a branch of the <placeName><geogName type="river" ref="geogName.xml#0059">Zambesi</geogName></placeName> &amp; nothing 
+<lb/>more. <persName ref="people.xml#0032">Cooley</persName> put it down as the <placeName><geogName type="river" ref="geogName.xml#0037">New Zambesi</geogName></placeName> 
 <lb/>and made it run backwards, uphill
 <lb/>between <measure><measure>3000</measure> &amp; <measure>4000 feet</measure></measure>! I was misled by 
 <lb/>the similarity of names and a <bibl>map</bibl> to think 
-<lb/>it the <placeName><geogName type="river">Eastern branch of the <placeName><geogName type="river">Zambesi</geogName></placeName></geogName></placeName>. I was 
+<lb/>it the <placeName><geogName type="river" ref="geogName.xml#0037">Eastern branch of the <placeName><geogName type="river" ref="geogName.xml#0059">Zambesi</geogName></placeName></geogName></placeName>. I was 
 <lb/>told that it formed a large water in the 
 <lb/>South West. This I readily believed to be 
-<lb/>the <placeName><geogName type="river">Liambai</geogName></placeName>, in the <placeName><geogName type="valley">Barotse Valley</geogName></placeName>, and 
+<lb/>the <placeName><geogName type="river" ref="geogName.xml#0059">Liambai</geogName></placeName>, in the <placeName><geogName type="valley" ref="geogName.xml#0058">Barotse Valley</geogName></placeName>, and 
 <lb/>it took me eighteen months of toil to work 
-<lb/>back again to the <placeName><geogName type="river">Chambeze</geogName></placeName> in <placeName><geogName type="lake">Lake 
+<lb/>back again to the <placeName><geogName type="river" ref="geogName.xml#0037">Chambeze</geogName></placeName> in <placeName><geogName type="lake" ref="geogName.xml#0020">Lake 
 <lb/>Bangweolo</geogName></placeName>, and work out the error into   	
 
 	<pb facs="liv_000212_0024" n="0024"/>
 <lb/><fw place="top" rend="right" n="12">12</fw>
 <lb/>which I was led. Twenty-two months elapsed <!--Is there a way to use the date tag to tag elapsed time? -AK-->
 <lb/>ere I got back to the point whence I set 
-<lb/>out to explore <placeName><geogName type="river">Chambeze</geogName></placeName>, <placeName><geogName type="lake">Bangweolo</geogName></placeName>, 
-<lb/><placeName><geogName type="river">Luapula</geogName></placeName>, <placeName><geogName type="lake">Moero</geogName></placeName>, and <placeName><geogName type="river">Lualaba</geogName></placeName>. I spent 
-<lb/>two full years at this work, and the <persName><term type="occupation">Chief</term> 
+<lb/>out to explore <placeName><geogName type="river" ref="geogName.xml#0037">Chambeze</geogName></placeName>, <placeName><geogName type="lake" ref="geogName.xml#0020">Bangweolo</geogName></placeName>, 
+<lb/><placeName><geogName type="river" ref="geogName.xml#0037">Luapula</geogName></placeName>, <placeName><geogName type="lake" ref="geogName.xml#0024">Moero</geogName></placeName>, and <placeName><geogName type="river" ref="geogName.xml#0033">Lualaba</geogName></placeName>. I spent 
+<lb/>two full years at this work, and the <persName ref="people.xml#0067"><term type="occupation">Chief</term> 
 <lb/>Cazembe</persName> was the first to throw light on 
 <lb/>the subject. - "It is the same water here 
-<lb/>as in the <placeName><geogName type="river">Chambeze</geogName></placeName>, the same in <placeName><geogName type="lake">Moero</geogName></placeName> 
-<lb/>&amp; <placeName><geogName type="river">Lualaba</geogName></placeName> and one piece of water is just 
+<lb/>as in the <placeName><geogName type="river" ref="geogName.xml#0037">Chambeze</geogName></placeName>, the same in <placeName><geogName type="lake" ref="geogName.xml#0024">Moero</geogName></placeName> 
+<lb/>&amp; <placeName><geogName type="river" ref="geogName.xml#0033">Lualaba</geogName></placeName> and one piece of water is just 
 <lb/>like another.  Will you draw out calico 
 <lb/>from it that you wish to see it? As your 
-<lb/><term type="occupation">chief</term> desired you to see <placeName><geogName type="lake">Bangweolo</geogName></placeName>, go to 
+<lb/><term type="occupation">chief</term> desired you to see <placeName><geogName type="lake" ref="geogName.xml#0020">Bangweolo</geogName></placeName>, go to 
 <lb/>it, and if in going north you see a travelling 
 <lb/>party, join it - if not come back to me
 <lb/>and I will send you safely by my path along 
-<lb/><placeName><geogName type="lake">Moero</geogName></placeName>."</p> <ab><add hand="#U"><metamark/><unclear cert="medium">fox</unclear></add></ab>
-<lb/><p rend="no-indent"><hi rend="double-underline"><date when="1870-10-08">8<hi rend="sup double-underline">th</hi> <choice><abbr>Oct<hi rend="sup double-underline">r</hi></abbr><expan>October</expan></choice> 1870</date></hi>. - <orgName><persName>Mbarawa</persName> &amp; party</orgName> came <date when="1870-10-07">yesterday</date>
-<lb/>from <persName>Katomba</persName> at <placeName><settlement type="village">Mamohela</settlement></placeName>. Reports that 
-<lb/><persName>Jangeonge</persName> (?) with <orgName><persName><choice><orig>Moeneokela</orig><reg>Moeneokila</reg></choice></persName>'s men</orgName> had been 
-<lb/>killing people of <foreign xml:lang="und"><placeName><region><geogName type="forest">Metamba</geogName></region></placeName></foreign> or forest, and 
+<lb/><placeName><geogName type="lake" ref="geogName.xml#0024">Moero</geogName></placeName>."</p> <ab><add hand="#U"><metamark/><unclear cert="medium">fox</unclear></add></ab>
+<lb/><p rend="no-indent"><hi rend="double-underline"><date when="1870-10-08">8<hi rend="sup double-underline">th</hi> <choice><abbr>Oct<hi rend="sup double-underline">r</hi></abbr><expan>October</expan></choice> 1870</date></hi>. - <orgName><persName ref="people.xml#0096">Mbarawa</persName> &amp; party</orgName> came <date when="1870-10-07">yesterday</date>
+<lb/>from <persName ref="people.xml#0065">Katomba</persName> at <placeName><settlement type="village">Mamohela</settlement></placeName>. Reports that 
+<lb/><persName ref="people.xml#0054">Jangeonge</persName> (?) with <orgName><persName ref="people.xml#0111"><choice><orig>Moeneokela</orig><reg>Moeneokila</reg></choice></persName>'s men</orgName> had been 
+<lb/>killing people of <foreign xml:lang="und" ref="foreign-word.xml#0009"><placeName><region ref="region.xml#0007"><geogName type="forest" ref="geogName.xml#0041">Metamba</geogName></region></placeName></foreign> or forest, and 
 <lb/><orgName>four of his people</orgName> slain. He intended 
 <lb/>fighting, hence his desire to get rid of me 
 <lb/>when I went north. Got one and a half 
-<lb/>tusks, but little ivory, but <orgName><persName>Katomba</persName>'s party</orgName> 
-<lb/>got fifty tusks. <persName>Abdullah</persName> had got two tusks 
-<lb/>also been fighting, and <persName>Katomba</persName> had sent 
+<lb/>tusks, but little ivory, but <orgName><persName ref="people.xml#0065">Katomba</persName>'s party</orgName> 
+<lb/>got fifty tusks. <persName ref="people.xml#0004">Abdullah</persName> had got two tusks 
+<lb/>also been fighting, and <persName ref="people.xml#0065">Katomba</persName> had sent 
 <lb/>a fighting party down to <placeName><geogName type="river">Lolinde</geogName></placeName>. Plunder &amp; 
-<lb/>murder is <orgName>Ujijian <term type="occupation">trading</term></orgName>. <persName>Mbarawa</persName> got 
-<lb/>his ivory on the <placeName><geogName type="river">Lindi</geogName></placeName> or as he says "<placeName><geogName type="river">Urindi</geogName></placeName>" 
+<lb/>murder is <orgName ref="orgName.xml#0028">Ujijian <term type="occupation">trading</term></orgName>. <persName ref="people.xml#0096">Mbarawa</persName> got 
+<lb/>his ivory on the <placeName><geogName type="river" ref="geogName.xml#0028">Lindi</geogName></placeName> or as he says "<placeName><geogName type="river">Urindi</geogName></placeName>" 
 <lb/>which has black water, and is very large - 
 <lb/>An arrow could not be shot across; its 
 <lb/><measure><measure>400</measure> or <measure>500 yards</measure></measure> had to be crossed by canoes, 
-<lb/>goes into <placeName><geogName type="river">Lualaba</geogName></placeName>. - It is curious that all 
+<lb/>goes into <placeName><geogName type="river" ref="geogName.xml#0033">Lualaba</geogName></placeName>. - It is curious that all 
 <lb/>think it necessary to say to me, "The <del type="cancelled">Manye</del>   	
 
 	<pb facs="liv_000212_0025" n="0025"/>
-<lb/><term type="tribe">Manyema</term> are bad - very bad." The <term type="tribe"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term> 
+<lb/><term type="tribe" ref="ethnic-group.xml#0010">Manyema</term> are bad - very bad." The <term type="tribe" ref="ethnic-group.xml#0009"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term> 
 <lb/>will be let alone, because they can fight, and 
 <lb/>we shall hear nothing of their badness. My 
-<lb/><orgName>slavelings</orgName> join in the chorus of the <term type="tribe">Manyema</term> 
-<lb/>being bad. The <term type="tribe"><choice><orig>Babemba</orig><reg>Bemba</reg></choice></term> were good said 
-<lb/><persName>Simon</persName>, and he killed two because he was
+<lb/><orgName>slavelings</orgName> join in the chorus of the <term type="tribe" ref="ethnic-group.xml#0010">Manyema</term> 
+<lb/>being bad. The <term type="tribe" ref="ethnic-group.xml#0002"><choice><orig>Babemba</orig><reg>Bemba</reg></choice></term> were good said 
+<lb/><persName ref="people.xml#0168">Simon</persName>, and he killed two because he was
 <lb/>safe. - -</p>
 
 <!-- End of V to IX -->  

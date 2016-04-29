@@ -38,11 +38,6 @@
                     <resp>TEI Encoding</resp>
 					<resp>Proofreading</resp>
                 </respStmt>
-				<respStmt xml:id="EM">
-                    <name>Alexander Munson</name>
-                    <resp>TEI Encoding</resp>
-					<resp>Proofreading</resp>
-                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -88,8 +83,6 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-			<change when="2016-04-27" who="#AW">Review and corrections</change>
-			<change when="2016-04-27" who="#EM">Addition of @refs</change>
 			<change when="2016-02-09" who="#AW">Coding corrections</change>
 			<change when="2015-04-02" who="#AW">Coding review</change>
             <change when="2015-02-05" who="#HB">Quality control and integration</change>    
@@ -117,16 +110,16 @@
 <lb/><p rend="no-indent"><date when="1871-01-22">22<hi rend="sup underline">nd</hi></date> a party reported to be in the way hither - This
 <lb/>is likely enough - <add place="over-text" rend="gray vertical"><metamark/></add>but reports are so often false doubts
 <lb/>arise - <space extent="3" unit="chars"/> <persName ref="people.xml#0002">Muhamad</persName> says he will give men when the
-<lb/>party of <persName ref="people.xml#0047"><w><choice><sic>Hassa<space extent="4" unit="chars"/>ni</sic><corr>Hassani</corr></choice></w></persName><!-- Interesting splotches in this region worth processing. AW --> comes or when <persName ref="people.xml#0035">Dugumbe</persName>
-<lb/>arrives <space extent="2" unit="words"/>My <space extent="3" unit="words"/><orgName ref="orgName.xml#0017">Nassickers</orgName> cooly assert
+<lb/>party of <persName><w><choice><sic>Hassa<space extent="4" unit="chars"/>ni</sic><corr>Hassani</corr></choice></w></persName><!-- Interesting splotches in this region worth processing. AW --> comes or when <persName>Dugumbe</persName>
+<lb/>arrives <space extent="2" unit="words"/>My <space extent="3" unit="words"/><orgName>Nassickers</orgName> cooly assert
 <lb/>that they did <space extent="3" unit="chars"/>not <space extent="2" unit="words"/>desert <space extent="1" unit="words"/>after <space extent="1" unit="words"/>this
 <lb/>it will be <choice><sic><w>im- <space extent="3" unit="chars"/>possible</w></sic><corr>impossible</corr></choice> <space extent="2" unit="chars"/>to take the 
 <lb/>ringleaders<add place="over-text" rend="gray vertical"><metamark/></add> <space extent="2" unit="words"/>but <space extent="1" unit="words"/>some
 <lb/>will believe<add place="over-text" rend="gray vertical"><metamark/></add> <space extent="1" unit="words"/>them as <space extent="1" unit="words"/>for
-<lb/>instance <orgName><persName ref="people.xml#0188">M<hi rend="sup">r</hi> <space extent="2" unit="chars"/>Tozer</persName> &amp; Co</orgName></p>
+<lb/>instance <orgName><persName>M<hi rend="sup">r</hi> <space extent="2" unit="chars"/>Tozer</persName> &amp; Co</orgName></p>
 
     <ab rend="gray black brown vertical">
-<figure><figDesc>Series of calculations over lower half of page in, apparently, pencil and different kinds of inks. In some cases Livingstone has inked over calculations and text. Text includes: "Chirubi", "middle", "S End", "Kipya", "Landsend", "Mpabali", "Sea Horizon", and "<placeName><settlement type="village" ref="settlement.xml#0005"><persName ref="people.xml#0064"><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName></settlement></placeName>".</figDesc></figure><!-- The text interspersed among these calculations really needs to be brought out with further processing. AW -->
+<figure><figDesc>Series of calculations over lower half of page in, apparently, pencil and different kinds of inks. In some cases Livingstone has inked over calculations and text. Text includes: "Chirubi", "middle", "S End", "Kipya", "Landsend", "Mpabali", "Sea Horizon", and "<placeName><settlement type="village"><persName><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName></settlement></placeName>".</figDesc></figure><!-- The text interspersed among these calculations really needs to be brought out with further processing. AW -->
     </ab> 
 
 	<pb facs="liv_000208_0002" n="0002"/>
@@ -135,7 +128,7 @@
 <!-- Lots of blots on this page that could be processed. AW -->
 <cb rend="vertical"/>
 <lb/><p rend="no-indent"><add place="margintop" rend="gray" hand="#U"><fw n="7">7</fw></add>
-<lb/><space extent="10" unit="lines" dim="vertical"/><figure><figDesc>Drawing of a map with the Equator at the top, Lakes <placeName><geogName type="lake" ref="geogName.xml#0021">Chibungo</geogName></placeName> or <placeName><geogName type="lake" ref="geogName.xml#0021"><persName ref="people.xml#0075">Lincoln</persName></geogName></placeName>, <placeName><geogName type="lake" ref="geogName.xml#0024">Moero</geogName></placeName> and <placeName><geogName type="lake" ref="geogName.xml#0025">Tanganyika</geogName></placeName>, with latitude markings.</figDesc></figure>
+<lb/><space extent="10" unit="lines" dim="vertical"/><figure><figDesc>Drawing of a map with the Equator at the top, Lakes <placeName><geogName type="lake">Chibungo</geogName></placeName> or <placeName><geogName type="lake"><persName>Lincoln</persName></geogName></placeName>, <placeName><geogName type="lake">Moero</geogName></placeName> and <placeName><geogName type="lake">Tanganyika</geogName></placeName>, with latitude markings.</figDesc></figure>
 <lb/>There is no desert in all the
 <lb/>country said to be travelled over
 <lb/>It is every where fertile &amp; covered

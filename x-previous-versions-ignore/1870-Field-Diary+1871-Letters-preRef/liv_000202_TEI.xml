@@ -32,11 +32,6 @@
 					<resp>Proofreading</resp>
 					<resp>Quality Control and Integration</resp>
                 </respStmt>
-				<respStmt xml:id="EM">
-                    <name>Alexander Munson</name>
-                    <resp>TEI Encoding</resp>
-					<resp>Proofreading</resp>
-                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -82,8 +77,6 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-			<change when="2016-04-27" who="#AW">Review and corrections</change>
-			<change when="2016-04-27" who="#EM">Addition of @refs</change>
 			<change when="2016-02-09" who="#AW">Coding corrections</change>
 			<change when="2015-04-02" who="#AW">Coding review</change>
             <change when="2015-01-25" who="#HB">Proofing and quality control and integration</change>
@@ -105,7 +98,7 @@
 
 <lb/><p rend="no-indent"><fw n="heading_X" rend="large">X<supplied>.</supplied></fw> to be copied into <bibl>Journal</bibl> = <date when="1870-10-10">10<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1870</date> <choice><sic>came</sic><corr>Came</corr></choice> out of hut <date when="1870-10-10">today</date> <add place="above marginright" rend="gray" hand="#U"><fw n="1">1</fw></add><!-- change final color to "gray" -->
  
-<lb/>after being confined to it since <date when="1870-07-22">22<hi rend="sup underline">nd</hi> July</date> or <measure>80 days</measure> – by <term type="ailment" ref="ailment.xml#0015">irritable
+<lb/>after being confined to it since <date when="1870-07-22">22<hi rend="sup underline">nd</hi> July</date> or <measure>80 days</measure> – by <term type="ailment">irritable
 
 <lb/>ulcers on the feet</term> - The last <measure>20 days</measure> I suffered from <term type="ailment">fever</term>
  
@@ -117,7 +110,7 @@
 
 <lb/>profuse sweating – I am thankful to feel myself well – 
 
-<lb/>only one <term type="ailment" ref="ailment.xml#0026">ulcer</term> open the size of a <term type="plant_foodstuff">split pea</term> – <term type="medicament">Malachite</term> was<!-- Spectral process drop on "only". AW -->
+<lb/>only one <term type="ailment">ulcer</term> open the size of a <term type="plant_foodstuff">split pea</term> – <term type="medicament">Malachite</term> was<!-- Spectral process drop on "only". AW -->
 
 <lb/>the remedy most useful but the <seg type="weather">beginning of the rains</seg> may
  
@@ -125,15 +118,15 @@
 
 <lb/>is used when <term type="medicament">malachite</term> cannot be had – We expect 
 
-<lb/><persName ref="people.xml#0181">Syde <choice><orig>Bin</orig><reg>bin</reg></choice> Habib</persName> soon - He will take to the river and I <!-- geog: Lualaba -->
+<lb/><persName>Syde <choice><orig>Bin</orig><reg>bin</reg></choice> Habib</persName> soon - He will take to the river and I <!-- geog: Lualaba -->
  
 <lb/>hope so shall I – The <term type="occupation"><orgName>native</orgName> traders</term> reached people who 
 
-<lb/>had horns of <term type="animal">oxen</term> got from left bank of <placeName><geogName type="river" ref="geogName.xml#0033">Lualaba</geogName></placeName> – <orgName><persName ref="people.xml#0065"><w>Ka-
+<lb/>had horns of <term type="animal">oxen</term> got from left bank of <placeName><geogName type="river">Lualaba</geogName></placeName> – <orgName><persName><w>Ka-
 
 <lb break="no"/>tomba</w></persName>’s people</orgName><!-- The <w> isn't used exactly right in the foregoing because </w> should really go after the 's, but the schema won't accept it that way. AW --> got most ivory namely 50 tusks – the others 
 
-<lb/>only four – the <foreign xml:lang="und" ref="foreign-word.xml#0009"><placeName><region ref="region.xml#0007"><geogName type="forest" ref="geogName.xml#0041">Metamba</geogName></region></placeName></foreign> or forest is of immense extent <!-- The Central African rainforest is being referenced here, hence my use of <geogFeat>. AW --><!-- Adrian, I have changed as per or email exchange. HB -->
+<lb/>only four – the <foreign xml:lang="und"><placeName><region><geogName type="forest">Metamba</geogName></region></placeName></foreign> or forest is of immense extent <!-- The Central African rainforest is being referenced here, hence my use of <geogFeat>. AW --><!-- Adrian, I have changed as per or email exchange. HB -->
 
 <lb/>and there is room for much ivory to be picked up 
 
@@ -141,28 +134,28 @@
 
 <lb/>will only be merciful – The nine villages and a 100 men 
 
-<lb/>killed by <orgName><persName ref="people.xml#0065">Katomba</persName>’s <orgName>slaves</orgName></orgName> <!-- Megan, take note of how the foregoing is done. I think we will use <orgName> for any entities that we want to mark, even if they're not formally named, for instance, captives, slaves, etc. AW --> at <placeName><settlement type="village"><persName ref="people.xml#0138">Nasangwa</persName><supplied>'s</supplied></settlement></placeName> were 
+<lb/>killed by <orgName><persName>Katomba</persName>’s <orgName>slaves</orgName></orgName> <!-- Megan, take note of how the foregoing is done. I think we will use <orgName> for any entities that we want to mark, even if they're not formally named, for instance, captives, slaves, etc. AW --> at <placeName><settlement type="village"><persName>Nasangwa</persName><supplied>'s</supplied></settlement></placeName> were 
 
 <lb/>all about a string of beads fastened to a powder horn 
 
-<lb/>which a <orgName><term type="tribe" ref="ethnic-group.xml#0010"><choice><sic>manyema</sic><corr>Manyema</corr></choice></term> man</orgName><!-- Megan, take note of how the foregoing is done. I've marked both the tribe and the invididual. AW --> tried in vain to steal – – <persName ref="people.xml#0065"><abbr>Ka</abbr><expan>Katomba</expan></persName><!-- Spectral process drop on "which". AW -->
+<lb/>which a <orgName><term type="tribe"><choice><sic>manyema</sic><corr>Manyema</corr></choice></term> man</orgName><!-- Megan, take note of how the foregoing is done. I've marked both the tribe and the invididual. AW --> tried in vain to steal – – <persName><abbr>Ka</abbr><expan>Katomba</expan></persName><!-- Spectral process drop on "which". AW -->
 
 <lb/>gets 25 of the 50 tusks brought by <orgName>his people</orgName></p>
 
 
 	<pb facs="liv_000202_0002" n="0002"/>
 	<!--<pb facs="NLS10703_011_001v_0_B_color" n="011"/>--><!-- For spectral processing of drops on this page, see recto (010). AW -->
-<lb/><p rend="no-indent"><fw n="heading_XI" rend="large">XI.</fw> <choice><sic>we</sic><corr>We</corr></choice> expect <bibl>letters</bibl> &amp; perhaps men by <persName ref="people.xml#0181">Syde <choice><orig>Bin</orig><reg>bin</reg></choice> Habib</persName>.</p>
+<lb/><p rend="no-indent"><fw n="heading_XI" rend="large">XI.</fw> <choice><sic>we</sic><corr>We</corr></choice> expect <bibl>letters</bibl> &amp; perhaps men by <persName>Syde <choice><orig>Bin</orig><reg>bin</reg></choice> Habib</persName>.</p>
  
-<lb/><p>No news from <placeName><region>the coast</region></placeName> had come to <placeName><settlement type="village" ref="settlement.xml#0014">Ujiji</settlement></placeName> save a rumour
+<lb/><p>No news from <placeName><region>the coast</region></placeName> had come to <placeName><settlement type="village">Ujiji</settlement></placeName> save a rumour
  
-<lb/>that some one was building a large house at <placeName><settlement type="town" ref="settlement.xml#0001"><choice><orig>Bagamoio</orig><reg>Bagamoyo</reg></choice></settlement></placeName> 
+<lb/>that some one was building a large house at <placeName><settlement type="town"><choice><orig>Bagamoio</orig><reg>Bagamoyo</reg></choice></settlement></placeName> 
 
 <lb/>but whether <term type="nationality">French</term> or <term type="nationality">English</term> no one can say – possibly 
 
-<lb/>the <placeName>Mission</placeName> urged on by <persName ref="people.xml#0144"><term type="occupation">Colonel</term> Playfair</persName> &amp; <persName ref="people.xml#0071">D<hi rend="sup">r</hi> Kirk</persName> 
+<lb/>the <placeName>Mission</placeName> urged on by <persName><term type="occupation">Colonel</term> Playfair</persName> &amp; <persName>D<hi rend="sup">r</hi> Kirk</persName> 
 
-<lb/><persName ref="people.xml#0188">Tozer</persName> curiously enough follows the policy of <persName ref="people.xml#0086"><term type="occupation"><choice><abbr>Bp</abbr><expan>Bishop</expan></choice></term> Mackenzie</persName>
+<lb/><persName>Tozer</persName> curiously enough follows the policy of <persName><term type="occupation"><choice><abbr>Bp</abbr><expan>Bishop</expan></choice></term> Mackenzie</persName>
 
 <lb/>which he so formally repudiated – Rearing boys got from 
 
@@ -198,7 +191,7 @@
 	<pb facs="liv_000202_0003" n="0003"/>
 	<!--<pb facs="NLS10703_012_002r_0_B_color" n="012"/>-->
 
-<lb/><p rend="no-indent"><fw n="heading_XII" rend="large">XII.</fw> The <term type="tribe" ref="ethnic-group.xml#0010">Manyema</term> hoeing is little better than scraping the <add place="above marginright" rend="gray" hand="#U"><fw n="2">2</fw></add><!-- change rend to gray --><!-- Process stain on final "the". AW -->
+<lb/><p rend="no-indent"><fw n="heading_XII" rend="large">XII.</fw> The <term type="tribe">Manyema</term> hoeing is little better than scraping the <add place="above marginright" rend="gray" hand="#U"><fw n="2">2</fw></add><!-- change rend to gray --><!-- Process stain on final "the". AW -->
 
 <lb/>soil &amp; cutting through the roots of grass &amp; weeds by a horizontal
  
@@ -275,7 +268,7 @@
 
 <lb/>being left so that it is impossible to take a straight course –</p>  
 
-<lb/><p>The visit of the <orgName ref="orgName.xml#0027">Ujijian <term type="occupation">traders</term></orgName> must be felt by the <term type="tribe" ref="ethnic-group.xml#0010"><w>Man-
+<lb/><p>The visit of the <orgName>Ujijian <term type="occupation">traders</term></orgName> must be felt by the <term type="tribe"><w>Man-
 
 <lb/>-yema</w></term> to be a severe infliction - The huts are appropriated and 
 
@@ -307,7 +300,7 @@
  
 <lb/>me an iron ring and seemed inclined to be friendly – 
 
-<lb/>yet they are undoubtedly bloodthirsty <space extent="3" unit="chars"/>to other <term type="tribe" ref="ethnic-group.xml#0010">Manyema</term> 
+<lb/>yet they are undoubtedly bloodthirsty <space extent="3" unit="chars"/>to other <term type="tribe">Manyema</term> 
 
 <lb rend="right"/>&amp; kill each other</p>
        

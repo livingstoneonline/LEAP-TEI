@@ -45,11 +45,6 @@
                     <resp>TEI Encoding</resp>
 					<resp>Proofreading</resp>
                 </respStmt>
-				<respStmt xml:id="EM">
-                    <name>Alexander Munson</name>
-                    <resp>TEI Encoding</resp>
-					<resp>Proofreading</resp>
-                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -112,8 +107,6 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-			<change when="2016-04-27" who="#AW">Review and corrections</change>
-			<change when="2016-04-27" who="#EM">Addition of @refs</change>
 			<change when="2016-02-10" who="#AW">Coding corrections</change>
 			<change when="2015-04-03" who="#AW">Coding Review</change>
 			<change when="2015-02-22" who="#HB">Quality Control and Integration</change>
@@ -131,13 +124,13 @@
             <div>
                 
     <pb facs="liv_002570_0001" n="0001"/>
-<lb/><opener><dateline><space extent="3" unit="chars"/><placeName><geogName type="river" ref="geogName.xml#0034"><persName ref="people.xml#0192">Webb</persName>'s Lualaba</geogName></placeName> or <placeName><geogName type="river" ref="geogName.xml#0033">Lacustrine River</geogName></placeName> <date when="1871-03">March 1871</date>  <placeName><region ref="region.xml#0013">Manyema</region></placeName></dateline> <address><addrLine><add place="below"><hi rend="center">For <space extent="2" unit="chars"/><persName ref="people.xml#0076">Miss <space extent="2" unit="chars"/>Livingstone</persName></hi></add></addrLine></address>
-<lb/><salute><space extent="4" unit="chars"/>My Darling <persName ref="people.xml#0076">Nannie</persName> -</salute></opener> <p rend="no-indent">I put down a few notes by way of being prepared
-<lb/>in case of meeting any <orgName><orgName>native</orgName> <term type="occupation">traders</term></orgName> from the <placeName><region>West coast</region></placeName> on <placeName><geogName type="lake" ref="geogName.xml#0021">Lake <persName ref="people.xml#0075">Lincoln</persName></geogName></placeName> the <w>Western<supplied>-</supplied>
-<lb break="no"/>-most</w> of the <placeName><geogName type="lake" ref="geogName.xml#0049"><choice><orig>Riverein</orig><reg>Riverine</reg></choice> Lakes</geogName></placeName> the <orgName>native</orgName> name of which <choice><sic><add place="below">^</add> is</sic><corr>is <add place="below">^</add></corr></choice> <add place="above"><placeName><geogName type="river" ref="geogName.xml#0029">Lomame</geogName></placeName> or</add> <placeName><geogName type="river" ref="geogName.xml#0029">Loéki</geogName></placeName> - é being
+<lb/><opener><dateline><space extent="3" unit="chars"/><placeName><geogName type="river"><persName>Webb</persName>'s Lualaba</geogName></placeName> or <placeName><geogName type="river">Lacustrine River</geogName></placeName> <date when="1871-03">March 1871</date>  <placeName><region>Manyema</region></placeName></dateline> <address><addrLine><add place="below"><hi rend="center">For <space extent="2" unit="chars"/><persName>Miss <space extent="2" unit="chars"/>Livingstone</persName></hi></add></addrLine></address>
+<lb/><salute><space extent="4" unit="chars"/>My Darling <persName>Nannie</persName> -</salute></opener> <p rend="no-indent">I put down a few notes by way of being prepared
+<lb/>in case of meeting any <orgName><orgName>native</orgName> <term type="occupation">traders</term></orgName> from the <placeName><region>West coast</region></placeName> on <placeName><geogName type="lake">Lake <persName>Lincoln</persName></geogName></placeName> the <w>Western<supplied>-</supplied>
+<lb break="no"/>-most</w> of the <placeName><geogName type="lake"><choice><orig>Riverein</orig><reg>Riverine</reg></choice> Lakes</geogName></placeName> the <orgName>native</orgName> name of which <choice><sic><add place="below">^</add> is</sic><corr>is <add place="below">^</add></corr></choice> <add place="above"><placeName><geogName type="river">Lomame</geogName></placeName> or</add> <placeName><geogName type="river">Loéki</geogName></placeName> - é being
 <lb/>sounded as e in wet set met - I hear that some come from the <term type="nationality">French</term> <choice><sic>settlementss</sic><corr>settlements</corr></choice>
-<lb/><add place="above">or <space extent="5" unit="chars"/><placeName><geogName type="river" ref="geogName.xml#0004">Congo</geogName></placeName></add> to buy <term type="plant_foodstuff">palm oil</term> which is very abundant and cheap in all this region - a friend <!-- Adrian, should Congo also be tagged as settlement/region since the sentence is referring to either the French or Congo settlements? HB --><!-- No, just a river at this point. AW -->
-<lb/>lately gave me another daughter in the shape of a young <foreign xml:lang="und" ref="foreign-word.xml#0014"><term type="animal">Soko</term></foreign> or <term type="animal"><choice><orig>gorillah</orig><reg>gorilla</reg></choice></term> - she
+<lb/><add place="above">or <space extent="5" unit="chars"/><placeName><geogName type="river">Congo</geogName></placeName></add> to buy <term type="plant_foodstuff">palm oil</term> which is very abundant and cheap in all this region - a friend <!-- Adrian, should Congo also be tagged as settlement/region since the sentence is referring to either the French or Congo settlements? HB --><!-- No, just a river at this point. AW -->
+<lb/>lately gave me another daughter in the shape of a young <foreign xml:lang="und"><term type="animal">Soko</term></foreign> or <term type="animal"><choice><orig>gorillah</orig><reg>gorilla</reg></choice></term> - she
 <lb/>sits crouching 18 inches high and is most intelligent and least mischievous of
 <lb/>all the <term type="animal">monkeys</term> I have seen - she holds out her hand to be lifted up &amp; carried and if
 <lb/>refused makes her face as in a bitter human weeping and wrings her hands quite
@@ -155,7 +148,7 @@
 <lb/>a nest of grass &amp; leaves &amp; covered herself with the mat to sleep = I could not take
 <lb/>her with me though I fear that she will die before I return from people plaguing her
 <lb/>Her fine long black hair was beautiful when tended by her mother who was killed
-<lb/>It is now disheveled - I am mobbed enough alone - two <foreign xml:lang="und" ref="foreign-word.xml#0014"><term type="animal"><choice><orig>sokos</orig><reg>Sokos</reg></choice></term></foreign> - she &amp; I would not
+<lb/>It is now disheveled - I am mobbed enough alone - two <foreign xml:lang="und"><term type="animal"><choice><orig>sokos</orig><reg>Sokos</reg></choice></term></foreign> - she &amp; I would not
 <lb/>have got breath - I have to submit to be a gazing stock - I don't altogether relish
 <lb/>here or elsewhere but try to get over it good naturedly - get into the most shady spot
 <lb/>of the village and <choice><orig>leizurely</orig><reg>leisurely</reg></choice> look at all my admirers - When the first crowd begins
@@ -165,8 +158,8 @@
 <lb/>not a quarter of an inch thick and slides in a groove behind a post on each side
 <lb/>of the doorway - When partially open it is supported by only one of the posts =
 <lb/>Eager heads sometimes crowd the open space and crash goes the thin door landing
-<lb/>a <term type="tribe" ref="ethnic-group.xml#0010">Manyema</term> beauty on the floor - "It was not I" she gasps out "It was <persName ref="people.xml#0018">Bessie
-<lb/>Bell</persName> and <persName ref="people.xml#0018">Jeanie Gray</persName> that shoved me in and" as she scrambles out of the
+<lb/>a <term type="tribe">Manyema</term> beauty on the floor - "It was not I" she gasps out "It was <persName>Bessie
+<lb/>Bell</persName> and <persName>Jeanie Gray</persName> that shoved me in and" as she scrambles out of the
 <lb/><choice><sic><term type="animal">lion</term>s</sic><corr><term type="animal">lion</term>'s</corr></choice> den - "see they're laughing" and fairly out she joins in the merry giggle <add place="above">too</add>
 <lb/>To avoid darkness or being half smothered I often eat in public - <space extent="2" unit="chars"/>draw a
 <lb/>line on the ground - They "toe the line" and keep each other out of the circle
@@ -174,41 +167,41 @@
 <lb/><unclear cert="high">their</unclear> <unclear cert="medium">food = What</unclear> oddities to be sure <unclear cert="low">&amp;</unclear> some remarks are not <w>com-
 <lb break="no"/>plimentary</w> but they think that they are not understood, and indeed many
 <lb/>are not comprehended - I always pay for my lodging and as the <orgName>Arabs</orgName> never
-<lb/>do in <placeName><region ref="region.xml#0013">Manyema</region></placeName>, the lady of the house brings water wood, and bless their motherly
+<lb/>do in <placeName><region>Manyema</region></placeName>, the lady of the house brings water wood, and bless their motherly
 <lb/>hearts, often cook for me - a mess of <term type="foodstuff">porridge</term> and <term type="foodstuff">boiled <term type="plant_foodstuff">vegetables</term></term> as a <term type="foodstuff">relish</term>
 <lb/>with <term type="plant_foodstuff">bananas</term> are their best - They seem distressed if refused - a woman with
-<lb/>the <term type="ailment" ref="ailment.xml#0027">white leprosy</term> on her hands such as rose <add place="below">^</add> <add place="above">on</add> <persName ref="people.xml#0102">Miriam</persName>'s forehead when she spoke against
+<lb/>the <term type="ailment">white leprosy</term> on her hands such as rose <add place="below">^</add> <add place="above">on</add> <persName>Miriam</persName>'s forehead when she spoke against
 <lb/>her great brother, made <term type="foodstuff">dumplings of <term type="plant_foodstuff">green maize</term></term> which are sweet and having been
 <lb/>obliged by weakness to sleep at her village she watched to see if "I eat them<supplied cert="high">"</supplied> "Eat"
 <lb/>she enjoined "you are ill &amp; weak only through hunger"; I am always sorry if I
-<lb/>cannot take a mouthful or two - Many of the <orgName><term type="tribe" ref="ethnic-group.xml#0010">Manyema</term> women</orgName> are very
+<lb/>cannot take a mouthful or two - Many of the <orgName><term type="tribe">Manyema</term> women</orgName> are very
 <lb/>pretty - their hands feet &amp; limbs <add place="below">^</add> <add place="above">&amp; forms</add> are perfect - <space extent="2" unit="chars"/>The men are handsome - compared
-<lb/>with them the <orgName><placeName><geogName type="island" ref="geogName.xml#0060">Zanzibar</geogName></placeName> <orgName>slaves</orgName></orgName> are like <placeName><settlement type="city">London</settlement></placeName> door knockers which some
+<lb/>with them the <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName> <orgName>slaves</orgName></orgName> are like <placeName><settlement type="city">London</settlement></placeName> door knockers which some
 <lb/>atrocious iron founder thought were like <term type="animal">Lion</term>'s faces = The way in which these
-<lb/>same <orgName><placeName><geogName type="island" ref="geogName.xml#0060">Zanzibar</geogName></placeName> <orgName><choice><orig>Muhamadans</orig><reg>Muhammadans</reg></choice></orgName></orgName> murder the men &amp; seize the women &amp; children makes
+<lb/>same <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName> <orgName><choice><orig>Muhamadans</orig><reg>Muhammadans</reg></choice></orgName></orgName> murder the men &amp; seize the women &amp; children makes
 <lb/>me sick at heart - It is not <orgName>slave trade</orgName> it is murdering <orgName>free people</orgName> to make <orgName>slaves</orgName>
-<lb/>It is perfectly indescribable - <persName ref="people.xml#0071">Kirk</persName> has been working hard to get this murderous system
+<lb/>It is perfectly indescribable - <persName>Kirk</persName> has been working hard to get this murderous system
 <lb/>put a stop <add place="below">^</add> <add place="above">to</add>. Heaven prosper his noble efforts - He says in <bibl>one letter to me</bibl> it is <w>mon<unclear cert="high">str</unclear>ous</w>
 <lb/>injustice to compare the <orgName>free people</orgName> in the <placeName><region>Interior</region></placeName> living under their own <term type="occupation">chiefs</term>
-<lb/>and laws with what <orgName>slaves</orgName> at <placeName><geogName type="island" ref="geogName.xml#0060">Zanzibar</geogName></placeName> afterwards become by the abominable
+<lb/>and laws with what <orgName>slaves</orgName> at <placeName><geogName type="island">Zanzibar</geogName></placeName> afterwards become by the abominable
 <lb/>system which robs them of their manhood - <space extent="2" unit="chars"/>I think it is like comparing the
-<lb/><w><del><gap reason="damage" extent="1" unit="chars" agent="hole"/></del><supplied cert="high">a</supplied>nthropologists</w> with their ancestral <foreign xml:lang="und" ref="foreign-word.xml#0014"><term type="animal"><choice><orig>sokos</orig><reg>Sokos</reg></choice></term></foreign> - I have seen four <foreign xml:lang="und" ref="foreign-word.xml#0014"><term type="animal"><choice><orig>sokos</orig><reg>Sokos</reg></choice></term></foreign> killed
+<lb/><w><del><gap reason="damage" extent="1" unit="chars" agent="hole"/></del><supplied cert="high">a</supplied>nthropologists</w> with their ancestral <foreign xml:lang="und"><term type="animal"><choice><orig>sokos</orig><reg>Sokos</reg></choice></term></foreign> - I have seen four <foreign xml:lang="und"><term type="animal"><choice><orig>sokos</orig><reg>Sokos</reg></choice></term></foreign> killed
 <lb/><w><del><gap reason="damage" extent="1" unit="chars" agent="hole"/></del><supplied cert="high">s</supplied>peared</w> in the back - It seems quite impossible to stalk them in front - they
 <lb/>have such sharp eyes - I saw a man who was overpowered by one - He yelled out
-<lb/>"<foreign xml:lang="und" ref="foreign-word.xml#0014"><term type="animal">Soko</term></foreign> has caught me" and before his companions could rescue him <foreign xml:lang="und" ref="foreign-word.xml#0014"><term type="animal"><choice><orig>soko</orig><reg>Soko</reg></choice></term></foreign>,
+<lb/>"<foreign xml:lang="und"><term type="animal">Soko</term></foreign> has caught me" and before his companions could rescue him <foreign xml:lang="und"><term type="animal"><choice><orig>soko</orig><reg>Soko</reg></choice></term></foreign>,
 <lb/>as his custom is, had bitten off the ends of two fingers &amp; two toes - He got clear off
 <lb/>some animals attack the throat - some the jugular veins - some the Tendo
 <lb/>Achilles - that is the tendon which enables you to tilt up the heel in dancing &amp;
-<lb/><add place="above">madly</add> make yourself a whirligig - but <foreign xml:lang="und" ref="foreign-word.xml#0014"><term type="animal"><choice><orig>soko</orig><reg>Soko</reg></choice></term></foreign> invariably attacks the ends of <space extent="2" unit="chars"/>the 
+<lb/><add place="above">madly</add> make yourself a whirligig - but <foreign xml:lang="und"><term type="animal"><choice><orig>soko</orig><reg>Soko</reg></choice></term></foreign> invariably attacks the ends of <space extent="2" unit="chars"/>the 
 <lb/>fingers and spits them out - He does no harm to women but sometimes runs
 <lb/>up a tree with a <orgName>native</orgName> child - The women in these cases run for a bunch of
 <lb/>small <term type="plant_foodstuff">bananas</term> - He takes these &amp; leaves the child - In the forest he is seen walking
 <lb/>sometimes with his hands on his <add place="below">^</add> <add place="above">head</add> - To me he is a potbellied bandy legged low looking
 <lb/>villain without a particle of the gentleman in him - His ugliness after
-<lb/>death is <w>ap<del type="strikethrough">p</del>alling</w> - one of the <placeName><settlement type="city" ref="settlement.xml#0011">Nineveh</settlement></placeName> marbles intended to represent the
-<lb/>Evil one is not half so ugly - the only use I can see for <foreign xml:lang="und" ref="foreign-word.xml#0014"><term type="animal">Soko</term></foreign> is to sit at
-<lb/>the <orgName ref="orgName.xml#0022">Royal Academy</orgName> for a portrait of the old beast Satan -</p>
-<lb/><p>I am grieved to hear of the departure of good <persName ref="people.xml#0131">Lady Murchison</persName>. Had I known
+<lb/>death is <w>ap<del type="strikethrough">p</del>alling</w> - one of the <placeName><settlement type="city">Nineveh</settlement></placeName> marbles intended to represent the
+<lb/>Evil one is not half so ugly - the only use I can see for <foreign xml:lang="und"><term type="animal">Soko</term></foreign> is to sit at
+<lb/>the <orgName>Royal Academy</orgName> for a portrait of the old beast Satan -</p>
+<lb/><p>I am grieved to hear of the departure of good <persName>Lady Murchison</persName>. Had I known
 <lb/>that she kindly remembered me in her prayers it would have been great
 <lb/>encouragement - It pleases me to think that our friends know about us even
 <lb/><w><del><gap reason="damage" extent="2" unit="chars" agent="hole"/></del><supplied cert="medium">in</supplied></w> their state of bliss which in <w>man<unclear cert="high">y</unclear></w> <w><del><gap reason="damage" extent="3" unit="chars" agent="hole"/></del><supplied cert="high">res</supplied>pects</w> <unclear cert="high">must</unclear> be like the present world <gap reason="damage" agent="hole"/></p>
@@ -216,8 +209,8 @@
     <pb facs="liv_002570_0002" n="0002"/>
 <lb/><p>Those who like work here will get work there - our saviour eat a piece of a
 <lb/><term type="foodstuff">broiled <term type="animal">fish</term></term><!-- Is this correct? I wasn't sure if we added animal_foodstuff at the same time as plant_foodstuff. There is another instance on this line as well. MW--><!-- Great point, Megan - we don't have animal_foodstuff yet, but will confer with Adrian to see if we should implement. HB --><!-- Let's just keep separate, as here. AW --> and of a <term type="foodstuff">honey comb</term> - and <term type="foodstuff"><term type="animal">fish</term></term> &amp; <term type="foodstuff">bread</term> - after he was risen from
-<lb/>the dead &amp; became as we hope to be - even like him - <persName ref="people.xml#0085">Luther</persName> believed that people
-<lb/>would feast above just as I do - When <persName ref="people.xml#0171"><choice><abbr>St</abbr><expan>Saint</expan></choice> John</persName> fell down to worship the angel he
+<lb/>the dead &amp; became as we hope to be - even like him - <persName>Luther</persName> believed that people
+<lb/>would feast above just as I do - When <persName><choice><abbr>St</abbr><expan>Saint</expan></choice> John</persName> fell down to worship the angel he
 <lb/>forbade him because he was his fellow <term type="occupation">servant</term> and one of the <term type="occupation">prophets</term> - We have <!-- Adrian, I am tagging servant like we do master or other occupations, but let me know if you think should be orgName like slaves instead. HB --><!-- Looks OK. AW -->
 <lb/>not enough to enable us to speak positively but I like to think of all my friends
 <lb/>being still friends who will welcome us as old acquaintances into the mansions
@@ -235,40 +228,40 @@
 <lb/>age for she had a sound
 <lb/><w><del><gap reason="damage" extent="2" unit="chars" agent="hole"/></del><supplied cert="high">co</supplied>nstitution</w> &amp; no bad habits -
 <lb/>I have not <choice><sic>recieved</sic><corr>received</corr></choice> a line
-<lb/>from <persName ref="people.xml#0194">Sir Paraffin Young</persName>
+<lb/>from <persName>Sir Paraffin Young</persName>
 <lb/>since I left <placeName><country>England</country></placeName> and
-<lb/>I wrote to <persName ref="people.xml#0132">Sir Roderick</persName> &amp;
+<lb/>I wrote to <persName>Sir Roderick</persName> &amp;
 <lb/>him by every occasion -
 <lb/>but he must have written
 <lb/>and <bibl>letters from both</bibl> may
-<lb/>be in the box at <placeName><settlement type="village" ref="settlement.xml#0014">Ujiji</settlement></placeName> -
-<lb/>The <orgName ref="orgName.xml#0004">men sent by <persName ref="people.xml#0071">D<hi rend="sup">r</hi> Kirk</persName></orgName>
+<lb/>be in the box at <placeName><settlement type="village">Ujiji</settlement></placeName> -
+<lb/>The <orgName>men sent by <persName>D<hi rend="sup">r</hi> Kirk</persName></orgName>
 <lb/>are <orgName><choice><sic>Muhamaddans</sic><corr>Muhammadans</corr></choice></orgName> that is
-<lb/>unmitigated liars - <persName ref="people.xml#0136">Musa</persName>
+<lb/>unmitigated liars - <persName>Musa</persName>
 <lb/>and companions are fair
 <lb/>average specimens of the
 <lb/>lower classes of <orgName>Moslems</orgName>
 <lb/>The two head men remained
-<lb/>at <placeName><settlement type="village" ref="settlement.xml#0014">Ujiji</settlement></placeName> to feast on my
+<lb/>at <placeName><settlement type="village">Ujiji</settlement></placeName> to feast on my
 <lb/>goods &amp; get pay without
-<lb/>work - seven came to <placeName><settlement type="village" ref="settlement.xml#0002"><w>Bam-
+<lb/>work - seven came to <placeName><settlement type="village"><w>Bam-
 <lb break="no"/>-barre</w></settlement></placeName> and in true <term type="faith">Moslem</term>
 <lb/>style swore that they were
-<lb/>sent by <persName ref="people.xml#0071">D<hi rend="sup underline">r</hi> Kirk</persName> "to bring
+<lb/>sent by <persName>D<hi rend="sup underline">r</hi> Kirk</persName> "to bring
 <lb/><w><del><gap reason="damage" extent="2" unit="chars" agent="hole"/></del><supplied cert="high">me</supplied></w> back" <unclear cert="medium">not to go with</unclear>
 <lb/><w><del><gap reason="damage" extent="2" unit="chars" agent="hole"/></del><supplied cert="low">me</supplied></w> if the country were
 <lb/>bad or dangerous "forward
 <lb/>they would not go" I read
-<lb/><persName ref="people.xml#0071">D<hi rend="sup underline">r</hi> Kirk</persName>'s words to them to
+<lb/><persName>D<hi rend="sup underline">r</hi> Kirk</persName>'s words to them to
 <lb/>follow wherever I led - "No
 <lb/>by the old liar <persName ref="people.xml#0001">Muhamad</persName>
 <lb/>they were to force me back to
-<lb/><placeName><geogName type="island" ref="geogName.xml#0060">Zanzibar</geogName></placeName>"- after a <w>super-
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName>"- after a <w>super-
 <lb break="no"/>abundance</w> of falsehood it
 <lb/>turned out that it all meant
 <lb/>only an advance of pay
 <lb/>though they had double the
-<lb/><placeName><geogName type="island" ref="geogName.xml#0060">Zanzibar</geogName></placeName> wages - I gave it -
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName> wages - I gave it -
 <lb/>but had to threaten on the 
 <lb/>word of an <term type="person">Englishman</term> to
 <lb/>shoot the ringleaders before
@@ -283,10 +276,10 @@
 <lb/>revenue - He says they would
 <lb/>purloin it all -  He entrusts
 <lb/>all his customs &amp; money to
-<lb/><orgName ref="orgName.xml#0005"><orgName ref="orgName.xml#0005">Banians</orgName></orgName> from <placeName><country>India</country></placeName> and 
+<lb/><orgName>Banians</orgName> from <placeName><country>India</country></placeName> and 
 <lb/>his father did the same before
-<lb/>him - It suits <persName ref="people.xml#0023">Burton</persName> to <w><subst><del>Bl</del><add place="above">b</add></subst>abble</w>
-<lb/>about <orgName>Moslems</orgName> though he had to part with all his following at <placeName><settlement type="village" ref="settlement.xml#0014">Ujiji</settlement></placeName> for
+<lb/>him - It suits <persName>Burton</persName> to <w><subst><del>Bl</del><add place="above">b</add></subst>abble</w>
+<lb/>about <orgName>Moslems</orgName> though he had to part with all his following at <placeName><settlement type="village">Ujiji</settlement></placeName> for
 <lb/>stealing and lying <space extent="3" unit="chars"/>My two <term type="occupation">headmen</term> refused to send me my own goods
 <lb/>though a man there had my written orders to open the box mentioned &amp;
 <lb/>take out medicines and <bibl>letters</bibl> if he could not send the box entire - "No"
@@ -303,18 +296,18 @@
 <lb/><w><del><gap reason="damage" extent="2" unit="chars" agent="hole"/></del><supplied cert="high">we</supplied></w> shall get pay no matter whether we work or not - Lying is safety with them</p>
 
     <cb rend="vertical"/>
-<lb/><p><space extent="3" unit="chars"/>I have travelled more than most people and with all sorts of followers - The <orgName><choice><sic>christians</sic><corr>Christians</corr></choice></orgName> of <placeName><settlement type="village" ref="settlement.xml#0007">Kuruman</settlement></placeName> and <placeName><settlement type="village" ref="settlement.xml#0006">Kolobeng</settlement></placeName> were
-<lb/>out of sight the best I ever had - The <term type="tribe" ref="ethnic-group.xml#0008">Makololo</term> who were very partially christianized were next best honest truthful &amp; brave -
+<lb/><p><space extent="3" unit="chars"/>I have travelled more than most people and with all sorts of followers - The <orgName><choice><sic>christians</sic><corr>Christians</corr></choice></orgName> of <placeName><settlement type="village">Kuruman</settlement></placeName> and <placeName><settlement type="village">Kolobeng</settlement></placeName> were
+<lb/>out of sight the best I ever had - The <term type="tribe">Makololo</term> who were very partially christianized were next best honest truthful &amp; brave -
 <lb/><orgName>Heathen Africans</orgName> are far superior to <orgName><choice><orig>Muhamadans</orig><reg>Muhammadans</reg></choice></orgName> who are the most worthless one can have - My <orgName>liberated slaves</orgName> did
 <lb/>fairly except laziness will we came into close contact with <orgName><choice><orig>Muhamadans</orig><reg>Muhammadans</reg></choice></orgName> again - <choice><sic>there</sic><corr>they</corr></choice> had been their <term type="occupation">masters</term> in infancy &amp; now
 <lb/>they swung back to the lying &amp; stealing of the low class again - they were connived at and aided by an <orgName>Arab</orgName> who got his freedom
-<lb/>from <persName ref="people.xml#0067">Cazembe</persName> after being long a prisoner by my <bibl><term type="occupation">Sultan</term>'s letter</bibl> - They absconded to him - and he sold the <space extent="2" unit="chars"/>favours of his
+<lb/>from <persName>Cazembe</persName> after being long a prisoner by my <bibl><term type="occupation">Sultan</term>'s letter</bibl> - They absconded to him - and he sold the <space extent="2" unit="chars"/>favours of his
 <lb/><orgName>slaves</orgName> for goods which he knew were stolen from me - Before me he scolded them behind my back he encouraged them to desert
 <lb/>and he lied till I was like to vomit - Yet judged by the <term type="faith">Moslem</term> standard and not by ours he is a good man <space extent="3" unit="chars"/>and he and I are
 <lb/>friends - I have learned to keep my own counsel - I protest loudly against the deeds of blood and <space extent="3" unit="chars"/>they admit that I am
-<lb/>right - lying I denounce in the abstract and they agree to what I say <space extent="4" unit="chars"/><persName ref="people.xml#0190">Von Der Decken</persName> could not hold his tongue but told
+<lb/>right - lying I denounce in the abstract and they agree to what I say <space extent="4" unit="chars"/><persName>Von Der Decken</persName> could not hold his tongue but told
 <lb/>everyone "You <orgName>Moslems</orgName> lie" true enough was his word but he wanted <unclear cert="medium">command</unclear> of himself <unclear cert="high">&amp;</unclear> got into a rage <w>per-
-<lb break="no"/><del><gap reason="damage" extent="2" unit="chars" agent="hole"/></del><supplied cert="high">pe</supplied>tually</w> - I think my <w>wo<del><gap reason="damage" extent="3" unit="chars" agent="hole"/></del><supplied cert="high">rds</supplied></w> may have some <choice><sic>affect</sic><corr>effect</corr></choice> on <space extent="2" unit="chars"/>some</p> <space extent="2" unit="chars"/><closer rend="right">Affectionately Ever <signed><persName ref="people.xml#0078">David Livingstone</persName></signed></closer>
+<lb break="no"/><del><gap reason="damage" extent="2" unit="chars" agent="hole"/></del><supplied cert="high">pe</supplied>tually</w> - I think my <w>wo<del><gap reason="damage" extent="3" unit="chars" agent="hole"/></del><supplied cert="high">rds</supplied></w> may have some <choice><sic>affect</sic><corr>effect</corr></choice> on <space extent="2" unit="chars"/>some</p> <space extent="2" unit="chars"/><closer rend="right">Affectionately Ever <signed><persName>David Livingstone</persName></signed></closer>
     <postscript rend="vertical">
 <lb/><p><space extent="2" unit="chars"/>Please to take good care to whose hands <bibl>my letters</bibl> come
 <lb/>Thieves eagerly catch them and make <bibl>pamphlets</bibl> which low <term type="occupation">book
@@ -326,10 +319,10 @@
 <lb/>and now they are gone by <w><del><gap reason="damage" extent="2" unit="chars" agent="fading"/></del><supplied cert="high">th</supplied>e</w> <choice><sic><term type="occupation">Governor</term>s</sic><corr><term type="occupation">Governor</term>'s</corr></choice> villainy I am not to
 <lb/>blame - No one could protect my property when <persName>Prout</persName> stole and
 <lb/>sold it - "It is an ill wind that blows no body good" Thanks to the
-<lb/><term type="occupation">Governor</term> I am safe so far - <persName ref="people.xml#0080">Tom</persName> and <persName ref="people.xml#0081">Oswell</persName>'s <bibl>letters</bibl> never
-<lb/>came to hand but may be at <placeName><settlement type="village" ref="settlement.xml#0014">Ujiji</settlement></placeName> I did not know that <persName ref="people.xml#0071">D<hi rend="sup">r</hi> Kirk</persName>
+<lb/><term type="occupation">Governor</term> I am safe so far - <persName>Tom</persName> and <persName>Oswell</persName>'s <bibl>letters</bibl> never
+<lb/>came to hand but may be at <placeName><settlement type="village">Ujiji</settlement></placeName> I did not know that <persName>D<hi rend="sup">r</hi> Kirk</persName>
 <lb/>was married till he sent a <bibl>letter to him in which you congratulate
-<lb/>him on the birth of a daughter</bibl> - <persName ref="people.xml#0191">Waller</persName> is woefully behind hand in
+<lb/>him on the birth of a daughter</bibl> - <persName>Waller</persName> is woefully behind hand in
 <lb/>telling me what I insisted on <space extent="2" unit="chars"/>in <date from="1858" to="1860">1858 <choice><abbr>/60</abbr><expan>1860</expan></choice></date> - <date from="1861" to="1863"><choice><abbr>/61</abbr><expan>1861</expan></choice> <choice><abbr>/62</abbr><expan>1862</expan></choice><choice><abbr>/63</abbr><expan>1863</expan></choice></date> that nothing can <!-- Adrian, I went back and changed these dates to fit within the from/to date tags, but let me know if you'd like to do another way. HB --><!-- Fixed. AW -->
 <lb/>be done till <orgName>slave <w><unclear cert="medium">trad</unclear>e</w></orgName> is abolished but better <space extent="11" unit="chars"/>late than <space extent="3" unit="chars"/>never</p>
     </postscript>
