@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019"><!-- Adrian change only -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 1115</idno><!-- Adrian change only -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Journals, 011</idno><!-- Adrian change only -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866 - 5 March 1872</date><!-- Adrian change x2 only -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="und">Unidentified</language>
+                <language ident="la">Latin</language>
+                <language ident="en">English</language><!-- Everyone, add languages as necessary. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-10-12" who="#AK">Proofreading</change>
+            <change when="2015-09-01" who="#MW">Transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+       	<body>
+			<div>
+
+	<gb/>
+
+	<pb facs="liv_000019_0395.jpg" n="0395"/>
+
+<lb/><note place="margintop">389</note>
+
+<lb/><p rend="no-indent"><date when="1870-01">January 1870</date> - <seg type="weather"><placeName><settlement type="village"><term type="tribe">Manyema</term></settlement></placeName> Rainfall
+
+<lb/><date when="1870-01-27">27<hi rend="sup underline">th</hi></date> - <placeName><settlement type="village"><term type="tribe">Manyema</term></settlement></placeName> 11 AM <space extent="2" unit="words"/> O<!-- "O" is clearly an abbreviation for one of his measurements (oxygen?) but I wasn't sure, so I didn't tag it. MW--> - several <unclear cert="low">NI</unclear> showers <hi rend="right">.31</hi>
+
+<lb/><date when="1870-01-29">29</date> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="3" unit="chars"/> 5 &amp; 6 PM <space extent="2" unit="chars"/>O  <hi rend="right">1.57</hi>
+
+<lb/><date when="1870-01-31">31<hi rend="sup">st</hi></date> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="1" unit="words"/>3 - 4 PM <unclear cert="low">8-Z</unclear> D <hi rend="right underline">.39</hi>
+
+<lb/><space extent="2" unit="words"/>Total Rainfall in <date when="1870-01">January</date> <hi rend="right double-underline">4-99</hi></seg></p>
+
+<lb/><p rend="no-indent"><date when="1870-02">February 1870</date> <seg type="weather">Rainfall in <placeName><settlement type="village"><term type="tribe">Manyema</term></settlement></placeName>
+
+<lb/><date when="1870-02">2<hi rend="sup underline">nd</hi></date> By night &amp; 4PM <hi rend="right">.45</hi>
+
+<lb/><space extent="3" unit="chars"/>- 5 - 6 AM 11 - 10 AM - 3 PM <choice><abbr>NW</abbr><expan>North West</expan></choice> - not all measured <hi rend="right">1.11</hi>
+
+<lb/><date when="1870-02-03">3<hi rend="sup underline">rd</hi></date> night O - .30 - 9 at <placeName><settlement type="village"><persName>Katomba</persName>'s</settlement></placeName> 1.21 = 10<hi rend="sup underline">th</hi>.6. = <hi rend="right">1.66</hi>
+
+<lb/><date when="1870-02-11">11<hi rend="sup">th</hi></date> night <placeName><settlement type="village"><persName>Katomba</persName>'s</settlement></placeName> O. <date from="1870-02-12" to="1870-02-18">12-18<hi rend="sup">th</hi></date> night <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> .20 <choice><abbr>N.W.</abbr><expan>North West</expan></choice>O= <hi rend="right">.32</hi>
+
+<lb/><date when="1870-02-19">19</date> night <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>N.W.</abbr><expan>North West</expan></choice>O = .38 - <date when="1870-02-20">20<hi rend="sup">th</hi></date> midnight &amp; morning S9.10 = <hi rend="right">.48</hi>
+
+<lb/><date when="1870-02-26">26</date> night &amp; early <choice><abbr>m.</abbr><expan>morning</expan></choice> of <date when="1870-02-27">27<hi rend="sup">th</hi></date> O. 50 = 27.5 AM <unclear cert="low">Nil</unclear> shower O = <hi rend="right">56</hi>
+
+<lb/><date when="1870">1870</date> <placeName><settlement type="village"><term type="tribe">Manyema</term></settlement></placeName> = <date when="1870-02">February</date> Total <hi rend="right double-underline">4.48</hi></seg></p>
+
+<lb/><p rend="no-indent"><seg type="weather"><date when="1870-03">March</date> chiefly at night after 7 PM <date when="1870-03-01">1<hi rend="sup">st</hi></date> <hi rend="right">.68</hi>
+
+<lb/><date when="1870-03-05">t<hi rend="sup">th</hi></date> night <choice><abbr>N.W.</abbr><expan>North West</expan></choice> O=.50 <date when="1870-03-11">11<hi rend="sup underline">th</hi></date> midnight .78 = <hi rend="right">1.28</hi>
+
+<lb/><date when="1870-03-12">12<hi rend="sup">th</hi></date> night Nil shower <date when="1870-03-16">16<hi rend="sup underline">th</hi></date> night <choice><abbr>N.W.</abbr><expan>North West</expan></choice> = <hi rend="right"><supplied>.</supplied>26</hi>
+
+<lb/><date when="1870-03-16">16</date> <placeName><settlement type="village"><persName>Mamohela</persName> camp</settlement></placeName> .6 = <date when="1870-03-19">19<hi rend="sup underline">th</hi></date> clouded over &amp; drizzling <hi rend="right">.6</hi>
+
+<lb/><date when="1870-03-26">26</date> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 6 - 8 PM <choice><abbr>SE</abbr><expan>South East</expan></choice> O=.49 <date when="1870-03-27">27<hi rend="sup underline">th</hi></date> night <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> .9 = <hi rend="right">.58</hi>
+
+<lb/><date when="1870-03-30">30</date> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 2 PM <choice><abbr>NW.</abbr><expan>North West</expan></choice> O Nil. <date when="1870-03-31">31<hi rend="sup underline">st</hi></date> <choice><abbr>N.W.</abbr><expan>North West</expan></choice> O = <hi rend="right">.19</hi>
+
+<lb/><hi rend="right"><date when="1870-03">March</date> Rainfall <space extent="2" unit="chars"/> <hi rend="double-underline">3.05</hi></hi></seg></p>
+
+
+<lb/><p><seg type="weather"><date when="1870-04">April</date> Rainfall in <placeName><settlement type="village"><term type="tribe">Manyema</term></settlement></placeName> <date when="1870">1870</date> -
+
+<lb/><date when="1870-04-02">2</date><placeName><settlement type="village"><term type="tribe">Mamohela</term></settlement></placeName> 4 PM &amp; night <choice><abbr>N.W.</abbr><expan>North West</expan></choice> O 1.53 = <hi rend="right">1.53</hi>
+
+<lb/><date when="1870-04-04">4</date> night &amp; morning O = 2.4 <date when="1870-04-07">7<hi rend="sup underline">th</hi></date> drizzling day <choice><abbr>NW</abbr><expan>North West</expan></choice> + 28 = <hi rend="right">2.32</hi>
+
+<lb/><date when="1870-04-08">8</date> midnight Nil - <date when="1870-04-09">9<hi rend="sup underline">th</hi></date> 6 PM O all round = <hi rend="right">.73</hi>
+
+<lb/><date when="1870-04-10">10<hi rend="sup underline">th</hi></date> 6 PM &amp; on .59 - <date when="1870-04-12">12<hi rend="sup">th</hi></date> 7 AM <choice><abbr>NW</abbr><expan>North West</expan></choice> O' = .84 = == <hi rend="right">2.43</hi>
+
+<lb/><date when="1870-04-16">16</date> 6 PM &amp; night <choice><abbr>NW</abbr><expan>North West</expan></choice> O .25 - <date when="1870-04-17">17<hi rend="sup underline">th</hi></date> 2 PM <choice><abbr>SE</abbr><expan>South East</expan></choice> O .15 = <hi rend="right">.40</hi>
+
+<lb/><date when="1870-04-19">19</date> 4 PM <choice><abbr>NW</abbr><expan>North West</expan></choice> O = .7 - <date when="1870-04-20">20<hi rend="sup underline">th</hi></date> 6 PM <choice><abbr>SE</abbr><expan>South East</expan></choice> O - 95 - <date when="1870-04-21">21<hi rend="sup underline">st</hi></date> 2 - 3 PM <choice><abbr>SE</abbr><expan>South East</expan></choice>O .<subst><del type="strikethrough">95</del><add place="above">46</add></subst> = <hi rend="right">1.4<unclear>8</unclear></hi>
+
+<lb/><date when="1870-04-22">22</date>9 PM &amp; on <choice><abbr>NW</abbr><expan>North West</expan></choice> .86 - <date when="1870-04-23">23<hi rend="sup"></hi>d</date> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4 AM <unclear>silent</unclear> S2 - 23 = <hi rend="right">1.09</hi>
+
+<lb/><date when="1870-04-25">25</date> night and early <choice><abbr>m</abbr><expan>morning</expan></choice> .82 O - 1.69 - <date when="1870-04-30">30<hi rend="sup underline">th</hi></date> - 4- PM <choice><abbr>SE</abbr><expan>South East</expan></choice> O = 65 = <hi rend="right">1.34</hi></seg></p>
+
+<lb/><p rend="no-indent"><gap agent="blot" extent="2" unit="chars"/>y <del type="strikethrough">36</del><seg type="weather"><date when="1870-05-06">6 May 6<hi rend="sup underline">th</hi></date> early morning <choice><abbr>NW</abbr><expan>North West</expan></choice> .13 - <date when="1870-05-04">4<hi rend="sup underline">th</hi></date> night &amp; Morn 50 = <hi rend="right">.63</hi>
+
+<lb/><date when="1870-05-07">7<hi rend="sup underline">th</hi></date> <del type="strikethrough">night</del> 2-5.PM .52 O .77- <date when="1870-05-08">8<hi rend="sup underline">th</hi></date> 6 - 8 S2 &amp; <choice><abbr>NW.</abbr><expan>North West</expan></choice> O = 1.82 = <hi rend="right">2.59</hi>
+
+<lb/><date when="1870-05-12">12<hi rend="sup underline">th</hi></date> Noon <choice><abbr>NW.</abbr><expan>North West</expan></choice> O .69 = <date when="1870-05-12">12<hi rend="sup underline">th</hi></date> night &amp; <choice><abbr>m</abbr><expan>morning</expan></choice> silent .12 - <date when="1870-05-13">13<hi rend="sup">th</hi></date> night <choice><abbr>NW</abbr><expan>North West</expan></choice> O <add place="above">.4</add> <add place="below">^</add> = <hi rend="right">1.22</hi>
+
+<lb/><date when="1870-05-20">20<hi rend="sup">th</hi></date> 4 - 5 AM S z O .86 = 7 - 10 AM 26 = <date when="1870-05-22">22<hi rend="sup">nd</hi></date> 4 - 5 AM <choice><abbr>NW</abbr><expan>North West</expan></choice> 0 - 26</seg></p>
+
+<lb/><p><seg type="weather">Rolling O all round horizon 1.76 =<hi rend="right">3.34</hi></seg></p>
+
+<lb/><p rend="no-indent"><seg type="weather"><date when="1870-06-04">June 4<hi rend="sup underline">th</hi></date> 4 PM <choice><abbr>N.</abbr><expan>North</expan></choice> O .6 - <date when="1870-05-05">5<hi rend="sup underline">th</hi></date> 4 PM <choice><abbr>NW</abbr><expan>North West</expan></choice> O.25 <date when="1870-05-06">6<hi rend="sup">th</hi></date> 5.2U <choice><abbr>SE</abbr><expan>South East</expan></choice> &amp; <choice><abbr>NW.</abbr><expan>North West</expan></choice> O .8 = <hi rend="right">.49</hi>
+
+<lb/><date when="1870-06-16">16<hi rend="sup underline">th</hi></date> 4 PM <choice><abbr>SE</abbr><expan>South East</expan></choice> O - .33 - <date when="1870-06-24">24<hi rend="sup underline">th</hi></date> 7 - 8 PM <choice><abbr>S</abbr><expan>South</expan></choice> 2 O 1.80 - <date when="1870-07-16">16 July</date> <placeName><settlement type="village"><persName>Mbonye</persName>'s <choice><abbr>Vil</abbr><expan>Village</expan></choice></settlement></placeName> <hi rend="right underline">2.13</hi>
+
+<lb/><hi rend="right"><date from="1870-04" to="1870-07">April May June July</date> 21.72</hi></seg></p>
+
+<!--I'm not at all sure I've coded the following correctly to capture the formatting. MW-->
+<lb/><p rend="no-indent"><seg type="weather">Total <cb rend="vertical"/><date when="1868-10">October</date> 6.82 
+
+<lb/><date when="1869-11"><choice><abbr>Nov.</abbr><expan>November</expan></choice></date>
+
+<lb/><date when="1869-12"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date> 7.80
+
+<lb/><date when="1870-01"><choice><abbr>Jany</abbr><expan>January</expan></choice></date> 4 99
+
+<lb/><cb rend="vertical"/><date when="1870-02"><choice><abbr>Feby</abbr><expan>February</expan></choice></date> 4.4 == 28.70
+
+<lb/><date when="1870-03">March</date> 3.05
+
+<lb/><date when="1870-04">April</date> 12.37
+
+<lb/><date when="1870-05">May</date> <gap extent="3" unit="chars" agent="blot"/> 3.35 ==29.25
+
+<!-- Not sure how to insert bracket here. MW-->
+
+<lb/><cb rend="vertical"/>57.90 = 58 inches
+
+<lb/><date from="1869" to="1870">1869-70</date> of Rainfall</seg></p>
+
+
+
+		<pb facs="liv_000019_0396.jpg" n="0396"/>
+
+<lb/><note place="margintop">390</note>
+
+<lb/><p rend="no-indent"><hi rend="underline">From page <date when="1869-06-30">June 30</date></hi><!--I think this refers to 1869 but am not positive. MW--> Journal
+
+<lb/><note place="marginleft"><date when="1869-06-17">17<hi rend="sup">th</hi> April 1869</date></note> at the sides of the paths but often stopping in
+
+<lb/>the unseen edge of a rut, we floundered in <unclear cert="medium">with</unclear>
+
+<lb/>both feet to keep the balance, and this was usually
+
+<lb/>followed by a rush of bubbles to the surface
+
+<lb/>which bursting discharged foul air of frightful
+
+<lb/>fæcal odour. In parts the black mud &amp; foul
+
+<lb/>water were cold - in others hot according as
+
+<lb/>circulation went on or not. When we came
+
+<lb/>near <placeName><geogName type="lake"><choice><orig>Moero</orig><reg>Mweru</reg></choice></geogName></placeName> the water became half chest
+
+<lb/>whole chest deep. all perishable articles had to
+
+<lb/>be put on the head. Found a party of <term type="occupation">fishermen</term>
+
+<lb/>on the sands, and I got a hut <unclear cert="low">at </unclear>
+
+<lb/>but tepid waters and a delicious change of dress
+
+<lb/>Water of Lake 83º at 3 PM</p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-04-19">19<hi rend="sup underline">th</hi></date> <placeName><geogName type="lake"><choice><orig><hi rend="underline">Moero</hi></orig><reg>Mweru</reg></choice></geogName></placeName></note> Marched along the North end of <placeName><geogName type="lake"><choice><orig>Moero</orig><reg>Mweru</reg></choice></geogName></placeName> which had
+
+<lb/>a South East direction - The soft yielding sand
+
+<lb/>which is flanked by a broad belt of tangled <unclear cert="low">tropical</unclear>
+
+<lb/>vegetation trees, added to the fatigues of yesterday
+
+<lb/>so finding a deserted <placeName><settlement type="village"><term type="occupation">fisherman</term>'s village</settlement></placeName> near
+
+<lb/>the Eastern hills we gladly made it our quarters for
+
+<lb/><note place="marginleft"><date when="1868-04-19">19<hi rend="sup underline">th</hi></date></note>Sunday. I made no mark but the Lake is at
+
+<lb/>least twenty feet higher now than it was on our
+
+<lb/>first visits. and there are banks shewing higher
+
+<lb/>rises than even this -</p>
+
+<lb/><p rend="no-indent">Large fish baskets made of split reeds are used in
+
+<lb/><unclear cert="low">this</unclear> for catching small <term type="animal">fish</term> <figure><figDesc>Drawing of two baskets for catching fish.</figDesc></figure>
+
+<lb/><figure><figDesc>Drawing of basket for catching fish.</figDesc></figure> one man at each basket drives <term type="animal">fish</term> ashore</p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-04-20">20<hi rend="sup">th</hi></date></note> Go on to <placeName><geogName type="river">Katette <choice><abbr>Rt</abbr><expan>River</expan></choice></geogName></placeName> &amp; there to a strong <gap extent="2" unit="words" agent="fading"/>
+
+<lb/>at a village on North bank of the <placeName><geogName type="river"><choice><abbr>Rt</abbr><expan>River</expan></choice> V<gap agent="stain" extent="2" unit="chars"/><supplied>un</supplied>a</geogName></placeName> while
+
+<lb/>near hills is a hot fountain some<gap agent="stain" extent="2" unit="words"/>
+
+<lb/>to cook <term type="plant_foodstuff">cassava</term> &amp; <term type="plant_foodstuff">maize</term>.</p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-04-21">21<hi rend="sup">st</hi></date></note> Cross <placeName><geogName type="river">Vuna</geogName></placeName> and go on to <placeName><settlement type="village"><persName>Kalembwe</persName>'s village</settlement></placeName>
+
+<lb/>met <term type="occupation">chief</term> at gate who guided us to a hut and
+
+<lb/>manifested great curiosity to see all of our things
+
+<lb/>asked if we would not stop next day &amp; drink <unclear cert="low">hoom</unclear>
+
+<lb/>which would then be ready. <term type="animal">Leopards</term> abound 
+
+<lb/>here - <placeName><geogName type="lake">Lake <unclear cert="low">morr</unclear></geogName></placeName> seems broader than ever
+
+<lb/>In <date when="1868-10">October</date> it looked still more broad -</p>
+
+
+		<pb facs="liv_000019_0397.jpg" n="0397"/>
+
+<lb/><note place="margintop">391</note>
+
+<lb/><fw n="391"><add place="margintop" rend="right" hand="#U">391</add></fw>
+
+<lb/><p><note place="marginleft"><date when="1868-04-22">April 22<hi rend="sup">nd</hi> 1868</date></note> could not <choice><orig>concieve</orig><reg>conceive</reg></choice> that a hole in the cartilage of
+
+<lb/>the nose could be turned to any account except
+
+<lb/>to hold an ornament though that is usually only a
+
+<lb/>bit of grass, but a man sewing the feathers on
+
+<lb/>his arrows used his nose hold for holding a needle!
+
+<lb/>In coming on to <placeName><settlement type="village">Kangalola</settlement></placeName> found country <w>swim-
+
+<lb break="no"/>-ming</w> - got separated from the company though
+
+<lb/>I saw them disappear in the long grass not a
+
+<lb/><measure>hundred yards off</measure> and should but the splashing
+
+<lb/>of their feet prevented any one hearing - could not
+
+<lb/>find a path going South so took one to East to a
+
+<lb/>village. grass so long &amp; tangled I could scarcely get
+
+<lb/>along. Engaged a man to shew me the main
+
+<lb/>path South - He took me to a neat village of a woman
+
+<lb/><persName>Nyinakassanga</persName> &amp; twould go no further - mother
+
+<lb/><persName>Kasanga</persName> as the name means had been very
+
+<lb/>handsome and had a beautiful daughter probably
+
+<lb/>another iteration of herself. she advised my waiting
+
+<lb/>in the deep shade of the <foreign xml:lang="la"><term type="plant"><hi rend="underline">ficus indic<subst><del>u</del><add place="inline">a</add></subst></hi></term></foreign> in which her
+
+<lb/>houses were placed - I fired again *amp; when my
+
+<lb/><term type="occupation">attendants</term> came gave her a string of beads which
+
+<lb/>made her express distress at my "leaving without
+
+<lb/>drinking anything of hers" - When we returned
+
+<lb/>we might spend a night at her village. We did not
+
+<lb/>pass her in <date when="1867-10">October</date> - people had abandoned 
+
+<lb/>several villages on account of the abundance
+
+<lb/>of ferocious wild beasts</p>
+
+<lb/><p><note place="marginleft"><date when="1868-04-23">23<hi rend="sup underline">d</hi></date></note> Through very thick &amp; tanged <foreign xml:lang="la"><term type="plant">Nyassi</term></foreign> to <placeName><settlement type="village"><persName>chikosi</persName>s
+
+<lb/>burned village</settlement></placeName> - <persName>Nsama</persName> had killed him - we
+
+<lb/>spent the night in a garden hut which the fire
+
+<lb/>of the village had spared - Turnings growing in
+
+<lb/>the ruins. The <foreign xml:lang="la"><term type="plant">Nyassi</term></foreign> or long coarse grass 
+
+<lb/>hangs over the paths and in pushing it aside
+
+<lb/>the sharp seeds penetrate the clothes and are
+
+<lb/>very annoying - The grass itself rubs on the
+
+<lb/>face and eyes <choice><orig>disagreably</orig><reg>disagreeably</reg></choice>. When it is burned
+
+<lb/>off and green sward covers the soil it is much
+
+<lb/>more pleasant walking -</p>
+
+
+
+		<pb facs="liv_000019_0398.jpg" n="0398"/>
+
+<lb/><note place="margintop">392 -</note>
+
+<lb/><p><note place="marginleft"><date when="1868-04-24">April 24<hi rend="sup">th</hi> 1868</date></note> Leave <placeName><settlement type="village"><persName>Chikosi</persName>'s ruins</settlement></placeName> and make for the
+
+<lb/><placeName><geogName type="river">ford of the Kalongosi</geogName></placeName>. <term type="plant">Marigolds</term> in full blow
+
+<lb/>all over the Forest and so are <term type="plant">foxgloves</term>. 
+
+<lb/>river <!-- geog: implied name of Kalangosi. MW -->was here <measure>full one hundred yards broad</measure> 
+
+<lb/>with <measure>200 yards of flood on its Western bank</measure>
+
+<lb/><measure>30 deep</measure> we had to remain in the canoes till
+
+<lb/>within <measure>50 yards</measure> of the higher ground. People
+
+<lb/>chewing the pith of the <term type="plant">Papyrus</term> which is <unclear cert="low">3 <choice><abbr>in</abbr><expan>inches</expan></choice></unclear>
+
+<lb/>in diameter and is white as snow. Has very
+
+<lb/>little sweetness or anything else in it. The
+
+<lb/><term type="occupation">headman</term> of the village to which we went was
+
+<lb/>out cutting wood for a garden and his wife
+
+<lb/>refused us a hut. When <persName>Kansabala</persName> came
+
+<lb/>in the evening he scolded roundly his own
+
+<lb/>spouse and all the wives of the village and then
+
+<lb/>pressed me to come indoors but I was well
+
+<lb/>enough in my mosquito curtain without and
+
+<lb/>declined. I was free from insects &amp; vermin
+
+<lb/>and few huts are so -</p>
+
+<lb/><p><note place="marginleft"><date when="1868-04-25">25<hi rend="sup underline">th</hi></date></note> <choice><sic>o</sic><corr>O</corr></choice>ff early West and then on to an elevated
+
+<lb/>Forest land in which our course was <choice><abbr>SSW</abbr><expan>South South West</expan></choice>
+
+<lb/>to the great bend of the <placeName><geogName type="rivulet">rivulet Kifurwa</geogName></placeName> - it
+
+<lb/>enters <placeName><geogName type="river">Moero</geogName></placeName> near to the mouth of the <placeName><geogName type="river">Kalunga</geogName></placeName></p>
+
+<lb/><p><note place="marginleft"><date when="1868-04-26">26<hi rend="sup underline">th</hi></date></note> Here we spent Sunday <!-- Not sure how to mark this as a date since it's not clear what day of the week he's writing. MW-->in our former <term type="occupation">woodcutter</term>s' 
+
+<lb/>huts - <date when="1868-04-25">yesterday</date> we were met by a party of the
+
+<lb/>same occupation laden with bark cloth which
+
+<lb/>they had just been stripping off the trees - <space extent="1" unit="chars"/>Their
+
+<lb/><term type="occupation">leader</term> would not come along the path because
+
+<lb/>I was sitting near it - I invited him to do so but
+
+<lb/>it would have been disrespectful to let his shadow
+
+<lb/>fall on any part of my person. He went a 
+
+<lb/>little out of the way. This politeness is common.</p>
+
+<lb/><p><note place="marginleft"><date when="1868-04-27">27<hi rend="sup underline">th</hi></date></note> But a short mark to <placeName><settlement type="village"><persName>Fungafunga</persName>'s village</settlement></placeName> - we
+
+<lb/>could have gone on to the <placeName><geogName type="river">Muatize</geogName></placeName> but <unclear cert="high">no</unclear>
+
+<lb/>village exists there and here we could buy food
+
+<lb/><persName><persName>Fungafunga</persName>'s wife</persName> gave a handsome <unclear cert="high">supper</unclear>
+
+<lb/>to the stranger - on afterwards acknowledging it
+
+
+    <pb facs="liv_000019_0399.jpg" n="0399"/>
+
+<lb/><note place="margintop">393</note>
+
+<lb/><note place="marginleft"><date when="1868-04-28">April 28<hi rend="sup underline">th</hi> 1868</date></note> to her husband he said that is your village, always
+
+<lb/>go that way and eat my provisions. He is a
+
+<lb/><term type="tribe">Monyamwezi</term> trading in the country for copper
+
+<lb/>hoes and <orgName>slaves</orgName> - <term type="animal">Parrots</term> in numbers stealing
+
+<lb/><term type="plant_foodstuff">Holcus sorghum</term> in spite of the shouts of the women.</p>
+
+<lb/><p rend="no-indent"><choice><sic>c</sic><corr>C</corr></choice>ross <placeName><geogName type="river">Muatize</geogName></placeName> by a bridge of one large tree - Get a
+
+<lb/>good view of <placeName><geogName type="river">Moero</geogName></placeName> from a hill near <placeName><geogName type="river">Kabukwa</geogName></placeName>
+
+<lb/>and sleep at <placeName><geogName type="rivulet">Chisongo<choice><abbr>Rt</abbr><expan>Rivulet</expan></choice></geogName></placeName></p>
+
+<lb/><p><note place="marginleft"><date when="1868-04-29">29<hi rend="sup underline">th</hi></date></note> At <placeName><geogName type="rivulet">Mandapala<choice><abbr>Rt</abbr><expan>Rivulet</expan></choice></geogName></placeName> some men from <placeName><geogName type="river">Chungu</geogName></placeName>
+
+<lb/>one of whom claimed to be a relative of <persName>Cazembe</persName>
+
+<lb/>made a great outcry against our coming a second
+
+<lb/>time to <placeName><settlement type="village"><persName>Cazembe</persName></settlement></placeName> without waiting at <placeName><geogName type="river">Kalongosi</geogName></placeName> for
+
+<lb/>permission. One of them with his ears cropped
+
+<lb/>short off asked me when I was departing North
+
+<lb/>if I should come again. I replied, "Yes - I though
+
+<lb/>I should.<supplied>"</supplied> They excited themselves by calling over
+
+<lb/>the  same thing again and again. "The <term type="people">English</term> come
+
+<lb/>"the second time" - "the second time - the second time
+
+<lb/>"the country spoiled. Why not wait at <placeName><geogName type="river">Kalongosi</geogName></placeName>?
+
+<lb/>"Let him return thither" - come from <persName>Mpamari</persName> too
+
+<lb/>"and from the <term type="tribe">Bagaranganza</term> or <term type="tribe">Banyamwezi</term>"
+
+<lb/>"the second time - the second time."! Then all the
+
+<lb/>adjacent villagers were called in to settle this
+
+<lb/>serious affair. I look up to that higher power
+
+<lb/>to influence their minds as he has often done
+
+<lb/>before- <space extent="2" unit="chars"/>Persuaded then to refer the matter to
+
+<lb/><persName>Cazembe</persName> himself by sending a man with one
+
+<lb/>of mind up to the town. <space extent="2" unit="chars"/>they would not <w>con-
+
+<lb break="no"/>sent</w> to go on to the <placeName><geogName type="river">Chungu</geogName></placeName> as the old cropped
+
+<lb/>eared man would have been obliged to come back
+
+<lb/>the distance again he having been on the way to
+
+<lb/><placeName><geogName type="river">Kalongosi</geogName></placeName> as a sentinel of the ford. <persName>Cazembe</persName> is
+
+<lb/>reasonable and fair but his people are neither
+
+<lb/>and will do anything to mulct<!-- This was a new word to me! MW--> either strangers
+
+<lb/>or their own countrymen</p>
+
+<lb/><p><note place="marginleft"><date when="1868-04-30">30<hi rend="sup underline">th</hi></date></note> The cold of winter has begun. <seg type="weather">Dew deposited
+
+<lb/>in great quantities but all the streams are
+
+<lb/>very high in flood though the rains have here
+
+<lb/>ceased some time -</seg></p>
+
+
+	   <pb facs="liv_000019_0400.jpg" n="0400"/>
+
+<lb/><note place="margintop">394</note>
+
+<lb/><p><note place="marginleft"><date when="1868-05-01">May 1<hi rend="sup">st</hi> 1868</date></note> At <placeName><geogName type="rivulet">Mandapala <choice><abbr>Rt.</abbr><expan>Rivulet</expan></choice></geogName></placeName> sent a request to <persName>Muhamad
+
+<lb/>Bogharib</persName> to intercede with <persName>Cazembe</persName> for me
+
+<lb/>for a man to shew the way to <placeName><settlement type="village"><persName>Chikumbi</persName></settlement></placeName> which
+
+<lb/>is near to <placeName><geogName type="lake">Bangweolo</geogName></placeName>. I fear that I have become
+
+<lb/>mixed up in the <term type="tribe">Lunda</term> mind with <persName>Mpamari</persName>
+
+<lb/>(<persName>Muhamad bin Saleh</persName>) from having gone off
+
+<lb/>with him and returning ere we reached <placeName><settlement type="village">Ujiji</settlement></placeName>
+
+<lb/>whither ostensibly we were found. I may be
+
+<lb/>suspected of being in his confidence and of
+
+<lb/>forwarding his plans by coming back = a deaf 
+
+<lb/>and dumb man appears among the people here
+
+<lb/>making signs exactly as I have seen such do in
+
+<lb/><placeName><country>England</country></placeName>.and occasionally emitting a low <w><unclear cert="medium">un-</unclear>
+
+<lb break="no"/><note place="marginleft"><date when="1868-05-02"></date>2<hi rend="sup">nd</hi></note><add place="below">^</add><add place="above">modulated</add></w> <choice><sic>gutteral</sic><corr>guttural</corr></choice> drawl like them -</p>
+
+<lb/><p><note place="marginleft"><date when="1868-05-03">3<hi rend="sup underline">d</hi></date></note> <persName>Abraham</persName> my <term type="occupation">messenger</term> came back while <unclear cert="low">we</unclear>
+
+<lb/>we were at afternoon prayers with good news
+
+<lb/>for us but what made <persName>cropped ears</persName><!--I marked this as a name since DL begins using it as such and notes below that he never got this guy's actual name. MW--> quite chop
+
+<lb/>fallen. <persName>Cazembe</persName> quite gracious. He did not
+
+<lb/>wish me to go away and now I am welcome
+
+<lb/>back, and as soon as we hear of peace at
+
+<lb/><placeName><settlement type="village"><persName>Chikumbi</persName>'s</settlement></placeName> we shall have a man to conduct
+
+<lb/>us thither. <term type="tribe">Masitu</term> were reported to have made an
+
+<lb/>inroad into <placeName><settlement type="village"><persName>Chikumbi</persName>'s country</settlement></placeName>.<!-- Not sure if it would be better in this instance to use region, though my understanding is that region refers to a larger area. MW--> That <term type="occupation">chief</term> has
+
+<lb/>fled and <persName>Cazembe</persName> had sent <term type="occupation">messengers</term> to hear
+
+<lb/>the truth. Thanks to the Most high for his kindness
+
+<lb/>and influence.</p>
+
+<lb/><p><note place="marginleft"><date when="1868-05-04">4<hi rend="sup underline">th</hi></date></note> Leave <placeName><geogName type="rivulet">Mandapala</geogName></placeName>. <persName>Cropped ears</persName> whose name 
+
+<lb/>I never hear, collapsed at once on hearing the
+
+<lb/>message of <persName>Cazembe</persName> - Before that I never
+
+<lb/>heard such a babbler - To every one passing
+
+<lb/>man or woman he repeated the same <w>insinu-
+
+<lb break="no"/>-ations</w> about the <term type="people">English</term> and <term type="tribe">Mpamari</term> or
+
+<lb/>the <term type="tribe">Banyamwezi</term>. conspiracy = guilt. return
+
+<lb/>a second time till like a meddling <term type="occupation">lawyer</term> he
+
+<lb/>thought that he had really got an important
+
+<lb/>case in hand.</p>
+
+
+		<pb facs="liv_000019_0401.jpg" n="0401"/>
+			    
+<lb/><note place="margintop">395</note>
+			    
+<lb/><p><note place="marginleft"><date when="1868-05-05">May 5<hi rend="sup">th</hi> 1868</date></note> <placeName><geogName type="rivulet"> <choice><abbr>Rt.</abbr><expan>Rivulet</expan></choice>Chungu</geogName></placeName> from <measure>fifteen to eighteen yards
+
+<lb/>broad and breast deep</measure>, with at least <measure>one hundred
+
+<lb/>yards of flood</measure> before we reached the main stream
+
+<lb/><placeName><geogName type="river">Mandapala</geogName></placeName>. <placeName><geogName type="rivulet">Chungu</geogName></placeName> and <placeName><geogName type="river">Lundi</geogName></placeName> join in country
+
+<lb/>called <placeName><settlement type="region">Kimbafuma</settlement></placeName> about <measure>12 miles from our crossing
+
+<lb/>place</measure> of <placeName><geogName type="river">Mandapala</geogName></placeName> and about West of it. The <placeName><geogName type="river">Lundi</geogName></placeName>
+
+<lb/>was now breast deep too and <measure>twelve yards broad</measure> -</p>
+
+<lb/><p>On reaching <placeName><settlement type="village"><persName>Cazembe</persName>'s</settlement></placeName> on the <placeName><geogName type="lake">Mofwe</geogName></placeName> we found
+
+<lb/><persName>Mohamad Bogharib</persName> digging and fencing up a well
+
+<lb/>to prevent his <orgName>slaves</orgName> being taken already - a <term type="animal">dog</term> bit the
+
+<lb/>leg of one of my <term type="animal">goats</term> so badly that I was obliged to kill
+
+<lb/>it. They are nasty <term type="animal">curs</term> here without courage yet
+
+<lb/>sometimes bite people badly. Met some old friends
+
+<lb/>and <persName>Mohamad Bogharib</persName> cooked a supper and
+
+<lb/>from this time forward never omitted sharing
+
+<lb/>his vituals with me -</p>
+
+<lb/><p><note place="marginleft"><date when="1868-05-06">6<hi rend="sup underline">th</hi></date></note> <persName>Manuel Caetamo Pereira</persName> visited <persName>Cazembe</persName>
+
+<lb/>in <figure><figDesc>Calculations to arrive at number of years since Pereira visited Cazembe.</figDesc></figure> 1796 or 72 years ago - His native name was
+
+<lb/><persName>Moendomondo</persName> or the world's leg = "world
+
+<lb/>side traveller."! He came to <placeName><geogName type="rivulet">Mandapala</geogName></placeName> for there
+
+<lb/>the <persName>Cazembe</persName> of the time resided and a <term type="occupation">priest</term> or
+
+<lb/><foreign xml:lang="und"><term type="occupation">"Kasise"</term></foreign> with him and many people with guns
+
+<lb/><persName>Perembe</persName> the oldest man now in <placeName><settlement type="village">Lunda</settlement></placeName> had
+
+<lb/>children even then - If <persName>Perembe</persName> were 30 years of
+
+<lb/>age at that period he would now be 102 years
+
+<lb/>old and he seems quite that. When <persName><choice><abbr>D<hi rend="sup underline">r</hi></abbr><expan>Doctor</expan></choice> Lacerda</persName>
+
+<lb/>came he had forty children! He says that
+
+<lb/><persName>Pereira</persName> fired off all his guns on his arrival
+
+<lb/>and <persName>Cazembe</persName> asked him what he meant
+
+<lb/>by that he replied "These guns ask for <orgName>slaves</orgName>
+
+<lb/>and ivory" both of which were liberally given</p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-05-07">7<hi rend="sup underline">th</hi></date></note> I could not induce <persName>Perembe</persName> to tell anything of
+
+<lb/>times previous to his own- <foreign xml:lang="und">Moendsmondo</foreign> = the
+
+<lb/>words by <persName>Pereira</persName> told <persName><choice><abbr>D<hi rend="sup underline">r</hi></abbr><expan>Doctor</expan></choice> Lacerda</persName> that the <orgName>natives</orgName>
+
+<lb/>called him "The Terror!"! another bit of vanity
+
+<lb/>for they have no such word or abstract term in
+
+<lb/>their language - <hi rend="underline">continued at page of book <date when="1868-07-25">July 24</date></hi></p>
+
+
+    <pb facs="liv_000019_0402.jpg" n="0402"/>
+    
+<lb/><note place="margintop">396</note>
+
+<lb/><p rend="no-indent">The old man <persName>Perembe</persName> at <placeName><settlement type="village"><persName>Cazembe</persName></settlement></placeName> died
+
+<lb/>about the beginning of <date when="1870">1870</date> - He must
+
+<lb/>have been <!-- DL here uses a < to mean greater-than. I couldn't get XML to accept that or figure out the right subsitute. MW--> 104 years of age possible
+
+<lb/>110.</p>
+
+<lb/><!-- Not sure how or whether to indicate that this is diagonal to the rest of the text. MW--><p>Soon <date when="1868-07-26">26 July</date>. / <date when="1868-07-25">25 July</date>/</p>
+
+	   <pb facs="liv_000019_0403.jpg" n="0403"/>
+			    
+		<lb/><note place="margintop">397</note>
+
+<lb/><p>Altitudes above the sea by Barometer and
+
+<lb/>Boiling Point <space extent="1" unit="words"/>Principal stations for
+
+<lb/>details see <bibl>Note book</bibl>.</p>
+
+<lb/><p><note place="marginleft"><date when="1866-03-27">27<hi rend="sup">th</hi> March 1866</date></note> <placeName><geogName type="bay">Mikindary Bay</geogName></placeName> = on the Northern jaw of the
+
+<lb/>entrance to <placeName><geogName type="harbor">Pembé harbour</geogName></placeName>
+
+<lb/><hi rend="center">at 11 A.M.</hi>
+
+<lb/><note place="marginleft">- II</note>Boiling Point thermometer - <hi rend="right"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 4681. Sea level</hi>
+
+<lb/>brush <unclear cert="low">Ebullition</unclear> <hi rend="right">212º air 88.5</hi>
+
+<lb/><note place="marginleft">- III</note><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <hi rend="right"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 4688 = <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></hi>
+
+<lb/><note place="marginleft">-</note>--- --- <hi rend="right">212º 2. air 90º</hi>
+
+<lb/><note place="marginleft">IV</note> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <hi rend="right"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 4689 - <del type="strikethrough">air 8º</del></hi>
+
+<lb/>--- --- <hi rend="right">212º 1 air 86º</hi></p>
+
+<lb/><p>Level of sea <choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 8º South.
+
+<lb/>same station and Date - Aneroid Barometers
+
+<lb/><note place="marginleft">I.</note> <choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 395 = shewed inches <hi rend="right">30.05 air 90º</hi>
+
+<lb/><note place="marginleft">II</note> <choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> 423 = ---- ---- <hi rend="right">30.15 air 90º</hi>
+
+<lb/><note place="marginleft">III</note> <choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> 450 = --- --- <hi rend="right">30.67. air 90º</hi></p>
+
+<lb/><p>Level at the sea. 8º South
+
+<lb/><note place="marginleft"><date when="1866-03-28">28<hi rend="sup">th</hi> March</date></note> <choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> I at 9 AM <hi rend="right">30.05 - air 86º</hi>
+
+<lb/><choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> II --- --- <hi rend="right">30.25 - - 86º</hi>
+
+<lb/><choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> III --- --- <hi rend="right">30.75 - - 86º</hi></p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p rend="no-indent"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> I at 3 PM <hi rend="right">29.95 -- <add place="above">air</add> 85º</hi>
+
+<lb/><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> II --- <hi rend="right">30.13 -- 85º</hi>
+
+<lb/><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> III --- <hi rend="right">30.68 -- 85º</hi></p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p><note place="marginleft"><date when="1866-03-28">28<hi rend="sup">th</hi>March</date></note> <choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> I 9 AM <hi rend="right">30.0 air 83º</hi>
+
+<lb/><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> II ----- <hi rend="right">30.17 ----</hi> 
+
+<lb/><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> III ----- <hi rend="right">30.72 ----</hi></p>
+
+<lb/><p><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> I 3 PM <hi rend="right">29.92 - <add place="above">air</add> 80º</hi>
+
+<lb/><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> II --- <hi rend="right">30.0 --</hi>
+
+<lb/><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> III -- <hi rend="right">30.67 --</hi></p>
+
+
+		<pb facs="liv_000019_0404.jpg" n="0404"/>
+			    
+<lb/><note place="margintop">398</note>
+
+<lb/><p><note place="marginleft"><date when="1866-05-12">May 12<hi rend="sup">th</hi> 1866</date></note> <placeName><settlement type="village">Nyamatolole</settlement></placeName> or <placeName><settlement type="village">Matawatawa</settlement></placeName> - Turning
+
+<lb/>point on <placeName><geogName type="river">Rovuma</geogName></placeName> in <date when="1862">1862</date>
+
+<lb/>I at 4 PM <hi rend="right">29.6. <add place="above">air</add> 78º</hi>
+
+<lb/>II -- <hi rend="right">29.82 <space extent="1" unit="words"/>--</hi>
+
+<lb/>III -- <hi rend="right">30.45 ---</hi></p>
+
+<lb/><p><note place="marginleft"><date when="1866-05-13">13<hi rend="sup">th</hi> May</date></note> I at 6 AM <hi rend="right">29.6 - <add place="above">air</add> 77º</hi>
+
+<lb/>II - <hi rend="right">29.85 --</hi>
+
+<lb/>III <hi rend="right">30.43 --</hi></p>
+
+<lb/><p><note place="marginleft"><date when="1866-05-21">21<hi rend="sup">st</hi></date></note> <placeName><settlement type="village">Ngomano</settlement></placeName> (<measure>2´up <placeName><geogName type="river">Loendi</geogName></placeName> from confluence</measure>)
+
+<lb/>I at 9AM - <hi rend="right">29.85</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 78.9<!--I'm not sure that this is the best way to code the bracket. MW-->
+
+<lb/>II<hi rend="right">29.95</hi>
+
+<lb/>III<hi rend="right">30.55</hi></p>
+
+			    <lb/><p rend="no-indent"><note place="marginleft"><date when="1866-05-25">25<hi rend="sup">th</hi></date></note><add place="above"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice></add>1 at 3PM <hi rend="right">29.58</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 85º
+
+<lb/>2 <hi rend="right">29.75</hi>
+
+<lb/>3 <hi rend="right">30.37</hi></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1866-06-02">2 June</date></note> <placeName><settlement type="village">Ngomano</settlement></placeName> ( - )
+
+<lb/><lb/><add place="above"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice></add>II <add place="above">at 10AM. Boiling Point.</add> <hi rend="right">212.5 - <unclear cert="low">301.5</unclear></hi>
+
+<lb/>III . 11 AM <hi rend="right">211º 35 cm <unclear cert="low">5-7</unclear></hi>
+
+<lb/>IV 9.30 AM <hi rend="right">211º9</hi></p>
+
+<lb/><p><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> Aneroid Bar
+
+<lb/>1 11AM <hi rend="right">29.7 - <add place="above">air</add>88.5</hi>
+
+<lb/>2 <hi rend="right">29.9 --</hi>
+
+<lb/>3 <hi rend="right">30.53 --</hi>
+
+<lb/>-- at 3PM <hi rend="right">29.6</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 82º
+<lb/><hi rend="right">29.85</hi>
+
+<lb/><hi rend="right">30.4</hi></p>
+
+<lb/><p rend="no-indent">1 at 9PM <hi rend="right">29.6</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>72
+
+<lb/>2 <hi rend="right">29.82</hi>
+
+<lb/>3 <hi rend="right">30.42</hi></p>
+
+
+		<pb facs="liv_000019_0405.jpg" n="0405"/>
+			    
+<lb/><note place="margintop">399</note>
+
+<lb/><p><note place="marginleft"><date when="1866-07-26">26 July 1866</date></note> <placeName><settlement type="village">Pamoembe</settlement></placeName> - Town of <placeName><settlement type="village">Mataka</settlement></placeName>
+
+<lb/>Aneroid Barometers
+
+<lb/><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 1 at 9AM <hi rend="right">26.52</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 62º.2
+
+<lb/>- 2 <hi rend="right">26.91</hi>
+
+<lb/>- 3 <hi rend="right">27.48</hi></p>
+
+<lb/><p rend="no-indent"><add place="above"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice></add> 1 Noon <hi rend="right">26.52</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 66º.5
+			    
+<lb/>2 <hi rend="right">25.9</hi>
+			    
+<lb/>3 <hi rend="right">27.45</hi></p>
+
+<lb/><p rend="no-indent"><add place="above"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice></add> 1 at 3 PM <hi rend="right">26.48</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 67º
+			    
+<lb/>2 <hi rend="right">26.85</hi>
+			    
+<lb/>3 <hi rend="right">27.43</hi></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><placeName><settlement type="village"><persName>Pazimba</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName><date when="1866-07-31">July 31<hi rend="sup">st</hi></date></note> <add place="above"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice></add> 1 at 6 AM <hi rend="right">25.95</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 55º
+
+<lb/>2 <hi rend="right">26.35</hi>
+
+<lb/>3 <hi rend="right">26.9</hi></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1866-08-02">2 <choice><abbr>Aug</abbr><expan>August</expan></choice></date> near <placeName><settlement type="village"><persName>Mbanga</persName></settlement></placeName></note>  1 - 6 AM <hi rend="right">26.05</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 47º.5
+
+<lb/>2 - <hi rend="right">26.46</hi>
+
+<lb/>3 - <hi rend="right">27.02</hi></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1866-08-04"><unclear>4</unclear><hi rend="sup">th</hi> <choice><abbr>Aug</abbr><expan>August</expan></choice></date> <placeName><geogName type="lake">Lake Nyassa</geogName></placeName></note> confluence of the <placeName><geogName type="river">Misinje</geogName></placeName> &amp; Lake<!-- Geog: implied Lake Nyassa. MW-->
+
+<lb/>1 at 6 - 25 - <hi rend="right">28.2</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 62º
+
+<lb/>2 <hi rend="right">28.5</hi>
+
+<lb/>3 <hi rend="right">29.15</hi></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1866-08-10">10 <hi rend="sup">th</hi> <choice><abbr>Aug</abbr><expan>August</expan></choice></date></note> 1 at 9 AM all the instruments Protected in a box
+
+<lb/>1 <hi rend="right">28.32</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 75º
+
+<lb/>2 <hi rend="right">28.55</hi>
+
+<lb/>3 <hi rend="right">29.18</hi>
+
+<lb/><note place="marginleft"><unclear cert="medium"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></unclear></note> at 3 PM <hi rend="right">28.25</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 80º
+
+<lb/><hi rend="right">28.5</hi>
+
+<lb/><hi rend="right">29.1</hi></p>
+
+
+		<pb facs="liv_000019_0406.jpg" n="0406"/>
+			    
+<lb/><note place="margintop">400</note>
+
+<lb/><p><note place="marginleft"><date when="1866-08-13">13 <choice><abbr>Aug.></abbr><expan>August</expan></choice> 1866</date></note> <placeName><geogName type="lake">Lake Nyassa</geogName></placeName>. confluence of the <placeName><geogName type="river">Misinje</geogName></placeName>
+
+<lb/>II Boiling Point Thermometer <hi rend="right">9AM 210º - air 72.5</hi>
+
+<lb/>III <hi rend="right">8 30 - 209º.9 - air 66.5</hi>
+
+<lb/>IV <hi rend="right">8 15 - 210º - air 65.5</hi></p>
+
+<lb/><p>1 same time &amp; place 9AM, Barometers <hi rend="right">28.28</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>72º
+
+<lb/>2 <hi rend="right">28.68</hi>
+
+<lb/>3 <hi rend="right underline">29.22</hi>
+
+<lb/><note place="marginleft"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></note> 1 at 3 PM <hi rend="right">28.25</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>76º
+
+<lb/>2 <hi rend="right">28.52</hi>
+
+<lb/>3 <hi rend="right underline">29.13</hi></p>
+
+<lb/><p>Mean of Barometers on <date when="1866-08-13">13 <choice><abbr>Aug.</abbr><expan>August</expan></choice></date> at the
+
+<lb/>confluence of the <placeName><geogName type="river">Misinje</geogName></placeName> with <placeName><geogName type="lake">Lake Nyassa</geogName></placeName>
+
+<lb/>corrected thus
+
+<lb/>I 28.28 - 05 = 28.23<figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>mean 28.5
+
+<lb/>II 28.68 - 15 = 28.53
+
+<lb/>III 29.22 - 67 = 28.55</p>
+
+<lb/><p>By barometer - <hi rend="right"><measure>1200 feet above the sea</measure></hi>
+
+<lb/>By Boiling point <hi rend="right"><measure><hi rend="underline">1238</hi> feet <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></measure></hi>
+
+<lb/><hi rend="right">38 <choice><abbr>Diff.</abbr><expan>Difference</expan></choice></hi></p>
+
+<lb/><p>By another observation <date when="1866-08-20">20<hi rend="sup underline">th</hi> <choice><abbr>Aug.</abbr><expan>August</expan></choice> 1866</date>
+
+<lb/>Barometer <measure>1212 feet</measure>
+
+<lb/>Boiling Point <measure><hi rend="underline">1268</hi> feet</measure>
+
+<lb/><space extent="3" unit="words"/>56 <choice><abbr>diff</abbr><expan>difference</expan></choice></p>
+
+
+	<pb facs="liv_000019_0407.jpg" n="0407"/>
+			    
+<lb/><note place="margintop">401</note>
+
+<lb/><p><note place="marginleft"><date when="1866-10-04">4 <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice> 1866</date></note> <placeName><settlement type="village"><persName>Katosa</persName>'s</settlement></placeName> or <placeName><settlement type="village"><persName>Kiemasusa</persName>'s</settlement></placeName> at base of <placeName><geogName type="mountain"><persName>Kirk</persName>'s range</geogName></placeName>
+
+<lb/><add place="above"><choice><abbr>N</abbr><expan>Number</expan></choice></add> 1 at 9 AM <hi rend="right">28.05</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>78º Air
+
+<lb/>2 <hi rend="right">28.35</hi>
+
+<lb/><hi rend="underline">3</hi> <hi rend="right underline">28.9</hi>
+
+<lb/>1 Noon <hi rend="right">28.02</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>85º Air
+
+<lb/>2 <hi rend="right">28.28</hi>
+
+<lb/><hi rend="underline">3</hi> <hi rend="right">28.8</hi>
+
+<lb/>at 3 PM. <hi rend="right">28.0</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>87º Air
+
+<lb/><hi rend="right">28.25</hi>
+
+<lb/><hi rend="right underline">28.75</hi></p>
+
+			    <lb/><p><note place="marginleft"><date when="1866-10-08">8 <choice><abbr>oct</abbr><expan>October</expan></choice></date></note> 1 Top of range.<!-- geog: this is probably Kirk's Range, mentioned above. MW--> 6AM. <placeName><settlement type="village">Mpalala</settlement></placeName><!-- Not sure this is a village. MW.--><hi rend="right">25.7</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 74º 
+
+<lb/>2 <hi rend="right">25.95</hi>
+
+<lb/>3 <hi rend="right underline">26.4</hi>
+
+<lb/>1 at 9 AM <hi rend="right">25.72</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 74º.5 
+
+<lb/>2 <hi rend="right">25.88</hi>
+
+<lb/>3 <hi rend="right underline">26.35</hi>
+
+<lb/>1 at 3 PM <hi rend="right">25.65</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 79º 
+
+<lb/>2 <hi rend="right">25.92</hi>
+
+<lb/>2 <hi rend="right">26.35</hi></p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p><note place="marginleft"><date when="1866-10-09">9 <choice><abbr>oct</abbr><expan>October</expan></choice></date></note> <placeName><settlement type="village">Pamiala</settlement></placeName>, village of <persName>Gombwa</persName> about 1º West<!-- Should this be tagged as a measure? MW-->
+
+<lb/>of <placeName><settlement type="village">Mpalala</settlement></placeName> and higher.
+
+<lb/>at 4<add place="above"><choice><abbr>h</abbr><expan>hours</expan></choice></add> 45<add place="above"><choice><abbr>m</abbr><expan>minutes</expan></choice></add> PM Boiling Point.Brisk Ebullition -
+
+<lb/><note place="marginleft"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice></note>I <hi rend="right">204º.2</hi><figure><figDesc>Bracket on the right that contains this and the following three lines.</figDesc></figure>air 79º 
+
+<lb/>II<hi rend="right">204.2</hi>
+
+<lb/>III<hi rend="right">204.2</hi>
+
+<lb/>IV<hi rend="right">204.1</hi></p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p><measure>Height above the sea as calculated by <persName><choice><abbr>Profess-</abbr><expan>Professor</expan></choice>
+
+<lb/>Burgess</persName>' tables <hi rend="double-underline">4531 feet.</hi></measure></p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p>Barometers <measure><hi rend="underline">4571</hi></measure>
+
+<lb/><space extent="4" unit="words"/><measure>40 <choice><abbr>diff.</abbr><expan>difference</expan></choice></measure>
+
+<lb/>1 4<add place="above"><choice><abbr>h</abbr><expan>hours</expan></choice></add> 45 PM <hi rend="right">25.2</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 79º 
+
+<lb/>2 <hi rend="right">25.4</hi>
+
+<lb/>3 <hi rend="right">25.85</hi>
+
+<lb/><space extent="2" unit="chars"/><unclear cert="low">Gives</unclear><measure>4571 feet</measure> -</p>
+
+
+		<pb facs="liv_000019_0408.jpg" n="0408"/>
+			    
+<lb/><note place="margintop">402</note>
+
+<lb/><p><note place="marginleft"><date when="1866-11-17">17 <choice><abbr>Nov</abbr><expan>November</expan></choice> 1866</date></note> <placeName><settlement type="village">Kanyenje</settlement></placeName> really near <add place="below">^</add> <add place="above"><measure>about 2´south of it</measure></add> source of the <placeName><geogName type="river">Bua</geogName></placeName>
+
+<lb/>1 at 9 AM <hi rend="right">25.65</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 77º 
+
+<lb/>2 <hi rend="right">25.8</hi>
+
+<lb/>3 <hi rend="right">26.38</hi>
+
+<lb/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="3" unit="chars"/>Boiling Point - 13.2.<add place="above"><unclear>m</unclear></add> 10<add place="above"><choice><abbr>h</abbr><expan>hours</expan></choice></add> 30<add place="above"><choice><abbr>m</abbr><expan>minutes</expan></choice></add> AM
+
+<lb/>Mean of I, II, III, IV, Thermometers 204.4 air 77º
+
+<lb/><measure>Height above the sea <choice><abbr>B.</abbr><expan>Boiling</expan></choice><choice><abbr>Pt.</abbr><expan>Point</expan></choice> feet <hi rend="double-underline">4044</hi></measure>.</p>
+
+<lb/><p><note place="marginleft"><date when="1866-11-17">17 <choice><abbr>Nov</abbr><expan>November</expan></choice></date></note> By Barometer 25.63 - 77º -- <measure>feet <hi rend="double-underline">4562</hi></measure> <unclear cert="low">as slow</unclear>
+
+<lb/>1 at 10.30 - <del type="strikethrough">25.63</del> = <hi rend="right">25.64</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>air 77º 
+
+<lb/><hi rend="right">25.82</hi>
+
+<lb/><hi rend="right">26.27</hi>
+
+<lb/><note place="marginleft"><choice><abbr>Bar.</abbr><expan>Barometer</expan></choice></note> corrected as before gives <hi rend="right"><measure>Feet 4562 above sea</measure></hi>
+
+<lb/>Boiling point gives <hi rend="right underline"><measure>4044</measure></hi>
+
+<lb/><hi rend="right">418 <choice><abbr>Diff</abbr><expan>Difference</expan></choice> ?!</hi></p>
+
+<lb/><p><note place="marginleft"><date when="1866-11-20">20 <choice><abbr>Nov</abbr><expan>November</expan></choice></date></note> 1 source of the <placeName><geogName type="river">Bua</geogName></placeName> at 3 PM <hi rend="right">25.4</hi><figure><figDesc>Bracket on the right that contains this and the following two lines.</figDesc></figure>74º air 
+
+<lb/><hi rend="right">25.6</hi>
+
+<lb/><hi rend="right underline">26.02</hi>
+
+<lb/>Gives <hi rend="right"><measure>Feet 4751 above sea</measure></hi></p>
+
+<lb/><p><note place="marginleft"><date when="1866-12-15">15 <choice><abbr>Dec</abbr><expan>December</expan></choice></date></note> Boiling Point 208.8: air 77º <measure>feet 1830 above</measure>
+
+<lb/>This is the middle of the great <placeName><geogName type="valley">Loangwa valley</geogName></placeName>
+
+<lb/>&amp; on the banks of the river<!-- geog. MW--> at <placeName><settlement type="village"><persName>Marauda</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName>
+
+<lb/>By Barometer 28.00. 75º <measure>Feet 1808</measure> above the sea
+
+<lb/><hi rend="right underline"><measure>1830</measure></hi>
+
+<lb/><hi rend="right">22 <choice><abbr>Diff</abbr><expan>Difference</expan></choice></hi></p>
+
+<lb/><p><note place="marginleft"><date when="1866-12-24">24 <choice><abbr>Dec</abbr><expan>December</expan></choice></date></note> Near foot of North Western brim of great
+
+<lb/><placeName><geogName type="valley">Loangwa valley</geogName></placeName> - <placeName><settlement type="village"><persName>Kivimba</persName>'s <choice><abbr>vil.</abbr><expan>village</expan></choice></settlement></placeName>
+
+<lb/>Boiling Point 208.3 = 87.7 air - <measure>Feet 2151 feet</measure>
+
+<lb/>Barometer 27.76 = 87º.7 air <measure>Feet <hi rend="underline">2115</hi></measure>
+
+<lb/><hi rend="right">36 <choice><abbr>Diff</abbr><expan>Difference</expan></choice></hi></p>
+
+
+		<pb facs="liv_000019_0409.jpg" n="0409"/>
+			    
+<lb/><note place="margintop">403</note>
+
+<lb/><p><note place="marginleft"><date when="1867-01-03">4 <choice><abbr>Jany</abbr><expan>January</expan></choice> 1867</date></note> <placeName><geogName type="mountain">Mbulukuta</geogName></placeName> - on brim of great <placeName><geogName>Loangwa valley</geogName></placeName> called
+
+<lb/>generally from below <placeName><geogName type="mountain">Mountains of Bisa</geogName></placeName> or <placeName><geogName type="mountain"><w>Ba<supplied>-</supplied>
+
+<lb break="no"/>-bisa</w></geogName></placeName> (<placeName><geogName type="mountain"><foreign xml:lang="und">Machinga a Bisa</foreign></geogName></placeName>) 
+
+<lb/>Boiling Point at 10 50 AM 205.8 = air 75º <measure>Feet <hi rend="double-underline">3565</hi></measure>
+
+<lb/>Barometer same time &amp; place 26.1 - air 75 - <measure>Feet <hi rend="double-underline">3983</hi></measure>
+
+<lb/><hi rend="right"><choice><abbr>Diff.</abbr><expan>Difference</expan></choice> <measure>418</measure></hi>
+
+<lb/>The above is the beginning of the mass of upland
+
+<lb/>which constitutes the Watershed<!-- geog? MW--> between the <placeName><geogName type="river">river
+
+    <lb/>Loangwa</geogName></placeName> of <placeName><settlement type="village">Zumbo</settlement></placeName>, and the <placeName><geogName type="river">Chambeze</geogName></placeName> which
+
+<lb/>forms Lakes <placeName><geogName type="lake">Bemba</geogName></placeName> or <placeName><geogName type="lake">Bangweolo</geogName></placeName>, <placeName><geogName type="lake">Moero</geogName></placeName>, and <add place="below">^</add> <add place="above"><placeName><geogName type="lake">Kirkousa</geogName></placeName></add> <placeName><geogName type="lake">Urenge</geogName></placeName>.
+
+<lb/><note place="marginleft"><hi rend="underline">Note</hi></note> The large difference between Boiling Point, and the
+
+<lb/>Barometer observations, makes me suspect that
+
+<lb/>this is not the briskest ebulition that gives the true
+
+<lb/>height, but ordinary brisk ebullition for this
+
+<lb/><note place="marginleft"><date when="1867-01-12">12<hi rend="sup">th</hi></date></note>morning by blowing up the fire the thermometer
+
+<lb/>shewed 203º.6 - while by Ebullition, not quite so
+
+<lb/>brisk, but more regular, they showed 203º-
+
+<lb/>In country called <placeName><region>Lokumbi</region></placeName>. <placeName><settlement type="village"><choice><abbr>vil</abbr><expan>village</expan></choice> of Chafunga</settlement></placeName>
+
+<lb/>203º = by <persName><choice><abbr>Prof-</abbr><expan>Professor</expan></choice> Burgess</persName>' tables - <measure>4767 Feet</measure>
+
+<lb/>Multiplier for air at 67º<figure><figDesc>calculations to arrive at 5124,525 Feet</figDesc></figure>
+
+<lb/><measure><hi rend= "right double-underline">5124,525</hi> Feet</measure>
+
+<lb/>Barometer 25. m. air 67º = <hi rend="right">4780 Feet</hi><figure><figDesc>Calculations to arrive at 5138,500 Feet</figDesc></figure>
+
+<lb/><measure><hi rend="right">5138,500 Feet</hi></measure>
+
+<lb/><measure><hi rend="right underline">5124</hi></measure>
+
+<lb/>The difference is only <measure><hi rend="right">14</hi> Feet</measure>
+
+<lb/><choice><abbr><hi rend="double-underline">Mem.</hi></abbr><expan>Memorandum</expan></choice> keep this point for enquiry at home</p>
+
+
+		<pb facs="liv_000019_0410.jpg" n="0410"/>
+			    
+<lb/><note place="margintop">404</note>
+
+<lb/><p><note place="marginleft"><date when="1867-01-15">15<hi rend="sup">th</hi> January 1867</date></note> Boiling Point at our station on
+
+<lb/>the mountains, <placeName><geogName type="mountain"><hi rend="underline">Chitane</hi></geogName></placeName>, some call
+
+<lb/>them if we understand them rightly
+
+<lb/><add place="above">or</add><del type="double-strikethough">Mpini</del>? <hi rend="right">3 P.M</hi>
+
+<lb/>Steady Brisk ebullition of a gallon
+
+<lb/>and a half of water in an earthen
+
+<lb/><hi rend="double-underline">p</hi>ot <hi rend="right">202º.6 air 70º</hi>
+
+<lb/><space extent="2" unit="words"/><persName><choice><abbr>Prof</abbr><expan>Professor</expan></choice> Burgess</persName>' Tables - <measure>Feet 4982</measure>
+
+<lb/><figure><figDesc>Calculations to arrive at 5385,542 Fet.</figDesc></figure>
+
+<lb/><hi rend="right"><measure>Feet <hi rend="double-underline">5385,542</hi></measure></hi>
+
+<lb/>Barometer same time &amp; place
+
+<lb/><hi rend="underline">corrected</hi> <hi rend="right">air 7<subst><del>0</del><add place="inline">1</add></subst>º - 24.52 = <measure>5309 feet</measure></hi>
+
+<lb/><figure><figDesc>Calculations to arrive at 5353,0647</figDesc></figure>
+
+<lb/><hi rend="right double-underline"><measure>Feet 5353,0647</measure></hi>
+
+<lb/>Thus by Boiling Point <measure>5385 Feet</measure>
+
+<lb/>By Barometer <measure><hi rend="underline">5353</hi> Feet</measure>
+
+<lb/><space extent="2" unit="words"/>Difference only <measure>32 Feet</measure></p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p><note place="marginleft">Note</note><persName>Cas<del type="strikethrough">s</del>ella</persName>'s apparatus with only an
+
+<lb/>ounce of water in a thin brass cup
+
+<lb/>is, as <persName>Professor Burgess</persName> remarks,
+
+<lb/>incapable of giving accurate
+
+<lb/>results -</p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p>Our encampment was <measure>1150 feet
+
+<lb/>from the highest point of the range<!-- Geog. Chitane or Mpini Mountains? MW --></measure>
+
+<lb/>There the Barometer shewed 23.9
+
+<lb/>== <hi rend="right"><measure>Feet 5959</measure></hi> air 86º
+
+<lb/><note place="marginleft">Note</note> This is the highest point of the range<!-- Geog. Chitane or Mpini Mountains? MW -->
+
+<lb/>which comes between the <placeName><geogName type="valley"><placeName><geogName type="river">Loangwa</geogName></placeName>
+
+<lb/>valley</geogName></placeName> &amp; that of the <placeName><geogName type="river">Chambeze</geogName></placeName> as I <w>erroneous<supplied>-</supplied>
+
+<lb break="no"/>ly</w> <add place="below">^</add><add place="above">imagined</add><!--I couldn't find a way that it would let me both note that this is in the margin and carry over the "ly" from the previous line. MW--> The <placeName><geogName type="river">Zambesi</geogName></placeName> is here called; <placeName><geogName type="river">Zambesi</geogName></placeName> or <add place="above"><gap/></add>
+
+<lb/>rises far to the West of this in <placeName><region>Lunda</region></placeName>.</p>
+
+
+
+			</div>
+		</body>
+    </text>
+</TEI>

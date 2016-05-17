@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019"><!-- Adrian change only -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 1115</idno><!-- Adrian change only -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Journals, 011</idno><!-- Adrian change only -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866 - 5 March 1872</date><!-- Adrian change x2 only -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language><!-- Everyone, add languages as necessary. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-11-29" who="#KS">Proofreading</change>
+                <change when="2015-11-04" who="MW">Initial transcription and XML encoding</change>
+                <change when="2014-05-03" who="#AW">Transcription and XML encoding</change><!-- Everyone, revise and expand as necessary. -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+       	<body>
+			<div>
+
+	<gb/>
+
+	<pb facs="liv_000019_0411" n="0411"/>
+
+<lb/><p><!-- Text goes here --><add place="margintop" hand="#U"><fw n="405">405</fw></add></p>
+
+<lb/><p><note place="marginleft"><date when="1867-04">April <lb/>1867</date></note></p>
+
+<lb/><p rend="no-indent">Level of the <placeName><geogName type="lake">Lake Lemba</geogName></placeName> by boiling point
+
+<lb/>&amp; Barometer over <measure>2800 feet &amp; under 2900
+
+<lb/>feet</measure> but the amount varies - the Barometers
+
+<lb/>make it <measure>over 3000 feet</measure></p>
+
+<lb/><note place="marginleft"><date when="1867-05-02">2<hi rend="sup">d</hi> May</date></note>
+
+<lb/><p rend="no-indent">Level of Lake<!-- geog:Lake Lemba--> Barometer <choice><orig>shews</orig><reg>shows</reg></choice> 6 AM 26.96 = 74˚
+
+<lb/>= <measure>2859 feet</measure>
+
+<lb/><space extent="1" unit="words"/>At 9 AM <hi rend="right">27.05=78˚</hi>
+
+<lb/>= <measure>2700 feet</measure>
+
+<lb/><space extent="1" unit="words"/>At 3 PM <hi rend="right">27.0 = <gap extent="2" unit="chars" agent="blot"/></hi>
+
+<lb/>Top of overhanging ridge at 9 AM <measure>25.22 =</measure>
+
+<lb/><choice><abbr>Temp.</abbr><expan>Temperature</expan></choice> of Lake<!-- geog: Lake Lemba --> at 7 AM <hi rend="right">77˚</hi>
+
+<lb/><space extent="3" unit="words"/>at 3 PM <hi rend="right">85</hi></p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p><placeName><settlement type="village"><persName>Chitimba</persName>'s village</settlement></placeName> or <placeName><geogName type="rivulet">Rivulet Chiloa</geogName></placeName>
+
+<lb/><date when="1867-05-22">22 May 1867</date> <hi rend="right"><choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 8˚ 58'</hi>
+
+<lb/>By Boiling Point <hi rend="right"><choice><abbr>Long</abbr><expan>Longitude</expan></choice> 31˚ 30' <choice><abbr>E</abbr><expan>East</expan></choice></hi>
+
+<lb/>204˚ - air 70˚ <measure>Feet 4610</measure> -
+
+<lb/>Aneroids 25.08. <measure>Feet 4712</measure> <space extent="1" unit="words"/>9 AM -
+
+<lb/><space extent="3" unit="words"/> 102 x</p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p rend="no-indent"><placeName><geogName type="ford">Ford of Lofu</geogName></placeName> - <placeName><settlement type="village"><persName>Chungu</persName>'s village</settlement></placeName> <hi rend="right">8˚ 55 <choice><abbr>Lat</abbr><expan>Latitude</expan></choice></hi>
+
+<lb/>Aneroids 26.00 air 81˚ 3 PM - <date when="1867-09-02">2 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice></date>
+
+<lb/><hi rend="center"><measure>Feet 4137</measure>.</hi></p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p rend="no-indent">Hara, <date when="1867-09-08">8 <choice><abbr>Sept.</abbr><expan>September</expan></choice> 1867</date> <choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 8˚ 55 <choice><abbr>S.</abbr><expan>South</expan></choice> <choice><abbr>Long</abbr><expan>Longitude</expan></choice> 29˚ 27' <choice><abbr>E.</abbr><expan>East</expan></choice>
+
+<lb/>9 AM air 70˚ = 26.30 = <measure>Feet 3730</measure>.</p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p><placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice> Chisera</geogName></placeName> <date when="1867-09-28">28<hi rend="sup underline">th</hi> <choice><abbr>Sept.</abbr><expan>September</expan></choice></date> 9 A.M.
+
+<lb/><space extent="2" unit="words"/>Aneroids 26.44 = air 77˚
+
+<lb/><hi rend="center"><measure>Feet 3398</measure></hi></p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p rend="no-indent">Lopere - <placeName><geogName type="rivulet">Kamosenga <choice><abbr>Rt.</abbr><expan>Rivulet</expan></choice></geogName></placeName> <placeName><settlement type="village">Kamungu</settlement>'s <choice><abbr>vil</abbr><expan>village</expan></choice></placeName>
+
+<lb/><date when="1867-10-05">5<hi rend="sup underline">th</hi> <choice><abbr>Oct.</abbr><expan>October</expan></choice></date> Boiling <choice><abbr>Pt</abbr><expan>Point</expan></choice> 206˚ air 75 <measure><choice><abbr>ft</abbr><expan>feet</expan></choice> 3449</measure>
+
+<lb/>Bar same time 26.26 = <hi rend="right"><measure>3828</measure></hi>
+
+<lb/><hi rend="right"><measure>379</measure>x</hi></p>
+
+	<pb facs="liv_000019_0412" n="0412"/>
+
+<lb/><p><add place="margintop" hand="#U"><fw n="406">406</fw></add></p>
+
+<lb/><p><add place="margintop">same <choice><abbr>obs<hi rend="sup underline">ns</hi></abbr><expan>observations</expan></choice></add> Repeated</p>
+
+<lb/><p><note place="marginleft"><date when="1867-05-22">22 May<lb/>1867</date></note></p>
+
+<lb/><p><placeName><settlement type="village">village of <persName>Chitimba</persName></settlement></placeName> <placeName><geogName type="rivulet">Rivulet Chiloa</geogName></placeName>
+
+<lb/>Ulungu Boiling point 204˚ <choice><abbr>Temp.</abbr><expan>Temperature</expan></choice> - 70 - 9 AM
+
+<lb/><measure>Feet - 4558 of Altitude</measure>
+
+<lb/><hi rend="center">Aneroids' 25.08 air 70˚</hi>
+
+<lb/><hi rend="center">2 25.29</hi>
+
+<lb/><hi rend="center">3 25.76 = <measure>4790 feet</measure></hi>
+
+<lb/><hi rend="right"><measure>4558</measure></hi>
+
+<lb/><hi rend="right"><measure>2222 <choice><abbr>Diff</abbr><expan>Difference</expan></choice></measure></hi>
+
+    <lb/><hi rend="right">2)‾<!-- Note sure how to make the long division symbol. MW--><!-- right bracket and overline? ks -->9338</hi>
+
+<lb/><hi rend="right">Mean Height <measure>4669</measure></hi></p>
+
+<lb/><p rend="no-indent">observation repeated
+
+<lb/><note place="marginleft"><date when="1867-10-05">5<hi rend="sup underline">th</hi> <choice><abbr>Oct</abbr><expan>October</expan></choice></date></note> <placeName><settlement type="village"><persName>Kurungu</persName>'s <choice><abbr>vil.</abbr><expan>village</expan></choice></settlement></placeName> on <placeName><geogName type="river">Kamosenga <choice><abbr>Rt-</abbr><expan>River</expan></choice></geogName></placeName> <placeName><region><hi rend="double-underline">Lopere</hi></region></placeName>
+
+<lb/>9 AM 206˚ = <measure>3449 feet</measure>
+
+<lb/>Aneroids 26.60 = 350<subst><del>9</del><add place="inline">1</add></subst>
+
+<lb/><hi rend="right"><measure>52 <choice><abbr>Diff.</abbr><expan>Difference</expan></choice></measure></hi>
+
+    <lb/><hi rend="right">2)‾<!-- Not sure how to make the long division symbol. MW-->6958</hi>
+
+<lb/><hi rend="right"><measure>Mean Heigh = 3479</measure></hi></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-11-08">8<hi rend="sup">th</hi> <choice><abbr>Nov</abbr><expan>November</expan></choice></date></note> <placeName><geogName type="lake">Lake Moero</geogName></placeName> 3 PM 30 feet above water
+
+<lb/>Boiling point 207˚ 81 = <measure>2900 feet</measure>
+
+<lb/>Aneroids - 26.6 == 78˚ = 3120
+
+<lb/><hi rend="right">220 x</hi>
+
+    <lb/><hi rend="right">2)‾<!-- Long division. MW-->6020</hi>
+
+<lb/><hi rend="right">Mean = <measure>3010 feet</measure></hi>
+    
+    <lb/><note place="marginleft"><date when="1867-12-06">6<hi rend="sup underline">th</hi> <choice><abbr>Dec</abbr><expan>December</expan></choice></date></note> 9 AM <placeName><geogName type="lakelet">Mofwe</geogName></placeName> - <placeName><settlement type="town"><persName>Casembe</persName>'s town</settlement></placeName> by lakelet<!-- geog: lakelet mofwe -->
+    <lb/>Boiling point 206˚ 8 - 76˚ = <measure>2990 feet</measure>
+    <lb/>Aneroids <hi rend="right">3153
+    <lb/><hi rend="double-underline">163ϰ</hi>
+        <lb/>2)‾6143
+    <lb/><measure>Mean Height 3071 feet</measure></hi>
+
+    <lb/><note place="marginleft"><date when="1868-01-21">21<hi rend="sup">st</hi><lb/>January<lb/>1868</date></note> <placeName><settlement type="village">Buire <add place="below">^</add> <add place="above">or Kabuire</add> <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> <placeName><settlement type="village">Kab<add place="below">^</add><add place="above">w</add>abwata</settlement></placeName> 10 AM
+
+<lb/>Boiling Point 206˚ 6. 78˚ = <measure>3118 feet</measure>
+
+<lb/>Aneroids - 25.36 - 78 <figure><figDesc>On the right-hand side of the page Livingstone includes calculations for height.</figDesc></figure></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-01-31">31<hi rend="sup underline">st</hi> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></note> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Boiling Point 206˚.4 - 3 = 74˚ = 9.30 AM
+
+<lb/>Barometers corrected 2654 = 74˚ 9.30</p>
+
+
+
+	<pb facs="liv_000019_0413" n="0413"/>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-04-04">1867.<lb/>April 4<hi rend="sup">th</hi></date></note> Average of Altitudes observed at <placeName><geogName type="lake">Lake Liemba</geogName></placeName>
+
+<lb/>Barometers (Aneroid) 6 AM air 75˚ <measure>Feet 3013</measure> - 27.50</p>
+
+<lb/><p><note place="marginleft"><date when="1867-04-04">4<hi rend="sup">th</hi></date></note><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice><space extent="1" unit="words"/> <choice><abbr>corr.</abbr><expan>corrected</expan></choice> 26.97 9 AM - 75˚ -- <measure>3063</measure></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-04-04">4<hi rend="sup">th</hi></date></note>Boiling Point - 207˚ 9 <add place="below">^</add><add place="above">30</add>AM - <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice>82˚ -- <measure>2906</measure></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-04-04">4<hi rend="sup">th</hi></date></note>Barometers <choice><abbr>corr<hi rend="sup">d</hi></abbr><expan>corrected</expan></choice> 26.96 3 PM - 82˚ -- <measure>3105</measure></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-04-13">13<hi rend="sup underline">th</hi></date></note> Barometers<choice><abbr>corr<hi rend="sup">d</hi></abbr><expan>corrected</expan></choice> 27.11 9 AM - 77˚ -- <measure>2917</measure></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-04-13"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></note> Boiling Point mean 206.8 9 AM - 78˚ -- <measure>3001</measure></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-04-13">13<hi rend="sup">th</hi></date></note>Boiling Point 207˚.3 3 PM - 83˚ -- <measure>2737</measure></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-04-20">20<hi rend="sup">th</hi></date></note> Barometers (27.15) <choice><abbr>corr.</abbr><expan>corrected</expan></choice> 3 PM 83˚ -- <measure>2898</measure></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-04-20"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></note> Boiling point 207˚.6 9 AM 83˚ -- <measure>2561</measure></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-05-03">3 May</date></note> Boiling point 207.5 9 AM 80˚ -- <measure>2603</measure></p>
+
+			    <lb/><p rend="no-indent">Barometer (<placeName><settlement type="village">Pambete</settlement></placeName>) 27.06 9 AM 76˚ -- <measure>2965</measure></p>
+
+<lb/><p rend="right">10)‾<!--Long division symbol? MW-->31808</p>
+
+<lb/><p rend="right">2882 Mean <measure><hi rend="double-underline">2882</hi></measure></p>
+
+
+		<pb facs="liv_000019_0414" n="0414"/>
+
+<lb/><p><add place="margintop" hand="#U"><fw n="408">408</fw></add></p>
+
+<lb/><p><note place="marginleft"><date when="1868-04-18">1868 <lb/>April <lb/>18<hi rend="sup">th</hi></date></note> <placeName><geogName type="lake">Lake  Moero</geogName></placeName> <date when="1868-04-18">18<hi rend="sup underline">th</hi> April 1868</date> about <measure>30 feet above water</measure>
+
+<lb/><choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> <choice><abbr>N˚</abbr><expan>Number</expan></choice> 1. 3. PM <figure><figDesc>Several sets of calculations on the right hand side of the page.</figDesc></figure>
+
+<lb/>Boiling Point 3 - PM.</p>
+			    
+<lb/><milestone unit="section" rend="half-line"/>
+
+<lb/><p><note place="marginleft"><date when="1868-04-19">19<hi rend="sup underline">th</hi></date></note> <choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> at 9. AM
+
+<lb/>Boiling <choice><abbr>Pt.</abbr><expan>Point</expan></choice> 9. AM.</p>
+
+<lb/><milestone unit="section" rend="half-line"/>
+
+<lb/><p><note place="marginleft"><date when="1868-04-19">19<hi rend="sup underline">th</hi></date></note> <choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> Noon - 26.60 = 81˚
+
+<lb/><choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> 3 PM 26.55 = 83˚
+
+<lb/><note place="marginleft"><date when="1868-04-20">20<hi rend="sup">th</hi></date></note><choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> 6 AM. 26.52 = 70 
+
+<lb/><figure><figDesc>Calculations.</figDesc></figure></p>
+
+<lb/><milestone unit="section" rend="half-line"/>
+
+<lb/><p><note place="marginleft"><date when="1868-10-19">October <lb/>19<hi rend="sup underline">th</hi> <lb/>1868</date></note> <placeName><geogName type="lake">Moero</geogName></placeName> - 4 <hi rend="sup"><choice><abbr>h</abbr><expan>hours</expan></choice></hi> PM. Boiling Point 206˚ 1 = 85˚ = Lake<!-- geog: Lake Moero --> Water
+
+<lb/> -- 5<hi rend="sup"><choice><abbr>h</abbr><expan>hours</expan></choice></hi> = 40 <hi rend="sup"><choice><abbr>m</abbr><expan>minutes</expan></choice></hi> PM <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 206˚ 2 = 79˚ 82˚
+
+<lb/><choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> 4 PM
+
+<lb/>5 - 40 PM</p>
+
+<lb/><p><note place="marginleft"><date when="1868-10-20">20<hi rend="sup">th</hi></date></note> 6 AM - 
+
+<lb/>26.49 - 82˚ =<figure><figDesc>Calculations to figure out Height By Barometer</figDesc></figure>
+
+<lb/>Height by Barometer</p>
+
+<lb/><milestone unit="section" rend="half-line"/>
+
+<lb/><p><note place="marginleft"><date when="1868-04-19">19<hi rend="sup underline">th</hi> April</date></note> <choice><abbr>Bar.</abbr><expan>Barometer</expan></choice><figure><figDesc>Calculations for height of Lake Moero.</figDesc></figure></p>
+
+<lb/><p><note place="marginleft"><date when="1868-04-19"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></note> Boiling <choice><abbr>pt</abbr><expan>point</expan></choice></p>
+
+<lb/><p><note place="marginleft"><date from="1868-04-19" to="1868-04-20">19<hi rend="sup underline">th</hi> &amp; 20</date></note> <choice><abbr>Bar.</abbr><expan>Barometer</expan></choice></p>
+
+
+<lb/><p><note place="marginleft"><date when="1868-10-19">October 19<hi rend="sup underline">th</hi></date></note> Barometer</p>
+
+<lb/><p><note place="marginleft"> - </note> - Boiling <choice><abbr>pt</abbr><expan>point</expan></choice>
+
+<lb/>By <choice><abbr>Bar</abbr><expan>Barometer</expan></choice> &amp;  <choice><abbr>Boil</abbr><expan>Boiling</expan></choice> <choice><abbr>pt</abbr><expan>point</expan></choice> Height of <placeName><geogName type="lake">Moero</geogName></placeName></p>
+
+
+		<pb facs="liv_000019_0415" n="0415"/>
+
+<lb/><p><add place="margintop" hand="#U"><fw n="409">409</fw></add></p>
+
+<lb/><p><placeName><settlement type="village">Town of <persName>Cazembe</persName></settlement></placeName> on the Nor East bank of <placeName><geogName type="lakelet">Mofwe</geogName></placeName>
+
+<lb/>and <measure>50 or 8o feet above the Lakelet</measure> - <date when="1868-05-06">6<hi rend="sup underline">th</hi> May 1868</date></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-07-06">6<hi rend="sup underline">th</hi></date></note> <choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> 3 PM. <figure><figDesc>Calculations on right-hand side of the page.</figDesc></figure></p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-07-07">7<hi rend="sup underline">th</hi></date></note> <choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> 3 PM.</p>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-07-08">8<hi rend="sup underline">th</hi></date></note> <choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> 9 AM.</p>
+
+			    <lb/><p rend="no-indent"><note place="marginleft"><date when="1868-07-08">--</date></note> <choice><abbr>Bar</abbr><expan>Barometer</expan></choice> - 3 - PM.
+
+<lb/><figure><figDesc>Calculations in two columns.</figDesc></figure>
+
+<lb/>Differing from <placeName><geogName type="lake">Moero</geogName></placeName> on <measure>3 feet</measure>.</p>
+
+<lb/><milestone unit="section" rend="double-line"/>
+
+<lb/><p rend="no-indent"><placeName><settlement type="village">Kabwabwata</settlement></placeName> in <placeName><settlement type="region">Kabuire</settlement></placeName>
+
+<lb/><note place="marginleft"><date when="1868-11-01">1<hi rend="sup underline">st</hi><choice><abbr>Nov</abbr><expan>November</expan></choice></date></note> Barometer corrected 26.38 = 86˚ 3 PM <measure>Feet 3733</measure>
+
+<lb/><note place="marginleft"><date when="1868-11-05">5<hi rend="sup underline">th</hi></date></note> --<space extent="1" unit="words"/> -- 26.55 = 83˚ 9 AM <measure>Feet 3547</measure>
+
+<lb/><note place="marginleft"><date when="1868-11-06">6<hi rend="sup underline">th</hi></date></note> --<space extent="1" unit="words"/> -- 26.48 = 87˚ Noon - <measure>Feet 3629</measure>
+
+    <lb/><note place="marginleft"><date when="1868-11-08">8<hi rend="sup underline">th</hi></date></note> --<space extent="1" unit="words"/> -- 26.46 = 85˚ 6 PM - <measure><hi rend="underline">Feet 3612</hi></measure>
+
+<lb/><hi rend="center">Mean -</hi><measure><hi rend="right double-underline">- feet 3630</hi></measure>
+
+<lb/><note place="marginleft"><date when="1868-11-05">5<hi rend="sup underline">th</hi></date></note> Boiling Point 206˚-4 = 83˚ 9 AM <measure>Feet 3267</measure>
+
+<lb/><note place="marginleft"><date when="1868-11-05"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></note> --<space extent="1" unit="words"/> -- 206˚2 = 85˚ Noon <measure>Feet 3102</measure>
+
+<lb/><note place="marginleft"><date when="1868-11-08">8<hi rend="sup underline">th</hi></date></note> --<space extent="1" unit="words"/> -- 206˚2 = 85˚ 6 PM <measure>Feet 3397</measure>
+
+<lb/><choice><abbr>Diff.</abbr><expan>Difference</expan></choice> <choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> - .9 Boiling <choice><abbr>pt</abbr><expan>point</expan></choice> <measure>375 feet</measure> Mean - <measure><hi rend="right underline">3255</hi></measure>
+
+<lb/> Mean of <choice><abbr>Bar</abbr><expan>Barometer</expan></choice> &amp; Boiling <choice><abbr>pt.</abbr><expan>point</expan></choice> <measure><hi rend="right double-underline">Feet 3442</hi></measure>.</p>
+
+
+		<pb facs="liv_000019_0416" n="0416"/>
+
+<lb/><p><add place="margintop" hand="#U"><fw n="410">410</fw></add></p>
+			    
+<lb/><p><note place="marginleft"><date when="1868-07-19">19<hi rend="sup underline">th</hi> <lb/>July <lb/>1868</date></note> <placeName><geogName type="lake">Lake Bangweolo</geogName></placeName> - water level -
+
+<lb/><choice><abbr>Bar</abbr><expan>Barometer</expan></choice> at Noon. <hi rend="right">25.95 - = 70˚</hi>
+
+<lb/><choice><abbr>Bar</abbr><expan>Barometer</expan></choice> 3 PM - <hi rend="right">25.90 = 71˚</hi>
+
+<lb/><choice><abbr>Bar</abbr><expan>Barometer</expan></choice> 6 PM - <hi rend="right">25.85 = 63˚</hi></p>
+
+<lb/><p><note place="marginleft"><date when="1868-07-20">20<hi rend="sup underline">th</hi></date></note><choice><abbr>Bar</abbr><expan>Barometer</expan></choice> 9 AM <hi rend="right">25.90 - = 66˚</hi>
+
+<lb/><choice><abbr>Bar</abbr><expan>Barometer</expan></choice> 3 PM <hi rend="right">25.85 72</hi></p>
+
+<lb/><p><note place="marginleft"><date when="1868-07-23">23<hi rend="sup underline">d</hi></date></note><choice><abbr>Bar</abbr><expan>Barometer</expan></choice> 9 AM <hi rend="right">26.00 high wind <add place="above">66˚</add></hi>
+
+<lb/><choice><abbr>Bar</abbr><expan>Barometer</expan></choice> 3 PM <hi rend="right">25.95 == 70˚</hi>
+
+<lb/><figure><figDesc>Calculations for height</figDesc></figure></p>
+
+<lb/><milestone unit="section" rend="half-line"/>
+
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-07-20">July<lb/>20<hi rend="sup underline">th</hi></date></note> Boiling Point at 9 AM - 205˚.4 = 66˚
+
+<lb/>--<space extent="1" unit="words"/> - 3 PM - 205˚.6 = 72˚
+
+<lb/><figure><figDesc>Calculations for height of lake.</figDesc></figure>
+
+<lb/>Difference 450 ==== <measure>3923 mean height of lake<!-- geog: Lake Bangweolo--></measure></p>
+
+			
+		<pb facs="liv_000019_0417" n="0417"/>
+
+<lb/><p><add place="margintop" hand="#U"><fw n="411">411</fw></add></p>
+
+
+		<pb facs="liv_000019_0418" n="0418"/>
+
+<lb/><p><add place="margintop" hand="#U"><fw n="412">412</fw></add></p>
+
+
+		<pb facs="liv_000019_0419" n="0419"/>
+
+<lb/><p><add place="margintop" hand="#U"><fw n="413">413</fw></add></p>
+
+		<pb facs="liv_000019_0420" n="0420"/>
+
+<lb/><p><add place="margintop" hand="#U"><fw n="414">414</fw></add></p>
+
+
+		<pb facs="liv_000019_0421" n="0421"/>
+
+<lb/><p><add place="margintop" hand="#U"><fw n="415">415</fw></add></p>
+
+
+
+
+
+
+
+
+			</div>
+		</body>
+    </text>
+</TEI>

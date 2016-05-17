@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019"><!-- Adrian change only -->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+<author>David Livingstone</author>
+<principal>Adrian S. Wisnicki</principal>
+<principal>Christopher Lawrence</principal>
+<respStmt xml:id="AW">
+<name>Adrian S. Wisnicki</name>
+<resp>Transcription</resp>
+<resp>TEI Encoding</resp>
+<resp>Editorial Decisions</resp>
+<resp>Proofing</resp>
+<resp>Encoding Review</resp>
+</respStmt>
+<respStmt xml:id="CL">
+<name>Christopher Lawrence</name>
+<resp>Final proofing</resp>
+</respStmt>
+<respStmt xml:id="MW">
+<name>Megan Ward</name>
+<resp>Transcription</resp>
+<resp>TEI Encoding</resp>
+<resp>Editorial Decisions</resp>
+<resp>Proofing</resp>
+</respStmt>
+<respStmt xml:id="HB">
+<name>Heather F. Ball</name>
+<resp>Transcription</resp>
+<resp>TEI Encoding</resp>
+<resp>Editorial Decisions</resp>
+<resp>Proofing</resp>
+<resp>Quality Control and Integration</resp>
+</respStmt>
+<respStmt xml:id="KS">
+<name>Kate Simpson</name>
+<resp>Transcription</resp>
+<resp>TEI Encoding</resp>
+<resp>Editorial Decisions</resp>
+<resp>Proofing</resp>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<authority>Livingstone Online</authority>
+<publisher>UCLA Digital Library</publisher>
+<pubPlace>Los Angeles, CA, USA</pubPlace>
+<date>2014</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+    All materials are licensed for use under the 
+    <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+        Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+    (c) Dr. Neil Imray Livingstone Wilson, 2014
+</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+    <country>United Kingdom</country>
+    <settlement>Blantyre</settlement>
+    <repository>David Livingstone Centre</repository>
+    <idno type="shelfmark">Cat 1115</idno><!-- Adrian change only -->
+    <altIdentifier>
+        <idno type="ccnumber">Journals, 011</idno><!-- Adrian change only -->
+    </altIdentifier>
+</msIdentifier>
+<physDesc>
+    <handDesc>
+        <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+            but thought not David Livingstone's.</handNote>
+    </handDesc>
+</physDesc>
+</msDesc>
+<bibl type="sourceMetadata">
+<title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+<author xml:id="DL">David Livingstone</author>
+<date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866 - 5 March 1872</date><!-- Adrian change x2 only -->
+</bibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="en">English</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change when="2016-03-30" who="#KS">Proofreading</change>
+<change when="2016-02-01" who="#HB">Transcription and TEI Encoding</change>
+</revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div>
+
+<gb/>
+
+<pb facs="liv_000019_0758" n="0758"/>
+<lb/><fw n="758"><add place="margintop" rend="gray left" hand="#U">758</add></fw>
+<lb/><p>Despatch <choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 4 to <persName>Earl Granville</persName> <seg rend="right"><date when="1871-10"><hi rend="double-underline">October</hi></date></seg> <!-- Adrian, should the name of the recipient be in the bibl tag? HB --><!-- Also, I am unsure of the year at the moment so only dating it based on next line's date of the Despatch. HB --><!-- from the previous section I had the year as 1868 but the despatches are 1871, ks -->
+<lb/>dated <placeName><settlement type="town">Ujiji</settlement></placeName> <date when="1871-12-18">18 December 1871</date> <seg rend="right"><date from="1871-10-17" to="1871-10-21">17-18-21-</date></seg>
+<lb/><choice><abbr>P.S</abbr><expan>Post Script</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> ask for vaccine virus <seg rend="right"><unclear cert="low"><date when="1871-10-21">21</date></unclear></seg><!-- really unsure about the date, on the previous page I was heading towards the end of september 1868, but i wiz so confused as to the correct year i'm disinclined to arbitrarily change all your dates :-) ks --><!-- changed my mind am changing your dates :-)-->
+<lb/><bibl>Journal</bibl> continued - from <date when="1871-09-17">17<hi rend="sup">th</hi> <choice><abbr>Sept.</abbr><expan>September</expan></choice></date> <seg rend="right"><date when="1871-10-21">21</date></seg> <!-- Again, check the year's on this once integrated. HB -->
+<lb/>Clearances of forest - <term type="animal">Parrots</term> nest <seg rend="right"><date when="1871-10-21">—</date></seg>
+<lb/>and <term type="plant">Binayoba</term> huts on lofty trees <seg rend="right"><date when="1871-10-21">—</date></seg>
+<lb/>Leave <placeName><settlement type="town">Bambarre</settlement></placeName> and go Due North <seg rend="right"><date when="1871-10-21">—</date></seg>
+<lb/>cross <placeName><geogName type="river">Luamo</geogName></placeName> - a loving couple <seg rend="right"><date when="1871-10-21">—</date></seg></p>
+<lb/><p><term type="animal">Elephant</term> traps in Forest - <seg rend="right"><date when="1871-10-22">22</date></seg></p>
+<lb/><p>Man supposed to have been eaten - <seg rend="right"><date when="1871-10-23">23</date></seg></p>
+<lb/><p><seg type="weather">Frequent drenchings by rains &amp; dew</seg> <seg rend="right"><date when="1871-10-21">—</date></seg>
+<lb/>uproarious villagers - dense forest <seg rend="right"><date when="1871-10-21">—</date></seg>
+<lb/>the <placeName><geogName><choice><abbr>R</abbr><expan>River</expan></choice> Lolinde</geogName></placeName> - <term type="plant"><foreign xml:lang="und">Muale</foreign> palm</term> <seg rend="right"><date when="1871-10-23">—</date></seg>
+<lb/><foreign xml:lang="und"><term type="plant">Tikatika</term></foreign> or <foreign xml:lang="und"><term type="plant">Kintefwetefwe</term></foreign> a living <seg rend="right"><date when="1871-10-23">—</date></seg>
+<lb/><term type="plant_foodstuff">vegetable</term> bridge - <term type="ailment">Choleraic</term> symptoms <seg rend="right"><date when="1871-10-23">—</date></seg></p>
+<lb/><p><term type="ailment">Leprous</term> hands but a kind heart <seg rend="right"><date when="1871-10-24">24.</date></seg></p>
+<lb/><p>Turn <choice><abbr>S.W.</abbr><expan>South West</expan></choice> caught in the <seg type="weather">rain</seg> a <term type="animal">tree frog</term> <seg rend="right"><date when="1871-10-25">25.</date></seg>
+<lb/>very musical - Went to <placeName><settlement type="village">Mamohela</settlement></placeName> <seg rend="right"><date when="1871-10-25">—</date></seg> <!-- Not sure what Mamohela is as Katomba's camp...village? region? Left as just placeName for now. HB --><!-- and i went for village :-) -->
+<lb/><persName>Katomba</persName>'s camp - <term type="tribe"><unclear cert="medium">Wachogone</unclear> tribe</term><!-- He's misspelt the tribe, Wachiogoné and only mentions them in 1870, ks --> <seg rend="right"><date when="1871-10-25">—</date></seg>
+<lb/><seg type="weather">Simoom</seg> in <placeName><country>Oman</country></placeName> - three tusked <seg rend="right"><date when="1871-10-25">—</date></seg> <!-- I'm pretty sure the second reading is the correct one, but wanted to cover it as a name in case the "in" was supposed to be "im" or part of a name - feel free to delete if we're certain it's the country :) HB --><!-- Its a wind dearest (muppet!), ks -->
+<lb/><term type="animal">elephant</term> killed - 40 <term type="tribe">Manyema</term> <seg rend="right"><date when="1871-10-25">—</date></seg>
+<lb/>killed for one string of beads - <seg rend="right"><date when="1871-10-26">26</date></seg></p>
+<lb/><p><orgName><placeName><settlement type="city">Nassick</settlement></placeName> pupils</orgName> refuse all work <seg rend="right"><date when="1871-10-27">27</date></seg>
+<lb/>Depart <choice><abbr>NW</abbr><expan>Northwest</expan></choice> with 3 <term type="occupation">attendants</term> only <seg rend="right"><date when="1871-10-27">—</date></seg>
+<lb/><term type="insect">Driver ants</term> - <term type="occupation">Trader</term> assassinated <seg rend="right"><date when="1871-10-27">—</date></seg>
+<lb/>by night - <choice><orig>shewed</orig><corr>showed</corr></choice> reaction against <seg rend="right"><date when="1871-10-27">—</date></seg>
+<lb/>the bloody <orgName>Ujijians</orgName><!-- I've been marking the Ujijians as tribe, oops the previous section will be wrong then, ks --> <orgName>slaving</orgName> - the <seg rend="right"><date when="1871-10-27">—</date></seg>
+<lb/><placeName><geogName type="river">Lualaba</geogName></placeName> not in the <placeName><region><choice><abbr>N.W.</abbr><expan>North West</expan></choice></region></placeName> feet <seg rend="right"><date when="1871-10-27">—</date></seg>
+<lb/>torn and bleeding <term type="ailment">intractable sores</term> <seg rend="right"><date when="1871-10-27">—</date></seg>
+<lb/><orgName><term type="faith">Christian</term> boys</orgName> from <placeName><settlement type="city">Nassick</settlement></placeName> <seg rend="right"><date when="1871-10-27">—</date></seg>
+<lb/>school eager <term type="occupation"><orgName>slave</orgName> hunters</term> if not <seg rend="right"><date when="1871-10-27">—</date></seg>
+<lb/>in danger - Characters given to <seg rend="right"><date when="1871-10-27">—</date></seg>
+<lb/>them by masters a public fraud <seg rend="right"><date when="1871-10-28">28</date></seg></p>
+<lb/><p>Back to <placeName><settlement type="town">Bambarre</settlement></placeName> - <term type="ailment">Irritable <seg rend="right"><date when="1871-10-28">—</date></seg>
+<lb/>eating ulcers</term> - <foreign xml:lang="und"><term type="ailment">Safura</term></foreign> or <seg rend="right"><date when="1871-10-29">29.</date></seg>
+<lb/><unclear cert="medium"><term type="ailment">earth eating</term></unclear> a disease <hi rend="underline">per se</hi> <seg rend="right"><date when="1871-10-29">—</date></seg></p>
+<lb/><p>Deaths from broken hearts <seg rend="right"><date when="1871-10-29">—</date></seg>
+<lb/>a strange complaint! <seg rend="right"><date when="1871-10">October</date></seg></p>
+
+
+<pb facs="liv_000019_0759" n="0759"/>
+<lb/><fw n="759"><add place="margintop" rend="gray right" hand="#U">759</add></fw>
+<lb/><p><date when="1871">1871</date> <orgName>slaves</orgName> of <orgName>Banians</orgName> arrive after <seg rend="right"><date when="1871-10"><hi rend="double-underline">October</hi></date></seg>
+<lb/>sixteen months rioting on my goods
+<lb/>and at once mutiny - free swearing <seg rend="right"><date when="1871-10-30">30.</date></seg>
+<lb/><term type="occupation">Headmen</term> remain at <placeName><settlement type="town">Ujiji</settlement></placeName> - <orgName>Banian</orgName> <seg rend="right"><date when="1871-10-31">31</date></seg>
+<lb/>hatred of my presence &amp; disclosures <seg rend="right"><date when="1871-10-31">—</date></seg>
+<lb/>of their <orgName>slaving</orgName> equal to that of <orgName>Arabs</orgName> <seg rend="right"><date when="1871-10-31">—</date></seg>
+<lb/>but they use low cunning &amp; lying <seg rend="right"><date when="1871-10-31">—</date></seg>
+<lb/>North to <placeName><geogName type="river">Luamo</geogName></placeName> again with <orgName>slaves</orgName> <seg rend="right"><date when="1871-10-31">—</date></seg>
+<lb/><choice><sic>Recieve</sic><corr>Receive</corr></choice> a young <foreign xml:lang="und"><term type="animal">soko</term></foreign> at <placeName><settlement type="village">Mamohela</settlement></placeName> <seg rend="right"><date when="1871-10-31">—</date></seg>
+<lb/>the least mischievous of all <term type="animal">monkeys</term> <seg rend="right"><date when="1871-10-31">—</date></seg>
+<lb/>very ugly - but have good characters <seg rend="right"><date when="1871-10-31">—</date></seg></p>
+<lb/><p><bibl>Private Memoranda</bibl> - <persName>Prince Albert</persName> <seg rend="right"><date when="1871-11"><hi rend="double-underline">November</hi></date></seg>
+<lb/>the <term type="nationality">Portuguese</term> rights tenderly cared for <seg rend="right"><date when="1871-11-01">1</date></seg>
+<lb/>the <orgName>native</orgName> rights ignored - contrast <seg rend="right"><date when="1871-11-02">2</date></seg>
+<lb/>presented by good <persName>Lord Palmerston</persName> <seg rend="right"><date when="1871-11-02">—</date></seg></p>
+<lb/><p><bibl>Private <choice><abbr>Mem.</abbr><expan>Memorandum</expan></choice></bibl> : <persName>John Moffat</persName> <seg rend="right"><date when="1871-11-03">3</date></seg>
+<lb/>a mistake - <term type="occupation">missionaries</term> but <seg rend="right"><date when="1871-11-03">—</date></seg>
+<lb/>men and not always very honest ones <seg rend="right"><date when="1871-11-03">—</date></seg></p>
+<lb/><p><bibl>Private <choice><abbr>Mem.</abbr><expan>Memorandum</expan></choice></bibl> of two <orgName><term type="tribe">Makololo</term></orgName> <seg rend="right"><date when="1871-11-04">4</date></seg>
+<lb/><orgName><term type="occupation">missionaries</term></orgName> <persName>Helmore</persName> &amp; <persName>Price</persName> <seg rend="right"><date when="1871-11-04">—</date></seg> <!-- I couldn't split the orgName tag encapsulating Makololo missionaries, so put as two separate ones til a better plan devised. HB -->
+<lb/>one a good man the other a born fool <seg rend="right"><date when="1871-11-04">—</date></seg>
+<lb/><bibl>Private <choice><abbr>Mem.</abbr><expan>Memorandum</expan></choice></bibl> <persName>Thomas Baines</persName> <seg rend="right"><date when="1871-11-04">—</date></seg>
+<lb/>a <term type="occupation">thief</term> and moral idiot <term type="occupation">artist</term> <seg rend="right"><date when="1871-11-04">—</date></seg> <!-- Not sure if artist and thief warrant occupation tags in this humorous little tidbit :) HB --><!-- technically they are occupations :-) -->
+<lb/>whose paintings are all caricatures <seg rend="right"><date when="1871-11-05">5.</date></seg></p>
+<lb/><p><persName><term type="occupation">Mayor</term> Sicard</persName> - 24 boxes of <term type="animal"><term type="foodstuff">sardines</term></term>
+<lb/>he pocketed a very small matter! <seg rend="right"><date when="1871-11-06">6.</date></seg></p>
+<lb/><p>Forgery - a wise one sided <term type="occupation">Attorney <choice><abbr>Gen<hi rend="sup">l</hi></abbr><expan>General</expan></choice></term> <seg rend="right"><date when="1871-11-06">—</date></seg> <!-- Again, I cannot cross items with the persName tag, so putting around both words for now. HB -->
+<lb/><persName>Baines</persName> bamboozles the <placeName><region>Cape</region></placeName> people <seg rend="right"><date when="1871-11-07">7</date></seg>
+<lb/>and was helped to go to <placeName><geogName type="falls"><persName>Victoria</persName> falls</geogName></placeName> <seg rend="right"><date when="1871-11-07">—</date></seg>
+<lb/><placeName><geogName type="cape">Cape</geogName></placeName> Paper vituperation like <seg rend="right"><date when="1871-11-08">8</date></seg> <!-- Not sure if this is a specific cape name, and if it's in fact Paper? HB -->
+<lb/>blowing Penny trumpets <seg rend="right"><date when="1871-11-08">—</date></seg></p>
+<lb/><p><bibl>Private <choice><abbr>Mem.</abbr><expan>Memorandum</expan></choice></bibl> <persName><term type="occupation">Bishop</term> <w>Mac-<seg rend="right"><date when="1871-11-08">—</date></seg> <!-- Bishop Mackenzie split over two lines is problematic - cannot use w tag on first line, so have left in the second but we need to finesse this one better. HB --><!-- seems to work though?, ks -->
+<lb break="no"/>-kenzie</w></persName>'s mission <space extent="3" unit="words"/><seg rend="right"><date when="1871-11-08">—</date></seg></p>
+<lb/><p><term type="tribe">Makololo</term> black<choice><sic>gaurded</sic><corr>guarded</corr></choice> for doing <seg rend="right"><date when="1871-11-08">—</date></seg>
+<lb/>what they first began to do under <seg rend="right"><date when="1871-11-09">9</date></seg>
+<lb/><term type="faith">episcopal</term> and clerical <w>leader- <seg rend="right"><date when="1871-11-09">—</date></seg>
+<lb break="no"/>-ship</w> - Nil teaching nullified <seg rend="right"><date when="1871-11-10">10</date></seg>
+<lb/>by my abandoning those who were <seg rend="right"><date when="1871-11-10">—</date></seg> <!-- Not sure if Nil needs to be tagged/what it is across this and the next line? HB --><!-- I haven't a scooby what it is, ks -->
+<lb/>harboured by the Nil <term type="occupation">teachers</term> <seg rend="right"><date when="1871-11-10">—</date></seg></p>
+
+
+<pb facs="liv_000019_0760" n="0760"/>
+<lb/><fw n="760"><add place="margintop" rend="gray left" hand="#U">760</add></fw>
+<lb/><p><bibl>Private <choice><abbr>Mem.</abbr><expan>Memorandum</expan></choice></bibl> <persName>M<hi rend="sup underline">r</hi> Tozer</persName> repudiates <seg rend="right"><date when="1871-11"><hi rend="double-underline">November</hi></date></seg>
+<lb/><persName><term type="occupation"><choice><abbr>bp</abbr><expan>Bishop</expan></choice></term> Mackenzie</persName> and the pugilistic <term type="occupation">bishop</term> <seg rend="right"><date when="1871-11-11">11.</date></seg>
+<lb/>is a man of peace - propagates a <seg rend="right"><date when="1871"></date></seg>
+<lb/><term type="nationality">Portuguese</term> scandal &amp; <persName><term type="occupation"><choice><abbr>bp</abbr><expan>Bishop</expan></choice></term> Gray</persName> hides it <seg rend="right"><date when="1871"></date></seg></p>
+<lb/><p><bibl>Private <choice><abbr>Mem.</abbr><expan>Memorandum</expan></choice></bibl> <persName>Richard Thornton</persName> <seg rend="right"><date when="1871-11-12">12.</date></seg>
+<lb/>oh if he had a friend! and £12 bill <seg rend="right"><date when="1871-11-12">—</date></seg>
+<lb/>for <term type="foodstuff">gin</term> came into <persName>D<hi rend="sup underline">r</hi> <choice><abbr>L</abbr><expan>Livingstone</expan></choice></persName>'s hands <seg rend="right"><date when="1871-11-12">—</date></seg></p>
+<lb/><p>Retrospect of <choice><sic>carreer</sic><corr>career</corr></choice> at <placeName><settlement type="village">Kolobeng</settlement></placeName> <seg rend="right"><date when="1871-11-13">13.</date></seg>
+<lb/>regret not playing with my children <seg rend="right"><date when="1871-11-13">—</date></seg>
+<lb/>and being somewhat severe in <seg rend="right"><date when="1871-11-13">—</date></seg>
+<lb/>following <choice><sic><persName>Solomons</persName></sic><corr><persName>Solomon</persName>'s</corr></choice> advice <seg rend="right"><date when="1871-11-13">—</date></seg></p>
+<lb/><p><term type="tribe">Manyema</term> <orgName>cannibalism</orgName> - <seg rend="right"><date when="1871-11-14">14.</date></seg>
+<lb/>Doubts a depraved taste the cause <seg rend="right"><date when="1871-11-14">—</date></seg>
+<lb/>flesh saltish - stealing dead bodies <seg rend="right"><date when="1871-11-14">—</date></seg> <!-- I am tempted to tag bodies as foodstuff, but thought it would be in poor taste...get it?!?! TASTE!! Okay, I'm obviously up too late while coding haha :c) HB --><!-- Loon! :-) -->
+<lb/>to eat the meat - practice stopped <seg rend="right"><date when="1871-11-14">—</date></seg>
+<lb/>murders - a grandmother offered <seg rend="right"><date when="1871-11-14">—</date></seg>
+<lb/>as a substitute - <foreign xml:lang="und"><term type="animal">soko</term></foreign> not so bad <seg rend="right"><date when="1871-11-14">—</date></seg>
+<lb/>as men - <persName>Moenemokaia</persName> opinion <seg rend="right"><date when="1871-11-15">15</date></seg> <!-- Not sure if this is a person or tribe? HB --><!-- It is a person, the date is really annoying me, now i'm wondering whether its not my 1869 or your 187 but in fact 1871? ks  -->
+<lb/>on qualification for travelling <seg rend="right"><date when="1871-11-15">—</date></seg></p>
+<lb/><p>Leave <placeName><settlement type="village">Mamohela</settlement></placeName> - <placeName><settlement type="village">Basilañge</settlement></placeName> <seg rend="right"><date when="1871-11-16">16</date></seg>
+<lb/>Direction of streets - morning - <seg rend="right"><date when="1871-11-16">—</date></seg>
+<lb/>with families - beautiful scenes <seg rend="right"><date when="1871-11-16">—</date></seg>
+<lb/>villages deserted in fear - iron <seg rend="right"><date when="1871-11-16">—</date></seg>
+<lb/>bracelets out of fashion by beads <seg rend="right"><date when="1871-11-16">—</date></seg>
+<lb/><orgName>slaves</orgName> mischief makers - <seg rend="right"><date when="1871-11-17">17</date></seg></p>
+<lb/><p>Beauty of women - Forges at <seg rend="right"><date when="1871-11-17">—</date></seg>
+<lb/>work <space extent="3" unit="chars"/>slippery paths - <persName>Kimazi</persName> <seg rend="right"><date when="1871-11-18">18</date></seg>
+<lb/>a <term type="occupation">queen</term> for beauty - <term type="tribe">Mangara</term> <seg rend="right"><date when="1871-11-18">—</date></seg> <!-- Again, could not split persName tag across two lines. HB --><!-- not needed, ks -->
+<lb/><persName>Kasonga</persName> the <term type="occupation">chief</term> - Southing <seg rend="right"><date when="1871-11-18">—</date></seg>
+<lb/>of <placeName><geogName type="river">Lualaba</geogName></placeName> - mighty river <seg rend="right"><date when="1871-11-18">—</date></seg>
+<lb/><orgName><orgName>Arab</orgName><term type="occupation">trading agents</term></orgName> of <orgName>Banians</orgName> <seg rend="right"><date when="1871-11-18">—</date></seg>
+<lb/>Noisy <orgName>Arab</orgName> <term type="occupation">demagogue</term> <seg rend="right"><date when="1871-11-18">18</date></seg>
+<lb/><persName>Hassani</persName>'s trap of 25 bracelets <seg rend="right"><date when="1871-11-19">19</date></seg>
+<lb/><persName>Kasonga</persName> never lies he says <seg rend="right"><date when="1871-11-20">20</date></seg>
+<lb/><persName>Muhamad</persName> the <term type="occupation"><choice><sic>prophets</sic><corr>prophet's</corr></choice></term> <w>false<supplied>-</supplied></w> <seg rend="right"><date when="1871-11-20">—</date></seg>
+<lb/><w>ness</w> copied &amp; propagated <seg rend="right"><date when="1871-11-20">—</date></seg>
+<lb/>Leave <placeName><settlement type="village"><persName>Kasonga</persName>'s</settlement></placeName> - meet <seg rend="right"><date when="1871-11-20">—</date></seg>
+<lb/>82 <orgName>captives</orgName> - cross <placeName><geogName type="river">Liya</geogName></placeName> <seg rend="right"><date when="1871-11-21">21.</date></seg></p>
+
+
+<pb facs="liv_000019_0761" n="0761"/>
+<lb/><fw n="761"><add place="margintop" rend="gray right" hand="#U">761</add></fw>
+<lb/><p>Examine <placeName><geogName type="river">Lualaba</geogName></placeName> at <placeName><settlement type="town">Nyangwe</settlement></placeName> <seg rend="right"><date when="1871-11-22"><add place="above">1871</add> 22 <choice><abbr>Nov<hi rend="sup double-underline">r</hi></abbr><expan>November</expan></choice></date></seg> <!-- Now I'm thoroughly confused on dates haha :) HB --><!-- well i'm now really thinking that it is 1871 and noone told us!, ks -->
+<lb/><add place="marginleft">depth</add> never can be waded anywhere <seg rend="right"><date when="1871-11-22">—</date></seg>
+<lb/>Market very popular - Suspicion <seg rend="right"><date when="1871-11-22">—</date></seg>
+<lb/><hi rend="underline">ʘ</hi> <choice><abbr>alts.</abbr><expan>altitudes</expan></choice> ʘ -1 ☾ successively - <seg rend="right"><date when="1871-11-22">—</date></seg>
+<lb/><orgName>Arab</orgName> enquiry about <bibl>Bible</bibl> - <choice><sic>dont</sic><corr>don't</corr></choice> <seg rend="right"><date when="1871-11-22">—</date></seg>
+<lb/>know of any false <term type="occupation">prophets</term> <seg rend="right"><date when="1871-11-22">—</date></seg>
+<lb/>Try to buy a canoe - isolation of <orgName>natives</orgName> <seg rend="right"><date when="1871-11-23">23</date></seg></p>
+<lb/><p>Market women beautiful - <unclear cert="medium"><placeName><geogName type="river">Loeki</geogName></placeName></unclear> <seg rend="right"><date when="1871-11-24">24</date></seg> <!-- Loeki river doesn't seem to fit the context here, so not sure? HB -->
+<lb/>slander by <orgName><orgName>Banian</orgName> <orgName>slaves</orgName></orgName> &amp; <orgName>Arabs</orgName> <seg rend="right"><date when="1871-11-24">—</date></seg>
+<lb/><term type="tribe">Bagenya</term> on left bank - <persName><term type="occupation">chief</term> <seg rend="right"><date when="1871-11-24">—</date></seg>
+<lb/>Zurampela</persName> <choice><sic>decieved</sic><corr>deceived</corr></choice> by <orgName>half caste</orgName> <seg rend="right"><date when="1871-11-24">—</date></seg>
+<lb/><term type="animal">Lepidosirens</term> - salutations like those <seg rend="right"><date when="1871-11-24">—</date></seg> <!-- Lepidosiren is a name for the lungfish, but not sure if half caste can be attributed to animals or if the two are separate?? HB --><!-- fairly certain they are seperate, ks-->
+<lb/>of the <term type="tribe"><choice><orig>Bechwana</orig><reg>Bechuana</reg></choice></term> - <orgName>cannibal</orgName> takes <seg rend="right"><date when="1871-11-25">25</date></seg>
+<lb/><term type="tribe">Manyuema</term> men finer specimens <seg rend="right"><date when="1871-11-25">—</date></seg>
+<lb/>of humanity by far than <term type="occupation">Anthropologists</term> <seg rend="right"><date when="1871-11-25">—</date></seg>
+<lb/>- dress - colour - shaking hands <seg rend="right"><date when="1871-11-26">26</date> -</seg>
+<lb/>old feuds - <term type="tribe">Manyuema</term> fraud in <seg rend="right"><date when="1871-11-26">—</date></seg>
+<lb/>entrapping strangers into - <seg rend="right"><date when="1871-11-26">—</date></seg>
+<lb/>Greediness rewarded properly <seg rend="right"><date when="1871-11-26">—</date></seg>
+<lb/>Question <orgName><placeName><geogName type="river">Lomame</geogName></placeName> <orgName>slaves</orgName></orgName> - <seg rend="right"><date when="1871-11-26">—</date></seg>
+<lb/>teeth extracted in imitation of <term type="animal">oxen</term> <seg rend="right"><date when="1871-11-26">—</date></seg>
+<lb/>Ivory trumpets &amp; bracelets sole use of <seg rend="right"><date when="1871-11-27">27</date></seg>
+<lb/>copper digging at <placeName><settlement type="village"><persName>Katenga</persName></settlement></placeName> - <term type="tribe">Babire</term> <seg rend="right"><date when="1871-11-27">—</date></seg>
+<lb/>ivory door posts - Black water <seg rend="right"><date when="1871-11-27">—</date></seg></p>
+<lb/><p><choice><sic>Decieved</sic><corr>Deceived</corr></choice> by <persName>Kalenga</persName>, <add place="above">a</add> <term type="occupation">headman</term> <seg rend="right"><date when="1871-11-28">28</date></seg>
+<lb/><term type="tribe">Bakuss</term> or <term type="tribe">Bakuns</term> fear of <seg rend="right"><date when="1871-11-28">—</date></seg> <!-- I think that Bakuss is a tribe, but not sure and defer to the collective wisdom! HB --><!-- yes they are, says the singular widsom of one -->
+<lb/>arrows but not of guns - guns <seg rend="right"><date when="1871-11-28">—</date></seg>
+<lb/>thought supernatural or <seg type="weather">lightning</seg> <seg rend="right"><date when="1871-11-28">—</date></seg>
+<lb/><term type="tribe">Bakuss</term> cultivate <term type="plant_foodstuff">coffee</term> and <term type="plant_foodstuff">vanilla</term> <seg rend="right"><date when="1871-11-28">—</date></seg>
+<lb/>prodigious in numbers - <seg rend="right"><date when="1871-11-28">—</date></seg>
+<lb/><term type="plant_foodstuff">Pine Apples</term> - pleasant faces <seg rend="right"><date when="1871-11-28">—</date></seg><!-- all this happened in the May of 1871, i'm so confused, ks -->
+<lb/><term type="tribe">Bakuss</term> smelt copper - iron <seg rend="right"><date when="1871-11-29">29</date></seg>
+<lb/><persName>Abed</persName>'s kindness nullified <seg rend="right"><date when="1871-11-29">—</date></seg>
+<lb/>Natural acting in market <seg rend="right"><date when="1871-11-30">30</date></seg>
+<lb/>Worry causing <term type="ailment">disease</term> - safety <seg rend="right"><date when="1871-11-30">—</date></seg>
+<lb/>valve of system - <persName>John Hunter</persName> <seg rend="right"><date when="1871-11-30">—</date></seg></p>
+<lb/><p>Market a busy interesting scene <seg rend="right"><date when="1871-11-30">—</date></seg></p>
+<lb/><p>Market continued <seg rend="right"><date when="1871-11-30">30</date></seg>
+
+
+<pb facs="liv_000019_0762" n="0762"/>
+<lb/><fw n="762"><add place="margintop" rend="gray left" hand="#U">762</add></fw>
+<lb/>Pottery - carrying baskets <seg rend="right"><date when="1871-11-30"><add place="above">1871 <lb/>November</add> 30</date></seg>
+<lb/>Heavy loads carried willingly
+<lb/>by the free assertions <seg rend="right"><date when="1871-12-01">1 December</date></seg>
+<lb/>Girls selling water - glib tongues <seg rend="right"><date when="1871-12-02">2</date></seg>
+<lb/><term type="tribe">Manyuema</term> not liberal <seg rend="right"><date when="1871-12-02">—</date></seg><!-- The Manyuema were Bantu people so i'm always inclined to mark them as tribe rather than orgName, ks -->
+<lb/>human jaw bones as ornament <seg rend="right"><date when="1871-12-02">—</date></seg>
+<lb/><term type="foodstuff">Roasted <term type="insect">white ants</term></term> for sale <seg rend="right"><date when="1871-12-02">—</date></seg>
+<lb/><term type="tribe">Manyuema</term> honest generally <seg rend="right"><date when="1871-12-02">—</date></seg>
+<lb/><persName>Dugumbe</persName> knows of <orgName><orgName>Banian</orgName> <seg rend="right"><date when="1871-12-02">—</date></seg>
+<lb/><orgName>slaves</orgName></orgName> treachery - his first words <seg rend="right"><date when="1871-12-03">3</date></seg>
+<lb/>canoes obtained by fraud <seg rend="right"><date when="1871-12-03">—</date></seg>
+<lb/>fall foul of rocks and return <seg rend="right"><date when="1871-12-03">—</date></seg>
+<lb/>Merciful escape from that danger <seg rend="right"><date when="1871-12-04">4</date></seg>
+<lb/>We <choice><sic>dont</sic><corr>don't</corr></choice> know many dangers <seg rend="right"><date when="1871-12-04">—</date></seg>
+<lb/><persName>Manilla</persName> a <orgName>slave</orgName> <orgName>slaving</orgName> <seg rend="right"><date when="1871-12-04">—</date></seg>
+<lb/>ten villages burned by him <seg rend="right"><date when="1871-12-04">—</date></seg>
+<lb/><seg type="weather">two strata of clouds rule <seg rend="right"><date when="1871-12-04">—</date></seg>
+<lb/>the weather</seg> - Worried by <orgName>slaver</orgName> <seg rend="right"><date when="1871-12-04">—</date></seg>
+<lb/>offer largely for other men <seg rend="right"><date when="1871-12-04">—</date></seg>
+<lb/><persName>Mokandira</persName> &amp; <term type="occupation">chiefs</term> generosity <seg rend="right"><date when="1871-12-05">5</date></seg>
+<lb/>Reprove a <choice><sic>womans</sic><corr>woman's</corr></choice> cruelty <seg rend="right"><date when="1871-12-05">—</date></seg>
+<lb/>to a <orgName><term type="tribe"><placeName><geogName type="river">Lomame</geogName></placeName></term> <orgName>slave</orgName></orgName> with good <seg rend="right"><date when="1871-12-05">—</date></seg>
+<lb/>effect - <term type="tribe">Manyuema</term> children do <seg rend="right"><date when="1871-12-05">—</date></seg>
+<lb/>not creep on hands &amp; knees <seg rend="right"><date when="1871-12-06">6</date> -</seg>
+<lb/><term type="animal">Fishes</term> brought to market <seg rend="right"><date when="1871-12-06">—</date></seg>
+<lb/>Terrible massacre on <seg rend="right"><date when="1871-12-06">—</date></seg>
+<lb/><date when="1871-07-15">15<hi rend="sup underline">th</hi> of July 1871</date> on both banks <seg rend="right"><date when="1871-12-06">—</date></seg>
+<lb/>Massacre continued <seg rend="right"><date when="1871-12-06">—</date></seg>
+<lb/>Massacre continued <seg rend="right"><date when="1871-12-07">7</date>-</seg>
+<lb/>Massacre continued <seg rend="right"><date when="1871-12-08">8</date>-</seg>
+<lb/>Massacre reasons for <seg rend="right"><date when="1871-12-08">—</date></seg>
+<lb/>propose to punish murderers <seg rend="right"><date when="1871-12-08">—</date></seg>
+<lb/>murder continued on left bank <seg rend="right"><date when="1871-12-08">—</date></seg>
+<lb/>Restore <orgName>captives</orgName> <seg rend="right"><date when="1871-12-09">9</date></seg>
+<lb/>Murderers return shouting <seg rend="right"><date when="1871-12-08">—</date></seg>
+<lb/>villages in flames - guns <seg rend="right"><date when="1871-12-08">—</date></seg>
+<lb/>firing women lullilooing <seg rend="right"><date when="1871-12-08">—</date></seg>
+
+
+<pb facs="liv_000019_0763" n="0763"/>
+<lb/><fw n="763"><add place="margintop" rend="gray right" hand="#U">763</add></fw> <seg rend="right"><date when="1871-12">December <add place="above">1871</add></date></seg>
+<lb/><choice><sic><persName>Kabobos</persName></sic><corr><persName>Kabobo</persName>'s</corr></choice> old wife - 2 heads for <unclear cert="high">sale</unclear> <seg rend="right"><date when="1871-12-10">10</date>-</seg>
+<lb/><term type="tribe">Manyuema</term> <term type="occupation">chiefs</term> entreat me not to <seg rend="right"><date when="1871-12-10">—</date></seg>
+<lb/>leave them till they are settled <seg rend="right"><date when="1871-12-10">—</date></seg>
+<lb/>cannot proceed with these <seg rend="right"><date when="1871-12-10">—</date></seg>
+<lb/>murderers &amp; must return all <seg rend="right"><date when="1871-12-10">—</date></seg>
+<lb/>my work unfinished - <orgName><orgName>Banian</orgName> <seg rend="right"><date when="1871-12-10">—</date></seg>
+<lb/><orgName>slaves</orgName></orgName> refused to go on except <seg rend="right"><date when="1871-12-10">—</date></seg>
+<lb/>to murder in company with <seg rend="right"><date when="1871-12-10">—</date></seg>
+<lb/><persName>Tagamoio</persName> - <persName>Dugumbe</persName>'s kindness <seg rend="right"><date when="1871-12-10">—</date></seg>
+<lb/>Terrible scenes cause severe &amp; <seg rend="right"><date when="1871-12-11">11</date>—</seg>
+<lb/>dangerous <term type="ailment">headache</term> - The <seg rend="right"><date when="1871-12-11">—</date></seg>
+<lb/>creek of death deserted - <seg rend="right"><date when="1871-12-12">12</date>—</seg>
+<lb/>murder unheeded by the <orgName>Arabs</orgName> <seg rend="right"><date when="1871-12-12">—</date></seg>
+<lb/>Ill but start for <placeName><settlement type="town">Ujiji</settlement></placeName> <seg rend="right"><date when="1871-12-12">—</date></seg>
+<lb/><placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Kunda</geogName></placeName> - on to <placeName><geogName type="ridge"><choice><sic>Lobanga</sic><corr>Lobango</corr></choice></geogName></placeName> <seg rend="right"><date when="1871-12-12">—</date></seg>
+<lb/>character of goodness given me <seg rend="right"><date when="1871-12-12">—</date></seg>
+<lb/>by <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName> <orgName>slaves</orgName></orgName> better than <seg rend="right"><date when="1871-12-12">—</date></seg>
+<lb/>that of fear esteemed by <term type="occupation"><w>anthro- <seg rend="right"><date when="1871-12-12">—</date></seg> <!-- Couldn't split the w tag over the seg, so did two w tags. HB --><!-- But yet I can. Curious, no? :-)-->
+<lb break="no"/>-pologists</w></term> - Huts fired in sheer <seg rend="right"><date when="1871-12-12">—</date></seg>
+<lb/><choice><sic>wantoness</sic><corr>wantonness</corr></choice> of <orgName>slaves</orgName> - <seg rend="right"><date when="1871-12-12">—</date></seg></p>
+<lb/><p>Care for the dead by <orgName>natives</orgName> <seg rend="right"><date when="1871-12-13">13</date>—</seg>
+<lb/><placeName><settlement type="village"><persName>Kama</persName>'s village</settlement></placeName> and then <seg rend="right"><date when="1871-12-13">—</date></seg>
+<lb/> on to <placeName><settlement type="village"><persName>Kasongo</persName></settlement></placeName> - Increase <seg rend="right"><date when="1871-12-13">—</date></seg>
+    <lb/>of party to eighty by <term type="occupation">traders</term> <seg rend="right"><date when="1871-12-13">—</date></seg>
+<lb/>people carrying ivory to <placeName><settlement type="town">Ujiji</settlement></placeName> <seg rend="right"><date when="1871-12-14">14</date>-</seg>
+    <lb/>First <orgName><term type="tribe">Manyuema</term> travellers</orgName> <seg rend="right"><date when="1871-12-14">—</date></seg>
+    <lb/><orgName>Native</orgName> effigies in wood <seg rend="right"><date when="1871-12-14">—</date></seg>
+    <lb/>and cones of clay all named <seg rend="right"><date when="1871-12-14">—</date></seg>
+    <lb/>being ancestors of <term type="occupation">chiefs</term> <seg rend="right"><date when="1871-12-14">—</date></seg>
+    <lb/>offerings of flesh made to them <seg rend="right"><date when="1871-12-14">—</date></seg>
+    <lb/>Mistaken for <persName>Kolokolo</persName> whose <seg rend="right"><date when="1871-12-14">—</date></seg>
+    <lb/>man <persName>Bin Juma</persName> killed 5 men here <seg rend="right"><date when="1871-12-14">—</date></seg>
+    <lb/>would come to no parley <seg rend="right"><date when="1871-12-14">—</date></seg>
+    <lb/>Run terrible gauntlet in <seg rend="right"><date when="1871-12-14">—</date></seg>
+<lb/>dense forest for <measure>5 hours</measure> <seg rend="right"><date when="1871-12-15">15</date>-</seg>
+    <lb/>saved from death three <seg rend="right"><date when="1871-12-15">—</date></seg>
+<lb/>times in one day - <seg rend="right"><date when="1871-12-16">16</date></seg>
+    <lb/><seg rend="right"><date when="1871-12-16">—</date></seg></p>
+
+
+<pb facs="liv_000019_0764" n="0764"/>
+<lb/><p><fw n="764"><add place="margintop" rend="gray left" hand="#U">764</add></fw> <add place="marginleft"><date when="1872">1872</date></add>
+<lb/>saved from falling tree Peace Peace <seg rend="right"><date when="1872-12-16"><add place="above marginright">1872 ==. <lb/>December</add> 16.</date></seg>
+    <lb/><persName>Muanampunda</persName> his offer <seg rend="right"><date when="1872-12-16">—</date></seg>
+    <lb/>to revenge <subst><del>on</del><add place="over-text">our</add></subst> loss declined <seg rend="right"><date when="1872-12-16">—</date></seg>
+    <lb/><orgName>Cannibalism</orgName> not the effect <seg rend="right"><date when="1872-12-16">—</date></seg>
+    <lb/>of want of food - Farinaceous <seg rend="right"><date when="1872-12-16">—</date></seg>
+    <lb/>ingredients of diet abundant <seg rend="right"><date when="1872-12-16">—</date></seg>
+    <lb/>Fatty ingredients <choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice> <term type="foodstuff">saccharine</term> <seg rend="right"><date when="1872-12-16">—</date></seg>
+    <lb/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - Nitrogenous materials <seg rend="right"><date when="1872-12-16">—</date></seg>
+    <lb/>abundant - Dainties in plenty <seg rend="right"><date when="1872-12-16">—</date></seg>
+<lb/>Taste for high meat possible <seg rend="right"><date when="1872-12-17">17</date>-</seg>
+    <lb/>cause of <orgName>cannibalism</orgName> <seg rend="right"><date when="1872-12-17">—</date></seg>
+    <lb/><term type="animal">Oysters</term> in <placeName><geogName type="river">Lualaba</geogName></placeName> - fear <seg rend="right"><date when="1872-12-17">—</date></seg>
+    <lb/>of guns - <foreign xml:lang="und">Gulu</foreign> = deity above <seg rend="right"><date when="1872-12-17">—</date></seg></p>
+<lb/><p>Notes on sundries - <seg rend="right"><date when="1872-12-18">18</date>-</seg>
+    <lb/><choice><sic>Alledged</sic><corr>Alleged</corr></choice> prescience of events <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/><orgName>Arab</orgName> explanation of <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/>Hair calculus in <unclear cert="low"><term type="animal">Lion</term>'s bowels</unclear> <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/><term type="medicament"><term type="animal"><choice><sic>Lions</sic><corr>Lion's</corr></choice></term> fat</term> a remedy for <term type="insect">Tsetse</term> <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/>the animal <foreign xml:lang="und"><term type="animal">Neggeri</term></foreign> or <foreign xml:lang="und"><term type="animal">Nyegeri</term></foreign> <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/>mode of attack on men &amp; animals <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/><foreign xml:lang="und"><term type="animal">Fisi a bahari</term></foreign> <term type="animal">sea wolf</term> ? <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/><term type="tribe">Babemba</term> eat <term type="foodstuff">seeds of Castor <seg rend="right"><date when="1872-12-18">—</date></seg>
+        <lb/>oil</term> or <foreign xml:lang="la"><term type="foodstuff">Palma Christi</term></foreign> - to <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/>supply fatty ingredient <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/><foreign xml:lang="und">Iaba</foreign> - meaning of ? <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/><foreign xml:lang="und">Kondohondo</foreign> = <foreign xml:lang="sp">Bucero cristata</foreign> <seg rend="right"><date when="1872-12-18">—</date></seg>
+    <lb/>spoon of <term type="animal">Phoenix</term> bill - <seg rend="right"><date when="1872-12-18">—</date></seg>
+<lb/><foreign xml:lang="und"><term type="animal">Soko</term></foreign> or <term type="animal">gorilla</term> notes of <seg rend="right"><date when="1872-12-19">19</date>-</seg>
+    <lb/>sharp eyes of - human of - <seg rend="right"><date when="1872-12-19">—</date></seg>
+    <lb/>shot &amp; wounded in back <seg rend="right"><date when="1872-12-19">—</date></seg>
+<lb/>not in front - 2 <foreign xml:lang="und"><term type="animal">Soko</term></foreign> houses <seg rend="right"><date when="1872-12-20">20</date>-</seg>
+    <lb/>Ungainly beast &amp; not formidable <seg rend="right"><date when="1872-12-20">—</date></seg>
+    <lb/>attacks ends of fingers <seg rend="right"><date when="1872-12-20">—</date></seg>
+    <lb/>Fights <term type="animal">Leopards</term> by his <seg rend="right"><date when="1872-12-20">—</date></seg>
+    <lb/>strength in holding down <seg rend="right"><date when="1872-12-20">—</date></seg>
+    <lb/>and biting off claws - Has <seg rend="right"><date when="1872-12-20">—</date></seg>
+    <lb/>a good character = drums on <seg rend="right"><date when="1872-12-20">—</date></seg>
+<lb/>hollow trees = never molests first </p>
+
+
+
+
+</div>
+</body>
+</text>
+</TEI>

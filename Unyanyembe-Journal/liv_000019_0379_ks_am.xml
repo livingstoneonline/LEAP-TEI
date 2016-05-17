@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019"><!-- Adrian change only -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                    <resp>Proofing</resp>     
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 1115</idno><!-- Adrian change only -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Journals, 011</idno><!-- Adrian change only -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866 - 5 March 1872</date><!-- Adrian change x2 only -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language><!-- Everyone, add languages as necessary. -->
+                <language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-04-17" who="#AM">Proofing</change>
+            <change when="2016-01-03" who="#KS">Transcription and TEI encoding</change><!-- Everyone, revise and expand as necessary. -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+       	<body>
+			<div rend="brown">
+
+	<gb/>
+
+<pb facs="liv_000019_0379.jpg" n="0379"/>
+<lb/><p><add place="margintop" rend="gray right" hand="#U"><fw n="373">373</fw></add></p>
+<lb/><p><note place="marginleft"><date when="1868-04-16">April <lb/>16<hi rend="sup">th</hi> <lb/><w><supplied cert="high">1</supplied>868</w></date></note> <persName>Ndowa</persName> gives <placeName><geogName type="cave">Mita</geogName></placeName> or <placeName><geogName type="cave">Mpamañkanana</geogName></placeName> as the names
+<lb/>of the excavations in <placeName><geogName type="hills"><persName>Muabo</persName>'s hills</geogName></placeName> - He says that they are
+<lb/>sufficient to conceal all the people of this district in
+<lb/>case of war - I conjecture that this implies room for
+<lb/>ten thousand people - Provisions are stored in them
+<lb/>and a perennial rivulet runs along a whole street
+<lb/>of them - On one occasion when the main entrance 
+<lb/>was <choice><sic>beseiged</sic><corr>besieged</corr></choice> by an enemy someone who knew all
+<lb/>the intricacies of the excavations led a <orgName>party</orgName> out by
+<lb/>a secret passage and they coming over the invaders 
+<lb/>drove them off with heavy loss = their formation
+<lb/>is universally ascribed to the Deity - this may mean 
+<lb/>that the present inhabitants have succeeded the 
+<lb/>original burrowing race which dug out many caves<!-- geog: -->
+<lb/>adjacent to <placeName><geogName type="mountain">Mount Kor</geogName></placeName> - the "<foreign xml:lang="und"><placeName><geogName type="mountain"><hi rend="underline">Jebel Nebi Harin</hi></geogName></placeName></foreign>" Mount
+<lb/>of the <term type="occupation">prophet</term> <persName>Aaron</persName> - of the <orgName>Arabs</orgName>, and many others
+<lb/>and even the <orgName>Bushman</orgName> caves - <measure>a thousand
+<lb/>miles South of this region</measure></p>
+<lb/><p>A very minute sharp biting <term type="insect">mosquito</term> found here
+<lb/>the women try to drive them out of their huts by
+<lb/>whisking bundles of green leaves all round the
+<lb/>walls before turning into their huts -</p>
+<lb/><p><note place="marginleft"><date when="1868-04-17"><supplied cert="high">1</supplied>7<hi rend="sup underline">th</hi></date></note> Crossed the <placeName><geogName type="river">Luao</geogName></placeName> by a bridge <measure><measure>30 yards long</measure>, and
+<lb/>more than <measure>half a mile</measure> of flood on each side</measure> -
+<lb/>passed many villages standing on little heights
+<lb/>which overlook plains filled with water - some
+<lb/><measure>three miles</measure> of grassy plains abreast of <placeName><geogName type="lake">Moero</geogName></placeName> 
+<lb/>were the deepest parts except the <placeName><geogName type="bank">banks of <placeName><geogName type="river">Luao</geogName></placeName></geogName></placeName>
+<lb/>We had four hours of wading - The bottom being
+<lb/>generally black tenacious mud = Ruts had been
+<lb/>formed in the paths by the feet of passengers -
+<lb/>these were filled with soft mud and as they could
+<lb/>not be seen the foot was often placed on the edge
+<lb/>and when the weight came on it down it slumped
+<lb/>into this mud half way up the calves and it was
+<lb/>difficult to draw it out and very fatiguing - To
+<lb/>avoid these ruts we encroached on the grass at <add place="below">(<choice><abbr>contd.</abbr><expan>continued</expan></choice> 16 pages on)</add></p><!-- the corresponding section is not in my block of pages, the xml anchor id for the bottom of this page to '16 pages on' still needs coded, ks   -->
+
+<pb facs="liv_000019_0380.jpg" n="0380"/>
+<lb/><p><add place="margintop" rend="gray left" hand="#U"><fw n="374">374</fw></add> <fw><seg type="weather">Rainfall</seg> at the following stations <date when="1866">1866</date> -</fw>
+<lb/><seg type="weather"><list><item><add place="marginleft"><date when="1866-10-26">26 <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice> 1866</date></add> <placeName><settlement type="village"><add place="above"><persName>Mapuio</persName>'s</add> <persName>Mapusa</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - First appearance of thunder showers
+<lb/>passed all around but only a few drops fell - </item>
+<lb/><item><add place="marginleft"><date when="1866-10-29">29<hi rend="sup">th</hi></date></add> A thunder shower about 3 PM - Amount of Rain + .13</item>
+<lb/><item><add place="marginleft"><date when="1866-11-03">3<hi rend="sup">d</hi> <choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice></date></add> <placeName><geogName type="mountain">Irongwe <choice><abbr>M<hi rend="sup underline">t</hi></abbr><expan>Mountain</expan></choice></geogName></placeName> Thunder shower - 4 PM - <space extent="12" unit="chars"/>+ .10</item>
+<lb/><item><add place="marginleft"><date when="1866-11-04">4<hi rend="sup">th</hi> <choice><abbr>Nov</abbr><expan>November</expan></choice></date> -</add> <placeName><geogName type="mountain">Irongwe <choice><abbr>M<hi rend="sup underline">t</hi></abbr><expan>Mountain</expan></choice></geogName></placeName> Thunder shower 3 - PM - <space extent="10" unit="chars"/>+ .18</item>
+<lb/><item><add place="marginleft"><date when="1866-11-09">9<hi rend="sup">th</hi> <choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice></date></add> <placeName><settlement type="village">Kalumbi <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> &amp; Hill Thunder shower - 3 PM <space extent="5" unit="chars"/>+ .79</item>
+<lb/><item><add place="marginleft"><date when="1866-11-10">10<hi rend="sup underline">th</hi> <choice><abbr>Nov</abbr><expan>November</expan></choice></date></add> Thunder showers in distance - wetted some of
+<lb/>the men <measure>three miles</measure> off - Here a few drops only</item>
+<lb/><item><add place="marginleft"><date when="1866-11-17">17<hi rend="sup underline">th</hi> <choice><abbr>Nov</abbr><expan>November</expan></choice></date></add> <placeName><geogName type="valley">Kanyenje <add place="below">˄</add> <add place="above">valley</add></geogName></placeName> - <placeName><settlement type="village"><choice><abbr>vil</abbr><expan>village</expan></choice> of <persName>Kanyindula</persName></settlement></placeName> near <placeName><geogName type="source">source 
+<lb/>of the <placeName><geogName type="river">Bua</geogName></placeName></geogName></placeName> among mountains <add place="below">˄</add> <add place="above">- with thunder</add> 4 PM - + .58</item>
+<lb/><item><add place="marginleft"><date when="1866-11-18">18<hi rend="sup underline">th</hi> <choice><abbr>Nov</abbr><expan>November</expan></choice></date></add> <add place="below">˄</add> <add place="above"><choice><abbr>Do Do</abbr><expan>Ditto Ditto</expan></choice></add> accompanied with thunder 3 - PM - + .44</item>
+<lb/><item><add place="marginleft"><date when="1866-11-20">20 <choice><abbr>Nov</abbr><expan>November</expan></choice></date></add> <unclear cert="medium"><placeName><geogName type="stream">Kanyinjere mponda</geogName></placeName></unclear> = the <placeName><geogName type="source">source of the 
+<lb/><placeName><geogName type="river">Bua</geogName></placeName></geogName></placeName> - Noon - with thunder - 1<add place="above"><choice><abbr>h</abbr><expan>hour</expan></choice></add> - 45<add place="above"><choice><abbr>m</abbr><expan>minutes</expan></choice> </add> - <space extent="7" unit="chars"/>+ .29</item>
+<lb/><item>again at 4<add place="above"><choice><abbr>h</abbr><expan>hour</expan></choice></add> - 30 <space extent="6" unit="words"/>+ .71</item>
+<lb/><item><add place="marginleft"><date when="1866-11-24">24 <choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice></date></add> <placeName><settlement type="village"><persName>Zeere</persName>'s village</settlement></placeName> <add place="below">^</add> <del type="strikethrough">at</del> <add place="above">near</add> <placeName><geogName type="source">source of <unclear cert="medium"><placeName><geogName type="river">Lokuzhwa</geogName></placeName></unclear></geogName></placeName>
+<lb/>1 PM - Thunder shower <choice><orig>¼</orig><reg>1/4</reg></choice> hour - <subst><del>4</del><add place="over-text">2</add></subst>7 + .5 + .2 <hi rend="underline">= + .34</hi> <add place="below">3.55</add></item></list></seg></p>
+<lb/><milestone unit="section" rend="triple-underline"/>
+<lb/><p><add place="marginleft"><date when="1866-11-30">30<hi rend="sup">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date></add> The <seg type="weather">smaller rains</seg> have been <seg type="weather">Thunder showers</seg>
+<lb/>The <orgName>people</orgName> have put in their seed &amp; in some
+<lb/>spots it has vegetated but the land has
+<lb/>not been thoroughly wetted - the cracks
+<lb/>in the rich dark loam have not been
+<lb/>filled up by the swelling of the soil - Some
+<lb/>are still <measure><measure>two feet deep</measure> and <measure>two inches wide</measure></measure>
+<lb/>at the lips - <seg type="weather">Before the rains</seg> they are to
+<lb/>been seen of <measure><measure>three feet in depth</measure> and <measure>three
+<lb/>inches wide</measure></measure> at the lips</p>
+<lb/><p><add place="marginleft"><date when="1866-12"><choice><abbr>Dec<hi rend="sup">r</hi></abbr><expan>December</expan></choice> 1866</date></add> <milestone unit="section" rend="triple-underline"/>
+<lb/><seg type="weather"><list><item><add place="marginleft"><date when="1866-12-03">3<hi rend="sup">d</hi> <choice><abbr>Dec</abbr><expan>December</expan></choice></date></add> <placeName><settlement type="village"><persName>Kande</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> on <placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> Lokuzhwa</geogName></placeName> 4 PM with
+<lb/>thunder - 10 - then after 6 PM .75 == + .22</item>
+<lb/><item><add place="marginleft"><date when="1866-12-04">4<hi rend="sup underline">th</hi></date></add> <placeName><geogName type="stream">Katette</geogName></placeName> - a spring among low hills <choice><abbr>W</abbr><expan>West</expan></choice> of
+<lb/><placeName><settlement type="village"><persName>Kande</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - <add place="below">˄</add><add place="above">3 PM</add> very violent - thunder shower + 1.48</item>
+<lb/><item><add place="marginleft"><date when="1866-12-05">5<hi rend="sup underline">th</hi> <choice><abbr>Do</abbr><expan>Ditto</expan></choice></date></add> Bamboo <choice><abbr>vil</abbr><expan>village</expan></choice> - Noon .38 with thunder
+<lb/>then gently .10 == <space extent="25" unit="chars"/>+ .48</item>
+<lb/><item><add place="marginleft"><date when="1866-12-07">7<hi rend="sup">th</hi></date></add> <placeName><geogName type="mountain">Mparawe <choice><abbr>mt</abbr><expan>mountain</expan></choice></geogName></placeName> &amp; <choice><abbr>vil</abbr><expan>village</expan></choice> 3 PM with very
+<lb/>loud thunder - then gently till 6 PM + 1.10</item>
+<lb/><item><add place="marginleft"><date when="1866-12-08">8<hi rend="sup underline">th</hi></date></add> Two smart showers at midnight(<hi rend="underline">not
+<lb/>measured</hi>) <space extent="30" unit="chars"/>3.28</item></list></seg></p>
+
+
+<pb facs="liv_000019_0381.jpg" n="0381"/>
+<lb/><p><add place="marginleft"><date when="1866">1866</date></add> <add place="margintop" rend="gray right" hand="#U"><fw n="375">375</fw></add>
+<lb/><seg type="weather"><list><item><add place="marginleft"><date when="1866-12-09">9<hi rend="sup">th</hi> <lb/><choice><abbr>Dec<hi rend="sup">r</hi></abbr><expan>December</expan></choice></date></add> Brought forward for <date when="1866-12"><choice><abbr>Dec<hi rend="underline sup">r</hi></abbr><expan>December</expan></choice></date> <space extent="15" unit="chars"/><add place="above">inches</add> 3.28
+<lb/><placeName><geogName type="mountain">Mparawe <choice><abbr>mt</abbr><expan>mountain</expan></choice></geogName></placeName> &amp; <choice><abbr>vil</abbr><expan>village</expan></choice> - thunder near - <space extent="10" unit="chars"/>+ .5</item>
+<lb/><item><add place="marginleft"><date when="1866-12-11">11<hi rend="sup">th</hi></date></add> Forest North of <placeName><geogName type="mountain">Mparawe</geogName></placeName> - no thunder -
+<lb/>a <hi rend="underline">set in</hi> rain 7 AM - the first we have
+<lb/>had <space extent="10" unit="words"/>+ 40</item>
+<lb/><item><add place="marginleft"><date when="1866-12-12">12<hi rend="sup">th</hi></date></add>  <placeName><geogName type="forest">Forest (Mopane)</geogName></placeName> <gap extent="5" unit="chars" agent="blot"/> thunder - 2 PM + .37</item>
+<lb/><item><add place="marginleft"><date when="1866-12-13">13<hi rend="sup">th</hi></date></add> Forest <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 6 PM till 8 PM with thunder + .76
+<lb/>Note we had rolling thunder every afternoon
+<lb/>and sometimes it was seen to rain in distance
+<lb/>On <date when="1866-12-20">20<hi rend="sup underline">th</hi></date> this was well marked &amp; on ascending
+<lb/>from valley of <placeName><geogName type="valley">Loangwa</geogName></placeName> in which the <placeName><geogName type="forest">Mopane
+<lb/>forest</geogName></placeName> lies it had rained heavily on the North
+<lb/>side of the low hills <placeName><geogName type="hills">Ngale</geogName></placeName> or <placeName><geogName type="hills">Ngalao</geogName></placeName> <w>Else<supplied>-</supplied>
+<lb break="no"/>where</w> the cracks in the soil were unfilled -</item>
+<lb/><item><add place="marginleft"><date when="1866-12-26">26<hi rend="sup underline">th</hi></date></add> rain with much thunder but at the camp
+<lb/>on <placeName><geogName type="stream">Chonanga</geogName></placeName> there fell only <space extent="20" unit="chars"/>+ .3</item>
+<lb/><item><add place="marginleft"><date when="1866-12-28">28<hi rend="sup">th</hi></date></add> <placeName><settlement type="village">Malambwe</settlement></placeName> During night - <space extent="20" unit="chars"/>+ .14
+<lb/>and at midday <space extent="26" unit="chars"/>+ .30</item>
+<lb/><item><add place="marginleft"><date when="1866-12-29">29<hi rend="sup">th</hi></date></add> <placeName><settlement type="village">Malambwe</settlement></placeName> - <placeName><settlement type="village"><persName>Moerwa</persName><supplied cert="high">'</supplied>s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - <hi rend="underline">a set in</hi> Rain
+<lb/>began at 9 AM &amp; at 11 AM had fallen +1.25</item>
+<lb/><item><add place="marginleft"><date when="1866-12-30">30<hi rend="sup">th</hi></date></add> Two good smart showers fell while we
+<lb/>were in the forest between <placeName><settlement type="village">Malambwe</settlement></placeName> &amp;
+<lb/><placeName><settlement type="village"><persName>Chitembo<del type="strikethrough">ie</del></persName>'s place</settlement></placeName> (<unclear cert="medium">Mokumbi</unclear>) not measured)</item>
+<lb/><item><add place="marginleft"><date when="1866-12-31">31<hi rend="sup">st</hi></date></add> In forest near <placeName><settlement type="village"><persName>Chitembo</persName>'s</settlement></placeName> 4 AM till day break
+<lb/>but gently without thunder <space extent="20" unit="chars"/><hi rend="underline">+ .+9</hi>
+<lb/>Rain fall in <date when="1866-12">December</date> = Inches = <w>1<subst><del><gap extent="1" unit="chars"/></del><add place="over-text">1</add></subst>.67</w></item></list></seg></p>
+<lb/><milestone unit="section" rend="triple-underline"/>
+<lb/><p><seg type="weather"><list><item><add place="marginleft"><date when="1867-01-01">1<hi rend="sup">st</hi> <lb/>January <lb/>1867</date></add> <placeName><settlement type="village">Mbulukuta</settlement></placeName> - at <placeName><settlement type="village"><persName>Chitembo</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> -
+<lb/><hi rend="underline">Set</hi> in rain - continuous but not heavy
+<lb/>the clouds from the West <space extent="20" unit="chars"/>.45</item>
+<lb/><item><add place="marginleft"><date when="1867-01-02">2<hi rend="sup">d</hi></date></add> Rain began yesterday in morning
+<lb/>before daybreak - clouds from West <space extent="10" unit="chars"/> .4</item>
+<lb/><item><add place="marginleft"><date when="1867-01-03">3<hi rend="sup">d</hi> <choice><abbr>Do</abbr><expan>Ditto</expan></choice></date></add> showers an - began an hour before daybreak
+<lb/>with Thunder - drizzling all day - West .81</item>
+<lb/><item><add place="marginleft"><date when="1867-01-04">4<hi rend="sup">th</hi></date></add> <choice><abbr>Do</abbr><expan>Ditto</expan></choice> at Midday &amp; 10 PM - with Thunder West 1.15</item>
+<lb/><item><add place="marginleft"><date from="1867-01-05" to="1867-01-06">5<hi rend="sup">th</hi> &amp; 6<hi rend="sup">th</hi></date></add> Day &amp; night with but little Thunder - West <hi rend="underline">1.8</hi> <add place="below">3.53</add></item></list></seg></p>
+
+<pb facs="liv_000019_0382.jpg" n="0382"/>
+<lb/><p><add place="margintop" rend="gray left" hand="#U"><fw n="376">376</fw></add>
+<lb/><note place="marginleft"><date when="1867-01">1867 <lb/>January</date></note> Brought Forward <space extent="20" unit="chars"/><seg type="weather"><add place="above">Rainfall</add> 3.53</seg>
+<lb/><seg type="weather"><list><item><add place="marginleft"><date when="1867-01-07">7<hi rend="sup underline">th</hi></date></add> Rain began at midnight - with thunder .70
+<lb/>Drizzling by day but we marched
+<lb/>from <placeName><settlement type="village">Mbulukuta</settlement></placeName> - (<hi rend="underline">by day not measured</hi>)</item>
+<lb/><item><add place="marginleft"><date when="1867-01-08">8<hi rend="sup underline">th</hi></date></add> Began at midnight with loud thunder
+<lb/><placeName><settlement type="village"><persName>Motuna</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> near <placeName><geogName type="rivulet"><unclear cert="medium">Movoche</unclear> <choice><abbr>R<hi rend="sup underline">t</hi></abbr><expan>Rivulet</expan></choice></geogName></placeName> <space extent="10" unit="chars"/>.77
+<lb/>Evening of <date when="1867-01-08">same day</date> <space extent="20" unit="chars"/>.15</item>
+<lb/><item><add place="marginleft"><date when="1867-01-09">9<hi rend="sup">th</hi></date></add> Thunder showers all round but
+<lb/>only a few drops fell on us marching</item>
+<lb/><item><add place="marginleft"><date when="1867-01-10">10<hi rend="sup underline">th</hi></date></add> Began about 4 AM. <space extent="20" unit="chars"/>.8
+<lb/>again at noon with loud thunder
+<lb/>&amp; very heavy till 2 PM -<space extent="20" unit="chars"/>1.30</item>
+<lb/><item><add place="marginleft"><date when="1867-01-11">11<hi rend="sup">th</hi></date></add> <date when="1867-01-11">11<hi rend="sup underline">th</hi></date> <space extent="12" unit="words"/>.3</item>
+<lb/><item><add place="marginleft"><date when="1867-01-12">12<hi rend="sup">th</hi></date></add> <date when="1867-01-12">12</date> Thunder showers but none on us</item>
+<lb/><item><add place="marginleft"><date when="1867-01-13">13<hi rend="sup underline">th</hi></date></add> A heavy shower which made the
+<lb/>paths run but we were marching 
+<lb/>(<hi rend="underline">not measured</hi>) In the night <space extent="6" unit="chars"/>.8</item>
+<lb/><item><add place="marginleft"><date when="1867-01-14">14<hi rend="sup underline">th</hi></date></add> Drenching rain set in at sunset
+<lb/>&amp; continued long &amp; heavy <space extent="15" unit="chars"/>1.50</item>
+<lb/><item><add place="marginleft"><date when="1867-01-17">17<hi rend="sup underline">th</hi></date></add> Began about 5 AM - with thunder - .24</item>
+<lb/><item><add place="marginleft"><date when="1867-01-18">18<hi rend="sup underline">th</hi></date></add> Set in Early in the morning with thunder .37</item>
+<lb/><item><add place="marginleft"><date when="1867-01-19">19</date></add> Began at 7 PM with thunder <space unit="chars" extent="10"/>.48</item>
+<lb/><item><add place="marginleft"><date when="1867-01-20">20<hi rend="sup underline">th</hi></date></add> With thunder at different times through the day .27</item>
+<lb/><item><add place="marginleft"><date when="1867-01-21">21<hi rend="sup">st</hi></date></add> Continuous &amp; gently - no thunder - morning &amp; night .99</item>
+<lb/><item><add place="marginleft"><date when="1867-01-22">22<hi rend="sup">d</hi></date></add> Heavy shower - (<hi rend="underline">not measured</hi>)</item>
+<lb/><item><add place="marginleft"><date when="1867-01-23">23<hi rend="sup">d</hi></date></add> In forest <choice><abbr>N</abbr><expan>North</expan></choice> of <placeName><geogName type="river">Lisunga</geogName></placeName> with thunder
+<lb/>clouds now from North &amp; North <choice><abbr>E</abbr><expan>East</expan></choice> - .57</item>
+<lb/><item><add place="marginleft"><date when="1867-01-24">24<hi rend="sup underline">th</hi></date></add> Began at 5 AM with thunder <space extent="10" unit="chars"/> .6</item>
+<lb/><item><add place="marginleft"><date when="1867-01-24"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> after Sunset with thunder -
+<lb/><placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> Movushi</geogName></placeName> near <placeName><geogName type="river">Chambeze</geogName></placeName> <space extent="6" unit="chars"/><hi rend="underline">.23</hi></item>
+<lb/><item>Up to <date when="1867-01-25">25<hi rend="sup">th</hi></date> <space extent="13" unit="chars"/>Inches 11.35</item></list></seg></p>
+<lb/><p>Note the <add place="below">˄</add> <seg type="weather"><add place="above">rain</add> clouds</seg> on the <placeName><region>South side</region></placeName>
+<lb/>of the highest part of the range which
+<lb/>separates the <placeName><geogName type="river">Loangwa</geogName></placeName> from the <placeName><geogName type="river">Chambeze</geogName></placeName>
+<lb/>valleys came generally from the West
+<lb/>on the <placeName><region>North side</region></placeName> from North-Nor East
+<lb/>&amp; East</p>
+<lb/><milestone unit="section" rend="double-line"/>
+
+<pb facs="liv_000019_0383.jpg" n="0383"/>
+<lb/><p><add place="margintop" rend="gray right" hand="#U"><fw n="377">377</fw></add>  
+<lb/><add place="marginleft"><date when="1867-02">1867 <lb/><choice><abbr>Feb</abbr><expan>February</expan></choice></date></add> <seg type="weather"><list><head rend="center">Rainfall in <date when="1867-02">February 1867</date></head>
+<lb/><item><add place="marginleft"><date when="1867-02-01">1<hi rend="sup underline">st</hi></date></add> At <placeName><settlement type="village">Molemba</settlement></placeName> <choice><abbr>vil</abbr><expan>village</expan></choice> of <persName>chitapangwa</persName> = <placeName><region>Lobemba</region></placeName> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> morning .10</item>
+<lb/><item><add place="marginleft"><date when="1867-02-02">2<hi rend="sup underline">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> with <choice><abbr>T.</abbr><expan>Thunder</expan></choice> (thunder) all night <space extent="16" unit="chars"/>1.4</item>
+<lb/><item><add place="marginleft"><date when="1867-02-03">3<hi rend="sup underline">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="9" unit="chars"/>In night<space extent="16" unit="chars"/> .14</item>
+<lb/><item><add place="marginleft"><date when="1867-02-04">4</date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> from East 9 AM till noon <space extent="8" unit="chars"/>.43</item>
+<lb/><item><space extent="10" unit="chars"/><choice><abbr>T</abbr><expan>Thunder</expan></choice> - - 3 PM <space extent="16" unit="chars"/>.54</item>
+<lb/><item><add place="marginleft"><date when="1867-02-05">5<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> Steady pour down - 6 AM clouds from <choice><abbr>W</abbr><expan>West</expan></choice> - <space extent="8" unit="chars"/>.63</item>
+<lb/><item><add place="marginleft"><date when="1867-02-06">6</date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> night <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="30" unit="chars"/> .10</item>
+<lb/><item><add place="marginleft"><date when="1867-02-06">-</date></add> - - 3 PM <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="28" unit="chars"/>.29</item>
+<lb/><item><add place="marginleft"><date when="1867-02-07">7<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> 1 PM <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="28" unit="chars"/>.7</item>
+<lb/><item><add place="marginleft"><date when="1867-02-08">8<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> Early morning <space extent="27" unit="chars"/>.20</item>
+<lb/><item><add place="marginleft"><date when="1867-02-09">9<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> 1 to 2 PM - violent <choice><abbr>T</abbr><expan>Thunder</expan></choice> storms from <choice><abbr>W</abbr><expan>West</expan></choice> - <space extent="3" unit="chars"/> .63</item>
+<lb/><item><add place="marginleft"><date when="1867-02-10">10</date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> 4 &amp; 5 PM - violent <choice><abbr>T.</abbr><expan>Thunder</expan></choice> storms from <choice><abbr>W</abbr><expan>West</expan></choice>  <space extent="3" unit="chars"/>.62</item>
+<lb/><item><add place="marginleft"><date when="1867-02-11">11.</date></add> - - gently first part of night &amp; early morning <space extent="2" unit="chars"/> .23</item>
+<lb/><item><add place="marginleft"><date when="1867-02-12">12</date></add> - - gently in night <space extent="28" unit="chars"/>.3</item>
+<lb/><item><add place="marginleft"><date when="1867-02-13">13</date></add> - - gently by night no rain by day <space extent="8" unit="chars"/> .10</item>
+<lb/><item><add place="marginleft"><date when="1867-02-14">14</date></add> - - No rain for 24 hours - 12 hours
+<lb/>never passes without Thunder near or distant</item>
+<lb/><item><add place="marginleft"><date when="1867-02-15">15<hi rend="sup underline">th</hi></date></add> - - by night <space extent="35" unit="chars"/>.7</item>
+<lb/><item><add place="marginleft"><date when="1867-02-16">16<hi rend="sup">th</hi></date></add> - - Most of the night <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="15" unit="chars"/> 2.42</item>
+<lb/><item><add place="marginleft"><date when="1867-02-17">17<hi rend="sup">th</hi></date></add> - - Early morning - till noon with <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="8" unit="chars"/>.33</item>
+<lb/><item><add place="marginleft"><date when="1867-02-18">18<hi rend="sup">th</hi></date></add> - - 3 - P-M- &amp; frequently during night with <hi rend="underline"><choice><abbr>T</abbr><expan>Thunder</expan></choice> - 1.65</hi></item>
+<lb/><item><add place="marginleft"><date when="1867-02-19">19</date></add> Total at <placeName><settlement type="village">Molemba</settlement></placeName> up to morning of <date when="1867-02-19">19<hi rend="sup underline">th</hi></date> 9.62</item>
+<lb/><item><add place="marginleft"><date when="1867-02-20">20<hi rend="sup underline">th</hi></date></add> Early morning (<placeName><settlement type="village">Molemba</settlement></placeName>) <space extent="16" unit="chars"/>.66</item>
+<lb/><item><add place="marginleft"><date when="1867-02-21">21<hi rend="sup">st</hi></date></add> 4' <choice><abbr>NW.</abbr><expan>North West</expan></choice> of <placeName><settlement type="village">Molemba</settlement></placeName> - 9 - PM - with loud <choice><abbr>T.</abbr><expan>Thunder</expan></choice> &amp; <choice><abbr> E</abbr><expan>Early</expan></choice> morning .65</item>
+<lb/><item><add place="marginleft"><date when="1867-02-22">22</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 2 AM with <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="30" unit="chars"/>.16</item>
+<lb/><item><add place="marginleft"><date when="1867-02-23">23</date></add> <placeName><geogName type="rivulet">Merungu <choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice></geogName></placeName> - Noon <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="26" unit="chars"/>.8</item>
+<lb/><item><add place="marginleft"><date when="1867-02-24">24</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - no rain here but thunder all around</item>
+<lb/><item><add place="marginleft"><date when="1867-02-25">25<hi rend="sup underline">th</hi></date></add> <placeName><geogName type="rivulet">Merenge <choice><abbr>Rt.</abbr><expan>Rivulet</expan></choice></geogName></placeName> no rain in camp but heavy
+<lb/>shower in village <measure>200 <choice><abbr>yds</abbr><expan>yards</expan></choice> distant</measure></item>
+<lb/><item><add place="marginleft"><date when="1867-02-26">26<hi rend="sup">th</hi></date></add> <placeName><geogName type="rivulet">Merenge <choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice></geogName></placeName> - In night - gently <space extent="20" unit="chars"/>.13</item>
+<lb/><item><add place="marginleft"><date when="1867-02-27">27</date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> in night - <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="22" unit="chars"/>.8</item>
+<lb/><item><add place="marginleft"><date when="1867-02-28">28<hi rend="sup underline">th</hi></date></add> Noon <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="40" unit="chars"/> .13</item>
+<lb/><item><add place="marginleft"><date when="1867-02"><gap reason="illegible" extent="3" unit="chars"/><!-- date obscured by curve of page --></date></add> during night of same <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="30" unit="chars"/> <hi rend="underline">.14</hi><!-- this underlining extends leftwards about 2 characters AM --></item>
+<lb/><item>Rainfall in <date when="1867-02">February</date> in <placeName><region>Lobemba</region></placeName> = 11.65</item></list></seg>
+<lb/><milestone unit="section" rend="double-line"/></p>
+
+<pb facs="liv_000019_0384.jpg" n="0384"/>
+<lb/><p><add place="margintop" rend="gray left" hand="#U"><fw n="378">378</fw></add>  
+<lb/><seg type="weather"><list><head rend="center">Rainfall in <date when="1867-03">March</date></head>
+<lb/><item><add place="marginleft"><date when="1867-03-01"> 1<hi rend="sup underline">st</hi> <lb/>March <lb/>1867</date></add> <placeName><geogName type="river">River Loombe</geogName></placeName> evening &amp; night <choice><abbr><hi rend="underline">w</hi> T</abbr><expan>with Thunder</expan></choice> <space extent="8" unit="chars"/>.92</item>
+<lb/>
+<lb/><item><add place="marginleft"><date when="1867-03-03">3<hi rend="sup">d</hi></date></add> 1 PM <choice><abbr>T</abbr><expan>Thunder</expan></choice> &amp; early part of night <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="10" unit="chars"/>.75</item>
+<lb/><item><add place="marginleft"><date when="1867-03-04">4<hi rend="sup">th</hi></date></add> <date when="1867-03-04">4<hi rend="sup">th</hi></date> no rain</item>
+<lb/><item><add place="marginleft"><date when="1867-03-05">5</date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto </expan></choice></item>
+<lb/><item><add place="marginleft"><date when="1867-03-06">6<hi rend="sup">th</hi></date></add> morning gentle shower during
+<lb/>night considerable rain but it must
+<lb/>have been spilt as rain gauge <choice><orig>shewed</orig><reg>showed</reg></choice> only <space extent="3" unit="chars"/>.8</item>
+<lb/><item><add place="marginleft"><date when="1867-03-07">7<hi rend="sup">th</hi></date></add> no rain</item>
+<lb/><item><add place="marginleft"><date when="1867-03-08">8<hi rend="sup">th</hi></date></add> 2 &amp; 3 PM - <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="30" unit="chars"/>.85</item>
+<lb/><item><add place="marginleft"><date when="1867-03-09">9<hi rend="sup">th</hi></date></add> 10 &amp; at Noon <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> loud <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="20" unit="chars"/>1.37</item>
+<lb/><item><add place="marginleft"><date when="1867-03-11">11<hi rend="sup">th</hi></date></add> Noon <choice><abbr>T</abbr><expan>Thunder</expan></choice> very loud &amp; heavy rain<space extent="10" unit="chars"/>1.11</item>
+<lb/><item><add place="marginleft"><date when="1867-03-12">12<hi rend="sup">th</hi></date></add> 7 AM gently <space extent="30" unit="chars"/>.40</item>
+<lb/><item><add place="marginleft"><date when="1867-03-18">18<hi rend="sup underline">th</hi></date></add> shower <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> only wet the ground</item>
+<lb/><item><add place="marginleft"><date when="1867-03-21">21<hi rend="sup">st</hi></date></add> <placeName><settlement type="village"><persName>Kasouso</persName>'s village</settlement></placeName> 4 PM <choice><abbr>T</abbr><expan>Thunder</expan></choice> &amp; at night<space extent="5" unit="chars"/>.43</item>
+<lb/><item><add place="marginleft"><add place="below">^</add> <date when="1867-03-24">24<hi rend="sup">th</hi></date></add> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="40" unit="chars"/>.26</item>
+<lb/><item><add place="marginleft"><date when="1867-03-27">27</date></add> 1 PM - <choice><abbr>T</abbr><expan>Thunder</expan></choice> &amp; at night<space extent="20" unit="chars"/>.45</item>
+<lb/><item><add place="marginleft"><date when="1867-04-04">4 April</date></add> <placeName><geogName type="lake">Lake Liemba</geogName></placeName> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="24" unit="chars"/>.27</item>
+<lb/><item><add place="marginleft"><date when="1867-04-07">7<hi rend="sup">th</hi></date></add> Early morning gentle rain <space extent="8" unit="chars"/>1.54</item>
+<lb/><item><add place="marginleft"><date when="1867-04-09">9<hi rend="sup underline">th</hi></date></add> with <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="38" unit="chars"/>.32</item>
+<lb/><item><add place="marginleft"><date when="1867-04-12">12<hi rend="sup">th</hi></date></add> Early morning <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="20" unit="chars"/><supplied cert="high">.</supplied>22
+<lb/>a shower fell later but did not ----<!-- there is a number hidden at the very edge of the page, ks -->
+<lb/>wet the soil -<space extent="22" unit="chars"/>8.97</item>
+<lb/><item>Total rainfall in <date when="1867-03">March</date> and part
+<lb/>of <date when="1867-04">April</date> - all agreed beforehand that
+<lb/>the rains would cease in <date when="1867-04">April</date></item></list></seg>
+<lb/><seg type="weather"><list><item>Part of <date when="1866-10">October</date> &amp; <date when="1866-11">November</date> <space extent="12" unit="chars"/>3.55</item>
+<lb/><item><space extent="12" unit="chars"/><date when="1866-12">December</date> <space extent="20"/>6.67</item>
+<lb/><item><space extent="12" unit="chars"/><date when="1867-01">January</date> <space extent="23"/>11.55</item>
+<lb/><item><space extent="12" unit="chars"/><date when="1867-02">February</date> <space extent="23"/>11.65</item>
+<lb/><item><space extent="12" unit="chars"/><date when="1867-03">March</date> &amp; part of <date when="1867-04">April</date> <space extent="6"/><hi rend="underline">8.97</hi><!-- underlining here extends leftwards by one character AM --></item>
+<lb/><item>Total Rain fall in <date from="1866" to="1867">1866-7</date> - === 42.39</item></list></seg>
+<lb/><lb/><milestone unit="section" rend="double-line"/>
+<lb/><date from="1866-10" to="1866-12"><choice><abbr>Oct - Nov - Dec<hi rend="sup">r</hi></abbr><expan>October - November - December</expan></choice></date> 10.22 or <unclear cert="medium"><choice><orig>¼</orig><reg>1/4</reg></choice></unclear> while -<!-- the dash here is encircled AM --> was going South.
+<lb/><date from="1867-01" to="1867-04"><choice><abbr>Jan - Feb</abbr><expan>January - February</expan></choice> - March &amp; April</date> 32.17 <choice><orig>¾</orig><reg>3/4</reg></choice> - <!-- an illegible character within a circle AM --> coming North</p>
+
+
+<pb facs="liv_000019_0385.jpg" n="0385"/>
+<lb/><p><add place="margintop" rend="gray right" hand="#U"><fw n="379">379</fw></add>  
+<lb/><seg type="weather"><list><head rend="center">Rainfall in <date from="1867" to="1868">1867-8</date></head>
+<lb/><item><add place="marginleft"><date when="1867-10-01">1867 <lb/>1<hi rend="sup">st</hi> <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice></date></add> <placeName><geogName type="rivulet">Kamosenga <choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice></geogName></placeName> = <placeName><region>Lopere</region></placeName> - clouded all over - thunder
+<lb/>in distance - a few drops of rain fell - this was the
+<lb/>first since <date when="1867-05-12">12<hi rend="sup underline">th</hi> May</date></item>
+<lb/><item><add place="marginleft"><date when="1867-10-02">2<hi rend="sup underline">d</hi></date></add> <placeName><settlement type="village"><choice><abbr>vil</abbr><expan>village</expan></choice> of <persName>Karungu</persName></settlement></placeName> - in <placeName><region>Lopere</region></placeName> - Thunder in distance
+<lb/>and probably showers</item>
+<lb/><item><add place="marginleft"><date when="1867-10-03">3<hi rend="sup">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi>.</abbr><expan>Ditto</expan></choice> 4 AM - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - slight shower not enough to lay dust
+<lb/>3 PM a few heavy drops</item>
+<lb/><item><add place="marginleft"><date when="1867-10-04">4<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> in <choice><abbr>NNW.</abbr><expan>North North West</expan></choice> clouded over - clouds - lower stratum
+<lb/>from <choice><abbr>N</abbr><expan>North</expan></choice> - Upper stratum from <choice><abbr>S</abbr><expan>South</expan></choice> - when they meet turn
+<lb/>round &amp; round <figure><figDesc>five arrows delineating a spiral motion</figDesc></figure> 4.30 PM a shower <choice><abbr>T.</abbr><expan>Thunder</expan></choice><space extent="3" unit="chars"/>.27</item>
+<lb/><item><add place="marginleft"><date when="1867-10-05">5<hi rend="sup">th</hi></date></add> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> early morning &amp; 11 AM to 4 PM -<space extent="10" unit="chars"/>.47</item>
+<lb/><item><add place="marginleft"><date when="1867-10-06">6<hi rend="sup">th</hi></date></add> gentle rain during night -<space extent="16" unit="chars"/>.4</item>
+<lb/><item><add place="marginleft"><del type="cancelled"><date when="1867-10-22">22<hi rend="sup underline">d</hi></date></del></add> Thundering often all around but only a few
+<lb/>drops of rain fell - not enough to wet the soil -
+<lb/>this from <date when="1867-10-06">6<hi rend="sup underline">th</hi></date> but on the</item>
+<lb/><item><add place="marginleft"><date when="1867-10-22">22<hi rend="sup">d</hi></date></add> 2 PM <choice><abbr>T.</abbr><expan>Thunder</expan></choice> laid the dust</item>
+<lb/><item><add place="marginleft"><date when="1867-10-24">24</date></add> 3 PM <space extent="40" unit="chars"/>.3</item>
+<lb/><item><add place="marginleft"><date when="1867-10-27">27</date></add> Moving in <placeName><region>Lopere</region></placeName> gentle drizzling shower <space extent="6" unit="chars"/>.7</item>
+<lb/><item><add place="marginleft"><date when="1867-10-29">29<hi rend="sup">th</hi></date></add> <choice><abbr>T</abbr><expan>Thunder</expan></choice> 3 PM - <placeName><geogName type="river">Choma <choice><abbr>R.</abbr><expan>River</expan></choice></geogName></placeName> <space extent="25" unit="chars"/><hi rend="underline">.22</hi><!-- underlining here extends leftwards about 3 characters AM --></item>
+<lb/><item>Rain fall in <date when="1867-10">October 1867</date> in <placeName><region>Lopere</region></placeName> === 1.10</item></list></seg>
+<lb/><lb/><milestone unit="section" rend="double-line"/></p>
+<lb/><p><seg type="weather"><list><head rend="center"><date when="1867-11">November 1867.</date></head><item><add place="marginleft"><date when="1867-11-01"><add place="above">1867</add> 1<hi rend="sup">st</hi></date></add> gentle shower = .7</item>
+<lb/><item><add place="marginleft"><date when="1867-11-03">3<hi rend="sup underline">d</hi></date></add> <placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> Luao</geogName></placeName> 2 - AM - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="25" unit="chars"/>.30</item>
+<lb/><item><add place="marginleft"><date when="1867-11-07">7<hi rend="sup underline">th</hi></date></add> <placeName><settlement type="village">Kabuire</settlement></placeName> 6 AM <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="25" unit="chars"/>.18</item>
+<lb/><item><add place="marginleft"><date when="1867-11-08">8<hi rend="sup">th</hi></date></add> <placeName><geogName type="lake">Lake Moero</geogName></placeName> - <placeName><settlement type="village"><persName>chiputa</persName>'s <choice><abbr>vil.</abbr><expan>village</expan></choice></settlement></placeName> <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="16" unit="chars"/>.8</item>
+<lb/><item><add place="marginleft"><date when="1867-11-09">9<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> 4 AM <space extent="27" unit="chars"/>.10</item>
+<lb/><item><add place="marginleft"><date when="1867-11-11">11<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> <space extent="30" unit="chars"/>.12</item>
+<lb/><item><add place="marginleft"><date when="1867-11-13">13<hi rend="sup underline">th</hi></date></add> <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> - Kalongosi</geogName></placeName> 7 AM - &amp; 1 PM - <choice><abbr>T</abbr><expan>Thunder</expan></choice> the first
+<lb/>really heavy shower - Rain will turn now
+<lb/>from partial to general <space extent="18" unit="chars"/>.78</item>
+<lb/><item><add place="marginleft"><date when="1867-11-15">15<hi rend="sup underline">th</hi></date></add> <placeName><region><persName>Casembe</persName>'s country</region></placeName> 2 AM <choice><abbr>T</abbr><expan>Thunder</expan></choice> - much <space extent="20" unit="chars"/>.58</item>
+<lb/><item><date when="1867-11-15"><choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice></date> drizzling forenoon <space extent="25" unit="chars"/>.8</item>
+<lb/><item><add place="marginleft"><date when="1867-11-16">16<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night <space extent="30" unit="chars"/>.22</item>
+<lb/><item><add place="marginleft"><date when="1867-11-17">17<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 6 PM &amp; night <space extent="22" unit="chars"/><hi rend="underline">1.44</hi><!-- underlining here extends leftwards about 2 characters AM --></item>
+<lb/><item><space extent="44" unit="chars"/>3<supplied cert="high">.</supplied>95</item></list></seg><add place="below">Turn over</add></p>
+
+<pb facs="liv_000019_0386.jpg" n="0386"/>
+<lb/><p><add place="margintop" rend="gray left" hand="#U"><fw n="380">380</fw></add>  
+<lb/><seg type="weather"><list><item><add place="marginleft"><date when="1867">1867</date></add> Brought forward - Rain fall in <date from="1867-11-01" to="1867-11-17">November up to 17<hi rend="sup">th</hi>
+<lb/>November</date> <space extent="48" unit="chars"/>3.95</item>
+<lb/><item><add place="marginleft"><date when="1867-11-19">19<hi rend="sup">th</hi></date></add> <placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> Chungu</geogName></placeName> - Noon till 4 PM <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="14" unit="chars"/>.90</item>
+<lb/><item><add place="marginleft"><date when="1867-11-21">21<hi rend="sup">st</hi></date></add> <placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> Lunde</geogName></placeName> 7 AM <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="19" unit="chars"/><supplied cert="high">.</supplied>15</item>
+<lb/><item><add place="marginleft"><date when="1867-11-26">26<hi rend="sup underline">th</hi></date></add> <placeName><settlement type="town">Town of <persName>Casembe</persName></settlement></placeName> on <placeName><geogName type="lakelet">Lakelet Mofwe</geogName></placeName> 3 PM <choice><abbr>T</abbr><expan>Thunder</expan></choice> - .7</item>
+<lb/><item><add place="marginleft"><date when="1867-11-27">27<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 7 AM <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="30" unit="chars"/>.36</item>
+<lb/><item><add place="marginleft"><date when="1867-11-29">29<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 2-6 AM <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="32" unit="chars"/>2.53</item>
+<lb/><item><add place="marginleft"><date when="1867-11-30">30<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5 PM <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="33" unit="chars"/><hi rend="underline">.23</hi><!-- underlining here extends leftwards about 3 characters AM --></item>
+<lb/><item>Total rain fall in <date when="1867-11">November</date> <space extent="8" unit="chars"/>8.19</item></list></seg></p>
+<lb/><milestone unit="section" rend="double-line"/>
+<lb/><p><seg type="weather"><list><head rend="center"><date when="1867-12">December 1867.</date></head>
+<lb/><item><add place="marginleft"><date when="1867-12-01">1<hi rend="sup underline">st</hi></date></add> <placeName><settlement type="town"><persName>Casembe</persName>'s town</settlement></placeName> on <placeName><geogName type="lakelet">Mofwe</geogName></placeName> 11 AM <choice><abbr>T</abbr><expan>Thunder</expan></choice> from <choice><abbr>E</abbr><expan>East</expan></choice> .93</item>
+<lb/><item><add place="marginleft"><date when="1867-12-06">6<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4 to 5 PM - <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="26" unit="chars"/>.40</item>
+<lb/><item><add place="marginleft"><date when="1867-12-08">8<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> evening &amp; night (gently) <space extent="20" unit="chars"/>.25</item>
+<lb/><item><add place="marginleft"><date when="1867-12-10">10<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> morning <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="24" unit="chars"/>.4</item>
+<lb/><item><add place="marginleft"><date when="1867-12-12">12<hi rend="sup underline">th</hi></date></add> <!-- bracket in front of this and corresponding line below --><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night before <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="24" unit="chars"/>.9</item>
+<lb/><item><add place="marginleft"><date when="1867-12-12"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> noon <choice><abbr>T.</abbr><expan>Thunder</expan></choice> .8 <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> 4 to 5 PM .53 = <space extent="4" unit="chars"/>.61</item>
+<lb/><item><add place="marginleft"><date when="1867-12-13">13<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 6 - 9 AM <space extent="29" unit="chars"/>.29</item>
+<lb/><item><add place="marginleft"><date when="1867-12-14">14<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> during night <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="26" unit="chars"/>.29</item>
+<lb/><item><add place="marginleft"><date when="1867-12-15">15<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> night <choice><abbr>T</abbr><expan>Thunder</expan></choice> - from <choice><abbr>W</abbr><expan>West</expan></choice> - <space extent="20" unit="chars"/>.16</item>
+<lb/><item><add place="marginleft"><date when="1867-12-16">16<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> night <choice><abbr>T.</abbr><expan>Thunder</expan></choice> 6 AM to 12 - <space extent="21" unit="chars"/>1.63</item>
+<lb/><item><add place="marginleft"><date when="1867-12-16"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5 - 6 PM from <choice><abbr>W</abbr><expan>West</expan></choice> - <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="18" unit="chars"/>.81</item>
+<lb/><item><add place="marginleft"><date when="1867-12-18">18<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 8 to 10 AM <choice><abbr>T.</abbr><expan>Thunder</expan></choice> from <choice><abbr>N</abbr><expan>North</expan></choice> - <space extent="18" unit="chars"/>.39</item>
+<lb/><item><add place="marginleft"><date when="1867-12-20">20<hi rend="sup underline">th</hi></date></add> <!-- bracket in front of this and corresponding line below --><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3 &amp; 4 PM <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <choice><abbr>N</abbr><expan>North</expan></choice> - <space extent="24" unit="chars"/>.66</item>
+<lb/><item><add place="marginleft"><date when="1867-12-20"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5 - 7 PM <choice><abbr>T</abbr><expan>Thunder</expan></choice> <choice><abbr>W</abbr><expan>West</expan></choice> - <space extent="24" unit="chars"/>.89</item>
+<lb/><item><add place="marginleft"><date when="1867-12-24">24<hi rend="sup underline">th</hi></date></add> <!-- bracket in front of this and corresponding line below --><placeName><geogName type="rivulet">Chungu <choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice></geogName></placeName> - night <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="24" unit="chars"/>.34</item>
+<lb/><item><add place="marginleft"><date when="1867-12-24"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> drizzling showers <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="24" unit="chars"/>.9</item>
+<lb/><item><add place="marginleft"><date when="1867-12-25">25<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> morning <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="27" unit="chars"/>.5</item>
+<lb/><item><add place="marginleft"><date when="1867-12-27">27<hi rend="sup underline">th</hi></date></add> <placeName><geogName type="rivulet">Mandapala <choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice></geogName></placeName> 3 - 5 PM <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="15" unit="chars"/>.33</item>
+<lb/><item><add place="marginleft"><date when="1867-12-31">31<hi rend="sup">st</hi></date></add> <placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> Kabukwa</geogName></placeName> 3 - 5 PM <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="15" unit="chars"/><hi rend="underline">.93</hi><!-- underlining here extends leftwards about 2 characters AM --></item><item><add place="below">9.18</add></item>
+<lb/><item>Many showers fall which keep the
+<lb/>soil wet but <choice><orig>shew</orig><reg>show</reg></choice> nothing in the measure
+<lb/>total rain fall in <date when="1867-12"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date> in <placeName><region><persName>Casembe</persName>'s country</region></placeName> 9<add place="above"><choice><abbr>in</abbr><expan>inches</expan></choice></add>.18</item></list></seg>
+<lb/><lb/><milestone unit="section" rend="double-line"/></p>
+
+<pb facs="liv_000019_0387.jpg" n="0387"/>
+<lb/><p><add place="margintop" rend="gray right" hand="#U"><fw n="381">381</fw></add>  
+<lb/><seg type="weather"><list><head rend="center">Rainfall in <date when="1868-01">January 1868</date></head>
+<lb/><item><add place="marginleft"><date when="1868-01-03">3 <choice><abbr>Jany</abbr><expan>January</expan></choice></date></add> at <placeName><geogName type="rivulet">Kifurwa <choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice></geogName></placeName> - <placeName><region><persName>Kasembe</persName>'s country</region></placeName> 2 PM <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="5" unit="chars"/>.8</item>
+<lb/><item><add place="marginleft"><date when="1868-01-04">4<hi rend="sup underline">th</hi></date></add> night <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="30" unit="chars"/>1.58</item>
+<lb/><item><add place="marginleft"><date when="1868-01-05">5<hi rend="sup">th</hi></date></add> night <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="30" unit="chars"/>1.25</item>
+<lb/><item><add place="marginleft"><date when="1868-01-10">10<hi rend="sup underline">th</hi></date></add> <placeName><settlement type="village"><persName>Karembwe</persName>'s</settlement></placeName> <placeName><geogName type="lake">Moero</geogName></placeName> - night <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="15" unit="chars"/>1.14</item>
+<lb/><item><add place="marginleft"><date when="1868-01-12">12<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> early night &amp; morning <choice><abbr>W</abbr><expan>West</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> and noon <space extent="5" unit="chars"/>4.12</item>
+<lb/><item><add place="marginleft"><date when="1868-01-13">13</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night <space extent="30" unit="chars"/>.69</item>
+<lb/><item><add place="marginleft"><date when="1868-01-14">14<hi rend="sup underline">th</hi></date></add> Raining all day on <placeName><geogName type="mountains">Rua <choice><abbr>M<hi rend="sup">ts</hi></abbr><expan>Mountains</expan></choice></geogName></placeName> but drizzling showers
+<lb/>only on the East of <placeName><geogName type="lake">Moero</geogName></placeName> -</item>
+<lb/><item><add place="marginleft"><date when="1868-01-21"><w><supplied cert="high">2</supplied>1<hi rend="sup underline">st</hi></w></date></add> at <placeName><settlement type="village">Kabwakwa village</settlement></placeName> on <placeName><geogName type="rivulet">Kakoma <choice><abbr>Rt</abbr><expan>Rivulet</expan></choice></geogName></placeName> -
+<lb/>4 - 5 PM - <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - and night<space extent="20" unit="chars"/>.84</item>
+<lb/><item><add place="marginleft"><date when="1868-01-22">22<hi rend="sup">nd</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T.</abbr><expan>Thunder</expan></choice><space extent="30" unit="chars"/>.5</item>
+<lb/><item><add place="marginleft"><date when="1868-01-29">29<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3-30 PM to 5 PM <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="20" unit="chars"/>.39</item>
+<lb/><item><add place="marginleft"><date when="1868-01-30"><w><supplied cert="high">3</supplied>0<hi rend="sup underline">th</hi></w></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4-5 PM - <choice><abbr>SW</abbr><expan>South West</expan></choice> - <choice><abbr>T.</abbr><expan>Thunder</expan></choice><space extent="25" unit="chars"/>.70</item>
+<lb/><item><add place="marginleft"><date when="1868-01-31"><w><supplied cert="high">3</supplied>1<hi rend="sup underline">st</hi></w></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 4-5 PM <choice><abbr>S-W-</abbr><expan>South West</expan></choice> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="25" unit="chars"/><hi rend="underline">.35</hi><!-- underlining here extends leftwards about 3 characters AM --></item>
+<lb/><item>Total Rainfall of <date when="1868-01">January 1868</date> ==== <space extent="10" unit="chars"/>11.19</item></list></seg>
+<lb/><lb/><milestone unit="section" rend="double-line"/>
+<lb/><seg type="weather"><list><head rend="center">Rainfall of <date when="1868-02">February 1868</date> ----</head>
+<lb/><item><add place="marginleft"><date when="1868-02-05">5<hi rend="sup underline">th</hi></date></add> <placeName><settlement type="village">Kabwabuata <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - night <choice><abbr>N</abbr><expan>North</expan></choice> - <space extent="20" unit="chars"/>.7</item>
+<lb/><item><add place="marginleft"><date when="1868-02-06">6<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> early night <choice><abbr>N</abbr><expan>North</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="25" unit="chars"/>.10</item>
+<lb/><item><add place="marginleft"><date when="1868-02-08">8</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night <choice><abbr>N</abbr><expan>North</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="30" unit="chars"/>1.85</item>
+<lb/><item><add place="marginleft"><date when="1868-02-10">10<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 3-4 PM <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="32" unit="chars"/>.5</item>
+<lb/><item><add place="marginleft"><date when="1868-02-11">11<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 1-2 PM - <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="32" unit="chars"/>.55</item>
+<lb/><item><add place="marginleft"><date when="1868-02-13">13<hi rend="underline sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5 PM <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="32" unit="chars"/>.2</item>
+<lb/><item><add place="marginleft"><date when="1868-02-15"><w><supplied cert="high">1</supplied>5</w></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4 PM <choice><abbr>W</abbr><expan>West</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="32" unit="chars"/>.30</item>
+<lb/><item><add place="marginleft"><date when="1868-02-17">17<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Early morning <space extent="34" unit="chars"/>.14</item>
+<lb/><item><add place="marginleft"><date when="1868-02-18"><w><supplied cert="high">1</supplied>8<hi rend="sup underline">th</hi></w></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="30" unit="chars"/>.94</item>
+<lb/><item><add place="marginleft"><date when="1868-02-18">-</date></add> <choice><abbr>D<hi rend="sup">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice> Noon <space extent="34" unit="chars"/>.9</item>
+<lb/><item><add place="marginleft"><date when="1868-02-19"><w><supplied cert="high">1</supplied>9<hi rend="sup underline">th</hi></w></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 3-5 PM <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="32" unit="chars"/>.36</item>
+<lb/><item><add place="marginleft"><date when="1868-02-23"><w><supplied cert="high">2</supplied>3<hi rend="sup">d</hi></w></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - night <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="32" unit="chars"/>.10</item>
+<lb/><item><add place="marginleft"><date when="1868-02-24"><w><supplied cert="high">2</supplied>4<hi rend="sup underline">th</hi></w></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 7-9 AM <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="30" unit="chars"/><w><del type="cancelled">1</del>.39</w></item>
+<lb/><item><add place="marginleft"><date when="1868-02-24">-</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3-5 PM -  <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="30" unit="chars"/>1.36</item>
+<lb/><item><add place="marginleft"><date when="1868-02-24">-</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5-7 PM - <choice><abbr>E</abbr><expan>East</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="30" unit="chars"/>.22</item>
+<lb/><item><add place="marginleft"><date when="1868-02-27"><w><supplied cert="high">2</supplied>7<hi rend="underline sup">th</hi></w></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="30" unit="chars"/>.23</item>
+<lb/><item><add place="marginleft"><date when="1868-02-29"><w><supplied cert="high">2</supplied>9<hi rend="sup">th</hi></w></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5-6 AM - gently - <space extent="31" unit="chars"/><hi rend="underline">.49</hi><!-- underlining here extends leftwards about 2 characters AM --><add place="below">7.26</add></item>
+<lb/><item><add place="marginleft"><date when="1868-02-29">-</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3-5 PM - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="34" unit="chars"/><hi rend="underline">1.45</hi></item>
+<lb/><item>Total rainfall in <date when="1868-02">February 1868</date> <space extent="8" unit="chars"/>8.71</item></list></seg></p>
+
+<pb facs="liv_000019_0388.jpg" n="0388"/>
+<lb/><p><add place="margintop" rend="gray left" hand="#U"><fw n="382">382</fw></add>  
+<lb/><seg type="weather"><list><head rend="center underline">Rainfall in <date when="1868-03">March 1868</date></head>
+<lb/><item><add place="marginleft"><date when="1868-03-01">1<hi rend="sup underline">st</hi> March</date></add> at <choice><abbr>vil.</abbr><expan>village</expan></choice> <placeName><settlement type="village">Kabwabuata</settlement></placeName> on <placeName><geogName type="rivulet">Kakoma <choice><abbr>Rt</abbr><expan>Rivulet</expan></choice></geogName></placeName> - Early morning <choice><abbr>T</abbr><expan>Thunder</expan></choice> - .9</item>
+<lb/><item><add place="marginleft"><date when="1868-03-03">3<hi rend="sup">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night <choice><abbr>W</abbr><expan>West</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="35" unit="chars"/>.82</item>
+<lb/><item><add place="marginleft"><date when="1867-03-04">4<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 9 AM to 12 - <choice><abbr>S.W.T.</abbr><expan>South West Thunder</expan></choice> <space extent="20" unit="chars"/>1.50</item>
+<lb/><item><add place="marginleft">Note</add> It seldom rains 3 hours without ceasing</item>
+<lb/><item><add place="marginleft"><date when="1868-03-06">6<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3 P.M. <choice><abbr>E. T</abbr><expan>East Thunder</expan></choice> <space extent="24" unit="chars"/>.42</item>
+<lb/><item><add place="marginleft"><date when="1868-03-06">-</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="26" unit="chars"/>.21</item>
+<lb/><item><add place="marginleft"><date when="1868-03-07">7<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> During the night <space extent="19" unit="chars"/>1.64</item>
+<lb/><item><add place="marginleft"><date when="1868-03-10">10<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - night <space extent="24" unit="chars"/>.58</item>
+<lb/><item><add place="marginleft"><date from="1868-03-11" to="1868-01-13">11<hi rend="sup underline">th</hi> 12 - 13<hi rend="sup">th</hi></date></add> gentle showers but sufficient only to wet the ground</item>
+<lb/><item><add place="marginleft"><date when="1868-03-14">14<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4 PM - <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="24" unit="chars"/>.3</item>
+<lb/><item><add place="marginleft"><date when="1868-03-15">15<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3 PM - <choice><abbr>E - T -</abbr><expan>East Thunder</expan></choice> <space extent="24" unit="chars"/>.35</item>
+<lb/><item><add place="marginleft"><date when="1868-03-16">16<hi rend="sup underline">th</hi></date></add> <choice><abbr>vil</abbr><expan>village</expan></choice> <placeName><settlement type="village">Kapemba</settlement></placeName> in <unclear cert="medium"><placeName><settlement type="village">Kabuire</settlement></placeName></unclear> 3 PM - <choice><abbr>T- W-</abbr><expan>Thunder West</expan></choice><space extent="6" unit="chars"/>.6</item>
+<lb/><item><add place="marginleft"><date when="1868-03-19">19<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="25" unit="chars"/><choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="9" unit="chars"/>.7</item>
+<lb/><item><add place="marginleft"><date when="1868-03-25">25<hi rend="sup underline">th</hi></date></add> (Much and heavy rains reported at
+<lb/><add place="marginleft"><date when="1868-03-25">-</date></add> <placeName><settlement type="village">Kabwabwata</settlement></placeName> during our absence, probably 3 inches)
+<lb/><add place="marginleft"><date when="1868-03-25">-</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> morning - <choice><abbr>W</abbr><expan>West</expan></choice> - <space extent="6" unit="chars"/> <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="15" unit="chars"/>.43</item>
+<lb/><item><add place="marginleft"><date when="1868-03-26">26<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> during the night <space extent="26" unit="chars"/>3.82</item>
+<lb/><item><add place="marginleft"><date when="1868-03-27">27<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> gently now &amp; then all day <space extent="18" unit="chars"/>.14</item>
+<lb/><item><add place="marginleft"><date when="1868-03-29">29<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> early night <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="24" unit="chars"/><hi rend="underline">.69</hi><!-- underlining here extends leftwards about 4 characters AM --></item>
+<lb/><item><add place="marginleft"><placeName><settlement type="village">Kabuire</settlement></placeName></add> Rainfall in <date when="1868-03">March 1868</date> - (probably three inches more) 10.85</item></list></seg>
+<lb/><milestone unit="section" rend="line"/></p>
+<lb/><p><seg type="weather"><list><head rend="center underline">Rainfall in <date when="1868-04">April 1868</date> -</head>
+<lb/><item><add place="marginleft"><date when="1868-04-01">April 1<hi rend="sup underline">st</hi></date></add> <placeName><settlement type="village">Kabwabwata</settlement></placeName> - 4-5 PM - <choice><abbr>E - T -</abbr><expan>East Thunder</expan></choice> <space extent="6" unit="chars"/>.68</item>
+<lb/><item><add place="marginleft"><date when="1868-04-03">3<hi rend="sup">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4-5 P.M. <choice><abbr>N - T</abbr><expan>North Thunder</expan></choice> <space extent="18" unit="chars"/>.40</item>
+<lb/><item><add place="marginleft"><date when="1868-04-06">6<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4-5 PM <choice><abbr>N - T.</abbr><expan>North Thunder</expan></choice> <space extent="18" unit="chars"/>.20</item></list></seg></p></div>
+<!-- from this point the color fades; this is most pronounced over this & the next line then gradually seems to come back to the same brown as before; therefore I have created a separate division for the gray section AM -->
+
+			<div rend="gray">
+<lb/><p><seg type="weather"><list><item><add place="marginleft"><date when="1868-04-09">9<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5 PM <space extent="6" unit="chars"/><choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="18" unit="chars"/>.16</item>
+<lb/><item><add place="marginleft"><date when="1868-04-10">10<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 1 - 2 PM<space extent="4" unit="chars"/> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="19" unit="chars"/>.83</item>
+<lb/><item>This is said to be the first rains of <foreign xml:lang="und">Masika</foreign> because
+<lb/>the Thunder rolls or rumbles - <choice><abbr>E.</abbr><expan>East</expan></choice></item>
+<lb/><item><add place="marginleft"><date when="1868-04-10">10<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night <choice><abbr>E - T</abbr><expan>East Thunder</expan></choice> <space extent="22" unit="chars"/>.10</item>
+<lb/><item><add place="marginleft"><date when="1868-04-14">14<hi rend="sup underline">th</hi></date></add> <placeName><geogName type="river">Luao <choice><abbr>R.</abbr><expan>River</expan></choice></geogName></placeName> night &amp; morning <space extent="16" unit="chars"/>.45</item>
+<lb/><item><add place="marginleft"><date when="1868-04-15">15<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night <choice><abbr>W</abbr><expan>West</expan></choice> <space extent="23" unit="chars"/>.5</item>
+<lb/><item><add place="marginleft"><date when="1868-04-16">16</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> night <choice><abbr>E - T</abbr><expan>East Thunder</expan></choice> <space extent="21" unit="chars"/>.37</item>
+<lb/><item><add place="marginleft"><date when="1868-04-19">19<hi rend="sup underline">th</hi></date></add> Early morning = <placeName><geogName type="lake">Moero</geogName></placeName> <choice><abbr>E - T -</abbr><expan>East Thunder</expan></choice> <space extent="12" unit="chars"/>.5</item>
+<lb/><item><add place="marginleft"><date when="1868-04-19"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <placeName><geogName type="lake">Moero</geogName></placeName> = evening <choice><abbr>E - T</abbr><expan>East Thunder</expan></choice> <space extent="13" unit="chars"/>.27</item>
+<lb/><item><add place="marginleft"><date when="1868-04-21">21<hi rend="sup underline">st</hi></date></add> night <placeName><geogName type="lake">Moero</geogName></placeName> East side <choice><abbr>E T</abbr><expan>East Thunder</expan></choice> <space extent="13" unit="chars"/><hi rend="underline">.38</hi><!-- underlining here extends leftwards about 2 characters AM --></item>
+<lb/><item>Rain ceased on <date when="1868-04-21">21<hi rend="sup underline">st</hi> April</date> = Total in <date when="1868-04">April - 1868</date> 3.94<add place="below"><hi rend="underline">9</hi><!-- underlining here extends leftwards about 3 characters AM --><add place="below">4.03</add></add></item>
+<lb/><item><add place="marginleft"><date when="1868-05-20">20<hi rend="sup underline">th</hi> May</date></add> a thunder shower noon laid dust - <unclear cert="medium">say 4</unclear> East night = 9 = </item></list></seg></p>
+
+
+<pb facs="liv_000019_0389.jpg" n="0389"/>
+<lb/><p><add place="margintop" rend="gray right" hand="#U"><fw n="383">383</fw></add>  
+<lb/><seg type="weather"><list><item>Rainfall in <date when="1867-10">October 1867</date> <placeName><region><hi rend="underline">Lopere</hi> district</region></placeName> <space extent="8" unit="chars"/>1.10</item>
+<lb/><item>- - in <date when="1867-11">November</date> = <placeName><region>Lunda</region></placeName> = <placeName><settlement type="village"><persName>Cazembe</persName>'s</settlement></placeName> <space extent="6" unit="chars"/>8.19</item>
+<lb/><item>- - <date when="1867-12">December</date> <placeName><region>Lunda</region></placeName> - <placeName><settlement type="village"><persName>Cazembe</persName>'s</settlement></placeName> <space extent="6" unit="chars"/>9.18</item>
+<lb/><item>- - <date when="1868-01">January 1868</date> - <placeName><region>Lunda</region></placeName> &amp; <placeName><settlement type="village">Kabuire</settlement></placeName> <space extent="6" unit="chars"/>11.19</item>
+<lb/><item>- - <date when="1868-02">February</date> - <placeName><settlement type="village">Kabuire</settlement></placeName> <space extent="22" unit="chars"/>8.71</item>
+<lb/><item>- - <date when="1868-03">March</date> - <placeName><settlement type="village">Kabuire</settlement></placeName> <space extent="20" unit="chars"/>10.85</item>
+<lb/><item>- - <date when="1868-04">April</date> - <placeName><settlement type="village">Kabuire</settlement></placeName> <space extent="20" unit="chars"/><hi rend="underline">4.03</hi><!-- underlining here extends leftwards about 2 characters AM --></item>
+<lb/><item>Total Rain fall in <date from="1867" to="1868">1867-8</date> <space extent="12" unit="chars"/> Inches <hi rend="double-underline">53.25</hi></item></list></seg></p>
+<lb/><p><seg type="weather">In <date when="1867-10"><choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice></date> <date when="1867-11"><choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date> <date when="1867-12"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date> 18.47 = <choice><orig>⅓</orig><reg>1/3</reg></choice> ⊝ going South
+<lb/><milestone unit="double-line"/>
+<lb/><date when="1868-01"><choice><abbr>Jan</abbr><expan>January</expan></choice></date> - <date when="1868-02"><choice><abbr>Feb</abbr><expan>February</expan></choice></date> - <date when="1868-03"><choice><abbr>Mar</abbr><expan>March</expan></choice></date> - <date when="1868-04">April</date> - 34.78 <choice><orig>⅔</orig><reg>2/3</reg></choice> in ⊝ return</seg></p>
+<lb/><p><seg><list><head><hi rend="center">Rainfall in <date from="1868" to="1869">1868-69</date></hi></head>   
+<lb/><item><add place="marginleft"><date when="1868-08-29">August 29<hi rend="sup underline">th</hi></date></add> <foreign xml:lang="und">Kaskas</foreign> or hot season began <date when="1868-08-29">today</date> and
+<lb/>what is quite exceptional Rainfall began on the
+<lb/><date when="1868-08-31">31<hi rend="sup underline">st</hi></date> <placeName><settlement type="village">Kizinga</settlement></placeName> - centre of watershed 5 PM <choice><abbr>SE - T -</abbr><expan>South East Thunder</expan></choice> <space extent="6" unit="chars"/>1.80</item>
+<lb/><item><add place="marginleft"><date when="1868-09-02"><choice><abbr>Sept</abbr><expan>September</expan></choice> 2<hi rend="sup underline">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5 PM <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> <space extent="26" unit="chars"/>.73</item>
+<lb/><item><add place="marginleft"><date when="1868-09-04">4<hi rend="sup underline">th</hi></date></add> Winds on surface constantly <choice><abbr>SE -</abbr><expan>South East</expan></choice> Upper Strata 
+<lb/><choice><abbr>N - W - T</abbr><expan>North West Thunder</expan></choice> every evening in <choice><abbr>N - W -</abbr><expan>North West</expan></choice></item>
+<lb/><item><add place="marginleft"><date when="1868-09-26">26<hi rend="sup underline">th</hi></date></add> 5 PM <choice><abbr>SE - T -</abbr><expan>South East Thunder</expan></choice> slight shower</item>
+<lb/><item><add place="marginleft"><date when="1868-09-27">27</date></add> <unclear cert="medium"><placeName><geogName type="rivulet">Chulo <choice><abbr>R<hi rend="sup">t</hi>.</abbr><expan>Rivulet</expan></choice></geogName></placeName></unclear> <choice><abbr>W T</abbr><expan>West Thunder</expan></choice> 3 PM - <space extent="32" unit="chars"/>.28</item>
+<lb/><item><add place="marginleft"><date when="1868-09-30">30<hi rend="sup underline">th</hi></date></add> <placeName><geogName type="river">Lofubu</geogName></placeName> or <placeName><geogName type="river">Kafu</geogName></placeName> <choice><abbr>N - W - T</abbr><expan>North West Thunder</expan></choice> <space extent="30" unit="chars"/>.4</item>
+<lb/><item><add place="marginleft"><date when="1868-10-01"><choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1<hi rend="sup underline">st</hi></date></add> <placeName><geogName type="river">Lofubu</geogName></placeName> <choice><abbr>S E -</abbr><expan>South East</expan></choice> &amp; <choice><abbr>W - T</abbr><expan>West Thunder</expan></choice> <space extent="31" unit="chars"/>.16</item>
+<lb/><item><add place="marginleft"><date when="1868-10-02">2</date></add> <placeName><geogName type="river">Moisi</geogName></placeName> 6 PM - <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> <space extent="31" unit="chars"/>.5</item>
+<lb/><item><add place="marginleft"><date when="1868-10-15">15</date></add> <placeName><settlement type="village">Kasangole</settlement></placeName> 5 PM <choice><abbr>SE T</abbr><expan>South East Thunder</expan></choice> <space extent="29" unit="chars"/>.12</item>
+<lb/><item><add place="marginleft"><date when="1868-10-18">18</date></add> <placeName><geogName type="river">Katette</geogName></placeName> 1 PM <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> with a little hail - <space extent="10" unit="chars"/>.5</item>
+<lb/><item><add place="marginleft"><date when="1868-10-19">19<hi rend="sup underline">th</hi></date></add>  <placeName><geogName type="lake">Moero</geogName></placeName> - 6 PM <choice><abbr>T</abbr><expan>Thunder</expan></choice> laid dust only - </item>
+<lb/><item><add place="marginleft"><date when="1868-10-21">21<hi rend="sup underline">st</hi></date></add> at <placeName><settlement type="village"><persName>Muabo</persName>'s</settlement></placeName> midnight <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="27" unit="chars"/>.4</item>
+<lb/><item><add place="marginleft"><date when="1868-10-22">22</date> - </add> <placeName><settlement type="village">Kabwabwata</settlement></placeName> - noon <choice><abbr>NW - T</abbr><expan>North West Thunder</expan></choice> <space extent="24" unit="chars"/>.10</item>
+<lb/><item><add place="marginleft"><date when="1868-10-22"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 2 PM - <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice><space extent="32" unit="chars"/>.6</item>
+<lb/><item><add place="marginleft"><date when="1868-10-23">23<hi rend="sup underline">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4 PM - <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> laid dust</item>
+<lb/><item><add place="marginleft"><date when="1868-10-26">26<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 3 PM <choice><abbr>E - T</abbr><expan>East Thunder</expan></choice> scarcely laid dust</item>
+<lb/><item><add place="marginleft"><date when="1868-10-27">27</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3 PM <choice><abbr>S E T</abbr><expan>South East Thunder</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> </item>
+<lb/><item><add place="marginleft"><date when="1868-10-30">30<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 1-2 PM <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item>
+<lb/><item><add place="marginleft"><date when="1868-10-31">31<hi rend="sup underline">st</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 1 - PM <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> </item>
+<lb/><item>Total Rainfall in <date when="1868-10">October 1868</date> <choice><abbr></abbr><expan></expan></choice> <hi rend="right">3.33</hi><!-- heavy black line above extending leftwards to about 1/4 width of page AM --></item>
+<lb/><item>the rainfall in <placeName><settlement type="village">Kabuire</settlement></placeName> was less than
+<lb/>the above - the two showers at the top of
+<lb/>the list caused the grass to spring - at
+<lb/><placeName><settlement type="village">Kabuire</settlement></placeName> it has not started yet - thunder every afternoon</item></list></seg></p>
+
+
+<pb facs="liv_000019_0390.jpg" n="0390"/>
+<lb/><p><add place="margintop" rend="gray left" hand="#U"><fw n="384">384</fw></add>  
+<lb/><seg type="weather"><list><head>Rainfall in <date when="1868-11">November 1868</date></head> 
+<lb/><item><add place="marginleft"><date when="1868-11-01"><choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1<hi rend="sup">st</hi></date></add> <placeName><settlement type="village">Kabwabwata</settlement></placeName> 2 PM  <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> <space extent="6" unit="chars"/> laid dust only .3</item></list></seg></p></div>
+<!-- at this point he reverts to the default brownish color AM -->
+
+			<div rend="brown">
+<lb/><p><seg type="weather"><list><item><add place="marginleft"><date when="1868-11-06">6<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice> 2 &amp; 3 PM <choice><abbr>SE</abbr><expan>South East</expan></choice> - then round to <choice><abbr>NW</abbr><expan>North West</expan></choice> &amp; back to <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> <space extent="7" unit="chars"/>.2<unclear cert="medium">5</unclear></item>
+<lb/><item><add place="marginleft"><date when="1868-11-07">7<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 6 - 7 PM <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> <space extent="32" unit="chars"/>.2<unclear cert="medium">2</unclear></item>
+<lb/><item><add place="marginleft"><date when="1868-11-08">8<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 7 - 8 PM <choice><abbr>SE.</abbr><expan>South East</expan></choice> and <choice><abbr>E - T -</abbr><expan>East Thunder</expan></choice> loud &amp; near = &amp; morning .63</item>
+<lb/><item><add place="marginleft"><date when="1868-11-10">10<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 7 - 8 AM <choice><abbr>SE.</abbr><expan>South East</expan></choice> clouded over <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="15" unit="chars"/>.39</item>
+<lb/><item><add place="marginleft"><date when="1868-11-16">16<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 12 - 1 - <choice><abbr>SE -</abbr><expan>South East</expan></choice> then <choice><abbr>S - T -</abbr><expan>South Thunder</expan></choice> a little hail <space extent="8" unit="chars"/>.64</item>
+<lb/><item><add place="marginleft"><date when="1868-11-18">18<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 3 AM - <choice><abbr>S - E - T -</abbr><expan>South East Thunder</expan></choice> then clouds went <choice><abbr>S - W - N</abbr><expan>South West North</expan></choice> &amp; <choice><abbr>E.</abbr><expan>East</expan></choice> <unclear cert="medium">giving</unclear> few drops <gap reason="illegible" extent="2" unit="chars"/></item>
+<lb/><item><add place="marginleft"><date when="1868-11-19">19<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3 PM - <choice><abbr>S - E - T</abbr><expan>South East Thunder</expan></choice> short plump - <space extent="17" unit="chars"/>.<unclear cert="medium">4</unclear></item>
+<lb/><item><add place="marginleft"><date when="1868-11-21">21<hi rend="sup underline">st</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 1 - 2 PM - <choice><abbr>E - T</abbr><expan>East Thunder</expan></choice> <space extent="32" unit="chars"/>.58</item>
+<lb/><item><add place="marginleft"><date when="1868-11-22">22<hi rend="sup">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 2 - PM -  <choice><abbr>E</abbr><expan>East</expan></choice> round to <choice><abbr>N - W - T</abbr><expan>North West Thunder</expan></choice><space extent="20" unit="chars"/>.21</item>
+<lb/><item><add place="marginleft"><date when="1868-11-23">23<hi rend="sup">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 2 - PM <choice><abbr>E</abbr><expan>East</expan></choice> - laid dust only - <choice><abbr>T</abbr><expan>Thunder</expan></choice></item>
+<lb/><item><add place="marginleft"><date when="1868-11-24">24<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 2 - 3 PM <choice><abbr>S E.</abbr><expan>South East</expan></choice> and <choice><abbr>E - T -</abbr><expan>East Thunder</expan></choice> then <choice><abbr>W - T -</abbr><expan>West Thunder</expan></choice> little hail - <space extent="4" unit="chars"/>.66</item>
+<lb/><item><add place="marginleft"><date when="1868-11-26">26<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 6 PM <choice><abbr>S E -</abbr><expan>South East</expan></choice> &amp; <choice><abbr>NW</abbr><expan>North West</expan></choice> - clouds mixing <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="8" unit="chars"/>.47</item>
+<lb/><item><add place="marginleft"><date when="1868-11-27">27<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 7 AM - <choice><abbr>S E</abbr><expan>South East</expan></choice> &amp; <choice><abbr>NW</abbr><expan>North West</expan></choice> - 2 strata of clouds <space extent="9" unit="chars"/>.18</item>
+<lb/><item><add place="marginleft"><date when="1868-11-29">29<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Noon - <choice><abbr>E</abbr><expan>East</expan></choice> - round <choice><abbr>N - W - T</abbr><expan>North West Thunder</expan></choice> <space extent="16" unit="chars"/>.22</item>
+<lb/><item><add place="marginleft"><date when="1868-11-30">30<hi rend="sup underline">th</hi></date></add> cloudy &amp; damp from distant rains - slight drizzle here -- <add place="below">4.59</add></item>
+<lb/><item>Total rainfall at <placeName><settlement type="village">Kabwabwata</settlement></placeName> in <choice><abbr>Nov<hi rend="underline sup">r</hi></abbr><expan>November</expan></choice> = 4.59</item></list></seg></p>
+<lb/><p><seg type="weather"><list><head>Rainfall in <date when="1867-12">December 1868</date></head>     
+<lb/><item><add place="marginleft"><date when="1868-12-02">2<hi rend="sup underline">d</hi></date></add> <placeName><settlement type="village">Kabwabwata</settlement></placeName> 9 AM - <choice><abbr>SW</abbr><expan>South West</expan></choice> &amp; <choice><abbr>E - T</abbr><expan>East Thunder</expan></choice> <space extent="20" unit="chars"/>.13</item>
+<lb/><item><add place="marginleft"><date when="1868-12-03">3</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 1-2 AM <space extent="4" unit="chars"/><choice><abbr>SW</abbr><expan>South West</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="21" unit="chars"/>.81</item>
+<lb/><item><add place="marginleft"><date when="1868-12-03"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4 PM - <space extent="6" unit="chars"/><choice><abbr>N - W - T</abbr><expan>North West Thunder</expan></choice> <space extent="21" unit="chars"/>.15</item>
+<lb/><item><add place="marginleft"><date when="1868-12-04">4<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5 AM gently &amp; still <space extent="24" unit="chars"/>.8</item>
+<lb/><item><add place="marginleft">Note</add> Clouds generally from <choice><abbr>S - E -</abbr><expan>South East</expan></choice> less often from <choice><abbr>E.</abbr><expan>East</expan></choice>
+<lb/>when they go round to <choice><abbr>N -W</abbr><expan>North West</expan></choice> - rain falls - thunder
+<lb/>every day -</item>
+<lb/><item><add place="marginleft"><date when="1868-12-06">6<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 1 - 2 PM. <choice><abbr>E</abbr><expan>East</expan></choice> &amp; <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> <space extent="25" unit="chars"/>.14</item>
+<lb/><item><add place="marginleft"><date when="1868-12-07">7<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 7 - 8 AM <choice><abbr>SE</abbr><expan>South East</expan></choice> - <choice><abbr>T</abbr><expan>Thunder</expan></choice> a stratum of lower clouds from <choice><abbr>N - W -</abbr><expan>North West</expan></choice><unclear cert="low">.21</unclear></item>
+<lb/><item><add place="marginleft"><date when="1868-12-07">-</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 2 - 3 PM <choice><abbr>NW T</abbr><expan>North West Thunder</expan></choice> <space extent="25" unit="chars"/>.17</item>
+<lb/><item><add place="marginleft"><date when="1868-12-08">8<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4 PM - <choice><abbr>N - W - T -</abbr><expan>North West Thunder</expan></choice> <space extent="4" unit="chars"/> laid dust only</item>
+<lb/><item><add place="marginleft"><date when="1868-12-09">9<hi rend="sup">th</hi></date></add> Sky overcast - lower stratum from <choice><abbr>N - W -</abbr><expan>North West</expan></choice> 
+<lb/>Upper <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> from <choice><abbr>S - E - </abbr><expan>South East</expan></choice></item>
+<lb/><item><add place="marginleft"><date when="1868-12-12">12<hi rend="sup underline">th</hi></date></add> Camp at <unclear cert="medium"><placeName><settlement type="village">Kalela</settlement></placeName></unclear> 2 PM <choice><abbr>NWT</abbr><expan>North West Thunder</expan></choice> - <space extent="10" unit="chars"/>.61</item>
+<lb/><item><add place="marginleft"><date when="1868-12-13">13<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> began at midnight <choice><abbr>NWT</abbr><expan>North West Thunder</expan></choice> - drizzly all morning .98</item>
+<lb/><item><add place="marginleft"><date when="1868-12-14">14<hi rend="sup underline">th</hi></date></add> lower stratum of clouds <choice><abbr>NW</abbr><expan>North West</expan></choice> - Upper <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>SE</abbr><expan>South East</expan></choice> -</item>
+<lb/><item><add place="marginleft"><date when="1868-12-15">15<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> but hot &amp; sultry</item>
+<lb/><item><add place="marginleft"><date when="1868-12-15">15<hi rend="sup">th</hi></date></add> <placeName><region>Marungu</region></placeName> 6 - 7 PM <choice><abbr>NWT</abbr><expan>North West Thunder</expan></choice> - <space extent="10" unit="chars"/><hi rend="underline">.2<unclear cert="medium">4</unclear></hi> <!-- underlining here extends leftwards about 4 characters AM --><add place="below">3.56</add></item></list></seg></p>
+
+
+<pb facs="liv_000019_0391.jpg" n="0391"/>
+<lb/><p><add place="margintop" rend="gray right" hand="#U"><fw n="385">385</fw></add>  
+<lb/><seg type="weather"><list><head>Rainfall in <date when="1868-12">December</date> <hi rend="underline">continued</hi> <add place="above">up to <date when="1868-12-16">16<hi rend="sup underline">th</hi></date></add> 3.56</head>     
+<lb/><item><add place="marginleft"><date when="1868-12-16"><choice><abbr><w><supplied cert="high">D</supplied>ec<hi rend="sup">r</hi></w></abbr></choice> 16<hi rend="sup underline">th</hi></date></add> <placeName><region>Marungu</region></placeName> 6 PM <choice><abbr>NWT</abbr><expan>North West Thunder</expan></choice> <space extent="26" unit="chars"/>.10</item>
+<lb/><item><add place="marginleft"><date when="1868-12-18">18<hi rend="sup underline">th</hi></date></add> clouds <choice><abbr>NW</abbr><expan>North West</expan></choice> but a little rain from <choice><abbr>E - T</abbr><expan>East Thunder</expan></choice> <space extent="8" unit="chars"/>.0</item>
+<lb/><item><add place="marginleft"><date when="1868-12-19"><w><supplied cert="high">1</supplied>9<hi rend="sup underline">th</hi></w></date></add> <placeName><geogName type="river"><choice><abbr>R-</abbr><expan>River</expan></choice> Lofunso</geogName></placeName> <choice><abbr>NW</abbr><expan>North West</expan></choice> &amp; <choice><abbr>SE</abbr><expan>South East</expan></choice> - clouds - too little to be measured .0</item>
+<lb/><item><add place="marginleft"><date when="1868-12-20">20<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3-6<add place="below">^</add><add place="above">AM</add> <choice><abbr>NW - T</abbr><expan>North West Thunder</expan></choice> .45 - night silently .12 <space extent="10" unit="chars"/>.57</item>
+<lb/><item><add place="marginleft"><date when="1868-12-21">21<hi rend="sup underline">st</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 5 - 6 AM <choice><abbr>NW</abbr><expan>North West</expan></choice> silently set in <space extent="18" unit="chars"/>.11</item>
+<lb/><item><add place="marginleft"><date when="1868-12-24">24</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 7 PM silently <space extent="30" unit="chars"/>.4</item>
+<lb/><item><add place="marginleft"><date when="1868-12-26">26<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3 PM - 7 PM &amp; night <choice><abbr>NW</abbr><expan>North West</expan></choice> silently - generally
+<lb/>we are enveloped in a cloud which damps everything .64</item>
+<lb/><item><add place="marginleft"><date when="1868-12-27">27</date></add> <placeName><region>Marungu</region></placeName> proper - East of <placeName><geogName type="river">Lofunso <choice><abbr>R-</abbr><expan>River</expan></choice></geogName></placeName> 2 - 3 PM <choice><abbr>NT</abbr><expan>North Thunder</expan></choice> <space extent="5" unit="chars"/>.25</item>
+<lb/><item><add place="marginleft"><date when="1868-12-28">28</date></add> Midnight - silent -<choice><abbr>N - W -</abbr><expan>North West</expan></choice> <space extent="30" unit="chars"/>.4</item>
+<lb/><item><add place="marginleft"><date when="1868-12-30">30<hi rend="sup">th</hi></date></add> <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Lofuko</geogName></placeName> <choice><abbr>NW - T-</abbr><expan>North West - Thunder</expan></choice> <space extent="30" unit="chars"/>.33</item>
+<lb/><item><add place="marginleft"><date when="1868-12-31">31<hi rend="sup">st</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>NW</abbr><expan>North West</expan></choice> <space extent="38" unit="chars"/><hi rend="underline">.34</hi><!--  underlining here extends leftwards about 5 characters AM --></item>
+<lb/><item>Total Rainfall in <date when="1868-12">December 1868</date> <hi rend="right">5.98</hi></item></list></seg></p>
+<lb/><space dim="vertical" extent="2" unit="lines"/>
+<lb/><p><seg type="weather"><list><head><hi rend="center">Rainfall in <date when="1869-01">January 1869</date></hi></head>
+<lb/><item><add place="marginleft"><date when="1869-01-01">1<hi rend="sup underline">st</hi></date></add> <placeName><geogName type="river"><choice><abbr>R -</abbr><expan>River</expan></choice> Lofuko</geogName></placeName> - midnight - silent <space extent="22" unit="chars"/>.8</item>
+<lb/><item><add place="marginleft"><date when="1869-01-05">5<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Noon - &amp; night <space extent="40" unit="chars"/>.76</item>
+<lb/><item><add place="marginleft"><date when="1869-01-08">8<hi rend="sup underline">th</hi></date></add> silently night <space extent="40" unit="chars"/>.30</item>
+<lb/><item><add place="marginleft"><date when="1869-01-08">-</date></add> all day at sick station <space extent="32" unit="chars"/><hi rend="underline">1.20</hi><!--  underlining here extends leftwards about 3 characters AM --> 
+<lb rend="right"/>2.34</item>
+<lb/><item><add place="marginleft">Note</add> In <date from="1869-01" to="1869-02">January and February</date> very little rain fell <subst><del>in</del><add place="over-text">on</add></subst> the
+<lb/>country <placeName><region>West of the middle of <placeName><geogName type="lake">Tanganyika</geogName></placeName></region></placeName> = <placeName><region>Marungu</region></placeName> - 
+<lb/>Light showers fell frequently but while keeping the
+<lb/><add place="marginleft"><date when="1869-02"><choice><abbr>Feby</abbr><expan>February</expan></choice></date></add> <term type="plant">vegetation</term> moist they <choice><orig>shewed</orig><reg>showed</reg></choice> nothing in the gauge -</item>
+<lb/><item><add place="marginleft"><date when="1869-02-05">5<hi rend="sup">th</hi></date></add> <placeName><geogName type="lake">Tanganyika</geogName></placeName> <date when="1869-02-07">7<hi rend="sup underline">th</hi></date> Noon <space extent="30" unit="chars"/>.16</item>
+<lb/><item><add place="marginleft"><date when="1869-02-07">7<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="7" unit="chars"/>night <space extent="32" unit="chars"/>2.2</item>
+<lb/><item><add place="marginleft"><date when="1869-02-08">8<hi rend="sup">th</hi></date></add> silently <space extent="42" unit="chars"/><w><supplied cert="high">.</supplied>16</w></item>
+<lb/><item><add place="marginleft"><date when="1869-02-24">24<hi rend="sup">th</hi></date></add> - <space extent="52" unit="chars"/><hi rend="underline">.32</hi><!-- underlining here extends leftwards about 3 characters AM --> 
+<lb rend="right"/>2.66</item>
+<lb/><space dim="vertical" extent="1" unit="lines"/>
+<lb/><item><add place="marginleft"><date when="1869-03-08">March <lb/>8<hi rend="sup underline">th</hi></date></add> Noon <choice><abbr>NT</abbr><expan>North Thunder</expan></choice> no rain this month till now .46
+<lb/>night - <placeName><geogName type="lake">Tanganyika</geogName></placeName> - <placeName><settlement type="town">Kasanga</settlement></placeName> <space extent="12" unit="chars"/>.55</item>
+<lb/><item><add place="marginleft"><date when="1869-03-18">18</date></add> <placeName><settlement type="town">Ujiji</settlement></placeName> Noon <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="30" unit="chars"/>1.59</item>
+<lb/><item><add place="marginleft"><date when="1869-03-26">26</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 6 AM <choice><abbr>NT</abbr><expan>North Thunder</expan></choice> <space extent="28" unit="chars"/>1.6</item>
+<lb/><item><add place="marginleft"><date when="1869-03-29">29</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 12-3<choice><abbr> S - E - T</abbr><expan>South - East - Thunder</expan></choice> <space extent="28" unit="chars"/><hi rend="underline">1.3</hi><!-- underlining here extends leftwards about 1 character AM --> 
+<lb rend="right"/>4.69</item></list></seg></p>
+
+
+<pb facs="liv_000019_0392.jpg" n="0392"/>
+<lb/><p><add place="margintop" rend="gray left" hand="#U"><fw n="386">386</fw></add>  
+<lb/><seg type="weather"><list><item><add place="marginleft"><date when="1869-04">April <lb/>1869</date> - </add> <hi rend="center">Rainfall in <date when="1869-04">April 1869</date></hi></item>
+<lb/><item><add place="marginleft"><date when="1869-04-03">3<hi rend="sup">d</hi></date></add> <placeName><settlement type="town">Ujiji</settlement></placeName> - 9 AM <space extent="40" unit="chars"/>.42</item>
+<lb/><item><add place="marginleft"><date when="1869-04-04">4</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 8 AM <space extent="40" unit="chars"/>1.68</item>
+<lb/><item><add place="marginleft"><date when="1869-04-06">6<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 6 AM <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="38" unit="chars"/>.43</item>
+<lb/><item><add place="marginleft"><date when="1869-04-07">7<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 12 - 3 <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="38" unit="chars"/>1.8</item>
+<lb/><item><add place="marginleft"><date when="1869-04-07"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 4 - 5 PM <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="36" unit="chars"/>.22</item>
+<lb/><item><add place="marginleft"><date when="1869-04-12">12<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 6 AM &amp; 6 PM <space extent="36" unit="chars"/>.30</item>
+<lb/><item><add place="marginleft"><date when="1869-04-13">13<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3 PM <choice><abbr>SE - T</abbr><expan>South East - Thunder</expan></choice> <space extent="36" unit="chars"/>1.56</item>
+<lb/><item><add place="marginleft"><date when="1869-04-16">16<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 8 AM<choice><abbr>SE - T</abbr><expan>South East - Thunder</expan></choice> <space extent="36" unit="chars"/>.75</item>
+<lb/><item><add place="marginleft"><date when="1869-04-17">17<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> silently 7 AM <choice><abbr>SE -</abbr><expan>South East</expan></choice> <space extent="38" unit="chars"/>.11</item>
+<lb/><item><add place="marginleft"><date when="1869-04-18">18<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> drizzling morning and afternoon <space extent="6" unit="chars"/>.0</item>
+<lb/><item><add place="marginleft"><date when="1869-04-21">21<hi rend="sup">st</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Noon - <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> <space extent="35" unit="chars"/>.25</item>
+<lb/><item><add place="marginleft"><date when="1869-04-27">27<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 8 - 9 AM <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="39" unit="chars"/>.85</item>
+<lb/><item><add place="marginleft"><date when="1869-04-29">29<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 11 AM <choice><abbr>SE T</abbr><expan>South East Thunder</expan></choice> - <space extent="35" unit="chars"/><hi rend="underline">.68</hi><!-- underlining here extends leftwards about 3 characters AM --> <add place="below">8.33</add></item></list></seg></p>
+<lb/><p><seg type="weather"><list><head><hi rend="center">Rainfall in <date when="1869-05">May 1869</date></hi></head>
+<lb/><item><add place="marginleft"><date when="1869-05-02">May 2 <lb/>1869</date></add> <placeName><settlement type="town">Ujiji</settlement></placeName> 11 AM silent - <choice><abbr>SE</abbr><expan>South East</expan></choice> - <space extent="22" unit="chars"/>.15</item>
+<lb/><item><add place="marginleft"><date when="1869-05-02"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> - 1 -3 PM -  <choice><abbr>SE</abbr><expan>South East</expan></choice> <space extent="22" unit="chars"/>.79</item>
+<lb/><item><add place="marginleft"><date when="1869-05-03">3<hi rend="sup underline">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 12 - 1 PM <space extent="9" unit="chars"/> <choice><abbr>SE - T</abbr><expan>South East Thunder</expan></choice> rolling as it is the .36</item>
+<lb/><item><add place="marginleft"><date when="1869-05-05">5<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 1 - 2 PM <space extent="7" unit="chars"/><choice><abbr>SE</abbr><expan>South East</expan></choice> <foreign xml:lang="und"><hi rend="double-underline">Masika</hi></foreign> now<space extent="6" unit="chars"/>.9</item>
+<lb/><item><add place="marginleft"><date when="1869-05-09">9<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Noon <space extent="42" unit="chars"/><supplied cert="high">.</supplied>13</item>
+<lb/><item><add place="marginleft"><date when="1869-05-10">10<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Noon <space extent="12" unit="chars"/> <choice><abbr>NW T</abbr><expan>North West Thunder</expan></choice> <space extent="16" unit="chars"/>1.8</item>
+<lb/><item><add place="marginleft"><date when="1869-05-11">11<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3 - 6 AM rolling <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="16" unit="chars"/>1.3</item>
+<lb/><item><add place="marginleft"><date when="1869-05-11"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 2 - 3 PM <space extent="13" unit="chars"/><choice><abbr>NW</abbr><expan>North West</expan></choice> <space extent="24" unit="chars"/>.19</item>
+<lb/><item><add place="marginleft"><date when="1869-05-12">12<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> drizzling - rolling <choice><abbr>T - NW</abbr><expan>Thunder North West</expan></choice> <space extent="23" unit="chars"/>.39</item>
+<lb/><item><add place="marginleft"><date when="1869-05-12"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 7 - PM - little <choice><abbr>RT</abbr><expan>Rolling Thunder</expan></choice> <space extent="6" unit="chars"/> <choice><abbr>S - E -</abbr><expan>South East</expan></choice> <space extent="22" unit="chars"/>.28</item>
+<lb/><item><add place="marginleft"><date when="1869-05-13">13<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 7 AM &amp; noon <space extent="6" unit="chars"/> <choice><abbr>SE - RT</abbr><expan>South East Rolling Thunder</expan></choice> <space extent="18" unit="chars"/>.31</item>
+<lb/><item><add place="marginleft"><date when="1869-05-14">14<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 2 - 3 PM <space extent="10" unit="chars"/> <choice><abbr>SE</abbr><expan>South East</expan></choice> - <space extent="22" unit="chars"/>.18</item>
+<lb/><item><add place="marginleft"><date when="1869-05-17">17<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Noon <space extent="14" unit="chars"/> <choice><abbr>SE</abbr><expan>South East</expan></choice> - <space extent="22" unit="chars"/>.11</item>
+<lb/><item><add place="marginleft"><date when="1869-05-18">18<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice>  <space extent="16" unit="chars"/><choice><abbr>SE-</abbr><expan>South East</expan></choice></item>
+<lb/><item><add place="marginleft"><date when="1869-05-25">25<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 2 - 3 PM - - <choice><abbr>SE -</abbr><expan>South East</expan></choice> <space extent="22" unit="chars"/><hi rend="underline">.7</hi><!-- underlining here extends in both directions about 2 characters AM --> <add place="below">5.15</add></item>
+<lb/><item><add place="marginleft"><date when="1869-05-26">26</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 2 - 4 PM <space extent="6" unit="chars"/> <choice><abbr>W</abbr><expan>West</expan></choice> - <space extent="22" unit="chars"/>.22</item>
+<lb/><item><add place="marginleft"><date when="1869-05-31">31<hi rend="sup underline">st</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 8 - 11 AM - <space extent="8" unit="chars"/> <choice><abbr>S - W - </abbr><expan>South West</expan></choice> <space extent="18" unit="chars"/><hi rend="underline">2.80</hi><!-- underlining here extends about 4 characters to the right AM --> <add place="above"><supplied cert="high">.</supplied>32</add> <add place="marginright">3.34</add> <add place="below">8.50</add></item></list></seg></p>
+<lb/><p><seg type="weather"><list><head>Rainfall <date from="1868" to="1869">1868 - 9 -</date></head> <item><date from="1868-08" to="1868-10"><choice><abbr>Aug<hi rend="sup underline">t</hi></abbr><expan>August</expan></choice> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1868</date> 3.33</item>
+<lb/><item><hi rend="right"><date when="1868-11">November</date> <space extent="10" unit="chars"/>4.59</hi></item>
+<lb/><item><hi rend="right"><date when="1868-12">December</date> <space extent="9" unit="chars"/>5.98</hi></item>
+<lb/><item><hi rend="right"><date when="1869-01">January 1869</date> <space extent="6" unit="chars"/>2.34</hi></item>
+<lb/><item><hi rend="right"><date when="1869-02">February</date> - <space extent="8" unit="chars"/>2.66</hi></item>
+<lb/><item><hi rend="right"><date when="1869-03">March</date> <space extent="12" unit="chars"/>4.69</hi></item>
+<lb/><item><hi rend="right"><date when="1869-04">April</date> <space extent="12" unit="chars"/>8.33</hi></item>
+<lb/><item><hi rend="right"><date from="1869-05-01" to="1869-05-18">May - 18<hi rend="sup underline">th</hi></date> <space extent="8" unit="chars"/><add place="above"><hi rend="underline">5.16</hi></add>37.08</hi></item>
+<lb/><item><hi rend="right"><date from="1869-05-18" to="1869-05-31">May to 31<hi rend="sup">st</hi> from 18<hi rend="sup underline">th</hi></date> <hi rend="underline">- 3.34</hi></hi></item>
+<lb/><item><hi rend="right">Up to end of <date when="1869-05">May</date> 40.42</hi></item></list></seg></p>
+
+
+
+<pb facs="liv_000019_0393.jpg" n="0393"/>
+<lb/><p><add place="margintop" rend="gray right" hand="#U"><fw n="387">387</fw></add>  
+<lb/><seg type="weather"><list><head><hi rend="center">Rainfall in <date when="1869">1869</date> <placeName><region >Manyema</region></placeName></hi></head>
+<lb/><item><add place="marginleft"><date when="1869-09-02">2 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice></date></add> <placeName><geogName type="rivulet">Katamba</geogName></placeName> Noon first rain fell at Noon -</item>
+<lb/><item><add place="marginleft"><date when="1869-09-03">3</date></add> <placeName><geogName type="rivulet">Katamba</geogName></placeName> 4 PM <choice><abbr>SE - T</abbr><expan>South East - Thunder</expan></choice> <space extent="12" unit="chars"/>.4</item>
+<lb/><item><add place="marginleft"><date when="1869-09-14">14</date></add> <placeName><geogName type="mountain">Moloni</geogName></placeName> or <placeName><geogName type="mountain">Mononi</geogName></placeName> <choice><abbr>M<hi rend="underline sup">ts</hi></abbr><expan>Mountains</expan></choice> <choice><abbr>S E - Ɵ</abbr><expan>South East - Thunder</expan></choice> &amp; hail<space extent="10" unit="chars"/>.50</item>
+<lb/><item><add place="marginleft"><date when="1869-09-15">15</date></add> <placeName><settlement type="village"><persName>Mamba</persName>'s</settlement></placeName> - noon <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> in march not measured</item>
+<lb/><item><add place="marginleft"><date when="1869-09-20">20</date></add> <placeName><settlement type="village"><persName>Monandenda</persName>'s</settlement></placeName> <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> dust not laid</item>
+<lb/><item><add place="marginleft"><date when="1869-10-02">2 October</date></add> <placeName><settlement type="village"><persName>Moenekuss</persName>'</settlement></placeName> Ɵ used now for T = thunder</item>
+<lb/><item><add place="marginleft"><del type="cancelled"><date when="1869-10-10">10</date></del><add place="above"><unclear cert="low">1</unclear></add></add> <placeName><settlement type="village"><persName>Moenekuss</persName></settlement></placeName> 12<hi rend="sup"><choice><abbr>h</abbr><expan>hours</expan></choice></hi> <choice><abbr>NW - Ɵ</abbr><expan>North West Thunder</expan></choice> laid dust</item>
+<lb/><item><add place="marginleft"><date when="1869-10-04">4</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="8" unit="chars"/> - 4 - 5 PM <choice><abbr>NW Ɵ</abbr><expan>North West Thunder</expan></choice> <space extent="10" unit="chars"/>.27</item>
+<lb/><item> - <space extent="8" unit="chars"/> 8 PM <choice><abbr>SE - Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="10" unit="chars"/>.4</item>
+<lb/><item><add place="marginleft"><date when="1869-10-10">10</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="8" unit="chars"/> 2 - 3 - PM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="10" unit="chars"/>.38</item>
+<lb/><item><add place="marginleft"><date when="1869-10-11">11</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - 2 - 3 PM  <choice><abbr>E - Ɵ</abbr><expan>East Thunder</expan></choice> &amp; Hail<space extent="8" unit="chars"/>.56</item>
+<lb/><item><add place="marginleft"><date when="1869-10-13">13</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="5" unit="chars"/> 3 - 5 PM <choice><abbr>E - Ɵ</abbr><expan>East Thunder</expan></choice> <space extent="14" unit="chars"/>1.82</item>
+<lb/><item><add place="marginleft"><date when="1869-10-15">15</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 4 PM <space extent="5" unit="chars"/> <choice><abbr>E Ɵ</abbr><expan>East Thunder</expan></choice> <space extent="14" unit="chars"/>.18</item>
+<lb/><item><add place="marginleft"><date when="1869-10-16">16</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 11 AM to 5 PM showery &amp; cold <choice><abbr>E</abbr><expan>East</expan></choice> &amp; <choice><abbr>NE Ɵ</abbr><expan>North East Thunder</expan></choice> .37</item>
+<lb/><item><add place="marginleft"><date when="1869-10-17">17</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> shut in by dense clouds 7 - 10 AM - <choice><abbr>N.W - Ɵ</abbr><expan>North West Thunder</expan></choice> <space extent="4" unit="chars"/>.64</item>
+<lb/><item><add place="marginleft"><date when="1869-10-23">23</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - Noon <space extent="7" unit="chars"/> <choice><abbr>E</abbr><expan>East</expan></choice> &amp; <choice><abbr>N - E - Ɵ</abbr><expan>North East Thunder</expan></choice><space extent="12" unit="chars"/>.4</item>
+<lb/><item><add place="marginleft"><date when="1869-10-27">27</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="8" unit="chars"/>Noon <choice><abbr>E</abbr><expan>East</expan></choice> &amp; <choice><abbr>NE - Ɵ</abbr><expan>North East Thunder</expan></choice> <space extent="8" unit="chars"/>.39</item>
+<lb/><item><add place="marginleft"><date when="1869-10-28">28</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="8" unit="chars"/> 12 - 1 PM  <choice><abbr>N - E - Ɵ</abbr><expan>North East Thunder</expan></choice> Hail 1.20</item>
+<lb/><item><add place="marginleft"><date when="1869-10-29">29</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="8" unit="chars"/> night gentle showers</item>
+<lb/><item><add place="marginleft"><date when="1869-10-30">30</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="8" unit="chars"/> all day clouded over</item>
+<lb/><item><add place="marginleft"><date when="1869-10-31">31</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="9" unit="chars"/> 6 - 9 PM  <choice><abbr>NE - Ɵ</abbr><expan>North East Thunder</expan></choice> <space extent="16" unit="chars"/>.40</item>
+<lb/><item>Total Rainfall in <date when="1869-10">October 1869</date><space extent="9" unit="chars"/><hi rend="double-underline">6.82 -</hi></item></list></seg></p>     
+<lb/><p><seg type="weather"><list><head><hi rend="center">Rainfall in <date when="1869-11">November 1869</date></hi></head>
+<lb/><item><add place="marginleft"><date when="1869-11"><choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice></date></add> <placeName><settlement type="village">Bambarre</settlement></placeName> or <placeName><settlement type="village"><persName>Moenekuss</persName></settlement></placeName></item>
+<lb/><item><add place="marginleft"><date when="1869-11-02">2</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> drizzling after dark  <choice><abbr>N - W -</abbr><expan>North West</expan></choice> 
+<lb/>dripping cloud in <placeName><geogName type="forest">Forest Manyema</geogName></placeName>
+<lb/>Forest at 11 - 2 PM <choice><abbr>N- W- Ɵ</abbr><expan>North West Thunder</expan></choice> <space extent="12" unit="chars"/>.54</item>
+<lb/><item><add place="marginleft"><date when="1869-11-04">4</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space unit="chars" extent="6"/> 2 - 3 PM <choice><abbr>SE - Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="12" unit="chars"/>.92</item>
+<lb/><item><add place="marginleft"><date when="1869-11-05">5</date></add> 5 hours <choice><abbr>S - W -</abbr><expan>South West</expan></choice> of <placeName><settlement type="village"><persName>Moenekuss</persName> <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - 
+<lb rend="right"/>11 - 3 PM <choice><abbr>S E Ɵ</abbr><expan>South East Thunder</expan></choice> and silent shower till 4<add place="above">PM</add> .95</item>
+<lb/><item><add place="marginleft"><date when="1869-11-06">6</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - <space extent="14" unit="chars"/> <choice><abbr>S- E-</abbr><expan>South East</expan></choice> shower laid dust</item>
+<lb/><item><add place="marginleft"><date when="1869-11-08">8</date></add> <placeName><settlement type="village"><persName>Monandamba</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> <choice><abbr>SE</abbr><expan>South East</expan></choice> - 9 AM <space extent="12" unit="chars"/>.11</item>     
+<lb/><item><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 3 - 4 PM <choice><abbr>SE - Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="14" unit="chars"/>.22</item>
+<lb/><item><add place="marginleft"><date when="1869-11-12">12</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 11 AM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="14" unit="chars"/>.6</item>
+<lb/><item><add place="marginleft"><date when="1869-11-14">14</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 3 - 6 PM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="16" unit="chars"/>.18</item>
+<lb/><item><add place="marginleft"><date when="1869-11-15">15</date></add> <placeName><settlement type="village"><persName>Kolomokata</persName>'s</settlement></placeName> 3 - 4 PM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="13" unit="chars"/>.16</item></list></seg></p>
+
+
+<pb facs="liv_000019_0394.jpg" n="0394"/>
+<lb/><p><add place="margintop" rend="gray left" hand="#U"><fw n="388">388</fw></add>       
+<lb/><seg type="weather"><list><item><add place="marginleft"><date when="1869-11-15">November <lb/>1869 15</date></add> <placeName><settlement type="village"><persName>Chirumbe</persName>'s</settlement></placeName> about midnight much <choice><abbr>Ɵ</abbr><expan>Thunder</expan></choice> <space extent="5" unit="chars"/>1.38</item>     
+<lb/><item><add place="marginleft"><date when="1869-11-15">15<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="5" unit="chars"/> 8 - 12 AM <choice><abbr>SE Ɵ </abbr><expan>South East Thunder</expan></choice> <space extent="10" unit="chars"/>1.6</item>
+<lb/><item><add place="marginleft"><date when="1869-11-22">22</date></add> <placeName><geogName type="river"><choice><abbr>R -</abbr><expan>River</expan></choice> <w>Luam<gap extent="1" unit="chars" agent="blot"/><supplied cert="medium">o</supplied></w></geogName></placeName> 8 - 9 AM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="12" unit="chars"/>.29</item>
+<lb/><item><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 11 - to 2 PM <space extent="24" unit="chars"/>.21</item>
+<lb/><item><add place="marginleft"><date when="1869-11-24">24</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space unit="chars" extent="6"/> 2-3 PM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="12" unit="chars"/>.18</item>     
+<lb/><item><add place="marginleft"><date when="1869-11-27">27</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 1 - 5 PM <choice><abbr>NW</abbr><expan>North West</expan></choice> &amp; to <choice><abbr>S.E - Ɵ</abbr><expan>South East Thunder</expan></choice> - Hail 1.56</item>
+<lb/><item><add place="marginleft"><date when="1869-11-28">28</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 5 - 7 PM <choice><abbr>NE Ɵ</abbr><expan>North East Thunder</expan></choice> <space extent="3" unit="chars"/><gap extent="1" unit="chars" agent="illegible"/> <space extent="5" unit="chars"/><hi rend="underline">1.67</hi></item>
+<lb/><item><hi rend="underline">Total Rainfall in <date when="1869-11">November </date> 1869</hi> <hi rend="double-underline">9.09</hi></item></list></seg></p>
+<lb/><p><seg type="weather"><list><head><placeName><region>Manyema</region></placeName> Rainfall <date when="1869-12">December 1869</date></head>
+<lb/><item><add place="marginleft"><date when="1869-12-02"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 2 <lb/>1869</date></add> <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Luamo</geogName></placeName> 3 - 6 PM <choice><abbr>SW - S -</abbr><expan>South West - South</expan></choice> &amp; <choice><abbr>SE - Ɵ</abbr><expan>South East - Thunder</expan></choice> <space extent="5" unit="chars"/>1.18</item>
+<lb/><item><add place="marginleft"><date from="1869-12-03" to="1869-12-04">3<hi rend="sup">d</hi> &amp; 4<hi rend="sup">th</hi></date></add> Nil showers </item>
+<lb/><item><add place="marginleft"><date from="1869-12-05" to="1869-12-11">5 to 11<hi rend="sup underline">th</hi></date></add> Thunder daily </item>
+<lb/><item><add place="marginleft"><date when="1869-12-11">11<hi rend="sup">th</hi></date></add> <placeName><geogName type="river">Luamo</geogName></placeName> 3 - 4 PM - <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="10" unit="chars"/>.34</item>
+<lb/><item><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 5 - 7 <space extent="30" unit="chars"/><w>.1<gap extent="1" unit="chars" agent="blot"/><add place="above"><hi rend="sup">3</hi></add></w></item>
+<lb/><item><add place="marginleft"><date when="1869-12-12">12<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="7" unit="chars"/> 11 - 12 silent <space extent="20" unit="chars"/>.15</item>
+<lb/><item><add place="marginleft"><date when="1869-12-14">14</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> during night <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="18" unit="chars"/>1.42</item>
+<lb/><item><add place="marginleft"><date when="1869-12-15">15<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 2 - 4 PM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="17" unit="chars"/>1.10</item>
+<lb/><item><add place="marginleft"><date when="1869-12-17">17</date></add> <placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> Mofungoye</geogName></placeName> 5 PM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="12" unit="chars"/>.88</item>
+<lb/><item><add place="marginleft"><date when="1869-12-18">18<hi rend="sup">th</hi></date></add> <placeName><settlement type="village"><persName>Kolo muzungu</persName>'s</settlement></placeName> <measure>2 days</measure> <choice><abbr>NW</abbr><expan>North West</expan></choice> of <placeName><settlement type="village"><persName>Moenekuss</persName></settlement></placeName> 
+<lb/><hi rend="center">12 - 2 PM <del type="cancelled">12</del> - <choice><abbr>Ɵ</abbr><expan>Thunder</expan></choice></hi> <space extent="12" unit="chars"/>.15</item>
+<lb/><item><add place="marginleft"><date when="1869-12-19">19<hi rend="sup">th</hi></date></add> <placeName><settlement type="village"><persName>Moenekuss</persName></settlement></placeName> - <space extent="8" unit="chars"/> <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="12" unit="chars"/>.10</item>
+<lb/><item><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="8" unit="chars"/>9 - 10 AM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="12" unit="chars"/>.20</item>
+<lb/><item><add place="marginleft"><date when="1869-12-22">22<hi rend="sup">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="8" unit="chars"/> 6 - 9 PM <choice><abbr>SE - E</abbr><expan>South East - East</expan></choice> &amp; <choice><abbr>NW</abbr><expan>North West</expan></choice> <space extent="6" unit="chars"/>.51</item>
+<lb/><item><add place="marginleft"><date when="1869-12-27">27<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="8" unit="chars"/> 1 PM <space extent="5" unit="chars"/> <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="8" unit="chars"/>.9</item>
+<lb/><item><add place="marginleft"><date when="1869-12-28">28</date></add> <placeName><geogName type="river">Luamo <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName> - 2 - 4 PM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="8" unit="chars"/>1.3</item>
+<lb/><item><add place="marginleft"><date when="1869-12-29">29</date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 6 - 8 AM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="11" unit="chars"/>1.2</item>
+<lb/><item><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Noon <space extent="6" unit="chars"/> <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="12" unit="chars"/><hi rend="underline">.11</hi><!-- underlining here extends leftwards about 3 characters AM --></item>
+<lb/><item><add place="marginleft"><date when="1869-12-31">31<hi rend="sup">st</hi></date></add> Nil Shower Total for <date when="1869-12">December</date> 7.80</item></list></seg></p>
+<lb/><p><seg type="weather"><list><head><placeName><region>Manyema</region></placeName> Rainfall <date when="1870">1870</date></head>
+<lb/><item><add place="marginleft"><date when="1870-01-01">January 1<hi rend="sup underline">st</hi></date></add> clouded over from <choice><abbr>SW Ɵ</abbr><expan>South West Thunder</expan></choice></item>
+<lb/><item><add place="marginleft"><date when="1870-01-01">1<hi rend="sup">st</hi></date></add> <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Luamo</geogName></placeName> 7 - PM  <space extent="16" unit="chars"/>.4</item>
+<lb/><item><add place="marginleft"><date when="1870-01-02">2<hi rend="sup">d</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="6" unit="chars"/> 2 - 3 PM <choice><abbr>Ɵ</abbr><expan>Thunder</expan></choice> <space extent="12" unit="chars"/>.17</item>
+<lb/><item><add place="marginleft"><date when="1870-01-07">7<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Forest 7 - 8 AM<add place="above">AM</add> Forest <choice><abbr>Ɵ</abbr><expan>Thunder</expan></choice> <space extent="6" unit="chars"/>.32</item>
+<lb/><item><add place="marginleft"><date when="1870-01-09">9<hi rend="sup">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> AM <space extent="25" unit="chars"/>.6</item>
+<lb/><item><add place="marginleft"><date when="1870-01-12">12<hi rend="sup underline">th</hi></date></add> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="8" unit="chars"/> 2 - 3 PM  <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <space extent="9" unit="chars"/>1.16</item>
+<lb/><item><add place="marginleft"><date when="1870-01-20">20<hi rend="sup underline">th</hi></date></add> <placeName><geogName type="hill">Chanza</geogName></placeName> <del type="strikethrough">N</del> 5 - 6 PM <choice><abbr>NW Ɵ</abbr><expan>North West Thunder</expan></choice> <space extent="8" unit="chars"/>.37</item>
+<lb/><item><add place="marginleft"><date from="1870-01-22" to="1870-01-23">22 &amp; 23</date></add> after sunset <space extent="28" unit="chars"/>.13</item>
+<lb/><item><add place="marginleft"><date when="1870-01-26"><w>2<gap extent="1" unit="chars" agent="blot"/><supplied cert="high">6</supplied></w></date></add> <hi rend="center">4 - 5 PM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> </hi><space extent="8" unit="chars"/>.47</item></list></seg></p>
+
+			</div>
+		</body>
+    </text>
+</TEI>

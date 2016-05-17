@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019"><!-- Adrian change only -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 1115</idno><!-- Adrian change only -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Journals, 011</idno><!-- Adrian change only -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866 - 5 March 1872</date><!-- Adrian change x2 only -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="und">Undetermined</language>
+                <language ident="en">English</language><!-- Everyone, add languages as necessary. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+                <change when="2016-02-14" who="EM">Proofreading</change>
+				<change when="2016-01-29" who="MW">Initial transcription and XML encoding</change>
+                <change when="2014-05-03" who="#AW">Transcription and XML encoding</change><!-- Everyone, revise and expand as necessary. -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+       	<body>
+			<div>
+
+	<gb/>
+
+	<pb facs="liv_000019_0765" n="0765"/><!-- Everyone, change and repeat as necessary. -->
+
+<lb/><p><!-- Text goes here --><add place="margintop"><date when="1872-10"><hi rend="left">1872</hi> <hi rend="right"><add place="above">1872</add> December</hi></date></add></p>
+
+<list>
+<lb/><item>Mode of walking of <persName>Solio</persName><!-- Not sure <persName> is correct here. MW--> - <seg rend="right">20 -</seg></item>
+
+<lb/><item>to <placeName><settlement type="village"><persName>Kassessa</persName>'s</settlement></placeName> - full fledge <unclear>kite</unclear> <seg rend="right">--</seg>
+
+<lb/><persName>Mamohela</persName> - <persName>Imano</persName> - <placeName><settlement type="village">Bambarre</settlement></placeName> <seg rend="right">21 -</seg></item>
+
+<lb/><item><placeName><geogName type="mountain"><persName>Monandewa</persName>'s mountain range</geogName></placeName> <seg rend="right">--</seg>
+
+<lb/><placeName><geogName type="mountain"><persName>Kassangangarzi</persName>'s <choice><abbr>M<hi rend="sup underline">t</hi></abbr><expan>Mount</expan></choice> Moloni</geogName> <seg rend="right">22</seg></placeName></item>
+
+<lb/><item><placeName><geogName type="fountain"><persName>Pyanamosindi</persName>'s - Kabila hot <choice><abbr>f<hi rend="sup underline">n</hi></abbr><expan>fountain</expan></choice></geogName></placeName> <seg rend="right">--</seg>
+
+<lb/>Meet <orgName>caravan of <persName>Masinki</persName></orgName> at <seg rend="right">--</seg>
+
+<lb/><placeName><settlement type="village"><persName>Mokwaniwa</persName>'s</settlement></placeName> - <persName>Seyed Majid</persName> <seg rend="right">--</seg>
+
+<lb/>dead - <placeName><geogName type="river">Guha</geogName></placeName> = <placeName><geogName type="river">Loanda</geogName></placeName> <seg rend="right">--</seg>
+
+<lb/><placeName><geogName type="river">Ioñgumba</geogName></placeName> possible outlet of <seg rend="right">--</seg>
+
+<lb/><placeName><geogName type="lake">Tanganyika</geogName></placeName> through <placeName><geogName type="river">Kabogo West</geogName></placeName> <seg rend="right">23</seg></item>
+
+<lb/><item><placeName><geogName type="islet">Islet Kasenge</geogName></placeName> - <placeName><geogName type="river">Kabogo <seg rend="right">--</seg>
+
+<lb/>East</geogName></placeName> - <space extent="1" unit="words"/><placeName><settlement type="village">Ujiji</settlement></placeName> - news of <seg rend="right">24</seg></item>
+
+<lb/><item>robbery by <persName>Shereef</persName> so as to <seg rend="right">--</seg>
+
+<lb/>leave me destitute - <seg rend="right">--</seg>
+
+<lb/><persName>Seyed bin Majid</persName> generous <seg rend="right">--</seg>
+
+<lb/>offer of aid declined - the <seg rend="right">--</seg>
+
+<lb/>"<term type="person">Englishman</term> coming" "I see him" <seg rend="right">--</seg>
+
+<lb/>the true good Samaritan <seg rend="right">--</seg>
+
+<lb/>arrives <persName>Henry M Stanley</persName> <seg rend="right">--</seg>
+
+<lb/>sent by <persName>James Gordon Bennett</persName> - <unclear>juries</unclear> <seg rend="right">--</seg>
+
+<lb/>News from home after 2 <seg rend="right">--</seg>
+
+<lb/><choice><orig>years</orig><reg>years'</reg></choice> silence - Health revived <seg rend="right">--</seg>
+
+<lb/>in a week - visit <choice><abbr>N.</abbr><expan>North</expan></choice> end of <seg rend="right">--</seg>
+
+<lb/><placeName><geogName type="lake">Taganyika</geogName></placeName> - <placeName><geogName type="river">Usige</geogName></placeName> running in <seg rend="right">25</seg></item>
+
+<lb/><item>Resolve to remain &amp; finish <seg rend="right">--</seg>
+
+<lb/>my task - 21 days out in reckoning
+
+<lb/>reasons for belief in the <seg rend="right">26</seg>
+
+<lb/>ancient fountains - <seg rend="right">--</seg></item>
+
+<lb/><item>Round about route from <seg rend="right">--</seg>
+
+<lb/><placeName><settlement type="village">Ujiji</settlement></placeName> to <placeName><settlement type="village">Unyanyembe</settlement></placeName> to <seg rend="right">--</seg>
+
+<lb/>avoid being fleeced - <seg rend="right">--</seg>
+
+<lb/>Reach <placeName><settlement type="village">Unyanyembe</settlement></placeName> in <seg rend="right">--</seg>
+
+<lb/><measure>54 days</measure> from <placeName><settlement type="village">Ujiji</settlement></placeName> - find <seg rend ="right">--</seg>
+
+<lb/><orgName>Arabs</orgName> engaged in a somewhat <seg rend="right">--</seg>
+
+<lb/>chronic war with <persName>Mirambo</persName> <seg rend="right">27</seg></item>
+
+    <pb facs="liv_000019_0766" n="0766"/>
+
+<lb/><fw n="466"><add place="margintop" hand="#U" rend="gray left">466</add></fw><note place="margintop">December</note>
+
+<lb/><item>Robbery by <term type="occupation">headsmen</term> selected <seg rend="right">29</seg></item>
+
+<lb/><item>by <persName>Ludha Danji</persName> again - <seg rend="right">--</seg>
+
+<lb/><persName>M<hi rend="sup">r</hi> Stanley</persName>'s generous <seg rend="right">--</seg>
+
+<lb/>presents <space extent="2" unit="words"/>a short <seg rend="right">28</seg></item>
+
+<lb/><item>Note in <orgName>Arab</orgName> near with <seg rend="right">--</seg>
+
+<lb/><persName>Mirambo</persName> - loss by the <seg rend="right">--</seg>
+
+<lb/>so-called <term type="occupation">governor</term> <persName>Syde bin <seg rend="right">--</seg>
+
+<lb/>Salem</persName><choice><orig>s</orig><reg>'s</reg></choice> carelessness <seg rend="right">--</seg>
+
+<lb/>but I keep my own counsel <seg rend="right">--</seg></item></list>
+
+<!-- The rest of the page is blank. EM -->
+
+	<pb facs="liv_000019_0767" n="0767"/>
+
+<lb/><fw n="467"><add place="margintop" hand="#U" rend="gray right">467</add></fw>
+
+<lb/><p rend="no-indent">From 12 leaves back <date when="1872-02-20">1872 <choice><abbr>Feby</abbr><expan>February</expan></choice> 20</date> - despatch --
+
+<lb/>naturally conclude that all <orgName>cutchees</orgName> may
+
+<lb/>safely be entrusted with the possession of
+
+<lb/><orgName>slaves</orgName>, but I have been forced to see that
+
+<lb/>those who shrink from killing a flea or
+
+<lb/>mosquito are virutally the worst cannibals
+
+<lb/>in all <placeName><bloc>Africa</bloc></placeName> - the <orgName><term type="tribe">Manyema</term> cannibals</orgName>
+
+<lb/>among whom I spent nearly two years
+
+<lb/>are innocents compared with our 
+
+<lb/>protected <orgName>Banian</orgName> fellow subjects.
+
+<lb/>By then <orgName>Arab</orgName> <term type="occupation">agents</term> they compass the
+
+<lb/>destruction of more human lives
+
+<lb/>for their flesh pots in ten - and 
+
+<lb/>could the <term type="nationality">Indian</term> gentlemen who opppose
+
+<lb/>the anti <orgName>slave trade</orgName> policy of the <orgName>Foreign
+
+<lb/>office</orgName>, but witness the horrid deeds
+
+<lb/>done by the <orgName>Banian</orgName> <term type="occupation">agents</term>, they would
+
+<lb/>be foremost in decreeing that every
+
+<lb/><orgName>cutchee</orgName> found guilty of direct or indirect
+
+<lb/><orgName>slaving</orgName> should forthwith be shipped
+
+<lb/>back to <placeName><bloc>India</bloc></placeName>, if not to the <placeName><geogName type="island">Andeman 
+
+<lb/><choice><orig>i</orig><reg>I</reg></choice>slands</geogName></placeName>.</p>
+
+<lb/><p>The <orgName>Banians</orgName> having complete <w>poss-
+
+<lb break="no"/>ession</w> of the custom House and Revenue
+
+<lb/>of <placeName><geogName type="island">Zanzibar</geogName></placeName> enjoy <del type="strikethrough">complete</del> ample
+
+<lb/>opportunity to aid and conceal the <orgName>slave</orgName>
+
+<lb/>trade and all fraudulent transactions
+
+<lb/>committed by their <term type="occupation">agents</term> - It would be
+
+<lb/>good policy to recommend to Sultan
+
+<lb/>as he cannot trust his <orgName><term type="faith">Moslem</term>
+
+<lb/>subjects</orgName> to place his income from
+
+<lb/>all sources in the hands of an
+
+<lb/><term type="nationality">English</term> or <term type="nationality">American</term> <term type="occupation">merchant</term>
+
+<lb/>of known reputation &amp; uprightness
+
+<lb/><unclear>It</unclear> would be a check on the <orgName>slave</orgName>
+
+<lb/>trade - a benefit to the Sultan and
+
+<lb/>an aid to lawful commerce -</p>
+
+    <pb facs="liv_000019_0768" n="0768"/>
+    
+<lb/><fw n="468"><add place="margintop" hand="#U" rend="gray left">468</add></fw>
+
+<lb/><note place="marginleft"><date when="1872-02-20">1872 <lb/><choice><abbr>Feby</abbr><expan>February</expan></choice><lb/>20</date></note>
+
+<lb/><p>But by far the most beneficial
+
+<lb/>measure that could be introduced
+
+<lb/>into <placeName><region>Eastern <bloc>Africa</bloc></region></placeName> would be the
+
+<lb/>moral element which has worked so
+
+<lb/>beneficially in suppressing the
+
+<lb/><orgName>slave trade</orgName> around all the <add place="below">^</add> <add place="above"><term type="nationality">English</term></add> <w>settle-
+
+<lb break="no"/>-ments</w> of the <placeName><region>West Coast</region></placeName> - the <orgName>Banians</orgName>
+
+<lb/>seem to have no religion worthy of the
+
+<lb/>name, and among the <term type="faith">Mohamadans</term>
+
+<lb/>religion and morality are completely
+
+<lb/>disjoined - Different opinions have
+
+<lb/>been expressed as to the success of
+
+<lb/><term type="occupation"><term type="faith">Christian</term> missionaries</term> - and gentlemen
+
+<lb/>who judge by the riff raff that follow
+
+<lb/><term type="nationality">Indian</term> camps speak very <w>unfavour<supplied>-</supplied>
+
+<lb break="no"/>-ably</w> from an impression that the
+
+<lb/>drunkhards who profess to be of "Master's
+
+<lb/>"caste and drink <term type="foodstuff">brandy</term>" are of average
+
+<lb/>specimens of <term type="faith">Christian</term> comments - But the
+
+<lb/>comprehensible reports of <persName>Colonel Ord</persName>
+
+<lb/>presented to <orgName>Parliament</orgName> <add place="above">1875</add> contains no
+
+<lb/>such mistake - He states that while the
+
+<lb/>presence of the squadron has had some
+
+<lb/>share in suppressing the <orgName>slave</orgName> trade
+
+<lb/>the result is mainly due to the existence
+
+<lb/>of the settlements - this is supported by
+
+<lb/>the fact that even in those least visited
+
+<lb/>by men of war, it has been as effectually
+
+<lb/>suppressed as in those which have
+
+<lb/>been their most constant resort - the
+
+<lb/>moral element which has proved
+
+<lb/>beneficial all round the settlements
+
+<lb/>is mainly due to the teachings of the
+
+<lb/><term type="occupation">missionaries</term> - I would carefully
+
+<lb/>avoid anything like boasting over
+
+<lb/>the benevolent efforts of our countrymen</p>
+
+
+		<pb facs="liv_000019_0769" n="0769"/>
+			    
+<lb/><fw n="498"><add place="margintop" hand="#U" rend="gray right">468</add></fw>
+
+<lb/><note place="marginleft"><date when="1872-02-20">1872 <lb/><choice><abbr>Feby</abbr><expan>February</expan></choice><lb/>20</date></note>
+			    
+<lb/><p rend="no-indent">But here their good influences are
+
+<lb/>totally unknown. No attempt has ever
+ 
+<lb/>been made by the <orgName>Muhamadans</orgName> in <placeName><region>East
+
+<lb/><bloc>Africa</bloc></region></placeName> to propagate their faith, and their
+
+<lb/>trade intercourse has only made the
+
+<lb/><orgName>natives</orgName> more avaricious than themselves
+
+<lb/>The fines levied on all <term type="occupation">traders</term> are nearly
+
+<lb/>prohibitive and nothing is given in return
+
+<lb/><persName>M<hi rend="sup">r</hi> Stanley</persName> was mulcted of sixteen hundred
+
+<lb/>yards of superior calico between the sea
+
+<lb/>and <placeName><settlement type="town">Ujiji</settlement></placeName> - and we made a detour of <measure>300
+
+<lb/>miles</measure> to avoid similar spoilation among
+
+<lb/>people accustomed to <orgName>Arabs</orgName> - It has been
+
+<lb/>said that <orgName>Moslems</orgName> would be better
+
+<lb/><term type="occupation">missionaries</term> than <orgName>Christians</orgName> because
+
+<lb/>they would allow polygamy, but nowhere
+
+<lb/>have <orgName>Christians</orgName> been loaded with the
+
+<lb/>contempt the <orgName>Arabs</orgName> have to endure in
+
+<lb/>addition to being plundered - to "<foreign xml:lang="und">hoñga</foreign>"
+
+<lb/>originally meant to make friends - it
+
+<lb/>does so now in all the more central
+
+<lb/>countries and presents are exchanged
+
+<lb/>at the ceremony the <orgName>natives</orgName> usually
+
+<lb/>giving the largest amount but on routes
+
+<lb/>much frequented by <orgName>Arabs</orgName> it has come
+
+<lb/>to mean not "black mail" but forced
+
+<lb/>contributions impudently demanded
+
+<lb/>and neither service nor food returned</p>
+
+<lb/><p rend="no-indent">six pages to be added
+
+<lb/><persName>David Livingstone</persName><!-- I couldn't make the schema accept the <signed> tag here, with or without a <closer> tag. MW-->
+
+<lb/>Despatch is continued in the three
+
+<lb/>loose sheets herein enclosed.</p>
+
+
+
+			</div>
+		</body>
+    </text>
+</TEI>

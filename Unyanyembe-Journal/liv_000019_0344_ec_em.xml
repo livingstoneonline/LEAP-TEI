@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019"><!-- Adrian change only -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="EC">
+                    <name>Erin Cheatham</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 1115</idno><!-- Adrian change only -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Journals, 011</idno><!-- Adrian change only -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866 - 5 March 1872</date><!-- Adrian change x2 only -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="la">Latin</language><!-- Everyone, add languages as necessary. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-09-26" who="#EM">Transcription and XML encoding</change>
+            <change when="2015-09-26" who="#EC">Transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+       	<body>
+			<div>
+
+	<gb/>
+
+	<pb facs="liv_000019_0344.jpg" n="0344"/>
+<lb/><fw n="338"><add place="margintop" rend="gray left" hand="#U">338</add></fw>
+<lb/><p><note place="marginleft"><!--I'm not entirely sure what this says/means? EC-->Desp <lb/> No 2</note> and with bows and arrows was invincible
+<lb/>He is said to have destroyed many <orgName><orgName>native</orgName>
+<lb/><term type="occupation">traders</term></orgName> from <placeName><country>Tanganyika</country></placeName><!--I think this is a Lake? EC--><!-- It's a country. EM --> but twenty <orgName>Arab</orgName>
+<lb/>guns made him flee from his own stockage
+<lb/>and caused a great sensation in the country
+<lb/>He was much taken with my hair, and 
+<lb/>woolen clothing, but his people heedless of
+<lb/>his scolding so pressed upon us that we
+<lb/>could not converse, and after promising 
+<lb/>to send for me to talk during the night our
+<lb/>interview ended - He promised <term type="occupation">guides</term>
+<lb/>to <placeName><geogName type="lake">Moero</geogName></placeName>, and sent us more provisions 
+<lb/>than we could carry, but <choice><orig>shewed</orig><reg>showed</reg></choice> so much
+<lb/>distrust that after all we went without 
+<lb/>his assistance -</p>
+<lb/><p><persName>Insama</persName>'s people are particularly handsome
+<lb/>many of the men have as beautiful heads
+<lb/>as one could find in an assembly of 
+<lb/><term type="people">Europeans</term> - all have very fine forms
+<lb/>with small hands and feet - Some of 
+<lb/>the <region>West Coast</region> ugliness from which most
+<lb/>of our ideas of the negroes are derived is 
+<lb/>here to be seen - - No prognathous jaws
+<lb/>nor <term type="animal">Lark</term> heels offended the sight - My
+<lb/>observations deepened the impression 
+<lb/>first obtained from the remarks of <unclear cert="medium"><del type="strikethrough">Mt</del></unclear>
+<lb/><persName>Winwoode Reade</persName> that the typical <orgName>Negro</orgName>
+<lb/>is seen in the ancient <term type="nationality">Egyptian</term><!--Not sure in this context if this term is a "nationality" or "person". EC, EM-->, and 
+<lb/>not in the ungainly forms which grow
+<lb/>up in the unhealthy swamps of the <region>West
+<lb/>Coast</region> - indeed it is probable that this
+<lb/>upland forest region is the true home
+<lb/>of the <orgName>negro</orgName> - the women excited the 
+<lb/>admiration of the <orgName>Arabs</orgName> - they have 
+<lb/>fine small well formed features - 
+<lb/>their great defects is one of fashion 
+<lb/>which does not extend to the next tribe
+
+<pb facs="liv_000019_0345.jpg" n="0345"/>
+<lb/><fw n="339"><add place="margintop" rend="gray right" hand="#U">339</add></fw>
+<lb/><note place="marginleft">Desp<!--I'm not entirely sure what this says/means? EC,EM --> <lb/> No 2</note> they file their teeth to points - the hussies ! -
+<lb/>and that makes their smile like that of the 
+<lb/><term type="animal">Crockodile</term> -</p>
+<lb/><p><persName>Insama</persName>'s country is called <placeName><settlement type="town">Itawa</settlement></placeName>
+<lb/>and his principal town is in <measure><choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 8° 55' South</measure>
+<lb/>and <measure><choice><abbr>Long.</abbr><expan>Longitude</expan></choice> 29° 21' <choice><abbr>E.</abbr><expan>East</expan></choice></measure> From the large population
+<lb/>he had under him, <placeName><settlement type="town">Itawa</settlement></placeName> is in many parts
+<lb/>well cleared of trees for cultivation, and it is 
+<lb/>lower than <placeName><region>Ulungu</region></placeName><!--Not sure why type of place this is? EC--><!-- Research has led me to believe it's a region. EM --> being generally about <measure>3000 
+<lb/>feet</measure> above sea - Long lines of tree covered 
+<lb/>hills raised some <measure>600 or 700 feet</measure> above their
+<lb/>valleys of denundation prevent the scenery from
+<lb/>being monotonous - Large game is abundant
+<lb/><term type="animal">Elephants</term> <term type="animals">buffaloes</term> and <term type="animal">zebras</term> grazed in large 
+<lb/>numbers on the long sloping banks of a river
+<lb/>called <placeName><geogName type="river">Chisera</geogName></placeName> <measure>a mile and a half</measure> broad -
+<lb/>In going North we crossed this river<!--geog: Chiser--> or rather
+<lb/>marsh which is full of <term type="plant">Papyrus</term> plants &amp; 
+<lb/>reeds - our ford was an <term type="animal">elephant</term>'s path, and 
+<lb/>the roots of the <term type="animal">Papyrus</term> though a carpet to these 
+<lb/>animals were sharp and sore to feet usually 
+<lb/>protected by shoes, and often made us shrink
+<lb/>and flounder into holes chest deep - the <placeName><geogName type="river">Chisera</geogName></placeName>
+<lb/>forms a larger marsh West of this <del type="strikethrough">which took
+<lb/>us an hour and a half to ford</del>, and it gives
+<lb/>off its water to the <placeName><geogName type="river">Kalongosi</geogName></placeName> a feeder of <placeName><geogName type="lake">Lake
+<lb/>Moero</geogName></placeName> - </p>
+<lb/><p>The <orgName>Arabs</orgName> sent out men in all directions 
+<lb/>to purchase ivory, but their victory over
+<lb/><persName>Insama</persName> had created a panic among the 
+<lb/>tribes which no verbal assurances could
+<lb/>allay - If <persName>Insama</persName> had been routed by 20
+<lb/><orgName>Arab</orgName> guns no one could stand before them
+<lb/>but <persName>Kasembe</persName> - and <persName>Kasembe</persName> had issued
+<lb/>strict orders to his people not to allow 
+<lb/>the <orgName>Arab</orgName>who fought <persName>Isama</persName> to enter his 
+<lb/>country - they did not attempt to force
+
+
+<pb facs="liv_000019_0346.jpg" n="0346"/>
+<lb/><fw n="340"><add place="margintop" rend="gray left" hand="#U">340</add></fw>
+<lb/>their way but after sending friendly messages
+<lb/>and presents to different <term type="occupation">chiefs</term> which these 
+<lb/>were not cordially recieved, turned off in
+<lb/>some other direction, and at last despairing
+<lb/>of more ivory turned homewards - from
+<lb/>first to last they were extremely kind to me
+<lb/>and <choice><orig>shewed</orig><reg>showed</reg></choice> all due respect to the <bibl><persName>Sultan</persName>'s 
+<lb/>letter</bibl> - I am glad that I was witness to their 
+<lb/>mode of trading in ivory and <orgName>slaves</orgName> - It
+<lb/>formed a complete contrast to the atrocious 
+<lb/>dealings of the <orgName><settlement type="city">Kilwa</settlement> <term type="occupation">traders</term></orgName> who are supposed 
+<lb/>to be, but are not, the subjects of the same
+<lb/><persName>Sultan</persName> - If one wished to depict the <orgName>slave
+<lb/>trade</orgName> in its most attractive, or rather, 
+<lb/>least objectionable form, he would accompany
+<lb/>these gentleman subjects of the <persName>Sultan of
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName></persName> - If he would describe the land
+<lb/>traffic in its most disgusting phrases he
+<lb/>would follow the <orgName><placeName><settlement type="city">Kilwa</settlement></placeName> <term type="occupation">traders</term></orgName><!--Not sure what to tag this as? EC--><!-- Corrected from 'Kilva' to 'Kilwa', which is a city/state. EM --> along the
+<lb/>road to <placeName><geogName type="river">Nyassa</geogName></placeName>, of the <term type="nationality">Portuguese</term> <w>half
+<lb break="no"/>-castes</w> from <placeName>Tette</placeName> to the river <placeName><geogName type="river">Shire</geogName></placeName> -</p>
+<lb/><p>Keeping to the North of <placeName><settlement type="village">Insama</settlement></placeName> all together
+<lb/>and moving Westwards <subst><del>we</del><add place="over-text">our</add></subst> small party
+<lb/>reached the North end of <placeName><geogName type="lake">Moero</geogName></placeName> on the 
+<lb/><date when="1867-11-08">8<hi rend="sup underline">th</hi> November</date><!--Not sure of the year here? EC--> last - <space extent="1" unit="words"/> There the Lake<!--Geog: --> is
+<lb/>a <unclear>goodly</unclear> piece of water <measure>twelve or more miles</measure>
+<lb/>broad, and flanked on the East and West
+<lb/>by ranges of lofty tree covered mountains,
+<lb/>the range on the West is the highest and 
+<lb/>is part of the country called <placeName><geogName type="mountain">Rua</geogName></placeName> - <placeName><geogName type="lake">Moero</geogName></placeName>
+<lb/>gives off a river at its North West end
+<lb/>called <placeName><geogName type="river">Lualaba</geogName></placeName> and recieves the <unclear>River</unclear><!--This is hard to read because of the curve of the page-->
+<lb/><placeName><geogName type="river">Kalongosi</geogName></placeName> (pronounced by the <orgName>Arabs</orgName> Karungosi<!-- Does this need to be identified in any way? EM -->)
+<lb/>on the East near its middle, and the 
+<lb/>rivers <placeName><geogName type="river">Luapula</geogName></placeName> <add place="below">^</add> <add place="above">and</add> at its <add place="below">^</add> <add place="above"><placeName><geogName type="river">Roukwe</geogName></placeName></add> Southern extremity 
+<lb/>the point of most interest in <placeName><geogName type="Lake">Lake
+<lb/>Moero</geogName></placeName> is that it forms one of a chain 
+
+<pb facs="liv_000019_0347.jpg" n="0347"/>
+<lb/><fw n="341"><add place="margintop" rend="gray right" hand="#U">341</add></fw>
+<lb/>of Lakes connected by a river some <measure>500
+<lb/>miles</measure> in length - First of all the <placeName><geogName type="river">Chambezi</geogName></placeName>
+<lb/>rises in the country of <placeName><country>Mambwe</country></placeName> <choice><abbr>N.E.</abbr><expan>North East</expan></choice> of 
+<lb/><placeName>Molemba</placeName><!--Not sure what type of place this is. EC,EM --> - it then flows South West and West
+<lb/>till it reaches <measure><choice><abbr>Lat.</abbr><expan>Latitude</expan></choice> 11° South</measure> and <measure><choice><abbr>Long.</abbr><expan>Longitude</expan></choice> 29° East</measure>
+<lb/>where it forms <placeName><geogName type="lake">Lake Bemba</geogName></placeName> <add place="below">^</add> <add place="above">or <placeName><geogName type="lake">Bambedo</geogName></placeName></add> - emerging
+<lb/>thence it assumes the new name <placeName><geogName type="lake">Luapula</geogName></placeName> -
+<lb/><del type="strikethrough">which</del> <add place="above">and</add> comes down here to fall into <placeName><geogName type="lake">Moero</geogName></placeName> -
+<lb/>on going out of this Lake it is known by the 
+<lb/>name <placeName><geogName type="lake">Lualaba</geogName></placeName> as it flows <choice><abbr>N.W.</abbr><expan>North West</expan></choice> in <placeName><geogName type="mountain">Rua</geogName></placeName> to 
+<lb/>form another Lake with many islands called
+<lb/><placeName><geogName type="lake">Urenge</geogName></placeName> or <placeName><geogName type="lake">Ulenge</geogName></placeName><!-- Should this variaton of spelling be coded/identified? EM --> - Beyond this, <w>inform-
+<lb break="no"/>-ation</w> is not postitive as to whether it enters 
+<lb/><placeName><geogName type="lake">Tanganyika</geogName></placeName> or another Lake beyond that -
+<lb/>When I crossed the <placeName><geogName type="river">Chambeze</geogName></placeName>, the similarity 
+<lb/>of names led me to imagine that this was a branch of the <placeName><geogName type="river">Zambezi</geogName></placeName> - the natives said
+<lb/>"No - this goes South West and forms a very 
+<lb/>large water there" - but I had become prepossessed
+<lb/>with the idea that <placeName><geogName type="lake">Lake Liemba</geogName></placeName> was that 
+<lb/><placeName><geogName type="lake">Bemba</geogName></placeName> of which I had heard in <date when="1863">1863</date> - and 
+<lb/>we had been so starved in the South that I gladly
+<lb/>set my face North - the river like prolongation 
+<lb/>of <placeName><geogName type="lake">Lake Liemba</geogName></placeName> might go to <placeName><geogName type="lake">Moero</geogName></placeName>, and then I worked 
+<lb/> my way to this Lake when I could not follow
+<lb/>the arm of <placeName><geogName type="lake">Liemba</geogName></placeName> -<!--Livingstone edits the order of this sentence here by circling a part of it and pointing to where to insert it. Not sure how to transcribe this? EC,EM --> Since coming to <unclear cert="low">basembes</unclear>
+<lb/>the testimony of <orgName>natives</orgName> and <orgName>Arabs</orgName> has been
+<lb/>so united and consistent - that I am but ten
+<lb/>days from <placeName><geogName type="lake"><w>La<subst><del><gap extent="1" unit="words"/></del><add place="over-text">ke</add></subst> Bemba</w></geogName></placeName> <add place="below">^</add> <add place="above">or Bambeolo<!-- Identifier: Lake? EM --></add> that I cannot doubt
+<lb/>its accuracy - I am so tired of exploration
+<lb/>without a word from home or any where
+<lb/>- else <add place="below">^</add> <add place="above">for two years</add> that I must go to <placeName><settlement type="city">Ujiji</settlement></placeName> or <placeName><settlement type="city">Tangangika</settlement></placeName>
+<lb/>for <bibl>letters</bibl> before doing anything else -
+<lb/>the banks and country adjacent to <placeName><geogName type="lake">Lake
+<lb/><unclear>Bambaolo</unclear></geogName></placeName> are reported to be <add place="below">^</add> <add place="above">now</add> very muddy
+<lb/>and very unhealthy - <add place="below">^</add> <add place="above">I have no medicine</add> the inhabitants 
+<lb/>suffer greatly from <term type="ailment">swelled thyroid gland</term>
+<lb/>or <term type="ailment">Derbyshire neck</term>, and <term type="ailment">Elephantiasis</term> and this
+<lb/>is the rainy season &amp; very <w>un<subst><del><gap extent="1" agent="words"/></del><add place="over-text">safe</add></subst></w> for me -</p>
+
+<pb facs="liv_000019_0348.jpg" n="0348"/>
+<lb/><fw n="342"><add place="margintop" rend="gray left" hand="#U">342</add></fw>
+<lb/><p>When at the lower end of <placeName><geogName type="lake">Moero</geogName></placeName> we 
+<lb/>were so near <placeName>Kasembe</placeName><!-- Or Person? EM --> that it was thought
+<lb/>well to ascertain the length of the Lake <!--Geog:-->, and
+<lb/>see <placeName>Kasemba</placeName> too - We came up between the
+<lb/>double range that flanks the East of the Lake <!--Geog:-->,
+<lb/>but mountains, and plains are so covered 
+<lb/>with well grown forest that we could 
+<lb/>seldom see it - We reached <persName>Kasembe</persName>'s town 
+<lb/>on the <date when="--11-28"><!--Not sure of the year here. EC-->28<hi rend="sup underline">th</hi> <choice><abbr>Nov</abbr><expan>November</expan></choice><hi rend="sup underline">th</hi></date> <space unit="words" extent="1"/> It stands near the North end
+<lb/>of the Lakelet <placeName><geogName type="lakelet">Mofwe</geogName></placeName> - this is from <measure>one to three
+<lb/>miles broad</measure> and some <measure>six or seven</measure> long - it is
+<lb/>full of sedgy islands and abounds in <term type="animal">fish</term>
+<lb/>the country is quite level but <measure>fifteen or 
+<lb/>twenty miles</measure> West of <placeName><geogName type="lakelet">Mofwe</geogName></placeName> we see a long
+<lb/>range of the mountains of <placeName><geogName type="mountain">Rua</geogName></placeName> - Between 
+<lb/>this range and <placeName><geogName type="lakelet">Mofwe</geogName></placeName> the <placeName><geogName type="river">Luapula</geogName></placeName> flows 
+<lb/>past into <del type="strikethrough">Moero</del>  - <placeName><geogName type="lake">Moero</geogName></placeName> <add place="below">^</add> <add place="above">the Lake called <placeName><geogName type="lake">Moero okata</geogName></placeName> = the great <placeName><geogName type="lake">Moero</geogName></placeName></add> being about <measure>fifty
+<lb/>miles long</measure> - the town of <placeName><settlement type="town">Kasembe</settlement></placeName><!-- Again, a person? EM --> covers
+<lb/><del type="strikethrough">about</del> <measure>a mile</measure> square of <term type="plant_foodstuff">cassava</term> <orgName>plantations</orgName>
+<lb/>the huts being dotted over that space - some
+<lb/>have square enclosures of reeds but no
+<lb/>attempt has been made at arrangment,
+<lb/>it might be called a rural village rather 
+<lb/>than a town - no estimate could be 
+<lb/>formed by counting the huts, they were 
+<lb/>so irregularly planted, and hidden by <term type="plant_foodstuff">cassava</term>
+<lb/>but my impression from other 
+<lb/>collections of huts was that the population 
+<lb/>was under a thousand souls - the court
+<lb/>or compound of <persName>Kasembe</persName> - some would 
+<lb/>call it, a palace, is a square enclosure
+<lb/>of <measure>300 <choice><abbr>yds</abbr><expan>yards</expan></choice> by 200 <choice><abbr>yds</abbr><expan>yards</expan></choice></measure> - it is surrounded 
+<lb/>by a hedge of high reeds - inside, where 
+<lb/><persName>Kasembe</persName> honoured me with a grand
+<lb/>reception, stands a gigantic hut for
+<lb/><persName>Kasembe</persName>, and a score of small huts
+<lb/>for domestics - the Queen's hut stands
+
+	<pb facs="liv_000019_0349.jpg" n="0349"/>
+<lb/><fw n="343"><add place="margintop" rend="gray right" hand="#U">343</add></fw>
+<lb/>behind that of the <term type="occupation">chief</term> with a number of 
+<lb/>small huts also - Most of the enclosed space
+<lb/>is covered with a plantation of <term type="plant_foodstuff">Cassava</term> -
+<lb/>"<foreign xml:lang="la"><hi rend="underline">curcas</hi> <hi rend="underline">pungans</hi></foreign>" - and <term type="plant">cotton</term> - <persName>Kasembe</persName> sat
+<lb/>before his hut on a square seat placed on <term type="animal">Lion</term>
+<lb/>and <term type="animal">Leopard</term> skins - He was clothed in a coarse
+<lb/>blue and white Manchester<!-- Identifier? EM --> print edged with
+<lb/>red baize, and arranged in large folds so as to 
+<lb/>look like a crinoline - <add place="above">put on wrong side foremost</add> His arms legs &amp; head
+<lb/>were covered with sleeves - leggins &amp; caps made 
+<lb/>of various coloured beads in neat patterns -
+<lb/>a crown of yellow feathers surmounted his
+<lb/>cap - Each of his <term type="occupation">head-men</term> came forward
+<lb/>shaded by a huge ill made umbrellah, and 
+<lb/>followed by his dependants - made obeisance
+<lb/>to <persName>Kasembe</persName> and sat down on his right &amp; 
+<lb/>left - various bands of <term type="occupation">musicians</term> did the 
+<lb/>same - When called upon I rose and bowed -
+<lb/>and an old counsellor with his ears cropped, 
+<lb/>gave the <term type="occupation">chief</term> as full an account as he 
+<lb/>had been able to gather during our stay of the 
+<lb/><term type="nationality">English</term> in general, and my antecedents in
+<lb/>particular - my having passed through
+<lb/><placeName>Lunda</placeName> to the West of <placeName>Kasembe</placeName>, and visited
+<lb/><term type="occupation">chiefs</term> of whom he scarcily knew anything
+<lb/>excited most attention - He then assured
+<lb/>me that I was welcome to his country to go
+<lb/>where I liked and do what I chose - We then
+<lb/>went <add place="below">^</add> <add place="above">two boys carrying his train behing him</add> to an inner apartment where the
+<lb/>articles of my present were exhibited in
+<lb/>detail - He had examined them privately 
+<lb/>before, and we knew that he was satisfied
+<lb/>they consisted of eight yards of orange coloured 
+<lb/>serge - a large striped table cloth - another 
+<lb/>large cloth made at <placeName><settlement type="city">Manchester</settlement></placeName> in imitation 
+<lb/>of West Coast <orgName>native</orgName> manufacture - It
+<lb/>never fails to excite the admiration of 
+
+	<pb facs="liv_000019_0350.jpg" n="0350"/>
+<lb/><fw n="344"><add place="margintop" rend="gray left" hand="#U">344</add></fw>
+<lb/><orgName>Arabs</orgName> and <orgName>natives</orgName>, and a large richly
+<lb/>guilded comb for the back hair such as <unclear>Indu</unclear><!-- Hindu? Tribe? EM -->
+<lb/>wore fifty years ago - It was given to me by
+<lb/>a friend at <placeName><settlement type="city">Liverpool</settlement></placeName> and as <orgName><persName>Kasembe</persName> &amp;
+<lb/><persName>Insama</persName>'s people</orgName> cultivate the hair into large
+<lb/>knobs behind, I was sure that this article
+<lb/>would tickly the fancy, <persName>Kasembe</persName> expressed
+<lb/>himself pleased, and again bade me welcome. </p>
+<lb/><p>I had another interview, and tried to 
+<lb/>dissuade him from selling his people as 
+<lb/><orgName>slaves</orgName> - he listened a while - then broke off 
+<lb/>into a tirade on the greatness of his country
+<lb/>his power and dominion, which <persName>Mohamed
+<lb/>bin Salh</persName> who has been here for ten years
+<lb/>turned into ridicule, and made the audience 
+<lb/>laugh by telling how other <orgName><term type="tribe">Lunda</term> <term type="occupation">chiefs</term></orgName> 
+<lb/>had given me <term type="animal">oxen</term> and <term type="animal">sheep</term> while <persName>Kasembe</persName>
+<lb/>had only a poor little <term type="animal">goat</term> &amp; some <term type="animal">fish</term> to
+<lb/>bestow - He insisted also that <add place="below">^</add> <add place="above">there</add> were but two
+<lb/><choice><sic>sovreigns</sic><corr>sovereigns</corr></choice> in the world - the <persName>Sultan of 
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName></persName> and <persName>Victoria</persName> - when we went
+<lb/>on a third occasion to bit <persName>Kasembe</persName>
+<lb/>farewell, he was much less distant &amp;
+<lb/>gave me the impression that I could soon
+<lb/>become friends with him - but he has 
+<lb/>an ungainly look, and an outward squint
+<lb/>in each eye - a number of human skulls
+<lb/>adorned the entrance to his courtyard -
+<lb/>and great numbers of his principal 
+<lb/>men having their ears cropped and 
+<lb/>some with their hands lopped off <choice><orig>shewed</orig><reg>showed</reg></choice>
+<lb/>his barbarous way of making his ministers 
+<lb/>attentive and honest - I could not avoid
+<lb/>indulging a prejudice against him -</p>
+<lb/><space extent="4" unit="lines"/>
+
+	<pb facs="liv_000019_0351.jpg" n="0351"/>
+<lb/><fw n="345"><add place="margintop" rend="gray right" hand="#U">345</add></fw>
+<lb/><p>The <term type="nationality">Portuguese</term> visited <persName>Kasembe</persName> long ago -
+<lb/>but as each new <persName>Kasembe</persName><!--Not sure if this is a person or now a tribe here? EC--><!-- Kasembe, as I've been led to believe, is a similar title to that of Sultan, or a name/inherited role. EM --> builds a new town
+<lb/>it is not easy to fix on the exact spot to which
+<lb/>strangers came - the last seven <orgName>Kasembes</orgName><!-- That being said, not sure how this one should be handled... EM --> have 
+<lb/>had their towns within <measure>seven miles</measure> of the present 
+<lb/>one - <persName>D<hi rend="sup underline">r</hi> Lacerda</persName> - <term type="occupation">Governor of <placeName><settlement type="city">Lette</settlement></placeName></term> on the <placeName><geogName type="river">Zambesi</geogName></placeName> was the only visitor of scientific 
+<lb/>attainments, and he died at the rivulet called <placeName><geogName type="rivulet">Chungu</geogName></placeName> <measure>three or four miles</measure> from this - the spot
+<lb/>is called <placeName>Nshinda</placeName> or <placeName>Inchinda</placeName> which the 
+<lb/><term type="nationality">Portuguese</term> wrote Lucenda or Ucenda<!-- Identifiers? EM --> - the 
+<lb/>Lattitude given is nearly <measure>fifty miles</measure> wrong, 
+<lb/>but the <orgName>natives</orgName> say that he lived only ten
+<lb/>days after his arrival, and if, as is probably, 
+<lb/>his mind was clouded with <term type="ailment">fever</term> when 
+<lb/>he <add place="below">^</add> <add place="above">last</add> observed, those who have experienced
+<lb/>what that is, will readily excuse any
+<lb/>mistake he may have made - His object
+<lb/>was to accomplish a much desired project
+<lb/>of the <term type="nationality">Portuguese</term> to have an over land <w>com-
+<lb break="no"/>munication</w> between their Eastern &amp; Western
+<lb/>possessions - this was never made by any
+<lb/>of the <term type="nationality">Portuguese</term> nation, but two <orgName>black</orgName> <term type="occupation">traders</term> 
+<lb/>succeeded partially with a part of the distance - 
+<lb/>crossing once from <placeName>Cassange</placeName> in <country>Angola</country> to 
+<lb/><unclear>tette</unclear> on the <placeName><geogName type="river">Zambesi</geogName></placeName>, and returning with a 
+<lb/><bibl>letter</bibl> <del type="strikethrough">to</del> from the <term type="occupation">Governor of <country>Mosambique</country></term> -
+<lb/>it is remarkable that this journey which was 
+<lb/><measure>less by a thousand miles</measure> than from sea to 
+<lb/>sea and back again, should have for ever
+<lb/>quenched all white <term type="nationality">Portuguese</term> aspirations 
+<lb/>for an overland route</p>
+
+	<pb facs="liv_000019_0352.jpg" n="0352"/>
+<lb/><fw n="346"><add place="margintop" rend="gray left" hand="#U">346</add></fw>
+<lb/><p>The different <orgName>Kasembes</orgName><!-- Again, is this correct? EM --> visited by the 
+<lb/><term type="nationality">Portuguese</term> seem to have varied much in character
+<lb/>and otherwise - <persName>Pereira</persName> the first visitor said
+<lb/>(I quote from memory) that <persName>Kasembe</persName> had 20,000
+<lb/>trained <term type="occupation">soldiers</term>, watered his streets <add place="below">^</add> <add place="above">daily</add> and sacrificed
+<lb/>twenty human victims every day, I could 
+<lb/>hear nothing of human sacrifices now 
+<lb/>and it is questionable if the present <persName>Kasembe</persName>
+<lb/>could bring a thousand stragglers into the field,
+<lb/>when he usurped power five years ago
+<lb/>his country was densely populated, but he
+<lb/>was so severe in his punishments - cropping 
+<lb/>the ears - lopping off the hands &amp; other mutilations 
+<lb/><add place="marginleft">^</add> <add place="above">selling the children</add> for very slight offences - that his <del type="strikethrough">tribe</del> <add place="above">subjects</add> gradually
+<lb/>dispersed themselves in the neighboring
+<lb/>countries beyond his power - this is the 
+<lb/>common mode by which tyranny is aired
+<lb/>in parts like these where fugitives are
+<lb/>never returned - the present <persName>Kasembe</persName>
+<lb/>is very poor - when he had people who
+<lb/>killed <term type="animal">elephants</term> he was too stingy to
+<lb/>share the profits of the sale of the ivory with
+<lb/>his subordinates - the <term type="animal">elephant</term> hunters
+<lb/>have either left him or neglect hunting
+<lb/>so he has now no tusks to sell to the <orgName>Arab</orgName>
+<lb/>traders who come from <placeName><geogName type="lake">Tanganyika</geogName></placeName> -
+<lb/><persName>Major Moteiro</persName> the third <term type="nationality">Portuguese</term> who
+<lb/>visited <persName>Kasembe</persName> appears to have been
+<lb/>badly treated by this man's predecessor
+<lb/>and no other of his nation has ventured 
+<lb/>so far since - they do not lose much
+<lb/>by remaining away, for a little ivory
+<lb/>and <orgName>slaves</orgName> are all that <orgName>Kasembe</orgName> ever
+<lb/>can have to sell - about a month to the 
+<lb/>West of this <orgName>people of <placeName>Katonga</placeName></orgName> smelt
+<lb/>copper ore - (malachite) into large bars
+<lb/>shaped like the capital letter II. they
+
+	<pb facs="liv_000019_0353.jpg" n="0353"/>
+<lb/><fw n="347"><add place="margintop" rend="gray right" hand="#U">347</add></fw>
+<lb/>may be met with of from <measure>50 <choice><abbr>lbs</abbr><expan>pounds</expan></choice> to 100 <choice><abbr>lbs</abbr><expan>pounds</expan></choice></measure> weight
+<lb/>all over the country, and the inhabitants draw
+<lb/>the copper into wire for armlets and leglets -
+<lb/>Gold is also found at <placeName><region>Katanga</region></placeName>, and specimens 
+<lb/>were lately sent to the <persName>Sultan of <placeName><geogName type="island">Zanzibar</geogName></placeName></persName>-</p>
+<lb/><p>As we came down from the watershed towards
+<lb/><placeName><geogName type="lake">Tanganyika</geogName></placeName> we enter an area of the earth's surface
+<lb/>still disturbed by internal igneous action - a hot
+<lb/>fountain in the country of <persName>Insama</persName> is often used
+<lb/>to boil <term type="plant_foodstuff">Casava</term> and <term type="plant_foodstuff">maize</term> - Earthquakes are 
+<lb/>by no means rare - We experienced the shock
+<lb/>of one while at <placeName><settlement type="village"><persName>Chitimba</persName>'s village</settlement></placeName>, and they
+<lb/>extend as far as <placeName><settlement type="village"><persName>Kasembe</persName>'s</settlement></placeName>, I felt as if
+<lb/>afloat, and as huts would not fall there was no
+<lb/>sense of danger - some of them that happen at 
+<lb/>night set the <term type="animal">fowls</term> a crackling - the most remarkable
+<lb/>effect of this one was that it changed the rates
+<lb/>of the chronometers - no rain fell after it - no
+<lb/>one had access to the chronometers but myself 
+<lb/>and as I never heard of this effect before 
+<lb/>I may mention that one which lost with great 
+<lb/>regularity <measure><unclear>1<hi rend="sup">s</hi> - 5</unclear></measure><!--not sure what this means here? Might be measurements? EC--> daily, lost <measure>15<hi rend="sup">s</hi></measure> - another whose rate
+<lb/>since leaving the coast was - <measure>15°</measure> lost <measure>40<hi rend="sup">s</hi></measure> and a 
+<lb/>third which gained <measure>6<hi rend="sup">s</hi></measure> daily stopped alltogether -
+<lb/>some of <persName>Insama</persName>'s people ascribed the <w>earth- 
+<lb break="no"/>quakes</w> to the hot fountain because it <choice><orig>shewed</orig><reg>showed</reg></choice>
+<lb/>unusual commotion on these occasions, 
+<lb/>another hot fountain exists near <placeName><geogName type="lake">Tanganyika</geogName></placeName>
+<lb/>than <placeName><settlement type="village"><persName>Insama</persName>'s</settlement></placeName>, and we passed one on the 
+<lb/>shores of <placeName><geogName type="lake">Moero</geogName></placeName> -</p>
+<lb/><p>We could not understand why the <orgName>natives</orgName>
+<lb/>called <placeName><geogName type="lake">Moero</geogName></placeName> much larger than <placeName><geogName type="lake">Tanganyika</geogName></placeName>
+<lb/>till we saw both - the greater Lake lies in
+<lb/>a comparatively narrow trough with highland
+<lb/>on each side which is always visible - but 
+<lb/>when we look at <placeName><geogName type="lake">Moero</geogName></placeName> to the South of the
+<lb/>mountains of <placeName><geogName type="mountain">Rua</geogName></placeName> on the West we have
+
+	<pb facs="liv_000019_0354.jpg" n="0354"/>
+<lb/><fw n="348"><add place="margintop" rend="gray left" hand="#U">348</add></fw>
+<lb/>nothing but an apparently boundless sea
+<lb/>horizon - the <placeName>Luapula</placeName> and <placeName>Rounkwe</placeName><!--Not sure about these placenames here. EC--> form
+<lb/>a marsh at the Southern extremity, and 
+<lb/><persName>Kasembe</persName> dissuaded me from entering it
+<lb/>but sent a man to guide me to different 
+<lb/>points of <placeName><geogName type="lake">Moero</geogName></placeName> further down from the 
+<lb/>heights at which the Southern portions were 
+<lb/>seen it must be from <measure>forty to sixty miles</measure>
+<lb/>broad - from the South end of the mountains
+<lb/>of <placeName><geogName type="mountain">Rua</geogName></placeName> (<measure>9° 4' South <choice><abbr>Lat.</abbr><expan>Lattitude</expan></choice></measure>) it is <measure>thirty three miles</measure> 
+<lb/>broad - No <orgName>native</orgName> ever attempts to cross
+<lb/>it even there - its fisheries are of great value
+<lb/>to the inhabitants, and the produce is carried
+<lb/>to great distances -</p>
+<lb/><p>Among the vegetable products of this
+<lb/>region that which interested me most was 
+<lb/>a sort of <term type="plant_foodstuff">potato</term> - it does not belong to the 
+<lb/>solanaceous <del type="strikethrough">family</del> but to the <add place="below">^</add> <add place="above">Papulinaceous</add> <term type="plant_foodstuff">pea</term> family
+<lb/>and its flowers have a delightful fragrance,
+<lb/>it is easily propagated by small cuttings of the
+<lb/>root or stalk - the tuber is oblong like on a 
+<lb/><term type="plant_foodstuff">kidney potato</term>, and when boiled tastes exactly 
+<lb/>like our common <term type="plant_foodstuff">potato</term> - when unripe it
+<lb/>has a slight degree of bitterness, and it is
+<lb/>believed to be wholesome - <add place="below">^</add> <add place="above">a piece of the root eaten raw is a good remedy for <term type="ailment">nausea</term></add> it is met with on
+<lb/>the uplands alone - and seems incapable 
+<lb/>of bearing much heat though I kept some
+<lb/>of the roots <add place="below">^</add> <add place="above">without earth</add> in a box which was carried in the
+<lb/>sun almost daily for six months without
+<lb/>destroying their vegetative power -</p>
+<lb/><p>It is remarkable that in all the central
+<lb/>regions of <placeName><bloc>Africa</bloc></placeName> visited the <term type="plant">cotton</term> is that
+<lb/>known as the <placeName><region><choice><sic>Pernambucco</sic><corr>Pernambuco</corr></choice></region></placeName><!--Not sure how to tag this here. Foriegn language? EC--><!-- Fixed. Alternative spelling of a region/state in Brazil. EM --> variety - it has 
+<lb/>a long strong staple, seeds clustered together &amp;
+<lb/>adherent to each other - the bushes eight or ten
+<lb/>feet high have woody stems, and the people make
+<lb/>strong striped black &amp; white shawls of the <term type="plant">cotton</term></p>
+
+	<pb facs="liv_000019_0355.jpg" n="0355"/>
+<lb/><fw n="349"><add place="margintop" rend="gray right" hand="#U">349</add></fw>
+<lb/><p>It was pleasant to <w>me<subst><del>a</del><add place="over-text">e</add></subst></w> the <term type="plant">Palm</term> oil palm<!-- Also identified as foodstuff or medicine? EM -->
+<lb/>(<term type="plant">Elaies Guineaensis</term>) at <placeName><settlement type="village"><persName>Casembe</persName>'s</settlement></placeName> which is 
+<lb/>over <measure>3000 feet</measure> above the level of the sea - the
+<lb/>oil is sold cheap, but no tradition exists of 
+<lb/>of its introduction into the country -</p>
+<lb/><p>I send no sketch of the country because
+<lb/>I have not yet <add place="below">^</add> <add place="above">passed</add> over a sufficient surface to
+<lb/>give a connected view of the whole watershed
+<lb/>of this region - and I regret that I cannot
+<lb/>recommend any of the published maps I have
+<lb/>seen as giving even a tolerable idea of the country
+<lb/>one <subst><del type="strikethrough">audacious</del><add place="above">bold</add></subst> constructor of maps has tacked
+<lb/><add place="marginleft">on</add> <measure>200 miles</measure> to the North West end of <placeName><geogName type="lake">Lake Nyassa</geogName></placeName>
+<lb/>a feat which no travellor has ever ventured
+<lb/>to imitate - another has placed a river in the
+<lb/>same quarter running <measure>3000 or 4000 feet</measure> <w>up-
+<lb break="no"/>hill</w> and named it the "<placeName><geogName type="river"><hi rend="double-underline">New</hi> <hi rend="double-underline">Zambesi</hi></geogName></placeName>" because
+<lb/>I suppose the old <placeName><geogName type="river">Zambesi</geogName></placeName> runs down hill - I
+<lb/>have walked over both these mental abortions
+<lb/>and did not know that I was walking on
+<lb/>water till I saw them in the maps -</p>
+<lb/><space  dim="vertical" extent="20" unit="lines"/><!--The text ends about halfway down the page, and the rest is blank. Not exactly sure how many lines it is, so I just eyeballed it. EC-->
+
+	<pb facs="liv_000019_0356.jpg" n="0356"/>
+<lb/><fw n="350"><add place="margintop" rend="gray left" hand="#U">350</add></fw>
+<!-- Blank Page. EC, EM -->
+
+	<pb facs="liv_000019_0357.jpg" n="0357"/>
+<lb/><fw n="351"><add place="margintop" rend="gray right" hand="#U">351</add></fw>
+<lb/><p><note place="marginleft"><date from="1867-12-28" to="1867-12-31">1867 <unclear cert="low">28 <choice><abbr>Dec<hi rend="sup">r</hi></abbr><expan>December</expan></choice> <lb/>1867 <lb/>31<hi rend="sup underline">st</hi></unclear></date></note><!--The date is very hard to read here because of the curve of the previous page. EC--> We came on to the <placeName><geogName type="rivulet">Rivulet Chirongo</geogName></placeName> and 
+<lb/>then to the <placeName>Kalenkwa</placeName><!--Not sure of this placename here. EC--><!-- Kalengwa? EM --> where I was sick - Heavy
+<lb/>rains kept the convoy back - I have had nothing
+<lb/>but coarsely ground <term type="plant_foodstuff">sorghum meal</term> for some
+<lb/>time back - and am weak - I used to be the first in the line of march, and an now the
+<lb/>last, <persName>Mohamad</persName> presented a meal of finely
+<lb/>ground <term type="foodstuff">poridge</term> &amp; a <term type="animal">fowl</term> - I felt the difference 
+<lb/>though I was not grumbling at my coarse
+<lb/>dishes - it is well that I did not go to <placeName><geogName type="lake">Bambedo
+<lb/>Lake</geogName></placeName> for it is now very unhealthy to the <orgName>natives</orgName>
+<lb/>and I fear that <add place="below">^</add> <add place="above">without medicine</add> continual swelling by fording
+<lb/>rivulets might have knocked me up altogether, 
+<lb/>as I have mentioned they suffer greatly from
+<lb/><term type="ailment">swelled Thyroid gland</term> or <term type="ailment">Derbyshire neck</term>
+<lb/>and <term type="ailment">Elephantiasis scroti</term> -</p>
+<lb/><p rend="center"><date when="1868-01-01">1<hi rend="sup underline">st</hi> January 1868</date></p>
+<lb/><p>Almighty Father forgive the sins of the past year
+<lb/>for my son's sake - Help me to be more profitable
+<lb/>during this year - If I am to die this year, prepare 
+<lb/>me for it</p>
+<lb/><p>Bought five hoes at <measure>two or three yards</measure> of
+<lb/>calico each - they are <measure>13½ inches by 6½ inches</measure>
+<lb/>many are made in <placeName><geogName type="village"><persName>Casembe</persName>'s country</geogName></placeName> &amp;
+<lb/>this is the last place we can find them
+<lb/>When we come into <placeName>Buire</placeName><!--Not sure of this placename here. EC--> we can purchase
+<lb/>a good <term type="animal">goat</term> for one - one of my <term type="animal">goats</term> died
+<lb/>and the other dried up - I long for others
+<lb/>for milk is the most strenghthening food
+<lb/>I can get - my guide to <placeName><geogName type="lake">Moero</geogName></placeName> came today -
+<lb/>visited <placeName><geogName type="lake">Moero</geogName></placeName> several times so as to get
+<lb/>a good idea of its size - the first <measure>fifteen
+<lb/>miles</measure> in the North are from <measure>twelve <add place="below">^</add> <add place="above">or more</add> to thirty
+<lb/>three miles broad</measure> - the great mass of <placeName><geogName type="mountain">Rua
+<lb/>mountains</geogName></placeName> confines it there - In a clear 
+<lb/>day a lower range is seen continued from
+<lb/>the high point of the first mass away  
+
+	<pb facs="liv_000019_0358.jpg" n="0358"/>
+<lb/><fw n="352"><add place="margintop" rend="gray left" hand="#U">352</add></fw>
+<lb/><note place="marginleft"><date when="1868-01">January <lb/>1868</date></note> to the West South West - this ends and sea
+<lb/>horizon is alone visible away to the South
+<lb/>and West - from the height we viewed it 
+<lb/>at, the width must be over <measure>forty, perhaps
+<lb/>sixty miles</measure> - A large island called <placeName><geogName type="island">Kirwa</geogName></placeName> is
+<lb/>situated between <placeName><geogName type="rivulet">Mandapala</geogName></placeName> &amp; <placeName><geogName type="rivulet">Kabukwa</geogName></placeName> <choice><abbr>Rts</abbr><expan>Rivulets</expan></choice><!--I think this is correct? EC-->
+<lb/>but <del type="strikethrough">on</del> <add place="below">^</add> <add place="above">nearest to</add> the other shore - the natives never attempt
+<lb/>to cross any part of the Lake<!--Geog:--> South of <placeName><geogName type="island">Kirwa</geogName></placeName>
+<lb/>Land could not be seen with a good glass
+<lb/>in the clearest say we had - I can understand 
+<lb/>why the natives pronounced <placeName><geogName type="lake">Moero</geogName></placeName> to be 
+<lb/>larger than <placeName><geogName type="lake">Tanganyika</geogName></placeName> - In the last named
+<lb/>they see the land always on both sides - it is
+<lb/>like a vast through flanked with highlands,
+<lb/>but at <placeName><geogName type="lake">Moero</geogName></placeName> nothing but sea horizon
+<lb/>can be seen when one looks South West 
+<lb/>of the <placeName><geogName type="mountain">Rua mountains</geogName></placeName> - </p>
+<lb/><p><note place="marginleft"><date when="1868-01-07">7<hi rend="sup underline">th</hi></date></note>At <placeName>Kalongosi</placeName><!--Not sure what type of place this is? EC,EM--> meadow - one of <persName>Mohamad</persName>'s
+<lb/>men shot a <term type="animal">buffalo</term> and he gave me a leg
+<lb/>of the good beefy flesh - our course was
+<lb/>slow caused partly by <seg type="weather">rains</seg> and partly 
+<lb/>by waiting for the convoy - the people at
+<lb/><placeName>Kalongosi</placeName> were afraid to ferry us out of
+<lb/><placeName><settlement type="village"><persName>Casembe</persName>'s country</settlement></placeName> and none of his people
+<lb/>in convoy - but at last we gave a good
+<lb/><note place="marginleft"><date when="1868-01-09">9<hi rend="sup underline">th</hi></date></note>fee, and their scruples yielded - they were
+<lb/>influenced also by seeing other villagers
+<lb/>ready to undertake the job - the latter nearly 
+<lb/>fought over us on seeing that their neighbors
+<lb/><note place="marginleft"><date when="1868-01-10">10<hi rend="sup underline">th</hi></date></note>got all the fare - - We <add place="below">^</add> <add place="above">then</add> came along the
+<lb/>Lake<!--geog:--> &amp; close to its shores - the moisture
+<lb/>caused a profusion of <term type="plant">gingers</term>, <term type="plant">ferns</term> &amp;
+<lb/><term type="plant">tropical forest</term> - <term type="animal">buffalos</term>, <term type="animal">Zebras</term>, <term type="animal">elephants</term>
+<lb/>numerous - the villagers at <placeName><settlement type="village">Clukosi</settlement></placeName>
+<lb/>where we slept warned us against <term type="animal">lions</term>
+<lb/>and <term type="animal">Leopards</term></p>
+
+	<pb facs="liv_000019_0359.jpg" n="0359"/>
+<lb/><fw n="353"><add place="margintop" rend="gray right" hand="#U">353</add></fw>
+<lb/><p><note place="marginleft"><date when="1868-01"><choice><abbr>Jany</abbr><expan>January</expan></choice> <lb/>1868</date></note><!--Not sure of the date here, it's slightly obscured by the curve of the page-->Sunday at <placeName><settlement type="village"><persName>Karembwe</persName>'s <choice><abbr>vil.</abbr><expan>village</expan></choice></settlement></placeName> - the mountains
+<lb/>East of him are called <placeName><geogName type="mountains">Makunga</geogName></placeName> - many villages
+<lb/>about - We went yesterday to the shore, and 
+<lb/>by protraction <placeName><geogName type="mountain">Rua</geogName></placeName> point was distant <measure>33 miles</measure>
+<lb/><persName>Karembwe</persName> sent for us to have an audience - 
+<lb/>a large man with a gruff voice but liked by
+<lb/>his people and by strangers - I gave him a 
+<lb/>cloth and he gave me a <term type="animal">goat</term> - the enthusiasm 
+<lb/>with which I held on to visit <placeName><geogName type="lake">Moero</geogName></placeName>, had
+<lb/>communicated itself to <persName>Tipo-Tipo</persName> and <persName>Syde
+<lb/>bin Alla</persName> for they followed me up to this
+<lb/>place to see the Lake<!--Geog: -->, and remained five
+<lb/>days while we were at <persName>Casembe</persName>'s - other 
+<lb/><orgName>Arabs</orgName> <add place="below">^</add> <add place="above">or rather <term type="people">Swahelis</term> - </add> must have seen it but never mentioned
+<lb/>it as any thing worth looking at - and it was
+<lb/>only when all hope of ivory was gone that 
+<lb/>these two <term type="occupation">headmen</term> found time to come</p>
+<lb/><p><note place="marginleft"><date when="1868-01-13">13<hi rend="sup underline">th</hi></date></note><seg type="weather">Heavy rains</seg> - <persName>Karembe</persName> mentioned a natural 
+<lb/>curiosity as likely to interest me - a little rivulet 
+<lb/><placeName><geogName type="rivulet">Chipamba</geogName></placeName> goes some distance underground
+<lb/><note place="marginleft"><date when="1868-01-14">14<hi rend="sup">th</hi></date></note>but is uninteresting - next day we crossed 
+<lb/>the <placeName><geogName type="river">Vuna</geogName></placeName> a strong torrent which has a hot
+<lb/>fountain close by the ford in which <term type="plant_foodstuff">maize</term>
+<lb/>and <term type="plant_foodstuff">Cassava</term> may be boiled - a large one in 
+<lb/><placeName><settlement type="village"><persName>Insama</persName>'s</settlement></placeName> country is used in the same way
+<lb/><term type="plant_foodstuff">maize</term> and <term type="plant_foodstuff">Cassava</term> being tied to a string
+<lb/>thrown in to be cooked - some <orgName>natives</orgName> believe
+<lb/>that earthquakes are connected with its violent
+<lb/>ebullitions - we crossed the <placeName><geogName type="river">Katette</geogName></placeName> another
+<lb/>strong torrent before reaching the North end of <placeName><geogName type="lake">Moero</geogName></placeName>, where we slept in some traveller's huts -</p>
+<lb/><p><note place="marginleft"><date when="1868-01-15">15<hi rend="sup underline">th</hi></date></note>Leaving the Lake<!--Geog: --> and going North we soon
+<lb/>got on to a plain flooded by the <placeName><geogName type="river">Luao</geogName></placeName><!--Not sure if this is a river? EC, EM--> -
+<lb/>We had to wade through very adhesive black
+<lb/>mud generally ankle deep, and having many
+<lb/>holes in it much deeper - We had four hours
+<lb/>of this and then came to the ford of the <placeName><geogName type="river">Luao</geogName></placeName>
+
+	<pb facs="liv_000019_0360.jpg" n="0360"/>
+<lb/><fw n="354"><add place="margintop" rend="gray left" hand="#U">354</add></fw>
+<lb/><note place="marginleft"><date when="1868-01-15">15<hi rend="sup">th</hi> <lb/><choice><abbr>Jany</abbr><expan>January</expan></choice> <lb/>1868</date></note>itself - we waded up a branch of it waist
+<lb/>deep for at least a quarter of a mile - then
+<lb/>crossed a narrow part by means of a rude
+<lb/>bridge of branches &amp; trees of about <measure>40 yards</measure>
+<lb/>The <placeName><geogName type="river">Luao</geogName></placeName> in spreading over the plains confers
+<lb/>benefits on the inhabitants though I could not
+<lb/>help concluding it implants disease too, for
+<lb/>the black mud in places smells horribly
+<lb/>Great numbers of <unclear cert="low">siluridae</unclear>, chiefly <hi rend="underline"><foreign xml:lang="la">clarias
+<lb/>leapensis</foreign></hi> often <measure>three feet</measure> in length spread over
+<lb/>the flooded portions of the country eating
+<lb/>the young or other <term type="animal">fishes</term> and insects <term type="animal">lizards</term>
+<lb/><term type="animal">worms</term> killed by the waters - the people make
+<lb/>weirs for them, and as the waters retire <unclear>kill</unclear>
+<lb/>large numbers which they use as a <term type="foodstuff">relish</term>
+<lb/>to their farinaceous food</p>
+<lb/><p><note place="marginleft"><date when="1868-01-16">16<hi rend="sup underline">th</hi></date></note>After sleeping near the <placeName><geogName type="river">Luao</geogName></placeName> we went on
+<lb/>towards the village in which <persName>Mohamad</persName>'s son
+<lb/>lives - it is on the <placeName><geogName type="rivulet">Kakoma <choice><abbr>Rt.</abbr><expan>Rivulet</expan></choice></geogName></placeName> and is called
+<lb/><placeName><settlement type="village">Kabwabwata</settlement></placeName> the <choice><abbr>vil.</abbr><expan>village</expan></choice> of <persName>Mubao</persName> - one of the women 
+<lb/>had a miscarriage in the way, but came on
+<lb/>after the affair was over - In many of the 
+<lb/>villages the people shut their stockades as soon
+<lb/>as we appear, and stand bows &amp; arrows in
+<lb/>hand till we have passed - The reason seems
+<lb/>to be that the <orgName>slaves</orgName> when out of sight of their
+<lb/>masters carry things with a high hand 
+<lb/>demanding food &amp; other things as if they
+<lb/>had power and authority - one <orgName>slave</orgName> stole
+<lb/>two tobacco pipes yesterday in passing through
+<lb/>a village - the villagers complained to me
+<lb/>when I came up, and I waited till <persName>Mohamad</persName>
+<lb/>came and told him - We then went forward
+<lb/>the men keeping close to me till we got the
+<lb/><orgName>slave</orgName> and the pipes - they stole <term type="plant_foodstuff">Cassava</term>
+<lb/>as we went along but this could scarcely
+<lb/>be prevented - they laid hold of a plant
+
+	<pb facs="liv_000019_0361.jpg" n="0361"/>
+<lb/><fw n="355"><add place="margintop" rend="gray right" hand="#U">355</add></fw>
+<lb/><note place="marginleft"><date when="1868-01-18">18<hi rend="sup">th</hi> <lb/>January <lb/>1868</date></note> an inch &amp; a half thick &amp; tore it out of the soft
+<lb/>soil with its five or six roots as large as
+<lb/>our largest <term type="plant_foodstuff">carrots</term>, stowed the roots away
+<lb/>in their loads, and went on eating them
+<lb/>the stalk thrown among those still growing
+<lb/><choice><orig>shews</orig><reg>shows</reg></choice> the theft - the raw roots are agreeable &amp;
+<lb/>nutritious - No great harm is done by this
+<lb/>the gardens are so large but it inspires
+<lb/>distrust into the inhabitants, and makes
+<lb/>it dangerous for <orgName>Arabs</orgName> to travel not
+<lb/>fully manned and armed -</p>
+<lb/><p>On reaching the village <placeName><settlement type="village">Kabwabroata</settlement></placeName>
+<lb/>a great demonstration was made by
+<lb/><persName>Mohamad</persName>'s <orgName>Arab</orgName> dependants &amp; <choice><sic>Wanyamwesi</sic><corr>Wanyamwezi</corr></choice><!--not sure what this is? EC--><!-- Tribe. Alternative spelling. EM -->
+<lb/>the women had their faces all smeared 
+<lb/>with pipe clay, and lullilooed with all
+<lb/>their might, when we came among the huts
+<lb/>the cast handfuls of soil on their heads,
+<lb/>while the men fired off their guns as
+<lb/>fast as they could load them - those <w>con-
+<lb break="no"/>victed</w> with <persName>Mohamad</persName> ran &amp; kissed
+<lb/>his hands &amp; fired till the sound of shouting
+<lb/>lullilooing - clapping of hands and 
+<lb/>shooting was deafening - <persName>Mohamad</persName> was 
+<lb/>quite overcome by this demonstration
+<lb/>and it was long before he could still them</p>
+<lb/><p>On the way to this village from the South
+<lb/>we observed an extensive breadth of land
+<lb/>under ground nuts - they are made into oil
+<lb/>and a large jar of this is sold for a hoe,
+<lb/>the <term type="plant">groud nuts</term> were now in flower 
+<lb/>and green <term type="plant_foodstuff">maize</term> ready to be eaten - People
+<lb/>all busy planting <unclear>then</unclear> planting or weeding, 
+<lb/>they plant <term type="plant_foodstuff">cassava</term> or mounds prepared
+<lb/>for it on which they have sown <term type="plant_foodstuff">beans</term>
+<lb/><term type="plant_foodstuff">sorghum</term>, <term type="plant_foodstuff">maize</term>, <add place="above"><term type="plant_foodstuff">pumpkins</term></add> - these ripen, and leave 
+<lb/>the <term type="plant_foodstuff">cassava</term> a free soil - the <term type="plant_foodstuff">sorghum</term></p>
+
+			</div>
+		</body>
+    </text>
+</TEI>

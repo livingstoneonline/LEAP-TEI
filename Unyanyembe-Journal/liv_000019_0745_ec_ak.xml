@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019"><!-- Adrian change only -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				 <respStmt xml:id="EC">
+                    <name>Erin Cheatham</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+                    <resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 1115</idno><!-- Adrian change only -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Journals, 011</idno><!-- Adrian change only -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866 - 5 March 1872</date><!-- Adrian change x2 only -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language><!-- Everyone, add languages as necessary. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-02-20" who="#AK">Proofing and additioanl XML encoding</change>
+            <change when="2016-02-08" who="#EC">Transcription and XML encoding</change><!-- Everyone, revise and expand as necessary. -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+       	<body>
+			<div>
+
+	<gb/>
+
+	<pb facs="liv_000019_0745" n="0745"/><!-- Everyone, change and repeat as necessary. -->
+<lb/><fw n="745"><add place="margintop" rend="gray right" hand="#U">745</add></fw>
+<lb/><p><add place="margintop"><date when="1866-02"><add place="above">Day of the Month</add> <hi rend="double-underline">February 1866</hi></date></add></p>
+
+<list>
+
+<lb/><item>Leave <placeName>Ngomano</placeName> = the confluence of
+<lb/>the <placeName><geogName type="river">Loendi</geogName></placeName> and <placeName><geogName type="river">Rovuma</geogName></placeName> - reach <placeName><settlement type="village">Lamba</settlement></placeName> - <add place="marginright">Days</add><!--Not sure if this is the correct way to tag "Days" here. EC-->
+<lb/><persName>Makocera</persName>'s village on <placeName><geogName type="river">Rovuma</geogName></placeName> <seg rend="right">1</seg></item>
+
+<lb/><item><persName>Boy Richard</persName> remains behind sick with
+<lb/>fever - <persName>Simon</persName> did not give the fever pills
+<lb/>as he thought them too strong - died - 
+<lb/><persName>Ngozo</persName><!--Not sure what this means? EC--> - <space unit="words" extent="1"/> native tattoo <seg rend="right">2</seg></item>
+
+<lb/><item>March towards <placeName>Metaba</placeName> - <persName><term type="occupation">chief</term><!--Are we tagging "chief" as an occupation? EC--><!--I have been in the past -AK--> Kunazombe</persName> <seg rend="right">3</seg></item>
+
+<lb/><item>Young men deserted by their wives after first <seg rend="right">--</seg>
+<lb/>child birth - they assimilate in this to lower animals <seg rend="right">4</seg></item>
+
+<lb/><item>Trade rum unknown among <orgName>Arabs</orgName> not <seg rend="right">--</seg>
+<lb/>from religious convictions - does not pay <seg rend="right">--</seg>
+<lb/>Marauding Nindi on left <unclear>bankmar</unclear> <persName>Ngozo</persName><!--I think this might be a person? EC--> <seg rend="right">--</seg>
+<lb/><term type="occupation">sepoy</term>'s a nuisance <space extent="3" unit="words"/> <seg rend="right">5</seg></item>
+
+<lb/><item>Woman tied to a tree to perish dead - <seg rend="right">6</seg></item>
+
+<lb/><item>Little boy ill - Mother's love = low civilization <seg rend="right">--</seg>
+<lb/><placeName><settlement type="village"><persName>Chirikaloma</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - <space extent="1" unit="words"/> cultivation manure <seg rend="right">--</seg>
+<lb/>Drying meat by fire under stages = Pottery <seg rend="right">7</seg></item>
+
+<lb/><item><unclear>Surname's</unclear> - <persName>Nannalo</persName>'s an orphan <seg rend="right">8</seg></item>
+
+<lb/><item>A deformed child - Told by <persName>Chirikaloma</persName> <seg rend="right">--</seg>
+<lb/>A captive lady freed - a virago <seg rend="right">9</seg></item>
+
+<lb/><item><orgName>Slaves</orgName> abandoned by their owners <seg rend="right">10</seg></item>
+
+<lb/><item><placeName><settlement type="village"><persName>Chenyewala</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - party marauding <seg rend="right">--</seg>
+<lb/><persName>Machemba</persName>'s brother <persName>Chimseia</persName> - the <seg rend="right">--</seg>
+<lb/>brother in law of the freed lady <persName>Akosakone</persName>
+<lb/>a <term type="occupation">sepoy</term> stripped - <persName>Chimsaka</persName>'s thieves <seg rend="right">11</seg></item>
+
+<lb/><item><placeName><settlement type="village"><persName>Mtanka</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - evening guns - <orgName>Arabs</orgName> <seg rend="right">12</seg></item>
+
+<lb/><item>imitated in dress &amp; otherwise <seg rend="right">--</seg>
+<lb/>leave <placeName><geogName type="river">Rovuma</geogName></placeName> &amp; go to <placeName><settlement><persName>Mtende</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - <seg rend="right">--</seg>
+<lb/><unclear>Gindes</unclear> from <persName>Mtende</persName> for eight days march <seg rend="right">13</seg></item>
+
+<lb/><item>country depopulated - once populous <seg rend="right">14</seg></item>
+
+<lb/><item>Reach <placeName><settlement type="village"><persName>Mataka</persName>'s village</settlement></placeName> - <persName>
+<lb/>Rupia</persName>'s safari and kindness <seg rend="right">15</seg></item>
+
+<lb/><item><persName>Mataka</persName> generous with food <space extent="2" unit="words"/>
+<lb/><orgName>Kulma slaves</orgName> lost one hundred men <seg rend="right">16</seg></item>
+
+<lb/><item><persName>Mataka</persName> sends back captives <seg rend="right">--</seg>
+<lb/>&amp; <term type="animal">cattle</term> taken without his knowledge <seg rend="right">--</seg>
+<lb/><term type="occupation">sepoys</term> intolerable - threatening to shoot
+<lb/>my interpreter - kill <term type="animal">buffalo</term> calf - <seg rend="right">--</seg>
+
+	<pb facs="liv_000019_0746" n="0746"/>
+<lb/><fw n="746"><add place="margintop" rend="gray left" hand="#U">746</add></fw>
+<lb/><p><add place="margintop"><date when="1866-02">February</date></add></p>
+<lb/>Resolve to send <term type="occupation">sepoys</term> back - all <add place="marginright">Days</add><!--Not sure if this is the correct way to mark "Days" here. EC-->
+<lb/>hate them for their foul talk &amp; curses <seg rend="right">17</seg></item>
+
+<lb/><item>Give calico for <unclear>sulerman</unclear> a <orgName>trader</orgName> to feed them <seg rend="right">18</seg></item>
+
+<lb/><item><persName>Abraham</persName> recognizes his uncle refuses <seg rend="right">--</seg>
+<lb/>to remain with him - try to get others <seg rend="right">--</seg>
+<lb/>to remain but all refuse - <persName>Makanjela</persName> <seg rend="right">19</seg></item>
+
+<lb/><item>Depopulation of a well watered country <seg rend="right">20</seg></item>
+
+<lb/><item>Hair dressed as on stone deities <unclear>Elephanta <seg rend="right">--</seg>
+<lb/>teas</unclear><!--Not sure what this is? EC--> - Country cool and high <seg rend="right">--</seg>
+<lb/>moaning as an amusement in the sick <seg rend="right">--</seg>
+<lb/>Prepare to leave <placeName><settlement type="village">Moembe</settlement></placeName> - <persName>Mataka</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice> <seg rend="right">21</seg></item>
+
+<lb/><item>Geological parenthesis <space unit="words" extent="3"/> <seg rend="right">22</seg></item>
+
+<lb/><item><placeName><settlement type="village"><persName>Pezimba</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> <orgName>Arab slave</orgName> parties bolt <seg rend="right">23</seg></item>
+
+<lb/><item><placeName><settlement type="village"><persName>Mbanga</persName> <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> on slope down to <placeName><geogName type="lake">Nyassa</geogName></placeName> <seg rend="right">24</seg></item>
+
+<lb/><item>No stone weapons or tools used or known
+<lb/>stone hammers (sledge) have another name
+<lb/>stone is to weight digging sticks <space unit="words" extent="1"/>
+<lb/><placeName><geogName type="river">Misinje <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName> confluence with <placeName><geogName type="lake">Nyassa</geogName></placeName> <seg rend="right">25</seg></item>
+
+<lb/><item>sight exhilarating - <persName>Mokalaose</persName> <term type="occupation">chief</term>
+<lb/>try to hire a <unclear>dhow</unclear> but owner afraid refuses <seg rend="right">26</seg></item>
+
+<lb/><item><orgName>Slavery</orgName> &amp; <orgName>Slave trade</orgName> prevent formation <seg rend="right">--</seg>
+<lb/>of a state in the interior <space extent="3" unit="words"/> <seg rend="right">--</seg>
+<lb/>Go up to <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Loangwa</geogName></placeName>
+<lb/>Despatch N<hi rend="sup">o</hi> 1 to <persName>Lord Clarendon</persName> <date when="1866-06-11">11<hi rend="sup underline">th</hi> June</date> <seg rend="right">27. 28. <lb/>29.</seg></item>
+
+<lb/><item><space unit="lines" extent="2"/><seg rend="right"><date when="1866-03-01">1 - March</date></seg></item><!--I'm not sure if I've done this section correctly? Needs a second look. EC-->
+
+<lb/><item>Continuation of Despatch <space extent="2" unit="words"/> <seg rend="right">4. - 5. 6. 7.</seg></item>
+
+<lb/><item><unclear>D<hi rend="sup underline">o</hi></unclear><!--I'm not sure what this means here? EC--> Journal - fear of <term type="nationality">English</term> = Kunju<!--Not sure what this is? EC--> <seg rend="right">8.</seg></item>
+
+<lb/><item>Ink - <orgName>Slave</orgName> boys retain much <orgName>slave</orgName> spirit <seg rend="right">9.</seg></item>
+
+<lb/><item>Wanyassa or Manganja<!--I'm not sure what these terms are here. EC--> the <unclear>abuigines</unclear> <seg rend="right">--</seg>
+<lb/><term type="animal">fish</term> Nsaka - spawn holes or houses <seg rend="right">--</seg>
+<lb/>march South to go round Lake<!--Geog: --> <seg rend="right">--</seg>
+<lb/>double range of mountains - desolation <seg rend="right">10.</seg></item>
+
+<lb/><item>depopulation by Masininga <term type="tribe">Waiyau</term> <seg rend="right">11.</seg></item>
+
+<lb/><item>Lake<!--Geog: --> Muddy bottom - shells
+<lb/><placeName><settlement type="village">Pantoza <persName>Pangone</persName> <choice><abbr>vil.</abbr><expan>village</expan></choice></settlement></placeName> - 24 brooks
+<lb/>flow into <placeName><geogName type="lake">Nyassa</geogName></placeName> -
+
+	<pb facs="liv_000019_0747" n="0747"/>
+<lb/><fw n="747"><add place="margintop" rend="gray right" hand="#U">747</add></fw>
+<lb/><p><add place="margintop"><date when="1866-03"><hi rend="double-underline">March</hi></date></add></p>
+<lb/><placeName><geogName type="mountain">Mount Gome</geogName></placeName> at South end of <placeName><geogName type="lake">Lake<!--Geog: --></geogName></placeName> <seg rend="right">12</seg></item>
+
+<lb/><item><w><del>C</del>here</w> <placeName><settlement type="village"><persName>Kalongwa</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> skin of Phenembe<!--Not sure what this is. EC-->
+<lb/>Point which <persName>D<hi rend="sup underline">r</hi> Roscher</persName> reached <placeName>Lesefah</placeName> <seg rend="right">13.</seg></item>
+
+<lb/><item><orgName>Arab</orgName> disguise rarely successful <seg rend="right">--</seg>
+<lb/><term type="plant">Tangare bean</term> produces intoxication <seg rend="right">--</seg>
+<lb/><placeName><settlement type="village"><persName>Mukate</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - <orgName>slave trade</orgName> discussion <seg rend="right">--</seg>
+<lb/>Earthquakes - cross <placeName>Pamalombe</placeName> - <seg rend="right">14</seg></item>
+
+<lb/><item><placeName><settlement type="village"><persName>Pima</persName>'s village</settlement></placeName> - salt makers <seg rend="right">15</seg></item>
+
+<lb/><item>In <placeName><settlement type="village"><persName>ponde</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> agricultural race not servile <seg rend="right">--</seg>
+<lb/><persName>Wikatani</persName> leaves to live with his relatives <seg rend="right">16.</seg></item>
+
+<lb/><item>Across base of <placeName><geogName type="lake">Nyassa</geogName></placeName> - <persName>Halvidar</persName> leaves - <seg rend="right">17.</seg></item>
+
+<lb/><item>To <placeName><settlement><persName>Marenga</persName>'s village</settlement></placeName> - disease - <space extent="1" unit="words"/>
+<lb/>oozing bogs of this country &amp; immediation <seg rend="right">18.</seg></item>
+
+<lb/><item>Five of <persName>Marenga</persName>'s wives took his disease <seg rend="right">19.</seg></item>
+
+<lb/><item>An <orgName>Arab</orgName> brought false reports of <term type="tribe">Mazitu</term> <seg rend="right">--</seg>
+<lb/>at <placeName>Kasungu</placeName> - <persName>Musa</persName> terrified wishes to turn <seg rend="right">--</seg>
+<lb/>and runs off with all the <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName> <seg rend="right">--</seg>
+<lb/><placeName><settlement type="village"><persName>Kumasusa</persName>'s</settlement></placeName> or <placeName><settlement type="village"><persName>Masusa</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - <seg rend="right">20</seg></item>
+
+<lb/><item><persName>Msusa</persName>'s kindness to his old friend <seg rend="right">21.</seg></item>
+
+<lb/><item><orgName>Arab</orgName> <persName>Khamburi</persName>'s defeat - <persName>Chuma</persName>'s aunt <seg rend="right">22.</seg></item>
+
+<lb/><item><persName>Msusa</persName>'s people refusing he will go with <seg rend="right">23.</seg></item>
+
+<lb/><item>his wives <date when="1866-03-23">tomorrow</date> &amp; carry our luggage <seg rend="right">--</seg>
+<lb/><unclear>Pam Taperi</unclear><!--Not sure what this is here. EC--> in Kiras range - <seg rend="right">--</seg>
+<lb/>People at <placeName>Pamiala</placeName> above range are <seg rend="right">24.</seg></item>
+
+<lb/><item>as afraid of of people below as those below <seg rend="right">--</seg>
+<lb/>fear those above - <persName>Gombwa</persName> a <term type="occupation">chief</term> <seg rend="right">--</seg>
+<lb/><unclear>colum</unclear> of young vegetation in trees <seg rend="right">25.</seg></item>
+
+<lb/><item>Huts plastered inside &amp; out for heat <seg rend="right">26.</seg></item>
+
+<lb/><item><foreign xml:lang="und">Ulazo pa Mulingu</foreign> = natural rock forts <seg rend="right">27.</seg></item>
+
+<lb/><item>Kanthunda or mountaineers <seg rend="right">--</seg>
+<lb/><placeName><settlement type="village"><persName>Kauma</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - chipeta - lowlanders <seg rend="right">28.</seg></item>
+
+<lb/><item><placeName><geogName type="mountain">Chindondo <choice><abbr>M<hi rend="sup underline">ts</hi></abbr><expan>mountains</expan></choice></geogName></placeName> where gold is found <seg rend="right">29.</seg></item>
+
+<lb/><item><persName>Chikala</persName> a <term type="occupation">chief</term> <seg rend="right">--</seg>
+<lb/><placeName><settlement type="village">Paritala village</settlement></placeName> <space unit="words" extent="4"/> <seg rend="right">30.</seg></item>
+
+<lb/><item>Chaola poison of arrows <space extent="1" unit="words"/><seg rend="right">31.</seg></item>
+
+<lb/><item>Lines of tattoo are like Highland Tartans
+<lb/>&amp; distinguish the tribes - a sort of Heraldry</item></list>
+
+	<pb facs="liv_000019_0748" n="0748"/>
+<lb/><fw n="748"><add place="margintop" rend="gray left" hand="#U">748</add></fw>
+<lb/><p><add place="margintop"><date when="1866-04"><hi rend="double-underline">April</hi></date></add></p>
+
+<list>
+<lb/><item>Chitikola of Paritala - Zalinyama range<!--Not sure what kind of places any of these are. EC--> <add place="marginright"><hi rend="double-underline">days</hi></add>
+<lb/>Upanda - people fleeing from <term type="tribe">Mazitu</term> <seg rend="right">1</seg></item>
+
+<lb/><item><placeName><settlement type="village"><persName>Pachimuna</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - people panic stuck <seg rend="right">2</seg></item>
+
+<lb/><item>fled to <placeName><geogName type="mountain">Pombe <choice><abbr>M<hi rend="sup">t</hi></abbr><expan>mountain</expan></choice></geogName></placeName> - <placeName><settlement type="village"><persName>Mapuio</persName>'s village</settlement></placeName> <seg rend="right">--</seg>
+<lb/>Distant relatives valuable in milandos <seg rend="right">--</seg>
+<lb/>clapping the hands - various meanings <seg rend="right">3.</seg></item>
+
+<lb/><item>Westwards to <placeName><settlement type="village"><persName>Makosa</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - Employments 
+<lb/>of the natives - resting - <persName>Mfumo</persName>'s &amp; names <seg rend="right">4.</seg></item>
+
+<lb/><item>Transference of vitality - <term type="nationality">African</term> odors <seg rend="right">--</seg>
+<lb/><placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice> Lene</geogName></placeName> - Chizumokire - <placeName><settlement type="village"><persName>Kangene</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName>
+<lb/>people harried by marauders as Scots of old <seg rend="right">5.</seg></item>
+
+<lb/><item><persName>Kangene</persName>'s taste for women's work, cooking &amp; <seg rend="right">6.</seg></item>
+
+<lb/><item>country elevated, watershed between <placeName><geogName type="lake">Nyassa</geogName></placeName> <seg rend="right">--</seg>
+<lb/>and the <placeName><geogName type="river">Loangwa</geogName></placeName> of <placeName>Zumbo</placeName> - <placeName>Mando</placeName><unclear>Rt</unclear><!--Not sure what this means. EC--> <seg rend="right">--</seg>
+<lb/><term type="animal">buffaloes</term> - <term type="occupation">smiths</term> - stone hammer - Haematite <seg rend="right">7.</seg></item>
+
+<lb/><item><term type="animal">Lions</term> break through roofs of huts - <term type="animal">Elephants</term> too <seg rend="right">8.</seg></item>
+
+<lb/><item><placeName><geogName type="river"><choice><abbr>R<hi rend="sup"><unclear>v</unclear></hi></abbr><expan>river</expan></choice><!--Does this mean "river"? EC--> Bua</geogName></placeName> of <placeName><geogName type="lake">Nyassa</geogName></placeName> - valley of <placeName>Kanyenje</placeName> <seg rend="right">--</seg>
+<lb/><placeName><settlement type="village"><persName>Kanyindula</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - sources of the <placeName><geogName type="river">Bua</geogName></placeName> <seg rend="right">9.</seg></item>
+
+<lb/><item>and <unclear>Tembwe</unclear> - Beautiful scenery - <seg rend="right">10.</seg></item>
+
+<lb/><item><placeName><settlement type="village"><persName>Mokatoba</persName> <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> - large game - <term type="animal">goats</term> <seg rend="right">--</seg>
+<lb/>fat rubbed on skin or blistered surface <seg rend="right">--</seg>
+<lb/>acts like tartar <unclear>emetic</unclear> in producing pimples <seg rend="right">--</seg>
+<lb/>Sandrilli <unclear>Rs</unclear> - <placeName><settlement type="village"><persName>Silube</persName>'s village</settlement></placeName> at base of mount <seg rend="right">--</seg>
+<lb/><placeName><settlement type="village"><persName>Beorge</persName>'s village</settlement></placeName> on <placeName><geogName type="river">Rt Lokushwa</geogName></placeName> - <seg rend="right">11.</seg></item>
+
+<lb/><item><term type="plant_foodstuff">Chilobe pea blossoms</term> eaten - <term type="plant">bean leaves</term> too <seg rend="right">12.</seg></item>
+
+<lb/><item>Prophetess or rain maker at <persName>Mpande</persName>'s <seg rend="right">--</seg>
+<lb/><placeName><settlement type="village"><persName>Chilunda</persName>'s village</settlement></placeName> - bark cloth making 
+<lb/><unclear>Katette</unclear><!--Not sure what this is here. EC--> - pass <placeName><settlement type="village"><persName>Mesumbe</persName>'s village</settlement></placeName> miniature
+<lb/>huts for the dead at Mparawe hill <seg rend="right">13.</seg></item>
+
+<lb/><item>Chitette or mositsane <term type="plant_foodstuff">beans</term> = food <seg rend="right">14.</seg></item>
+
+<lb/><item>a poor orphan - through forest <seg rend="right">--</seg>
+<lb/>Marabon &amp; <term type="animal">sun bird</term>'s nest on <placeName>Baobab</placeName> <seg rend="right">--</seg>
+<lb/><placeName><geogName type="river">Tokosusi river</geogName></placeName> - <placeName><settlement type="village"><persName>Maranda</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> on
+<lb/><placeName><geogName type="river">Loangwa</geogName></placeName> where we cross it - flake of reed
+<lb/>through a bushy country to <placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice> Pamazi</geogName></placeName> <seg rend="right">15</seg></item>
+
+<lb/><item>Through level <persName>Mopane</persName> country <seg rend="right">16</seg></item>
+
+<lb/><item>abounding in game - ornithology</item></list>
+
+<pb facs="liv_000019_0749" n="0749"/>
+<lb/><fw n="749"><add place="margintop" rend="gray right" hand="#U">749</add></fw>
+<lb/><p><add place="margintop"><date when="1866-04"><add place="inline">Days</add><hi rend="double-underline">April</hi></date></add></p>
+
+<list>
+<lb/><item>A fine Kudu - reach <placeName><geogName type="river">Nyamazi <choice><abbr>R.</abbr><expan>River</expan></choice></geogName></placeName> - <seg rend="right">16</seg></item>
+
+<lb/><item>Travelling in bed of an ancient Lake <seg rend="right">--</seg>
+<lb/><persName>Motondo</persName> first - meat diet unsatisfying <seg rend="right">17.</seg></item>
+
+<lb/><item><persName>Kavimba</persName>'s - unruly wives - lose <term type="animal">goats</term> - <seg rend="right">18</seg></item>
+
+<lb/><item>Climb up Mountains of <placeName><geogName type="mountain">Lobisa</geogName></placeName> -
+<lb/><persName>Moerwa</persName>'s Babisa - uncomfortable dress <seg rend="right">19.</seg></item>
+
+<lb/><item>Millet sown in patches in forest - <persName>Chitemba</persName>'s <seg rend="right">20</seg></item>
+
+<lb/><item><term type="animal">singing birds</term> - <term type="plant">flowers</term> - women rain makers
+<lb/>Northern brim of great <placeName><geogName type="river">Loangwa</geogName></placeName> valley <seg rend="right">21.</seg></item>
+
+<lb/><item>Deep valley of the <placeName><geogName type="river">Movoche <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName> Leafiness <seg rend="right">22.</seg></item>
+
+<lb/><item>Gentleman's park like glades &amp; oozes -
+<lb/><term type="animal">cobra</term> - <term type="animal">puff adder</term> - seldom do harm <seg rend="right">23.</seg></item>
+
+<lb/><item><placeName><geogName type="lakelet">Chimbwe lakelet</geogName></placeName> - lose <term type="animal">poodle</term> "chitane" was
+<lb/>changing colour - <unclear>chitane mts</unclear> <seg rend="right">24.</seg></item>
+
+<lb/><item>Varieties of <term type="plant_foodstuff">mushrooms</term> eaten &amp; rejected <seg rend="right">25.</seg></item>
+
+<lb/><item>Deserted by two <term type="tribe">Waiyau</term> - great loss <seg rend="right">26.</seg></item>
+
+<lb/><item>The medicine chest - Lisunga Chibanda<!--Not sure what these words are here. EC-->
+<lb/>Hunger - <placeName><geogName type="river">Movushe <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName> near <placeName><geogName type="river">Chambeze</geogName></placeName> <seg rend="right">27.</seg></item>
+
+<lb/><item><persName>Babisa</persName> distrust - Gun copal &amp; camwood <seg rend="right">28.</seg></item>
+
+<lb/><item>Tsebula or Poku measurement - <seg rend="right">--</seg>
+<lb/>Cross the <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Chambeze</geogName></placeName> - <term type="plant">tree</term> struck by <seg rend="right">--</seg>
+<lb/>lightening - <placeName><geogName type="river">Mabula <choice><abbr>R<hi rend="sup"><unclear>r</unclear></hi></abbr><expan>River</expan></choice><!--not sure if this is correct here? EC--></geogName></placeName> - <persName>Chitepanga</persName> or <seg rend="right">29.</seg></item>
+
+<lb/><item><persName>Motoka</persName> a <term type="tribe">Bemba</term> <term type="occupation">chief</term> - send letters
+<lb/>by Magora Mafupi<!--note sure what his means. EC--> to <placeName><geogName type="island">Zanzibar</geogName></placeName> <seg rend="right">30.</seg></item>
+
+<lb/><item><term type="occupation">Chief</term> <unclear>extortonate</unclear><!--I really have no idea what this says. Any thoughts? EC--> had one of <persName>Speke</persName>'s people <seg rend="right">--</seg>
+<lb/>with him - called <persName>Janje</persName> <space extent="3" unit="words"/> <seg rend="right">1.</seg><add place="marginright"><date when="1866-05"><hi rend="double-underline">May</hi></date></add></item>
+
+<lb/><item><term type="animal">Hippopotamus</term> meat - interpreter gave <seg rend="right">2.</seg></item>
+
+<lb/><item>false answers - a cringing <orgName>slaveling</orgName> <seg rend="right">--</seg>
+<lb/>&amp; all the rest are wretched cowards <seg rend="right">3.</seg></item>
+
+<lb/><item>Camwood or Nkola<!--Not sure what these are? EC--> - leave <seg rend="right">4.</seg></item>
+
+<lb/><item>Reach <placeName><geogName type="river">Merungu <choice><abbr><unclear>Rt</unclear></abbr><expan>River</expan></choice></geogName></placeName> near <persName>Moamba</persName>'s <seg rend="right">--</seg>
+<lb/>visited by <persName>Moama</persName> from <placeName>Merenge</placeName><!-- Not sure what type of place this is. EC--> <seg rend="right">5.</seg></item>
+
+<lb/><item><persName>Moamba</persName> hearty &amp; generous - wire drawing <seg rend="right">6.</seg></item>
+
+<lb/><item>Numbo or Mumbo rest <space unit="words" extent="3"/> <seg rend="right">--</seg>
+<lb/><placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Lombe</geogName></placeName> <space extent="5" unit="words"/> <seg rend="right">7.</seg></item>
+
+<lb/><item><term type="plant_foodstuff">Liranda beans</term> - <placeName><geogName type="river">Loendawe <choice><abbr>Rt.</abbr><expan>River</expan><!--does this mean River? EC--></choice></geogName></placeName> <seg rend="right">8.</seg></item>
+
+<lb/><item>The Banlungu - <placeName><settlement type="village"><persName>Chibwe</persName>'s <choice><abbr>vil.</abbr><expan>village</expan></choice></settlement></placeName>
+<lb/>universal use of axes - <space unit="words" extent="3"/></item>
+
+</list>
+			</div>
+		</body>
+    </text>
+</TEI>

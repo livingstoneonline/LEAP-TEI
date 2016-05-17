@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019"><!-- Adrian change only -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 1115</idno><!-- Adrian change only -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Journals, 011</idno><!-- Adrian change only -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866 - 5 March 1872</date><!-- Adrian change x2 only -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-11-20" who="#HB">Proofing</change>
+			<change when="2015-10-20" who="#AW">Coding Review</change>
+            <change when="2015-10-19" who="#EM">Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+       	<body>
+			<div>
+
+	<gb/>
+
+	<pb facs="liv_000019_0432" n="0432"/>
+<lb/><fw n="420"><add place="margintop" rend="gray left" hand="#U">426</add></fw>
+<lb/><note place="marginleft"><date when="1868-05-17">May - <lb/>17<hi rend="sup underline">th</hi> <lb/>1868</date></note> <p><persName>Muhamad Bogharib</persName> told <persName>Cazembe</persName> that he
+<lb/>could buy nothing and therefore was going
+<lb/>away - <persName>Cazembe</persName> replied that he had no ivory
+<lb/>and he might go - This was sensible - He sent
+<lb/>far &amp; near to find some but failed and now
+<lb/>confesses a truth which most <term type="occupation">chiefs</term> hide
+<lb/>from unwillingness to appear to <orgName>foreigners</orgName> poor</p>
+<lb/><note place="marginleft"><date when="1868-05-18">18<hi rend="sup underline">th</hi></date></note> <p>It is <seg type="weather">hot here though winter but cold by night</seg>
+<lb/><note place="marginleft"><date when="1868-05-19">19<hi rend="sup underline">th</hi></date></note> <persName>Cazembe</persName> had sent for <term type="animal">fish</term> for us - News
+<lb/>came that one of <orgName><persName>Syde bin Habib</persName>'s men</orgName> had
+<lb/>come to <placeName><settlement type="village">Chikumbi</settlement></placeName> on his way to <placeName><geogName type="island">Zanzibar</geogName></placeName>
+<lb/><note place="marginleft"><date when="1868-05-20">20<hi rend="sup underline">th</hi></date></note> <seg type="weather">Thunder showers from the East</seg> laid the dust
+<lb/>and cooled the ground - <seg type="weather">the last shower of
+<lb/>this season as a similar slight shower was
+<lb/>the last of the last</seg> and on the <date when="1868-05-12">12<hi rend="sup">th</hi> of May</date> -
+<lb/>It cannot be called a rainy month - <seg type="weather">April is
+<lb/><note place="marginleft"><date when="1868-05-21">21<hi rend="sup">st</hi></date></note> the last month of the wet season and <choice><abbr>Nov</abbr><expan>November</expan></choice>
+<lb/>the first</seg></p>
+<lb/><note place="marginleft"><date when="1868-05-22">22<hi rend="sup underline">d</hi></date></note> <p><persName>Cazembe</persName> is so slow with his <term type="animal">fish</term>, <term type="foodstuff">meal</term> &amp;
+<lb/><term type="occupation">guides</term> and <orgName>his people</orgName> <supplied cert="high">are</supplied> so afraid to hurry
+<lb/>him that I think of going off as soon as
+<lb/><persName>Muhamad Bogharib</persName> moves = He is going to
+<lb/><placeName><settlement type="village"><persName>Chikumbi</persName>'s</settlement></placeName> to buy copper and thence he
+<lb/>will proceed to <placeName><settlement type="city">Uvira</settlement></placeName> to buy ivory with it
+<lb/>but this is at present kept as a secret
+<lb/>from his <orgName>slaves</orgName> - The way seems thus to be
+<lb/>opening for me to go to the large Lake West
+<lb/>of <placeName><settlement type="city">Uvira</settlement></placeName> - Told <persName>Cazembe</persName> that we were going
+<lb/>He said to me that if in coming back I had
+<lb/>found no <orgName>travelling party</orgName> I must not
+<lb/>risk going by <persName>Insama</persName>'s road with so
+<lb/>few people, but go to his brother <persName><w>Moene-
+<lb break="no"/>mpanda</w></persName> and he would send men to guide
+<lb/>me to him and thence he would send me
+<lb/>safely by his path along <placeName><geogName type="lake">Lake Moero</geogName></placeName>. This
+<lb/>was all very good.</p>
+<lb/><note place="marginleft"><date when="1868-05-23">23<hi rend="sup underline">d</hi></date></note> <p>The <orgName>Arabs</orgName> made a sort of sacrifice of a
+
+    <pb facs="liv_000019_0433" n="0433"/>
+<lb/><fw n="427"><add place="margintop" rend="gray right" hand="#U">427</add></fw>
+<lb/><note place="marginleft"><date when="1868-05-23">May <lb/>23<hi rend="sup">d</hi> <lb/>1868</date></note> <term type="animal">goat</term> which was cooked all at once = they read the
+<lb/><bibl>Koran</bibl> very industriously, and prayed for success
+<lb/>or luck in leaving - They sent a good dish of it to
+<lb/>me - They seem sincerely religious according to the
+<lb/>light that is in them - the use of incense &amp; sacrifices
+<lb/>brings back the old <term type="faith">Jewish</term> times to mind - A number
+<lb/>of people went off to <placeName><geogName type="rivulet">Kanengwa</geogName></placeName> a rivulet <measure>an hour</measure>
+<lb/>South of this to build huts - There leave is to be
+<lb/>taken of <persName>Cazembe</persName> - the main body goes <choice><sic>of</sic><corr>off</corr></choice> <date when="1868-05-23">tomorrow</date>
+<lb/>after we have seen the New moon - They are very
+<lb/>particular in selecting lucky days, and anything
+<lb/>unpleasant that may have happened in one
+<lb/>month is supposed to be avoided by choosing a
+<lb/>different day for beginning an enterprise in the
+<lb/>next - <persName>Muhamad</persName> left <placeName><settlement type="city">Uvira</settlement></placeName> on the 3<hi rend="sup">d</hi> day of a new
+<lb/>moon and several fires happened in his camps
+<lb/>he now considers a Third day inauspicious -</p>
+<lb/><p><persName>Cazembe</persName>'s <term type="plant_foodstuff">dura</term> or <term type="plant_foodstuff">sorghum</term> is ripe <date when="1868-05-23">today</date>
+<lb/>He ate <foreign xml:lang="und"><term type="plant_foodstuff">mapemba</term></foreign> or <term type="plant_foodstuff">dura</term> &amp; all may thereafter
+<lb/>do the same. This is just about the time when
+<lb/>it ripens and is reaped at <placeName><settlement type="village">Kolobeng</settlement></placeName> - the
+<lb/>difference in the seasons is not great -</p>
+<lb/><note place="marginleft"><date when="1868-05-24">24<hi rend="sup underline">th</hi></date></note> <p>Detained four days yet - <persName>Cazembe</persName>'s <term type="occupation">chief</term> men
+<lb/>refuse to take <persName>Muhamad</persName> to take leave - they know
+<lb/>him to be in debt and fear that he may be angry -
+<lb/>but no <unclear cert="medium">donning</unclear> was intended - <persName>Cazembe</persName> was
+<lb/>making every effort to get ivory to liquidate it
+<lb/>and at last got a couple of tusks which he joyfully
+<lb/>gave to <persName>Muhamad</persName> - He has risen much in the
+<lb/>estimation of us all -</p>
+<lb/><note place="marginleft"><date when="1868-05-26">26<hi rend="sup underline">th</hi></date></note> <p><orgName><persName>Cazembe</persName>'s people</orgName> killed five <term type="animal">buffaloes</term> by
+<lb/>chasing them into the mud &amp; water of <placeName><settlement type="village">Mofwe</settlement></placeName>
+<lb/>He is seeing to the division of the <term type="foodstuff">meat</term> and
+<lb/>will take leave <date when="1868-05-27">tomorrow</date></p>
+<lb/><note place="marginleft"><date when="1868-05-28">28<hi rend="sup underline">th</hi></date></note> <p>Went to <persName>Cazembe</persName> - he was as gracious as usual
+<lb/>a case of <unclear cert="high"><choice><abbr>crim. con.</abbr><expan>criminal conduct</expan></choice></unclear> was brought forward against
+<lb/>an <orgName>Arab</orgName>'s <orgName>slave</orgName> - an attempt was made to
+
+	<pb facs="liv_000019_0434" n="0434"/>
+<lb/><fw n="428"><add place="margintop" rend="gray left" hand="#U">428</add></fw>
+<lb/><note place="marginleft"><date when="1868-05-28">May <lb/>28<hi rend="sup underline">th</hi> <lb/>1868</date></note> arrange the matter privately by offering three cloths
+<lb/>beads and another <orgName>slave</orgName> but the complainant
+<lb/>refused everything - <persName>Cazembe</persName> dismissed the
+<lb/>case by saying to the complainant "you send
+<lb/>you women to entrap the strangers in order
+<lb/>to get a fine, but you will get nothing" - this was
+<lb/>highly applauded by the <persName>Arabs</persName> and my words
+<lb/>to his principal men repeated - <persName>Cazembe</persName> is
+<lb/>good but his people are bad - the owner of the
+<lb/><orgName>slave</orgName> heaped dust on his head as many had
+<lb/>done before for favours <choice><sic>recieved</sic><corr>received</corr></choice> - <persName>Cazembe</persName>
+<lb/>still anxious to get ivory for <persName>Muhamad</persName>
+<lb/>proposed another delay of four days to send
+<lb/>for it - but all are tired and it is evident that
+<lb/>it is not want of will that prevents ivory being
+<lb/><note place="marginleft"><date when="1868-05-29">29<hi rend="sup underline">th</hi></date></note> produced - <orgName>His men</orgName> returned without any
+<lb/>and he frankly confessed inability.  He is
+<lb/>evidently very poor.</p>
+<lb/><note place="marginleft"><date when="1868-05-30">30<hi rend="sup underline">th</hi></date></note> <p>Went to <placeName><geogName type="rivulet">Kanengwa rivulet</geogName></placeName> at South end of
+<lb/><placeName><settlement type="village">Mofwe</settlement></placeName> - It forms a little lagoon there <measure><measure>50 yards
+<lb/>broad</measure> and <measure>thigh deep</measure></measure> - but this not theimportant
+<lb/>feeder of the Lagoon which is from <measure><measure>2 to 3 miles
+<lb/>broad</measure> and nearly <measure>4'</measure></measure> - It has many large
+<lb/>flat sedgy islands in it - and its water is supplied
+<lb/>by the <placeName><geogName type="river">Ubereze</geogName></placeName> from South East -</p>
+<lb/><note place="marginleft"><date when="1868-05-31">31<hi rend="sup underline">st</hi></date></note> <p>Old <persName>Kapika</persName> sold his young and good looking
+<lb/>wife for he said unfaithfulness - the sight
+<lb/>of a lady in the chain gang shocked the ladies
+<lb/>of <placeName><region>Lunda</region></placeName> who ran to her and having ascertained
+<lb/>from her own mouth what was sufficiently
+<lb/>apparent that she was a <orgName>slave</orgName> now, clapped
+<lb/>their hands on their mouths in the way that
+<lb/>they express wonder surprise horror - the
+<lb/>hand is placed so that fingers are on one
+<lb/>cheek and the thumb on the other - Her case
+<lb/>excited great sympathy among the people
+<lb/>some brought her food - <persName>Kajuka</persName>'s daughter
+
+	<pb facs="liv_000019_0435" n="0435"/>
+<lb/><fw n="429"><add place="margintop" rend="gray right" hand="#U">429</add></fw>
+<lb/><note place="marginleft"><date when="1868-05-31">May <lb/>31<hi rend="sup">st</hi> <lb/>1868</date></note> brought her <foreign xml:lang="und"><term type="plant_foodstuff">pombe</term></foreign> and <term type="plant_foodstuff">bananas</term> - one man
+<lb/>offered to redeem her with two another with three
+<lb/><orgName>slaves</orgName> but <persName>Cazembe</persName> who is very strict in punishing
+<lb/>infidelity said "No though ten <orgName>slaves</orgName> be offered she
+<lb/>must go" - He is probably afraid of his own
+<lb/>beautiful queen should the law be relaxed - Old
+<lb/><persName>Kapika</persName> came and said to her "you refused me
+<lb/>and I now refuse you" - A young wife of old
+<lb/><persName>Perembe</persName> was also sold as a punishment but
+<lb/>redeemed - There is a very large proportion of very
+<lb/>old and very tall men in this <placeName><region>district</region></placeName> - The <term type="occupation"><orgName>slave</orgName>
+<lb/>trader</term> is a means of punishing the wives which
+<lb/>these old fogies ought never to have had.</p>
+<lb/><p><persName>Cazembe</persName> sent me about a hundred weight
+<lb/>of the small <term type="animal">fish</term> <term type="animal">Nsipo</term> which seems to be the
+<lb/>white bait of our country - It is a little bitter
+<lb/>when cooked alone but with <term type="plant_foodstuff">groundnuts</term> is a
+<lb/>tolerable <term type="foodstuff">relish</term> - We can buy <term type="foodstuff">flour</term> with these
+<lb/>at <placeName><settlement type="village"><persName>Chikumbi</persName>'s</settlement></placeName></p>
+<lb/><note place="marginleft"><date when="1868-06-01">1<hi rend="sup">st</hi> <lb/>June</date></note> <p><persName>Muhamad</persName> proposes to go to <placeName><region>Katanga</region></placeName> to buy
+<lb/>copper and invites me to go <choice><sic>to</sic><corr>too</corr></choice> - I wish to see 
+<lb/>the <placeName><geogName type="river">Lufira River</geogName></placeName> but I must see <placeName><geogName type="lake">Bemba</geogName></placeName> or
+<lb/><placeName><geogName type="lake">Bangweolo</geogName></placeName> - Grant guidance from above -</p>
+<lb/><note place="marginleft"><date when="1868-06-02">2<hi rend="sup underline">d</hi></date></note> <p>In passing a field of <foreign xml:lang="la"><term type="plant_foodstuff">Cassava</term></foreign> I picked
+<lb/>the pods of a plant called <term type="plant">Malumbi</term> or <term type="plant"><w>Malu<supplied>-</supplied>
+<lb break="no"/>-mbi</w></term> which climbs up the <foreign xml:lang="und"><term type="plant_foodstuff">Cassava bushes</term></foreign>
+<lb/>at the root of a number of tubers with eyes
+<lb/>exactly like the <term type="plant_foodstuff">potato</term> - one plant had <w>six-
+<lb break="no"/>-teen</w> of these tubers each about 2 inches long &amp;
+<lb/>1<choice><orig>½</orig><reg>1/2</reg></choice> <choice><abbr>in.</abbr><expan>inches</expan></choice> in diameter - another tuber was 5
+<lb/>inches long and 2 in diameter - It would be
+<lb/>difficult for anyone to distinguish them from
+<lb/><term type="plant_foodstuff"><term type="nationality">English</term> potatoes</term> - When boiled it is a little
+<lb/>waxy and compared with our <term type="plant_foodstuff">potato</term> hard
+<lb/>two colours inside - the outer part reddish
+<lb/>the inner whiter</p>
+
+	<pb facs="liv_000019_0436" n="0436"/>
+<lb/><fw n="430"><add place="margintop" rend="gray right" hand="#U">430</add></fw>
+<lb/><note place="marginleft"><date when="1868-06-02">June <lb/>2<hi rend="sup">nd</hi> <lb/>1868</date></note> <p>At first none of the party knew them but 
+<lb/>afterwards they were recognized as cultivated
+<lb/>at <placeName><geogName type="island">Zanzibar</geogName></placeName> by the name "Men" and very
+<lb/>good when mashed with <term type="animal">fish</term> - If in <placeName><geogName type="island">Zanzibar</geogName></placeName>
+<lb/>they are probably known in other Tropical
+<lb/>islands</p>
+<lb/><note place="marginleft"><date when="1868-06-04">4<hi rend="sup underline">th</hi></date></note> <p><choice><sic>from</sic><corr>From</corr></choice> what I see of <orgName>slaving</orgName> even in its best
+<lb/>phases I would not be a <term type="occupation"><orgName>slave</orgName> dealer</term> for
+<lb/>the world</p>
+<lb/><note place="marginleft"><date when="1868-06-05">5<hi rend="sup underline">th</hi></date></note> <p>The <term type="occupation">Queen Maari a ñombe</term> or <foreign xml:lang="und">Kafuta</foreign> passed
+<lb/>us <date when="1868-06-05">this morning</date> going to build a hut at her
+<lb/>plantation - she has a pleasant <orgName>European</orgName>
+<lb/>countenance - clean light brown skin and a
+<lb/>merry laugh - she would be admired anywhere
+<lb/>I stood among <foreign xml:lang="la"><term type="plant_foodstuff">Cassava</term></foreign> to see her pass - she
+<lb/>twirled her <choice><sic>umbrellah</sic><corr>umbrella</corr></choice> as she came near
+<lb/>borne by twelve men - and seemed to take
+<lb/>up the laugh which made her &amp; her <term type="occupation">maids</term>
+<lb/>bolt at my reception <choice><orig>shewing</orig><reg>showing</reg></choice> that she laughs
+<lb/>not with her mouth only but with her eyes
+<lb/>and cheeks - she said <foreign xml:lang="und">yambo</foreign> = how are you to
+<lb/>which I replied <foreign xml:lang="und">yambo sana</foreign> - very well - one
+<lb/>of her <term type="occupation">attendants</term> said give her something of
+<lb/>what you have at hand or in the pockets
+<lb/>I said I have nothing here and asked her
+<lb/>if she would come back near by hut - she
+<lb/>replied that she would and duly sent for two
+<lb/>strings of red beads which I presented - Being
+<lb/>lower than she I could see that she had a hole
+<lb/>through the cartilage near the point of her slightly
+<lb/>aquiline nose - and a space was filed between
+<lb/>the two front teeth so as to leave a triangular
+<lb/><metamark/>hole <figure><figDesc>Drawing of Queen's filed teeth.</figDesc></figure> - after delay had grown vexatious
+<lb/><note place="marginleft"><date from="1868-06-07" to="1868-06-09">7-8-9-</date></note> we march <measure>3 hours</measure> on the <date when="1868-06-09">9<hi rend="sup underline">th</hi></date> The <placeName><geogName type="river">Katofia <choice><abbr>R<hi rend="sup">r</hi></abbr><expan>River</expan></choice></geogName></placeName>
+<lb/>covered with <term type="plant">aquatic trees</term> &amp; running into
+<lb/>the <placeName><geogName type="river">Ubereze</geogName></placeName> = <measure><measure>5 yards wide</measure> &amp; <measure>knee deep</measure></measure></p>
+	
+	<pb facs="liv_000019_0437" n="0437"/>
+<lb/><fw n="431"><add place="margintop" rend="gray right" hand="#U">431</add></fw>
+<lb/><note place="marginleft"><date when="1868-06-10">10<hi rend="sup underline">th</hi> <lb/>June <lb/>1868</date></note> <p>Detained again - business not finished with the 
+<lb/><orgName>people of <persName>Cazembe</persName></orgName> - the people cannot esteem
+<lb/>the <term type="occupation"><orgName>slave</orgName> trader</term> who is used as a means of <w>punish<supplied>-</supplied>
+<lb break="no"/>-ing</w> those who have family differences  as those of a
+<lb/>wife with her husband - or a <term type="occupation">servant</term> with his master - the <orgName>slaves</orgName> are said to be generally <w>crimi-
+<lb break="no"/>-nals</w>, and are sold in revenge or as punishment -
+<lb/><persName>Kapika</persName>'s wife had an ornament of the end of a
+<lb/>shell called the cone - It was borrowed and she came
+<lb/>away with it in her hair - The owner without
+<lb/>making any effort seized one of <persName>Kapika</persName>'s daughters
+<lb/>as a pledge that <persName>Kapika</persName> would exert himself to get
+<lb/>it back -</p>
+<lb/><note place="marginleft"><date when="1868-06-11">11<hi rend="sup underline">th</hi></date></note> <p><choice><sic>cross</sic><corr>Cross</corr></choice> the <placeName><geogName type="river">Ubereze</geogName></placeName> <measure><measure>ten yards broad</measure> and <measure>thigh deep</measure></measure>
+<lb/>then ascend a range of low hills of hardened
+<lb/>sandstone covered as the country generally is
+<lb/>with forest - our course is <choice><abbr>S.E.</abbr><expan>Southeast</expan></choice> &amp; <choice><abbr>S.S.E.</abbr><expan>South Southeast</expan></choice> - Then descend
+<lb/>into a densely wooded valley having a rivulet
+<lb/><measure><measure><unclear cert="low">10</unclear> yards wide</measure> &amp; <measure>knee deep</measure></measure> - <term type="animal">buffaloes</term> &amp; <term type="animal">elephants</term>
+<lb/>very numerous.</p>
+<lb/><note place="marginleft"><date when="1868-06-12">12<hi rend="sup underline">th</hi></date></note> <p><choice><sic>we</sic><corr>We</corr></choice> crossed the <placeName><geogName type="river">Ubereze</geogName></placeName> again twice - then a 
+<lb/>very deep narrow rivulet &amp; stopped at another
+<lb/>in a mass of trees where we spend the night &amp;
+<lb/>killing an <term type="animal">ox</term> remain <date when="1868-06-13">next day</date> to eat it - When 
+<lb/>at <placeName><geogName type="river">Kanengwa</geogName></placeName> a small party of men came past
+<lb/>shouting as if they had done something of importance
+<lb/>on going to them - I found that two of them carried
+<lb/>a <term type="animal">lion</term> slung to a pole - It was a small maneless
+<lb/>variety called "the <term type="animal">Lion</term> of <hi rend="underline"><foreign xml:lang="und">Nyassi</foreign></hi>" or long grass -
+<lb/>It had killed a man and they killed it - they
+<lb/>had its mouth carefully strapped, and the paws			
+<lb/>tied across its chest and were taking it to <persName>Cazembe</persName>
+<lb/><hi rend="underline"><foreign xml:lang="und">nyassi</foreign></hi> means long grass such as towers over
+<lb/>head and is as thick in stalk as a <term type="animal">goose</term> quill -
+<lb/><w>other<del type="strikethrough">s</del></w> <term type="animal">lions</term> Thambune - Karamo - Simba are
+<lb/>said to stand five feet high &amp; some higher - This
+<lb/>seemed about 3 feet high, but it was too dark
+<lb/>to measure it - <foreign xml:lang="und">Nyassi</foreign> is erroneously applied to <placeName><geogName type="lake">Nyassa</geogName></placeName></p>
+
+			</div>
+		</body>
+    </text>
+</TEI>

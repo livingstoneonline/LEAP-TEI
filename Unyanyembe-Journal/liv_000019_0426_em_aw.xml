@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019"><!-- Adrian change only -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 1115</idno><!-- Adrian change only -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Journals, 011</idno><!-- Adrian change only -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866 - 5 March 1872</date><!-- Adrian change x2 only -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language><!-- Everyone, add languages as necessary. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-10-15" who="#AW">Coding review</change>
+            <change when="2015-10-12" who="#EM">Transcription and XML encoding</change><!-- Everyone, revise and expand as necessary. -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+       	<body>
+			<div>
+
+	<gb/>
+
+<!-- I have already proofed 426, 427, 428, and 429, so you can skip those. Also, note that each page has the <fw> at the top. These will be missing from the pages I haven't proofed yet so be sure to add them as you go along. AW -->
+
+	<pb facs="liv_000019_0426" n="0426"/>
+<fw n="420"><add place="margintop" rend="gray" hand="#U">420</add></fw>
+<lb/><p>possess an unusual admiration of such civilization
+<lb/>as he has seen among the <orgName>Arabs</orgName> - To the <orgName>natives</orgName> the <term type="occupation">chief</term>
+<lb/>attention of the <orgName>Mission</orgName> should be directed - It would not
+<lb/>be desirable or advisable to refuse explanation to others
+<lb/>but I have avoided giving offence to intellegent <orgName>Arabs</orgName>
+<lb/>who have pressed me to say if I believed in <persName>Muhammad</persName> by
+<lb/>saying "No I do not.  I am a child of <persName>Jesus bin Miriam</persName>"
+<lb/>avoiding anything offensive in my tone, and often
+<lb/>adding that <persName>Muhammad</persName> found their forefathers bowing
+<lb/>down to trees &amp; stones, and did good to them by <w>for-
+<lb break="no"/><supplied>-</supplied>bidding</w> idolatry and teaching the worship of 
+<lb/>only one God - This they all know, and it pleases to
+<lb/>have it recognized -</p>
+<lb/><p>It might be good policy <choice><sic>to hire</sic><corr><del>to hire</del></corr></choice> <add rend="above">to engage</add> <metamark/><!-- Circular insertion mark. AW --><add place="below">respectable <orgName>Arab</orgName></add> <orgName>free <term type="occupation">porters</term></orgName> <del type="strikethrough">under a</del>
+<lb/><space extent="2" unit="words"/>and conduct the <orgName>mission</orgName> to the
+<lb/>country chosen &amp; obtain persmission from the <term type="occupation">chief</term>
+<lb/>to build temporary houses - If this <orgName>Arab</orgName> were well
+<lb/>paid it might pave the way for employing others to
+<lb/>bring supplies of goods &amp; stores not produced in the
+<lb/>country as <term type="foodstuff">Tea</term> <term type="foodstuff">coffee</term> <term type="foodstuff">sugar</term>. The first <term type="occupation">porters</term> had
+<lb/>better all go back save a couple or so who have
+<lb/>behaved especially well = Trust to the people among
+<lb/>whom you live for general services as bringing
+<lb/>wood, water - cultivation, reaping - <term type="occupation">smith</term>'s work -
+<lb/><term type="occupation">carpenter</term>'s work, pottery, baskets &amp;c  <space extent="1" unit="chars"/><orgName>Educated
+<lb/>free blacks</orgName> from a distance are to be avoided. They are
+<lb/>expensive and are too much of gentlemen for your work
+<lb/>you may in a few months raise natives who will teach 
+<lb/>reading to others better than they can, and teach you also
+<lb/>much that the <orgName>liberated</orgName> never know - a cloth and
+<lb/>some beads occasionally will satisfy them, while
+<lb/>neither the food the wages nor the work will please those
+<lb/>who being brought from a distance naturally consider themselves
+<lb/><term type="occupation">missionaries</term> - <orgName>Slaves</orgName> also have undergone a <unclear cert="medium">process</unclear>
+<lb/>which has spoiled them for life - though liberated young
+<lb/>everything of childhood and opening life <unclear cert="high">possesses</unclear>
+<lb/>an indescribable charm. It is so with <w>o<subst><del>wn</del><add place="over-text">ur</add></subst></w> own <w>off-
+<lb break="no"/><supplied>-</supplied>spring</w>, and nothing effaces the fairy scenes then
+<lb/>printed on the memory - Some of my <orgName>liberados</orgName>
+
+	<pb facs="liv_000019_0427" n="0427"/>
+<fw n="421"><add place="margintop" rend="gray right" hand="#U">421</add></fw>
+<lb/>eagerly bought green calabashes - tasteless <term type="foodstuff">squash</term> - with fine
+<lb/>fat <term type="foodstuff">beef</term> because this trash was their early food, and an ounce
+<lb/>of <term type="foodstuff">meat</term> never entered their mouths. It seems indispensible 
+<lb/>that each <orgName>Mission</orgName> should raise its own nature agency - A
+<lb/>couple of <orgName>Europeans</orgName> beginning &amp; carrying on a <orgName>mission</orgName> 
+<lb/>without a staff of foreign <term type="occuapation">attendants</term> implies coarse country
+<lb/>fare, but this would be nothing to <subst><del><gap extent="1" unit="words"/></del><add place="over-text">those</add></subst> <add rend="below">^</add> <add rend="above">who</add> <del type="strikethrough">as</del> at home amuse
+<lb/>themselves with fastings vigils &amp;c a great deal of power
+<lb/>is thus lost in the <orgName>church</orgName> - Fastings &amp; vigils without a
+<lb/>special object in view are time run to waste - they are
+<lb/>made to minister to a sort of self gratification instead
+<lb/>of being turned to account for the good of others - They
+<lb/>are like groaning in sickness - some people amuse <w>them<supplied>-</supplied>
+<lb break="no"/><supplied>-</supplied>selves</w> when ill with continuous moaning - An <term type="nationality">English</term>
+<lb/><term type="occupation">sailor</term> <add rend="below">^</add> <add rend="above">out on boat duty on the <placeName><geogName type="river">Zambesi</geogName></placeName></add> forgot in the act of awaking, that he was now quite
+<lb/>well and commenced a vigerous volley of groans till
+<lb/>brought to full consiousness by a peal of laughter from
+<lb/>all in the boat - <space extent="1" unit="chars"/>The Forty days of Lent might be annually
+<lb/>spent in visting adjacent tribes, and bearing unavoidable 
+<lb/>hunger and thirst with a good grace - considering the greatness
+<lb/>of the object to be attained men might go without <term type="foodstuff">sugar</term> <term type="foodstuff">coffee</term> <term type="foodstuff">tea</term>
+<lb/>I went from <date when="1866-09"><choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1866</date> to <date when="1868-12"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1868</date> without <term type="foodstuff">sugar</term> <term type="foodstuff">tea</term> or <term type="foodstuff">coffee</term> -
+<lb/>A Trader at <placeName><settlement type="village"><term type="occupation"><persName>Cazembe</persName></term>'s</settlement></placeName> gave me a dish cooked with <term type="foodstuff">honey</term> &amp; it
+<lb/>nausiated from its horrible sweetness, but at a <measure>100 miles</measure> in
+<lb/>land supplies could be easily obtained - </p>
+<lb/><p>The expenses need not be large - Intelligent <orgName>Arabs</orgName> inform
+<lb/>me that in going from <placeName><geogName type="island">Zanzibar</geogName></placeName> to <placeName><settlement type="village"><term type="occupation"><persName>Cazembe</persName></term>'s</settlement></placeName> only 3000
+<lb/>dollars worth are required - say between £600 £700 - and
+<lb/>he may be away three or more years - paying his way
+<lb/>giving presents to the <term type="occupation">chiefs</term> and filling 200 or 300 <unclear cert="high">mouths</unclear>
+<lb/>He has paid for say 50 muskets - ammunition - flints
+<lb/>and may return with <measure>4000 <choice><abbr>lbs</abbr><expan>pounds</expan></choice></measure> of ivory &amp; a number
+<lb/>of <orgName>slaves</orgName> for sale - all at an outlay of £600 or £700 -
+<lb/>With the experience I have gained now I could do all
+<lb/>I shall do in this <orgName>Expedition</orgName> for a like sum - or at
+<lb/>least for a £1000 less that it will actually cost me</p>
+<lb/><p><persName>Burton</persName>'s silly dictum that <orgName>Moslems</orgName> would be better <term type="occupation"><w>missi<supplied>-</supplied>
+<lb break="no"/>onaries</w></term> than <orgName><term type="faith">Christians</term></orgName> because they would allow polygamy
+<lb/>is equivalent to saying that they would catch more birds in - 
+<lb/>as much as they would just salt on their tails - <term type="faith">Moslem</term> zeal is nil.</p>
+
+	<pb facs="liv_000019_0428" n="0428"/>
+<fw n="422"><add place="margintop" rend="gray" hand="#U">422</add></fw>
+<lb/><note place="marginleft"><date when="1868-05-07">May <lb/>7<hi rend="sup">th</hi> <lb/>1868</date></note> <p rend="no-indent"><add rend="below">^</add> <add rend="above">Journal</add> Continued here from page on <date when="1867-07-12">12<hi rend="sup underline">th</hi> July</date>.</p>
+<lb/><p><persName>D<hi rend="sup underline">r</hi> Lacerda</persName> the next <term type="people">Portuguese</term> visitor after <persName>Pereira</persName>
+<lb/>came to a <term type="occupation"><persName>Cazembe</persName></term> living on the <placeName><choice><abbr>Rt</abbr><expan>Route</expan></choice> <placeName>Chungu</placeName></placeName> -
+<lb/>a party of <orgName><placeName><settlement type="village">Ujiji</settlement></placeName> traders</orgName> were with <term type="occupation"><persName>Cazembe</persName></term> at the
+<lb/>time and one <orgName><persName>Lacerda</persName>'s people</orgName> killed an <orgName><placeName><settlement type="village">Ujiji</settlement></placeName>an</orgName>
+<lb/>when drawing water - the <orgName><placeName><settlement type="village">Ujiji</settlement></placeName>ans</orgName> were going to
+<lb/>revenge this murder but <term type="occupation"><persName>Cazembe</persName></term> addressed them
+<lb/>as his guests and said "You my friends must not 
+<lb/>fight while you are with me" and gave <persName>D<hi rend="sup underline">r</hi> Lacerda</persName>
+<lb/>ten <orgName>slaves</orgName> and people to build huts &amp; bring water for
+<lb/>his party - He also gave presents to the <orgName><placeName><settlement type="village">Ujiji</settlement></placeName>ans</orgName>
+<lb/>and prevented the the effusion of blood - <persName>D<hi rend="sup underline">r</hi> Lacerda</persName>
+<lb/>or <persName>Charley</persName> <persName>(Charale)</persName> of the natives was the only visitor
+<lb/>of any scientfic attainments and he was <measure>fifty miles</measure>
+<lb/>wrong in Latitude alone - This fact possesses a
+<lb/>somewhat melancholy interest for he was only ten
+<lb/>days at the <placeName>Chungu</placeName> when he died, and the error probably
+<lb/>reveals that his mind was clouded by <term type="ailment">fever</term> when
+<lb/>he last observerd - anyone who knows what that
+<lb/>implies will readily excuse any mistake he may <unclear cert="high">have</unclear>
+<lb/>made -</p>
+<lb/><p rend="no-indent">When <term type="occupation">Major</term> <persName>Monteiro</persName> was here the <placeName><settlement type="town">town of <term type="occupation"><persName>Cazembe</persName></term></settlement></placeName>
+<lb/>was on the same spot as now but the <foreign xml:lang="und">Mosumba</foreign>
+<lb/>or enclosure of the <term type="occupation">chief</term> was about <measure>550 yards</measure> <choice><abbr>S.E.</abbr><expan>South East</expan></choice> of
+<lb/>the present one - <persName>Monteiro</persName> went nowhere and did
+<lb/>nothing but some of his <term type="occupation">attendants</term> went over to the
+<lb/><placeName><geogName type="river">Luapula</geogName></placeName> some <measure>six miles</measure> distant - He complains
+<lb/>in his <bibl>book</bibl> of having been robbed by the <term type="occupation"><persName>Cazembe</persName></term>
+<lb/>of the time - on asking the present occupant of
+<lb/>the office why <persName>Monteiro</persName>'s goods were taken from
+<lb/>him he replied that he was then living at
+<lb/>another village, and did not know of the affair
+<lb/><persName>Muhamad bin Saleh</persName> was present and he says that
+<lb/><persName>Monteiro</persName>'s statement is false - no goods were
+<lb/>forced from him, but it was a year of scarcity
+<lb/>and <persName>Monteiro</persName> had to spend his goods in buying
+<lb/>food instead of <orgName>slaves</orgName> and ivory and made
+
+	<pb facs="liv_000019_0429" n="0429"/>
+<fw n="423"><add place="margintop" rend="gray right" hand="#U">423</add></fw>
+<lb/><note place="marginleft"><date when="1868-05-08">May <lb/>8<hi rend="sup">th</hi> <lb/>1868</date></note> up the tale of plunder by <term type="occupation"><persName>Cazembe</persName></term> to appease his creditors
+<lb/>a number of men were sent with <persName>Monteiro</persName> as an
+<lb/>honorary escort - <persName>Kapika</persName> an old man now living
+<lb/>was the <term type="occupation">chief</term> or one of the <term type="occupation">chiefs</term> of this party and he 
+<lb/>says that he went to <placeName><settlement type="village">Tette</settlement></placeName>, <placeName><settlement type="village">Senna</settlement></placeName> and <placeName><settlement type="town">Quillimane</settlement></placeName>
+<lb/>with <persName>Monteiro</persName> - This honorary escort seems confirmatory
+<lb/>of <persName>Muhamad</persName>'s explanation for had <term type="occupation"><persName>Cazembe</persName></term> robbed
+<lb/>the <term type="occupation">Major</term> none would have been granted or <choice><sic>recieved</sic><corr>received</corr></choice></p>
+<lb/><p><seg type="weather">It is warmer here than we found it in the way
+<lb/>hither - clouds cover the sky and prevent radiation</seg>
+<lb/>Many very old men appear among <orgName><term type="occupation"><persName>Cazembe</persName></term>'s people</orgName>
+<lb/>The <term type="plant_foodstuff">Sorghum</term> is now in full ear - people make very
+<lb/>neat mats of the leaves of the <term type="plant">Shuare palm</term> - Lunars</p>
+<lb/><p><note place="marginleft"><date when="1868-05-09">9<hi rend="sup">th</hi></date></note> Eight or ten men went past us this morning
+<lb/>sent by the <term type="occupation">chief</term> to catch people whom he intends to
+<lb/>send to his paramount <term type="occupation">chief</term> <persName>Matiamvo</persName> as a tribute
+<lb/>of <orgName>slaves</orgName> - Perembe gives the following list of the
+<lb/><choice><sic><term type="occupation"><persName>Cazembe</persName></term>s</sic><corr><term type="occupation"><persName>Cazembe</persName></term>'s</corr></choice></p> <list><item>1<hi rend="sup">st</hi> <persName><hi rend="double-underline">Kanyimbe</hi></persName> = came from <placeName><region>Lunda</region></placeName> attracted
+<lb/>by the fish of <placeName>Mofine</placeName> &amp; <placeName>Moero</placeName> &amp; conquered <persName>Perembe</persName>'s
+<lb/>forefather <persName>Katere</persName> who planted the first <term type="plant">Palm
+<lb/>oil palms</term> here from seeds got in <placeName><region>Lunda</region></placeName> - This
+<lb/>probable that the intercourse then set afloat led to
+<lb/><persName>Kanyimbe</persName>'s coming &amp; conquest -</item>
+<lb/><item><hi rend="underline">2</hi> <hi rend="double-underline"><persName>Kinyanta</persName></hi> =</item> <item>3<hi rend="sup underline">d</hi> <hi rend="double-underline"><persName>Nguandamilonda</persName></hi> =</item> <item>4 <hi rend="double-underline"><persName>Kanyembo</persName></hi> -</item>
+<lb/><item>5 <persName>Lekwisa</persName> =</item> <item>6<hi rend="sup underline">th</hi> <hi rend="double-underline"><persName>Kireka</persName></hi> =</item> <item>7<hi rend="sup underline">th</hi> <hi rend="double-underline"><persName>Kapumba</persName></hi> =</item> <item><hi rend="double-underline"><persName>Kinyanta</persName></hi> -</item>
+<lb/><item>9<hi rend="sup underline">th</hi> <hi rend="double-underline"><persName>Lekwisa</persName></hi> still alive but a fugitive at <placeName><persName>Insana</persName>'s</placeName></item>
+<lb/><item>10 <hi rend="double-underline"><persName>Meronga</persName></hi> the present <term type="occupation"><persName>Cazembe</persName></term> who expelled <persName><choice><abbr>no.</abbr><expan cert="high">number</expan></choice> 9</persName></item></list>
+<lb/><p>The <orgName>Portuguese</orgName> came to <persName>Kireka</persName> who is said to have
+<lb/>been very liberal with presents of ivory, <orgName>slaves</orgName>, and 
+<lb/><term type="animal">cattle</term> - <space extent="1" unit="chars"/>The present man has good sense, and 
+<lb/>is very fair in his judgments - but stingy towards
+<lb/>his own people as well as strangers - I have had
+<lb/>good reason to be satisfied with his conduct to
+<lb/>me - <space extent="1" unit="chars"/><persName>Maize</persName> not in the list and <persName>7</persName> - <persName>8</persName> - <persName>9</persName> - <persName>10</persName> are the
+<lb/><orgName>children of <persName>Kireka</persName></orgName> - <persName>Mironga</persName> is said by the others
+<lb/>to be a <orgName>slave</orgName> = "born out of the house" that is, his
+<lb/>mother was not of they royal line - she is an ugly
+<lb/>old woman &amp; greedy - I got rid of her begging by
+
+	<pb facs="liv_000019_0430" n="0430"/>
+<lb/><note place="marginleft"><date when="1868-05-10">May 10<hi rend="sup underline">th</hi> 1868</date></note> giving her the beads she sought and requesting <unclear cert="high">her</unclear>
+<lb/>to cook some food for me - she begged no _____
+<lb/>afraid that I would press my claim for food.</p>
+<lb/><p>Sent to <persName>Kazembe</persName> for a guide to <placeName><geogName type="river">Luapula</geogName></placeName> - He
+<lb/>replied that he had not seen me nor given me
+<lb/>any food - I must come tomorrow - but next
+<lb/><note place="marginleft"><date when="1868-05-11">11<hi rend="sup underline">th</hi></date></note> he was occupied in killing a man for _______
+<lb/>could not recieve us, but said that he would _____
+<lb/><note place="marginleft"><date when="1868-05-12">12<hi rend="sup underline">th</hi></date></note> He sent 15 <term type="animal"><term type="foodstuff">fish (persh)</term></term> from <placeName>Mofue</placeName> and a large
+<lb/>basket of dried <term type="foodstuff">hassava</term> = I have taken ______
+<lb/>several times = measuring both side of the
+<lb/>moon about one hundred and ninetey times
+<lb/>but a silly  map maker may _____ the _____
+<lb/>for the most idiotic reasons.</p>
+<lb/><p><note place="marginleft"><date when="1868-05-13">13<hi rend="sup underline">th</hi></date></note> <persName>Muhamad Boparib</persName> has been here some
+<lb/>seven months and bought three tusks only
+<lb/>the hunting by <persName>Kazembe</persName>'s people of <term type="animal">elephants</term>
+<lb/>in the <placeName>Mofue</placeName> has been unsuccessful -</p>
+<lb/><p><note place="marginleft"><date when="1868-05-14">14<hi rend="sup underline">th</hi></date></note> We <choice><sic>dont</sic><corr>don't</corr></choice> get an audience from <persName>Kazembe</persName>
+<lb/>but the fault <choice><sic>hes</sic><corr>he's</corr></choice> with <persName>Kapika</persName> = <persName>Montaro</persName>'s
+<lb/>escort, being afraid to annoy <persName>Kazembe</persName> __
+<lb/>putting in mind of it - but on the <gap extent="8" unit="chars" agent="blot"/> 
+<lb/><note place="marginleft"><date when="1868-05-15">15<hi rend="sup">th</hi></date></note> <persName>Kazembe</persName> sent for me and told me that
+<lb/>the people had all fled from <persName><unclear>blu Kumdic</unclear></persName>
+<lb/>he would therefore send guides to take us
+<lb/>to Kabaia where there was still a population
+<lb/>Wished me to wait a few days till he had
+<lb/>looked out good men as guides &amp; ground
+<lb/>some <term type="foodstuff">flour</term> for us to use in the journey -
+<lb/>He understood that I wished to go to <w>_____<supplied>-</supplied>
+<lb break="no"/>-olo</w> - and it was all right to do what my
+<lb/>own <term type="occupation">chief</term> had sent me for and then come
+<lb/>back to him - It was only water the same as
+<lb/><placeName><geogName type="river">Luapula</geogName></placeName> - <placeName>Mofive</placeName> and <placeName>Moero</placeName> - nothing to
+<lb/>be seen - His people must not molest us
+<lb/>again but let me go when I liked - this
+<lb/>made me thank him who has the hearts of all
+<lb/>in his hand</p>
+
+	<pb facs="liv_000019_0431" n="0431"/>
+<lb/><p><note place="marginleft"><date when="1868-05-15">May 15<hi rend="sup underline">th</hi> 1868</date></note> <placeName>Kazembe</placeName> also admitted that he had injured
+<lb/><persName>Myamari</persName> - but he would send him some <orgName>slaves</orgName> &amp;
+<lb/>ivory in reparation - he is better than his people who
+<lb/>are ______ litigious and fond of ______ or 
+<lb/>causes - <term type="animal">ants</term> - He asked if I had not the <term type="animal"><choice><sic>leopards</sic><corr>leopard's</corr></choice></term> skin
+<lb/>he gave me to sit on as it was lead to sit on the ground
+<lb/>I told him it had so many holes in it people laughed
+<lb/>at it and made me ashamed - He did not take the
+<lb/>hint to give me another - He always talks good _____
+<lb/>when he has not ____ <term type="foodstuff">beer</term> or <term type="foodstuff">pombe</term> = all the <orgName>Arabs</orgName>
+<lb/>are loud in his praises</p>
+<lb/><p>The <orgName>Arabs</orgName> have a bad opinion of the Queen
+<lb/><persName>Moari</persName> or <persName>Nyomba</persName> or <persName>Kifuta</persName> - The <term type="tribe">Garaganza</term> people
+<lb/>at <placeName>Katanga</placeName> killed a near relative of <persName>Kazembe</persName> &amp; herself
+<lb/>and when the event happened, <unclear>Fungafunga</unclear> one of 
+<lb/>the <term type="tribe">Garaganza</term> or <term type="tribe"><unclear>Banyamuezi</unclear></term> being near the
+<lb/><unclear cert="medium">spot</unclear> fled and came to the <placeName>Mofive</placeName> = He continued his 
+<lb/>flight as soon as it was dark without saying <w>any-
+<lb break="no"/><supplied>-</supplied>thing</w> to anyone until he go North to <placeName>Kabiere</placeName> - the
+<lb/><term type="occupation">Queen</term> &amp; <persName>Kazembe</persName> suspected <persName>Upamari</persName> of complicity
+<lb/>with the <term type="tribe"><unclear>Banyamuezi</unclear></term> and believed that <persName><unclear>Fungafunga</unclear></persName>
+<lb/>had communicated the news to him before fleeing
+<lb/>further - A tumult was made - <persName>Upamari</persName>'s eldest
+<lb/>son was killed and he was plundered of all his copper
+<lb/>ivory and <orgName>slaves</orgName> - the <term type="occupation">Queen</term> loudly demanded his
+<lb/>execution but <persName>Kazembe</persName> restrained his people as
+<lb/>well as he was able - It is for this injury that he
+<lb/>now professes to be sorry - the <term type="occupation">queen</term> only acted
+<lb/>according to the principle of her people = "<persName>Upamari</persName>
+<lb/>killed my son - kill his son - himself -"  <space extent="1" unit="chars"/>It is
+<lb/>difficult to get at the truth for <persName>Muhamad</persName> or 
+<lb/><persName>Upamari</persName> never tells the whole truth - <unclear cert="medium">His want</unclear>
+<lb/>is wedded to native ways - has been about 30
+<lb/>years in the country - <placeName><settlement type="village">Ujiji</settlement></placeName> &amp; <placeName><settlement type="village">Lunda</settlement></placeName> - Went to
+<lb/>fight ______ with <persName>Muonga</persName>, and was wounded
+<lb/>on the foot and routed, and is now glad to get
+<lb/>out of <placeName><settlement type="village">Lunda</settlement></placeName> back to <placeName><settlement type="village">Ujiji</settlement></placeName> - 16<hi rend="sup underline">th</hi> complete 20 sets
+<lb/>of Lunars</p>
+
+			</div>
+		</body>
+    </text>
+</TEI>

@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://jamescummings.github.io/LEAP/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019"><!-- Adrian change only -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="EC">
+                    <name>Erin Cheatham</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 1115</idno><!-- Adrian change only -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Journals, 011</idno><!-- Adrian change only -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="HS"><label>Henry Morton Stanley</label></handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title><!-- Adrian change only -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866 - 5 March 1872</date><!-- Adrian change x2 only -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="mg">Malagasy</language>
+                <language ident="sco">Scots</language>
+                <language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+        <!-- Integration -->
+            <change when="2015-04-25" who="#HB">Quality Control and Integration</change>
+        <!-- 0586 -->
+            <change when="2015-12-25" who="#AK">Proofing and Additional TEI Encoding</change>
+            <change when="2015-12-18" who="#EC">Transcription and TEI Encoding</change>
+        <!-- 0578 -->
+            <change when="2016-01-15" who="#HB">Proofing</change>
+            <change when="2015-12-19" who="#AK">Transcription and TEI Encoding</change>
+        <!-- 0557 -->
+            <change when="2016-02-04" who="#EM">Proofing and TEI Encoding</change>
+            <change when="2016-02-01" who="#MW">Proofing and TEI Encoding</change>
+            <change when="2016-01-11" who="#KS">Transcription and TEI Encoding</change>
+        <!-- 0546 -->
+            <change when="2016-01-25" who="#KS">Proofing</change>
+            <change when="2015-12-16" who="#EM">Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+       	<body>
+			<div>
+
+	<gb/>
+
+    <!-- em, ks -->
+
+	<pb facs="liv_000019_0546" n="0546"/>
+<lb/><fw n="540"><add place="margintop" rend="gray left" hand="#U">540</add></fw>
+<lb/><p>side of the narrow way, one may waddle a
+<lb/><add place="marginleft">little <lb/>distance <add place="below">^</add></add> along, but the rank <term type="plant">crop of grasses, gingers
+<lb/>and bushes</term> cannot spare the few inches
+<lb/>of soil required for the side of the foot, and
+<lb/>down he comes into the slough - the path
+<lb/>often runs along the bed of the rivulet for <!-- geog:  -->
+<lb/><measure>sixty or more yards</measure>, as if he who first
+<lb/>cut it out went that distance <del type="strikethrough">along</del> seeking
+<lb/>for a part of the forest less dense for his
+<lb/>axe - In other cases the "<term type="plant"><hi rend="underline">Muale</hi>" palm</term>
+<lb/>from which here as in <placeName><country>Madagascar</country></placeName> grass
+<lb/>cloth is woven and called by the same
+<lb/>name "<hi rend="underline"><foreign xml:lang="mg">Lamba</foreign></hi>", has taken possession
+<lb/>of a valley - the leaf stalks as thick as a
+<lb/>strong man's arm fall off and block up
+<lb/>all passage save by a path made and
+<lb/>mixed up by the feet of <term type="animal">elephants</term> and
+<lb/><term type="animal">buffaloes</term> - the slough therein is groan
+<lb/>compelling and deep - Every now and
+<lb/>then the <term type="occupation">traders</term> with rueful faces stand 
+<lb/>panting = the sweat trickles down my
+<lb/>face and I suppose that I look as grim
+<lb/>as they though I try to cheer them with
+<lb/>the hope that good prices will reward
+<lb/>them as the coast for ivory obtained with
+<lb/>so much toil - In some cases the
+<lb/>subsoil has given way beneath the
+<lb/><term type="animal">elephants</term> enormous weight - the deep hole
+<lb/>is filled with mud, and one taking it
+<lb/>all to be <measure>about calf deep</measure>, steps in to
+<lb/>the top of the thigh, and flaps on to a
+<lb/>seat soft enough but not luxurious
+<lb/>a merry laugh relaxes the facial muscles
+<lb/>though I have no better reason for it
+<lb/>than that it is better to laugh than to cry
+<lb/><note place="marginleft"> <metamark function="newParagraph"/>¶/^</note> Some of the numerous rivers which in
+<lb/>this region flow into <placeName><geogName type="river">Lualaba</geogName></placeName> -
+
+	<pb facs="liv_000019_0547" n="0547"/>
+<lb/><fw n="541"><add place="margintop" rend="gray right" hand="#U">541</add></fw>
+<lb/>are covered with living <term type="plant_foodstuff">vegetable</term> bridges -
+<lb/>a species of dark glossy leaved grass with
+<lb/>its roots and leaves felts itself into a mat
+<lb/>that covers the whole stream = When stepped
+<lb/>upon it yields twelve or fifteen inches and
+<lb/>that amount of water rises up on the leg -
+<lb/>At every step the foot has to be raised high
+<lb/>enough to place it on the unbent mass in
+<lb/>front - This high stepping fatigues like
+<lb/>walking on <seg type="weather">deep snow</seg> - Here and there
+<lb/>holes appear which we could not sound
+<lb/>with a stick six feet long - they gave the
+<lb/>impression that anywhere one might
+<lb/>plump though and finish the chapter -
+<lb/>There the water is shallow the <term type="plant">Lotus</term> or
+<lb/>sacred <term type="plant"><choice><sic>lilly</sic><corr>lily</corr></choice></term> sends its roots to the bottom,
+<lb/>and spreads its broad leaves over the
+<lb/>floating bridge so as to make believe that
+<lb/>the mat is its own, but the grass referred to
+<lb/>is the real felting and supporting agent,
+<lb/>for it often performs duty as bridge where no
+<lb/><term type="plant"><choice><sic>lillies</sic><corr>lilies</corr></choice></term> grow - The bridge is called by the
+<lb/><term type="tribe">Manyema</term> - "<foreign xml:lang="und"><term type="plant">Kintefwetefwe</term></foreign>"<!-- Not sure on this spelling. Or if it should be marked as a plant. EM --> as if he
+<lb/>who first coined it was grasping for
+<lb/>breath after plunging <measure>over a mile</measure> of it</p>
+<lb/><p>Between each district of <term type="tribe">Manyema</term>
+<lb/>large belts of the primeval forest still stand
+<lb/>into these <seg type="weather">the sun though vertical cannot
+<lb/>penetrate except by sending down at
+<lb/>midday thin pencils of rays into the
+<lb/>gloom - The rain water stands for months
+<lb/>in stagnant pools made by the feet of ~
+<lb/><term type="animal">elephants</term></seg> - and the dead leaves decay
+<lb/>on the damp soil and make the water
+<lb/>of the numerous rivulets of the colour
+<lb/>of strong <term type="plant_foodstuff">tea</term> - The <term type="plant">climbing plants</term>
+<lb/>from the size of whip cord to that of a
+<lb/>man of war's hawsers are so numerous
+    
+	<pb facs="liv_000019_0548" n="0548"/>
+<lb/><fw n="542"><add place="margintop" rend="gray left" hand="#U">542</add></fw>
+<lb/>The ancient path is the only passage - When
+<lb/>one of the giant trees falls across the
+<lb/>road, it forms a wall breast high to be
+<lb/>climbed over - and the mass of tangled
+<lb/>ropes brought down makes cutting a
+<lb/>path round it a work of time which
+<lb/><orgName>travellers</orgName> never undertake - the shelter of
+<lb/>the forest from the sun makes it
+<lb/>but the roots of trees high out of the soil
+<lb/>across the path keep the eyes <term type="animal">ox</term>like on
+<lb/>the ground - The trees are so high that
+<lb/>a good shotgun does no harm to
+<lb/><term type="animal">parrots</term> or <term type="animal">guinea fowls</term> on their tops
+<lb/>and they are often so closely planted 
+<lb/>that I have heard <term type="animal"><choice><sic>gorillahs</sic><corr>gorillas</corr></choice></term> here called
+<lb/><foreign xml:lang="und"><term type="animal">Sokos</term></foreign> -<!-- Should this be marked as animal. EM --><!-- Yes :) HB --> growling about <measure>50 yards off</measure>
+<lb/>without getting a glimpse of them -
+<lb/>His nest is a poor contrivance
+<lb/>It exhibits no more <w>arch<add place="below">^</add> <add place="above">it</add>ectural</w> skill
+<lb/>than the nest of our <term type="animal">Cushat dove</term> - <!-- Again, is Cushat a placeName that needs to be tagged? HB -->
+<lb/>Here he sits in <seg type="weather">pelting rain</seg> with his
+<lb/>hands over his head - The <orgName>natives</orgName> give
+<lb/><add place="marginleft"><metamark/></add><foreign xml:lang="und"><term type="animal">Soko</term></foreign> <!-- Still not sure how this should be identified --> a good character and from
+<lb/>what I have seen he deserves it but
+<lb/>they call his nest his house, and
+<lb/>laugh at him for being such a fool as
+<lb/>to build a house and not go beneath it 
+<lb/>for shelter - </p>
+<lb/><p>Bad water and <seg type="weather">frequent wettings</seg>
+<lb/>told on us all by <term type="ailment">choleraic</term> symptoms
+<lb/>and loss of flesh - Meanwhile the news
+<lb/>of cheap ivory caused a sort of <placeName><region><w>Californi<supplied>-</supplied>
+<lb break="no"/>-an</w></region></placeName><!-- Not sure how I should identify this. EM --><!-- identify placeName before word break --> gold fever<!-- Ailment, yes/no? EM --><!-- nope :-) --> at <placeName><settlement type="town">Ujiji</settlement></placeName> and we were
+<lb/>soon overtaken by a herd numbering
+<lb/>600 muskets all eager for the precious
+<lb/>tusks - these had been left by the <term type="tribe"><w>Man<supplied>-</supplied>
+<lb break="no"/><supplied>-</supplied>yema</w></term> in the interminable forests
+
+	<pb facs="liv_000019_0549" n="0549"/>
+<lb/><fw n="543"><add place="margintop" rend="gray right" hand="#U">543</add></fw>
+<lb/>where the animals had been slain - the
+<lb/><orgName>natives</orgName> knew where they lay and if
+<lb/>treated civilly readily brought them many
+<lb/>half <unclear cert="high">rotten</unclear> or gnawed by a certain
+<lb/><term type="animal">Rodent</term> to sharpen his teeth as <placeName><settlement type="city">London</settlement></placeName>
+<lb/><term type="animal">rats</term> do on leaden pipes - I had already in
+<lb/>this journey two severe lessons that
+<lb/>travelling in <seg type="weather">an unhealthy climate in the
+<lb/>rainy season</seg> is killing work - By
+<lb/>getting drenched to the skin once too often
+<lb/>in <placeName><region>Marungu</region></placeName> I had <term type="ailment">pneumonia</term> = the illness
+<lb/>to which I have referred, and that was worse
+<lb/>than ten <term type="ailments">fevers</term> - That is, <term type="ailment">fevers</term> treated by
+<lb/>our medicine, and not by the dirt <w>sup-
+<lb break="no"/>-plied</w> to <persName>Bishop Mackenzie</persName> at the <placeName><region>Cape</region></placeName> as
+<lb/>the same - Besides being unwilling to bear
+<lb/>the <choice><sic>newcomers</sic><corr>newcomers'</corr></choice> company, I feared
+<lb/>that by further exposure in the <seg type="weather">rains</seg>
+<lb/>the weakness might result in something
+<lb/><!-- The words are tucked to the side and difficult to read. EM --><!-- see below for coding this marginleft text insertion, but your reading round curves is spot on! :-) ks --> worse - I went <measure>seven days</measure> South West <add place="marginleft"><metamark function="insertion"/>or a <lb/>little <lb/><w>back<supplied>-</supplied><lb break="no"/><supplied>-</supplied>wards</w></add>
+<lb/>to a camp formed by the <term type="occupation">headmen</term> of
+<lb/>the ivory horde, and on the <date when="1869-02-07"><!-- Maybe double check the year? EM --><!-- I think from double checking between last journals and parliamentry papers its 1869 but i might be wrong, ks -->7<hi rend="sup underline">th</hi> February</date>
+<lb/>went into winter quarters - I found these men
+<lb/>as civil and kind as I could wish - <bibl>A letter
+<lb/>from the <persName>Sultan of <placeName><geogName type="island">Zanzibar</geogName></placeName></persName></bibl> which I owe to
+<lb/>the kind offices of <persName>Sir Bartle Frere</persName> has been
+<lb/>of immense service to me with most of <orgName>his
+<lb/>subjects</orgName> - I had no medicine but rest -
+<lb/>shelter, boiling all the water I used, and a
+<lb/>new <term type="plant_foodstuff">potato</term> farmed among the <orgName>natives</orgName> as
+<lb/>restorative soon put me all right - <seg type="weather">the rains
+<lb/>continued into <date when="1869-07">July</date> and fifty eight inches 
+<lb/>fell</seg> - The mud from the clayey soil of
+<lb/><placeName><region><term type="tribe">Manyema</term></region></placeName><!-- Still not sure if this is tribe/place. EM --><!-- region and tribe, ks --> was awful, and laid up some
+<lb/>of the strongest men in spite of their
+<lb/>intense eagerness for ivory - I lost
+<lb/>no time after it was feasible to travel
+
+	<pb facs="liv_000019_0550" n="0550"/>
+<lb/><fw n="544"><add place="margintop" rend="gray left" hand="#U">544</add></fw>
+<lb/>in preparing to follow the river but my <!-- geog: Lualaba, I think. HB -->
+<lb/>attendants were fed and lodged by the
+<lb/><orgName>slave</orgName> women whose husbands were
+<lb/>away <add place="marginleft"><metamark function="insertion"/>from <lb/>the <lb/>camp</add> on trade and pretended to fear going
+<lb/>into a canoe - I consented to refrain from
+<lb/>buying one - They then pretended to fear <orgName>the
+<lb/>people</orgName> though <orgName>the inhabitants all along
+<lb/>the <placeName><geogName type="river">Lualaba</geogName></placeName></orgName> were reported by the <orgName>slaves</orgName> to
+<lb/>be remarkably friendly - I have heard
+<lb/>both <orgName>slaves</orgName> and <orgName>freemen</orgName> say "No one
+<lb/>will every attack people so good" as they
+<lb/>found them - Elsewhere I could employ
+<lb/>the <orgName>country people</orgName> as <term type="occupation">carriers</term> but was
+<lb/>comparatively independent though deserted
+<lb/>by some four times over - but in
+<lb/><placeName><region><term type="tribe">Manyema</term></region></placeName> no one can be induced to go
+<lb/>into <placeName><region>the next district</region></placeName> for fear they say
+<lb/>of being killed and eaten - I was at the
+<lb/>mercy of those who had been <orgName><orgName>Moslem</orgName>
+<lb/>slaves</orgName> and knew that in thwarting me
+<lb/>they had the sympathy of all that class
+<lb/>in the country, and as many others
+<lb/>would have done took advantage of the
+<lb/>situation - I went on with only three
+<lb/><term type="occupation">attendants</term> - and this time North West
+<lb/>in ignorance that the great river <!-- geog: Nile -->
+<lb/>flowed West and by South - but no one
+<lb/>could tell me anything about it - a
+<lb/>broad belt of <foreign xml:lang="und">Buga</foreign> or Prairie lies
+<lb/>along the right bank - Inland from 
+<lb/>this it is all primeval forest with
+<lb/>villages <measure>from eight to ten miles apart</measure>
+<lb/>one sees the sun only in the cleared
+<lb/>spaces around human dwellings
+<lb/>From the facilities for escaping the
+<lb/><orgName>forest people</orgName> are wilder and more
+<lb/>dangerous than <orgName>those on <foreign xml:lang="und">Buga</foreign> lands</orgName>
+
+	<pb facs="liv_000019_0551" n="0551"/>
+<fw n="545"><add place="margintop" rend="gray right" hand="#U">545</add></fw>
+<lb/><orgName><persName>Muhamad</persName>'s people</orgName> went further on in the
+<lb/>rest than I could, and came to <placeName><region>the <w>mount<supplied>-</supplied>
+<lb break="no"/><supplied>-</supplied>ainous</w> country of the <term type="tribe">Balegga</term></region></placeName> who collected
+<lb/>in large numbers and demanded of the
+<lb/>strangers why they came - "We came to buy
+<lb/>ivory" was the reply, "and if you have
+<lb/>none no harm is done we shall return"
+<lb/>"Nay" they shouted - "you came to die and
+<lb/>this day is your last, you came to die, you
+<lb/>came to die" - When forced to fire on the
+<lb/><term type="tribe">Balegga</term> - the Terror was like their insolence -
+<lb/>extreme - and next day when sent for to
+<lb/>take away the women and children who
+<lb/>were captured, no one appeared - Having
+<lb/>travelled with my <term type="occupation">informants</term> I know
+<lb/>their accounts to be trustworthy - The rivers
+<lb/>crossed by them are numerous and
+<lb/>large - One was so tortuous they were <measure>five
+<lb/>hours</measure> in <measure><measure>water waist</measure> and <measure>often neck
+<lb/>deep</measure></measure> with a man in a small canoe
+<lb/>sounding for places which they could
+<lb/>pass, and could see nothing in the forest
+<lb/>and nothing in the <placeName><region><term type="tribe">Balegga</term> country</region></placeName> but
+<lb/>one mountain packed closely to the back
+<lb/>of another without end, and a very hot
+<lb/>fountain in one of the valleys - I found
+<lb/>continued wading in mud grievous -
+<lb/>For the first time in my life my feet
+<lb/>failed - When torn by hard travel
+<lb/>instead of healing kindly as here to fore
+<lb/><term type="ailment">irritable eating ulcers</term> fastened on each
+<lb/>foot - The people were invariably civil
+<lb/>and even kind for curiously enough
+<lb/>to <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName> <orgName>slaves</orgName></orgName> propagated every
+<lb/>where glowing of my goodness and
+<lb/>of the <term type="people">English</term> generally because
+<lb/>they never made <orgName>slaves</orgName> - A <orgName>trading
+
+	<pb facs="liv_000019_0552" n="0552"/>
+<lb/><fw n="546"><add place="margintop" rend="gray left" hand="#U">546</add></fw>
+<lb/>party</orgName> passed us, and one of their number
+<lb/>was pinned to the ground at dead of night
+<lb/>while I was sleeping with my three -
+<lb/><term type="occupation">attendants</term>  at a village close by - Nine
+<lb/>villages had been burned and as the author
+<lb/>of the outrage told me at least forty men
+<lb/>killed because a <term type="tribe">Manyema</term> man tried
+<lb/>to steal a string of beads -  The midnight
+<lb/>assassination was revenge for the loss 
+<lb/>of friends there - It was evident that
+<lb/>reaction against the bloody <orgName><orgName>Ujijian</orgName>
+<lb/>slaving</orgName> had set in - The accounts
+<lb/>evidently truthful given by <orgName><persName>Muhamad</persName>'s
+<lb/>people</orgName> <choice><orig>shewed</orig><reg>showed</reg></choice> that nothing would be
+<lb/>gained by going further in our present
+<lb/>course, and now being very <term type="ailment">lame</term> I
+<lb/>limped back to <placeName><settlement type="town">Bambarre</settlement></placeName> and here
+<lb/>I was laid up by the <term type="ailment">eating ulcers</term> for
+<lb/>many months - they are common in
+<lb/>the <placeName><region><term type="tribe">Manyema</term> country</region></placeName> and kill many
+<lb/><orgName>slaves</orgName> - If the foot is placed on the
+<lb/>ground blood flows, and every night
+<lb/>a discharge of bloody ichor takes place
+<lb/>with pain that prevents sleep - The
+<lb/>wailings of poor <orgName>slaves</orgName> with <term type="ailment">ulcers</term> that
+<lb/>eat through everything even bone
+<lb/>is one of the night sounds of a <orgName><orgName>slave</orgName>
+<lb/>camp</orgName> - They are probably allied to <term type="ailment">Fever</term></p>
+<lb/><p>I have been minute even to
+<lb/>triviality that <term type="occupation">your Lordship</term> may
+<lb/>have a clear idea of the difficulties of
+<lb/>exploration in this region - satisfactory <!-- geog: Manyema country, I think. HB -->
+<lb/>progress could only be made in canoes
+<lb/>with men accustomed to work - I tried
+<lb/>hard to get others at <placeName><settlement type="town">Ujiji</settlement></placeName>, but all the
+<lb/><term type="occupation">traders</term> were eager to secure all the 
+<lb/><term type="occupation">carriers</term> for themselves, and circulated
+
+	<pb facs="liv_000019_0553" n="0553"/>
+<lb/><fw n="547"><add place="margintop" rend="gray right" hand="#U">547</add></fw>
+<lb/>the report that I would go away from <placeName><region><w>Man-
+<lb/>-yema</w></region></placeName> to my own country and leave <orgName>my people</orgName>
+<lb/>to shift for themselves "like <persName>Speke</persName>"- they
+<lb/>knew perfectly that <orgName><persName>Speke</persName>'s men</orgName> left him
+<lb/>first - It was like the case of certain <term type="tribe">Makololo</term>
+<lb/>who left me on the <placeName><geogName type="river">Shire</geogName></placeName>, and refused to
+<lb/>carry back the medicine to their <term type="occupation">chief</term> for which
+<lb/>they had come = I was afterwards accused by
+<lb/>men <del type="strikethrough">of</del> similar to the <orgName>Ujijians</orgName> of having
+<lb/>abandoned them though I gave them <term type="animal">cattle</term>
+<lb/>even after they deserted me - these being the 
+<lb/>wealth that they value most highly - Failing
+<lb/>to obtain other men <add place="inline"><metamark function="transposition"/><del type="strikethrough"><hi rend="underline">for whom I
+<lb/>had written</hi></del></add> at <placeName><settlement type="town">Ujiji</settlement></placeName> ,<!-- Does this look alright seeing as how he deleted the part that was meant to be moved? EM --><!-- yep, see  transposition :-) --> 
+<lb/>I might have waited in comfort
+<lb/>there till those for whom I had written should
+<lb/>come from <placeName><region>the coast</region></placeName>, and my great <w>weak<supplied>-</supplied>
+<lb break="no"/>ness</w> almost demanded that I should do
+<lb/>so, but I had then as now an intense
+<lb/>desire to finish the work and retire - But
+<lb/>on learning some parts of the history of
+<lb/><del cert="high">of</del> the <term type="occupation"><foreign xml:lang="und">Lewale</foreign></term><!-- Not sure what this is. EM --><!-- am occupation, ks --> or <orgName><orgName>Arab</orgName> <term type="occupation">governor</term></orgName> of
+<lb/><placeName><settlement type="town"><choice><orig>Unyinyembe</orig><corr>Unyanyembe</corr></choice></settlement></placeName> I had grave suspicions
+<lb/>that <bibl>my letters</bibl> would be destroyed = He
+<lb/>conducted the first <orgName><term type="nationality">English</term> Expedition</orgName> <!-- did I identify this correctly? EM --><!-- not quite, ks -->
+<lb/>from <placeName><geogName type="island">Zanzibar</geogName></placeName> to <placeName><settlement type="town">Ujiji</settlement></placeName> and <placeName><settlement type="village">Uvira</settlement></placeName>, and
+<lb/>back again to <placeName><region>the coast</region></placeName> - and was left <w>un<supplied>-</supplied>
+<lb break="no"/>-paid</w> till the <orgName><term type="nationality">Indian</term> Government</orgName> took
+<lb/>the matter up and sent him a thousand
+<lb/>dollars - He seems <add rend="below">^</add> <add rend="above">to be</add> naturally an ill conditioned
+<lb/>mortal = a hater of the <term type="people">English</term> - When I
+<lb/>sent a stock of goods to be placed indepot
+<lb/>at <placeName><settlement type="town">Ujiji</settlement></placeName> to await my arrival - The
+<lb/><orgName><term type="tribe">Banyamwezi</term> <term type="occupation">porters</term></orgName> as usual brought
+<lb/>them honestly to <placeName><settlement type="town"><choice><orig>Unyinyembe</orig><corr>Unyanyembe</corr></choice></settlement></placeName> - The
+<lb/><term type="occupation">governor</term> then gave them in charge
+<lb/>to his <orgName>slave</orgName> <persName>Saloom</persName> who stopped the
+<lb/>caravan ten days in the way hither
+<lb/>while he plundered it, and then went
+<lb/>off to buy ivory for his <orgName><term type="occupation">master</term></orgName> in
+<lb/><placeName><region>Karagwe</region></placeName> = It was evident that he would
+<lb/>do what he could to prevent evidence
+
+	<pb facs="liv_000019_0554" n="0554"/>
+<lb/><fw n="548"><add place="margintop" rend="gray right" hand="#U">548</add></fw>
+<lb/>of the plundering going to <placeName><region>the coast</region></placeName> - and his
+<lb/><term type="occupation">agent</term> at <placeName><settlement type="town">Ujiji</settlement></placeName> who knew all this though
+<lb/>I did not - after I had paid him in full
+<lb/>all he asked to send <bibl>the packet with
+<lb/>about forty letters</bibl>, returned it back to me
+<lb/>with the message that "he did not know
+<lb/>what words <bibl>these letters</bibl> contained = Two
+<lb/>of my friends protested strongly and he
+<lb/>took <bibl>the packet</bibl> - When I learned the
+<lb/>character of the <term type="occupation">governor</term> I lost hope
+<lb/>of <bibl>any letters</bibl> going to <placeName><region>the coast</region></placeName> and took
+<lb/>back <orgName>my deserters</orgName>, making allowance
+<lb/>for their early education and for the
+<lb/>fact that they did well after <persName>Musa</persName> fled
+<lb/>up to the time that a black <orgName>Arab</orgName> who had
+<lb/>long been a prisoner with <foreign xml:lang="und"><term type="occupation">Cazembe</term></foreign> found
+<lb/>us - He encouraged them to desert
+<lb/>and harboured them, and when they
+<lb/>relented on seeing me go off to <placeName><geogName type="lake"><choice><sic>Bañgweolo</sic><corr>Bangweulu</corr></choice></geogName></placeName><!-- Not sure what kind of place this is. EM --> <!--Adrian, are we correcting Bangweolo to this? I thought it was fine as is, so let me know if not and I will go back and revise other sections. HB -->
+<lb/>with only <orgName>four followers</orgName> and proposed
+<lb/>to follow me he dissuaded them by the
+<lb/>gratuitous assertion that there was war
+<lb/>in the country to which I was going <!-- geog: Manyema country, I think. HB -->
+<lb/>and he did many other things which we
+<lb/>think discreditable though he got his
+<lb/>liberty solely by the influence I brought
+<lb/>to <foreign xml:lang="und"><term type="occupation">Cazembe</term></foreign>, yet judged by the <orgName><placeName><region>East
+<lb/>African</region></placeName> Moslem</orgName> standard as he ought
+<lb/>to be and not by ours, he is a very
+<lb/>good man and as I have learned to
+<lb/>keep my own counsel among them,
+<lb/>I never deemed it prudent to come to
+<lb/>a rupture with the old "<foreign xml:lang="sco">Neer do weel</foreign>"-</p>
+<lb/><p>Compelled to inactivity <add place="below">^</add> <add place="above">here</add> for many
+<lb/>months I offered a thousand dollars
+<lb/>to several of the <term type="occupation">traders</term> for the loan of
+<lb/>ten of <orgName>their people</orgName> - This is more than
+<lb/>that number of men ever obtained but
+<lb/>the imaginations were inflamed, and
+
+	<pb facs="liv_000019_0555" n="0555"/>
+<lb/><fw n="549"><add place="margintop" rend="gray right" hand="#U">549</add></fw>
+<lb/>each expected to make a fortune by in ivory
+<lb/>now lying rotting in the forests, and
+<lb/>no one would consent to my propositions
+<lb/>till his goods should be all expended and
+<lb/>no hope of more ivory remained.  I
+<lb/>lived in what may be called the <orgName><placeName><region>Tipperary</region></placeName> of
+<lb/><del>of</del> <term type="tribe">Manyema</term></orgName> and they are certainly a bloody
+<lb/>people among themselves But they are very
+<lb/>far from being in appearance like the ugly
+<lb/><orgName>negroes of <placeName><region>the West Coast</region></placeName></orgName> - Finely formed
+<lb/>heads are common, and generally men &amp;
+<lb/>women are vastly superior to the <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName>
+<lb/><orgName>slaves</orgName></orgName> <add place="above">and elsewhere</add> = We must go deeper than phrenology
+<lb/>to account for their low moral tone -
+<lb/>If they are <orgName>cannibals</orgName> they are not <w>ostentatious<supplied>-</supplied>
+<lb break="no"/>-ly</w> - The <orgName>neighboring tribes</orgName> all assert
+<lb/>that they are <orgName>men eaters</orgName> and they themselves
+<lb/>laughingly admit the change but they like to
+<lb/>impose on the credulous, and they <choice><orig>shewed</orig><reg>showed</reg></choice>
+<lb/>the skull of a recent victim to horrify one
+<lb/>of <orgName>my people</orgName> - I found it to be the skull of
+<lb/>a <choice><orig>gorillah</orig><reg>gorilla</reg></choice> or <foreign xml:lang="und"><term type="animal">Soko</term></foreign> the first I knew of its
+<lb/>existence here and this they do eat - If
+<lb/>I had believed a tenth of what I heard from
+<lb/><term type="occupation">traders</term> I might never have entered the
+<lb/>country - Their people told tales with <!-- geog: Manyema country, I think. HB -->
+<lb/>shocking circumstantiality as if of eye
+<lb/>witnesses that could not be committed
+<lb/>to paper or even spoken about beneath the
+<lb/>breath - Indeed one wishes them to vanish
+<lb/>from memory - But fortunately I was
+<lb/>never frightened in infancy with "Bogie"<!-- 'Ailment'?  Yes/No? EM --><!-- no the Bogie man is a Scottish monster that comes in your sleep, ks -->
+<lb/>and am not liable to attacks of what may
+<lb/>almost be called "Bogiephobia" for
+<lb/>the patient in a paroxysm believes everything
+<lb/>horrible if it be ascribed to the possessor
+<lb/>of a -black skin- I have not yet been
+<lb/>able to make up my mind as to whether
+
+	<pb facs="liv_000019_0556" n="0556"/>
+<lb/><fw n="550"><add place="margintop" rend="gray right" hand="#U">550</add></fw>
+<lb/>the <term type="tribe">Manyema</term> are <orgName>cannibals</orgName> or not - I
+<lb/>have offered goods of sufficient value
+<lb/>to tempt any of them to call me to see
+<lb/>a <orgName>cannibal</orgName> feast in the dark forests
+<lb/>where these orgies are said to be held
+<lb/>but hitherto in vain <add rend="below">^</add> <add rend="above">all</add> the real evidence
+<lb/><add place="marginleft">yet <add place="below">^</add> <lb/>obtained</add> would elicit form a <orgName><term type="nationality">Scotch</term> Jury</orgName> the
+<lb/>verdict <add place="below">^</add> <add place="above">only</add> of "not proven" -</p>
+<lb/><p>Although I have not done half I
+<lb/>hoped to accomplish I trust to <term type="occupation">your
+<lb/>Lordship</term> kind consideration to
+<lb/>award me you approbation
+<lb/>and am your most obedient servant
+<lb/><hi rend="right"><persName>David Livingstone</persName>
+<lb/><term type="occupation"><orgName><choice><abbr>H M</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term>
+<lb/><placeName><region>Inner Africa</region></placeName></hi></p> <!-- Needs a closer tag of some sort. HB -->
+<lb/><space dim="vertical" extent="18" unit="lines"/>
+
+    <!-- ks, mw, em -->
+
+    <pb facs="liv_000019_0557" n="0557"/><!-- I have made a concious choice not to mark up the fountains of Herodotus as they are not real, what do you think? ks --><!-- I came to the same conclusion. MW-->
+<!--This section flip flops between HMS and DL's hands, I have made a not in handNotes, ks -->
+<lb/><fw n="551"><add place="margintop" hand="#U" rend="gray right">551</add></fw>
+<lb/><!-- It sems like this should be tagged with <opener> but I couldn't get the schema to accept it. MW--><p><seg rend="right"><placeName><settlement type="town">Ujiji</settlement></placeName> <date when="1871-11-01">1<hi rend="sup underline">st</hi> November 1871</date></seg>
+<lb/><persName>The right Honourable
+<lb/><seg rend="center">The Earl of Clarendon</seg></persName>
+<lb/><seg rend="right">My Lord -
+<lb/>I became aware</seg>
+<lb/>of <orgName><persName>M<hi rend="sup underline">r</hi> <choice><sic>Youngs</sic><corr>Young's</corr></choice></persName> Search Expedition</orgName> only in <unclear cert="medium"><date when="1870-02">February
+<lb/>last</date></unclear><!-- Not sure, but I'm wondering if this should be February 1871, as he's writing in November 1871. MW--><!-- Not sure, I would think so but defer to Adrian :) HB --> &amp; that by <bibl>a private letter from <persName>Sir Roderick
+<lb/>Murchison</persName></bibl> - Though late in expressing my <w>thankful-
+<lb break="no"/>-ness</w> I am not the less sincere in <w><del type="strikethrough">expressing</del><add place="above"><unclear cert="low">saying</unclear></add></w> <!-- this is very unclear but having checked the parliamentary papers they couldn't tell either,http://gateway.proquest.com/openurl?url_ver=Z39.88-2004&res_dat=xri:hcpp&rft_dat=xri:hcpp:fulltext:1872-048768  --> <subst><del>my</del><add place="over-text">that</add></subst>
+<lb/>I feel extremely obliged to <orgName><choice><abbr>HM</abbr><expan>Her Majesty's</expan></choice> Government</orgName> - to the
+<lb/><orgName>Admiralty</orgName>, to <persName><term type="occupation">Captain</term> Richards</persName> - to <persName>Sir Roderick
+<lb/>Murchison</persName> - to <persName>M<hi rend="sup underline">r</hi> Young</persName> - and all concerned in 
+<lb/>promoting the kind &amp; vigorous enquiry after my
+<lb/>fate - Had the low tone of morality among <orgName><placeName><region>East
+<lb/>African</region></placeName> <orgName>Mohammedans</orgName></orgName> been known - <persName>Musa</persName>'s tale
+<lb/>would have received but little attention - <persName>Musa</persName>
+<lb/>is perhaps a shade better than the average low
+<lb/>class <orgName>Moslem</orgName>, but all are notorious for falsehood
+<lb/>&amp; heartlessness - When on the <placeName><geogName type="river">Shire</geogName></placeName> we were in
+<lb/>the habit of swinging the vessel out into midstream
+<lb/>every evening in order that the air set in motion
+<lb/>by the current of the river might pass through her <!-- geog: Shire -->
+<lb/>entire length the whole night long - One morning
+<lb/><persName>Musa</persName>'s brother inlaw stepped into the water in order
+<lb/>to swim off for a boat to bring his companions
+<lb/>on board, and was seized by a <term type="animal">crocodile</term> - the poor
+<lb/>fellow held up his hand as if imploring assistance in 
+<lb/>vain - On discovering <persName>Musa</persName>'s heartlessness - he replied
+<lb/>"Well" - no one tell him go in there" - At another time
+<lb/>when we were at <placeName><settlement type="village">Senna</settlement></placeName> - a <orgName>slave woman</orgName> was
+<lb/>seized by a <term type="animal">crocodile</term> - four <term type="tribe">Makololo</term> rushed in <w>un-
+<lb break="no"/>bidden</w>, and rescued her though they knew nothing about
+<lb/>her - Long experience leads me to look on these <w>in-
+<lb break="no"/>cidents</w> as typical of the two races - The race for
+<lb/><orgName>mixed blood</orgName> possesses the vices of both parents
+<lb/>and the virtues of neither - I have had <unclear>more</unclear> service
+<lb/>out of low class <orgName>Moslems</orgName> than any one else -
+
+    <pb facs="liv_000019_0558" n="0558"/>
+<lb/><fw n="552"><add place="margintop" hand="#U" rend="gray left">552</add></fw>
+<lb/>the <persName>Baron Von der Deeken</persName> was plundered of all his
+<lb/>goods by this class in an attempt to go to <placeName><geogName type="lake">Nyassa</geogName></placeName> - As
+<lb/>it was evidently done with the connivance of his <orgName><orgName>Arab</orgName>
+<lb/><term type="occupation">guide</term></orgName> - <persName>Syed Majid</persName> ordered him to refund the whole
+<lb/>It was the same class that by means of a few
+<lb/><orgName>Somali</orgName> ultimately compassed the <persName>Baron</persName>'s destruction -
+<lb/>In <orgName><persName>Burton</persName>'s Expedition to <placeName><settlement type="town">Ujiji</settlement></placeName> and <placeName><settlement type="town">Uvira</settlement></placeName></orgName> he was
+<lb/>obliged to dismiss all his <term type="occupation">followers</term><!--It seems DL uses this here in place of porters, so I have marked as an occupation. MW--><!-- Not sure, so defer to Adrian whether term or orgName. HB --> of this class at 
+<lb/><placeName><settlement type="town">Ujiji</settlement></placeName> for dishonesty - Most of <term type="occupation"><persName>Speke</persName>'s followers</term><!-- Again with followers. HB --> deserted
+<lb/>on the first appearance of danger, and <persName>Musa</persName> &amp;
+<lb/><orgName>companions</orgName> fled on hearing a false report from a <orgName><orgName>half
+<lb/>caste</orgName> <orgName>Moslem</orgName></orgName> like themselves that he had been <w>plun-
+<lb break="no"/>dered</w> by <term type="tribe">Mazitu</term> at a spot which from having 
+<lb/>accompanied me thither &amp; beyond it they knew to be 
+<lb/><measure>150 miles</measure> or say <measure>20 days distant</measure> - and I promised
+<lb/>to go due West, and not turn Northward till far
+<lb/>past the beat of the <term type="tribe">Mazitu</term> - But in former journeys
+<lb/>we came through <term type="people">Portuguese</term> who would promptly
+<lb/>have seized <orgName>deserters</orgName> while here at the lower end of 
+<lb/><del type="strikethrough">the</del> <placeName><geogName type="lake">Nyassa</geogName></placeName> we were <w>on<del type="strikethrough">e</del></w> the <placeName><region>Kilwa</region></placeName> <orgName>slave route</orgName> -
+<lb/>When all <orgName>their countrymen</orgName> would fawn on &amp; flatter
+<lb/>them for baffling the <orgName>Nazarenes</orgName>, as they call us <term type="faith">Christians</term>
+<lb/>As soon as I turned my face West they all ran away
+<lb/>&amp; they had no other complaint but "the <term type="tribe">Mazitu</term>" - All
+<lb/>my difficulties in this journey have arisen from
+<lb/>having low class <orgName>Moslems</orgName>, or those who had been
+<lb/>so before they were captured - Even of the better class
+<lb/>few can be trusted - The <term type="occupation">Sultan</term> places all his <w>in-
+<lb break="no"/>come</w> &amp; pecuniary affairs in the hands of <orgName>Banians</orgName>
+<lb/>from <placeName><country>India</country></placeName> - When the gentlemen of <placeName><geogName type="island">Zanzibar</geogName></placeName> are
+<lb/>asked why their <term type="occupation">Sultan</term> entrusts his money to <orgName>Aliens</orgName>
+<lb/>alone, they readily answer it is owing to their own
+<lb/>prevailing faithlessness - Some indeed assent with
+<lb/>a laugh that if their <term type="occupation">Sovereign</term> allowed any of them to
+<lb/>farm his revenue he would <choice><sic>recieve</sic><corr>receive</corr></choice> nothing but a
+<lb/>crop of lies - In their case religion &amp; morality are
+<lb/>completely disjoined - It is therefore not surprising that
+
+    <pb facs="liv_000019_0559" n="0559"/>
+<lb/><fw n="553"><add place="margintop" hand="#U" rend="gray right">553</add></fw>
+<lb/>in all their long intercourse with the tribes on <placeName><region>the
+<lb/>mainland</region></placeName> not one attempt has been made to <w>pro-
+<lb break="no"/>pagate</w> the <term type="faith">Mohammedan faith</term> - I am very far   
+<lb/>from being unwilling to acknowledge &amp; even admire
+<lb/>the zeal of other <orgName>religionists</orgName> than the <term type="faith">Christian</term>, but
+<lb/>repeated enquires among all classes have only
+<lb/>left the conclusion that they have propagated <term type="ailment">syphilis</term>
+<lb/>&amp; the domestic Bug alone - Any one familiar with <!-- Is domestic Bug some kind of ailment or actual bug? HB -->
+<lb/>the secondary symptoms will see at a glance on
+<lb/><placeName><region>the mainland</region></placeName> the <term type="ailment">skin diseases &amp; bleared eyes</term> which
+<lb/>say that unlimited polygamy has been no barrier
+<lb/>to the spread of this foul disease - compared with them <!-- ailment: syphilis -->
+<lb/>the <orgName><term type="nationality">English</term> lower classes</orgName> are gentlemen
+<lb rend="center"/>I am unfeignedly thankful for the
+<lb/>kindness that prompted &amp; carried out the <orgName>Search
+<lb/>Expedition</orgName>, and your Most Obedient Servant <!-- Not sure servant should be tagged here, right? HB -->
+<lb/><seg rend="right"><persName>David Livingstone</persName>
+<lb/><term type="occupation"><orgName><choice><abbr>H - M -</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term>.
+<lb/><placeName><region>Inner <placeName><bloc>Africa</bloc></placeName></region></placeName></seg></p><!-- I can't get the schema to accept <closer> or <signed> here either. MW-->
+<lb/><p><date when="1871-11-15">15<hi rend="sup underline">th</hi> November</date>
+<lb/><!-- Cannot add <postscript> here either. MW--><choice><abbr>P.S.</abbr><expan>Post Script</expan></choice> I have just learned that <persName>Musa</persName> &amp; <orgName>companions</orgName>
+<lb/>after breaking their engagement to serve for twenty
+<lb/>months which was formally entered into before
+<lb/><persName>Sunley</persName> went to that gentleman and after solemnly
+<lb/>assuring him that I had been murdered demanded
+<lb/>pay for all the time they had been absent &amp; <choice><sic>recieved</sic><corr>received</corr></choice>
+<lb/>it! They <choice><sic>recieved</sic><corr>received</corr></choice> from me advance of pay &amp; clothing
+<lb/>amounting to (£40) Forty pounds Sterling = I now <w>trans-
+<lb break="no"/>-mit</w> the particulars to <persName>D<hi rend="sup underline">r</hi> Kirk</persName> the <term type="occupation">Political Agent</term>
+<lb/>&amp; demand that the advance &amp; also the pay should
+<lb/>be refunded for if they are allowed to keep both as
+<lb/>the reward of falsehood the punishment enjoined
+<lb/>to be inflicted by <persName>Lord Stanley</persName> will only be laughed
+<lb/>at
+<lb/><seg rend="right"><persName>David Livingstone</persName></seg></p><!--Should be <signed>. MW-->
+
+    <pb facs="liv_000019_0560" n="0560"/>
+<lb/><p><seg rend="center"><placeName><settlement type="town">Ujiji</settlement></placeName> - <date when="1871-11-01">1<hi rend="sup underline">st</hi> November 1871</date>
+<lb/>The Right Honourable
+<lb/>The <term type="occupation">Earl of Clarendon</term></seg>
+<lb/><note place="marginleft"><choice><abbr>No</abbr><expan>Number 2</expan></choice> <lb/><w>Geograph- <lb break="no"/><hi rend="underline">-ical</hi></w></note> <seg rend="right">My Lord,
+<lb/>I wrote a very hurried <bibl>letter</bibl></seg>
+<lb/>on the <date when="1871-10-28">28<hi rend="sup underline">th</hi> <choice><abbr>Ult</abbr><expan>Ultimo</expan></choice></date> and sent it by a few men who had
+<lb/>resolved to run the risk of passing through contending
+<lb/><orgName>parties of <term type="tribe">Banyamwezi</term> and <orgName><placeName><region>Mainland</region></placeName> Arabs</orgName></orgName> at <placeName><settlement type="town"><w>Um-
+<lb break="no"/>yanyembe</w></settlement></placeName> - Which is some <measure>seventy days East of this</measure>
+<lb/>I had just come off a tramp of more than <measure>400 miles</measure>
+<lb/>beneath a <seg type="weather">vertical torrid sun</seg> &amp; was so jaded in
+<lb/>body &amp; mind by being forced back by faithless
+<lb/>cowardly <term type="occupation">attendants</term> that I should have written
+<lb/><choice><sic>littel</sic><corr>little</corr></choice> more <unclear cert="low">dump</unclear> the <term type="occupation">messengers</term> had not been in
+<lb/>such a hurry to depart as they were - I have
+<lb/>now the prospect of sending them safely to <placeName><region>the Coast</region></placeName>
+<lb/>by a friend but so many of <bibl>my letters</bibl> have <w>disap-
+<lb break="no"/>peared</w> at <placeName><settlement type="town">Unyanyembe</settlement></placeName> when entrusted to the care
+<lb/>of the <foreign xml:lang="und"><term type="occupation">Lewale</term></foreign> or <term type="occupation">Governor</term> who is merely the <term type="occupation">trade
+<lb/>agent</term> of certain <orgName>Banians</orgName> that I shall consider that
+<lb/>of the <date when="1871-10-28">28<hi rend="sup underline">th</hi></date> as one of the unfortunates, and give in
+<lb/>this as much as I can recall -</p>
+<lb rend="center"/><p>I have ascertained that the <placeName><region><w>water-
+<lb break="no"/>shed</w></region></placeName> of the <placeName><geogName type="river">Nile</geogName></placeName> is a broad upland between <measure><measure>10˚ &amp; 12˚ 
+<lb/>South Latitude</measure> &amp; from <measure>4000 to 5000 feet</measure></measure> above the
+<lb/>level of the Sea - Mountains stand on it at various
+<lb/>points which though not apparently very high are
+<lb/>between <measure>6000 &amp; 7000 feet</measure> of actual altitude - The <placeName><region><w>water-
+<lb break="no"/>shed</w></region></placeName> is over <measure>700 miles in length from West to East</measure> -
+<lb/>The springs that arise on it are almost innumerable,
+<lb/>that is, it would take a large part of a man's life to
+<lb/>count them - A <term type="animal">bird</term>'s eye view of some <del type="cancelled">of them</del> parts of
+<lb/>the <placeName><geogName type="watershed">Watershed</geogName></placeName> would resemble the frost vegetation on
+<lb/>window panes - They all begin in an ooze at the
+<lb/>head of a slightly depressed valley - a few <measure>hundred
+<lb/>yards</measure> down the quantity of water from oozing earthen
+<lb/>sponge <w>on<del type="strikethrough">e</del></w> each side of the valley forms a brisk <del type="cancelled"><unclear cert="high"><w>move-
+
+    <pb facs="liv_000019_0561" n="0561"/>
+<lb/><fw n="555"><add place="margintop" hand="#U" rend="gray right">555</add></fw>
+<lb break="no"/>-ment</w></unclear></del> perennial burn or brook <measure><measure>a few feet broad</measure> &amp; <measure>deep
+<lb/>enough to require a bridge</measure></measure> - These are the ultimate or <w>prim-
+<lb break="no"/>-ary</w> <placeName><geogName type="source">sources</geogName></placeName> of the great rivers that flow to the North
+<lb/>in the <placeName><geogName type="valley">Great <placeName><geogName type="river">Nile</geogName></placeName> Valley</geogName></placeName> - The Primaries unite &amp;
+<lb/><choice><sic>forms</sic><corr>form</corr></choice> streams in general larger than the <placeName><geogName type="river">Isis</geogName></placeName> at
+<lb/><placeName><settlement type="town">Oxford</settlement></placeName> or <placeName><geogName type="river">Avon</geogName></placeName> at <placeName><settlement type="town">Hamilton</settlement></placeName>, and may be called <placeName><geogName type="source"><w>se-
+<lb break="no"/>-condary</w> sources</geogName></placeName> - They never dry - but unite again
+<lb/>into four large lines of drainage - the head waters
+<lb/>or mains of the river of <placeName><country>Egypt</country></placeName> - These four are each <!-- geog: Nile --> 
+<lb/>called by the <orgName>natives</orgName> "<placeName><geogName type="river">Lualaba</geogName></placeName>" - which if not
+<lb/>too pedantic may be spoken of as Lacustrine rivers <!-- Lacustrine tagged? I can't remember :) HB -->
+<lb/>- extant specimens of those which in prehistoric
+<lb/>times abounded in <placeName><bloc>Africa</bloc></placeName> &amp; which in <placeName><region>the South</region></placeName>
+<lb/>are still called by <term type="tribe">Bechuana</term> "<foreign xml:lang="und">Melapo</foreign>" in
+<lb/><placeName><region>the North</region></placeName> by <orgName>Arabs</orgName> "<foreign xml:lang="ar">Wady</foreign>" both words meaning the
+<lb/>same thing - river beds in which no water ever
+<lb/>now flows - Two of the four great rivers mentioned
+<lb/>fall into the central <placeName><geogName type="river">Lualaba</geogName></placeName> = or <placeName><geogName type="river"><persName>Webb</persName>'s Lake
+<lb/>River</geogName></placeName> &amp; then we have but two <add place="below">^</add> <add place="above">main</add> lines of drainage
+<lb/>as depicted by <persName>Ptolemy</persName> - <seg type="weather">the prevailing winds on
+<lb/>the <placeName><geogName type="watershed">Watershed</geogName></placeName> are from <placeName><region>the South - East</region></placeName> - this is easily
+<lb/>observed by the direction of the branches and the
+<lb/>humidity of the climate is apparent in the <w>num-
+<lb break="no"/>bers</w> of <term type="plant">Lichens</term> which make the upland forest
+<lb/>look like the <term type="plant">Mangrove</term> swamps on <placeName><region>the coast</region></placeName></seg> - In
+<lb/>passing over <measure>60 miles</measure> of Latitude I waded thirty
+<lb/>two primary sources <measure>from calf to waist deep</measure>, &amp;
+<lb/>requiring from <measure>twenty minutes to an hour and a quarter</measure>
+<lb/>to cross stream &amp; sponge - This would give about one
+<lb/>source to every <measure>two miles</measure> - A <orgName>Swahili</orgName> friend in
+<lb/>passing along part of <placeName><geogName type="lake">Lake Bangweolo</geogName></placeName> during 6
+<lb/>days counted 22 <measure>from thigh to waist deep</measure> - This
+<lb/>Lake is on <placeName><geogName type="watershed">the watershed</geogName></placeName> for the village at which <!--geog: Bangweolo-->
+<lb/>I observed on its <choice><abbr>Nor West</abbr><expan>North West</expan></choice> Shore was <measure>a few seconds
+<lb/>into 11˚ South</measure> &amp; its Southern shores &amp; springs &amp;
+<lb/>rivulets are certainly in <measure>12˚ South</measure> - I tried to cross it
+<lb/>in order to measure the breadth accurately = the
+
+    <pb facs="liv_000019_0562" n="0562"/>
+<lb/><fw n="556"><add place="margintop" hand="#U" rend="gray left">556</add></fw>
+<lb/>first stage to an inhabited island was almost
+<lb/><measure>24 miles</measure> - From the highest point here the tops of
+<lb/>the trees evidently lifted by the mirage could be
+<lb/>seen on the second stage &amp; the third stage - <placeName><region>The
+<lb/>mainland</region></placeName> was said to be as far as this beyond it
+<lb/>But my <term type="occupation">canoe-men</term> had stolen the canoe &amp; got a hint
+<lb/>that the real owners were in pursuit &amp; got into a
+<lb/>flurry to return home "They would come for me in
+<lb/>a few days truly", but I had only my coverlet left to
+<lb/>hire another craft if they should leave me in this
+<lb/>wide expanse of water &amp; being <measure>4000 feet</measure> above the sea
+<lb/>it was very cold so I returned - the length of this lake <!-- geog: Bangweolo -->
+<lb/>is at a very moderate estimate <measure>150 miles</measure> - It gives
+<lb/>forth a large body of water in the <placeName><geogName type="river">Luapula</geogName></placeName>, but
+<lb/>Lakes are in no sense sources for no large river
+<lb/>begins in a Lake, but this and others serve an
+<lb/>important purpose in the phenomena of the <placeName><geogName type="river">Nile</geogName></placeName> -
+<lb/>It is one large lake and unlike the <placeName><geogName type="lake">Okara</geogName></placeName> which
+<lb/>according to <orgName>Swahili</orgName> who travelled long in <orgName>our
+<lb/>Company</orgName> is three or four Lakes run into one
+<lb/>huge <placeName><geogName type="lake"><persName>Victoria</persName> Nyassa</geogName></placeName>, gives out a large river which
+<lb/>on departing out of <placeName><geogName type="lake"><choice><sic>Meoro</sic><corr>Mweru</corr></choice></geogName></placeName> is still larger. These
+<lb/>men had spent many years <placeName><region>East of <placeName><geogName type="lake">Okara</geogName></placeName></region></placeName> &amp; could
+<lb/>scarcely be mistaken in saying that of the three or
+<lb/>four Lakes there only one - the <placeName><geogName type="lake">Okara</geogName></placeName> - gives off its
+<lb/>water to the North - The "<placeName><geogName type="river">White Nile</geogName></placeName>" of <persName>Speke</persName> less by
+<lb/>a full half than the <placeName><geogName type="river">Shire</geogName></placeName> out of <placeName><geogName type="lake">Nyassa</geogName></placeName> for
+<lb/>it is only <measure>80 or 90 yards broad</measure> can scarcely be
+<lb/>named in comparison with the <placeName><geogName type="river">Central</geogName></placeName> or <placeName><geogName type="river"><persName>Webb</persName>'s 
+<lb/>Lualaba</geogName></placeName> of <measure>from 2000 to 6000 yards</measure> in relation
+<lb/>to the phenomena of the <placeName><geogName type="river">Nile</geogName></placeName>. The structure
+<lb/>and economy of <placeName><geogName type="watershed">the watershed</geogName></placeName> answers very much
+<lb/>the same end as the great Lacustrine rivers but <!-- Again, Lacrustine? HB -->
+<lb/>I cannot at present copy <bibl>a lost Despatch</bibl> which
+<lb/>explained that - The mountains on <placeName><geogName type="watershed">the watershed</geogName></placeName>
+<lb/>are probably what <persName>Ptolemy</persName> for reasons now 
+<lb/>unknown called the <placeName><geogName type="mountain">Mountains of the Moon</geogName></placeName> - 
+
+    <pb facs="liv_000019_0563" n="0563"/>
+<lb/><fw n="557"><add place="margintop" hand="#U" rend="gray right">557</add></fw>
+<lb/>From their bases I found that the springs of the <placeName><geogName type="river">Nile</geogName></placeName>
+<lb/>do unquestionably arise - this is just what <persName>Ptolemy</persName>
+<lb/>put down &amp; is true geography - We must accept that
+<lb/>fountains and nobody but <orgName>Philistines</orgName> will reject
+<lb/>the mountains though we cannot conjecture the <!-- geog: Mountains of the Moon -->
+<lb/>reason for the name - <choice><abbr>Mts</abbr><expan>Mountains</expan></choice> <placeName><geogName type="mountain">Kenia</geogName></placeName> &amp; <placeName><geogName type="mountain">Kilimanjaro</geogName></placeName>
+<lb/>are said to be snow-capped but they are so
+<lb/>far from the <placeName><geogName type="source">sources</geogName></placeName> &amp; send no water to any <!-- geog: sources of the Great rivers, I think. HB -->
+<lb/>part of the <placeName><geogName type="river">Nile</geogName></placeName> - They could never have been
+<lb/>meant by the correct <term type="occupation">ancient explorers</term> from
+<lb/>whom <persName>Ptolemy</persName> &amp; his predecessors gleaned their
+<lb/>true geography so different from the trash that
+<lb/>passes current in modern times - Before <del type="strikethrough">the</del>
+<lb/>leaving the subject of <placeName><geogName type="watershed">the watershed</geogName></placeName> I may add that I
+<lb/>know about <measure>600 miles</measure> of it, but am not yet satisfied
+<lb/>for unfortunately the <measure>7<hi rend="sup underline">th</hi> hundred</measure> is the most interesting
+<lb/>of the whole - I have a very strong impression that
+<lb/>in the <measure>last hundred miles</measure> the <placeName><geogName type="fountain">fountains of the <placeName><geogName type="river">Nile</geogName></placeName></geogName></placeName>
+<lb/>mentioned to <persName>Herodotus</persName> by the <term type="occupation">secretary of <persName>Minerva</persName></term>
+<lb/>in the city of <placeName><settlement type="city">Sais</settlement></placeName> do arise, not like all the rest 
+<lb/>from oozing earthen sponges, but from an earthen
+<lb/>mound, and half the crater flows Northward
+<lb/>to <placeName><country>Egypt</country></placeName> -  the half South to <placeName><region>Inner <placeName><country>Ethiopia</country></placeName></region></placeName> -
+<lb/>These fountains at no great distance off become <!-- geog: fountains of the Nile -->
+<lb/>large rivers, though at the mound they are not
+<lb/><measure>ten miles apart</measure> - That is, one fountain rising on
+<lb/>the <choice><abbr>Nor East</abbr><expan>North East</expan></choice> of the mound becomes <placeName><geogName type="river"><persName>Bartle
+<lb/>Frere</persName>'s Lualaba</geogName></placeName>, and it flows into one of the
+<lb/>Lakes proper - <placeName><geogName type="lake">Kamolondo</geogName></placeName> - of the central line
+<lb/>of drainage - <placeName><geogName type="river"><persName>Webb</persName>'s Lualaba</geogName></placeName> - the second
+<lb/>fountain rising on the <choice><abbr>Nor West</abbr><expan>North West</expan></choice> becomes
+<lb/><placeName><geogName type="river"><persName>(Sir Paraffin) Young</persName>'s Lualaba</geogName></placeName>, which passing through
+<lb/><placeName><geogName type="lake">Lake <persName>Lincoln</persName></geogName></placeName> &amp; becoming <placeName><geogName type="river">Loeki</geogName></placeName> or <placeName><geogName type="river">Lomami</geogName></placeName> 
+<lb/>and joining the Central line too goes North to
+<lb/><placeName><country>Egypt</country></placeName> - the third fountain on the South West
+<lb/>- <placeName><geogName type="fountain"><persName>Palmerston</persName>'s</geogName></placeName> - becomes the <placeName><geogName type="river">Liambai</geogName></placeName><!-- spelling of this section of river in parlimentary papers is wrong, ks --> or <placeName><geogName type="river">Upper
+<lb/>Zambezi</geogName></placeName>, while the fourth <placeName><geogName type="fountain"><persName>Oswell</persName>'s fountain</geogName></placeName> becomes
+
+    <pb facs="liv_000019_0564" n="0564"/>
+<lb/><fw n="558"><add place="margintop" hand="#U" rend="gray left">558</add></fw>
+<lb/>the <placeName><geogName type="river">Kafue</geogName></placeName> &amp; falls into <placeName><geogName type="river">Zambezi</geogName></placeName> in <placeName><region>Inner <placeName><country>Ethiopia</country></placeName></region></placeName> -
+<lb/>More time has been spent in <orgName>the Exploration</orgName>
+<lb/>that I ever anticipated - My bare expenses were
+<lb/>paid for two years but had I left when the
+<lb/>money was expended I could have given little 
+<lb/>more information about the country than <!-- geog: Ethiopia, I think. HB -->
+<lb/>the <term type="people">Portuguese</term> who in their <add place="below">^</add> <add place="above">time</add> <orgName><orgName>slave trading</orgName> <w>ex-
+<lb break="no"/>peditions</w></orgName> to <foreign xml:lang="und"><term type="occupation">Cazembe</term></foreign> asked for <orgName>slaves</orgName> &amp; ivory
+<lb/>alone &amp; heard of nothing else - From one of the 
+<lb/>subordinates of <orgName>their last so called expedition</orgName>
+<lb/>I learned that it was believed that the <placeName><geogName type="river">Luapula</geogName></placeName>
+<lb/>went over to <placeName><country>Angola</country></placeName> - !! I asked about the craters
+<lb/>till I was ashamed, and almost afraid of
+<lb/>being set down as afflicted with <term type="ailment">Hydrocephalus</term>
+<lb/>I had to feel my way - and every step of the
+<lb/>way &amp; was generally groping in the dark,
+<lb/>for who cared where the rivers ran - Many a <!-- geog: Great rivers -->
+<lb/>weary foot I trod ere I got a clear idea
+<lb/>of the drainage of the <placeName><geogName type="valley">Great <placeName><geogName type="river">Nile</geogName></placeName> Valley</geogName></placeName> - the
+<lb/>most intelligent <orgName>natives</orgName> &amp; <term type="occupation">traders</term> thought that
+<lb/>all the rivers of the Upper part of that valley <!-- geog: Great Nile Valley -->
+<lb/>flowed into <placeName><geogName type="lake">Tanganyika</geogName></placeName> - But the Barometer
+<lb/>told me that to do so the water must flow
+<lb/>uphill - the great rivers &amp; the great lakes
+<lb/>all make their water converge into the deep
+<lb/>trough of the valley which is <measure>a full inch of
+<lb/>the Barometer lower than the Upper <placeName><geogName type="lake">Tanganyika</geogName></placeName></measure> -
+<lb/>It is only a sense of duty which I trust <term type="occupation">your
+<lb/>Lordship</term>  will approve that makes me <!-- pers: Earl of Clarendon -->
+<lb/>remain and if possible finish the <w>Geograph-
+<lb break="no"/>ical</w> portion of <orgName>my mission</orgName> - After being thwarted
+<lb/>baffled, robbed, worried almost to death in
+<lb/>following the central line of drainage down,
+<lb/>I have a sore longing for home, have had a
+<lb/>perfect surfeit of seeing strange new lands &amp;
+<lb/>people - grand mountains, lovely valleys
+<lb/>the glorious vegetation of primeval forest, 
+
+    <pb facs="liv_000019_0565" n="0565"/>
+<lb/><fw n="559"><add place="margintop" hand="#U" rend="gray right">559</add></fw>
+<lb/>wild beast &amp; an endless succession of beautiful man
+<lb/>besides great rivers &amp; vast lakes - the last and most interesting
+<lb/>from their huge outflowings which explain some of the 
+<lb/>phenomena of the grand old <placeName><geogName type="river">Nile</geogName></placeName> - Let me explain but
+<lb/>in no boastful style the mistakes of others who have
+<lb/>bravely striven to solve the ancient problem, and it will
+<lb/>be seen that I have cogent reasons for following the
+<lb/>painful plodding investigation to its conclusion - Poor
+<lb/><persName>Speke</persName>'s mistake was following a foregone conclusion -
+<lb/>When he discovered the <placeName><geogName type="lake"><persName>Victoria</persName> Nyanza</geogName></placeName> he at once leaped
+<lb/>to the conclusion that therein lay the <placeName><geogName type="source">sources</geogName></placeName> of the 
+<lb/>river of <placeName><country>Egypt</country></placeName> "<measure>20,000 square miles</measure> of water" - confused by <!-- geog: Nile -->
+<lb/>sheer immensity <persName>Ptolemy</persName>'s small lake - "Coloc"<!-- lake or sic/corr Okara or biblio or nothing? ks -->, is a 
+<lb/>more correct representation of the actual size of that
+<lb/>one of three or four lakes which alone sends its
+<lb/>outflow to the North - its name is <placeName><geogName type="lake">Okara</geogName></placeName> - <placeName><geogName type="lake">Lake Kavirondo</geogName></placeName>
+<lb/>is <measure>three days distant</measure> from it but connected by a narrow
+<lb/>arm - <placeName><geogName type="lake">Lake Naibash</geogName></placeName> or <placeName><geogName type="lake">Neibash</geogName></placeName> is <measure>four days</measure> from
+<lb/><placeName><geogName type="lake">Kavirondo</geogName></placeName>, <placeName><geogName type="lake">Baringo</geogName></placeName> is <measure>ten days distant</measure> and discharges
+<lb/>by a river the <placeName><geogName type="river">Ngardabash</geogName></placeName> to the North East - These three
+<lb/>or four lakes which have been described by several
+<lb/>intelligent <orgName>Swahili</orgName> who lived for many years on their
+<lb/>shores were run into one huge <placeName><geogName type="lake"><persName>Victoria</persName> Nyanza</geogName></placeName> -
+<lb/>But no sooner did <persName>Speke</persName> and <persName>Grant</persName> turn their faces
+<lb/>to this lake to prove that it contained the <placeName><geogName type="fountain"><placeName><geogName type="river">Nile</geogName></placeName> fountains</geogName></placeName> <!-- geog: Victoria Nyanza-->
+<lb/>than they turned their backs to the springs of the river <!-- geog: Nile-->
+<lb/>of <placeName><country>Egypt</country></placeName> which are between <measure>400 &amp; 500 miles</measure> <placeName><region>South of
+<lb/>the most southerly portion of the <placeName><geogName type="lake"><persName>Victoria</persName> Lake</geogName></placeName></region></placeName>, every
+<lb/>step of their heroic &amp; really splendid achievement
+<lb/>of following the river down took them further &amp; further <!-- geog: Nile -->
+<lb/>from <placeName><geogName type="source">the sources</geogName></placeName> they sought - But for devotion to the
+<lb/>foregone conclusions the sight of the little "<placeName><geogName type="river">White Nile</geogName></placeName>" as
+<lb/>unable to account for the great river they must have <!-- geog: Nile -->
+<lb/>turned off to the West down into the deep trough of the
+<lb/>Great Valley, and there found Lacustrine rivers amply <!-- geog: Nile Valley? -->
+<lb/>sufficient to account for the <placeName><geogName type="river">Nile</geogName></placeName> and all its phenomena</p>
+<lb rend="right"/><p>The next <term type="occupation">explorer</term> <persName>Baker</persName> believed as
+
+    <pb facs="liv_000019_0566" n="0566"/>
+<lb/><fw n="560"><add place="margintop" hand="#U" rend="gray left">560</add></fw>
+<lb/>honestly as <persName>Speke</persName> &amp; <persName>Grant</persName> that in the Lake lived <persName>Albert</persName>
+<lb/>he had a <placeName><geogName type="source">second source of the <placeName><geogName type="river">Nile</geogName></placeName></geogName></placeName> to that of <persName>Speke</persName> - He
+<lb/>came further up the <placeName><geogName type="river">Nile</geogName></placeName> than any other in modern 
+<lb/>times but turned when between <measure>six and seven hundred
+<lb/>miles short</measure> of the <hi rend="underline"><foreign xml:lang="la">caput Nili</foreign></hi>, he is now employed
+<lb/>in a more noble work than the discovery of <placeName><geogName type="source"><placeName><geogName type="river">Nile</geogName></placeName>
+<lb/>sources</geogName></placeName>, and if as all must earnestly wish he <w>suc-
+<lb break="no"/>ceeds</w> in suppressing the <orgName><placeName><geogName type="river">Nile</geogName></placeName> <orgName>slave trade</orgName></orgName>, the boon
+<lb/>he will bestow on humanity will be of far higher
+<lb/>value than all my sources together - When intelligent
+<lb/>men like these and <persName>Bruce</persName> have been mistaken, I 
+<lb/>have naturally felt anxious that no one should come
+<lb/>after me, and find sources south of mine which I 
+<lb/>now think can only be possible by water running 
+<lb/>up the Southern slope of <placeName><geogName type="watershed">the watershed</geogName></placeName> -</p>
+<lb rend="center"/><p>But all that can in modern times 
+<lb/>and in common modesty be fairly claimed is, the
+<lb/>re-discovery of what had sunk into oblivion, like
+<lb/>the circumnavigation of <placeName><bloc>Africa</bloc></placeName> by the <orgName><term type="nationality">Phoenician</term>
+<lb/><term type="occupation">Admiral</term></orgName> of one of the <term type="occupation">Pharaohs</term> about <date>B. C. 600</date><!-- the correct mark up of BC is <date when="-600"> </date> but the schemas (online and offline versions) won't allow it but it's in the cheatsheet so I know it's TRUE! Any ideas? :-) ks --><!-- Sorry, I couldn't get it to work, either. MW-->
+<lb/>He was not believed because he reported that in passing 
+<lb/>round <placeName><country>Libya</country></placeName> he had the Sun on his right hand - this to
+<lb/>us who have gone round the <placeName><geogName type="cape">Cape</geogName></placeName> from East to West
+<lb/>stamps his tale as genuine - The predecessors of <persName>Ptolemy</persName>
+<lb/>probably gained their information from men who
+<lb/>visited this very region for in the second century of <!-- geog:  -->
+<lb/>our Era he gave what we now find to be genuine
+<lb/>geography - The <placeName><geogName type="spring">Springs of the <placeName><geogName type="river">Nile</geogName></placeName></geogName></placeName> rising in <measure>10˚ - 12˚
+<lb/>South <choice><abbr>Lat</abbr><expan>Latitude</expan></choice></measure>, and their water collecting into two large
+<lb/>Lacustrine rivers, and other facts could have been
+<lb/>learned only from primitive <term type="occupation">travellers</term>, or <term type="occupation">traders</term> - the
+<lb/>true <term type="occupation"><choice><sic>discovers</sic><corr>discoverers</corr></choice></term> of what <term type="occupation">Emperors</term> <term type="occupation">Kings</term>, <term type="occupation">philosophers</term>
+<lb/>all the great minds of antiquity longed to know &amp;
+<lb/>longed in vain</p>
+<lb/><p><seg rend="right">In a letter of <date when="1870-11">November 1870</date>, <add place="marginleft"><metamark function="insertion"/>Now <w>en- <lb/>closed</w></add></seg> I have tried
+<lb/>to give an idea of the difficulties surmounted in
+<lb/>following the central line of drainage down through
+
+    <pb facs="liv_000019_0567" n="0567"/>
+<lb/><fw n="561"><add place="margintop" hand="#U" rend="gray right">561</add></fw>
+<lb/>the country of the <orgName>cannibals</orgName> called <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> or <!-- geog: Manyema country -->
+<lb/><term type="tribe">Manyema</term> - I found it a year afterwards where it was left
+<lb/><bibl>other letters</bibl> had made no further progress to <placeName><region>the coast</region></placeName> -
+<lb/>In fact <placeName><region><term type="tribe">Manyema</term></region></placeName> is an entirely new field, and
+<lb/>nothing like postage exists, nor can letters be sent to
+<lb/><placeName><settlement type="town">Ujiji</settlement></placeName> except by large <orgName>trading parties</orgName> who have spent
+<lb/>two or three years in <placeName><region><term type="tribe">Manyema</term></region></placeName> -</p> 
+<lb rend="center"/><p>The geographical results of four
+<lb/>arduous trips in different directions in the <placeName><region><term type="tribe"><w>Man-
+<lb break="no"/>yema</w></term> country</region></placeName> are briefly as follows - The great river
+<lb/><placeName><geogName type="river"><persName>Webb</persName>'s Lualaba</geogName></placeName> in the centre of the <placeName><geogName type="valley"><placeName><geogName type="river">Nile</geogName></placeName> valley</geogName></placeName> makes
+<lb/>a great bend to the West soon after leaving <placeName><geogName type="lake">Lake
+<lb/>Moero</geogName></placeName> - of at least <measure>180</measure> - then turning to the North
+<lb/>for some distance it makes another large sweep
+<lb/>West - of <measure>about 120 miles</measure> - in the course of which about
+<lb/><measure>30 miles</measure> of Southing are made - It the draws around
+<lb/>to North East - <choice><sic>recieves</sic><corr>receives</corr></choice> the <placeName><geogName type="river">Lomami</geogName></placeName> or <placeName><geogName type="river">Loeki</geogName></placeName> a large 
+<lb/>river which flows through <placeName><geogName type="lake">Lake <persName>Lincoln</persName></geogName></placeName> - After the
+<lb/>union a large lake is formed with many inhabited 
+<lb/>islands in it but this has still to be explored - It is
+<lb/>the fourth large Lake in the central line of drainage
+<lb/>and cannot be <placeName><geogName type="lake">Lake <persName>Albert</persName></geogName></placeName> for assuming <persName>Speke</persName>'s
+<lb/>longitude of <placeName><settlement type="town">Ujiji</settlement></placeName> to be pretty correct, and my <w>reckon-
+<lb break="no"/>ing</w> not enormously wrong, the great central Lacustrine
+<lb/>river is <measure>almost five degrees west</measure> of <placeName><geogName type="lake">Upper &amp; Lower
+<lb/>Tanganyika</geogName></placeName> - The mean of many Barometric and 
+<lb/>boiling point observations made <placeName><geogName type="lake">Upper Tanganyika</geogName></placeName> 
+<lb/><measure>2880 feet high</measure> - Respect for <persName>Speke</persName>'s memory made
+<lb/>me hazard the conjecture that he found it to be 
+<lb/>nearly the same, but from the habit of writing the
+<lb/><foreign xml:lang="la">Annum Domini</foreign>, a mere slip of the pen made him
+<lb/>say <measure>1844 feet</measure>, but I have more confidence in the 
+<lb/>barometers than in the boiling point, and they make
+<lb/><placeName><geogName type="lake">Tanganyika</geogName></placeName> over <measure>3000 feet</measure> - and the lower part of
+<lb/><placeName><geogName type="river">central Lualaba</geogName></placeName> <measure>one inch lower</measure> or about the
+<lb/>altitude ascribed to <placeName><settlement type="village">Gondokoro</settlement></placeName> - Beyond the fourth
+<lb/>lake the water passes it is said into large reedy lakes
+
+    <!-- EM Proofing starts here -->
+
+    <pb facs="liv_000019_0568" n="0568"/>
+<lb/><fw n="562"><add place="margintop" rend="gray left" hand="#U">562</add></fw>
+<lb/>and is in all probability <placeName><geogName type="branch"><persName>Petherick</persName>'s branch</geogName></placeName> - the
+<lb/>main stream of the <placeName><geogName type="river">Nile</geogName></placeName> - in distinction from the
+<lb/>smaller Eastern arm which <persName>Speke</persName>, <persName>Grant</persName>, &amp; <persName>Baker</persName> <!-- geog: Nile -->
+<lb/>took to be <supplied cert="high">the</supplied> river of <placeName><country>Egypt</country></placeName> - The <term type="tribe">Manyema</term> could
+<lb/>give no information about their country because <!-- geog: Manyema country -->
+<lb/>they never travel - Blood feuds often prevent them
+<lb/>from visiting villages <measure>three or four miles off</measure>, and
+<lb/>many at a distance of about <measure>thirty miles</measure> did not
+<lb/>know the great river though named to them - No <term type="occupation">trader</term> <!-- geog: Nile -->
+<lb/>had gone so far as I had, and <orgName>their people</orgName> cared
+<lb/>only for ivory - In my attempts to penetrate further
+<lb/>&amp; further I had but little hope of ultimate success
+<lb/>for a great amount of Westing lead to a continual
+<lb/>effort to suspend the judgement lest after all I
+<lb/>might be exploring the <placeName><geogName type="river">Congo</geogName></placeName> instead of the <placeName><geogName type="river">Nile</geogName></placeName> - 
+<lb/>and it was only after the two great western drains
+<lb/>fell into the Central main, and left but the two <!-- geog: Nile -->
+<lb/>great Lacustrine rivers of <persName>Ptolemy</persName> that I felt pretty
+<lb/>sure of being on the right track - The great bends
+<lb/>west probably form one side of the great rivers above
+<lb/>that geography loop - the other side being <placeName><geogName type="lake">Upper <w>Tan-
+<lb break="no"/>ganyika</w></geogName></placeName>, and the <placeName><geogName type="lake">Lake River <persName>Albert</persName></geogName></placeName> - a waterfall is
+<lb/>reported to exist between <placeName><geogName type="lake">Tanganyika</geogName></placeName> &amp; <placeName><geogName type="lake"><persName>Albert</persName> Nyassa</geogName></placeName>
+<lb/>but I could not go to it - nor have I seen the <w>con-
+<lb break="no"/>necting</w> link between the two - the Upper side of the
+<lb/>loop though I believe it exists -</p>
+<lb rend="center"/><p>The <term type="tribe">Manyema</term> are certainly
+<lb/><orgName>cannibals</orgName> but it was long ere I could get evidence
+<lb/>more positive than would have led a <orgName><term type="nationality">Scotch</term> jury</orgName> to
+<lb/>give a verdict of <hi rend="underline">not proven</hi> - they eat only enemies
+<lb/>killed in war - they seem as if instigated by revenge in
+<lb/>their man eating orgies, and on those occasions
+<lb/>they do not like a stranger to see them - I offered a
+<lb/>large reward in vain to anyone who would call
+<lb/>me to witness a <orgName><app><rdg><choice><sic>cannibals</sic><corr>cannibal's</corr></choice></rdg><rdg><choice><sic>cannibals</sic><corr>cannibals'</corr></choice></rdg></app></orgName> feast - Some intelligent
+<lb/>men have told me that the meat is not nice &amp; made
+<lb/>them dream of the dead - the women never partake, and 
+
+    <pb facs="liv_000019_0569" n="0569"/>
+<lb/><fw n="563"><add place="margintop" rend="gray right" hand="#U">563</add></fw>
+<lb/>I am glad of it for many of them far down <placeName><geogName type="river"><w>Lual-
+<lb break="no"/>aba</w></geogName></placeName> are very pretty - they bathe three or four times
+<lb/>a day &amp; are expert <term type="occupation">divers</term> for <term type="animal">oysters</term> - Markets are
+<lb/>held at stated times &amp; the women attend them in
+<lb/>large numbers dressed in their best - They are light
+<lb/>coloured, have straight noses, fully formed heads,
+<lb/>small hands &amp; feet &amp; perfect forms - They are keen
+<lb/><term type="occupation">traders</term> and look on the market as a great <w>ins-
+<lb break="no"/>titution</w> - to haggle &amp; joke &amp; laugh, and cheat seems
+<lb/>the enjoyment of life - The population especially
+<lb/><placeName><region>west of the river</region></placeName> is prodigiously large - Near <!-- geog: Lualaba -->
+<lb/><placeName><geogName type="river">Lomami</geogName></placeName> the <term type="tribe">Bakuss</term> or <term type="tribe">Bakoons</term> cultivate
+<lb/><term type="plant_foodstuff">coffee</term> and drink it highly scented with <term type="plant_foodstuff">vanilla</term> -
+<lb/>Food of all kinds extremely abundant &amp; cheap -
+<lb/>The men smelt iron from the black oxide ore
+<lb/>and are very good <term type="occupation">Smiths</term> - they also smelt copper
+<lb/>from the ore, and make large ornaments very
+<lb/>cheaply - they are generally fine <add place="below">^</add> <add place="above">tall</add> strapping fellows
+<lb/>far superior to the <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName> <orgName>slaves</orgName></orgName> and nothing
+<lb/>of the <orgName><region>West Coast</region> negro</orgName> from whom our ideas
+<lb/>of <orgName>Africans</orgName> are chiefly derived appears among
+<lb/>them - No prognathous jaws - barn door mouths
+<lb/>nor lark heels are seen - their defects arise from
+<lb/>absolute ignorance of all the world beside - Strangers
+<lb/>never appeared among them before - the terror that
+<lb/>guns inspire generally among the <term type="tribe">Manyema</term>
+<lb/>seems to arise among the <term type="tribe">Bakuss</term> from an
+<lb/>idea that they are supernatural - the effect
+<lb/>of gunshot on a <term type="animal">goat</term> was shown in order to
+<lb/>convince them that the <term type="occupation">traders</term> had power -
+<lb/>&amp; that the instruments they carried were not
+<lb/>as they imagined the mere insignia of <term type="occupation"><w>chief-
+<lb break="no"/>tainship</w></term> - they looked up to the skies and offered
+<lb/>to bring ivory to purchase the charm by which
+<lb/><seg type="weather">lightning</seg> was drawn down - &amp; afterwards when
+<lb/>the <term type="occupation">traders</term> tried to <unclear cert="high">force</unclear> a passage which was
+<lb/>refused they darted aside on seeing <orgName><persName>Banyamwezi</persName>'s
+
+    <pb facs="liv_000019_0570" n="0570"/>
+<lb/><fw n="564"><add place="margintop" rend="gray left" hand="#U">564</add></fw> <!-- Adrian, not sure how to code the change in hands properly, so took a stab at it - feel free to correct. HB -->
+<lb/>followers</orgName> place the arrows in the bowstraps, but
+<lb/>stood in mute amazement while the guns mowed
+<lb/>them down in great numbers - They use long spears
+<lb/>in the thick vegetation of their country with great <!-- geog:  -->
+<lb/>dexterity &amp; they have told me frankly what was
+<lb/>self-evident that but for the firearms not one
+<lb/>of the <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName> <orgName>slaves</orgName></orgName> or <orgName>half-castes</orgName> would
+<lb/>ever leave their country - There is not a single <!-- geog:  -->
+<lb/>great <term type="occupation">chief</term> in all <placeName><region><term type="tribe">Manyema</term></region></placeName> - No matter what
+<lb/>name the different divisions of people bear -
+<lb/><term type="tribe">Manyema</term>, <term type="tribe">Balegga</term>, <term type="tribe">Babire</term> - <term type="tribe">Bazire</term>, <term type="tribe">Bakoos</term>
+<lb/>there is no political cohesion - not one <term type="occupation">King</term>
+<lb/>or <orgName>Kingdom</orgName> - Each <term type="occupation">headman</term> is independent
+<lb/>of every other - the people are industrious and
+<lb/>most of them cultivate the soil largely - We found
+<lb/>them everywhere very honest - When detained
+<lb/>at <placeName><settlement type="town">Bambarre</settlement></placeName> we had to send our <term type="animal">goats</term> &amp; <term type="animal">fowls</term>
+<lb/>to the <placeName><settlement type="village"><term type="tribe">Manyema</term> villages</settlement></placeName> to prevent them being
+<lb/>all stolen by the <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName> <orgName>slaves</orgName></orgName> - The <orgName>Slave owners</orgName>
+<lb/>had to do the same - <term type="tribe">Manyema</term> land is the only <!-- Adrian, DL's hand begins on this line with Manyema, but I cannot get it to tag properly...can you pls assist? HB -->
+<lb/>country in <placeName><region>central <placeName><bloc>Africa</bloc></placeName></region></placeName> I have seen where
+<lb/><term type="plant">cotton</term> is not cultivated - spun and woven -
+<lb/>the clothing is that known in <placeName><geogName type="island">Madagascar</geogName></placeName>
+<lb/>as "<hi rend="underline"><foreign xml:lang="mg">Lambas</foreign></hi>" or grass cloth made from the 
+<lb/>leaves of the "<hi rend="underline"><term type="plant">Muale</term></hi> palm - They call the
+<lb/>good spirit above "<foreign xml:lang="und">Ngulu</foreign>" or the great
+<lb/>one - and the spirit of evil who resides in
+<lb/>the deep <foreign xml:lang="und">Mulambu</foreign> - A hot fountain
+<lb/>near <placeName><settlement type="village">Bambarre</settlement></placeName> is supposed to belong
+<lb/>to this being - the <term type="occupation">author</term> of death by drowning <!-- Not sure author should be tagged due to the context? HB -->
+<lb/>and other misfortunes</p>
+<lb/><p rend="center"><term type="occupation">Your Lordship</term>'s Obedient <!-- Adrian I cannot get the closer or signed tag to work here.. thoughts? HB -->
+<lb/>and humble servant
+<lb/><persName>David Livingstone</persName>
+<lb/><term type="occupation"><orgName><choice><abbr>H - M -</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term>. <placeName><region>Inner Africa</region></placeName></p>
+<lb/><p>A true copy
+<lb/>by <persName><choice><abbr>H M</abbr><expan>Henry Morton</expan></choice> Stanley</persName> &amp;
+<lb/><persName>David Livingstone</persName> <add place="marginright" hand="#HS">(a true copy
+<lb/><persName><hi rend="underline">Henry <choice><abbr>M</abbr><expan>Morton</expan></choice> Stanley</hi></persName></add></p>
+
+    <pb facs="liv_000019_0571" n="0571"/>
+<lb/><fw n="565"><add place="margintop" rend="gray right" hand="#U">565</add></fw>
+<lb/><p><seg rend="right"><placeName><settlement type="town">Ujiji</settlement></placeName> <date when="1871-11-14">14 <choice><abbr>Nov<hi rend="sup"/>r</abbr><expan>November</expan></choice> 1871</date></seg>
+<lb/>The Right Honourable
+<lb/><seg rend="right"><persName>Earl Granville</persName>
+<lb/><note place="marginleft"><hi rend="double-underline"><choice><abbr>No</abbr><expan>Number</expan></choice> 3.</hi></note> My Lord</seg>
+<lb rend="right"/>In <bibl>my letter
+<lb/>dated <placeName><settlement type="village">Bambarre</settlement></placeName> - <date when="1870-11">November 1870</date></bibl> now
+<lb/>enclosed I stated my suspicions that a 
+<lb/><bibl>packet of about forty letters</bibl> - <bibl>Despatches</bibl> -
+<lb/><bibl>copies of all Astronomical Observations
+<lb/>from <placeName><region>the Coast</region></placeName> onwards</bibl>, and <bibl>sketch maps
+<lb/>on tracing paper</bibl> intended to convey a
+<lb/>clear idea of <subst><del>the</del><add place="over-text">all</add></subst> the discoveries up to the
+<lb/>time of arrival at <placeName><settlement type="town">Ujiji</settlement></placeName> would be destroyed -
+<lb/>It was delivered to the <term type="occupation">agent</term> of the <term type="occupation">governor
+<lb/>of <placeName><settlement type="town">Unyanyembe</settlement></placeName></term> and I paid him in full
+<lb/>all he demanded to transit it to <persName>Syde bin
+<lb/>Salem Buraschid</persName>, the so called <term type="occupation">governor</term>
+<lb/>who is merely a <term type="occupation">trade agent</term> of certain <orgName>Banians</orgName>
+<lb/>of <placeName><geogName type="island">Zanzibar</geogName></placeName> and a person who is reputed
+<lb/>dishonest by all - As an <term type="occupation">agent</term> he pilfers
+<lb/>from his employers, be they <orgName>Banians</orgName> or
+<lb/><orgName>Arabs</orgName> - As a <term type="occupation">governor</term> expected to 
+<lb/>exercise the office of a <term type="occupation">magistrate</term> he
+<lb/>dispenses justice to him who pays most -
+<lb/>and as the subject of a <term type="occupation">Sultan</term> who entrusted
+<lb/>him because he had no power on <placeName><region>the
+<lb/>mainland</region></placeName> to supersede him he robs his
+<lb/>superior shamelessly - No <orgName>Arab</orgName> or <orgName>native</orgName>
+<lb/>ever utters a good word for him but all
+<lb/>detest him for his injustice - <bibl>the following
+<lb/>narrative</bibl> requires it to be known that
+<lb/>his brother <persName>Ali bin Salem Buraschid</persName> is
+<lb/>equally notorious for unblushing <w>dis-
+<lb break="no"/>honesty</w> - All <orgName>Arabs</orgName> and <orgName>Europeans</orgName> who
+<lb/>have had dealings with either speak in
+<lb/>unmeasured terms of their fraud &amp; duplicity</p>
+
+    <pb facs="liv_000019_0572" n="0572"/>
+<lb/><fw n="566"><add place="margintop" rend="gray left" hand="#U">566</add></fw>
+<lb/><p rend="no-indent">The brothers are employed in the trade chiefly
+<lb/>by <persName>Ludha Damji</persName> the richest <orgName>Banian</orgName> in
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName> - It is well known that the <orgName>slave
+<lb/>trade</orgName> in this country is carried on almost <!-- geog:  -->
+<lb/>entirely with his money - and that of other
+<lb/><orgName><orgName>Banian</orgName> <term type="nationality">British</term> subjects</orgName> - The <orgName>Banian</orgName> 
+<lb/>advance the goods required and the <orgName>Arabs</orgName>
+<lb/>proceed inland as their <term type="occupation">agents</term> = <w>per<supplied>-</supplied>
+<lb break="no"/>form</w> the trading - or rather murdering -
+<lb/>and when <orgName>slaves</orgName> and ivory are brought
+<lb/>to <placeName><region>the coast</region></placeName>, the <orgName>Arabs</orgName> sell the <orgName>slaves</orgName> - The
+<lb/><orgName>Banian</orgName> pocket the price and adroitly
+<lb/>let the odium rest on their <term type="occupation">agents</term> - As
+<lb/>a rule no travelling <orgName>Arab</orgName> has money
+<lb/>sufficient to undertake an island journey
+<lb/>those who have become rich imitate the
+<lb/><orgName>Banian</orgName> and send their <orgName>indigent <w>country-
+<lb break="no"/>-men</w></orgName> and <orgName>slaves</orgName> to trade for them - The
+<lb/><orgName>Banian</orgName> could scarcely carry on their
+<lb/>system of trade were they not in possession
+<lb/>of <orgName>the custom House</orgName> - and had power
+<lb/>to seize all the goods that pass through
+<lb/>it to pay themselves for debts - The so called
+<lb/><term type="occupation">governors</term> are appointed on their <w>recom-
+<lb break="no"/>-mendation</w> and become mere <term type="occupation">trade agents</term>
+<lb/>When the <orgName>Arabs</orgName> in the Interior are assaulted
+<lb/>by the <orgName>natives</orgName> they never unite under
+<lb/>a <term type="occupation">governor</term> as a leader for they know
+<lb/>that defending them or concerting means for
+<lb/>their safety is no part of his duty - The <orgName>Arabs</orgName>
+<lb/>are nearly all in debt to the <orgName>Banian</orgName> and the
+<lb/><orgName>Banian</orgName> <orgName>slaves</orgName> are employed in ferreting
+<lb/>out every trade transaction of debtors, and
+<lb/>when watched by <unclear cert="medium">governess</unclear> <orgName>slaves</orgName> - and
+<lb/><term type="occupation"><orgName>custom house</orgName> officers</term>, it is scarcely
+<lb/>possible for even this cunning deceitful
+<lb/>race to escape being fleeced - To avoid
+    
+	<pb facs="liv_000019_0573" n="0573"/>
+<lb/><fw n="567"><add place="margintop" rend="gray right" hand="#U">567</add></fw>
+<lb/>this, many surrender all the ivory to their 
+<lb/><orgName><orgName>Banian</orgName> <term type="occupation">creditors</term></orgName> and are allowed to
+<lb/>keep or sell the <orgName>slaves</orgName> as their share of
+<lb/>the profits - It will readily be <choice><sic>percieved</sic><corr>perceived</corr></choice>
+<lb/>that the prospect of in any way coming
+<lb/>under the power of <orgName><orgName>Banian</orgName> <term type="nationality">British</term> 
+<lb/>subjects</orgName> at <placeName><geogName type="island">Zanzibar</geogName></placeName> is very far from
+<lb/>reassuring -</p>
+<lb/><p><bibl>The packet</bibl> above referred to was never
+<lb/>more heard of but a man called <persName>Musa
+<lb/>Kamaals</persName> had been employed to drive some
+<lb/><term type="animals">buffaloes</term> for me from <placeName><region>the Coast</region></placeName>, and on 
+<lb/>leaving <placeName><settlement type="town">Ujiji</settlement></placeName> the same day <bibl>the packet</bibl> was
+<lb/>delivered for transmission I gave him a 
+<lb/><bibl>short letter dated <date when="1869-05">May 1869</date></bibl> which he concealed
+<lb/>on his person - knowing that on its production
+<lb/>his wages depended - He had been a spectator
+<lb/>of the plundering of my goods by the <term type="occupation">governor</term>'s
+<lb/><orgName>slave saloon</orgName> - and <choice><sic>recieved</sic><corr>received</corr></choice> a share to hold
+<lb/>his pace - He was detained for months at
+<lb/><placeName><settlement type="town">Unyanyembe</settlement></placeName> by the <term type="occupation">governor</term> and even sent
+<lb/>back to <placeName><settlement type="town">Ujiji</settlement></placeName> on his private business <add place="below">^</add> <add place="above">he</add> being
+<lb/>ignorant all the while that <persName>Kamaals</persName> possessed 
+<lb/><bibl>the secreted letter</bibl> - It was <bibl>the only document of
+<lb/>more than forty</bibl> that reached <placeName><geogName type="island">Zanzibar</geogName></placeName> - It
+<lb/>made known in some measure my wants
+<lb/>but my cheques <metamark function="transposition"/>on <placeName><settlement type="city">Bombay</settlement></placeName> for money were
+<lb/>in <bibl>the lost packet</bibl> and <persName>Ludha</persName> the rich
+<lb/><orgName>Banian</orgName> was employed to furnish on credit
+<lb/>all the goods and advances of pay for the
+<lb/>men required in <orgName>the expedition</orgName> - <persName>Ludha</persName> is
+<lb/>perhaps the best of all the <orgName>Banians</orgName> of
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName> but he applied to <persName>Ali bin Salem</persName>
+<lb/>the brother of his <term type="occupation">agent</term> the <term type="occupation">governor</term> to
+<lb/>furnish two <term type="occupation">headmen</term> to conduct the goods
+<lb/>and men to <placeName><settlement type="town">Ujiji</settlement></placeName> and beyond it wherever
+<lb/>I might there be reported to be - He <w>recom-
+<lb break="no"/>-mended</w> <persName>Shereef Bosher</persName> and <persName>Awathe</persName> as
+
+    <pb facs="liv_000019_0574" n="0574"/>
+<lb/><fw n="568"><add place="margintop" rend="gray left" hand="#U">568</add></fw> 
+<lb/>first and second <term type="occupation">conductors</term> of the caravan
+<lb/><persName>Shereef</persName> - The <term type="occupation">governor</term> and the <term type="occupation">governor</term>'s brother
+<lb/>being "<term type="animal">birds</term> of one feather" - the consequences
+<lb/>might have been foretold - No sooner did
+<lb/><persName>Shereef</persName> obtain command than he went to 
+<lb/>one <persName>Muhamad Nassur</persName> a <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName> born
+<lb/><orgName>Banian</orgName> or <term type="faith"><choice><orig>Hindoo</orig><reg>Hindu</reg></choice></term></orgName> - and he advanced twenty
+<lb/>five boxes of soaps and eight cases of 
+<lb/><term type="foodstuff">brandy</term> for trade - he then went to <placeName><settlement type="village"><choice><orig><w>Baga<supplied>-</supplied>
+<lb break="no"/>-moio</w></orig><reg>Bagawayo</reg></choice></settlement></placeName> on <placeName><region>the mainland</region></placeName> and <choice><sic>recieved</sic><corr>received</corr></choice>
+<lb/>from two <orgName>Banians</orgName> there whose names
+<lb/>are to me unknown quantities of <term type="medicament">opium</term>
+<lb/>and gunpowder which with the soap and
+<lb/><term type="foodstuff">brandy</term> were to <supplied cert="high">be</supplied> retailed by <persName>Shereef</persName> in the
+<lb/>journey - In the <placeName><settlement type="village"><choice><orig>Bagamoio</orig><reg>Bagawayo</reg></choice></settlement></placeName> <orgName>Banians</orgName>
+<lb/>house <persName>Shereef</persName> broke the soap boxes and
+<lb/>stored the contents and the <term type="medicament">opium</term> in my
+<lb/>bales of calico in order that the <foreign xml:lang="und"><term type="occupation">Pagazi</term></foreign>
+<lb/>paid by me should carry them - Other
+<lb/><foreign xml:lang="und"><term type="occupation">Pagazi</term></foreign> were employed to carry the cases
+<lb/>of <term type="foodstuff">brandy</term> and kegs of gunpowder and
+<lb/>paid with my cloth - hence forth all the
+<lb/>expenses of the journey were defrayed
+<lb/>out of my property, and while retailing
+<lb/>the barter <choice><sic>the barter goods</sic><corr/></choice> of his <w>accom-
+<lb break="no"/>-plices</w> he was in no hurry to relieve my
+<lb/>wants but spent fourteen months between
+<lb/><placeName><region>the coast</region></placeName> and <placeName><settlement type="town">Ujiji</settlement></placeName> a distance which
+<lb/>could easily have been accomplished
+<lb/>in <measure>three</measure> - Making every allowance for <!-- measure: months -->
+<lb/>detention by sickness in <orgName>the party</orgName> and
+<lb/>by sending back for men to replace the
+<lb/>first <foreign xml:lang="und"><term type="occupation">Pagazi</term></foreign> who perished by <term type="ailment">Cholera</term>
+<lb/>the delays were quite shameless - Two
+<lb/>months at one spot - Two months at
+<lb/>another place - and two at <choice><sic>at</sic><corr/></choice> a third
+<lb/>without reason except desire to profitably
+
+    <pb facs="liv_000019_0575" n="0575"/>
+<lb/><fw n="569"><add place="margintop" rend="gray right" hand="#U">569</add></fw>
+<lb/>retail his <term type="foodstuff">brandy</term> &amp;c - which some simple
+<lb/>people think <orgName>Moslems</orgName> never drink, but he
+<lb/>was able to send back from <placeName><settlement type="town">Unyamyembe</settlement></placeName>
+<lb/>over (£60), Sixty Pounds worth of ivory - The
+<lb/><foreign xml:lang="und"><term type="occupation">Pagazi</term></foreign> again paid from my stores - He ran
+<lb/>riot with the supplies all the way purchasing
+<lb/>the most expensive food for himself - his <orgName>slaves</orgName>
+<lb/>- his woman the country afforded - When he
+<lb/>reached <placeName><settlement type="town">Ujiji</settlement></placeName> the retail trade for the <orgName>Banians</orgName>
+<lb/>and himself was finished and in defiance of
+<lb/>his engagement to follow wherever I led =
+<lb/>and men from a camp <measure>eight days beyond</measure>
+<lb/><placeName><settlement type="town">Bambarre</settlement></placeName> went to <placeName><settlement type="town">Ujiji</settlement></placeName> and reported to him
+<lb/>that I was near and waiting for him - he refused
+<lb/>their invitation to return with them - the <orgName>Banians</orgName>
+<lb/>who advanced their goods for retail by <persName>Shereef</persName>
+<lb/>had in fact taken advantage of the notorious
+<lb/><orgName><placeName><region>East <placeName><bloc>Africa</bloc></placeName></region></placeName> Moslem</orgName> duplicity to interpose
+<lb/>their own trade speculation between two <term type="occupation"><orgName><choice><abbr>Gover<hi rend="sup underline">t</hi></abbr><expan>Government</expan></choice></orgName>
+<lb/>officers</term> and almost within the shadow of the 
+<lb/><orgName>consulate</orgName> supplant <persName>D<hi rend="sup">r</hi> Kirk</persName>'s attempt to aid
+<lb/>me by a fraudulent conversion of the help
+<lb/><orgName>expedition</orgName> to the gratification of their own
+<lb/>greed - <persName>Shereef</persName> was their ready tool and
+<lb/>he acted as if he had forgotten having ever
+<lb/>been employed by anyone else - Here the
+<lb/>drunken <orgName><orgName>half caste Moslem</orgName> <term type="occupation">tailor</term></orgName> lay <choice><sic>intoxi-</sic><corr>intoxicated</corr></choice>
+<lb/>at times for a whole month - the drink -
+<lb/><term type="foodstuff">Palmtoddy</term> and <term type="foodstuff">Pombe</term> - all bought with
+<lb/>my beads of course - <persName>Awathe</persName> the other 
+<lb/><term type="occupation">headman</term> had been a spectator of all
+<lb/>the robbery from <placeName><region>the Coast</region></placeName> onwards - and
+<lb/>never opened his mouth in remonstrance
+<lb/>or in sending notice to <term type="occupation">the Consul</term> - he
+<lb/>had carefully concealed an infirmity
+<lb/>when engaged which rendered him
+
+    <!-- hb transcription (were missing) -->
+
+	<pb facs="liv_000019_0576" n="0576"/>
+<lb/><fw n="570"><add place="margintop" rend="gray left" hand="#U">570</add></fw>
+<lb/>quite incapable of performing a single duty
+<lb/>for me and he now asserts like the <orgName><placeName><geogName type="island">Johanna</geogName></placeName>
+<lb/>deserters</orgName> that he ought to be paid all his wages
+<lb/>in full! I shall narrate below how seven of
+<lb/>the <orgName><orgName>Banian</orgName> <orgName>slaves</orgName></orgName> brought by <persName>SHereef</persName> and <persName>Awathe</persName>
+<lb/>imitated their <term type="occupation">leaders</term> and refused
+<lb/>to go forward and ultimately by falsehood
+<lb/>and cowardice forced me to return between
+<lb/><measure>400 and 500 miles</measure> - but here I may mention
+<lb/>how <persName>Shereef</persName> finished up his services -
+<lb/>He wrote to his friend the <term type="occupation">governor of <placeName><settlement type="town"><w>Unyan<supplied>-</supplied>
+<lb break="no"/>yembe</w></settlement></placeName></term> for permission to sell the <unclear cert="low">debris</unclear> of
+<lb/>my goods because "said he"! I sent <orgName>slaves</orgName>
+<lb/>to <choice><sic>to</sic><corr/></choice> <placeName><region><term type="tribe">Manyema</term></region></placeName> to search for the <term type="occupation">Doctor</term> and
+<lb/>they returned and reported that he was dead"
+<lb/>He also divined on the <bibl>Koran</bibl> and it told the
+<lb/>same tale - It is scarcely necessary to add
+<lb/>that he never sent <orgName>slaves</orgName> to <placeName><region><term type="tribe">Manyema</term></region></placeName>
+<lb/>in search of me and from the people above
+<lb/>mentioned that returned from a camp
+<lb/>in front of <placeName><settlement type="town">Bambarre</settlement></placeName> he learned that
+<lb/>I was alive and well - so on his own authority
+<lb/>and that of the <bibl>Koran</bibl> he sold off all the
+<lb/>remaining goods at merely nominal
+<lb/>prices to his friends for <orgName>slaves</orgName> and ivory
+<lb/>for himself - and I lately returned to find
+<lb/>myself destitute of everything except a very
+<lb/>few articles of barter which I took the
+<lb/>precaution to leave here in case of extreme
+<lb/>need.</p>
+<lb/><p>I have stated the case <metamark/><!-- There is a line to the left margin with an included note. HB --><add place="marginleft"><unclear cert="high">enclosure</unclear> <lb/>marked <lb/>complaint</add> to <persName>D<hi rend="sup underline">r</hi> Kirk</persName> acting
+<lb/><term type="occupation">Political agent</term> and <term type="occupation">consul</term> at <placeName><geogName type="island">Zanzibar</geogName></placeName>
+<lb/>andclaim as simple justice that the
+<lb/><orgName>Banians</orgName> who are rich <orgName><term type="nationality">English</term> subjects</orgName>
+<lb/>should for stepping in between me and
+<lb/>the supplies sent be compelled to refund
+<lb/>the entire expenses of the frustrated <orgName>Expedition</orgName>
+<lb/>and all the high interest there on - 20 or 25
+<lb/>per cent - set down against me in <choice><sic><persName>Ludhas</persName></sic><corr><persName>Ludha</persName>'s</corr></choice> books
+
+	<pb facs="liv_000019_0577" n="0577"/>
+<lb/><fw n="571"><add place="margintop" rend="gray right" hand="#U">571</add></fw>
+<lb/>if not also the wages of any people and
+<lb/>personal expenses for two years the time
+<lb/>during which by then <choice><sic>surreptititious</sic><corr>surreptitious</corr></choice> <term type="occupation">agent</term>
+<lb/><persName>Shereef</persName> my servants and self were prevented
+<lb/>from executing our regular duty - the late
+<lb/><term type="occupation">Sultan <persName>Seyed Majid</persName></term> compelled the <orgName>Arab</orgName> who
+<lb/>connived at the plunder of all the <persName>Baron Van
+<lb/>der Decken</persName>'s goods in a vain attempt to
+<lb/>reach <placeName><geogName type="lake">Lake Nyassa</geogName></placeName> to refund the whole - It is
+<lb/><choice><sic>inconcievable</sic><corr>inconceivable</corr></choice> that the <foreign xml:lang="und"><term type="occupation">Dragoman</term></foreign> and other
+<lb/><term type="occupation">paid servants</term> of the <term type="occupation">consulate</term>were ignorant of
+<lb/>the fraud practised by the <orgName>Banians</orgName> on <persName>D<hi>r</hi> Kirk</persName>
+<lb/>and me. All the <orgName>Banians</orgName> and <orgName><orgName>Banian</orgName>
+<lb/><orgName>slaves</orgName></orgName> were perfectly well awareof <persName>Muhamad
+<lb/>Nassur</persName>'s complicity - the villainy of saddling
+<lb/>on me all the expenses of their retail venture
+<lb/>of soap <term type="foodstuff">brandy</term> <term type="medicament">opium</term> and gunpowder
+<lb/>was perpetrated in open day and could
+<lb/>not escape the notice of the paid <term type="occupation">agents</term> of
+<lb/>the <term type="occupation"><w>consul<del type="cancelled">ate</del></w></term> but how this matter was <w>con-
+<lb break="no"/>-cealed</w> from him - and also the dishonest
+<lb/>characters of <persName>Syde bin Ali Burasdid</persName> and
+<lb/><persName>Shereef</persName> it is difficult to <choice><sic>concieve</sic><corr>conceive</corr></choice> - the oft
+<lb/>repeated assertion of <persName>Shereef</persName> that he acted
+<lb/>throughout on the advice of <persName>Ludha</persName> may
+<lb/>have a ray of truth in it - But a little
+<lb/>gentle pressure on <persName>Seyed Burghash</persName> will
+<lb/>probably ensure the punishment of <persName>Shereef</persName>
+<lb/>though it is also highly probable that he
+<lb/>will take refuge near the <term type="occupation">governor of
+<lb/><placeName><settlement type="town">Unyanyembe</settlement></placeName></term> till the affair blows over
+<lb/>If the right <orgName><orgName>Banian</orgName> <term type="nationality">English</term> subjects</orgName> he
+<lb/>compelled to refund this alone will deter
+<lb/>them from again plundering the <orgName>servants</orgName>
+<lb/>of a <orgName>Government</orgName> which goes to great
+<lb/>expense for their protection.</p>
+<lb/>
+
+    <!-- ak, hb -->
+
+	<pb facs="liv_000019_0578" n="0578"/>
+<lb/><fw n="572"><add place="margintop" rend="gray left" hand="#U">572</add></fw>
+<lb/><p>I will now proceed to narrate in as
+<lb/>few words as possible how I have been baffled
+<lb/>by the <orgName><orgName>Banian</orgName> slaves</orgName> sent by <persName>Liedha</persName> instead 
+<lb/>of men - They agreed to go to <placeName><settlement type="town">Ujiji</settlement></placeName> <unclear cert="low" agent="fading">and having</unclear>
+<lb/>there. ascertained where I was to be found
+<lb/>were to follow me as <term type="occupation">boatmen</term> <term type="occupation">carriers</term>
+<lb/><term type="occupation">woodmen</term> or in every capacity required
+<lb/>without reference to the customs of <orgName>other
+<lb/>expeditions</orgName> - Each on being engaged
+<lb/><choice><sic>recieved</sic><corr>received</corr></choice> an advance of thirty dollars
+<lb/>and a promise of five dollars a month
+<lb/>afterwards - this was double <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName>
+<lb/><orgName>freeman</orgName>'s</orgName> <!--not sure if this needed to be tagged... -AK--><!-- Yes, but as orgName instead - see how I have done. HB --> pay. They had much sickness
+<lb/>near <placeName><region>the Coast</region></placeName> and five died of <term type="ailment">Cholera</term>
+<lb/>While under <persName>Shereef</persName> and <persName>Awathe</persName> they
+<lb/>cannot be blamed for following their
+<lb/>worthless <term type="occupation">leaders</term> - these <term type="occupation">leaders</term> remained
+<lb/>at <placeName><settlement type="town">Ujiji</settlement></placeName> and <persName>Shereef</persName>'s three <orgName>slaves</orgName> and
+<lb/>his woman did the same - After two 
+<lb/>months<supplied cert="high">'</supplied> delay there seven <orgName><orgName>Banian</orgName>
+<lb/>slaves</orgName> came along with the man returning
+<lb/>past <placeName><settlement type="town">Bambarre</settlement></placeName> as mentioned above
+<lb/>they came on the <date when="1871-02-04">4<hi rend="sup underline">th</hi> February 1871</date> having
+<lb/>left <placeName><geogName type="island">Zanzibar</geogName></placeName> in <date when="1869-08">October <w>18<subst><del>7</del><add place="over-text">6</add></subst>9</w></date> - I had
+<lb/>been laid up at <placeName><settlement type="town">Bambarre</settlement></placeName> by irritable
+<lb/><term type="ailment">eating ulcers</term> on both feet which prevented
+<lb/>me from setting a foot on the ground
+<lb/>from <date from="1870-08" to="1870-12">August 1870 to the end of the year</date>
+<lb/>a piece of Malachite <!--should we tag types of rocks? -AK--><!-- No. HB --> rubbed down with
+<lb/>water on a stone was the only remedy
+<lb/>that had any effect - I had no medicine -
+<lb/>some in a box has been unaccountably
+<lb/>detained by the <term type="occupation">governor</term> of <placeName><settlement type="town">Unyanyembe</settlement></placeName>
+<lb/>since <date when="1868">1868</date> though I sent for it twice and 
+<lb/>delivered calico to prepay the <term type="occupation">carriers</term>.
+<lb/>I have been uncharitable enough to suspect 
+<lb/>that the worthy man wishes to fall heir to
+
+    <pb facs="liv_000019_0579" n="0579"/>
+<lb/><fw n="573"><add place="margintop" rend="gray right" hand="#U">573</add></fw>
+<lb/>my two guns in the same box - <persName>Shereef</persName>
+<lb/>sent by the <orgName>slaves</orgName> a few coarse beads -
+<lb/>evidently exchanged for my beautiful and
+<lb/>dear beads - a little calico and in great
+<lb/>mercy a little <term type="plant_foodstuff">coffee</term> and <term type="plant_foodstuff">sugar</term> - the <orgName>slaves</orgName>
+<lb/>came without loads except my tent which
+<lb/><persName>Shereef</persName> and they had used till it was quite
+<lb/>rotten and so full of holes I could not use
+<lb/>it once - They had been sixteen months in the
+<lb/>way instead of three - and now like their 
+<lb/><term type="occupation">headmen</term> refused to go any further - they 
+<lb/>swore so positively that the <term type="occupation">consul</term> had
+<lb/>told them to force me back and on no account
+<lb/>to go forward that I actually looked again
+<lb/>at their engagement to be sure that my eyes
+<lb/>had not <choice><sic>decieved decieved</sic><corr>deceived</corr></choice> me. Fear alone
+<lb/>made them consent to go but had I not
+<lb/>been aided by <persName>Muhamad Bogharib</persName> they
+<lb/>would have gained their point by sheer 
+<lb/>brazen faced falsehood - I might then
+<lb/>have gone back and deposed <persName>Shereef</persName> &amp;
+<lb/><persName>Awathe</persName> but this would have required
+<lb/>five or six months - and in that time at
+<lb/>least or in perhaps less time I had good
+<lb/>reason to hope that the exploration would
+<lb/>be finished - and my return would be up
+<lb/><placeName><geogName type="lake"><persName>Albert</persName> Lake</geogName></placeName> and <placeName><geogName type="lake">Tanganyika</geogName></placeName> instead of the
+<lb/>dreary part of <placeName><region><term type="tribe">Manyema</term></region></placeName> and <placeName><unclear cert="low">Guha</unclear></placeName> I
+<lb/>already knew perfectly - the desire to finish 
+<lb/>the geographical part of my work was
+<lb/>and is most intense every time my family
+<lb/>comes into mind - I also hoped that <add place="below">^</add> <add place="above">as usual</add> ere
+<lb/>long I should gain influence over my
+<lb/><term type="occupation">attendants</term> - but I never had experience
+<lb/>with <orgName><orgName>Banian</orgName> <add place="above"><term type="faith">Moslem</term></add> <add place="below">^</add> slaves</orgName> before who had
+<lb/>imbibed little of the <term type="faith">Muhamadan</term> religion
+<lb/>but its fulsome guide - and whose
+
+	<pb facs="liv_000019_0580" n="0580"/>
+<lb/><fw n="574"><add place="margintop" rend="gray left" hand="#U">574</add></fw>
+<lb/>previous employment had been browbeating
+<lb/><orgName><orgName>Arab</orgName> <term type="occupation">debtors</term></orgName> somewhat like the lowest class
+<lb/>of our <term type="occupation">Sheriff Officers</term> - As we went across
+<lb/>the second great bend of the <placeName><geogName type="river">Lualaba</geogName></placeName> they
+<lb/><choice><orig>shewed</orig><reg>showed</reg></choice> themselves to be accomplished cowards
+<lb/>in constant dread of being killed and eaten
+<lb/>by <term type="tribe">Manyema</term> - Failing to induce me to spend
+<lb/>all the goods and return they refused to go
+<lb/>beyond a point far down the <placeName><geogName type="river">Lualaba</geogName></placeName> where
+<lb/>I was almost in sight of the end towards which
+<lb/>I strained - They now tried to stop further
+<lb/>progress by falsehood, and they found at a 
+<lb/>camp of <orgName>Ujijian</orgName> and <orgName><placeName><region>mainland</region></placeName> Arabs</orgName>
+<lb/>a number of willing helpers to <unclear cert="medium"><choice><sic>propogage</sic><corr>propagate</corr></choice></unclear> the 
+<lb/>slander that "I wanted neither ivory nor <orgName>slaves</orgName>
+<lb/>but a canoe to kill <term type="tribe">Manyema</term>" can it be
+<lb/>wondered at that people who had never seen
+<lb/>strangers before, or even heard of <orgName>white men</orgName>
+<lb/>believed them? By this slander and by the
+<lb/>ceremony of mixing blood with the <term type="occupation">headmen</term>
+<lb/>the <orgName><placeName><region>mainland</region></placeName> and <orgName>Ujijian</orgName> Arabs</orgName> secured
+<lb/>nine canoes while I could not purchase one
+<lb/>But four days below this part narrows
+<lb/>occur in which the mighty river is <!-- geog: Lualaba, I think. -->
+<lb/>compressed by rocks which jut in not
+<lb/>opposite to each other but alternately and the 
+<lb/>water rushing round the promonitories forms
+<lb/>terrible whirlpools which overturned one of
+<lb/>canoes, and so terrified <orgName>the whole party</orgName>
+<lb/>that by deceit had preceded me that they 
+<lb/>returned without every thinking of dragging
+<lb/>the canoes past the difficulty - This I would
+<lb/>have done to gain the <placeName><geogName type="confluence">confluence of the
+<lb/><placeName><geogName type="river">Lomame</geogName></placeName></geogName></placeName> some <measure>fifty miles below</measure>, and 
+<lb/>thence ascend through <placeName><geogName type="lake">Lake <persName>Lincoln</persName></geogName></placeName> to the
+<lb/>ancient fountains beyond the copper
+<lb/>mines of <placeName><settlement type="village">Katanga</settlement></placeName>, and this would nearly 
+<lb/>finish my geographical work. But it was
+<lb/>so probable that the dyke which forms
+<lb/>the narrows would be prolonged across
+<lb/>country into <placeName><geogName type="river">Lomame</geogName></placeName> that I resolved to 
+<lb/>turn <choice><sic>to turn</sic><corr/></choice> towards this great River <w>con- <!-- geog: Lomame -->
+<lb break="no"/>-siderably</w> above the narrows and where
+
+    <pb facs="liv_000019_0581" n="0581"/>
+<lb/><fw n="575"><add place="margintop" rend="gray right" hand="#U">575</add></fw>
+<lb/>the distance between <placeName><geogName type="river">Lualaba</geogName></placeName> and <placeName><geogName type="river">Lomame</geogName></placeName> is
+<lb/><measure>about eighty miles</measure> - A friend named <persName><w>Dugum<supplied>-</supplied>
+<lb break="no"/>-be</w></persName> was reported to be coming from <placeName><settlement type="town">Ujiji</settlement></placeName>
+<lb/>with a caravan of 200 guns and nine
+<lb/><term type="occupation">undertraders</term> with <orgName>their people</orgName> - the <orgName><orgName>Banian</orgName>
+<lb/>slaves</orgName> refused duty three times and the sole
+<lb/>reason they <choice><sic>alledged</sic><corr>alleged</corr></choice> was fear of going "where
+<lb/>there were no <orgName>Moslems</orgName>" The loss of all their
+<lb/>wages was a matter of no importance to any
+<lb/>one accept their <orgName><term type="occupation">masters</term></orgName> at <placeName><geogName type="island">Zanzibar</geogName></placeName> - As an
+<lb/><term type="person">Englishman</term> they knew I would not beat or
+<lb/>chain them - and two of them frankly around
+<lb/>that all they needed for obedience was a <orgName>free man</orgName>
+<lb/>to thrash them - the <term type="occupation"><orgName>slave</orgName> traders</term> all sympathized
+<lb/>with them for they hated my being present to 
+<lb/>witness their atrocities - <placeName><geogName type="source">the sources of the <placeName><geogName type="river">Nile</geogName></placeName></geogName></placeName>
+<lb/>they knew to be a sham - to reveal their 
+<lb/><orgName>slaving</orgName> was my true object - and all dread to
+<lb/>be "written against." I therefore waited three
+<lb/>months for <persName>Dugumbe</persName> who appeared to be a 
+<lb/>gentleman, and offered him four thousand
+<lb/>Rupees = £400 for ten men and a canoe on
+<lb/><placeName><geogName type="river">Lomame</geogName></placeName>, and afterwards all the goods I 
+<lb/>believed I had at <placeName><settlement type="town">Ujiji</settlement></placeName> to enable me to finish
+<lb/>what I had to do without the <orgName><orgName>Banian</orgName> slaves</orgName>
+<lb/>his first words were "Why your own <orgName>slaves</orgName> are 
+<lb/>your greatest enemies. I hear everywhere how
+<lb/>they have baffled you." He agreed to my proposition
+<lb/>but required a few days to consult <term type="occupation">his associates</term>
+<lb/>two days afterwards on <choice><sic>on</sic><corr/></choice> the <date when="1871-06-15"><!--Not sure if this is the correct year since I'm a little out of context with these pages. -AK-->15<hi rend="sup underline">th</hi> of June</date> a
+<lb/>massacre was perpetrated which filled me
+<lb/>with such intolerable loathing that I resolved
+<lb/>to yield to the <orgName><orgName>Banian</orgName> slaves</orgName> = return to <placeName><settlement type="town">Ujiji</settlement></placeName>
+<lb/>get men from <placeName><region>the coast</region></placeName> = and try to finish the
+<lb/>rest of my work by going outside the area 
+<lb/>of <orgName>Ujijian</orgName> bloodshed instead of vainly
+<lb/>trying from its interior outwards -</p> 
+			    
+	<pb facs="liv_000019_0582" n="0582"/>
+<lb/><fw n="576"><add place="margintop" rend="gray left" hand="#U">576</add></fw>
+<lb/><p><persName>Dugumbe</persName> and <orgName>his people</orgName> built their
+<lb/>huts on <placeName><region>the right bank of the <placeName><geogName type="river">Lualaba</geogName></placeName></region></placeName> at a
+<lb/>marketplace called <placeName><settlement type="town">Nyangwe</settlement></placeName> - on hearing
+<lb/>that a <orgName>head slave</orgName> of a <term type="occupation">trader</term> at <placeName><settlement type="town">Ujiji</settlement></placeName> had
+<lb/>in order to get canoes cheap, mixed blood
+<lb/>with the <term type="occupation">headmen</term> of the <term type="tribe">Bagenya</term> on the
+<lb/>left bank <del type="strikethrough">of the</del> were disgusted with his
+<lb/>assurance and resolved to punish him
+<lb/>and make an impression in the country
+<lb/>in favour of their own greatness by an
+<lb/>assault on <orgName>the market people</orgName>, and on
+<lb/>all the <term type="tribe">Bagenya</term> who had dared to make
+<lb/>friendship with any but themselves 
+<lb/><persName>Tagamoro</persName> the <term type="occupation">principal under trader</term> of
+<lb/><orgName><persName>Dugumbe</persName>'s party</orgName> was the perpetrator - the 
+<lb/>market was attended every fourth day
+<lb/>by between 2000 and 3000 people - It was
+<lb/>held on a long slope of land which down
+<lb/>at the river ended in a creek capable of <!-- geog: Lualaba -->
+<lb/>containing between fifty and sixty large
+<lb/>canoes - the <orgName>majority of the market
+<lb/>people</orgName> were women, many of them very
+<lb/>pretty - <orgName>the people <placeName><region>west of the river</region></placeName></orgName> brought <!-- geog: Lualaba -->
+<lb/><term type="animal">fish</term> <term type="foodstuff">salt</term> <term type="foodstuff">pepper</term> <term type="foodstuff">oil</term> grass cloth iron <term type="animal">fowls</term>
+<lb/><term type="animal">goats</term> <term type="animal">sheep</term> <term type="animal">pigs</term> in great numbers to 
+<lb/>exchange with those <placeName><region>East of the river</region></placeName> for <!-- geog: Lualaba -->
+<lb/><term type="plant_foostuff">cassava</term>, <term type="plant_foodstuff">grain</term>, <term type="plant_foodstuff">potatoes</term> and other
+<lb/>farinaceous products - they have a 
+<lb/>strong sense of natural Justice and all
+<lb/>unite to force each other to fair dealing
+<lb/>At first all were afraid of my presence
+<lb/>but wishing to gain the confidence which
+<lb/>my enemies tried to undermine or 
+<lb/>prevent, I went among them frequently
+<lb/>and when they saw no harm in me
+<lb/>became very gracious - The bargaining
+<lb/>was the finest acting I ever saw
+
+    <pb facs="liv_000019_0583" n="0583"/>
+<lb/><fw n="577"><add place="margintop" rend="gray right" hand="#U">577</add></fw>
+<lb/>I understood but few of the words that
+<lb/>flew off their glib tongues of the women
+<lb/>but their gestures spoke plainly - I took sketches
+<lb/>of the fifteen varieties of <term type="animal">fishes</term> brought in
+<lb/>to compare them with those of the <placeName><geogName type="river">Nile</geogName></placeName> lower
+<lb/>down - and all were eager to tell their names
+<lb/>but on the date referred to I had left the 
+<lb/>market only a minute or two when three men
+<lb/>whom I had seen with guns and felt inclined
+<lb/>to reprove them for bringing them into the 
+<lb/>market but refrained by attributing it to
+<lb/>ignorance in new corners - They began to
+<lb/>fire into the dense crowd around them
+<lb/><orgName>Another party</orgName> down at the canoes rained their
+<lb/>balls on the panic struck multitude that rushed
+<lb/>into these vessels - all threw away their goods
+<lb/>the men forgot their paddles - the canoes were
+<lb/>jammed in the creek and could not be got out
+<lb/>quick enough - so many men &amp; women
+<lb/>sprang into the water = the women of the left
+<lb/>bank are expert <term type="occupation">divers</term> for <term type="animal">oysters</term> - and a
+<lb/>long line of heads <choice><orig>shewed</orig><reg>showed</reg></choice> a crowd striking
+<lb/>out for an island <measure>a mile off</measure> = to gain it
+<lb/>they had to turn the left shoulder <del><gap extent="1" unit="chars" agent="illegible"/></del> <add place="below">^</add> <add place="above">against</add> a current
+<lb/>of <measure><measure>between a mile and a half</measure> to <measure>two miles</measure> an
+<lb/>hour</measure> = Had they gone diagonally with the
+<lb/>current, though that would have been <measure>three
+<lb/>miles</measure> many would have gained the shore
+<lb/>It was horrible to see one head after another
+<lb/>disappear - some calmly - others throwing 
+<lb/>their arms high up towards the Great Father
+<lb/>and going down - some of the men who
+<lb/>got canoes out of the crowd paddled quickly
+<lb/>with hands and arms to help their friends 
+<lb/>three took people in till they all sank
+<lb/>together - one man had clearly lost his
+<lb/>head for he paddled a canoe which
+
+    <pb facs="liv_000019_0584" n="0584"/>
+<lb/><fw n="578"><add place="margintop" rend="gray left" hand="#U">578</add></fw>
+<lb/>would have held fifty people straight up
+<lb/>stream = nowhere = the <orgName>Arabs</orgName> estimated the
+<lb/>loss at between 400 &amp; 500 souls - <persName>Dugumbe</persName>
+<lb/>sent out <orgName>some of his people</orgName> in one of
+<lb/>about thirty canoes which the <add place="below">^</add> <add place="above">in their fright</add> owners could
+<lb/>not extricate to save the sinking - one lady
+<lb/>refused to be taken on baord because she
+<lb/>thought that she was to be made a <orgName>slave</orgName>
+<lb/>but he rescued twenty one and of his 
+<lb/>own accord sent them <date when="1871-06-16">next day</date> home
+<lb/>Many escaped and came to me and
+<lb/>were restored to their friends - When the 
+<lb/>firing began on the terror stricken crowd
+<lb/>all the canoes - <orgName><persName>Tagamoio</persName>'s band</orgName> began
+<lb/>their assault on the people <placeName><region>West of the
+<lb/>river</region></placeName> and continued the fire all day <!-- geog: Lualaba, I think. -->
+<lb/>I counted seventeen villages in flames
+<lb/>and <date when="1871-06-16">next day</date> six - <persName>Dugumbe</persName>'s power
+<lb/>over the underlings is limited but he
+<lb/>ordered them to cease shooting - those of
+<lb/><orgName><persName>Tagamoio</persName>'s party</orgName> in the market were
+<lb/>so reckless that they shot two of their own
+<lb/>next day in canoes shouting and firing off
+<lb/>their guns as if believing that they were
+<lb/>worthy of renown - <date when="1871-06-16">Next day</date> about twenty
+<lb/><term type="occupation">headmen</term> fled from the West bank and came
+<lb/>to my house - there was no occasion now
+<lb/>to tell them that the <term type="people">English</term> had no desire
+<lb/>for human blood - they begged hard that
+<lb/>I should go over with them and settle with
+<lb/>them and arrange where their new dwellings
+<lb/>should lie - I was so ashamed of <orgName>the bloody
+<lb/><term type="faith">Moslem</term> company</orgName> in which I found
+<lb/>myself that I was unable to look at the
+<lb/><term type="tribe">Manyema</term> - I confessed my grief and
+<lb/>shame and was entreated if I must go
+<lb/>not to leave them now - <persName>Dugumbe</persName> spoke
+<lb/>kindly to them and would protect them
+<lb/>as well as he could against <orgName>his own people</orgName>
+
+    <pb facs="liv_000019_0585" n="0585"/>
+<lb/><fw n="579"><add place="margintop" rend="gray right" hand="#U">579</add></fw>
+<lb/>but when I went to <persName>Tagamoio</persName> to ask back
+<lb/>the wives and daughters of the <term type="occupation">headmen</term>
+<lb/>he always ran off and hid himself - this
+<lb/>massacre was the worst terrible scene I ever
+<lb/>saw - I cannot describe my feelings but am
+<lb/>thankful I did not give way to them but by
+<lb/><persName>Dugumbe</persName>'s advice avoided a blood feud
+<lb/>with men who for the time seemed turned
+<lb/>into Demons - the whole transaction was the 
+<lb/>more deplorable inasmuch as we have
+<lb/>always heard from the <term type="tribe">Manyema</term> that
+<lb/>though the men of two districts may be engaged
+<lb/>in actual hostilities the women pass from
+<lb/>one market place to another with their 
+<lb/>wares and were never known to be molested
+<lb/>the change has come only with these alien
+<lb/><term type="animal">bloodhounds</term> - and all the bloodshed has
+<lb/>taken place in order that <orgName>captives</orgName> might be
+<lb/><choice><sic>siezed</sic><corr>seized</corr></choice> where it could be done without danger
+<lb/>and in order that the <orgName>slaving</orgName> privileges of a
+<lb/>petty <term type="occupation">Sultan</term> should produce abundant fruit.</p>
+<lb/><p>Heart sore and greatly depressed in
+<lb/>spirits by the many instances of man's inhumanity
+<lb/>to man I had unwillingly seen I commenced
+<lb/>the long weary trump to <placeName><settlement type="town">Ujiji</settlement></placeName> with the blazing
+<lb/>sun right overhead - <!--Just wanted to comment on the heart and feeling in what just occurred. Wow. I really feel for Livingstone here! -AK--> - the mind acted on the
+<lb/>body, and it is no overstatement to say that
+<lb/>almost every step of <measure><measure>between 400</measure> &amp; <measure>500 miles</measure></measure>
+<lb/>was in pain - I feel as if dying on my feet -
+<lb/>and I came very near to death in a more
+<lb/>summary way - It is within the area of
+<lb/>bloodshed that danger alone occurs - I could
+<lb/>not induce my <orgName><term type="faith">Moslem</term> slaves</orgName> to venture
+<lb/>outside that area in sphere - they knew
+<lb/>better than I did - "Was not <persName>Muhamad</persName> the
+<lb/>greatest of all - and their <term type="occupation">prophet</term> = "About 
+<lb/>midway between <placeName><settlement type="town">Nyangwe</settlement></placeName> &amp; <placeName><settlement type="town">Bambarre</settlement></placeName>
+
+    <!-- ec, ak -->
+
+	<pb facs="liv_000019_0586" n="0586"/>
+<lb/><fw n="580"><add place="margintop" rend="gray left" hand="#U">580</add></fw>
+<lb/>we came to villages where formally I had seen
+<lb/>the young men compelled to carry a 
+<lb/><term type="occupation"><choice><sic>traders</sic><corr>trader's</corr></choice></term> ivory - When I came on the scene
+<lb/>the young men had laid down the tusks
+<lb/>and said, now we have helped you so
+<lb/>far without pay let the men of other 
+<lb/>villages do as much - "No, take up the ivory"
+<lb/>and take it up they did only to go a little
+<lb/>and cast it into the dense vegetation on
+<lb/>each side of the path we afterwards knew
+<lb/>so well - When the <term type="occupation">trader</term> reached his next
+<lb/>stage he sent back <orgName>his men</orgName> to demand
+<lb/>the "stolen" ivory, and when the elders
+<lb/>denied the theft they were fired upon
+<lb/>five were killed - eleven women and 
+<lb/>children captured and also twenty five
+<lb/><term type="animal">goats</term> - the remaining elders then talked
+<lb/>the matter over and the young men pointed
+<lb/>out the ivory and carried it <measure>twenty two
+<lb/>miles</measure> after the <term type="occupation">trader</term> - He chose to say
+<lb/>that three tusks were a missing - and 
+<lb/>carried away all the souls and <term type="animal">goats</term>
+<lb/>he had captured - they now turned to 
+<lb/>the only resource they knew and when
+<lb/><persName>Dugumbe</persName> passed waylaid and killed
+<lb/>one of <orgName>his people</orgName> - In our return we 
+<lb/>we passed another camp of <orgName><orgName>Ujijian</orgName>
+<lb/><term type="occupation">traders</term></orgName> and they begged me to allow
+<lb/><orgName>their men</orgName> to join <orgName>my party</orgName> - these
+<lb/>included seventeen men of <placeName><settlement type="town">Manyema</settlement></placeName>
+<lb/>who had volunteered to carry ivory to 
+<lb/><placeName><settlement type="town">Ujiji</settlement></placeName> and goods back again - these were
+<lb/>the very first <term type="tribe">Manyema</term> who had in
+<lb/>modern times gone <measure>fifty miles</measure> from
+<lb/>their birth places - as all the <orgName>Arabs</orgName>
+<lb/>have been enjoined by <persName>Sayed Majid</persName> the
+<lb/>late <term type="occupation">Sultan</term> to <choice><orig>shew</orig><reg>show</reg></choice> me all the kindness 
+
+	<pb facs="liv_000019_0587" n="0587"/>
+<lb/><fw n="581"><add place="margintop" rend="gray right" hand="#U">581</add></fw>
+<lb/>in their power I could not decline their 
+<lb/>request - <orgName>my party</orgName> was increased to eighty
+<lb/>and a long line of men bearing <term type="animal">elephants</term>
+<lb/>tusks gave us all the appearance of <term type="occupation">traders</term><!--I'm now not sure if this is referring to "slave traders" or normal traders? Not sure if still need to mark it as <orgName>. EC--><!-- As they seem to be talking about ivory, I have changed to occupation. HB -->
+<lb/>the only cloth I had left some months before 
+<lb/>consisted of two red blankets which were <w>con<supplied>-</supplied>
+<lb break="no"/>-verted</w> into a glaring dress unbecoming
+<lb/>enough but there were no <orgName>Europeans</orgName> to see it -
+<lb/>the maltreated men now burning for revenge 
+<lb/>remembered the dress and very naturally
+<lb/>tried to kill the man who had murdered their 
+<lb/>relatives - they would hold no parley - we had
+<lb/>to pass through <measure>five hours of forest</measure> with 
+<lb/>vegetation so dense that by stooping down
+<lb/>and peering towards the sun we could at times
+<lb/>see a shadow moving, and a slight rustle in 
+<lb/>the rank vegetation was a spear thrown from
+<lb/>the shadow of an infuriated man = <orgName>our
+<lb/>people</orgName> in front peered into every little opening
+<lb/>in the dense thicket before they would venture 
+<lb/>past it - This detained the rear and two persons
+<lb/>near me were slain - A large spear lunged 
+<lb/>past close behind - another missed me by
+<lb/><measure>about a foot in front</measure> - coming to a part of 
+<lb/>the forest at <measure>about a hundred yards</measure> cleared
+<lb/>for cultivation I observed that fire had been
+<lb/>applied to one of the gigantic trees made still
+<lb/>higher by growing on an <term type="insect">ant</term>hill twenty
+<lb/>or more feet high - hearing the crack that told
+<lb/>the fire had eaten through I felt that there
+<lb/>was no danger it looked so far away till it
+<lb/>appeared coming right down towards me
+<lb/>I saw a few paces back and it came to the 
+<lb/>ground <measure>only one yard off</measure> broke into several
+<lb/>lengths and covered me with a cloud of
+<lb/>dust - my <term type="occupation">attendants</term> ran back exclaiming
+<lb/>Peace - Peace - you will finish your 
+<lb/>work in spite of all these people and 
+<lb/>in spite of everything - I too took it as 
+<lb/>an omen of good that I had three 
+
+	<pb facs="liv_000019_0588" n="0588"/>
+<lb/><fw n="582"><add place="margintop" rend="gray left" hand="#U">582</add></fw>
+<lb/>narrow escapes from death in one day
+<lb/>the <term type="tribe">Manyema</term> are experts in throwing the 
+<lb/>the spear and as I had a glance of him
+<lb/>whose spear missed <choice><sic>missed</sic><corr/></choice> by <measure>less than
+<lb/>an inch behind</measure> and he was not <measure>ten
+<lb/>yards off</measure> I was saved clearly by the
+<lb/>good hand of the Almighty Preserver 
+<lb/>of men - I can say this devoutly now
+<lb/>but in running the terrible gauntlet 
+<lb/>for <measure>five weary hours</measure> among furies
+<lb/>all eager to signalize themselves by slaying
+<lb/>one they sincerely believed to have been
+<lb/>guilty of a horrid outrage, no elevated 
+<lb/>sentiments entered the mind - the 
+<lb/>excitement gave way to overpowering
+<lb/>readiness, and I felt as I suppose <term type="occupation">soldiers</term>
+<lb/>do on the field of battle, not courageous
+<lb/>but perfectly indifferent whether I were
+<lb/>killed or not -</p>
+<lb/><p><choice><sic>on</sic><corr>On</corr></choice> coming to the cleared plantations 
+<lb/>belonging to the next group of villages 
+<lb/>all lay down to rest, and soon saw 
+<lb/>their <term type="occupation">headman</term> walked unarmed in
+<lb/>a stately manner towards us - He had
+<lb/>heard the vain firing of <orgName>my men</orgName>
+<lb/>into the dense vegetation and came to 
+<lb/>enquire the cause - When he had <w>con<supplied>-</supplied>
+<lb break="no"/>-sulted</w> his elders he sent an offer to me
+<lb/>in the evening to collect <orgName>all his
+<lb/>people</orgName> and if I lent him <orgName>my people</orgName>
+<lb/>who had guns he would bring me ten
+<lb/><term type="animal">goats</term> instead of three <unclear cert="low">milch</unclear> one I had
+<lb/>lost - I again explained the mistake 
+<lb/>under which his next neighbours
+<lb/>laboured and as he understood
+<lb/>the whole case he was ready to admit 
+<lb/>that my joining in his ancient
+
+	<pb facs="liv_000019_0589" n="0589"/>
+<lb/><fw n="583"><add place="margintop" rend="gray right" hand="#U">583</add></fw>
+<lb/>feud would only make matters worse
+<lb/>Indeed my old <placeName><region>Highland</region></placeName> blood had been
+<lb/>roused by the wrongs which his foes 
+<lb/>had suffered and all through I could not
+<lb/>help sympathizing with them though I 
+<lb/>was the especial object of their revenge -</p>
+<lb/><p><persName><choice><abbr>D.L.</abbr><expan>David Livingstone</expan></choice></persName> <space unit="words" extent="3"/><persName>David Livingstone</persName> <add place="below"><term type="occupation"><orgName><choice><abbr>H M</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term></add><!--I'm not sure if this is correct? Would it be a salutation?--></p>
+<lb/>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="center">A complaint enclosed in 
+<lb/>the foregoing N<hi rend="sup">o</hi> 3 .. <placeName><settlement type="town">Ujiji</settlement></placeName> <date when="1871-10-30">30 October <lb/>1871</date></p><!--Not sure if this needs any specific coding? EC-->
+<lb/><p>To <persName>D<hi rend="sup underline">r</hi> John Kirk</persName> - 
+<lb/>Acting <term type="occupation">Political Agent</term> &amp; <term type="occupation">Consul</term>
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName><!--Not sure about the formatting here, not sure how to code the alignment. EC--></p>
+<lb/><p>Sir I wrote on the <date from="1871-10-25" to="1871-10-28">25<hi rend="sup underline">th</hi> and 28<hi rend="sup">th</hi></date> <choice><abbr>currt</abbr><expan>current</expan></choice> <!-- Adrian, I believe this is the correct expansion but pls correct if I am wrong. HB -->
+<lb/><bibl>two very hurried letters</bibl> one for you and 
+<lb/>the other for <persName>Lord Clarendon</persName> which were 
+<lb/>forwarded to <placeName><settlement type="town">Unyanyembe</settlement></placeName> - I had just 
+<lb/>reached this place thoroughly jaded in <!-- geog: Unyanyembe -->
+<lb/>body and mind and found that your
+<lb/><term type="occupation">agent</term> <persName>Shereef Bosher</persName> had sold off all the
+<lb/>goods you sent for <orgName>slaves</orgName> and ivory for
+<lb/>himself - He had divined on the <bibl>Koran</bibl> and
+<lb/>found that I was dead - He also wrote to the 
+<lb/><term type="occupation">governor of <placeName><settlement type="town">Unyanyembe</settlement></placeName></term> that he had sent
+<lb/><orgName>slaves</orgName> to <placeName><region><term type="tribe">Manyema</term></region></placeName> who returned and expected
+<lb/>my decease and he wished the permission
+<lb/>of the <term type="occupation">governor</term> to sell all the goods - He 
+<lb/>however knew from men who came from
+<lb/>me in <placeName><region><term type="tribe">Manyema</term></region></placeName> that I was near <placeName><settlement type="town">Ujiji</settlement></placeName> at
+<lb/><settlement><placeName type="town">Bambarre</placeName></settlement> and wanting for him &amp; supplies
+<lb/>but when my friends here protested against
+<lb/>the sale of my goods he invariably <w>provid<supplied>-</supplied>
+<lb break="no"/>-ed</w> "you know nothing about the matter"
+
+	<pb facs="liv_000019_0590" n="0590"/>
+<lb/><fw n="584"><add place="margintop" rend="gray left" hand="#U">584</add></fw>
+<lb/>"I alone know that the <term type="occupation">consul</term> ordered me 
+<lb/>to remain one month at <placeName><settlement type="town">Ujiji</settlement></placeName> and then
+<lb/>sell off and return" - When I came he
+<lb/>said <persName>Ludha</persName> had so ordered him -</p>
+<lb/><p>From the <orgName><orgName>Banian</orgName> slaves</orgName> you sent
+<lb/>I learn that <persName>Ludha</persName> went to <persName>Ali bin
+<lb/>salem Buraschid</persName> a person notoriously
+<lb/>dishonest and he recommended <persName>Shereef
+<lb/>Bosher</persName> as <term type="occupation">leader</term> of the caravan - No
+<lb/>sooner did he obtain command then
+<lb/>he went to <persName>Muhamad Nassar</persName> who
+<lb/>furnished twenty five boxes of soap &amp;
+<lb/>eight cases of <term type="foodstuff">brandy</term> to be retailed in
+<lb/>the course of the journey <placeName><region>inland</region></placeName> -
+<lb/>At <placeName><settlement type="town"><choice><orig>Bagamoio</orig><reg>Bagamoyo</reg></choice></settlement></placeName> <persName>Shereef</persName> got a quantity of
+<lb/><term type="medicament">opium</term> and gunpowder from <choice><sic>from</sic><corr/></choice>
+<lb/>two <orgName>Banians</orgName> there whose names are
+<lb/>unknown to me - In their house <persName>Shereef</persName>
+<lb/>broke the soap boxes and stowed the 
+<lb/>contents in my bales - the <term type="foodstuff">brandy</term> cases 
+<lb/>were kept entire and <foreign xml:lang="und"><term type="occupation">Pagazi</term></foreign> employed 
+<lb/>to carry them and the <term type="medicament">opium</term> &amp; gun
+<lb/>powder and paid out of my bales
+<lb/>the <orgName>Banians</orgName> and <persName>Shereef</persName><!--I'm not sure anymore if these are people? EC-->had <w>inter<supplied>-</supplied>
+<lb break="no"/>-posed</w> their own trade speculation
+<lb/>between two <term type="occupation"><orgName>government</orgName> officers</term>
+<lb/>and thence forward all the experiences of
+<lb/>the journey were defrayed out of my supply
+<lb/>and <persName>Shereef</persName> was able to send back to
+<lb/>his accomplices five <foreign xml:lang="und">frasilahs</foreign> of 
+<lb/>ivory from <placeName><settlement type="town">Unyanyembe</settlement></placeName> value some
+<lb/>(£6<hi rend="underline">0</hi>) sixty pounds - the <foreign xml:lang="und"><term type="occupation">Pagazi</term></foreign> again
+<lb/>paid by me - He was in no hurry
+<lb/>to aid me but spent fourteen months
+<lb/>in traversing a distance that could 
+<lb/>easily have been accomplished 
+<lb/>in three - if we deduct two months
+
+	<pb facs="liv_000019_0591" n="0591"/>
+<lb/><fw n="585"><add place="margintop" rend="gray right" hand="#U">585</add></fw>
+<lb/>for detention by sickness we have still twelve
+<lb/>months of which nine were devoted to 
+<lb/>the private interests of the <orgName>Banians</orgName> &amp; <persName>Shereef</persName>
+<lb/>He ran risk with my goods buying the best
+<lb/>provisions and drink the country afforded <!-- geog:  -->
+<lb/>- lived in my tent till it was so rotten &amp;
+<lb/>full of holes I never could use it once -
+<lb/>- remained at three several places two months
+<lb/>retailing <term type="foodstuff">brandy</term> <term type="medicament">opium</term> gun powder &amp; soup
+<lb/>and these being finished on reaching <placeName><settlement type="town">Ujiji</settlement></placeName>
+<lb/>he would go no further - Here it is <w>com-
+<lb break="no"/>-monly</w> reported he lay drunk for a month at 
+<lb/>a time - The <term type="foodstuff"><term type="plant">dura</term> <term type="plant">pombe</term> and <term type="plant">palm</term> toddy</term><!--I Think these are plants here? EC--><!-- Adrian I added a foodstuff tag around all three as I believe DL is saying Shereef got drunk on all three plant-derived alcohols? HB -->
+<lb/>all bought with my fine samsam beads
+<lb/>He issued 24 yards of calico per month for
+<lb/>himself - 8 yards for each of his <orgName>slaves</orgName>
+<lb/>8 yards for his woman! and 8 yards for
+<lb/><persName>Awathe</persName> the other <term type="occupation">headman</term> - and when he
+<lb/>sent seven of the <orgName><orgName>Banian</orgName> <orgName>slaves</orgName></orgName> employed
+<lb/>by <persName>Ludha</persName> to me at <placeName><settlement type="town">Bambarre</settlement></placeName> he would
+<lb/>not allow me more than two <foreign xml:lang="und">frasilahs</foreign>
+<lb/>of the very coarsest beads evidently <w>ex-
+<lb break="no"/>-changed</w> for my fine Samsams - a few
+<lb/>pieces of calico and in great mercy half
+<lb/>the <term type="plant_foodstuff">coffee</term><!--Does Coffee count as a plant foodstuff? EC--><!-- Yes. HB --> and <term type="plant_foodstuff">sugar</term> - the <orgName>slaves</orgName> came
+<lb/>without loads - <persName>Shereef</persName> finished up as
+<lb/>above stated by selling off all except the 
+<lb/>other half of <term type="plant_foodstuff">coffee</term><!--Does Coffee count as a plant foodstuff? EC--> and <term type="plant_foodstuff">sugar</term> and one
+<lb/>half <subst><del>of</del><add place="over-text">bundle</add></subst> of unsaleable beads - He left
+<lb/><del type="strikethrough">four bundles</del> pieces four of calico and
+<lb/>went off from this but hearing of
+<lb/>disturbance at <placeName><settlement type="town">Unyanyembe</settlement></placeName> he deposited
+<lb/>his ivory in a village near and coming
+<lb/>back took the four pieces of calico and 
+<lb/>I <choice><sic>recieved</sic><corr>received</corr></choice> of all the fine calico and dear
+<lb/>beads you sent not a single yard or 
+<lb/>string of beads</p>
+
+	<pb facs="liv_000019_0592" n="0592"/>
+<lb/><fw n="585"><add place="margintop" rend="gray left" hand="#U">585</add></fw>
+<lb/><p><persName>Awathe</persName> the other <term type="occupation">headman</term> employed
+<lb/>was a spectator of all the plunder by <persName>Shereef</persName>
+<lb/>from <placeName><region>the coast</region></placeName> onwards and never opened
+<lb/>his mouth in remonstrance or in sending 
+<lb/>back <bibl>a report</bibl> to his employer - He carefully
+<lb/>concealed an infirmity from you which 
+<lb/>prevented him from performing a single
+<lb/>duty for me - He had his "<foreign xml:lang="und">sheepa</foreign>" long before
+<lb/>he was engaged and he stated to me
+<lb/>that the large fleshy growth came up at 
+<lb/>once on reaching <placeName><settlement type="town">Ujiji</settlement></placeName> - it is not <term type="ailment">Hydowale</term> <!-- Adrian, not sure what Hydowale and Sarcocele are and if the coding is correct? HB -->
+<lb/>but <term type="ailment">Sarcocele</term>, and his own statement
+<lb/>proved that the pain he feigned had entirely
+<lb/>ceased when <persName>Dugumbe</persName> a friend of mine
+<lb/>offered to convey him by short easy stages
+<lb/>to me - He refused from believing that 
+<lb/>the <orgName>Banians</orgName> have so much power
+<lb/>that he will be paid in full for all the 
+<lb/>time that he has been dishonestly devouring
+<lb/>my goods though quite unable to do any
+<lb/>duty - <persName>Dugumbe</persName> also offered to convey
+<lb/>a <bibl>packet of letters</bibl> that was delivered 
+<lb/>to <persName>Shereef</persName> here as my <term type="occupation">agent</term>, but 
+<lb/>when he told him that he was about to 
+<lb/>start it was not forthcoming - It was 
+<lb/>probably destroyed to prevent my seeing
+<lb/>the list of goods you sent by one 
+<lb/><persName>Hassani</persName> to <placeName><settlement type="town">Unyanyembe</settlement></placeName> -</p>
+<lb/><p>With due deference to your judgement
+<lb/>I claim all the expenses incurred as
+<lb/>set down against me in <bibl><persName>Ludha</persName>'s 
+<lb/>books</bibl> from the <orgName>Banians</orgName> who by fraud
+<lb/>converted the caravan to help me into
+<lb/>the gratification of their own greed -
+<lb/><persName>Muhamad Nassur</persName> can reveal
+<lb/>the names of the other <orgName>Banian</orgName>
+<lb/>accomplices of <persName>Shereef</persName> who connived 
+
+	<pb facs="liv_000019_0593" n="0593"/>
+<lb/><fw n="586"><add place="margintop" rend="gray right" hand="#U">586</add></fw>
+<lb/>in supplanting help for me into a trade <w>specu-
+<lb break="no"/>-lation</w> - they ought also to pay the <orgName>slaves</orgName> sent by
+<lb/><persName>Ludha</persName> and let them (the <orgName>Banians</orgName>) recover
+<lb/>from <persName>Shereef</persName> - I report this case to <orgName><choice><abbr>H.M.</abbr><expan>Her Majesty's</expan></choice> -
+<lb/>Government</orgName> as well as to you and believe
+<lb/>that your hands will thereby be strengthened 
+<lb/>to see that justice is done and that due
+<lb/>punishment be inflicted on the <orgName>Banians</orgName> -
+<lb/>on <persName>Shereef</persName> and <persName>Awathe</persName> - and on the <orgName><orgName>Banian</orgName> 
+<lb/><orgName>slaves</orgName></orgName> who baffled and thwarted me instead
+<lb/>of fulfilling the engagement entered into
+<lb/>in your presence - <bibl>A note</bibl> is enclosed to 
+<lb/><persName>His Highness Seyed Benghash</persName> which you
+<lb/>will please to present -</p>
+<lb/><p>In entrusting the matter of supplies and men to the <persName>Baman Ludha</persName> you seem to have
+<lb/>been unaware that our <orgName>Government</orgName> <w>for-
+<lb break="no"/>-bids</w> its <orgName>servants</orgName> to employ <orgName>slaves</orgName> - the <w>com<supplied>-</supplied>
+<lb break="no"/>missioners</w> and <term type="occupation">Consul</term> at <placeName>Loanda</placeName> on the 
+<lb/><placeName><region>West Coast</region></placeName> sent all the way to <placeName>St <persName>Helena</persName></placeName> for <!-- Not exactly sure if St. Helena is a village/region/etc.? HB -->
+<lb/>somewhat stupid <orgName>servants</orgName> rather than incur
+<lb/>the displeasure of the <orgName>Foreign Office</orgName> by 
+<lb/>using very clever <orgName><term type="nationality">Portuguese</term> <orgName>slaves</orgName></orgName> within
+<lb/>call - In the very trying circumstances 
+<lb/>you mention during the visitation of <term type="ailment">Cholera</term>
+<lb/>and in the absence of the instructions I had 
+<lb/>enclosed to employ <orgName>free men</orgName> and not <orgName>slaves</orgName>
+<lb/>as also in the non appearance of the cheques 
+<lb/>for money enclosed in the same <bibl>lost packet</bibl>
+<lb/>the call on <persName>Ludha</persName> was perhaps the easiest
+<lb/>course and I trust that you will not
+<lb/>consider me ungrateful if I point out
+<lb/>that it involved a grave mistake - <persName>Ludha</persName>
+<lb/>is polite enough but the <orgName>slave trade</orgName> and 
+<lb/>indeed most other trade is carried on chiefly
+<lb/>by the money of <orgName>Banians</orgName> - <orgName><term type="nationality">British</term> subjects</orgName>
+<lb/>who <choice><sic>recieve</sic><corr>receive</corr></choice> most of the profits and</p>
+
+
+			</div>
+	    </body>
+    </text>
+</TEI>
