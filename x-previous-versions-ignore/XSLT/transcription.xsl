@@ -26,6 +26,7 @@
       <xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
       <head>
         <meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/><!-- AW -->
         <title>
           <xsl:value-of select="//teiHeader//title[1]"/>
         </title>
@@ -284,11 +285,11 @@
   </xsl:template>
   
   <xsl:template match="list">
-    <ul><xsl:apply-templates/></ul>
+    <xsl:apply-templates/><!-- AW -->
   </xsl:template>
   
   <xsl:template match="list/item">
-    <li><xsl:apply-templates/></li>
+    <xsl:apply-templates/><!-- AW -->
   </xsl:template>
 
 
@@ -311,13 +312,13 @@
 
 <xsl:template match="jc:page">
 <div class="page">
-  <span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
+  <br/><span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
 <xsl:apply-templates/>  
   </div>
 </xsl:template>
   
   <xsl:template match="pb">
-    <span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
+    <br/><span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
   </xsl:template>
   
   

@@ -354,9 +354,14 @@ span.foreignItalic{
 }
 .p{
     display:block;
+	text-indent: 20px; /*AW*/
+    margin-top:0; /*AW*/
+    margin-bottom:0 /*AW*/
 }
 .ab{
     display:block;
+    margin-top:0; /*AW*/
+    margin-bottom:0 /*AW*/
 }
 .closer{
     display:block;
@@ -393,7 +398,17 @@ span.foreignItalic{
 .lb{
 	display: block; /* I think this is the correct way to display this, change if necessary -KMD */
 }
-/*.milestone {display:block; width:100%; background:#FFF; border-bottom:black 1px solid; height:1px; margin-left:auto; margin-right:auto; padding:2px;}*/
+.milestone{
+	display:block; 
+	width:100%; 
+	background:#FFF; 
+	border-bottom:black 1px solid; 
+	height:1px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	padding:2px;
+}/*AW*/
+
 .pb{
     display:block;
 }
