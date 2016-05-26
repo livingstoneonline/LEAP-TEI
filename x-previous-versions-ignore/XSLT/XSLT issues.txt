@@ -1,0 +1,48 @@
+<ab> does not display <addrLine> breaks within and right margin is too far right
+http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000473&view_page=4
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=addressee_ms%3A%22McRobert%2C+Catherine%22&view_pid=liv%3A003018&view_page=3
+
+<pb/> appears to throw off part of paragraph that follows so that it is too far right
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221860%22&f[]=addressee_ms%3A%22Gray%2C+Robert%2C+1809-1872%22&view_pid=liv%3A001550&view_page=1
+
+<p rend="right"> and <p> seem not to be interacting appropriately as a line break after the first is not being added or it is otherwise messing up the letter header
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=addressee_ms%3A%22Kirk%2C+John+2%2C+1832-1922%22&view_pid=liv%3A002463&view_page=0
+http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000472&view_page=0
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221839%22&view_pid=liv%3A000483&view_page=0
+
+There are also issues with <p rend="right"> at the end of a letter:
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221841%22&view_pid=liv%3A000490&view_page=3
+
+Why is rend="underline" coming up as a tooltip on this page?
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=addressee_ms%3A%22Kirk%2C+John+2%2C+1832-1922%22&view_pid=liv%3A002463&view_page=4
+
+<supplied> text is kicking in unnecessary space inside the square brackers. Toggle to edited text on the following page, then look at the last word: David Livingst [ one ]  should be David Livingst[one] Note also that a rdg tooltip should be display on this word, but is not. Instead, the <rdg> take is adding a second unnecessary empty space in front of the square brackets.
+http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000530&view_page=0
+
+<salut> is displaying too far to the right
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221850%22&f[]=addressee_ms%3A%22Watt%2C+David+G.%2C+1817-1897%22&view_pid=liv%3A000699&view_page=1
+
+Text between lines is displaying oddly. See the end of this page:
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221839%22&view_pid=liv%3A000483&view_page=1
+
+<placeName><region> seems to be kicking in an extra space before and after the relevant term. See the phrase "Bechuana Country" about six lines down on this page:
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221839%22&view_pid=liv%3A000483&view_page=3
+
+<p rend="center"> is breaking lines early. Additionally, in the following example an opening line break is being kicked in for <note> when it shouldn't be:
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221859%22&view_pid=liv%3A002999&view_page=0
+
+<figDes> text show as generic rendering: "illustration". See about line 33 on this page:
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221845%22&view_pid=liv%3A000603&view_page=0
+
+<p> is not indenting
+
+<gap>, <hi rend="sup underline">, and <supplied> are kicking in an extra space in front
+
+<placeName><geogName> and, separately, <space> are kicking out an extra space afterwards
+
+<item> should not put in an extra line break
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221846%22&view_pid=liv%3A000621&view_page=0
+
+<milestone> not displaying
+http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221857%22&view_pid=liv%3A002648&view_page=0
+

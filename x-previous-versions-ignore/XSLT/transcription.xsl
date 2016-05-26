@@ -311,15 +311,13 @@
 
 <xsl:template match="jc:page">
 <div class="page">
-  <hr/>
-  <span class="pb-title">Image: <xsl:value-of select="@n"/></span>
+  <span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
 <xsl:apply-templates/>  
   </div>
 </xsl:template>
   
   <xsl:template match="pb">
-    <hr/>
-    <span class="pb-title">Image: <xsl:value-of select="@n"/></span>
+    <span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
   </xsl:template>
   
   
