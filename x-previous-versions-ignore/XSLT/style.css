@@ -15,6 +15,10 @@ div.transcription{
     width:3em;
 }
 
+p.noindent .linenumber{
+	text-indent: 1em; /*I'm sure this is a wonky solution, but it works and is the best I could come up with. AW*/
+}
+
 .expan {display:none;}
 .abbr,
 .expan{
@@ -36,20 +40,33 @@ div.transcription{
 	margin-left:5%; 
     margin-bottom:0 /*AW*/
 }
+
+p span.pb-title{
+	margin-left:0;
+	text-indent:0;
+}/*AW*/
+
 p.center{
     margin-left:auto;
     margin-right:auto;
     width:50%;
     text-align:left;
 }
+p.noindent{
+    display:block;
+	text-indent:0;
+	margin-left:5%;
+    margin-top:0;
+    margin-bottom:0
+}/*AW*/
+
 p.right{
     float:right;
     clear:both;
-    width:40%;
+    /*width:40%;*/ /*This was making the text wrap in an odd manner. AW*/
     text-align:left;
 }
 .TEI p{
-    margin-left:5%;
 }
 
 p.ab,
@@ -356,6 +373,7 @@ span.foreignItalic{
 .p{
     display:block;
 	text-indent: 20px; /*AW*/
+	margin-left:5%;
     margin-top:0; /*AW*/
     margin-bottom:0 /*AW*/
 }
