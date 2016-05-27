@@ -41,7 +41,7 @@
 	</xsl:template>
 
 	<!-- Don't show -->
-	<xsl:template match="teiHeader|facsimile|surface|zone"/>
+	<xsl:template match="teiHeader | facsimile |surface |zone"/>
 
 	<xsl:template match="TEI">
 		<div class="transcription">
@@ -127,7 +127,6 @@
 	</xsl:template>
 
 	<!-- exclude those inside notes -->
-
 	<xsl:template match="lb[not(ancestor::note)]">
 		<br/>
 		<xsl:variable name="num">
@@ -269,48 +268,27 @@
 	<xsl:template match="figure/figDesc">[<span class="figfigDesc" title="" style="font-style:italic;"
 		><xsl:apply-templates/></span>]</xsl:template>
 
-	<!-- AW -->
-	<xsl:template match="gap[@extent][@unit]" priority="10">
+	<xsl:template match="gap[@extent][@unit]|space[@extent][@unit]" priority="10">
 		<xsl:choose>
 			<xsl:when test="@unit='chars'">
-				<span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">
-					[<xsl:for-each select="1 to @extent">&#x00A0;</xsl:for-each>]</span>
+				<span class="space" title="{concat(name(), ':  ',@extent, ' ', @unit, ' ', @agent)}">
+					[<xsl:for-each select="1 to @extent">&#x00A0;</xsl:for-each>] </span>
 			</xsl:when>
 			<xsl:when test="@unit='words'">
-				<span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">
+				<span class="space" title="{concat(name(), ':  ',@extent, ' ', @unit, ' ', @agent)}">
 					[<xsl:for-each select="1 to @extent"
-					>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
+					>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>] </span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">
+				<span class="space" title="{concat(name(), ':  ', @extent, ' ', @unit, ' ', @agent)}">
 					[<xsl:for-each select="1 to @extent"
-					>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
-
-	<!-- AW -->
-	<xsl:template match="space[@extent][@unit]" priority="10">
-		<xsl:choose>
-			<xsl:when test="@unit='chars'">
-				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
-					<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;</xsl:for-each></span>
-			</xsl:when>
-			<xsl:when test="@unit='words'">
-				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
-					<xsl:for-each select="1 to @extent"
-					>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each></span>
-			</xsl:when>
-			<xsl:otherwise>
-				<span class="space-other" title="{concat(name(), ': ', @extent, ' ', @unit, ' ', @agent)}">
-					[<xsl:for-each select="1 to @extent"
-					>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
+					>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>] </span>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 
 	<xsl:template match="space[@extent][@unit][@dim='vertical']" priority="1">
-		<span class="space-other vertical verticalSpace">
+		<span class="space vertical verticalSpace">
 			<xsl:attribute name="title">
 				<xsl:for-each select="@*">
 					<xsl:sort/>
@@ -383,11 +361,6 @@
 		<span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
 	</xsl:template>
 
-	<!-- AW -->
-	<xsl:template match="placeName/geogName|placeName/bloc|placeName/country|placeName/region|placeName/settlement">
-			<xsl:apply-templates/>
-	</xsl:template>
-
 
 	<!-- AW -->
 	<xsl:template match="salute">
@@ -403,11 +376,10 @@
 		</span>
 	</xsl:template>
 
-	<!-- Removed spaces in this. Need to see if it removes the trailing space. AW -->
 	<xsl:template match="supplied">
-		<span class="supplied edited hidden"><xsl:if test="@*"><xsl:attribute name="title"><xsl:value-of
-			select="concat(name(), ':  ')"/><xsl:for-each select="@*"><xsl:sort/><xsl:value-of
-			select="concat(name(),': ', ., '; ')"/></xsl:for-each></xsl:attribute></xsl:if>
+		<span class="supplied edited hidden"><xsl:if test="@*"> <xsl:attribute name="title"> <xsl:value-of
+			select="concat(name(), ':  ')"/> <xsl:for-each select="@*"> <xsl:sort/> <xsl:value-of
+			select="concat(name(),': ', ., '; ')"/> </xsl:for-each> </xsl:attribute> </xsl:if>
 			[<xsl:apply-templates select="node()"/>]</span>
 	</xsl:template>
 
