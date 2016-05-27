@@ -10,7 +10,7 @@ div.transcription{
 .linenumber{
     float:left;
     color:#AAA;
-    margin-left: -4em;
+    margin-left: -3em;
     font-size:80%;
     width:3em;
 }
@@ -33,7 +33,8 @@ div.transcription{
     /*font-weight:bold;
     text-align:center;*/ /*No bold, no center. AW*/
     display:block;
-	margin-left:5%; 
+    margin-left:auto;
+    margin-right:auto;
 }
 p.center{
     margin-left:auto;
@@ -50,10 +51,9 @@ p.right{
 .TEI p{
     margin-left:5%;
 }
-
 p.ab,
 p.noindent{
-    /*margin-left: 0%;*/ /*This rule took it way too far left. AW*/
+    margin-left: 0%;
     /*margin-left:-5%;*/ /* This rule was making the text appear off the page. I think the rule should be, if the paragraph is also a .ab, no indent needed, so this overwrites the above rule.  -KMD */
 }
 
@@ -136,6 +136,9 @@ p.noindent{
     margin-left:15%;
 }
 
+.noindent{
+    margin-left:0%;
+}
 .other{
 }
 
@@ -183,11 +186,11 @@ p.noindent{
 /**place= above, below, bottom, end, inline, inspace, marginleft, margineright, margintop, marginbottom, top **/
 
 .marginLeft{
-    /*width:20%;
-    float:left;*/
+    width:20%;
+    float:left;
     /*margin-left:-25%;*/ /* This made the text dissapear on many pages */
-    /*margin-right:10px;
-    clear:left;*/
+    margin-right:10px;
+    clear:left;
     /*color:red;*/ /* commented out for now, changes to the XSLT will need to be made to make margin left and right work -KMD*/
 }
 .marginRight{
@@ -361,16 +364,10 @@ span.foreignItalic{
     margin-bottom:0 /*AW*/
 }
 .closer{
-	display:block;
-	margin-left:5%;
-}
-
-.opener{
-	display:block;
-	margin-left:5%;
+    display:block;
 }
 .dateline{
-	display:block;
+    display:block;
 }
 .div{
     display:block;
@@ -379,13 +376,6 @@ span.foreignItalic{
     display:block;
 }
 
-.salute{
-    display:block;
-}
-
-.signed{
-    display:block;
-}
 
 .ref,
 .TEI a, .TEI a:visited{
@@ -419,11 +409,8 @@ span.foreignItalic{
 	padding:2px;
 }/*AW*/
 
-
-
 .pb{
     display:block;
-	margin-left:5%;
 }
 
 .graphic{

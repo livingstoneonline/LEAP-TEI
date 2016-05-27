@@ -28,7 +28,7 @@
         <meta charset="UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="style.css"/><!-- AW -->
         <title>
-          <xsl:value-of select="//teiHeader//title[2]"/>
+          <xsl:value-of select="//teiHeader//title[1]"/>
         </title>
         <!--<link type="text/css" rel="stylesheet" href="http://jamescummings.github.io/LEAP/style.css"/>-->
   </head>
@@ -44,9 +44,9 @@
   
   <xsl:template match="TEI">
       <div class="transcription"><button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>
-      <!--<h2>
-        <xsl:value-of select="//teiHeader//title[2]"/>
-      </h2>--><!-- Removed title from page. AW -->
+      <h2>
+        <xsl:value-of select="//teiHeader//title[1]"/>
+      </h2>
       <div class="TEI">
         <xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
     <xsl:choose>
@@ -190,19 +190,6 @@
   </xsl:template>
 
 
-  <xsl:template match="address"><!-- AW -->
-    <span class="address">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-  <xsl:template match="addrLine"><!-- AW -->
-    <br/>
-	<span class="addrLine">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
 
 <!-- app: show first rdg -->
 <xsl:template match="app">
@@ -215,19 +202,7 @@
     <xsl:apply-templates select="rdg[1]"/>
   </span>
 </xsl:template>
-
-  <xsl:template match="closer"><!-- AW -->
-	<span class="closer">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-  	<!-- AW -->
-	<!--<xsl:template match="dateline">
-		<span class="dateline">
-      <xsl:apply-templates/>
-    </span>
-	</xsl:template>-->
+  
 
 
   <xsl:template match="del[@type='cancelled']">
@@ -251,13 +226,12 @@
   <!-- foreign should be italiced in edited view -->
   <xsl:template match="foreign" xml:space="preserve"><span class="foreign diplomatic"><xsl:if test="@xml:lang"><xsl:attribute name="title"><xsl:value-of select="concat('lang: ', @xml:lang)"/></xsl:attribute></xsl:if><xsl:apply-templates/></span><span class="foreign foreignItalic edited hidden" style="font-style:italic;"><xsl:if test="@xml:lang"><xsl:attribute name="title"><xsl:value-of select="concat('lang: ', @xml:lang)"/></xsl:attribute></xsl:if><xsl:apply-templates/></span></xsl:template>
 
-  <xsl:template match="figure"><!-- AW -->
-    <span class="figure" title="{concat(head, ';  ', figDesc)}"><xsl:apply-templates/></span>
+  <xsl:template match="figure">
+    <span class="figure" title="{concat(head, ';  ', figDesc)}">[Illustration] <xsl:apply-templates/></span>
   </xsl:template>
+  <xsl:template match="figure/head|figure/figDesc"/>
   
-<xsl:template match="figure/figDesc"><!-- AW -->
-	[<span class="figfigDesc" title="" style="font-style:italic;"><xsl:apply-templates/></span>]
-</xsl:template>
+  
   
   <xsl:template match="gap[@extent][@unit]|space[@extent][@unit]" priority="10">
     <xsl:choose>
@@ -336,13 +310,6 @@
   </xsl:template>
 
 
-  <xsl:template match="opener"><!-- AW -->
-	<span class="opener">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-
 <xsl:template match="jc:page">
 <div class="page">
   <br/><span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
@@ -354,14 +321,7 @@
     <br/><span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
   </xsl:template>
   
-
-<xsl:template match="salute"><!-- AW -->
-    <span class="salute"><xsl:apply-templates/></span>
-  </xsl:template>
-
-<xsl:template match="signed"><!-- AW -->
-    <span class="signed"><xsl:apply-templates/></span>
-  </xsl:template>  
+  
 
   <xsl:template match="supplied">
     <span class="supplied edited hidden"><xsl:if test="@*">
