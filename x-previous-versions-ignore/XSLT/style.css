@@ -34,6 +34,7 @@ div.transcription{
     text-align:center;*/ /*No bold, no center. AW*/
     display:block;
 	margin-left:5%; 
+    margin-bottom:0 /*AW*/
 }
 p.center{
     margin-left:auto;
@@ -136,12 +137,15 @@ p.noindent{
     margin-left:15%;
 }
 
+.noindent{
+}
+
 .other{
 }
 
 .right{
     float:right;
-    margin-right:15%;
+    margin-right:25%;
     width:50%;
     text-align:left;
 }
@@ -422,8 +426,6 @@ span.foreignItalic{
 
 
 .pb{
-    display:block;
-	margin-left:5%;
 }
 
 .graphic{
