@@ -1,5 +1,8 @@
 <hi rend="sup underline">, and <supplied> are kicking in an extra space in front
 
+<supplied> text is kicking in unnecessary space inside the square brackers. Toggle to edited text on the following page, then look at the last word: David Livingst [ one ]  should be David Livingst[one] Note also that a rdg tooltip should be display on this word, but is not. Instead, the <rdg> take is adding a second unnecessary empty space in front of the square brackets.
+http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000530&view_page=0
+
 <p rend="right"> and <p> seem not to be interacting appropriately as a line break after the first is not being added or it is otherwise messing up the letter header
 http://livingstonestage.lib.umd.edu/islandora/search?f[]=addressee_ms%3A%22Kirk%2C+John+2%2C+1832-1922%22&view_pid=liv%3A002463&view_page=0
 http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000472&view_page=0
@@ -11,13 +14,7 @@ http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221
 <p rend="center"> is breaking lines early. Additionally, in the following example an opening line break is being kicked in for <note> when it shouldn't be:
 http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221859%22&view_pid=liv%3A002999&view_page=0
 
-Why is rend="underline" coming up as a tooltip on this page?
-http://livingstonestage.lib.umd.edu/islandora/search?f[]=addressee_ms%3A%22Kirk%2C+John+2%2C+1832-1922%22&view_pid=liv%3A002463&view_page=4
-
-<supplied> text is kicking in unnecessary space inside the square brackers. Toggle to edited text on the following page, then look at the last word: David Livingst [ one ]  should be David Livingst[one] Note also that a rdg tooltip should be display on this word, but is not. Instead, the <rdg> take is adding a second unnecessary empty space in front of the square brackets.
-http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000530&view_page=0
-
-Text between lines is displaying oddly. See the end of this page:
+xText between lines is displaying oddly. See the end of this page:
 http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221839%22&view_pid=liv%3A000483&view_page=1
 
 x<salut> is displaying too far to the right

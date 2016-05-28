@@ -273,18 +273,19 @@
 	<xsl:template match="gap[@extent][@unit]" priority="10">
 		<xsl:choose>
 			<xsl:when test="@unit='chars'">
-				<span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">
-					[<xsl:for-each select="1 to @extent">&#x00A0;</xsl:for-each>]</span>
+				<span class="gap"
+					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}"> [<xsl:for-each
+					select="1 to @extent">&#x00A0;</xsl:for-each>]</span>
 			</xsl:when>
 			<xsl:when test="@unit='words'">
-				<span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">
-					[<xsl:for-each select="1 to @extent"
-					>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
+				<span class="gap"
+					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}"> [<xsl:for-each
+					select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">
-					[<xsl:for-each select="1 to @extent"
-					>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
+				<span class="gap"
+					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}"> [<xsl:for-each
+					select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -294,12 +295,14 @@
 		<xsl:choose>
 			<xsl:when test="@unit='chars'">
 				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
-					<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;</xsl:for-each></span>
+					<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
+				</span>
 			</xsl:when>
 			<xsl:when test="@unit='words'">
 				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
 					<xsl:for-each select="1 to @extent"
-					>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each></span>
+						>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
+				</span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="space-other" title="{concat(name(), ': ', @extent, ' ', @unit, ' ', @agent)}">
@@ -364,6 +367,13 @@
 	</xsl:template>
 
 	<!-- AW -->
+	<xsl:template match="note">
+		<span class="note">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<!-- AW -->
 	<xsl:template match="opener">
 		<span class="opener">
 			<xsl:apply-templates/>
@@ -384,8 +394,9 @@
 	</xsl:template>
 
 	<!-- AW -->
-	<xsl:template match="placeName/geogName|placeName/bloc|placeName/country|placeName/region|placeName/settlement">
-			<xsl:apply-templates/>
+	<xsl:template
+		match="placeName/geogName|placeName/bloc|placeName/country|placeName/region|placeName/settlement">
+		<xsl:apply-templates/>
 	</xsl:template>
 
 
@@ -447,6 +458,5 @@
 			<xsl:apply-templates select="node()"/>
 		</span>
 	</xsl:template>
-
 
 </xsl:stylesheet>
