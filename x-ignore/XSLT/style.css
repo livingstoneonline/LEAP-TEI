@@ -44,8 +44,11 @@ lb.center{
 	/*font-weight:bold;
     text-align:center;*/ /*No bold, no center. AW*/
 	display:block;
-	margin-left:5%;
-	margin-bottom:0; /*AW*/
+	color:gray;
+	font-size:90%;
+	margin-left:8%;
+	margin-bottom:-1em; /*AW*/
+	margin-top:1.5em;
 }
 p span.pb-title{
 	margin-left:0;
@@ -54,39 +57,37 @@ p span.pb-title{
 p.ab{
 	display:block;
 	text-indent:0;
-	margin-left:5%;
+	margin-left:8%;
 	margin-top:0;
 	margin-bottom:0;
 } /*AW*/
-p.center{
+p.ab .center{
 	margin-left:auto;
 	margin-right:auto;
 	width:50%;
 	text-align:left;
 }
+/*p.center{
+	width:50%;
+	text-align:left;
+}*/ /*I'm making p.right and p.center the same as p. AW*/
 p.noindent{
-	display:block;
+	display:inline-block;
 	text-indent:0;
-	margin-left:5%;
+	margin-left:8%;
 	margin-top:0;
 	margin-bottom:0;
 } /*AW*/
-p.right{
+/*p.right{
 	float:right;
 	clear:both;
-	/*width:40%;*/ /*This was making the text wrap in an odd manner. AW*/
 	text-align:left;
 	text-indent:0;
-	margin-left:5%;
+	margin-left:8%;
 	margin-top:0;
 	margin-bottom:0;
-} /*AW*/
+}*/ /*I'm making p.right and p.center the same as p. AW*/
 .TEI p{
-}
-p.ab,
-p.noindent{
-	/*margin-left: 0%;*/ /*This rule took it way too far left. AW*/
-	/*margin-left:-5%;*/ /* This rule was making the text appear off the page. I think the rule should be, if the paragraph is also a .ab, no indent needed, so this overwrites the above rule.  -KMD */
 }
 .TEI table,
 .TEI tr,
@@ -105,7 +106,7 @@ p.noindent{
 .center{
 	margin-left:auto;
 	margin-right:auto;
-	width:70%;
+	width:50%;
 }
 .doubleunderline{
 	border-bottom:3px double;
@@ -148,6 +149,9 @@ p.noindent{
 }
 .indent{
 	margin-left:+20%;
+}
+.inline{
+	color:gray
 }
 .italic{
 	font-style:italic;
@@ -308,6 +312,13 @@ span.foreignItalic{
 .address{
 	display:block;
 }
+.catch{
+	text-align:right;
+}
+.fw{
+	display:inline-block;
+	margin-left:8%;
+}
 
 /* Are these supposed to be seperate? When I added commas it messed up the display -KMD */
 .date
@@ -328,7 +339,6 @@ span.foreignItalic{
 .placeName
 .roleName
 .surname
-.fw
 .q
 .quote
 .term
@@ -374,27 +384,29 @@ span.foreignItalic{
 .body{
 	display:block;
 }
-.p{
-	display:block;
+.p,
+.p right,
+.p center{
+	display:inline-block;
 	text-indent:20px; /*AW*/
-	margin-left:5%;
+	margin-left:8%;
 	margin-top:0; /*AW*/
 	margin-bottom:0; /*AW*/
 	
 }
 .ab{
 	display:block;
-	/*margin-left:5%;*/ /*Need to review AW*/
+	margin-left:8%;
 	margin-top:0; /*AW*/
 	margin-bottom:0; /*AW*/
 }
 .closer{
 	display:block;
-	margin-left:5%;
+	margin-left:8%;
 }
 .opener{
 	display:block;
-	margin-left:5%;
+	margin-left:8%;
 }
 .dateline{
 	display:block;
@@ -406,7 +418,7 @@ span.foreignItalic{
 	display:block;
 }
 .salute{
-	display:block;
+	display:inline-block;
 }
 .signed{
 	display:block;
@@ -446,6 +458,9 @@ span.foreignItalic{
 .graphic{
 }
 .figure{
+}
+.figfigDesc{
+	color:gray;
 }
 .table,
 table{

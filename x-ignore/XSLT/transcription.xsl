@@ -128,7 +128,7 @@
 
 	<!-- exclude those inside notes -->
 
-	<xsl:template match="lb[not(ancestor::note)]">
+	<xsl:template match="lb">
 		<br/>
 		<xsl:variable name="num">
 			<xsl:number level="any" from="pb"/>
@@ -208,7 +208,7 @@
 	<!-- AW -->
 	<xsl:template match="addrLine">
 		<br/>
-		<span class="addrLine">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -224,6 +224,17 @@
 			</xsl:attribute>
 			<xsl:apply-templates select="rdg[1]"/>
 		</span>
+	</xsl:template>
+
+	<!-- AW -->
+	<xsl:template match="cb">
+		<br/>
+			<xsl:apply-templates/>
+	</xsl:template>
+
+	<!-- AW -->
+	<xsl:template match="cb/ab" priority="10">
+			<xsl:apply-templates/>
 	</xsl:template>
 
 	<!-- AW -->
@@ -266,8 +277,13 @@
 	</xsl:template>
 
 	<!-- AW -->
-	<xsl:template match="figure/figDesc">[<span class="figfigDesc" title="" style="font-style:italic;"
-		><xsl:apply-templates/></span>]</xsl:template>
+	<xsl:template match="figure/figDesc"><span class="figfigDesc" title="figure">[<xsl:apply-templates/>]</span></xsl:template>
+
+	<!-- AW -->
+	<xsl:template match="fw[@type='catch']"><span class="{concat(name(), ' ', @type, ' ', @rend)}" title=""><xsl:apply-templates/></span></xsl:template>
+
+	<!-- AW -->
+	<xsl:template match="fw[@type='pageno']"><span class="fw pageno" title=""><xsl:apply-templates/></span><br/></xsl:template>
 
 	<!-- AW -->
 	<xsl:template match="gap[@extent][@unit]" priority="10">
@@ -295,13 +311,13 @@
 		<xsl:choose>
 			<xsl:when test="@unit='chars'">
 				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
-					<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
+					<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
 			</xsl:when>
 			<xsl:when test="@unit='words'">
 				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
 					<xsl:for-each select="1 to @extent"
-						>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
+						>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
 			</xsl:when>
 			<xsl:otherwise>
@@ -369,7 +385,7 @@
 	<!-- AW -->
 	<xsl:template match="note">
 		<span class="note">
-			<xsl:apply-templates/>
+			[<xsl:apply-templates/>]
 		</span>
 	</xsl:template>
 
@@ -382,15 +398,13 @@
 
 	<xsl:template match="jc:page">
 		<div class="page">
-			<span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
+			<span class="pb-title"><xsl:value-of select="@n"/></span>
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="pb">
-		<br/>
-		<br/>
-		<span class="pb-title">[Image <xsl:value-of select="@n"/>]</span>
+		<span class="pb-title"><xsl:value-of select="@n"/></span>
 	</xsl:template>
 
 	<!-- AW -->

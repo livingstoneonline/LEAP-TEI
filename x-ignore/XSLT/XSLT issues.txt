@@ -1,4 +1,11 @@
+
 <hi rend="sup underline">, and <supplied> are kicking in an extra space in front
+
+<orig><reg> kicks in extra space after (705-3)
+
+<addrLine> doesn't center (705-4)
+
+2543 - why is part of this letter rendering on right?
 
 <supplied> text is kicking in unnecessary space inside the square brackers. Toggle to edited text on the following page, then look at the last word: David Livingst [ one ]  should be David Livingst[one] Note also that a rdg tooltip should be display on this word, but is not. Instead, the <rdg> take is adding a second unnecessary empty space in front of the square brackets.
 http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000530&view_page=0
@@ -11,7 +18,7 @@ http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221
 There are also issues with <p rend="right"> at the end of a letter:
 http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221841%22&view_pid=liv%3A000490&view_page=3
 
-<p rend="center"> is breaking lines early. Additionally, in the following example an opening line break is being kicked in for <note> when it shouldn't be:
+<p rend="center"> is breaking lines early.
 http://livingstonestage.lib.umd.edu/islandora/search?f[]=dateRangeYear_mi%3A%221859%22&view_pid=liv%3A002999&view_page=0
 
 xText between lines is displaying oddly. See the end of this page:
