@@ -1,0 +1,5 @@
+for file in $( ls ${directory} ); do
+#extension="${file##*.}"
+filename="${file%.*}"
+md5 -q "${file}" > "${filename}.jpg.md5"
+done

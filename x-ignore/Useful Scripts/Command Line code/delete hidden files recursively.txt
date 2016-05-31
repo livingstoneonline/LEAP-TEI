@@ -1,0 +1,9 @@
+list files recursively
+find . -name \*.txt -print
+
+list files recursively, including hidden files
+
+find . -name \*.txt -a -print
+
+delete hidden files recursive that begin with ._
+find . -name ._\* -type f -delete

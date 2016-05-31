@@ -1,0 +1,9 @@
+In Mac, install Exif tool
+Navigate to directory with TIFF images
+Run the following script
+
+for file in $( ls ${directory} ); do
+#extension="${file##*.}"
+filename="${file%.*}"
+exiftool "${file}" > "${filename}.txt"
+done

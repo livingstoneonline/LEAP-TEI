@@ -1,0 +1,24 @@
+
+for dir in *; do [ -d "$dir" ] && cp /path/file.txt "$dir" ; done
+
+This will copy file.txt to every directory in your current location in terminal.
+
+
+
+for dir in *; do [ -d "$dir" ] && cp -rf /path/folder "$dir" ; done
+
+This will copy a folder to every sub directory in your current location in terminal.
+
+
+
+Example:
+
+1_Livingstone_Online_Digital_Collection_Beta_Release_21_October_2015.xlsx
+
+for dir in *; do [ -d "$dir" ] && cp 1_Livingstone_Online_Digital_Collection_21_Oct_2015.xlsx "$dir" ; done
+
+
+for dir in *; do [ -d "$dir" ] && cp 0_Livingstone_Online_Archival_Packet_READ_THIS_FILE_1_Apr_2016.docx "$dir" ; done
+for dir in *; do [ -d "$dir" ] && cp 0_Livingstone_Online_Archival_Packet_READ_THIS_FILE_1_Apr_2016.pdf "$dir" ; done
+for dir in *; do [ -d "$dir" ] && cp 0_Livingstone_Online_Archival_Packet_READ_THIS_FILE_1_Apr_2016.txt "$dir" ; done
+for dir in *; do [ -d "$dir" ] && cp 1_Livingstone_Online_Digital_Catalogue_1_Apr_2016.xlsx "$dir" ; done
