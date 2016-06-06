@@ -1,0 +1,19 @@
+
+
+    On the left, my life numbers are directly beside the edge of the window. If I bring them closer to the text (which I'm planning to do after seeing how the newest css looks on the site) will they still remain beside the edge of the window? If so, could you put just a little padding to the left (a few pixels)?
+
+Setting the margin or padding on the left can be done on a parent element of the content, for example this can be handled in the style.css like so:
+
+.TEI {
+    padding-left: 1em;
+}
+
+    On the right, the longest text is also up against the edge of the window. Can you put a little padding on the right?
+
+To get padding on the right you'll have to set it on the actual p tags, otherwise it's not like to have any affect. For example this can be handled in the style.css like so:
+
+.p {
+   margin-right: 1em;
+}
+
+Since these changes should be made to style.css I'll leave them to you, so we don't end up losing changes when you make other changes to style.css.

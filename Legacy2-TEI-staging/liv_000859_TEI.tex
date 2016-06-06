@@ -1,0 +1,355 @@
+\documentclass[11pt,twoside]{article}\makeatletter
+
+\IfFileExists{xcolor.sty}%
+  {\RequirePackage{xcolor}}%
+  {\RequirePackage{color}}
+\usepackage{colortbl}
+\usepackage{wrapfig}
+\usepackage{ifxetex}
+\ifxetex
+  \usepackage{fontspec}
+  \usepackage{xunicode}
+  \catcode`⃥=\active \def⃥{\textbackslash}
+  \catcode`❴=\active \def❴{\{}
+  \catcode`❵=\active \def❵{\}}
+  \def\textJapanese{\fontspec{IPAMincho}}
+  \def\textChinese{\fontspec{HAN NOM A}\XeTeXlinebreaklocale "zh"\XeTeXlinebreakskip = 0pt plus 1pt }
+  \def\textKorean{\fontspec{Baekmuk Gulim} }
+  \setmonofont{DejaVu Sans Mono}
+  
+\else
+  \IfFileExists{utf8x.def}%
+   {\usepackage[utf8x]{inputenc}
+      \PrerenderUnicode{–}
+    }%
+   {\usepackage[utf8]{inputenc}}
+  \usepackage[english]{babel}
+  \usepackage[T1]{fontenc}
+  \usepackage{float}
+  \usepackage[]{ucs}
+  \uc@dclc{8421}{default}{\textbackslash }
+  \uc@dclc{10100}{default}{\{}
+  \uc@dclc{10101}{default}{\}}
+  \uc@dclc{8491}{default}{\AA{}}
+  \uc@dclc{8239}{default}{\,}
+  \uc@dclc{20154}{default}{ }
+  \uc@dclc{10148}{default}{>}
+  \def\textschwa{\rotatebox{-90}{e}}
+  \def\textJapanese{}
+  \def\textChinese{}
+  \IfFileExists{tipa.sty}{\usepackage{tipa}}{}
+  \usepackage{times}
+\fi
+\def\exampleFont{\ttfamily\small}
+\DeclareTextSymbol{\textpi}{OML}{25}
+\usepackage{relsize}
+\RequirePackage{array}
+\def\@testpach{\@chclass
+ \ifnum \@lastchclass=6 \@ne \@chnum \@ne \else
+  \ifnum \@lastchclass=7 5 \else
+   \ifnum \@lastchclass=8 \tw@ \else
+    \ifnum \@lastchclass=9 \thr@@
+   \else \z@
+   \ifnum \@lastchclass = 10 \else
+   \edef\@nextchar{\expandafter\string\@nextchar}%
+   \@chnum
+   \if \@nextchar c\z@ \else
+    \if \@nextchar l\@ne \else
+     \if \@nextchar r\tw@ \else
+   \z@ \@chclass
+   \if\@nextchar |\@ne \else
+    \if \@nextchar !6 \else
+     \if \@nextchar @7 \else
+      \if \@nextchar (8 \else
+       \if \@nextchar )9 \else
+  10
+  \@chnum
+  \if \@nextchar m\thr@@\else
+   \if \@nextchar p4 \else
+    \if \@nextchar b5 \else
+   \z@ \@chclass \z@ \@preamerr \z@ \fi \fi \fi \fi
+   \fi \fi  \fi  \fi  \fi  \fi  \fi \fi \fi \fi \fi \fi}
+\gdef\arraybackslash{\let\\=\@arraycr}
+\def\@textsubscript#1{{\m@th\ensuremath{_{\mbox{\fontsize\sf@size\z@#1}}}}}
+\def\Panel#1#2#3#4{\multicolumn{#3}{){\columncolor{#2}}#4}{#1}}
+\def\abbr{}
+\def\corr{}
+\def\expan{}
+\def\gap{}
+\def\orig{}
+\def\reg{}
+\def\ref{}
+\def\sic{}
+\def\persName{}\def\name{}
+\def\placeName{}
+\def\orgName{}
+\def\textcal#1{{\fontspec{Lucida Calligraphy}#1}}
+\def\textgothic#1{{\fontspec{Lucida Blackletter}#1}}
+\def\textlarge#1{{\large #1}}
+\def\textoverbar#1{\ensuremath{\overline{#1}}}
+\def\textquoted#1{‘#1’}
+\def\textsmall#1{{\small #1}}
+\def\textsubscript#1{\@textsubscript{\selectfont#1}}
+\def\textxi{\ensuremath{\xi}}
+\def\titlem{\itshape}
+\newenvironment{biblfree}{}{\ifvmode\par\fi }
+\newenvironment{bibl}{}{}
+\newenvironment{byline}{\vskip6pt\itshape\fontsize{16pt}{18pt}\selectfont}{\par }
+\newenvironment{citbibl}{}{\ifvmode\par\fi }
+\newenvironment{docAuthor}{\ifvmode\vskip4pt\fontsize{16pt}{18pt}\selectfont\fi\itshape}{\ifvmode\par\fi }
+\newenvironment{docDate}{}{\ifvmode\par\fi }
+\newenvironment{docImprint}{\vskip 6pt}{\ifvmode\par\fi }
+\newenvironment{docTitle}{\vskip6pt\bfseries\fontsize{18pt}{22pt}\selectfont}{\par }
+\newenvironment{msHead}{\vskip 6pt}{\par}
+\newenvironment{msItem}{\vskip 6pt}{\par}
+\newenvironment{rubric}{}{}
+\newenvironment{titlePart}{}{\par }
+
+\newcolumntype{L}[1]{){\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{){\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{){\raggedleft\arraybackslash}p{#1}}
+\newcolumntype{P}[1]{){\arraybackslash}p{#1}}
+\newcolumntype{B}[1]{){\arraybackslash}b{#1}}
+\newcolumntype{M}[1]{){\arraybackslash}m{#1}}
+\definecolor{label}{gray}{0.75}
+\def\unusedattribute#1{\sout{\textcolor{label}{#1}}}
+\DeclareRobustCommand*{\xref}{\hyper@normalise\xref@}
+\def\xref@#1#2{\hyper@linkurl{#2}{#1}}
+\begingroup
+\catcode`\_=\active
+\gdef_#1{\ensuremath{\sb{\mathrm{#1}}}}
+\endgroup
+\mathcode`\_=\string"8000
+\catcode`\_=12\relax
+
+\usepackage[a4paper,twoside,lmargin=1in,rmargin=1in,tmargin=1in,bmargin=1in,marginparwidth=0.75in]{geometry}
+\usepackage{framed}
+
+\definecolor{shadecolor}{gray}{0.95}
+\usepackage{longtable}
+\usepackage[normalem]{ulem}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{marginnote}
+
+
+\renewcommand*{\marginfont}{\itshape\footnotesize}
+
+\def\Gin@extensions{.pdf,.png,.jpg,.mps,.tif}
+
+  \pagestyle{empty}
+
+\usepackage[pdftitle={Letter to Roderick I. Murchison},
+ pdfauthor={Livingstone, David, 1813-1873}]{hyperref}
+\hyperbaseurl{}
+
+	 \paperwidth210mm
+	 \paperheight297mm
+              
+\def\@pnumwidth{1.55em}
+\def\@tocrmarg {2.55em}
+\def\@dotsep{4.5}
+\setcounter{tocdepth}{3}
+\clubpenalty=8000
+\emergencystretch 3em
+\hbadness=4000
+\hyphenpenalty=400
+\pretolerance=750
+\tolerance=2000
+\vbadness=4000
+\widowpenalty=10000
+
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+     {-1.75ex \@plus -0.5ex \@minus -.2ex}%
+     {0.5ex \@plus .2ex}%
+     {\reset@font\Large\bfseries\sffamily}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+     {-1.75ex\@plus -0.5ex \@minus- .2ex}%
+     {0.5ex \@plus .2ex}%
+     {\reset@font\Large\sffamily}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+     {-1.5ex\@plus -0.35ex \@minus -.2ex}%
+     {0.5ex \@plus .2ex}%
+     {\reset@font\large\sffamily}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+     {-1ex \@plus-0.35ex \@minus -0.2ex}%
+     {0.5ex \@plus .2ex}%
+     {\reset@font\normalsize\sffamily}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\parindent}%
+     {1.5ex \@plus1ex \@minus .2ex}%
+     {-1em}%
+     {\reset@font\normalsize\bfseries}}
+
+
+\def\l@section#1#2{\addpenalty{\@secpenalty} \addvspace{1.0em plus 1pt}
+ \@tempdima 1.5em \begingroup
+ \parindent \z@ \rightskip \@pnumwidth 
+ \parfillskip -\@pnumwidth 
+ \bfseries \leavevmode #1\hfil \hbox to\@pnumwidth{\hss #2}\par
+ \endgroup}
+\def\l@subsection{\@dottedtocline{2}{1.5em}{2.3em}}
+\def\l@subsubsection{\@dottedtocline{3}{3.8em}{3.2em}}
+\def\l@paragraph{\@dottedtocline{4}{7.0em}{4.1em}}
+\def\l@subparagraph{\@dottedtocline{5}{10em}{5em}}
+\@ifundefined{c@section}{\newcounter{section}}{}
+\@ifundefined{c@chapter}{\newcounter{chapter}}{}
+\newif\if@mainmatter 
+\@mainmattertrue
+\def\chaptername{Chapter}
+\def\frontmatter{%
+  \pagenumbering{roman}
+  \def\thechapter{\@roman\c@chapter}
+  \def\theHchapter{\roman{chapter}}
+  \def\thesection{\@roman\c@section}
+  \def\theHsection{\roman{section}}
+  \def\@chapapp{}%
+}
+\def\mainmatter{%
+  \cleardoublepage
+  \def\thechapter{\@arabic\c@chapter}
+  \setcounter{chapter}{0}
+  \setcounter{section}{0}
+  \pagenumbering{arabic}
+  \setcounter{secnumdepth}{6}
+  \def\@chapapp{\chaptername}%
+  \def\theHchapter{\arabic{chapter}}
+  \def\thesection{\@arabic\c@section}
+  \def\theHsection{\arabic{section}}
+}
+\def\backmatter{%
+  \cleardoublepage
+  \setcounter{chapter}{0}
+  \setcounter{section}{0}
+  \setcounter{secnumdepth}{2}
+  \def\@chapapp{\appendixname}%
+  \def\thechapter{\@Alph\c@chapter}
+  \def\theHchapter{\Alph{chapter}}
+  \appendix
+}
+\newenvironment{bibitemlist}[1]{%
+   \list{\@biblabel{\@arabic\c@enumiv}}%
+       {\settowidth\labelwidth{\@biblabel{#1}}%
+        \leftmargin\labelwidth
+        \advance\leftmargin\labelsep
+        \@openbib@code
+        \usecounter{enumiv}%
+        \let\p@enumiv\@empty
+        \renewcommand\theenumiv{\@arabic\c@enumiv}%
+	}%
+  \sloppy
+  \clubpenalty4000
+  \@clubpenalty \clubpenalty
+  \widowpenalty4000%
+  \sfcode`\.\@m}%
+  {\def\@noitemerr
+    {\@latex@warning{Empty `bibitemlist' environment}}%
+    \endlist}
+
+\def\tableofcontents{\section*{\contentsname}\@starttoc{toc}}
+\parskip0pt
+\parindent2em
+\def\Panel#1#2#3#4{\multicolumn{#3}{){\columncolor{#2}}#4}{#1}}
+\newenvironment{reflist}{%
+  \begin{raggedright}\begin{list}{}
+  {%
+   \setlength{\topsep}{0pt}%
+   \setlength{\rightmargin}{0.25in}%
+   \setlength{\itemsep}{0pt}%
+   \setlength{\itemindent}{0pt}%
+   \setlength{\parskip}{0pt}%
+   \setlength{\parsep}{2pt}%
+   \def\makelabel##1{\itshape ##1}}%
+  }
+  {\end{list}\end{raggedright}}
+\newenvironment{sansreflist}{%
+  \begin{raggedright}\begin{list}{}
+  {%
+   \setlength{\topsep}{0pt}%
+   \setlength{\rightmargin}{0.25in}%
+   \setlength{\itemindent}{0pt}%
+   \setlength{\parskip}{0pt}%
+   \setlength{\itemsep}{0pt}%
+   \setlength{\parsep}{2pt}%
+   \def\makelabel##1{\upshape\sffamily ##1}}%
+  }
+  {\end{list}\end{raggedright}}
+\newenvironment{specHead}[2]%
+ {\vspace{20pt}\hrule\vspace{10pt}%
+  \label{#1}\markright{#2}%
+
+  \pdfbookmark[2]{#2}{#1}%
+  \hspace{-0.75in}{\bfseries\fontsize{16pt}{18pt}\selectfont#2}%
+  }{}
+        
+\def\TheDate{}
+\title{Letter to Roderick I. Murchison, [August 1855]}
+\author{Livingstone, David, 1813-1873}\makeatletter 
+\makeatletter
+\newcommand*{\cleartoleftpage}{%
+  \clearpage
+    \if@twoside
+    \ifodd\c@page
+      \hbox{}\newpage
+      \if@twocolumn
+        \hbox{}\newpage
+      \fi
+    \fi
+  \fi
+}
+\makeatother
+\makeatletter
+\thispagestyle{empty}
+\markright{\@title}\markboth{\@title}{\@author}
+\renewcommand\small{\@setfontsize\small{9pt}{11pt}\abovedisplayskip 8.5\p@ plus3\p@ minus4\p@
+\belowdisplayskip \abovedisplayskip
+\abovedisplayshortskip \z@ plus2\p@
+\belowdisplayshortskip 4\p@ plus2\p@ minus2\p@
+\def\@listi{\leftmargin\leftmargini
+               \topsep 2\p@ plus1\p@ minus1\p@
+               \parsep 2\p@ plus\p@ minus\p@
+               \itemsep 1pt}
+}
+\makeatother
+\fvset{frame=single,numberblanklines=false,xleftmargin=5mm,xrightmargin=5mm}
+\fancyhf{} 
+\setlength{\headheight}{14pt}
+\fancyhead[LE]{\bfseries\leftmark} 
+\fancyhead[RO]{\bfseries\rightmark} 
+\fancyfoot[RO]{}
+\fancyfoot[CO]{\thepage}
+\fancyfoot[LO]{\TheID}
+\fancyfoot[LE]{}
+\fancyfoot[CE]{\thepage}
+\fancyfoot[RE]{\TheID}
+\hypersetup{linkbordercolor=0.75 0.75 0.75,urlbordercolor=0.75 0.75 0.75,bookmarksnumbered=true}
+\fancypagestyle{plain}{\fancyhead{}\renewcommand{\headrulewidth}{0pt}}\makeatother
+    \hypersetup{pdfstartview={XYZ null null 0.75}}
+
+\begin{document}
+
+\makeatletter
+\noindent\parbox[b]{.75\textwidth}{\fontsize{14pt}{16pt}\bfseries\raggedright\sffamily\selectfont \@title}
+\vskip20pt
+\par\noindent{\fontsize{11pt}{13pt}\sffamily\itshape\raggedright\selectfont\@author\hfill\TheDate}
+\vspace{18pt}
+\makeatother
+{\newline Published by Livingstone Online (livingstoneonline.org) \newline \newline}
+    \let\cleardoublepage\clearpage
+     
+  \let\tabcellsep& {\newline \newline \noindent [0001]} \newline  \indent [...] {\gap }above its confluence with this arm  \newline and the great body of flowing deep water  \newline it there contained from 80 to 100 yards made  \newline me believe that it recieves a supply from  \newline the Northern as well as from the southern  \newline end of Dilolo. the fever having there caused  \newline vomiting of large quantities of blood I had  \newline no inclination to return and examine  \newline the curious phenomenon more minutely.  \newline But I consider it as almost quite certain  \newline that Lolem lewa parts its waters between  \newline the Atlantic and Indian Oceans. thus  \newline a portion down the CasaiZaire or  \newline Congo and another down the Leeba  \newline Zambesi. the whole of the adjacent  \newline country is exceedingly flat. In coming  \newline to Lotembwa from the North we crossed  \newline a plain 24 miles broad so level the  \newline rain water stands on it for months  \newline together and when going North we waded  \newline through another south of Northern Lotembwa  \newline 15 miles broad and a foot of water on [...] {\gap } {\newline \newline \noindent [0002]}  \newline Dilolo and the Lotembuas seem [...] {\gap } \newline  \indent As the Society is supposed to collect  \newline Geographical information from every  \newline quarter, and then acts on the eclectic  \newline principle of securing the good and true  \newline from the heaps of nonsense which  \newline travellers abroad and loungers at home  \newline may send to the crucible, I have with  \newline less diffidence than I should otherwise  \newline have felt, resolved to state some ideas  \newline which observation and native information  \newline have led me to adopt as to the form of  \newline the southern part of the continent. It is  \newline right to state also distinctly that I am  \newline now aware that the same views were  \newline clearly expressed in the anniversary speech  \newline of 1852 by the gentleman to whom this  \newline letter is addressed, yet having come to  \newline nearly the same conclusions about 3 years  \newline afterwards and by a different route, the  \newline reasons which guided my tortoise pace  \newline may though stated in my own way be  \newline accepted as a small contribution to the {\newline \newline \noindent [0003]}  \newline [...] {\gap }of the inferences deduced from the  \newline study of the map of M\textsuperscript{r} Bain. \newline  \indent In passing Northwards to Angola the  \newline presence of large Cape Heaths, Rhododendrons \&  \newline Alpine roses, and more especially the sudden  \newline descent into the valley of the Quango near  \newline Cassangé led me to believe we had been  \newline travelling on an elevated plateau. I had hopes  \newline then of finding an Aneroid at Loanda but  \newline having been disappointed in this I had to  \newline resort on our return to the next best means  \newline of measuring elevations viz. the point of  \newline ebullition of water. I have no table at  \newline hand for turning the degrees into feet and  \newline will give therefore a list of observations only  \newline and if you do not reject the instrument  \newline altogether it will be allowed that there is  \newline some plausibility at least in what follows. \newline  \indent  \par 
+\begin{longtable}{P{0.19105504587155964\textwidth}P{0.5185779816513761\textwidth}P{0.14036697247706423\textwidth}}
+\tabcellsep \tabcellsep Brisk Ebullition\\
+4210 feet\tabcellsep Top of the rocks of Pungo Andongo\tabcellsep 204º\\
+3151 - " -\tabcellsep Top of the ascent of Tala Mungongo\tabcellsep 206º\\
+2097 - " -\tabcellsep Bottom of same Ascent\tabcellsep 208º\\
+3680 - " -\tabcellsep Bottom of Eastern Ascent\tabcellsep 205º\\
+5278 - " -\tabcellsep Top of Eastern Ascent\tabcellsep 202º\end{longtable} \par
+ {\newline \newline \noindent [0004]} \newline  \indent  \par 
+\begin{longtable}{P{0.34492753623188405\textwidth}P{0.23405797101449274\textwidth}P{0.27101449275362316\textwidth}}
+Dilolo\tabcellsep 203º\tabcellsep 4741 feet\\
+Confluencce of Leeambye \& Leeba\tabcellsep 203º\tabcellsep 4791 feet\\
+Linyanti\tabcellsep 205 1/3º\tabcellsep 3521 feet\\
+Lake Ngami\tabcellsep 206º or 207º = 206 1/2\tabcellsep 2600 to 3151 feet\end{longtable} \par
+  \newline  \indent the highest point in the district of  \newline Pungo Andongo is given to shew that  \newline it is lower than the ridge which I believe  \newline is cut through the valley of Cassangé in which the Quango now flows. And  \newline the top of the ascent of Tala Mungongo  \newline which to the eye looks much higher than  \newline the Eastern ascent as if we may  \newline depend on the point of ebullition as  \newline an approximation - is in reality much  \newline lower indeed not more elevated than  \newline Lake Ngami which is clearly in a  \newline hollow. In coming along this elevated  \newline land towards the Quango we were  \newline unconsciously near the crest of a large  \newline oblong mound or ridge which probably  \newline extends through 20º of Latitude and gives  \newline rise to a remarkable number of rivers  \newline thus the Quango on the North, the Coanza {\newline \newline \noindent [0005]}  \newline \uline{4\textsuperscript{\uline{th}} Sheet} \newline  \newline on the West. the Langebongo which the  \newline latest information makes the Loeti \& the  \newline numerous streams which unite and form  \newline the Chobe on its South West. All the feeders  \newline of the Casai and that river itself on the  \newline East and probably also the Embarrah or  \newline river of Libébé on the south. Yet is by  \newline no means mountainous. The general direction of all these rivers except the  \newline Coanza and Quango being towards the  \newline centre of the continent, with Northing or  \newline Southing in addition according as  \newline they belong to the Western or Eastern  \newline main drains of the country, clearly  \newline implies the hollow or basin - form  \newline of that portion of Intertropical Africa.  \newline the country about Dilolo seems to  \newline form a partition in the basin, hence  \newline the partition of the waters of Lotembwe. \newline  \indent Viewing the basin from the Northward,  \newline we behold an immense flat intersected  \newline by rivers in almost every direction, and  \newline these are not South African mud, sand {\newline \newline \noindent [0006]}  \newline or stone rivers either, but deep never failing  \newline streams, fit to form invaluable bulwarks  \newline against enemies who can neither swim  \newline nor manage canoes - and they have  \newline numerous departing and reentering branches  \newline with lagoons and marshes ajacent so  \newline that it is scarcely possible to travel  \newline along their banks without canoes following.  \newline We bought two donkies as a present from  \newline certain merchants in Loanda to Sekelétu,  \newline and as this animal is not injured by  \newline the bite of the tsetse, they came as frisky  \newline as kids through all the flowing rivers  \newline of Londa but when we began to descend  \newline the Leeambye dragging them almost hourly  \newline through patches of water or lagoons nearly  \newline killed them and we were obliged to leave them at Naliele. these valley rivers  \newline have generally two beds one of low water  \newline and another of inundation. the period  \newline of inundation does not correspond with  \newline the rainy season here but with a period  \newline subsequent to that in the North. the  \newline flood of the Leeambye occurs in February  \newline and March while that of the Chobe from {\newline \newline \noindent [0007]}  \newline being more tortuous a month later. We hear of  \newline its as flooded 40 miles above Linyanti 8 or 10 days  \newline before it overflows there. But when they do  \newline overflow then the valley assumes the appearance  \newline of being ornamented with chains of lakes  \newline and this is probably the geologically recent  \newline form in which the great basin shewed  \newline for all the low water channels in the flats  \newline are cut out of soft calcareous tufa  \newline which the waters of this country formerly  \newline deposited most copiously. the country  \newline ajacent to the beds of inundation is  \newline excpet where rocks appear not elevated  \newline more than from 50 to 100 feet above the  \newline general level. \newline  \indent that the same formation exists on  \newline the Eastern side of the country I aver  \newline from the statements of Arabs or Moors  \newline from Zanzibar. they assert that a  \newline large branch of the Leeambye flows  \newline from the country of the Banyassa  \newline (Wunyassa) to the South West and passes  \newline near to the town of Cazembe. It is  \newline called Loapola. The Banyassa  \newline live on a ridge parallel to the East coast {\newline \newline \noindent [0008]}  \newline and though they have no Lake in their own  \newline country, they frequently trade to one on their  \newline N.N.W. My Arab informants pass this  \newline on their way home to Zanzibar. It is said  \newline to be ten days North East of Cazembe and is  \newline called Tanganyenka (Tanganyenka)   \newline and connected with another named  \newline Kalágue (Garague?) and both are  \newline stated to be so shallow the canoes are punted  \newline the whole way accross (3 days) Will it be  \newline over speculative to suppose that these  \newline large collections of fresh water are nought  \newline else but the residua of greater and deeper  \newline Lakes just as Lake Ngami is? - the openings  \newline in the Eastern ridge not being deep enough  \newline to drain those parts of the basin entirely. \newline  \indent In a foray made by the Makololo  \newline in the country about East of Masiko's  \newline during our visit to Loanda, they were  \newline accompanied by the Arab Ben Habib  \newline from whom I recieved much of the above  \newline information, and saw another river than  \newline the Loapola coming from the North East  \newline with a South West course to form a {\newline \newline \noindent [0009]}  \newline Lake named ShuiaShooea A river  \newline emerges thence which dividing forms the  \newline Bashukulompo abd Loangua rivers. There  \newline is a connection between these and the  \newline Leeambye too, a statement by no means  \newline improbable seeing the country around Shuia  \newline (Lat 14º or 15º. Long 27º or 28ºE?) is described as  \newline abounding in marsh and reedy vallies.  \newline When there the Arab pointed to the Eastern  \newline ridge whence the rivers come and said "When  \newline we see that we always know we are about  \newline to begin the descent of ten or fifteen days  \newline to the sea" \newline  \indent I am far from craving implicit  \newline faith in those statements for so many  \newline possess a sad proneness to "amiability"  \newline and will roundly assert whatever they  \newline guess will please you. "Are you happy  \newline as a slave" "O, infinitely more so than  \newline when I was free." but my object in making  \newline enquiries was unknown and when supported  \newline by the testimony of the Makololo the statements  \newline may be taken as supporting the view {\newline \newline \noindent [0010]}  \newline that the central parts of Africa south of the equator  \newline though considerably elevated above the level of  \newline the sea, form really a hollow in reference to  \newline two oblong ridges on its Eastern and Western  \newline sides. As suggestive of further enquiry  \newline only I may mention though not pretending  \newline to have examined the pretty extensive  \newline portions of the country which came under  \newline my observation with the eye and deep  \newline insight of a geologist the general direction  \newline of the ranges of hills. the dip of the strata  \newline being down towards the centre of the country  \newline led to the conclusion before I knew of the  \newline existence of the ridges - that Africa had  \newline in its formation been pressed up much  \newline more energetically at the sides than at the  \newline centre.the force which effected this may have  \newline been of the same nature as that which determined  \newline most recent volcanoes to be in the vicinity  \newline of the sea. this seems to have been the  \newline case in Angola at least and having  \newline probably been in operation over a vast  \newline extent of coast probably decided the  \newline very simple littoral outline of Africa {\newline \newline \noindent [0011]}  \newline I am inclined to make this suggestion because  \newline when the ridges are situated far from the coast  \newline they do not seem to owe their origin to  \newline recently erupted rocks. We have a section  \newline of the Western ridge near Cassangé of nearly  \newline a thousand feet perpendicularly and except  \newline a capping of Haematite mixed with quartz  \newline pebbles it is a mass of the red clay slate  \newline termed in Scotland "Keel" the thin strata  \newline of which are scarcely at all disturbed (this  \newline keel is believed to indicate gold. Had I met  \newline a nugget I would have mounted a  \newline mule instead of the ungainly beast I rode.) \newline  \indent I have mentioned Dilolo as forming  \newline a sort of partition in the valley but it is  \newline not formed by outcroping rocks one  \newline may travel a month beyond Shinte's without  \newline seeing a stone. But in proceeding south  \newline of Ngami the farther we go the greater  \newline has been filling up. the 25\textsuperscript{th} parallel  \newline of Latitude divides a part of the valley  \newline containing one thousand feet more filling up  \newline than that North of Kolobeng and strangely  \newline enough the only instance of a large {\newline \newline \noindent [0012]}  \newline transported boulder occurs first at the  \newline edge of the more hollow part. the plains to the  \newline south of that are all elevated perhaps 5000 feet  \newline above the level of the sea but the erupted  \newline rocks as that on which Kuruman stands  \newline have brought up fragments of the very old  \newline bottom rocks in their substance. \newline  \indent As I am not aware whether the Rev\textsuperscript{d}  \newline D\textsuperscript{\uline{r}} Buckland made any public use  \newline of a paper I sent in 1843 on the gradual  \newline desiccation of the Bechuana country it  \newline may not be improper to mention that  \newline in support of the actual drying up of  \newline all the rivers which have a westerly  \newline course I pointed out the bed of a  \newline still more ancient river than those  \newline trickling rills which now pass by the  \newline name. It flowed from North to South  \newline exactly as the Zambesi does now and  \newline ended in a large [Lake] which must have  \newline been discharged when the fizzure was  \newline made through which the orange river  \newline now flows. At the point of confluence  \newline between river and Lake some hills {\newline \newline \noindent [0013]}  \newline of amygdaloid caused an eddy and  \newline in the eddy we have a mound of tufa  \newline and travertin full of fossil bones. From  \newline these I had hopes of ascertaining the age  \newline of the river but in addition to be being  \newline much restricted by sacred duties as to  \newline time I have been singularly unfortunate  \newline in learning geology. I had no instrument  \newline with me when I discovered these beautiful  \newline fossils which stand out in relief on the  \newline rock. on the second occasion I was  \newline called off by express to the child of another  \newline missionary and galloped a hundred miles  \newline to find him in his grave and to crown  \newline all some epiphises and teeth which I picked up  \newline when sent with specimens to illustrate  \newline the geology of the interior though taken  \newline to England by the Rev. H. H. Methuen  \newline were stolen from the railway before  \newline reaching the venerable Doctor's hands.  \newline As it is not likely I shall ever visit  \newline the spot again I may mention that  \newline the mound is near Bootschap and  \newline well known to Rev H. Helmore who {\newline \newline \noindent [0014]}  \newline would willingly shew it to any one desirous  \newline of procuring specimens. they are perfectly  \newline fossilized and in shape resemble those of  \newline Zebras or buffaloes. \newline  \indent With respect to the spirit in which  \newline our efforts have been viewed by the  \newline Makololo, I think there is no cause  \newline for discouragement. the men of  \newline my company worked vigorously  \newline while at Loanda and saved what  \newline to them appeared considerable property.  \newline But the long journey back forced  \newline us to expend all our goods and  \newline on arriving at the Barotse we were all equally poor. Our reception  \newline and subsequent treatment were  \newline however most generous and kind.  \newline the public reports delivered by my  \newline companions were to me sufficiently  \newline flattering and their private opinions  \newline must have been in unison for {\newline \newline \noindent [0015]}  \newline many volunteers have come forward  \newline uncalled for to go to the East. A fresh  \newline party was dispatched with ivory for  \newline Loanda and only two days allowed for  \newline preparation. they are under the guidance  \newline of the afore mentioned Arab from Zanzibar  \newline the men having no voice in the disposal  \newline of the goods. they are simply to look  \newline and learn. After my late companions  \newline have rested sometime it is intended  \newline that they return as independent traders  \newline and so of the others this was not my  \newline suggestion indeed I could scarcely  \newline have expected it; for the hunger and  \newline fatigue they endured were most trying  \newline to men who have abundance of food  \newline and leizure at home. But the spirit  \newline of trade is very strong in the Africans  \newline and they are so elated with the large  \newline prices given at Loanda. If no untoward  \newline event interferes a vigorous trade will  \newline certainly be established. the knowledge {\newline \newline \noindent [0016]}  \newline of the great value of ivory puts a stop to  \newline the slave trade in a very natural way  \newline our cruizers on the West coast render  \newline property in slaves of very small value  \newline there - the Mambari who are generally  \newline subjects of Kangombe of Bihé or  \newline Bié purchase slaves for domestic  \newline purposes only but to make such  \newline a long journey as that from Bié  \newline to the Batoka Country, East of the Makololo at all profitable, they  \newline must secure a tusk or two. these  \newline can only be got among certain  \newline small tribes who depend chiefly  \newline on agriculture for subsistence  \newline and are so destitute of iron they often  \newline use hoes of wood. they may be induced to part with ivory and  \newline children for iron implements but  \newline for nothing else. the Mambari tried  \newline cloth and beads unsuccessfully but  \newline hoes were irresistable, the {\newline \newline \noindent [0017]}  \newline The above ideal section of the country between 9¨ and 10¨ South Latitude and 13¨ - 18¨ East Longitude is sent with a sense  \newline of its many imperfections. I would scarcely have ventured to send it at all in its present state, but having once indulged  \newline the hope of forming a geological map of the country North of the Orange river as far as Lake Ngami I made a very extensive  \newline collection of specimens of rocks for the purpose. As I did not know many of them while waiting for farther information  \newline I lost both specimens and papers in the destruction of Kolobeng by the Boers. This misfortune makes me anxious to  \newline send any information I can pick up out of harm's way. The following additional remarks may not be out of the way. \newline  \indent Between 3 and 4 in the district of Cazengo the igneous rocks indicated at 2 have evidently ran through gorges  \newline in the mountain ranges 4444 and have tilted up schist, gneiss \&c. and in the latter veins may be seen or rather  \newline cracks filled with a dark blue rock exactly like clay slate. Between 3 and 4 too in the districts of Cazengo  \newline and Golungo Alto abundance of excellent iron ore occurs. some strongly magnetic, others not; but all very  \newline largely impregnated with the metal. To the North of 2 and 3 near the river Dande Petroleum is reported and  \newline so it is said to occur - southwards of 5 from under the dark red sandstone which forms the crust of the  \newline country. the spot reported is on the banks of the Coauya and near Cambambe. Veins of copper appear on  \newline the banks of the Coauya in the same district but I did not see them. the rocks of Pungo Andongo (7) are large  \newline masses of conglomerate about 300 or 400 feet above the surrounding country. they stand in parallel lines nearly  \newline N. and S. in direction and rather more than a mile in length the conglomerate stands on horizontal strata of dark red  \newline sandstone and this in a very small proportion to the other materials forms the matrix. there are granite, gneiss, porphyry,  \newline schist, clay, and sandstone, trap syenite greenstone - quartzite \&c \&c all rounded and waterworn and forming immense  \newline masses of shingle. there is also a kind of soft limestone containing sea shell on the tops of some of the rocks D.L. \newline  \indent Remarks.  \newline 1) Lowlands adjacent  \newline to rivers and extending  \newline about 50 miles from  \newline the coast. composed  \newline chiefly of calcareous  \newline Tufa and a marly  \newline rock composed of lime \&  \newline friable clay, containing  \newline many sea shells. modern  \newline near the coast, ancient inland.\label{p9r-01} \newline  \indent 2) Porphyritic trap  \newline having dark red angular  \newline chrystals embedded in it.  \newline 3) Pale red sandstone  \newline tilted up from the West.  \newline 4) Micaceous schist  \newline stratified and tilted up  \newline a great variety of  \newline angles but generally  \newline from the West \& S:W:\label{p9r-02} \newline  \indent 5) Clay slate and  \newline sandstone schist  \newline 6)Gneiss lying under coarse sandstone grit  \newline and occasionally brown  \newline haematite  \newline 7)Large masses of  \newline shingly conglomerate  \newline 300 or 400 feet high\label{p9r-03} \newline  \indent 8) Coarse dark red  \newline sandstone with pebbles  \newline of greywacke, granite  \newline clay schist \&c in beds  \newline the sandstone itself  \newline lying in thick horizontal  \newline strata  \newline 9) The same sandstone  \newline \sout{but} without pebbles but  \newline having much yellow mica scales\label{p9r-04} \newline  \indent 10) Soft bright red  \newline clay which gradually  \newline becomes harder as  \newline we descend to the  \newline bottom of the valley  \newline a mountain called Casala near the village  \newline Cas\sout{am}sange has the very  \newline same structure as the descent\label{p9r-05} \newline  \indent No rocks  \newline appear above  \newline ground till we  \newline approach the  \newline Zambesi the opposite  \newline descent has  \newline the same red clay structure\label{p9r-06}
+\end{document}
