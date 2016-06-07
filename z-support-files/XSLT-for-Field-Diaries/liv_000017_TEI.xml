@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000017">
+	<!-- Change @xml:id -->
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<!-- Change title below -->
+				<title>Field Diary XVII, 9 April-27 April 1873</title>
+				<title type="alternative">Field Diary XVII, 9 April-27 April 1873</title>
+				<author>David Livingstone</author>
+				<principal>Adrian S. Wisnicki</principal>
+				<principal>Christopher Lawrence</principal>
+				<!-- Change and add items below as appropriate -->
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+				</respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+				<respStmt xml:id="MW">
+					<name>Megan Ward</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+				</respStmt>
+				<respStmt xml:id="HB">
+					<name>Heather F. Ball</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+				</respStmt>
+				<respStmt xml:id="KS">
+					<name>Kate Simpson</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+				</respStmt>
+				<respStmt xml:id="JM">
+					<name>Jared McDonald</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+				</respStmt>
+				<respStmt xml:id="AA">
+					<name>Angela Aliff</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+				</respStmt>
+				<respStmt xml:id="AK">
+					<name>Ashanka Kumari</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+				</respStmt>
+				<respStmt xml:id="EC">
+					<name>Erin Cheatham</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+				</respStmt>
+				<respStmt xml:id="SF">
+					<name>Samantha Fitch</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+				</respStmt>
+				<respStmt xml:id="AM">
+					<name>Anne Martin</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<publisher>University of Maryland Libraries</publisher>
+				<pubPlace>College Park, MD, USA</pubPlace>
+				<date>2015</date>
+				<!-- Change -->
+				<availability>
+					<!-- Change as appropriate -->
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/"> All materials are licensed
+						for use under the <ref target="https://creativecommons.org/licenses/by-nc/3.0/"> Creative
+						Commons Attribution-Noncommercial 3.0 Unported License</ref>. (c) Dr. Neil Imray Livingstone
+						Wilson, 2015 </licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<!-- Change items below as appropriate -->
+						<country>United Kingdom</country>
+						<settlement>Blantyre</settlement>
+						<repository>David Livingstone Centre</repository>
+						<idno type="shelfmark">Cat 360</idno>
+						<altIdentifier>
+							<idno type="ccnumber">Field Diaries, 030</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<physDesc>
+						<handDesc>
+							<!-- Add <handNote>s if needed. -->
+							<handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David
+								Livingstone's.</handNote>
+							<handNote xml:id="JW"><label>Jacob Wainwright</label> This hand is that of Jacob Wainwright, one of DL's African followers</handNote>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+				<bibl type="sourceMetadata">
+					<title>Field Diary XVII, 9 April-27 April 1873</title>
+					<author xml:id="DL">David Livingstone</author> <date type="composition" from="1873-04-09"
+					to="1873-04-27">9 April-27 April 1873</date> </bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+				<language ident="und">Unknown</language>
+				<language ident="grc">Ancient Greek</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2016-06-06" who="#CL">Proofing</change>
+			<change when="2016-01-05" who="#HB">Final corrections/TEI incorporations</change>
+			<change when="2015-11-02" who="#HB">Quality Control and Integration</change>
+			<change when="2015-10-26" who="#AM">Proofreading</change>
+			<change when="2015-10-19" who="#AW">Formatting tweaks</change>
+			<change when="2015-10-18" who="#KS">Transcription and TEI Encoding</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<front>
+	<pb facs="liv_000017_0001" n="0001"/>
+<lb/><p><!--Outside of notebook, leather bound with large "4" imprinted upside-down about halfway down--></p>			
+        </front>
+
+		<body>
+			<div rend="black"> <!-- Adrian, I would categorize this color as black, but want to check with you as both AM and KS left as brown. HB --><!-- Black OK. AW -->	
+				<gb/>
+
+
+	<pb facs="liv_000017_0002" n="0002"/>
+<lb/><fw n="heading_XVII" rend="large gray">XVII</fw>
+<lb/><p rend="center"><placeName>Moselabamba</placeName> <placeName><region><choice><abbr>S</abbr><expan>South</expan></choice> of
+<lb/><unclear cert="low">Gonda - chite</unclear></region></placeName> <measure>one day off</measure></p>
+<lb/><space dim="vertical" extent="20" unit="lines"/>
+
+	<pb facs="liv_000017_0003" n="0003"/>
+<lb/><p><!--blank page--></p>	
+
+	<pb facs="liv_000017_0004" n="0004"/>
+<lb/><fw n="heading_XVII" rend="large center">XVII.</fw>
+<lb/><milestone unit="section" rend="line gray"/>
+<lb/><p><date when="1873-04-09">9<hi rend="sup">th</hi> April 1873</date> - at <placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice>
+<lb/><choice><sic>Monikazi</sic><corr>Muanakazi</corr></choice></geogName></placeName> or <placeName><geogName type="river"><choice><sic>Munikazi</sic><corr>Muanakazi</corr></choice></geogName></placeName></p>
+<lb/><milestone unit="section" rend="double-line gray"/>
+<lb/><p rend="no-indent"><choice><sic>copied</sic><corr>Copied</corr></choice> = from <bibl>XVI</bibl> =
+<lb/><date when="1873-04-05">5<hi rend="sup underline">th</hi> April 1873</date> March from
+<lb/><placeName><settlement type="village"><persName>Kabinga</persName>'s</settlement></placeName> on <placeName><geogName type="river"><choice><orig>Chambeze</orig><reg>Chambezi</reg></choice></geogName></placeName>
+<lb/>luggage in canoes &amp;
+<lb/>men on land = We
+<lb/>punted on flood <measure>6 <choice><abbr>ft</abbr><expan>feet</expan></choice>
+<lb/>deep</measure> with many
+<lb/><term type="insect">ant</term>hills all about
+<lb/>covered with trees -
+<lb/>course <choice><abbr>SSE</abbr><expan>South South East</expan></choice> - for <measure>5 miles</measure>
+<lb/>to across <placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice> Lolingela</geogName></placeName>
+<lb/>sluggish &amp; of <measure>300 yards</measure></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><date when="1873-04-06">6<hi rend="sup underline">th</hi></date> Leave in the
+<lb/>same way, but men
+<lb/>were sent from <persName>Kabinga</persName>
+<lb/>to steal the canoes
+
+	<pb facs="liv_000017_0005" n="0005"/>
+<lb/>which we paid his
+<lb/>brother <persName>Matipa</persName> for
+<lb/>handsomely - a stupid
+<lb/><term type="occupation">drummer</term> beat the
+<lb/>alarm by which we
+<lb/>were called inland
+<lb/>and found the main
+<lb/>body of people gone on
+<lb/>By this the <orgName>party</orgName> was
+<lb/>separated and we
+<lb/>pulled &amp; punted <measure>6 or
+<lb/>7 hours</measure> <choice><abbr>S - W -</abbr><expan>South West</expan></choice> in great
+<lb/>difficulty as the <term type="occupation"><w>fisher<supplied>-</supplied>
+<lb break="no"/>men</w></term> we saw refused 
+<lb/>to <choice><orig>shew</orig><reg>show</reg></choice> us where the
+<lb/>deep water lay - The
+<lb/><placeName><region>whole country South
+<lb/>of the Lake</region></placeName> was covered <!--geog: Bangweolo -->
+<lb/>with water thickly dotted
+<lb/>over with <term type="plant">Lotus leaves</term>
+<lb/>and rushes - It has a
+<lb/>greenish appearance
+<lb/>and it might be well
+
+	<pb facs="liv_000017_0006" n="0006"/>
+<lb/>to <choice><orig>shew</orig><reg>show</reg></choice> the spaces
+<lb/>annually flooded by a
+<lb/>broad wavy band <measure>20
+<lb/>30 and even 40 miles</measure>
+<lb/>out from the permanent
+<lb/>banks coloured light
+<lb/>green - the broad
+<lb/><unclear cert="medium">Estuaries</unclear> of <measure>50 or
+<lb/>more miles</measure> into
+<lb/>which the rivers
+<lb/>form themselves
+<lb/>might be coloured
+<lb/>blue, but it is quite
+<lb/>impossible at
+<lb/>present to tell where
+<lb/>land ends &amp; Lake <!--geog: Bangweolo-->
+<lb/>begins - It is all
+<lb/>"water water everywhere"
+<lb/>and seems to be
+<lb/>kept from flowing
+<lb/>quickly off by the
+
+	<pb facs="liv_000017_0007" n="0007"/>
+<lb/>narrow bed of the
+<lb/><placeName><geogName type="river">Luapula</geogName></placeName> which has
+<lb/>perpendicular banks
+<lb/>worn deep down in
+<lb/>New red sandstone -
+<lb/>It is the <placeName><geogName type="river">Nile</geogName></placeName> apparently
+<lb/>enacting its inundations
+<lb/>even at its sources -
+<lb/>The amount of water
+<lb/>spread over the country
+<lb/>constantly excites my
+<lb/>wonder - it is prodigious
+<lb/>Many of the <term type="insect">ant</term>hills
+<lb/>are cultivated and
+<lb/>covered with <term type="plant">dura</term>
+<lb/><term type="plant_foodstuff">pumpkins</term> = <term type="plant_foodstuff">beans</term> -
+<lb/><term type="plant_foodstuff">maize</term> but the waters
+<lb/>yield food plenteously
+<lb/>in <term type="animal">fish</term> and <term type="plant">Lotus
+<lb/>roots</term> - a species of
+<lb/><term type="plant_foodstuff">wild rice</term> grows but
+<lb/>the people <choice><sic>dont</sic><corr>don't</corr></choice> need or
+<lb/>know it -</p>
+
+	<pb facs="000017_0008" n="0008"/>
+<lb/><p>A <orgName>party of <term type="occupation">fishermen</term></orgName>
+<lb/>fled from us - but by
+<lb/>coaxing we got them
+<lb/>to <choice><sic>shews</sic><corr>show us</corr></choice> deep water -
+<lb/>they then <choice><orig>shewed</orig><reg>showed</reg></choice> us
+<lb/>an islet about <measure>30 <choice><abbr>yds</abbr><expan>yards</expan></choice>
+<lb/>square</measure> without wood
+<lb/>&amp; desired us to sleep
+<lb/>there - we went on
+<lb/>and they decamped</p>
+<lb/><p rend="no-indent"><seg type="weather">Pitiless pelting showers
+<lb/>wet everything</seg> but
+<lb/>near sunset we saw
+<lb/>two <term type="occupation">fishermen</term> paddling
+<lb/>quickly off from an
+<lb/><term type="insect">ant</term>hill with a hut &amp;
+<lb/>plenty of <term type="animal">fish</term> and some 
+<lb/>fire wood - there we
+<lb/>spent the night and
+<lb/>watched by turns lest
+<lb/><orgName>thieves</orgName> should come
+<lb/>and haul away
+<lb/>our canoes &amp; goods
+<lb/><seg type="weather">Heavy rain</seg> = and
+
+	<pb facs="000017_0009" n="0009"/>
+<lb/>one canoe sank and
+<lb/>wet everything in her
+<lb/>The leaks in her had
+<lb/>been stopped with clay
+<lb/>and a man sleeping
+<lb/>near the stern had
+<lb/>displaced these frail
+<lb/><unclear cert="medium">shores</unclear> - Did not touch
+<lb/>the <term type="animal">fish</term> and cannot
+<lb/>conjecture who has
+<lb/>inspired fear in all
+<lb/>the <orgName>inhabitants</orgName></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><date when="1873-04-07">7<hi rend="sup underline">th</hi></date> Went on <choice><abbr>SW</abbr><expan>South West</expan></choice> &amp;
+<lb/>saw two men who
+<lb/>guided us to the <placeName><geogName type="river">river
+<lb/><choice><sic>Munikazi</sic><corr>Muanakazi</corr></choice></geogName></placeName> which
+<lb/>forms a connecting
+<lb/>link between the <placeName><geogName type="river">river
+<lb/>Lotingela</geogName></placeName> and
+<lb/>the <placeName><geogName type="river">Lolotikila</geogName></placeName> about
+<lb/>the <placeName><region>Southern borders
+<lb/>of the flood</region></placeName> - men
+<lb/>were hunting and
+
+	<pb facs="000017_0010" n="0010"/>
+<lb/>we passed near large
+<lb/>herds of <term type="animal">antelopes</term>
+<lb/>which made a rushing
+<lb/>plunging sound as
+<lb/>they ran &amp; sprang
+<lb/>away among the
+<lb/>water - a <term type="animal">lion</term> had
+<lb/>wandered in this <unclear cert="low"><add place="marginright">? ; <gap extent="4" unit="chars" reason="illegible"/></add></unclear>
+<lb/>world of water and
+<lb/><term type="insect">ant</term>hills, and roared
+<lb/>night &amp; morning as
+<lb/>if very much <w>dis-
+<lb break="no"/>-gusted</w> and we could
+<lb/>sympathize with
+<lb/>him - the men took
+<lb/>us to near the <placeName><geogName type="river"><choice><sic>Munikazi</sic><corr>Muanakazi</corr></choice></geogName></placeName>
+<lb/>and left us well pleased
+<lb/>with the payment at
+<lb/>a broad bank of
+<lb/>shallow water near
+<lb/>the river at which we <!-- geog: Muanakazi -->
+<lb/>had to unload and
+<lb/>haul - The <orgName>natives</orgName>
+
+	<pb facs="000017_0011" n="0011"/>
+<lb/>beating a drum on our
+<lb/>East made us believe
+<lb/>them to be <orgName>our party</orgName> &amp;
+<lb/>some thought that
+<lb/>they heard two shots
+<lb/>This misled us &amp;
+<lb/>we went towards them
+<lb/>through <term type="plant">Papyrus</term>
+<lb/><term type="plant">Tall rushes</term> - <term type="plant">Arums</term>
+<lb/>and grass till tired
+<lb/>out and took refuge
+<lb/>on an <term type="insect">ant</term>hill for the
+<lb/>night - <term type="animal">lion</term> roaring
+<lb/>We were lost in stiff
+<lb/>grassy prairies -
+<lb/>from <measure>three to four
+<lb/>feet deep</measure> - of water -<add place="above"><measure>5 <hi rend="double-underline">hours</hi></measure></add></p>
+<lb/><milestone unit="section" rend="double-line"/>
+<lb/><p>Fired again in the 
+<lb/>stillness of night
+<lb/>but <choice><sic>recieved</sic><corr>received</corr></choice> no
+<lb/>answer - so on the
+<lb/><date when="1873-04-08">8<hi rend="sup underline">th</hi></date> we sent a
+<lb/>small canoe at
+
+	<pb facs="000017_0012" n="0012"/>
+<lb/>daybreak to ask for
+<lb/>information and 
+<lb/><term type="occupation">guides</term> from the
+<lb/><term type="occupation">drummer</term> village =
+<lb/>Two came and they
+<lb/>too thought that <orgName>our
+<lb/>party</orgName> was on the East
+<lb/>but in that direction
+<lb/>the water was about
+<lb/><measure><measure>15 inches</measure> in spots &amp; 
+<lb/><measure>three feet</measure></measure> in others 
+<lb/>which caused constant 
+<lb/>dragging of the large 
+<lb/>canoe all day and 
+<lb/>at last unloading
+<lb/>at another branch of
+<lb/>the <placeName><geogName type="river"><choice><sic>Monikazi</sic><corr>Muanakazi</corr></choice></geogName></placeName> with
+<lb/>a village of friendly
+<lb/>people where we slept
+<lb/><space extent="10" unit="chars"/><measure>5 hours</measure> <choice><abbr>E</abbr><expan>East</expan></choice> &amp; by <choice><abbr>S</abbr><expan>South</expan></choice></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent">All hands at the large
+<lb/>canoe could move
+<lb/>her only a few
+
+	<pb facs="000017_0013" n="0013"/>
+<lb/>feet - <term type="plant">rushes</term> <term type="plant">Papyrus</term>
+<lb/><term type="plant">Arums</term> - <term type="plant_foodstuff">wild rice</term>
+<lb/>and <term type="plant">stiff aquatic
+<lb/>grasses</term> - putting all
+<lb/>their strength to her
+<lb/>she stopped at every
+<lb/>haul with a jerk as
+<lb/>if in bank of adhesive
+<lb/>plaster - Measured
+<lb/>the crown of a <term type="plant">Papyrus
+<lb/>plant or palm</term>
+<lb/>3 feet across <w>horizon<supplied>-</supplied>
+<lb break="no"/>tally</w> and stalk 8 feet
+<lb/>in height - Hundreds
+<lb/>of a large dark grey
+<lb/>hairy <term type="insect">caterpillar</term> have
+<lb/>cleared off the <term type="plant">rushes</term>
+<lb/>nearly in spots &amp;
+<lb/>now live on each
+<lb/>other - they can
+<lb/>make only the smallest
+<lb/>progress by swimming
+
+	<pb facs="000017_0014" n="0014"/>
+<lb/>or rather wriggling
+<lb/>in the water - their
+<lb/>motion is that of a
+<lb/>watch spring thrown
+<lb/>down and dilating &amp;
+<lb/>contracting</p>
+<lb/><milestone unit="section" rend="line"/>	
+<lb/><p><date when="1873-04-09">9<hi rend="sup double-underline">th</hi></date> <measure><choice><sic>after</sic><corr>After</corr></choice> two hours</measure>
+<lb/>threading the very
+<lb/>winding deep channel
+<lb/>of this <placeName><geogName type="river">southern
+<lb/>branch of <placeName><geogName type="river"><choice><sic>Munikazi</sic><corr>Muanakazi</corr></choice></geogName></placeName></geogName></placeName>
+<lb/>we came to where
+<lb/><orgName>our party</orgName> had crossed 
+<lb/>it and gone on to
+<lb/><persName>Gandochite</persName> a <term type="occupation">chief</term>
+<lb/>on the <placeName><geogName type="river">Lolotikila</geogName></placeName> -
+<lb/>men were all done
+<lb/>up so hired a man
+<lb/>to call our men to
+<lb/>take the loads but
+<lb/>he was stopped by
+<lb/>his relations in the
+<lb/>way saying "you
+
+	<pb facs="000017_0015" n="0015"/>
+<lb/>ought to have one of
+<lb/>the <orgName><choice><sic>travellers</sic><corr>travellers'</corr></choice> own
+<lb/>people</orgName> with you" - He
+<lb/>returned but did not
+<lb/>tell us plainly or truly
+<lb/>till <date when="1873-04-09">this morning</date></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><date when="1873-04-10">10<hi rend="sup underline">th</hi></date> <choice><sic>the</sic><corr>The</corr></choice> <term type="occupation">headman</term>
+<lb/>of the village explained
+<lb/>and we sent two of our
+<lb/>men who had a night's
+<lb/>rest with the turn
+<lb/>again of <date when="1873-04-09">yesterday</date>
+<lb/>(<space extent="4" unit="chars"/>I am pale bloodless
+<lb/>and weak from <term type="ailment">bleeding</term>
+<lb/>profusely ever since 
+<lb/>the <date when="1873-03-31">31<hi rend="sup underline">st</hi> March</date> = last
+<lb/>an artery gives off
+<lb/>a copious stream
+<lb/>and <unclear cert="high"><choice><sic>lakes</sic><corr>takes</corr></choice></unclear> away my
+<lb/>strength = Oh how I
+<lb/>long to be permitted
+<lb/>by the Overpower to
+<lb/>finish my work - )</p>
+			</div> 
+
+			<div rend="gray">
+	<pb facs="000017_0016" n="0016"/>
+<lb/><p rend="gray"><hi rend="underline">Pollux <measure>100˚ - 5' 20'</measure> <date when="1873-04-10">10<hi rend="sup">th</hi> April</date></hi>
+<lb/><date when="1873-04-10">10 April</date> <figure><figDesc>Page-length map of star positions with degrees and rough locations.</figDesc></figure>
+<lb/><placeName><geogName type="river"><choice><sic>Munikazi</sic><corr>Muanakazi</corr></choice> <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName></p>
+
+	<pb facs="000017_0017" n="0017"/> <!-- Adrian I cannot comment this section out because of the other comment tags, but in previous transcriptions AM has just written calculations in a figure tag for these. HB --><!-- Fixed. AW -->
+<lb/><p><hi rend="gray"><placeName><geogName type="river"><choice><sic>Munikazi</sic><corr>Muanakazi</corr></choice> <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName> <date when="1873-04-11">11<hi rend="sup underline">th</hi> April <add place="below">1873</add></date></hi></p>
+
+<lb/><list><head><choice><abbr>Bar.</abbr><expan>Barometer</expan></choice> 6 AM</head>
+
+	<cb rend="left"/>
+<lb/><item><measure>25.80</measure></item>
+<lb/><item><measure>26.05</measure></item>
+<lb/><item><measure>25.59</measure></item></list> 
+
+	<cb rend="center left"/>
+<metamark/><!-- Curly bracket grouping items on left with this --><lb/><p>68˚.5 
+<lb/>clear 
+<lb/>calm</p>
+
+	<cb rend="center right"/>
+<lb/><metamark/><!-- contained in a double lined box on the right of the page --><list><head>9 AM clear</head> 
+<lb/><item><measure>25.85</measure></item>
+<lb/><item><measure>25..05</measure></item>
+<lb/><item><measure>25.62</measure></item></list>
+
+	<cb rend="right"/>
+<metamark/><!-- Curly bracket grouping items on left with this --><lb/>
+<lb/><p>74</p>
+			</div> 
+
+			<div rend="black gray"> <!-- Still not sure if this shouldn't be black vs brown?? HB --><!-- Black and gray to reflect text and undertext. AW -->
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><!-- gray undertext overwriten in pen --><date when="1873-04-12">12<hi rend="sup underline">th</hi></date> <choice><sic>cross</sic><corr>Cross</corr></choice> <placeName><geogName type="river"><choice><sic>Munikazi</sic><corr>Muanakazi</corr></choice></geogName></placeName>
+<lb/>about <measure><measure>100 or 130 <choice><abbr>yds</abbr><expan>yards</expan></choice> broad</measure>
+<lb/>and <measure>deep</measure></measure> = great loss of
+<lb/><hi rend="underline">Haema</hi> made <add place="below">^</add> <add place="above">me</add> so weak
+<lb/>I could scarcely walk but
+<lb/>tottered along nearly two
+<lb/>hours then lay down
+<lb/>quite done = cooked <term type="plant_foodstuff">coffee</term> <seg rend="gray">=</seg>
+<lb/>our last = &amp; went on
+<lb/>but in an hour was
+<lb/>compelled to lie down =
+<lb/>very unwilling to be
+<lb/>carried but on being
+<lb/>pressed allowed the men
+<lb/>to help me along by
+<lb/>relays to <unclear cert="medium"><placeName><geogName type="river"><hi rend="underline">Chinama</hi></geogName></placeName></unclear>
+<lb/>where much cultivation
+<lb/>is carried on = camped in
+<lb/>garden of <term type="plant">Dura</term> <choice><abbr>S.</abbr><expan>South</expan></choice> <measure><hi rend="underline">3<choice><orig>½</orig><reg>1/2</reg></choice></hi></measure></p><!-- end of overwriting/underwriting -->
+			</div> 
+
+			<div rend="gray">
+	<pb facs="000017_0018" n="0018"/>
+<lb/><p><date when="1873-04-13">13<hi rend="sup underline">th</hi> April 1873</date> <choice><sic>found</sic><corr>Found</corr></choice>
+<lb/>that we had slept on the
+<lb/>right bank of the <placeName><geogName type="river">Loitikila</geogName></placeName>
+<lb/>a sluggish marshy 
+<lb/>looking river = very
+<lb/>winding but here going
+<lb/>about <placeName><region><choice><abbr>S.W.</abbr><expan>South West</expan></choice> country</region></placeName>
+<lb/>All so very flat all the
+<lb/>rivers down here are
+<lb/>of necessity tortuous
+<lb/><term type="animal">fish</term> &amp; other food <w>abun<supplied>-</supplied>
+<lb break="no"/>-dant</w> - people civil &amp;
+<lb/>reasonable - they usually
+<lb/>partake largely of the
+<lb/>character of the <term type="occupation">chief</term> &amp;
+<lb/>this one <persName>Gando chite</persName> is
+<lb/>polite - <seg type="weather">sky clearing
+<lb/>&amp; South East wind is
+<lb/>the lower stratum
+<lb/>now - It is the dry
+<lb/>season well begun
+<lb/><measure>73 inches</measure> is a higher
+<lb/>rain fall than has
+
+	<pb facs="000017_0019" n="0019"/>
+<lb/>been observed anywhere
+<lb/>else = even in <placeName><region>Northern
+<lb/>Manyuema</region></placeName> it was
+<lb/>lower in inches than
+<lb/>here far <placeName><region>South on the
+<lb/>watershed</region></placeName> = In fact
+<lb/>this is the very heaviest
+<lb/>rainfall known in
+<lb/>these latitudes = between
+<lb/><measure>50 &amp; 60</measure> in the maximum</seg></p>
+<lb/><p><choice><sic>one</sic><corr>One</corr></choice> sees <choice><sic>intermin-</sic><corr><w>intermin-
+<lb break="no"/><supplied cert="high"><app><rdg>able</rdg><rdg>gling</rdg></app></supplied></w></corr></choice> grassy prairies with
+<lb/>lines of trees occupying
+<lb/><measure>quarters of miles</measure> in
+<lb/>breadth &amp; then to give
+<lb/>way to <foreign xml:lang="und">Buga</foreign> or prairie
+<lb/>again - the <foreign xml:lang="und">Buga</foreign> is
+<lb/>flooded annually
+<lb/>but its vegetation is
+<lb/>dry land grasses =
+<lb/>Other <foreign xml:lang="und">Bugas</foreign> extend
+<lb/>out from the Lake <!---geog: -->
+
+	<pb facs="000017_0020" n="0020"/>
+<lb/><measure>10 - 20 - 30 or even
+<lb/>40 miles</measure> and are
+<lb/>known by aquatic 
+<lb/>vegetation <term type="plant">Lotus</term> -
+<lb/><term type="plant">papyrus</term> = <term type="plant">arums</term> -
+<lb/><term type="plant">rushes</term> of different 
+<lb/>species and many
+<lb/>kinds of purely
+<lb/>aquatic subaqueous
+<lb/>plants that send up
+<lb/>their flowers only to
+<lb/>fructify in the sun
+<lb/>and then sink to
+<lb/>ripen, one bunch after
+<lb/>another, others with
+<lb/>great <term type="plant_foodstuff">cabbage</term> looking
+<lb/>leaves seem to remain
+<lb/>at the bottom always
+<lb/>the young of <term type="animal">fish</term>
+<lb/>swarm and bob in
+<lb/>and out from the
+<lb/>leaves = a species
+
+	<pb facs="000017_0021" n="0021"/>
+<lb/>of soft <term type="plant">moss</term> grows
+<lb/>on most plants and
+<lb/>seems to be good
+<lb/>fodder for <term type="animal">fishes</term>
+<lb/>fitted by hooked or
+<lb/>turned up noses to
+<lb/>guide it into their
+<lb/>maws = one species
+<lb/>of <term type="animal">fish</term> has the lower 
+<lb/>jaw turned down into
+<lb/>a hook which enables
+<lb/>the animal to hold 
+<lb/>the mouth close to the 
+<lb/>plant as it glides up
+<lb/>or down sucking <add place="below">^</add> <add place="above">in</add> all
+<lb/>its soft pulpy food -
+<lb/>The superabundance
+<lb/>of gelatinous nutriment
+<lb/>makes the swarmers
+<lb/>increase in bulk with
+<lb/>extraordinary rapidity</p>
+
+	<pb facs="000017_0022" n="0022"/>
+<lb/><p rend="no-indent"><date when="1873-04-13">13<hi rend="sup underline">th</hi> April 1873 <choice><abbr>Cont<hi rend="sup">d</hi></abbr><expan>Continued</expan></choice></date>
+<lb/><milestone unit="section" rend="line"/>
+<lb/>and make the food
+<lb/>supply of the people <w>plen-
+<lb break="no"/>-teous</w> = the numbers
+<lb/>of <term type="animal">fish</term> caught by weirs
+<lb/>baskets, and nets now
+<lb/>as the waters decline
+<lb/>are prodigious = They
+<lb/>feel the element <w>becom<supplied>-</supplied>
+<lb break="no"/>-ing</w> insufficient for
+<lb/>comfort and retire
+<lb/>from one <foreign xml:lang="und">buga</foreign> to
+<lb/>another towards the 
+<lb/>Lake, and the narrower <!-- geog: -->
+<lb/>parts are duly prepared
+<lb/>by weirs to take <w>ad-
+<lb break="no"/>-vantage</w> of their <w>neces<supplied>-</supplied>
+<lb break="no"/>-sities</w> <seg type="weather">the <choice><sic>suns</sic><corr>sun's</corr></choice> heat
+<lb/>seems to oppress
+<lb/>them &amp; force them to 
+<lb/>flee</seg></p>
+			</div> 
+
+			<div rend="black"> <!-- Again, is this how brown ages, or should it be black? HB --><!-- Let's call it black. AW -->
+	<pb facs="000017_0023" n="0023"/>
+<lb/><p><seg type="weather">With the South East
+<lb/>aerial current comes
+<lb/>heat, and sultriness -</seg>
+<lb/>a blanket is scarcely
+<lb/>needed until the early 
+<lb/>hours of the morning =
+<lb/>and here, after the
+<lb/><term type="animal">turtle doves</term> and <term type="animal">cocks</term>
+<lb/>give out their <w>warn-
+<lb break="no"/>-ing</w> calls to the watchful,
+<lb/>the <term type="animal">fish eagle</term> lifts
+<lb/>up his remarkable voice
+<lb/>It is pitched on a high
+<lb/>falsetto key - very
+<lb/>loud, and seems as
+<lb/>if he were calling
+<lb/>to someone in the
+<lb/>other world = once
+<lb/>heard his weird <w>un-
+<lb break="no"/>earthly</w> voice can
+<lb/>never be forgotten
+<lb/>It sticks to one through life</p>
+
+	<pb facs="000017_0024" n="0024"/>
+<lb/><p><date when="1873-04-13">13 April <w>187<choice><sic>2</sic><corr>3</corr></choice></w> <choice><abbr>Cont<hi rend="sup underline">d</hi></abbr><expan>Continued</expan></choice></date>
+<lb/><milestone unit="section" rend="line"/>
+<lb/>We were <measure>four hours</measure>
+<lb/>in being ferried over
+<lb/>the <placeName><geogName type="river">Loitikila</geogName></placeName>, or <placeName><geogName type="river"><w>Lolo-
+<lb/>-tikila</w></geogName></placeName> in four small
+<lb/>canoes and then <measure>2
+<lb/>hours</measure> <choice><abbr>S-W-</abbr><corr>South West</corr></choice> down its
+<lb/>left bank to another
+<lb/>river where our camp
+<lb/>had been formed -
+<lb/>sent over a present
+<lb/>to the <term type="occupation">headman</term> and
+<lb/>a man returned with
+<lb/>the information that
+<lb/>he was ill at another
+<lb/><choice><abbr>vil</abbr><expan>village</expan></choice> - but his wife
+<lb/>would seek canoes
+<lb/><date when="1873-04-14">tomorrow</date> to <w>trans-
+<lb break="no"/>-port</w> us over and
+<lb/>set us on our way
+<lb/>to <unclear cert="medium"><persName>Muawzabanza</persName></unclear>
+
+	<pb facs="000017_0025" n="0025"/> <!-- Adrian, again these measurements are usually commented out, but cannot comment out with a comment tag within - how proceed? HB -->
+<lb/>South West and
+<lb/>over <placeName><geogName type="river">Lolotikila</geogName></placeName> again</p>
+
+<lb/><milestone unit="section" rend="double-line gray"/>
+			</div>
+
+			<div rend="black gray">
+<lb/><p><!-- the following section is pen overwritten pencil --><date when="1873-04-14">14<hi rend="sup underline">th</hi></date> <choice><sic>at</sic><corr>At</corr></choice> a branch of the
+<lb/><placeName><geogName type="river">Lolotikila</geogName></placeName> <seg type="weather">clear sky</seg></p>
+
+	<cb rend="left"/>
+<lb/><list><item><measure>25.90</measure></item>
+<lb/><item><measure>26.11</measure></item>
+<lb/><item><measure>25.70</measure></item></list>  
+
+	<cb rend="center left"/>
+<metamark/><!-- Curly bracket grouping items on left with this --><lb/><p>7AM 
+<lb/>66˚</p>
+
+	<cb rend="center right"/>
+<lb/><p>AM 9 =</p>
+<lb/><metamark/><!-- Double-line box --><list><item><measure>29.93</measure></item> 
+<lb/><item><measure>26.14</measure></item>
+<lb/><item><measure>25.71</measure></item></list>
+
+	<cb rend="right"/>
+<metamark/><!-- Curly bracket grouping items on left with this --><lb/><p><seg rend="gray">9 AM</seg>
+<lb/>71˚
+<lb/>clear
+<lb/>windy</p>
+			</div> 
+
+			<div rend="gray">
+<lb/><milestone unit="section" rend="double-line"/><!-- line extends only about 3/4 width of page AM -->
+
+	<cb rend="left"/>
+<lb/><list><item>3 PM</item>
+<lb/><item><measure>25.90</measure></item>
+<lb/><item><measure>26.10</measure></item>
+<lb/><item><measure>25.68</measure></item></list>
+
+	<cb rend="center"/>
+<metamark/><!-- Curly bracket grouping items on left with this --><lb/>
+<lb/><p>80˚ 
+<lb/>clear 
+<lb/>windy</p>
+
+	<cb rend="left"/>
+<lb/><milestone unit="section" rend="double-line"/>
+<lb/><p><date when="1873-04-15">15<hi rend="sup underline">th</hi></date> <choice><sic>cross</sic><corr>Cross</corr></choice> <placeName><geogName type="river">Loitikila</geogName></placeName>
+<lb/>again where it is only <measure>50
+<lb/>yards</measure> by canoes = and
+<lb/>went <choice><abbr>S.W.</abbr><expan>South West</expan></choice> <measure>an hour</measure>
+<lb/>I being very weak had to
+<lb/>be carried a part of the
+<lb/>way and glad of resting
+<lb/><!-- character similar to apostrophe appears here - may be part of following foreign word AM --><foreign xml:lang="grc">αίμα</foreign> flow copiously
+<lb/>last night, woman
+<lb/>wife of <term type="occupation">chief</term> gave a
+<lb/>present of a <term type="animal">goat</term> &amp; <term type="plant_foodstuff">maize</term></p>
+
+	<pb facs="000017_0026" n="0026"/>
+<lb/><p><date when="1873-04-16">16<hi rend="sup underline">th</hi> April 1873</date> - Went
+<lb/><choice><abbr>S.W.</abbr><expan>South West</expan></choice> <measure>2<choice><orig>½</orig><reg>1/2</reg></choice> hours</measure> and
+<lb/>crossed the <placeName><geogName type="river">Lombatwa <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName>
+<lb/>of <measure><measure>100 yards</measure> = <measure>neck deep</measure></measure>
+<lb/>and flowing fast in
+<lb/>aquatic vegetation
+<lb/><term type="plant">Papyrus</term> &amp;c <choice><abbr>W.</abbr><expan>West</expan></choice> into the
+<lb/><placeName><geogName type="river">Loitikila</geogName></placeName> = In all about
+<lb/><choice><abbr>S.W</abbr><expan>South West</expan></choice> = <space extent="15" unit="chars"/><measure><hi rend="double-underline">3</hi></measure></p> <!-- Adrian, need to standardize how these rightmargin measurements are coded - both rend right and spacing tags, or one/other? HB --><!-- One or the other. What's done here is fine. AW -->
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><date when="1873-04-17">17<hi rend="sup double-underline">th</hi></date> <seg type="weather"><choice><sic>a</sic><corr>A</corr></choice> tremendous rain</seg>
+<lb/>after dark burst all
+<lb/>our now rotten <choice><sic>tent</sic><corr cert="low">tents</corr></choice>
+<lb/>to shreds - Went on at
+<lb/>6-35 for <measure>3 hours</measure> = &amp;
+<lb/>I who was suffering
+<lb/>severely all night had to
+<lb/>rest - got water near the
+<lb/>surface by digging in
+<lb/>yellow sand - three hills
+<lb/>now appear in distance
+<lb/>course <choice><abbr>S.W</abbr><expan>South West</expan></choice> <measure>3<choice><orig>¾</orig><reg>3/4</reg></choice></measure> to a 
+
+	<pb facs="000017_0027" n="0027"/>
+<lb/>village on <placeName><geogName type="river">Kazya <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName>
+<lb/>A <orgName><placeName><region>Nyassa</region></placeName> man</orgName> declared
+<lb/>that his father had
+<lb/>brought the <seg type="weather">heavy rain</seg>
+<lb/>of <date when="1873-04-16">16<hi rend="sup">th</hi></date> on us - we crossed
+<lb/>three sponges</p>
+<lb/><milestone unit="section" rend="double-line"/>
+<lb/><p><date when="1873-04-18">18<hi rend="sup underline">th</hi></date> <choice><sic>on</sic><corr>On</corr></choice> leaving the
+<lb/><choice><abbr>vil</abbr><expan>village</expan></choice> on <placeName><geogName type="river">Kazya</geogName></placeName> we
+<lb/>forded it &amp; found it
+<lb/><measure><measure>70 yards broad</measure> - <measure>waist
+<lb/>to breast deep</measure></measure> all over
+<lb/>a large weir spanned
+<lb/>&amp; we went on the 
+<lb/>lower side of that -
+<lb/>much <term type="plant">Papyrus</term> &amp; other
+<lb/>aquatic plants in it -
+<lb/>the <term type="animal">fish</term> retiring now
+<lb/>with the falling waters
+<lb/>are guided into the 
+<lb/><term type="plant">rush cones</term> set for
+<lb/>them - crossed two
+<lb/>large sponges and
+
+	<pb facs="000017_0028" n="0028"/>
+<lb/>I was forced to stop at
+<lb/>a village after <choice><abbr>SW</abbr><expan>South West</expan></choice> <measure><hi rend="double-underline">2</hi></measure>
+<lb/>Ill all night = very = but
+<lb/>remembered that the
+<lb/><term type="ailment">bleeding</term> &amp; most other
+<lb/>ailments in this land
+<lb/>are forms of <term type="ailment">fever</term> took
+<lb/>two scruple doses of
+<lb/><term type="medicament">quinine</term> &amp; stopped it
+<lb/>quite =</p>
+<lb/><milestone unit="section" rend="double-line"/>
+<lb/><p><date when="1873-04-19">19<hi rend="sup underline">th</hi></date> <seg type="weather"><choice><sic>a</sic><corr>A</corr></choice> fine bracing
+<lb/><choice><abbr>S.E</abbr><expan>South East</expan></choice> breeze</seg> kept me
+<lb/>on the <term type="animal">donkey</term> across
+<lb/>a broad sponge and
+<lb/>over flats of white
+<lb/>sandy soil, and
+<lb/>much cultivation for
+<lb/>an hour and a half
+<lb/>When we stopped at a 
+<lb/>large village on the right
+<lb/>bank of <space unit="chars" extent="10"/>and <!--think DL has left a space here to insert the name of the river at a later date-->
+<lb/>men went over to the 
+<lb/><term type="occupation">chief</term> <persName>Muanzabamba</persName>
+
+	<pb facs="000017_0029" n="0029"/>
+<lb/>to ask canoes to cross
+<lb/><date when="1873-04-20">tomorrow</date> = I am <w>excessive<supplied>-</supplied>
+<lb break="no"/>ly</w> weak &amp; but for the
+<lb/><term type="animal">donkey</term> could not move
+<lb/><measure>a hundred yards</measure> = It
+<lb/>is not all pleasure
+<lb/>this exploration - the
+<lb/><placeName><geogName type="hills">Lavusi hills</geogName></placeName> are a
+<lb/>relief to the eye in
+<lb/>this flat upland
+<lb/>their forms <choice><orig>shew</orig><reg>show</reg></choice> an
+<lb/>igneous origin = the
+<lb/><placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice> Kazya</geogName></placeName> comes
+<lb/>from them and goes
+<lb/>direct into the Lake = <!-- geog: -->
+<lb/>no observations 
+<lb/>now owing to great
+<lb/>weakness = I can
+<lb/>scarcely hold the
+<lb/>pencil &amp; my stick
+<lb/>is a burden = Tent
+<lb/>gone the men build
+<lb/>a good hut for me &amp;
+<lb/>the luggage <choice><abbr>SW-</abbr><expan>South West</expan></choice> <measure>1 <hi rend="underline"><choice><orig>½</orig><reg>1/2</reg></choice></hi></measure></p>
+
+	<pb facs="000017_0030" n="0030"/>
+<lb/><p rend="no-indent"><date when="1873-04-20">20<hi rend="sup underline">th</hi> April 1873 = <choice><abbr>S.</abbr><expan>Sunday</expan></choice></date> service
+<lb/>cross over the <add place="below">^</add> <add place="above">sponge</add> <placeName><geogName type="sponge">Moenda</geogName></placeName>
+<lb/>for food &amp; to be near the
+<lb/><term type="occupation">headman</term> of these parts
+<lb/><persName>Muanzabamba</persName> - I am
+<lb/>excessively weak =
+<lb/><choice><abbr>vil</abbr><expan>village</expan></choice> <del type="cancelled">R</del> <placeName><geogName type="sponge">Moenda</geogName></placeName> <add place="below">^</add> <add place="above">sponge</add> 7 AM</p>
+
+	<cb rend="left"/><!-- Again, should these be commented out? HB --><!-- Let stand. AW -->
+<lb/><list><item><measure>25.88</measure></item>
+<lb/><item><measure>26.12</measure></item>
+<lb/><item><measure>25.70</measure></item></list> 
+
+	<cb rend="center"/>
+<metamark/><!-- Curly bracket grouping items on left with this --><lb/><p>66˚
+<lb/>clouds 
+<lb/>high</p>
+
+	<cb rend="left"/>
+<lb/><p>cross <placeName><geogName type="river">Lukolu</geogName></placeName> in a canoe
+<lb/><choice><abbr>R.</abbr><expan>River</expan></choice> is about <measure><measure>30 <choice><abbr>yds</abbr><expan>yards</expan></choice> broad</measure>
+<lb/><measure>very deep</measure></measure> and flowing
+<lb/>in marshes - <measure>2 knots</measure>
+<lb/>from <choice><abbr>SSE</abbr><expan>South South East</expan></choice> to <choice><abbr>NNW</abbr><expan>North North West</expan></choice>
+<lb/>into Lake</p> <!-- geog: -->
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><date when="1873-04-21">21<hi rend="sup">st</hi></date> Tried to ride but was
+<lb/>forced to lie down and
+<lb/>they carried me back to
+<lb/><choice><abbr>vil.</abbr><expan>village</expan></choice> exhausted</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><date when="1873-04-22">22<hi rend="sup">d</hi></date> <choice><sic>carried</sic><corr>Carried</corr></choice> in <foreign xml:lang="und">Kitanda</foreign>
+<lb/>over <foreign xml:lang="und">Buga</foreign> <choice><abbr>SW</abbr><expan>South West</expan></choice> <space extent="4" unit="chars"/><measure>2<choice><orig>¼</orig><reg>1/4</reg></choice></measure></p>
+
+
+	<pb facs="000017_0031" n="0031"/>
+<lb/><p rend="no-indent"><date when="1873-04-23">23<hi rend="sup underline">d</hi></date> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="4" unit="chars"/><measure>1<choice><orig>½</orig><reg>1/2</reg></choice></measure> <!-- Adrian, should this be reformatted as a list? HB --><!-- No. AW -->
+<lb/><date when="1873-04-24">24</date> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="4" unit="chars"/><measure>1.</measure>
+<lb/><date when="1873-04-25">25<hi rend="sup underline">th</hi></date> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="4" unit="chars"/><measure>1</measure>
+<lb/><date when="1873-04-26">26<hi rend="sup"><unclear>th</unclear></hi></date> <choice><abbr>Do</abbr><expan>Ditto</expan></choice> <space extent="4" unit="chars"/><measure>2<choice><orig>½</orig><reg>1/2</reg></choice></measure></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><choice><sic>to</sic><corr>To</corr></choice> <placeName><settlement type="village"><choice><sic><persName>KalungoMofu</persName>s</sic><corr><persName>KalungoMofu</persName>'s</corr></choice></settlement></placeName>
+<lb/>total <measure>33˚</measure> <space extent="6" unit="chars"/>= <measure>8<choice><orig>¼</orig><reg>1/4</reg></choice></measure></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><date when="1873-04-27">27</date> <choice><sic>knocked</sic><corr>Knocked</corr></choice> up quite
+<lb/>and remain = recover
+<lb/>sent to buy <term type="animal"><choice><orig>milch</orig><reg>milk</reg></choice> 
+<lb/>goats</term> - We are on the
+<lb/>banks of <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Molilamo</geogName></placeName></p>
+<lb/><space dim="vertical" unit="lines" extent="7"/>
+			</div> 
+
+			<div rend="upside-down gray">
+	<pb facs="000017_0032" n="0032"/>
+<lb/><!-- continues from n="0033", this text is not DLs and runs in the opposite direction to the rest of the notebook --><ab><add place="inline" hand="#JW">half <unclear><choice><sic>scrople</sic><corr cert="low">scruple</corr></choice></unclear>.</add>
+
+	<pb facs="000017_0033" n="0033"/>
+<lb/><!-- text runs in opposite direction from DLs --><add place="inline" hand="#JW">11 <choice><sic>o,cloak</sic><corr>o'clock</corr></choice> <add place="above">night</add> . - <date when="1873-04-28">28<hi rend="sup underline">th</hi> .April</date>
+<lb/><milestone unit="section" rend="half-line"/><!-- line stretches across center part of page AM -->
+<lb/>In the chest was found
+<lb/>about a shilling and
+<lb/>half, and <add place="above">in</add> another chest
+<lb/>his hat, 1 watch, and 2
+<lb/>small boxes of measuring
+<lb/><add place="above">instrument</add> and <del type="strikethrough">on</del> in each box
+<lb/>there was one. 1 <w>com-
+<lb break="no"/>pass</w>, 3 other kind of <w>mea-
+<lb break="no"/>suring</w> instrument;
+<lb/>4 other <choice><sic>kind</sic><corr>kinds</corr></choice> of <w>measur<supplied>-</supplied>
+<lb break="no"/>ing</w> <choice><sic>instrument</sic><corr>instruments</corr></choice>.
+<lb/>And in other chest 3
+<lb/><del type="strikethrough">and half</del> <add place="below">and half</add> <choice><sic>drachmas</sic><corr cert="low">drachms</corr></choice></add></ab>
+
+	<pb facs="000017_0034" n="0034"/>
+<!-- blank page -->
+
+	<pb facs="000017_0035" n="0035"/>
+<lb/><p rend="no-indent"><foreign xml:lang="und"><term type="animal">Nyemela</term></foreign> = <term type="animal">Tsessébe</term>
+<lb/><foreign xml:lang="und"><term type="animal">Konze</term></foreign> = <term type="animal">Hartebeest</term>
+<lb/><foreign xml:lang="und"><term type="animal">Dope</term></foreign> = <term type="animal">Wildebeest</term>
+<lb/><foreign xml:lang="und"><term type="animal">Nyumbo</term></foreign> = <term type="animal">gnu</term></p>
+<lb/><space dim="vertical" unit="lines" extent="5"/>
+<lb/><milestone unit="section" rend="line black"/>
+<lb/><p rend="no-indent"><hi rend="underline black"><foreign xml:lang="und">Kopa</foreign> =  <foreign xml:lang="und">Gando chite</foreign> =</hi></p>
+<lb/><space dim="vertical" unit="lines" extent="3"/>
+<lb/><p rend="no-indent"><placeName><geogName type="hills">Lavusi Hills</geogName></placeName> <measure>3</measure> <choice><abbr>S</abbr><expan>South</expan></choice> of
+<lb/><choice><abbr>vil</abbr><expan>village</expan></choice> <placeName><settlement type="village">Mueze</settlement></placeName> <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Kazya</geogName></placeName>
+<lb/>comes from them - is
+<lb/><measure><measure>70 yards broad</measure> = <measure>waist
+<lb/>&amp; breast deep</measure></measure> now &amp;
+<lb/>has a strong weir right
+<lb/>across</p>
+
+	<pb facs="000017_0036" n="0036"/>
+<lb/><figure><figDesc>Annotated insert from the Stirling University Conservation Project from 1986.</figDesc></figure>
+
+	<pb facs="000017_0037" n="0037"/>
+<!-- pre-printed calendar for 1868 -->
+
+	<pb facs="000017_0038" n="0038"/>
+<!-- outside back cover-->
+
+
+			</div> 
+		</body>
+
+	</text>
+</TEI>
