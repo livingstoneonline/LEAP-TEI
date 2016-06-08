@@ -22,7 +22,7 @@ Table of Contents
 /* 1. Textual divisions */
 
 div.transcription{
-	margin-left:0px;
+	margin-left:0px; /*Needs to be changed back to auto*/
 	margin-right:auto;
 	width:50%;/*Needs to be changed back to 100%*/
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
@@ -495,7 +495,8 @@ td{
 	display:inline-block;
 }
 .p .figure,
-.p.noindent .figure{
+.p.noindent .figure,
+.ab .figure{
 	margin-left:0px !important;
 }
 .metamark{
