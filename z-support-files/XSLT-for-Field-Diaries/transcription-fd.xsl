@@ -207,7 +207,7 @@
 	<xsl:template match="choice/sic">
 		<span class="sic diplomatic ">
 			<xsl:if test="../corr">
-				<xsl:attribute name="title">corr: <xsl:value-of select="../corr"/></xsl:attribute>
+				<xsl:attribute name="title">corrected version: <xsl:value-of select="../corr"/></xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates/>
 		</span>
@@ -468,6 +468,26 @@
 
 	<!-- For "orig" see above -->
 
+	<xsl:variable name="orgName" select="doc('orgName.xml')"/>
+	<xsl:template match="orgName">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the organization -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisOrgName" select="$orgName//org[@xml:id=$id]"/>
+				<xsl:value-of select="$thisOrgName/orgName[@type='main']"/><xsl:text>. </xsl:text>
+				<xsl:value-of select="normalize-space($thisOrgName/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>Group, organization, or other collective not based on nationality.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<span class="orgName" title="{$title}"><xsl:apply-templates/></span>
+	</xsl:template>
+
 	<!-- Not sure what this does. AW -->
 	<xsl:template match="jc:page">
 		<div class="page">
@@ -488,6 +508,27 @@
 		<span class="pb-title del-pb">
 			<xsl:value-of select="@n"/>
 		</span>
+	</xsl:template>
+
+	<xsl:variable name="people" select="doc('people.xml')"/>
+	<xsl:template match="persName">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the person -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisPerson" select="$people//person[@xml:id=$id]"/>
+				<xsl:value-of select="$thisPerson/persName[@type='main']"/><xsl:text>. </xsl:text>
+				<xsl:if test="$thisPerson/birth|$thisPerson/death">(<xsl:value-of select="concat($thisPerson/birth, '-', $thisPerson/death)"/>).  </xsl:if>
+				<xsl:value-of select="normalize-space($thisPerson/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>A person.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<span class="persName" title="{$title}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<!-- @placeName plus others. To eliminate two spans and addition of whitespace in HTML -->
