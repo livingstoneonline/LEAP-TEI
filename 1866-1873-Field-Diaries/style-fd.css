@@ -22,12 +22,19 @@ Table of Contents
 /* 1. Textual divisions */
 
 div.transcription{
-	margin-left:auto;
+	margin-left:0px; /*Needs to be changed back to auto*/
 	margin-right:auto;
-	width:100%;
+	width:50%;/*Needs to be changed back to 100%*/
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:.9em;
 	white-space: nowrap;
+	color:#310d05;
+}
+div.upsidedown{
+	-ms-transform:rotate(0deg) !important; /* IE 9 */
+	-moz-transform:rotate(0deg) !important; /* Firefox */
+	-webkit-transform:rotate(0deg) !important; /* Safari and Chrome */
+	-o-transform:rotate(0deg) !important; /* Opera */
 }
 .TEI{
 	display:block;
@@ -42,9 +49,19 @@ div.transcription{
 .front,
 .back{
 	display:block;
+	padding-bottom:2.4em;
 }
 .div{
 }
+h2{
+	margin-left:11%;
+	color:black;
+}/*Slightly wonky solution since all other left margins are 9%.*/
+.marginhead{
+	margin-left:11%;
+	font-size: 1.2em;
+	color:black;
+}/*This is just a temporary solution to get the author in <p> properly placed. 9%*/
 
 
 /* 2. Letters */
@@ -496,4 +513,12 @@ p. metamark{
 }
 .quote{
 	display:block;
+}
+
+ /*13. Defined elements */
+.orgName{
+	border-bottom:2px green dotted;
+}
+.persName{
+	border-bottom:2px purple dotted
 }
