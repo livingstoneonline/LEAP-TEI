@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001270"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Joseph B. Braithwaite</title><!-- Change -->
+                <title type="alternative">Letter to Joseph B. Braithwaite, 6 March 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JZ"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+            	<respStmt xml:id="AD"><!-- Add or remove individuals from the list as appropriate -->
+            		<name>Amzie Dunekacke</name><!-- Change -->
+            		<resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+            		<resp>Encoding</resp>
+					<resp>Proofing</resp>
+            	</respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001270</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country><!-- Change as needed -->
+                        <settlement>Edinburgh</settlement><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 20312, ff. 41-42</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0748</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Joseph B. Braithwaite, 6 March 1858</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-03-06">6 March 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Birkenhead</placeName><!-- Change -->
+                    <persName type="addressee">Joseph B. Braithwaite</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-06-14" who="#AD">Proofing</change>
+            <change when="2016-06-09" who="#JZ">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001270_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><date when="1858-03-06">6 March 1858</date></dateline>
+<lb/><space extent="4" unit="chars"/><placeName><settlement type="town">Birkenhead</settlement></placeName> 
+<lb/><persName>Bevan Braithwaite<choice><abbr>Esq</abbr><expan>Esquire</expan></choice></persName>
+<lb/><salute>My Dear Friend,</salute></opener><!-- Change line info as appropriate -->
+<lb/><p rend="right">I enclose a note
+<lb/>from <persName>D<hi rend="sup underline">r</hi> Tidman</persName> and
+<lb/>an answer which if
+<lb/>you see no objection
+<lb/>to I shall trouble you
+<lb/>to forward. I also send
+<lb/><persName>M<hi rend="sup underline">r</hi> John Moffat</persName>'s
+<lb/>letter in reference to it
+<lb/>if you think it better not
+<lb/>to send the letter burn it
+
+	<pb facs="liv_001270_0002" n="0002"/>
+<lb/>I have kept no copy</p>
+<lb/><p><persName>M<hi rend="sup underline">s</hi> Wilbraham Taylor</persName>
+<lb/>went to <persName>D<hi rend="sup underline">r</hi> Tidman</persName>
+<lb/>about the other or pecuniary
+<lb/>matter and as you will
+<lb/>see by an enclosure
+<lb/>from him that is
+<lb/>satisfactorily arranged
+<lb/><unclear cert="low">pushed</unclear> a writing but
+<lb/>they take care to do the
+<lb/>opposite of what
+<lb/><term type="occupation">lawyers</term> are liable too
+<lb/>they are very chary of
+<lb/>words on paper
+
+	<pb facs="liv_001270_0003" n="0003"/>
+<lb/>you need not return either
+<lb/>of these. I am off on
+<lb/><choice><sic>monday</sic><corr>Monday</corr></choice> <unclear cert="medium">forenoon</unclear>, the
+<lb/><unclear cert="medium">Pearl</unclear> is out of dock
+<lb/>with <unclear cert="low">merth</unclear> the Launch on
+<lb/><unclear cert="medium">board</unclear>. It pleases us
+<lb/>better than we expected</p>
+<lb/><p>I <unclear cert="high">advised</unclear> John to
+<lb/>make a <unclear cert="medium">destruction</unclear> between
+<lb/>the men in power and
+<lb/>the society itself - It is
+<lb/>not unlikely but that
+<lb/>after <unclear cert="low">Jenn</unclear> some they may
+<lb/><unclear cert="medium">utter insimations against</unclear>
+
+	<pb facs="liv_001270_0004" n="0004"/>
+<lb/>I am not conscious of any one
+<lb/>thing that can be brought up
+<lb/>against me but should
+<lb/>there be and especially in the
+<lb/>"British Banner" which is
+<lb/>in the hands of <persName>D<hi rend="sup">r</hi> Tidman</persName> he
+<lb/>should like to know of it
+<lb/>and if you thought it <unclear cert="medium"><app><rdg cert="high">advisable</rdg><rdg>advisally</rdg></app></unclear> 
+<lb/>would answer it. In the
+<lb/>mean time I commit my 
+	<lb/><unclear cert="medium">way</unclear> into the Lord &amp; trust he
+<lb/>will guide me as he has
+<lb/>done. I shall think over the
+<lb/>matter of your notes</p>
+<lb/><closer rend="indent">In the mean while
+<lb/>may every blessing be on you &amp; yours
+<lb/><signed><persName>David Livingstone</persName></signed></closer>
+
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

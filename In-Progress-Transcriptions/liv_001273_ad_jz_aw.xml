@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001273"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            	<title>Letter to Agnes Livingstone 3, 6 March 1858</title><!-- Change -->
+                <title type="alternative">Letter to Agnes Livingstone 3, 6 March 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AD"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Amzie Dunekacke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+<respStmt xml:id="JZ"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                    <resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001273</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country><!-- Change as needed -->
+                        <settlement>Edinburgh</settlement><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 10704, ff. 7-8</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0751</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Agnes Livingstone 3, 6 March 1858</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-03-06">6 March 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Birkenhead (England)</placeName><!-- Change -->
+                    <persName type="addressee">Agnes Livingstone 3</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-14" who="#AW">Proofing and coding review</change>
+			<change when="2016-06-14" who="#JZ">Proofing</change>
+            <change when="2016-06-09" who="#AD">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001273_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+
+<lb/><opener><dateline rend="right"><placeName><settlement type="town">Birkenhead</settlement></placeName> <add place="above" hand="#U">7</add>
+<lb/><seg rend="left diagonal"><add hand="#U"><hi rend="underline">3</hi></add></seg> <date when="1858-03-06">6<hi rend="sup underline">th</hi> March 
+<lb/><space extent="3" unit="chars"/> 1858</date></dateline>
+<lb/>   
+<lb/><salute>My Dear <persName>Agnes</persName></salute></opener><!-- Change line info as appropriate -->
+
+<lb/><p>The Pearl went 
+<lb/>out of dock
+<lb/>today <!--Uses a plus size in the letter, should this be denoted with a "&amp;" JZ?--><!-- Yes. AW --> &amp; sails 
+<lb/>on <choice><sic>monday</sic><corr>Monday</corr></choice>
+<lb/>forenoon, We
+<lb/>go on <unclear cert="high">board</unclear>
+<lb/>at 8 in the morning 
+
+	<pb facs="liv_001273_0002" n="0002"/>
+<lb/><persName>Mama</persName><!-- gray area --> has been
+<lb/>putting all the
+<lb/>things in the
+<lb/>cabin in order
+<lb/>and sends her
+<lb/>love</p>        	
+<lb/><p>Now you
+<lb/>are commmitted
+<lb/>to the care of
+<lb/>God Almighty
+<lb/>May he give
+
+	<pb facs="liv_001273_0003" n="0003"/>
+<lb/>you much
+<lb/>grace and 
+<lb/>be merciful
+<lb/>to you - <space extent="2" unit="chars"/>Write
+<lb/>to <persName>Robert</persName>
+<lb/>Never do 
+<lb/>anything you
+<lb/>would be
+<lb/>ashamed to
+<lb/><gap extent="2" unit="lines" agent="hole"/>
+
+	<pb facs="liv_001273_0004" n="0004"/>
+<lb/>and may the
+<lb/>Lord be very 
+<lb/>gracious to you</p>
+<lb/><!--Unsure if this is a paragraph break. JZ--><p>Kind <unclear cert="high">regards</unclear>
+<lb/>to your <term type="occupation">teacher</term>
+<lb/><!--Uses a plus size in the letter, should this be denoted with a "&amp;"?-->&amp; <unclear cert="high">friends</unclear> also
+<lb/>to <persName>M<hi rend="sup underline">rs</hi> Buchanan</persName> 
+<lb/>when you see
+<lb/>her</p> <closer><salute>I am</salute> &amp;c
+<lb/><gap extent="2" unit="lines" agent="hole"/><supplied cert="high"><persName>David Livingstone</persName></supplied></closer>
+
+        	</div>
+        </body>
+    </text>
+
+</TEI>
