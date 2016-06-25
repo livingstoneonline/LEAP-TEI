@@ -1,0 +1,38 @@
+<anchor xml:id="envelopePosition" type="positionMarker"/>
+
+
+
+	<xsl:template match="anchor/ab|anchor/addSpan|anchor/pb|anchor[@type='positionMarker']|pb/addSpan">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+
+
+	<xsl:template match="tei:addSpan[preceding-sibling::node()[1][name()='anchor']]|tei:addSpan[preceding-sibling::node()[2][name()='anchor']]|tei:addSpan[preceding-sibling::node()[1][name()='pb']]|tei:addSpan[preceding-sibling::node()[2][name()='pb']]|tei:ab[preceding-sibling::node()[1][name()='anchor']]|tei:ab[preceding-sibling::node()[2][name()='anchor']]|tei:pb[preceding-sibling::node()[1][name()='anchor']]|tei:pb[preceding-sibling::node()[2][name()='anchor']]|anchor[@type='positionMarker']">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+
+	<xsl:template match="tei:addSpan|tei:p[preceding-sibling::node()[1][name()='anchor']]|tei:p[preceding-sibling::node()[2][name()='anchor']]">	
+		<br/>
+		<xsl:apply-templates/>
+	</xsl:template>
+
+
+
+
+anchor/p = paragraph *inside* anchor
+
+
+tei:addSpan|
+tei:p[preceding-sibling::node()[1][name()='anchor']]|
+tei:p[preceding-sibling::node()[2][name()='anchor']]
+
+tei:addSpan[preceding-sibling::node()[1][name()='anchor']]|
+tei:addSpan[preceding-sibling::node()[2][name()='anchor']]|
+tei:addSpan[preceding-sibling::node()[1][name()='pb']]|
+tei:addSpan[preceding-sibling::node()[2][name()='pb']]|
+tei:ab[preceding-sibling::node()[1][name()='anchor']]|
+tei:ab[preceding-sibling::node()[2][name()='anchor']]|
+tei:pb[preceding-sibling::node()[1][name()='anchor']]|
+tei:pb[preceding-sibling::node()[2][name()='anchor']]
