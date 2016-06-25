@@ -13,7 +13,7 @@
 		<xd:desc>
 			<xd:p><xd:b>Author:</xd:b> Adrian S. Wisnicki</xd:p>
 			<xd:p>Extensive revisions</xd:p>
-			<xd:p>Updated in May 2016.</xd:p>
+			<xd:p>Updated in Mary 2016.</xd:p>
 		</xd:desc>
 	</xd:doc>
 	<xsl:output method="xml" indent="yes"/>
@@ -34,7 +34,7 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="style.css"/>
 				<title>
-					<xsl:value-of select="//teiHeader//title[2]"/>
+					<xsl:value-of select="//teiHeader//title[1]"/>
 				</title>
 				<!--<link type="text/css" rel="stylesheet" href="http://jamescummings.github.io/LEAP/style.css"/>-->
 			</head>
@@ -260,26 +260,6 @@
 		</span>
 	</xsl:template>
 
-
-	<!-- Start of addSpan/anchor -->
-
-	<xsl:template match="tei:addSpan[preceding-sibling::node()[1][name()='p']]|tei:addSpan[preceding-sibling::node()[2][name()='p']]|p/addSpan">
-		<br/>
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<xsl:template match="tei:addSpan|p/anchor">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<xsl:template match="tei:anchor">		
-		<xsl:apply-templates/>
-		<br/>
-	</xsl:template>
-
-	<!-- End of addSpan/anchor -->
-
-
 	<!-- app: show first rdg -->
 	<xsl:template match="app">
 		<span class="app">
@@ -357,7 +337,7 @@
 	</xsl:template>
 
 	<!-- foreign should be italiced in edited view -->
-	<xsl:template match="foreign" xml:space="preserve">
+<!--  <xsl:template match="foreign" xml:space="preserve">
 		<span class="foreign diplomatic">
 		<xsl:if test="@xml:lang">
 			<xsl:attribute name="title">
@@ -373,7 +353,7 @@
 			</xsl:attribute>
 		</xsl:if>
 			<xsl:apply-templates/></span>
-		</xsl:template>
+		</xsl:template>-->
 
 	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
@@ -478,6 +458,26 @@
 
 	<!-- For "orig" see above -->
 
+	<xsl:variable name="orgName" select="doc('orgName.xml')"/>
+	<xsl:template match="orgName">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the organization -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisOrgName" select="$orgName//org[@xml:id=$id]"/>
+				<xsl:value-of select="$thisOrgName/orgName[@type='main']"/><xsl:text>. </xsl:text>
+				<xsl:value-of select="normalize-space($thisOrgName/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>Group, organization, or other collective not based on nationality.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<span class="orgName" title="{$title}"><xsl:apply-templates/></span>
+	</xsl:template>
+
 	<!-- Not sure what this does. AW -->
 	<xsl:template match="jc:page">
 		<div class="page">
@@ -498,6 +498,27 @@
 		<span class="pb-title del-pb">
 			<xsl:value-of select="@n"/>
 		</span>
+	</xsl:template>
+
+	<xsl:variable name="people" select="doc('people.xml')"/>
+	<xsl:template match="persName">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the person -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisPerson" select="$people//person[@xml:id=$id]"/>
+				<xsl:value-of select="$thisPerson/persName[@type='main']"/><xsl:text>. </xsl:text>
+				<xsl:if test="$thisPerson/birth|$thisPerson/death">(<xsl:value-of select="concat($thisPerson/birth, '-', $thisPerson/death)"/>).  </xsl:if>
+				<xsl:value-of select="normalize-space($thisPerson/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>A person.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<span class="persName" title="{$title}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<!-- @placeName plus others. To eliminate two spans and addition of whitespace in HTML -->

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002568">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to John Kirk, 13 February 1871</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2015</date>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/"> All materials are licensed for
+						use under the <ref target="https://creativecommons.org/licenses/by-nc/3.0/"> Creative Commons
+						Attribution-Noncommercial 3.0 Unported License </ref>. (c) Dr. Neil Imray Livingstone Wilson, 2014
+					</licence>
+				</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno type="shelfmark">MS.10701, f. 154</idno><!-- Adrian change only -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1967</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab>Written over: 
+                                <biblStruct>
+                                    <monogr>
+                                        <title level="j">Proceedings of the Royal Geographical Society. Proof copy.</title>
+                                        <imprint>
+                                            <biblScope type="vol">14</biblScope>
+                                            <biblScope type="issue">1</biblScope>
+                                            <biblScope type="p">4</biblScope>
+                                            <date>1869</date>
+                                        </imprint>
+                                    </monogr>
+                                </biblStruct>
+                            </ab>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to John Kirk, 13 February 1871</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1871-02-13">13 February 1871</date>
+                    <placeName type="compositionPlace">Manyuema Country</placeName>
+                    <persName type="addressee">John Kirk</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+			<change when="2016-02-10" who="#AW">Coding corrections</change>
+			<change when="2015-04-03" who="#AW">Coding Review</change>
+            <change when="2015-02-20" who="#HB">Quality Control and TEI Encoding</change>
+			<change when="2015-01-14" who="#AW">Conversion to LEAP standards</change>
+			<change when="2014-12-22" who="#AK">Proofing and TEI encoding</change>
+			<change when="2014-12-15" who="#MW">Proofing and TEI encoding</change>
+			<change when="2011-09-16" who="#AW">Editing</change>
+			<change when="2011-09-16" who="#KS">Proofing</change>
+			<change when="2011-06-21" who="#AW">Initial Transcription and TEI Encoding</change>	
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+<opener/>
+<p/>
+<closer/>
+<!-- The only way I could get <postscript> to work is by adding the above three empty elements. -->
+                
+	<postscript>
+    <pb facs="liv_002568_0001" n="0001"/> <!-- Adrian, should there be a tag to explain that this page is portrait and the following is landscape? HB --><!-- Yes, will fix below. cb @rend="vertical" -->
+<lb/><p>3<hi rend="sup underline">d</hi> <choice><abbr>P.S.</abbr><expan>Postscript</expan></choice> - <date when="1871-02-13">13<hi rend="sup underline">th</hi> <choice><abbr>Feb</abbr><expan>February</expan></choice> <w>18<gap reason="damage" extent="2" unit="chars" agent="hole"></gap><supplied cert="high">71</supplied></w></date> - The <orgName><w><del><gap reason="damage" extent="1" unit="chars" agent="hole"/></del><supplied cert="high">A</supplied>rabs</w></orgName> here all lament that
+<lb/><orgName ref="orgName.xml#org0004"><orgName ref="orgName.xml#org0003">Banian</orgName> slaves</orgName> were sent without a <orgName>free <orgName>Arab</orgName></orgName> to superintend
+<lb/>them - I reply that no doubt you acted on the best advice <add place="marginright" hand="#U" rend="black">154</add>
+<lb/>you could obtain - You must not think please from what
+<lb/>I told you in <choice><abbr>P.S.</abbr><expan>Postscript</expan></choice> <choice><abbr>N</abbr><expan>Number</expan></choice> 2 that I am grumbling at you or that I
+<lb/>feel aught but extremely thankful to you for all your
+<lb/>exertions in my behalf if I add that after refusing to go
+<lb/>anywhere but back to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> and telling many lies to effect
+<lb/>an advance of pay to six dollars a month they <date when="1871-02-12">yesterday</date>
+<lb/>sat still when told to tie up their bundles to march - This
+<lb/>was unbearable so I promised the ringleader <persName ref="people.xml#pers0025">Chakanja</persName>
+<lb/>to shoot him on the word of an <term type="person">Englishman</term> if he did not
+<lb/>at once do his duty. <persName ref="people.xml#pers0002">Muhamad</persName> swore to them that he would
+<lb/>kill them if they wrangled with me - they then went to work
+<lb/>I suspect that <space extent="2" unit="chars"/><unclear cert="medium"><persName ref="people.xml#pers0146">Price</persName></unclear> &amp; <persName ref="people.xml#pers0008">Abram</persName> who with inimitable
+<lb/>effrontery wish to go with me are at the bottom of this mutiny
+<lb/>for <persName ref="people.xml#pers0025">Chakanja</persName> came and asked me to take them - that would
+<lb/>be to take the fomenters of every mutiny at every <term type="faith">Moslem</term>
+<lb/>camp we came to teach <space extent="3" unit="chars"/>these <orgName ref="orgName.xml#org0004"><orgName ref="orgName.xml#org0003">Banian</orgName> slaves</orgName> to desert too.
+<lb/>I have been too lenient making every allowance for their early
+<lb/>education under <orgName><orgName>slavetrading</orgName> <orgName><choice><orig>Muhamadans</orig><reg>Muhammadans</reg></choice></orgName></orgName> &amp; <choice><sic>recieving</sic><corr>receiving</corr></choice>
+<lb/><orgName>deserters</orgName> forgiving feeding &amp; clothing some of them 5 times
+<lb/>over - but at last they despised running away &amp; stood 
+<lb/>with insults telling me they would not work - It has been
+<lb/>like <persName ref="people.xml#pers0014">Baines</persName> after confessing his theft to me twice over and
+<lb/>offering to pay for the goods - confessing also to <persName ref="people.xml#pers0149">Rae</persName> &amp; <persName ref="people.xml#pers0077">Charles</persName> -
+<lb/>and <persName ref="people.xml#pers0167">Tito</persName> moreover admitting to me that he had <choice><sic>recieved</sic><corr>received</corr></choice> the
+<lb/>goods "but they were <app><rdg>little little</rdg><rdg>little <choice><sic>little</sic><corr/></choice></rdg></app>" said he - Then forging that he <!-- Adrian, is little little a mistake that should be sic/corr-ed, or meant to be emphatic? Have used app/rdg tags to code for both but let me know which is correct. HB --><!-- Good point. Let's leave as you've done. AW -->
+<lb/>had issued at least 12 months cabin fare for 8 persons to 3
+<lb/>men in 3 months - Then bedaubing me with lies to the utmost
+<lb/><unclear cert="low">that</unclear> he would like to go with me again &amp; his confidante
+<lb/>little <persName>M<hi rend="sup">r</hi> George</persName> was sure that with <persName ref="people.xml#pers0014">Baines</persName> to help we should lay
+<lb/>open "all <placeName><bloc>Africa</bloc></placeName>" <space extent="3" unit="chars"/><date when="1871-02-13">Today</date> I am detained by one <unclear cert="medium">seized</unclear> with
+<lb/><term type="ailment" ref="ailment.xml#ailm0003">choleraic purging</term> -</p>
+<lb/><p><space extent="4" unit="chars"/>I <choice><sic>dont</sic><corr>don't</corr></choice> know what to say of <persName ref="people.xml#pers0166"><choice><orig>Sherreef</orig><reg>Shereef</reg></choice> Bosher</persName> - He refused
+<lb/>to allow more beads to come to me than 2 <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0002">frasilahs</term></foreign> of a cheap
+<lb/>dirty red called <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0004">Junduguru</term></foreign> - by saying <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> <choice><sic>dont</sic><corr>don't</corr></choice> want
+<lb/>the fine red <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0016">Talaka</term></foreign> or <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0013">samsam</term></foreign> of which there are or ought to <choice><unclear cert="medium">be</unclear><unclear cert="low">6</unclear></choice>
+<lb/><foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0002">frasilahs</term></foreign> at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> - nor would he allow a long box which I
+<lb/>believe you packed &amp; which has been detained for years to be
+<lb/>opened to take out medicines &amp; <bibl>letters</bibl> - though <persName ref="people.xml#pers0128">Muhamad bin
+<lb/>Saleh</persName> (late prisoner at <placeName><settlement type="village" ref="settlement.xml#sett0004"><persName ref="people.xml#pers0067">Cazembe</persName>'s</settlement></placeName>) had a <bibl>note</bibl> asking him
+<lb/>either to send it or take medicines &amp; <bibl>letters</bibl> out &amp; put them
+<lb/>in a light <term type="plant_foodstuff">tea</term> box for carriage - The ten men came carrying
+<lb/>next to nothing because apparently <persName ref="people.xml#pers0166"><choice><orig>Sherreef</orig><reg>Shereef</reg></choice></persName> waats to
+<lb/>force me back by starvation - I am only about <measure>150 miles</measure>
+<lb/><choice><abbr>W. N. W.</abbr><expan>West North West</expan></choice> of <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> here - I came back about a <measure>100 more</measure> to wait
+<lb/>for the men and they were told I was near, yet this drunken
+<lb/><persName ref="people.xml#pers0166"><choice><orig>Sherreef</orig><reg>Shereef</reg></choice></persName> refuses to let me have a share of my goods
+<lb/>He kept 3 men too at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> - a fourth <persName ref="people.xml#pers0013">Awathe</persName> a <w>good-
+<lb break="no"/>man</w> was sick and has constantly &amp; loudly protested
+<lb/>against <persName ref="people.xml#pers0166"><choice><orig>Sherreef</orig><reg>Shereef</reg></choice></persName> squandering my property after he had
+<lb/>made away with all that was given for the provisions
+<lb/>on the way - It is now 16 months since the <date when="1869-10-15">15<hi rend="sup underline">th</hi> October 1869</date>
+<lb/>when they set out - I send authority by <persName ref="people.xml#pers0002">Muhamad Bogharib</persName>
+<lb/>to take a list of all that remains and place them in
+<lb/><persName ref="people.xml#pers0113">Moenyeghere</persName>'s <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0017">tembe</term></foreign> who <unclear cert="high">I have</unclear> requested to supply
+<lb/><persName ref="people.xml#pers0013">Awathe</persName> with provisions - Would it not be fair to
+<lb/>stop the value of what he abstracts from my stock out of
+<lb/>the pay of himself &amp; <w><del><gap reason="damage" extent="4" unit="chars" agent="hole"/></del><supplied cert="medium">thos</supplied>e</w> accomplices - <persName ref="people.xml#pers0002">Muhamad</persName> <choice><sic>cant</sic><corr>can't</corr></choice>
+<lb/>be at <gap reason="damage" extent="28" unit="chars" agent="hole"></gap> yet to come - something
+
+    <pb facs="liv_002568_0002" n="0002"/>
+	<cb rend="vertical"/>	
+<lb/>should be done to prevent wholesale plunder of <term type="nationality">English</term> goods - now all believe that with
+<lb/>the double pay we give we shall stand any amount of fraud meekly - In the <seg type="weather">rainy season</seg> of
+<lb/><date when="1867"><choice><abbr>/67</abbr><expan>1867</expan></choice></date> <term type="ailment">fever</term> without medicine produced fits of total insensibility - In <date when="1868"><choice><abbr><choice><sic>/58</sic><corr>/68</corr></choice></abbr><expan>1868</expan></choice></date> <term type="ailment">severe pneumonia of the right
+<lb/>lung</term> - I reached <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> like one far gone in <term type="ailment" ref="ailment.xml#ailm0007">consumption</term> - In <date when="1870"><choice><abbr>/70</abbr><expan>1870</expan></choice></date> <seg type="weather">rainy season</seg> produced <term type="ailment" ref="ailment.xml#ailm0003"><w>choler-
+<lb break="no"/>-aic</w> purging</term> &amp; <term type="ailment">great emaciation</term> &amp; forced me to encamp for many months - now I dread
+<lb/>travelling in <seg type="weather">the rains</seg> - I go in canoes but to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> - would be all on foot - and at least four
+<lb/>months would be lost &amp; in four or five I hope to finish the exploration - I have a few of
+<lb/>the beads I brought here I shall <choice><sic>by and buy</sic><corr>buy</corr></choice> more from an <orgName>Arab</orgName> down the <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> but the 
+<lb/>price will be <w>enor<del><gap reason="deletion" extent="1" unit="chars"/></del>mous</w> - <persName ref="people.xml#pers0002"><choice><abbr>M</abbr><expan>Muhamad</expan></choice> Bogharib</persName> gives me a note to take 20 large copper bracelets from
+<lb/>his men if I meet them - I give him 5 pieces Americano 5 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0005">Kanike</term></foreign> &amp; 2 <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0002">frasilahs</term></foreign> of
+<lb/><choice><sic>of</sic><corr/></choice> <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0013">samsam</term></foreign> at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> - He has been extremely kind all through - It is mortifying to have my
+<lb/>goods near at hand and I must go with hard fare because this <persName ref="people.xml#pers0166"><choice><orig>Sherreef</orig><reg>Shereef</reg></choice></persName> chooses to
+<lb/>come between them and me - no <term type="foodstuff">wine</term> or <term type="foodstuff">spirits</term> <!--I wasn't sure if these should be marked foodstuff. MW--><!-- Yes, and will do for following notes. HB --> but I am most thankful to 
+<lb/><choice><sic>recieve</sic><corr>receive</corr></choice> <term type="plant_foodstuff">coffee</term> <!-- Foodstuff? MW--> &amp; <term type="plant_foodstuff">sugar</term> - <add place="below">^</add> <add place="above">in</add> a second lot of things that came by <persName ref="people.xml#pers0047">Hassani</persName> to <placeName><settlement type="town" ref="settlement.xml#sett0015"><choice><abbr>Unyembe</abbr><expan>Unyanyembe</expan></choice></settlement></placeName>
+<lb/>I was down to Make believe <term type="plant_foodstuff">coffee <!-- Foodstuff? MW--> of <term type="plant_foodstuff">maize</term></term> and no <term type="plant_foodstuff">sugar</term> - <term type="medicament">Quinine</term> nauseates
+<lb/>without <term type="foodstuff">wine</term> or <term type="foodstuff">spirits</term> <!-- Foodstuff? MW--> - But when I came to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> I was 30 months or 2 <choice><orig>½</orig><reg>1/2</reg></choice> years
+<lb/>without either <term type="plant_foodstuff">tea</term> <term type="plant_foodstuff">coffee</term> <!-- Foodstuff? MW--> or <term type="plant_foodstuff">sugar</term> - A box of <term type="plant_foodstuff">tea</term> <!-- Foodstuff? MW--> sent by <persName ref="people.xml#pers0024"><term type="occupation">Captain</term> Black</persName> of the
+<lb/><orgName ref="orgName.xml#org0018">P &amp; O company</orgName> was a great boon &amp; I fear never acknowledged for it was among
+<lb/>the missing 40 - A <bibl>letter</bibl> sent to you &amp; one to <persName ref="people.xml#pers0132">Sir Roderick</persName> from the outskirts of
+<lb/><placeName><region ref="region.xml#region0013">Manyema</region></placeName> went to the <choice><sic><term type="occupation">Governor</term>s</sic><corr><term type="occupation">Governor</term>'s</corr></choice> care through <persName ref="people.xml#pers0002"><choice><abbr>M.</abbr><expan>Muhamad</expan></choice> Bogharib</persName> &amp; <persName ref="people.xml#pers0128"><choice><abbr>M</abbr><expan>Muhamad</expan></choice> bin Saleh</persName>
+<lb/>asking you to send for <term type="medicament">vaccine <unclear cert="medium">virus</unclear></term> in tubes but I fear it went the same
+<lb/><w><del><gap reason="damage" extent="1" unit="chars" agent="hole"/></del><supplied cert="high">w</supplied>ay</w> as the 40 - I wrote <persName ref="people.xml#pers0097">Meller</persName> also in answer to a kind <bibl>note</bibl> &amp; fear it met a
+<lb/>similar fate - tell him if you write - your wish that you were with me I have often
+<lb/>wished that you were - the trees are mostly new to me but new plants are not
+<lb/>numerous save <term type="plant">climbing plants</term> - you alone could have stood the hardships
+<lb/><w><del><gap reason="damage" extent="1" unit="chars" agent="hole"/></del><supplied cert="high">I</supplied></w> have endured but you are doing more important work and my blessing on it -
+<lb/>I <choice><sic>dont</sic><corr>don't</corr></choice> like to make a whine over my efforts but they have made me old <space extent="2" unit="chars"/>toothless
+<lb/>and shaky - a dreadful old fogie - such as I used to laugh at when they shut me up
+<lb/>with a glorious <unclear cert="medium">blether about</unclear> <add place="below">^</add> <add place="above">something</add> <w>f<del>o</del><add place="over-text">i</add>fty</w> years ago - aye men were men then - (of course)</p>
+<lb/><p><space extent="4" unit="chars"/>No list of the goods sent by <persName ref="people.xml#pers0047">Hassani</persName> to <placeName><settlement type="town" ref="settlement.xml#sett0015"><choice><abbr>Unyembe</abbr><expan>Unyanyembe</expan></choice></settlement></placeName> came but the men say <space extent="4" unit="chars"/>that
+<lb/>one box of <term type="plant_foodstuff">sugar</term> one of soap and one of sundries <space extent="2" unit="chars"/>probably that detained unaccountably
+<lb/>by the ill conditioned <term type="occupation">governor</term> - <choice><sic><persName ref="people.xml#pers0166">Shereef</persName>s</sic><corr><persName ref="people.xml#pers0166">Shereef</persName>'s</corr></choice> refusal to open it and give medicines &amp; <bibl>letters</bibl> <w>pre<supplied>-</supplied>
+<lb break="no"/>vents</w> my knowing if the two guns &amp; pistol are in it I was uncharitable <w><del><gap reason="damage" extent="1" unit="chars" agent="hole"/></del><supplied cert="high">e</supplied>nough</w> to suspect a <w>w<unclear cert="low">or</unclear><gap reason="damage" extent="5" unit="chars" agent="blot"/><supplied cert="medium">d</supplied></w>
+<lb/>to fall heir to my guns as his motive no clothing <space extent="6" unit="chars"/>seen <persName ref="people.xml#pers0166"><choice><orig>Sherreef</orig><reg>Shereef</reg></choice></persName> may <unclear cert="high">be</unclear> <w><unclear cert="low">help</unclear><del><gap reason="damage" extent="3" unit="chars" agent="blot"/></del><supplied cert="high">ing</supplied></w> <del><gap reason="damage" extent="2" unit="chars" agent="hole"/></del> <term type="occupation">Governor</term> <del><gap reason="damage" extent="2" unit="chars" agent="blot"/></del> <unclear cert="low">avid</unclear> <del><gap reason="damage" extent="4" unit="chars" agent="hole"/></del> <del><gap reason="damage" extent="6" unit="chars" agent="blot"/></del>
+
+<cb/>
+<lb/>to <space extent="3" unit="chars"/>conceal <space extent="4" unit="chars"/><w>th<del><gap reason="damage" extent="2" unit="chars" agent="fading"/></del></w> <del><gap reason="damage" extent="3" unit="chars" agent="hole"/></del></p>
+            
+            <ab>
+<lb/><w><del><gap reason="damage" extent="7" unit="chars" agent="hole"/></del>d</w> <del><gap reason="damage" extent="12" unit="chars" agent="hole"/></del>
+            </ab>
+	
+	</postscript>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
