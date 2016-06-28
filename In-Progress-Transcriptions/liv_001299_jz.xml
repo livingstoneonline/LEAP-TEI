@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Robert M. Livingstone</title>
+				<title type="alternative">Letter to Robert M. Livingstone, 25 March 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+               		<resp>Encoding</resp>
+				</respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001299</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Sierra Leone</country><!-- Change as needed -->
+                        <settlement><!-- omit? "Pearl near" in catalogue --></settlement><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 10701, ff. 98-99</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0773</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Robert M. Livingstone, 25 March 1858</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-03-25">25 March 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Pearl<add place="above" hand="#U">98</add> near Sierra Leone</placeName><!-- Change -->
+                    <persName type="addressee">Robert M. Livingstone</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-06-16" who="#JZ">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001299_0001" n="0001"/>
+<lb/><opener><dateline rend="right">Pearl,
+<lb/>near <placeName>Sierra Leone </placeName>
+<lb/><date when="1858-03-25"><hi rend="sup underline">25</hi> March
+<lb/>1858</date></dateline>
+<lb/>    
+<lb/><salute>My Dear Robert,</salute></opener>
+<lb/><p rend="right">We have been going
+<lb/>at the rate of 200 miles a day
+<lb/>ever since we left <placeName>Liverpool</placeName>
+<lb/>and have been much favoured
+<lb/>by a kind of provdidence in
+<lb/>the weather poor <unclear cert="low">oswell<!-- if this is a name, capitalization? --></unclear> was
+<lb/>sorely suck while rolling
+<lb/>through the <placeName>Bay of Biscery</placeName>
+<lb/>and eat nothing for about
+<lb/>three days but we soon
+
+	<pb facs="liv_001299_0002" n="0002"/>
+<lb/>got away from the ice &amp;
+<lb/>snow to beautiful summer
+<lb/>weather, and we are getting
+<lb/>meerly thawed. We sleep
+<lb/>with all our portholes open
+<lb/>and are glad by the morning
+<lb/>by day - At night we see
+<lb/>the southern <unclear cert="medium">cross</unclear> and the 
+<lb/>pole star which stands
+<lb/>so high over you is here
+<lb/>so low we cannot see
+<lb/>it for the haze. We shall
+<lb/>not see it again but
+<lb/>the same Almighty gracious
+<lb/>father is over all and
+<lb/>is near to all who love him
+
+	<pb facs="liv_001299_0003" n="0003"/>
+<lb/>you are now alone in the
+<lb/>world and must seek his
+<lb/>friendship and guidance
+<lb/>for if yo do not lean
+<lb/>on him you will go
+<lb/>astray and find that the
+<lb/><!-- unclear sentence --> is
+<lb/>hard. The Lord be
+<lb/>gracious to you and
+<lb/>accept you though un -
+<lb/>worthy of his favour</p>
+<lb/><p>you must write 
+<lb/>to me for if you do not
+<lb/><!-- faded --> continue to write
+
+	<pb facs="liv_001299_0004" n="0004"/>
+<lb/>to you <persName>oswell</persName> says he will
+<lb/>gather some shells for you
+<lb/>we land today but it is
+<lb/>only to <unclear cert="medium">coal</unclear> and then we
+<lb/>go to the cape - we
+<lb/>shall be there before
+<lb/><persName>Uncle John Moffat</persName>
+<lb/>Mama &amp; <!-- group of people? -->Oswells love
+<lb/>to <unclear cert="low">yien</unclear> - My kind regards
+<lb/>to your master &amp; Mistress
+<lb/>if <term type="nationality">French</term> is not too
+<lb/>much for you it mingle
+<lb/>be added to Latin &amp; Greek
+<lb/>but your master will
+<lb/><w><gap extent="2" unit="chars"/><supplied cert="high">kn</supplied>ow</w> best
+</p>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

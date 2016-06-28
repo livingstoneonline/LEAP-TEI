@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001195"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            	<title>Letter to [John Kirk 2]</title><!-- Change -->
+            	<title type="alternative">Letter to [John Kirk 2], 28 January 1858</title>
+				<author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AD"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Amzie Dunekacke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_001195</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United States</country><!-- Change as needed -->
+                        <settlement>Washington D.C.</settlement><!-- Change as needed -->
+                    	<repository>Smithsonian Institution. Libraries. Joseph F. Cullman 3rd Library of Natural History</repository>
+                    	<idno type="shelfmark">M084</idno><!-- Change as needed -->
+                        <altIdentifier>
+                        	<idno type="ccnumber">Letters, 0679</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                	<title>Letter to [John Kirk 2], 28 January 1858</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-01-28">28 January 1858</date><!-- Change -->
+                	<placeName type="compositionPlace">Manchester</placeName><!-- Change -->
+                    <persName type="addressee">John Kirk 2</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-06-25" who="#AD">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001195_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+
+
+<lb/><opener><dateline rend="right"><placeName>Manchester</placeName><add place="inline"><hi rend="red">6</hi></add> 
+<lb/><date when="1858-01-28">28th January
+<lb/> 1858</date></dateline>
+<lb/>    
+<lb/><salute>My Dear Sir</salute></opener><!-- Change line info as appropriate -->
+<lb/><p>Your salary
+<lb/>will commence
+<lb/>on the 1<hi rend="sup underline">st</hi> Frebruary
+<lb/>and should you
+<lb/>want more than
+<lb/>a quarter in advance</p>
+
+<cb rend="vertical"/><ab><add place="marginleft"><unclear cert="medium">please</unclear> be in <placeName><settlement type="city">London</settlement></placeName> on Saturday</add></ab>
+
+	<pb facs="liv_001195_0002" n="0002"/>
+<lb/><p rend="no-indent">I shall feel obliged
+<lb/>if you let me
+<lb/>know - Don't
+<lb/>leave your
+<lb/>friends in any
+<lb/>hurry on account
+<lb/>of that. If you 
+<lb/>can get your
+<lb/>things better
+<lb/>where you are
+<lb/>than in <placeName><settlement type="city">London</settlement></placeName>
+
+	<pb facs="liv_001195_0003" n="0003"/>
+<lb/>by all means do so -
+<lb/>and you can <unclear cert="medium">remit</unclear> the money
+<lb/>afterwards - We
+<lb/>must get all 
+<lb/>into <unclear cert="medium">town</unclear> by 
+<lb/>the 15<hi rend="sup underline">th</hi></p>
+<lb/><p>Anything that
+<lb/>I can get for 
+<lb/>you please let 
+<lb/>me know
+
+	<pb facs="liv_001195_0004" n="0004"/>
+<lb/>and if possible
+<lb/>I shall do my
+<lb/>best to comply
+<lb/>with your
+<lb/>wishes - the
+<lb/>amount of luggage
+<lb/>has to be limited
+<lb/>but we shall try
+<lb/>and make each 
+<lb/>other as comfortable
+<lb/>as possible.</p>
+<lb/><closer><salute>I am &amp;</salute><signed><persName>David Livingstone</persName></signed></closer><!-- Change as appropriate --> 
+
+<!--page breaks not showing up correctly-->
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
