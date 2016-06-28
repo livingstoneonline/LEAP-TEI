@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001181"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Thomas B. Horsfall</title><!-- Change -->
+            	<title type="alternative">Letter to Thomas B. Horsfall, 19 January 1858</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JZ"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001181</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>England</country><!-- Change as needed -->
+                        <settlement>London</settlement><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- No shelfmark found -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0666.5</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Thomas B. Horsfall, 19 January 1858</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-03-02">2 March 1856</date><!-- Change -->
+                    <placeName type="compositionPlace">12 Kensington Palace Gardens, London</placeName><!-- Change -->
+                    <persName type="addressee">Thomas Horsfall</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-06-28" who="#JZ">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001181_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><placeName>12 Kensington Palace Garden</placeName> <date when="1858-01-19">19<hi rend="underline">th</hi> January<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
+<lb/> 1858</date></dateline><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>My Dear Sir,</salute></opener><!-- Change line info as appropriate -->
+<lb/><p>I think I had
+<lb/>acknowledged the
+<lb/>receipt of your
+<lb/>favour containing
+<lb/>the note from
+<lb/><persName>Lady Cherurynd</persName> before
+<lb/>your last came
+<lb/>to hand but certainly
+<lb/>not before it was
+<lb/>due - and while
+
+	<pb facs="liv_001181_0002" n="0002"/>
+<lb/>thanking you for
+<lb/>the courtesy you
+<lb/>showed in directing
+<lb/>me to send my
+<lb/>things to your brothers
+<lb/>warehouse it has
+<lb/>occurred to me
+<lb/>that possibly he
+<lb/>has some of the
+<lb/>articles we need
+<lb/>as presents and
+<lb/>that if we got
+<lb/>them from him
+<lb/>it would save all
+<lb/>the carriage
+
+	<pb facs="liv_001181_0003" n="0003"/>
+<lb/><unclear cert="low">has</unclear> he <unclear cert="low"><app><rdg cert="low">leads and brainsoire</rdg><rdg>beads and bransoire</rdg></app></unclear>
+<lb/>&amp; ammunition such as
+<lb/>are used in the West 
+<lb/>African trade<!--should this be tagged?-->, if so
+<lb/>I would like to arrange
+<lb/>with him - <add place="above">or another</add> on getting 
+<lb/>samples - I am
+<lb/>proceeding on the
+<lb/>hope of being excused
+<lb/>if I am thinking
+<lb/>of him too meanly
+<lb/>and that if he is
+<lb/>not actually engaged
+<lb/>in interpreting <unclear cert="low">beads</unclear>
+
+	<pb facs="liv_001181_0004" n="0004"/>
+<lb/>he may give me a
+<lb/>hint as to finding
+<lb/>a man who will
+<lb/>deal fairly with me
+<lb/>instead. I could get
+<lb/>them lin <placeName><settlement type="city">London</settlement></placeName> but
+<lb/>the carriage might
+<lb/>be saved by getting
+<lb/>them in <placeName><settlement type="city">Liverpool</settlement></placeName>
+<lb/>Hoping you will not
+<lb/>imitate my bad
+<lb/>example in correspondence</p>
+
+<lb/><closer><salute>I am yours most
+<lb/>truly - </salute><!-- Change as appropriate -->
+<lb/><signed><persName>David Livingstone</persName></signed></closer><!-- Change as appropriate --> 
+
+<trailer>J.B. Horsball <unclear cert="low">ny</unclear></trailer><!--Added trailer...is this okay?-->
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
