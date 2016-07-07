@@ -421,7 +421,7 @@
 			<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match="metamark"><span class="metamark" title="metamark"> [<span class="italic">metamark</span>] </span></xsl:template>
+	<xsl:template match="metamark"><span class="metamark" title="metamark"><xsl:apply-templates/> [<span class="italic">metamark</span>] </span></xsl:template>
 
 	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
 		<span class="metamark italic" title="metamark">metamark</span>

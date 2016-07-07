@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Joseph J. Freeman, 14 November 1849</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000686</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Kolobeng</settlement><!-- Change as needed -->
+                        <repository>University of London. School of Oriental and African Studies</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0216</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Joseph J. Freeman, 14 November 1849</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-03-02">14 November 1849</date><!-- Change -->
+                    <placeName type="compositionPlace">Near Tete or Nyunkwe-Tete</placeName><!-- Change -->
+                    <persName type="addressee">Thomas Maclear</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-05" who="#JZ">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000686_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+
+<lb/><opener><dateline rend="right"><placeName>Koloberg</placeName> <date when="1849-11-14">14<hi rend="sup underline">th</hi> Nov<hi rend="sup underline">or</hi> 1849</date></dateline><add place="marginleft">47</add><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>the Rev<hi rend="sup underline">d</hi> J.J. Freeman
+<lb/>My Dear Sir,</salute></opener><!-- Change line info as appropriate -->
+<lb/><p>We have indulged
+<lb/>the hope for several months past that you would
+<lb/>find it convenient to visit us, but having
+<lb/>lately heard from <persName>M<hi rend="sup">r</hi> Moffat</persName> that you seemed
+<lb/>inclined to make <term type="tribe">Kurumen</term><!-- is this a tribe? --> your farthest
+<lb/>point North I not take the liberty of entreating
+<lb/>you to reconsider your resolution - I hope
+<lb/>our <term type="tribe">Kurumen</term> friends will press on your
+<lb/>attention the superior claims of the stations 
+<lb/>in this quarter to those of the <term type="nationality">French</term> bretheren 
+<lb/>by which you propose to return - But before
+<lb/>I urge any other consideration I may mention
+<lb/>that before undertaking my late journey I 
+<lb/>expected to return in time to meet you at 
+<lb/>the <term type="tribe">Kurumen</term> before the departure of M<hi rend="sup">rs</hi> L.
+<lb/>my journey was much longer than I expected
+<lb/>and M<hi rend="sup">rs</hi> L. wanted 2 months here along -
+<lb/>I have been eight months from <unclear cert="low">house</unclear>
+<lb/>this year - two of these were spend in trying
+<lb/>place <unclear cert="low"> I and</unclear> with the tribe of <term type="tribe">Mokatha</term>
+
+<pb facs="liv_000686_0002" n="0002"/>
+<lb/>there is always a great deal of work to be done
+<lb/>after an absence from a station - our house is yet
+<lb/>unfinished- But were there no other considerations
+<lb/>the <term type="animal">oxen</term> are altogether unfit to travel - one half
+<lb/>have been worked for six months and have
+<lb/>done &amp; endured more than <term type="animal">oxen</term>ever did before 
+<lb/>the others have all been affected by a disease
+<lb/>which renders them unable to travel
+</p>
+<lb/><p>For your coming I have to urge - that
+<lb/>when you have visited the Colonial stations
+<lb/>you have only seen one end of the <app><rdg cert="medium">chain</rdg><rdg>chair</rdg></app>, and 
+<lb/>as your advice at home will probably vitally
+<lb/>affect the <unclear cert="low">one</unclear> and movement of the whole you
+<lb/>ought for your own satisfaction to see the other end 
+<lb/>this is the more necessary because the Directors<!-- is this an occupation? -->
+<lb/>seem by our expression in the Report for /47
+<lb/>to have <unclear cert="low">unbibed</unclear> our erroneous impression
+<lb/>as to the position a <term type="occupation">missionary</term> occupies when 
+<lb/>beginning with a new tribe - It is stated
+<lb/>that I had been under the necessity of returning 
+<lb/>to Meelestsa<!-- is this a place? --> - a step I never dreamed of for 
+<lb/>although put to shifts from the beginning
+<lb/>till now for <term type="foodstuff">vegetables &amp; corn</term>, the uniform
+<lb/><unclear cert="medium">kindness</unclear> of the people endeared us to them 
+
+<pb facs="liv_000686_0003" n="0003"/>
+<lb/>and I am fully persuaded that any missionary may
+<lb/>live in perfect security ^ <!-- above "with any tribe" --> in so far as the natives
+<lb/>are concerned if he have only a decent smack
+<lb/>of common sense, so strong is my connection
+<lb/>on this point I do not believe there is any necessity 
+<lb/>for two europeans to be present with any one tribe 
+<lb/>and I should consider giving countenance to a college
+<lb/>-gue <!-- mispelled? -->to settle here as inflicting a wrong on some
+<lb/>other tribe which might otherwise be enjoying
+<lb/>his services - Then again you stated, I think 
+<lb/>most truly in a speech delivered in Cape Town 
+<lb/>that since teh failure of the <placeName><country>Niger</country></placeName> expedition
+<lb/>this must be considered the key to the interior
+<lb/>Now we have sailed on the southern end
+<lb/>of a navigable highway to a large tract of
+<lb/>country - this discovery belongs to Missionaries
+<lb/>will you not come in &amp; give your advice 
+<lb/>as to how we are to taeke advantage of it
+<lb/>If I incur any expense I have the rod offer 
+<lb/>vote of disaprobation in committee over my
+<lb/><unclear cert="medium">head</unclear> and then the world we have beyond
+<lb/>in the North (is that to be left to traders
+<lb/>&amp; boers) presseds had on the other side
+<lb/>I do most sincerely wish you may be
+
+<pb facs="liv_000686_0004" n="0004"/>
+<lb/>induced to come for many reasons but hope
+<lb/>you will be guided by His counsel who 
+<lb/>cannot err
+</p>
+
+
+<!-- If there is a letter or similar with a closer with content such as salute or signed -->
+<lb/><closer><salute>Affectionally yours</salute><!-- Change as appropriate -->
+<lb/><signed><persName>David Livingstone</persName></signed></closer><!-- Change as appropriate --> 
+
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
