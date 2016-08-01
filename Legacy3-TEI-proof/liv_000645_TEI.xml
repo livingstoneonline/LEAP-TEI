@@ -2,7 +2,7 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000645">
 	<teiHeader>
 		<fileDesc>
@@ -33,6 +33,9 @@
 			<langUsage>
 				<language ident="und">Undetermined</language>
 			</langUsage>
+            <handNotes>
+                <handNote xml:id="U">Scribe: Unknown</handNote>
+            </handNotes>
 		</profileDesc>
 		<revisionDesc>
 			<change>
@@ -46,8 +49,13 @@
             
 			</change>
 			<change>
-				<date>2013-306-16</date>
+				<date>2013-06-16</date>
 				<name xml:id="HFB">Heather F. Ball</name>Additional encoding.
+            
+			</change>
+			<change>
+				<date>2016-06-23</date>
+				<name xml:id="AM">Anne Martin</name>Final Review.
             
 			</change>
 		</revisionDesc>
@@ -58,18 +66,19 @@
 			<div>
 
 	<pb n="0001" facs="liv_000645_0001"><!--pb/@n='1'--></pb>
-<lb/><p>I enclose a letter to <persName>Robert</persName> with a few remarks in the way of <unclear cert="medium">attempts</unclear> at analyzing the language 
+<lb/><p>I enclose a <bibl>letter to <persName>Robert</persName></bibl> with a few remarks in the way of <unclear cert="medium">attempts</unclear> at analyzing the language 
 <lb/>after it is written I feel disinclined to send it but it is <foreign xml:lang="und">tuntunyeritse</foreign> filled to the brim and I <choice><sic>dont</sic><corr>don't</corr></choice> like 
-<lb/>to throw it away. Will you read it at a <!-- unable to make this word out, AJS --> hour &amp; give me your remarks. I shall feel obliged               
+<lb/>to throw it away. Will you read it at a <choice><orig>leizure</orig><reg>leisure</reg></choice> hour &amp; give me your remarks. I shall feel obliged               
 <lb/>if you point out on what I am in error. We shall not hear from you for a
-<lb/>long time. But must be content. We imagine <persName>Mameri</persName> is at the <placeName><geogName type="feature">Cape</geogName></placeName> now. 
+<lb/>long time. But must be content. We imagine <persName>Mameri</persName> is at the <placeName><region>Cape</region></placeName> now. <!-- geog: Cape Colony -->
 <lb/><hi rend="underline">Remember us to <persName>M<hi rend="sup">r</hi> Hamilton</persName> &amp; <persName>Ann</persName>. <persName>Mary</persName> will write her tomorrow morning</hi>
 <lb/>I shall put down the contents so far as I remember</p>
+
 	<cb n="1"/>
 <lb/><p rend="left"><foreign xml:lang="und">Kaukashi</foreign> an oar
-<lb/><foreign xml:lang="und">Lekase</foreign> a reed skiff 
+<lb/><foreign xml:lang="und">Lekase</foreign> a <term type="plant">reed</term> skiff 
 <lb/><foreign xml:lang="und">Lecobobo</foreign> a thicket 
-<lb/><foreign xml:lang="und">Lituguana</foreign><!-- cannot make this translation out, AJ -->
+<lb/><foreign xml:lang="und">Lituguana</foreign> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice>
 <lb/><foreign xml:lang="und">Mapakoana</foreign> a curtain 
 <lb/><foreign xml:lang="und">Leposa to iketta</foreign> - drawl in 
 <lb/>singing. <foreign xml:lang="und">Metse hula</foreign> seems 
@@ -91,7 +100,7 @@
 <lb/>been abandoned &amp; so now nearly obliterated.</p>
 <lb/><p><space dim="horizontal" extent="4" unit="chars"/>My time is up so I must conclude</p>
 <lb/><p rend="center">ever affectionately yours</p>
-<lb/><p rend="right"><persName><choice><abbr>D</abbr><expan>David</expan></choice><choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
+<lb/><p rend="right"><persName><choice><abbr>D</abbr><expan>David</expan></choice> <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
 
 	<pb n="0002" facs="liv_000645_0002"><!--pb/@n='2'--></pb>
 <lb/><p rend="right"><add place="inline" hand="#U"><persName><choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></add></p>

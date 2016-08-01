@@ -2,7 +2,7 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000762">
 	<teiHeader>
 		<fileDesc>
@@ -30,6 +30,9 @@
 			<langUsage>
 				<language ident="en">English</language>
 			</langUsage>
+            <handNotes>
+                <handNote xml:id="U">Scribe: Unknown</handNote>
+            </handNotes>
 		</profileDesc>
 		<revisionDesc>
 			<change>
@@ -42,6 +45,11 @@
 				<name xml:id="HFB">Heather F. Ball</name>Proofreading and additional XML encoding.
             
 			</change>
+			<change>
+				<date>2016-07-12</date>
+				<name xml:id="AMM">Anne Martin</name>Final Review.
+            
+			</change>
 		</revisionDesc>
 	</teiHeader>
 
@@ -52,14 +60,14 @@
 	<pb n="0001" facs="liv_000762_0001"><!--pb/@n='1r'--></pb>
 <lb/><!-- The number 66 appears at top left hand corner, I do not think this is Livingstone's hand AM --><p rend="right"><placeName><settlement type="village">Kuruman</settlement></placeName> <date when="1852-09-06">6<hi rend="sup underline">th</hi> September
 <lb/>1852</date></p>
-<lb/><p><persName>Rev<hi rend="sup underline">d</hi><choice><abbr>W.</abbr><expan>William</expan></choice> Thompson</persName></p>
+<lb/><p><persName>Rev<hi rend="sup underline">d</hi> <choice><abbr>W.</abbr><expan>William</expan></choice> Thompson</persName></p>
 <lb/><p>My Dear Sir</p>
 <lb/><p>Having by means of a sound constitution survived
 <lb/>tedious drawl through the <placeName><region>Colony</region></placeName> I crossed the <placeName><geogName type="river">Orange River</geogName></placeName>
 <lb/>at <placeName><settlement>Priestcar</settlement></placeName> - a spot which has been selected for a mission
 <lb/>station by <persName>M<hi rend="sup">r</hi> Alheit</persName> of <placeName><settlement type="village">Scheit fontein</settlement></placeName>. The enormous
 <lb/>weight on my <choice><orig>waggon</orig><reg>wagon</reg></choice> soon after that told on one of the
-<lb/>wheels and down came the elegant <term type="nationality">Dutch</term> vehicle. The <term type="nationality">African</term>
+<lb/>wheels and down came the elegant <term type="nationality">Dutch</term> vehicle. The <orgName>African</orgName>
 <lb/>coach and ten, on to its marrow bones. <persName>M<hi rend="sup">r</hi> Hughs</persName> kindly
 <lb/>lent a wheel and by the assistance of himself and some
 <lb/>of my old patients I managed to crawl to this place about
@@ -70,7 +78,7 @@
 <lb/>most when we had to offload at the bottom of acclivities and
 <lb/>carry the boxes up ourselves. I am now detained here getting
 <lb/>my wheel mended.</p>
-<lb/><p>I had written another letter to you and mentioned a number
+<lb/><p>I had written another <bibl>letter</bibl> to you and mentioned a number
 <lb/>of conjectures respecting <persName>George</persName> but his arrival at <placeName><settlement type="village">Kuruman</settlement></placeName>
 <lb/>today renders my surmisings as valuable as conjectures
 <lb/>usually are. I could not understand what should have
@@ -83,14 +91,16 @@
 <lb/>out I concluded he must have taken another road. I
 <lb/>came here ten days before him.</p>
 <lb/><p>Now that I can calmly look back on my sojourn among
-<lb/>the natives who live in a hollow under <placeName><geogName type="mountain">Table mountain</geogName></placeName> and
+<lb/>the <orgName>natives</orgName> who live in a hollow under <placeName><geogName type="mountain">Table mountain</geogName></placeName> and
 <lb/>who <choice><sic>dailly</sic><corr>daily</corr></choice> and nightly inhale effluvia known only to the initiated
 <lb/>in the mysteries of Sanatory reform, I do remember them</p>
+
+	<cb rend="vertical"/>
 	<ab>
-<lb/>I had a fine medical library - and many good works on general subjects - the former was my pride &amp; a
+<lb/>I had a fine <bibl>medical library</bibl> - and many <bibl>good works on general subjects</bibl> - the former was my pride &amp; a
 <lb/>great comfort. I have got lightened - and will move so much more easily now. You will hear of my
-<lb/><term type="tribe">Bakwains</term> yet - they are not broken spirited <term type="tribe">Hottentots</term> that attack sealed many a
-<lb/><choice><sic>boer's</sic><corr>Boer's</corr></choice> doom.    
+<lb/><term type="tribe">Bakwains</term> yet - they are not broken spirited <orgName>Hottentots</orgName> that attack sealed many a
+<lb/><choice><sic><orgName>boer</orgName>'s</sic><corr><orgName>Boer</orgName>'s</corr></choice> doom.    
 </ab>
 
 
@@ -98,77 +108,77 @@
 <lb/><p>with feelings of compassion. Poor creatures, living in a state
 <lb/>of utter respectability - exchanging their <unclear cert="medium">how</unclear> dye do's - their noddings
 <lb/><choice><sic>curstyings</sic><corr>curtsyings</corr></choice> and ministerial breakfasts and all the while to carnivori
-<lb/>The cannibals I may say of the Law &amp; state &amp; Puseyite church ready
+<lb/>The <orgName>cannibals</orgName> I may say of the Law &amp; state &amp; <orgName>Puseyite church</orgName> ready
 <lb/>to spring upon them and devour them. They are obliged to live &amp;
-<lb/>walk as circumspectly as Elephants among well covered pitfalls
+<lb/>walk as circumspectly as <term type="animal">Elephants</term> among well covered pitfalls
 <lb/>I do pity you from my heart. I could not breathe freely
 <lb/>till I got over the <placeName><geogName type="river">Orange River</geogName></placeName></p>
-<lb/><p>Well, that is a fine letter from his <persName>Riverence Calderwood</persName>
+<lb/><p>Well, that is a fine <bibl>letter from his <persName>Riverence Calderwood</persName></bibl>
 <lb/>I look upon it with mingled feelings of scorn and shame. With
-<lb/>scorn when I think of an English Professor of Christianity so
+<lb/>scorn when I think of an <term type="nationality">English</term> <term type="occupation">Professor</term> of <term type="faith">Christianity</term> so
 <lb/>unutterably mean as to join in the hue and cry against a
-<lb/>poor <term type="tribe">Hottentot</term>, and so dead to the shame of infamy as to
+<lb/>poor <orgName>Hottentot</orgName>, and so dead to the shame of infamy as to
 <lb/>confess at the same time that it has been his practice
-<lb/>to act the part of a common informer. A salaried
-<lb/>Government spy.- I blush up to the ears when I
+<lb/>to act the part of a common <term type="occupation">informer</term>. A salaried
+<lb/><orgName><orgName>Government</orgName> <term type="occupation">spy</term></orgName>.- I blush up to the ears when I
 <lb/>read his confession (after spending years in the service
-<lb/>of our society) that he does not know the language
+<lb/>of <orgName>our society</orgName>) that he does not know the language
 <lb/>sufficiently well to know exactly the statement of a
-<lb/>native without an interpreter. Is it not disgraceful
-<lb/>to find the gospel of <persName>Christ</persName> proclaimed in a <hi rend="underline">patois</hi>
-<lb/>called "school <term type="tribe">Caffre</term>"? We must not lose sight of this
+<lb/><orgName>native</orgName> without an <term type="occupation">interpreter</term>. Is it not disgraceful
+<lb/>to find the <bibl>gospel</bibl> of <persName>Christ</persName> proclaimed in a <hi rend="underline">patois</hi>
+<lb/>called "school <orgName>Caffre</orgName>"? We must not lose sight of this
 <lb/>confession. It is good that he makes it though that
 <lb/>and other statements ought to cover him with lasting
 <lb/>infamy. A man who could write as he has done
 <lb/>will do more. This is not his last letter nor
 <lb/>his last stab at the cause of truth &amp; righteousness</p>
-<lb/><p>You see how the Government officials feel towards
+<lb/><p>You see how the <orgName><orgName>Government</orgName> <term type="occupation">officials</term></orgName> feel towards
 <lb/>the defence of <persName>Botha</persName>. In <placeName><country>Scotland</country></placeName> counsel is provided
 <lb/>for the most depraved criminals at the expense of the
-<lb/>state. This Reverend Commissioner would have us
+<lb/><orgName>state</orgName>. This <persName>Reverend <term type="occupation">Commissioner</term></persName> would have us
 <lb/>believe that such defence "tends to break down important
 <lb/>moral distinctions" - that its tendency is to cause the
 <lb/>whole of <term type="nationality">Scottish</term> society to be suspected for we have
-<lb/>criminals there out of every class. From Commissioners
+<lb/>criminals there out of every class. From <term type="occupation">Commissioners</term>
 <lb/>who can play the fool for £600 per annum with the
-<lb/>bible in one hand &amp; the sambok in the other. Good Lord delivers <add place="below">us</add></p>
+<lb/><bibl>bible</bibl> in one hand &amp; the sambok in the other. Good Lord delivers <add place="below">us</add></p>
 
 	<pb n="0003" facs="liv_000762_0003"><!--pb/@n='2r'--></pb>
-<lb/><p>The copies of <persName>M<hi rend="sup underline">r</hi> Read</persName>'s letters have not reached any of the <w>miss-
-<lb break="no"/>ionaries</w> up here.. The Reports all did - I have made arrangements
-<lb/>for the delivery of your letters. Have <choice><sic>recieved</sic><corr>received</corr></choice> two notes from
-<lb/>you. <persName>M<hi rend="sup">r</hi>Moffat</persName>'s <term type="bodypart">head</term> is still affected. Nothing he has tried
-<lb/>has the least effect on it. The Translation goes on briskly
+<lb/><p>The <bibl>copies of <persName>M<hi rend="sup underline">r</hi> Read</persName>'s letters</bibl> have not reached any of the <term type="occupation"><w>miss-
+<lb break="no"/>ionaries</w></term> up here.. The <bibl>Reports</bibl> all did - I have made arrangements
+<lb/>for the delivery of <bibl>your letters</bibl>. Have <choice><sic>recieved</sic><corr>received</corr></choice> two notes from
+<lb/>you. <persName>M<hi rend="sup">r</hi> Moffat</persName>'s <term type="bodypart">head</term> is still affected. Nothing he has tried
+<lb/>has the least effect on it. The <bibl>Translation</bibl> goes on briskly
 <lb/>notwithstanding. <persName>Edwards</persName> has left his station and the
-<lb/>people of <placeName><settlement type="village">Mabotsa</settlement></placeName> have come over to <persName>Sechele</persName>. The Boers are
+<lb/>people of <placeName><settlement type="village">Mabotsa</settlement></placeName> have come over to <persName>Sechele</persName>. The <orgName>Boers</orgName> are
 <lb/>reported by an individual who came here two days ago to be
 <lb/>encamped at <placeName><settlement type="village">Mabotsa</settlement></placeName>. They contemplate rooting out <persName>Sechele</persName>
-<lb/>and wait only till two or three of their party return from the
-<lb/>Lakes They fear if an attack is made now that <persName>Sechele</persName>'s people
+<lb/>and wait only till two or three of their <orgName>party</orgName> return from the
+<lb/>Lakes They fear if an attack is made now that <orgName><persName>Sechele</persName>'s people</orgName>
 <lb/>fleeing Northwards would meet their friends and of course -
-<lb/>treat them as they <add place="below">^</add><add place="above">now</add> hope to do the <term type="tribe">Bakwains</term>. they may find it
+<lb/>treat them as they <add place="below">^</add> <add place="above">now</add> hope to do the <term type="tribe">Bakwains</term>. they may find it
 <lb/>more difficult to subdue <persName>Sechele</persName> than they dream of. But their plan
-<lb/>is to secure the whole country to themselves and prevent traders
-<lb/>and travellers from going beyond them. One of <persName>D<hi rend="sup">r</hi> Robertson</persName>'s
+<lb/>is to secure the whole country to themselves and prevent <term type="occupation">traders</term>
+<lb/>and <term type="occupation">travellers</term> from going beyond them. One of <persName>D<hi rend="sup">r</hi> Robertson</persName>'s
 <lb/>converts called <persName>Chief commandant Pretorious</persName> was <unclear cert="medium">feasted</unclear>
 <lb/>the other day not far from <placeName><settlement type="village">Boomplaats</settlement></placeName> where the battle
 <lb/>was fought. They drunk the memory of <persName>Major Hogg</persName> in solemn
 <lb/>silence but forgot the memory of the brave men who <gap extent="1" unit="words" agent="hole"/>
 <lb/>butchered at <placeName><settlement type="village">Boomplaats</settlement></placeName> by this same <persName>Pretorius</persName>. Is it
 <lb/>right or is it not for the <term type="tribe">Bakwains</term> to make the country
-<lb/>too hot for this man's party - after he strikes the first
+<lb/>too hot for this man's <orgName>party</orgName> - after he strikes the first
 <lb/>blow? I shall be there soon and must give an opinion
-<lb/>on the point. What would you advise? If it is right for <term type="tribe">Hottentot</term>
-<lb/>Levies to fight against the <term type="tribe">Caffres</term> it is right for <term type="tribe">Caffres</term> &amp; <term type="tribe">Bakwains</term>
+<lb/>on the point. What would you advise? If it is right for <orgName><orgName>Hottentot</orgName>
+<lb/>Levies</orgName> to fight against the <orgName>Caffres</orgName> it is right for <orgName>Caffres</orgName> &amp; <term type="tribe">Bakwains</term>
 <lb/>to fight against the enemies of their country. I doubt if it is right to fight <add place="below">at all</add></p>
 <lb/><p><persName>M<hi rend="sup underline">r</hi> Ross has gone to see his people again at <placeName><settlement type="town">Tauns</settlement></placeName>. He came along</persName>
-<lb/>with me from <placeName><settlement type="town">Griqua Town</settlement></placeName> as far as <placeName><geogName>Daniel's Kuil</geogName></placeName>. He will    
-<lb/>return by way of <placeName><settlement type="village">Kuruman</settlement></placeName>. The Doctors have not written any
+<lb/>with me from <placeName><settlement type="town">Griqua Town</settlement></placeName> as far as <placeName><geogName>Daniel's Kuil</geogName></placeName>. He will  
+<lb/>return by way of <placeName><settlement type="village">Kuruman</settlement></placeName>. The <orgName>Directors</orgName> have not written any
 <lb/>of the <choice><orig>bretheren</orig><reg>brethren</reg></choice> for a long time. <persName>Major Hogg</persName> will have some idea
-<lb/>now as to whether the reports he circulated anent a certain person
+<lb/>now as to whether the <bibl>reports</bibl> he circulated anent a certain person
 <lb/>were true or false. We shall all soon be hushed in the still &amp;
 <lb/>peaceful <unclear cert="medium">Hades</unclear>. All this bother &amp; bluster &amp; blarney will <choice><sic>recieve</sic><corr>receive</corr></choice>
-<lb/>a quietus before many years in as far as the present actors
+<lb/>a quietus before many years in as far as the present <term type="occupation">actors</term>
 <lb/>are concerned. What a hush takes place as the shades of death
 <lb/>close around one. God grant that when we have finished our
 <lb/>work we may be hushed to eternal rest on <persName>Abraham</persName>'s bosom</p>
@@ -176,7 +186,7 @@
 	<pb n="0004" facs="liv_000762_0004"><!--pb/@n='2v'--></pb>
 <lb/><p>Kind love to your sister <persName>Ralph</persName> &amp; <persName>Jessie</persName>, I <choice><sic>wont</sic><corr>won't</corr></choice> mention <persName>Willie</persName>
 <lb/>because he did not come to help me. I tried your plan on one
-<lb/>ox and he became a beauty &amp; so tame. All the <choice><sic>boers</sic><corr>Boers</corr></choice> wanted to
+<lb/><term type="animal">ox</term> and he became a beauty &amp; so tame. All the <orgName><choice><sic>boers</sic><corr>Boers</corr></choice></orgName> wanted to
 <lb/>exchange him &amp; poor fellow he was drowned in the <placeName><geogName type="river">Orange River</geogName></placeName>
 <lb/>Three fell into a muddy place on a Saturday evening. We all worked
 <lb/>the whole night trying to get them out of the sloughy bank and as the
@@ -190,30 +200,35 @@
 <lb/>notes were good but very short you will someday write a longer
 <lb/>I hope. Poor <persName>Botha</persName>. The sentence is terrible. It is worse than
 <lb/>death. Poor fellow. -- the wicked shall not always triumph
-<lb/>By same post I send a letter for my brother containing <persName>Sandillah</persName>s
+<lb/>By same post I send a <bibl>letter for my brother</bibl> containing <persName>Sandillah</persName>s
 <lb/>speech to <persName>Renton</persName>. to be printed in <placeName><country>America</country></placeName>. All we learn of
-<lb/>the <term type="tribe">Caffre</term> war is one sided. We must hear both sides
+<lb/>the <orgName>Caffre</orgName> war is one sided. We must hear both sides
 <lb/>It is well <persName>Sendillah</persName> speaks out so nobly. Bringing out converts
-<lb/>to assist the <term type="nationality">English</term> is infamous - We must either preach
-<lb/>passive resistance or fighting for our own countrymen <persName><choice><abbr>D.</abbr><expan>David</expan></choice><choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
-	<ab><!-- This passage is written at 180 degrees from the text preceding it HB 12-23-13 -->
-<lb/>Two parties of Boers are gone <persName>Sebitoané</persName> wards. they will be cut off <add place="above">by <persName>Sechele</persName>'s people</add>. One of these
-<lb/>parties would plunder me if they met me - so I think it well to wait here till
-<lb/>they are out of my way or killed. It is trying to wait but God's good Providence
-<lb/>has detained me so long just to prevent me falling into the very worst of the strife &amp; losing <add place="below">everything</add></ab>
+<lb/>to assist the <term type="people">English</term> is infamous - We must either preach
+<lb/>passive resistance or fighting for our own <orgName>countrymen</orgName> <persName><choice><abbr>D.</abbr><expan>David</expan></choice> <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
+
 	<ab>
 <lb/><date when="1852-09-20">20<hi rend="sup underline">th</hi></date> You will see by <persName>M<hi rend="sup">r</hi> Moffat</persName>'s to you the doings of <persName>D<hi rend="sup underline">r</hi> Robertson</persName>'s dearly beloved
-<lb/><choice><orig>bretheren</orig><reg>brethren</reg></choice>. I mourn over my books &amp; medicines <supplied cert="high">&amp;</supplied> instruments. Please say nothing
+<lb/><choice><orig>bretheren</orig><reg>brethren</reg></choice>. I mourn over <bibl>my books</bibl> &amp; medicines <supplied cert="high">&amp;</supplied> instruments. Please say nothing
 <lb/>about my losses or some good Samaritan will forthwith send me odd numbers of
-<lb/>the Evangelical Mag. the pictures extracted - "Alleine's Alarm". without the title page. An odd volume <add place="below">Charnocks sermons &amp;c</add><!-- a horizontal line across the whole page appears under this line AM --></ab>
-	<ab>
-<lb/>Many thanks for the <unclear cert="low">Poalter &amp; O'Niel</unclear> books
+<lb/>the <bibl>Evangelical <choice><abbr>Mag.</abbr><expan>Magazine</expan></choice></bibl> the pictures extracted - <bibl>"Alleine's Alarm"</bibl>. without the title page. An odd volume <add place="below"><bibl>Charnocks sermons</bibl> &amp;c</add><!-- a horizontal line across the whole page appears under this line AM --></ab>
+
+	<cb rend="upside-down"/>
+	<ab><!-- This passage is written at 180 degrees from the text preceding it HB 12-23-13 -->
+<lb/>Two <orgName>parties</orgName> of <orgName>Boers</orgName> are gone <persName>Sebitoané</persName> wards. they will be cut off <add place="above">by <orgName><persName>Sechele</persName>'s people</orgName></add>. One of these
+<lb/><orgName>parties</orgName> would plunder me if they met me - so I think it well to wait here till
+<lb/>they are out of my way or killed. It is trying to wait but God's good Providence
+<lb/>has detained me so long just to prevent me falling into the very worst of the strife &amp; losing <add place="below">everything</add></ab>
+
+	<cb rend="vertical"/>
+<lb/><ab>Many thanks for the <bibl><unclear cert="low">Poalter &amp; O'Niel</unclear> books</bibl>
 <lb/>doubly precious now. I send <persName>Sandillah</persName>'s speech
 <lb/>to be printed in <placeName><country>America</country></placeName>. Please notice if
-<lb/>it comes to you also two letters for <persName>M<hi rend="sup underline">rs</hi><choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName></ab>
+<lb/>it comes to you also <bibl>two letters for <persName>M<hi rend="sup underline">rs</hi><choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName></bibl></ab>
+
 	<ab>
 <lb/><hi rend="underline">Prepaid</hi>
-<lb/><persName>Rev<hi rend="sup underline">d</hi><choice><abbr>W<hi rend="sup underline">m</hi></abbr><expan>William</expan></choice> Thompson</persName>
+<lb/><persName>Rev<hi rend="sup underline">d</hi> <choice><abbr>W<hi rend="sup underline">m</hi></abbr><expan>William</expan></choice> Thompson</persName>
 <lb/>Church Square
 <lb/><hi rend="underline"><placeName><settlement type="city">Cape Town</settlement></placeName></hi><!-- To the left of the address someone other than Livingstone has written "2. Language" and below this "p.4."; a large number "8" is superimposed in red ink over the address itself AM --></ab>
 

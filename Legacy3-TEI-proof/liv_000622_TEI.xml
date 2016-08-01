@@ -2,7 +2,7 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000622">
 	<teiHeader>
 		<fileDesc>
@@ -42,6 +42,11 @@
 				<name xml:id="HFB">Heather F. Ball</name>Proofreading and additional XML encoding.
             
 			</change>
+			<change>
+				<date>2016-06-19</date>
+				<name xml:id="AMM">Anne Martin</name>Final Review.
+            
+			</change>
 		</revisionDesc>
 	</teiHeader>
 
@@ -76,7 +81,7 @@
 <lb/>He could scarcely breathe for one day - the
 <lb/>mucus collected so abundantly in the <term type="bodypart">air
 <lb/>tubes</term>. The sound was like the cooing
-<lb/>of wood pigeons in his <term type="bodypart">breast</term>. That
+<lb/>of <term type="animal">wood pigeons</term> in his <term type="bodypart">breast</term>. That
 <lb/>has been removed but no medicine has
 <lb/>any effect on the complaint. He has
 <lb/>constant <term type="ailment">heat of skin</term> - loses <term type="bodypart">flesh</term> &amp;
@@ -91,7 +96,7 @@
 <lb/><p><persName>M<hi rend="sup">r</hi> Cumming</persName> has kindly favoured us
 <lb/>with an adze so there is no need for
 <lb/>that which went to <placeName><settlement type="village">Kuruman</settlement></placeName>. We hope
-<lb/><persName>Mamary</persName> &amp; party arrived safe. <persName>M<hi rend="sup">r</hi><choice><abbr>C</abbr><expan>Cumming</expan></choice></persName> will
+<lb/><persName>Mamary</persName> &amp; <orgName>party</orgName> arrived safe. <persName>M<hi rend="sup">r</hi> <choice><abbr>C</abbr><expan>Cumming</expan></choice></persName> will
 <lb/>give all our news.
 
     
@@ -101,7 +106,7 @@
 <lb/>succeeded well with those of the "naves"
 <lb/>except making one rather too little. Three
 <lb/>of the large bands fitted well But one did
-<lb/>not touch the wood <add place="below">^</add><add place="above">at the weld</add> &amp; when trying to
+<lb/>not touch the wood <add place="below">^</add> <add place="above">at the weld</add> &amp; when trying to
 <lb/>send it in (when cold) I broke it although
 <lb/>the weld was one of the best made. I
 <lb/>take it slowly welding one side then
@@ -124,16 +129,16 @@
     
 
 	<pb n="0004" facs="liv_000622_0004"><!--pb/@n='2v'--></pb>
-<lb/>shower of rain yet. Olive grows briskly <!-- Is Olive the name of someone/thing, or is it just the food, and then should be "olives"? HB 6-16-13 -->
+<lb/>shower of rain yet. <term type="plant">Olive</term> grows briskly <!-- Is Olive the name of someone/thing, or is it just the food, and then should be "olives"? HB 6-16-13 -->
 <lb/><choice><orig>Waggon</orig><reg>Wagon</reg></choice> tent suffered a severe fracture
 <lb/>all along back bone - Ribs all shivered
 <lb/>We shall patch it up &amp; go Eastward
-<lb/>as soon as <persName>Robert</persName> recovers - Corn
+<lb/>as soon as <persName>Robert</persName> recovers - <term type="plant_foodstuff">Corn</term>
 <lb/>crop best this year - long ago
 <lb/>you have heard of the departure of <persName>Baba</persName>
 <lb/>to the land of the blessed. He worked hard
 <!-- the next 7 lines seem to have been crossed out in another hand, but the cross not obscuring them. Lines 11-15 are further marked with a vertical line and the words "of no use", in the left margin AM -->
-<lb/>for us. ploughing &amp;c. I could not reckon
+<lb/>for us. <term type="occupation">ploughing</term> &amp;c. I could not reckon
 <lb/>with him being engaged with <persName>Vardon</persName>
 <lb/>&amp; <persName><choice><sic>Oswel</sic><corr>Oswell</corr></choice></persName> But said in parting I shall
 <lb/>add ten dollars to the amount for carriage
@@ -141,12 +146,12 @@
 <lb/>although I gave nothing for the work
 <lb/>it did not matter. He worked to assist
 <lb/>us. In their confusion after the accident
-<lb/>they sent a man on horseback to <placeName><settlement type="village">Mabotsa</settlement></placeName>
+<lb/>they sent a man on <term type="animal">horse</term>back to <placeName><settlement type="village">Mabotsa</settlement></placeName>
 <lb/>&amp; a man on foot here - the latter
 <lb/>arrived late in the afternoon &amp; <persName>Mebaloe</persName> &amp;
 <lb/>I immediately set off keeping up a gallop
 <lb/>till it was dark. The moon arose
-<lb/>about one <choice><sic>oclock</sic><corr>o'clock</corr></choice> and a rhinoceros at
+<lb/>about one <choice><sic>oclock</sic><corr>o'clock</corr></choice> and a <term type="animal">rhinoceros</term> at
 <lb/>the same time disputed our path
 
     
@@ -158,14 +163,14 @@
 <lb/>big dark bush after that a real <unclear cert="low">burile</unclear>
 <lb/>moving &amp; making towards us, Directing
 <lb/>our course to a fire in the distance we
-<lb/>found it at <add place="below">^</add><add place="above">a</add> cattle post of <term type="tribe">Bakhatla</term> who
+<lb/>found it at <add place="below">^</add> <add place="above">a</add> <term type="animal">cattle</term> post of <term type="tribe">Bakhatla</term> who
 <lb/>gave the melancholy intelligence that
 <lb/>the spirit of <persName>Baba</persName> had departed just
 <lb/>about the time we left home. Had the
-<lb/>man on horseback come here we might have
+<lb/>man on <term type="animal">horse</term>back come here we might have
 <lb/><gap extent="2" unit="chars" agent="tear"/><unclear cert="high">wi</unclear>tnessed his dying moments &amp; it would have
 <lb/>been satisfactory to our feelings to have
-<lb/>shewn respect to him though we could
+<lb/><choice><orig>shewn</orig><reg>shown</reg></choice> respect to him though we could
 <lb/>do little else. We returned in the morning
 <lb/>with sorrowful hearts</p>
 <lb/><p>If an opportunity should occur
@@ -187,18 +192,18 @@
 <lb/>only one letter so we return it
 <lb/>in nearly the same state it left
 <lb/>you</p>
-<lb/><p>We send if <persName>M<hi rend="sup underline">r</hi><choice><abbr>C.</abbr><expan>Cumming</expan></choice></persName> will take it
-<lb/>a <unclear cert="high">Macaca</unclear> root hoping you will <gap extent="2" unit="chars" agent="tear"/>
+<lb/><p>We send if <persName>M<hi rend="sup underline">r</hi> <choice><abbr>C.</abbr><expan>Cumming</expan></choice></persName> will take it
+<lb/>a <term type="plant"><unclear cert="high">Macaca</unclear></term> root hoping you will <gap extent="2" unit="chars" agent="tear"/>
 <lb/>enclose it for <persName>D<hi rend="sup">r</hi> Buchanan</persName>, in
 <lb/>the Box. If you think it will
 <lb/>do mischief it can be left out</p><!-- There appears to be some ink/possibly text over "left", but cannot make out whether it's blotting or intentional HB 10-23-13 -->
 <lb/><p>Intend as soon as the present brush
 <lb/>of work is over to collect some of
 <lb/>the rarer bulbs for your botanic
-<lb/>garden I know one <unclear cert="low">Mocaca</unclear> as
+<lb/>garden I know one <term type="plant"><unclear cert="low">Mocaca</unclear></term> as
 <lb/>big as a small water <unclear cert="low">vatchy</unclear> - this
 <lb/>upper portion (stems leaves) &amp;c. is
-<lb/>used as a vegetable by nati<gap extent="3" unit="chars" agent="stain"/><supplied cert="medium">ves</supplied></p>
+<lb/>used as a <term type="plant">vegetable</term> by <orgName>nati<gap extent="3" unit="chars" agent="stain"/><supplied cert="medium">ves</supplied></orgName></p>
 			
 </div>
 		</body>

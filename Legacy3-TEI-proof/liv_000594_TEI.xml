@@ -2,7 +2,7 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000594">
 	<teiHeader>
 		<fileDesc>
@@ -50,6 +50,11 @@
 				<name xml:id="HFB">Heather F. Ball</name>Additional encoding.
             
 			</change>
+			<change>
+				<date>2016-06-11</date>
+				<name xml:id="AMM">Anne Martin</name>Final Review
+            
+			</change>
 		</revisionDesc>
 	</teiHeader>
 
@@ -69,8 +74,8 @@
 <lb/>intend to leave on thursday or friday next, my
 <lb/>window frames must be done then. I am now
 <lb/>busy at them. When the first row of thatch
-<lb/>is on "I shall sleep a month" The letter to
-<lb/>the Directors is not finished &amp; lies like an
+<lb/>is on "I shall sleep a month" The <bibl>letter to
+<lb/>the <orgName>Directors</orgName></bibl> is not finished &amp; lies like an
 <lb/>incubus on my mind. I <choice><sic>cant</sic><corr>can't</corr></choice> make it
 <lb/>to please myself. Tired out every night
 <lb/>I fancy I feel like you in your <w>per-
@@ -84,11 +89,11 @@
 <lb/>intense desires. <persName>Mary</persName> I suppose will
 <lb/>give all the news I have none</p>
 	<ab><!--This section of the letter is spread over pages 1r and 1v. JM 4/10/12-->
-<lb/>Thank you for the Music Book I am precentor now
-<lb/>&amp; such a precentor! I am in agonies before
+<lb/>Thank you for the <bibl>Music Book</bibl> I am <term type="occupation">precentor</term> now
+<lb/>&amp; such a <term type="occupation">precentor</term>! I am in agonies before
 <lb/>I can screw out anything like a tune &amp; then <persName><unclear cert="low">Rira</unclear></persName> drowns
 <lb/>me. I have to watch for a chink here and there in his voice 
-<lb/>&amp; stick in a note just to let them hear their leader is not asleep</ab>
+<lb/>&amp; stick in a note just to let them hear their <term type="occupation">leader</term> is not asleep</ab>
 
 
 	<pb n="0002" facs="liv_000594_0002"><!--pb/@n='1v'--></pb>
@@ -100,17 +105,17 @@
 <lb/>of thought prevents us enumerating all the
 <lb/>things &amp; thanking for each May be the gratitude
 <lb/>is not quite the thing either. Thank you
-<lb/>for the barren cow consolation. It equals
-<lb/>what one might have given the gravedigger's
+<lb/>for the barren <term type="animal">cow</term> consolation. It equals
+<lb/>what one might have given the <term type="occupation">gravedigger</term>'s
 <lb/>wife who complained of the hardness of the
 <lb/>times. "Naething doing at a<del type="strikethrough">ll</del> noo, <persName>Jamie</persName> has na
 <lb/>had a job for three weeks, I dinna ken hoe
 <lb/>we can fen ava". I have got seeds of the
 <lb/>gigantic tree 51 feet in diameter. Very
-<lb/>good food, native testimony. The one
+<lb/>good food, <orgName>native</orgName> testimony. The one
 <lb/>I broke has a good flavour, you will
 <lb/>taste. These are small. I have seen them as
-<lb/>large as ostrich eggs. <persName>Oswal</persName> &amp; <persName>Murray</persName>
+<lb/>large as <term type="animal">ostrich</term> <term type="foodstuff">eggs</term>. <persName>Oswal</persName> &amp; <persName>Murray</persName>
 <lb/>may take them down. They were
 <lb/>extremely kind to us. The former promises
 <lb/>to send seeds from <placeName><country>India</country></placeName> &amp; the latter
@@ -123,24 +128,24 @@
 <lb/>should have entrusted him with an order
 <lb/>for a magic lantern. It would be cheaper in
 <lb/><placeName><settlement type="city">Edinburgh</settlement></placeName> than <placeName><settlement type="city">London</settlement></placeName> &amp; he being acquainted
-<lb/>with many ship captains says he can send
+<lb/>with many <term type="occupation">ship captains</term> says he can send
 <lb/>anything safely. Surgical instruments are <choice><orig>⅔</orig><reg>2/3</reg></choice><hi rend="sup">ds</hi>
 <lb/>cheaper in <placeName><settlement type="city">Edinburgh</settlement></placeName> than <placeName><settlement type="city">London</settlement></placeName>. Did you
-<lb/>talk about <placeName><settlement type="city">Rome</settlement></placeName><foreign xml:lang="und">Masepa hela</foreign>. The account
+<lb/>talk about <placeName><settlement type="city">Rome</settlement></placeName> <foreign xml:lang="und">Masepa hela</foreign>. The account
 <lb/>reconciled me to the <gap agent="illegible" extent="1" unit="words"/> of the <term type="tribe">Bechuanas</term>
 <lb/>they talked frequently about <persName>Edwards</persName>. We
 <lb/>could with difficulty answer their questions
 <lb/>they were so pointed. But we avoided saying
-<lb/>anything to shew we were obnoxious. He <persName>M<hi rend="sup">r</hi><choice><abbr>E</abbr><expan>Edwards</expan></choice></persName>
+<lb/>anything to <choice><orig>shew</orig><reg>show</reg></choice> we were obnoxious. He <persName>M<hi rend="sup">r</hi> <choice><abbr>E</abbr><expan>Edwards</expan></choice></persName>
 <lb/>has not however observed the same rule
-<lb/>respecting us. <persName>M<hi rend="sup">r</hi> Murray</persName> said "<persName>M<hi rend="sup">r</hi><choice><abbr>E</abbr><expan>Edwards</expan></choice></persName> is the 
+<lb/>respecting us. <persName>M<hi rend="sup">r</hi> Murray</persName> said "<persName>M<hi rend="sup">r</hi> <choice><abbr>E</abbr><expan>Edwards</expan></choice></persName> is the 
 <lb/>coarsest &amp; most uncouth man I ever saw
 <lb/>I was ashamed to be seen in his <del type="cancelled">presence</del><add place="above">company</add>"
 <lb/><persName>M<hi rend="sup">r</hi> Oswal</persName> said, <supplied cert="high">"</supplied>What is that tall queer looking
 <lb/>man we saw at <placeName><settlement type="village">Motito</settlement></placeName>? "He seems to speak 
 <lb/>as if he were always in a rage" Many
 <lb/>questions were put to <persName>Mary</persName> when I was absent
-<lb/>which shewed <persName>M<hi rend="sup">r</hi><choice><abbr>E</abbr><expan>Edwards</expan></choice></persName> had been going on
+<lb/>which <choice><orig>shewed</orig><reg>showed</reg></choice> <persName>M<hi rend="sup">r</hi> <choice><abbr>E</abbr><expan>Edwards</expan></choice></persName> had been going on
 <lb/>at a fine rate to them. She felt very
 <lb/>much at a loss what to answer. <add place="above">He</add> told
 <lb/>them he intended to go all along the <placeName><region>East
@@ -163,23 +168,23 @@
 <lb/>we have scarcely ever <choice><orig>⅓</orig><reg>1/3</reg></choice> of the former number
 <lb/>The only relaxation we have is half an
 <lb/>hour in the garden before sun set <w>trans-
-<lb break="no"/>-planting</w>. <persName>Mary</persName> is a real gardener &amp; enjoys
+<lb break="no"/>-planting</w>. <persName>Mary</persName> is a real <term type="occupation">gardener</term> &amp; enjoys
 <lb/>this much when not too tired. She is
 <lb/>wonderfully well. We have had some
-<lb/>dishes of Scotch Kale, spinach, leaves
-<lb/>of Mangold Wurzil, carrots an inch in
-<lb/>diameter. Lettuces we shall have in abundance
-<lb/>&amp; broccoli &amp; cabbages &amp; turnips ad nauseum
+<lb/>dishes of <term type="plant_foodstuff"><term type="nationality">Scotch</term> Kale</term>, <term type="plant_foodstuff">spinach</term>, leaves
+<lb/>of <term type="plant_foodstuff">Mangold Wurzil</term>, <term type="plant_foodstuff">carrots</term> an inch in
+<lb/>diameter. <term type="plant_foodstuff">Lettuces</term> we shall have in abundance
+<lb/>&amp; <term type="plant_foodstuff">broccoli</term> &amp; <term type="plant_foodstuff">cabbages</term> &amp; <term type="plant_foodstuff">turnips</term> ad nauseum
 <lb/>endure in abundance but we <choice><sic>dont</sic><corr>don't</corr></choice> know
 <lb/>how to eat all our good things. Perhaps
-<lb/>I shall turn out a half gardener at my
-<lb/>ain hand like the boys <unclear cert="medium">brither</unclear><persName>Jock</persName> &amp;
+<lb/>I shall turn out a half <term type="occupation">gardener</term> at my
+<lb/>ain hand like the boys <unclear cert="medium">brither</unclear> <persName>Jock</persName> &amp;
 <lb/>the <unclear cert="medium">diel</unclear> at sinning. I like it very much
-<lb/>Many thanks for the vine cuttings. When you
+<lb/>Many thanks for the <term type="plant">vine</term> cuttings. When you
 <lb/>come you must give me some instructions
-<lb/>Send out some oats &amp; barley from <placeName><country>England</country></placeName>
+<lb/>Send out some <term type="plant_foodstuff">oats</term> &amp; <term type="plant_foodstuff">barley</term> from <placeName><country>England</country></placeName>
 <lb/>The latter is perhaps superior, the former may
-	<cb/>
+	<cb rend="vertical"/>
 <lb/>go to comfort the stomachs of <persName>Ann</persName>'s winged friends if
 <lb/>you <choice><sic>dont</sic><corr>don't</corr></choice> like to sow it.</p>
 			

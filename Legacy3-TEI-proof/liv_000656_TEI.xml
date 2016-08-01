@@ -2,7 +2,7 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000656">
 	<teiHeader>
 		<fileDesc>
@@ -33,6 +33,9 @@
 			<langUsage>
 				<language ident="und">Undetermined</language>
 			</langUsage>
+            <handNotes>
+                <handNote xml:id="U">Scribe: Unknown</handNote>
+            </handNotes>
 		</profileDesc>
 		<revisionDesc>
 			<change>
@@ -50,6 +53,11 @@
 				<name xml:id="HFB">Heather F. Ball</name>Additional proofing and encoding.
             
 			</change>
+			<change>
+				<date>2016-06-27</date>
+				<name xml:id="AMM">Anne Martin</name>Final Review.
+            
+			</change>
 		</revisionDesc>
 	</teiHeader>
 
@@ -58,19 +66,19 @@
 			<div>
 
 	<pb n="0001" facs="liv_000656_0001"><!--pb/@n='1r'--></pb>
-<lb/><p rend="right"><placeName><settlement type="village">Kolobeng</settlement></placeName>, <date when="1848-09-02"> 2 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1848</date></p>
+<lb/><p rend="right"><placeName><settlement type="village">Kolobeng</settlement></placeName>, <date when="1848-09-02">2 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan> September</expan></choice> 1848</date></p>
 <lb/><p>My Dear Father</p><!-- The number 18 appears here (circled). It does not appear to be in Livingstone's hand AM -->
-<lb/><p rend="center">By the recent arrival of <persName>Monye Mabole</persName>
-<lb/>we were favoured with communications from the South 
-<lb/>and now by the arrival of <persName>Motseabona</persName> &amp; party from the 
+<lb/><p>By the recent arrival of <persName>Monye Mabole</persName>
+<lb/>we were favoured with communications from the <placeName><region>South</region></placeName> 
+<lb/>and now by the arrival of <persName>Motseabona</persName> &amp; <orgName>party</orgName> from the 
 <lb/><term type="tribe">Bamangwato</term> we have an opportunity of returning 
 <lb/>you thanks for your favours. We wrote lately 
 <lb/>by <unclear cert="low">Aron</unclear> and have now but little to communicate 
-<lb/><persName>Monye Mabole</persName> brought 15 out of the 17 <choice><sic>hiefers</sic><corr>heifers</corr></choice> - one 
-<lb/>he said had been killed by a wolf near to this &amp; of the 
+<lb/><persName>Monye Mabole</persName> brought 15 out of the 17 <term type="animal"><choice><sic>hiefers</sic><corr>heifers</corr></choice></term> - one 
+<lb/>he said had been killed by a <term type="animal">wolf</term> near to this &amp; of the 
 <lb/>others he could give no account whatever. The <term type="tribe">Bakwains</term>
 <lb/>were of opinion that he had made away with both. I sent 
-<lb/>him for the horns of that said to be killed by a wolf - he 
+<lb/>him for the horns of that said to be killed by a <term type="animal">wolf</term> - he 
 <lb/>brought a bone. of some animal or other but not being 
 <lb/>a comparative anatomist I could only look at it 
 <lb/>as a <unclear cert="low">Motchuana</unclear> does at the stars. I felt a little 
@@ -91,32 +99,32 @@
 	
 
 	<pb n="0002" facs="liv_000656_0002"><!--pb/@n='1v'--></pb>
-<lb/>stock of ten. We have never been in want of milk 
+<lb/>stock of ten. We have never been in want of <term type="foodstuff">milk</term> 
 <lb/>but our old stock is <add place="above">in</add> need of an infusion of new 
 <lb/>hands, or rather teats. - this country is favourable for us 
-<lb/>in respect to cattle. If you <choice><sic>recieve</sic><corr>receive</corr></choice> any from 
+<lb/>in respect to <term type="animal">cattle</term>. If you <choice><sic>recieve</sic><corr>receive</corr></choice> any from 
 <lb/><persName>M<hi rend="sup">r</hi> Solomon</persName> for us please send them under <persName>Paul</persName>'s
 <lb/>charge or some one else whom you have confidence 
 <lb/>in..</p>
 <lb/><p>The trees you sent were extremely acceptable. If 
 <lb/>you could have spared a few more they would 
-<lb/>have <add place="below">^</add><add place="above">been</add> equally prized. We have only two peach 
-<lb/>trees now &amp; no apricots. but we hope some 
-<lb/>may come up. We have about 10 orange trees 
-<lb/>two feet high. two olives. and a lot of this country<supplied>'s</supplied>
+<lb/>have <add place="below">^</add> <add place="above">been</add> equally prized. We have only two <term type="plant_foodstuff">peach</term> 
+<lb/>trees now &amp; no <term type="plant_foodstuff">apricots</term>. but we hope some 
+<lb/>may come up. We have about 10 <term type="plant_foodstuff">orange</term> trees 
+<lb/>two feet high. two <term type="plant_foodstuff">olives</term>. and a lot of this country<supplied>'s</supplied>
 <lb/>trees which we thought of <del type="cancelled"><unclear cert="low">en</unclear></del>grafting but they have 
 <lb/>not yet budded. Am sorry some of those you budded 
 <lb/>have had the new branches knocked off - some 
 <lb/>of the country trees we put in the ground <w>with<supplied>-</supplied><lb break="no"/>out</w> roots &amp; it is said they will grow - We cannot 
 <lb/>bud or <del type="cancelled"><unclear cert="low">en</unclear></del>graft till next year. Do you steep your 
-<lb/>tape in gum or what? The superb Claremont 
-<lb/>carrots came up splendidly but a swarm of locusts 
+<lb/>tape in gum or what? The superb <term type="plant_foodstuff">Claremont 
+<lb/>carrots</term> came up splendidly but a swarm of <term type="insect">locusts</term> 
 <lb/>left their place a blank &amp; we had sown all the 
 <lb/>seed sent - Our river has dwindled down to 
 <lb/>a dribbling rill &amp; we fear if rain does not
-<lb/>come soon we shall <add place="below">^</add><add place="above">have</add> but a poor account 
-<lb/>to give of corn - some is withered &amp; will be useless 
-<lb/>When we came <date when="1847-08"><add place="above">in August or July</add> last year</date> it was a large <!-- Adrian, how do we include the dating code for two months it spans the add tag? HB 7-2-13 -->
+<lb/>come soon we shall <add place="below">^</add> <add place="above">have</add> but a poor account 
+<lb/>to give of <term type="plant_foodstuff">corn</term> - some is withered &amp; will be useless 
+<lb/>When we came <date from="1847-07" to="1847-08"><add place="above">in August or July</add> last year</date> it was a large <!-- Adrian, how do we include the dating code for two months it spans the add tag? HB 7-2-13 -->
 <lb/>stream so we think its present insignificance
 
 	
@@ -133,19 +141,19 @@
 <lb/>returned invigorated - The much talked of <placeName><settlement type="village">Lōe</settlement></placeName>
 <lb/>is a circular pit in a sandstone rock. and  
 <lb/>at present dry. around the margin are a number 
-<lb/>of <unclear cert="medium">wide</unclear> footsteps carved. thus <!-- appears to a symbol MS --> apparently the 
+<lb/>of <unclear cert="medium">wide</unclear> footsteps carved. thus <figure><figDesc>drawing of footprint</figDesc></figure> apparently the 
 <lb/>work of children. The "spoor" with one exception 
 <lb/>goes into the pit. The exception is that of <persName>Matsién</persName><!-- Cannot find the character for the macro across the "n" in the character map HB 7-2-13 -->
 <lb/>the former of the <term type="tribe">Bechuanas</term>. As the story goes  
 <lb/>he returned into it while men left it but the spoor 
-<lb/>if intended to represent any thing shews the 
-<lb/>opposite. They <add place="above">the people</add> shew the old towns of the <term type="tribe">Bangwaketse</term>
-<lb/><term type="tribe">Bamangwato</term> &amp; <term type="tribe">Bakwains</term>, <term type="tribe">Mashona</term><add place="above">&amp;c &amp;c</add> &amp; all the 
+<lb/>if intended to represent any thing <choice><orig>shews</orig><reg>shows</reg></choice> the 
+<lb/>opposite. They <add place="above">the people</add> <choice><orig>shew</orig><reg>show</reg></choice> the old towns of the <term type="tribe">Bangwaketse</term>
+<lb/><term type="tribe">Bamangwato</term> &amp; <term type="tribe">Bakwains</term>, <term type="tribe">Mashona</term> <add place="above">&amp;c &amp;c</add> &amp; all the 
 <lb/>Eastern tribes. The tradition seems to refer to 
 <lb/>the splitting up of the people into different tribes 
 <lb/>from <placeName><settlement type="village">L<choice><sic>o</sic><corr>ō</corr></choice>e</settlement></placeName> as the central population. The remains <!-- Not sure if I coded the correct spelling of Loe properly, or if I didn't need the coding HB 7-2-13 -->
-<lb/>of old towns shew them to have been very large 
-<lb/><persName>Mokhatla</persName>'s men have <unclear cert="medium">just</unclear> been to <choice><sic>recieve</sic><corr>receive</corr></choice>
+<lb/>of old towns <choice><orig>shew</orig><reg>show</reg></choice> them to have been very large 
+<lb/><orgName><persName>Mokhatla</persName>'s men</orgName> have <unclear cert="medium">just</unclear> been to <choice><sic>recieve</sic><corr>receive</corr></choice>
 <lb/>their gun. &amp;c. The lock has been admirably done 
 <lb/>I sometimes fail entirely in producing fire 
 <lb/>from steel - do it over again &amp; it does well 
@@ -162,15 +170,15 @@
 <lb/>absent I held on expecting him till the season was 
 <lb/>past. Our beads too were at a low ebb. before the 
 <lb/>last supply arrived - I am at present collecting some 
-<lb/>of the heads of the game for you. Leaving the skin 
+<lb/>of the heads of the <term type="animal">game</term> for you. Leaving the skin 
 <lb/>&amp; under <unclear cert="high">jaw</unclear> entire - I think they will be interesting 
 <lb/>at home. <persName>Cumming</persName> intends to make an exhibition 
-<lb/>of his trophies in the Egyptian Hall <placeName><settlement type="city">London</settlement></placeName> &amp; 
+<lb/>of his trophies in the <term type="nationality">Egyptian</term> Hall <placeName><settlement type="city">London</settlement></placeName> &amp; 
 <lb/>make his fortune by them - Will the heads be 
 <lb/>acceptable as above.? I intend to put up a few 
 <lb/>in our lobby if <persName>Mary</persName> will give me leave. to 
 <lb/>ornament it for her.</p>
-<lb/><p>Am sorry to hear <persName>M<hi rend="sup">rs</hi><choice><abbr>M</abbr><expan>Moffat</expan></choice></persName> has been so much reduced 
+<lb/><p>Am sorry to hear <persName>M<hi rend="sup">rs</hi> <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName> has been so much reduced 
 <lb/>by her journey. Thought her made of a piece of clay 
 <lb/>that would not wear out in a hurry. We do not 
 <lb/>like to hear her speaking about dying Better if 
@@ -205,7 +213,7 @@
 <lb/>connection with unusual pains in either 
 <lb/><term type="bodypart">head</term> or any other part. habitual medication 
 <lb/>is not good in any case.</p>
-<lb/><p>Monday Evening. <persName>Sechele</persName> sends you a khoodoo's head 
+<lb/><p>Monday Evening. <persName>Sechele</persName> sends you a <term type="animal">khoodoo</term>'s head 
 <lb/>which was killed in the town this morning. It 
 <lb/>has too much grass in it but that can 
 <lb/>easily be remedied by wetting the skin again 
@@ -224,8 +232,8 @@
 <lb/>him our love if still with you. We are 
 <lb/>living in the hope &amp; belief that progress is being 
 <lb/>made. Opposition exists but not towards us 
-<lb/>It manifests itself in hatred to the gospel. Some 
-<lb/>woman or other wished the lion which bit
+<lb/>It manifests itself in hatred to the <bibl>gospel</bibl>. Some 
+<lb/>woman or other wished the <term type="animal">lion</term> which bit
 <lb/>me were here to finish me. but all are 
 <lb/>civil We cannot detect a particle of 
 <lb/>difference in the conduct of the mass of the 
@@ -236,7 +244,7 @@
 <lb/>them instantly - The children are returning 
 <lb/>to the schools. &amp; the meetings are improving 
 <lb/>We have appointed <unclear cert="medium">two</unclear> to converse with the 
-<lb/>chief in order to a report at next church 
+<lb/><term type="occupation">chief</term> in order to a report at next church 
 <lb/>meeting. We should have been glad had 
 <lb/><persName>Paul</persName> been here for the sake of his 
 <lb/>experience in such matters - I feel my 
@@ -287,7 +295,7 @@
 <lb/>be content to bear any epithet you choose to 
 <lb/>put upon me.- I am quite aware of the extent 
 <lb/>of the field you now occupy. &amp; that the <placeName><settlement type="village">Kuruman</settlement></placeName>
-<lb/>has always <add place="above">since I knew it</add><unclear cert="low">given</unclear> a poor idea of its greatness 
+<lb/>has always <add place="above">since I knew it</add> <unclear cert="low">given</unclear> a poor idea of its greatness 
 <lb/>but the people leaving so may render it 
 <lb/>needful for you to go through the building 
 <lb/>operations of a new station somewhere 
@@ -301,8 +309,8 @@
 <lb/>do your health good. you will get new 
 <lb/>words for translation. &amp;c &amp;c. I hope 
 <lb/>you may be guided by Him who cannot err</p>
-<lb/><p>I felt glad to hear that you or rather <persName>M<hi rend="sup">rs</hi><choice><abbr>M</abbr><expan>Moffat</expan></choice></persName>
-<lb/>had put a stop to the Patriot - It has of late 
+<lb/><p>I felt glad to hear that you or rather <persName>M<hi rend="sup">rs</hi> <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName>
+<lb/>had put a stop to the <bibl>Patriot</bibl> - It has of late 
 <lb/>become excessively <choice><sic>nauseaous</sic><corr>nauseous</corr></choice> to me 
 
 	
@@ -311,16 +319,16 @@
 <lb/><add place="above">3<hi rend="sup">d</hi> sheet</add> the filthy Quack advertisements stuck at the bottom 
 <lb/>of some of the pages create an unpleasant feeling 
 <lb/>in my mind every time I reach them - <persName>Holloway</persName>
-<lb/>a Jew I believe draws thousands of pounds annually 
-<lb/>from the public purse by falsehood &amp; the Editors of the 
-<lb/>Patriot for the sake of a rather higher rate of 
+<lb/>a <orgName>Jew</orgName> I believe draws thousands of pounds annually 
+<lb/>from the public purse by falsehood &amp; the <term type="occupation">Editors</term> of the 
+<lb/><bibl>Patriot</bibl> for the sake of a rather higher rate of 
 <lb/>payment admit his lies into the news part of 
 <lb/>the paper &amp; thereby become the vehicles by which 
 <lb/>a portion of the religious world too is drawn 
 <lb/>into the vortex of deception. Life is in <w>innum-
 <lb break="no"/>-erable</w> cases sacrificed every year by advertizing 
 <lb/>quacks - I have thought many times of late 
-<lb/>of proposing another paper instead of the Patriot 
+<lb/>of proposing another paper instead of the <bibl>Patriot</bibl> 
 <lb/>We should have been glad to hear how <persName>Robert</persName>
 <lb/>has got on &amp;c. but you are in the same 
 <lb/>state of ignorance as ourselves as to his 
@@ -333,13 +341,13 @@
 <lb/>it becomes known they need to be provided 
 <lb/>for</p>
 <lb/><p>Our soap you may remember when looking 
-<lb/>over the account being sixpence per lb ought 
+<lb/>over the account being sixpence per <choice><abbr>lb</abbr><expan>pound</expan></choice> ought 
 
 	
 
 	<pb n="0010" facs="liv_000656_0010"><!--pb/@n='5v'--></pb>
 <lb/>to be £1. instead of £2. <persName>Sechele</persName> was glad of his 
-<lb/>but having given the last box for an ox. we 
+<lb/>but having given the last box for an <term type="animal">ox</term>. we 
 <lb/>could only ask a better one this time as it was 
 <lb/>dearer soap. The animal is not worth <unclear cert="medium">/30</unclear> but 
 <lb/>we prefer to bear the loss of the difference to appearing 
@@ -347,42 +355,42 @@
 <lb/>for joining &amp; the house. The latter is unfinished 
 <lb/>inside. I am tired of it &amp; leave the finishing 
 <lb/>to some other time. It is simply whitewashed 
-<lb/>I have not good locks.. Did you ever get 
+<lb/>I have not good locks. Did you ever get 
 <lb/>the brace &amp; bits from <placeName><settlement type="city">Birmingham</settlement></placeName> which I 
 <lb/>requested you to order for me - mine went 
 <lb/>this way. <!-- drawing here of a dotted line crossing what looks like a winding river --> &amp; is now held by a <choice><sic>rein</sic><corr>rain</corr></choice></p>
-<lb/><p>All the country news will be <w>commun<supplied>-</supplied><lb break="no"/>icated</w> by <persName>Motseabona</persName>. The Griquas are <!-- Shouldn't Griquas be coded as a tribe? Or is it a geographical reference? HB 7-2-13 -->
-<lb/>standing to the West of this high &amp; dry on 
+<lb/><p>All the country news will be <w>commun<supplied>-</supplied><lb break="no"/>icated</w> by <persName>Motseabona</persName>. The <orgName>Griquas</orgName> are <!-- Shouldn't Griquas be coded as a tribe? Or is it a geographical reference? HB 7-2-13 --><!-- coded orgName as per manual AM -->
+<lb/>standing to the <placeName><region>West</region></placeName> of this high &amp; dry on 
 <lb/>their way to the Lake. They can it is 
 <lb/>reported neither go backwards nor 
 <lb/>forwards &amp; want for rains.</p>
-<lb/><p>With love to <persName>M<hi rend="sup">rs</hi><choice><abbr>M</abbr><expan>Moffat</expan></choice></persName> &amp; <persName>Ann</persName> believe</p>
+<lb/><p>With love to <persName>M<hi rend="sup">rs</hi> <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName> &amp; <persName>Ann</persName> believe</p>
 <lb/><p rend="center">me Affectionately yours</p>
-<lb/><p rend="center"><persName><choice><abbr>D</abbr><expan>David</expan></choice><choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
+<lb/><p rend="center"><persName><choice><abbr>D</abbr><expan>David</expan></choice> <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
 
 	<pb n="0011" facs="liv_000656_0011"><!--pb/@n='6r'--></pb>
-	<ab>
-	<cb rend="vertical"/>
-<lb/><persName>Rev<hi rend="sup underline">d</hi><choice><abbr>R</abbr><expan>Robert</expan></choice> Moffat</persName>
-<lb/><placeName><settlement type="village">Kuruman</settlement></placeName>
-<lb/><!-- In a hand that appears not to be Livingstone's the wording "my my g." appears. The letter "g" could equally well be "j" or another letter - nothing to compare it to - AM --></ab>
-
-
-	<pb n="0012" facs="liv_000656_0012"><!--pb/@n='6v'--></pb>
 <lb/><p>Tuesday morning - As <persName>Motseabona</persName> cannot take 
 <lb/>either of the boxes we let them remain - He 
-<lb/>takes some horns for you. Three Rhinoceros or
-<lb/><del type="strikethrough">four</del> one is 3 ft 1 <choice><orig>½</orig><reg>1/2</reg></choice><del type="strikethrough"><unclear cert="medium">in</unclear></del> in length - The 
-<lb/>longest <foreign xml:lang="und">Mohohu</foreign> I ever saw. The <foreign xml:lang="und">Khoodo</foreign>
-<lb/>is <persName>Sechele</persName> for you. The pallalis need 
+<lb/>takes some horns for you. Three <term type="animal">Rhinoceros</term> or
+<lb/><del type="strikethrough">four</del> one is 3 ft 1<choice><orig>½</orig><reg>1/2</reg></choice> <del type="strikethrough"><unclear cert="medium">in</unclear></del> in length - The 
+<lb/>longest <foreign xml:lang="und">Mohohu</foreign> I ever saw. The <foreign xml:lang="und"><term type="animal">Khoodo</term></foreign>
+<lb/>is <persName>Sechele</persName> for you. The <term type="plant">pallalis</term> need 
 <lb/>the bony part to be steeped in water &amp; 
 <lb/>scraped in order to be pretty - You must 
 <lb/>tell me if I send too many of these 
 <lb/>things. I think they will be interesting 
-<lb/>to friends at home. The chief's brother
-<lb/>brought a waterbuck's skin &amp;c carefully 
+<lb/>to friends at home. The <term type="occupation">chief</term>'s brother
+<lb/>brought a <term type="animal">waterbuck</term>'s skin &amp;c carefully 
 <lb/>prepared but it was an old animal 
 <lb/>&amp; only one horn so I declined it</p>
+
+	<pb n="0012" facs="liv_000656_0012"><!--pb/@n='6v'--></pb>
+
+	<ab>
+	<cb rend="vertical"/>
+<lb/><persName>Rev<hi rend="sup underline">d</hi> <choice><abbr>R</abbr><expan>Robert</expan></choice> Moffat</persName>
+<lb/><hi rend="underline"><placeName><settlement type="village">Kuruman</settlement></placeName></hi>
+<lb/><add place="inline" hand="#U">my my g.</add></ab>
 			
 </div>
 		</body>
