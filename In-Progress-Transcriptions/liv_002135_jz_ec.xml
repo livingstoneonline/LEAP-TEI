@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Thomas Maclear, 15 February, 2 March 1856</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+				<respStmt xml:id="EC">
+                    <name>Erin Cheatham</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002135</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>England</country><!-- Change as needed -->
+                        <settlement>Nottinghamshire</settlement><!-- Change as needed -->
+                        <repository>National Library of South Africa</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1553.4</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Joseph Moore, 6 December 1864</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1864-12-06">2 March 1856</date><!-- Change -->
+                    <placeName type="compositionPlace">Newstead Abbey</placeName><!-- Change -->
+                    <persName type="addressee">Joseph Moore</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-19" who="#JZ">Initial transcription and XML encoding</change>
+			<change when="2016-07-20" who="#EC">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002135_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+<lb/><fw n="152"><add place="margintop" rend="gray right" hand="#U">152</add></fw>
+<lb/><opener><dateline rend="right"><placeName>Hadley Green</placeName> <date when="1864-12-06">6 <choice><abbr>Dec</abbr><expan>December</expan></choice><!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 1864</date></dateline><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>My Dear Moore</salute></opener><!-- Change line info as appropriate -->
+<lb/><p rend="right">My daughter
+<lb/><persName>Agnes</persName> will attend
+<lb/>to the photos - Hence
+<lb/>not seen <persName>Farebrother</persName>
+<lb/>but <term type="occupation"><persName>D<hi rend="sup underline">r</hi> Tidman</persName></term> sent
+<lb/>a note desiring to
+<lb/>know where I was
+<lb/>that he might call
+<lb/>on me - I therefore
+<lb/>went but missed him 
+
+<pb facs="liv_002135_0002" n="0002"/>
+<lb/><unclear cert="medium">formerly</unclear> wanted to
+<lb/>know if you
+<lb/>had got the things
+<lb/>as I feared they 
+<lb/>had been lost -
+<lb/>you will excuse
+<lb/><persName>Agnes</persName> punishing
+<lb/>me as <unclear>form</unclear> very
+<lb/>busy -<persName><choice><abbr>DL</abbr><expan>David Livingstone</expan></choice></persName>. <!--Is this a closer? EC-->
+
+<addSpan spanTo="#add1"/>
+<lb/>I have great pleasure
+<lb/>in enclosing <persName>Papa</persName>'s
+<lb/>"cartes." They are not
+<lb/>so good as I should
+<lb/>like them to be but
+
+<pb facs="liv_002135_0003" n="0003"/>
+<lb/><fw n="153"><add place="margintop" rend="gray right" hand="#U">153</add></fw>
+<lb/>I suppose all carte
+<lb/><unclear cert="low">de bisites</unclear><!--This is possibly written in French, but not sure. EC--> are the same,
+<lb/>I say don't think the
+<lb/>large "head" is <hi rend="underline">good</hi>
+<lb/><gap extent="3" unit="words"/> I am such
+<lb/><gap extent="3" unit="words"/> my life
+<lb/><gap extent="3" unit="words"/> as if <!--Large hole in paper spanning three lines. EC-->
+<lb/>they should jump
+<lb/>out of their sockets!
+<lb/>you will see by his
+<lb/>short note that he
+<lb/>is very busy &amp; cannot
+<lb/>write more</p>
+<lb/><p>Please don't show
+
+<pb facs="liv_002135_0004" n="0004"/>
+<lb/>the ugly one off - It
+<lb/>will give <unclear cert="low">hangers</unclear>
+<lb/>such an idea of
+<lb/>my Papa -</p>
+<lb/><p rend="right">Believe me
+<lb/><gap extent="3" unit="lines"/></p>
+<lb/><p><date when="1864-12-07">7<hi rend="sup">th</hi> <hi rend="underline"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1864</hi></date></p>
+
+<anchor xml:id="add1"/><!--Not sure if this is coded correctly, seems like it might be a postscript. EC-->
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

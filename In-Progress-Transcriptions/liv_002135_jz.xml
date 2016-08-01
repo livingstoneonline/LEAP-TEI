@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Thomas Maclear, 15 February, 2 March 1856</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002135</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>England</country><!-- Change as needed -->
+                        <settlement>Nottinghamshire</settlement><!-- Change as needed -->
+                        <repository>National Library of South Africa</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1553.4</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Joseph Moore, 6 December 1864</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1864-12-06">2 March 1856</date><!-- Change -->
+                    <placeName type="compositionPlace">Newstead Abbey</placeName><!-- Change -->
+                    <persName type="addressee">Joseph Moore</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-02-14" who="#AM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002135_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+<lb/><opener><dateline rend="right"><placeName>Hadley Green</placeName> <date when="1857-08-22">22 August<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
+<lb/> 1857</date></dateline><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>My Dear Moore,</salute></opener><!-- Change line info as appropriate -->
+<pb facs="liv_002135_0001" n="0001"/>
+<lb/><p rend="right">My daughter
+<lb/><persName>Agnes</persName> will attend
+<lb/>to the photos - <unclear cert="low"> I have</unclear>
+<lb/>not seen <unclear cert="low">Farebrother</unclear>
+<lb/>but D<hi rend="sup underline">r</hi> Tidman sent
+<lb/>a note desiring to
+<lb/>know where I was
+<lb/>that he might call
+<lb/>on me - I therefore
+<lb/>went but missed him 
+
+<pb facs="liv_002135_0002" n="0002"/>
+<lb/>formerly wanted to
+<lb/><unclear cert="low">knoe</unclear> if you
+<lb/>had got the things
+<lb/>as I feared they 
+<lb/>had been lost &amp;
+<lb/>you will excuse
+<lb/>Agnes finishing
+<lb/><unclear cert="low">Nun</unclear> as <unclear>form</unclear> very
+<lb/>busy - DL. 
+<addSpan spanTo="#add1"/>
+<lb/>I have great pleasure
+<lb/>in enclousing <unclear cert="low"> Jarpas</unclear>
+<lb/>"cartes." They hre not
+<lb/>so good as I should
+<lb/>like them to be but
+
+<pb facs="liv_002135_0003" n="0003"/>
+<lb/>I suppose all carte
+<lb/>de bisites are the same,
+<lb/>I say dont think the
+<lb/>large "head" is great
+<lb/>I <!-- covered up --> I am such
+<lb/><!--covered up  --> my life
+<lb/><!--covered up  --> as if
+<lb/>they should giving
+<lb/>out of their socksells,
+<lb/>you will see by his
+<lb/>shirt hole that he
+<lb/>is very busy &amp; <unclear cert="low">comment</unclear>
+<lb/>write &amp; more
+<lb/>Please dont show
+
+<pb facs="liv_002135_0004" n="0004"/>
+<lb/>the ugly one off - St
+<lb/>will give &amp; hangers
+<lb/>suck on idea
+<lb/>of my Papa
+<lb/><!-- unclear word --> one</p><anchor xml:id="add1"/>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

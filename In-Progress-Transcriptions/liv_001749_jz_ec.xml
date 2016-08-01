@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Henry Rowley, 15 March 1862</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JZ"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                <resp>Encoding</resp>
+                </respStmt>
+               	<respStmt xml:id="EC">
+                    <name>Erin Cheatham</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001749</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Mozambique</country><!-- Change as needed -->
+                        <settlement><!-- N/A? -->Mozambique</settlement><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 10768, ff. 55-56</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1199</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Henry Rowley, 15 March 1862</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1862-03-15">15 March 1862</date><!-- Change -->
+                    <placeName type="compositionPlace">Shupanga</placeName><!-- Change -->
+                    <persName type="addressee">Henry Rowley</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-20" who="#JZ">Initial transcription and XML encoding</change>
+			 <change when="2016-07-21" who="#EC">Code Review</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001749_0001" n="0001"/><!-- Change both @facs and @n -->
+
+<lb/><fw n="55"><add place="margintop" rend="gray right" hand="#U">55</add></fw>
+<lb/><opener><add place="margintop" rend="gray" hand="#U">32</add><dateline rend="right"><placeName>Shupanga</placeName> <date when="1862-03-15">15<hi rend="sup underline">th</hi> March
+<lb/> 1862</date></dateline>
+<lb/>    
+<lb/><salute>My Dear <persName>M<hi rend="sup underline">r</hi> Rowley</persName></salute></opener>
+<lb/><p>this is a terrible
+<lb/>blow to the mission &amp;
+<lb/>makes me very much depressed in view
+<lb/>of the effect it will
+<lb/>have on all our
+<lb/>efforts - However we
+<lb/>must not swerve
+<lb/>from the work we
+<lb/>have undertaken
+<lb/>come what will and I trust you will all
+<lb/>feel the importance</p> 
+<lb/><cb rend="vertical"/><p>
+In January &amp; She is much too deep along
+<lb/>Excuse thus hasty note we are starting</p><!--This vertical text connected to end of letter-->
+
+	<pb facs="liv_001749_0002" n="0002"/>
+<lb/><p>of sticking more closely<!--paragraph here to validate. EC-->
+<lb/>together and supporting
+<lb/>each other than ever - 
+<lb/>Remember pray that
+<lb/>the eyes of the most
+<lb/>influential people in
+<lb/><placeName><settlement type="country">England</settlement></placeName> are upon you 
+<lb/>and should anything
+<lb/>present you doing
+<lb/>your duty manfully
+<lb/>you will be set down
+<lb/>as a parcel of writing
+<lb/>hypocrites that ought 
+<lb/>never to have been <w>en-
+<lb break="no"/>trusted</w> with anything
+<lb/>Let every little difference
+<lb/>dwindle into insignificance
+<lb/>before the great work <figure><figDesc>tiny lines drawn at end of text</figDesc></figure></p><!-- unclear if this is an &amp;, a squiggle, or in someone else's hand -JZ-->
+<lb/><cb rend="vertical"/><p>for the sea hoping this may find you</p>
+
+	<pb facs="liv_001749_0003" n="0003"/>
+<lb/><fw n="56"><add place="margintop" rend="gray right" hand="#U">56</add></fw>
+<lb/><p>in which you are engaged
+<lb/>Excuse my saying so 
+<lb/>much in the <unclear cert="low">hoitatery</unclear>
+<lb/>style -</p>
+<lb/><p>We could not carry up 
+<lb/>35 tons of the new steamer
+<lb/>took 3 weeks to come
+<lb/>up to <placeName><settlement type="village">Shupanga</settlement></placeName> - <w>un<supplied>-</supplied> 
+<lb break="no"/>loaded</w> 5 tons there - tried
+<lb/>again and were forced 
+<lb/>to unload all - put her
+<lb/>together and tow her up
+<lb/>in May next - you
+<lb/>will see how entirely
+<lb/>it is out of our power
+<lb/>to serve you with this
+<lb/>steamer as I would - 
+<lb/>We are entirely out of
+<lb/>provisions - and have 
+<lb/>no prospect of getting</p>
+<lb/><cb rend="vertical"/><p>in health &amp; good spirits</p> <closer><salute>I am the</salute>
+<lb/><signed><persName>David Livingstone</persName></signed></closer><!--Closer in middle of text, file wont parse. EC-->
+
+	<pb facs="liv_001749_0004" n="0004"/>
+<lb/><p>any except by going to
+<lb/><placeName><settlement type="city">Johanna</settlement></placeName><!-- unsure if this is a city. --> - and should
+<lb/>we be too late for the
+<lb/>ascent of the shire will
+<lb/>lose a season - then
+<lb/>he <term type="occupation">bishop</term> came down
+<lb/>in <date when="1862-11">Nov<hi rend="sup underline">r</hi></date> he wished to go
+<lb/>down to the <settlement type="river">Ruo</settlement> &amp; explore
+<lb/>upwards but I objected
+<lb/>very strongly as the <seg type="weather">rain</seg>
+<lb/>fell every afternoon and
+<lb/>would knock him up -
+<lb/>Well we went down one day
+<lb/>and then were detained over
+<lb/>6 weeks with a large marsh
+<lb/>on each side of us &amp; lost
+<lb/>our first man in the
+<lb/>expedition - we stood two
+<lb/>days <measure>1 mile above</measure> <settlement type="river">Ruo</settlement> but 
+<lb/>on <date when="1863-01">1<hi rend="sup underline">st</hi> January </date> no <term type="occupation">bishop</term>
+<lb/>could be heard of - We did
+<lb/>not reach the sea till late <!--Livingstone continues this on the first page in vertical text-->
+</p>
+            </div>
+        </body>
+    </text>
+
+</TEI>
