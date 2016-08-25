@@ -849,8 +849,7 @@
 		</span>
 	</xsl:template>-->
 
-<!-- Practice transformations -->
-<!-- Done: ailment, ethnic-group, orgName, persName/people-->
-<!-- Remain: foreign-word, geogName, quote, region, settlement -->
+<!-- Done: ailment, ethnic-group, orgName, persName/people, region, settlement-->
+<!-- Remain: foreign-word, geogName, quote -->
 
 </xsl:stylesheet>
