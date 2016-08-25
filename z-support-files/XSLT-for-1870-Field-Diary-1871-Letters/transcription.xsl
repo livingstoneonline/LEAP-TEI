@@ -733,7 +733,7 @@
 	</xsl:template>-->
 
 <!-- Practice transformations -->
-<!-- Done: ailment, orgName, persName/people-->
-<!-- Remain: ethnic-group, foreign-word, geogName, quote, region, settlement -->
+<!-- Done: ailment, ethnic-group, orgName, persName/people-->
+<!-- Remain: foreign-word, geogName, quote, region, settlement -->
 
 </xsl:stylesheet>
