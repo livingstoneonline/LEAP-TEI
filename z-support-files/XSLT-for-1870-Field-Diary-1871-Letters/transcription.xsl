@@ -474,7 +474,7 @@
 			<xsl:otherwise>Group, organization, or other collective not based on nationality.</xsl:otherwise>
 		</xsl:choose>
 		</xsl:variable>
-		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<!-- output the orgName in a html:span element with whatever is now in the $title variable -->
 		<span class="orgName" title="{$title}"><xsl:apply-templates/></span>
 	</xsl:template>
 
@@ -612,11 +612,11 @@
 
 	<!-- For "teiHeader" see above -->
 
-	<xsl:template match="term[@type]" priority="1">
-		<!--<span class="term" title="{@type}">-->
+	<!--<xsl:template match="term[@type]" priority="1">
+		<span class="term" title="{@type}">
 		<xsl:apply-templates/>
-		<!--</span>-->
-	</xsl:template>
+		</span>
+	</xsl:template>-->
 
 	<!-- For "text" see above -->
 
@@ -691,5 +691,32 @@
 			</xsl:for-each>
 		</span>
 	</xsl:template>-->
+
+<!-- Practice transformations -->
+<!-- Done:  orgName, persName/people-->
+<!-- Remain: ailment, ethnic-group, foreign-word, geogName, quote, region, settlement -->
+
+	<!-- Test -->
+	<xsl:variable name="ailment" select="doc('ailment.xml')"/>
+	<xsl:template match="term[@type='ailment']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the ailment -->
+			<xsl:when test="@xml:id">
+				<xsl:variable name="id" select="substring-after(@xml:id, '#')"/>
+				<xsl:variable name="thisEntry" select="$ailment//entry[@xml:id=$id]"/>
+				<xsl:if test="$thisEntry/form/orth"><xsl:value-of select="thisEntry/form/orth"/>. </xsl:if>
+				<!--<xsl:value-of select="$thisEntry/form/orth"/><xsl:text>. </xsl:text>-->
+				<xsl:value-of select="normalize-space($thisEntry/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>An ailment.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the term @type="ailment" in a html:span element with whatever is now in the $title variable -->
+		<span class="term-ailment" title="{$title}"><xsl:apply-templates/></span>
+	</xsl:template>
+
 
 </xsl:stylesheet>
