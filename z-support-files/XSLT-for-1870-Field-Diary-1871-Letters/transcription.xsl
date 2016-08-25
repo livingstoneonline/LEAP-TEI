@@ -542,7 +542,7 @@
 	</xsl:template>
 
 	<!-- @placeName plus others. To eliminate two spans and addition of whitespace in HTML -->
-	<xsl:template match="placeName/geogName|placeName/bloc|placeName/country|placeName/settlement">
+	<xsl:template match="placeName/geogName|placeName/bloc|placeName/country">
 		<xsl:apply-templates/>
 	</xsl:template>
 
@@ -583,6 +583,103 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+
+	<xsl:variable name="settlement" select="doc('settlement.xml')"/>
+	<xsl:template match="placeName/settlement[not(@*)]">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the person -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisSettlement" select="$settlement//place[@xml:id=$id]"/>
+				<xsl:value-of select="$thisSettlement/placeName[@type='main']"/><xsl:text>. </xsl:text>
+				<xsl:value-of select="normalize-space($thisSettlement/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>A settlement.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<span class="settlement" title="{$title}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="placeName/settlement[@type='city']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the person -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisSettlement" select="$settlement//place[@xml:id=$id]"/>
+				<xsl:value-of select="$thisSettlement/placeName[@type='main']"/><xsl:text>. </xsl:text>
+				<xsl:value-of select="normalize-space($thisSettlement/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>A city.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<span class="settlement city" title="{$title}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="placeName/settlement[@type='town']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the person -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisSettlement" select="$settlement//place[@xml:id=$id]"/>
+				<xsl:value-of select="$thisSettlement/placeName[@type='main']"/><xsl:text>. </xsl:text>
+				<xsl:value-of select="normalize-space($thisSettlement/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>A town.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<span class="settlement town" title="{$title}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="placeName/settlement[@type='state']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the person -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisSettlement" select="$settlement//place[@xml:id=$id]"/>
+				<xsl:value-of select="$thisSettlement/placeName[@type='main']"/><xsl:text>. </xsl:text>
+				<xsl:value-of select="normalize-space($thisSettlement/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>A state.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<span class="settlement state" title="{$title}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="placeName/settlement[@type='village']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the person -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisSettlement" select="$settlement//place[@xml:id=$id]"/>
+				<xsl:value-of select="$thisSettlement/placeName[@type='main']"/><xsl:text>. </xsl:text>
+				<xsl:value-of select="normalize-space($thisSettlement/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>A village.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<span class="settlement village" title="{$title}"><xsl:apply-templates/></span>
+	</xsl:template>
+
 
 	<!-- For "sic" see above -->
 
