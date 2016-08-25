@@ -542,7 +542,7 @@
 	</xsl:template>
 
 	<!-- @placeName plus others. To eliminate two spans and addition of whitespace in HTML -->
-	<xsl:template match="placeName/geogName|placeName/bloc|placeName/country|placeName/region|placeName/settlement">
+	<xsl:template match="placeName/geogName|placeName/bloc|placeName/country|placeName/settlement">
 		<xsl:apply-templates/>
 	</xsl:template>
 
@@ -550,6 +550,26 @@
 
 	<xsl:template match="rdg">
 		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:variable name="region" select="doc('region.xml')"/>
+	<xsl:template match="placeName/region">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the person -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisRegion" select="$region//place[@xml:id=$id]"/>
+				<xsl:value-of select="$thisRegion/placeName[@type='main']"/><xsl:text>. </xsl:text>
+				<xsl:value-of select="normalize-space($thisRegion/note[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>A region.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
+		<span class="region" title="{$title}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="opener/salute">
