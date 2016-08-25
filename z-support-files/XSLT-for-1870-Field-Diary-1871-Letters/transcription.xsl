@@ -263,19 +263,19 @@
 	<xsl:variable name="ailment" select="doc('ailment.xml')"/>
 	<xsl:template match="term[@type='ailment']">
 		<!-- Make the output of the @title attribute in a variable -->
-		<xsl:variable name="title">
-		<xsl:choose>
+		<xsl:variable name="title">An ailment.</xsl:variable>
+		<!--<xsl:choose>-->
 			<!-- when there is a @ref, assume it is right and go get information about the ailment -->
-			<xsl:when test="@ref">
+			<!--<xsl:when test="@ref">
 				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
 				<xsl:variable name="thisEntry" select="$ailment//entry[@xml:id=$id]"/>
 				<xsl:if test="$thisEntry/form/orth"><xsl:value-of select="normalize-space($thisEntry/form/orth)"/>. </xsl:if>
 				<xsl:value-of select="normalize-space($thisEntry/def[1])"/>
-			</xsl:when>
+			</xsl:when>-->
 			<!-- otherwise... -->
-			<xsl:otherwise>An ailment.</xsl:otherwise>
+			<!--<xsl:otherwise>An ailment.</xsl:otherwise>
 		</xsl:choose>
-		</xsl:variable>
+		</xsl:variable>-->
 		<!-- output the term @type="ailment" in a html:span element with whatever is now in the $title variable -->
 		<span class="term-ailment" title="{$title}"><xsl:apply-templates/></span>
 	</xsl:template>
@@ -639,6 +639,26 @@
 	</xsl:template>-->
 
 	<!-- For "text" see above -->
+
+	<xsl:variable name="tribe" select="doc('ethnic-group.xml')"/>
+	<xsl:template match="term[@type='tribe']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+		<xsl:choose>
+			<!-- when there is a @ref, assume it is right and go get information about the tribe -->
+			<xsl:when test="@ref">
+				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+				<xsl:variable name="thisEntry" select="$tribe//entry[@xml:id=$id]"/>
+				<xsl:if test="$thisEntry/form/orth"><xsl:value-of select="normalize-space($thisEntry/form/orth)"/>. </xsl:if>
+				<xsl:value-of select="normalize-space($thisEntry/def[1])"/>
+			</xsl:when>
+			<!-- otherwise... -->
+			<xsl:otherwise>African ethnic group.</xsl:otherwise>
+		</xsl:choose>
+		</xsl:variable>
+		<!-- output the term @type="ailment" in a html:span element with whatever is now in the $title variable -->
+		<span class="term-tribe" title="{$title}"><xsl:apply-templates/></span>
+	</xsl:template>
 
 	<xsl:template match="unclear">
 		<span class="unclear">
