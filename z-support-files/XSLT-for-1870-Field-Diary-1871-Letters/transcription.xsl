@@ -13,7 +13,7 @@
 		<xd:desc>
 			<xd:p><xd:b>Author:</xd:b> Adrian S. Wisnicki</xd:p>
 			<xd:p>Extensive revisions</xd:p>
-			<xd:p>Updated in Mary 2016.</xd:p>
+			<xd:p>Updated in August 2016.</xd:p>
 		</xd:desc>
 	</xd:doc>
 	<xsl:output method="xml" indent="yes"/>
@@ -359,7 +359,7 @@
 	</xsl:template>
 
 	<!-- foreign should be italiced in edited view -->
-	<!--  <xsl:template match="foreign" xml:space="preserve">
+	<!-- <xsl:template match="foreign" xml:space="preserve">
 		<span class="foreign diplomatic">
 		<xsl:if test="@xml:lang">
 			<xsl:attribute name="title">
@@ -467,8 +467,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="metamark">[<span class="metamark italic" title="metamark"
-		>symbol</span>]</xsl:template>
+	<xsl:template match="metamark">[<span class="metamark italic" title="metamark">symbol</span>]</xsl:template>
 
 	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
 		<span class="metamark italic" title="metamark">symbol</span>
@@ -559,6 +558,11 @@
 		<span class="pb-title del-pb">
 			<xsl:value-of select="@n"/>
 		</span>
+	</xsl:template>
+
+	<!-- @placeName plus others. To eliminate two spans and addition of whitespace in HTML -->
+	<xsl:template match="placeName/geogName|placeName/bloc|placeName/country">
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	<xsl:variable name="people" select="doc('people.xml')"/>
@@ -778,9 +782,12 @@
 	</xsl:template>
 
 	<xsl:template match="supplied">
-		<span class="supplied edited hidden"> <xsl:if test="@*"> <xsl:attribute name="title">
-			<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
-			</xsl:attribute> </xsl:if>[<xsl:apply-templates select="node()"/>]</span>
+		<span class="supplied edited hidden">
+			<xsl:if test="@*"> 
+				<xsl:attribute name="title">
+						<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
+				</xsl:attribute>
+			</xsl:if>[<xsl:apply-templates select="node()"/>]</span>
 	</xsl:template>
 
 	<!-- For "surface" see above -->

@@ -469,9 +469,28 @@ td{
 /* 12. Misc */
 .figfigDesc{
 	color:gray;
+	font-style:italic;
+	font-size:.8em;
+}
+.figure{
+	margin-left:9%;
+}
+.figHead{
+	display:inline-block;
+}
+.p .figure,
+.p.noindent .figure,
+.ab .figure{
+	margin-left:0px !important;
 }
 .metamark{
 	color:gray;
+	font-size:.8em;
+	margin-left:9%;
+}
+p. metamark{
+	margin-left:0px !important;
+	text-indent:0px !important;
 }
 .quote{
 	display:block;
