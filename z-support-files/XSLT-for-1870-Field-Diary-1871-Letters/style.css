@@ -290,11 +290,11 @@ p{
 }
 .orig,
 .reg{
-	border-bottom:1px green dotted
+	/*border-bottom:1px green dotted*/
 }
 .abbr,
 .expan{
-	border-bottom:1px blue dotted
+	border-bottom:1px green dotted
 }
 .expan{
 	display:none;
@@ -345,16 +345,16 @@ p{
 	text-decoration:underline;
 }
 .upsidedown{
-	-ms-transform:rotate(180deg); /* IE 9 */
-	-moz-transform:rotate(180deg); /* Firefox */
-	-webkit-transform:rotate(180deg); /* Safari and Chrome */
-	-o-transform:rotate(180deg); /* Opera */
+	/*-ms-transform:rotate(180deg);*/ /* IE 9 */
+	/*-moz-transform:rotate(180deg);*/ /* Firefox */
+	/*-webkit-transform:rotate(180deg);*/ /* Safari and Chrome */
+	/*-o-transform:rotate(180deg);*/ /* Opera */
 }
 .vertical{
-	-ms-transform:rotate(90deg); /* IE 9 */
-	-moz-transform:rotate(90deg); /* Firefox */
-	-webkit-transform:rotate(90deg); /* Safari and Chrome */
-	-o-transform:rotate(90deg); /* Opera */
+	/*-ms-transform:rotate(90deg);*/ /* IE 9 */
+	/*-moz-transform:rotate(90deg);*/ /* Firefox */
+	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
+	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
 
 
@@ -471,6 +471,7 @@ td{
 	color:gray;
 	font-style:italic;
 	font-size:.8em;
+	width:50%;
 }
 .figure{
 	margin-left:9%;
@@ -502,5 +503,5 @@ p .metamark{
 .settlement,
 .term-ailment,
 .term-tribe{
-	border-bottom:2px green dotted;
+	border-bottom:2px #428bca dotted;
 }
