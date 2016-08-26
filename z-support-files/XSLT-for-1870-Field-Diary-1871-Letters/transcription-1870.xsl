@@ -1162,6 +1162,11 @@
 
 	<!-- For "text" see above -->
 
+	<!-- @term plus other @. To eliminate two spans and addition of whitespace in HTML -->
+	<xsl:template match="term[@type='animal']|term[@type='faith']|term[@type='foodstuff']|term[@type='insect']|term[@type='medicament']|term[@type='nationality']|term[@type='occupation']|term[@type='person']|term[@type='people']|term[@type='plant_foodstuff']|term[@type='plant']">
+		<xsl:apply-templates/>
+	</xsl:template>
+
 	<xsl:variable name="tribe" select="doc('ethnic-group.xml')"/>
 	<xsl:template match="term[@type='tribe']">
 		<!-- Make the output of the @title attribute in a variable -->
