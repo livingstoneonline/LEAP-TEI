@@ -358,25 +358,6 @@
 		</span>
 	</xsl:template>
 
-	<!-- foreign should be italiced in edited view -->
-	<!-- <xsl:template match="foreign" xml:space="preserve">
-		<span class="foreign diplomatic">
-		<xsl:if test="@xml:lang">
-			<xsl:attribute name="title">
-				<xsl:value-of select="concat('lang: ', @xml:lang)"/>
-			</xsl:attribute>
-		</xsl:if>
-				<xsl:apply-templates/>
-		</span>
-		<span class="foreign foreignItalic edited hidden" style="font-style:italic;">
-		<xsl:if test="@xml:lang">
-			<xsl:attribute name="title">
-				<xsl:value-of select="concat('lang: ', @xml:lang)"/>
-			</xsl:attribute>
-		</xsl:if>
-			<xsl:apply-templates/></span>
-		</xsl:template>-->
-
 	<!-- An undefined foreign word. -->
 	<xsl:template match="foreign[not(term[@xml:lang])]">
 		<xsl:variable name="title">A foreign word (not defined).</xsl:variable>
@@ -436,7 +417,6 @@
 		</xsl:choose>
 	</xsl:template>
 
-
 	<!-- do not show graphic -->
 	<xsl:template match="graphic"/>
 
@@ -467,7 +447,8 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="metamark">[<span class="metamark italic" title="metamark">symbol</span>]</xsl:template>
+	<xsl:template match="metamark">[<span class="metamark italic" title="metamark"
+		>symbol</span>]</xsl:template>
 
 	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
 		<span class="metamark italic" title="metamark">symbol</span>
@@ -560,11 +541,6 @@
 		</span>
 	</xsl:template>
 
-	<!-- @placeName plus others. To eliminate two spans and addition of whitespace in HTML -->
-	<xsl:template match="placeName/geogName|placeName/bloc|placeName/country">
-		<xsl:apply-templates/>
-	</xsl:template>
-
 	<xsl:variable name="people" select="doc('people.xml')"/>
 	<xsl:template match="persName">
 		<!-- Make the output of the @title attribute in a variable -->
@@ -620,6 +596,42 @@
 		</xsl:variable>
 		<!-- output the region in a html:span element with whatever is now in the $title variable -->
 		<span class="region" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:variable name="quote" select="doc('quote.xml')"/>
+	<xsl:template match="quote">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @corresp, assume it is right and go get information about the person -->
+				<xsl:when test="@corresp">
+					<xsl:variable name="id" select="substring-after(@corresp, '#')"/>
+					<xsl:variable name="thisQuote" select="$quote//bibl[@xml:id=$id]"/>
+					<xsl:if test="$thisQuote/author"><xsl:value-of select="normalize-space($thisQuote/author)"/>.
+						<xsl:value-of select="normalize-space($thisQuote/title)"/>. <xsl:value-of
+						select="normalize-space($thisQuote/pubPlace)"/>: <xsl:value-of
+						select="normalize-space($thisQuote/publisher)"/>, <xsl:value-of
+						select="normalize-space($thisQuote/date)"/>. <xsl:value-of
+						select="normalize-space($thisQuote/biblScope[@unit='page'])"/>.</xsl:if>
+					<xsl:if test="$thisQuote/biblScope[@unit='book']">
+						<xsl:value-of select="normalize-space($thisQuote/title)"/>
+						<xsl:text>. </xsl:text>
+						<xsl:value-of select="normalize-space($thisQuote/biblScope[@unit='book'])"/>
+						<xsl:text> </xsl:text>
+						<xsl:value-of select="normalize-space($thisQuote/biblScope[@unit='chapter'])"/>
+						<xsl:text>:</xsl:text>
+						<xsl:value-of select="normalize-space($thisQuote/biblScope[@unit='verse'])"/>
+						<xsl:text>.</xsl:text>
+					</xsl:if>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A quotation.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the quote in a html:span element with whatever is now in the $title variable -->
+		<span class="quote" title="{$title}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -782,12 +794,9 @@
 	</xsl:template>
 
 	<xsl:template match="supplied">
-		<span class="supplied edited hidden">
-			<xsl:if test="@*"> 
-				<xsl:attribute name="title">
-						<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
-				</xsl:attribute>
-			</xsl:if>[<xsl:apply-templates select="node()"/>]</span>
+		<span class="supplied edited hidden"> <xsl:if test="@*"> <xsl:attribute name="title">
+			<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
+			</xsl:attribute> </xsl:if>[<xsl:apply-templates select="node()"/>]</span>
 	</xsl:template>
 
 	<!-- For "surface" see above -->
@@ -815,12 +824,6 @@
 	<!-- For "TEI" see above -->
 
 	<!-- For "teiHeader" see above -->
-
-	<!--<xsl:template match="term[@type]" priority="1">
-		<span class="term" title="{@type}">
-		<xsl:apply-templates/>
-		</span>
-	</xsl:template>-->
 
 	<!-- For "text" see above -->
 
@@ -892,6 +895,26 @@
 		<br/>
 	</xsl:template>-->
 
+
+	<!-- foreign should be italiced in edited view -->
+	<!-- <xsl:template match="foreign" xml:space="preserve">
+		<span class="foreign diplomatic">
+		<xsl:if test="@xml:lang">
+			<xsl:attribute name="title">
+				<xsl:value-of select="concat('lang: ', @xml:lang)"/>
+			</xsl:attribute>
+		</xsl:if>
+				<xsl:apply-templates/>
+		</span>
+		<span class="foreign foreignItalic edited hidden" style="font-style:italic;">
+		<xsl:if test="@xml:lang">
+			<xsl:attribute name="title">
+				<xsl:value-of select="concat('lang: ', @xml:lang)"/>
+			</xsl:attribute>
+		</xsl:if>
+			<xsl:apply-templates/></span>
+		</xsl:template>-->
+
 	<!--<xsl:template match="lb">
 		<br/>
 		<xsl:variable name="num">
@@ -919,7 +942,13 @@
 		</span>
 	</xsl:template>-->
 
-	<!-- Done: ailment, ethnic-group, foreign-word, orgName, persName/people, region, settlement-->
+	<!--<xsl:template match="term[@type]" priority="1">
+		<span class="term" title="{@type}">
+		<xsl:apply-templates/>
+		</span>
+	</xsl:template>-->
+
+	<!-- Done: ailment, ethnic-group, foreign-word, orgName, persName/people, region, quote, settlement-->
 	<!-- Remain: geogName, quote -->
 
 </xsl:stylesheet>
