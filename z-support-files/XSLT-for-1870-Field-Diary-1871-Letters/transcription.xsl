@@ -172,9 +172,23 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="choice/abbr"><span class="abbr diplomatic"><xsl:if test="../expan"><xsl:attribute name="title">expan: <xsl:value-of select="../expan"/></xsl:attribute></xsl:if><xsl:apply-templates/></span></xsl:template>
+	<xsl:template match="choice/abbr">
+		<span class="abbr diplomatic">
+			<xsl:if test="../expan">
+				<xsl:attribute name="title">expan: <xsl:value-of select="../expan"/></xsl:attribute>
+			</xsl:if>
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
 
-	<xsl:template match="choice/expan"><span class="abbr edited hidden"><xsl:if test="../abbr"><xsl:attribute name="title">expan: <xsl:value-of select="."/></xsl:attribute></xsl:if><xsl:apply-templates select="../abbr[1]/node()"/></span></xsl:template>
+	<xsl:template match="choice/expan">
+		<span class="abbr edited hidden">
+			<xsl:if test="../abbr">
+				<xsl:attribute name="title">expan: <xsl:value-of select="."/></xsl:attribute>
+			</xsl:if>
+			<xsl:apply-templates select="../abbr[1]/node()"/>
+		</span>
+	</xsl:template>
 
 	<xsl:template match="choice/orig|choice/reg">
 		<xsl:apply-templates/>
