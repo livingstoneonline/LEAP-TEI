@@ -368,7 +368,8 @@
 	<!-- For "front" see above -->
 
 	<xsl:template match="figure/figDesc">
-		<span class="figfigDesc" title="figure">[<xsl:apply-templates/>]</span>
+		<xsl:variable name="title"><xsl:apply-templates/></xsl:variable>
+		<span class="figfigDesc" title="{$title}">{figure}</span>
 	</xsl:template>
 
 	<xsl:template match="figure">
