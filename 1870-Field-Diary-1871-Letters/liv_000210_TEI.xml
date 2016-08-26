@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?>--> 
+<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000210">
     <teiHeader>
         <fileDesc>
@@ -203,7 +205,9 @@
 <lb/>face with a leaf - - When wounded <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign>
 <lb/>stuffs leaves into the hole - is not <w>mis<supplied>-</supplied>
 <lb break="no"/>chievous</w> as the <term type="animal">monkeys</term> are</p>   
-<lb/><space extent="3" unit="lines"/><fw n="MS.10703"><add place="below" rend="right upside-down" hand="#U">MS.10703</add></fw><!-- This is the NLS shelfmark. <fw> seems appropriate as this is part of the scheme of adding numbers to the corners of the pages by NLS staff. AW --><!-- Usual <add> and <fw> order reversed so Oxygen will accept it. AW --><!-- Some minor staining at the bottom of the page for processing. AW -->
+<lb/>
+<lb/>
+<lb/><fw n="MS.10703"><add place="below" rend="right upside-down" hand="#U">MS.10703</add></fw><!-- This is the NLS shelfmark. <fw> seems appropriate as this is part of the scheme of adding numbers to the corners of the pages by NLS staff. AW --><!-- Usual <add> and <fw> order reversed so Oxygen will accept it. AW --><!-- Some minor staining at the bottom of the page for processing. AW -->
 
 	<pb facs="liv_000210_0002" n="0004"/>
 	<!--<pb facs="NLS10703_93-94-91-92_033v-0-A-color" n="0091"/>-->
@@ -217,8 +221,8 @@
 <lb/><date when="1871-03-02">2<hi rend="sup">nd</hi> March</date> and came to <placeName><settlement type="village"><persName ref="people.xml#pers0130">Munanbunda</persName>'s</settlement></placeName>
 <lb/>seven of <orgName><persName>Moene<subst><del>l</del><add place="over-text">a</add></subst>kila</persName>'s<!--need clarification; not sure if this is right -AK--><!-- Name amended, but there are marks above it that I can't make out. MW--><!-- It looks like a small "oe" above the "oe" in the word. AW --> people</orgName> go with
 <lb/>us and serve as <term type="occupation">guides</term> - on the <date when="1871-03-03">3<hi rend="sup">rd</hi></date>
-<lb/>we came to <placeName><settlement type="village">Monangongo</settlement></placeName></p>
-<lb/><p><add place="above" rend="right"><date when="1871-03-04">4<hi rend="sup">th</hi></date></add> <del><gap extent="1" unit="chars" agent="blot"/> <hi rend="sup underline"><gap extent="1" unit="chars" agent="blot"/></hi></del> <term type="occupation">Headman</term> hid himself from fear as
+<lb/>we came to <placeName><settlement type="village">Monangongo</settlement></placeName> <space extent="2" unit="words"/><add place="inspace"><date when="1871-03-04">4<hi rend="sup">th</hi></date></add> 
+<lb/><del><gap extent="1" unit="chars" agent="blot"/><hi rend="sup underline"><gap extent="1" unit="chars" agent="blot"/></hi></del> <space extent="1" unit="chars"/><term type="occupation">Headman</term> hid himself from fear as
 <lb/>we are near to where <persName ref="people.xml#pers0178">bin Juma</persName> killed five
 <lb/>men - then on <date when="1871-03-05">5<hi rend="sup underline">th</hi></date> we came through the
 <lb/>same dense forest country as on <date when="1871-03-04">4<hi rend="sup underline">th</hi></date>
@@ -228,6 +232,8 @@
 <lb/>most of them are very pretty and stand
 <lb/>on slopes the main streets East and
 <lb/>West allow the <seg type="weather">bright sun stream his
+<lb/>
+<lb/>
 
 	<pb facs="liv_000210_0002" n="0005"/>
 	<!--<pb facs="NLS10703_93-94-91-92_033v-0-A-color" n="0092"/>-->   

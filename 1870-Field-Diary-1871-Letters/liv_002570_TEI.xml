@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?>--> 
+<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002570">
     <teiHeader>
         <fileDesc>
@@ -131,8 +133,9 @@
             <div>
                 
     <pb facs="liv_002570_0001" n="0001"/>
-<lb/><opener><dateline><space extent="3" unit="chars"/><placeName><geogName type="river" ref="geogName.xml#geog0034"><persName ref="people.xml#pers0192">Webb</persName>'s Lualaba</geogName></placeName> or <placeName><geogName type="river" ref="geogName.xml#geog0033">Lacustrine River</geogName></placeName> <date when="1871-03">March 1871</date>  <placeName><region ref="region.xml#region0013">Manyema</region></placeName></dateline> <address><addrLine><add place="below"><hi rend="center">For <space extent="2" unit="chars"/><persName ref="people.xml#pers0076">Miss <space extent="2" unit="chars"/>Livingstone</persName></hi></add></addrLine></address>
-<lb/><salute><space extent="4" unit="chars"/>My Darling <persName ref="people.xml#pers0076">Nannie</persName> -</salute></opener> <p rend="no-indent">I put down a few notes by way of being prepared
+<lb/><opener><dateline><space extent="3" unit="chars"/><placeName><geogName type="river" ref="geogName.xml#geog0034"><persName ref="people.xml#pers0192">Webb</persName>'s Lualaba</geogName></placeName> or <placeName><geogName type="river" ref="geogName.xml#geog0033">Lacustrine River</geogName></placeName> <date when="1871-03">March 1871</date>  <placeName><region ref="region.xml#region0013">Manyema</region></placeName></dateline></opener> 
+<lb/><addSpan spanTo="#add1"/><p rend="center red">For <space extent="2" unit="chars"/><persName ref="people.xml#pers0076">Miss <space extent="2" unit="chars"/>Livingstone</persName></p><anchor xml:id="add1"/>
+<lb/><p>My Darling <persName ref="people.xml#pers0076">Nannie</persName> - I put down a few notes by way of being prepared
 <lb/>in case of meeting any <orgName><orgName>native</orgName> <term type="occupation">traders</term></orgName> from the <placeName><region>West coast</region></placeName> on <placeName><geogName type="lake" ref="geogName.xml#geog0021">Lake <persName ref="people.xml#pers0075">Lincoln</persName></geogName></placeName> the <w>Western<supplied>-</supplied>
 <lb break="no"/>-most</w> of the <placeName><geogName type="lake" ref="geogName.xml#geog0049"><choice><orig>Riverein</orig><reg>Riverine</reg></choice> Lakes</geogName></placeName> the <orgName>native</orgName> name of which <choice><sic><add place="below">^</add> is</sic><corr>is <add place="below">^</add></corr></choice> <add place="above"><placeName><geogName type="river" ref="geogName.xml#geog0029">Lomame</geogName></placeName> or</add> <placeName><geogName type="river" ref="geogName.xml#geog0029">Loéki</geogName></placeName> - é being
 <lb/>sounded as e in wet set met - I hear that some come from the <term type="nationality">French</term> <choice><sic>settlementss</sic><corr>settlements</corr></choice>
@@ -211,10 +214,10 @@
 <lb/><p>I am grieved to hear of the departure of good <persName ref="people.xml#pers0131">Lady Murchison</persName>. Had I known
 <lb/>that she kindly remembered me in her prayers it would have been great
 <lb/>encouragement - It pleases me to think that our friends know about us even
-<lb/><w><del><gap reason="damage" extent="2" unit="chars" agent="hole"/></del><supplied cert="medium">in</supplied></w> their state of bliss which in <w>man<unclear cert="high">y</unclear></w> <w><del><gap reason="damage" extent="3" unit="chars" agent="hole"/></del><supplied cert="high">res</supplied>pects</w> <unclear cert="high">must</unclear> be like the present world <gap reason="damage" agent="hole"/></p>
+<lb/><w><del><gap reason="damage" extent="2" unit="chars" agent="hole"/></del><supplied cert="medium">in</supplied></w> their state of bliss which in <w>man<unclear cert="high">y</unclear></w> <w><del><gap reason="damage" extent="3" unit="chars" agent="hole"/></del><supplied cert="high">res</supplied>pects</w> <unclear cert="high">must</unclear> be like the present world <gap reason="damage" agent="hole" extent="1" unit="words"/>
 
     <pb facs="liv_002570_0002" n="0002"/>
-<lb/><p>Those who like work here will get work there - our saviour eat a piece of a
+<lb/>Those who like work here will get work there - our saviour eat a piece of a
 <lb/><term type="foodstuff">broiled <term type="animal">fish</term></term><!-- Is this correct? I wasn't sure if we added animal_foodstuff at the same time as plant_foodstuff. There is another instance on this line as well. MW--><!-- Great point, Megan - we don't have animal_foodstuff yet, but will confer with Adrian to see if we should implement. HB --><!-- Let's just keep separate, as here. AW --> and of a <term type="foodstuff">honey comb</term> - and <term type="foodstuff"><term type="animal">fish</term></term> &amp; <term type="foodstuff">bread</term> - after he was risen from
 <lb/>the dead &amp; became as we hope to be - even like him - <persName ref="people.xml#pers0085">Luther</persName> believed that people
 <lb/>would feast above just as I do - When <persName ref="people.xml#pers0171"><choice><abbr>St</abbr><expan>Saint</expan></choice> John</persName> fell down to worship the angel he

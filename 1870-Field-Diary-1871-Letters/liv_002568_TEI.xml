@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?>--> 
+<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002568">
     <teiHeader>
         <fileDesc>
@@ -130,18 +132,22 @@
         <body>
             <div>
 
+
+<!-- The only way I could get <postscript> to work is by adding the below three empty elements. -->
+
+<!-- 
 <opener/>
 <p/>
 <closer/>
-<!-- The only way I could get <postscript> to work is by adding the above three empty elements. -->
-                
-	<postscript>
+-->
+
+<!-- <postscript> -->
     <pb facs="liv_002568_0001" n="0001"/> <!-- Adrian, should there be a tag to explain that this page is portrait and the following is landscape? HB --><!-- Yes, will fix below. cb @rend="vertical" -->
 <lb/><p>3<hi rend="sup underline">d</hi> <choice><abbr>P.S.</abbr><expan>Postscript</expan></choice> - <date when="1871-02-13">13<hi rend="sup underline">th</hi> <choice><abbr>Feb</abbr><expan>February</expan></choice> <w>18<gap reason="damage" extent="2" unit="chars" agent="hole"></gap><supplied cert="high">71</supplied></w></date> - The <orgName><w><del><gap reason="damage" extent="1" unit="chars" agent="hole"/></del><supplied cert="high">A</supplied>rabs</w></orgName> here all lament that
 <lb/><orgName ref="orgName.xml#org0004"><orgName ref="orgName.xml#org0003">Banian</orgName> slaves</orgName> were sent without a <orgName>free <orgName>Arab</orgName></orgName> to superintend
 <lb/>them - I reply that no doubt you acted on the best advice <add place="marginright" hand="#U" rend="black">154</add>
 <lb/>you could obtain - You must not think please from what
-<lb/>I told you in <choice><abbr>P.S.</abbr><expan>Postscript</expan></choice> <choice><abbr>N</abbr><expan>Number</expan></choice> 2 that I am grumbling at you or that I
+<lb/>I told you in <bibl><choice><abbr>P.S.</abbr><expan>Postscript</expan></choice> <choice><abbr>N</abbr><expan>Number</expan></choice> 2</bibl> that I am grumbling at you or that I
 <lb/>feel aught but extremely thankful to you for all your
 <lb/>exertions in my behalf if I add that after refusing to go
 <lb/>anywhere but back to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> and telling many lies to effect
@@ -243,7 +249,7 @@
 <lb/><w><del><gap reason="damage" extent="7" unit="chars" agent="hole"/></del>d</w> <del><gap reason="damage" extent="12" unit="chars" agent="hole"/></del>
             </ab>
 	
-	</postscript>
+<!--</postscript>-->
 
             </div>
         </body>
