@@ -254,6 +254,9 @@
 		<span class="addmargin"> [<xsl:apply-templates/>] </span>
 	</xsl:template>
 
+	<xsl:template match="add[@place='over-text']"><span
+			class="add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}" title="Addition written over existing text">{<xsl:apply-templates/>}</span></xsl:template>
+
 	<xsl:template match="opener/add">
 		<span
 			class="opener-add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
@@ -277,7 +280,7 @@
 	<xsl:variable name="ailment" select="doc('ailment.xml')"/>
 	<xsl:template match="term[@type='ailment']">
 		<!-- Make the output of the @title attribute in a variable -->
-		<xsl:variable name="title">An ailment.</xsl:variable>
+		<!--<xsl:variable name="title">An ailment.</xsl:variable>--><!-- Removed last -->
 		<!--<xsl:choose>-->
 		<!-- when there is a @ref, assume it is right and go get information about the ailment -->
 		<!--<xsl:when test="@ref">
@@ -291,9 +294,9 @@
 		</xsl:choose>
 		</xsl:variable>-->
 		<!-- output the term @type="ailment" in a html:span element with whatever is now in the $title variable -->
-		<span class="term-ailment" title="{$title}">
+		<!--<span class="term-ailment" title="{$title}">--><!-- Removed last -->
 			<xsl:apply-templates/>
-		</span>
+		<!--</span>--><!-- Removed last -->
 	</xsl:template>
 
 	<!-- app: show first rdg -->
@@ -792,8 +795,8 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="metamark"><span class="metamark italic" title="metamark"
-		>symbol</span></xsl:template>
+	<xsl:template match="metamark"><span class="metamark italic" title="Editorial symbol, mark, or unusual character"
+		>#</span></xsl:template>
 
 	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
 		<span class="metamark italic" title="metamark">symbol</span>
@@ -919,6 +922,10 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
+	<xsl:template match="postscript">
+		<xsl:apply-templates/>
+	</xsl:template>
+
 	<!-- For "reg" see above -->
 
 	<xsl:template match="rdg">
@@ -957,8 +964,8 @@
 				<xsl:when test="@corresp">
 					<xsl:variable name="id" select="substring-after(@corresp, '#')"/>
 					<xsl:variable name="thisQuote" select="$quote//bibl[@xml:id=$id]"/>
-					<xsl:if test="$thisQuote/author"><xsl:value-of select="normalize-space($thisQuote/author)"/>.
-						<xsl:value-of select="normalize-space($thisQuote/title)"/>. <xsl:value-of
+					<xsl:if test="$thisQuote/author"><xsl:value-of select="normalize-space($thisQuote/author)"/>. <xsl:value-of 
+						select="normalize-space($thisQuote/title)"/>. <xsl:value-of
 						select="normalize-space($thisQuote/pubPlace)"/>: <xsl:value-of
 						select="normalize-space($thisQuote/publisher)"/>, <xsl:value-of
 						select="normalize-space($thisQuote/date)"/>. <xsl:value-of
