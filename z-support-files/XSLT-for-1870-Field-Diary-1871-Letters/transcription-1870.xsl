@@ -166,7 +166,16 @@
 
 
 	<!-- "Choice" variants begin here -->
-	<xsl:template match="choice">
+
+	<xsl:template match="choice|abbr|sic|orig|unclear">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="expan|corr|reg|supplied"/>
+	
+	<!-- Text below removed for annotated edition; also see supplied & unclear -->
+	
+	<!--<xsl:template match="choice">
 		<span class="choice">
 			<xsl:apply-templates/>
 		</span>
@@ -175,7 +184,7 @@
 	<xsl:template match="choice/abbr">
 		<span class="abbr diplomatic">
 			<xsl:if test="../expan">
-				<xsl:attribute name="title">expan: <xsl:value-of select="../expan"/></xsl:attribute>
+				<xsl:attribute name="title"><xsl:value-of select="../expan"/></xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates/>
 		</span>
@@ -184,7 +193,7 @@
 	<xsl:template match="choice/expan">
 		<span class="abbr edited hidden">
 			<xsl:if test="../abbr">
-				<xsl:attribute name="title">expan: <xsl:value-of select="."/></xsl:attribute>
+				<xsl:attribute name="title"><xsl:value-of select="."/></xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates select="../abbr[1]/node()"/>
 		</span>
@@ -216,7 +225,7 @@
 			</xsl:if>
 			<xsl:apply-templates/>
 		</span>
-	</xsl:template>
+	</xsl:template>-->
 	<!-- "Choice" variants end here -->
 
 
@@ -399,22 +408,16 @@
 
 	<xsl:template match="gap[@extent][@unit]" priority="10">
 		<xsl:choose>
-			<xsl:when test="@unit='chars'">
-				<span class="gap"
-					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each
-					select="1 to @extent">&#x00A0;</xsl:for-each>]</span>
-			</xsl:when>
-			<xsl:when test="@unit='words'">
-				<span class="gap"
-					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each
-					select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
-			</xsl:when>
+			<xsl:when test="@unit='chars'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;</xsl:for-each>]</span></xsl:when>
+			<xsl:when test="@unit='words'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:when>
 			<xsl:otherwise>
-				<span class="gap"
-					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each
-					select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
-			</xsl:otherwise>
+				<span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:otherwise>
 		</xsl:choose>
+	</xsl:template>
+
+	<!-- remove gb spans -->
+	<xsl:template match="gb">
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	<!-- do not show graphic -->
@@ -831,8 +834,12 @@
 
 	<!-- For "orig" see above -->
 
+	<xsl:template match="orgName[not(@ref)]">
+		<xsl:apply-templates/>
+	</xsl:template>
+
 	<xsl:variable name="orgName" select="doc('orgName.xml')"/>
-	<xsl:template match="orgName">
+	<xsl:template match="orgName[@ref]" priority="10">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -885,10 +892,10 @@
 				<xsl:when test="@ref">
 					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
 					<xsl:variable name="thisPerson" select="$people//person[@xml:id=$id]"/>
-					<xsl:value-of select="$thisPerson/persName[@type='main']"/>
+					<xsl:value-of select="$thisPerson/persName[@type='main']"/>					
+					<xsl:if test="$thisPerson/birth|$thisPerson/death"> (<xsl:value-of
+						select="concat($thisPerson/birth, '-', $thisPerson/death)"/>)</xsl:if>
 					<xsl:text>. </xsl:text>
-					<xsl:if test="$thisPerson/birth|$thisPerson/death">(<xsl:value-of
-						select="concat($thisPerson/birth, '-', $thisPerson/death)"/>). </xsl:if>
 					<xsl:value-of select="normalize-space($thisPerson/note[1])"/>
 				</xsl:when>
 				<!-- otherwise... -->
@@ -1128,11 +1135,12 @@
 		</xsl:choose>
 	</xsl:template>
 
-	<xsl:template match="supplied">
+	<!-- Text below removed for annotated edition; also see choice & unlcear -->
+	<!--<xsl:template match="supplied">
 		<span class="supplied edited hidden"> <xsl:if test="@*"> <xsl:attribute name="title">
 			<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
 			</xsl:attribute> </xsl:if>[<xsl:apply-templates select="node()"/>]</span>
-	</xsl:template>
+	</xsl:template>-->
 
 	<!-- For "surface" see above -->
 
@@ -1190,7 +1198,8 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="unclear">
+	<!-- Text below removed for annotated edition; also see choice & supplied -->	
+	<!-- <xsl:template match="unclear">
 		<span class="unclear">
 			<xsl:if test="@cert">
 				<xsl:attribute name="title">
@@ -1199,6 +1208,10 @@
 			</xsl:if>
 			<xsl:apply-templates select="node()"/>
 		</span>
+	</xsl:template> -->
+
+	<xsl:template match="w">
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	<!-- For "zone" see above -->
