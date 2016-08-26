@@ -173,7 +173,7 @@
 
 	<xsl:template match="expan|corr|reg|supplied"/>
 	
-	<!-- Text below removed for annotated edition; also see supplied & unclear -->
+	<!-- Text below removed for annotated edition; also see app, supplied & unclear -->
 	
 	<!--<xsl:template match="choice">
 		<span class="choice">
@@ -298,14 +298,16 @@
 
 	<!-- app: show first rdg -->
 	<xsl:template match="app">
-		<span class="app">
+		<!-- Hidden for annotated version. Also choice, supplied & unclear. -->
+		<!--<span class="app">
 			<xsl:attribute name="title">
 				<xsl:for-each select="rdg">
 					<xsl:value-of select="concat(name(),': ', ., '; ')"/>
 				</xsl:for-each>
 			</xsl:attribute>
 			<xsl:apply-templates select="rdg[1]"/>
-		</span>
+		</span>-->
+		<xsl:apply-templates select="rdg[1]"/>
 	</xsl:template>
 
 	<!-- For "back" see above -->
@@ -1143,7 +1145,7 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<!-- Text below removed for annotated edition; also see choice & unlcear -->
+	<!-- Text below removed for annotated edition; also see app, choice & unlcear -->
 	<!--<xsl:template match="supplied">
 		<span class="supplied edited hidden"> <xsl:if test="@*"> <xsl:attribute name="title">
 			<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
@@ -1206,7 +1208,7 @@
 		</span>
 	</xsl:template>
 
-	<!-- Text below removed for annotated edition; also see choice & supplied -->	
+	<!-- Text below removed for annotated edition; also see app, choice & supplied -->	
 	<!-- <xsl:template match="unclear">
 		<span class="unclear">
 			<xsl:if test="@cert">

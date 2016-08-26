@@ -270,7 +270,7 @@
 
     <pb facs="liv_000205_0007" n="0007"/>
 	<!--<pb facs="NLS10703_027_006r_0_A_color" n="0027"/>-->
-<lb/><p rend="no-indent"><fw n="heading_XXVII">XXVII</fw></p> <add place="above right" rend="gray" hand="#U"><fw n="6">6</fw></add><!-- Had to reverse order of <fw> and <add> from the usual so Oxygen would accept. AW --> 
+<lb/><p rend="no-indent"><fw n="heading_XXVII">XXVII</fw> <add place="above" rend="gray right" hand="#U"><fw n="6">6</fw></add></p><!-- Had to reverse order of <fw> and <add> from the usual so Oxygen would accept. AW --> 
 <lb/><ab rend="indent"><list><item><foreign xml:lang="und">Ikwenu</foreign> <foreign xml:lang="und">alumwa</foreign> = <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> salutation</item>
 <lb/><item><foreign xml:lang="und">a</foreign> <foreign xml:lang="und">ko</foreign> <foreign xml:lang="und">sema</foreign> <foreign xml:lang="und">iamwu</foreign> <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> to men</item>
 <lb/><item><foreign xml:lang="und">Doshanga</foreign> <foreign xml:lang="und">kakaka</foreign> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="2" unit="chars"/> to women</item></list></ab>
@@ -580,7 +580,7 @@
     <pb facs="liv_000205_0021" n="0021"/>
 	<!--<pb facs="NLS10703_041_013r_0_A_color" n="0041"/>-->
 <!-- I know that the way I've laid out the opening of this letter below isn't exactly right, but considering me exploiting the minutest of ambiguities in Livingstone's spacing and layout in this instance. AW -->
-<lb/><p rend="no-indent"><fw n="heading_XLI"><hi rend="large">XLI</hi> Copy</fw></p> <opener><dateline><placeName><region ref="region.xml#region0013"><term type="tribe" ref="ethnic-group.xml#ethnic0010"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> country</region></placeName> <measure>180 miles say <!-- Adrian, schema is saying opener tag not allowed here, but not sure why?? HB --><!-- It needed a div. AW --><add place="above marginright" rend="gray" hand="#U"><fw n="13">13</fw></add>
+<lb/><fw n="heading_XLI"><hi rend="large">XLI</hi> Copy</fw> <opener><dateline><placeName><region ref="region.xml#region0013"><term type="tribe" ref="ethnic-group.xml#ethnic0010"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> country</region></placeName> <measure>180 miles say <!-- Adrian, schema is saying opener tag not allowed here, but not sure why?? HB --><!-- It needed a div. AW --><add place="above marginright" rend="gray" hand="#U"><fw n="13">13</fw></add>
 <lb/>West of <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName></measure> <date when="1870-11-15">15 <choice><abbr>Nov</abbr><expan>November</expan></choice>
 <lb/>1870</date></dateline>
 <lb rend="left"/>The <space extent="2" unit="chars"/><persName ref="people.xml#pers0175">Right Honourable Lord Stanley</persName><!-- Should "Right Honourable" be part of <persName>? I vote yes, especially if "Lord" is included. But I'll leave it up to you to make the final call in the next phase. MW. --><!-- Yes, as per new manual these titles will be included within persName tag (though not tagged as anything). HB -->
