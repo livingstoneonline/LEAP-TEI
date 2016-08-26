@@ -172,23 +172,9 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="choice/abbr">
-		<span class="abbr diplomatic">
-			<xsl:if test="../expan">
-				<xsl:attribute name="title">expan: <xsl:value-of select="../expan"/></xsl:attribute>
-			</xsl:if>
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
+	<xsl:template match="choice/abbr"><span class="abbr diplomatic"><xsl:if test="../expan"><xsl:attribute name="title">expan: <xsl:value-of select="../expan"/></xsl:attribute></xsl:if><xsl:apply-templates/></span></xsl:template>
 
-	<xsl:template match="choice/expan">
-		<span class="abbr edited hidden">
-			<xsl:if test="../abbr">
-				<xsl:attribute name="title">expan: <xsl:value-of select="."/></xsl:attribute>
-			</xsl:if>
-			<xsl:apply-templates select="../abbr[1]/node()"/>
-		</span>
-	</xsl:template>
+	<xsl:template match="choice/expan"><span class="abbr edited hidden"><xsl:if test="../abbr"><xsl:attribute name="title">expan: <xsl:value-of select="."/></xsl:attribute></xsl:if><xsl:apply-templates select="../abbr[1]/node()"/></span></xsl:template>
 
 	<xsl:template match="choice/orig|choice/reg">
 		<xsl:apply-templates/>
@@ -509,8 +495,7 @@
 					<xsl:value-of select="normalize-space($thisOrgName/note[1])"/>
 				</xsl:when>
 				<!-- otherwise... -->
-				<xsl:otherwise>Group, organization, or other collective not based on
-					nationality.</xsl:otherwise>
+				<xsl:otherwise>Group, organization, or other collective not based on nationality.</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
 		<!-- output the orgName in a html:span element with whatever is now in the $title variable -->
@@ -854,7 +839,7 @@
 		<span class="unclear">
 			<xsl:if test="@cert">
 				<xsl:attribute name="title">
-					<xsl:value-of select="concat(name(), ', certainty: ', @cert)"/>
+					<xsl:value-of select="concat(name(), ', certainty of reading: ', @cert)"/>
 				</xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates select="node()"/>
