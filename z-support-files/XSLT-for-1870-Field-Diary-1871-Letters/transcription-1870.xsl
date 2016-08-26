@@ -243,9 +243,14 @@
 
 	<!-- For "abbr" see above -->
 
-	<!-- Do we need a full <add> template? -->
+	<xsl:template match="add">
+		<span
+			class="add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
 
-	<xsl:template match="add[@place='marginleft']|add[@place='marginright']">
+	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
 		<span class="addmargin"> [<xsl:apply-templates/>] </span>
 	</xsl:template>
 
@@ -785,8 +790,8 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="metamark">[<span class="metamark italic" title="metamark"
-		>symbol</span>]</xsl:template>
+	<xsl:template match="metamark"><span class="metamark italic" title="metamark"
+		>symbol</span></xsl:template>
 
 	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
 		<span class="metamark italic" title="metamark">symbol</span>
@@ -1132,6 +1137,10 @@
 					[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>]</span>
 			</xsl:otherwise>
 		</xsl:choose>
+	</xsl:template>
+
+	<xsl:template match="subst">
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	<!-- Text below removed for annotated edition; also see choice & unlcear -->
