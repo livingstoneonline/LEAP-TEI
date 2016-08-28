@@ -26,10 +26,12 @@ div.transcription{
 	margin-right:auto;
 	width:100%;
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
-	font-size:.9em;
+	font-size:1em; /*Make .9em*/
 	white-space:nowrap;
-	color:#574d44; /*#4E2F2F*/
-	background:#e7d5bd;
+	color:#58484b; /*#574d44*/ /*#4E2F2F*/
+	background:#d3c2a8; /*#e7d5bd*/
+	border: solid 1em white;  /* remove */
+	padding-top: 1em;  /* remove */
 }
 .TEI{
 	display:block;
@@ -506,5 +508,5 @@ p .metamark{
 .settlement,
 .term-ailment,
 .term-tribe{
-	border-bottom:1px #428bca dotted;
+	border-bottom:2px #428bca dotted; /* change to 1px */
 }

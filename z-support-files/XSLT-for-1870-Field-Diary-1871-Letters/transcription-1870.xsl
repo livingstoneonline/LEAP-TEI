@@ -800,11 +800,11 @@
 		>#</span></xsl:template>
 
 	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
-		<span class="metamark italic" title="metamark">symbol</span>
+		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='marginright']/metamark" priority="10">
-		<span class="metamark italic" title="metamark">symbol</span>
+		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
 	</xsl:template>
 
 	<xsl:template match="milestone">
