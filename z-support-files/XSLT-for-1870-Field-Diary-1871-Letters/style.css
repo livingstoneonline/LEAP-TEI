@@ -264,6 +264,10 @@ p{
 .overwritten{
 	text-decoration:line-through;
 }
+.del-by-over-text{
+	color:gray;
+	text-decoration:line-through;
+}
 
 
 /* 7. Unclear, gap, space */
@@ -334,7 +338,7 @@ p{
 	font-size:120%;
 }
 .overtext{
-	color:gray;
+	/*color:gray;*/
 }
 .right{
 	text-indent:0;
@@ -509,4 +513,8 @@ p .metamark{
 .term-ailment,
 .term-tribe{
 	border-bottom:2px #428bca dotted; /* change to 1px */
+}
+
+span{
+	
 }

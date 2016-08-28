@@ -359,6 +359,10 @@
 		</span>
 	</xsl:template>
 
+	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
+		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
+	</xsl:template>
+
 	<!-- For "div" see above -->
 
 	<!-- For "expan" see above -->
