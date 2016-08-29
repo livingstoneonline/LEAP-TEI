@@ -16,7 +16,9 @@
 			<xd:p>Updated in August 2016.</xd:p>
 		</xd:desc>
 	</xd:doc>
-	<xsl:output method="xml" indent="yes"/>
+	
+	<xsl:output method="xml" indent="no"/>
+	<!-- It's necessary that this be "no" or otherwise extra space is kicked in when there are two <span>s in a row. It also appearst to solve other minor formatting issues -->
 
 	<!-- Incoming parameters -->
 	<xsl:param name="page" select="'0001'"/>
@@ -244,18 +246,17 @@
 	<!-- For "abbr" see above -->
 
 	<xsl:template match="add">
-		<span
-			class="add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
-			<xsl:apply-templates/>
-		</span>
+			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
+			<xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
 		<span class="addmargin"> [<xsl:apply-templates/>] </span>
 	</xsl:template>
 
-	<xsl:template match="add[@place='over-text']"><span
-			class="add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}" title="Addition written over existing text">{<xsl:apply-templates/>}</span></xsl:template>
+	<xsl:template match="add[@place='over-text']">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}" title="Addition written over existing text">{<xsl:apply-templates/>}</span>
+	</xsl:template>
 
 	<xsl:template match="opener/add">
 		<span
@@ -357,6 +358,10 @@
 			</xsl:if>
 			<xsl:apply-templates/>
 		</span>
+	</xsl:template>
+
+	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
+		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<!-- For "div" see above -->
@@ -800,11 +805,11 @@
 		>#</span></xsl:template>
 
 	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
-		<span class="metamark italic" title="metamark">symbol</span>
+		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='marginright']/metamark" priority="10">
-		<span class="metamark italic" title="metamark">symbol</span>
+		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
 	</xsl:template>
 
 	<xsl:template match="milestone">
