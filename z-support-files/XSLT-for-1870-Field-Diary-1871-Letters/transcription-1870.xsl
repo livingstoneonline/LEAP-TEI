@@ -244,18 +244,17 @@
 	<!-- For "abbr" see above -->
 
 	<xsl:template match="add">
-		<span
-			class="add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
-			<xsl:apply-templates/>
-		</span>
+			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
+			<xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
 		<span class="addmargin"> [<xsl:apply-templates/>] </span>
 	</xsl:template>
 
-	<xsl:template match="add[@place='over-text']"><span
-			class="add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}" title="Addition written over existing text">{<xsl:apply-templates/>}</span></xsl:template>
+	<xsl:template match="add[@place='over-text']">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}" title="Addition written over existing text">{<xsl:apply-templates/>}</span>
+	</xsl:template>
 
 	<xsl:template match="opener/add">
 		<span
