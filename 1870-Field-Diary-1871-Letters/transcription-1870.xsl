@@ -13,7 +13,7 @@
 		<xd:desc>
 			<xd:p><xd:b>Author:</xd:b> Adrian S. Wisnicki</xd:p>
 			<xd:p>Extensive revisions</xd:p>
-			<xd:p>Updated in August 2016.</xd:p>
+			<xd:p>Updated in Aug 2016.</xd:p>
 		</xd:desc>
 	</xd:doc>
 	
@@ -166,24 +166,60 @@
 		</xsl:if>
 	</xsl:template>
 
-
-	<!-- "Choice" variants begin here -->
-
-	<xsl:template match="choice|abbr|sic|orig|unclear">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<xsl:template match="expan|corr|reg|supplied"/>
-	
-	<!-- Text below removed for annotated edition; also see app, supplied & unclear -->
-	
-	<!--<xsl:template match="choice">
+	<xsl:template match="choice">
 		<span class="choice">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="choice/abbr">
+	
+	<xsl:template match="choice/sic">
+			<xsl:variable name="choice-orig-sic">
+			<xsl:choose>
+				<!-- If there are orig and reg values in the corr, show the orig -->
+				<xsl:when test="../corr/choice/orig">
+					<xsl:value-of select="../corr/choice/orig"/>
+				</xsl:when>
+				<!-- If there are sic and corr values in the corr, show both sic and corr -->
+				<xsl:when test="../corr/choice/sic">
+					<xsl:value-of select="../corr/choice/sic"/> or <xsl:value-of select="../corr/choice/corr"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="../corr"/>
+				</xsl:otherwise>
+			</xsl:choose>			
+			</xsl:variable>
+			<!--<xsl:if test="../corr">
+				<xsl:attribute name="title">The editors suggest a correction as follows: <xsl:value-of select="../corr"/></xsl:attribute>
+			</xsl:if>-->
+			<xsl:copy>
+			<xsl:attribute name="title">The editors suggest a correction as follows: <xsl:value-of select="$choice-orig-sic"/></xsl:attribute>
+			</xsl:copy>
+		<span class="sic diplomatic">	
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="choice/corr">
+		<span class="corr edited hidden">
+			<xsl:if test="../sic">
+				<xsl:attribute name="title">sic: <xsl:value-of select="../sic"/></xsl:attribute>
+			</xsl:if>
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<!-- "Choice" variants begin here -->
+
+	<xsl:template match="abbr|orig|unclear">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="expan|reg|supplied"/>
+	
+	<!-- Text below removed for annotated edition; also see app, supplied & unclear -->
+	
+	<!--<xsl:template match="choice/abbr">
 		<span class="abbr diplomatic">
 			<xsl:if test="../expan">
 				<xsl:attribute name="title"><xsl:value-of select="../expan"/></xsl:attribute>
@@ -209,27 +245,9 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match="reg" priority="10"> </xsl:template>
+	<xsl:template match="reg" priority="10"> </xsl:template>-->
 
-	<xsl:template match="choice/sic">
-		<span class="sic diplomatic ">
-			<xsl:if test="../corr">
-				<xsl:attribute name="title">corr: <xsl:value-of select="../corr"/></xsl:attribute>
-			</xsl:if>
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="choice/corr">
-		<span class="corr edited hidden">
-			<xsl:if test="../sic">
-				<xsl:attribute name="title">sic: <xsl:value-of select="../sic"/></xsl:attribute>
-			</xsl:if>
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>-->
 	<!-- "Choice" variants end here -->
-
 
 	<!-- Alphabetical list of elements. Alphabetized by last element in path *or* first element among options. -->
 
@@ -385,10 +403,10 @@
 
 	<!-- An undefined foreign word. -->
 	<xsl:template match="foreign[not(term[@xml:lang])]">
-		<xsl:variable name="title">A foreign word (not defined).</xsl:variable>
-		<span class="foreign" title="{$title}">
+		<!--<xsl:variable name="title">A foreign word (not defined).</xsl:variable>
+		<span class="foreign" title="{$title}">-->
 			<xsl:apply-templates/>
-		</span>
+		<!--</span>-->
 	</xsl:template>
 
 	<!-- A foreign word defined using an additional <term> tag -->
@@ -403,7 +421,7 @@
 					<xsl:variable name="thisEntry" select="$foreign//entry[@xml:id=$id]"/>
 					<xsl:if test="$thisEntry/form/orth"><xsl:value-of
 						select="normalize-space($thisEntry/form/orth)"/> (<xsl:value-of
-						select="normalize-space($thisEntry/form/lang)"/>). A foreign word meaning "<xsl:value-of
+						select="normalize-space($thisEntry/form/lang)"/>). <xsl:value-of
 						select="normalize-space($thisEntry/def[1])"/>."</xsl:if>
 				</xsl:when>
 				<!-- otherwise... -->
