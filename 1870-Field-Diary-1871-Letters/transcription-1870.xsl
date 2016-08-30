@@ -392,15 +392,8 @@
 
 	<!-- For "front" see above -->
 
-	<xsl:template match="figure/figDesc">
-		<xsl:variable name="title"><xsl:apply-templates/></xsl:variable>
-		<span class="figfigDesc" title="{$title}">{figure}</span>
-	</xsl:template>
-
 	<xsl:template match="figure">
-		<span class="figure" title="{concat(head, ';  ', figDesc)}">
-			<xsl:apply-templates/>
-		</span>
+		<span class="figure" title="{concat('&quot;', head, '.&quot; ', figDesc)}">{figure}</span>
 	</xsl:template>
 
 	<!-- An undefined foreign word. -->
@@ -799,12 +792,6 @@
 		<xsl:element name="{concat('h', $num)}">
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:element>
-	</xsl:template>
-
-	<xsl:template match="figure/head">
-		<span class="figHead">
-			<xsl:apply-templates/>
-		</span>
 	</xsl:template>
 
 	<xsl:template match="list/item">
@@ -1284,11 +1271,15 @@
 		</span>
 	</xsl:template>-->
 
-	<!--<xsl:template match="fw[@type='pageno']">
-		<span class="fw pageno" title="">
+	<!--<xsl:template match="figure/head">
+		<span class="figHead">
 			<xsl:apply-templates/>
 		</span>
-		<br/>
+	</xsl:template>-->
+
+	<!--<xsl:template match="figure/figDesc">
+		<xsl:variable name="title"><xsl:apply-templates/></xsl:variable>
+		<span class="figfigDesc" title="{$title}">{figure}</span>
 	</xsl:template>-->
 
 
@@ -1310,6 +1301,13 @@
 		</xsl:if>
 			<xsl:apply-templates/></span>
 		</xsl:template>-->
+
+	<!--<xsl:template match="fw[@type='pageno']">
+		<span class="fw pageno" title="">
+			<xsl:apply-templates/>
+		</span>
+		<br/>
+	</xsl:template>-->
 
 	<!--<xsl:template match="lb">
 		<br/>
