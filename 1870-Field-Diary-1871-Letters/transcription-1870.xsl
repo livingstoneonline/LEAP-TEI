@@ -424,7 +424,7 @@
 					<xsl:if test="$thisEntry/form/orth"><xsl:value-of
 						select="normalize-space($thisEntry/form/orth)"/> (<xsl:value-of
 						select="normalize-space($thisEntry/form/lang)"/>). <xsl:value-of
-						select="normalize-space($thisEntry/def[1])"/>."</xsl:if>
+						select="normalize-space($thisEntry/def[1])"/>.</xsl:if>
 				</xsl:when>
 				<!-- otherwise... -->
 				<xsl:otherwise>A foreign word (not defined).</xsl:otherwise>
