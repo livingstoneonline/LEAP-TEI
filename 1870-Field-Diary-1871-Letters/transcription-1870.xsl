@@ -107,11 +107,13 @@
 					<xsl:value-of select="$class"/>
 				</xsl:attribute>
 			</xsl:if>
-			<xsl:if test="$title/text()">
+			<!--<xsl:if test="$title/text()">
 				<xsl:attribute name="title">
 					<xsl:value-of select="$title"/>
 				</xsl:attribute>
-			</xsl:if>
+			</xsl:if>-->
+			<!-- Necessary to turn this off, otherwise it creates wonky tooltips.
+			Tooltips as needed should be set on the specific element. -->
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
