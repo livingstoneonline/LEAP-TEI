@@ -184,11 +184,11 @@
 				</xsl:when>
 				<!-- If there are sic and corr values in the corr, show both sic and corr -->
 				<xsl:when test="../corr/choice/sic">
-					<xsl:value-of select="../corr/choice/sic"/> or <xsl:value-of select="../corr/choice/corr"/>
+					<xsl:value-of select="../corr/choice/sic"/> [or] <xsl:value-of select="../corr/choice/corr"/>
 				</xsl:when>
 				<!-- If there are two rdgs, show both rdgs -->
 				<xsl:when test="../corr/app/rdg">
-					<xsl:value-of select="../corr/app/rdg[1]"/> or <xsl:value-of select="../corr/app/rdg[2]"/>
+					<xsl:value-of select="../corr/app/rdg[1]"/> [or] <xsl:value-of select="../corr/app/rdg[2]"/>
 				</xsl:when>
 				<xsl:otherwise>
 					<xsl:value-of select="../corr"/>
@@ -831,8 +831,21 @@
 	</xsl:template>
 
 	<xsl:template match="milestone">
-		<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}">
-			<xsl:if test="@*">
+		<xsl:choose>
+			<xsl:when test="@rend='double-line'">
+				<hr class="{concat(name(), ' ', 'line')}"/><br/>
+				<hr class="{concat(name(), ' ', 'second-line')}"/>
+			</xsl:when>
+			<xsl:when test="@rend='triple-line'">
+				<hr class="{concat(name(), ' ', 'line')}"/>
+				<hr class="{concat(name(), ' ', 'second-line')}"/>
+				<hr class="{concat(name(), ' ', 'second-line')}"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}"/>
+			</xsl:otherwise>
+		</xsl:choose>
+			<!--<xsl:if test="@*">
 				<xsl:attribute name="title">
 					<xsl:value-of select="concat(name(), ': ')"/>
 					<xsl:for-each select="@*">
@@ -841,7 +854,7 @@
 					</xsl:for-each>
 				</xsl:attribute>
 			</xsl:if>
-		</hr>
+		</hr>-->
 	</xsl:template>
 
 	<xsl:template match="note">

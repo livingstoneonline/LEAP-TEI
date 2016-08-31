@@ -26,7 +26,7 @@ div.transcription{
 	margin-right:auto;
 	width:100%;
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
-	font-size:1em; /*Make .9em*/
+	font-size:1em; /*Make .9em; also for table*/
 	white-space:nowrap;
 	color:#58484b; /*#574d44*/ /*#4E2F2F*/
 	background:#d3c2a8; /*#e7d5bd*/
@@ -164,34 +164,45 @@ p span.pb-title{
 	margin-left:9%;
 	text-align:left;
 }
-.doubleline{
+/*.doubleline{
 	border-top: 4px double #8c8b8b;
 	display:block;
 	width:35% !important;
 	margin-left:9%;
 	text-align:left;
-}
-.tripleline{
+	color:black;
+}*/
+/*.tripleline{
 	border-top: 4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
 	width:35% !important;
 	margin-left:9%;
 	text-align:left;
-}
+	color:black;
+}*/
+/* Both of the above are not used in the 1870 FD transformation. See .second-line below.*/
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:27% !important;
+	width:25% !important;
 	margin-left:9%;
 	text-align:left;
 }
 .quarterline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:20% !important;
+	width:15% !important;
 	margin-left:9%;
 	text-align:left;
+}
+.second-line{
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:35% !important;
+	margin-left:9%;
+	text-align:left;
+	margin-top:-1em;
 }
 
 
@@ -464,9 +475,10 @@ p{
 }
 table{
 	margin-left:9%;
-	font-size:85%;
+	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
 	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	color:#58484b; /*Added color for 1870 Field Diary*/
 }
 tr,
 td{
