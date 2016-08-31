@@ -335,15 +335,32 @@
 	<pb facs="liv_000204_0001" n="0003"/>
 	<!--<pb facs="DLC297d_20-17-18-19_001r_3_A_color" n="019" rend="upside-down"/>-->
 
-<lb/><ab><cb n="1" rend="left"/><persName ref="people.xml#pers0182">Syde bin Salem Burashid</persName>
+<!-- Recoded the following into a table as it works better that way in the transformation. AW -->
 
-<lb/><space extent="2" unit="chars"/><orgName>family Lumke</orgName><!-- Adrian, this is the string of names I mentioned. It seems to me that this might be two or three separate tags, but I'll leave it up to your discretion. MW -->
+<!--<lb/><ab><cb n="1" rend="left"/><persName ref="people.xml#pers0182">Syde bin Salem Burashid</persName>
 
-<lb/><cb n="2" rend="center"/><hi rend="underline"><foreign xml:lang="und"><term type="animal">Mengongo</term></foreign></hi> <foreign xml:lang="und"><term type="animal">soga</term></foreign> – <foreign xml:lang="und"><term type="animal">Guke</term></foreign> a <term type="animal">fish</term>
+<lb/><space extent="2" unit="chars"/><orgName>family Lumke</orgName>--><!-- Adrian, this is the string of names I mentioned. It seems to me that this might be two or three separate tags, but I'll leave it up to your discretion. MW -->
 
-<lb/><space extent="1" unit="words"/><foreign xml:lang="und"><term type="animal">sangardo</term></foreign> – <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></ab><!-- Megan, note how I've code the foregoing. I've used <ab> since this is obviously unrelated to the diary entry that follows, then a number <cb/> within this as it seems to me that the info is organized into two columns. AW -->
+<!--<lb/><cb n="2" rend="center"/><hi rend="underline"><foreign xml:lang="und"><term type="animal">Mengongo</term></foreign></hi> <foreign xml:lang="und"><term type="animal">soga</term></foreign> – <foreign xml:lang="und"><term type="animal">Guke</term></foreign> a <term type="animal">fish</term>
 
-<lb/><milestone unit="section" rend="double-line"/>
+<lb/><space extent="1" unit="words"/><foreign xml:lang="und"><term type="animal">sangardo</term></foreign> – <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></ab>--><!-- Megan, note how I've code the foregoing. I've used <ab> since this is obviously unrelated to the diary entry that follows, then a number <cb/> within this as it seems to me that the info is organized into two columns. AW -->
+
+<table>
+	<row>
+		<cell>
+<lb/><persName ref="people.xml#pers0182">Syde bin Salem Burashid</persName>
+<lb/><space extent="2" unit="chars"/><orgName>family Lumke</orgName></cell>
+		<cell>
+<space extent="1" unit="words"/>
+		</cell>
+		<cell>
+<lb/><hi rend="underline"><foreign xml:lang="und"><term type="animal">Mengongo</term></foreign></hi> <foreign xml:lang="und"><term type="animal">soga</term></foreign> – <foreign xml:lang="und"><term type="animal">Guke</term></foreign> a <term type="animal">fish</term>
+<lb/><space extent="1" unit="words"/><foreign xml:lang="und"><term type="animal">sangardo</term></foreign> – <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice>
+		</cell>
+	</row>
+</table>
+
+<milestone unit="section" rend="double-line"/>
 
 <lb/><p rend="no-indent"><fw n="heading_XIX" rend="large">XIX.</fw> <add place="above"><date when="1870-10-28">28 <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice></date></add> <persName ref="people.xml#pers0065"><choice><orig>Moenemokaia</orig><reg>Moenemokia</reg></choice></persName> who has travelled further
 
@@ -379,13 +396,13 @@
 
 <lb/>no more is needed</p>
 
-<lb/><p><date when="1870-10-31">31<hi rend="sup underline">st</hi> <choice><abbr>Oct</abbr><expan>October</expan></choice></date> – <persName ref="people.xml#pers0109"><choice><orig>Monangoi</orig><reg>Moenemgoi</reg></choice></persName> of <placeName><geogName type="river" ref="geogName.xml#geog0040">Luamo</geogName></placeName> – married to the
+<lb/><p><date when="1870-10-31">31<hi rend="sup underline">st</hi> <choice><abbr>Oct</abbr><expan>October</expan></choice></date> – <persName ref="people.xml#pers0110"><choice><orig>Monangoi</orig><reg>Moenemgoi</reg></choice></persName> of <placeName><geogName type="river" ref="geogName.xml#geog0040">Luamo</geogName></placeName> – married to the
 
 <lb/>sister of <persName ref="people.xml#pers0107">Moenekuss</persName> came some time ago to beg <del type="cancelled">that</del>
 
 <lb/><placeName><settlement type="village"><persName ref="people.xml#pers0066">Kanyingere</persName></settlement></placeName> be attacked by <orgName><persName ref="people.xml#pers0002">Muhamad</persName>'s people</orgName> – 
 
-<lb/>no fault has he "but he is bad" – <persName ref="people.xml#pers0110"><choice><orig>Monangoi</orig><reg>Moenemgoi</reg></choice></persName> the 
+<lb/>no fault has he "but he is bad" – <persName ref="people.xml#pers0109"><choice><orig>Monangoi</orig><reg>Moenemgoi</reg></choice></persName> the 
 
 <lb/><term type="occupation">chief</term> here offered two tusks to effect the same thing
 
