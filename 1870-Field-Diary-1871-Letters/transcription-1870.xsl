@@ -407,6 +407,17 @@
 		</xsl:choose>
 	</xsl:template>
 
+	<xsl:template match="add[@place='marginleft']/figure|add[@place='marginright']/figure" priority="10">
+		<xsl:choose>
+		<xsl:when test="head">
+			<span class="figure" title="{concat('&quot;', head, '.&quot; ', figDesc)}">figure</span>
+		</xsl:when>
+		<xsl:otherwise>
+			<span class="figure" title="{figDesc}">figure</span>
+		</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
 	<!-- An undefined foreign word. -->
 	<xsl:template match="foreign[not(term[@xml:lang])]">
 		<!--<xsl:variable name="title">A foreign word (not defined).</xsl:variable>
@@ -822,11 +833,7 @@
 	<xsl:template match="metamark"><span class="metamark italic" title="Editorial symbol, mark, or unusual character"
 		>#</span></xsl:template>
 
-	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
-		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
-	</xsl:template>
-
-	<xsl:template match="add[@place='marginright']/metamark" priority="10">
+	<xsl:template match="add[@place='marginleft']/metamark|add[@place='marginright']/metamark" priority="10">
 		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
 	</xsl:template>
 
