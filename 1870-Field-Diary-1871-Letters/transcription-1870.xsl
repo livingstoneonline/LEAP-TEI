@@ -186,6 +186,10 @@
 				<xsl:when test="../corr/choice/sic">
 					<xsl:value-of select="../corr/choice/sic"/> or <xsl:value-of select="../corr/choice/corr"/>
 				</xsl:when>
+				<!-- If there are two rdgs, show both rdgs -->
+				<xsl:when test="../corr/app/rdg">
+					<xsl:value-of select="../corr/app/rdg[1]"/> or <xsl:value-of select="../corr/app/rdg[2]"/>
+				</xsl:when>
 				<xsl:otherwise>
 					<xsl:value-of select="../corr"/>
 				</xsl:otherwise>
@@ -213,7 +217,7 @@
 
 	<!-- "Choice" variants begin here -->
 
-	<xsl:template match="abbr|orig|unclear">
+	<xsl:template match="abbr|orig">
 		<xsl:apply-templates/>
 	</xsl:template>
 
@@ -393,7 +397,14 @@
 	<!-- For "front" see above -->
 
 	<xsl:template match="figure">
-		<span class="figure" title="{concat('&quot;', head, '.&quot; ', figDesc)}">{figure}</span>
+		<xsl:choose>
+		<xsl:when test="head">
+			<span class="figure" title="{concat('&quot;', head, '.&quot; ', figDesc)}">{figure}</span>
+		</xsl:when>
+		<xsl:otherwise>
+			<span class="figure" title="{figDesc}">{figure}</span>
+		</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 
 	<!-- An undefined foreign word. -->
@@ -1229,7 +1240,7 @@
 	</xsl:template>
 
 	<!-- Text below removed for annotated edition; also see app, choice & supplied -->	
-	<!-- <xsl:template match="unclear">
+	<xsl:template match="unclear">
 		<span class="unclear">
 			<xsl:if test="@cert">
 				<xsl:attribute name="title">
@@ -1238,7 +1249,7 @@
 			</xsl:if>
 			<xsl:apply-templates select="node()"/>
 		</span>
-	</xsl:template> -->
+	</xsl:template>
 
 	<xsl:template match="w">
 		<xsl:apply-templates/>
