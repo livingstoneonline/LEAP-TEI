@@ -132,15 +132,28 @@ p span.pb-title{
 	margin-right:25%;
 }
 .linenumber{
+	text-align:right;
 	float:left;
 	color:#AAA;
 	margin-left:-3em !important;
-	text-indent:0;
+	text-indent:9%;
 	font-size:80%;
-	width:3em;
+	width:1em;
+}
+p .linenumber{
+	text-indent:-1%;
 }
 .p.noindent.linenumber{
 	text-indent:1em;
+}
+p.center .linenumber{
+	margin-left:-12.5em !important; /*Needs to be checked.*/
+}
+p.right .linenumber{
+		margin-left:-18.5em !important;
+}
+.list .linenumber{
+	text-indent:0;	
 }
 
 
@@ -155,12 +168,12 @@ p span.pb-title{
 	margin-left:9%;
 	margin-right:9%;
 	padding:0px;
-	margin-bottom:-1%;
+	margin-bottom:-1em;
 }
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:35% !important;
+	width:26em !important;
 	margin-left:9%;
 	text-align:left;
 }
@@ -185,21 +198,21 @@ p span.pb-title{
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:25% !important;
+	width:18.5em !important;
 	margin-left:9%;
 	text-align:left;
 }
 .quarterline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:15% !important;
+	width:11em !important;
 	margin-left:9%;
 	text-align:left;
 }
 .second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:35% !important;
+	width:26em !important;
 	margin-left:9%;
 	text-align:left;
 	margin-top:-1em;
@@ -223,11 +236,13 @@ p{
 }
 .p.center{
 	text-indent:0 !important;
-	margin-left:15%;
+	padding-left:6em;
+	margin-left:9%;
 }
 .p.right{
 	text-indent:0 !important;
-	margin-left:25%;
+	padding-left:12.2em; /*Was 25%*/
+	margin-left:9%;
 }
 .ab{
 	text-indent:0;
