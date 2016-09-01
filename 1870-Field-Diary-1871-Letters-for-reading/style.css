@@ -132,15 +132,25 @@ p span.pb-title{
 	margin-right:25%;
 }
 .linenumber{
+	text-align:right;
 	float:left;
 	color:#AAA;
 	margin-left:-3em !important;
-	text-indent:0;
+	text-indent:111px;
 	font-size:80%;
-	width:3em;
+	width:1em;
+}
+p .linenumber{
+	text-indent:-4px;
 }
 .p.noindent.linenumber{
 	text-indent:1em;
+}
+p.right .linenumber{
+		margin-left:-18.5em !important;
+}
+.list .linenumber{
+	text-indent:0;	
 }
 
 
@@ -227,7 +237,7 @@ p{
 }
 .p.right{
 	text-indent:0 !important;
-	margin-left:25%;
+	margin-left:19em; /*Was 25%*/
 }
 .ab{
 	text-indent:0;
