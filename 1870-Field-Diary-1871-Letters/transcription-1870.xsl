@@ -396,7 +396,7 @@
 
 	<!-- For "front" see above -->
 
-	<xsl:template match="figure">
+	<!--<xsl:template match="figure">
 		<xsl:choose>
 		<xsl:when test="head">
 			<span class="figure" title="{concat('&quot;', head, '.&quot; ', figDesc)}">{figure}</span>
@@ -405,7 +405,37 @@
 			<span class="figure" title="{figDesc}">{figure}</span>
 		</xsl:otherwise>
 		</xsl:choose>
+	</xsl:template>--><!-- Replaced with templated provided by James Cummings -->
+
+	<xsl:template match="figure">
+		<!-- newFigDesc goes away and applies templates to content to get it into a single dedupped string -->
+		<xsl:variable name="newFigDesc">
+			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
+		</xsl:variable>
+		<xsl:choose>
+			<xsl:when test="head and $newFigDesc/text()">
+				<span class="figure" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
+			</xsl:when>
+			<xsl:when test="head and not($newFigDesc/text())">
+				<span class="figure" title="{concat('&quot;', head, '.&quot; ')}">{figure}</span>
+			</xsl:when>
+			<xsl:when test="not(head) and $newFigDesc/text()">
+				<span class="figure" title="{$newFigDesc}">{figure}</span>
+			</xsl:when>
+			<xsl:otherwise>
+				<span class="figure">{figure}</span>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
+
+	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->
+	<xsl:template match="figDesc/abbr|figDesc/sic|figDesc/orig" mode="normalizeFigDesc">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<!-- Template kills through expan, corr, reg, and supplied in figDesc in normalizeFigDesc mode -->
+	<xsl:template match="figDesc/expan|figDesc/corr|figDesc/reg|figDesc/supplied"
+		mode="normalizeFigDesc"/>
 
 	<xsl:template match="add[@place='marginleft']/figure|add[@place='marginright']/figure" priority="10">
 		<xsl:choose>
