@@ -169,9 +169,7 @@
 	</xsl:template>
 
 	<xsl:template match="choice">
-		<span class="choice">
-			<xsl:apply-templates/>
-		</span>
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	
@@ -206,14 +204,14 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="choice/corr">
+	<!--<xsl:template match="choice/corr">
 		<span class="corr edited hidden">
 			<xsl:if test="../sic">
 				<xsl:attribute name="title">sic: <xsl:value-of select="../sic"/></xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates/>
 		</span>
-	</xsl:template>
+	</xsl:template>-->
 
 	<!-- "Choice" variants begin here -->
 
@@ -221,7 +219,7 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match="expan|reg|supplied"/>
+	<xsl:template match="corr|expan|reg|supplied"/>
 	
 	<!-- Text below removed for annotated edition; also see app, supplied & unclear -->
 	
