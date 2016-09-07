@@ -1,1 +1,4 @@
 find . -exec rename 's|Red_Green_color|red_green|' {} +
+
+find file of particular type and rename
+find . -name "*.java" -exec rename 's|\.java|\.txt|' {}
