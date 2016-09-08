@@ -427,12 +427,12 @@
 	</xsl:template>
 
 	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->
-	<xsl:template match="figDesc/abbr|figDesc/sic|figDesc/orig" mode="normalizeFigDesc">
+	<xsl:template match="figDesc//abbr|figDesc//sic|figDesc//orig" mode="normalizeFigDesc">
 		<xsl:apply-templates/>
 	</xsl:template>
 
 	<!-- Template kills through expan, corr, reg, and supplied in figDesc in normalizeFigDesc mode -->
-	<xsl:template match="figDesc/expan|figDesc/corr|figDesc/reg|figDesc/supplied"
+	<xsl:template match="figDesc//expan|figDesc//corr|figDesc//reg|figDesc//supplied"
 		mode="normalizeFigDesc"/>
 
 	<xsl:template match="add[@place='marginleft']/figure|add[@place='marginright']/figure" priority="10">
