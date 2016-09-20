@@ -6,7 +6,7 @@ require 'fileutils'
 @dirmap = Hash.new
 
 def getDirMap
-	file = File.new("file-lists2-trans.csv",'r')
+	file = File.new("file-lists3-final.csv",'r')
 	file.each_line("\n") do |row|
 		columns = row.split("$");
 		@dirmap[columns[1].strip] = columns[0].strip
