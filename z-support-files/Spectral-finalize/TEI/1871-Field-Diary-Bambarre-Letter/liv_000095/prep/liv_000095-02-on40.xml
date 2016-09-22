@@ -78,6 +78,7 @@
 
 			<!-- Integration -->
             <change when="2016-09-20" who="#AW">Integration</change>
+            <change when="2016-09-21" who="#AW">Data scrubbing and prep for XSL transformation</change>
 
 			<!-- liv_000095_0001 -->
             <change when="2010-02-21" who="#AW">Initial transcription and TEI encoding</change>
@@ -5391,7 +5392,7 @@
 <lb facs="#zliv_000095_0026_CXXXIX_32"/>Banian slaves come back - people all
 <lb facs="#zliv_000095_0026_CXXXIX_33"/>fled and blamed <persName>Kolokolo</persName>'s men for
 <lb facs="#zliv_000095_0026_CXXXIX_34"/>killing and stealing their <unclear cert="high">relations</unclear> - p<gap agent="illegible" extent="5" unit="chars"/>
-<lb facs="#zliv_000095_0026_CXXXIX_35"/><unclear cert="high">follow</unclear> another <gap agent="illegible" extent="4" unit="chars"/>te <del type="strikethrough">for</del><persName>Hassani</persName>'s <del type="strikethrough">men
+<lb facs="#zliv_000095_0026_CXXXIX_35"/><unclear cert="high">follow</unclear> another <gap agent="illegible" extent="4" unit="chars"/>te <del type="strikethrough">for</del> <persName>Hassani</persName>'s <del type="strikethrough">men
 <lb facs="#zliv_000095_0026_CXXXIX_36"/><unclear cert="high">were</unclear> shot at in the rapids with arrows</del> &amp;
 <lb facs="#zliv_000095_0026_CXXXIX_37"/><persName>Kolokolo</persName>'s deeds blamed - Oh horrible!!</p>
 	<milestone unit="section" rend="line"/>
@@ -5401,7 +5402,7 @@
 
 
 	<pb facs="liv_000095_0027" n="0041"/><!--<milestone unit="page" n="CXL"/>-->
-<lb facs="#zliv_000095_0027_CXL_1"/><p><!--<p rend="no-indent">--><fw n="heading_CXL">CXL. Journal</fw> <date when="1871-06-27">27<hi rend="sup underline">th</hi> June 1871</date><hi rend="underline">continued</hi>
+<lb facs="#zliv_000095_0027_CXL_1"/><p><!--<p rend="no-indent">--><fw n="heading_CXL">CXL. Journal</fw> <date when="1871-06-27">27<hi rend="sup underline">th</hi> June 1871</date> <hi rend="underline">continued</hi>
 <lb facs="#zliv_000095_0027_CXL_2"/>It is in answer to my prayers that I have
 <lb facs="#zliv_000095_0027_CXL_3"/>been mercifully prevented from going
 <lb facs="#zliv_000095_0027_CXL_4"/>down river for I would have been the
@@ -5446,7 +5447,7 @@
 
 
 	<pb facs="liv_000095_0028" n="0042"/><!--<milestone unit="page" n="CXLI"/>-->
-<lb facs="#zliv_000095_0028_CXLI_1"/><p><!--<p rend="no-indent">--><fw n="heading_CXLI"><choice><sic>CXL</sic><corr>CXLI</corr></choice>. Journal =</fw> <date when="1871-06-27">27 June</date><choice><abbr>cont.<hi rend="sup underline">ed</hi></abbr><expan>continued</expan></choice><persName><choice><unclear>Kauzene</unclear><unclear>Kanzene</unclear></choice></persName> = 
+<lb facs="#zliv_000095_0028_CXLI_1"/><p><!--<p rend="no-indent">--><fw n="heading_CXLI"><choice><sic>CXL</sic><corr>CXLI</corr></choice>. Journal =</fw> <date when="1871-06-27">27 June</date><choice><abbr>cont.<hi rend="sup underline">ed</hi></abbr><expan>continued</expan></choice> <persName><choice><unclear>Kauzene</unclear><unclear>Kanzene</unclear></choice></persName> = 
 <lb facs="#zliv_000095_0028_CXLI_2"/><space dim="horizontal" extent="15" unit="chars"/>gave a <choice><unclear>Zouady</unclear><unclear>Zonady</unclear></choice> of beads
 <lb facs="#zliv_000095_0028_CXLI_3"/><foreign xml:lang="und">Kisingite</foreign> above as well as below this
 <lb facs="#zliv_000095_0028_CXLI_4"/>so I go west to <placeName><geogName type="river">Lomame</geogName></placeName> &amp; probably
@@ -5488,7 +5489,7 @@
 
 	<pb facs="liv_000095_0029" n="0043"/><!--<milestone unit="page" n="CXLII"/>-->
 <lb facs="#zliv_000095_0029_CXLII_1"/><p><!--<p rend="no-indent">--><fw n="heading_CXLII">CXLII. Journal</fw> <date when="1871-06-30">30<hi rend="sup underline">th</hi> June 1871</date>
-<lb facs="#zliv_000095_0029_CXLII_2"/><date when="1871-07-01">1<hi rend="sup underline">st</hi><hi rend="underline">July = Sunday</hi></date> = Went to <persName>Dugumbe</persName> and told
+<lb facs="#zliv_000095_0029_CXLII_2"/><date when="1871-07-01">1<hi rend="sup underline">st</hi><hi rend="underline"> July = Sunday</hi></date> = Went to <persName>Dugumbe</persName> and told
 <lb facs="#zliv_000095_0029_CXLII_3"/>him my plan was to go with the safari he
 <lb facs="#zliv_000095_0029_CXLII_4"/>sends West to <placeName><geogName type="river">Lomame</geogName></placeName> - then buy a canoe
 <lb facs="#zliv_000095_0029_CXLII_5"/>and go up the Lake towards <placeName><region>Katanga</region></placeName>
@@ -5525,6 +5526,7 @@
 <lb facs="#zliv_000095_0029_CXLII_35"/>to report themselves and me to the head
 <lb facs="#zliv_000095_0029_CXLII_36"/>of Pasha <persName>Baker</persName><choice><sic>s</sic><corr>'s</corr></choice> expedition &amp; not flee -</p>
 	<milestone unit="section" rend="line"/>
+<lb/>
 
 
 	<pb facs="liv_000095_0030" n="0044"/><!--<milestone unit="page" n="CXLIII"/>-->
@@ -5545,7 +5547,7 @@
 <lb facs="#zliv_000095_0030_CXLIII_15"/>villany and slander I have to
 <lb facs="#zliv_000095_0030_CXLIII_16"/>contend against in the Banian slaves</p>
 	<milestone unit="section" rend="double-line"/>
-<lb facs="#zliv_000095_0030_CXLIII_17"/><p><space dim="horizontal" extent="5" unit="chars"/><date when="1871-07-05">5<hi rend="sup underline">th</hi></date><gap agent="deletion" extent="1" unit="chars"/> River fallen
+<lb facs="#zliv_000095_0030_CXLIII_17"/><p><space dim="horizontal" extent="5" unit="chars"/><date when="1871-07-05">5<hi rend="sup underline">th</hi></date> <gap agent="deletion" extent="1" unit="chars"/> River fallen
 <lb facs="#zliv_000095_0030_CXLIII_18"/>3 feet in all - that is one foot
 <lb facs="#zliv_000095_0030_CXLIII_19"/>since the <date when="1871-06-27">27<hi rend="sup">th</hi> June</date> = dark brown</p>
 	<milestone unit="section" rend="double-line"/>
@@ -5554,7 +5556,7 @@
 <lb facs="#zliv_000095_0030_CXLIII_22"/>kill a <foreign xml:lang="und">Tassa</foreign> goat = I am unable to
 <lb facs="#zliv_000095_0030_CXLIII_23"/>buy any by <persName>Shereef</persName><choice><sic>s</sic><corr>'s</corr></choice> villainy =</p>
 	<milestone unit="section" rend="line"/>
-<lb facs="#zliv_000095_0030_CXLIII_24"/><p><date when="1871-07-06">6<hi rend="sup underline">th</hi></date><choice><abbr>con.</abbr><expan>continued</expan></choice><persName>Mokandira</persName> and other head
+<lb facs="#zliv_000095_0030_CXLIII_24"/><p><date when="1871-07-06">6<hi rend="sup underline">th</hi></date> <choice><abbr>con.</abbr><expan>continued</expan></choice> <persName>Mokandira</persName> and other head
 <lb facs="#zliv_000095_0030_CXLIII_25"/>men of <placeName><settlement type="village">Nyangwe</settlement></placeName> came with a
 <lb facs="#zliv_000095_0030_CXLIII_26"/>pig - also goat as a present on
 <lb facs="#zliv_000095_0030_CXLIII_27"/>my going away - I refused
@@ -5566,7 +5568,7 @@
 <lb facs="#zliv_000095_0030_CXLIII_32"/><p><space dim="horizontal" extent="5"/><date when="1871-07-07">7<hi rend="sup underline">th</hi></date> woman reproved for
 <lb facs="#zliv_000095_0030_CXLIII_33"/>beating a slave frequently came and
 <lb facs="#zliv_000095_0030_CXLIII_34"/>apologized and we made friends
-<lb facs="#zliv_000095_0030_CXLIII_35"/><unclear cert="medium">again</unclear><unclear cert="high">telling</unclear> to speak softly as
+<lb facs="#zliv_000095_0030_CXLIII_35"/><unclear cert="medium">again</unclear> <unclear cert="high">telling</unclear> to speak softly as
 <lb facs="#zliv_000095_0030_CXLIII_36"/>she was now the <choice><sic>slaves</sic><corr>slave's</corr></choice> mother
 <lb facs="#zliv_000095_0030_CXLIII_37"/>slave came from beyond <placeName><geogName type="river">Lomame</geogName></placeName>
 <lb facs="#zliv_000095_0030_CXLIII_38"/>and must have been a lady</p>
@@ -5591,9 +5593,9 @@
 <lb facs="#zliv_000095_0031_CXLIV_15"/>take the country - What can the poor people
 <lb facs="#zliv_000095_0031_CXLIV_16"/>do but believe the Moslem lies - the Lord
 <lb facs="#zliv_000095_0031_CXLIV_17"/>open the way for me =</p>
-<lb facs="#zliv_000095_0031_CXLIV_18"/><p><space dim="horizontal" extent="5" unit="chars"/><hi rend="underline">River</hi> fallen <hi rend="underline">three inches</hi> since <date when="1871-07-05">5<hi rend="underline">th</hi></date><choice><abbr><unclear cert="low">curt</unclear></abbr><expan>current</expan></choice></p>
+<lb facs="#zliv_000095_0031_CXLIV_18"/><p><space dim="horizontal" extent="5" unit="chars"/><hi rend="underline">River</hi> fallen <hi rend="underline">three inches</hi> since <date when="1871-07-05">5<hi rend="underline">th</hi></date> <choice><abbr><unclear cert="low">curt</unclear></abbr><expan>current</expan></choice></p>
 	<milestone unit="section" rend="line"/>
-<lb facs="#zliv_000095_0031_CXLIV_19"/><p><space dim="horizontal" extent="4" unit="chars"/><date when="1871-07-10">10<hi rend="sup underline">th</hi></date><term type="tribe">Manyema</term> children do not 
+<lb facs="#zliv_000095_0031_CXLIV_19"/><p><space dim="horizontal" extent="4" unit="chars"/><date when="1871-07-10">10<hi rend="sup underline">th</hi></date> <term type="tribe">Manyema</term> children do not 
 <lb facs="#zliv_000095_0031_CXLIV_20"/>creep as do others on their knees - 
 <lb facs="#zliv_000095_0031_CXLIV_21"/>but begin by putting forward one
 <lb facs="#zliv_000095_0031_CXLIV_22"/>foot and using one knee = I have
@@ -5602,7 +5604,7 @@
 <lb facs="#zliv_000095_0031_CXLIV_25"/><date calendar="Muslim"><hi rend="double-underline">New ℂ</hi> last night = 7<hi rend="sup">th</hi> month of Arabs</date>
 <lb facs="#zliv_000095_0031_CXLIV_26"/><space dim="horizontal" extent="7" unit="chars"/>Many guns fired at blood mixing</p>
 	<milestone unit="section" rend="line"/>
-<lb facs="#zliv_000095_0031_CXLIV_27"/><p><date when="1871-07-11">11<hi rend="sup underline">th</hi></date><foreign xml:lang="und">Chitoka</foreign> = bought ten different
+<lb facs="#zliv_000095_0031_CXLIV_27"/><p><date when="1871-07-11">11<hi rend="sup underline">th</hi></date> <foreign xml:lang="und">Chitoka</foreign> = bought ten different
 <lb facs="#zliv_000095_0031_CXLIV_28"/>species of small fish and sketched
 <lb facs="#zliv_000095_0031_CXLIV_29"/>eight = most are the same as on
 <lb facs="#zliv_000095_0031_CXLIV_30"/><placeName><geogName type="lake">Nyassa</geogName></placeName> = a very active species of
@@ -5945,8 +5947,8 @@
 <figure facs="#zliv_000095_0030_CLII_fig1" n="1"><figDesc>Livingstone records a calculation here.</figDesc></figure>
 	<milestone unit="section" rend="vertical"/>
 	<!--<milestone unit="column"/>--><cb n="2"/>
-<p>= <space dim="horizontal" extent="3" unit="chars"/>River fallen 4<choice><orig>½</orig><reg>1/2</reg></choice> feet
-<lb facs="#zliv_000095_0030_CLII_18"/>in all = since <date when="1871-06-05">5<hi rend="sup"/><choice><abbr>ult</abbr><expan>ultimo</expan></choice></date>
+<lb/><p>= <space dim="horizontal" extent="3" unit="chars"/>River fallen 4<choice><orig>½</orig><reg>1/2</reg></choice> feet
+<lb facs="#zliv_000095_0030_CLII_18"/>in all = since <date when="1871-06-05">5 <add place="above"><choice><abbr>ult</abbr><expan>ultimo</expan></choice></add></date>
 <lb facs="#zliv_000095_0030_CLII_19"/>one and a half <unclear cert="high">foot</unclear></p>
 	<!--<milestone unit="column"/>--><cb/>
 	<milestone unit="section" rend="double-line"/>
