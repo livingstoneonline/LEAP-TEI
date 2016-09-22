@@ -1,0 +1,38 @@
+show all metadata
+exiftool -a -G1 -s *.tif
+
+-------------------------------------
+
+remove metadata (do all three commands plus use above to see if anything else needs removal)
+can be used for one image or multiple
+
+for i in *.tif; do echo "Processing $i"; exiftool -exif:all= -CommonIFD0= -DocumentName= -HostComputer= -PageName= -PageNumber= -Orientation= -XMP= -overwrite_original "$i"; done
+
+or
+
+for i in *.tif; do echo "Processing $i"; exiftool -exif:all= -CommonIFD0= -overwrite_original "$i"; done
+
+-------------------------------------
+good for JPGs only (one at a time)
+
+exiftool -all= liv_000207_0004_red_green.jpg
+
+-------------------------------------
+good for JPGs only (multiple)
+
+for i in *.jpg; do echo "Processing $i"; exiftool -all= "$i"; done
+
+-------------------------------------
+
+Instead of purging all EXIF metadata from a photo, you can also remove individual fields. For example, the following command can come in handy when you need to remove geographical coordinates embedded in the photo:
+
+exiftool -geotag= foo.jpg
+
+-------------------------------------
+
+And the command below can help you to remove geotags from multiple photos in one go:
+
+for i in *.jpg; do echo "Processing $i"; exiftool -geotag= "$i"; done
+
+
+

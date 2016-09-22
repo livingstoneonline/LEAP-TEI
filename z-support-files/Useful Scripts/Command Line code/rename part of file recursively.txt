@@ -1,4 +1,11 @@
-find . -exec rename 's|Red_Green_color|red_green|' {} +
+find . -exec rename 's|_0001.tif|.tif|' {} +
 
 find file of particular type and rename
 find . -name "*.java" -exec rename 's|\.java|\.txt|' {}
+
+
+
+find . -exec rename 's|NLS10703_052_stats|liv_000205_0032_stats|' {} +
+find . -exec rename 's|NLS10703_054_stats|liv_000205_0034_stats|' {} +
+find . -exec rename 's|DLC297d_trans|liv_000204_0001_trans|' {} +
+find . -exec rename 's|NLS10703_trans|liv_000205_0032_trans|' {} +

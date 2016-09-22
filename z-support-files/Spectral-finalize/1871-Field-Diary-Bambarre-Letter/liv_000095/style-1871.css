@@ -161,7 +161,7 @@ p.right .linenumber{
 
 .milestone{
 	display:block;
-	width:60%;
+	width:20em; /*1871 FD change, was 60%*/
 	background:#FFF;
 	color:black;
 	height:0px;
@@ -173,7 +173,7 @@ p.right .linenumber{
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:26em !important;
+	width:20em !important; /*1871 FD change, was 26em*/
 	margin-left:9%;
 	text-align:left;
 }
@@ -198,7 +198,7 @@ p.right .linenumber{
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:18.5em !important;
+	width:16.5em !important; /*1871 FD change, was 18.5em*/
 	margin-left:9%;
 	text-align:left;
 }
@@ -212,10 +212,10 @@ p.right .linenumber{
 .second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:26em !important;
+	width:20em !important; /*1871 FD change, was 26em*/
 	margin-left:9%;
 	text-align:left;
-	margin-top:-1em;
+	margin-top:0em; /*1871 FD change, was -1em*/
 }
 .third-line{
 	border-bottom:1px solid #d0d0d0;
@@ -233,7 +233,7 @@ p{
 }/*Needed so that the text doesn't run up against the right edge in the viewer.*/
 .p{
 	display:inline-block;
-	text-indent:25px;
+	text-indent:0px; /*Changed to 0 for 1871 FD, was 25px*/
 	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;	
@@ -512,7 +512,7 @@ td{
 /* 12. Misc */
 
 .figure{
-	margin-left:9%;
+	/*margin-left:9%;*/ /*1871 FD, removed*/
 	color:gray;
 	font-size:.8em;
 	border-bottom:1px gray dotted;

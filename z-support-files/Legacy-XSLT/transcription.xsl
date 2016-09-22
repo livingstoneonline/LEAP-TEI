@@ -13,10 +13,12 @@
 		<xd:desc>
 			<xd:p><xd:b>Author:</xd:b> Adrian S. Wisnicki</xd:p>
 			<xd:p>Extensive revisions</xd:p>
-			<xd:p>Updated in Mary 2016.</xd:p>
+			<xd:p>Updated in Aug 2016.</xd:p>
 		</xd:desc>
 	</xd:doc>
-	<xsl:output method="xml" indent="yes"/>
+	
+	<xsl:output method="xml" indent="no"/>
+	<!-- It's necessary that this be "no" or otherwise extra space is kicked in when there are two <span>s in a row. It also appearst to solve other minor formatting issues -->
 
 	<!-- Incoming parameters -->
 	<xsl:param name="page" select="'0001'"/>
@@ -32,7 +34,7 @@
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
 				<meta charset="UTF-8"/>
-				<link rel="stylesheet" type="text/css" href="style-fd.css"/>
+				<link rel="stylesheet" type="text/css" href="style.css"/>
 				<title>
 					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
@@ -52,13 +54,9 @@
 		<div class="transcription">
 			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
 			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
-			<h2>
+			<!--<h2>
         <xsl:value-of select="//teiHeader//title[2]"/>
-			</h2>
-			<p class="marginhead">
-<xsl:value-of select="//teiHeader//author[@xml:id]"/>
-			</p>
-			<br/>
+			</h2>-->
 			<div class="TEI">
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
@@ -109,11 +107,13 @@
 					<xsl:value-of select="$class"/>
 				</xsl:attribute>
 			</xsl:if>
-			<xsl:if test="$title/text()">
+			<!--<xsl:if test="$title/text()">
 				<xsl:attribute name="title">
 					<xsl:value-of select="$title"/>
 				</xsl:attribute>
-			</xsl:if>
+			</xsl:if>-->
+			<!-- Necessary to turn this off, otherwise it creates wonky tooltips.
+			Tooltips as needed should be set on the specific element. -->
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -168,18 +168,66 @@
 		</xsl:if>
 	</xsl:template>
 
-
-	<!-- "Choice" variants begin here -->
 	<xsl:template match="choice">
-		<span class="choice">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	
+	<xsl:template match="choice/sic">
+			<xsl:variable name="choice-orig-sic">
+			<xsl:choose>
+				<!-- If there are orig and reg values in the corr, show the orig -->
+				<xsl:when test="../corr/choice/orig">
+					<xsl:value-of select="../corr/choice/orig"/>
+				</xsl:when>
+				<!-- If there are sic and corr values in the corr, show both sic and corr -->
+				<xsl:when test="../corr/choice/sic">
+					<xsl:value-of select="../corr/choice/sic"/> [or] <xsl:value-of select="../corr/choice/corr"/>
+				</xsl:when>
+				<!-- If there are two rdgs, show both rdgs -->
+				<xsl:when test="../corr/app/rdg">
+					<xsl:value-of select="../corr/app/rdg[1]"/> [or] <xsl:value-of select="../corr/app/rdg[2]"/>
+				</xsl:when>
+				<xsl:when test="../corr[not(text())]">[no text]</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="../corr"/>
+				</xsl:otherwise>
+			</xsl:choose>			
+			</xsl:variable>
+			<!--<xsl:if test="../corr">
+				<xsl:attribute name="title">The editors suggest a correction as follows: <xsl:value-of select="../corr"/></xsl:attribute>
+			</xsl:if>-->
+			<xsl:copy>
+			<xsl:attribute name="title">The editors suggest a correction as follows: <xsl:value-of select="$choice-orig-sic"/></xsl:attribute>
+			</xsl:copy>
+		<span class="sic diplomatic">	
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="choice/abbr">
+	<!--<xsl:template match="choice/corr">
+		<span class="corr edited hidden">
+			<xsl:if test="../sic">
+				<xsl:attribute name="title">sic: <xsl:value-of select="../sic"/></xsl:attribute>
+			</xsl:if>
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>-->
+
+	<!-- "Choice" variants begin here -->
+
+	<xsl:template match="abbr|orig">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="corr|expan|reg|supplied"/>
+	
+	<!-- Text below removed for annotated edition; also see app, supplied & unclear -->
+	
+	<!--<xsl:template match="choice/abbr">
 		<span class="abbr diplomatic">
 			<xsl:if test="../expan">
-				<xsl:attribute name="title">expan: <xsl:value-of select="../expan"/></xsl:attribute>
+				<xsl:attribute name="title"><xsl:value-of select="../expan"/></xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates/>
 		</span>
@@ -188,7 +236,7 @@
 	<xsl:template match="choice/expan">
 		<span class="abbr edited hidden">
 			<xsl:if test="../abbr">
-				<xsl:attribute name="title">expan: <xsl:value-of select="."/></xsl:attribute>
+				<xsl:attribute name="title"><xsl:value-of select="."/></xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates select="../abbr[1]/node()"/>
 		</span>
@@ -202,27 +250,9 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match="reg" priority="10"> </xsl:template>
+	<xsl:template match="reg" priority="10"> </xsl:template>-->
 
-	<xsl:template match="choice/sic">
-		<span class="sic diplomatic ">
-			<xsl:if test="../corr">
-				<xsl:attribute name="title">corrected version: <xsl:value-of select="../corr"/></xsl:attribute>
-			</xsl:if>
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="choice/corr">
-		<span class="corr edited hidden">
-			<xsl:if test="../sic">
-				<xsl:attribute name="title">sic: <xsl:value-of select="../sic"/></xsl:attribute>
-			</xsl:if>
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
 	<!-- "Choice" variants end here -->
-
 
 	<!-- Alphabetical list of elements. Alphabetized by last element in path *or* first element among options. -->
 
@@ -238,10 +268,17 @@
 
 	<!-- For "abbr" see above -->
 
-	<!-- Do we need a full <add> template? -->
+	<xsl:template match="add">
+			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
+			<xsl:apply-templates/></span>
+	</xsl:template>
 
-	<xsl:template match="add[@place='marginleft']|add[@place='marginright']">
+	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
 		<span class="addmargin"> [<xsl:apply-templates/>] </span>
+	</xsl:template>
+
+	<xsl:template match="add[@place='over-text']">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}" title="Addition written over existing text">{<xsl:apply-templates/>}</span>
 	</xsl:template>
 
 	<xsl:template match="opener/add">
@@ -264,16 +301,38 @@
 		</span>
 	</xsl:template>
 
+
+	<!-- Start of addSpan/anchor -->
+
+	<xsl:template match="tei:addSpan[preceding-sibling::node()[1][name()='p']]|tei:addSpan[preceding-sibling::node()[2][name()='p']]|p/addSpan">
+		<br/>
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="tei:addSpan|p/anchor">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="tei:anchor">		
+		<xsl:apply-templates/>
+		<br/>
+	</xsl:template>
+
+	<!-- End of addSpan/anchor -->
+
+
 	<!-- app: show first rdg -->
 	<xsl:template match="app">
-		<span class="app">
+		<!-- Hidden for annotated version. Also choice, supplied & unclear. -->
+		<!--<span class="app">
 			<xsl:attribute name="title">
 				<xsl:for-each select="rdg">
 					<xsl:value-of select="concat(name(),': ', ., '; ')"/>
 				</xsl:for-each>
 			</xsl:attribute>
 			<xsl:apply-templates select="rdg[1]"/>
-		</span>
+		</span>-->
+		<xsl:apply-templates select="rdg[1]"/>
 	</xsl:template>
 
 	<!-- For "back" see above -->
@@ -322,6 +381,10 @@
 		</span>
 	</xsl:template>
 
+	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
+		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
+	</xsl:template>
+
 	<!-- For "div" see above -->
 
 	<!-- For "expan" see above -->
@@ -330,41 +393,65 @@
 
 	<!-- For "front" see above -->
 
-	<xsl:template match="figure/figDesc">
-		<span class="figfigDesc" title="figure">[<xsl:apply-templates/>]</span>
-	</xsl:template>
+	<!--<xsl:template match="figure">
+		<xsl:choose>
+		<xsl:when test="head">
+			<span class="figure" title="{concat('&quot;', head, '.&quot; ', figDesc)}">{figure}</span>
+		</xsl:when>
+		<xsl:otherwise>
+			<span class="figure" title="{figDesc}">{figure}</span>
+		</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>--><!-- Replaced with templated provided by James Cummings -->
 
 	<xsl:template match="figure">
-		<span class="figure" title="">
+		<!-- newFigDesc goes away and applies templates to content to get it into a single dedupped string -->
+		<xsl:variable name="newFigDesc">
+			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
+		</xsl:variable>
+		<xsl:choose>
+			<xsl:when test="head and $newFigDesc/text()">
+				<span class="figure" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
+			</xsl:when>
+			<xsl:when test="head and not($newFigDesc/text())">
+				<span class="figure" title="{concat('&quot;', head, '.&quot; ')}">{figure}</span>
+			</xsl:when>
+			<xsl:when test="not(head) and $newFigDesc/text()">
+				<span class="figure" title="{$newFigDesc}">{figure}</span>
+			</xsl:when>
+			<xsl:otherwise>
+				<span class="figure">{figure}</span>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
+	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->
+	<xsl:template match="figDesc//abbr|figDesc//sic|figDesc//orig" mode="normalizeFigDesc">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<!-- Template kills through expan, corr, reg, and supplied in figDesc in normalizeFigDesc mode -->
+	<xsl:template match="figDesc//expan|figDesc//corr|figDesc//reg|figDesc//supplied"
+		mode="normalizeFigDesc"/>
+
+	<xsl:template match="add[@place='marginleft']/figure|add[@place='marginright']/figure" priority="10">
+		<xsl:choose>
+		<xsl:when test="head">
+			<span class="figure" title="{concat('&quot;', head, '.&quot; ', figDesc)}">figure</span>
+		</xsl:when>
+		<xsl:otherwise>
+			<span class="figure" title="{figDesc}">figure</span>
+		</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
+	<!-- An undefined foreign word. -->
+	<xsl:template match="foreign[not(term[@xml:lang])]">
+		<!--<xsl:variable name="title">A foreign word (not defined).</xsl:variable>
+		<span class="foreign" title="{$title}">-->
 			<xsl:apply-templates/>
-		</span>
+		<!--</span>-->
 	</xsl:template>
-
-	<xsl:template match="figure/head">
-		<span class="figHead">
-			[<xsl:apply-templates/>]
-		</span>
-	</xsl:template>
-
-
-	<!-- foreign should be italiced in edited view -->
-	<!--<xsl:template match="foreign" xml:space="preserve">
-		<span class="foreign diplomatic">
-		<xsl:if test="@xml:lang">
-			<xsl:attribute name="title">
-				<xsl:value-of select="concat('lang: ', @xml:lang)"/>
-			</xsl:attribute>
-		</xsl:if>
-				<xsl:apply-templates/>
-		</span>
-		<span class="foreign foreignItalic edited hidden" style="font-style:italic;">
-		<xsl:if test="@xml:lang">
-			<xsl:attribute name="title">
-				<xsl:value-of select="concat('lang: ', @xml:lang)"/>
-			</xsl:attribute>
-		</xsl:if>
-			<xsl:apply-templates/></span>
-		</xsl:template>-->
 
 	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
@@ -374,24 +461,16 @@
 
 	<xsl:template match="gap[@extent][@unit]" priority="10">
 		<xsl:choose>
-			<xsl:when test="@unit='chars'">
-				<span class="gap"
-					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each
-					select="1 to @extent">&#x00A0;</xsl:for-each>]</span>
-			</xsl:when>
-			<xsl:when test="@unit='words'">
-				<span class="gap"
-					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each
-					select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
-			</xsl:when>
-			<xsl:otherwise>
-				<span class="gap"
-					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each
-					select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
-			</xsl:otherwise>
+			<xsl:when test="@unit='chars'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;</xsl:for-each>]</span></xsl:when>
+			<xsl:when test="@unit='words'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:when>
+			<xsl:otherwise><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 
+	<!-- remove gb spans -->
+	<xsl:template match="gb">
+		<xsl:apply-templates/>
+	</xsl:template>
 
 	<!-- do not show graphic -->
 	<xsl:template match="graphic"/>
@@ -417,22 +496,15 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="measure/measure">
-			<xsl:apply-templates/>
+	<xsl:template match="metamark"><span class="metamark italic" title="Editorial symbol, mark, or unusual character"
+		>#</span></xsl:template>
+
+	<xsl:template match="add[@place='marginleft']/metamark|add[@place='marginright']/metamark" priority="10">
+		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
 	</xsl:template>
 
-	<xsl:template match="metamark"><span class="metamark" title="metamark"><xsl:apply-templates/> [<span class="italic">metamark</span>] </span></xsl:template>
-
-	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
-		<span class="metamark italic" title="metamark">metamark</span>
-	</xsl:template>
-
-	<xsl:template match="add[@place='marginright']/metamark" priority="10">
-		<span class="metamark italic" title="metamark">metamark</span>
-	</xsl:template>
 
 	<xsl:template match="milestone">
-		<br/>
 		<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:if test="@*">
 				<xsl:attribute name="title">
@@ -468,26 +540,6 @@
 
 	<!-- For "orig" see above -->
 
-	<xsl:variable name="orgName" select="doc('orgName.xml')"/>
-	<xsl:template match="orgName">
-		<!-- Make the output of the @title attribute in a variable -->
-		<xsl:variable name="title">
-		<xsl:choose>
-			<!-- when there is a @ref, assume it is right and go get information about the organization -->
-			<xsl:when test="@ref">
-				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
-				<xsl:variable name="thisOrgName" select="$orgName//org[@xml:id=$id]"/>
-				<xsl:value-of select="$thisOrgName/orgName[@type='main']"/><xsl:text>. </xsl:text>
-				<xsl:value-of select="normalize-space($thisOrgName/note[1])"/>
-			</xsl:when>
-			<!-- otherwise... -->
-			<xsl:otherwise>Group, organization, or other collective not based on nationality.</xsl:otherwise>
-		</xsl:choose>
-		</xsl:variable>
-		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
-		<span class="orgName" title="{$title}"><xsl:apply-templates/></span>
-	</xsl:template>
-
 	<!-- Not sure what this does. AW -->
 	<xsl:template match="jc:page">
 		<div class="page">
@@ -510,29 +562,12 @@
 		</span>
 	</xsl:template>
 
-	<xsl:variable name="people" select="doc('people.xml')"/>
-	<xsl:template match="persName">
-		<!-- Make the output of the @title attribute in a variable -->
-		<xsl:variable name="title">
-		<xsl:choose>
-			<!-- when there is a @ref, assume it is right and go get information about the person -->
-			<xsl:when test="@ref">
-				<xsl:variable name="id" select="substring-after(@ref, '#')"/>
-				<xsl:variable name="thisPerson" select="$people//person[@xml:id=$id]"/>
-				<xsl:value-of select="$thisPerson/persName[@type='main']"/><xsl:text>. </xsl:text>
-				<xsl:if test="$thisPerson/birth|$thisPerson/death">(<xsl:value-of select="concat($thisPerson/birth, '-', $thisPerson/death)"/>).  </xsl:if>
-				<xsl:value-of select="normalize-space($thisPerson/note[1])"/>
-			</xsl:when>
-			<!-- otherwise... -->
-			<xsl:otherwise>A person.</xsl:otherwise>
-		</xsl:choose>
-		</xsl:variable>
-		<!-- output the persName in a html:span element with whatever is now in the $title variable -->
-		<span class="persName" title="{$title}"><xsl:apply-templates/></span>
-	</xsl:template>
-
 	<!-- @placeName plus others. To eliminate two spans and addition of whitespace in HTML -->
 	<xsl:template match="placeName/geogName|placeName/bloc|placeName/country|placeName/region|placeName/settlement">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="postscript">
 		<xsl:apply-templates/>
 	</xsl:template>
 
@@ -587,14 +622,16 @@
 		</xsl:choose>
 	</xsl:template>
 
-	<xsl:template match="supplied">
-		<span class="supplied edited hidden">
-			<xsl:if test="@*"> 
-				<xsl:attribute name="title">
-						<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
-				</xsl:attribute>
-			</xsl:if>[<xsl:apply-templates select="node()"/>]</span>
+	<xsl:template match="subst">
+		<xsl:apply-templates/>
 	</xsl:template>
+
+	<!-- Text below removed for annotated edition; also see app, choice & unlcear -->
+	<!--<xsl:template match="supplied">
+		<span class="supplied edited hidden"> <xsl:if test="@*"> <xsl:attribute name="title">
+			<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
+			</xsl:attribute> </xsl:if>[<xsl:apply-templates select="node()"/>]</span>
+	</xsl:template>-->
 
 	<!-- For "surface" see above -->
 
@@ -634,11 +671,15 @@
 		<span class="unclear">
 			<xsl:if test="@cert">
 				<xsl:attribute name="title">
-					<xsl:value-of select="concat(name(), ', certainty: ', @cert)"/>
+					<xsl:value-of select="concat(name(), ', certainty of reading: ', @cert)"/>
 				</xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates select="node()"/>
 		</span>
+	</xsl:template>
+
+	<xsl:template match="w">
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	<!-- For "zone" see above -->
@@ -667,6 +708,37 @@
 			<xsl:apply-templates select="../orig/node()"/>
 		</span>
 	</xsl:template>-->
+
+	<!--<xsl:template match="figure/head">
+		<span class="figHead">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>-->
+
+	<!--<xsl:template match="figure/figDesc">
+		<xsl:variable name="title"><xsl:apply-templates/></xsl:variable>
+		<span class="figfigDesc" title="{$title}">{figure}</span>
+	</xsl:template>-->
+
+
+	<!-- foreign should be italiced in edited view -->
+	<!-- <xsl:template match="foreign" xml:space="preserve">
+		<span class="foreign diplomatic">
+		<xsl:if test="@xml:lang">
+			<xsl:attribute name="title">
+				<xsl:value-of select="concat('lang: ', @xml:lang)"/>
+			</xsl:attribute>
+		</xsl:if>
+				<xsl:apply-templates/>
+		</span>
+		<span class="foreign foreignItalic edited hidden" style="font-style:italic;">
+		<xsl:if test="@xml:lang">
+			<xsl:attribute name="title">
+				<xsl:value-of select="concat('lang: ', @xml:lang)"/>
+			</xsl:attribute>
+		</xsl:if>
+			<xsl:apply-templates/></span>
+		</xsl:template>-->
 
 	<!--<xsl:template match="fw[@type='pageno']">
 		<span class="fw pageno" title="">
@@ -701,5 +773,13 @@
 			</xsl:for-each>
 		</span>
 	</xsl:template>-->
+
+	<!--<xsl:template match="term[@type]" priority="1">
+		<span class="term" title="{@type}">
+		<xsl:apply-templates/>
+		</span>
+	</xsl:template>-->
+
+	<!-- Tooltip text: ailment, ethnic-group, foreign-word, geogName, orgName, persName/people, region, quote, settlement-->
 
 </xsl:stylesheet>

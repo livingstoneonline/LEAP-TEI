@@ -26,12 +26,8 @@ div.transcription{
 	margin-right:auto;
 	width:100%;
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
-	font-size:1em; /*Make .9em; also for table*/
-	white-space:nowrap;
-	color:#58484b; /*#574d44*/ /*#4E2F2F*/
-	background:#d3c2a8; /*#e7d5bd*/
-	border: solid 1em white;  /* remove */
-	padding-top: 1em;  /* remove */
+	font-size:.9em;
+	white-space: nowrap;
 }
 .TEI{
 	display:block;
@@ -132,28 +128,15 @@ p span.pb-title{
 	margin-right:25%;
 }
 .linenumber{
-	text-align:right;
 	float:left;
 	color:#AAA;
 	margin-left:-3em !important;
-	text-indent:9%;
+	text-indent:0;
 	font-size:80%;
-	width:1em;
-}
-p .linenumber{
-	text-indent:-1%;
+	width:3em;
 }
 .p.noindent.linenumber{
 	text-indent:1em;
-}
-p.center .linenumber{
-	margin-left:-12.5em !important; /*Needs to be checked.*/
-}
-p.right .linenumber{
-		margin-left:-18.5em !important;
-}
-.list .linenumber{
-	text-indent:0;	
 }
 
 
@@ -167,64 +150,47 @@ p.right .linenumber{
 	height:0px;
 	margin-left:9%;
 	margin-right:9%;
+	margin-top:-.5em;
+	margin-bottom:-.5em;
 	padding:0px;
-	margin-bottom:-1em;
 }
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:26em !important;
+	width:65% !important;
 	margin-left:9%;
 	text-align:left;
 }
-/*.doubleline{
+.doubleline{
 	border-top: 4px double #8c8b8b;
 	display:block;
-	width:35% !important;
+	width:65% !important;
 	margin-left:9%;
 	text-align:left;
-	color:black;
-}*/
-/*.tripleline{
+}
+.tripleline{
 	border-top: 4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
-	width:35% !important;
+	width:65% !important;
 	margin-left:9%;
 	text-align:left;
-	color:black;
-}*/
-/* Both of the above are not used in the 1870 FD transformation. See .second-line below.*/
+}
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:18.5em !important;
+	width:40% !important;
 	margin-left:9%;
 	text-align:left;
 }
 .quarterline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:11em !important;
+	width:20% !important;
 	margin-left:9%;
 	text-align:left;
 }
-.second-line{
-	border-bottom:1px solid #d0d0d0;
-	display:block;
-	width:26em !important;
-	margin-left:9%;
-	text-align:left;
-	margin-top:-1em;
-}
-.third-line{
-	border-bottom:1px solid #d0d0d0;
-	display:block;
-	width:20em !important;
-	margin-left:9%;
-	text-align:left;
-	margin-top:1.5em;
-}
+
 
 /* 5. p, ab, note, fw */
 
@@ -243,13 +209,11 @@ p{
 }
 .p.center{
 	text-indent:0 !important;
-	padding-left:6em;
-	margin-left:9%;
+	margin-left:15%;
 }
 .p.right{
 	text-indent:0 !important;
-	padding-left:12.2em; /*Was 25%*/
-	margin-left:9%;
+	margin-left:25%;
 }
 .ab{
 	text-indent:0;
@@ -261,7 +225,7 @@ p{
 	margin-left:15%;
 }
 .head{
-	font-weight:300;
+	font-weight:normal;
 }
 .note{
 	display:inline;
@@ -497,10 +461,9 @@ p{
 }
 table{
 	margin-left:9%;
-	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
+	font-size:85%;
 	border-style:none;
 	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-	color:#58484b; /*Added color for 1870 Field Diary*/
 }
 tr,
 td{
@@ -510,18 +473,21 @@ td{
 
 
 /* 12. Misc */
-
+.figfigDesc{
+	color:gray;
+	font-style:italic;
+	font-size:.8em;
+}
 .figure{
 	margin-left:9%;
-	color:gray;
-	font-size:.8em;
-	border-bottom:1px gray dotted;
+}
+.figHead{
+	display:inline-block;
 }
 .p .figure,
 .p.noindent .figure,
 .ab .figure{
 	margin-left:0px !important;
-	text-indent:0px;
 }
 .metamark{
 	color:gray;
@@ -533,14 +499,3 @@ p .metamark{
 	text-indent:0px !important;
 }
 
-.foreign,
-.geogName,
-.persName,
-.orgName,
-.quote,
-.region,
-.settlement,
-.term-ailment,
-.term-tribe{
-	border-bottom:2px #428bca dotted; /* change to 1px */
-}
