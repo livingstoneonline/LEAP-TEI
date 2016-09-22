@@ -387,6 +387,8 @@
 		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
 	</xsl:template>
 
+	<xsl:template match="desc"><span class="figure" title="{../desc}">{text description}</span></xsl:template>
+
 	<!-- For "div" see above -->
 
 	<!-- For "expan" see above -->
