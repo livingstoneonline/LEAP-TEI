@@ -1303,6 +1303,13 @@
 		</span>
 	</xsl:template>
 
+	<!-- This and the next are needed for 1871 FD when there are two or more <unclear>s within <choice>. This is the best way I could do this. There is probably a better way. -->
+	<xsl:template match="choice/unclear" priority="9">
+		<span class="unclear" title="{concat('Unclear. Alternate reading: ', ../unclear[2])}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="choice/unclear[2]" priority="10"/>
+
 	<xsl:template match="w">
 		<xsl:apply-templates/>
 	</xsl:template>
