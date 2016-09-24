@@ -135,6 +135,7 @@
 	</xsl:template>
 
 	<xsl:template match="div">
+		<span class="idno"><xsl:value-of select="//idno[@type='LEAP-ID']"/> - project id</span><br/><br/>
 		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
@@ -843,6 +844,10 @@
 		<xsl:element name="{concat('h', $num)}">
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:element>
+	</xsl:template>
+
+<xsl:template match="idno[@type='LEAP-ID']">
+		<span class="idno"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="list/item">
