@@ -42,6 +42,7 @@ div.transcription{
 .body{
 	display:block;
 	padding-bottom:2.4em;
+	padding-top:.5em;
 }
 .front,
 .back{
@@ -49,7 +50,11 @@ div.transcription{
 }
 .div{
 }
-
+.idno{
+	font-size:.9em;
+	color:gray;
+	margin-left:60%;
+}
 
 /* 2. Letters */
 
@@ -198,7 +203,7 @@ p.right .linenumber{
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:16.5em !important; /*1871 FD change, was 18.5em*/
+	width:10em !important; /*1871 FD change, was 18.5em*/
 	margin-left:9%;
 	text-align:left;
 }
