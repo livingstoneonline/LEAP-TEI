@@ -47,6 +47,8 @@
                     </msIdentifier>
                     <physDesc>
                         <handDesc>
+                            <handNote xml:id="JK"><label>John Kirk</label> This hand is thought
+                                to be that of John Kirk.</handNote>						
                             <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
                                 but thought not David Livingstone's.</handNote>
                         </handDesc>
@@ -299,8 +301,10 @@
        	<body>
 			<div>
 
+	<gb type="envelope_and_folio"/>
+
 	<pb facs="liv_000096_0001" n="0001"/><!--<milestone unit="page" n="1"/>-->
-<lb facs="#zliv_000096_0001_1_1"/><p><add place="above"><unclear cert="low">words</unclear></add> <foreign xml:lang="und">Batulu</foreign> = <add place="above">Husbands</add> <foreign xml:lang="und">Sima</foreign></p>
+<lb facs="#zliv_000096_0001_1_1"/><p><add place="above"><unclear cert="low">words</unclear></add> <foreign xml:lang="und">Batulu</foreign> = <add place="above">Husbands</add> <foreign xml:lang="und">Sima</foreign> <add place="above" rend="right gray" hand="U">36</add></p>
 <lb facs="#zliv_000096_0001_1_2"/><p><foreign xml:lang="und">Pia</foreign> = <foreign xml:lang="und">Milango</foreign></p>
 	<milestone unit="section" rend="line"/>
 <lb facs="#zliv_000096_0001_1_3"/><p>to be ordered from <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName>
@@ -344,7 +348,7 @@
 <lb facs="#zliv_000096_0002_2_23"/>at <persName>Moenengoi</persName>'s = sent present of food back</p>
 
 	<pb facs="liv_000096_0003" n="0003"/><!--<milestone unit="page" n="3"/>-->
-<lb facs="#zliv_000096_0003_3_1"/><p><date when="1871-08-18">18<hi rend="sup underline">th</hi> <choice><abbr>Aug.</abbr><expan>August</expan></choice> 1871</date> on to <placeName><settlement type="village">Katomba</settlement></placeName> &amp; welcome by
+<lb facs="#zliv_000096_0003_3_1"/><p><date when="1871-08-18">18<hi rend="sup underline">th</hi> <choice><abbr>Aug.</abbr><expan>August</expan></choice> 1871</date> on to <placeName><settlement type="village">Katomba</settlement></placeName> &amp; welcome <add place="above" rend="gray" hand="#U">37</add> by
 <lb facs="#zliv_000096_0003_3_2"/>all the heavily laden ivory Arabs = 3 relays take on
 <lb facs="#zliv_000096_0003_3_3"/>the spoil = <placeName><settlement type="village">Kenyengere</settlement></placeName><space dim="horizontal" extent="1" unit="chars"/>attacked and 150 captives
 <lb facs="#zliv_000096_0003_3_4"/>taken = about 100 slain - an old feud of <persName>Moenemgoi</persName>'s
@@ -405,9 +409,17 @@
 <lb facs="#zliv_000096_0004_4_25"/>and family interests - <persName>Lord Palmerston</persName>'s offer of
 <lb facs="#zliv_000096_0004_4_26"/>service to me fell <space dim="horizontal" extent="3" unit="chars"/>flat on my ear &amp; heart</p>
 
+<ab>
+<lb/><desc>The text that follows is written John Kirk's hand and lies beneath Livingstone's writing in the lower left-hand corner of the page.</desc>
+<lb/><seg rend="large" hand="#JK"><hi rend="diagonal"><date when="1870-12-02">12/2/<choice><abbr>70</abbr><expan>1870</expan></choice></date></hi>
+<lb/><persName>John Kirk</persName></seg></ab>
+
 	<pb facs="liv_000096_0004" n="0005"/><!--<milestone unit="page" n="5"/>-->
+<lb/><p><figure facs="#zliv_000096_0004_5_fig2" n="2"><figDesc>Series of calculations.</figDesc></figure> <add place="above" rend="right gray" hand="#U">3<gap extent="1" unit="chars"/><supplied cert="high">8</supplied></add></p>
 <lb/><p><figure facs="#zliv_000096_0004_5_fig1" n="1"><figDesc>Five lines of text: three in Arabic and two in Nagari. These are not in Livingstone's hand. The Arabic corresponds to the English undertext on this page (“Dr David Livingstone HRM Consul Ujiji &amp; Elsewhere”), and the first two lines can be translated thus: “This is to the most honorable Doctor Livingstone, consul of the Glorious [or Great] Queen, in Ujiji.” The last Arabic line reads simply, “Amen.” However, this is not an absolute translation. “This is to” can also be read as “the one who writes this informs,” while “most honorable” can also be read as “may his glory be eternal.”</figDesc></figure></p>
-<lb/><p><figure facs="#zliv_000096_0004_5_fig2" n="2"><figDesc>Series of calculations.</figDesc></figure></p>
+<lb/><p><desc>The text that follows is written John Kirk's hand and lies beneath Livingstone's writing in the center of the page.</desc>
+<lb/><seg rend="large" hand="#JK"><persName>Dr David Livingstone</persName>
+<lb/><space extent="1" unit="words"/><choice><abbr>HRM</abbr><expan>His Royal Majesty's</expan></choice> Consul <placeName><settlement type="village">Ujiji</settlement></placeName> &amp; Elsewhere</seg></p>
 	<!--<milestone unit="column">--><cb n="1"/>
 	<milestone unit="section" rend="line"/>
 <lb facs="#zliv_000096_0004_5_1"/><p><choice><abbr>R</abbr><expan>River</expan></choice> <placeName><geogName type="river">Kanayumbe</geogName></placeName>
@@ -428,13 +440,13 @@
 <lb/><p><figure facs="#zliv_000096_0003_6_fig1" n="1"><figDesc>Series of calculations.</figDesc></figure></p>
 
 	<pb facs="liv_000096_0002" n="0007"/><!--<milestone unit="page" n="7"/>-->
-<lb/><p><figure facs="#zliv_000096_0002_7_fig1" n="1"><figDesc>Series of calculations. A note at the top of the page states that these calculations were made in the "camp at 4° 10' Lat Lualaba called Nyangwe."</figDesc></figure></p>
+<lb/><p><figure facs="#zliv_000096_0002_7_fig1" n="1"><figDesc>Series of calculations. A note at the top of the page states that these calculations were made in the "camp at 4° 10' Lat Lualaba called Nyangwe."</figDesc></figure> <add place="above" rend="right gray" hand="#U">39</add></p>
 <lb facs="#zliv_000096_0002_7_1"/><p><placeName><geogName type="river">Shamikwa</geogName></placeName> <choice><abbr>R</abbr><expan>River</expan></choice> 9 days</p>
 <lb facs="#zliv_000096_0002_7_2"/><p><foreign xml:lang="und">Nyengere</foreign> black water</p>
 <lb facs="#zliv_000096_0002_7_3"/><p><term type="tribe" ref="ethnic-group.xml#ethnic0004"><choice><orig>Babire</orig><reg>Bira</reg></choice></term> upright hair</p>
 
 	<pb facs="liv_000096_0001" n="0008"/><!--<milestone unit="page" n="8"/>-->
-<lb/><p><figure facs="#zliv_000096_0001_8_fig1" n="1"><figDesc>Series of calculations. A note at the top of the page states that these calculations describe the "Total Rainfall in Manyema 1870-71."</figDesc></figure></p>
+<lb/><p><figure facs="#zliv_000096_0001_8_fig1" n="1"><figDesc>Series of calculations. A note at the top of the page states that these calculations describe the "Total Rainfall in Manyema 1870-71."</figDesc></figure> <add place="above" rend="right gray" hand="#U">5</add></p>
 <lb/><p><figure facs="#zliv_000096_0001_8_fig2" n="2"><figDesc>Residue of a red wax seal.</figDesc></figure></p>
 <lb/><p><figure facs="#zliv_000096_0001_8_fig3" n="3"><figDesc>Residue of a red wax seal.</figDesc></figure></p>
 <lb/><p><figure facs="#zliv_000096_0001_8_fig4" n="4"><figDesc>Residue of a red wax seal.</figDesc></figure></p>
