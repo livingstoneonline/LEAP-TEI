@@ -36,13 +36,13 @@ div.transcription{
 .TEI{
 	display:block;
 	padding-left: 1em;
+	padding-top:.5em;
 }
 .text{
 }
 .body{
 	display:block;
 	padding-bottom:2.4em;
-	padding-top:.5em;
 }
 .front,
 .back{
@@ -375,6 +375,12 @@ p{
 .large{
 	font-size:120%;
 }
+.overline{
+	text-decoration: overline;
+}
+.overline.underline{
+	text-decoration:overline underline;
+}
 .overtext{
 	/*color:gray;*/
 }
@@ -403,7 +409,6 @@ p{
 	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
 	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
-
 
 /* 9. Page placement */
 
