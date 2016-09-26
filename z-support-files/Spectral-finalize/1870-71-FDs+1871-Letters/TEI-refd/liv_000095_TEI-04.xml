@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet href="transcription-1871.xsl" type="text/xsl"?>
-<!--<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1871.xsl" type="text/xsl"?>-->
+<!--<?xml-stylesheet href="transcription-1871.xsl" type="text/xsl"?>-->
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1871.xsl" type="text/xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000095">
     <teiHeader>
         <fileDesc>
@@ -3616,7 +3616,7 @@
 	<gb type="newspaper-pages"/>
 
 	<pb facs="liv_000095_0001" n="CII"/><!--<milestone unit="page" n="CII"/>-->
-<lb facs="#zliv_000095_0001_CII_1"/><p><!--<p rend="no-indent">--><fw n="heading_CII">CII - to be copied into journal at <placeName><settlement type="village">Ujiji</settlement></placeName> now</fw> <add place="above" hand="#U" rend="gray">28</add></p>
+<lb facs="#zliv_000095_0001_CII_1"/><p><!--<p rend="no-indent">--><fw n="heading_CII">CII - to be copied into journal at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> now</fw> <add place="above" hand="#U" rend="gray">28</add></p>
 <lb facs="#zliv_000095_0001_CII_2"/><p><date when="1871-03-23">23<hi rend="sup underline">rd</hi> March 1871</date> Left <persName>Kasongo</persName> - he gave a
 <lb facs="#zliv_000095_0001_CII_3"/>goat &amp; guns <unclear cert="low">&amp;c</unclear> - country<space dim="horizontal" extent="3" unit="chars"/> gently undulating
 <lb facs="#zliv_000095_0001_CII_4"/>shewing green slopes fringed with wood
@@ -3645,7 +3645,7 @@
 <lb facs="#zliv_000095_0001_CII_27"/>which flows into the <placeName><geogName type="river">Kunda</geogName></placeName> and it
 <lb facs="#zliv_000095_0001_CII_28"/>into <placeName><geogName type="river">Lualaba</geogName></placeName> - country open and 
 <lb facs="#zliv_000095_0001_CII_29"/>low hills appear in the North - We
-<lb facs="#zliv_000095_0001_CII_30"/>met a party from the traders at <placeName><settlement type="village">Kasongo</settlement></placeName>
+<lb facs="#zliv_000095_0001_CII_30"/>met a party from the traders at <placeName><settlement type="village" ref="settlement.xml#sett0005">Kasongo</settlement></placeName>
 <lb facs="#zliv_000095_0001_CII_31"/>chiefly <persName>Matereka</persName>'s people - <persName>Salem</persName> &amp; <persName><choice><orig>Seyd</orig><reg>Seyed</reg></choice>
 <lb facs="#zliv_000095_0001_CII_32"/>bin Sultan</persName>- They had eighty two captives
 <lb facs="#zliv_000095_0001_CII_33"/>say they fought ten days to secure
@@ -3655,7 +3655,7 @@
 <lb facs="#zliv_000095_0001_CII_37"/>his leg in fighting - We shall be safe
 <lb facs="#zliv_000095_0001_CII_38"/>only when past the blood shed -
 <lb facs="#zliv_000095_0001_CII_39"/>and murder</p>
-<lb facs="#zliv_000095_0001_CII_1"/><ab><add place="marginright">1 <placeName><settlement type="village">Nyangwe</settlement></placeName>
+<lb facs="#zliv_000095_0001_CII_1"/><ab><add place="marginright">1 <placeName><settlement type="village" ref="settlement.xml#sett0012">Nyangwe</settlement></placeName>
 <lb facs="#zliv_000095_0001_CII_2"/><placeName><settlement type="village">Lokengo</settlement></placeName> 3 <add place="above"><placeName><settlement type="village">Kilonda</settlement></placeName></add>
 <lb facs="#zliv_000095_0001_CII_3"/><term type="tribe" ref="ethnic-group.xml#ethnic0018">Bagenya</term> 2
 <lb facs="#zliv_000095_0001_CII_4"/>rowers
@@ -3718,7 +3718,7 @@
 <lb facs="#zliv_000095_0003_CIV_4"/>account - <choice><sic>the</sic><corr cert="medium">then</corr></choice> the <placeName><geogName type="river">Molembe</geogName></placeName> in a canoe -
 <lb facs="#zliv_000095_0003_CIV_5"/>swelled by rains to 15 yards &amp; many rills and
 <lb facs="#zliv_000095_0003_CIV_6"/>much mud - Came about 7<choice><orig>½</orig><reg>1/2</reg></choice> miles to
-<lb facs="#zliv_000095_0003_CIV_7"/>sleep at one of the villages of <placeName><settlement type="village">Nyangwe</settlement></placeName>
+<lb facs="#zliv_000095_0003_CIV_7"/>sleep at one of the villages of <placeName><settlement type="village" ref="settlement.xml#sett0012">Nyangwe</settlement></placeName>
 <lb facs="#zliv_000095_0003_CIV_8"/>Hope to reach <persName>Abed</persName> tomorrow <space dim="horizontal" extent="2" unit="chars"/>About
 <lb facs="#zliv_000095_0003_CIV_9"/>sixty market women came past us
 <lb facs="#zliv_000095_0003_CIV_10"/>from the <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0024">chitoka</term></foreign> or market place
@@ -3739,7 +3739,7 @@
 <lb facs="#zliv_000095_0003_CIV_26"/>of beads and go on tomorrow</p>
 	<milestone unit="section" rend="line"/>
 <lb facs="#zliv_000095_0003_CIV_27"/><p><date when="1871-03-30">30<hi rend="sup underline">th</hi></date> after seven miles we came
-<lb facs="#zliv_000095_0003_CIV_28"/>to <placeName><settlement type="village">Nyangwe</settlement></placeName> market place where
+<lb facs="#zliv_000095_0003_CIV_28"/>to <placeName><settlement type="village" ref="settlement.xml#sett0012">Nyangwe</settlement></placeName> market place where
 <lb facs="#zliv_000095_0003_CIV_29"/><persName>Abed</persName> and <persName>Hassani</persName> have built
 <lb facs="#zliv_000095_0003_CIV_30"/>and thence sent their people over
 <lb facs="#zliv_000095_0003_CIV_31"/><placeName><geogName type="river">Lualaba</geogName></placeName> as far as the <placeName><geogName type="river">Loeki</geogName></placeName> or
@@ -3877,7 +3877,7 @@
 <lb facs="#zliv_000095_0007_CVIII_1"/><p><!--<p rend="no-indent">--><fw n="heading_CVIII">CVIII.</fw> <date when="1871-04-08">8<hi rend="sup underline">th</hi> April 1871</date> Every headman of <add place="above" hand="#U" rend="gray">33</add>
 <lb facs="#zliv_000095_0007_CVIII_2"/>four or five huts is a <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0024">Mologhwe</term></foreign> <add place="inspace" rend="large red" hand="#HW">Begin</add> or chief and
 <lb facs="#zliv_000095_0007_CVIII_3"/>glories in being called so -<space dim="horizontal" extent="2" unit="chars"/>there is no political
-<lb facs="#zliv_000095_0007_CVIII_4"/>cohesion - The <placeName><settlement type="village">Ujiji</settlement></placeName>an sla<gap extent="3" unit="chars" agent="fading"/><supplied cert="medium">ver</supplied>y is an accursed
+<lb facs="#zliv_000095_0007_CVIII_4"/>cohesion - The <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName>an sla<gap extent="3" unit="chars" agent="fading"/><supplied cert="medium">ver</supplied>y is an accursed
 <lb facs="#zliv_000095_0007_CVIII_5"/>system but it must be admitted that the
 <lb facs="#zliv_000095_0007_CVIII_6"/><term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> too have faults the result of
 <lb facs="#zliv_000095_0007_CVIII_7"/>ignorance of other peoples - Their isolation
@@ -4097,16 +4097,16 @@
 <lb facs="#zliv_000095_0012_CXIII_1"/><p><!--<p rend="no-indent">--><fw n="heading_CXIII">CXIII - <date when="1871-04-23">23<hi rend="sup underline">d</hi> April 1871</date>. <hi rend="underline">Journal</hi></fw>
 <lb facs="#zliv_000095_0012_CXIII_2"/><space dim="horizontal" extent="6" unit="chars"/><date when="1871-04-24">24 <choice><abbr>Do</abbr><expan>Ditto</expan></choice></date><space dim="horizontal" extent="4" unit="chars"/><choice><abbr>Do</abbr><expan>Ditto</expan></choice> <placeName><geogName type="lake" ref="geogName.xml#geog0022">Kamolondo</geogName></placeName> is
 <lb facs="#zliv_000095_0012_CXIII_3"/>about <add place="below">^</add> <add place="above">twenty</add> five miles broad <space dim="horizontal" extent="1" unit="chars"/>The <placeName><geogName type="river">Lufira</geogName></placeName> at
-<lb facs="#zliv_000095_0012_CXIII_4"/><placeName><region>Katanga</region></placeName> is a full bowshot wide - It goes
+<lb facs="#zliv_000095_0012_CXIII_4"/><placeName><region ref="region.xml#region0005">Katanga</region></placeName> is a full bowshot wide - It goes
 <lb facs="#zliv_000095_0012_CXIII_5"/>into <placeName><geogName type="lake" ref="geogName.xml#geog0022">Kamolondo</geogName></placeName> - <foreign xml:lang="und">Lui</foreign> means water
 <lb facs="#zliv_000095_0012_CXIII_6"/>only <space dim="horizontal" extent="3" unit="chars"/><placeName><region>Kayumba chakoma</region></placeName> is
 <lb facs="#zliv_000095_0012_CXIII_7"/>East of <placeName><geogName type="river">Lufira</geogName></placeName> junction <space dim="horizontal" extent="1" unit="chars"/><placeName><region>Kikonzi
 <lb facs="#zliv_000095_0012_CXIII_8"/>Kalanza</region></placeName>is on the West of it and
 <lb facs="#zliv_000095_0012_CXIII_9"/><placeName><region>Mkana</region></placeName> of the underground dwellings
 <lb facs="#zliv_000095_0012_CXIII_10"/>still further West - <space dim="horizontal" extent="2" unit="chars"/>some are only 2
-<lb facs="#zliv_000095_0012_CXIII_11"/>days from <placeName><region>Katanga</region></placeName> = <term type="tribe">Charwe</term> people
+<lb facs="#zliv_000095_0012_CXIII_11"/>days from <placeName><region ref="region.xml#region0005">Katanga</region></placeName> = <term type="tribe">Charwe</term> people
 <lb facs="#zliv_000095_0012_CXIII_12"/>are friendly - <placeName><geogName type="lake" ref="geogName.xml#geog0022">Kamolondo</geogName></placeName> about ten
-<lb facs="#zliv_000095_0012_CXIII_13"/>days distant from <placeName><region>Katanga</region></placeName></p>
+<lb facs="#zliv_000095_0012_CXIII_13"/>days distant from <placeName><region ref="region.xml#region0005">Katanga</region></placeName></p>
 	<milestone unit="section" rend="line"/>
 <lb facs="#zliv_000095_0012_CXIII_14"/><p><space dim="horizontal" extent="1" unit="chars"/><date when="1871-04-25">25<hi rend="sup underline">th</hi></date> News <choice><sic>have</sic><corr>has</corr></choice> come of four men
 <lb facs="#zliv_000095_0012_CXIII_15"/>sent near <unclear cert="high">to</unclear> this to buy ivory - were
@@ -4224,13 +4224,13 @@
 <lb facs="#zliv_000095_0014_CXV_34"/><placeName><region>Congo</region></placeName> or <placeName><region><settlement type="village">Ambriz</settlement></region></placeName> - but reporters had
 <lb facs="#zliv_000095_0014_CXV_35"/>not seen him -</p>
 <lb facs="#zliv_000095_0014_CXV_36"/><p><space dim="horizontal" extent="1" unit="chars"/>a man with ten slaves digging
-<lb facs="#zliv_000095_0014_CXV_37"/>malachite at <placeName><region>Katanga</region></placeName> for 3 months
+<lb facs="#zliv_000095_0014_CXV_37"/>malachite at <placeName><region ref="region.xml#region0005">Katanga</region></placeName> for 3 months
 <lb facs="#zliv_000095_0014_CXV_38"/>gains a hundred <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0002">frasilahs</term></foreign> of copper
 	<!--<milestone unit="column"/>--><cb n="1"/>
 <figure facs="#zliv_000095_0014_CXV_fig1" n="1"><figDesc>Calculation in the lower left-hand corner of the page.</figDesc></figure>
 	<!--<milestone unit="column"/>--><cb n="2"/>
 <lb facs="#zliv_000095_0014_CXV_39"/>It is very cheap - fountains
-<lb facs="#zliv_000095_0014_CXV_40"/>eight days from <placeName><region>Katanga</region></placeName> S <unclear cert="medium">=</unclear></p>
+<lb facs="#zliv_000095_0014_CXV_40"/>eight days from <placeName><region ref="region.xml#region0005">Katanga</region></placeName> S <unclear cert="medium">=</unclear></p>
 	<!--<milestone unit="column"/>--><cb/>
 
 
@@ -4241,12 +4241,12 @@
 <lb facs="#zliv_000095_0016_CXVI_4"/><del type="strikethrough">of <placeName><country>Egypt</country></placeName></del> which <del><unclear cert="medium">five</unclear></del> <add place="inline">for</add> its beneficial effects <add place="inline">^</add>
 <lb facs="#zliv_000095_0016_CXVI_4"/><space extent="6" unit="words" dim="horizontal"/><add place="inspace" rend="small"><metamark/> and mysterious source</add>
 <lb facs="#zliv_000095_0016_CXVI_5"/>they <del type="strikethrough">regarded</del> <add place="above">devoutly viewed</add> as an emblem of the Deity
-<lb facs="#zliv_000095_0016_CXVI_6"/><del type="cancelled">In my letter from <placeName><settlement type="village">Ujiji</settlement></placeName> in <date when="1869">1869</date> which
+<lb facs="#zliv_000095_0016_CXVI_6"/><del type="cancelled">In my letter from <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> in <date when="1869">1869</date> which
 <lb facs="#zliv_000095_0016_CXVI_7"/>I fear has been destroyed I described
 <lb facs="#zliv_000095_0016_CXVI_8"/>the structure of the Watershed and added
 <lb facs="#zliv_000095_0016_CXVI_9"/>information about Lake <placeName><geogName type="lake" ref="geogName.xml#geog0020">Lake Bangweolo</geogName></placeName>
 <lb facs="#zliv_000095_0016_CXVI_10"/>as a supplement to a letter of <space dim="horizontal" extent="1" unit="chars"/><date when="1868-07">July 1868</date>
-<lb facs="#zliv_000095_0016_CXVI_11"/>The copy is at <placeName><settlement type="village">Ujiji</settlement></placeName> so I now give from
+<lb facs="#zliv_000095_0016_CXVI_11"/>The copy is at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> so I now give from
 <lb facs="#zliv_000095_0016_CXVI_12"/>memory some idea of its contents as 
 <lb facs="#zliv_000095_0016_CXVI_13"/><choice><sic>explanatiery</sic><corr>explanatory</corr></choice> of the springs of the <placeName><geogName type="river">Nile</geogName></placeName>
 <lb facs="#zliv_000095_0016_CXVI_14"/>which the <space dim="horizontal" extent="2" unit="chars"/> ancients may not have
@@ -4482,11 +4482,11 @@
 <lb facs="#zliv_000095_0013_CXXI_14"/><p><space dim="horizontal" extent="2" unit="chars"/>He confuses the flow up
 <lb facs="#zliv_000095_0013_CXXI_15"/>and down = says that
 <lb facs="#zliv_000095_0013_CXXI_16"/>another river rises in
-<lb facs="#zliv_000095_0013_CXXI_17"/><placeName><region>Lunda</region></placeName> which becomes
+<lb facs="#zliv_000095_0013_CXXI_17"/><placeName><region ref="region.xml#region0011">Lunda</region></placeName> which becomes
 <lb facs="#zliv_000095_0013_CXXI_18"/>the <placeName><geogName type="river">Lomame</geogName></placeName> West
 <lb facs="#zliv_000095_0013_CXXI_19"/>of all <placeName><geogName type="river">Lualaba</geogName></placeName>s and it joins this
 <lb facs="#zliv_000095_0013_CXXI_20"/><placeName><geogName type="river">Lualaba</geogName></placeName> far down</p>
-<lb facs="#zliv_000095_0013_CXXI_21"/><p><space dim="horizontal" extent="1" unit="chars"/>From <placeName><region>Katanga</region></placeName> to <placeName><geogName type="river">Luivi</geogName></placeName> <choice><abbr>R</abbr><expan>River</expan></choice> 3 days
+<lb facs="#zliv_000095_0013_CXXI_21"/><p><space dim="horizontal" extent="1" unit="chars"/>From <placeName><region ref="region.xml#region0005">Katanga</region></placeName> to <placeName><geogName type="river">Luivi</geogName></placeName> <choice><abbr>R</abbr><expan>River</expan></choice> 3 days
 <lb facs="#zliv_000095_0013_CXXI_22"/>From <placeName><geogName type="river">Luivi</geogName></placeName> to <placeName><region>Charwe</region></placeName> 7 days
 <lb facs="#zliv_000095_0013_CXXI_23"/>From <persName>Mpweto</persName>'s to <placeName><choice><orig>Nyembwakunda</orig><reg>Nyembwe kunda</reg></choice></placeName><space dim="horizontal" extent="2" unit="chars"/>5 days
 <lb facs="#zliv_000095_0013_CXXI_24"/>From <persName>Chisabi</persName> to <placeName>Nyembwe Kunda</placeName> 3 days
@@ -4554,9 +4554,9 @@
 	<milestone unit="section" rend="double-line"/>
 <lb facs="#zliv_000095_0011_CXXIII_4"/><p><date when="1871-04-30">30<hi rend="sup underline">th</hi></date> <hi rend="underline"><foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0024">chitoka</term></foreign> here</hi> = added up the Rain
 <lb facs="#zliv_000095_0011_CXXIII_5"/>fall in <placeName><region ref="region.xml#region0013">Manyema</region></placeName> of 1870-7<gap extent="1" unit="chars" agent="fading"/><supplied cert="high">1</supplied> chiefly at
-<lb facs="#zliv_000095_0011_CXXIII_6"/><placeName><settlement type="village">Bambarre</settlement></placeName> = 61-98 inches - at
+<lb facs="#zliv_000095_0011_CXXIII_6"/><placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> = 61-98 inches - at
 <lb facs="#zliv_000095_0011_CXXIII_7"/><placeName><settlement type="village">Mamohela</settlement></placeName> it was rather scanty this
-<lb facs="#zliv_000095_0011_CXXIII_8"/>year - at <placeName><settlement type="village">Bambarre</settlement></placeName> very copious -</p>
+<lb facs="#zliv_000095_0011_CXXIII_8"/>year - at <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> very copious -</p>
 <lb facs="#zliv_000095_0011_CXXIII_9"/><p><space dim="horizontal" extent="3" unit="chars"/>Confused reports come of the <choice><sic>traders</sic><corr>trader's</corr></choice>
 <lb facs="#zliv_000095_0011_CXXIII_10"/>men two days distant but on the other
 <lb facs="#zliv_000095_0011_CXXIII_11"/>side - Have remained two months -
@@ -4616,7 +4616,7 @@
 <lb facs="#zliv_000095_0010_CXXIV_21"/><foreign xml:lang="und">Bangala</foreign> exists - horns brought =</p>
 <lb facs="#zliv_000095_0010_CXXIV_22"/><p><hi rend="double-underline"><date when="1871-05-02">2<hi rend="sup underline">nd</hi> May</date></hi> - send a letter to <persName>D<hi rend="sup underline">r</hi> Kirk</persName> by
 <lb facs="#zliv_000095_0010_CXXIV_23"/><space dim="horizontal" extent="8" unit="chars"/><persName ref="people.xml#pers0065"><choice><orig>Moenemokaia</orig><reg>Moenemokia</reg></choice></persName> to buy no
-<lb facs="#zliv_000095_0010_CXXIV_24"/>more goods - but send letters to <placeName><settlement type="village">Ujiji</settlement></placeName>
+<lb facs="#zliv_000095_0010_CXXIV_24"/>more goods - but send letters to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName>
 <lb facs="#zliv_000095_0010_CXXIV_25"/>I send three to bring away <persName>Abed</persName><choice><sic>s</sic><corr>'s</corr></choice> men
 <lb facs="#zliv_000095_0010_CXXIV_26"/>from <placeName><region>Chipange</region></placeName> but something hurried
 <lb facs="#zliv_000095_0010_CXXIV_27"/>up to shew war was meant and I refrain</p>
@@ -4882,7 +4882,7 @@
 <lb facs="#zliv_000095_0004_CXXX_19"/>come presently - they let it out that
 <lb facs="#zliv_000095_0004_CXXX_20"/>they wished to go home to <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName>
 <lb facs="#zliv_000095_0004_CXXX_21"/>This has been uppermost in
-<lb facs="#zliv_000095_0004_CXXX_22"/>their minds all the way to <placeName><settlement type="village">Bambarre</settlement></placeName>
+<lb facs="#zliv_000095_0004_CXXX_22"/>their minds all the way to <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName>
 <lb facs="#zliv_000095_0004_CXXX_23"/>and from thence here - They asked a 
 <lb facs="#zliv_000095_0004_CXXX_24"/>writing of permission or a pass
 <lb facs="#zliv_000095_0004_CXXX_25"/>which I refused - I shall wait
@@ -4908,7 +4908,7 @@
 <lb facs="#zliv_000095_0003_CXXXI_5"/><p><gap extent="4" unit="chars" agent="stain"/><supplied cert="medium"><date when="1871-05-19">19<hi rend="sup underline">th</hi></date></supplied> <persName>Abed</persName> gave me 200 cowries
 <lb facs="#zliv_000095_0003_CXXXI_6"/>and <gap extent="2" unit="chars" agent="stain"/><supplied cert="low">40</supplied> strings of a greenish bead
 <lb facs="#zliv_000095_0003_CXXXI_7"/>very much admired by all here -
-<lb facs="#zliv_000095_0003_CXXXI_8"/>advises me to return to <placeName><settlement type="village">Ujiji</settlement></placeName> as the
+<lb facs="#zliv_000095_0003_CXXXI_8"/>advises me to return to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> as the
 <lb facs="#zliv_000095_0003_CXXXI_9"/><orgName ref="orgName.xml#org0004"><orgName ref="orgName.xml#org0003">Banian</orgName> slaves</orgName> are sure to desert
 <lb facs="#zliv_000095_0003_CXXXI_10"/>in front - spoke to them to give
 <lb facs="#zliv_000095_0003_CXXXI_11"/>up their guns and be gone but
@@ -5297,7 +5297,7 @@
 <lb facs="#zliv_000095_0024_CXXXVII_18"/>silent!</p>
 	<milestone unit="section" rend="double-line"/>
 <lb facs="#zliv_000095_0024_CXXXVII_19"/><p><space dim="horizontal" extent="3" unit="chars"/><date when="1871-06-11">11<hi rend="sup underline">th</hi></date> <date calendar="Muslim">New ℂ last night</date> - <persName>Dugumbe</persName> will
-<lb facs="#zliv_000095_0024_CXXXVII_20"/>leave <placeName><settlement type="village">Kasongo</settlement></placeName> today - we leave on the <date when="1871-06-14">14<hi rend="sup underline">th</hi></date>
+<lb facs="#zliv_000095_0024_CXXXVII_20"/>leave <persName><placeName><settlement type="village" ref="settlement.xml#sett0005">Kasongo</settlement></placeName></persName> today - we leave on the <date when="1871-06-14">14<hi rend="sup underline">th</hi></date>
 <lb facs="#zliv_000095_0024_CXXXVII_21"/><persName>Hassani</persName> over river for canoes but probably
 <lb facs="#zliv_000095_0024_CXXXVII_22"/>in vain - <hi rend="underline">River fell three inches in
 <lb facs="#zliv_000095_0024_CXXXVII_23"/>the last three days</hi> - Much wreck floating
@@ -5358,7 +5358,7 @@
 <lb facs="#zliv_000095_0025_CXXXVIII_22"/>yesterday and will get a canoe if they only have
 <lb facs="#zliv_000095_0025_CXXXVIII_23"/>a little common sense - a note from
 <lb facs="#zliv_000095_0025_CXXXVIII_24"/><persName>Palamotto</persName> says letters have come by Governor
-<lb facs="#zliv_000095_0025_CXXXVIII_25"/>for me and are at <placeName><settlement type="village">Ujiji</settlement></placeName> = If I get a little
+<lb facs="#zliv_000095_0025_CXXXVIII_25"/>for me and are at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> = If I get a little
 <lb facs="#zliv_000095_0025_CXXXVIII_26"/>powder from <persName>Dugumbe</persName> &amp; the canoe comes
 <lb facs="#zliv_000095_0025_CXXXVIII_27"/>I shall be ready to <space dim="horizontal" extent="2" unit="chars"/>run down the river</p>
 	<milestone unit="section" rend="line"/>
@@ -5400,7 +5400,7 @@
 <lb facs="#zliv_000095_0026_CXXXIX_16"/>got a tenth for me with their nine</p>
 	<milestone unit="section" rend="line"/>
 <lb facs="#zliv_000095_0026_CXXXIX_17"/><p><space dim="horizontal" extent="5" unit="chars"/><date when="1871-06-22">22<hi rend="sup underline">nd</hi></date> Visited <persName>Dugumbe</persName> = He sends
-<lb facs="#zliv_000095_0026_CXXXIX_18"/>back to <placeName><settlement type="village">Ujiji</settlement></placeName> two months hence and
+<lb facs="#zliv_000095_0026_CXXXIX_18"/>back to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> two months hence and
 <lb facs="#zliv_000095_0026_CXXXIX_19"/>I shall send then for goods - and
 <lb facs="#zliv_000095_0026_CXXXIX_20"/>make it a point to come back here</p>
 	<milestone unit="section" rend="line"/>
@@ -5446,7 +5446,7 @@
 <lb facs="#zliv_000095_0027_CXL_13"/>as I wished the same danger would have
 <lb facs="#zliv_000095_0027_CXL_14"/>been incurred = I now go across to the
 <lb facs="#zliv_000095_0027_CXL_15"/><placeName><geogName type="river">Lomame</geogName></placeName> - buy a canoe there and go up
-<lb facs="#zliv_000095_0027_CXL_16"/>to <placeName><region>Katanga</region></placeName> = It is probable that the Dyke
+<lb facs="#zliv_000095_0027_CXL_16"/>to <placeName><region ref="region.xml#region0005">Katanga</region></placeName> = It is probable that the Dyke
 <lb facs="#zliv_000095_0027_CXL_17"/>down river runs across into <placeName><geogName type="river">Lomame</geogName></placeName>
 <lb facs="#zliv_000095_0027_CXL_18"/>so even if past the first narrows we
 <lb facs="#zliv_000095_0027_CXL_19"/>should have others to <hi rend="double-underline">ascend</hi> in <placeName><geogName type="river">Lomame</geogName></placeName></p>
@@ -5522,10 +5522,10 @@
 <lb facs="#zliv_000095_0029_CXLII_2"/><date when="1871-07-01">1<hi rend="sup underline">st</hi><hi rend="underline"> July = Sunday</hi></date> = Went to <persName>Dugumbe</persName> and told
 <lb facs="#zliv_000095_0029_CXLII_3"/>him my plan was to go with the <foreign xml:lang="swh">safari</foreign> he
 <lb facs="#zliv_000095_0029_CXLII_4"/>sends West to <placeName><geogName type="river">Lomame</geogName></placeName> - then buy a canoe
-<lb facs="#zliv_000095_0029_CXLII_5"/>and go up the Lake towards <placeName><region>Katanga</region></placeName>
+<lb facs="#zliv_000095_0029_CXLII_5"/>and go up the Lake towards <placeName><region ref="region.xml#region0005">Katanga</region></placeName>
 <lb facs="#zliv_000095_0029_CXLII_6"/>visit the excavations and return to this
 <lb facs="#zliv_000095_0029_CXLII_7"/>place if he would get his people to bring
-<lb facs="#zliv_000095_0029_CXLII_8"/>some of my goods from <placeName><settlement type="village">Ujiji</settlement></placeName> = <space dim="horizontal" extent="1" unit="chars"/>He
+<lb facs="#zliv_000095_0029_CXLII_8"/>some of my goods from <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> = <space dim="horizontal" extent="1" unit="chars"/>He
 <lb facs="#zliv_000095_0029_CXLII_9"/>said that he would write out my order
 <lb facs="#zliv_000095_0029_CXLII_10"/>that the natives here and on the other
 <lb facs="#zliv_000095_0029_CXLII_11"/>side had been poisoned against me
@@ -5587,7 +5587,7 @@
 <lb facs="#zliv_000095_0030_CXLIII_23"/>buy any by <persName>Shereef</persName><choice><sic>s</sic><corr>'s</corr></choice> villainy =</p>
 	<milestone unit="section" rend="line"/>
 <lb facs="#zliv_000095_0030_CXLIII_24"/><p><date when="1871-07-06">6<hi rend="sup underline">th</hi></date> <choice><abbr>con.</abbr><expan>continued</expan></choice> <persName>Mokandira</persName> and other head
-<lb facs="#zliv_000095_0030_CXLIII_25"/>men of <placeName><settlement type="village">Nyangwe</settlement></placeName> came with a
+<lb facs="#zliv_000095_0030_CXLIII_25"/>men of <placeName><settlement type="village" ref="settlement.xml#sett0012">Nyangwe</settlement></placeName> came with a
 <lb facs="#zliv_000095_0030_CXLIII_26"/>pig - also goat as a present on
 <lb facs="#zliv_000095_0030_CXLIII_27"/>my going away - I refused
 <lb facs="#zliv_000095_0030_CXLIII_28"/>till I come back and protested
@@ -5613,7 +5613,7 @@
 	<milestone unit="section" rend="line"/>
 <lb facs="#zliv_000095_0031_CXLIV_6"/><p><space dim="horizontal" extent="4" unit="chars"/><date when="1871-07-09">9<hi rend="sup underline">th</hi></date> <persName>Dugumbe</persName> advised explaining
 <lb facs="#zliv_000095_0031_CXLIV_7"/>my plan of going to <placeName><geogName type="river">Lomame</geogName></placeName> &amp; thence to
-<lb facs="#zliv_000095_0031_CXLIV_8"/><placeName><region>Katanga</region></placeName> and excavations to see what the
+<lb facs="#zliv_000095_0031_CXLIV_8"/><placeName><region ref="region.xml#region0005">Katanga</region></placeName> and excavations to see what the
 <lb facs="#zliv_000095_0031_CXLIV_9"/><orgName ref="orgName.xml#org0004"><orgName ref="orgName.xml#org0003">Banian</orgName> slaves</orgName> will object to - I did so
 <lb facs="#zliv_000095_0031_CXLIV_10"/>this morning but no remarks were
 <lb facs="#zliv_000095_0031_CXLIV_11"/>made - these may come at River only
@@ -5658,10 +5658,10 @@
 <lb facs="#zliv_000095_0032_CXLV_3"/>would go to <placeName><geogName type="river">Lomame</geogName></placeName> but no further
 <lb facs="#zliv_000095_0032_CXLV_4"/>This I suspected would be the case - 
 <lb facs="#zliv_000095_0032_CXLV_5"/>I report to <persName>Dugumbe</persName> and if he does not
-<lb facs="#zliv_000095_0032_CXLV_6"/>help must go back to <placeName><settlement type="village">Bambarre</settlement></placeName> and
+<lb facs="#zliv_000095_0032_CXLV_6"/>help must go back to <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> and
 <lb facs="#zliv_000095_0032_CXLV_7"/>send to <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> for other people
 <lb facs="#zliv_000095_0032_CXLV_8"/>I am fairly in the power of the
-<lb facs="#zliv_000095_0032_CXLV_9"/><placeName><settlement type="village">Ujiji</settlement></placeName>an slaves - <persName>Shereef</persName> destroys
+<lb facs="#zliv_000095_0032_CXLV_9"/><placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName>an slaves - <persName>Shereef</persName> destroys
 <lb facs="#zliv_000095_0032_CXLV_10"/>my letters = the Governor does
 <lb facs="#zliv_000095_0032_CXLV_11"/>the same to prevent evidence of
 <lb facs="#zliv_000095_0032_CXLV_12"/>his plunder going to the coast
@@ -5674,7 +5674,7 @@
 	<milestone unit="section" rend="double-line"/>
 <lb facs="#zliv_000095_0032_CXLV_19"/><p><space dim="horizontal" extent="2" unit="chars"/><date when="1871-07-13">13<hi rend="sup underline">th</hi></date> <persName>Dugumbe</persName> came and spoke to
 <lb facs="#zliv_000095_0032_CXLV_20"/>the <orgName ref="orgName.xml#org0004"><orgName ref="orgName.xml#org0003">Banian</orgName> slaves</orgName> = They profess to
-<lb facs="#zliv_000095_0032_CXLV_21"/>wish to go back to <placeName><settlement type="village">Ujiji</settlement></placeName> to bring
+<lb facs="#zliv_000095_0032_CXLV_21"/>wish to go back to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> to bring
 <lb facs="#zliv_000095_0032_CXLV_22"/><persName>Shereef</persName> as a leader - <space dim="horizontal" extent="2" unit="chars"/>They have no
 <lb facs="#zliv_000095_0032_CXLV_23"/>one to beat them say they or order
 <lb facs="#zliv_000095_0032_CXLV_24"/>them = The upshot was that they refuse
@@ -5682,11 +5682,11 @@
 <lb facs="#zliv_000095_0032_CXLV_26"/>hear them say we "<foreign xml:lang="swh">Hawezi</foreign>" <space dim="horizontal" extent="2" unit="chars"/>are
 <lb facs="#zliv_000095_0032_CXLV_27"/>unable = <foreign xml:lang="la">non possumus</foreign> =
 <lb facs="#zliv_000095_0032_CXLV_28"/>I then said to <persName>Dugumbe</persName> I have goods at
-<lb facs="#zliv_000095_0032_CXLV_29"/><placeName><settlement type="village">Ujiji</settlement></placeName> I <choice><sic>dont</sic><corr>don't</corr></choice> know how many but
+<lb facs="#zliv_000095_0032_CXLV_29"/><placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> I <choice><sic>dont</sic><corr>don't</corr></choice> know how many but
 <lb facs="#zliv_000095_0032_CXLV_30"/>they are considerable = Take them all
 <lb facs="#zliv_000095_0032_CXLV_31"/>and give me men and if not enough
 <lb facs="#zliv_000095_0032_CXLV_32"/>I will add to them = only <choice><sic>dont</sic><corr>don't</corr></choice> let
-<lb facs="#zliv_000095_0032_CXLV_33"/>me be forced to return to <placeName><settlement type="village">Ujiji</settlement></placeName> so
+<lb facs="#zliv_000095_0032_CXLV_33"/>me be forced to return to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> so
 <lb facs="#zliv_000095_0032_CXLV_34"/>near the end of my work - <space dim="horizontal" extent="3" unit="chars"/>He said
 <lb facs="#zliv_000095_0032_CXLV_35"/>that he would consult his company
 <lb facs="#zliv_000095_0032_CXLV_36"/>and form a plan =</p>
@@ -5893,13 +5893,13 @@
 <lb facs="#zliv_000095_0032_CL_24"/>that they would go only to <placeName><geogName type="river">Lomame</geogName></placeName> and
 <lb facs="#zliv_000095_0032_CL_25"/>then return - it would not be possible to 
 <lb facs="#zliv_000095_0032_CL_26"/>force them beyond that for whatever the
-<lb facs="#zliv_000095_0032_CL_27"/><orgName ref="orgName.xml#org0027">Ujijian slaves</orgName> may talk they all
+<lb facs="#zliv_000095_0032_CL_27"/>Ujijian slaves may talk they all
 <lb facs="#zliv_000095_0032_CL_28"/>hate to have me a witness of their <w>blood-
 <lb facs="#zliv_000095_0032_CL_29"/>-shed</w> and would connive at the desertion
 <lb facs="#zliv_000095_0032_CL_30"/>of my slaves = <space dim="horizontal" extent="1" unit="chars"/>Tried to go down <placeName><geogName type="river">Lualaba</geogName></placeName>
 <lb facs="#zliv_000095_0032_CL_31"/>and up <placeName><geogName type="lake">Tanganyika</geogName></placeName><space dim="horizontal" extent="3" unit="chars"/>but that too was
 <lb facs="#zliv_000095_0032_CL_32"/>objected to <space dim="horizontal" extent="1" unit="chars"/>It remained only to go up river
-<lb facs="#zliv_000095_0032_CL_33"/>and on to <placeName><settlement type="village">Ujiji</settlement></placeName> = <persName>Dugumbe</persName> asked them
+<lb facs="#zliv_000095_0032_CL_33"/>and on to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> = <persName>Dugumbe</persName> asked them
 <lb facs="#zliv_000095_0032_CL_34"/>why they refused to go = answer "Afraid"
 <lb facs="#zliv_000095_0032_CL_35"/>then you are cowards -"Yes we are" are
 <lb facs="#zliv_000095_0032_CL_36"/>you not men = <choice><abbr>Ans</abbr><expan>Answer</expan></choice> -"We are slaves"
@@ -5912,12 +5912,12 @@
 <lb facs="#zliv_000095_0031_CLI_3"/>would lose all pay - I had entreated them
 <lb facs="#zliv_000095_0031_CLI_4"/>not to throw it away but if not theirs
 <lb facs="#zliv_000095_0031_CLI_5"/>no wonder they care not for it - At
-<lb facs="#zliv_000095_0031_CLI_6"/>last I said that I would start for <placeName><settlement type="village">Ujiji</settlement></placeName>
+<lb facs="#zliv_000095_0031_CLI_6"/>last I said that I would start for <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName>
 <lb facs="#zliv_000095_0031_CLI_7"/>in three days on foot = <space dim="horizontal" extent="1" unit="chars"/>All asked <unclear cert="low">here</unclear>
 <lb facs="#zliv_000095_0031_CLI_8"/><gap extent="3" unit="chars" agent="hole"/><unclear cert="low">t</unclear> to be ashamed to ask beads or
 <lb facs="#zliv_000095_0031_CLI_9"/><gap extent="1" unit="chars" agent="hole"/><supplied cert="medium">a</supplied>nything else they possessed but
 <lb facs="#zliv_000095_0031_CLI_10"/><gap extent="1" unit="chars" agent="hole"/><supplied cert="high">s</supplied>aid that I had <space dim="horizontal" extent="4" unit="chars"/>enough for going
-<lb facs="#zliv_000095_0031_CLI_11"/>back to <placeName><settlement type="village">Ujiji</settlement></placeName> to get other people - 
+<lb facs="#zliv_000095_0031_CLI_11"/>back to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> to get other people - 
 <lb facs="#zliv_000095_0031_CLI_12"/>It is a sore affliction <space dim="horizontal" extent="2" unit="chars"/>forty four 
 <lb facs="#zliv_000095_0031_CLI_13"/>days back or 300 miles at least
 <lb facs="#zliv_000095_0031_CLI_14"/>45 days <space dim="horizontal" extent="2" unit="chars"/>and all after feeding the slaves 
@@ -5927,10 +5927,10 @@
 <lb facs="#zliv_000095_0031_CLI_15"/>for twenty one months -
 <lb facs="#zliv_000095_0031_CLI_16"/>but it is for the best - though
 <lb facs="#zliv_000095_0031_CLI_17"/>if I <choice><sic>dont</sic><corr>don't</corr></choice> trust the riffraff
-<lb facs="#zliv_000095_0031_CLI_18"/>of <placeName><settlement type="village">Ujiji</settlement></placeName> I must wait for
+<lb facs="#zliv_000095_0031_CLI_18"/>of <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> I must wait for
 <lb facs="#zliv_000095_0031_CLI_19"/>other men at least ten
 <lb facs="#zliv_000095_0031_CLI_20"/>months - I shall go through
-<lb facs="#zliv_000095_0031_CLI_21"/><placeName><region>Rua</region></placeName> - see the excavations
+<lb facs="#zliv_000095_0031_CLI_21"/><placeName><region ref="region.xml#region0010">Rua</region></placeName> - see the excavations
 <lb facs="#zliv_000095_0031_CLI_22"/>first and then the four
 <lb facs="#zliv_000095_0031_CLI_23"/>fountains and after
 <lb facs="#zliv_000095_0031_CLI_24"/>that <placeName><geogName type="lake">Lake Lincoln</geogName></placeName></p>
@@ -6002,7 +6002,7 @@
 
 	<pb facs="liv_000095_0029" n="CLIII"/><!--<milestone unit="page" n="CLIII"/>-->
 <lb facs="#zliv_000095_0029_CLIII_1"/><p><!--<p rend="no-indent">--><fw n="heading_CLIII" rend="red">CLIII Journal -</fw> <date when="1871-07-20">20<hi rend="sup underline">th</hi> July 1871</date> <space extent="1" unit="words"/><add place="inspace" hand="#U" rend="small gray">15</add>
-<lb facs="#zliv_000095_0029_CLIII_2"/>Start <hi rend="underline">back for <placeName><settlement type="village">Ujiji</settlement></placeName> 300 miles</hi> - 
+<lb facs="#zliv_000095_0029_CLIII_2"/>Start <hi rend="underline">back for <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> 300 miles</hi> - 
 <lb facs="#zliv_000095_0029_CLIII_3"/>off - One doti <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0005">Kanike</term></foreign> to <persName>Susi</persName>
 <lb facs="#zliv_000095_0029_CLIII_4"/><space dim="horizontal" extent="5" unit="chars"/>2 Dotis <foreign xml:lang="swh"><term xml:lang="swh" ref="foreign-word.xml#frgn0022">Merikano</term></foreign> to <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> for wife</p>
 	<milestone unit="section" rend="triple-line"/>
@@ -6064,7 +6064,7 @@
 <lb facs="#zliv_000095_0028_CLIV_21"/>anxious to carry loads for beads
 <lb facs="#zliv_000095_0028_CLIV_22"/>several market women saluted us
 <lb facs="#zliv_000095_0028_CLIV_23"/>In going from <placeName><geogName type="feature">LoBango</geogName></placeName> to the
-<lb facs="#zliv_000095_0028_CLIV_24"/><placeName><settlement type="village">Nyangwe</settlement></placeName> <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0024">chitoka</term></foreign> and back they
+<lb facs="#zliv_000095_0028_CLIV_24"/><placeName><settlement type="village" ref="settlement.xml#sett0012">Nyangwe</settlement></placeName> <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0024">chitoka</term></foreign> and back they
 <lb facs="#zliv_000095_0028_CLIV_25"/>about 25 miles in one day
 <lb facs="#zliv_000095_0028_CLIV_26"/>with heavy loads such as <space dim="horizontal" extent="3" unit="chars"/>no 
 <lb facs="#zliv_000095_0028_CLIV_27"/>slave would carry =</p>
@@ -6144,19 +6144,19 @@
 <lb facs="#zliv_000095_0026_CLVI_26"/><persName>Syde bin Sultan</persName> and another
 <lb facs="#zliv_000095_0026_CLVI_27"/>bought two milk goats reasonably</p>
 <lb facs="#zliv_000095_0026_CLVI_28"/><p><date when="1871-07-28">28<hi rend="sup underline">th</hi></date> rest <date when="1871-07-29">29<hi rend="sup underline">th</hi> Sunday</date> rest
-<lb facs="#zliv_000095_0026_CLVI_29"/><persName>Matereka</persName> sends a party to <placeName><settlement type="village">Ujiji</settlement></placeName>
+<lb facs="#zliv_000095_0026_CLVI_29"/><persName>Matereka</persName> sends a party to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName>
 <lb facs="#zliv_000095_0026_CLVI_30"/>with me for goods <space dim="horizontal" extent="2" unit="chars"/>this will
 <lb facs="#zliv_000095_0026_CLVI_31"/>increase our safety among
 <lb facs="#zliv_000095_0026_CLVI_32"/>the irritated people between
-<lb facs="#zliv_000095_0026_CLVI_33"/>this and <placeName><settlement type="village">Bambarre</settlement></placeName> = It is
-<lb facs="#zliv_000095_0026_CLVI_34"/>colder here than at <placeName><settlement type="village">Nyangwe</settlement></placeName>
+<lb facs="#zliv_000095_0026_CLVI_33"/>this and <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> = It is
+<lb facs="#zliv_000095_0026_CLVI_34"/>colder here than at <placeName><settlement type="village" ref="settlement.xml#sett0012">Nyangwe</settlement></placeName>
 <lb facs="#zliv_000095_0026_CLVI_35"/><persName>Kasongo</persName> is off in the forest <choice><abbr>N.</abbr><expan>North</expan></choice>
 <lb facs="#zliv_000095_0026_CLVI_36"/>of this guiding a party &amp; buying
 <lb facs="#zliv_000095_0026_CLVI_37"/>ivory when he can for himself</p>
 			</div>
 			<div rend="red">
 	<pb facs="liv_000095_0025" n="CLVII"/><!--<milestone unit="page" n="CLVII"/>-->
-<lb facs="#zliv_000095_0025_CLVII_1"/><p><!--<p rend="no-indent">--><fw n="heading_CLVII">CLVII. Note</fw> <placeName><region ref="region.xml#region0013">Manyema</region></placeName> <placeName><settlement type="village">Nyangwe</settlement></placeName> = <add place="inspace" hand="#U" rend="small gray">18</add>
+<lb facs="#zliv_000095_0025_CLVII_1"/><p><!--<p rend="no-indent">--><fw n="heading_CLVII">CLVII. Note</fw> <placeName><region ref="region.xml#region0013">Manyema</region></placeName> <placeName><settlement type="village" ref="settlement.xml#sett0012">Nyangwe</settlement></placeName> = <add place="inspace" hand="#U" rend="small gray">18</add>
 <lb facs="#zliv_000095_0025_CLVII_2"/><date when="1871-07-12">12 July 1871</date> = our statesmen seem to have
 <lb facs="#zliv_000095_0025_CLVII_3"/>come to the conclusion that Railways
 <lb facs="#zliv_000095_0025_CLVII_4"/>and Telegraphs will be better managed
@@ -6245,9 +6245,9 @@
 <lb facs="#zliv_000095_0023_CLIX_3"/>"Times" in laughing forebodings of his
 <lb facs="#zliv_000095_0023_CLIX_4"/>awful-ire-Jupiter <foreign xml:lang="la">tonans</foreign></p>
 <lb facs="#zliv_000095_0023_CLIX_5"/><p><space dim="horizontal" extent="1" unit="chars"/><hi rend="double-underline">Journal</hi> some <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> are
-<lb facs="#zliv_000095_0023_CLIX_6"/>going with us to <placeName><settlement type="village">Ujiji</settlement></placeName> = Arabs
+<lb facs="#zliv_000095_0023_CLIX_6"/>going with us to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> = Arabs
 <lb facs="#zliv_000095_0023_CLIX_7"/>anxious to hear my opinion of the
-<lb facs="#zliv_000095_0023_CLIX_8"/>Bloody massacre of <placeName><settlement type="village">Nyangwe</settlement></placeName>
+<lb facs="#zliv_000095_0023_CLIX_8"/>Bloody massacre of <placeName><settlement type="village" ref="settlement.xml#sett0012">Nyangwe</settlement></placeName>
 <lb facs="#zliv_000095_0023_CLIX_9"/>but I <choice><sic>decling</sic><corr>declining</corr></choice> to enter on it - They
 <lb facs="#zliv_000095_0023_CLIX_10"/>know all about it already -</p>
 	<milestone unit="section" rend="line"/>
@@ -6259,7 +6259,7 @@
 <lb facs="#zliv_000095_0023_CLIX_16"/>bundle = - They send <space dim="horizontal" extent="3" unit="chars"/>thirty
 <lb facs="#zliv_000095_0023_CLIX_17"/>tusks with us and are glad
 <lb facs="#zliv_000095_0023_CLIX_18"/>of the opportunity to get more
-<lb facs="#zliv_000095_0023_CLIX_19"/>goods from <placeName><settlement type="village">Ujiji</settlement></placeName> - about a 
+<lb facs="#zliv_000095_0023_CLIX_19"/>goods from <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> - about a 
 <lb facs="#zliv_000095_0023_CLIX_20"/>dozen <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> go the 
 <lb facs="#zliv_000095_0023_CLIX_21"/>first that ever travelled so
 <lb facs="#zliv_000095_0023_CLIX_22"/>far</p>
@@ -6313,7 +6313,7 @@
 <lb facs="#zliv_000095_0022_CLX_31"/>wait so as not to abandon ivory
 <lb facs="#zliv_000095_0022_CLX_32"/>but it is vexatious to wait for
 <lb facs="#zliv_000095_0022_CLX_33"/>fugitives = Men sent in pursuit met
-<lb facs="#zliv_000095_0022_CLX_34"/>others coming from <placeName><settlement type="village">Kasongo</settlement></placeName> to
+<lb facs="#zliv_000095_0022_CLX_34"/>others coming from <persName><placeName><settlement type="village" ref="settlement.xml#sett0005">Kasongo</settlement></placeName></persName> to
 <lb facs="#zliv_000095_0022_CLX_35"/>carry so we go on <unclear cert="low">homeward</unclear>
 <lb facs="#zliv_000095_0022_CLX_36"/>sacrifice<gap extent="1" unit="chars" agent="hole"/><supplied cert="high">s</supplied><space dim="horizontal" extent="3" unit="chars"/>ar<gap extent="1" unit="chars" agent="hole"/><supplied cert="high">e</supplied> <gap extent="1" unit="chars" agent="hole"/><supplied cert="high">o</supplied>ffered to <gap extent="5" unit="chars" agent="hole"/></p>
 
@@ -6429,7 +6429,7 @@
 <lb facs="#zliv_000095_0019_CLXIII_9"/><persName>Mwana mpunda</persName>'s and they saw the dead
 <lb facs="#zliv_000095_0019_CLXIII_10"/>cut up for cooking with bananas - This
 <lb facs="#zliv_000095_0019_CLXIII_11"/><gap extent="1" unit="chars" agent="hole"/><choice><sic><supplied cert="high">c</supplied>onforms</sic><corr>confirms</corr></choice> <persName>Rashid</persName>'s evidence - <persName>Mokandirwa</persName>
-<lb facs="#zliv_000095_0019_CLXIII_12"/><gap extent="3" unit="chars" agent="hole"/><supplied cert="medium">the</supplied> chief at <placeName><settlement type="village">Nyangwe</settlement></placeName> says that they eat those
+<lb facs="#zliv_000095_0019_CLXIII_12"/><gap extent="3" unit="chars" agent="hole"/><supplied cert="medium">the</supplied> chief at <placeName><settlement type="village" ref="settlement.xml#sett0012">Nyangwe</settlement></placeName> says that they eat those
 <lb facs="#zliv_000095_0019_CLXIII_13"/><gap extent="1" unit="chars" agent="hole"/><supplied cert="high">k</supplied>illed in war only - that the meat is not
 <lb facs="#zliv_000095_0019_CLXIII_14"/>good<gap agent="deletion" extent="1" unit="chars"/> and it makes the eater dream of the dead
 <lb facs="#zliv_000095_0019_CLXIII_15"/>Another man not so trustworthy said that
@@ -6454,7 +6454,7 @@
 <lb facs="#zliv_000095_0019_CLXIII_30"/><p><hi rend="underline"><placeName><geogName type="salt_spring">Kalonda</geogName></placeName></hi> = salt springs on West <unclear cert="medium">side</unclear> of the
 <lb facs="#zliv_000095_0019_CLXIII_31"/><placeName><geogName type="river">Lualaba</geogName></placeName> - not hot - boiled for salt</p>
 	<milestone unit="section" rend="line"/>
-<lb facs="#zliv_000095_0019_CLXIII_32"/><p><placeName><geogName type="islet">Kirila</geogName></placeName> islet 3 miles below <placeName><settlement type="village">Nyangwe</settlement></placeName>
+<lb facs="#zliv_000095_0019_CLXIII_32"/><p><placeName><geogName type="islet">Kirila</geogName></placeName> islet 3 miles below <placeName><settlement type="village" ref="settlement.xml#sett0012">Nyangwe</settlement></placeName>
 <lb facs="#zliv_000095_0019_CLXIII_33"/><placeName><geogName type="islet">Magoya</geogName></placeName><choice><abbr>do</abbr><expan>ditto</expan></choice> 6 <choice><abbr>do</abbr><expan>ditto</expan></choice> - people and <unclear cert="medium">trees on it</unclear></p>
 <lb facs="#zliv_000095_0019_CLXIII_34"/><p><hi rend="underline"><foreign xml:lang="und">Kūla</foreign></hi> or <hi rend="underline"><foreign xml:lang="und">Nkula</foreign></hi> name of salt lagoon on
 <lb facs="#zliv_000095_0019_CLXIII_35"/>West of <placeName><geogName type="river">Lualaba</geogName></placeName> -</p>
