@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet href="transcription-1871.xsl" type="text/xsl"?>
-<!--<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?>-->
+<!--<?xml-stylesheet href="transcription-1871.xsl" type="text/xsl"?>-->
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1871.xsl" type="text/xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000097">
     <teiHeader>
         <fileDesc>
@@ -187,19 +187,21 @@
 </facsimile>
 
 
-	<text xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<text>
        	<body>
-			<div>
+			<div rend="red">
+
+	<gb type="envelope"/>
 
 	<pb facs="liv_000097_0001" n="0001"/><!--<milestone unit="page" n="1"/>-->
 <lb facs="#zliv_000097_0001_1_1"/><p><space dim="horizontal" extent="5" unit="chars"/><date when="1871-09-28">28 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1871</date> <choice><abbr>cont</abbr><expan>continued</expan></choice> -
 <lb facs="#zliv_000097_0001_1_2"/><bibl>Journal</bibl> = 20<hi rend="sup underline">th</hi> camp
-<lb facs="#zliv_000097_0001_1_3"/>from <placeName><settlement type="village">Bambarre</settlement></placeName> = 4<choice><orig>½</orig><reg>1/2</reg></choice>
+<lb facs="#zliv_000097_0001_1_3"/>from <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> = 4<choice><orig>½</orig><reg>1/2</reg></choice>
 <lb facs="#zliv_000097_0001_1_4"/>Hours to last crossing of
 <lb facs="#zliv_000097_0001_1_5"/><choice><abbr>R</abbr><expan>River</expan></choice> <placeName><geogName type="river">Lo<del><unclear cert="medium">vum</unclear></del><add place="inline">ngum</add>ba</geogName></placeName> = </p>
 	<milestone unit="section" rend="line"/>
 <lb facs="#zliv_000097_0001_1_6"/><p><date when="1871-09-29">29<hi rend="sup underline">th</hi></date> 4<choice><orig>½</orig><reg>1/2</reg></choice> to under <choice><abbr>M<hi rend="sup">t</hi></abbr><expan>Mount</expan></choice> -
-<lb facs="#zliv_000097_0001_1_7"/><placeName><geogName type="mountain">Ngoilu</geogName></placeName> = fruit plum
+<lb facs="#zliv_000097_0001_1_7"/><foreign xml:id="und">Ngoilu</foreign> = fruit plum
 <lb facs="#zliv_000097_0001_1_8"/>= good = rapid current
 <lb facs="#zliv_000097_0001_1_9"/>of forty yards &amp; knee
 <lb facs="#zliv_000097_0001_1_10"/>deep = 21<hi rend="sup">st</hi> camp -</p>
@@ -212,28 +214,35 @@
 <lb facs="#zliv_000097_0001_1_17"/><space dim="horizontal" extent="4" unit="chars"/>22 camp</p>
 	<milestone unit="section" rend="line"/>
 <lb facs="#zliv_000097_0001_1_18"/><p><date when="1871-10-01">1<hi rend="sup underline">st</hi> <choice><abbr>Oct</abbr><expan>October</expan></choice> Monday</date>
-<lb facs="#zliv_000097_0001_1_19"/>on to <persName>Mketo</persName><choice><sic>s</sic><corr>'s</corr></choice>
+<lb facs="#zliv_000097_0001_1_19"/>on to <persName ref="people.xml#pers0205">Mketo</persName><choice><sic>s</sic><corr>'s</corr></choice>
 <lb facs="#zliv_000097_0001_1_20"/>in mountains</p>
 <lb facs="#zliv_000097_0001_1_21"/><p><date when="1871-10-02">2<hi rend="sup">nd</hi></date> Rest -
-<lb facs="#zliv_000097_0001_1_22"/>safari reported
+<lb facs="#zliv_000097_0001_1_22"/><foreign xml:id="swh"><term xml:lang="swh" ref="foreign-word.xml#frgn0027">safari</term></foreign> reported
 <lb facs="#zliv_000097_0001_1_23"/><gap extent="5" unit="chars" agent="hole"/><supplied cert="medium">23 ca</supplied>mp</p>
+
+	<ab rend="vertical brown">
+<lb/><desc>The text that follows is written in an unknown hand and lies beneath Livingstone's writing at a perpendicular angle.</desc>
+<lb/><seg rend="center"><persName ref="people.xml#pers0078">Dr Livingstone</persName></seg>
+<lb/>
+<lb/>care of <persName ref="people.xml#pers0071">Dr Kirk</persName>
+	</ab>
 
 	<pb facs="liv_000097_0001" n="0002"/><!--<milestone unit="page" n="2"/>-->
 <lb facs="#zliv_000097_0001_2_1"/><p><date when="1871-10-03">3<hi rend="sup">d</hi></date> to go on
-<lb facs="#zliv_000097_0001_2_2"/><persName>Ghamees</persName> <unclear cert="medium"><choice><abbr>W.</abbr><expan>West</expan></choice></unclear> I
+<lb facs="#zliv_000097_0001_2_2"/><persName ref="people.xml#pers0040">Ghamees</persName> <unclear cert="medium"><choice><abbr>W.</abbr><expan>West</expan></choice></unclear> I
 <lb facs="#zliv_000097_0001_2_3"/>fighting with <unclear cert="medium">th</unclear><gap extent="1" unit="chars" agent="hole"/><supplied cert="medium">e</supplied>
-<lb facs="#zliv_000097_0001_2_4"/>chief <persName>Merere</persName> -
-<lb facs="#zliv_000097_0001_2_5"/><persName>Moenenyun</persName>
+<lb facs="#zliv_000097_0001_2_4"/>chief <persName ref="people.xml#pers0098">Merere</persName> -
+<lb facs="#zliv_000097_0001_2_5"/><persName ref="people.xml#pers0207">Moenenyun</persName>
 <lb facs="#zliv_000097_0001_2_6"/>on <choice><sic>me</sic><corr>my</corr></choice> side
-<lb facs="#zliv_000097_0001_2_7"/><persName>Ghamees</persName> on
+<lb facs="#zliv_000097_0001_2_7"/><persName ref="people.xml#pers0040">Ghamees</persName> on
 <lb facs="#zliv_000097_0001_2_8"/>other <space dim="horizontal" extent="1" unit="chars"/>and
-<lb facs="#zliv_000097_0001_2_9"/><placeName><settlement type="town"><choice><abbr>Unyembe</abbr><expan>Unyanyembe</expan></choice></settlement></placeName>
+<lb facs="#zliv_000097_0001_2_9"/><placeName><settlement type="town" ref="settlement.xml#sett0015"><choice><abbr>Unyembe</abbr><expan>Unyanyembe</expan></choice></settlement></placeName>
 <lb facs="#zliv_000097_0001_2_10"/>Arabs on <figure facs="#zliv_000097_0001_2_fig1" n="1"><figDesc>Embossed seal of the Royal Geographical Society.</figDesc></figure>
 <lb facs="#zliv_000097_0001_2_11"/>a third side
-<lb facs="#zliv_000097_0001_2_12"/><persName>Merere</persName> is
+<lb facs="#zliv_000097_0001_2_12"/><persName ref="people.xml#pers0098">Merere</persName> is
 <lb facs="#zliv_000097_0001_2_13"/>mad - cut
 <lb facs="#zliv_000097_0001_2_14"/>off hand
-<lb facs="#zliv_000097_0001_2_15"/>of <persName>Makoa</persName>
+<lb facs="#zliv_000097_0001_2_15"/>of <persName ref="people.xml#pers0217">Makoa</persName>
 <lb facs="#zliv_000097_0001_2_16"/>- drunkeness
 <lb facs="#zliv_000097_0001_2_17"/><unclear cert="low"><choice><abbr>R</abbr><expan>River</expan></choice></unclear> =</p>
 <lb facs="#zliv_000097_0001_2_18"/><p><space dim="horizontal" extent="2" unit="chars"/>Read Bible
@@ -244,11 +253,11 @@
 <lb facs="#zliv_000097_0002_3_1"/><p><date when="1871-10-03">3<hi rend="sup underline">d</hi></date> <foreign xml:lang="und">Masuko</foreign> nearly ripe and in
 <lb facs="#zliv_000097_0002_3_2"/>great abundance = on to camp of
 <lb facs="#zliv_000097_0002_3_3"/><placeName><settlement type="village">Masudi</settlement></placeName><space dim="horizontal" extent="1" unit="chars"/>24<hi rend="sup">th</hi> camp -</p>
-<lb facs="#zliv_000097_0002_3_4"/><p><date when="1871-10-05">5<hi rend="sup underline">th</hi> <choice><abbr>Oct</abbr><expan>October</expan></choice></date> to <placeName><settlement type="village">Loanda</settlement></placeName><choice><abbr>vil</abbr><expan>village</expan></choice> = send
-<lb facs="#zliv_000097_0002_3_5"/>to <persName><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName> for canoe - go</p>
-<lb facs="#zliv_000097_0002_3_6"/><p><date when="1871-10-06">6<hi rend="sup underline">th</hi></date> on to <persName><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName><supplied>'s</supplied><choice><abbr>vil</abbr><expan>village</expan></choice> -</p>
+<lb facs="#zliv_000097_0002_3_4"/><p><date when="1871-10-05">5<hi rend="sup underline">th</hi> <choice><abbr>Oct</abbr><expan>October</expan></choice></date> to <placeName><settlement type="village">Loanda</settlement></placeName> <choice><abbr>vil</abbr><expan>village</expan></choice> = send
+<lb facs="#zliv_000097_0002_3_5"/>to <persName ref="people.xml#pers0064"><placeName><settlement type="village" ref="settlement.xml#sett0005"><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></settlement></placeName></persName> for canoe - go</p>
+<lb facs="#zliv_000097_0002_3_6"/><p><date when="1871-10-06">6<hi rend="sup underline">th</hi></date> on to <persName ref="people.xml#pers0064"><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName><supplied>'s</supplied> <choice><abbr>vil</abbr><expan>village</expan></choice> -</p>
 <lb facs="#zliv_000097_0002_3_7"/><p><date when="1871-10-07">7<hi rend="sup underline">th</hi></date> Rest <unclear cert="high">there</unclear> = eyes
-<lb facs="#zliv_000097_0002_3_8"/>inflamed = <persName><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName>
+<lb facs="#zliv_000097_0002_3_8"/>inflamed = <persName ref="people.xml#pers0064"><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName>
 <lb facs="#zliv_000097_0002_3_9"/>to come today -</p><figure facs="#zliv_000097_3_fig1" n="1"><figDesc>Calculation.</figDesc></figure>
 
 			</div>
