@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1871-html.xsl" type="text/xsl"?>
+<!--<?xml-stylesheet href="transcription-1871.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002564">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Horace Waller</title>
+				<title type="alternative">Letter to Horace Waller, 5 February 1871</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Editorial Decisions</resp>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+					<resp>Editing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>	
+                <respStmt xml:id="JD">
+                    <name>Jeff Drouin</name>
+                    <resp>TEI Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="DH">
+                    <name>Debbie Harrison</name>
+                    <resp>Proofing</resp>
+                </respStmt>					
+                <respStmt xml:id="EM">
+                    <name>Elizabeth McAulay</name>
+                    <resp>P4 to P5 Migration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kathryn Simpson</name>
+                    <resp>Proofreading</resp>
+                </respStmt>					
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_002564</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United States</country>
+                        <settlement>New York City</settlement>
+                        <repository>Peter Beard Studio</repository>
+                        <idno type="shelfmark"></idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1963</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to Horace Waller, 5 February 1871</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1871-02-05">5 February 1871</date>
+                    <placeName type="compositionPlace">Bambarre</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="und">Undetermined African Language</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+
+			<!-- Integration -->
+            <change when="2016-09-22" who="#AW">Integration</change>
+            <change when="2016-09-22" who="#AW">Data scrubbing and prep for XSL transformation</change>
+
+			<!-- liv_002564_0001 to liv_002564_0004 -->
+            <change when="2010-04-23" who="#AW">Initial transcription and TEI encoding</change>
+            <change when="2010-04-23" who="#JD">TEI encoding</change>
+            <change when="2010-05-21" who="#DH">Proofing</change>
+            <change when="2011-02-19" who="#EM">P4 to P5 migration</change>
+			<change when="2011-02-19" who="#AW">Additional editing</change>
+			<change when="2011-08-10" who="#KS">Proofreading</change>
+			<change when="2011-08-10" who="#AW">Editing</change>
+
+        </revisionDesc>
+    </teiHeader>
+
+	<text>
+       	<body>
+			<div>
+
+	<pb facs="liv_002564_0001" n="0001"/><!--<pb n="1r"/>-->
+<lb/><p><placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> = <placeName><region ref="region.xml#region0013">Manyema</region></placeName> <date when="1871-02-05">5 Feb 1871</date></p>
+<lb/><p>My Dear <persName ref="people.xml#pers0191">Waller</persName> - I yesterday <choice><sic>recieved</sic><corr>received</corr></choice> gladly your 3
+<lb/>letters of <date when="1869-10"><choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice></date> <date when="1869-11"><choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date> <date when="1869-12"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date> 1869 <space dim="horizontal" extent="4" unit="chars"/>You repeat the dose which 
+<lb/>is like to break my heart - You "gave <persName ref="people.xml#pers0071">Kirk</persName> all the news and 
+<lb/>he would impart them to me" but he had other matters to 
+<lb/>attend to and as usual I have to whistle for news - I am
+<lb/>the man with too many friends - Oh says Muff <choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> 1 such
+<lb/>a nice book has come out - I would send it but you have so 
+<lb/>many friends I am sure that someone must have sent it 
+<lb/>already - <choice><abbr>N</abbr><expan>Number</expan></choice>2 says I would have given you the news but
+<lb/>you have so many friends &amp;c &amp;c - <choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 3 says our large 
+<lb/>national educational establishment in which I have the 
+<lb/>honour to free a chair ought to help if not take on them 
+<lb/>the education of your children - I would do it myself but 
+<lb/>you have so many friends &amp;c - The upshot is I <choice><sic>recieve</sic><corr>receive</corr></choice> nothing</p>
+<lb/><p>Two great friends removed my three boys at my expense 
+<lb/>and against my wish from a healthy school in <placeName><country>England</country></placeName>
+<lb/>to an abominable "Do the boys Hall" in <placeName><country>Scotland</country></placeName> &amp; they were 
+<lb/>all home sick three months afterwards - ! I am glad of 
+<lb/>all you told me when you forgot the idea of others telling 
+<lb/>me and wrote naturally as a married man ought to do 
+<lb/>I did not know of <persName ref="people.xml#pers0194">Young</persName><choice><sic>s</sic><corr>'s</corr></choice> trip up after me nor of <persName ref="people.xml#pers0134">Musa</persName><choice><sic>s</sic><corr>'s</corr></choice>
+<lb/>lies till now - The successful laying of the <placeName><geogName type="ocean">Atlantic</geogName></placeName> cable 
+<lb/>I Enferred from my Canadian brother saying "last cable 
+<lb/>news told us you were alive &amp; we put off our mourning" 
+<lb/>I infer that a new Government or ministry is in
+<lb/>power because you speak of <persName ref="people.xml#pers0235">John Bright</persName> &amp; <persName ref="people.xml#pers0233">Duke Argyll</persName>
+<lb/>as ministers - Well I am off in a few days to finish 
+<lb/>with the help of the Almighty new explorations - Ten 
+<lb/>men here come from <persName ref="people.xml#pers0071">Kirk</persName> who like the good fellow 
+<lb/>that he is worked unweariedly to get them &amp; goods off in 
+<lb/>the midst of disease and death – one gang of porters died 
+<lb/>quite off and five of my men perished by <term type="ailment" ref="ailment.xml#ailm0004">cholera</term> - We get that 
+<lb/>from <placeName><settlement type="city">Mecca</settlement></placeName> - letters preceded it thence saying it was coming - 
+<lb/>We do nothing to stop its hatching in <placeName><settlement type="city">Mecca</settlement></placeName> <placeName><settlement type="city">Medina</settlement></placeName> &amp; <placeName><settlement type="city">Judda</settlement></placeName>
+<lb/>which annually become vast cesspools of abomination 
+<lb/>because the new political economy says let everything alone 
+<lb/>Formerly it went along shore now it comes inland - In our 
+<lb/>small camp here we lost 30 &amp; how many <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> no one 
+<lb/>knows - All the able bodied all off ivory collecting - if it had 
+<lb/>continued three instead of two months the camp would have 
+<lb/>been desolate - Fowls &amp; goats fell first then cattled shivered 
+<lb/>and died &amp; then men. I quite expect to hear that it went to the 
+<lb/><placeName><region ref="region.xml#region0017">Cape</region></placeName> - I got the copy of the Standard you sent - I have not seen 
+<lb/>the "Times" for an age - I differ from you for I am proud 
+<lb/>of our great Paper and only sorry when it admits the babble 
+<lb/>of the clubs - Jupiter must be nodding when he admits <persName ref="people.xml#pers0032">Cooley</persName><choice><sic>s</sic><corr>'s</corr></choice>
+<lb/>ill natured twaddle as "geography". I would not answer him 
+<lb/>why he boldly challenged me to argue the point whether the great 
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0059">Zambesi</geogName></placeName> above the <placeName><geogName type="waterfall" ref="geogName.xml#geog0062"><choice><abbr>falls</abbr><expan>Victoria Falls</expan></choice></geogName></placeName> were a river - He maintained that it 
+<lb/>was "an undeveloped river" that went under the ground of 
+<lb/>the <placeName><geogName type="desert" ref="geogName.xml#geog0016">Kalahari</geogName></placeName> and was lost, and in what he called a map 
+<lb/>put it down as ending in a pothook - doubtless meaning 
+<lb/>if the "learned" the "erudite" Cooley could be so low as use a 
+<lb/>hieroglyphic to say "here it hooks it" - that shut me up from 
+<lb/>answering for ever - My work leads me down <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName>
+<lb/>in canoes till it touches the head of the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> probably near 
+<lb/>the Eastern arm followed down by <persName ref="people.xml#pers0170">Speke</persName> <persName ref="people.xml#pers0042">Grant</persName> &amp; <persName ref="people.xml#pers0016">Baker</persName>
+<lb/>then double back up the Western line of drainage to the 
+<lb/>fountains on the Watershed - on return I shall not
+<lb/>go down the Western arm of the loop formed by the end 
+<lb/>of <persName ref="people.xml#pers0016">Baker</persName><choice><sic>s</sic><corr>'s</corr></choice> water and <unclear cert="medium">it - the</unclear> Northern part of which 
+<lb/>again <gap extent="5" unit="chars" agent="hole"/><supplied cert="low">Eithe</supplied><unclear cert="medium">r</unclear> <choice><sic>Bakar</sic><corr cert="medium">Baker</corr></choice> <unclear cert="medium">i</unclear><gap extent="1" unit="chars" agent="hole"/><supplied cert="low">s</supplied> <unclear cert="medium">a liar o</unclear><gap extent="1" unit="chars" agent="hole"/><supplied cert="low">r</supplied> <unclear cert="medium">I am - This is</unclear></p>
+
+	<pb facs="liv_002564_0002" n="0002"/><!--<pb n="1v"/>-->
+<lb/><p>still unknown in fact it is Cooleography &amp; not to 
+<lb/>be made public - I propose to go up the lower <placeName><geogName type="lake" ref="geogName.xml#geog0019"><app><rdg><foreign xml:lang="lea"><term xml:lang="lea" ref="foreign-word.xml#frgn0018">Uerere</term></foreign></rdg><rdg><foreign xml:lang="swh"><term xml:lang="swh" ref="foreign-word.xml#frgn0019">Uerere</term></foreign></rdg></app></geogName></placeName> or <del type="strikethrough"><placeName><geogName type="lake" ref="geogName.xml#geog0019">lower Tanganyika</geogName></placeName></del> <placeName><geogName type="lake" ref="geogName.xml#geog0018">Albert Nyanza</geogName></placeName>
+<lb/>and on to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> &amp; <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName><space dim="horizontal" extent="3" unit="chars"/> I do not know <persName ref="people.xml#pers0016">Baker</persName><choice><sic>s</sic><corr>'s</corr></choice>
+<lb/>plan and in my ignorance fear that conquering the 
+<lb/>small headmen all along the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> is doing on a large scale 
+<lb/>what slavetraders now do on small one - commit 
+<lb/>many murders to punish a few robbers and make 
+<lb/>the whole population Turkish slaves – I know of no 
+<lb/>large chief in all this region <space dim="horizontal" extent="4" unit="chars"/> Every village is independent 
+<lb/>and no glory can arise from enslaving these in detail 
+<lb/>but I dont know 
+<lb/>the Egyptian ex 
+<lb/>peditions under 
+<lb/>the French were 
+<lb/>as bloody as if 
+<lb/>conducted by 
+<lb/><term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> –</p>
+<lb/><p>My packet of 40 
+<lb/>letters is I fear
+<lb/>destroyed <space dim="horizontal" extent="3" unit="chars"/> The 
+<lb/>governor the alleged 
+<lb/>culprit complains 
+<lb/>that he conducted the 
+<lb/>expedition of <persName ref="people.xml#pers0023">Burton</persName>
+<lb/>from <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName>
+<lb/>to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> &amp; thence 
+<lb/>to <placeName><settlement type="village">Uvira</settlement></placeName> and 
+<lb/>back to <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName>
+<lb/>deal of wrangling 
+<lb/>and was left <w>un- 
+<lb break="no"/>-paid</w> till the Indian 
+<lb/>Government or 
+<lb/>that of <placeName><settlement type="city">Bombay</settlement></placeName> sent 
+<lb/>him a 1000 dollars 
+<lb/>He was soured at 
+<lb/>all Englishmen – 
+<lb/>placed my goods 
+<lb/>under his man 
+<lb/><persName ref="people.xml#pers0135">Musa bin <choice><orig>Salim</orig><reg>Salem</reg></choice></persName>
+<lb/>who stopped the 
+<lb/>porters ten days 
+<lb/>while he plundered         
+<lb/>&amp; went off to <placeName><region ref="region.xml#region0004">Karagwe</region></placeName>
+<lb/>to buy ivory for 
+<lb/>his master - He 
+<lb/>wished that no
+<lb/>evidence should 
+<lb/>go to the coast - 
+<lb/>my packet <w>con-
+<lb break="no"/>tained</w> evidence &amp; 
+<lb/>I conjectured it was 
+<lb/>destroyed - His agent at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> sent back the 
+<lb/>packet after <supplied cert="high">I</supplied> had paid for it because "he did 
+<lb/>not know the contents" I regret the loss of copies 
+<lb/>of all my astronomical observations and <gap extent="1" unit="chars" agent="hole"/><supplied cert="high">a</supplied>
+<lb/>Despatch supplementary to that from <placeName>Bangw<gap extent="4" unit="chars" agent="hole"/><supplied cert="high">eolo</supplied></placeName>
+<lb/><cb/>
+<lb/>but I have copies at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> - The gross carelessness of 
+<lb/>the council in allowing <persName ref="people.xml#pers0236">Arrowsmith</persName> to take away my 
+<lb/>imperfect sketches made solely to oblige them by the earliest 
+<lb/>information while my work went to the <placeName><region ref="region.xml#region0017">Cape</region></placeName> and then my 
+<lb/>good friend <persName ref="people.xml#pers0236">Arrowsmith</persName> glorifying himself by sending the 
+<lb/>errors easily detected to <placeName><country>Germany</country></placeName> &amp; <placeName><country>India</country></placeName> made me 
+<lb/>resolve to take care of them myself and at the risk of losing 
+<lb/>them altogether - My kind love to your wife I am glad she has taken you &amp; under her wing 
+<lb/>and my blessing on you both <seg rend="right"><persName ref="people.xml#pers0078">David Livingstone</persName></seg></p>
+<lb/><cb/>
+<lb/><ab>The Governor's statement may be untrue for he is 
+<lb/>an ill conditioned Arab and lying is no sin to such 
+<lb/><choice><abbr>A.</abbr><expan cert="high">Arrowsmith</expan></choice> then charged <persName ref="people.xml#pers0228">M<hi rend="sup underline">r</hi> Murray</persName> &amp; me £300 with the reason 
+<lb/>for the overcharge <space dim="horizontal" extent="3" unit="chars"/> had to alter all his work on 
+<lb/><choice><sic>recieving</sic><corr>receiving</corr></choice> later information which later 
+<lb/>information was the only thing we employed 
+<lb/>him upon - He employed himself on <persName ref="people.xml#pers0071">Kirk</persName>'s 
+<lb/>and my imperfect sketches <space dim="horizontal" extent="3" unit="chars"/> He ought to 
+<lb/>refund or leave the council</ab>
+
+	<pb facs="liv_002564_0003" n="0003"/><!--<pb n="2r"/>-->
+<lb/><p><choice><abbr>PS.</abbr><expan>Postscript</expan></choice> to <persName ref="people.xml#pers0191">Waller</persName> - It is not worth while noticing anything fr<gap extent="2" unit="chars" agent="hole"/><supplied cert="high">om</supplied>
+<lb/><persName ref="people.xml#pers0023">Burton</persName> any more than from <persName ref="people.xml#pers0032">Cooley</persName> – they make statements only <gap extent="2" unit="chars" agent="hole"/><supplied cert="high">to</supplied>
+<lb/>lug themselves forward to the public - For your private information 
+<lb/>I tell you that my party consisted of fifteen Muhamadans 
+<lb/>six pagan Hindoos six christians &amp; four Heathen - the Moslems 
+<lb/>were by far the worst in every respect - The christians had the mis 
+<lb/>fortune to have been born slaves in their own tribes &amp; had <choice><sic>recieved</sic><corr>received</corr></choice> the 
+<lb/>worst training in the world from Moslem slavetraders but behaved           
+<lb/>better than the Moslems till we came into close contact with Moslems 
+<lb/>again - the Heathen had been in the Portuguese service and were 
+<lb/>infinitely inferior to heathen <term type="tribe" ref="ethnic-group.xml#ethnic0008"><choice><orig>Makololo</orig><reg>Kolo</reg></choice></term> in consequence - I have
+<lb/>heard gentlemen from <placeName><country>India</country></placeName> speak of native christians with 
+<lb/>contempt because they had never seen any save the vile
+<lb/>scum that hangs about camps which may be called moral
+<lb/>cess pools - I have seen the native christians in India which
+<lb/>these silly gentlemen pretend to describe and they are as different
+<lb/>from the "Masters caste" men who say "I drink brandy" as one
+<lb/>can <choice><sic>concieve</sic><corr>conceive</corr></choice> - I have travelled with all sorts of Africans
+<lb/>and I can without hesitation assert that the native Christians
+<lb/>are out of sight better than either Moslems or heathen - only
+<lb/>let them understand thoroughly that they are servants and
+<lb/>must work as hard as slaves - They are not gentlemen and
+<lb/>you will have trustworthy &amp; generally truthful attendants -
+<lb/>The trouble you will have with them is just what all have with 
+<lb/>English servants and every other - I am to be judged by the work done -</p>
+<lb/><p>I am truly thankful that there is some prospect of the
+<lb/>suppression of the East African slave trade as carried on
+<lb/>by the <choice><sic>Sultans</sic><corr>Sultan's</corr></choice> subjects - I have heard but little of the details
+<lb/>but I believe a great deal is owing to the exertions of our
+<lb/>friend <persName ref="people.xml#pers0071">Kirk</persName> on whom for his share may Heavens
+<lb/>rich blessing descend - the sights I have in this journey
+<lb/>seen of slaving make my blood run cold and I am not
+<lb/>easily moved or very Sentimental - I cannot call the Arabs
+<lb/>cruel - but <add place="inline">^</add> <add place="above">it is the trade that is cruel and certainly is vil<gap extent="1" unit="chars" agent="hole"/><supplied cert="high">e</supplied></add> few are like those wretches the <placeName><settlement type="town" ref="settlement.xml#sett0016">Kilwa</settlement></placeName> traders
+<lb/>or the atrocious Portuguese of <placeName><settlement type="town">Tette</settlement></placeName> whose murder and
+<lb/>arson you witnessed - But it is an awful traffic and 
+<lb/>can be congenial only to the Devil and his angels - If our
+<lb/>statesmen stop the frightful waste of human life in this
+<lb/>region and mitigate the vast amount of human woe
+<lb/>that accompanies it they will do good on the large scale
+<lb/>and cause joy in Heaven - The whole horrible system 
+<lb/><placeName><region>North of <placeName><geogName type="river" ref="geogName.xml#geog0064">Rovuma</geogName></placeName></region></placeName> &amp; <placeName><geogName type="cape" ref="geogName.xml#geog0061">Cape Delgado</geogName></placeName> is to support the Sultan 
+<lb/>of <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> who is said to be by no means very greedy
+<lb/>of money save to uphold his little court &amp; attendants - 
+<lb/><supplied cert="medium">"</supplied>The system <placeName><region>South of a point South of <placeName><geogName type="cape" ref="geogName.xml#geog0061">Cape Delgado</geogName></placeName></region></placeName> for
+<lb/>that is the boundary claimed by the <add place="inline">^</add> <del type="cancelled">Portuguese</del> <add place="above">Arabs</add> is kept up
+<lb/>not to injure the rights of the crown of <placeName><country>Portugal</country></placeName> " <del type="cancelled">so said
+<lb/>one not supposed capable of abetting an atrocity</del> and
+<lb/>the <orgName ref="orgName.xml#org0030">Governors D'Almrida</orgName> destroyed our work &amp; people
+<lb/>unchecked - The most startling disease I have seen among
+<lb/>slaves is not <term type="ailment" ref="ailment.xml#ailm0019">earth or clay eating</term> which too is a disease
+<lb/><hi rend="underline">per se</hi> but what really seems to be brokenheartedness
+<lb/>It does not attack those who have been slaves in their own
+<lb/>land but those who have been free - I saw a party taken
+<lb/>across <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> by a slaver and when they saw this mighty
+<lb/>river roll between them and home they seemed to lose all
+<lb/>heart - Twenty one who were then considered safe were
+<lb/>unchained <space dim="horizontal" extent="3" unit="chars"/> all scuttled off to the mountains but eight
+<lb/>still in the chain and in good health died in three days</p>
+
+	<pb facs="liv_002564_0004" n="0004"/><!--<pb n="2v"/>-->
+<lb/><p><gap extent="1" unit="chars" agent="hole"/><supplied cert="high">W</supplied>hen asked why they did not eat but lay pictures of 
+<lb/>abject misery they pointed to the <term type="bodypart">heart</term> as the seat
+<lb/>of pain - they point to that organ correctly though
+<lb/>many think that the <term type="bodypart">heart</term> is under the upper part
+<lb/>of the <term type="bodypart">sternum</term> or <term type="bodypart">breastbone</term> - I saw many others
+<lb/>die - some were kindly carried and on expiring were
+<lb/>laid down on the side of the path - The masters wondering
+<lb/>why they died and had plenty to eat - I once saw a party
+<lb/>in the slave yoke singing merrily &amp; thought my
+<lb/>these fellows have taken to it kindly - they must belong
+<lb/>to the class to whom
+<lb/>slavery is the
+<lb/>natural state
+<lb/>for which they
+<lb/>were born - I          
+<lb/>asked the cause
+<lb/>of their mirth &amp;
+<lb/>was told that
+<lb/>they laughed at
+<lb/>the idea "of coming
+<lb/>back after death
+<lb/>and haunting &amp;
+<lb/>killing those who
+<lb/>had sold them"
+<lb/>Some of the words
+<lb/>I had to enquire
+<lb/>the meaning of the
+<lb/>word to "haunt and
+<lb/>kill by spirit power"</p>
+<lb/><p><gap extent="1" unit="chars" agent="hole"/><supplied cert="high">T</supplied>hen it was "oh you
+<lb/>sent me off to 
+<lb/><foreign xml:lang="und">Manga</foreign> but the
+<lb/>yoke is off when 
+<lb/>I die and back
+<lb/>I shall come to
+<lb/>haunt and to kill 
+<lb/>you" Then all
+<lb/>joined in the
+<lb/>chorus which was 
+<lb/>the name of each
+<lb/>vendor as if it
+<lb/>were "oh Johnny
+<lb/>Smith Oh Johnny Smith Oh Oh"
+<lb/>It told not of fun but of the bitterness and tears
+<lb/>of such as were oppressed <add place="inline">^</add> <add place="above">and on the site of the oppression there was power</add> and they had
+<lb/>no comforter - "There be higher than they."</p>
+<lb/><p>I am terribly knocked
+<lb/>up but this is for your own eye only 
+<lb/>in my second childhood <space dim="horizontal" extent="3" unit="chars"/> a dreadful 
+<lb/>old fogie – doubtful if I live to see you
+<lb/>again - I stick to my work in spite of
+<lb/>everything because most of my friends 
+<lb/><cb/>
+<lb/>will say as my good daughter does - "much as I wish to have 
+<lb/>you home I would rather that you finish your work to your
+<lb/>own satisfaction than come merely to gratify me" there’s a good
+<lb/>brave girl I guess - a chip of<supplied cert="high">f</supplied> the old block and no
+<lb/>mistake <space dim="horizontal" extent="5" unit="chars"/><persName ref="people.xml#pers0078">David Livingstone</persName> <space extent="3" unit="chars" dim="horizontal"/><figure n="1"><figDesc>There is a red wax seal here that was placed on the page after Livingstone wrote his text.</figDesc></figure></p>
+<lb/><p>News came lately to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> that a large body of Turks (Egyptians?)
+<lb/>came and attacked <persName ref="people.xml#pers0230">Sunna</persName> - They were repulsed and fled in disorder
+<lb/><persName ref="people.xml#pers0230">Sunna</persName> is <persName ref="people.xml#pers0170">Speke</persName><choice><sic>s</sic><corr>'s</corr></choice> <persName ref="people.xml#pers0137"><choice><orig>Muza</orig><reg>Musa</reg></choice></persName> with his <choice><sic>fathers</sic><corr>father's</corr></choice> name - can this be <persName ref="people.xml#pers0016">Sam Baker</persName> or <persName ref='people.xml#pers0241'>De Bono</persName>?</p>			
+<lb/><cb/>
+<lb/><p><persName ref="people.xml#pers0016">Baker</persName> does not seem to be aware how
+<lb/>often the Portuguese have tried the conquering
+<lb/>plan and always failed - more signally
+<lb/>in the West perhaps than the East but it may
+<lb/>be different with him and though I dont
+<lb/>know his plan I hope he may do good
+<lb/>on the <placeName><geogName type="river" ref="geogName.xml#geog0059">Zambesi</geogName></placeName> the natives to a man were
+<lb/>most friendly - the Portuguese instructed from
+<lb/><placeName><settlement type="city">Lisbon</settlement></placeName> were civil but hated us &amp; the expedition
+<lb/>with <persName ref="people.xml#pers0016">Baker</persName> the Turks will be as friendly as the
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0059">Zambesi</geogName></placeName> natives to us - but I fear that the
+<lb/>common people will be like our Portuguese
+<lb/>But for cannon <persName ref="people.xml#pers0230">Sunna</persName> could conquer <placeName><country>Egypt</country></placeName>
+<lb/>far more easily than 3000 troops could injure
+<lb/>him - 100 000 <choice><sic>warriers</sic><corr>warriors</corr></choice> though an exaggeration means something great</p>
+			<cb/><ab hand="#U" rend="upside-down">
+<lb/>Revise <date when="1869-11-23"><choice><abbr>Nov</abbr><expan>November</expan></choice> 23/<choice><abbr>69</abbr><expan>1869</expan></choice></date>
+<lb/>for <persName ref="people.xml#pers0078">Dr Livingstone</persName> <placeName><region>Interior of <placeName><bloc>Africa</bloc></placeName></region></placeName>
+<lb/>
+<lb/><hi rend="diagonal underline overline">Uncorrected</hi></ab>
+			
+			</div>
+       	</body>
+	</text>
+
+</TEI>
