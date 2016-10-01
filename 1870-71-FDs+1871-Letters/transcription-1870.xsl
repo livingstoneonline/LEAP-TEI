@@ -58,7 +58,7 @@
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
 			<div class="TEI">
-				<span class="idno"><xsl:value-of select="//idno[@type='LEAP-ID']"/> - project id</span><br/><br/>
+				<span class="idno">project id: <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/><br/>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
 					<xsl:when test="$isPaged='true' and //jc:page[@n=$pagenumber]">
@@ -263,7 +263,8 @@
 		</p>
 	</xsl:template>
 
-	<xsl:template match="cb/ab" priority="10">
+	<!-- added p/cb for 1870 FD -->
+	<xsl:template match="cb/ab|p/cb" priority="10">
 		<xsl:apply-templates/>
 	</xsl:template>
 
@@ -275,7 +276,7 @@
 	</xsl:template>
 
 	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
-		<span class="addmargin"> [<xsl:apply-templates/>] </span>
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'addmargin')}"> [<xsl:apply-templates/>] </span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='over-text']">
@@ -387,6 +388,9 @@
 	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
 		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
 	</xsl:template>
+
+	<!-- added for 1870 FD -->
+	<xsl:template match="desc"><span class="figure" title="{../desc}">{text description}</span></xsl:template>
 
 	<!-- For "div" see above -->
 
@@ -898,6 +902,11 @@
 		</hr>-->
 	</xsl:template>
 
+	<!-- added for 1870 FD -->
+	<xsl:template match="milestone[@unit='column']" priority="10">
+		<xsl:apply-templates/>
+	</xsl:template>
+
 	<xsl:template match="note">
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @anchored)}"
 			>[<xsl:apply-templates/>]</span>
@@ -1304,6 +1313,13 @@
 			<xsl:apply-templates select="node()"/>
 		</span>
 	</xsl:template>
+
+	<!-- This and the next are needed for 1871 FD when there are two or more <unclear>s within <choice>. This is the best way I could do this. There is probably a better way. -->
+	<xsl:template match="choice/unclear" priority="9">
+		<span class="unclear" title="{concat('Unclear. Alternate reading: ', ../unclear[2])}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="choice/unclear[2]" priority="10"/>
 
 	<xsl:template match="w">
 		<xsl:apply-templates/>
