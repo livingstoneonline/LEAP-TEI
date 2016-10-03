@@ -58,7 +58,17 @@
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
 			<div class="TEI">
-				<span class="idno">project id: <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/><br/>
+				<!--<span class="idno">project id: <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/><br/>-->
+				<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[2]"/></span><br/>
+				<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/><br/>
+				<hr class="title-section"/><br/>
+				<span class="authority"><strong>Original publisher and date:</strong><xsl:text> </xsl:text><xsl:value-of select="//imprint//publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//imprint/date"/></span><br/>
+				<span class="authority"><strong>Digital publisher and date:</strong><xsl:text> </xsl:text><a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
+				<span class="idno"><strong>Project id:</strong><xsl:text> </xsl:text><xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
+				<span class="authority"><strong>TEI Encoding:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//respStmt/name" separator=", "/></span><br/>
+				<br/>
+				<hr class="title-section"/>
+				<br/>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
 					<xsl:when test="$isPaged='true' and //jc:page[@n=$pagenumber]">
@@ -428,7 +438,7 @@
 				<span class="figure" title="{$newFigDesc}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="..//graphic">
-				<span class="graphic"><img src="{$graphicURL}" style="width:100%;"/><xsl:apply-templates/></span>
+				<span class="graphic"><a href="{$graphicURL}"><img src="{$graphicURL}" style="width:100%;"/></a></span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="figure">{figure}</span>
@@ -493,7 +503,7 @@
 
 	<xsl:template match="fw">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
-			<xsl:apply-templates/>
+			<br/><xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
@@ -512,7 +522,7 @@
 	<xsl:template match="gap[@extent][@unit]" priority="10">
 		<xsl:choose>
 			<xsl:when test="@unit='chars'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;</xsl:for-each>]</span></xsl:when>
-			<xsl:when test="@unit='words'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:when>
+			<xsl:when test="@unit='words'"><span class="gap"><!-- title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}" -->[...]</span></xsl:when>
 			<xsl:otherwise><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>

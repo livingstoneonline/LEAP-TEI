@@ -24,20 +24,20 @@ Table of Contents
 div.transcription{
 	margin-left:auto;
 	margin-right:auto;
-	width:60%;
+	width:605px;/*Change to make responsive; this current keeps it fixed*/
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
 	text-align: justify;
 	/*white-space:nowrap;*/
 	color:#58484b; /*#574d44*/ /*#4E2F2F*/
-	background:#d3c2a8; /*#e7d5bd*/
+	background:#f6dbb0; /*#d3c2a8;*/ /*#e7d5bd*/
 	border: solid 1em white;  /* remove */
 	padding-top: 1em;  /* remove */
 }
 .TEI{
 	display:block;
-	margin-left:8em !important;
-	margin-right:8em !important;
+	margin-left:6em !important;
+	margin-right:6em !important;
 	padding-top:.5em;
 }
 .text{
@@ -52,11 +52,50 @@ div.transcription{
 }
 .div{
 }
-.idno{
+/*.idno{
 	font-size:.9em;
 	color:gray;
 	float:right;
-	/*margin-right:5em;*/
+}*/
+.idno{
+	font-size:.9em;
+	line-height:1.7;
+}
+
+
+/* 1.5. Title section */
+
+.title{
+	font-size:1.4em;
+	font-variant:small-caps;
+	display:inline-block;
+	text-align:center;
+}
+.author{
+	font-size:1.2em;
+	font-style:italic;
+	display:block;
+	text-align:center;
+	margin-top:1em;
+}
+.authority{
+	font-size:.9em;
+	line-height:1.7;
+}
+.pub-date{
+	font-size:.9em;
+}
+a:link{
+	color:#428bca !important;
+}
+hr.title-section{
+	margin-right:auto;
+	width:100%;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
+	margin-top:-.4em;
+	margin-bottom:-.4em;
 }
 
 /* 2. Letters */
@@ -109,15 +148,15 @@ div.transcription{
 
 .pb-title{
 	display:block;
-	color:#428bca;
+	color:#f6dbb0;
 	text-decoration:underline;
 	font-size:90%;
 	/*margin-left:3.3em;*/
-	margin-top:2em;
+	margin-top:1em;
 	margin-bottom:1em;
 }
 .pb-title:hover{
-	color:#AAA;
+	color:#f6dbb0;
 	cursor:pointer
 }
 .pb-title:first-of-type {
@@ -176,8 +215,6 @@ p.right .linenumber{
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
-	margin-left:9%;
-	margin-right:9%;
 	padding:0px;
 	margin-bottom:-1em;
 }
@@ -185,7 +222,6 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:26em !important;
-	margin-left:9%;
 	text-align:left;
 	height:0;
 	border:0;
@@ -295,6 +331,7 @@ p{
 }
 .ab.center{
 	/*margin-left:15%;*/
+	display:block;
 }
 .head{
 	font-weight:300;
@@ -374,7 +411,7 @@ p{
 	border-bottom:1px dotted gray;
 }
 .gap{
-	border-bottom:1px dotted black;
+	/*border-bottom:1px dotted black;*/
 }
 .space-other{
 	border-bottom:1px dotted black;
@@ -585,6 +622,9 @@ td{
 .ab .figure{
 	/*margin-left:0px !important;*/
 	/*text-indent:0px;*/
+}
+.p .figure.graphic{
+	text-indent:0px !important;
 }
 .graphic,
 .img{
