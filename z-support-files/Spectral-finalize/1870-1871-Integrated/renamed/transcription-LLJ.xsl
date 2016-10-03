@@ -414,6 +414,9 @@
 		<xsl:variable name="newFigDesc">
 			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
 		</xsl:variable>
+		<xsl:variable name="graphicURL">
+			<xsl:apply-templates select="..//@url"/>
+		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="head and $newFigDesc/text()">
 				<span class="figure" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
@@ -424,11 +427,16 @@
 			<xsl:when test="not(head) and $newFigDesc/text()">
 				<span class="figure" title="{$newFigDesc}">{figure}</span>
 			</xsl:when>
+			<xsl:when test="..//graphic">
+				<span class="graphic"><img src="{$graphicURL}" style="width:100%;"/><xsl:apply-templates/></span>
+			</xsl:when>
 			<xsl:otherwise>
 				<span class="figure">{figure}</span>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
+		
+	
 
 	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->
 	<xsl:template match="figDesc//abbr|figDesc//sic|figDesc//orig" mode="normalizeFigDesc">
@@ -515,7 +523,7 @@
 	</xsl:template>
 
 	<!-- do not show graphic -->
-	<xsl:template match="graphic"/>
+	<!--<xsl:template match="graphic"/>-->
 
 	<!-- geogName begins -->
 

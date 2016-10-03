@@ -36,7 +36,8 @@ div.transcription{
 }
 .TEI{
 	display:block;
-	padding-left: 1em;
+	margin-left:8em !important;
+	margin-right:8em !important;
 	padding-top:.5em;
 }
 .text{
@@ -55,7 +56,7 @@ div.transcription{
 	font-size:.9em;
 	color:gray;
 	float:right;
-	margin-right:5em;
+	/*margin-right:5em;*/
 }
 
 /* 2. Letters */
@@ -111,8 +112,8 @@ div.transcription{
 	color:#428bca;
 	text-decoration:underline;
 	font-size:90%;
-	margin-left:3.3em;
-	margin-top:1.5em;
+	/*margin-left:3.3em;*/
+	margin-top:2em;
 	margin-bottom:1em;
 }
 .pb-title:hover{
@@ -125,6 +126,7 @@ div.transcription{
 p span.pb-title{
 	margin-left:0;
 	text-indent:0;
+	margin-top:3em;
 }
 .del-pb{
 }
@@ -254,20 +256,20 @@ p.right .linenumber{
 /* 5. p, ab, note, fw */
 
 p{
-	margin-right: 4em;
+	/*margin-right: 4em;*/
 }/*Needed so that the text doesn't run up against the right edge in the viewer.*/
 .p,
 .note{
-	display:inline-block;
+	display:block;
 	text-indent:25px;
-	margin-left:3em;
+	/*margin-left:3em;*/
 	margin-top:0;
 	margin-bottom:0;	
 }
 .note{
 	margin-top:1.5em;
 	text-indent:0px !important;
-	margin-right:4em;
+	/*margin-right:4em;*/
 	font-size:.9em;
 }
 .p.noindent{
@@ -276,38 +278,47 @@ p{
 .p.center{
 	text-indent:0 !important;
 	padding-left:6em;
-	margin-left:9%;
+	/*margin-left:9%;*/
 }
 .p.right{
 	text-indent:0 !important;
 	padding-left:12.2em; /*Was 25%*/
-	margin-left:9%;
+	/*margin-left:9%;*/
 }
 .ab{
 	text-indent:0;
-	margin-left:9%;
+	margin-left:2em;
 	margin-top:0;
 	margin-bottom:0;
-	margin-right:15%;
+	margin-right:2em;
+	font-size:.9em;
 }
 .ab.center{
-	margin-left:15%;
+	/*margin-left:15%;*/
 }
 .head{
 	font-weight:300;
 	text-align:center;
+	margin-bottom:0em;
 }
-left{
+.left{
 	float:left;
 }
 .right{
 	text-indent:0;
 	float:right;
 }
+.center{
+	text-align:center;
+}
 .fw{
 	/*display:inline-block;*/
 	font-size:.9em !important;
 	color:gray;
+}
+.fw.catch{
+	margin-top:-1em;
+	display:block;
 }
 .fw.catch.left{
 	text-indent:0;
@@ -317,18 +328,23 @@ left{
 }
 .fw.pageno{
 	text-indent:0 !important;
-	margin-left:3.3em;
+	display:block;
 	text-align:center;
+	margin-bottom:1em;
+	/*margin-left:3.3em;*/
 }
 .fw.pageno .right{
-	margin-right:4.6em;
-	display:block;
+	/*margin-right:4.6em;*/
+	/*display:block;*/
 }
 .p .fw.pageno{
-	margin-left:0 !important;
+	/*margin-left:0 !important;*/
+	margin-bottom:1em;
+	display:block;
+	text-align:center;
 }
 .p .fw.pageno .right{
-	margin-right:0;
+	/*margin-right:0;*/
 }
 
 
@@ -538,36 +554,40 @@ left{
 /* 11. Lists and Tables */
 .list{
 	display:block;
-	margin-left:9%;
+	/*margin-left:9%;*/
 	margin-top:12px;
 }
 table{
-	margin-left:9%;
+	/*margin-left:9%;*/
 	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
-	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	/*margin-right:2em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 	color:#58484b; /*Added color for 1870 Field Diary*/
 }
 tr,
 td{
 	border-style:none;
-	margin-left:9%;
+	/*margin-left:9%;*/
 }
 
 
 /* 12. Misc */
 
 .figure{
-	margin-left:9%;
+	/*margin-left:9%;*/
 	color:gray;
 	font-size:.8em;
 	border-bottom:1px gray dotted;
+	/*display:none;*/
 }
 .p .figure,
 .p.noindent .figure,
 .ab .figure{
-	margin-left:0px !important;
-	text-indent:0px;
+	/*margin-left:0px !important;*/
+	/*text-indent:0px;*/
+}
+.graphic,
+.img{
 }
 .metamark{
 	color:gray;
