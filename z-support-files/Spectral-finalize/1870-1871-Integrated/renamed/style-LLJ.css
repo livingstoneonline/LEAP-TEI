@@ -55,7 +55,7 @@ div.transcription{
 	font-size:.9em;
 	color:gray;
 	float:right;
-	margin-right:5%;
+	margin-right:5em;
 }
 
 /* 2. Letters */
@@ -111,7 +111,7 @@ div.transcription{
 	color:#428bca;
 	text-decoration:underline;
 	font-size:90%;
-	margin-left:2%;
+	margin-left:3.3em;
 	margin-top:1.5em;
 	margin-bottom:1em;
 }
@@ -120,8 +120,8 @@ div.transcription{
 	cursor:pointer
 }
 .pb-title:first-of-type {
-  margin-top: 0;
-}/*This is to prevent scrolling up when the first image opens. AW*/
+ 	/*margin-top: 0;*/ /*This is to prevent scrolling up when the first image opens. AW*/
+}
 p span.pb-title{
 	margin-left:0;
 	text-indent:0;
@@ -146,6 +146,7 @@ p span.pb-title{
 	text-indent:9%;
 	font-size:80%;
 	width:1em;
+	display:none;
 }
 p .linenumber{
 	text-indent:-1%;
@@ -253,14 +254,21 @@ p.right .linenumber{
 /* 5. p, ab, note, fw */
 
 p{
-	margin-right: 2em;
+	margin-right: 4em;
 }/*Needed so that the text doesn't run up against the right edge in the viewer.*/
-.p{
+.p,
+.note{
 	display:inline-block;
 	text-indent:25px;
-	margin-left:2%;
+	margin-left:3em;
 	margin-top:0;
 	margin-bottom:0;	
+}
+.note{
+	margin-top:1.5em;
+	text-indent:0px !important;
+	margin-right:4em;
+	font-size:.9em;
 }
 .p.noindent{
 	text-indent:0 !important;
@@ -280,35 +288,49 @@ p{
 	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;
+	margin-right:15%;
 }
 .ab.center{
 	margin-left:15%;
 }
 .head{
 	font-weight:300;
+	text-align:center;
 }
-.note{
-	display:inline;
+left{
+	float:left;
+}
+.right{
+	text-indent:0;
+	float:right;
 }
 .fw{
 	/*display:inline-block;*/
-	margin-left:0;
 	font-size:.9em !important;
-}
-.fw.pageno{
-	text-indent:0 !important;
+	color:gray;
 }
 .fw.catch.left{
-	margin-left:0;/*AW revisit*/
 	text-indent:0;
 }
 .fw.catch.right{
 	text-indent:0;
-	margin-right:0 !important;
 }
-.fw.left{
+.fw.pageno{
+	text-indent:0 !important;
+	margin-left:3.3em;
+	text-align:center;
+}
+.fw.pageno .right{
+	margin-right:4.6em;
+	display:block;
+}
+.p .fw.pageno{
 	margin-left:0 !important;
 }
+.p .fw.pageno .right{
+	margin-right:0;
+}
+
 
 /* 6. Additions and Deletions */
 
@@ -381,10 +403,6 @@ p{
 .caps{
 	font-variant:small-caps;
 }
-.center{
-	text-indent:0;
-	margin-left:15%;
-}
 .doubleunderline{
 	border-bottom:3px double;
 }
@@ -397,10 +415,6 @@ p{
 .large{
 	font-size:120%;
 }
-left{
-	float:left;
-	margin-left:5%;
-}
 .overline{
 	text-decoration: overline;
 }
@@ -409,11 +423,6 @@ left{
 }
 .overtext{
 	/*color:gray;*/
-}
-.right{
-	text-indent:0;
-	float:right;
-	margin-right:5%;
 }
 .small{
 	font-size:85%;
