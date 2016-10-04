@@ -483,8 +483,14 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
+	<xsl:template match="fw">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @n)}" title="">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>

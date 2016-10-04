@@ -297,7 +297,7 @@ p{
 	text-align:center;
 } 
 .fw{
-	display:inline-block;
+	display:block;
 	/*margin-left:9%;*/
 }
 .fw.pageno{
@@ -310,6 +310,13 @@ p{
 .fw.catch.right{
 	/*margin-left:80%;*/
 	text-indent:0;
+}
+.fw .left{
+	float:left;
+}
+.fw .right{
+	float:right;
+	/*text-align:right;*/
 }
 
 
