@@ -35,8 +35,8 @@ div.transcription{
 }
 .TEI{
 	display:block;
-	margin-left:9em !important;
-	margin-right:9em !important;
+	margin-left:8em !important;
+	margin-right:8em !important;
 	padding-top:.5em;
 }
 .text{
@@ -51,10 +51,50 @@ div.transcription{
 }
 .div{
 }
-.idno{
+/*.idno{
 	font-size:.9em;
 	color:gray;
-	margin-left:60%;
+	float:right;
+}*/
+.idno{
+	font-size:.9em;
+	line-height:1.7;
+}
+
+
+/* 1.5. Title section */
+
+.title{
+	font-size:1.4em;
+	font-variant:small-caps;
+	display:inline-block;
+	text-align:center;
+}
+.author{
+	font-size:1.2em;
+	font-style:italic;
+	display:block;
+	text-align:center;
+	margin-top:1em;
+}
+.authority{
+	font-size:.9em;
+	line-height:1.7;
+}
+.pub-date{
+	font-size:.9em;
+}
+a:link{
+	color:#428bca !important;
+}
+hr.title-section{
+	margin-right:auto;
+	width:100%;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
+	margin-top:-.4em;
+	margin-bottom:-.4em;
 }
 
 /* 2. Letters */
@@ -272,7 +312,7 @@ p{
 }
 .p.right{
 	text-indent:0 !important;
-	padding-left:12.2em; /*Was 25%*/
+	/*padding-left:12.2em;*/ /*Was 25%*/
 	/*margin-left:9%;*/
 }
 .ab{
@@ -298,30 +338,6 @@ p{
 } 
 .fw{
 	display:inline;
-}
-.fw.pageno{
-	text-indent:0 !important;
-}
-.fw.catch.left{
-	/*margin-left:0;*/
-	text-indent:0;
-}
-.fw.catch.right{
-	/*margin-left:80%;*/
-	text-indent:0;
-}
-.fw .right{
-	/*text-align:right;*/
-	float:right;
-	margin-right:9em;
-}
-.p .fw{
-	text-indent:0;
-}
-.p .fw .right{
-	/*text-align:right;*/
-	float:right;
-	margin-right:0em;
 	text-indent:0;
 }
 
@@ -352,7 +368,7 @@ p{
 	border-bottom:1px dotted gray;
 }
 .gap{
-	border-bottom:1px dotted black;
+	/*border-bottom:1px dotted black;*/
 }
 .space-other{
 	border-bottom:1px dotted black;
@@ -423,7 +439,7 @@ p{
 	/*color:gray;*/
 }
 .right{
-	text-indent:0;
+	float:right;
 	/*margin-left:25%;*/
 }
 .small{
