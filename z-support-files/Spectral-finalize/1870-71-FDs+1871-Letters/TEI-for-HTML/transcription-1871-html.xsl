@@ -65,7 +65,7 @@
 				<span class="authority">Shelfmark: <xsl:value-of select="//teiHeader//idno[@type='shelfmark']"/></span><br/>
 				<span class="authority">Publisher and date: <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
 				<span class="idno">Project id: <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
-				<span class="authority">TEI Encoding: <xsl:value-of select="//teiHeader//respStmt/name" separator=", "/></span><br/>
+				<span class="authority">TEI encoding: <xsl:value-of select="//teiHeader//respStmt/name" separator=", "/></span><br/>
 				<br/>
 				<hr class="title-section"/>
 				<br/>
