@@ -2,7 +2,8 @@
 
 Table of Contents
 -----------------
-1. Textual divisions 
+1. Textual divisions
+1.5 Title section
 2. Letters 
 3. pb, lb, linenumber 
 4. Milestone and lines 
@@ -53,14 +54,51 @@ div.transcription{
 }
 .idno{
 	font-size:.9em;
-	color:gray;
-	margin-left:60%;
+	margin-left:9%;
+	line-height:1.7;
 }
+
+
+/* 1.5. Title section */
+
+.title{
+	font-size:1.4em;
+	margin-left:9%;
+	font-variant:small-caps;
+}
+.author{
+	font-size:1.2em;
+	margin-left:9%;
+	font-style:italic;
+}
+.authority{
+	font-size:.9em;
+	margin-left:9%;
+	line-height:1.7;
+}
+.pub-date{
+	font-size:.9em;
+}
+a:link{
+	color:#428bca !important;
+}
+hr.title-section{
+	margin-left:9%;
+	margin-right:auto;
+	width:80%;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
+	margin-top:-.4em;
+	margin-bottom:-.4em;
+}
+
 
 /* 2. Letters */
 
 .opener,
 .closer{
+	margin-left:9%;
 	margin-bottom:0px;
 }
 .opener{
@@ -87,9 +125,6 @@ div.transcription{
 }
 .closer-salute{
 	margin-left:0 !important;
-}
-.closer.center{
-	margin-left:6em;
 }
 .signed{
 	display:inline-block;
@@ -268,7 +303,7 @@ p{
 }
 .p.right{
 	text-indent:0 !important;
-	padding-left:3em; /*Was 25%*/
+	padding-left:12.2em; /*Was 25%*/
 }
 .ab{
 	text-indent:0;
@@ -335,7 +370,6 @@ p{
 .verticalSpace{
 	display:inline-block;
 	border-bottom:1px dotted black;
-	text-indent:0;
 }
 
 

@@ -93,12 +93,10 @@ hr.title-section{
 	margin-bottom:-.4em;
 }
 
-
 /* 2. Letters */
 
 .opener,
 .closer{
-	margin-left:9%;
 	margin-bottom:0px;
 }
 .opener{
@@ -125,6 +123,9 @@ hr.title-section{
 }
 .closer-salute{
 	margin-left:0 !important;
+}
+.closer.center{
+	margin-left:6em;
 }
 .signed{
 	display:inline-block;
@@ -303,7 +304,7 @@ p{
 }
 .p.right{
 	text-indent:0 !important;
-	padding-left:12.2em; /*Was 25%*/
+	padding-left:3em; /*Was 25%*/
 }
 .ab{
 	text-indent:0;
@@ -370,6 +371,7 @@ p{
 .verticalSpace{
 	display:inline-block;
 	border-bottom:1px dotted black;
+	text-indent:0;
 }
 
 
