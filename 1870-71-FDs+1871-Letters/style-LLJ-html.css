@@ -2,7 +2,8 @@
 
 Table of Contents
 -----------------
-1. Textual divisions 
+1. Textual divisions
+1.5 Title section
 2. Letters 
 3. pb, lb, linenumber 
 4. Milestone and lines 
@@ -24,19 +25,20 @@ Table of Contents
 div.transcription{
 	margin-left:auto;
 	margin-right:auto;
-	width:600px;/*Change to make responsive; this current keeps it fixed*/
+	width:605px;/*Change to make responsive; this current keeps it fixed*/
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
+	text-align: justify;
 	/*white-space:nowrap;*/
 	color:#58484b; /*#574d44*/ /*#4E2F2F*/
-	background:#d3c2a8; /*#e7d5bd*/
-	/*border: solid 1em white;*/  /* remove */
+	background:#f6dbb0; /*#d3c2a8;*/ /*#e7d5bd*/
+	border: solid 1em white;  /* remove */
 	padding-top: 1em;  /* remove */
 }
 .TEI{
 	display:block;
-	margin-left:5em !important;
-	margin-right:5em !important;
+	margin-left:6em !important;
+	margin-right:6em !important;
 	padding-top:.5em;
 }
 .text{
@@ -51,16 +53,57 @@ div.transcription{
 }
 .div{
 }
-.idno{
+/*.idno{
 	font-size:.9em;
 	color:gray;
-	margin-left:60%;
+	float:right;
+}*/
+.idno{
+	font-size:.9em;
+	line-height:1.7;
+}
+
+
+/* 1.5. Title section */
+
+.title{
+	font-size:1.4em;
+	font-variant:small-caps;
+	display:inline-block;
+	text-align:center;
+}
+.author{
+	font-size:1.2em;
+	font-style:italic;
+	display:block;
+	text-align:center;
+	margin-top:1em;
+}
+.authority{
+	font-size:.9em;
+	line-height:1.7;
+}
+.pub-date{
+	font-size:.9em;
+}
+a:link{
+	color:#428bca !important;
+}
+hr.title-section{
+	margin-right:auto;
+	width:100%;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
+	margin-top:-.4em;
+	margin-bottom:-.4em;
 }
 
 /* 2. Letters */
 
 .opener,
 .closer{
+	margin-left:9%;
 	margin-bottom:0px;
 }
 .opener{
@@ -88,9 +131,6 @@ div.transcription{
 .closer-salute{
 	margin-left:0 !important;
 }
-.closer.center{
-	margin-left:6em;
-}
 .signed{
 	display:inline-block;
 }
@@ -109,22 +149,22 @@ div.transcription{
 
 .pb-title{
 	display:block;
-	color:#428bca;
+	color:#f6dbb0;
 	text-decoration:underline;
 	font-size:90%;
-	margin-top:2em;
-	margin-bottom:-1.3em;
+	margin-top:1em;
+	margin-bottom:1em;
 }
 .pb-title:hover{
-	color:#AAA;
+	color:#f6dbb0;
 	cursor:pointer
 }
 .pb-title:first-of-type {
-  margin-top: 0;
-}/*This is to prevent scrolling up when the first image opens. AW*/
+ 	/*margin-top: 0;*/ /*This is to prevent scrolling up when the first image opens. AW*/
+}
 p span.pb-title{
-	margin-left:0;
 	text-indent:0;
+	margin-top:3em;
 }
 .del-pb{
 }
@@ -142,9 +182,10 @@ p span.pb-title{
 	float:left;
 	color:#AAA;
 	margin-left:-3em !important;
-	/*text-indent:9%;*/
+	text-indent:9%;
 	font-size:80%;
 	width:1em;
+	display:none;
 }
 p .linenumber{
 	text-indent:-1%;
@@ -167,21 +208,18 @@ p.right .linenumber{
 
 .milestone{
 	display:block;
-	width:20em; /*1871 FD change, was 60%*/
+	width:60%;
 	background:#FFF;
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
-	margin-left:0;
-	margin-right:9%;
 	padding:0px;
 	margin-bottom:-1em;
 }
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:20em !important; /*1871 FD change, was 26em*/
-	margin-left:0;
+	width:26em !important;
 	text-align:left;
 	height:0;
 	border:0;
@@ -208,8 +246,7 @@ p.right .linenumber{
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:10em !important; /*1871 FD change, was 18.5em*/
-	margin-left:0;
+	width:18.5em !important;
 	text-align:left;
 	height:0;
 	border:0;
@@ -219,7 +256,6 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:11em !important;
-	margin-left:0;
 	text-align:left;
 	height:0;
 	border:0;
@@ -228,10 +264,10 @@ p.right .linenumber{
 .second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:20em !important; /*1871 FD change, was 26em*/
-	margin-left:0;
+	width:26em !important;
 	text-align:left;
-	margin-top:0em; /*1871 FD change, was -1em*/
+	margin-top:-1em;
+	margin-bottom:0em;
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
@@ -240,9 +276,8 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:20em !important;
-	margin-left:0;
 	text-align:left;
-	margin-top:1.5em;
+	margin-top:1.5em;	
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
@@ -251,13 +286,19 @@ p.right .linenumber{
 /* 5. p, ab, note, fw */
 
 p{
-	margin-right: 2em;
-}/*Needed so that the text doesn't run up against the right edge in the viewer.*/
-.p{
-	display:inline-block;
-	text-indent:0px; /*Changed to 0 for 1871 FD, was 25px*/
+	/*margin-right: 4em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+}
+.p,
+.note{
+	display:block;
+	text-indent:25px;
 	margin-top:0;
 	margin-bottom:0;	
+}
+.note{
+	margin-top:1.5em;
+	text-indent:0px !important;
+	font-size:.9em;
 }
 .p.noindent{
 	text-indent:0 !important;
@@ -268,37 +309,61 @@ p{
 }
 .p.right{
 	text-indent:0 !important;
-	padding-left:3em; /*Was 25%*/
+	padding-left:12.2em; /*Was 25%*/
 }
 .ab{
 	text-indent:0;
+	margin-left:2em;
 	margin-top:0;
 	margin-bottom:0;
+	margin-right:2em;
+	font-size:.9em;
 }
 .ab.center{
-	margin-left:15%;
+	/*margin-left:15%;*/
+	display:block;
 }
 .head{
 	font-weight:300;
+	text-align:center;
+	margin-bottom:0em;
 }
-.note{
-	display:inline;
+.left{
+	float:left;
+}
+.right{
+	text-indent:0;
+	float:right;
+}
+.center{
+	text-align:center;
 }
 .fw{
-	display:inline-block;
-	margin-left:9%;
+	font-size:.9em !important;
+	color:gray;
 }
-.fw.pageno{
-	text-indent:0 !important;
+.fw.catch{
+	margin-top:-1em;
+	display:block;
 }
 .fw.catch.left{
-	margin-left:0;/*AW revisit*/
 	text-indent:0;
 }
 .fw.catch.right{
-	margin-left:80%;/*AW revisit*/
 	text-indent:0;
 }
+.fw.pageno{
+	text-indent:0 !important;
+	display:block;
+	text-align:center;
+	margin-bottom:1em;
+}
+.p .fw.pageno{
+	margin-bottom:1em;
+	display:block;
+	text-align:center;
+}
+
 
 /* 6. Additions and Deletions */
 
@@ -325,7 +390,7 @@ p{
 	border-bottom:1px dotted gray;
 }
 .gap{
-	border-bottom:1px dotted black;
+	/*border-bottom:1px dotted black;*/
 }
 .space-other{
 	border-bottom:1px dotted black;
@@ -335,7 +400,6 @@ p{
 .verticalSpace{
 	display:inline-block;
 	border-bottom:1px dotted black;
-	text-indent:0;
 }
 
 
@@ -370,10 +434,6 @@ p{
 .caps{
 	font-variant:small-caps;
 }
-.center{
-	text-indent:0;
-	margin-left:15%;
-}
 .doubleunderline{
 	border-bottom:3px double;
 }
@@ -394,9 +454,6 @@ p{
 }
 .overtext{
 	/*color:gray;*/
-}
-.right{
-	text-indent:0;
 }
 .small{
 	font-size:85%;
@@ -528,7 +585,6 @@ td{
 /* 12. Misc */
 
 .figure{
-	/*margin-left:9%;*/ /*1871 FD, removed*/
 	color:gray;
 	font-size:.8em;
 	border-bottom:1px gray dotted;
@@ -536,8 +592,14 @@ td{
 .p .figure,
 .p.noindent .figure,
 .ab .figure{
-	margin-left:0px !important;
-	text-indent:0px;
+	/*margin-left:0px !important;*/
+	/*text-indent:0px;*/
+}
+.p .figure.graphic{
+	text-indent:0px !important;
+}
+.graphic,
+.img{
 }
 .metamark{
 	color:gray;
@@ -545,7 +607,7 @@ td{
 	border-bottom:1px gray dotted;
 }
 p .metamark{
-	margin-left:0px !important;
+	/*margin-left:0px !important;*/
 	text-indent:0px !important;
 }
 
