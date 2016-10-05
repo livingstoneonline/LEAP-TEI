@@ -2,7 +2,8 @@
 
 Table of Contents
 -----------------
-1. Textual divisions 
+1. Textual divisions
+1.5 Title section
 2. Letters 
 3. pb, lb, linenumber 
 4. Milestone and lines 
@@ -151,7 +152,6 @@ hr.title-section{
 	color:#f6dbb0;
 	text-decoration:underline;
 	font-size:90%;
-	/*margin-left:3.3em;*/
 	margin-top:1em;
 	margin-bottom:1em;
 }
@@ -163,13 +163,11 @@ hr.title-section{
  	/*margin-top: 0;*/ /*This is to prevent scrolling up when the first image opens. AW*/
 }
 p span.pb-title{
-	margin-left:0;
 	text-indent:0;
 	margin-top:3em;
 }
 .del-pb{
 }
-/*We need a solution. See 2672-3 for an example or 875 for multiple examples.*/
 .lb{
 	display:block;
 }
@@ -249,7 +247,6 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:18.5em !important;
-	margin-left:9%;
 	text-align:left;
 	height:0;
 	border:0;
@@ -259,7 +256,6 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:11em !important;
-	margin-left:9%;
 	text-align:left;
 	height:0;
 	border:0;
@@ -269,7 +265,6 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:26em !important;
-	margin-left:9%;
 	text-align:left;
 	margin-top:-1em;
 	margin-bottom:0em;
@@ -281,7 +276,6 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:20em !important;
-	margin-left:9%;
 	text-align:left;
 	margin-top:1.5em;	
 	height:0;
@@ -298,14 +292,12 @@ p{
 .note{
 	display:block;
 	text-indent:25px;
-	/*margin-left:3em;*/
 	margin-top:0;
 	margin-bottom:0;	
 }
 .note{
 	margin-top:1.5em;
 	text-indent:0px !important;
-	/*margin-right:4em;*/
 	font-size:.9em;
 }
 .p.noindent{
@@ -314,12 +306,10 @@ p{
 .p.center{
 	text-indent:0 !important;
 	padding-left:6em;
-	/*margin-left:9%;*/
 }
 .p.right{
 	text-indent:0 !important;
 	padding-left:12.2em; /*Was 25%*/
-	/*margin-left:9%;*/
 }
 .ab{
 	text-indent:0;
@@ -349,7 +339,6 @@ p{
 	text-align:center;
 }
 .fw{
-	/*display:inline-block;*/
 	font-size:.9em !important;
 	color:gray;
 }
@@ -380,7 +369,6 @@ p{
 
 .opener-add{
 }
-/*Needs to be sorted out. See 1340-1. AW*/
 .addmargin{
 	text-indent:0px;
 }
@@ -541,7 +529,6 @@ p{
 .margintop.right{
 	margin-left:25% !important;
 }
-/*Needs to be revisited. See 2133-1. AW*/
 .true{
 	display:inline-block;
 	margin-left:9% !important; 
@@ -582,31 +569,26 @@ p{
 /* 11. Lists and Tables */
 .list{
 	display:block;
-	/*margin-left:9%;*/
 	margin-top:12px;
 }
 table{
-	/*margin-left:9%;*/
 	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
-	/*margin-right:2em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 	color:#58484b; /*Added color for 1870 Field Diary*/
 }
 tr,
 td{
 	border-style:none;
-	/*margin-left:9%;*/
 }
 
 
 /* 12. Misc */
 
 .figure{
-	/*margin-left:9%;*/
 	color:gray;
 	font-size:.8em;
 	border-bottom:1px gray dotted;
-	/*display:none;*/
 }
 .p .figure,
 .p.noindent .figure,
@@ -626,7 +608,7 @@ td{
 	border-bottom:1px gray dotted;
 }
 p .metamark{
-	margin-left:0px !important;
+	/*margin-left:0px !important;*/
 	text-indent:0px !important;
 }
 

@@ -424,6 +424,9 @@
 		<xsl:variable name="newFigDesc">
 			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
 		</xsl:variable>
+		<xsl:variable name="graphicURL">
+			<xsl:apply-templates select="..//@url"/>
+		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="head and $newFigDesc/text()">
 				<span class="figure" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
@@ -433,6 +436,9 @@
 			</xsl:when>
 			<xsl:when test="not(head) and $newFigDesc/text()">
 				<span class="figure" title="{$newFigDesc}">{figure}</span>
+			</xsl:when>
+			<xsl:when test="..//graphic">
+				<span class="graphic"><a href="{$graphicURL}"><img src="{$graphicURL}" style="width:100%;"/></a></span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="figure">{figure}</span>
@@ -517,9 +523,6 @@
 	<xsl:template match="gb">
 		<xsl:apply-templates/>
 	</xsl:template>
-
-	<!-- do not show graphic -->
-	<xsl:template match="graphic"/>
 
 	<!-- geogName begins -->
 
@@ -1238,14 +1241,14 @@
 				</span>
 			</xsl:when>
 			<xsl:when test="@unit='lines'">
-				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
+				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit)}">
 					<xsl:for-each select="1 to @extent"
 						><br/></xsl:for-each>
 				</span>
 			</xsl:when>
 			<xsl:when test="@dim='vertical'">
 				<span class="verticalSpace" title="{concat('vertical space: ',@extent, ' ', @unit)}">
-					[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
+					[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
 					<br class="verticalSpace"/></span>
 			</xsl:when>
 			<xsl:otherwise>
