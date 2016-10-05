@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000211">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Retrospect to be Inserted in the Journal, 10 March 1870</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+				<idno type="LEAP-ID">liv_000211</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno type="shelfmark">MS.10703, ff. 40-43</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 034</idno><!-- Add -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Retrospect to be Inserted in the Journal, 10 March 1870</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1870-03-10">10 March 1870</date>
+                    <placeName type="compositionPlace">Bambarre</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+			<change when="2016-02-10" who="#AW">Coding corrections</change>
+			<change when="2015-04-02" who="#AW">Coding review</change>
+            <change when="2015-02-18" who="#HB">Quality control and integration</change>
+			<change when="2014-12-22" who="#MW">Proofing and additional TEI encoding</change>
+            <change when="2014-12-15" who="#AK">Proofing and additional TEI encoding</change>
+            <change when="2014-11-24" who="#AW">Transcription and TEI encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+<!-- We need to confirm that we are putting a color on the <div>s for each of the segments of the 1870 diary. AW -->
+
+	<gb type="blank-pages"/>
+
+	<pb facs="liv_000211_0001" n="0001"/>
+	<!--<pb facs="NLS10703_003_040r_0_A_color" n="0001"/>-->
+<cb rend="right"/>
+<lb/><p><space extent="2" unit="chars"/>Retrospect to be inserted in the <add rend="gray" place="margintop"><fw n="40">40</fw></add>
+<lb/><bibl>Journal</bibl> if I get back to where it is left in
+<lb/><placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> -</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><space extent="5" unit="chars"/>I often ponder over my missionary
+<lb/><w>car<del type="strikethrough">r</del>eer</w> among the <term type="tribe" ref="ethnic-group.xml#ethnic0016">Bakwains</term> or <term type="tribe" ref="ethnic-group.xml#ethnic0016">Bakwena</term>
+<lb/>and though conscious of many imperfections
+<lb/>not a single pang of regret arises in the
+<lb/>review of my conduct except that I did
+<lb/>not feel it to be my duty while spending
+<lb/>all my energy in teaching <orgName>the heathen</orgName>, to
+<lb/>devote a special portion of my time to
+<lb/>play with my children - But generally
+<lb/>was so much exhausted by the mental &amp;
+<lb/>manual labour of the day that in the evening
+<lb/>there was no fun in me - I did not play
+<lb/>with my little ones when I had them &amp;
+<lb/>They <unclear cert="high">soon</unclear> sprang up &amp; left me conscious
+<lb/><space extent="2" unit="chars"/><add place="marginleft" rend="vertical">When half grown in <placeName><country>England</country></placeName> subsequently</add><!-- Recoded to improve transformation. AW -->
+<lb/>that I had none to play with <metamark/> <add place="inspace">^</add> I was
+<lb/>conscientious in punishing glaring
+<lb/>faults when these were brought before
+<lb/>me and now think that <persName ref="people.xml#pers0169">Solomon</persName>'s
+<lb/>dicta which mainly guided me were a
+<lb/>mistake "<quote corresp="quote.xml#qt0012">He that spareth the rod hateth his <!-- Adrian, these quote tags are here because it's quoting the dicta, right? (want to make sure not lingering tags from when we used them generally). HB -->
+<lb/>child</quote>" "<quote corresp="quote.xml#qt0013">Let not thy soul spare for his crying</quote>"
+<lb/>seemed to me then to be virtues - <hi rend="underline">axioms</hi> -
+<lb/>and I punished when my nature said
+<lb/>forbear = The severe inculcations were
+<lb/>intended for the mild <placeName><region>East</region></placeName> &amp; not for the
+<lb/>hard ungenial temperaments of the <placeName><region>North</region></placeName>
+<lb/>and <placeName><region>West</region></placeName> - no <orgName>Eastern</orgName> would beat his
+<lb/>son too much - scarcely at all - His
+<lb/>wife might punish but it would be
+<lb/>feminine strokes - <choice><sic><persName ref="people.xml#pers0169"><subst><del>H</del><add place="over-text">S</add></subst>olomon</persName>s</sic><corr><persName ref="people.xml#pers0169">Solomon</persName>'s</corr></choice> opinions
+<lb/>were to be taken as the command
+<lb/>"<quote corresp="quote.xml#qt0007">Give to everyone that asketh of thee
+<lb/>but joined to providing for <choice><sic>ones</sic><corr>one's</corr></choice> own</quote>"</p>
+
+	<pb facs="liv_000211_0002" n="0002"/>
+	<!--<pb facs="NLS10703_003_041v_0_A_color" n="0002"/>-->
+<cb rend="left"/>
+<lb/><p><space extent="5" unit="chars"/>My first missionary efforts were necessarily
+<lb/>directed to the <term type="occupation">chiefs</term> because without their sanction
+<lb/>nothing could be done - The first <term type="occupation">chief</term> <persName ref="people.xml#pers0124">Mosielele</persName>
+<lb/>was as his name implies a weakling - I was <w>accom<supplied>-</supplied>
+<lb break="no"/>-panied</w> by a much older man than myself and he
+<lb/>advised caution &amp; reserve as to our objects - I listened
+<lb/>to the voice of age &amp; we made no efforts to teach in a
+<lb/>formal way - Messages had however been sent from
+<lb/><term type="occupation">chieftains</term> further south explaining our objects
+<lb/>and that our mode of procedure would be <unclear cert="high">pretending</unclear>
+<lb/>liberality of sentiments which meant hiding our
+<lb/>real objects till we had gained a footing among
+<lb/>the people and then said old <space extent="1" unit="words"/>of <placeName><settlement type="village">Motito</settlement></placeName> <unclear cert="high">farewell</unclear>
+<lb/>to your power &amp; <term type="occupation">chieftainship</term> - We were to be closely
+<lb/>watched and any one <choice><orig>shewing</orig><reg>showing</reg></choice> an inclination to
+<lb/><choice><sic>to</sic><corr/></choice> harm was to be prevented - My associate soon
+<lb/>put his foot into his own system for having obtained
+<lb/>information privately by some improper <subst><add place="over-text">deeds</add><del><w>cond-
+<lb break="no"/>-duct</w></del></subst> on the part of the <term type="occupation">chief</term> he gave his <w>inform<supplied>-</supplied>
+<lb/>-ant</w> his views of such <w>condu<hi rend="underline">ct</hi></w>, and <persName ref="people.xml#pers0117">Mokhosi</persName>
+<lb/>the <term type="occupation">spy</term> proceeded at once to utter all that had
+<lb/>been committed to him in confidence before
+<lb/>a full meeting of the principal men - so long as I
+<lb/>was busy building a comfortable house and
+<lb/>laying in water for irrigation on a fine
+<lb/>garden I endured this underhand system
+<lb/>but I went to the <term type="tribe" ref="ethnic-group.xml#ethnic0016">Bakwena</term> or <term type="tribe" ref="ethnic-group.xml#ethnic0016">Bakwains</term>
+<lb/>&amp; was at once formally invited by the
+<lb/><term type="occupation">chief</term> <persName ref="people.xml#pers0160">Sechele</persName> to come &amp; <hi rend="underline">teach</hi> him &amp; <orgName>his
+<lb/>people</orgName> - I accepted this call joyfully and
+<lb/>began by teaching the <term type="occupation">chief</term> himself the
+<lb/>alphabet - He was greatly superior in every
+<lb/>respect to <persName ref="people.xml#pers0124">Mosielele</persName> and told <orgName>his people</orgName> that
+<lb/>he was determined to examine this new
+<lb/>system to the foundation for himself -
+<lb/>and would go into it too if he found it
+<lb/>worthy of trust - I had hard manual labour
+
+	<pb facs="liv_000211_0002" n="0003"/>
+	<!--<pb facs="NLS10703_003_041v_0_A_color" n="0003"/>-->
+<cb rend="right"/>
+<lb/>in building here too, but it was lightened by <fw n="41"><add rend="gray" place="margintop" hand="#U">41</add></fw>
+<lb/>feeling that every day I was doing real <w>mission<supplied>-</supplied>
+<lb break="no"/>-ary</w> work - Glancing back at my associate
+<lb/>he very soon had some quarrel with <persName ref="people.xml#pers0124">Mosielele</persName>
+<lb/>lost all control of his tongue &amp; pronounced
+<lb/>him to be a fool in words which he had a 
+<lb/>special aptitude in picking up - The <term type="occupation">chief</term>
+<lb/>forbade man woman or child to <choice><sic>to</sic><corr/></choice> go near
+<lb/>the school or have anything to do with the <term type="occupation">teacher</term>
+<lb/>and this prohibition lasted with rigour for eight
+<lb/>years - The mission spent all the little zeal it
+<lb/>had on a few <orgName>emigrants from <placeName><settlement type="village" ref="settlement.xml#sett0007">Kuruman</settlement></placeName></orgName>
+<lb/>who already <term type="faith"><choice><sic>christianized</sic><corr>Christianized</corr></choice></term> came to enjoy better
+<lb/>pasturage for their <term type="animal">cows</term> - The <orgName ref="orgName.xml#org0006"><unclear cert="medium">Boers</unclear></orgName> ultimately 
+<lb/>rooted out the whole affair - The <term type="occupation">chief</term> many
+<lb/>years afterwards was reported to be eager in
+<lb/>getting his children instructred by a <orgName>native <term type="occupation">teacher</term></orgName><!-- Not sure if orgName is applicable here. AW --><!-- Yup! HB -->
+<lb/>who has good command of his tongue -</p>
+<lb/><p><space extent="5" unit="chars"/><persName ref="people.xml#pers0160">Sechele</persName>'s progress in knowledge was
+<lb/>rapid - He was much taken with the idea
+<lb/>that in learning to read he was acquiring the
+<lb/><choice><sic>the</sic><corr/></choice> key to all that we know of the <bibl><choice><orig>gospel</orig><reg>Gospel</reg></choice></bibl>
+<lb/>He could then judge for himself as to its
+<lb/>value and teach <orgName>his people</orgName> accordingly
+<lb/>This he gave as a reason for his great <w>assidu<supplied>-</supplied>
+<lb break="no"/>-ity</w> in learning - I have no doubt but that
+<lb/>his heart too was touched by what he 
+<lb/>learned - "This man said he has been
+<lb/>sent to us by <persName ref="people.xml#pers0055">Jesus</persName>" - <supplied>"</supplied>He did not know 
+<lb/>our name but he put it into his
+<lb/>heart to go &amp; warn us" = I was anxious 
+<lb/>to avoid public profession of faith on
+<lb/>account of the effect on the people of
+<lb/><del type="cancelled">a</del> weak wavering converts whose
+<lb/>defects would all be noted &amp; commented on
+
+	<pb facs="liv_000211_0001" n="0004"/>
+	<!--<pb facs="NLS10703_003_040r_0_A_color" n="0004"/>-->	
+<cb rend="left"/>
+<lb/>and especially for the effect on
+<lb/>the superfluous wives &amp; their relatives
+<lb/>The wives were the best <term type="occupation">scholars</term> we <!-- I know this is a stretch of the occupation tag, but I thought better to have than have to add in later. HB -->
+<lb/>had and I longed that they should <w>under<supplied>-</supplied>
+<lb break="no"/>stand</w> the <bibl><choice><orig>gospel</orig><reg>Gospel</reg></choice></bibl> before any action
+<lb/>were taken by husbands or others
+<lb/><persName ref="people.xml#pers0160">Sechele</persName> said to me "I <unclear cert="low"><choice><sic>formly</sic><corr>firmly</corr></choice></unclear> believe the
+<lb/>word of God to be true - I invariably
+<lb/>tell my best friends so - but I am in
+<lb/>great difficulty - You cannot <w>under-
+<lb break="no"/>-stand</w> how fast I am bound by our
+<lb/>customs Oh I wish you had come <unclear cert="high">afore</unclear>
+<lb/>I was enchained by them" - As it then
+<lb/>seemed the <unclear cert="low">vesture</unclear> of his <term type="occupation">chieftainship</term>
+<lb/>depended on his keeping on good terms
+<lb/>with the relatives of the <unclear cert="high">woman</unclear> whom
+<lb/>he had married - they in fact <unclear cert="medium">built</unclear>
+<lb/>him up when his father was murdered
+<lb/>and made him all that he was - "Let
+<lb/>me go to your country where I shall be
+<lb/>free" - As I have published some
+<lb/>account of this <term type="occupation">chief</term> I shall not add
+<lb/>more than that though he has given
+<lb/>some cause for dissatisfation by
+<lb/>his weakness &amp; subsequent <w>incon-
+<lb break="no"/>-sistencies</w> I can solemnly declare
+<lb/>that I considered him to be a true
+<lb/><orgName><choice><sic>christian</sic><corr>Christian</corr></choice></orgName> - The first extempore prayer
+<lb/>he uttered in my presence could
+<lb/>not have been learned <add place="above"><metamark/></add> but from
+<lb/>the Holy Spirit - The phraseology was
+<lb/>not acquired from me or from
+
+	<pb facs="liv_000211_0003" n="0005"/>
+	<!--<pb facs="NLS10703_004_042r_0_A_color" n="0005"/>-->
+<cb rend="right"/>
+<lb/>the <orgName>native <term type="occupation">teachers</term></orgName> but was his own &amp; <fw n="42"><add rend="gray" place="margintop" hand="#U">42</add></fw>
+<lb/>expressed the exceeding greatness of our
+<lb/>sins, and of the love of God which <w>follow<supplied>-</supplied>
+<lb break="no"/>-ed</w> us when astray to save us - When he
+<lb/>applied for baptism as a formal <w>recog<supplied>-</supplied>
+<lb break="no"/>nition</w> of his faith with the express hope
+<lb/>that when he had fully professed his belief
+<lb/>some of <orgName>his people</orgName> would join him
+<lb/>I could not refuse though I regretted the
+<lb/>step because of its probable effect on
+<lb/>wives &amp; relatives who could not account
+<lb/>for it but my powerful charm over
+<lb/>him, by of course medicine - No sooner
+<lb/>was he <choice><sic>recieved</sic><corr>received</corr></choice> than the news spread like
+<lb/>wildfire vexing more especially all the
+<lb/><orgName><placeName><region>Southern</region></placeName> <term type="occupation">chiefs</term></orgName> who were of one accord
+<lb/>haters of <term type="faith"><choice><sic>christianity</sic><corr>Christianity</corr></choice></term> - Feelings of envy
+<lb/>unfortunately found an entrance into
+<lb/>the bossoms of some who had <add place="below">^</add> <add place="above">in vain</add> been advised
+<lb/>by the <term type="occupation">Directors</term> to follow my example
+<lb/>in commencing a new mission, and
+<lb/><space extent="2" unit="chars"/><add place="marginleft" rend="vertical"><add place="below">^</add> enjoying comfortable homes in the <placeName><region>south</region></placeName></add><!-- Recoded to improve transformation. AW -->
+<lb/><subst><del>found</del><add place="over-text">gave</add></subst> vent in words to <orgName>native</orgName> ears
+<lb/>who readily adopted &amp; exaggerated the
+<lb/>opinion that I had been too precipitate
+<lb/>in baptizing the <term type="occupation">chief</term> = No account was
+<lb/>taken of the three years in which I had
+<lb/>carefully <add place="below">^</add> <add place="above"><unclear cert="high">taken in</unclear> and</add> watched his conduct, and found 
+<lb/>it more upright &amp; <term type="faith"><choice><sic>christian</sic><corr>Christian</corr></choice></term> than that
+<lb/>of the majority of his censors - He was
+<lb/>declared to be a hypocrite and was
+<lb/><choice><sic>decieving</sic><corr>deceiving</corr></choice> me - various <unclear cert="medium">scurrilities</unclear>
+<lb/>concocted by <orgName><choice><sic>christians</sic><corr>Christians</corr></choice></orgName> &amp; their leaders
+<lb/>reached <persName ref="people.xml#pers0160">Sechele</persName>'s ears = He accounted for
+<lb/>them by people being of different <w>temper<supplied>-</supplied>
+<lb break="no"/>-ments</w> - thus one teaching threw down
+<lb/>his book on the floor and uttered <w>un-
+<lb break="no"/>-becoming</w> invective against circumcision
+
+	<pb facs="liv_000211_0004" n="0006"/>
+	<!--<pb facs="NLS10703_004_043v_0_A_color" n="0006"/>-->
+<cb rend="left"/>
+<lb/>which is never publicly discussed - "<choice><sic>You</sic><corr>Your</corr></choice>
+<lb/>nature would not let you do this" - <supplied>"</supplied>We
+<lb/>must make allowances for differences
+<lb/>in hearts" = <orgName><persName ref="people.xml#pers0160">Sechele</persName>'s people</orgName> too heard of these
+<lb/>scurrilities, and they lowered the <orgName><choice><sic>christians</sic><corr>Christians</corr></choice></orgName> in
+<lb/>their eyes - The only weakness I was <w>con-
+<lb break="no"/>-scious</w> of was unwillingness to drive
+<lb/>away the superflous wives to be enemies
+<lb/>to <term type="faith"><choice><sic>christianity</sic><corr>Christianity</corr></choice></term> wherever they went - I wished
+<lb/>them to be kept rather in the town within
+<lb/>the sphere of <term type="faith"><choice><sic>christian</sic><corr>Christian</corr></choice></term> influences - <persName ref="people.xml#pers0160">Sechele</persName> went
+<lb/>to one of his wives - one whom he could not
+<lb/>view as another man's - this rang still more
+<lb/>loudly all over the country &amp; my weakness
+<lb/>&amp; folly were supposed to be proved beyond
+<lb/>question - If to sympathize with these poor
+<lb/>women were weakness then I was guilty of it
+<lb/>A series of droughts and the encroachments
+<lb/>of the <orgName ref="orgName.xml#org0009">emigrant <orgName ref="orgName.xml#org0006">Boers</orgName></orgName><!-- I think the reference here is specifically to the Voertrekkers, hence the double <orgName>. AW --> made me turn my
+<lb/>face Northwards &amp; listen to the invitation
+<lb/>of <persName ref="people.xml#pers0159">Sebitwane</persName> the <term type="occupation">chief</term> of the <term type="tribe" ref="ethnic-group.xml#ethnic0008"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> - There
+<lb/>if I could open up intercourse with <placeName><region>the coast</region></placeName>
+<lb/>I might work out my plan of a widely <w>em<supplied>-</supplied>
+<lb break="no"/>-bracing</w> mission without pain from the
+<lb/>narrowminded who could not look beyond
+<lb/>their comfortable houses &amp; gardens to <orgName>the heathen</orgName>
+<lb/><w><subst><del>o</del><add place="over-text">W</add></subst>ithout</w> naming any one it was painful to
+<lb/>have my wife insulted on a visit to her
+<lb/>parents <space extent="2" unit="chars"/>by loud guffaws raised by the
+<lb/><choice><sic>bretheren</sic><corr>brethren</corr></choice> gloating over perverted versions
+<lb/>of my conduct from <orgName>native</orgName> telltales The
+<lb/>mission of <persName ref="people.xml#pers0086"><term type="occupation"><choice><sic>bishop</sic><corr>Bishop</corr></choice></term> Mackenzie</persName> opened
+<lb/>still wider prospects than that of the <term type="tribe" ref="ethnic-group.xml#ethnic0008"><choice><orig><w>Ma<supplied>-</supplied>
+<lb break="no"/>kololo</w></orig><reg>Kololo</reg></choice></term> but was all quashed by his
+<lb/>lamented death - His followers being all
+<lb/>utterly incapable of leading a movement
+
+	<pb facs="liv_000211_0004" n="0007"/>
+	<!--<pb facs="NLS10703_004_043v_0_A_color" n="0007"/>-->
+<cb rend="right"/>
+<lb/>against <orgName><term type="faith">Heathenism</term></orgName> - I took up the <placeName><geogName type="source" ref="geogName.xml#geog0053">sources</geogName></placeName> <fw n="43"><add rend="gray" place="margintop" hand="#U">43</add></fw>
+<lb/>of the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> with the intention of combining
+<lb/>a benevolent mission therewith in the
+<lb/>most favoured spot I should come across
+<lb/>It has taken much longer than I contemplated
+<lb/>to trace the springs from <measure>12° South</measure> and I am
+<lb/>now so sorely knocked up - weak &amp; toothless
+<lb/>I must retire as soon as I can fix the course
+<lb/>of <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> - I can only hope to be awarded
+<lb/>the honour of an example of perseverance
+<lb/>in doing my duty in spite of ill health - war
+<lb/>&amp; unknown people opposing - a stout
+<lb/>hearted servant of Him who made fashioned <!-- should servant of Him somehow be tagged for the religious implication, like with orgname or something? HB --><!-- Let's leave as is. AW -->
+<lb/>and owns all this region</p>
+<lb/><p>In the Review of <bibl><choice><sic><persName ref="people.xml#pers0187">D<hi rend="sup">r</hi> Todd</persName>s</sic><corr><persName ref="people.xml#pers0187">D<hi rend="sup">r</hi> Todd</persName>'s</corr></choice> work</bibl> <add place="below">^</add> <add place="above">in <bibl>Quarterly <supplied>Review</supplied> <date when="1866">1866</date></bibl></add> on
+<lb/><bibl><persName ref="people.xml#pers0172">S<hi rend="sup">t</hi> Patrick</persName> &amp; the <orgName>Early <term type="nationality">Irish</term> Church</orgName></bibl><!-- Livingstone actually uses this article as the undertext for part of the 1870 diary! AW -->
+<lb/>surprise is expressed that we cannot
+<lb/>do as he did - I was offered lands and
+<lb/>fountains of water by <persName ref="people.xml#pers0160">Sechele</persName> &amp; by the
+<lb/><term type="tribe" ref="ethnic-group.xml#ethnic0008"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> but these are valueless unless
+<lb/>peopled - land is absolutely of no value
+<lb/>and missions could not be carried
+<lb/>on without foreign aid unless indeed
+<lb/>they were industrial institutions like
+<lb/>the <orgName ref="orgName.xml#org0015">Moravian</orgName> - Were I young again
+<lb/>nothing would delight me more
+<lb/>than attempting something of the sort
+<lb/>but the <orgName><term type="nationality">Irish</term> Monastic Institutions</orgName>
+<lb/>would have to be modified greatly
+<lb/>before they would suit <placeName><bloc>Africa</bloc></placeName> - I
+<lb/>pray to be guided in this &amp; possibly
+<lb/>the <space extent="2" unit="chars"/><orgName><term type="tribe" ref="ethnic-group.xml#ethnic0015"><choice><orig><choice><orig>Basongo</orig><reg>Basango</reg></choice></orig><reg>Sangu</reg></choice></term> of <placeName><settlement type="village">Merere</settlement></placeName></orgName> may be a
+<lb/>suitable people to begin with - but
+<lb/>age tells on my energies sorely &amp; so
+<lb/>does this unhealthy <placeName><region ref="region.xml#region0013">Manyema</region></placeName></p>
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/><date when="1870-03-10">10 March 1870 <space extent="2" unit="words"/><add place="inspace">1870</add></date></p><!-- It looks like here DL writes 1870, isn't happy with it because it gets blotted a bit so writes it a second time for clarity, so I've tried to code to reflect that but there might be better ways to do this. AW -->
+<ab rend="vertical black">
+<lb/>to have <persName ref="people.xml#pers0172">St Patrick</persName>'s success we would require a second
+<lb/><placeName><country>Ireland</country></placeName> and 2<hi rend="sup">nd</hi> <term type="people">Irish</term>
+</ab>
+<!-- It's clear that Livingstone intended the foregoing segment to be added somewhere into the main text on this page, but not clear where, so hence my placement of it here, before the dateline. AW -->
+            </div>
+        	
+			<div>
+	<pb facs="liv_000211_0003" n="0008"/>
+	<!--<pb facs="NLS10703_004_042r_0_A_color" n="0008"/>-->
+<!-- This is a multicolored impression along the entire left side of this page from some kind of organic entity. Parts of the entity appear still to adhere to the page. AW -->
+<!-- It's really hard to tell what is being listed here, whether people, villages, geographical entities or other, so I've only tagged those of which I'm certain to some degree. AW -->
+<lb/><list rend="center"><item>Tongwe</item>
+
+<lb/><item>Tembwe</item>
+
+<lb/><item>Para</item>
+
+<lb/><item>Chanza</item>
+
+<lb/><item><placeName><geogName type="hill">Manda</geogName></placeName> very large <del type="strikethrough">the</del> <lb/> <unclear cert="low">best see hills</unclear></item>
+
+<lb/><item>Thupa</item>
+
+<lb/><item>Zongwe</item>
+
+<lb/><item>Tende</item>
+
+<lb/><item><persName ref="people.xml#pers0030">Chunda</persName> <term type="occupation"><choice><abbr>ch</abbr><expan cert="medium">chief</expan></choice></term> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> land</item>
+
+<lb/><item><persName ref="people.xml#pers0083">Luambo</persName> <term type="occupation"><choice><abbr>ch.</abbr><expan cert="medium">chief</expan></choice></term> &amp; <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item>
+
+<lb/><item>Mazanze</item>
+
+<lb/><item><persName ref="people.xml#pers0126">Msenga</persName>,</item> <item><placeName><settlement type="village">Karembwe</settlement></placeName>'s <term type="occupation"><choice><abbr>ch</abbr><expan cert="medium">chief</expan></choice></term></item>
+
+<lb/><item>Lonangwa</item> <item><placeName><geogName type="river"><choice><sic>pango</sic><corr>Pango</corr></choice></geogName></placeName> River <add place="below">large</add></item>
+
+<lb/><item>Nange</item>
+
+<lb/><item>Karambwe = Tambala</item>
+
+<lb/><item><persName ref="people.xml#pers0126">Msenga</persName> = <placeName><settlement type="village"><choice><sic>chomba</sic><corr>Chomba</corr></choice></settlement></placeName> <term type="occupation">chief</term></item>
+
+<lb/><item><persName ref="people.xml#pers0028">Chimembwe</persName> <term type="occupation">chief</term></item></list>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

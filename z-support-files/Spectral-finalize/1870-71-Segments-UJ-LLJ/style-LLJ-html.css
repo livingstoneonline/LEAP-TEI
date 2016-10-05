@@ -25,12 +25,13 @@ Table of Contents
 div.transcription{
 	margin-left:auto;
 	margin-right:auto;
-	width:600px;/*Change to make responsive; this current keeps it fixed*/
+	width:605px;/*Change to make responsive; this current keeps it fixed*/
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
+	text-align: justify;
 	/*white-space:nowrap;*/
-	color:#695241; /*#574d44*/ /*#4E2F2F*/
-	background:#c7beb0; /*#e7d5bd*/
+	color:#58484b; /*#574d44*/ /*#4E2F2F*/
+	background:#f6dbb0; /*#d3c2a8;*/ /*#e7d5bd*/
 	border: solid 1em white;  /* remove */
 	padding-top: 1em;  /* remove */
 }
@@ -41,7 +42,6 @@ div.transcription{
 	padding-top:.5em;
 }
 .text{
-	margin-left:2.5em !important;
 }
 .body{
 	display:block;
@@ -149,14 +149,14 @@ hr.title-section{
 
 .pb-title{
 	display:block;
-	color:#428bca;
+	color:#f6dbb0;
 	text-decoration:underline;
 	font-size:90%;
-	margin-top:2em;
-	margin-bottom:-1.3em;
+	margin-top:1em;
+	margin-bottom:1em;
 }
 .pb-title:hover{
-	color:#AAA;
+	color:#f6dbb0;
 	cursor:pointer
 }
 .pb-title:first-of-type {
@@ -164,6 +164,7 @@ hr.title-section{
 }
 p span.pb-title{
 	text-indent:0;
+	margin-top:3em;
 }
 .del-pb{
 }
@@ -285,13 +286,19 @@ p.right .linenumber{
 /* 5. p, ab, note, fw */
 
 p{
-	/*margin-right: 2em;*//*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	/*margin-right: 4em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 }
-.p{
-	display:inline-block;
+.p,
+.note{
+	display:block;
 	text-indent:25px;
 	margin-top:0;
 	margin-bottom:0;	
+}
+.note{
+	margin-top:1.5em;
+	text-indent:0px !important;
+	font-size:.9em;
 }
 .p.noindent{
 	text-indent:0 !important;
@@ -306,21 +313,57 @@ p{
 }
 .ab{
 	text-indent:0;
+	margin-left:2em;
 	margin-top:0;
 	margin-bottom:0;
+	margin-right:2em;
+	font-size:.9em;
 }
 .ab.center{
 	/*margin-left:15%;*/
+	display:block;
 }
 .head{
 	font-weight:300;
+	text-align:center;
+	margin-bottom:0em;
 }
-.note.marginleft{
-	margin-left:-3.6em !important;
-	text-indent:0;	
+.left{
 	float:left;
+}
+.right{
+	text-indent:0;
+	float:right;
+}
+.center{
 	text-align:center;
 }
+.fw{
+	font-size:.9em !important;
+	color:gray;
+}
+.fw.catch{
+	margin-top:-1em;
+	display:block;
+}
+.fw.catch.left{
+	text-indent:0;
+}
+.fw.catch.right{
+	text-indent:0;
+}
+.fw.pageno{
+	text-indent:0 !important;
+	display:block;
+	text-align:center;
+	margin-bottom:1em;
+}
+.p .fw.pageno{
+	margin-bottom:1em;
+	display:block;
+	text-align:center;
+}
+
 
 /* 6. Additions and Deletions */
 
@@ -356,7 +399,6 @@ p{
 }
 .verticalSpace{
 	display:inline-block;
-	margin-left:9%;
 	border-bottom:1px dotted black;
 }
 
@@ -412,12 +454,6 @@ p{
 }
 .overtext{
 	/*color:gray;*/
-}
-.right{
-	text-indent:0em;
-}
-.fw .right{
-	margin-left:15em;
 }
 .small{
 	font-size:85%;
@@ -557,7 +593,13 @@ td{
 .p.noindent .figure,
 .ab .figure{
 	/*margin-left:0px !important;*/
-	text-indent:0px;
+	/*text-indent:0px;*/
+}
+.p .figure.graphic{
+	text-indent:0px !important;
+}
+.graphic,
+.img{
 }
 .metamark{
 	color:gray;

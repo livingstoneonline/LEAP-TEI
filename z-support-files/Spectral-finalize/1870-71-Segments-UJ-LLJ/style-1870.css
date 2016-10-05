@@ -2,8 +2,7 @@
 
 Table of Contents
 -----------------
-1. Textual divisions
-1.5 Title section
+1. Textual divisions 
 2. Letters 
 3. pb, lb, linenumber 
 4. Milestone and lines 
@@ -25,20 +24,18 @@ Table of Contents
 div.transcription{
 	margin-left:auto;
 	margin-right:auto;
-	width:605px;/*Change to make responsive; this current keeps it fixed*/
+	width:100%;
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
-	text-align: justify;
-	/*white-space:nowrap;*/
+	white-space:nowrap;
 	color:#58484b; /*#574d44*/ /*#4E2F2F*/
-	background:#f6dbb0; /*#d3c2a8;*/ /*#e7d5bd*/
+	background:#d3c2a8; /*#e7d5bd*/
 	border: solid 1em white;  /* remove */
 	padding-top: 1em;  /* remove */
 }
 .TEI{
 	display:block;
-	margin-left:6em !important;
-	margin-right:6em !important;
+	padding-left: 1em;
 	padding-top:.5em;
 }
 .text{
@@ -53,50 +50,10 @@ div.transcription{
 }
 .div{
 }
-/*.idno{
-	font-size:.9em;
-	color:gray;
-	float:right;
-}*/
 .idno{
 	font-size:.9em;
-	line-height:1.7;
-}
-
-
-/* 1.5. Title section */
-
-.title{
-	font-size:1.4em;
-	font-variant:small-caps;
-	display:inline-block;
-	text-align:center;
-}
-.author{
-	font-size:1.2em;
-	font-style:italic;
-	display:block;
-	text-align:center;
-	margin-top:1em;
-}
-.authority{
-	font-size:.9em;
-	line-height:1.7;
-}
-.pub-date{
-	font-size:.9em;
-}
-a:link{
-	color:#428bca !important;
-}
-hr.title-section{
-	margin-right:auto;
-	width:100%;
-	height:0;
-	border:0;
-	border-top:1px solid #58484b;
-	margin-top:-.4em;
-	margin-bottom:-.4em;
+	color:gray;
+	margin-left:60%;
 }
 
 /* 2. Letters */
@@ -149,25 +106,27 @@ hr.title-section{
 
 .pb-title{
 	display:block;
-	color:#f6dbb0;
+	color:#428bca;
 	text-decoration:underline;
 	font-size:90%;
-	margin-top:1em;
-	margin-bottom:1em;
+	margin-left:9%;
+	margin-top:1.5em;
+	margin-bottom:-1em;
 }
 .pb-title:hover{
-	color:#f6dbb0;
+	color:#AAA;
 	cursor:pointer
 }
 .pb-title:first-of-type {
- 	/*margin-top: 0;*/ /*This is to prevent scrolling up when the first image opens. AW*/
-}
+  margin-top: 0;
+}/*This is to prevent scrolling up when the first image opens. AW*/
 p span.pb-title{
+	margin-left:0;
 	text-indent:0;
-	margin-top:3em;
 }
 .del-pb{
 }
+/*We need a solution. See 2672-3 for an example or 875 for multiple examples.*/
 .lb{
 	display:block;
 }
@@ -185,7 +144,6 @@ p span.pb-title{
 	text-indent:9%;
 	font-size:80%;
 	width:1em;
-	display:none;
 }
 p .linenumber{
 	text-indent:-1%;
@@ -213,6 +171,8 @@ p.right .linenumber{
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
+	margin-left:9%;
+	margin-right:9%;
 	padding:0px;
 	margin-bottom:-1em;
 }
@@ -220,6 +180,7 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:26em !important;
+	margin-left:9%;
 	text-align:left;
 	height:0;
 	border:0;
@@ -247,6 +208,7 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:18.5em !important;
+	margin-left:9%;
 	text-align:left;
 	height:0;
 	border:0;
@@ -256,6 +218,7 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:11em !important;
+	margin-left:9%;
 	text-align:left;
 	height:0;
 	border:0;
@@ -265,6 +228,7 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:26em !important;
+	margin-left:9%;
 	text-align:left;
 	margin-top:-1em;
 	margin-bottom:0em;
@@ -276,6 +240,7 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:20em !important;
+	margin-left:9%;
 	text-align:left;
 	margin-top:1.5em;	
 	height:0;
@@ -286,19 +251,14 @@ p.right .linenumber{
 /* 5. p, ab, note, fw */
 
 p{
-	/*margin-right: 4em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-}
-.p,
-.note{
-	display:block;
+	margin-right: 2em;
+}/*Needed so that the text doesn't run up against the right edge in the viewer.*/
+.p{
+	display:inline-block;
 	text-indent:25px;
+	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;	
-}
-.note{
-	margin-top:1.5em;
-	text-indent:0px !important;
-	font-size:.9em;
 }
 .p.noindent{
 	text-indent:0 !important;
@@ -306,62 +266,42 @@ p{
 .p.center{
 	text-indent:0 !important;
 	padding-left:6em;
+	margin-left:9%;
 }
 .p.right{
 	text-indent:0 !important;
 	padding-left:12.2em; /*Was 25%*/
+	margin-left:9%;
 }
 .ab{
 	text-indent:0;
-	margin-left:2em;
+	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;
-	margin-right:2em;
-	font-size:.9em;
 }
 .ab.center{
-	/*margin-left:15%;*/
-	display:block;
+	margin-left:15%;
 }
 .head{
 	font-weight:300;
-	text-align:center;
-	margin-bottom:0em;
 }
-.left{
-	float:left;
-}
-.right{
-	text-indent:0;
-	float:right;
-}
-.center{
-	text-align:center;
+.note{
+	display:inline;
 }
 .fw{
-	font-size:.9em !important;
-	color:gray;
-}
-.fw.catch{
-	margin-top:-1em;
-	display:block;
-}
-.fw.catch.left{
-	text-indent:0;
-}
-.fw.catch.right{
-	text-indent:0;
+	display:inline-block;
+	margin-left:9%;
 }
 .fw.pageno{
 	text-indent:0 !important;
-	display:block;
-	text-align:center;
-	margin-bottom:1em;
 }
-.p .fw.pageno{
-	margin-bottom:1em;
-	display:block;
-	text-align:center;
+.fw.catch.left{
+	margin-left:0;/*AW revisit*/
+	text-indent:0;
+}
+.fw.catch.right{
+	margin-left:80%;/*AW revisit*/
+	text-indent:0;
 }
 
 
@@ -369,6 +309,7 @@ p{
 
 .opener-add{
 }
+/*Needs to be sorted out. See 1340-1. AW*/
 .addmargin{
 	text-indent:0px;
 }
@@ -390,7 +331,7 @@ p{
 	border-bottom:1px dotted gray;
 }
 .gap{
-	/*border-bottom:1px dotted black;*/
+	border-bottom:1px dotted black;
 }
 .space-other{
 	border-bottom:1px dotted black;
@@ -435,6 +376,10 @@ p{
 .caps{
 	font-variant:small-caps;
 }
+.center{
+	text-indent:0;
+	margin-left:15%;
+}
 .doubleunderline{
 	border-bottom:3px double;
 }
@@ -455,6 +400,10 @@ p{
 }
 .overtext{
 	/*color:gray;*/
+}
+.right{
+	text-indent:0;
+	margin-left:25%;
 }
 .small{
 	font-size:85%;
@@ -529,6 +478,7 @@ p{
 .margintop.right{
 	margin-left:25% !important;
 }
+/*Needs to be revisited. See 2133-1. AW*/
 .true{
 	display:inline-block;
 	margin-left:9% !important; 
@@ -569,9 +519,11 @@ p{
 /* 11. Lists and Tables */
 .list{
 	display:block;
+	margin-left:9%;
 	margin-top:12px;
 }
 table{
+	margin-left:9%;
 	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
 	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
@@ -580,12 +532,14 @@ table{
 tr,
 td{
 	border-style:none;
+	margin-left:9%;
 }
 
 
 /* 12. Misc */
 
 .figure{
+	margin-left:9%;
 	color:gray;
 	font-size:.8em;
 	border-bottom:1px gray dotted;
@@ -593,14 +547,8 @@ td{
 .p .figure,
 .p.noindent .figure,
 .ab .figure{
-	/*margin-left:0px !important;*/
-	/*text-indent:0px;*/
-}
-.p .figure.graphic{
-	text-indent:0px !important;
-}
-.graphic,
-.img{
+	margin-left:0px !important;
+	text-indent:0px;
 }
 .metamark{
 	color:gray;
@@ -608,7 +556,7 @@ td{
 	border-bottom:1px gray dotted;
 }
 p .metamark{
-	/*margin-left:0px !important;*/
+	margin-left:0px !important;
 	text-indent:0px !important;
 }
 
