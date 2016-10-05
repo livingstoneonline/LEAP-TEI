@@ -424,6 +424,9 @@
 		<xsl:variable name="newFigDesc">
 			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
 		</xsl:variable>
+		<xsl:variable name="graphicURL">
+			<xsl:apply-templates select="..//@url"/>
+		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="head and $newFigDesc/text()">
 				<span class="figure" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
@@ -433,6 +436,9 @@
 			</xsl:when>
 			<xsl:when test="not(head) and $newFigDesc/text()">
 				<span class="figure" title="{$newFigDesc}">{figure}</span>
+			</xsl:when>
+			<xsl:when test="..//graphic">
+				<span class="graphic"><a href="{$graphicURL}"><img src="{$graphicURL}" style="width:100%;"/></a></span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="figure">{figure}</span>
@@ -511,9 +517,6 @@
 	<xsl:template match="gb">
 		<xsl:apply-templates/>
 	</xsl:template>
-
-	<!-- do not show graphic -->
-	<xsl:template match="graphic"/>
 
 	<!-- geogName begins -->
 
@@ -916,18 +919,18 @@
 	</xsl:template>
 
 	<xsl:template match="note">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @anchored)}"
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
 			>[<xsl:apply-templates/>]</span>
 	</xsl:template>
 
 	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">
-		<span class="{concat(name(), ' ', @type, ' ', @rend)}">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
 	<xsl:template match="p/note" priority="8">
-		<span class="{concat(name(), ' ', @type, ' ', @rend)}">[<xsl:apply-templates/>]</span>
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="opener">
