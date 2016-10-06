@@ -26,7 +26,6 @@ body{
 	background:#d3c2a8; /*#e7d5bd*/
 }
 div.transcription{
-	display:inline-block;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -36,13 +35,15 @@ div.transcription{
 	color:#58484b; /*#574d44*/ /*#4E2F2F*/
 }
 .TEI{
+	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
 	padding-left:3em;
 	text-align:left;
 }
 .item-details{
-	max-width:35em;
+	max-width:27.5em;
+	white-space:normal;
 }
 div.text{
 }
