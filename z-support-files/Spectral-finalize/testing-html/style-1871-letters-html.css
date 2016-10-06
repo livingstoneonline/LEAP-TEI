@@ -24,28 +24,25 @@ Table of Contents
 
 body{
 	background:#d3c2a8; /*#e7d5bd*/
-	text-align:center;
 }
 div.transcription{
+	display:inline-block;
 	margin-left:auto;
 	margin-right:auto;
+	text-align:center;
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
 	/*white-space:nowrap;*/
 	color:#58484b; /*#574d44*/ /*#4E2F2F*/
-	text-align:left;
-
-}
-.item-details{
-	max-width:35em;
-	display:block;
-	padding-left:3em;
 }
 .TEI{
-	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
 	padding-left:3em;
+	text-align:left;
+}
+.item-details{
+	max-width:35em;
 }
 div.text{
 }
@@ -125,7 +122,6 @@ hr.title-section{
 	margin-left:25%;
 }
 .opener-salute{
-	margin-left:9% !important;
 }
 .closer-salute{
 	margin-left:0 !important;
@@ -174,10 +170,10 @@ p span.pb-title{
 	display:block;
 }
 .lb.center{
-	margin-left:15%;
+	margin-left:6%;
 }
 .lb.right{
-	margin-right:25%;
+	margin-right:16%;
 }
 .linenumber{
 	text-align:right;
@@ -319,7 +315,7 @@ p{
 	margin-bottom:0;
 }
 .ab.center{
-	margin-left:15%;
+	margin-left:16%;
 }
 .head{
 	font-weight:300;
@@ -329,7 +325,6 @@ p{
 }
 .fw{
 	display:inline-block;
-	margin-left:9%;
 }
 .fw.pageno{
 	text-indent:0 !important;
@@ -373,7 +368,6 @@ p{
 .space-other{
 	border-bottom:1px dotted black;
 	display:block;
-	margin-left:9%;
 }
 .verticalSpace{
 	display:inline-block;
@@ -439,7 +433,7 @@ p{
 }
 .right{
 	text-indent:0;
-	margin-left:25%;
+	margin-left:16%;
 }
 .small{
 	font-size:85%;
@@ -509,14 +503,12 @@ p{
 	top:-1em;
 }
 .margintop.left{
-	margin-left:9% !important;
 }
 .margintop.right{
-	margin-left:25% !important;
+	margin-left:16% !important;
 }
 .true{
 	display:inline-block;
-	margin-left:9% !important; 
 }/*Goes with standalone <note>s*/
 
 
@@ -584,7 +576,6 @@ td{
 }
 .metamark{
 	color:gray;
-	margin-left:9%;
 	border-bottom:1px gray dotted;
 }
 p .metamark{
