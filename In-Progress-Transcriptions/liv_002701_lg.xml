@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title></title><!-- Ignore this line -->
+                <title type="alternative">Letter to Thomas Maclear, 15 February, 2 March 1856</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="LG"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Lauren Geiger</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002701</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>England</country><!-- Change as needed -->
+                        <settlement>Piccadilly</settlement><!-- Change as needed -->
+                        <repository>Smithsonian Institution</repository><!-- Change as needed -->
+                        <idno type="shelfmark">M094 bis</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber"></idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Arthur Mills</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1865-05-12">12 May 1865</date><!-- Change -->
+                    <placeName type="compositionPlace">8 Dover St. Piccadilly</placeName><!-- Change -->
+                    <persName type="addressee">Arthur Mills</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-09-13" who="#LG">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002701_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+
+<lb/><opener><dateline rend="right"><placeName>8 Dover St. Piccadilly</placeName> <date when="1865-05-12">12 May<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
+<lb/> 1865</date></dateline><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>My Dear Mr Mills,</salute></opener><!-- Change line info as appropriate -->
+
+
+
+<pb>I am not at
+<lb/>all anxious to be
+<lb/>examined by the
+<lb/>committee now
+<lb/>sitting but rather
+<lb/>than let<persName>Burtons</persName>
+<lb/>assertions ?
+<lb/> ?
+<lb/> ? undergo</pb>
+
+<pb>the ordeal. His
+<lb/>assertions about
+<lb/>missionaries are
+<lb/>monstrous and
+<lb/>false and as I
+<lb/>understand he
+<lb/>was allowed to
+<lb/>make ? why
+<lb/>not take ? a
+<lb/>little evidence
+<lb/>on the other side
+<lb/>I know<placeName><country>Sierra</country></placeName>
+<lb/><placeName><country>Leone (some kind of punctuation mark) and ?</country></placeName>
+<lb/>on the West Coast</pb>
+                
+</pb>the interior- and
+<lb/>? compare
+<lb/>the? effects of
+<lb/>missions- </w>settle<supplied>-</supplied>
+<lb break="no"/>-ments</w>and the
+<lb/>efforts of ?
+<lb/>on both East
+<lb/>and West Coasts.
+<lb/>? ? ?
+<lb/>on these ?
+<lb/>are not desired
+<lb/><hi rend="underline">must</hi>be</w>con<supplied>-</supplied>
+<lb break="no"/>-tent</w>. I leave
+              
+</pb>for<placeName><country>Scotland</country></placeName>on
+<lb/><space extent="2" unit="chars"/>23<hi rend="sup underline">rd</hi> current.
+                
+<lb/><space extent="4" unit="chars"/>I am ?
+<lb/><persName>David Livingstone</persName>
+                
+                
+                
+<!-- More transcribed text -->
+
+
+<!-- If there is a letter or similar with a closer with content such as salute or signed -->
+<lb/><closer><salute>I am &amp;</salute><!-- Change as appropriate -->
+<lb/><signed><persName>David Livingstone</persName></signed></closer><!-- Change as appropriate --> 
+
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
