@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-UJ.xsl" type="text/xsl"?> 
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-UJ-html.xsl" type="text/xsl"?> 
 <!--<?xml-stylesheet href="transcription-UJ.xsl" type="text/xsl"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_015006">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Unyanyembe Journal (1871 Field Diary Segment), 23 March 1871-November 1871</title>
+                <title>Unyanyembe Journal (1871 Field Diary Segment)</title>
+                <title type="alternative">Unyanyembe Journal (1871 Field Diary Segment), 28 January 1866-5 March 1872</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
@@ -60,9 +61,10 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Unyanyembe Journal (1871 Field Diary Segment), 23 March 1871-November 1871</title>
+                    <title type="alternative">Unyanyembe Journal (1870 Field Diary Segment), 28 January 1866-5 March 1872</title>
                     <author xml:id="DL">David Livingstone</author>
-                    <date type="composition" from="1871-03-23" to="1871-11">23 March 1871-November 1871</date><!-- Adrian change x2 only -->
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866-5 March 1872</date>
+                    <placeName type="compositionPlace">Unyanyembe</placeName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -71,6 +73,8 @@
                 <language ident="en">English</language>
                 <language ident="la">Latin</language>
                 <language ident="grk">Greek</language>
+				<language ident="nym">Nyamwezi</language>
+				<language ident="fa">Persian</language>
 				<language ident="swh">Swahili</language>
                 <language ident="und">Undetermined</language>
             </langUsage>
@@ -128,7 +132,7 @@
 <lb/>open and low hills appear - in <choice><abbr>N.</abbr><expan>North</expan></choice>
 <lb/>We now met a <orgName>party of men</orgName> from 
 <lb/>the <term type="occupation">traders</term> at <placeName><settlement type="village"><persName><choice><orig>Kasenga</orig><reg>Kasongo</reg></choice></persName>'s</settlement></placeName> - <persName>Salem bin <!-- Is it <choice><orig>Kasonga</orig><reg>Kasongo</reg></choice> or Kasenga? Need to normalize?? HB --><!-- <choice><orig>Kasonga</orig><reg>Kasongo</reg></choice> -->
-<lb/>Mukadam</persName> and <persName>Seyed bin <term type="occupation">Sultan</term></persName> and counted 
+<lb/><choice><orig>Mukadam</orig><reg>Mokadam</reg></choice></persName> and <persName>Seyed bin <term type="occupation">Sultan</term></persName> and counted 
 <lb/>eighty two <orgName>captives</orgName> they had caught 
 <lb/>them by fighting ten days with the 
 <lb/><orgName>people of <persName>Surampela</persName></orgName> on the left bank <!-- Adrian, not sure how Surampela is being used so used the app/rdg tags, but let me know if definitively one or the other and I can change. HB --><!-- Good questions. OK as you've coded it. AW -->
@@ -154,7 +158,7 @@
 <lb/>and threatened our companion <persName>Kama</persName> with 
 <lb/>dismissal from <orgName>our party</orgName> if he became 
 <lb/>a tool in <orgName>slave</orgName> hands - <term type="plant">Arum</term> common -</p> <!-- Adrian, not sure what Arum common is to tag? HB --><!-- Fixed. AW -->
-<lb/><p><note place="marginleft"><date when="1871-03-28">28</date></note> - I had hoped to gain influence in time 
+<lb/><p><note place="marginleft"><date when="1871-03-28">28</date> -</note> I had hoped to gain influence in time 
 <lb/>over the <orgName><orgName>Banian</orgName> <orgName>slaves</orgName></orgName> and went forward 
 <lb/>though short of everything in the prospect
 <lb/>of finishing my work and retiring but they 
@@ -167,7 +171,7 @@
 <lb/>the great <term type="occupation"><orgName>slave</orgName> trader</term> <persName>Ludha</persName> were fully of 
 <lb/>the opinion that they were not to follow 
 <lb/>but force me back - crossed the <placeName><geogName type="river">Liya</geogName></placeName>
-<lb/><note place="marginleft"><date when="1871-03-29">29</date></note> and <date when="1871-03-29">next day</date> the <placeName><geogName type="river">Moangoi</geogName></placeName>, by two well 
+<lb/><note place="marginleft"><date when="1871-03-29">29</date></note> and <date when="1871-03-29">next day</date> the <placeName><geogName type="river"><choice><orig>Moangoi</orig><reg>Moangor</reg></choice></geogName></placeName>, by two well 
 <lb/>made wattle bridges at an island in its bed 
 <lb/>It is <measure>20 <choice><abbr>yds</abbr><expan>yards</expan></choice></measure> and has a very strong current 
 <lb/>which makes all the market people fear it 
@@ -239,11 +243,11 @@
 <lb/>If one says come sell me that <term type="animal">fowl</term> or 
 <lb/>cloth - the reply is come to the "<foreign xml:lang="und">chitoka</foreign>" or 
 <lb/>marketplace -</p> 
-<lb/><p><note place="marginleft"><date when="1871-04-02">2<hi rend="sup">d</hi></date></note> - They were afraid of my presence - suspicious 
+<lb/><p><note place="marginleft"><date when="1871-04-02">2<hi rend="sup">d</hi></date></note> They were afraid of my presence - suspicious 
 <lb/>and some think from the slanders of the 
 <lb/><term type="occupation">traders</term> that to sell a canoe means to help 
 <lb/>me to kill and murder <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> -</p> 
-<lb/><p><note place="marginleft"><date when="1871-04-03">3<hi rend="sup">d</hi></date></note> - Tried to secure a longitude by fixing a 
+<lb/><p><note place="marginleft"><date when="1871-04-03">3<hi rend="sup">d</hi></date></note> Tried to secure a longitude by fixing a 
 <lb/>a weight on the key of the chronometer and 
 <lb/>taking successive altitudes of the sun 
 <lb/>and distances of the moon - Possibly 
@@ -290,7 +294,7 @@
 <lb/>sweet <foreign xml:lang="und"><term type="foodstuff">malofu</term></foreign> or <term type="foodstuff">beer</term> made from 
 <lb/><term type="plant_foodstuff">Bananas</term> - I shall touch it no more</p> 
 <lb/><p>Made ink from the seeds of a plant 
-<lb/>called by the <orgName>Arabs</orgName> <foreign xml:lang="und"><term type="plant"><term type="medicament"><choice><orig>Zingifure</orig><reg>Mzingifuri</reg></choice></term></term></foreign> - It is 
+<lb/>called by the <orgName>Arabs</orgName> <foreign xml:lang="swh"><term type="plant"><term type="medicament"><choice><orig>Zingifure</orig><reg>Mzingifuri</reg></choice></term></term></foreign> - It is 
 <lb/>a fine thick red colour and used 
 <lb/>by the <orgName>natives</orgName> to ornament their faces 
 <lb/>heads and to dye grass cloths or 
@@ -306,7 +310,7 @@
     <pb facs="liv_000019_0665" n="0665"/> 
 <lb/><fw n="665"><add place="inspace" rend="gray right" hand="#U">665</add></fw>
 <lb/><note place="marginleft"><date when="1871-04-07">1871 <lb/>7<hi rend="sup">th</hi> <lb/>April</date></note> will keep it sweet - <seg type="weather">This is the season 
-<lb/>called <foreign xml:lang="und">Masika</foreign> - the finishing rains 
+<lb/>called <foreign xml:lang="swh">Masika</foreign> - the finishing rains 
 <lb/>It is the worst time for travelling and 
 <lb/>reconciles me to the delay - We have 
 <lb/>heavy rains almost every night</seg>
@@ -315,7 +319,7 @@
 <lb/>kept back by suspicion and by the 
 <lb/>wickedness of the wicked -</p> 
 <lb/><p>Some of the <orgName>Arabs</orgName> try to be kind and 
-<lb/>send <term type="foodstuff">cooked food</term> every day - <persName>Abed</persName> is 
+<lb/>send cooked food every day - <persName>Abed</persName> is 
 <lb/>the chief donor - I taught him to make 
 <lb/>a <term type="insect">mosquito</term> curtain of thin printed 
 <lb/>calico - He had endured the persecution 
@@ -354,7 +358,7 @@
 <lb/>from the <orgName>Arabs</orgName> who join a feud only 
 <lb/>for their own selfish ends of getting 
 <lb/><term type="animal">goats</term> and <orgName>slaves</orgName></p> 
-<lb/><p><persName>Abed</persName> went over to <persName><foreign xml:lang="und"><term type="occupation">Mologhwe</term></foreign> Kahembe</persName>
+<lb/><p><persName>Abed</persName> went over to <persName><foreign xml:lang="und"><term type="occupation">Mologhwe</term></foreign> <choice><orig>Kahembe</orig><reg>Kahemba</reg></choice></persName>
 <lb/>and mixed blood with him - was told 
 <lb/>of two canoes hollowed out which are 
 <lb/>to be brought for sale - If this can be 
@@ -386,9 +390,9 @@
  
     <pb facs="liv_000019_0667" n="0667"/> 
 <lb/><fw n="667"><add place="inspace" rend="gray right" hand="#U">667</add></fw>
-<lb/><note place="marginleft"><date when="1871-04-10">1871 <lb/>April <lb/>10<hi rend="sup underline">th</hi></date></note> and carry little save their iron ware
+<lb/><note place="marginleft" rend="other"><date when="1871-04-10">1871 <lb/>April <lb/>10<hi rend="sup underline">th</hi></date> <lb/><date when="1871-04-12">12<hi rend="sup underline">th</hi></date></note> and carry little save their iron ware
 <lb/><term type="animal">fowls</term> grass cloth &amp; <term type="animal">pigs</term> -</p> 
-<lb/><p><note place="marginleft"><date when="1871-04-12">12<hi rend="sup underline">th</hi></date></note> New ℂ <date when="1871-04-11">last night</date> - 4th <orgName>Arab</orgName> month - I am at a 
+<lb/><p>New ℂ <date when="1871-04-11">last night</date> - 4th <orgName>Arab</orgName> month - I am at a 
 <lb/>loss for the day of the month - New house 
 <lb/>finished - a great comfort for the other 
 <lb/>was foul and full of <term type="animal">vermin</term> - Bugs 
@@ -402,7 +406,7 @@
 <lb/>nothing, and ever after they have tried to 
 <lb/>ride roughshod over me and mutiny 
 <lb/>on every occasion -</p> 
-<lb/><p><note place="marginleft"><date when="1871-04-14">14<hi rend="sup underline">th</hi></date></note> - <persName>Kahembe</persName> came over &amp; promises to bring 
+<lb/><p><note place="marginleft"><date when="1871-04-14">14<hi rend="sup underline">th</hi></date></note> <persName><choice><orig>Kahembe</orig><reg>Kahemba</reg></choice></persName> came over &amp; promises to bring 
 <lb/>a canoe but he is not to be trusted - He 
 <lb/>presented <persName>Abed</persName> with two <orgName>slaves</orgName> and is 
 <lb/>full of fair promises about the canoe 
@@ -437,12 +441,12 @@
 <lb/>and this the <term type="tribe">Bagenya</term> inspissate by <!-- Need to check spelling - is it Bayenga or Bagenya as above? HB --><!-- Fixed. AW -->
 <lb/>boiling and sell the <term type="foodstuff">salt</term> at market 
 <lb/>The <placeName><geogName type="river">Lomame</geogName></placeName> is <measure>about ten days West</measure> 
-<lb/>of <placeName><geogName type="river">Lualaba</geogName></placeName> and very large - <placeName><geogName type="confluence">The confluence 
+<lb/>of <placeName><geogName type="river">Lualaba</geogName></placeName> and very large - The <placeName><geogName type="confluence">confluence 
 <lb/>of <placeName><geogName type="river">Lomame</geogName></placeName></geogName></placeName> or <placeName><geogName type="river">Loeki</geogName></placeName> is <measure>about six 
 <lb/>days down below <placeName><settlement type="village"><choice><orig>Nyañgwe</orig><reg>Nyangwe</reg></choice></settlement></placeName></measure> by canoe 
 <lb/>The river <placeName><geogName type="river">Nyanze</geogName></placeName> is still less distant</p> 
 <lb/><p><note place="marginleft"><date when="1871-04-16">16<hi rend="sup underline">th</hi></date></note> On the <placeName><geogName type="river">Nyanze</geogName></placeName> stands the principal 
-<lb/>town and market of the <term type="occupation">chief</term> <persName>Zurampela</persName> <!-- Should chief go inside persName tag, like we would do with Mr or Dr? HB --><!-- Leave as is. I must admit I'm not sure what we've done in other instances, so it's likely that we're going this inconsistenly. AW -->
+<lb/>town and market of the <term type="occupation">chief</term> <persName><choice><orig>Zurampela</orig><reg>Surampela</reg></choice></persName> <!-- Should chief go inside persName tag, like we would do with Mr or Dr? HB --><!-- Leave as is. I must admit I'm not sure what we've done in other instances, so it's likely that we're going this inconsistenly. AW -->
 <lb/><persName>Rashid</persName> visited him and got two 
 <lb/><orgName>slaves</orgName> on promising to bring a <orgName>war
 <lb/>party</orgName> from <persName>Abed</persName> against <persName>Chipange</persName>
@@ -450,7 +454,7 @@
 <lb/>help of <persName>Salem Mokadam</persName> to secure 
 <lb/>82 <orgName>captives</orgName> - <persName>Rashid</persName> will leave 
 <lb/>this as soon as possible sell the <orgName>slaves</orgName> 
-<lb/>and leave <persName>Zurampela</persName> to find out 
+<lb/>and leave <persName><choice><orig>Zurampela</orig><reg>Surampela</reg></choice></persName> to find out 
 <lb/>the fraud - This deceit which is an average 
 <lb/>specimen of the beginning of <orgName>half 
 <lb/>caste</orgName> dealings vitiates his evidence 
@@ -481,10 +485,10 @@
 <lb/>have been a great boon to me now that 
 <lb/><seg type="weather">it was raining every day</seg></p> 
 <lb/><p><note place="marginleft"><date when="1871-04-21">21<hi rend="sup underline">st</hi></date></note> A common salutation reminds me of 
-<lb/>the <term type="tribe">Bechwana</term>'s "<foreign xml:lang="und">U le hatsi</foreign>" thou art on 
+<lb/>the <term type="tribe"><choice><orig>Bechwana</orig><reg>Bechuana</reg></choice></term>'s "<foreign xml:lang="und"><choice><orig>U le</orig><reg>Ule</reg></choice> hatsi</foreign>" thou art on 
 <lb/>earth - "<foreign xml:lang="und">Ua tala</foreign>" thou lookest - "<foreign xml:lang="und">Ua boka</foreign>" 
 <lb/>or "<foreign xml:lang="und">byoka</foreign>" thou awakest - "<foreign xml:lang="und">U ri ho</foreign>" thou art 
-<lb/>here - "<foreign xml:lang="und">U li koni</foreign>" thou are here about pure 
+<lb/>here - "<foreign xml:lang="und"><choice><orig>U li koni</orig><reg>Ule koni</reg></choice></foreign>" thou are here about pure 
 <lb/>Sichuana - and Nyā-No is identical <!-- I think these are being used as language names, hence not coding (pls correct if I am wrong). HB --><!-- Correct. AW -->
 <lb/>The men here deny that <orgName>cannibalism</orgName> is 
 <lb/>common - They eat only those killed in 
@@ -539,7 +543,7 @@
 <lb/>by their onslaught - We were nearly 
 <lb/>entrapped in this way by a <term type="occupation">chief</term>
 <lb/>pretending to guide us through 
-<lb/>the country near <placeName><settlement type="village">Basilañge</settlement></placeName> - he 
+<lb/>the country near <placeName><settlement type="village"><choice><orig>Basilañge</orig><reg>Bazilange</reg></choice></settlement></placeName> - he 
 <lb/>would have landed us into a fight 
 <lb/>but we detected his drift - changed 
 <lb/>our course so as to mislead any 
@@ -567,7 +571,7 @@
 <lb/>the <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> where no danger exists - 
 <lb/>In most cases where the people can fight 
 <lb/>the <term type="occupation">traders</term> are as civil as possible - At 
-<lb/><placeName><settlement type="village"><persName>Moenempanda</persName>'s</settlement></placeName> the son of <persName>Cazembe</persName>
+<lb/><placeName><settlement type="village"><persName><choice><orig>Moenempanda</orig><reg>Muanampunda</reg></choice></persName>'s</settlement></placeName> the son of <persName>Cazembe</persName>
 <lb/><persName>Muhamad Bogharib</persName> left a debt of 28 
 <lb/><orgName>slaves</orgName> and 8 bars of copper each seventy <choice><abbr>lbs</abbr><expan>pounds</expan></choice> 
 <lb/>and did not dare to fire a shot because 
@@ -576,7 +580,7 @@
 <lb/>the <term type="occupation">headmen</term> of villages till a ransom 
 <lb/>was paid in tusks! and had they 
 <lb/>only gone <measure>three days further</measure> to the 
-<lb/><term type="tribe">Babire</term> to whom <orgName><persName>Moenemokaia</persName>'s 
+<lb/><term type="tribe"><choice><orig>Babire</orig><reg>Bira</reg></choice></term> to whom <orgName><persName>Moenemokaia</persName>'s 
 <lb/>men</orgName> went they would have got 
 <lb/>fine ivory at two rings a tusk 
 <lb/>while they had paid from 10 to 18 
@@ -589,7 +593,7 @@
     <pb facs="liv_000019_0672" n="0672"/> 
 <lb/><fw n="672"><add place="inspace" rend="gray left" hand="#U">672</add></fw>
 <lb/><p><note place="marginleft"><date when="1871-04-26">1871 <lb/>April <lb/>26<hi rend="sup">th</hi></date></note> Called nine <orgName>slaves</orgName> bought by <orgName><persName>Abed</persName>'s 
-<lb/>people</orgName> from the <placeName><region><term type="tribe">Kuss</term> country</region></placeName> <placeName><region>West of 
+<lb/>people</orgName> from the <placeName><region><term type="tribe"><choice><orig>Kuss</orig><reg>Bakuss</reg></choice></term> country</region></placeName> <placeName><region>West of 
 <lb/>the <placeName><geogName type="river">Lualaba</geogName></placeName></region></placeName> and asked them about 
 <lb/>their tribes and country - One with his 
 <lb/>upper front teeth extracted was of the 
@@ -637,12 +641,12 @@
 <lb/>months and gained a hundred frasilahs 
 <lb/>of copper or 3500 <choice><abbr>lbs</abbr><expan>pounds</expan></choice>.</p> 
 <lb/><p><note place="marginleft"><date when="1871-05-01">May 1<hi rend="sup underline">st</hi></date></note> <orgName><persName>Katomba</persName>'s people</orgName> arrived from the 
-<lb/><term type="tribe">Babira</term> where they sold all their copper 
+<lb/><term type="tribe"><choice><orig>Babira</orig><reg>Bira</reg></choice></term> where they sold all their copper 
 <lb/>at two rings for a tusk and then found 
 <lb/>that abundance of ivory still remained
 <lb/>Door posts and house pillars had been 
 <lb/>made of ivory now rotten - <orgName>People 
-<lb/>of <term type="tribe">Babira</term></orgName> kill <term type="animal">elephants</term> now and 
+<lb/>of <term type="tribe"><choice><orig>Babira</orig><reg>Bira</reg></choice></term></orgName> kill <term type="animal">elephants</term> now and 
 <lb/>brought tusks by the dozen - till the 
 <lb/><term type="occupation">traders</term> get so many they carried them 
 <lb/>by three relays - They dress their hair 
@@ -668,7 +672,7 @@
 
     <pb facs="liv_000019_0674" n="0674"/> 
 <lb/><fw n="674"><add place="inspace" rend="gray left" hand="#U">674</add></fw>
-<lb/><note place="marginleft"><date when="1871-05-03">1871 <lb/>May <lb/>3</date>-<date when="1871-05-04">4<hi rend="sup">th</hi></date></note> into the <term type="tribe">Babira</term> ivory market yet 
+<lb/><note place="marginleft"><date when="1871-05-03">1871 <lb/>May <lb/>3</date>-<date when="1871-05-04">4<hi rend="sup">th</hi></date></note> into the <term type="tribe"><choice><orig>Babira</orig><reg>Bira</reg></choice></term> ivory market yet 
 <lb/>he tried to secure a canoe for me 
 <lb/>before he went - He was too eager 
 <lb/>and a <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> man took <w>ad- 
@@ -702,7 +706,7 @@
 <lb/>was naturally inclined to believe his 
 <lb/>false statements and get off to the 
 <lb/>ivory market - His people came 
-<lb/>from the <placeName><region><term type="tribe">Kuss</term> country</region></placeName> in the West 
+<lb/>from the <placeName><region><term type="tribe"><choice><orig>Kuss</orig><reg>Bakuss</reg></choice></term> country</region></placeName> in the West 
 <lb/>with 16 tusks and a great many 
 <lb/><orgName>slaves</orgName> bought &amp; not murdered for</p> 
 
@@ -727,7 +731,7 @@
 <lb/>charm that could draw <seg type="weather">lightning</seg>
 <lb/>down - When it was afterwards 
 <lb/>attempted to force a path they darted 
-<lb/>aside on seeing the <orgName><term type="tribe">Banyamwezi</term>
+<lb/>aside on seeing the <orgName><term type="tribe"><choice><orig>Banyamwezi</orig><reg>Nyamwezi</reg></choice></term>
 <lb/>followers</orgName> putting the arrows into the 
 <lb/>bowstrings but stood in mute 
 <lb/>amazement looking at the guns 
@@ -811,7 +815,7 @@
 <lb/><orgName>slaves</orgName> who had no honour and 
 <lb/>no interest in going into danger
 <lb/>the wages appointed by <persName>Ludha</persName> were
-<lb/>double <orgName>freemans</orgName> pay but they
+<lb/>double <choice><sic><orgName>freeman</orgName>s</sic><corr><orgName>freeman</orgName>'s</corr></choice> pay but they
 <lb/>cared nothing for what was to be
 <lb/>their <orgName><term type="occupation">masters</term></orgName> - The <orgName>slaves</orgName> too 
 <lb/>joined in the slander and my
@@ -909,7 +913,7 @@
 <lb break="no"/>man</w></term> who beguiled him as I soon found 
 <lb/>and delivered the canoe he had bought 
 <lb/>formally to me and went off down 
-<lb/>the <placeName><geogName type="river">Lualaba</geogName></placeName> on foot to buy the <term type="tribe">Babira</term> 
+<lb/>the <placeName><geogName type="river">Lualaba</geogName></placeName> on foot to buy the <term type="tribe"><choice><orig>Babira</orig><reg>Bira</reg></choice></term> 
 <lb/>ivory - I was to follow in the canoe 
 <lb/>and wait for him in the <placeName><geogName type="river">River Luira</geogName></placeName>
 <lb/>but soon I ascertained that the canoe 
@@ -1051,8 +1055,8 @@
 <lb/>and if a <term type="animal">fowl</term> is lost we know that 
 <lb/>it has been stolen by an <orgName><orgName>Arab</orgName> <orgName>slave</orgName></orgName>
 <lb/>When with <persName>Muhamad Bogharib</persName> we had 
-<lb/>all to keep our <term type="animal">fowls</term> at the <placeName><settlement type="village"><term type="tribe"><w>Man-
-<lb break="no"/>-yuema</w></term> villages</settlement></placeName> to prevent them being 
+<lb/>all to keep our <term type="animal">fowls</term> at the <placeName><settlement type="village"><term type="tribe"><choice><orig><w>Man-
+<lb break="no"/>-yuema</w></orig><reg><w>Man- <lb break="no"/>-yema</w></reg></choice></term> villages</settlement></placeName> to prevent them being 
 <lb/>stolen by our own <orgName>slaves</orgName> - and it 
 <lb/>is so here - <persName>Hassani</persName> denies <w>com<supplied>-</supplied> 
 <lb break="no"/>plicity</w> with them but it is quite 
@@ -1288,7 +1292,7 @@
 <lb/>evidently thinks that I wish to carry it 
 <lb/>towards them with a high hand - I did 
 <lb/>explain all the exploration I intended to 
-<lb/>do -The <placeName><geogName type="fountain">fountains of <persName>Herodotus</persName></geogName></placeName> - beyond 
+<lb/>do -The <placeName><geogName type="source">fountains of <persName>Herodotus</persName></geogName></placeName> - beyond 
 <lb/><placeName><region>Katanga</region></placeName> - <placeName><region>Katanga</region></placeName> itself and the <w>under<supplied>-</supplied> 
 <lb break="no"/>ground</w> dwellings then return - They 
 <lb/>made no remarks - They are evidently 
@@ -1478,7 +1482,7 @@
 <lb/>of life at between 300 &amp; 400 souls - The 
 <lb/><orgName>shooting party</orgName> near the canoes were 
 <lb/>so reckless they killed two of their 
-<lb/>own people and a <term type="tribe">Banyamwezi</term>
+<lb/>own people and a <term type="tribe"><choice><orig>Banyamwezi</orig><reg>Nyamwezi</reg></choice></term>
 <lb/>follower who got into a deserted canoe 
 <lb/>plundering fell into the water Went 
 <lb/>down then came up again and down 
@@ -1591,7 +1595,7 @@
 <lb/>their husbands and about 33 canoes 
 <lb/>left in the creek are to be kept for the 
 <lb/>owners too -</p> 
-<lb/><p><note place="marginleft">12 <choice><sic>A.M.</sic><corr>P.M.</corr></choice></note> - <choice><sic>shooting</sic><corr>Shooting</corr></choice> still going on on the other side 
+<lb/><p><note place="marginleft">12 <choice><sic>A.M.</sic><corr>P.M.</corr></choice></note> <choice><sic>shooting</sic><corr>Shooting</corr></choice> still going on on the other side 
 <lb/>and many <orgName>captives</orgName> caught - At 1 P.M. 
 <lb/><orgName><persName>Tagamoio</persName>'s people</orgName> began to cross 
 <lb/>over in canoes beating their drums 
@@ -1861,7 +1865,7 @@
 <lb/>never be good - If he does not put 
 <lb/>of his <choice><sic>comliness</sic><corr>comeliness</corr></choice> on me I shall never 
 <lb/>be comely in soul but <add place="below">^</add> <add place="above">be</add> like these 
-<lb/><orgName>Arabs</orgName> in whom <persName>Satan</persName> has full 
+<lb/><orgName>Arabs</orgName> in whom Satan has full 
 <lb/>sway - the god of this world having 
 <lb/>blinded their eyes -</p>
 
@@ -1942,7 +1946,7 @@
 <lb/>goods to <placeName><settlement type="village">Ujiji</settlement></placeName> - This will increase 
 <lb/>our numbers and perhaps safety 
 <lb/>among the justly irritated people 
-<lb/>between this and <placeName><settlement type="town">Bambarre</settlement></placeName> - All are 
+<lb/>between this and <placeName><settlement type="village">Bambarre</settlement></placeName> - All are 
 <lb/>enjoined to help me and of course 
 <lb/>I must do the same to them.</p> 
 
@@ -1968,7 +1972,7 @@
 <lb/>those who feel inclined to shout to it - 
 <lb/>came to <placeName><settlement type="village"><persName>Mangala</persName>'s numerous villages</settlement></placeName>
 <lb/>and two <orgName>slaves</orgName> being ill rest on <date when="1871-08-01" cert="medium">Wednesday</date> 
-<lb/><note place="marginleft"><date when="1871-08-01">1<hi rend="sup underline">st</hi> <lb/>August <lb/>1871</date></note> A large market assembles close to us</p>
+<lb/><note place="marginleft" rend="other"><date when="1871-08-01">1<hi rend="sup underline">st</hi> <lb/>August <lb/>1871</date></note> A large market assembles close to us</p>
 <lb/><p><date when="1871-08-02">2<hi rend="sup underline">nd</hi></date> Left <placeName><settlement type="village"><persName>Mangala</persName>'s</settlement></placeName> and came 
 <lb/>through a great many villages all 
 <lb/>deserted on our approach on account 
@@ -2197,7 +2201,7 @@
 <lb/>but said go on and let our feast 
 <lb/>alone - did not want to be sneered 
 <lb/>at - The same <persName>Muanampunda</persName> or 
-<lb/><persName>Monanbonda</persName> told me fondly that 
+<lb/><persName><choice><orig>Monanbonda</orig><reg>Muanampunda</reg></choice></persName> told me fondly that 
 <lb/>they ate the man of <placeName><settlement type="village">Moezia</settlement></placeName> - They seem 
 <lb/>to eat their foes to inspire courage 
 <lb/>or in revenge - One point is very 
@@ -2247,7 +2251,7 @@
 <lb/>Pearls are said to be found in them 
 <lb/>but <choice><orig>boreing</orig><reg>boring</reg></choice> to string them has never been <!-- Misspell? HB --><!-- Fixed. AW -->
 <lb/>thought of - <foreign xml:lang="und"><hi rend="underline">Kanone</hi></foreign> = <foreign xml:lang="la"><term type="animal">Ibis religiosa</term></foreign>
-<lb/><foreign xml:lang="und"><term type="plant_foodstuff"><hi rend="underline">Uruko</hi></term></foreign> - <term type="tribe">Kuss</term> name of <term type="plant_foodstuff">coffee</term> -</p> 
+<lb/><foreign xml:lang="und"><term type="plant_foodstuff"><hi rend="underline">Uruko</hi></term></foreign> - <term type="tribe"><choice><orig>Kuss</orig><reg>Bakuss</reg></choice></term> name of <term type="plant_foodstuff">coffee</term> -</p> 
 <lb/><p>The <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> are so afraid of guns 
 <lb/>that a man borrows a gun to settle any 
 <lb/>dispute or claim - He goes with it over 
@@ -2261,7 +2265,7 @@
 <lb/><placeName><geogName type="spring"><hi rend="underline">Kula</hi></geogName></placeName> or <placeName><geogName type="spring">Nkula</geogName></placeName> - salt spring <choice><abbr>W</abbr><expan>West</expan></choice> of <placeName><settlement type="village">Nyangwe</settlement></placeName> 
 <lb/><placeName><geogName type="spring">Kalunda</geogName></placeName> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <placeName><geogName type="river">Kiria</geogName></placeName> rapid down river <!-- Adrian, not sure what the Dittos on the next two lines refers to? HB --><!-- Leave as is. AW -->
 <lb/><placeName><geogName type="islet">Kirila islet</geogName></placeName> in sight of <placeName><settlement type="village">Nyangwe</settlement></placeName> <placeName><geogName type="river">Magoya</geogName></placeName> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> 
-<lb/>Note The <term type="occupation">chief</term> <persName>Zurampela</persName> is about <choice><abbr>N W</abbr><expan>North West</expan></choice> of 
+<lb/>Note The <term type="occupation">chief</term> <persName><choice><orig>Zurampela</orig><reg>Surampela</reg></choice></persName> is about <choice><abbr>N W</abbr><expan>North West</expan></choice> of 
 <lb/><placeName><settlement type="village">Nyangwe</settlement></placeName> and <measure>3 days off</measure> - The <placeName><geogName type="river">Luive <choice><abbr>R.</abbr><expan>River</expan></choice></geogName></placeName>
 <lb/>of very red water is crossed and the larger 
 <lb/><placeName><geogName type="river"><note place="marginleft">Mabila</note> river</geogName></placeName> <choice><sic>recieves</sic><corr>receives</corr></choice> it into its very dark water 
@@ -2270,7 +2274,7 @@
     <pb facs="liv_000019_0714" n="0714"/> 
 <lb/><fw n="714"><add place="inspace" rend="gray left" hand="#U">714</add></fw>
 <lb/><p><note place="marginleft"><date when="1871-08"><choice><abbr>Aug.</abbr><expan>August</expan></choice> <lb/>? <lb/>1871 <lb/>copied</date></note> Notes <persName>Suleiman bin Juma</persName> lived
-<lb/>on the main land <placeName><settlement type="village">Mosessane</settlement></placeName> near
+<lb/>on the main land <placeName>Mosessane</placeName> near
 <lb/><placeName><geogName type="island">Zanzibar</geogName></placeName> - seems to have had <w>remark<supplied>-</supplied> 
 <lb break="no"/>able</w> foresight of events - <supplied>"</supplied>Preeminently
 <lb/>a good man, upright and sincere 
@@ -2297,12 +2301,12 @@
 <lb/>be as difficult of collection as <term type="insect">gnat</term>'s 
 <lb/>brains or <term type="insect">mosquito</term> tongues but 
 <lb/>I was assured that many <term type="animal">lions</term>
-<lb/>are killed on the <placeName><geogName type="highland"><term type="tribe">Basango</term> highland</geogName></placeName>
+<lb/>are killed on the <placeName><geogName type="highland"><term type="tribe"><choice><orig>Basango</orig><reg>Sangu</reg></choice></term> highland</geogName></placeName>
 <lb/>and they in common with all beasts 
 <lb/>there are extremely fat so it is not 
 <lb/>all difficult to buy a calabash of 
-<lb/>the preventive -and <term type="tribe"><w>Banyam-
-<lb break="no"/>wezi</w></term> desirous of taking <term type="animal">cattle</term> to <placeName><region>the 
+<lb/>the preventive -and <term type="tribe"><choice><orig><w>Banyam-
+<lb break="no"/>wezi</w></orig><reg><w>Banyam- <lb break="no"/>wezi</w></reg></choice></term> desirous of taking <term type="animal">cattle</term> to <placeName><region>the 
 <lb/>coast</region></placeName> for sale know the substance 
 <lb/>and use it successfully ? ?</p> 
 
@@ -2311,7 +2315,7 @@
 <lb/><p><note place="marginleft"><date when="1871-08">1871 <lb/>copied <lb/><choice><abbr>Aug.</abbr><expan>August</expan></choice></date></note> Note The <term type="animal"><hi rend="underline">Neggeri</hi></term> or <term type="animal"><hi rend="underline">Nyegeri</hi></term> a small 
 <lb/>animal attacks the <persName>τεϬτικλες</persName> of <!-- Is this in Greek? HB --><!-- Yes, Perikles. AW -->
 <lb/>of man and beast ferociously. <term type="animal">Buffaloes</term>
-<lb/>as I long ago heard from <term type="tribe">Makololo</term> are
+<lb/>as I long ago heard from <term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> are
 <lb/>often castrated by him and die - These who
 <lb/>know him squat down on being attacked
 <lb/>and defend themselves with a knife
@@ -2329,7 +2333,7 @@
 <lb/>may have covered the tabernacle if 
 <lb/>the animal skins were not those of the
 <lb/><term type="animal">Badger</term> -</p> 
-<lb/><p>The <term type="tribe">Babemba</term> mix a handful of <term type="plant_foodstuff">castor
+<lb/><p>The <term type="tribe"><choice><orig>Babemba</orig><reg>Bemba</reg></choice></term> mix a handful of <term type="plant_foodstuff">castor
 <lb/>oil seeds</term> with <foreign xml:lang="la"><term type="plant_foodstuff">dura</term></foreign> or <foreign xml:lang="und"><term type="plant_foodstuff">Meleza</term></foreign> (<term type="plant_foodstuff">millet</term>) 
 <lb/>and grind all together - <choice><sic>The</sic><corr>They</corr></choice> feel the 
 <lb/>need of only ingredients in these <w>farina<supplied>-</supplied> 
@@ -2350,13 +2354,13 @@
 <lb/><fw n="716"><add place="inspace" rend="gray left" hand="#U">716</add></fw>
 <lb/><note place="marginleft"><date when="1871-08">1871 <lb/><choice><abbr>Aug</abbr><expan>August</expan></choice> <lb/>copied</date></note> very large and it is applied to the 
 <lb/>river that divides <placeName><region>Rua</region></placeName> from <!-- geog: Lufira -->
-<lb/><placeName><region>Londa</region></placeName> or <placeName><region>Lunda</region></placeName> - <foreign xml:lang="und">Lua</foreign> means
+<lb/><placeName><region><choice><orig>Londa</orig><reg>Lunda</reg></choice></region></placeName> or <placeName><region>Lunda</region></placeName> - <foreign xml:lang="und">Lua</foreign> means
 <lb/>river - <foreign xml:lang="und">Lui</foreign> = water - <placeName><geogName type="river">Lualaba</geogName></placeName> seems
 <lb/>to have the idea of flowing grandly</p> 
 <lb/><p><note place="marginleft"><hi rend="underline">Note</hi></note> <foreign xml:lang="und"><term type="animal">Kondohondo</term></foreign> or <foreign xml:lang="und"><term type="animal">Sassassa</term></foreign> the 
 <lb/><foreign xml:lang="la"><term type="animal"><hi rend="underline">Buceros cristata</hi></term></foreign> - The large <term type="animal">double <!-- Not sure what language Buceros cristata is?? Looks Spanish, but possibly Latin?? (couldn't find definitive origin online.) HB --><!-- Latin. AW -->
 <lb/>billed Horn bill</term> called <foreign xml:lang="und"><term type="animal">Kangomira</term></foreign>
-<lb/>on the Shire shot at <placeName><settlement type="town">Bambarre</settlement></placeName> 
+<lb/>on the Shire shot at <placeName><settlement type="village">Bambarre</settlement></placeName> 
 <lb/>is good eating if well cooked
 <lb/>and has orange coloured fat like
 <lb/>the <term type="animal">Zebra</term> - I keep the bill to make 
@@ -2374,7 +2378,7 @@
 <lb/>and something in the arrangement 
 <lb/>of the fibres of the horn bill
 <lb/>which he had noticed before led
-<lb/>him to go into <orgName>the Museum</orgName> and <!-- geog:  -->
+<lb/>him to go into the <orgName>Museum</orgName> and <!-- geog:  -->
 <lb/>bring out a head of <foreign xml:lang="la"><term type="animal">Buceros
 <lb/>Cristata</term></foreign> - a preserved specimen 
 <lb/>of this very bird -"God is great"
@@ -2389,8 +2393,9 @@
     <pb facs="liv_000019_0717" n="0717"/> 
 <lb/><fw n="717"><add place="inspace" rend="gray right" hand="#U">717</add></fw>
 <lb/><p><note place="marginleft"><date when="1871-08">1871 <lb/><choice><abbr>Aug.</abbr><expan>August</expan></choice> <lb/>copied</date></note> Notes - The <foreign xml:lang="und"><term type="animal">soko</term></foreign> or <term type="animal"><choice><orig>gorrilah</orig><reg>gorilla</reg></choice></term> has in <!-- Misspelling of gorilla/h transcription or DL? HB --><!-- OK. AW -->
-<lb/>general a good character from the <term type="tribe"><w>Man-
-<lb break="no"/>yuema</w></term> but he is cunning and not 
+<lb/>general a good character from the <term type="tribe"><choice><orig><w>Man-
+<lb break="no"/>yuema</w></orig><reg><w>Man-
+<lb break="no"/>-yema</w></reg></choice></term> but he is cunning and not 
 <lb/>devoid of a species of humour He
 <lb/>is said to stalk men and women very
 <lb/>successfully when engaged in fieldwork
@@ -2413,7 +2418,7 @@
 <lb/>companions could come <foreign xml:lang="und"><term type="animal">soko</term></foreign> had 
 <lb/>bitten off the ends of four fingers &amp; 
 <lb/>escaped unharmed Both men are now 
-<lb/>alive at <placeName><settlement type="town">Bambarre</settlement></placeName> and all believe the
+<lb/>alive at <placeName><settlement type="village">Bambarre</settlement></placeName> and all believe the
 <lb/>above statement to be true -</p> 
 <lb/><p><foreign xml:lang="und"><term type="animal">Soko</term></foreign> has very sharp eyes and no one
 <lb/>can stalk him in front without being seen
@@ -2421,7 +2426,7 @@
 <lb/>or shot in the back - I saw four 
 <lb/>killed in one day all with back wounds
 <lb/><persName>Muhamad</persName>'s <term type="occupation">hunter</term> saw one near to
-<lb/><placeName><settlement type="town">Bambarre</settlement></placeName> carefully examining <add place="above">&amp; picking</add> his
+<lb/><placeName><settlement type="village">Bambarre</settlement></placeName> carefully examining <add place="above">&amp; picking</add> his
 <lb/>finger nails, which he tried to get near 
 <lb/>he was gone - Two nests were made 
 <lb/>by <foreign xml:lang="und"><term type="animal">sokos</term></foreign> <measure>about a mile</measure> from my hut 
@@ -2433,7 +2438,7 @@
 <lb/>objected so strongly I yielded to them
 <lb/>By lying in ambush they speared one of 
 <lb/>them - When newly killed his ugliness 
-<lb/>is quite appalling - The likeness of <persName>Satan</persName> 
+<lb/>is quite appalling - The likeness of Satan 
 <lb/>in the <placeName><settlement type="city"><w>Nin<del type="cancelled">n</del>eveh</w></settlement></placeName> marbles is not <choice><sic>have</sic><corr>half</corr></choice>
 <lb/>so ugly as he - When seen in the Forest 
 <lb/>in a path he often walks upright with 
@@ -2454,7 +2459,7 @@
 <lb/>He is able to hold his antagonist down 
 <lb/>At least so say the <orgName>natives</orgName> - many came 
 <lb/>down in the forest about a hundred yards
-<lb/>from our <placeName><settlement type="town">Bambarre</settlement></placeName> camp and 
+<lb/>from our <placeName><settlement type="village">Bambarre</settlement></placeName> camp and 
 <lb/>would not have been known except 
 <lb/>by their giving tongue like <term type="animal">fox hounds</term>
 <lb/>He draws out a spear from his own 
@@ -2531,7 +2536,7 @@
 <lb/>life three times in one day - The Lord is 
 <lb/>good a stronghold in the day of trouble and 
 <lb/>he knows them that trust in him -</p> 
-<lb/><p><note place="marginleft"><date when="1871-08-12">12<hi rend="sup underline">th</hi></date></note> <orgName><persName>Mamohela</persName> camp</orgName> all burned off 
+<lb/><p><note place="marginleft"><date when="1871-08-12">12<hi rend="sup underline">th</hi></date></note> <placeName><settlement><placeName><settlement type="village">Mamohela</settlement></placeName> camp</settlement></placeName> all burned off 
 <lb/>we sleep at <placeName><settlement type="village">Mamohela village</settlement></placeName></p> 
 <lb/><p><note place="marginleft"><date when="1871-08-13">13<hi rend="sup underline">th</hi></date></note> At a village on <placeName><region>bank of <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Lolindi</geogName></placeName></region></placeName>
 <lb/>suffering greatly - A man brought 
@@ -2545,7 +2550,7 @@
 
     <pb facs="liv_000019_0721" n="0721"/> 
 <lb/><fw n="721"><add place="inspace" rend="gray right" hand="#U">721</add></fw>
-<lb/><p><note place="marginleft"><date when="1871-08-14">1871 <lb/>14<hi rend="sup">th</hi> <lb/><choice><abbr>Aug.</abbr><expan>August</expan></choice></date></note> Across many brisk burns to a village 
+<lb/><p><note place="marginleft" rend="other"><date when="1871-08-14">1871 <lb/>14<hi rend="sup">th</hi> <lb/><choice><abbr>Aug.</abbr><expan>August</expan></choice></date></note> Across many brisk burns to a village 
 <lb/>on the side of a mountain range</p> 
 <lb/><p><seg type="weather">First rains <date when="1871-08-12">12<hi rend="sup underline">th</hi></date> &amp; <date when="1871-08-14">14<hi rend="sup underline">th</hi></date> gentle but near 
 <lb/><placeName><geogName type="river">Luamo</geogName></placeName> it ran in the paths &amp; caused dew</seg></p> 
@@ -2559,16 +2564,16 @@
 <lb/><p><note place="marginleft"><date when="1871-08-18">18<hi rend="sup underline">th</hi></date></note> Reached <persName>Katomba</persName> at <placeName><settlement type="village"><persName>Moenemgoi</persName>'s</settlement></placeName> &amp; welcomed 
 <lb/>by all the heavily laden <orgName><orgName>Arab</orgName> <term type="occupation">traders</term></orgName> - They 
 <lb/>carry their trade spoil in three relays 
-<lb/><placeName><settlement type="village">Kenyengere attacked</settlement></placeName> before I came &amp; 150 
+<lb/><placeName><settlement type="village">Kenyengere</settlement></placeName> attacked before I came &amp; 150 
 <lb/><orgName>captives</orgName> taken - about 100 slain - this is 
 <lb/>an old feud of <persName>Moenemgoi</persName> which the 
 <lb/><orgName>Arabs</orgName> took up for their own gain - No 
 <lb/>news whatever from <placeName><settlement type="village">Ujiji</settlement></placeName> and <persName><choice><abbr>M.</abbr><expan>Muhamad</expan></choice> 
-<lb/>Bogharib</persName> is still at <placeName><settlement type="town">Bambarre</settlement></placeName> with all 
+<lb/>Bogharib</persName> is still at <placeName><settlement type="village">Bambarre</settlement></placeName> with all 
 <lb/>my letters</p> 
 <lb/><p><note place="marginleft"><date when="1871-08-19">19<hi rend="sup underline">th</hi></date></note> <date when="1871-08-20">20<hi rend="sup underline">th</hi></date> rest from weakness - <date when="1871-08-21">21<hi rend="sup underline">st</hi></date> up to the 
 <lb/>Palms on the <placeName><region>West of <placeName><geogName type="mountain"><choice><abbr>Mt</abbr><expan>Mountain</expan></choice> Kanyima Pass</geogName></placeName></region></placeName>.</p> 
-<lb/><p><date when="1871-08-22">22<hi rend="sup underline">d</hi></date> <placeName><settlement type="town">Bambarre</settlement></placeName> - <date when="1871-08-28">28<hi rend="sup underline">th</hi></date> Better &amp; thankful 
+<lb/><p><date when="1871-08-22">22<hi rend="sup underline">d</hi></date> <placeName><settlement type="village">Bambarre</settlement></placeName> - <date when="1871-08-28">28<hi rend="sup underline">th</hi></date> Better &amp; thankful 
 <lb/><orgName><persName>Katomba</persName>'s party</orgName> has nearly a thousand 
 <lb/><foreign xml:lang="und">Frasilahs</foreign> of ivory and <orgName><persName>Muhamad</persName>'s</orgName> has 
 <lb/>300 <foreign xml:lang="und">frasilahs</foreign></p> 
@@ -2577,7 +2582,7 @@
 <lb/><p rend="no-indent"><figure><figDesc>Astronomical calculation.</figDesc></figure> <choice><sic>at</sic><corr>At</corr></choice> bottom of range Highest <choice><abbr>pt</abbr><expan>point</expan></choice> 
 <lb/>on South side of range 
 <lb/><figure rend="right"><figDesc>Astronomical calculation.</figDesc></figure></p> 
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-08-31">31 <hi rend="sup underline">st</hi></date></note> Up and half over the mountain range and <!-- geog: Kanyima Pass, I think. HB -->
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-08-31">31<hi rend="sup underline">st</hi></date></note> Up and half over the mountain range and <!-- geog: Kanyima Pass, I think. HB -->
 <lb/><note place="marginleft"><date when="1871-09-01">1<hi rend="sup">st</hi> <lb/>Sep<hi rend="sup underline">r</hi></date></note> <choice><sic>and</sic><corr/></choice> sleep in dense forest with several fine 
 <lb/>running streams</p> 
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1871-09-02"> 2<hi rend="sup underline">d</hi></date></note> <choice><sic>over</sic><corr>Over</corr></choice> the range and down on to a marble 
@@ -2649,7 +2654,7 @@
 <lb/>in the forest much better than huts in the 
 <lb/>villages for we have no mice or vermin 
 <lb/>and incur no obligation -</p> 
-<lb/><p><note place="marginleft"><date when="1871-09-19">19<hi rend="sup underline">th</hi></date></note> Found that <term type="tribe">Barua</term> are destroying all the 
+<lb/><p><note place="marginleft"><date when="1871-09-19">19<hi rend="sup underline">th</hi></date></note> Found that <term type="tribe"><choice><orig>Barua</orig><reg>Luba</reg></choice></term> are destroying all the 
 <lb/><term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> villages not stockaded 
 <lb/>We came <placeName><settlement type="village"><persName>Kunda</persName>'s</settlement></placeName> on the <placeName><geogName type="river"><choice><abbr>R<hi rend="sup">r</hi></abbr><expan>River</expan></choice> Katenuba</geogName></placeName></p> 
 <lb/><p><note place="marginleft"><date when="1871-09-20">20<hi rend="sup underline">th</hi></date></note> <choice><sic>through</sic><corr>Through</corr></choice> great plantations of <term type="plant_foodstuff">Cassava</term>. 
@@ -2681,14 +2686,14 @@
 <lb/><p><note place="marginleft"><date when="1871-09-22">22<hi rend="sup underline">nd</hi></date></note> Caravan goes Northwards and we 
 <lb/>rest and eat the <term type="occupation">sheep</term> kindly presented</p> 
 <lb/><p><note place="marginleft"><date when="1871-09-23">23<hi rend="sup underline">d</hi></date></note> - We now passed through the <placeName><region>country 
-<lb/>of mixed <term type="tribe">Barua</term> and <term type="tribe">Baguha</term></region></placeName> - 
+<lb/>of mixed <term type="tribe"><choice><orig>Barua</orig><reg>Luba</reg></choice></term> and <term type="tribe">Baguha</term></region></placeName> - 
 <lb/><note place="marginleft"><placeName><geogName type="river"><w>Loñgu<supplied>-</supplied> <lb/>-mba</w></geogName></placeName></note> crossed the <placeName><geogName type="river"><choice><abbr>R<hi rend="sup">r</hi></abbr><expan>River</expan></choice> <w>Lo<add place="below">^</add> <add place="above">n</add>gumba</w></geogName></placeName> twice &amp; <!-- Adrian, not sure if my tagging of the Logumba note across lines is the best - can you check? HB --><!-- OK. AW -->
 <lb/>then came near the great mountain 
 <lb/>mass on <placeName><region>West of <placeName><geogName type="lake">Tanganyika</geogName></placeName></region></placeName>
 <lb/>From <placeName><settlement type="village"><persName>Mokwaniwa</persName>'s</settlement></placeName> to <placeName><geogName type="lake"><w>Tangan- 
 <lb break="no"/>-yika</w></geogName></placeName> is about ten good marches 
 <lb/>country mostly Forest <metamark/>open - 
-<lb/>The <orgName><term type="tribe">Guha</term> people</orgName> not very friendly 
+<lb/>The <orgName><term type="tribe"><choice><orig>Guha</orig><reg>Baguha</reg></choice></term> people</orgName> not very friendly 
 <lb/>they know strangers too well to 
 <lb/><choice><orig>shew</orig><reg>show</reg></choice> kindness like <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> 
 <lb/>They are also keen <term type="occupation">traders</term> - I was 
@@ -2725,7 +2730,7 @@
 <lb/>We now came to the <placeName><geogName type="river">Lobumba <choice><abbr>R.</abbr><expan>River</expan></choice></geogName></placeName> 
 <lb/>which flows into <placeName><geogName type="lake">Tanganyika</geogName></placeName> and then 
 <lb/>to the village <placeName><settlement type="village">Loanda</settlement></placeName> - Sent to <persName>Kasanga</persName> 
-<lb/>the <term type="tribe">Guha</term> <term type="occupation">chief</term> for canoes - The <placeName><geogName type="river"><w>Longum<supplied>-</supplied> 
+<lb/>the <term type="tribe"><choice><orig>Guha</orig><reg>Baguha</reg></choice></term> <term type="occupation">chief</term> for canoes - The <placeName><geogName type="river"><w>Longum<supplied>-</supplied> 
 <lb break="no"/>-ba</w></geogName></placeName> rises like the <placeName><geogName type="river">Lobumba</geogName></placeName> in the <choice><abbr>Mn<hi rend="sup underline">ts</hi></abbr><expan>Mountains</expan></choice>
 <lb/>called <placeName><geogName type="river">Kabogo West</geogName></placeName> - We heard great 
 <lb/>noises as if thunder as far as <measure>12 - 
@@ -2786,7 +2791,7 @@
 <lb/><note place="marginleft"><date when="1871-10-24">1871 <lb/><choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice> <lb/>24<hi rend="sup underline">th</hi></date></note> that could be bought with my goods 
 <lb/>My property had been sold to <persName>Shereef</persName>'s 
 <lb/>friends at merely nominal prices - 
-<lb/><persName>Syed bin Madjid</persName> a good man proposed 
+<lb/><persName><choice><orig>Syed</orig><reg>Syde</reg></choice> bin <choice><orig>Madjid</orig><reg>Majid</reg></choice></persName> a good man proposed 
 <lb/>that they should be returned and the ivory 
 <lb/>be taken from <persName>Shereef</persName>, but they would 
 <lb/>not restore stolen property though they 
@@ -2798,7 +2803,7 @@
 <lb/>and fell among thieves but I could 
 <lb/>not hope for <term type="occupation">Priest</term> <orgName>Levite</orgName> or good 
 <lb/><orgName>Samaritan</orgName> to come by on either side -
-<lb/>but one morning <persName>Syed bin Majid</persName>
+<lb/>but one morning <persName><choice><orig>Syed</orig><reg>Syde</reg></choice> bin Majid</persName>
 <lb/>said to me "Now this is the first time 
 <lb/>we have been alone together - I have no 
 <lb/>goods, but I have ivory - Let me I pray 
@@ -2815,7 +2820,7 @@
 <lb/>was close at hand for one morning 
 <lb/><persName>Susi</persName> came running at the top of 
 <lb/>his speed &amp; gasped out "An <term type="person"><w>English<supplied>-</supplied> 
-<lb break="no"/><note place="marginleft">"</note> man</w></term> - I see him" and off he darted 
+<lb break="no"/><choice><orig><note place="marginleft">"</note> man</orig><reg>man</reg></choice></w></term> - I see him" and off he darted 
 <lb/>to meet him - The <term type="nationality">American</term> flag 
 <lb/>at the head of a caravan told of the 
 <lb/>nationality of the stranger - Bales 
@@ -2845,7 +2850,7 @@
 <lb/>not forgotten me in voting £1000 
 <lb/>for supplies, and many other 
 <lb/>points of interest revived emotions 
-<lb/><del>I</del><add place="inline">that</add> had lain dormant in <placeName><region>><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></region></placeName> - 
+<lb/><del>I</del><add place="inline">that</add> had lain dormant in <placeName><region><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></region></placeName> - 
 <lb/>Appetite returned, and instead of the 
 <lb/>spare tasteless two meals a day - I 
 <lb/>ate four times daily, and in a week 
@@ -2893,7 +2898,7 @@
 <lb/>returning to finish my task but my 
 <lb/>judgment said all your friends will 
 <lb/>wish you to make a <bibl>complete work of 
-<lb/>the exploration of <placeName><geogName type="source">the sources of the 
+<lb/>the exploration of the <placeName><geogName type="source">sources of the 
 <lb/><placeName><geogName type="river">Nile</geogName></placeName></geogName></placeName></bibl> before you retire = My daughter 
 <lb/><persName>Agnes</persName> says "Much as I wish you to 
 <lb/>come home I would rather that you 
@@ -2909,7 +2914,7 @@
 <lb/>all the rest -</p> 
 <lb/><p>It is all but certain that four 
 <lb/>fullgrown gushing fountains rise 
-<lb/>on the Watershed <measure>eight days South</measure>
+<lb/>on the <placeName><geogName type="watershed">Watershed</geogName></placeName> <measure>eight days South</measure>
 <lb/>of <placeName><region>Katanga</region></placeName> each of which at no 
 <lb/>great distance off becomes a large 
 <lb/>river - and two rivers thus 
@@ -2930,13 +2935,13 @@
 <lb/><placeName><geogName type="river">Lunga</geogName></placeName> (Lunga) <placeName><geogName type="fountain"><persName>Oswell</persName>'s <choice><abbr>ft<hi rend="sup">n</hi></abbr><expan>fountain</expan></choice></geogName></placeName>
 <lb/>is the <placeName><geogName type="river">Kafue</geogName></placeName> both flowing into 
 <lb/><placeName><region>Inner <placeName><country>Ethiopia</country></placeName></region></placeName> - It may be 
-<lb/>that these are not the <placeName><geogName type="fountain">fountains 
+<lb/>that these are not the <placeName><geogName type="source">fountains 
 <lb/>of the <placeName><geogName type="river">Nile</geogName></placeName></geogName></placeName> mentioned to <persName>Herodotus</persName> 
 <lb/>by the <term type="occupation">Secretary</term> of <persName>Minerva</persName>
 <lb/>in <placeName><settlement type="city">Sais</settlement></placeName> in <placeName><country>Egypt</country></placeName> but they 
 <lb/>are worth discovery as in the 
 <lb/><measure>last hundred of the seven hundred 
-<lb/>miles</measure> of <placeName><geogName type="watershed">the Watershed</geogName></placeName> from 
+<lb/>miles</measure> of the <placeName><geogName type="watershed"> Watershed</geogName></placeName> from 
 <lb/>which nearly all the <placeName><geogName type="spring"><placeName><geogName type="river">Nile</geogName></placeName> springs</geogName></placeName>
 <lb/>do unquestionably arise - I propose 
 <lb/>to go from <placeName><settlement type="town">Unyanyembe</settlement></placeName> to 
@@ -2947,7 +2952,7 @@
 <lb/><note place="marginleft"><date when="1871-11"><choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> =</date></note> of <placeName><geogName type="lake">Tanganyika</geogName></placeName> - <placeName><geogName type="river">Pambete</geogName></placeName> or <placeName><geogName type="river">Mbete</geogName></placeName>
 <lb/>then across the <placeName><geogName type="river"><choice><orig>Chambeze</orig><reg>Chambezi</reg></choice></geogName></placeName> and round 
 <lb/><placeName><region><add place="marginleft">South of</add> <placeName><geogName type="lake">Lake Bangweolo</geogName></placeName></region></placeName> and due West to 
-<lb/>the <placeName><geogName type="fountain">Ancient Fountains</geogName></placeName> - Leaving the 
+<lb/>the <placeName><geogName type="source">Ancient Fountains</geogName></placeName> - Leaving the 
 <lb/>underground excavations till after 
 <lb/>visiting <placeName><region>Katanga</region></placeName> - This route will 
 <lb/>serve to certify that no other <placeName><geogName type="source">sources 
@@ -2962,7 +2967,7 @@
 <lb/><p><persName>M<hi rend="sup underline">r</hi> Stanley</persName> had been <unclear cert="low">mulcted</unclear> of
 <lb/>a very large quantity of goods by his
 <lb/><term type="occupation">guide</term> taking to the <term type="tribe">Wavinza</term> and
-<lb/><placeName><region><term type="occupation">Uha</term> country</region></placeName> where the "<foreign xml:lang="und">honga</foreign>" is
+<lb/><placeName><region><term type="tribe">Uha</term> country</region></placeName> where the "<foreign xml:lang="und">honga</foreign>" is
 <lb/>shameless robbery accompanied
 <lb/>with insult. To avoid this he proposed
 <lb/>to go along <placeName><geogName type="lake">Tanganyika</geogName></placeName> Southwards

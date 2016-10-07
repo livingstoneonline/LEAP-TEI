@@ -34,7 +34,7 @@
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
 				<meta charset="UTF-8"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-1871.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-1871-html.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[1]"/>
 				</title>
@@ -58,7 +58,7 @@
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
 			<div class="TEI">
-				<span class="idno">project id: <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/><br/>
+				<span class="project-id">[project id: <xsl:value-of select="//idno[@type='LEAP-ID']"/>]</span><br/><br/><br/>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
 					<xsl:when test="$isPaged='true' and //jc:page[@n=$pagenumber]">
@@ -419,19 +419,19 @@
 		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="head and $newFigDesc/text()">
-				<span class="figure" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="head and not($newFigDesc/text())">
-				<span class="figure" title="{concat('&quot;', head, '.&quot; ')}">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', head, '.&quot; ')}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="not(head) and $newFigDesc/text()">
-				<span class="figure" title="{$newFigDesc}">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{$newFigDesc}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="..//graphic">
 				<span class="graphic"><a href="{$graphicURL}"><img src="{$graphicURL}" style="width:100%;"/></a></span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="figure">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}">{figure}</span>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>

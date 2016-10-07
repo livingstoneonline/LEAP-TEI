@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-UJ.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-UJ-html.xsl" type="text/xsl"?>
 <!--<?xml-stylesheet href="transcription-UJ.xsl" type="text/xsl"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_015005">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Unyanyembe Journal (1870 Field Diary Segment), 23 July 1870-21 March 1871</title>
+                <title>Unyanyembe Journal (1870 Field Diary Segment)</title>
+                <title type="alternative">Unyanyembe Journal (1870 Field Diary Segment), 28 January 1866-5 March 1872</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
@@ -70,9 +71,10 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Unyanyembe Journal (1870 Field Diary Segment), 23 July 1870-21 March 1871</title>
+                    <title type="alternative">Unyanyembe Journal (1870 Field Diary Segment), 28 January 1866-5 March 1872</title>
                     <author xml:id="DL">David Livingstone</author>
-                    <date type="composition" from="1870-07-23" to="1871-03-21">23 July 1870-21 March 1871</date>
+                    <date type="composition" from="1866-01-28" to="1872-03-05">28 January 1866-5 March 1872</date>
+                    <placeName type="compositionPlace">Unyanyembe</placeName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -81,6 +83,8 @@
                 <language ident="en">English</language>
                 <language ident="la">Latin</language>
                 <language ident="grk">Greek</language>
+				<language ident="nym">Nyamwezi</language>
+				<language ident="fa">Persian</language>
 				<language ident="swh">Swahili</language>
                 <language ident="und">Undetermined</language>
             </langUsage>
@@ -237,7 +241,7 @@
 
 	<pb facs="liv_000019_0623" n="0623"/>
 <lb/><fw n="617"><add place="inspace" rend="gray right" hand="#U">617</add></fw>
-<lb/><p><note place="marginleft"><date when="1870-12"><choice><abbr>Dec <hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> <lb/>1870.</date></note> <term type="foodstuff">Rice</term> sown on <date when="1870-10-19">19<hi rend="sup underline">th</hi> October</date> was in ear in 70 days
+<lb/><p><note place="marginleft"><date when="1870-12"><choice><abbr>Dec <hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> <lb/>1870.</date></note> <term type="foodstuff_plant">Rice</term> sown on <date when="1870-10-19">19<hi rend="sup underline">th</hi> October</date> was in ear in 70 days
 <lb/>a <term type="animal">leopard</term> killed my <term type="animal">goat</term> and a gun set for
 <lb/>him went off at 10 PM - the ball broke both 
 <lb/>hind legs and one foreleg yet he had power to
@@ -246,21 +250,21 @@
 <lb/>8 <choice><abbr>in.</abbr><expan>inches</expan></choice> from tip of nose to end of tail - </p>
 <lb/><p><space extent="3" unit="words"/><date when="1871-01-01">1<hi rend="sup underline">st</hi> January 1871</date> - Oh Father help
 <lb/>me to finish this work to thy honour - still 
-<lb/>detained at <placeName><settlement type="town">Bambarre</settlement></placeName> - but a caravan of 
+<lb/>detained at <placeName><settlement type="village">Bambarre</settlement></placeName> - but a caravan of 
 <lb/>500 muskets is reported from <placeName><region>the coast</region></placeName> - 
 <lb/><note place="marginleft"><date when="1871-01-27"><choice><abbr>Jany</abbr><expan>January</expan></choice> <lb/>27<hi rend="sup underline">th</hi> <lb/>1871</date></note> It may bring me other men and goods
 <lb/><orgName>Safari or caravan</orgName> reported to be near and 
 <lb/>my men and goods at <unclear cert="medium"><placeName><settlement type="village">Ujiji</settlement></placeName></unclear></p>
 <lb/><p><date when="1871-02-04">February 4<hi rend="sup underline">th</hi></date> 7 <orgName>slaves</orgName> come to me from
-<lb/><placeName><region>the coast</region></placeName> and three <foreign xml:lang="swh"><term type="occupation">Pagazi</term></foreign><!--unsure of this term. EC--><!--Couldn't figure out what to tag it as, but it's a Swahili word according to Google -AK--><!-- Fixed. AW --><!-- This has been previously tagged as und as well as occupation, so I will add to list of global edits to fix across. HB --> - I was overjoyed 
+<lb/><placeName><region>the coast</region></placeName> and three <foreign xml:lang="nym"><term type="occupation">Pagazi</term></foreign><!--unsure of this term. EC--><!--Couldn't figure out what to tag it as, but it's a Swahili word according to Google -AK--><!-- Fixed. AW --><!-- This has been previously tagged as und as well as occupation, so I will add to list of global edits to fix across. HB --> - I was overjoyed 
 <lb/>but did not then know that I had <choice><sic>recieved</sic><corr>received</corr></choice>
 <lb/><orgName>slaves</orgName> instead of men - they called <w>them<supplied>-</supplied>
-<lb break="no"/>selves</w> <foreign xml:lang="und">Laskars</foreign> and came without loads -
+<lb break="no"/>selves</w> <foreign xml:lang="fa"><choice><orig>Laskars</orig><reg>Lascars</reg></choice></foreign> and came without loads -
 <lb/>of eight pieces of calico &amp; 7 of <foreign xml:lang="und">Kanike</foreign> I
 <lb/>clothed them all gratuitously - on the day of 
 <lb/>their arrival one of my worthless lot from
 <lb/><placeName><settlement type="city"><choice><orig>Nassik</orig><reg>Nassick</reg></choice></settlement></placeName> who refused to go North for fear
-<lb/>of death was killed by the <term type="tribe"><w>Man<subst><del>uy</del><add place="over-text">yu</add></subst>ema</w></term> as he
+<lb/>of death was killed by the <term type="tribe"><w>Man<subst><del>uy</del><add place="over-text"><choice><orig>yu</orig><reg>y</reg></choice></add></subst>ema</w></term> as he
 <lb/>went to buy food - the murderer was caught
 <lb/><note place="marginleft"><date when="1871-02-10">10</date></note> the <orgName>slaves</orgName> mutiny and refuse to go North
 <lb/>swore that the <term type="occupation">consul</term> had told them not to go
@@ -459,7 +463,7 @@
 <lb/>from scepticism to faith and back again <!-- Is scepticism a British variant on skepticism, or a misspell? HB -->
 <lb/>to doubt of all but a modified use of human
 <lb/>flesh as charms - and then to the opinion 
-<lb/>that in some districts of <placeName><settlement type="town">Bambarre</settlement></placeName> human
+<lb/>that in some districts of <placeName><settlement type="village">Bambarre</settlement></placeName> human
 <lb/>flesh is devoured in horrible nocturnal
 <lb/>ogres in the dark forests - I gave a large 
 <lb/>sum to be privately invited to witness 
@@ -484,7 +488,7 @@
 <lb/>them - now they are ashamed of a 
 <lb/>practice which all strangers denounce 
 <lb/>but it is still common to devour 
-<lb/>the dead in <placeName><settlement type="town">Bambarre</settlement></placeName> - Women are 
+<lb/>the dead in <placeName><settlement type="village">Bambarre</settlement></placeName> - Women are 
 <lb/>debarred from partaking of human flesh -</p>
 
 	<pb facs="liv_000019_0647" n="0647"/>
@@ -501,7 +505,7 @@
 <lb/>dead - but they were innocent - they were 
 <lb/>threatened with reprisals of their living children
 <lb/>if they stole our dead - <persName>Posho</persName>'s wife died, and 
-<lb/>in <term type="tribe">Banyamwezi</term> fashion she was thrown
+<lb/>in <term type="tribe"><choice><orig>Banyamwezi</orig><reg>Nyamwezi</reg></choice></term> fashion she was thrown
 <lb/>away about <measure>200 yards</measure> from the camp <w>un-
 <lb break="no"/>-buried</w> - the threat was effectual neither men
 <lb/>nor <term type="animal">hyaenas</term> touched her body though we 
@@ -535,7 +539,7 @@
 <lb/>wished to kill anyone she would do as well
 <lb/>as any other! The murderer escaped - He
 <lb/>said that he thought the woman killed meant
-<lb/>to bewitch - The foregoing refers to <placeName><settlement type="town">Bambarre</settlement></placeName>
+<lb/>to bewitch - The foregoing refers to <placeName><settlement type="village">Bambarre</settlement></placeName>
 <lb/>alone, in other districts graves appear -
 <lb/>here none are seen. A <term type="occupation">chief</term> <measure>about a day
 <lb/>distant</measure> killed eleven persons when we
@@ -563,7 +567,7 @@
 <lb/>runs up a tree with it evidently amused
 <lb/>with its screaming - a wise woman
 <lb/>runs off at once and brings a bunch
-<lb/>of small <term type="foodstuff">bananas</term> which he is very
+<lb/>of small <term type="plant_foodstuff">bananas</term> which he is very
 <lb/>fond <choice><sic>off</sic><corr>of</corr></choice> - lays it on the ground
 <lb/>in his sight and retires a little way
 <lb/>off. <foreign xml:lang="und"><term type="animal">Soko</term></foreign> comes down and in lifting
@@ -616,7 +620,7 @@
 <lb/>before all go into the great <placeName><geogName type="river">Lualaba</geogName></placeName>
 <lb/>but without one as a <term type="occupation">guide</term> no one
 <lb/>can put them in a <bibl>map</bibl>. We came to
-<lb/><placeName><settlement type="village"><persName>Monanbunda</persName>'s villages</settlement></placeName> &amp; spent the
+<lb/><placeName><settlement type="village"><persName><choice><orig>Monanbunda</orig><reg>Muanampunda</reg></choice></persName>'s villages</settlement></placeName> &amp; spent the
 <lb/><note place="marginleft"><date when="1871-03-03">3<hi rend="sup underline">th</hi></date></note> night - our next stage was at <placeName><settlement type="village"><persName>Monangongo</persName></settlement></placeName>
 <lb/>a small present of a few strings of
 <lb/>beads satisfies but is not asked -
@@ -636,8 +640,8 @@
 <lb/>trees and vegetation that touch our
 <lb/>arms on each side - We came to 
 <lb/>some villages among beautiful
-<lb/>tree covered hills called <placeName><geogName type="hill">Basilañge</geogName></placeName>
-<lb/>or <placeName><geogName type="hill">Mobasilange</geogName></placeName> - villages very
+<lb/>tree covered hills called <placeName><geogName type="hill"><choice><orig>Basilañge</orig><reg>Bazilange</reg></choice></geogName></placeName>
+<lb/>or <placeName><geogName type="hill"><choice><orig>Mobasilange</orig><reg>Bazilange</reg></choice></geogName></placeName> - villages very
 <lb/>pretty and standing on slopes - the
 <lb/>main street generally lies East &amp;
 <lb/>West to allow the bright sun to
@@ -811,14 +815,14 @@
 <lb/>ignorance that she was thereby risking
 <lb/>the spoiling of her own beautiful skin</p>
 <lb/><p>On leaving <placeName><settlement type="village"><persName>Mangara</persName>'s</settlement></placeName> we marched
-<lb/><measure>about five hours across</measure> <placeName><geogName type="prairie">Buga</geogName></placeName> or 
+<lb/><measure>about five hours across</measure> <placeName><geogName type="plain"><choice><orig>Buga</orig><reg>Mbuga</reg></choice></geogName></placeName> or 
 <lb/>Prairie covered with grass but without
 <lb/>bushes or trees - <seg type="weather">The torrid sun from
 <lb/>which we had often been sheltered in the
 <lb/>forests was now nearly vertical and sent
 <lb/>down his fierce rays without a cloud
 <lb/>and sorely fatigued us all</seg> - crossed two
-<lb/>streams - one called <placeName><geogName type="river">Sokoye</geogName></placeName> by bridges &amp;
+<lb/>streams - one called <placeName><geogName type="river"><choice><orig>Sokoye</orig><reg>Shokoye</reg></choice></geogName></placeName> by bridges &amp;
 <lb/>slept at a village on a ridge of woodland
 <lb/>overlooking <placeName><settlement type="village"><persName><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName>'s</settlement></placeName> - and <measure>after two
 <lb/><note place="marginleft"><date when="1871-03-10">10<hi rend="sup underline">th</hi></date></note> hours</measure> <date when="1871-03-10">this morning</date> came among the
@@ -955,7 +959,7 @@
 <lb/>and they prefer falsehood to truth - the
 <lb/>impudence of <persName>Muhamad</persName>'s lies is their
 <lb/>chief feature. Proceeding to <placeName><settlement type="city">Damascus</settlement></placeName>
-<lb/>as a <term type="occupation">trader</term> he heard of <persName><choice><abbr>St.</abbr><expan>Saint</expan></choice> <choice><sic>Pauls</sic><corr>Paul</corr></choice></persName>'s
+<lb/>as a <term type="occupation">trader</term> he heard of <persName><choice><abbr>St.</abbr><expan>Saint</expan></choice> <choice><sic>Pauls</sic><corr>Paul's</corr></choice></persName>
 <lb/>translation the like of which had never
 <lb/>before it happened entered into the
 <lb/>human mind - He at once <choice><sic>concieved</sic><corr>conceived</corr></choice>
