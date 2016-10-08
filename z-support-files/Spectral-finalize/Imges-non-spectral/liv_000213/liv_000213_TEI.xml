@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000213">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Transcription of Fragment of 1870 Field Diary, 16 October 1870</title>
+				<author>David Livingstone</author>
+                <author>Agnes Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+				<respStmt xml:id="EC">
+                    <name>Erin Cheatham</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+				<idno type="LEAP-ID">liv_000213</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library. Weston Library</repository>
+                        <idno type="shelfmark">MSS. Afr. 16 (Box 6)</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 037</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Transcription of Fragment of 1870 Field Diary, 16 October 1870</title>
+					<author xml:id="DL">David Livingstone</author>
+                    <author xml:id="AL">Agnes Livingstone</author>
+                    <date type="composition" when="1870-10-16">16 October 1870</date>
+                    <placeName type="compositionPlace">Bambarre</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+			<change when="2016-02-09" who="#AW">Coding corrections</change>
+			<change when="2015-04-02" who="#AW">Coding review</change>
+            <change when="2015-02-18" who="#HB">Quality control and TEI encoding</change>
+			<change when="2015-01-31" who="#EC">Proofing</change>
+			<change when="2015-01-27" who="#AK">Proofing</change>
+			<change when="2015-01-23" who="#AW">TEI encoding and revision</change>
+            <change when="2015-01-22" who="#AK">Initial transcription</change> <!--Not sure how crucial this section is, but it is 2015, haha (they said 2014). I went ahead and corrected these accordingly, but it makes me wonder if we've been making this error in other transcriptions -AK-->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+<!-- Start XV -->  	
+
+	<pb facs="liv_000213_0029" n="0029"/>
+<lb/><space extent="5" unit="lines" dim="vertical"/>
+<lb/><p rend="no-indent"><!--<fw n="heading_XV"><supplied cert="high">XV</supplied></fw>--><space extent="4" unit="words"/><hi rend="double-underline"><date when="1870-10-16">16<hi rend="sup double-underline">th</hi> <choice><abbr>Oct<hi rend="sup double-underline">r</hi></abbr><expan>October</expan></choice> 1870</date></hi> - <persName ref="people.xml#pers0109">Moenemgoi</persName> 
+<lb/>the <term type="occupation">chief</term> came to tell me that <persName ref="people.xml#pers0118">Monamyembo</persName> 
+<lb/>had sent five <term type="animal">goats</term> to <placeName><settlement type="village">Lohombo</settlement></placeName> to get a charm 
+<lb/>to kill him. "Would the <term type="people">English</term> and <persName ref="people.xml#pers0002">Kolokolo</persName> 
+<lb/>(<persName ref="people.xml#pers0002">Muhamad</persName>) allow him to be killed while 
+<lb/>they were here?" I said that it was a false 
+<lb/>report but he believes it firmly. <persName ref="people.xml#pers0118">Monamyembo</persName> 
+<lb/>sent his son to assure us that he was 
+<lb/>slandered, but thus quarrels and bloodshed 
+<lb/>feuds arise. The great want of the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> 
+<lb/>is national life. Of this they have none. 
+<lb/>Each <term type="occupation">headman</term> is independent of every other. 
+<lb/>Of industry they have no lack, and the villagers 
+<lb/>are orderly towards each other, but they go 
+<lb/>no further. If a man of another district ventures 
+<lb/>among them it is at his peril. He is not 
+<lb/>regarded with more favour as a <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> 
+<lb/>than one of a herd of <term type="animal">buffaloes</term> is by the 
+<lb/>rest. He is almost sure to be killed. 
+<lb/><persName ref="people.xml#pers0107"><choice><orig>Moenekus</orig><reg>Moenekuss</reg></choice></persName> had more wisdom than his 
+<lb/>countrymen. His eldest son went over to 
+<lb/><placeName><settlement type="village"><persName ref="people.xml#pers0118">Monamyembo</persName>'s</settlement></placeName> who was subject to the father
+<lb/>was killed by five spear wounds. The old 
+<lb/><term type="occupation">chief</term> went and asked "Who had kllled <add place="above">slain</add> 
+<lb/>his son"? "None knew, perhaps the <term type="tribe">Bahombo</term>.<supplied>"</supplied> 
+<lb/><choice><sic>he</sic><corr>He</corr></choice> went thither - They denied it - Then they 
+<lb/>said "Perhaps <persName>Monamdenda</persName>" - he denied. 
+<lb/><choice><sic>question</sic><corr>Question</corr></choice> repeated, received same answer - 
+<lb/>"<choice><sic>didn't</sic><corr>Didn't</corr></choice> know." The old man <add place="below">^</add> <add place="above">then</add> died - This,   	
+
+	<pb facs="liv_000213_0030" n="0030"/>
+<lb/><fw n="8" place="inspace" rend="left"><hi rend="underline">8.</hi></fw> <fw n="15" place="above" rend="right">15</fw>
+<lb/>though he was heartbroken was called <w>witch-
+<lb break="no"/>craft</w> by <persName ref="people.xml#pers0118">Monamyembo</persName>. Eleven people were 
+<lb/>murdered, and after this cruel man was 
+<lb/>punished he sent a <term type="animal">goat</term> with the confession 
+<lb/>that he had killed <persName ref="people.xml#pers0107"><choice><orig>Moenekus</orig><reg>Moenekuss</reg></choice></persName>' son. This 
+<lb/>son had some of the father's <del><gap extent="1" unit="words"/></del> wisdom. 
+<lb/>The others he never could get to act like men 
+<lb/>of sense.</p>
+<!-- The placement of the Roman numeral at the head of the following is a guess, but it seems right given the paragraph break and as marking the half way point of the passage that overall represents XV and XVI. AW -->
+<lb/><p rend="no-indent"><!--<fw n="heading_XVI"><supplied cert="medium">XVI</supplied></fw>-->The sites chosen for some of the most signal 
+<lb/><term type="nationality">Grecian</term> oracles were marked by the rushing 
+<lb/>forth of a living spring from the recesses of 
+<lb/>the <orgName>native</orgName> rocks of <placeName><country>Greece</country></placeName>, the <placeName><geogName type="spring" ref="geogName.xml#geog0002">Castalian 
+<lb/>springs</geogName></placeName> at <placeName><settlement ref="settlement.xml#sett0003">Delphi</settlement></placeName>, the rushing stream of 
+<lb/>the <placeName><geogName type="mountain" ref="geogName.xml#geog0012">Hercynia</geogName></placeName> at <placeName><settlement type="town" ref="settlement.xml#sett0008">Lebadea</settlement></placeName>. It was felt that 
+<lb/>nothing could so well express the Divine voice
+<lb/>speaking from the hidden abysses of the 
+<lb/>unseen world as those inarticulate but lively 
+<lb/>ebullitions of the life giving element from its 
+<lb/>unknown mysterious sources. The prophetic 
+<lb/>utterances in the remoter <placeName><region>East</region></placeName> were the 
+<lb/>bubbling, teeming springs of life in those hard 
+<lb/>primitive rocks, in those dry parched levels. 
+<lb/>"My heart is inditing" - is bursting, bubbling 
+<lb/>over with a good matter. This image would be 
+<lb/>drawn from the abundant crystal fountains
+<lb/>which all along the valley of the <placeName><geogName type="river" ref="geogName.xml#geog0014">Jordan</geogName></placeName> pour 
+<lb/>forth their full grown streams, - scattering 
+<lb/>fertility and verdure as they flow over the 
+<lb/>rough ground, - "<quote corresp="quote.xml#qt0005">boiling or bubbling over</quote>" of 
+<lb/>the "<quote corresp="quote.xml#qt0006">Divine fountain of Inspiration within 
+<lb/>the Soul</quote>."</p> <!-- Adrian, as with 0212, can you pls confirm that these quotations are in fact coming from the Bible/other work and thus should be coded as quote? HB -->
+<lb/><p rend="no-indent">"<quote corresp="quote.xml#qt0004">The words of Judgment bursting out one by 
+<lb/>one, slowly, heavily, condensed, abrupt from 
+<lb/>the <term type="occupation">prophet</term>'s heavy and shrinking soul; each   	
+
+	<pb facs="liv_000213_0031" n="0031"/>
+<lb/>sentence wrung forth with a groan, as though 
+<lb/>he had anew to take breath before he uttered a  
+<lb/>renewed woe; each word forming a whole for 
+<lb/>itself, like one heavy toll of a funeral knell.</quote>" 
+<lb/>(<persName ref="people.xml#pers0148">Pusey</persName>) - - (<persName ref="people.xml#pers0059">Jowett</persName>) "<quote corresp="quote.xml#qt0003">At the time when our 
+<lb/>Saviour came into the world the <term type="nationality">Greek</term> language 
+<lb/>was in a state of degeneracy &amp; decay. But that  
+<lb/>degeneracy may be ranked among the causes 
+<lb/>that fanned the growth of <term type="faith">Christianity</term>. It was 
+<lb/>a preparation for the <bibl>Gospel</bibl>, the decaying soil 
+<lb/>in which the new elements of life were to come 
+<lb/>forth, the one common speech of the then 
+<lb/>civilized nations of the world. The definiteness 
+<lb/>of earlier forms of human speech would have 
+<lb/>imposed a limit on the freedom of the <bibl>Gospel</bibl>. 
+<lb/>A religion which was to be universal required
+<lb/>that the division of languages, no less than 
+<lb/>of nations should be broken down. It pleased 
+<lb/>God through broken and hestitating forms of 
+<lb/>speech to reveal the universal truth for which 
+<lb/>the Greek of <persName ref="people.xml#pers0143">Plato</persName> would have been no fitting temple</quote>". -</p> <!-- Removed nationality tag around Greek as it is referring to the language and we do not code for that. HB -->
+<lb/><space extent="12" unit="lines" dim="vertical"/>
+  
+<!-- End XV to XVI -->   
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
