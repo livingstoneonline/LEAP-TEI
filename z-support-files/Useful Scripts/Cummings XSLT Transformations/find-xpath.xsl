@@ -39,8 +39,9 @@
       
       <!--XPATH OF WHAT WE ARE TRYING TO FIND: CHANGE THIS! 
         Original: $docs//settlement -->
-	  <!-- Attribute and value = geogName[@type='forest'] -->
-            <xsl:variable name="xpath" select="$docs//term"/>
+	  <!-- Attribute and value = geogName[@ref='forest'] -->
+	  <!-- without attributes: $docs//region[not(@*)] -->
+            <xsl:variable name="xpath" select="$docs//geogName[not(@ref)]"/>
       
       
             
@@ -59,13 +60,13 @@
               <div>
                 <h2>Distinct-Value List</h2>
               <ul>
-                <xsl:for-each-group select="$xpath" group-by="concat(normalize-space(.), ';', @type)">
+                <xsl:for-each-group select="$xpath" group-by="concat(normalize-space(.), ';', @ref)">
                   <xsl:sort select="lower-case(current-grouping-key())"/>
                   <xsl:for-each select="distinct-values(current-group()/normalize-space())">
                     <xsl:sort/>
                     <li>
                       <xsl:value-of select="."/>
-                      (<xsl:value-of select="count($xpath[concat(normalize-space(.), ';', @type) = normalize-space(current-grouping-key())])"/>)
+                      (<xsl:value-of select="count($xpath[concat(normalize-space(.), ';', @ref) = normalize-space(current-grouping-key())])"/>)
                       <xsl:if test="not(normalize-space(substring-after(current-grouping-key(), ';'))='')">[<xsl:value-of select="substring-after(current-grouping-key(), ';')"/>]</xsl:if>
                     </li>
                     
@@ -81,7 +82,7 @@
                 <xsl:for-each select="$xpath">
                   <xsl:sort select="lower-case(normalize-space(string(.)))"/>
                   <li><xsl:value-of select="normalize-space(string(.))"/>
-                    <xsl:if test="@type">[<xsl:value-of select="@type"/>]</xsl:if>
+                    <xsl:if test="@ref">[<xsl:value-of select="@ref"/>]</xsl:if>
                   (<xsl:value-of select="jc:substring-after-last(base-uri(), '/')"/>)
                   </li>
                 </xsl:for-each>

@@ -18,11 +18,18 @@ Example:
 for dir in *; do [ -d "$dir" ] && cp 1_Livingstone_Online_Digital_Collection_21_Oct_2015.xlsx "$dir" ; done
 
 
-for dir in *; do [ -d "$dir" ] && cp 0_Livingstone_Online_Archival_Packet_READ_THIS_FILE_18_Sept_2016.docx "$dir" ; done
-for dir in *; do [ -d "$dir" ] && cp 0_Livingstone_Online_Archival_Packet_READ_THIS_FILE_18_Sept_2016.pdf "$dir" ; done
-for dir in *; do [ -d "$dir" ] && cp 0_Livingstone_Online_Archival_Packet_READ_THIS_FILE_18_Sept_2016.txt "$dir" ; done
-for dir in *; do [ -d "$dir" ] && cp 1_Livingstone_Online_Digital_Catalogue_18_Sept_2016.xlsx "$dir" ; done
+for dir in */*; do [ -d "$dir" ] && cp 0_Livingstone_Online_Archival_Packet_READ_THIS_FILE_1_Oct_2016.docx "$dir" ; done
+for dir in */*; do [ -d "$dir" ] && cp 0_Livingstone_Online_Archival_Packet_READ_THIS_FILE_1_Oct_2016.pdf "$dir" ; done
+for dir in */*; do [ -d "$dir" ] && cp 0_Livingstone_Online_Archival_Packet_READ_THIS_FILE_1_Oct_2016.txt "$dir" ; done
+for dir in */*; do [ -d "$dir" ] && cp 1_Livingstone_Online_Digital_Catalogue_18_Sept_2016.xlsx "$dir" ; done
+for dir in */*; do [ -d "$dir" ] && cp 2_Note-on-Processed-Spectral-Images.docx "$dir" ; done
+for dir in */*; do [ -d "$dir" ] && cp 2_Note-on-Processed-Spectral-Images.pdf "$dir" ; done
 
-for dir in *; do [ -d "$dir" ] && cp liv_000095_MODS.xml "$dir" ; done
-for dir in *; do [ -d "$dir" ] && cp liv_000095_copyright_information.txt "$dir" ; done
 
+
+copy into the sub-subdirectory
+for dir in */*; do [ -d "$dir" ] && cp 2_Note-on-Processed-Spectral-Images.pdf "$dir" ; done
+
+
+copy all files into all subdirectories
+for dir in */*; do [ -d "$dir" ] && cp * "$dir" ; done
