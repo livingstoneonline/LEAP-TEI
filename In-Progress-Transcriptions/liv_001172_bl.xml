@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001172"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Alexander Macmillan,</title><!-- Change -->
+                <title type="alternative">Letter to Alexander Macmillan, 8 January, 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="BL"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Blaze Livingston</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001172</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country><!-- Change as needed. Country of repository. -->
+                        <settlement>Edinburgh</settlement><!-- Change as needed. City of repository. -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 20314</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0658</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to Alexander Macmillan, 8 January, 1858</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-01-08">8 January 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">50 Albemarle St., London</placeName><!-- Change. Where DL composed. -->
+                    <persName type="addressee">Alexander Macmillan</persName><!-- Change. Person to whom DL wrote. -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-10-10" who="#BL">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001172_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+
+<!-- Change opener info below as appropriate -->
+<lb/><opener><dateline rend="right"><placeName>50 Albemarle St.</placeName><!-- Begin each line with <lb/> as here -->
+<lb/><date when="1858-01-08">8 August
+<lb/>1858</date></dateline><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>My Dear Sir</salute></opener><!-- Change line info as appropriate -->
+<lb/><p><space extent="8" unit="chars"/>I am really quite
+<lb/>ashamed to find that so much
+<lb/>time has glided away since
+    <lb/><space extent="1" unit="chars"/>I received your most kind 
+    <lb/><space extent="1" unit="chars"/>and liberal present of books 
+    <lb/><space extent="1" unit="chars"/>and no acknowledgement 
+    <lb/><space extent="1" unit="chars"/>been made, I <choice><sic>dont</sic><corr>don't</corr></choice> stand
+    <lb/><space extent="2" unit="chars"/><unclear cert="low">listening</unclear> well you see
+    <lb/><space extent="2" unit="chars"/>it makes me forget
+                
+                <pb facs="liv_001172_0002" n="0002"/>
+                
+    <lb/><space extent="1" unit="chars"/>my best friends and I suppose 
+    <lb/><space extent="1" unit="chars"/>some of them will be saying
+    <lb/><space extent="1" unit="chars"/>I have "forgotten myself."
+    <lb/><space extent="1" unit="chars"/>So many things have occupied
+    <lb/><space extent="1" unit="chars"/>my attention of late that
+    <lb/><space extent="1" unit="chars"/>time speeds on more swiftly
+    <lb/><space extent="1" unit="chars"/>than ever it did. Indeed
+    <lb/><space extent="1" unit="chars"/>one has scarcely time to
+    <lb/><space extent="1" unit="chars"/>think in this whirl and
+    <lb/><space extent="1" unit="chars"/>glad I shall be if I again
+    <lb/><space extent="1" unit="chars"/>get a little time in Africa
+    <lb/>to think. I beg you will
+    <lb/><space extent="1" unit="chars"/>forgive my long silence.
+    <lb/><space extent="1" unit="chars"/>I went down to Scotland
+                
+                <pb facs="liv_001172_0003" n="0003"/>
+    <lb/>to spend Christmas and New 
+    <lb/><choice><orig>yearsday</orig><reg>Year's Day</reg></choice> and have neglected 
+    <lb/>many duties in consequence
+    <lb/>none of which I regret more
+    <lb/>than that <add place="above">which made me</add>
+    <del type="strikethrough">of</del> appear<del type="strikethrough">ing</del>
+    <unclear cert="low">mutinous</unclear>
+    <lb/>in gratitude to you for your 
+    <lb/><space extent="1" unit="chars"/>liberality. I return you my
+    <lb/><space extent="1" unit="chars"/>warmest thanks for the
+    <lb/><space extent="1" unit="chars"/>books and feel most
+    <lb/><space extent="1" unit="chars"/>grateful for the kind
+    <lb/><space extent="2" unit="chars"/>sentences which <w>accom<supplied>-</supplied>
+        <lb break="no"/><space extent="1" unit="chars"/>-panied</w> them. May our
+    <lb/><space extent="2" unit="chars"/>heavenly Father abundantly
+    <lb/><space extent="2" unit="chars"/>reward you for all your
+    <lb/><space extent="2" unit="chars"/>kindly feelings.</p>
+    
+    <pb facs="liv_001172_0004" n="0004"/>
+                <lb/><p><space extent="2" unit="chars"/>Please present my
+                    <lb/><space extent="2" unit="chars"/>kindest salutations to your
+                    <lb/><space extent="2" unit="chars"/>family nephew for
+                    <lb/><space extent="2" unit="chars"/>I suppose your brother's
+                    <lb/><space extent="2" unit="chars"/>children stay with you
+        <lb/><space extent="5" unit="chars"/>hoping you are
+                    <lb/> of a forgiving dispostion
+                </p>
+                <lb/><space extent="3" unit="chars"/><closer><salute>I am truly + gratefully</salute><!-- Change as appropriate -->
+                    <lb/><space extent="4" unit="chars"/>yours
+            <lb/><signed><persName>David Livingstone</persName></signed></closer>
+        
+    
+                
+                
+        
+
+
+
+<!-- More transcribed text -->
+
+
+<!-- If there is a letter or similar with a closer with content such as salute or signed -->
+<!-- Change as appropriate --> 
+
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
