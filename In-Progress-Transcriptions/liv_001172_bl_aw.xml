@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001172"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Alexander Macmillan,</title><!-- Change -->
+                <title type="alternative">Letter to Alexander Macmillan, 8 January, 1858</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="BL"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Blaze Livingston</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001172</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country><!-- Change as needed. Country of repository. -->
+                        <settlement>Edinburgh</settlement><!-- Change as needed. City of repository. -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 20314, ff. 14-15</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0658</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to Alexander Macmillan, 8 January, 1858</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-01-08">8 January 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">50 Albemarle St., London</placeName><!-- Change. Where DL composed. -->
+                    <persName type="addressee">Macmillan, Alexander, 1818-1896</persName><!-- Change. Person to whom DL wrote. -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-10-11" who="#AW">Proofing and coding review</change>
+            <change when="2016-10-10" who="#BL">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001172_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><placeName>50 Albemarle <choice><abbr>St.</abbr><expan>Street</expan></choice></placeName> <add place="above" rend="gray" hand="#U">14</add><!-- Begin each line with <lb/> as here -->
+<lb/><space extent="3" unit="chars"/><date when="1858-01-08">8<hi rend="sup underline">th</hi> January
+<lb/><space extent="6" unit="chars"/>1858</date></dateline><!-- Change line info as appropriate -->
+<lb/><add hand="#U" rend="gray"><add place="marginleft">To</add> <persName>Alexander Macmillan</persName>
+<lb/><space extent="2" unit="chars"/>The founder of the <orgName>Publishing
+<lb/><space extent="1" unit="words"/>House of Macmillan</orgName></add>
+<lb/>
+<lb/><salute>My Dear Sir</salute></opener><!-- Change line info as appropriate -->
+<lb/><p><space extent="8" unit="chars"/>I am really quite
+<lb/>ashamed to find that so much
+<lb/>time has glided away since
+<lb/>I received your most kind 
+<lb/>and liberal present of books 
+<lb/>and no acknowledgement 
+<lb/>been made, I <choice><sic>dont</sic><corr>don't</corr></choice> stand
+<lb/>lionizing well you see
+<lb/>it makes me forget
+                
+	<pb facs="liv_001172_0002" n="0002"/>
+<lb/>my best friends and I suppose 
+<lb/>some of them will be saying
+<lb/>I have "forgotten myself."
+<lb/>So many things have occupied
+<lb/>my attention of late that
+<lb/>time speeds on more swiftly
+<lb/>than ever it did. Indeed
+<lb/>one has scarcely time to
+<lb/>think in this whirl and
+<lb/>glad I shall be if I again
+<lb/>get a little time in <placeName><bloc>Africa</bloc></placeName>
+<lb/>to think. I beg you will
+<lb/>forgive my long silence.
+<lb/>I went down to <placeName><country>Scotland</country></placeName>
+                
+	<pb facs="liv_001172_0003" n="0003"/>
+<lb/>to spend Christmas and New 
+<lb/><choice><orig>yearsday</orig><reg>Year's Day</reg></choice> and have neglected 
+<lb/>many duties in consequence
+<lb/>none of which I regret more
+<lb/>than that <add place="below">^</add> <add place="above">which made me</add> <del type="strikethrough">of</del> appear<del type="strikethrough">ing</del> wanting
+<lb/>in gratitude to you for your 
+<lb/>liberality. I return you my
+<lb/>warmest thanks for the
+<lb/>books and feel most
+<lb/>grateful for the kind
+<lb/>sentences which <w>accom<supplied>-</supplied>
+<lb break="no"/><lb/>-panied</w> them. May our
+<lb/>Heavenly Father abundantly
+<lb/>reward you for all your
+<lb/>kindly feelings.</p>
+    
+    <pb facs="liv_001172_0004" n="0004"/>
+<lb/><p>Please present my
+<lb/>kindest salutations to your
+<lb/>family nephews for
+<lb/>I suppose your brother's
+<lb/>children stay with you</p>
+<lb/><p>Hoping you are
+<lb/>of a forgiving dispostion</p>
+<lb/><closer><salute><space extent="2" unit="chars"/>I am truly &amp; gratefully
+<lb/><space extent="4" unit="chars"/>yours</salute>
+<lb/><space extent="4" unit="chars"/><signed><persName>David Livingstone</persName></signed></closer>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
