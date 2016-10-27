@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title></title><!-- Ignore this line -->
+                <title type="alternative">Letter to Agnes Livingstone 3</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="LG"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Lauren Geiger</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002435</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country><!-- Change as needed -->
+                        <settlement>Edinburgh</settlement><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 10704, ff. 29-30</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1840</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Agnes Livingstone 3</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1865-11-17">17 November 1865</date><!-- Change -->
+                    <placeName type="compositionPlace">Bombay</placeName><!-- Change -->
+                    <persName type="addressee">Agnes Livingstone</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-10-17" who="#LG">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+    <pb facs="liv_002435_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-------I have questions for you regarding how to handle the vertical text; the coding guidelines instruct me to end the previous text as a paragraph (even if it's not the end of a paragraph) and open the vertical text as a new paragraph. Do I need to close the vertical text as a paragraph as well, and then reopen the continued horizontal text as a new paragraph? Should I just continue and not mark the continued horizontal text as a new paragraph?------->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+
+<lb/><opener><dateline rend="right"><placeName>Bombay</placeName> <date when="1865-11-17">17 November<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
+<lb/> 1865</date></dateline><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>My Dearest Annie</salute></opener><!-- Change line info as appropriate -->
+
+<p rend="right"><lb/>You have hit on an
+<lb/>admirable plan, and here
+<lb/>you see the influence of good
+<lb/>example for I have adopted
+<lb/>it too. I have duly received
+<lb/>your III and<unclear cert="low"> ???? ???? ????</unclear>
+<lb/><unclear cert="low">???? ???? ????</unclear> in a note to be
+<lb/><unclear cert="low">???? the entire line</unclear>
+<lb/><unclear cert="low">????</unclear> I am getting very uneasy
+<lb/>to be off- no word has yet
+<lb/>come from the Admiral and
+<lb/>as I am all ready to start I
+<lb/>am not at all reconciled
+<lb/>to delay- I have 12 men of
+<lb/><unclear cert="low">??? the entire line</unclear>
+<lb/>native officer ready to go
+<lb/>at a moments notice- <unclear cert="med">Then or When?</unclear></p>
+<lb/><unclear cert="low">????</unclear> Africans from <unclear cert="low">????</unclear> 
+<p><cb rend="vertical"></cb>Love to <unclear cert="low">???? ????</unclear></p>
+
+    <pb facs="liv_002435_0002" n="0002"/>
+
+<p><lb/>a government school for
+<lb/>the education of captured &amp;
+<lb/>liberated Africans- Five more
+<lb/>from the <placeName><geogName type="river">Zambeesi</geogName></placeName> go part
+<lb/>of the way, and two boys
+<lb/><unclear cert="low">????</unclear> once gave to
+<lb/><persName>Bishop Mackenzie</persName>- They
+<lb/>have been at D<hi rend="sup">r</hi> Wilson's
+<lb/>school here and I have picked
+<lb/>up English- <unclear cert="low">???? the rest of the line</unclear>
+<lb/>and Marathi so as to speak
+<lb/>a little of each- They read
+<lb/><unclear cert="low">????</unclear> pretty well &amp; D<hi rend="sup">r</hi> Wilson
+<lb/>thinks that they are fit for
+<lb/>baptism. This is pretty well
+<lb/>for 15 months education
+<lb/>One of them named <persName>Chuma</persName>
+<lb/>wrote a letter to <persName>Waller</persName>-and
+<lb/>the address was- <!------Adrian, how would you like me to handle the circled text?-------></------w>
+<lb/>Those well <unclear cert="med">from</unclear>
+<lb/>the party say 23- I have got
+<lb/>several volunteers <unclear cert="low">???? ????</unclear>
+<lb/>but declined them. If I had
+<lb/>D<hi rend="sup">r</hi> Kirk it would be different
+<lb/>but untried men are often a
+<lb/>nuisance. Forteen buffaloes</p> <!-------Adrian, do we need to correct his mispelling of the number fourteen?------->
+<p><cb rend="vertical">Ms <unclear cert="high">Stearns</unclear> is an active American merchant
+<lb/>Her father a professor in a college- A brother
+<lb/><space extent="2" unit="chars"/>was killed in the war- good people all</cb></p>
+
+    <pb facs="liv_002435_0003" n="0003"/>
+
+<p><lb/>and the calves are sent
+<lb/>off already- and should an
+<lb/>opportunity occur for me
+<lb/>to go I shall follow- I am
+<lb/>all ready.</p>
+<p rend="right"><lb/>I went up <measure>300 miles</measure>
+<lb/>in <unclear cert="low">????</unclear>- &amp; I think
+<lb/>sent my 338 from <unclear cert="low"><placeName>????</placeName></unclear>
+<lb/>as well as one to <persName>M<hi rend="sup underline">rs</hi>Webb</persName>
+<lb/>in answer to what I received
+<lb/>from her- The country was
+<lb/>just like <placeName><bloc>Africa</bloc></placeName>- plants &amp;
+<lb/>trees nearly identical- I saw
+<lb/>the buildings of which I
+<lb/><unclear cert="high">saw</unclear> the photographs last
+<lb/>time I went down to the
+<lb/><persName>Murray's</persName> at <placeName>Wimbledon</placeName>-<!----Should I count this as a city, town, settlement?---->
+<lb/>They are very fine, and
+<lb/>the carving is wonderfully
+<lb/>elaborate- The city of
+<lb/><placeName><settlement type="city">Ah meda-bada</settlement></placeName> in which they
+<lb/>are found <unclear cert="medium">is ????</unclear>
+<lb/><unclear cert="low">????</unclear> one and a week
+<lb/>would have been well
+<lb/>spent in <unclear cert="low">????</unclear> them
+<lb/>but I felt so anxious to be
+    
+    <pb facs="liv_002435_0003" n="0003"/>
+
+<lb/>away from this that I spent
+<lb/>only one day- I saw a native
+<lb/><term type="faith">Christian</term> village and was
+<lb/>gratified by the pleasant
+<lb/>expression of the women's
+<lb/>faces- The several appearance
+<lb/>of the same clans but of heathen
+<lb/>women is not pleasing-
+<lb/>After service on Sunday
+<lb/>morning one came <w>for-
+<lb break="no"/>ward</w> &amp; said she did not like
+<lb/>to see us going away <unclear cert="medium">&amp; asking</unclear>
+<lb/>would we take tea or milk-
+<lb/>I chose the latter and she gave
+<lb/>me a cup of buffaloe's milk
+<lb/>which is very white- and so
+<lb/>is the <unclear cert="low">????</unclear> but it is <w>pre-
+<lb break="no"/>-ferred</w> to cow's here- You see
+<lb/>the buffaloes lying in the water
+<lb/>during the day with their heads
+<lb/>only above the surface- I
+<lb/>stopped a day with <persName>M<hi rend="sup underline">r</hi></persName> Taylor
+<lb/>he is quite alone as his wife
+<lb/>had to leave from bad health-
+<lb/>I was disappointed in not
+<lb/>meeting <unclear cert="low">???</unclear><persName>M<hi rend="sup underline">rs</hi>Oliphant's</persName><unclear cert="medium">daughter</unclear>
+<lb/><unclear cert="low">???? ???? ????</unclear></p>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
