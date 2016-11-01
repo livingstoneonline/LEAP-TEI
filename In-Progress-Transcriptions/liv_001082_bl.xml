@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001082"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to [Charles Livingstone?],</title><!--Apparently Addressee isn't certain, putting exactly as is for title, leaving them off any following mentions of Addressee. BL-->
+                <title type="alternative">Letter to Charles Livingstone, 28 August 1857</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="BL">
+                    <name>Blaze Livingston</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_001082</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <repository>University of London</repository>
+                        <idno type="shelfmark">MS. 10780</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0575</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to Charles Livingstone, 28 August 1857</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1857-08-28">28 August 1857</date>
+                    <placeName type="compositionPlace">Drumcondra Castle, Dublin</placeName>
+                    <persName type="addressee">Charles Livingstone</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-10-27" who="#BL">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001082_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><placeName>Drumcondra Castle</placeName>
+<lb/><date when="1857-08-22">28<hi rend="sup underline">th</hi> August
+<lb/>1857</date></dateline><add place="marginleft" hand="U" rend="blue">18</add><!-- this page number is circled, but doesn't fall under query's usage. What should I do? BL-->
+<lb/>   
+<lb/><salute>My Dear Brother</salute></opener>
+<lb/><p>As there is
+<lb/>scarce time between
+<lb/>this and the publication
+<lb/>I think we can wait
+<lb/>and I shall consult
+<lb/><persName>Murray</persName> as he
+<lb/>intended the <placeName>Falls</placeName>
+<lb/>for the beginning of
+<lb/>the Book.
+
+	<pb facs="liv_001082_0002" n="0002"/>
+<lb/>Please send me
+<lb/>at once a sheet
+<lb/>or two containing
+<lb/>the explanation
+<lb/>of the difference
+<lb/>of amount of
+<lb/>rain south &amp;
+<lb/>North of the Equator
+<lb/>the sheet contains
+<lb/>a note by <persName>Babinet</persName>
+<lb/>the Frenchman - He
+<lb/>alter <!-- could be "after" or "other" potentially. BL--> a note by
+
+	<pb facs="liv_001082_0003" n="0003"/>
+<lb/><persName>Gabriel</persName> &amp; <persName>Brand</persName>
+<lb/>I need them for
+<lb/>my Mondays speech
+<lb/>Will leave on
+<lb/>Monday night in
+<lb/>order to be of
+<lb/><persName>Captain <unclear>Frothers</unclear></persName>
+<lb/>wrote <persName>Mary<unclear>this</unclear></persName><!-- whole word here looks like "Marythis", don't know what to put. BL-->
+<lb/>mommy.<space extent="1" unit="words"/>1400
+<lb/>tickets of admission
+<lb/>have been bought
+<lb/>in <placeName>Dublin</placeName>. The
+<lb/>Berliana<!-- tried my best here, unsure if correct. BL--> need
+<lb/><unclear>davie</unclear> may be
+
+	<pb facs="liv_001082_0004" n="0004"/>
+<lb/>put in where the
+<lb/><term type="tribe">Makololo</term> dance is
+<lb/>described -- the
+<lb/><term type="animal">Buffalo</term> is mentioned
+<lb/>on the <placeName><geogName type="river">Leanubye</geogName></placeName><!--going by letters alone I'm close, but can't find info online if I'm write. Seems familiar, but unsure. BL--> &amp;<add place="above">near Seslieke</add><!--same with this "Seslieke". Right on letters, no info found online. -->
+<lb/>again below
+<lb/><placeName>Upendes</placeName> or <placeName>Bosowa</placeName>
+<lb/>if I succeed in getting
+<lb/>to <persName>Captain Frothers</persName>
+<lb/>on tuesday I would
+<lb/>sleep at <unclear>MS Taylor</unclear><!-- it is actually legible, but I can't figure out what it is, need context. BL-->
+<lb/>&amp; then join you at
+<lb/>Helen's on Wednesday.
+</p><!-- there is actually no visible closer, leaving as is. BL-->
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
