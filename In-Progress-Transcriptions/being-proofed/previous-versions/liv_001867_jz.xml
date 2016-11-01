@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Robert Moffat 1, 6 January 1863</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001867</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Mozambique</country><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 20312, ff. 113-114</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1308.5</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Robert Moffat 1, 6 January 1863</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1863-01-06">06 January 1863</date><!-- Change -->
+                    <placeName type="compositionPlace">Shupanga</placeName><!-- Change -->
+                    <persName type="addressee">Robert Moffat</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-26" who="#JZ">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001867_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><placeName>Shupanga</placeName> <date when="1857-08-22">6<hi rend="sup underline">th</hi> January
+<lb/> 1863</date></dateline>
+<lb/>    
+<lb/><salute>My Dear M<hi rend="sup underline">r</hi><persName>Moffat</persName></salute></opener>
+
+<lb/><p><!-- variant reading "we"-->Ive enclosed letter
+<lb/>for <persName>Ms Mackenzie</persName> I should like you
+<lb/>to read it as it will give you my views
+<lb/>and mind about renewing the mission
+<lb/>to the <placeName>Makololo</placeName> - I mention that I have
+<lb/>requested you to do so to save writing
+<lb/>the same thing over again - We are 
+<lb/>ready to go up Shire and the mail is
+<lb/>to start for Luillianance <!-- unclear word --> -</p>
+<p>
+I enclose a photograph by D<hi rend="sup underline">r</hi>
+<lb/>Yurk of the resting place of my dear
+<lb/><persName>Mary</persName> - we have not the proper
+<lb/>burials to make it back - I placed
+<lb/>a <unclear cert="low">cron</unclear> over her tomb a sacred
+<lb/>symbol in these regions and
+<lb/>have sent for a grave stone with
+<lb/>the inscription on one side English
+<lb/>and on the other Portuguese "Here
+<lb/>repose the mortal remains of
+<lb/>Mary Moffat Livingston in hope
+<lb/>of a joyful resurrection by our
+<lb/>Saviour Jesus Christ - died
+<lb/>27<hi rend="sup underline">th</hi> April 1862 aged 61 years -" 
+<lb/>this has been a spot of much
+<lb/>sorrow to me Well do I remember
+<lb/>No feelings with which iI looked at
+
+<pb facs="liv_001867_0002" n="0002"/>
+<lb/>the red <unclear cert="low">ruled</unclear> writing in which she died when
+<lb/>I sailed down the <unclear cert="low">bread</unclear> river in 1856
+<lb/>Possibly at some other spt which I have
+<lb/>already passed I must lie down &amp; die -
+<lb/>she would welcome Robert and I hope
+<lb/>will come forward &amp; greet more of us 
+<lb/>into the house of many mansions
+<lb/>However now we must be up and
+<lb/>doing our duty - we have been detained 
+<lb/>here a full <unclear cert="low">footnight</unclear> shifting to top
+<lb/>to the bottom <unclear cert="low">braves</unclear> of the paddle shafts
+<lb/>We met M<hi rend="sup underline">r</hi> Prorter the head of
+<lb/>the church mission - He has implored
+<lb/>wonderfully - was thankful for the
+<lb/>Alphabet you send - He means to 
+<lb/>cut out x and put in z which they
+<lb/>have in their tongue - they teach it
+<lb/>Fee Gee Hee ee jee Lee - mee te and
+<lb/>think it easier - they are working
+<lb/>at a primer and will send it to the
+<lb/>Cape I suppose - the black men
+<lb/>brought from the Cape have turned
+<lb/>out badly - great professors there
+<lb/>worthless &amp; <unclear cert="low">blackgaurds</unclear> - A white
+<lb/>man imposed on them as an engineer
+<lb/>guilty of stealing ststematically wished
+<lb/>me <hi rend="underline">to take</hi> him - or give him my
+<lb/>protection in the country as he reported
+<lb/>of his sin - I advised him to take himself
+<lb/>away where his crime was unknown 
+<lb/>and there begin by turning over an
+
+<pb facs="liv_001867_0003" n="0003"/>
+<lb/><!-- faded -->an curticle new leaf - the Makolola have
+<lb/>seen those blackguards and have learned
+<lb/>no good I fear - Earl Russell approved
+<lb/>all my doings so you may trust me
+<lb/>to go in at these vile slave hunters
+<lb/>again if we can - I have just been 
+<lb/>giving him an account of the way
+<lb/>in which one side of the Shire
+<lb/>100 a week are taken away and <!-- faded -->on
+<lb/>the other  the whole country is devestated
+<lb/>by the fire and sword - famine has 
+<lb/>followed the <unclear cert="medium">blight</unclear> of the manganja
+<lb/>from their well untreated fields &amp;
+<lb/>more die of hunger than of the sword
+<lb/>many sell themselves and xhildren
+<lb/>keep themselves from starving
+<lb/>A silly fellow Roneley has <unclear cert="medium">send</unclear> in a 
+<lb/>cape <unclear cert="low">parker</unclear> that I hunted the Ajama
+<lb/>everywhere and at the missionaries
+<lb/>on against them - that I had a 
+<lb/>pitched battle with them all makalola
+<lb/>We ran away and left the bishop
+<lb/>in the battle and our two quarter
+<lb/>masters and engineer who were there
+<lb/>reported it and we laughed &amp; raised 
+<lb/>Roweley's bile - M<hi rend="sup underline">r</hi> Glover who
+<lb/>published it wrote me an apology
+<lb/>and I take no notice of it but
+<lb/>Roweley will not hear the last of it
+<lb/>soon - I hunted the Portuguese and
+<lb/>hoped to bring matters to a head by
+<lb/>rhwie corn planning to our govern 
+<lb/>went against me but they know 
+
+<pb facs="liv_001867_0004" n="0004"/>
+<lb/>better, and this silly letter puts the case as
+<lb/>between one tribe and another and not
+<lb/>between us and the Portuguese - But we 
+<lb/>shall come out clean at last - I hope the 
+<lb/>new bishop will be a man among
+<lb/>men and not a <unclear cert="low">damned thing</unclear> - If we get
+<lb/> free navigation of the Zambese at which 
+<lb/>I have been striving for <hi rend="underline"> years</hi> everthing
+<lb/>else will follow - M<hi rend="sup">r</hi> Stewart has been 
+<lb/>up at <unclear cert="low">Felte</unclear> - no mission - the top of the
+<lb/>cataracts &amp; now sees home - five scotchmen
+<lb/>2 carpenters - 2 masons - 1 <!-- unclear word --> &amp; a
+<lb/>leader a missionary are to join us - 
+<lb/>they worked <!-- unclear word(s) --> trader at Ahwal North
+<lb/>brought 2 waggons to go oer land when the
+<lb/>governor wrote to me and I have pro-
+<lb/>posed to them to aim at giving an example
+<lb/>of independent industry and <!-- unclear word -->
+<lb/>life to the people on the Lake - they seem to 
+<lb/>be the men we need brought to hand 
+<lb/>without our seeking</p>
+<p>thanks for the seeds all came safely
+<lb/>I tried furn trees at the grave but they 
+<lb/>sprang up and died - I now try cypresses 
+<lb/>the sour <hi rend="above"> or sweet</hi> sop is an aroma - see London
+<lb/>or Encyclopedia Brit. - We have lots 
+<lb/>of wild ones here - Kuruman is too
+<lb/>cold for them - I have 6 oxen - taught
+<lb/>ones from Johanna on board - and 2
+<lb/>mules - we have had them 2 months in 
+<lb/>the ship also - a cow &amp; a bull - With kind 
+<lb/>regards to M<hi rend="sup underline">rs</hi>M - and Jane. I am
+<lb/>ever affectionately 
+<lb/>David Livingstone
+
+<pb facs="liv_001867_0005" n="0005"/>
+<lb/><hi rend="center underline">Private</hi>
+<lb/><hi rend="left"><term type="occupation">Admiral</term></hi></p>
+<p>Sir <persName>Baldwin Walker</persName>
+<lb/><!-- unclear line and veritcal text -jz -->
+</p>
+<lb/><closer><salute>I am &amp;</salute><!-- Change as appropriate -->
+<lb/><signed><persName>David Livingstone</persName></signed></closer><!-- Change as appropriate --> 
+
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
