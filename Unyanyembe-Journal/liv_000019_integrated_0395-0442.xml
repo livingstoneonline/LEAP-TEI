@@ -170,7 +170,7 @@
 <lb/><p rend="no-indent"><seg type="weather"><list><item><date when="1870-06-04">June 4<hi rend="sup underline">th</hi></date> 4 PM <choice><abbr>N. Ɵ</abbr><expan>North Thunder</expan></choice> <measure>.6</measure> - <date when="1870-05-05">5<hi rend="sup underline">th</hi></date> 4 PM <choice><abbr>NW Ɵ</abbr><expan>North West Thunder</expan></choice> <measure>.25</measure> <date when="1870-05-06">6<hi rend="sup">th</hi></date> <choice><abbr>S.E. Ɵ</abbr><expan>South East Thunder</expan></choice> <choice><abbr>SE</abbr><expan>South East</expan></choice> &amp; <choice><abbr>NW. Ɵ</abbr><expan>North West Thunder</expan></choice> <measure>.8</measure> = <seg rend="right"><measure>.49</measure></seg></item>
 <lb/><item><note place="marginleft"><date when="1870-06-16">16<hi rend="sup underline">th</hi></date></note> 4 PM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> - <measure>.33</measure> - <date when="1870-06-24">24<hi rend="sup underline">th</hi></date> 7 - 8 PM <choice><abbr>SE Ɵ</abbr><expan>South East Thunder</expan></choice> <measure>1.80</measure> - <date when="1870-07-16">16 July</date> <placeName><settlement type="village"><persName>Mbonye</persName>'s <choice><abbr>Vil</abbr><expan>Village</expan></choice></settlement></placeName> <seg rend="right underline"><measure>2.13</measure></seg></item>
 <lb/><item><seg rend="right"><date from="1870-04" to="1870-07">April May June July</date> <measure>21.72</measure></seg></item></list></seg></p>
-<!--I'm not at all sure I've coded the following correctly to capture the formatting. MW--><!-- Tweaked a bit, but have q's - Adrian, best to keep each line as one item, or separate month and measure as two? HB -->
+<!--I'm not at all sure I've coded the following correctly to capture the formatting. MW--><!-- Tweaked a bit, but have q's - Adrian, best to keep each line as one item, or separate month and measure as two? HB --><!-- We can review this when converting with XSLT. AW -->
 <lb/><metamark/><p rend="no-indent"><seg type="weather"><list><head><add place="marginleft">Total</add></head> <cb n="1" rend="left"/><item><date when="1868-10">October</date> <measure>6.82</measure></item> <!-- Brackets on top and right sides of columns. HB -->
 <lb/><item><date when="1869-11"><choice><abbr>Nov.</abbr><expan>November</expan></choice></date> <measure>9.09</measure></item>
 <lb/><item><date when="1869-12"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date> <measure>7.80</measure></item>
@@ -1071,8 +1071,8 @@
 <lb break="no"/>-bidding</w> idolatry and teaching the worship of 
 <lb/>only one God - This they all know, and it pleases to
 <lb/>have it recognized -</p>
-<lb/><p>It might be good policy to hire <add rend="above">to engage</add> free <term type="occupation">porters</term> <del type="strikethrough"><gap extent="6" unit="chars" agent="illegible"/></del>
-<lb/><metamark>respectable <orgName>Arab</orgName></metamark> and conduct <orgName>the mission</orgName> to the <!-- Adrian, this circled content is to move to the line above - how to notate on each? HB -->
+<lb/><p>It might be good policy to hire <add place="below">^</add>  <add place="above">to engage</add> free <term type="occupation">porters</term> <del type="strikethrough"><gap extent="6" unit="chars" agent="illegible"/></del>
+<lb/><metamark>respectable <orgName>Arab</orgName></metamark> and conduct <orgName>the mission</orgName> to the <!-- Adrian, this circled content is to move to the line above - how to notate on each? HB --><!-- Fixed. AW -->
 <lb/>country chosen to obtain persmission from the <term type="occupation">chief</term>
 <lb/>to build temporary houses - If this <orgName>Arab</orgName> were well
 <lb/>paid it might pave the way for employing others to
@@ -1149,7 +1149,7 @@
 <lb/><p><persName>D<hi rend="sup underline">r</hi> Lacerda</persName> the next <term type="nationality">Portuguese</term> visitor after <persName>Pereira</persName>
 <lb/>came to a <foreign xml:lang="und"><term type="occupation">Cazembe</term></foreign> living on the <placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> Chungu</geogName></placeName> - <!-- Not sure if Kazembe should be identified as Person or Occupation. EM --><!-- Changed to agreed-upon tagging. HB -->
 <lb/><orgName>a party of <orgName><placeName><settlement type="town">Ujiji</settlement></placeName> <term type="occupation">traders</term></orgName></orgName> were with <foreign xml:lang="und"><term type="occupation">Cazembe</term></foreign> at the
-<lb/>time and <orgName>one of <persName>Lacerda</persName>'s people</orgName> killed an <orgName>Ujijian</orgName> <!-- Adrian, we've been using orgName usually for different African derivations, but let me know if you like the specificity of person/people applied here too, and I will implement. HB -->
+<lb/>time and <orgName>one of <persName>Lacerda</persName>'s people</orgName> killed an <orgName>Ujijian</orgName> <!-- Adrian, we've been using orgName usually for different African derivations, but let me know if you like the specificity of person/people applied here too, and I will implement. HB --><!-- I think what you've done here is OK. AW -->
 <lb/>when drawing water - the <orgName>Ujijians</orgName> were going to
 <lb/>revenge this murder but <foreign xml:lang="und"><term type="occupation">Cazembe</term></foreign> addressed them
 <lb/>as his guests and said "you my friends must not 
