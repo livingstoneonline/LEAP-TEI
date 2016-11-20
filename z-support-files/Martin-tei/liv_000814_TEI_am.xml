@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000814">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to William Thompson</title>
+                <title type="alternative">Letter to William Thompson, 14 May, 14 August 1854</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<pubPlace>London, UK</pubPlace>
+				<publisher>University College London</publisher>
+				<date>2012</date>
+				<idno type="LEAP-ID">liv_000814</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl xml:id="shelfmark">University of London. School of Oriental and African Studies; CWM/LMS/Livingstone Wooden Box, item 82</bibl><!-- note that for the fol. number we are no longer using "r" and "v", just the page numbers as per this example. -->
+				<bibl xml:id="ccnumber">Letters, 0334</bibl>
+				<bibl xml:id="recipient"><persName>Thompson, William, 1811-1889</persName></bibl>
+				<bibl xml:id="date"><date from="1854-05-14" to="1854-08-14">14 May, 14 August 1854</date></bibl>
+				<bibl xml:id="where">Calimba-Loanda</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2013-02-04</date>
+				<name xml:id="AM">Anne Martin</name> Initial transcription and XML encoding.
+            
+			</change>
+			<change>
+				<date>2013-02-15</date>
+				<name xml:id="AW">Adrian S. Wisnicki</name> Proofreading.
+            
+			</change>
+			<change>
+				<date>2013-02-24</date>
+				<name>Anne Martin</name> Transcription and XML encoding.
+            
+			</change>
+			<change>
+				<date>2013-02-24</date>
+				<name>Adrian S. Wisnicki</name> Proofreading.
+            
+			</change>
+			<change>
+				<date>2013-06-20</date>
+				<name xml:id="HFB">Heather F. Ball</name> Additional proofing and coding.
+            
+			</change>
+			<change>
+				<date>2016-09-25</date>
+				<name>Anne Martin</name> Final Review.
+            
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div>
+
+	<pb n="0001" facs="liv_000814_0001"><!--pb/@n='1r'--></pb>
+<lb/><p rend="no-indent"><persName>Rev<hi rend="sup">d</hi> <choice><abbr>W.</abbr><expan>William</expan></choice> Thompson</persName><space dim="horizontal" extent="3" unit="words"/><placeName><settlement type="village">Calimba</settlement></placeName> <date when="1854-05-14">14<hi rend="sup underline">th</hi> May 1854</date></p>
+<lb/><!-- The underscored word "Copied" appears on this line written in pencil. The word does not appear to be in Livingstone's hand. -->
+<lb/><p rend="no-indent">My dear Sir -</p>
+<lb/><p><space extent="4" unit="words"/>I am not far from <placeName><settlement type="city">Loanda</settlement></placeName> and as I shall have very
+<lb/>little time to spend in writing there because my purse is light and
+<lb/><orgName>followers</orgName> numerous and hungry, I give you a few particulars now</p>
+<lb/><p>We have had a most tedious journey from the land of
+<lb/>the <placeName><geogName type="river">Leeambye</geogName></placeName>. We went up the <placeName><geogName type="river">Leeba</geogName></placeName> 40 or 50 miles then left
+<lb/>the canoes and went forward on <term type="animal">ox</term> back to the first <term type="occupation">chief</term> of the
+<lb/><term type="tribe">Balonda</term> called <persName>Kabompo</persName> or <persName>Shinté</persName>. He highly approved our
+<lb/>object in opening up a way for commerce into his country
+<lb/>and <choice><orig>shewed</orig><reg>showed</reg></choice> his sincerity by giving us <term type="occupation">guides</term> and sending
+<lb/>orders to all <orgName>his people</orgName> in the route to supply us with food.
+<lb/>This kindness hindered our progress for every village must have
+<lb/>time to prepare meal &amp;c. for us, but the rains hindered us
+<!-- A vertical line in the left margin begins with the following line and continues to the bottom of this page. Above the line is written "Difficulties". The addition appears not to be in Livingstone's hand. -->
+<lb/>much more. <!-- A opening square bracket is here added that appears not to be in Livingstone's hand. --> Never did I endure such drenchings, and all the
+<lb/>streams being swollen we had to ford many the water flowing
+<lb/>on the rustic bridges waist deep. Others we crossed by sticking
+<lb/>to the <term type="animal">oxen</term> the best <del type="cancelled">we</del><add place="above">way</add> we could and a few we made a regular  <!-- The following "we" has been crossed out in pencil and the word "way" has been written above it. Both corrections appear not to be in Livingstone's hand. -->
+<lb/>swim of<del type="cancelled">f</del>. My <term type="tribe">Barotse</term>, for with them alone I travelled did
+<lb/>not know I could swim and the first broad stream we came
+<lb/>to excited their fears on my account. "Now hold on fast by
+<lb/>the tail". <supplied cert="high">"</supplied><choice><sic>Dont</sic><corr>Don't</corr></choice> let go" I intended to follow the injunction but
+<lb/>tail and all went so deep I thought it better to strike out
+<lb/>alone for the bank. and just as I reached it I was greatly
+<lb/>gratified to see a universal rush had been made for my
+<lb/>rescue. Their clothes were all floating down the stream and
+<lb/>two of them reached me breathless with the exertion they had
+<lb/>made. If we could march I got on very well. I <choice><sic>dont</sic><corr>don't</corr></choice> care
+<lb/>much for fatigue, but when compelled to stand still by
+<lb/>pouring rains. then <term type="ailment">fever</term> laid hold with his strong fangs
+<lb/>on my inner man and lying in a little <choice><sic>gipsey</sic><corr>gypsy</corr></choice> tent with
+<lb/>everything damp or wet, was sore against the grain</p>
+
+	<pb n="0002" facs="liv_000814_0002"><!--pb/@n='1v'--></pb>
+<lb/><p>Frequent and most severe attacks of <term type="ailment">intermittent</term> made me miserab<gap agent="damage" extent="2" unit="chars"/><supplied cert="medium">ly</supplied>
+<lb/>weak. but I never lay by for that. and we managed to make
+<lb/>occasional progress. through a population &amp; country to which I can
+<lb/>offer you no comparison in the <placeName><region>South</region></placeName>. We came to a village every 
+<lb/>few miles. sometimes passed 10 in a day. These were civil, how could
+<lb/>they be otherwise, the fellows were living in a Mahometan Paradis<gap agent="damage" extent="1" unit="chars"/><supplied cert="medium">e</supplied>
+<lb/>We often entered a village and when sitting on <term type="animal">ox</term> back could only see
+<lb/>the tops of the huts in a wilderness of weeds, By &amp; Bye the <orgName>villagers</orgName>
+<lb/>emerged from their lairs, men &amp; women each smoking a long pipe and
+<lb/>followed by crowds of children. Very little exertion is required to procure
+<lb/>the staff of life which in these parts is the <term type="plant_foodstuff">Manioc</term>. A part of the
+<lb/>Forest is cleared of <term type="plant">brushwood</term> and fires made round the larger
+<lb/>trees leave them standing dead. Cuttings of the <term type="plant_foodstuff">manioc</term> are inserted
+<!-- A vertical line in the right margin begins with the following line and continues to the end of line 27. Above the line is written "Idolatry" and further down the page the "Difficulties" also appears. These additions seem not to be in Livingstone's hand. -->
+<lb/>in the ground and the earth drawn up around them. <term type="plant_foodstuff">Maize bean</term>
+<lb/><term type="plant_foodstuff">Darth nuts</term> &amp;c. are planted between and here we have a supply
+<lb/>of food for years The climate is so good they are either <term type="occupation">planti<gap agent="damage" extent="2" unit="chars"/><supplied cert="medium">ng</supplied></term>
+<lb/>or <term type="occupation">reaping</term> the whole year round. All the different <term type="plant_foodstuff">grains</term>, <term type="plant_foodstuff">roots</term> &amp;c.
+<lb/>may be seen at one time in every stage of growth. Indeed the
+<lb/>country generally is fertile in the extreme. and very beautiful
+<lb/>It is flat but lies in ridges or waves, the ridge of each
+<lb/>wave is covered with dense dank forest and the trough
+<lb/>a pleasant valley containing either a bog or stream in its
+<lb/>centre The <orgName>Boerish</orgName> Eden <placeName><region>Magaliesberg</region></placeName> will bear no comparis<gap agent="damage" extent="2" unit="chars"/><supplied cert="high">on</supplied>
+<lb/>to this land for fertility and beauty. The forest trees shoot up
+<lb/>to an enormous height as straight as arrows and all being
+<lb/>covered with white <term type="plant">moss</term> <choice><orig>shew</orig><reg>show</reg></choice> the humidity of the climate
+<lb/>would require no irrigation for <term type="nationality">English</term> <term type="plant_foodstuff">Wheat</term>.<space dim="horizontal" extent="4" unit="chars"/>Through some of
+<lb/>these forest we could scarcely move on <term type="animal">ox</term> back. Swinging climbing
+<lb/>plants of from an inch to three or four in diameter abound.
+<lb/>and when drizzling rain makes the darkness of the forest darker
+<lb/>we were often caught (<hi rend="underline">more</hi> Absalom) The <term type="animal">ox</term> when you attempt
+<lb/>to stop <del type="strikethrough">him</del> rushes on the faster and down comes the <term type="occupation">rider</term>
+<lb/>on the crown of his head. Mine a most perverse beast
+    
+
+
+	<pb n="0003" facs="liv_000814_0003"><!--pb/@n='2r'--></pb>
+<lb/>often went out of the way or narrow winding path on purpose and
+<lb/>always tried to administer an effective kick to <choice><orig>shew</orig><reg>show</reg></choice> how he
+<lb/>would act if he had the up<gap extent="2" unit="chars" agent="blotting"/><supplied cert="high">pe</supplied>r hand. The country to the West
+<lb/>of that which we travelled through is called <placeName><region>Lobale</region></placeName> and was
+<lb/>impassable the water standing on its plains waist deep. We had
+<lb/>sometimes to make a divergence from our path in order to
+<lb/>avoid such and two or three times passed over plains 12 or 15
+<lb/>miles broad about 6 inches deep. other plains presented the <w>appear<supplied>-</supplied><lb break="no"/>ance</w> of large rivers flowing fast towards the rivers and must
+<lb/>be the sources of the annual inundations of the <term type="tribe">Barotse</term> &amp;c.
+<lb/>The water is always clear because rains fall on a dense mat
+<lb/>of grass only. The <placeName><region>Southern part of the <placeName><region>Lobale</region></placeName></region></placeName> is well peopled
+<!-- A vertical line in the left margin begins with the following line and continues to the end of line 26. A second vertical line begins at line 27 and continues to the bottom of the page. Above the line is written "Idolatry" and above the second "Difficulties". These additions seem not to be in Livingstone's hand. -->
+<lb/>but the plains being at other than the rainy season destitute
+<lb/>of streams have but a small population. The <placeName><region>East</region></placeName> is all 
+<lb/>densely populated and pass by the name <term type="tribe">Balonda</term>. They are <term type="occupation">idolators</term>
+<lb/>near every village an idol is seen, a block of wood with a
+<lb/>rough human head carved on it or a <term type="animal">lion</term> made of clay
+<lb/>and two shells for eyes standing in a little shed. The people
+<lb/>when unsuccessful in any enterprise or sick beat a drum
+<lb/>before them all night. And they are otherwise very superstitious
+<lb/>They would not eat with us, not in our sight though
+<lb/>they took <term type="foodstuff">meat</term> from us and <choice><orig>eat</orig><reg>ate</reg></choice> it at home. When I saw
+<lb/>their numbers and thought of the vast multitudes there are in
+<lb/>this land all living without God and without hope I often
+<lb/>sat down with feelings of despair. When will they be supplied
+<lb/>with the <bibl>gospel</bibl> of Christ?</p>
+<lb/><p>As we approached the <term type="nationality">Portuguese</term> settlements the people
+<lb/>became worse &amp; worse and at last instead of gifts of
+<lb/>food we were offered knocks on the head! The <term type="tribe">Chiboque</term> for
+<lb/>instance are most outrageous <choice><sic>blackgaurds</sic><corr>blackguards</corr></choice>. We came to
+<lb/>them as quiet as <orgName>Quakers</orgName> and were spending Sunday on
+<lb/><orgName>Peace Society</orgName> principles when a whole tribe surrounded us
+
+
+
+	<pb n="0004" facs="liv_000814_0004"><!--pb/@n='2v'--></pb><!-- A vertical line in the left margin runs the length of this page. Above the line is written "(Difficulties from the Natives -". These additions seem not to be in Livingstone's hand. -->
+<lb/>fully armed with guns, arrows, spears and short swords. They
+<lb/>were all vociferating and brandishing their weapons simultaneously
+<lb/>I sat down and asked the <term type="occupation">chief</term> to do the same and then demanding
+<lb/>silence requested to know what was the matter. Our crime consisted
+<lb/>in one of <orgName>our men</orgName> when spitting allowing a small drop of the saliva
+<lb/>to fall on one of them. I replied if the <term type="occupation">chief</term> could seriously say such
+<lb/>was a crime I was willing to pay a fine. (On such frivolous
+<lb/>pretexts we had often to pay enormous fines) He accepted one
+<lb/>but his <term type="occupation">warriors</term> rejected it and demanded one thing after another
+<lb/><choice><orig>untill</orig><reg>until</reg></choice> by demanding one of our number to be sold as a <orgName>slave</orgName>
+<lb/>we saw their intention was regular plunder, and armed <w>our<supplied>-</supplied><lb break="no"/>selves</w> for the worst. They feared my arms alone, indeed we
+<lb/><choice><sic>we</sic><corr/></choice>were as a <orgName>company</orgName> unprepared for fighting but armed <!-- Is this the correct way to code the duplicate "we"? HB 6-20-13 -->
+<lb/>as we were not a man of <term type="occupation">chief</term> or <term type="occupation">counsellors</term> would have
+<lb/>escaped the first onset. We determined to let them shed the
+<lb/>first drop of blood and sat looking at them in all
+<lb/>their heathenish shouting. This resolute bearing made them more
+<lb/>reasonable so they accepted an <term type="animal">ox</term> and gave us two or three
+<lb/>pounds of the flesh to <choice><orig>shew</orig><reg>show</reg></choice> they were of a generous disposition
+<lb/>after all. We were often so treated and at last no passage
+<lb/>allowed past a town or village without paying for it. I
+<lb/>paid away nearly all I had. <term type="animal">oxen</term> for provisions &amp; riding
+<lb/>clothes razors spoons, &amp;c <!-- A closing square bracket is here added that appears not to be in Livingstone's hand. -->. Then we all got angry, chafed
+<lb/>in mind <hi rend="underline">a</hi>nd hungry and replied angrily to their demands
+<lb/>Sometimes I was furious and would have fought but
+<lb/><orgName>my companions</orgName> were more pacific stripping themselves
+<lb/>of their ornaments &amp; paying for passage At other times
+<lb/>they were on the bloody key and I was quakerish and
+<lb/>we rose up by night and passed our enemies expecting
+<lb/>an assault in every thicket and glen we came to.
+<lb/>And <!-- A opening square bracket is here added that appears not to be in Livingstone's hand. -->After all I thank God sincerely in that he prevented
+<lb/>us from shedding human blood.</p>
+
+	<pb n="0005" facs="liv_000814_0005"><!--pb/@n='3r'--></pb>
+<lb/><p>When we reached the <placeName><geogName type="river">Quango</geogName></placeName> I had made up my mind to part
+<lb/>with my bedding for a passage but we were prevented by
+<lb/>a small tribe from approaching the ferry. I could not
+<lb/>pay both tribe and ferry with what I had remaining
+<lb/>and there they laughed at us with their teeth filed to
+<lb/>a point and hair elaborately plaited &amp; ornamented
+<lb/>"you must just go back the way you came ", "if you
+<lb/><choice><sic>you</sic><corr/></choice>cannot pay us you will see what we can do "O &amp;c <!-- Is this the proper way to coded duplicate "you"? HB 6-20-13 -->
+<lb/>Ah! you <orgName>Caffres</orgName> have been spoiled by <term type="occupation">missionaries</term> I suppose
+<lb/>The <orgName><choice><sic>Read's</sic><corr>Reads</corr></choice></orgName> have been among you exciting you to rebellion, that
+<lb/>they have. Here a young <term type="nationality">Portuguese</term> <term type="occupation">Sergeant</term> appeared &amp;
+<lb/>enabled us to get over the <placeName><geogName type="river">Quango</geogName></placeName> without more trouble
+<lb/>Our difficulties were ended All we have met in the <placeName><region><term type="nationality">Portuguese</term> 
+<lb/>territory</region></placeName> have been civil and <persName>Serg<hi rend="sup">t</hi> Cypriano de Abreu</persName>
+<lb/>began the hospitality which we have <choice><sic>eveyhere</sic><corr>everywhere</corr></choice> <choice><sic>recieved</sic><corr>received</corr></choice>
+<lb/>from the <term type="people">Portuguese</term>. We arrived at <placeName><settlement type="town">Cassange</settlement></placeName>, naked
+<lb/>and famished. There they clothed and fed us May God
+<lb/>reward them. At <placeName><settlement type="town">Ambaca</settlement></placeName> I found the <term type="occupation"><w>command<supplied>-</supplied><lb break="no"/>ant</w></term> an enlightened friend of <placeName><bloc>Africa</bloc></placeName>. one who has
+<lb/>written spoken and suffered on her behalf, and
+<lb/>his sentiments are in unison with those of many
+<lb/>in the upper ranks in <placeName><country>Portugal</country></placeName>. I have on
+<lb/>the whole been <choice><sic>agreably</sic><corr>agreeably</corr></choice> disappointed in the <term type="people">Portuguese</term>
+<lb/>They are extremely polite and hospitable and all lament
+<lb/>the state of <unclear cert="high">supineness</unclear> into which their nation
+<lb/>has sunk</p>
+<lb/><p rend="right"><placeName><settlement type="city">Loanda</settlement></placeName> <date when="1854-08-14"> 14 Aug<hi rend="sup underline">st</hi></date></p>
+<lb/><p>I reached this city on the <date when="1854-05-31">31<hi rend="sup">st</hi> of May</date> and
+<lb/>was glad to tumble into bed as soon as
+<lb/>I arrived. knocked up and no mistake
+<lb/>by <term type="ailment">fever</term> and <term type="ailment">Diarrhoea</term>. The first house
+<lb/>I called at was that of <persName>Edmund Gabriel Esqu</persName></p>
+	<ab>
+<lb/>x <space dim="horizontal" extent="2" unit="chars"/>I have since found out he is so only in profession &amp; one
+<lb/>cannot rely on the most plausible speeches of even <term type="occupation">governors</term>
+<lb/><space dim="horizontal" extent="5" unit="chars"/>They are excessively corrupt. <persName><choice><abbr>DL</abbr><expan>David Livingstone</expan></choice></persName></ab>
+
+
+	<pb n="0006" facs="liv_000814_0006"><!--pb/@n='3v'--></pb>
+<lb/><p>Her <choice><sic>Majestys</sic><corr>Majesty's</corr></choice> <term type="occupation">commissioner</term> for the suppression
+<lb/>of the <orgName><orgName>slave</orgName> trade</orgName> and a most disinterested
+<lb/>generous friend he has proved himself to be
+<lb/>He is the only <term type="person">Englishman</term> in this city
+<lb/>and it contains a population of 11,000 souls
+<lb/>I recovered partially then had a relapse &amp;
+<lb/>nearly marched off from the land of the
+<lb/>living. I have now however by <choice><sic>Gods</sic><corr>God's</corr></choice>
+<lb/>mercy got round again and will start
+<lb/>on my return on the <date when="1854-08-20">20<hi rend="sup underline">th</hi> <choice><abbr>currt.</abbr><expan>current</expan></choice></date> The <term type="occupation">officers</term>
+<lb/>of our <gap agent="illegible" unit="words" extent="1"/> have been very kind and
+<lb/>the <term type="nationality">Portuguese</term> authorities too. The <persName>Bishop
+<lb/>of Angola</persName> is the acting <term type="occupation">Governor</term>. He <choice><sic>recieved</sic><corr>received</corr></choice>
+<lb/>us very kindly and assured <orgName>my men</orgName> of his
+<lb/>protection. Sends a present to <persName>Sekeletu</persName> consisting
+<lb/>of 2 coats ornamented with lace &amp; a <term type="animal">horse</term>
+<lb/>There are no <bibl>bibles</bibl> here - the prosperity of the city
+<lb/>depended on the <orgName><orgName>slave</orgName> trade</orgName> and as that
+<lb/>is virtually suppressed they have no hope of
+<lb/>gaining filthy lucre except by the revolution
+<lb/>of the <term type="people">English</term> or such other blessing as the
+<lb/>devil might bestow. The province is fruitful
+<lb/>in the extreme and of rare beauty. Two crops
+<lb/>of all sorts of <term type="plant_foodstuff">fruits</term> per year. <term type="plant_foodstuff">coffee</term> the
+<lb/>best I ever tasted grows &amp; yields in 3
+<lb/>y<gap extent="3" unit="chars" agent="blotting"/><supplied cert="medium">ear</supplied>s if they would only stick the plants
+<lb/>in the soil <term type="plant_foodstuff">sugar</term> <term type="plant_foodstuff">pine apples</term>. everything
+<lb/>in fact but the <term type="people">Portuguese</term> actually buy all
+<lb/>their <term type="foodstuff">flour</term> &amp; <term type="foodstuff">bread</term> from the <orgName>Yankees</orgName> instead 
+<lb/>of growing <term type="plant_foodstuff">wheat</term> themselves. The <term type="plant"><term type="plant_foodstuff">coffee</term> trees</term>
+<lb/>were chiefly planted by the old <term type="occupation">missionaries</term>
+<lb/>and their churches are all in ruins But
+
+
+
+	<pb n="0007" facs="liv_000814_0007"><!--pb/@n='4r'--></pb>
+<lb/>most of the <term type="people">Portuguese</term> of mixed blood can both
+<lb/>read &amp; write. They teach each other. How I long
+<lb/>for a few <bibl>Bibles</bibl> but it is questionable whether
+<lb/>I shall return this way. I intend going down the
+<lb/><placeName><geogName type="river">Zambesi</geogName></placeName> to <placeName><settlement type="town">Quilimane</settlement></placeName> rather than this way
+<lb/>so many rivers &amp; thickets prevent me attempting
+<lb/>this way with the <choice><orig>waggon</orig><reg>wagon</reg></choice> - they have no roads
+<lb/>here and tomorrow is a grand festival in
+<lb/>commemoration of having driven the <term type="people">Dutch</term>
+<lb/>out of the country - the <term type="people">Dutch</term> began to make
+<lb/>a canal to lead water to the city It has
+<lb/>never been completed and all drinkable
+<lb/>water has to be carried from the <placeName><geogName type="river">Bengo</geogName></placeName> 8 or 9
+<lb/>miles distant. The Harbour once a splendid
+<lb/>one is now filling up. Indeed ships cannot
+<lb/>now anchor within a mile of the city an<gap extent="1" unit="chars" agent="hole"/><supplied cert="high">d</supplied>
+<lb/>all look on &amp; take the world easy. The <term type="occupation">trad<gap extent="3" unit="chars" agent="hole"/><supplied cert="medium">ing</supplied></term>
+<lb/>is in the hands of the <orgName>Yankees</orgName>. No <term type="nationality">English</term>
+<lb/>house has established itself. this arose from
+<lb/><placeName><settlement type="city">Loanda</settlement></placeName> getting a bad name some years ago</p>
+<lb/><p><persName>George</persName> I left at the town of <persName>Sekeletu</persName> I
+<lb/>wished him to leave as soon as possible
+<lb/>after I left. He leans on me. This <choice><sic>wont</sic><corr>won't</corr></choice>
+<lb/>do at all. The <term type="people">Portuguese</term> give ten times as
+<lb/>much for ivory as <term type="nationality">English</term> <term type="occupation">traders</term> Kind
+<lb/>salutations to your sister &amp; all the family
+<lb/>I have not got a single line from anyone
+<lb/>though I wrote you all by a <term type="occupation">trader</term> called
+<lb/><persName>Chapman</persName> who was accompanied by
+<lb/>one <persName>Thompson</persName> from <placeName><region>Natal</region></placeName></p>
+<lb/><p rend="right">Ever Affectionately Yours</p>
+<lb/><p rend="right"><persName>David Livingstone</persName></p>
+
+	<pb n="0008" facs="liv_000814_0008"><!--pb/@n='4v'--></pb><!-- In a hand that appears not to be Livingstone's the following three phrases have here been written on successive lines: "14th May 1854", "4 - Idolatry - p.3 -", and "Difficulties - p.1, 3." The words "Idolatry" and "Difficulties" are underscored. -->
+	<cb rend="vertical"/>
+<lb/><p rend="no-indent"><persName>Rev<hi rend="sup">d</hi>. <choice><abbr>W.</abbr><expan>William</expan></choice> Thompson</persName></p>
+<lb/><p rend="center"><placeName><settlement type="city">Cape Town</settlement></placeName></p>
+<lb/><p rend="center"><hi rend="underline"><placeName><region>Cape of Good Hope</region></placeName></hi></p>
+			
+</div>
+		</body>
+	</text></TEI>
