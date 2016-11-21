@@ -1,7 +1,7 @@
 list elements, attributes, values for Mac
 -----------------------------------------
 *** do this first for one short file:
-java -jar saxon9he.jar -it:main -s:$file -xsl:listelements.xsl -o:0_element-attribute-value.html
+java -jar saxon9he.jar -it:main -xsl:listelements.xsl -o:0_element-attribute-value.html
 
 *** then add all the files and do this:
 for file in *.xml; do java -jar saxon9he.jar -it:main -s:$file -xsl:listelements.xsl -o:0_element-attribute-value.html; done
