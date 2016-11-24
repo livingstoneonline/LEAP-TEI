@@ -1,5 +1,5 @@
 Document site/rewrite code
-1. remove dropdown for edition menu
+1. change dropdown for edition menu to click & display list
 2. how to display GIFs
 3. clickable tooltips for mobile
 
@@ -20,15 +20,18 @@ Click on images in Timeline/Timeline image size
 Reconfig backups
 
 -----------------------------------------
-Finish MODS update
 Integrate spectral pages
+conclude LO project history post-beta launch
+create RDF for NINES
 -----------------------------------------
+Finish MODS update
 Fix addressees
 Review bugs
 Citations for essays?
 Ingest new items
 Update documentation of files
 -----------------------------------------
+convert published Last Journals to XML
 XSLT for FDs/UJ
 final XSLT tweaks for legacy
 integrate new XML (Anne, Lauren & students)
@@ -37,12 +40,3 @@ PDFs for FDs and UJ
 -----------------------------------------
 UMD NEH questions
 lines 48, 49, 74, 77
------------------------------------------
-
-**J.Livingstone question
-
-I have a quick XSLT question. If I have something like the following:
-
-<metamark function="flag" spanTo="#meta-2"/>some longest piece of text, say spanning several lines or a page or two even<anchor xml:id="meta-2"/>
-
-would this be able to be rendered so that the enclosed text was put in square brackets or something like that. In other words, would enclosing the text in something be feasible from an XSLT perspective given that this is a metamark that points to an anchor with a specific xml:id?
