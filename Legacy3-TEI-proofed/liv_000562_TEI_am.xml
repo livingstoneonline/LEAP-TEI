@@ -62,9 +62,9 @@
 			<div>
 
 	<pb n="0001" facs="liv_000562_0001"><!--pb/@n='1r'--></pb>
-<lb/><p rend="right"><placeName><settlement type="village">Mabotsa</settlement></placeName> <date when="1844-09-09">9 June 1844</date></p><!--The deletion that begins here and the text at the top of the page (both apparently in pencil) do not appear to be in Livingstone's hand--><!-- have now attempted to code this with a <delSpan> AM --><delSpan spanTo="#del-1" hand="#U" rend="gray"/>
+<lb/><p rend="right"><space extent="3" unit="words"/><placeName><settlement type="village">Mabotsa</settlement></placeName> <date when="1844-09-09">9 June 1844</date></p><!--The deletion that begins here and the text at the top of the page (both apparently in pencil) do not appear to be in Livingstone's hand--><!-- have now attempted to code this with a <delSpan> AM --><delSpan spanTo="#del-1" hand="#U"/>
 <lb/><p>Dear Sir</p>
-<lb/><p>The Lord having in tender mercy restored me
+<lb/><p><space extent="3" unit="words"/>The Lord having in tender mercy restored me
 <lb/>to my wanted health. I have much cause for gratitude in
 <lb/>being able again to communicate with you. The affliction
 <lb/>from which I have been raised was both painful and <w>pro-
@@ -166,7 +166,7 @@
 <lb/>human efforts will be but labour in vain. That power exerted
 <lb/>over <term type="tribe">Bechuanas</term> - raising them from the extreme of degradation-
 <lb/>and transforming them into <term type="occupation">worshippers</term> of the Living God constitutes
-<lb/><hi rend="underline">the</hi> wonder and <hi rend="double-underline"/> cause for gratitude in the <orgName><term type="tribe">Bechuana</term> mission</orgName><add place="inline" hand="#U" rend="gray">]</add></p>
+<lb/><hi rend="underline">the</hi> wonder and <hi rend="underline">the</hi> cause for gratitude in the <orgName><term type="tribe">Bechuana</term> mission</orgName><add place="inline" hand="#U" rend="gray">]</add></p>
 <lb/><p>Our <orgName>native</orgName> <term type="occupation">assistant</term> <persName>Mebaloe</persName> has been of considerable value
 <lb/>to the <orgName>mission</orgName>. In endeavouring to save my life he nearly
 <lb/>lost his own for he was caught and wounded severely. But
@@ -195,27 +195,35 @@
 <lb/>that means of spreading the <bibl>gospel</bibl> can be extensively brought
     
 <!-- Text interrupted by postal information; continues after break at bottom of page HB 10/30/12 -->
+	<cb/>
 <lb/>into operation. Still, believing that it is extremely well
 <lb/>adapted to the state of this country. And having seen that
 <lb/>it has been extensively blessed for the conversion of souls
 <lb/>I shall never lose sight of it. And constantly pray that
 <lb/>God may incline the hearts of his <orgName>converts</orgName> to feel more
 <lb/>compassion for their <orgName>countrymen</orgName> <space dim="horizontal" extent="5" unit="chars"/>Believe me
-<lb/><hi rend="center"/>Dear Sir
-<lb/><hi rend="right"/>Yours Affectionately
-<lb/><hi rend="right"/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
+<lb/><hi rend="right"/>Dear Sir
+<lb/><hi rend="right"/><space extent="2" unit="words"/>Yours Affectionately
+<lb/><hi rend="right"/><space extent="2" unit="words"/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
 
-	<cb rend="right"/>
-<lb/><ab><add place="inline" hand="#U" rend="black"><placeName><settlement type="village">Mabotsa</settlement></placeName> <date when="1844-06-09">June 9, 1844</date> <lb/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName>,</add></ab>
+<lb/><cb rend="right"/>
+<lb/><ab><add place="inline" hand="#U" rend="black"><placeName><settlement type="village">Mabotsa</settlement></placeName> <date when="1844-06-09">June 9, 1844</date> 
+<lb/><space extent="1" unit="words"/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName>,</add></ab>
 
 	<cb rend="vertical"/>
 <lb/><ab><del type="strikethrough" hand="#U">Care of <persName>Rev<hi rend="sup underline">d</hi> D<hi rend="sup underline">r</hi> Phillip</persName> <placeName><settlement type="city">Cape Town</settlement></placeName></del>
-<lb/><space dim="vertical" extent="1" unit="lines"/>
+<lb/>
 <lb/>The <persName>Rev<hi rend="sup underline">d</hi> Arthur Tidman</persName>
-<lb rend="center"/><placeName>Mission House</placeName>
-<lb rend="center"/><placeName>Blomfield <choice><abbr>St.</abbr><expan>Street</expan></choice></placeName>
-<lb rend="right"/><placeName><settlement type="city"><hi rend="underline">London</hi></settlement></placeName>
+<lb rend="center"/><space extent="1" unit="words"/><placeName>Mission House</placeName>
+<lb rend="center"/><space extent="2" unit="words"/><placeName>Blomfield <choice><abbr>St.</abbr><expan>Street</expan></choice></placeName>
+<lb rend="right"/><space extent="3" unit="words"/><placeName><settlement type="city"><hi rend="underline">London</hi></settlement></placeName></ab>
+
+	<ab>
 <lb/><hi rend="underline">single</hi></ab>
+
+	<ab>
+<lb/>Received <date when="1844-10-09"><choice><abbr>Oct</abbr><expan>October</expan></choice> 9, 1844</date></ab>
+
 
 			
 </div>

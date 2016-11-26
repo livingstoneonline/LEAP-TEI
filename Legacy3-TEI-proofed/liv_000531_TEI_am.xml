@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
  <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000531">
 	<teiHeader>
@@ -61,10 +61,10 @@
 			<div>
 
 	<pb n="0001" facs="liv_000531_0001"><!--pb/@n='1r'--></pb>
-<lb/><p rend="right"><placeName><settlement type="village">Kuruman</settlement></placeName> <date when="1843-06-24">24<hi rend="sup">th</hi> June 1843</date></p>
-<lb/><p rend="left"><persName>Rev<hi rend="sup underline">d</hi> <choice><abbr>A.</abbr><expan>Arthur</expan></choice> Tidman</persName></p>
-<lb/><p rend="center">Dear Sir</p>
-<lb/><p><space dim="horizontal" extent="34" unit="chars"/>Your kind and encouraging letter <!-- Would this be better coded as margin right? And if so, how code next line left margin without using new p line? HB 9-1-13 -->
+<lb/><p rend="right"><space extent="6" unit="words"/><placeName><settlement type="village">Kuruman</settlement></placeName> <date when="1843-06-24">24<hi rend="sup">th</hi> June 1843</date></p>
+<lb/><p><persName>Rev<hi rend="sup underline">d</hi> <choice><abbr>A.</abbr><expan>Arthur</expan></choice> Tidman</persName></p>
+<lb/><p><space extent="4" unit="words"/>Dear Sir</p>
+<lb/><p><space extent="6" unit="words"/>Your kind and encouraging letter <!-- Would this be better coded as margin right? And if so, how code next line left margin without using new p line? HB 9-1-13 -->
 <lb/>I found a few days ago on returning from another tour in the
 <lb/><placeName><region>Interior</region></placeName>, and I now beg leave gratefully to acknowledge the
 <lb/>encouragement it imparted to my mind. It afforded me
@@ -612,6 +612,8 @@
 <lb/>of the tribe of <persName>Sebegwe</persName> it will probably soon be diminished.</p>
 <lb/><p>The <term type="tribe">Bamangwato</term> are this year so situated among rocks
 <lb/>I could not estimate their number but though I know they
+<lb/>
+<lb/>
 
 	
 
@@ -698,20 +700,22 @@
 <lb/>you may judge how much ought to be dedicated from the force
 <lb/>of these statements by taking the existence of these feelings
 <lb/>into consideration</p>
-<lb/><p rend="center">I am Dear Sir</p>
-<lb/><p rend="right">Affectionately yours</p>
-<lb/><p rend="right"><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
+<lb/><p rend="center"><space extent="4" unit="words"/>I am Dear Sir</p>
+<lb/><p rend="right"><space extent="4" unit="words"/>Affectionately yours</p>
+<lb/><p rend="right"><space extent="5" unit="words"/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
 
 	<ab>
 <lb/><add place="inline" hand="#U"><placeName><settlement type="village">Kuruman</settlement></placeName>, <date when="1843-06-24">June 24. 1843</date>
-<lb/><persName><choice><abbr>D.</abbr><expan>David</expan></choice> <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></add></ab>
+<lb/><space extent="1" unit="words"/><persName><choice><abbr>D.</abbr><expan>David</expan></choice> <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></add></ab>
 
 	<cb rend="vertical"/><ab>
-<lb/>Care of <persName>Rev<hi rend="sup underline">d</hi> D<hi rend="sup underline">r</hi> Phillip</persName><space dim="horizontal" extent="5" unit="chars"/><placeName><settlement type="city">Cape Town</settlement></placeName><space dim="vertical" extent="4" unit="lines"/>
-<lb/><add place="above">The</add> <persName>Rev<hi rend="sup underline">d</hi> Arthur Tidman</persName>
-<lb/>Mission House 
-<lb/>Blomfield <choice><abbr>St.</abbr><expan>Street</expan></choice>
-<lb/><placeName><settlement type="city"><hi rend="underline">London</hi></settlement></placeName></ab>
+<lb/>Care of <persName>Rev<hi rend="sup underline">d</hi> D<hi rend="sup underline">r</hi> Phillip</persName> <space dim="horizontal" extent="5" unit="chars"/><placeName><settlement type="city">Cape Town</settlement></placeName>
+<lb/>
+<lb/>
+<lb/><space extent="1" unit="words"/><add place="above">The</add> <persName>Rev<hi rend="sup underline">d</hi> Arthur Tidman</persName>
+<lb/><space extent="3" unit="words"/>Mission House 
+<lb/><space extent="4" unit="words"/>Blomfield <choice><abbr>St.</abbr><expan>Street</expan></choice>
+<lb/><space extent="6" unit="words"/><placeName><settlement type="city"><hi rend="underline">London</hi></settlement></placeName></ab>
 <!-- More text on this page written in a different hand HB 9-1-13 -->
 			
 </div>
