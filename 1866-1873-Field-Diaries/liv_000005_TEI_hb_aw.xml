@@ -1930,27 +1930,31 @@
 
 
 	<pb facs="liv_000005_0091" n="0091"/> 
-<lb/><p rend="no-indent"><date when="1866-10-22"><w><supplied>2</supplied>2</w> <choice><abbr>Oct</abbr><expan>October</expan></choice></date> <table><row n="1"><cell><seg type="weather"><choice><abbr>Temp</abbr><expan>Temperature</expan></choice></seg></cell><cell rend="left">6 AM ----</cell><cell>60°</cell></row>
+<lb/><table><row n="1"><cell><add place="marginleft"><date when="1866-10-22"><w><supplied>2</supplied>2</w> <choice><abbr>Oct</abbr><expan>October</expan></choice></date></add> <seg type="weather"><choice><abbr>Temp</abbr><expan>Temperature</expan></choice></seg></cell><cell rend="center">6 AM ----</cell><cell rend="right">60°</cell></row>
 
-<lb/><row n="2"><cell/><cell>9 AM ----</cell><cell>81°</cell></row>
+<lb/><row n="2"><cell/><cell rend="center">9 AM ----</cell><cell rend="right">81°</cell></row>
 
-<lb/><row n="3"><cell/><cell>10 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> ----</cell><cell>86.5°</cell></row>
+<lb/><row n="3"><cell/><cell rend="center">10 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> ----</cell><cell rend="right">86.5°</cell></row>
 
-<lb/><row n="4"><cell/><cell>11 ------</cell><cell>90°</cell></row>
+<lb/><row n="4"><cell/><cell rend="center">11 ------</cell><cell rend="right">90°</cell></row>
 
-<lb/><row n="5"><cell/><cell>12 <add rend="upside-down"><figure><figDesc>Calculation.</figDesc></figure></add>------</cell><cell>93°</cell></row>
+<lb/><row n="5"><cell/><cell rend="center">12 ------</cell><cell rend="right">93°</cell></row>
 
-<lb/><row n="6"><cell>cloaked out</cell><cell>1 <space extent="5" unit="chars"/></cell><cell>85°</cell></row> 
+<lb/><row><cell rend="center"><add rend="upside-down"><figure><figDesc>Calculation.</figDesc></figure></add></cell></row>
 
-<lb/><row n="7"><cell><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></cell> <cell>2 ----</cell><cell>90°</cell></row>
+<lb/><row n="6"><cell>cloaked out</cell><cell rend="center">1 <space extent="5" unit="chars"/></cell><cell rend="right">85°</cell></row> 
 
-<lb/><row n="8"><cell>3 ----</cell><cell>92<supplied cert="high">°</supplied></cell></row>
+<lb/><row n="7"><cell><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></cell> <cell rend="center">2 ----</cell><cell rend="right">90°</cell></row>
 
-<lb/><row n="9"><cell>4 ----</cell><cell>90<supplied cert="high">°</supplied></cell></row>
+<lb/><row n="8"><cell rend="center">3 ----</cell><cell rend="right">92<supplied cert="high">°</supplied></cell></row>
 
-<lb/><row n="10"><cell><add place="over-text" rend="upside-down"><placeName><settlement type="village">Mashumba</settlement></placeName> - <foreign xml:lang="und">nyama</foreign></add></cell><cell>5 <space extent="5" unit="chars"/></cell><cell>87<supplied cert="high">°</supplied></cell></row>
+<lb/><row n="9"><cell rend="center">4 ----</cell><cell rend="right">90<supplied cert="high">°</supplied></cell></row>
 
-<lb/><row n="11"><cell>6 <space extent="5" unit="chars"/></cell><cell>80<supplied cert="high">°</supplied></cell></row></table></p>
+<lb/><row n="10"><cell rend="center">5 <space extent="5" unit="chars"/></cell><cell rend="right">87<supplied cert="high">°</supplied></cell></row>
+
+<lb/><row><cell rend="center"><add place="over-text" rend="upside-down"><placeName><settlement type="village">Mashumba</settlement></placeName> - <foreign xml:lang="und">nyama</foreign></add></cell></row>
+
+<lb/><row n="11"><cell rend="center">6 <space extent="5" unit="chars"/></cell><cell rend="right">80<supplied cert="high">°</supplied></cell></row></table>
 
 <lb/><milestone unit="section" rend="line"/>
 
@@ -1959,7 +1963,7 @@
 <!-- The following now begins from the bottom of the page (since it's upside down) and comes back up to the middle. I can see merits for arranging it this way, as well as section by section as it appears on the page in order, so I just chose the former since it was already what Anne had done. I've also normalized the next page to this. AW -->
 
 		<div rend="upside-down gray">
-<lb/><p><placeName><settlement type="village">Mapuio</settlement></placeName> <choice><abbr>N-W-</abbr><expan>North West</expan></choice> of 
+<lb/><p rend="no-indent"><placeName><settlement type="village">Mapuio</settlement></placeName> <choice><abbr>N-W-</abbr><expan>North West</expan></choice> of 
 <lb/><placeName><settlement type="village"><persName>Zomba</persName></settlement></placeName> = <placeName><settlement type="village">Kalolo</settlement></placeName> is <!-- Adrian, I'm a little confused- is Zomba a persName or placeName? (or is this the persName being used as the stand-in for his village?) HB --><!-- I think it's a village, but I'm going to go ahead and code for both. AW -->
 <lb/><placeName><settlement type="village">Kanthunda</settlement></placeName> - 3 days or 2
 <lb/>(<persName>Makosa</persName>)</p>
@@ -1968,7 +1972,7 @@
 <lb/><item>4 <placeName><settlement type="village">Lekune</settlement></placeName> -</item> <item>5 <placeName><settlement type="village">Mapuio</settlement></placeName></item>
 <lb/><item>Kiss 2 Chokera - <del type="strikethrough">Nsiko</del> = Chikouo</item></list><anchor xml:id="delpass"/><!-- I find the names on this line particularly difficult as I cannot tell whether they are place or person names - AM --><!-- No idea! AW -->
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><placeName><settlement type="village"><del type="strikethrough">Pam</del>Noma</settlement></placeName> - <placeName><settlement type="village">Lekune</settlement></placeName>
+<lb/><p rend="no-indent"><placeName><settlement type="village"><del type="strikethrough">Pam</del>Noma</settlement></placeName> - <placeName><settlement type="village">Lekune</settlement></placeName>
 <lb/><placeName><settlement type="village">Chindundu</settlement></placeName> is one
 <lb/>day <choice><abbr>W</abbr><expan>West</expan></choice> of <placeName><settlement type="town"><persName>Zomba</persName>'s</settlement></placeName>
 <lb/>there the gold is found</p>
@@ -1982,6 +1986,7 @@
 <lb/>East to <placeName><geogName type="river">Mirongwe</geogName></placeName> &amp; thence
 <lb/>into the <placeName><geogName type="river">Lintipe</geogName></placeName> -</p>
 <lb/><milestone unit="section" rend="double-line"/>
+<lb/>
 		</div>
 		<div rend="upside-down gray"><!-- Again, working my way up from bottom of the page to the middle here, since the following text is upside-down. AW -->
 <lb/><p rend="no-indent"><term type="ailment"><choice><orig>Hooping</orig><reg>Whooping</reg></choice> cough</term> at Lake <!-- geog: Nyassa -->
@@ -1990,10 +1995,10 @@
 <lb/><measure>10 miles <choice><abbr>W</abbr><expan>West</expan></choice> of <placeName><settlement type="village">Kauma</settlement></placeName></measure>
 <lb/><date when="1866-10-15">15<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1866</date></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><term type="ailment"><choice><sic>small</sic><corr>Small</corr></choice> pox</term> at <placeName><settlement type="village">Paritala</settlement></placeName>
+<lb/><p rend="no-indent"><term type="ailment"><choice><sic>small</sic><corr>Small</corr></choice> pox</term> at <placeName><settlement type="village">Paritala</settlement></placeName>
 <lb/>on <date when="1866-10-20">20<hi rend="sup underline">th</hi> <choice><abbr>Oct</abbr><expan>October</expan></choice></date></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><placeName><settlement type="village">Chipanga</settlement></placeName> - <placeName><settlement type="village">chiko</settlement></placeName>
+<lb/><p rend="no-indent"><placeName><settlement type="village">Chipanga</settlement></placeName> - <placeName><settlement type="village">chiko</settlement></placeName>
 <lb/><placeName><settlement type="village">Mukamanga</settlement></placeName> - <placeName><settlement type="village">Rongwe</settlement></placeName></p>
 <lb/><milestone unit="section" rend="line"/>
 
@@ -2021,7 +2026,7 @@
 <lb/><p rend="no-indent"><date when="1866-10-24">24<hi rend="sup">th</hi> <choice><abbr>Oct</abbr><expan>October</expan></choice></date> <choice><sic>meet</sic><corr>Meet</corr></choice> village flying
 <lb/>from <term type="tribe">Mazitu</term> - See <term type="animal">Elands</term> <term type="animal"><w>Ele<supplied>-</supplied>
 <lb break="no"/>-phants</w></term> - <term type="animal">wild hog</term> &amp; <term type="animal">Hartebeests</term>
-<lb/>shoot one (of latter -</p><figure><figDesc>Drawing, apparently of a slope.</figDesc></figure>
+<lb/>shoot one (of latter - <figure><figDesc>Drawing, apparently of a slope.</figDesc></figure></p>
 <lb/><milestone unit="section" rend="double-line"/>
 		</div>
 
@@ -2032,7 +2037,7 @@
 
 <lb/><list><item>From <placeName><geogName type="river">Levenga <add place="above"><choice><abbr>Rr</abbr><expan>River</expan></choice></add></geogName></placeName> back to
 
-<lb/><placeName><geogName type="mountain-range">Phunze <choice><abbr>Mt<hi rend="sup">n</hi></abbr><expan>Mountain</expan></choice></geogName></placeName> <hi rend="red underline">85°</hi> - <hi rend="red underline">76°</hi> 3 <add place="above">mile<supplied cert="medium">s</supplied></add></item><addSpan spanTo="#calc-add2"/><figure rend="red"><figDesc>Geographical calculations.</figDesc></figure><anchor xml:id="calc-add2"/><!-- Change to orange -->
+<lb/><placeName><geogName type="mountain-range">Phunze <choice><abbr>Mt<hi rend="sup">n</hi></abbr><expan>Mountain</expan></choice></geogName></placeName> <hi rend="underline">85°</hi> - <hi rend="underline">76°</hi> 3 <add place="above">mile<supplied cert="medium">s</supplied></add></item> <addSpan spanTo="#calc-add2"/><figure rend="orange"><figDesc>Geographical calculations.</figDesc></figure><anchor xml:id="calc-add2"/>
 
 <lb/><item><placeName>Dedza</placeName> <measure>20 miles 89° 95°</measure></item>
 
@@ -2055,12 +2060,12 @@
 <lb/><p rend="no-indent"><choice><sic>at</sic><corr>At</corr></choice> <placeName><geogName type="river">Levise <choice><abbr>Rr</abbr><expan>River</expan></choice></geogName></placeName> - melted
 <lb/>Gneiss Dip slightly West
 <lb/>strike Due <choice><abbr>N</abbr><expan>North</expan></choice> &amp; <choice><abbr>E</abbr><expan>East</expan></choice> -</p>
-<lb/><p>At <placeName><geogName type="mountain-range">Phunze</geogName></placeName> fine 
+<lb/><p rend="no-indent">At <placeName><geogName type="mountain-range">Phunze</geogName></placeName> fine 
 <lb/>grained mica schist
 <lb/>caps the general
 <lb/>gneiss &amp; syenite</p>
 <lb/><milestone unit="section" rend="double-line"/>
-<lb/><p><choice><sic>hill</sic><corr>Hill</corr></choice> at End of <placeName><geogName type="mountain-range">Zalanyama</geogName></placeName> <app><rdg><w><subst><del>hill</del><add place="over-text">Range</add></subst></w></rdg><rdg><w><subst><del>Range</del><add place="over-text">hill</add></subst></w></rdg></app> <!-- Adrian, this is my first time using the app/rdg tags, so pls make sure I've done correctly. HB --><!-- Looks good. AW -->
+<lb/><p rend="no-indent"><choice><sic>hill</sic><corr>Hill</corr></choice> at End of <placeName><geogName type="mountain-range">Zalanyama</geogName></placeName> <app><rdg><w><subst><del>hill</del><add place="over-text">Range</add></subst></w></rdg><rdg><w><subst><del>Range</del><add place="over-text">hill</add></subst></w></rdg></app> <!-- Adrian, this is my first time using the app/rdg tags, so pls make sure I've done correctly. HB --><!-- Looks good. AW -->
 <lb/><figure><head><date when="1866-10-23">23<hi rend="sup underline">d</hi></date> <placeName><settlement type="city">Lilongwe</settlement></placeName> <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Chimambo</geogName></placeName></head><figDesc>Map with rivers and hills that continues to next page.</figDesc></figure> <measure>175° <add place="above">from</add> beyond <placeName><settlement type="village">Chikuta</settlement></placeName></measure> 
 <lb/><addSpan spanTo="#calc-add3"/><figure rend="red"><figDesc>Geographical calculations.</figDesc></figure><anchor xml:id="calc-add3"/><!-- Adrian, same issue with red numbers as sep lines/using add tags. HB --><!-- Fixed. AW --> Gap <measure>205°</measure></p>
 
@@ -2107,7 +2112,7 @@
 	    <!-- mw, ak, hb -->
 			    
 	<pb facs="liv_000005_0096" n="0096"/>
-<lb/><p>our own upmost <unclear cert="high">of Above</unclear>
+<lb/><p rend="no-indent">our own upmost <unclear cert="high">of Above</unclear>
 <lb/>can even attain to. A <add place="above">α</add> <!-- Here Livingstone might have crossed out the "k" in "knot" but I'm not sure. MW --><del type="strikethrough">k</del>not</p>
 <lb/><p>The events of the <term type="faith"><choice><sic>christian</sic><corr>Christian</corr></choice></term>
 <lb/>Dispensation were planted
@@ -2122,7 +2127,7 @@
 <lb/>their greatest Hero their
 <lb/>founders latest descendant</p> <!-- Adrian, should I section off the chavla section as cb/ab, or leave as-is? HB --><!-- I used <ab>. AW -->
 <lb/><milestone unit="section" rend="line"/>
-<lb/><ab><hi rend="double-underline black red"><foreign xml:lang="und"><choice><sic>chavla</sic><corr>Chavla</corr></choice></foreign></hi> <seg rend="red">name of poison
+<lb/><ab><hi rend="double-underline gray"><foreign xml:lang="und"><choice><sic>chavla</sic><corr>Chavla</corr></choice></foreign></hi> <seg rend="orange">name of poison
 <lb/>of arrows used on the
 <lb/><placeName><geogName type="lake">Lake Nyassa</geogName></placeName> by the
 <lb/><term type="tribe">Manganja</term></seg></ab>
@@ -2138,7 +2143,8 @@
 <lb/>gracious tenderness;
 <lb/>In <persName>Christ</persName> the most
 <lb/>fearless truth - <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></p>
-<lb/><p rend="no-indent">The <bibl>sacred volume</bibl> &amp; especially the <bibl>four gospels</bibl>
+<lb/><p rend="no-indent">The <bibl>sacred volume</bibl> &amp; 
+<lb/>especially the <bibl>four gospels</bibl>
 <lb/>unfolds the Deity - It
 <lb/><choice><orig>shews</orig><reg>shows</reg></choice> us him who
 <lb/>dwelleth in light which
@@ -2150,7 +2156,7 @@
 <lb/>&amp; exquisite care than</p>
 
     <pb facs="liv_000005_0098" n="0098"/>
-<lb/><p>expectation that preceded
+<lb/><p rend="no-indent">expectation that preceded
 <lb/>him - <persName>Jesus of <placeName><settlement type="city">Nazareth</settlement></placeName></persName>
 <lb/>was on the most <w>super<supplied>-</supplied>
 <lb break="no"/>-ficial</w> no less than on the
@@ -2193,7 +2199,7 @@
 <lb/>as unparalleled as the</p> <!-- Adrian, not sure where this thought continues to if not the next page? HB --><!-- Yes, DL's writing backwards from the end of the diary at this point, so leave as is. AW -->
 
 	<pb facs="liv_000005_0100" n="0100"/>
-<lb/><p><hi rend="red underline"><persName>Kassumbu</persName></hi><!-- Orange didn't seem to be an option for "rend". MW --><!-- Need to add and fix here. AW --> a <term type="occupation">chief</term> <unclear cert="high">of</unclear>
+<lb/><p rend="no-indent"><hi rend="underline"><persName>Kassumbu</persName></hi><!-- Orange didn't seem to be an option for "rend". MW --><!-- Need to add and fix here. AW --> a <term type="occupation">chief</term> <unclear cert="high">of</unclear>
 <lb/><term type="tribe">Maravi</term> at <placeName><settlement type="village">Dedza</settlement></placeName> all
 <lb/>along that country <w>west<supplied>-</supplied>
 <lb break="no"/>wards</w> <term type="tribe">Manganja</term> live
@@ -2202,11 +2208,11 @@
 <lb/>named by the <term type="tribe">Makololo</term>
 <lb/>his real name being
 <lb/><persName><hi rend="underline">Kiemasusa</hi></persName></p>
-<lb/><p rend="no-indent"><seg rend="red"><foreign xml:lang="und"><term type="animal"><hi rend="underline">Kuzuri</hi></term></foreign> = a fish that
+<lb/><p rend="no-indent"><seg rend="orange"><foreign xml:lang="und"><term type="animal"><hi rend="underline">Kuzuri</hi></term></foreign> = a fish that
 <lb/>comes down stream
 <lb/>in flood - (<foreign xml:lang="la"><hi rend="underline"><term type="animal">Glanis Siluris</term></hi></foreign>)</seg></p> <!-- Adrian, if this is the animal's Latin name, should it have an animal tag as well? HB --><!-- Yes, added. AW -->
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><foreign xml:lang="und"><term type="plant_foodstuff"><hi rend="double-underline red black">Toku</hi></term></foreign> a preparation 
+<lb/><p><foreign xml:lang="und"><term type="plant_foodstuff"><hi rend="double-underline gray">Toku</hi></term></foreign> a preparation 
 <lb/>of <term type="plant_foodstuff">grain</term> which brings
 <lb/>out all its sweetness -
 <lb/>is very refreshing
@@ -2236,12 +2242,12 @@
 
     <pb facs="liv_000005_0102" n="0102"/>
 <lb/><p><persName>Zomba</persName> from upper part
-<lb/>of <list><item n="1"><placeName><geogName type="lake">Pamalombe</geogName></placeName> 196</item> <!-- Adrian, a previous page like this was coded as a table, so for conformity I'd like to put the two in same format- which would you prefer? HB --><!-- Go with list. AW -->
-<lb/><item n="2">-- <placeName><settlement type="village">Likala</settlement></placeName> <space extent="1" unit="words"/>188</item>
-<lb/><item n="3"><placeName><geogName type="river">Kisu</geogName></placeName> <add place="above">or</add> <placeName><geogName type="river"><hi rend="underline">Njongone</hi></geogName></placeName><!-- I'm not 100% sure this is a river. Basing this on the presence of a river transcribed as "Kisungu" in Last Journals. MW --> <space extent="2" unit="chars"/> 206˚</item><!-- OK. AW -->
-<lb/><item n="4"><placeName><geogName type="mountain">Mangoche</geogName></placeName> <space extent="1" unit="words"/> 80˚</item>
-<lb/><item n="5">chidanganya <space extent="1" unit="chars"/> 100</item>
-<lb/><item n="6">Domondo <space extent="1" unit="words"/> <unclear cert="low">Numgha</unclear></item></list></p>
+<lb/><list><item n="1">of <placeName><geogName type="lake">Pamalombe</geogName></placeName> <space extent="1" unit="words"/>196</item> <!-- Adrian, a previous page like this was coded as a table, so for conformity I'd like to put the two in same format- which would you prefer? HB --><!-- Go with list. AW -->
+<lb/><item n="2">-- <placeName><settlement type="village">Likala</settlement></placeName> <space extent="2" unit="words"/><space extent="3" unit="chars"/>178</item>
+<lb/><item n="3"><placeName><geogName type="river">Kisu</geogName></placeName> <add place="above">or</add> <placeName><geogName type="river"><hi rend="underline">Njongone</hi></geogName></placeName><!-- I'm not 100% sure this is a river. Basing this on the presence of a river transcribed as "Kisungu" in Last Journals. MW --> <space extent="1" unit="chars"/> 206˚</item><!-- OK. AW -->
+<lb/><item n="4"><placeName><geogName type="mountain">Mangoche</geogName></placeName> <space extent="2" unit="words"/> 80˚</item>
+<lb/><item n="5">chidanganya <space extent="1" unit="words"/><space extent="1" unit="chars"/>100</item>
+<lb/><item n="6">Domondo <space extent="2" unit="words"/>100 <unclear cert="low">Numgha</unclear></item></list></p>
 <lb/><figure><figDesc>Drawing with small dashes and a cross.</figDesc></figure>
 
     <pb facs="liv_000005_0103" n="0103"/>
@@ -2253,7 +2259,7 @@
 <lb/><figure><figDesc>Route map with drawings of hills/mountains, including <placeName><unclear>Nchila</unclear></placeName>, <placeName><geogName type="rivulet">Nkori <choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice></geogName></placeName>, <placeName>Pantoza</placeName>, <placeName><geogName type="mountain">Njera <choice><abbr>M<hi rend="sup">t</hi></abbr><expan>Mountain</expan></choice></geogName></placeName>, <placeName><choice><sic>namore</sic><corr>Namore</corr></choice></placeName>, <placeName><choice><sic>gome</sic><corr>Gome</corr></choice></placeName>.</figDesc></figure> <!-- Adrian, should we be tagging any of these placeNames/lat degrees as a head/smthng else? HB -->
 
     <pb facs="liv_000005_0104" n="0104"/>
-<lb/><p rend="no-indent">names - "King <del><gap extent="2" unit="words" agent="stain"/></del>
+<lb/><p rend="no-indent">names - "King <gap extent="2" unit="words" agent="stain"/>
 <lb/>cannot find <gap extent="1" unit="words" agent="stain"/>
 <lb/>"Manemba" point to
 <lb/><persName>Tamoembe</persName> - or <placeName><settlement type="village"><persName>Moembe
@@ -2271,15 +2277,14 @@
 <lb/>breadth at belly</measure> - name
 <lb/>at <placeName><geogName type="lake">Nyassa</geogName></placeName> <foreign xml:lang="und"><hi rend="underline">Sakata</hi></foreign></p>
 <lb/><milestone unit="section" rend="double-line"/>
-<lb/><p rend="no-indent"><add place="marginleft"><date from="1866-09-16" to="1866-09-18">16<hi rend="sup">th</hi> <lb/>18 <lb/><choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice></date></add> <placeName><settlement type="village"><persName>Mukate</persName>'s village</settlement></placeName> <w>2<subst><del>8</del><add place="over-text">7</add></subst>.5</w> 
+<lb/><p rend="no-indent"><note place="marginleft"><date from="1866-09-16" to="1866-09-18">16<hi rend="sup">th</hi> <lb/>18 <lb/><choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> <lb/>1866</date></note> <placeName><settlement type="village"><persName>Mukate</persName>'s village</settlement></placeName> <w>2<subst><del>8</del><add place="over-text">7</add></subst>.5</w> 
 <!-- Adrian, I think the date on the side should be 16 - 18 Sept 1866, with some leftside chars missing...what do you think? (don't think it makes sense as-is) HB --><!-- Fiexed. AW -->
 <lb/><unclear cert="medium">Shores</unclear> of <placeName><geogName type="lake">Pamalombe</geogName></placeName> 28.3
-<lb/><space extent="2" unit="chars"/> air 70˚ - &amp; 80 -</p>
-<lb rend="center"/><milestone unit="section" rend="half-line"/>
-<lb rend="center"/><milestone unit="section" rend="quarter-line"/>
+<lb/><space extent="2" unit="chars"/> air 70˚ - &amp; 80 -
+<milestone unit="section" rend="quarter-line"/><milestone unit="section" rend="half-line"/></p>
 
     <pb facs="liv_000005_0105" n="0105"/>
-<lb/><p rend="no-indent"><del><gap agent="stain"/></del><!-- The Last Journals transcribes this as "after." MW--> nearly giving up
+<lb/><p rend="no-indent"><gap agent="stain" extent="1" unit="words"/><!-- The Last Journals transcribes this as "after." MW--> nearly giving up
 <lb/>in despair of recognizing
 <lb/>the spot <add place="below">^</add> <add place="above">at</add> which <persName>D<hi rend="sup underline">r</hi> Roscher</persName>
 <lb/>first saw <placeName><geogName type="lake">Lake Nyassa</geogName></placeName>
@@ -2306,9 +2311,9 @@
 <lb/><p rend="no-indent"><persName>Suzi</persName> 3 cubits - <date when="1866-09-08">8 <hi rend="sup underline">th</hi> <choice><abbr><w><gap extent="3" unit="chars" agent="stain"/><supplied>Sep</supplied>t<hi rend="sup underline">r</hi></w></abbr><expan>September</expan></choice> <add place="below">1866</add></date><!-- I assume the year is 1866, but as it's not clear, I left it as unknown. MW --> <!-- Megan, I believe these two dates are part of the same, just written through the right margin, so see how I have coded. Adrian, the gap, supplied, and w tag kind of threw me for a loop here, so can you check it's correct?HB --><!-- See what I've done. AW -->
 <lb/><persName>James</persName> 2 cubits <del><gap extent="2" unit="chars" agent="stain"/></del></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><persName>Mabruke</persName> 2 <choice><orig>½</orig><reg>1/2</reg></choice> cubits</p>
+<lb/><p rend="no-indent"><persName>Mabruke</persName> 2 <choice><orig>½</orig><reg>1/2</reg></choice> cubits</p>
 <lb/><milestone unit="section" rend="line"/> <!-- Adrian, should all these little sections be new p tags, or all under the one as-is? HB --><!-- New <p>s. Fixed. AW -->
-<lb/><p><persName><hi rend="underline">Musa</hi></persName> 2 fathoms -
+<lb/><p rend="no-indent"><persName><hi rend="underline">Musa</hi></persName> 2 fathoms -
 <lb/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> - one piece 24 yds <w>un-
 <lb break="no"/>accounted</w> for -
 <lb/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> one piece of Moleskin
@@ -2317,16 +2322,15 @@
 <lb/>1 gun 5 dollars - one
 <lb/>Government sword -</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><space dim="vertical" extent="9" unit="lines"/>
 
 	<pb facs="liv_000005_0107" n="0107"/>
-<lb/><p><date when="1866-09-07">7<del><gap extent="2" unit="chars" agent="stain"/></del> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1866</date> - <persName>Panthumda</persName>
+<lb/><p rend="no-indent"><date when="1866-09-07">7<gap extent="2" unit="chars" agent="stain"/><supplied cert="high"><hi>th</hi></supplied> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1866</date> - <persName>Panthumda</persName>
 <lb/><w>Ch<gap extent="3" unit="chars" agent="stain"/>a</w> 1 cubit going back for
 <lb/>Pistol = 1 cubit <date when="1866-09-23">23 <choice><abbr>Sept</abbr><expan>September</expan></choice></date></p>
-<lb/><addSpan spanTo="#blackAdd"/><p><date when="1866-09-14">14</date> 2 fathoms to <persName>Musa</persName></p><anchor xml:id="blackAdd"/> <!-- Adrian, this line looks to have been added later in a different hand, but not sure how to code (add tag, note, etc?) and can't seem to just add the hand attribute to the p tag. HB --><!-- addSpan! AW -->
+<lb/><addSpan spanTo="#blackAdd"/><p rend="no-indent black gray"><date when="1866-09-14">14</date> 2 fathoms to <persName>Musa</persName></p><anchor xml:id="blackAdd"/> <!-- Adrian, this line looks to have been added later in a different hand, but not sure how to code (add tag, note, etc?) and can't seem to just add the hand attribute to the p tag. HB --><!-- addSpan! AW -->
 <lb/><p rend="no-indent"><date when="1866-09-18">18 <choice><abbr>Sept</abbr><expan>September</expan></choice></date>, <persName>Sakombo</persName> begins again
 <lb/><persName>Abraham</persName> <date when="1866-09-23">23 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice></date> 1 cubit</p>
-<lb/><p><date when="1866-09-22">22<hi rend="sup">d</hi> <choice><abbr>Sept</abbr><expan>September</expan></choice></date> - <persName>Sakombo</persName>
+<lb/><p rend="no-indent"><date when="1866-09-22">22<hi rend="sup">d</hi> <choice><abbr>Sept</abbr><expan>September</expan></choice></date> - <persName>Sakombo</persName>
 <lb/>remained behind &amp; 2
 <lb/>had to pay 2 <choice><orig>½</orig><reg>1/2</reg></choice> cubits -
 <lb/>next day sat down
@@ -2335,7 +2339,7 @@
 <lb/>not to be allowed to
 <lb/>carry <choice><sic>..</sic><corr>-</corr></choice></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><metamark/><!-- Livingstone has drawn a three-sided box around these two lines. MW--><p>All <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName>
+<lb/><!-- Livingstone has drawn a three-sided box around these two lines. MW--><p><metamark/>All <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName>
 <lb/>left on <date when="1866-09-26">26 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1866</date></p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent">Paid up to <date when="1866-10-08">8<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice></date> for
@@ -2350,24 +2354,23 @@
 <lb/>- less than <placeName><geogName type="stream">Misinje</geogName></placeName> which
 <lb/>is <measure>40 <choice><abbr>yds</abbr><expan>yards</expan></choice> wide at <placeName><geogName type="confluence">confluence</geogName></placeName></measure> <!-- geog: Misinje -->
 <lb/>+ larger than <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice>.</p>
-<lb/><list><head>North End</head>
-<lb rend="center"/><item n="1"> - 15 - <placeName><geogName type="river">Magwelu</geogName></placeName> at <choice><abbr>N</abbr><expan>North</expan></choice> <add place="below">End</add></item>
-<lb rend="center"/><item n="2">14 - <placeName><geogName type="river">Mkolo</geogName></placeName></item> 
-<lb rend="center"/><item n="3">13 + <placeName><geogName type="river">Loangwa</geogName></placeName></item>
-<lb rend="center"/><item n="4">12 + <placeName><geogName type="river">Chifumolo</geogName></placeName> - canoe</item>
-<lb rend="center"/><item n="5">11 - <placeName><geogName type="river">Bweka</geogName></placeName></item>
-<lb rend="center"/><item n="6">10 + <placeName><geogName type="river">Kisanga</geogName></placeName> </item>
-<lb rend="center"/><item n="7">9 - <placeName><geogName type="river">Chia</geogName></placeName></item>
-<lb rend="center"/><item n="8">8 - <placeName><geogName type="river">Fubwe</geogName></placeName></item>
-<lb rend="center"/><item n="9">7 + <placeName><geogName type="river">Musumba</geogName></placeName></item>
-<lb rend="center"/><item n="10">6 - <placeName><geogName type="river">Nchamnje</geogName></placeName></item>
-<lb rend="center"/><item n="11">5 - <placeName><geogName type="river">Leluka</geogName></placeName></item>
-<lb rend="center"/><item n="12">4 - <placeName><geogName type="river">Leséfa</geogName></placeName> = <placeName><geogName type="river">Loséwa</geogName></placeName>
-<lb rend="center"/>coventry Longoya =
-<lb rend="center"/><persName>Mangkaka</persName> = <term type="occupation">chief</term></item>
-<lb rend="center"/><item n="13">3 - <placeName><geogName type="river">Loangwa</geogName></placeName></item>
-<lb rend="center"/><item n="14">2 = <placeName><geogName type="river">Misinje</geogName></placeName></item></list>
-<lb/><p>South End 1. Lebejoi
+<lb/><list><head>North End</head> <space extent="2" unit="chars"/><item n="1"> - 15 - <placeName><geogName type="river">Magwelu</geogName></placeName> at <choice><abbr>N</abbr><expan>North</expan></choice> <add place="below">End</add></item>
+<lb/><item n="2" rend="center">14 - <placeName><geogName type="river">Mkolo</geogName></placeName></item> 
+<lb/><item rend="center" n="3">13 + <placeName><geogName type="river">Loangwa</geogName></placeName></item>
+<lb/><item rend="center" n="4">12 + <placeName><geogName type="river">Chifumolo</geogName></placeName> - canoe</item>
+<lb/><item rend="center" n="5">11 - <placeName><geogName type="river">Bweka</geogName></placeName></item>
+<lb/><item rend="center" n="6">10 + <placeName><geogName type="river">Kisanga</geogName></placeName> </item>
+<lb/><item rend="center" n="7">9 - <placeName><geogName type="river">Chia</geogName></placeName></item>
+<lb/><item rend="center" n="8">8 - <placeName><geogName type="river">Fubwe</geogName></placeName></item>
+<lb/><item rend="center" n="9">7 + <placeName><geogName type="river">Musumba</geogName></placeName></item>
+<lb/><item rend="center" n="10">6 - <placeName><geogName type="river">Nchamnje</geogName></placeName></item>
+<lb/><item rend="center" n="11">5 - <placeName><geogName type="river">Leluka</geogName></placeName></item>
+<lb/><item rend="center" n="12">4 - <placeName><geogName type="river">Leséfa</geogName></placeName> = <placeName><geogName type="river">Loséwa</geogName></placeName>
+<lb/><seg rend="center"><space extent="1" unit="words"/>coventry Longoya =</seg>
+<lb/><seg rend="center"><space extent="1" unit="words"/><persName>Mangkaka</persName> = <term type="occupation">chief</term></seg></item>
+<lb/><item rend="center" n="13">3 - <placeName><geogName type="river">Loangwa</geogName></placeName></item>
+<lb/><item rend="center" n="14">2 = <placeName><geogName type="river">Misinje</geogName></placeName></item></list>
+<lb/><p rend="no-indent">South End 1. Lebejoi
 <lb/><space extent="3" unit="words"/>Lilole</p>
 
     <pb facs="liv_000005_0109" n="0109"/>
@@ -2383,14 +2386,12 @@
 <lb/><item n="7">11 <space extent="2" unit="chars"/> -- <space extent="2" unit="chars"/> 85˚</item>
 <lb/><item n="8">12 <space extent="2" unit="chars"/> -- <space extent="2" unit="chars"/> 90˚</item>
 <lb/><item n="9">2 <unclear cert="low">chords</unclear> from <choice><abbr>E</abbr><expan>East</expan></choice> 85˚</item>
-<lb/><item n="10">3 <space extent="3" unit="words"/> 87˚ 2</item></list></seg></p>
+<lb/><item n="10">3 <space extent="3" unit="words"/><space extent="3" unit="chars"/>87˚ 2</item></list></seg></p>
 <lb/><milestone unit="section" rend="double-line brown"/>
-<lb/><p><seg rend="brown"><date when="1866-10-29">29<hi rend="sup underline">th</hi></date> <seg type="weather">Noon = surface
+<lb/><p rend="no-indent"><seg rend="brown"><date when="1866-10-29">29<hi rend="sup underline">th</hi></date> <seg type="weather">Noon = surface
 <lb/>of ground in sun 140˚
 <lb/>air in shade of hut
 <lb/>102 - Wet bulb 74˚</seg></seg></p>
-			    
-    <pb facs="liv_000005_0109" n="0109"/>
 			    
     <pb facs="liv_000005_0109" n="0110"/>
 			    
@@ -2400,8 +2401,6 @@
     <pb facs="liv_000005_0109" n="0112"/>
 			    
     <pb facs="liv_000005_0109" n="0113"/>
-			    
-    <pb facs="liv_000005_0109" n="0114"/>
 			    
 
 			</div>
