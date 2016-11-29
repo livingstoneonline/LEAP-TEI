@@ -170,14 +170,14 @@
     <!-- ks, ak -->
 
     <pb facs="liv_000006_0002" n="0002"/>
-<lb/><p rend="red"><seg rend="brown large">VI.</seg> <gap unit="chars" extent="5" reason="illegible"/><date when="1866">1866</date> <!-- Adrian, as per new manual, temps are only being coded as seg type weather vs measure, so implementing here. I've also changed it to a list (let me know if that's incorrect). HB -->
-<lb/><list rend="red"><item>6 AM <!-- a pressed flower occurs between the following 4 time and pressure measurements, ks -->62˚</item>
-<lb/><item><seg type="weather">8 <w>A<supplied cert="high">M</supplied></w> 81˚</seg></item>
-<lb/><item><seg type="weather">9 <supplied cert="high">AM</supplied> 85˚</seg></item>
-<lb/><item><seg type="weather">10 <supplied cert="high">AM</supplied> --- 87˚</seg></item>
-<lb/><item><seg type="weather">11 <supplied cert="high">AM</supplied> --- 88˚</seg></item>
-<lb/><item><seg type="weather">12 <supplied cert="high">AM</supplied> --- 92˚</seg></item> 
-<lb/><item><seg type="weather">1 PM - 92˚3</seg></item> <item>3</item></list></p>
+<lb/><p rend="no-indent red"><seg rend="brown large">VI.</seg> <space extent="1" unit="chars"/><date when="1866-11-01"><unclear cert="medium">1 <choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice></unclear> 1866</date> <figure><figDesc>Part of what looks like a flower or leaf.</figDesc></figure> <!-- Adrian, as per new manual, temps are only being coded as seg type weather vs measure, so implementing here. I've also changed it to a list (let me know if that's incorrect). HB -->
+<lb/><list rend="red"><item><space extent="1" unit="words"/><space extent="1" unit="chars"/>6 AM <!-- a pressed flower occurs between the following 4 time and pressure measurements, ks -->62˚</item>
+<lb/><item><space extent="1" unit="words"/><seg type="weather"><space extent="1" unit="chars"/>8 <w>A<gap extent="2" unit="chars"/><supplied cert="high">M</supplied></w> 81˚</seg></item>
+<lb/><item><space extent="1" unit="words"/><seg type="weather"><space extent="1" unit="chars"/>9 <supplied cert="high">AM</supplied> --- 85˚</seg></item>
+<lb/><item><space extent="1" unit="words"/><seg type="weather">10 <supplied cert="high">AM</supplied> --- 87˚</seg></item>
+<lb/><item><space extent="1" unit="words"/><seg type="weather">11 <supplied cert="high">AM</supplied> --- 88˚</seg></item>
+<lb/><item><space extent="1" unit="words"/><seg type="weather">12 <supplied cert="high">AM</supplied> --- 92˚</seg></item> 
+<lb/><item><space extent="1" unit="words"/><seg type="weather">1 PM - 92˚3</seg></item> <item>3</item></list></p>
 
     <pb facs="liv_000006_0003" n="0003"/>
 <lb/><p><date when="1866-10-24">24 <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1866</date> Slept
@@ -281,12 +281,12 @@
 <lb/>masses abundantly all over
 <lb/>the country - the shape is
 <lb/><figure><figDesc>Drawing of a tower-shaped furnace.</figDesc></figure> the men are all on
-<lb/><choice><sic>gaurd</sic><corr>guard</corr></choice> - with bow in
-<lb/>hand &amp; quiver bound
-<lb/>on the back - some
-<lb/>are ornamented with
-<lb/>feathers on the head
-<lb/>though they <choice><sic>dont</sic><corr>don't</corr></choice> 
+<lb/><space extent="1" unit="words"/><choice><sic>gaurd</sic><corr>guard</corr></choice> - with bow in
+<lb/><space extent="1" unit="words"/>hand &amp; quiver bound
+<lb/><space extent="1" unit="words"/>on the back - some
+<lb/><space extent="1" unit="words"/>are ornamented with
+<lb/><space extent="1" unit="words"/>feathers on the head
+<lb/><space extent="1" unit="words"/>though they <choice><sic>dont</sic><corr>don't</corr></choice> 
 <lb/>intend to fight but to flee -</p>
 <lb/><p rend="no-indent"><date when="1866-10-26">26 <subst><del>the</del><add place="over-text"><choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice></add></subst> 1866</date> <choice><sic>the</sic><corr>The</corr></choice> <term type="occupation">chief</term> came
 <lb/>last night from <placeName><geogName type="mountain">Pambe
@@ -326,13 +326,13 @@
 <lb/>by His Son.</p>
 
     <pb facs="liv_000006_0009" n="0009"/>
-<lb/><p><figure><head rend="black"><!-- α <unclear cert="low">Gruis</unclear>--><date when="1866-10-26">26 <choice><abbr><choice><sic>oct</sic><corr>Oct</corr></choice></abbr><expan>October</expan></choice> 1866</date> <space dim="vertical" extent="7" unit="lines"/><placeName><settlement type="village">Moloa</settlement></placeName> <lb/><placeName><settlement type="village"><persName>Chimona</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName></head><figDesc>Series of geographical calculations.</figDesc></figure> <!-- Adrian, can you pls doublecheck I coded the head correctly? HB -->
-<lb/><!-- <list><item><measure><hi rend="underline">113º 1 20</hi> -I can't figure out why the following keeps getting an error -AK. You need to create items within the list so it validates- see what I have done. Though we are no longer coding these tables, so am commenting them out (but great job!) HB. -
+<lb/><figure><head rend="black"><!-- α <unclear cert="low">Gruis</unclear>--><date when="1866-10-26">26 <choice><abbr><choice><sic>oct</sic><corr>Oct</corr></choice></abbr><expan>October</expan></choice> 1866</date> <space dim="vertical" extent="7" unit="lines"/><placeName><settlement type="village">Moloa</settlement></placeName> <lb/><placeName><settlement type="village"><persName>Chimona</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName></head><figDesc>Series of geographical calculations.</figDesc></figure> <!-- Adrian, can you pls doublecheck I coded the head correctly? HB -->
+<!-- <list><item><measure><hi rend="underline">113º 1 20</hi> -I can't figure out why the following keeps getting an error -AK. You need to create items within the list so it validates- see what I have done. Though we are no longer coding these tables, so am commenting them out (but great job!) HB. -
 <lb/><hi rend="underline">56 30 40 <add place="below">38</add></hi>
 <lb/><hi rend="underline">56 <add place="below">90</add> 30 02</hi>
 <lb/>33 29 58
 <lb/><hi rend="underline">47 36 19</hi>
-<lb/>14 06 21</measure></item></list> --></p>
+<lb/>14 06 21</measure></item></list> -->
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><date when="1866-10-27">27 <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice></date> March <measure>1 <add place="above"><choice><abbr>h</abbr><expan>hour</expan></choice></add> - 30 + 35
 <lb/>+ 35 = 2- 40 + 40 + 30 =
@@ -433,7 +433,7 @@
 <lb/>each other - A large
 <lb/>Ivory bracelet marks
 <lb/>the <term type="occupation">headman</term> of a village</p>
-<lb/><p><space extent="4" unit="chars"/><persName>Mapuio</persName> sent a calabash
+<lb/><p><persName>Mapuio</persName> sent a calabash
 <lb/>of new <term type="foodstuff">beer</term> just after it
 <lb/>had been cooked to us in
 <lb/>the <foreign xml:lang="und">boalo</foreign> or <choice><sic>strangers</sic><corr>stranger's</corr></choice>
@@ -472,6 +472,7 @@
 <lb/><orgName>native</orgName> pistol which
 <lb/>can only make a 
 <lb/>noise <figure rend="black"><figDesc>Drawing of short-barrelled gun.</figDesc></figure></p>
+<lb/>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><date when="1866-10-29">29 <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1866</date> March
 <lb/><w><subst><del>North</del><add place="over-text">West</add></subst>wards</w> <measure>45 <hi rend="sup underline"><choice><abbr>m</abbr><expan>minutes</expan></choice></hi></measure> in a <!--I couldn't figure out why this kept getting an error -AK --><!-- Must have just been a bug in the schema, looks fine to me :) HB -->
@@ -601,14 +602,14 @@
 <lb/>by his account it is
 <lb/>impossible to go on
 <lb/>any further
-<lb/><gap extent="1" unit="words"/><!-- there may be a word here in the centre of the line - it is obscured by a stain - does not make sense for there to be a word here AM --><!-- Ask not the reason why! AW --></p>
 <lb/>
+<lb/><seg rend="center"><gap extent="1" unit="words"/></seg><!-- there may be a word here in the centre of the line - it is obscured by a stain - does not make sense for there to be a word here AM --><!-- Ask not the reason why! AW --></p>
 
     <pb facs="liv_000006_0021" n="0021"/>
 <lb/><p><date when="1866-11-02">2<hi rend="sup underline">d</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date> Remain 
 <lb/>at <placeName><settlement type="village"><persName>Kangéne</persName></settlement></placeName> - a <choice><sic>disagreable</sic><corr>disagreeable</corr></choice>
 <lb/>man - α <foreign xml:lang="grk">andromedae</foreign>
-<lb/><space extent="3" unit="chars"/><seg type="weather">95° 1 30 = 14° 8.38</seg></p>
+<lb/><space extent="2" unit="words"/><seg type="weather">95° 1 30 = 14° 8.38</seg></p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><date when="1866-11-03">3<hi rend="sup underline">d</hi></date> <persName>Simon</persName> ill of a 
 <lb/><term type="ailment">bilious attack</term> prevents
@@ -617,7 +618,7 @@
 <lb/>distance on <date when="1866-11-02">2<hi rend="sup underline">d</hi></date> and
 <lb/>here today</seg> -</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><!-- the next 5 lines words partially obscured by leaves - I have used "stain" as the agent since it seems the nearest match from the choices available AM --><!-- Again, removed @agent. AW --><gap extent="6" unit="chars"/><date when="1866-11"> <choice><abbr><supplied cert="high">No</supplied>v<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date> At
+<lb/><p rend="no-indent"><!-- the next 5 lines words partially obscured by leaves - I have used "stain" as the agent since it seems the nearest match from the choices available AM --><!-- Again, removed @agent. AW --><gap extent="6" unit="chars"/><date when="1866-11"> <choice><abbr><supplied cert="high">No</supplied>v<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date> At
 <lb/><gap extent="6" unit="chars"/>e's <seg type="weather">Rain &amp; thunder</seg>
 <lb/><gap extent="4" unit="chars"/><persName><w><supplied cert="high">Sim</supplied>mon</w></persName> better and
 <lb/><gap extent="4" unit="chars"/><w><supplied cert="high">ho</supplied>pe</w> to start on
@@ -710,7 +711,7 @@
 <lb/><figure><head>Kama</head><figDesc>Drawing of two <term type="occupation">smiths</term> at work in the iron-hammering process, followed by geographical calcualtions.</figDesc></figure>
 <lb/><!-- <add place="inline" rend="red">123 11 <app><rdg>March</rdg><rdg>Marcab</rdg></app>
 <lb/>13 56 26 <choice><abbr>S.</abbr><expan>South</expan></choice> <choice><abbr>Lat</abbr><expan>Latitude</expan></choice></add></p> HB Commenting this section out as it seems to be geographical calculations. --></p>
-<lb/><space dim="vertical" extent="3" unit="lines"/>
+
 
 	<pb facs="liv_000006_0026" n="0026"/>
 <lb/><p rend="no-indent"><date from="1866-11-12" to="1866-11-13"> 12<hi rend="sup">th</hi> &amp; 13<hi rend="sup">th</hi></date> Eating a
@@ -837,7 +838,7 @@
 
 	<pb facs="liv_000006_0031" n="0031"/>
 <lb/><p rend="no-indent"><date when="1866-11-16">16<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date></p>
-<lb/><p><choice><sic>march</sic><corr>March</corr></choice> <measure>25</measure> &amp; cross the
+<lb/><p rend="no-indent"><choice><sic>march</sic><corr>March</corr></choice> <measure>25</measure> &amp; cross the
 <lb/><placeName><geogName type="river">Bua</geogName></placeName> - <measure><measure>8 yards wide</measure>
 <lb/>&amp; <measure>knee deep</measure></measure> - then <measure>40 <add place="above"><choice><abbr>m</abbr><expan><app><rdg>minutes</rdg><rdg>miles</rdg></app></expan></choice></add></measure>
 <lb/>to end of <placeName><geogName type="mountain">mountains
@@ -921,7 +922,6 @@
 <lb/>the name for hammer
 <lb/>all over <gap extent="1" unit="words" agent="stain"/> part of
 <lb/>the country <gap extent="1" unit="words" agent="stain"/></p>
-<lb/><space dim="vertical" extent="5" unit="lines"/>
 
 	<pb facs="liv_000006_0035" n="0035"/>
 <lb/><p rend="no-indent"><date when="1866-11-17">17<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date> <choice><sic>at</sic><corr>At</corr></choice>
@@ -955,7 +955,7 @@
 <lb/>seeds &amp; very pleasant
 <lb/>acid pulp with flowers
 <lb/>in shape like <term type="plant_foodstuff">cloves</term>
-<lb rend="right"/><figure><figDesc>Drawing of large leaf and plant.</figDesc></figure> smooth
+<lb rend="right"/><figure><figDesc>Drawing of large leaf and plant. Also part of an actual plant affixed to the page.</figDesc></figure> smooth
 <lb rend="right"/><!--There is another large marking on the page here-AK--><!--would <gap agent="stain"> work here, even though the stain isn't technically covering any text? EC--><!-- Yes, this works fine. HB --><!-- Removed since no text is lost. Aw --> rather
 <lb rend="right"/>glossy
 <lb rend="right"/>leaves
@@ -978,11 +978,10 @@
 <lb/>raids - He has a stern
 <lb/>look but is pleasant
 <lb/>to converse with -</p>
-<lb/>
 
 	<pb facs="liv_000006_0038" n="0038"/>
-<lb/><p rend="no-indent"><date when="1866-11-19">19<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date></p>
-<lb/><p>Remain at <placeName><settlement type="village">Kanyenje</settlement></placeName>
+<lb/><p><date when="1866-11-19">19<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date></p>
+<lb/><p><space extent="2" unit="chars"/>Remain at <placeName><settlement type="village">Kanyenje</settlement></placeName>
 <lb/>on account of the <seg type="weather">rains</seg>-
 <lb/>sewing a tent of calico -
 <lb/>people all sowing their
@@ -1004,8 +1003,8 @@
 <lb/>as we do</p>
 
 	<pb facs="liv_000006_0039" n="0039"/>
-<lb/><p rend="no-indent"><!--Livingstone has made some kind of marking here. Looks like an alpha, not sure how to transcribe -AK--><!-- This is an alpha (usually goes together with word 'crucis'). I am including within head tag for figure. HB -->
-<lb/><figure><head><!--α <foreign xml:lang="la">Andromedae</foreign><lb/>--><date when="1866-11-19">19 <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date> <lb/>South of <placeName><settlement type="village">Kanyenje Valley</settlement></placeName> <lb/>at <persName>Kanyandula's</persName> <choice><abbr>vil.</abbr><expan>village</expan></choice></head><figDesc>Series of geographical calculations.</figDesc></figure></p> <!-- See how I have rearranged this section to fit within head tag. Adrian, pls let me know if this works or needs to be changed/ HB -->
+<!--Livingstone has made some kind of marking here. Looks like an alpha, not sure how to transcribe -AK--><!-- This is an alpha (usually goes together with word 'crucis'). I am including within head tag for figure. HB -->
+<lb/><figure><head><!--α <foreign xml:lang="la">Andromedae</foreign><lb/>--><date when="1866-11-19">19 <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date> <lb/>South of <placeName><settlement type="village">Kanyenje Valley</settlement></placeName> <lb/>at <persName>Kanyandula's</persName> <choice><abbr>vil.</abbr><expan>village</expan></choice></head><figDesc>Series of geographical calculations.</figDesc></figure> <!-- See how I have rearranged this section to fit within head tag. Adrian, pls let me know if this works or needs to be changed/ HB -->
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent"><date when="1866-11-20">20 <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date></p>
 <lb/><p rend="no-indent">March up valley
@@ -1076,7 +1075,6 @@
 <lb/>on <term type="occupation">carriers</term> to come
 <lb/>further than <measure>an hour
 <lb/>&amp; three quarters</measure> -
-<lb/>
 
 	<pb facs="liv_000006_0043" n="0043"/>
 <lb/><measure>1 <hi rend="sup"><choice><abbr>h</abbr><expan>hour</expan></choice></hi> <choice><abbr>NNW</abbr><expan>North Northwest</expan></choice> + 45 <hi rend="sup"><choice><abbr>m</abbr><expan>minutes</expan></choice></hi> to stockaded
@@ -1093,7 +1091,7 @@
 <lb/>where plenty of food is
 <lb/>reported</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><date when="1866-11-22">22<hi rend="sup underline">d</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date> <choice><sic>leave</sic><corr>Leave</corr></choice>
+<lb/><p><date when="1866-11-22">22<hi rend="sup underline">d</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1866</date> <choice><sic>leave</sic><corr>Leave</corr></choice>
 <lb/><placeName><settlement type="village">Mokatoba</settlement></placeName> &amp; march <measure>1 <hi rend="sup"><choice><abbr>h</abbr><expan>hour</expan></choice></hi></measure>
 <lb/>to cross <placeName><geogName type="river">Kasamba</geogName></placeName> <measure><measure><subst><del>3</del><add place="over-text">4</add></subst> yards <!-- Adrian, I am tagging Kasamba as river based on language around it and context, but pls correct if wrong. HB --><!-- I don't know, but river seems OK to me. AW -->
 <lb/>wide</measure> &amp; <measure>knee deep</measure></measure> very
@@ -1126,7 +1124,7 @@
 <lb/>country - hills <measure>365 + 333<unclear cert="medium"><hi rend="sup">°</hi></unclear>
 
 	<pb facs="liv_000006_0045" n="0045"/>
-<lb/>= 20 <hi rend="sup"><choice><abbr>m</abbr><expan>minutes</expan></choice></hi> to water = 2 - 5 + 30
+<lb/>+ 20 <hi rend="sup"><choice><abbr>m</abbr><expan>minutes</expan></choice></hi> to water = 2 - 5 + 30
 <lb/>= 2- 35 + 35 + 30 + 25 = <hi rend="double-underline">4 - <subst><del>10</del><add place="over-text">5</add></subst></hi></measure><!--should this be transcribed as above or left as a figure? It's technically measures of times as distances, I think. EC--><!-- Since the inline ones have been done on earlier pages, let's continue doing here (but definitely not geographical calcs). HB -->
 <lb/>to <placeName><settlement type="village"><persName>Beuri</persName>'s <choice><abbr>vil</abbr><expan>village</expan></choice></settlement></placeName> -
 <lb/>the whole may be termed a
@@ -1304,9 +1302,9 @@
     <pb facs="liv_000006_0053" n="0053"/><!-- I've taken my best guess at the proper nouns but am unsure of whether some of them refer to people, places, etc, so many words are marked as unclear so they will be double-checked.  So sorry about the great number of them! SF --> <!-- that's okay AM -->
 <lb/>wretched place you must
 <lb/>live in <figure><!--<head>α <foreign xml:lang="la">andromedae</foreign></head>--><!-- Not sure about this symbol here. SF --> <!-- agree with interpretation - I think its an astronomical term, however I also think it's related to the following calculation and have coded it as a heading. Also I think there are 2 separate calculations here, each with a heading - Adrian/Heather do you agree with this?  AM --><!-- Yes, Ann- as always, you are spot-on! :) HB -->
-<lb/><figDesc>List of calculations.</figDesc></figure>
+<lb/><figDesc>Calculations.</figDesc></figure>
 <lb/><figure><!--<head>γ <foreign xml:lang="la">Pegasi</foreign> or Algenib</head>-->
-<lb/><figDesc>List of calculations.</figDesc></figure></p>
+<lb/><figDesc>Calculations.</figDesc></figure></p>
 
 	<pb facs="liv_000006_0054" n="0054"/>
 <lb/><p rend="no-indent"><date when="1866-11-29">29<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date> Lunars - 
@@ -1337,8 +1335,8 @@
 <lb/>on <placeName><geogName type="river">Loangwas</geogName></placeName> steal <orgName>slaves</orgName>
 <lb/>&amp; come here to buy
 <lb/>food - they have lost
-<lb/>all - α <foreign xml:lang="grk">Andromedae</foreign><figure><!--<head>α <foreign xml:lang="la">andromedae</foreign></head>--><!-- I'm not sure if Livingstone is using an alpha symbol here? SF --> <!-- yes I think he is but see previous comment about related calculations AM --><figDesc>Series of astronomical calculations.</figDesc></figure><!-- Livingstone has written some words in the calculations- I'm not sure how to transcribe them apart from the calculations? SF --><!-- If you think they are related to the figure then I think you try to build them in, either as part of the description or as a heading AM --><!-- See how I have incorporated into the head- Adrian, pls correct if wrong. HB -->
-<lb/><figure><head><!--γ <foreign xml:lang="la">Pegasi</foreign> <lb/>--><placeName><settlement type="village"><persName>Emboro</persName>'s</settlement></placeName> or <lb/><placeName><settlement type="village"><persName>Chilunda</persName></settlement></placeName> on <placeName><geogName type="stream">Lokuzhwa</geogName></placeName></head><figDesc>Astronomical calculations.</figDesc></figure></p>
+<lb/>all - α <foreign xml:lang="grk">Andromedae</foreign> <figure><!--<head>α <foreign xml:lang="la">andromedae</foreign></head>--><!-- I'm not sure if Livingstone is using an alpha symbol here? SF --> <!-- yes I think he is but see previous comment about related calculations AM --> <figDesc>Calculations.</figDesc></figure><!-- Livingstone has written some words in the calculations- I'm not sure how to transcribe them apart from the calculations? SF --><!-- If you think they are related to the figure then I think you try to build them in, either as part of the description or as a heading AM --><!-- See how I have incorporated into the head- Adrian, pls correct if wrong. HB -->
+<lb/><figure><head><!--γ <foreign xml:lang="la">Pegasi</foreign> <lb/>--><placeName><settlement type="village"><persName>Emboro</persName>'s</settlement></placeName> or <lb/><placeName><settlement type="village"><persName>Chilunda</persName></settlement></placeName> on <placeName><geogName type="stream">Lokuzhwa</geogName></placeName></head><figDesc>Calculations.</figDesc></figure></p>
 
 	<pb facs="liv_000006_0056" n="0056"/>
 <lb/><p><date when="1866-12-01">1<hi rend="sup">st</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1866</date></p>
@@ -1390,13 +1388,13 @@
 <lb/>cloth is being made soft
 <lb/>by a hammer the
 <lb/>head of which is Ebony
-<lb/><figure><figDesc>Drawing of a hammer.</figDesc></figure>&amp; it is tied to the
-<lb/>handle - the face is
-<lb/>cut into small
-<lb/>square or
-<lb/>lozenge shaped spaces
+<lb/><figure><figDesc>Drawing of a hammer.</figDesc></figure> &amp; it is tied to the
+<lb/><space extent="1" unit="words"/>handle - the face is
+<lb/><space extent="1" unit="words"/>cut into small
+<lb/><space extent="1" unit="words"/>square or
+<lb/><space extent="1" unit="words"/>lozenge shaped spaces
 <lb/><figure><figDesc>Drawing of a cross-section of the square face of the hammer referenced in text.</figDesc></figure> or <figure><figDesc>Drawing of a cross-section of the lozenge-shaped face of the hammer referenced in text.</figDesc></figure> this tapping
-<lb/>softens &amp;
+<lb/><space extent="2" unit="words"/>softens &amp;
 <lb/>partially separates the
 <lb/>fibres - when taken
 <lb/>from the tree it is put
@@ -1406,8 +1404,8 @@
 <lb/>easily by a knife &amp;
 <lb/>then begins the tapping
 <lb/><figure><figDesc>Drawing (showing hammer and horn) of the tapping process described in text.</figDesc></figure> of <term type="animal">Rhinoceros</term> 
-<lb/>horn with a 
-<lb/>single <unclear cert="medium"><choice><sic>grove</sic><corr>groove</corr></choice></unclear> on face</p> <!-- The brown stains almost look like a martian drawing! HB -->
+<lb/><space extent="1" unit="words"/>horn with a 
+<lb/><space extent="1" unit="words"/>single <unclear cert="medium"><choice><sic>grove</sic><corr>groove</corr></choice></unclear> on face</p> <!-- The brown stains almost look like a martian drawing! HB -->
 
 	<pb facs="liv_000006_0059" n="0059"/>
 <lb/><p><date when="1866-12-04">4 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1866</date> - <measure>1 <hi rend="sup">hour</hi>
@@ -1433,7 +1431,7 @@
 
 	<pb facs="liv_000006_0060" n="0060"/>
 <lb/><p><date when="1866-12-05">5<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1866</date></p>
-<lb/><p><measure>1 <hi rend="underline"><choice><abbr>h</abbr><expan>hour</expan></choice></hi> + 1 - 10 + 35 to
+<lb/><p rend="no-indent"><measure>1 <hi rend="underline"><choice><abbr>h</abbr><expan>hour</expan></choice></hi> + 1 - 10 + 35 to
 <lb/>water dried up + 20 to
 <lb/>turn off to a village
 <lb/>&amp; in 25 reach it
@@ -1497,7 +1495,6 @@
 <lb/>come but we <choice><sic>dont</sic><corr>don't</corr></choice>
 <lb/>like stragglers who are
 <lb/>often bad characters</p>
-<lb/><space dim="vertical" extent="4" unit="lines"/>
 
 	<pb facs="liv_000006_0063" n="0063"/>
 <lb/><p><date when="1866-12-08">8<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1866</date></p>
@@ -1528,17 +1525,17 @@
 <lb/><p><term type="plant">Chiteta</term> a long pod <add place="below">^</add> <add place="above"><measure>from 12 to 15 inches</measure></add> growing
 <lb/>on a tree <metamark/><add place="above">the <term type="plant_foodstuff">bean</term></add> is pounded
 <lb/><figure><figDesc>Drawing of a <term type="plant_foodstuff">pod</term>.</figDesc></figure> &amp; put into a filter
-<lb/>of cloth bark - &amp;
-<lb/>water poured on it
-<lb/>till the <choice><sic>the</sic><corr/></choice> <add place="above">astringent</add> poison is
-<lb/>extracted - <term type="plant">Mositsane</term></p>
-<lb/><p rend="right"><date when="1866-12-08">8<hi rend="sup underline">th</hi> <choice><abbr>Dec</abbr><expan>December</expan></choice></date>
-<lb/><figure><head><!--α <foreign xml:lang="la">Andromedae</foreign> <lb/>--><choice><abbr>Lat</abbr><expan>Latitude</expan></choice> South of <placeName><geogName type="hill">Mparawe</geogName></placeName></head><figDesc>List of calculations with text following.</figDesc></figure></p>
+<lb/><space extent="1" unit="words"/>of cloth bark - &amp;
+<lb/><space extent="1" unit="words"/>water poured on it
+<lb/><space extent="1" unit="words"/>till the <choice><sic>the</sic><corr/></choice> <add place="above">astringent</add> poison is
+<lb/><space extent="1" unit="words"/>extracted - <term type="plant">Mositsane</term></p>
+<lb/><p rend="center"><date when="1866-12-08">8<hi rend="sup underline">th</hi> <choice><abbr>Dec</abbr><expan>December</expan></choice></date></p>
+<lb/><space extent="1" unit="words"/><figure><head><!--α <foreign xml:lang="la">Andromedae</foreign> <lb/>--><choice><abbr>Lat</abbr><expan>Latitude</expan></choice> South of <placeName><geogName type="hill">Mparawe</geogName></placeName></head><figDesc>List of calculations with text following.</figDesc></figure>
 
 	<pb facs="liv_000006_0065" n="0065"/>
 <lb/><p><date when="1866-12-09">9<hi rend="sup">th</hi> <choice><abbr>Dec<hi rend="sup">r</hi></abbr><expan>December</expan></choice> 1866</date></p>
 <lb/><p rend="no-indent">Sunday at <placeName><settlement type="village">Mbarawe</settlement></placeName></p>
-<lb/><p>A poor child whose
+<lb/><p><choice><sic>a</sic><corr>A</corr></choice> poor child whose
 <lb/>mother had died was
 <lb/>left destitute &amp; sat in this
 <lb/>village calling its Mama by
@@ -1552,7 +1549,7 @@
 <lb/>women will not nurse
 <lb/>a child who is not a 
 <lb/>relation -</p>
-<lb/><p>An alarm of <term type="tribe">Mazitu</term>
+<lb/><p><choice><sic>an</sic><corr>An</corr></choice> alarm of <term type="tribe">Mazitu</term>
 <lb/>sent most of the people
 <lb/>up the rocky sides of
 <lb/><placeName><geogName type="hill">Mparawe</geogName></placeName> this morning
@@ -1646,7 +1643,6 @@
 <lb/>to avoid <term type="tribe">Mazitu</term> &amp;
 <lb/><term type="tribe">Mazitu</term> pillaged places</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><space dim="vertical" extent="5" unit="lines"/>
 
 	<pb facs="liv_000006_0071" n="0071"/>
 <lb/><p rend="no-indent"><date when="1866-12-12">12<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1866</date> = <measure>1 - 35</measure>
@@ -1683,7 +1679,7 @@
 <lb/><term type="plant">Mositsane</term> or <foreign xml:lang="und"><term type="plant">chiteta</term></foreign> <!--Unsure of these terms here. EC--><!-- I have changed to plants. HB -->
 <lb/>&amp; a new tree abound</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="center"><date when="1866-12-13">13 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1866</date></p>
+<lb/><p><date when="1866-12-13">13 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1866</date></p>
 <lb/><p rend="no-indent"><measure>1 - 25 <choice><abbr>N.</abbr><expan>North</expan></choice></measure> country 
 <lb/>full of game - arrive
 <lb/>at <placeName><geogName type="river">Tokosusi</geogName></placeName> which 
@@ -1704,11 +1700,11 @@
 <lb/>one stem with a flat
 <lb/>round root + <measure>1 <add place="above"><choice><abbr>h</abbr><expan>hour</expan></choice></add></measure> =
 <lb/><hi rend="double-underline">4 10</hi> <figure><figDesc>Drawing of the flower referenced in the text.</figDesc></figure> to sleeping 
-<lb rend="right"/>place in
-<lb rend="right"/>forest near 
-<lb rend="right"/>an <add place="below">^</add> <add place="above">old</add> <placeName><settlement type="village"><term type="tribe">Mazitu</term>
-<lb rend="right"/><w>encamp<supplied>-</supplied>
-<lb rend="right" break="no"/>-ment</w></settlement></placeName></p>
+<lb/><space extent="1" unit="words"/>place in
+<lb/><space extent="1" unit="words"/>forest near 
+<lb/><space extent="1" unit="words"/>an <add place="below">^</add> <add place="above">old</add> <placeName><settlement type="village"><term type="tribe">Mazitu</term></settlement></placeName>
+<lb/><space extent="1" unit="words"/><w>encamp<supplied>-</supplied>
+<lb break="no"/><space extent="1" unit="words"/>-ment</w></p>
 
 	<pb facs="liv_000006_0074" n="0074"/>
 <lb/><p rend="no-indent"><date when="1866-12-14">14 <hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1866</date> - <measure>1 - 40
@@ -1758,19 +1754,22 @@
 
 	<pb facs="liv_000006_0076" n="0076"/><!--There are a few different drawings at the top of this page, not sure if I should make a <figure> tag for each of them or do one and describe each drawing? EC--><!-- I would say since they're all in one area, we can do one figDesc. HB -->
 <lb/><figure><head><foreign xml:lang="und">Katende</foreign> = <term type="plant_foodstuff">eatable root</term></head><figDesc>Several drawings of <term type="plant_foodstuff">edible roots</term>.</figDesc></figure>
-<lb rend="right"/><p>yellow ground
-<lb rend="right"/>with
-<lb rend="right"/>markings 
-<lb rend="right"/><w>rai<gap extent="2" unit="chars"/></w> of <!--Leaf on the page covering the next three lines of text. Not sure how to transcribe this? EC--><!-- Erin, see how I have done. HB -->
-<lb rend="right"/><w>ala<gap extent="4" unit="chars"/></w> <unclear cert="low">rocko</unclear>
-<lb rend="right"/>late
-<lb rend="right"/>stamena
-<lb rend="right"/>5 with
-<lb rend="right"/>double pink
-<lb rend="right"/>heads like
-<lb rend="right"/>hay forks</p>
-<lb/><space dim="vertical" extent="2" unit="lines"/>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/>yellow ground
+<lb/><space extent="2" unit="words"/>with
+<lb/><space extent="2" unit="words"/>markings 
+<lb/><space extent="2" unit="words"/><w>rai<gap extent="2" unit="chars"/></w> of <!--Leaf on the page covering the next three lines of text. Not sure how to transcribe this? EC--><!-- Erin, see how I have done. HB -->
+<lb/><space extent="2" unit="words"/><w>ala<gap extent="4" unit="chars"/></w> <unclear cert="low">rocko</unclear>
+<lb/><space extent="2" unit="words"/>late
+<lb/><space extent="2" unit="words"/>stamena
+<lb/><space extent="2" unit="words"/>5 with
+<lb/><space extent="2" unit="words"/>double pink
+<lb/><space extent="2" unit="words"/>heads like
+<lb/><space extent="2" unit="words"/>hay forks</p>
+<lb/>
+<lb/>
 <lb/><milestone unit="section" rend="line"/><!--this section of the text is upside down as opposed to the text at the top of the page. Not sure how to mark this? EC--><!-- I also looked at Textual Directions, 11.8, but didn't find how to mark upside down text. SF --><!-- Usually we separate it out by a separate tag, but it's really on a case-by-case basis- see how I have done. HB --><!-- Since it's all one paragraph, we can just put upside-down on the p. AW -->
+<lb/>
+<lb/>
 <lb/><p rend="upside-down"><placeName><settlement type="village">Mokunde</settlement></placeName> = <measure>1 <add place="below">^</add> <add place="above"><choice><abbr>m</abbr><expan><unclear cert="medium">mile</unclear></expan></choice></add></measure> <unclear cert="low">Tambala</unclear>
 <lb/>if they embark there - they 
 <lb/>can go by boat to <placeName><geogName type="lake">Tanganyika</geogName></placeName>
