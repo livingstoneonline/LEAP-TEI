@@ -2579,9 +2579,9 @@
  
 	<pb facs="liv_000007_0112" n="0112"/><!-- The content of this page should precede the next page. -->
 <!-- This page contains what looks like a list... or maybe calculations. I have no familiarity with the terms either, so I'll leave this in someone else's more capable hands. SF --><!-- Gave this my best shot!  MW--><!-- What a page! More corections. These could be rivers or villages & have coded it as such. We should revisit this page & others like it once we have a full list of coded entities. AW -->
-<lb/><list><item n="1">1 <app><rdg><placeName><settlement type="village">Mkubwa</settlement></placeName></rdg><rdg><placeName><geogName type="river">Mkubwa</geogName></placeName></rdg></app> -</item> 
+<lb/><list><item n="1">1 <app><rdg><placeName><settlement type="village">Mkubwa</settlement></placeName></rdg><rdg><placeName><geogName type="river">Mkubwa</geogName></placeName></rdg></app> -</item> <item n="3"><add place="above">3 <app><rdg><placeName><settlement type="village">Mesombi</settlement></placeName></rdg><rdg><placeName><geogName type="river">Mesombi</geogName></placeName></rdg></app></add></item> <item n="4"><add place="inline">4 <app><rdg><placeName><settlement type="village">Chalonje</settlement></placeName></rdg><rdg><placeName><geogName type="river">Chalonje</geogName></placeName></rdg></app></add></item>
 
-<lb/><item n="2">2 <app><rdg><placeName><settlement type="village">Chabambo</settlement></placeName></rdg><rdg><placeName><geogName type="river">Chabambo</geogName></placeName></rdg></app> <placeName><geogName type="river"><hi rend="underline">Lokopa</hi> <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName></item> <item n="3"><add place="above" rend="right">3 <app><rdg><placeName><settlement type="village">Mesombi</settlement></placeName></rdg><rdg><placeName><geogName type="river">Mesombi</geogName></placeName></rdg></app></add></item> <item n="4"><add rend="right">4 <app><rdg><placeName><settlement type="village">Chalonje</settlement></placeName></rdg><rdg><placeName><geogName type="river">Chalonje</geogName></placeName></rdg></app></add></item>
+<lb/><item n="2">2 <app><rdg><placeName><settlement type="village">Chabambo</settlement></placeName></rdg><rdg><placeName><geogName type="river">Chabambo</geogName></placeName></rdg></app> <placeName><geogName type="river"><hi rend="underline">Lokopa</hi> <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName></item>
 
 <lb/><item n="5"><space extent="4" unit="chars"/><app><rdg><placeName><settlement type="village">Chitine</settlement></placeName></rdg><rdg><placeName><geogName type="river">Chitine</geogName></placeName></rdg></app> -</item>
 
@@ -2603,11 +2603,11 @@
 
 <lb/><item n="12">8 <app><rdg><placeName><settlement type="village">Mokapasia</settlement></placeName></rdg><rdg><placeName><geogName type="river">Mokapasia</geogName></placeName></rdg></app></item>
 
-<lb/><item n="13">9 <placeName><settlement type="village"><persName>Chibue</persName></settlement></placeName><!-- Could be person or place. AW --> = <persName>Mesumba</persName> the
+<lb/><item n="13">9 <placeName><settlement type="village"><persName>Chibue</persName></settlement></placeName><!-- Could be person or place. AW --> = <persName>Mesumba</persName> the <note place="marginright" rend="diagonal">- his elder <lb/>- <placeName><settlement type="village">Chitimbwa</settlement></placeName></note>
 
-<lb/>head of <placeName><settlement type="village">Bulunga</settlement></placeName> <add place="marginright" rend="diagonal">- his elder <lb/>- <placeName><settlement type="village">Chitimbwa</settlement></placeName></add></item><!--I'm not sure that I've coded this correctly. MW-->
+<lb/>head of <placeName><settlement type="village">Bulunga</settlement></placeName></item><!--I'm not sure that I've coded this correctly. MW--><metamark/>
 
-<lb/><milestone unit="section" rend="line"/><metamark/>
+<lb/><milestone unit="section" rend="line"/>
 
 <lb/><item n="15"><placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Mopumpe</geogName></placeName></item>
 
@@ -2619,44 +2619,43 @@
 	<pb facs="liv_000007_0113" n="0113"/><!-- The content of this page should follow the next page. -->
 			<!-- Please forgive my transcription of this page! And I do not know what the T is an abbreviation for so I have not marked it! SF --><!--I think this is an abbreviation for thunder, so I coded it as such. I hope this doesn't seem like too much intervention or guesswork. I also tagged these entries as "weather" and the number as "measure" because DL heads the next page as "Rainfall." On a separate note, it seems like 0113 should come after 0114  MW--><!-- Yes to all those Megan - T is for thunder, and I think it's easiest to tag the whole passage as weather as that's all it is reporting. And yes, these pages are all out of order, so am notating as such. HB --><!-- All sounds good. AW -->
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><date when="1867-02-26">26<hi rend="sup underline">th</hi></date><!-- I'm assuming this is February? SF --> <seg type="weather"><choice><sic>in</sic><corr>In</corr></choice> night gently <measure>.13</measure></seg></p>
+<lb/><p rend="no-indent"><date when="1867-02-26">26<hi rend="sup underline">th</hi></date><!-- I'm assuming this is February? SF --> <seg type="weather"><choice><sic>in</sic><corr>In</corr></choice> night gently <space extent="2" unit="words"/><space extent="3" unit="chars"/><measure>.13</measure></seg></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><date when="1867-02-27">27</date> <del type="strikethrough">by day Noon</del> <add place="above"><seg type="weather">in night <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <measure>.8</measure></seg></add></p>
+<lb/><p rend="no-indent"><date when="1867-02-27">27</date> <del type="strikethrough">by day Noon</del> <add place="above"><seg type="weather">in night <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></seg></add> <space extent="1" unit="words"/><space extent="3" unit="chars"/><measure>.8</measure></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><date when="1867-02-28">28<hi rend="sup underline">th</hi></date> <seg type="weather">Noon <choice><abbr>T</abbr><expan>Thunder</expan></choice> <measure>.13</measure></seg></p> <!-- Here Livingstone has written .13 twice, one slightly above/below and over the other. SF -->
+<lb/><p rend="no-indent"><date when="1867-02-28">28<hi rend="sup underline">th</hi></date> <seg type="weather">Noon <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="4" unit="words"/><space extent="1" unit="chars"/><space extent="2" unit="chars"/><measure>.13</measure></seg></p> <!-- Here Livingstone has written .13 twice, one slightly above/below and over the other. SF -->
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><seg type="weather"><choice><sic>during</sic><corr>During</corr></choice> night <choice><abbr>T</abbr><expan>Thunder</expan></choice> <measure>.14</measure></seg></p>
+<lb/><p rend="no-indent"><seg type="weather"><choice><sic>during</sic><corr>During</corr></choice> night <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="4" unit="words"/><measure>.14</measure></seg></p>
 <lb/><milestone unit="section" rend="double-line"/>
-<lb/><p><seg type="weather"><hi rend="right"><measure>11.50</measure></hi></seg>
+<lb/><p rend="no-indent"><space extent="7" unit="words"/><space extent="1" unit="chars"/><seg type="weather"><measure>11.50</measure></seg>
 <lb/><date when="1867-03-01">1<hi rend="sup">st March</hi></date> <choice><sic>evening</sic><corr>Evening</corr></choice>
 <lb/>&amp; <seg type="weather">night with <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <measure>.92</measure></seg></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><date when="1867-03-03">3<hi rend="sup underline">d</hi></date> 1 PM <seg type="weather"><choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice><!-- I do not know what this is an abbreviatio for (if it is a "w"). SF --><!--I assumed this was an abbreviation for "with." MW--> <choice><abbr>T</abbr><expan>Thunder</expan></choice> &amp;
+<lb/><p rend="no-indent"><date when="1867-03-03">3<hi rend="sup underline">d</hi></date> 1 PM <seg type="weather"><choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice><!-- I do not know what this is an abbreviatio for (if it is a "w"). SF --><!--I assumed this was an abbreviation for "with." MW--> <choice><abbr>T</abbr><expan>Thunder</expan></choice> &amp;
 <lb/>Early part of night <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <measure>.75</measure></seg></p> <!-- I coded hese as two separate lists, even though they're clearly one because the schema would only accept it this way, and I figured there may need to be some re-numbering down the line anyway. MW--><!-- I've taken out the list format and done as plain p tag sections - Adrian, pls correct me if needed. HB --><!-- OK. AW -->
-<lb/><space dim="vertical" extent="7" unit="lines"/>
 
 	<pb facs="liv_000007_0114" n="0114"/><!-- The content of this page should precede the next page. -->
 	<!-- So now I'm guessing this is a list of rainfall?  Maybe? Again will you please forgive me if I leave it to someone else? In terms of formatting and abbreviations I am not sure, but will be sure to check back and see how it's done. SF --><!-- No worries, this was a doozy! Hopefully my coding isn't too far off. HB -->
-<lb/><p rend="center">Rainfall <date when="1867-02">February 1867</date></p>
+<lb/><p>Rainfall <date when="1867-02">February 1867</date></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent">Lobembwa brought for <measure>7.97</measure>
+<lb/><p rend="no-indent">Lobembwa brought for <space extent="1" unit="words"/><space extent="1" unit="chars"/><measure>7.97</measure>
 <lb/><date when="1867-02-18">18<hi rend="sup underline">th</hi></date> <seg type="weather">at 3-4 P.M.
 <lb/><choice><abbr>T</abbr><expan>Thunder</expan></choice> showers &amp; nearly
-<lb/>all night <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <measure><hi rend="right">1.65</hi></measure></seg></p>
+<lb/>all night <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <space extent="4" unit="words"/><measure>1.65</measure></seg></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><seg type="weather"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> morning of <date when="1867-02-19">19<hi rend="sup underline">th</hi></date> = <measure>9.62</measure></seg></p>
+<lb/><p rend="no-indent"><seg type="weather"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> morning of <date when="1867-02-19">19<hi rend="sup underline">th</hi></date> = <space extent="2" unit="words"/><measure>9.62</measure></seg></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><date when="1867-02-20">20<hi rend="sup underline">th</hi></date> <seg type="weather">Early morning <space extent="3" unit="chars"/><measure>.66</measure></seg></p>
+<lb/><p rend="no-indent"><date when="1867-02-20">20<hi rend="sup underline">th</hi></date> <seg type="weather">Early morning <space extent="3" unit="chars"/><space extent="2" unit="words"/><measure>.66</measure></seg></p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent"><date when="1867-02-21">21<hi rend="sup">st</hi></date> <seg type="weather"><choice><sic>began</sic><corr>Began</corr></choice> about 9 PM
 <lb/><date when="1867-02-20">night before</date> loud <choice><abbr>T.</abbr><expan>Thunder</expan></choice> &amp;
 <lb/>again early morning
 <lb/><measure>4' <choice><abbr>NW</abbr><expan>North West</expan></choice> of <placeName><geogName type="river">Molemba</geogName></placeName>
-<lb/>in Forest + + .15 = .65</measure> <measure>.50</measure></seg></p>
+<lb/>in Forest + + .15 = .65</measure> <space extent="2" unit="words"/><space extent="1" unit="chars"/><measure>.50</measure></seg></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><date when="1867-02-22">22</date> . <seg type="weather">2 AM <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="2" unit="words"/><measure>.16</measure></seg></p>
+<lb/><p rend="no-indent"><date when="1867-02-22">22</date> . <seg type="weather">2 AM <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="4" unit="words"/><space extent="1" unit="chars"/><measure>.16</measure></seg></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><date when="1867-02-23">23</date> <seg type="weather">Noon with <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="2" unit="words"/><measure>.8</measure></seg></p>
+<lb/><p rend="no-indent"><date when="1867-02-23">23</date> <seg type="weather">Noon with <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="4" unit="words"/><measure>.8</measure></seg></p>
 <lb/><milestone unit="section" rend="line"/>  
 <lb/><p rend="no-indent"><date when="1867-02-24">24<hi rend="sup underline">th</hi></date> <seg type="weather">No rain here
 <lb/>but Thunder all around</seg></p>
@@ -2680,24 +2679,20 @@
 <lb/><figure><head>Aldebaran <date when="1867-02-07">7<hi rend="sup">th</hi> <choice><abbr>Feb</abbr><expan>February</expan></choice> <lb/><hi rend="right">1867</hi></date></head><figDesc>Calculations that continue to top of previous page.</figDesc></figure>
 
 	<pb facs="liv_000007_0117" n="0117"/> <!-- The content of this page should follow the next page. -->
-<lb/><p><hi rend="underline">Tanja</hi> <choice><sic><persName>Speke</persName>s</sic><corr><persName>Speke</persName>'s</corr></choice> compass
+<lb/><p rend="no-indent"><hi rend="underline">Tanja</hi> <choice><sic><persName>Speke</persName>s</sic><corr><persName>Speke</persName>'s</corr></choice> compass
 <lb/>plays on his hand like on
-<lb/><hi rend="center">a trumpet</hi></p>
+<lb/><space extent="1" unit="words"/>a trumpet</p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><figure><head><hi rend="underline"><term type="tribe">Bemba</term> marks</hi></head><figDesc>Drawing of a man with <term type="tribe">Bemba</term> marks.</figDesc></figure>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><list rend="center"><item n="1"><persName>Motoka</persName></item>
-<lb/><item n="2">2 <persName>Moamba</persName></item>
-<lb/><item n="3"><metamark/><persName>Monawe</persName> <unclear cert="low">som</unclear></item></list><!-- Livingstone has circled the first word. --> <!--I didn't see a way to indicate that he's drawn a circle around this word. MW--><!-- I used the metmark tag to denote. HB -->
+<lb/><list><space extent="1" unit="words"/><item n="1"><persName>Motoka</persName></item>
+<lb/><space extent="1" unit="words"/><item n="2">2 <persName>Moamba</persName></item>
+<lb/><space extent="1" unit="words"/><item n="3"><metamark/><persName>Monawe</persName> <unclear cert="low">som</unclear></item></list><!-- Livingstone has circled the first word. --> <!--I didn't see a way to indicate that he's drawn a circle around this word. MW--><!-- I used the metmark tag to denote. HB -->
 <lb/><milestone unit="section" rend="line"/>
-	<cb rend="left"/>
-<lb/><list><item n="2">2 <app><rdg><placeName>Kasouso</placeName></rdg><rdg><persName>Kasouso</persName></rdg></app></item>
-<lb/><item n="1">1 <placeName><settlement type="village"><persName>Chibue</persName></settlement></placeName></item>
+<lb/><list><item n="2">2 <app><rdg><placeName>Kasouso</placeName></rdg><rdg><persName>Kasouso</persName></rdg></app></item><metamark/>
+<lb/><item n="1">1 <placeName><settlement type="village"><persName>Chibue</persName></settlement></placeName></item><note place="marginright">95</note><!-- Livingstone has drawn a bracket on the left side of this entry, between the columns. -->
 <lb/><item n="3">3 <app><rdg><placeName>Mosamba</placeName></rdg><rdg><persName>Mosamba</persName></rdg></app></item>
 <lb/><item n="4">4 <app><rdg><placeName>Kanze</placeName></rdg><rdg><persName>Kanze</persName></rdg></app></item></list> <!--These four words have a bracket around them and the number 95. MW--><!-- I have again used metamark for this. HB --><!-- I redid this section. AW -->
-	<cb rend="right"/>
-<lb/><metamark/><p>95</p><!-- Livingstone has drawn a bracket on the left side of this entry, between the columns. -->
-
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><foreign xml:lang="und">Molombwa</foreign> = <term type="plant"><w>cam<supplied></supplied>
 <lb break="no"/><add place="above">wood</add></w></term> <foreign xml:lang="und">Inkola</foreign> the substance
@@ -2727,9 +2722,9 @@
 
 <lb/><hi rend="double-underline">to <placeName><geogName type="river">Bagamoio</geogName></placeName></hi></p>
 
-	<cb rend="right"/><metamark/><!-- Vertical line between columns. AW -->
+<lb/><cb rend="right"/><metamark/><!-- Vertical line between columns. AW -->
 
-<lb/><list><item n="1">1 <hi rend="underline"><app><rdg><placeName><geogName type="river">Chasa</geogName></placeName></rdg><rdg><persName>Chasa</persName></rdg></app></hi></item> <!-- Not sure if these were rivers or stations/chief names...sorry! HB --><!-- I've redone the coding to account for the fact that any one of these could be either. AW -->
+<lb/><p><list><item n="1">1 <hi rend="underline"><app><rdg><placeName><geogName type="river">Chasa</geogName></placeName></rdg><rdg><persName>Chasa</persName></rdg></app></hi></item> <!-- Not sure if these were rivers or stations/chief names...sorry! HB --><!-- I've redone the coding to account for the fact that any one of these could be either. AW -->
 
 <lb/><item n="2">2 <app><rdg><placeName><geogName type="river">Lombe</geogName></placeName></rdg><rdg><persName>Lombe</persName></rdg></app></item>
 
@@ -2753,13 +2748,13 @@
 
 <lb/><item n="12">12 <app><rdg><placeName><geogName type="river"><w>S<subst><del>e</del><add place="over-text">u</add></subst>re</w></geogName></placeName></rdg><rdg><persName><w>S<subst><del>e</del><add place="over-text">u</add></subst>re</w></persName></rdg></app></item>
 
-<lb/><item n="13" rend="left">13 <app><rdg><placeName><geogName type="river">Lomola Sengo</geogName></placeName></rdg><rdg><persName>Lomola Sengo</persName></rdg></app></item>
+<lb/><item n="13" rend="left">13 <app><rdg><placeName><geogName type="river"><add place="marginleft">Lomola</add> Sengo</geogName></placeName></rdg><rdg><persName>Lomola Sengo</persName></rdg></app></item>
 
 <lb/><item n="14">14 <app><rdg><placeName><geogName type="river">Kapass</geogName></placeName></rdg><rdg><persName>Kapass</persName></rdg></app></item>
 
 <lb/><item n="15">15 <app><rdg><placeName><geogName type="river">Chanze</geogName></placeName></rdg><rdg><persName>Chanze</persName></rdg></app></item>
 
-<lb/><item n="16"><app><rdg><placeName><geogName type="river">Bagamono</geogName></placeName></rdg><rdg><persName>Bagamono</persName></rdg></app></item></list>
+<lb/><item n="16"><app><rdg><placeName><geogName type="river">Bagamono</geogName></placeName></rdg><rdg><persName>Bagamono</persName></rdg></app></item></list></p>
 
 
     <pb facs="liv_000007_0119" n="0119"/> <!-- This page should follow the next one - do we put in sequential order by number or content? HB --><!-- Number. AW -->
@@ -2768,27 +2763,27 @@
 
 <lb/>from West at
 
-<lb/>at 1 &amp; 2 PM - <space extent="4" unit="chars"/><measure>.63</measure></seg></p> <!-- I am not sure of what these decimals are (rain measurements?), but will be coding as measures for now. HB --><!-- They seem like rain measurements to me, maybe in inches, so measure makes sense. MW -->
+<lb/>at 1 &amp; 2 PM - <space extent="5" unit="chars"/><space extent="3" unit="words"/><measure>.63</measure></seg></p> <!-- I am not sure of what these decimals are (rain measurements?), but will be coding as measures for now. HB --><!-- They seem like rain measurements to me, maybe in inches, so measure makes sense. MW -->
 
 <lb/><milestone unit="section" rend="line"/>
 
-<lb/><note place="marginleft"><date when="1867-02-10"><hi rend="underline">10</hi><hi rend="sup">th</hi></date></note><p rend="no-indent"><seg type="weather">violent <choice><abbr>T storm</abbr><expan>Thunderstorm</expan></choice>
+<lb/><p rend="no-indent"><add place="marginleft"><date when="1867-02-10"><hi rend="underline">10</hi><hi rend="sup">th</hi></date></add><seg type="weather">violent <choice><abbr>T storm</abbr><expan>Thunderstorm</expan></choice>
 
-<lb/>from <choice><abbr>W</abbr><expan>West</expan></choice> 4 &amp; 5 PM <measure>.62</measure></seg></p>
+<lb/>from <choice><abbr>W</abbr><expan>West</expan></choice> 4 &amp; 5 PM <space extent="3" unit="words"/><space extent="1" unit="chars"/><measure>.62</measure></seg></p>
 
 <lb/><milestone unit="section" rend="line"/>
 
 <lb/><p rend="no-indent"><date when="1867-02-11">11<hi rend="sup underline">th</hi></date> <seg type="weather"><choice><sic>gently</sic><corr>Gently</corr></choice> first part of
 
-<lb/>night &amp; early morning <measure>.23</measure></seg></p>
+<lb/>night &amp; early morning <space extent="1" unit="words"/><space extent="3" unit="chars"/><measure>.23</measure></seg></p>
 
 <lb/><milestone unit="section" rend="line"/>
 
-<lb/><p rend="no-indent"><date when="1867-02-12">12<hi rend="sup underline">th</hi></date> <seg type="weather"><choice><sic>in</sic><corr>In</corr></choice> night, gently <space extent="3" unit="chars"/><measure>.3</measure></seg></p>
+<lb/><p rend="no-indent"><date when="1867-02-12">12<hi rend="sup underline">th</hi></date> <seg type="weather"><choice><sic>in</sic><corr>In</corr></choice> night, gently <space extent="2" unit="chars"/><space extent="2" unit="words"/><measure>.3</measure></seg></p>
 
 <lb/><milestone unit="section" rend="line"/>
 
-<lb/><p rend="no-indent"><date when="1867-02-13">13</date> -<seg type="weather"><choice><sic>in</sic><corr>In</corr></choice> night, gently <measure>.10</measure>
+<lb/><p rend="no-indent"><date when="1867-02-13">13</date> -<seg type="weather"><choice><sic>in</sic><corr>In</corr></choice> night, gently <space extent="2" unit="chars"/><space extent="2" unit="words"/><measure>.10</measure>
 
 <lb/>no rain by day -</seg></p>
 
@@ -2800,7 +2795,7 @@
 
 <lb/><milestone unit="section" rend="line"/>
 
-<lb/><p rend="no-indent"><date when="1867-02-15">15</date> <seg type="weather">by night <space extent="7" unit="chars"/> <measure>.7</measure>
+<lb/><p rend="no-indent"><date when="1867-02-15">15</date> <seg type="weather">by night <space extent="3" unit="chars"/><space extent="4" unit="words"/><measure>.7</measure>
 
 <lb/>no rain by day -</seg></p>
 
@@ -2808,12 +2803,12 @@
 
 <lb/><p rend="no-indent"><date when="1867-02-16">16</date> <seg type="weather">most of the
 
-<lb/>night <unclear cert="medium"><choice><abbr><hi rend="underline">w</hi> T</abbr><expan>with Thunder</expan></choice></unclear> <space extent="7" unit="chars"/><measure>2.42</measure></seg></p>
+<lb/>night <unclear cert="medium"><choice><abbr><hi rend="underline">w</hi> T</abbr><expan>with Thunder</expan></choice></unclear> <space extent="7" unit="chars"/><space extent="3" unit="words"/><measure>2.42</measure></seg></p>
 <lb/><milestone unit="section" rend="line"/>
 
 <lb/><p rend="no-indent"><date when="1867-02-17">17</date> <seg type="weather"> Early morning
 
-<lb/>till <unclear cert="low">Noon</unclear> <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <measure>.33</measure> </seg></p>
+<lb/>till <unclear cert="low">Noon</unclear> <choice><abbr>T</abbr><expan>Thunder</expan></choice> - <space extent="2" unit="chars"/><space extent="4" unit="words"/><measure>.33</measure> </seg></p>
 
 <lb/><milestone unit="section" rend="line"/>
 
@@ -2831,21 +2826,21 @@
 
 <lb/>&amp; night with Thunder
 
-<lb/>T = Thunder <space extent="6" unit="chars"/><measure>.10</measure></seg></p>
+<lb/>T = Thunder <space extent="5" unit="chars"/><space extent="3" unit="words"/><measure>.10</measure></seg></p>
 
 <lb/><milestone unit="section" rend="line"/>
 
-<lb/><p rend="no-indent"><date when="1867-02-02">2<hi rend="underline">d</hi></date> <seg type="weather"><choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> all night <measure><w>1.<subst><del>50</del><add place="over-text">04</add></subst></w></measure></seg></p>
+<lb/><p rend="no-indent"><date when="1867-02-02">2<hi rend="underline">d</hi></date> <seg type="weather"><choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>T.</abbr><expan>Thunder</expan></choice> all night <space extent="2" unit="words"/><measure><w>1.<subst><del>50</del><add place="over-text">04</add></subst></w></measure></seg></p>
 
 <lb/><milestone unit="section" rend="line"/>
 
-<lb/><p rend="no-indent"><date when="1867-02-03">3<hi rend="sup">d</hi></date> <seg type="weather">In night <choice><abbr>T</abbr><expan>Thunder</expan></choice> = <space extent="3" unit="chars"/><measure>.14</measure></seg></p>
+<lb/><p rend="no-indent"><date when="1867-02-03">3<hi rend="sup">d</hi></date> <seg type="weather">In night <choice><abbr>T</abbr><expan>Thunder</expan></choice> = <space extent="3" unit="chars"/><space extent="3" unit="words"/><measure>.14</measure></seg></p>
 
 <lb/><milestone unit="section" rend="line"/>
 
-<lb/><p rend="no-indent"><date when="1867-02-04">4<hi rend="sup underline">th</hi></date> <seg type="weather">9 AM till Noon <measure>.43</measure>
+<lb/><p rend="no-indent"><date when="1867-02-04">4<hi rend="sup underline">th</hi></date> <seg type="weather">9 AM till Noon <space extent="2" unit="words"/><space extent="4" unit="chars"/><measure>.43</measure>
 
-<lb/>with <choice><abbr>T</abbr><expan>Thunder</expan></choice> - East - <measure>.54</measure>
+<lb/>with <choice><abbr>T</abbr><expan>Thunder</expan></choice> - East - <space extent="4" unit="chars"/><space extent="3" unit="words"/><measure>.54</measure>
 
 <lb/>3 PM <choice><abbr>T</abbr><expan>Thunder</expan></choice></seg></p>
 
@@ -2853,23 +2848,23 @@
 
 <lb/><space extent="2" unit="chars"/>steady pour down
 
-<lb/>clouds from <choice><abbr>W</abbr><expan>West</expan></choice> --- <measure>.63</measure>
+<lb/>clouds from <choice><abbr>W</abbr><expan>West</expan></choice> --- <space extent="3" unit="words"/><measure>.63</measure>
 
 <lb/>- at 5 PM under stratum
 
 <lb/>of clouds from <choice><abbr>N</abbr><expan>North</expan></choice> upper <choice><abbr>S.</abbr><expan>South</expan></choice></seg></p>
 
-<lb/><p rend="no-indent"><date when="1867-02-06">6<hi rend="sup underline">th</hi></date> <seg type="weather"><choice><sic>night</sic><corr>Night</corr></choice> <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="6" unit="chars"/><measure>.10</measure>
+<lb/><p rend="no-indent"><date when="1867-02-06">6<hi rend="sup underline">th</hi></date> <seg type="weather"><choice><sic>night</sic><corr>Night</corr></choice> <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="9" unit="chars"/><space extent="2" unit="words"/><measure>.10</measure>
 
-<lb/>3 PM <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="6" unit="chars"/><measure>.29</measure></seg></p>
-
-<lb/><lb/><milestone unit="section" rend="line"/>
-
-<lb/><p rend="no-indent"><date when="1867-02-07">7<hi rend="sup">th</hi></date> <seg type="weather"><choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> 1 PM <space extent="2" unit="words"/><measure>.7</measure></seg></p>
+<lb/>3 PM <choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> <space extent="9" unit="chars"/><space extent="3" unit="words"/><measure>.29</measure></seg></p>
 
 <lb/><milestone unit="section" rend="line"/>
 
-<lb/><p rend="no-indent"><date when="1867-02-08">8<hi rend="sup">th</hi></date> <seg type="weather">Early morning <space extent="1" unit="words"/><measure>.20</measure></seg></p>
+<lb/><p rend="no-indent"><date when="1867-02-07">7<hi rend="sup">th</hi></date> <seg type="weather"><choice><abbr><hi rend="underline">w</hi></abbr><expan>with</expan></choice> <choice><abbr>T</abbr><expan>Thunder</expan></choice> 1 PM <space extent="4" unit="words"/><space extent="2" unit="chars"/><measure>.7</measure></seg></p>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p rend="no-indent"><date when="1867-02-08">8<hi rend="sup">th</hi></date> <seg type="weather">Early morning <space extent="3" unit="words"/><measure>.20</measure></seg></p>
 
 
     <pb facs="liv_000007_0121" n="0121"/><!-- This page should follow the next one - do we put in sequential order by number or content? HB --><!-- Number. AW -->
@@ -2884,11 +2879,11 @@
 
 <lb/><milestone unit="section" rend="line"/>
 
-<lb/><p><seg rend="black"><persName>Magoru Mafupi
+<lb/><p rend="no-indent"><seg rend="brown"><persName>Magoru Mafupi
 
 <lb/>Hadim Sirkar
 
-<lb/><unclear cert="medium">Alamji</unclear></persName> takes
+<lb/>Alamji</persName> takes
 
 <lb/>change of <bibl>12 letters</bibl>
 
@@ -2905,13 +2900,13 @@
 
     <pb facs="liv_000007_0122" n="0122"/><!-- This page should precede the previous one - do we put in sequential order by number or content? HB --><!-- Number. AW -->
 
-<lb/><p rend="right"><figure><figDesc>Drawing of <persName>Babisa</persName>'s face.</figDesc></figure> <persName>Babisa</persName> of
+<lb/><p rend="no-indent"><figure><figDesc>Drawing of <persName>Babisa</persName>'s face.</figDesc></figure> <persName>Babisa</persName> of
 
-<lb/><placeName><settlement type="village"><unclear cert="low">Movushi</unclear></settlement></placeName>
+<lb/><space extent="2" unit="words"/><placeName><settlement type="village"><unclear cert="low">Movushi</unclear></settlement></placeName>
 
-<lb/>mark - all
+<lb/><space extent="2" unit="words"/>mark - all
 
-<lb/><unclear cert="high">pots</unclear> in this
+<lb/><space extent="2" unit="words"/><unclear cert="high">pots</unclear> in this
 
 <lb/>country marked by
 
@@ -2938,19 +2933,17 @@
             
     <pb facs="liv_000007_0123" n="0123"/><!-- This page should follow the next one - do we put in sequential order by number or content? HB --><!-- Number. AW -->
 
-<lb/><figure><figDesc>Drawing of a man's face.</figDesc></figure>
+<lb/><p rend="no-indent"><figure><figDesc>Drawing of a man's face.</figDesc></figure> makes the
 
-<lb/><p rend="no-indent">makes the
+<lb/><space extent="2" unit="words"/>others when
 
-<lb/>others when
+<lb/><space extent="2" unit="words"/><unclear cert="medium">pound god</unclear>
 
-<lb/><unclear cert="medium">pound god
+<lb/><space extent="2" unit="words"/><unclear cert="medium">Chiteale</unclear> &amp;
 
-<lb/>Chiteale</unclear> &amp;
+<lb/><space extent="2" unit="words"/>marks <unclear cert="low">flesh</unclear>
 
-<lb/>marks <unclear cert="low">flesh
-
-<lb/>tasty</unclear></p> <!-- Not sure of this section at all..doesn't seem to make any sense! HB --><!-- Agreed. AW -->
+<lb/><space extent="3" unit="words"/><unclear cert="low">tasty</unclear></p> <!-- Not sure of this section at all..doesn't seem to make any sense! HB --><!-- Agreed. AW -->
 
 <lb/><p rend="no-indent"><persName>Kamombwe</persName> is <term type="occupation">chief</term>
 
@@ -2989,7 +2982,7 @@
 
     <pb facs="liv_000007_0124" n="0124"/><!-- This page should precede the previous one - do we put in sequential order by number or content? HB --><!-- Number. AW -->
 
-<lb/><p>to <add place="below">^</add> <add place="above">From <placeName><settlement type="village"><persName>Chafunga</persName>'s <choice><abbr>vill</abbr><expan>village</expan></choice></settlement></placeName></add> <placeName><settlement type="village">Chatanta</settlement></placeName> <measure>2 days</measure> - next
+<lb/><p rend="no-indent">to <add place="below">^</add> <add place="above">From <placeName><settlement type="village"><persName>Chafunga</persName>'s <choice><abbr>vill</abbr><expan>village</expan></choice></settlement></placeName></add> <placeName><settlement type="village">Chatanta</settlement></placeName> <measure>2 days</measure> - next
 
 <lb/>day <persName><unclear cert="low">Kawie</unclear></persName> his sister's son
 
@@ -2999,7 +2992,7 @@
 
 <lb/><p>Canopus <date when="1867-01-17">17 <choice><abbr>Jany</abbr><expan>January</expan></choice></date>
 
-<lb/><measure>96 32 40 gives
+<lb/><space extent="1" unit="words"/><measure>96 32 40 gives
 
 <lb/><placeName><settlement type="village">Lisunga</settlement></placeName> <choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 10º 53' 13"</measure></p>
 
@@ -3007,33 +3000,35 @@
 
 <lb/><figure><head><foreign xml:lang="und"><term type="plant_foodstuff">Teute</term></foreign> <space extent="5" unit="chars"/><foreign xml:lang="und"><term type="plant_foodstuff">Likabanza</term></foreign> <lb/><foreign xml:lang="und"><term type="plant_foodstuff">Mofeta</term></foreign></head><figDesc>Drawings of <term type="plant_foodstuff">mushrooms</term>.</figDesc></figure> <!-- Not sure if these three words around the mushrooms are species names, but tagged as such. HB --><!-- Looks right to me. AW -->
 
-<lb/><p rend="right">4 <term type="plant_foodstuff">Mushrooms</term> eaten
+<lb/><p>4 <term type="plant_foodstuff">Mushrooms</term> eaten
 
-<lb/>by the people - <foreign xml:lang="und"><term type="plant_foodstuff">Teute</term></foreign>
+<lb/><space extent="1" unit="words"/>by the people - <foreign xml:lang="und"><term type="plant_foodstuff">Teute</term></foreign>
 
-<lb/>becomes very large</p>
+<lb/><space extent="1" unit="words"/>becomes very large</p>
 
 <lb/><milestone unit="section" rend="double-line"/>
 
-<lb/><p><unclear cert="high">Moaba = Mamawa</unclear> <!-- Not sure what these two words are, so coded as unclear for now. HB --><!-- No idea. AW -->
+<lb/><p rend="no-indent"><unclear cert="high">Moaba = Mamawa</unclear> <!-- Not sure what these two words are, so coded as unclear for now. HB --><!-- No idea. AW -->
 
-<lb/><lb rend="right"/>Chisizmba a
+<lb/><add rend="brown"><list><item><foreign xml:lang="und"><term type="plant_foodstuff">Motento</term></foreign></item> 
 
+<space extent="1" unit="words"/>
+<note place="marginright" rend="gray">Chisimba a
 <lb/>loved one
+<lb/><seg rend="brown"><term type="plant_foodstuff">mushroom</term> 
+<lb/>names</seg>
+<lb/>green out<supplied>-</supplied>
+<lb/>side &amp; pale
+<lb/>inside</note>
 
-<lb/><add place="marginleft" rend="black"><list><item><foreign xml:lang="und"><term type="plant_foodstuff">Motento</term></foreign></item>
-
-<lb/><item><foreign xml:lang="und"><term type="plant_foodstuff">Mopeta</term></foreign></item>
+<lb/><item><foreign xml:lang="und"><term type="plant_foodstuff">Mopeta</term></foreign></item> <metamark/>
 
 <lb/><item><foreign xml:lang="und"><term type="plant_foodstuff">Boséfwe</term></foreign></item>
 
-<lb/><item><foreign xml:lang="und"><term type="plant_foodstuff">Manabausa</term></foreign></item></list> <metamark/> <term type="plant_foodstuff">mushroom</term> names</add>
+<lb/><item><foreign xml:lang="und"><term type="plant_foodstuff">Nakabausa</term></foreign></item>
 
-<lb/>green out<supplied>-</supplied>
-
-<lb/>side &amp; pale
-
-<lb/>inside</p>
+<lb/><item rend="gray">Chisimba</item></list>
+</add></p>
 
             
     <pb facs="liv_000007_0125" n="0125"/><!-- This page should follow the next one - do we put in sequential order by number or content? HB --><!-- Number. AW -->
