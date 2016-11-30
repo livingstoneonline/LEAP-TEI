@@ -2,11 +2,11 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="transcription-fds.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000010"><!-- Adrian change only -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000010">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Field Diary X</title><!-- Adrian change only -->
+                <title>Field Diary X</title>
 				<title type="alternative">Field Diary X, 9 September 1867 - 2 January 1868</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
@@ -91,9 +91,9 @@
                         <country>United Kingdom</country>
                         <settlement>Blantyre</settlement>
                         <repository>David Livingstone Centre</repository>
-                        <idno type="shelfmark">Cat 1129</idno><!-- Adrian change only -->
+                        <idno type="shelfmark">Cat 1129</idno>
                         <altIdentifier>
-                            <idno type="ccnumber">Field Diaries, 023</idno><!-- Adrian change only -->
+                            <idno type="ccnumber">Field Diaries, 023</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>
@@ -106,7 +106,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Field Diary X</title><!-- Adrian change only -->
+                    <title>Field Diary X</title>
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" from="1867-09-09" to="1868-01-02">9 September 1867 - 2 January 1868</date><!-- Adrian change x2 only -->
                 </bibl>
@@ -143,7 +143,7 @@
 <lb/><figure><figDesc>Annotated insert from the Stirling University Conservation Project from 1986.</figDesc></figure> <!-- page entirely devoted to conservation notes --><!-- We need to normalize how thse are recorded. AW --><!-- Done as per correpsondence. HB -->
 
 	<pb facs="liv_000010_0003" n="0003"/>
-<lb/><addSpan spanTo="#fd10" hand="#JMcN"/><p>In this book the "rough
+<lb/><p rend="no-indent"><addSpan spanTo="#fd10" hand="#JMcN"/>In this book the "rough
 <lb/>notes" correspond, apparently,
 <lb/>more closely with the <bibl>Journal</bibl>
 <lb/>than the earlier entries
@@ -156,13 +156,13 @@
 <lb/><p>This book contains
 <lb/>detail of the famous
 <lb/>interviews with the
-<lb/>old barbarian <foreign xml:lang="und"><term type="occupation"><choice><orig>Casembe</orig><reg>Cazembe</reg></choice></term></foreign> <!-- it became apparent later on that Cazembe or Casembe was not just a name but was a generic title for all holders of that chieftainship - hence the reason why both <persName> and <orgName> have been used, and this has been applied to all occurrences of the name throughout this document AM --><!-- I have amended the orgName tag to occupation, as it seems a better fit, but Adrian let me know if you like orgName better and I can revert back. HB --><!-- I must admit I thought that this was just a person. This is something we may want to review/revisit down the road in the context of all the diaries. AW --><!-- Have solved :) Implementing standardization of Cazembe. HB --></p><anchor xml:id="fd10"/>
+<lb/>old barbarian <foreign xml:lang="und"><term type="occupation"><choice><orig>Casembe</orig><reg>Cazembe</reg></choice></term></foreign><!-- it became apparent later on that Cazembe or Casembe was not just a name but was a generic title for all holders of that chieftainship - hence the reason why both <persName> and <orgName> have been used, and this has been applied to all occurrences of the name throughout this document AM --><!-- I have amended the orgName tag to occupation, as it seems a better fit, but Adrian let me know if you like orgName better and I can revert back. HB --><!-- I must admit I thought that this was just a person. This is something we may want to review/revisit down the road in the context of all the diaries. AW --><!-- Have solved :) Implementing standardization of Cazembe. HB --><anchor xml:id="fd10"/></p>
 
 	<pb facs="liv_000010_0004" n="0004"/>
 <!-- Pre-printed tables etc AM -->
 
 	<pb facs="liv_000010_0005" n="0005"/>
-<!-- Pre-printed tables etc AM -->
+<lb/><!-- Pre-printed tables etc AM -->
 
     </front>
 
@@ -171,15 +171,12 @@
 
 	<pb facs="liv_000010_0006" n="0006"/>
 <cb rend="left"/>
-<lb/><fw n="heading_X" rend="large black">X.</fw>
-<cb rend="right"/>
-<lb/><p><date when="1867-09-09">9<hi rend="sup underline">th</hi> September
-<lb rend="right"/><lb/>1867</date></p>
-<cb/>
-<lb/><p><placeName><region>Hara district</region></placeName>
-<lb/><placeName><region><persName>Nsama</persName>'s country</region></placeName>
+<lb/><p rend="no-indent"><fw n="heading_X" rend="large black">X.</fw> <date when="1867-09-09">9<hi rend="sup underline">th</hi> September
+<lb/><space extent="2" unit="words"/>1867</date></p>
+<lb/><p rend="no-indent"><placeName><region>Hara district</region></placeName>
+<lb/><placeName><region><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName>'s country</region></placeName>
 <lb/>Went <measure>3 hours west
-<lb/>to <placeName><settlement type="village"><persName>Nsama</persName>'s village</settlement></placeName></measure>
+<lb/>to <placeName><settlement type="village"><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>'s village</settlement></placeName></measure>
 <lb/>He &amp; <orgName>his people</orgName> are very
 <lb/>much afraid of <w>fire<supplied>-</supplied>
 <lb break="no"/>arms</w> - We sent a
@@ -271,11 +268,11 @@
 <lb/>allowed to go to the
 <lb/><choice><sic><term type="occupation">chiefs</term></sic><corr><term type="occupation">chief's</term></corr></choice> house or
 <lb/>even into his inner
-<lb/>stockade - <persName>Nsama</persName>
+<lb/>stockade - <persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>
 <lb/>said he would give
 <lb/>people to <choice><orig>shew</orig><reg>show</reg></choice> the
 <lb/>way to <placeName><geogName type="lake">Moero</geogName></placeName> -</p>
-<lb/><p><persName>Nsama</persName> sent a great
+<lb/><p rend="no-indent"><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName> sent a great
 <lb/>big basket of <term type="foodstuff">meal</term>
 <lb/>&amp; calabash of <term type="foodstuff">beer</term>
 <lb/>We came back 
@@ -305,7 +302,7 @@
 <lb/><placeName><settlement type="town">Ujiji</settlement></placeName></p>
 <lb/><milestone unit="section" rend="line"/> 
 <lb/><p rend="no-indent"><date when="1867-09-14">14<hi rend="sup underline">th</hi> <choice><abbr>Sep<hi rend="sup">r</hi></abbr><expan>September</expan></choice> 1867</date></p>
-<lb/><p>Ill with <term type="ailment">fever</term> or
+<lb/><p rend="no-indent">Ill with <term type="ailment">fever</term> or
 <lb/>some allied affection
 <lb/>"<foreign xml:lang="und"><term type="ailment">urina urinans</term></foreign>" - 
 <lb/><term type="ailment">headache</term> - distress
@@ -323,7 +320,7 @@
 <lb/>it -</p>
 <lb/><p><persName>Hamees</persName> says that
 <lb/>he has no confidence
-<lb/>in <persName>Nsama</persName> because
+<lb/>in <persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName> because
 <lb/>he promised him
 <lb/>a daughter to wife &amp;
 <lb/>she has not come.
@@ -346,15 +343,15 @@
 <lb/><placeName><geogName type="lake">Moero</geogName></placeName> &amp; <placeName><region>Buire</region></placeName>
 <lb/>to buy ivory &amp; I had
 <lb/>better go with them
-<lb/>than trust in <persName>Nsama</persName>'s
+<lb/>than trust in <persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>'s
 <lb/>guidance - <persName>Hamidi</persName>
 <lb/>thinks this is the
 <lb/>plan to be preferred
 <lb/>We go with the
 <lb/><term type="occupation">traders</term> stop a day
 <lb/>or two with a subject
-<lb/>of <persName>Nsama</persName> &amp; pass
-<lb/><placeName><region><persName>Nsama</persName>'s country</region></placeName>
+<lb/>of <persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName> &amp; pass
+<lb/><placeName><region><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>'s country</region></placeName>
 <lb/>altogether - <orgName>His
 <lb/>people</orgName> have got a
 <lb/>shock in their ideas
@@ -370,7 +367,7 @@
 <lb/>so dearly bought
 <lb/>The <orgName>Arabs</orgName> say that
 <lb/>they lost 50 men
-<lb/><persName>Nsama</persName> must have
+<lb/><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName> must have
 <lb/>lost as many
 <lb/>one old man with
 <lb/>a fine <figure><figDesc>Profile drawing of a man's head.</figDesc></figure> face &amp;
@@ -385,8 +382,9 @@
 <lb break="no"/>ing</w></p>
 
 	<pb facs="liv_000010_0016" n="0016"/>
-<lb/><p  rend="no-indent"><hi rend="underline"><date when="1867-09-14">14<hi rend="sup underline">t</hi><hi rend="sup">h</hi> September</date> continued</hi>
-<lb/>A daughter of <persName>Nsama</persName>
+<lb/><p  rend="no-indent"><date when="1867-09-14">14<hi rend="sup underline">t</hi><hi rend="sup">h</hi> September</date> continued</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p>A daughter of <persName>Nsama</persName>
 <lb/>came <date when="1867-09-14">this afternoon</date> to
 <lb/>be a wife to <persName>Hamees</persName>
 <lb/>by way of cementing
@@ -425,7 +423,7 @@
 <lb/>anyone much more
 <lb/>a stranger</p>
 <lb/><milestone unit="section" rend="line"/> 
-<lb/><p rend="center"><date when="1867-09-15">15<hi rend="sup">th</hi> <choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> 1867</date></p>
+<lb/><p><date when="1867-09-15">15<hi rend="sup">th</hi> <choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> 1867</date></p>
 <lb/><p rend="no-indent"><persName>Hamees</persName> went off
 <lb/>early <date when="1867-09-15">this morning</date>
 <lb/>with his new wife
@@ -440,7 +438,7 @@
 <lb/>for we send for all
 <lb/>the people now out
 <lb/>&amp; go West without
-<lb/><persName>Nsama</persName>'s leave</p>
+<lb/><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>'s leave</p>
 <lb/><milestone unit="section" rend="line"/> 
 <lb/><p><date when="1867-09-16">16<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1867</date>
 <lb/>We expect the people
@@ -452,13 +450,13 @@
 <lb/>fell about 3 PM
 <lb/><date when="1867-09-16">today</date></seg></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><note place="marginleft"><date when="1867-09-17">17<hi rend="sup">th</hi></date></note> <p><persName>Hamidi</persName> went to
-<lb/><placeName><settlement type="village"><persName>Nsama</persName>'s</settlement></placeName> <date when="1867-09-14">yesterday</date>
+<lb/><p rend="no-indent"><add place="marginleft"><date when="1867-09-17">17<hi rend="sup">th</hi></date></add> <persName>Hamidi</persName> went to
+<lb/><placeName><settlement type="village"><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>'s</settlement></placeName> <date when="1867-09-14">yesterday</date>
 <lb/>and was told to come
 <lb/>in if without gun
 <lb/>or sword but he
 <lb/>would not go on these
-<lb/>conditions - <persName>Nsama</persName>
+<lb/>conditions - <persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>
 
 	<pb facs="liv_000010_0019" n="0019"/>
 <lb/>said that he would
@@ -477,7 +475,7 @@
 <lb/><placeName><settlement type="village"><choice><sic><persName>Chitimba</persName>s</sic><corr><persName>Chitimba</persName>'s</corr></choice></settlement></placeName> along the
 <lb/>slope from <placeName><geogName type="watershed">the great
 <lb/>watershed</geogName></placeName> - In going
-<lb/>to <placeName><settlement type="village"><persName>Nsama</persName>'s</settlement></placeName> we
+<lb/>to <placeName><settlement type="village"><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>'s</settlement></placeName> we
 <lb/>descend a great step
 <lb/>on this slope &amp; his
 <lb/>village lies in a huge
@@ -499,8 +497,8 @@
 <lb/>for <orgName>slaves</orgName> - for lack
 <lb/>of ivory</p>
 <lb/><milestone unit="section" rend="line"/> 
-<lb/><p rend="right"><date when="1867-09-18">18<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1867</date></p>
-<lb/><p rend="no-indent"><persName>Hamees</persName> off to <placeName><region>Nsama</region></placeName>
+<lb/><p><date when="1867-09-18">18<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1867</date></p>
+<lb/><p rend="no-indent"><persName>Hamees</persName> off to <placeName><region><persName>Nsama</persName></region></placeName>
 <lb/>again - did not tell
 <lb/>us, he is ashamed
 <lb/>of his father in law.
@@ -520,7 +518,7 @@
 <lb/>be sent for us <date when="1867-09-19">today</date></p>
 <lb/><milestone unit="section" rend="line"/> 
 <lb/><p><date when="1867-09-20">20<hi rend="sup underline">th</hi></date> I had resolved
-<lb/>to go to <placeName><settlement type="village"><persName>Nsama</persName>'s</settlement></placeName>
+<lb/>to go to <placeName><settlement type="village"><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>'s</settlement></placeName>
 <lb/><date when="1867-09-19">this morning</date> but
 <lb/><persName>Hamees</persName> sent to say
 <lb/>the men had come
@@ -548,10 +546,10 @@
 <lb/>travelled <measure>two hours</measure> 
 <lb/>North then descended
 <lb/>into the <placeName><region>valley of
-<lb/><persName>Nsama</persName></region></placeName> &amp; crossed it 
+<lb/><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName></region></placeName> &amp; crossed it 
 <lb/>in <measure>an hour</measure> - <measure><hi rend="double-underline">3 hours</hi></measure> <!-- Adrian, I made this one big measure tag since it's an explanation of the addition of time (which we usually use only one for). Let me know if incorrect and I will revert back. HB --><!-- Three separate ones is better, methinks. AW -->
 <lb/>We descended the same
-<lb/>step as at <placeName><region>Nsama</region></placeName>
+<lb/>step as at <placeName><region><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></region></placeName>
 <lb/>dark red sandstone
 <lb/>covered with trees
 <lb/>The plain is swampy
@@ -590,7 +588,8 @@
 <lb/>was done to "Harasji"</p>
 
 	<pb facs="liv_000010_0024" n="0024"/>
-<lb/><p><hi rend="underline"><date when="1867-09-24">24<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1867</date></hi></p>
+<lb/><p><date when="1867-09-24">24<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1867</date></p>
+<lb/><milestone unit="section" rend="line"/>
 <lb/><p>We were roused at
 <lb/>3 AM but after all was
 <lb/>ready told that we
@@ -606,7 +605,7 @@
 <lb/><date when="1867-09-23">yesterday</date> &amp; stopped us</p>
 <lb/><p>When the <orgName>Arabs</orgName> &amp;
 <lb/><orgName><persName>Kasonso</persName>'s people</orgName> were
-<lb/>punishing <persName>Nsama</persName>
+<lb/>punishing <persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>
 <lb/>the <orgName>people of the latter</orgName>
 <lb/>fled into this plain which
 <lb/>was then so deep with
@@ -644,7 +643,7 @@
 <lb/>yet they always grumble
 <lb/>&amp; skulk <hi rend="double-underline">4</hi> hours in all</p>
 <lb/><milestone unit="section" rend="line"/>  
-<lb/><p rend="right"><date when="1867-09-25">25<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1867</date></p>
+<lb/><p><date when="1867-09-25">25<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1867</date></p>
 <lb/><p rend="no-indent">Started at 5 - 30 and
 <lb/>came along through
 <lb/>the same well grown
@@ -752,7 +751,7 @@
 
 	<pb facs="liv_000010_0031" n="0031"/>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="center"><date when="1867-09-30">30 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1867</date></p>
+<lb/><p><date when="1867-09-30">30 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1867</date></p>
 <lb/><p rend="no-indent">We <measure>marched 2 hours
 <lb/><choice><abbr>N.W.</abbr><expan>North-West</expan></choice></measure> then <measure>2 <choice><abbr>N N West</abbr><expan>North-Northwest</expan></choice></measure>
 <lb/>then <add place="below">^</add><metamark/> <add place="inline">after</add><!-- not sure what L's intention is here --><!-- Agreed. He could be moving after or crossing, and it's not clear what he's putting where. AW --> one <choice><abbr>N.E</abbr><expan>Northeast</expan></choice>
@@ -764,7 +763,7 @@
 <lb/>divides <placeName><region>Itawa</region></placeName> from
 <lb/><placeName><region>Lopere</region></placeName> - the <placeName><region>Lopere</region></placeName>
 <lb/><unclear cert="medium"><add place="marginleft">C7</add></unclear> begins on its Northern
-<lb/>bank here =</p> <ab/><p rend="right"><measure><w><hi rend="double-underline">5 ho</hi>urs</w></measure></p> 
+<lb/>bank here = <measure><w><hi rend="double-underline">5 ho</hi>urs</w></measure></p> 
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><date when="1867-10-01">1<hi rend="sup">s</hi><hi rend="sup underline">t</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1867</date></p>
 <lb/><p rend="no-indent"><persName>Karungu</persName> very much
@@ -828,7 +827,7 @@
 <lb/>a declination in the
 <lb/><bibl>Nautical Almanac</bibl> -</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><date when="1867-10-05">5<hi rend="sup underline">t</hi><hi rend="sup">h</hi> <choice><abbr>Oct.<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1867</date></p>
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/><date when="1867-10-05">5<hi rend="sup underline">t</hi><hi rend="sup">h</hi> <choice><abbr>Oct.<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1867</date></p>
 <lb/><p><seg type="weather"><hi rend="underline">First showers</hi> of this
 <lb/>season</seg> <date when="1867-10-04">yesterday evening</date>
 <lb/>&amp; <date when="1867-10-05">this morning</date> - Here
@@ -884,7 +883,7 @@
 <lb/>I have - and the <orgName>Arabs</orgName>
 <lb/>are not to come as
 <lb/>we shall run away
-<lb/>The defeat of <persName>Nsama</persName>
+<lb/>The defeat of <persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>
 <lb/>has struck terror
 <lb/>into all their hearts
 <lb/>for he was the great
@@ -965,17 +964,17 @@
 <lb/><p><date when="1867-10-17">17<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1867</date></p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><date when="1867-10-18">18<hi rend="sup underline">th</hi></date> The men sent to
-<lb/><persName>Nsama</persName> begging him
+<lb/><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName> begging him
 <lb/>to use his influence
 <lb/>with <persName><choice><sic>Chikonga</sic><corr>Chikongo</corr></choice></persName> to allow
 <lb/>us to pass returned
-<lb/><date when="1867-10-17">last night</date> - <persName>Nsama</persName>
+<lb/><date when="1867-10-17">last night</date> - <persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>
 <lb/>says that if <persName>Chikongo</persName>
 <lb/>thinks himself strong
 <lb/><choice><sic>enought</sic><corr>enough</corr></choice> to resist he
 <lb/>can do so - He has
 <lb/>nothing to do with
-<lb/>him - <persName>Nsama</persName> dances
+<lb/>him - <persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName> dances
 <lb/>to his <choice><sic>wives</sic><corr>wives'</corr></choice> drum
 <lb/>He is in his dotage
 <lb/>evidently</p>
@@ -1019,13 +1018,13 @@
 <lb/>a feast &amp; sent portions
 <lb/>all about - I got a
 <lb/>good share)</p>
-<lb/><milestone unit="section" rend="line"/>
+<milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent"><date when="1867-10-20">20<hi rend="sup underline">th</hi></date> <choice><sic>continued</sic><corr>Continued</corr></choice>
 <lb/>urine in driblets
 <lb/>no appetite - great
 <lb/>thirst</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><date when="1867-10-21"><w>2<subst><del>0</del><add place="over-text">1</add></subst></w> <choice><abbr>Oct</abbr><expan>October</expan></choice> 1867</date>
+<lb/><p rend="no-indent"><date when="1867-10-21"><w>2<subst><del>0</del><add place="over-text">1</add></subst></w> <choice><abbr>Oct</abbr><expan>October</expan></choice> 1867</date>
 <lb/><persName>Syde</persName> sent his
 <lb/>men to <choice><sic>bult</sic><corr>build</corr></choice> a
 <lb/>new hut in a
@@ -1059,7 +1058,7 @@
 <lb/>for it"</p>
 
 	<pb facs="liv_000010_0044" n="0044"/>
-<lb/><p><date when="1867-10-24">24<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1867</date></p>
+<lb/><p rend="no-indent"><date when="1867-10-24">24<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1867</date></p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p>If a <orgName>slave</orgName> wishes
 <lb/>to change his <orgName><term type="occupation">master</term></orgName>
@@ -1130,6 +1129,7 @@
 <lb/><measure>about 3 miles broad</measure>
 <lb/>full of large game -
 <lb/><term type="animal">Zebras</term> &amp; <term type="animal">buffaloes</term> - <seg type="weather">In
+<lb/>
 
 	<pb facs="liv_000010_0047" n="0047"/>
 <lb/>the rainy season it
@@ -1161,7 +1161,8 @@
 <lb/><figure rend="vertical"><figDesc>Map spanning this page and the previous, showing locations <placeName><region><persName>Mosumba</persName></region></placeName>, showing locations <placeName><region><persName>Nsama</persName></region></placeName>, <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Luao</geogName></placeName>, <placeName><geogName type="rivulet">Lipande</geogName></placeName>.</figDesc></figure>
 
 	<pb facs="liv_000010_0050" n="0050"/>
-<lb/><p><date when="1867-10-28"><hi rend="underline">28 <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1867</hi></date></p>
+<lb/><p><date when="1867-10-28">28 <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1867</date></p>
+<lb/><milestone unit="section" rend="quarter-line"/>
 <lb/><p rend="no-indent">A <measure>march of five hours</measure>
 <lb/>brought us to the
 <lb/>villages of <placeName><settlement type="village"><w><subst><del><gap extent="4" unit="chars" agent="overwriting"/></del><add place="over-text">Chif</add></subst>upa</w></settlement></placeName>
@@ -1173,8 +1174,7 @@
 <lb/>after men to come &amp;
 <lb/>sell us food in vain
 <lb/>so they lose all the <orgName>slaves</orgName>
-<lb/>will take <measure><hi rend="double-underline">Hours 5</hi> <choice><abbr>W S
-<lb rend="right"/>W<hi rend="sup">t</hi></abbr><expan>West Southwest</expan></choice></measure></p>
+<lb/>will take <measure><hi rend="double-underline">Hours 5</hi> <choice><abbr>W S <add place="below">W<hi rend="sup">t</hi></add></abbr><expan>West Southwest</expan></choice></measure></p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent"><date when="1867-10-29">29<hi rend="sup underline">th</hi></date> <choice><sic>rested</sic><corr>Rested</corr></choice> <date when="1867-10-29">all day</date>
 <lb/>on banks of the
@@ -1345,7 +1345,7 @@
 <lb/><placeName>Chitimba</placeName> - great
 <lb/>hunger prevails now
 <lb/><persName>Moriro</persName> a <term type="occupation">chief</term> <w>dis-
-<lb break="no"/>-possessed</w> by <persName>Nsama</persName>
+<lb break="no"/>-possessed</w> by <persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>
 <lb/>of his country wished
 <lb/>the <orgName>Arabs</orgName> to interfere
 
@@ -1740,7 +1740,7 @@
 <lb/>the soil a supply
 <lb/>for future ages
 <lb/>the small rounded
-<lb/>features of <placeName><region><persName>Nsama</persName>'s
+<lb/>features of <placeName><region><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>'s
 <lb/>country</region></placeName> common
 <lb/>Sleep by the
 <lb/><placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> Mandapala</geogName></placeName>
@@ -1775,7 +1775,7 @@
 <lb/><p><hi rend="underline">Allah</hi> is a very
 <lb/>common exclamation
 <lb/>among all the people
-<lb/>West of <placeName><settlement type="village"><persName>Nsama</persName>'s</settlement></placeName></p>
+<lb/>West of <placeName><settlement type="village"><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>'s</settlement></placeName></p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><date when="1867-11-19">19<hi rend="sup underline">th</hi></date> <choice><sic>sent</sic><corr>Sent</corr></choice> off by
 <lb/>advice of our <term type="occupation">guide</term>
@@ -2541,7 +2541,7 @@
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent"><date when="1867-12-28">28<hi rend="sup">th</hi></date> <choice><sic>to</sic><corr>To</corr></choice> <placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> <subst><del type="strikethrough"><gap extent="2" unit="chars" agent="illegible"/>ukw - <hi rend="double-underline">3</hi></del>
 <lb/><add place="inline">Chirongo</add></subst></geogName></placeName> <measure><hi rend="double-underline">3</hi> hours</measure>
-<lb/>Hot fountain in <placeName><region><persName>Nsama</persName>'s 
+<lb/>Hot fountain in <placeName><region><persName><persName><choice><orig>Insama</orig><reg>Nsama</reg></choice></persName></persName>'s 
 <lb/>country</region></placeName> boils <term type="plant_foodstuff">maize</term>
 <lb/>&amp; <term type="plant_foodstuff">cassava</term> - gushes up
 <lb/>every now &amp; then
