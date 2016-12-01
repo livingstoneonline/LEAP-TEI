@@ -932,12 +932,13 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="metamark"><span class="metamark italic" title="Editorial symbol, mark, or unusual character"
-		>#</span></xsl:template>
+		<xsl:template match="metamark[@rend='red']|metamark[@rend='orange']" priority="10">
+			<span class="metamark-color {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
+		</xsl:template>
 
-	<xsl:template match="add[@place='marginleft']/metamark|add[@place='marginright']/metamark" priority="10">
-		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
-	</xsl:template>
+		<xsl:template match="metamark">
+			<span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
+		</xsl:template>
 
 	<xsl:template match="milestone">
 		<xsl:choose>
