@@ -932,24 +932,30 @@
 		</span>
 	</xsl:template>
 
-		<xsl:template match="metamark[@rend='red']|metamark[@rend='orange']" priority="10">
-			<span class="metamark-color {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
-		</xsl:template>
-
-		<xsl:template match="metamark">
-			<span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
-		</xsl:template>
+	<xsl:template match="metamark">
+		<xsl:choose>
+			<xsl:when test="@rend='red'">
+				<span class="metamark-color {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
+			</xsl:when>
+			<xsl:when test="@rend='orange'">
+				<span class="metamark-color {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
+			</xsl:when>
+			<xsl:otherwise>
+				<span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
 
 	<xsl:template match="milestone">
 		<xsl:choose>
 			<xsl:when test="@rend='double-line'">
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line', ' ', 'first-double')}"/><br/>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}"/>
+				<hr class="{concat(name(), ' ', 'line', ' ', 'first-double')}"/><br/>
+				<hr class="{concat(name(), ' ', 'second-line')}"/>
 			</xsl:when>
 			<xsl:when test="@rend='triple-line'">
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line')}"/>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
+				<hr class="{concat(name(), ' ', 'line')}"/>
+				<hr class="{concat(name(), ' ', 'third-line')}"/>
+				<hr class="{concat(name(), ' ', 'third-line')}"/>
 			</xsl:when>
 			<xsl:otherwise>
 				<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}"/>
