@@ -286,7 +286,7 @@
 
 	<!-- Alphabetical list of elements. Alphabetized by last element in path *or* first element among options. -->
 
-	<xsl:template match="ab|p">
+	<xsl:template match="ab|p" priority="10">
 		<p class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</p>
@@ -426,6 +426,10 @@
 
 	<xsl:template match="add[@rend='red']/del[@hand='#DL']">
 		<span style='color:black;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="hi[@rend='underline orange']" priority="10">
+		<span style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
 	</xsl:template>
 
 <!-- End proof-of-concept for J. Livingstone -->
@@ -948,14 +952,14 @@
 
 	<xsl:template match="milestone">
 		<xsl:choose>
-			<xsl:when test="@rend='double-line'">
-				<hr class="{concat(name(), ' ', 'line', ' ', 'first-double')}"/><br/>
-				<hr class="{concat(name(), ' ', 'second-line')}"/>
+			<xsl:when test="contains(@rend,'double-line')">
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line', ' ', 'first-double')}"/><br/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}"/>
 			</xsl:when>
-			<xsl:when test="@rend='triple-line'">
-				<hr class="{concat(name(), ' ', 'line')}"/>
-				<hr class="{concat(name(), ' ', 'third-line')}"/>
-				<hr class="{concat(name(), ' ', 'third-line')}"/>
+			<xsl:when test="contains(@rend,'triple-line')">
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line')}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
 			</xsl:when>
 			<xsl:otherwise>
 				<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}"/>

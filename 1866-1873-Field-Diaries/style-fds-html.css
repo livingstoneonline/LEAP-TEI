@@ -314,6 +314,78 @@ p.right .linenumber{
 .first-double{
 	margin-top:1em;/*changed from 1.5em; may need to change back*/
 }
+.line.blue,
+.line.first-double.blue,
+.halfline.blue,
+.quarterline.blue,
+.second-line.blue,
+.third-line.blue,
+.div.blue .line,
+.div.blue .line.first-double,
+.div.blue .halfline,
+.div.blue .quarterline,
+.div.blue .second-line,
+.div.blue .third-line{
+	border-top:1px solid #55759e !important;	
+}
+.line.brown,
+.line.first-double.brown,
+.halfline.brown,
+.quarterline.brown,
+.second-line.brown,
+.third-line.brown,
+.div.brown .line,
+.div.brown .line.first-double,
+.div.brown .halfline,
+.div.brown .quarterline,
+.div.brown .second-line,
+.div.brown .third-line{
+	border-top:1px solid #5b4338 !important;	
+}
+.line.gray,
+.line.first-double.gray,
+.halfline.gray,
+.quarterline.gray,
+.second-line.gray,
+.third-line.gray,
+.div.gray .line,
+.div.gray .line.first-double,
+.div.gray .halfline,
+.div.gray .quarterline,
+.div.gray .second-line,
+.div.gray .third-line{
+	border-top:1px solid #72716d;	
+}
+.line.orange,
+.line.first-double.orange,
+.halfline.orange,
+.quarterline.orange,
+.second-line.orange,
+.third-line.orange,
+.div.orange .line,
+.div.orange .line.first-double,
+.div.orange .halfline,
+.div.orange .quarterline,
+.div.orange .second-line,
+.div.orange .third-line{
+	border-top:1px solid #CD7300 !important;	
+}
+.line.red,
+.line.first-double.red,
+.halfline.red,
+.quarterline.red,
+.second-line.red,
+.third-line.red,
+.div.red .line,
+.div.red .line.first-double,
+.div.red .halfline,
+.div.red .quarterline,
+.div.red .second-line,
+.div.red .third-line{
+	border-top:1px solid red !important;	
+}
+
+
 
 /* 5. p, ab, note, fw */
 
@@ -456,6 +528,8 @@ p{
 	border-bottom:4px double;
 	text-decoration:underline;
 }
+.indent{		
+	}
 .inline{
 	/*color:gray;*/
 }
@@ -597,7 +671,7 @@ p{
 .list .right{
 	float:right;
 	margin-top:-1.4em;
-	margin-left:5em;
+	margin-left:2em;
 	padding-right:2em;
 }
 .cell{
