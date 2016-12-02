@@ -220,7 +220,7 @@
 <lb/>with <persName>Henry M Stanley</persName></hi> <!-- Adrian, I coded as a hi tag as it seems DL deliberately wanted to go over this section, but correct as needed. HB --><!-- Looks OK. AW -->
 <lb/><seg type="weather">Wind too high</seg></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><date when="1871-11-16">16<hi rend="sup underline">th</hi></date> <metamark rend="red"/> <measure>4 hours to <placeName><settlement type="village">Chigoma</settlement></placeName></measure></p> <!-- Not sure if this is a town, city, etc. SF --> <!-- Someone has added a red X over the 16th. HB -->
+<lb/><p rend="no-indent"><date when="1871-11-16">16<hi rend="sup underline">th</hi></date> <metamark rend="orange"/> <measure>4 hours to <placeName><settlement type="village">Chigoma</settlement></placeName></measure></p> <!-- Not sure if this is a town, city, etc. SF --> <!-- Someone has added a red X over the 16th. HB -->
 <lb/>
 <lb/><p><date when="1871-11-20">20<hi rend="sup">th</hi></date></p><!-- Not sure about marking this either, as the entry is blank. SF -->
 <lb/><p><date when="1871-11-21"><subst><del>22</del><add place="over-text">21</add></subst></date> = <choice><sic>passed</sic><corr>Passed</corr></choice> a very crowded
@@ -1383,7 +1383,7 @@
 <lb/>finish <bibl>letter to <persName>M<hi rend="sup">r</hi> Bennett</persName></bibl>
 <lb/>of <bibl><orgName><placeName><settlement type="city">New York</settlement></placeName> Herald</orgName></bibl> <!--Do we have a way to designate this as a publication? -AK--><!-- Yes, see how I have done. HB --><!-- Added bibl. AW --> &amp; 
 <lb/><bibl>Despatch N<hi rend="sup">o</hi> 5 <persName><choice><abbr>L<hi rend="sup">d</hi></abbr><expan>Lord</expan></choice> Granville</persName></bibl></p>
-<lb rend="red"/><milestone unit="section" rend="double-line red"/>
+<lb/><milestone unit="section" rend="double-line orange"/>
 <lb/><p><date when="1872-03-14">14<hi rend="sup underline">th</hi></date> <persName>M<hi rend="sup underline">r</hi> Stanley</persName>
 <lb/>leaves - I commit to his care <bibl>my journal</bibl> <!-- Here's the famous journal crossing! HB --><!-- This is our moment too! AW -->
 <lb/>sealed with 5 seals
@@ -2842,23 +2842,24 @@
 <lb/>S.</p>
 
     <pb facs="liv_000014_0105" n="0105"/><!-- The content of this page should precede the previous page. -->
-<lb/><p><unclear>Kefhalek</unclear> = 1 fathom
+<lb/><p rend="no-indent"><unclear>Kefhalek</unclear> = 1 fathom
 <lb/><date when="1872-08-11">11<hi rend="sup underline">th</hi> <choice><abbr>Aug</abbr><expan>August</expan></choice></date> 5 <foreign xml:lang="und">dotis</foreign> <date when="1872-04-10">10<hi rend="sup underline">th</hi> April <choice><abbr>72</abbr><expan>1872</expan></choice></date></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><date when="1872-02-20">20<hi rend="sup underline">th</hi> February 1872</date> Paid to
+<lb/><p rend="no-indent"><date when="1872-02-20">20<hi rend="sup underline">th</hi> February 1872</date> Paid to
 <lb/><persName>Susi</persName> = <persName>Amoda</persName> = <persName>Chuma</persName>
 <lb/><persName>Gardner</persName> = <persName>Mabruki</persName> =
 <lb/><persName>Halima</persName> = <persName>Mochosi</persName> each
 <lb/>one gora merikano of
-<lb/>ten doti each = <seg rend="right">7 gorah</seg></p> 
+<lb/>ten doti each = <space extent="1" unit="words"/>7 gorah</p> 
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><date when="1872-06-23">23<hi rend="sup">d</hi> June</date> Singaro = 1 fathom</p>
-<lb/><space dim="vertical" extent="3" unit="lines"/>
-<lb/><p><unclear>Safen</unclear>
+<lb/>
+<lb/>
+<lb/><p rend="no-indent">Safen
 <lb/><date when="1872-07-31">31<hi rend="sup">st</hi> July</date> = Merikane 1 <foreign xml:lang="und">Doti</foreign>
 <lb/><date when="1872-08-11">11<hi rend="sup">th</hi> August</date> <space extent="2" unit="lines"/> 5 <foreign xml:lang="und">Dotis</foreign></p>
-<lb/><space dim="vertical" extent="2" unit="lines"/>
-<lb/><p><date when="1872-08-11">11<hi rend="sup">th</hi> August 1872</date>
+<lb/>
+<lb/><p rend="no-indent"><date when="1872-08-11">11<hi rend="sup">th</hi> August 1872</date>
 <lb/>advanced one piece <choice><abbr>Mer-</abbr><expan>Merikani</expan></choice>
 <lb/>42<choice><orig>¼</orig><reg>1/4</reg></choice> <persName>Susi</persName> 42<choice><orig>½</orig><reg>1/2</reg></choice> <persName>Chuma</persName> 
 <lb/>42<choice><orig>½</orig><reg>1/2</reg></choice> <persName>Gardner</persName> 42<choice><orig>½</orig><reg>1/2</reg></choice>
@@ -2875,9 +2876,13 @@
 <lb/><milestone unit="section" rend="double-line"/>
 <lb/><p>Tarred the Tent</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><figure><figDesc>Calculations.</figDesc></figure>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><add place="inspace" rend="small">&amp; paid</add> <space extent="2" unit="words"/><add place="inspace" rend="small">months</add>
+<lb/>Engaged <add place="below">^</add> <date when="1869-10-05">5 <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1869</date> = 2½
+<lb/><date from="1870-01" to="1870-12"><choice><abbr>Jany</abbr><expan>January</expan></choice> to <choice><abbr>Dec<hi rend="sup">r</hi></abbr></choice> 1870</date> = 12
+<lb/><date from="1871-01" to="1871-12"><choice><abbr>Jany</abbr><expan>January</expan></choice> to <choice><abbr>Dec<hi rend="sup">r</hi></abbr></choice> 1871</date> = 12
+<lb/><date from="1872-01" to="1872-07"><choice><abbr>Jany</abbr><expan>January</expan></choice> to July 1872</date> = 6</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p>Deduct for <term type="ailment">Cholera</term> <add place="above">months 3 2½</add> &amp; other
+<lb/><p rend="no-indent">Deduct for <term type="ailment">Cholera</term> <add place="above">months 3 2½</add> &amp; other
 <lb/>sickness 3 months - <hi rend="underline">7</hi>
 <lb/>for time to come + 4 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> = 25
 <lb/>sheer loss of time by
@@ -2898,7 +2903,7 @@
 <lb/><choice><sic>Dont</sic><corr>Don't</corr></choice> use rudder 
 <lb/>take out the rudder pins
 <lb/>&amp; eyes</p>
-<lb/><p>A centre seam to be
+<lb/><p rend="no-indent">A centre seam to be
 <lb/>sewed in</p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent">Keel oars &amp; tools
@@ -2918,9 +2923,9 @@
 <lb/>&amp; place it inside the
 <lb/>canvass <add place="above">&amp; fasten it</add> = put <term type="foodstuff">salt</term>
 <lb/>brine on it &amp; outside 
-<lb/>the tar</p>
-        <cb rend="vertical"/>       
-<lb/><p>with rope sewed &amp; loops
+<lb/>the tar
+<lb/><cb rend="vertical"/>       
+<lb/>with rope sewed &amp; loops
 <lb/>every six inches &amp;
 <lb/>fastened onto inside
 <lb/><term type="plant">bamboo</term> - screws
@@ -2936,7 +2941,7 @@
        	    
             <div rend="blue upside-down"> <!-- Adrian, I started a new div for the blue upside-down text because I couldn't seem to get the seg tag to work. HB --><!-- OK. AW -->
     <pb facs="liv_000014_0109" n="0109"/><!-- The content of this page should precede the previous page. -->
-<lb/><p><unclear>Lend</unclear> 7 pieces to
+<lb/><p rend="no-indent">Paid 7 pieces to
 <lb/>own people <date when="1872-02-20">20<hi rend="sup underline">th</hi>
 <lb/><choice><abbr>Feby</abbr><expan>February</expan></choice> 1872</date>
 <lb/>67 pieces left
@@ -2958,26 +2963,27 @@
 <lb/><item><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <seg rend="right">12</seg></item>
 <lb/><milestone unit="section" rend="blue line"/>
 <lb/><item>found Samsam <seg rend="right">144 = 4</seg></item>
-<lb/><item><seg rend="right">140 +</seg></item>
-<lb/><item><seg rend="right"><milestone unit="section" rend="quarter-line"/></seg></item></list>
+<lb/><lb/><item rend="right"><hi rend="underline">140</hi> +</item></list>
 <lb/>
-<lb/><figure><figDesc>Calculation.</figDesc></figure>
+<lb/><list><space extent="5" unit="words"/><item><unclear cert="medium">charged</unclear> 70 = 2</item>
+<lb/><space extent="5" unit="words"/><space extent="3" unit="chars"/><item>found <hi rend="underline">58</hi></item>
+<lb/><space extent="7" unit="words"/><item>- 12</item></list>
 <lb/><figure><figDesc>Calculations.</figDesc></figure><!--There are two different sets of calculations on the rest of this page, but not sure if they need to be in separate figure tags? EC--><!-- I've redone this page. AW -->
 
     <pb facs="liv_000014_0111" n="0111"/><!-- The content of this page should precede the previous page. -->
-<lb/><p><figure><figDesc>Calculations that continue to previous page.</figDesc></figure></p>
+<lb/><figure><figDesc>Calculations that continue to previous page.</figDesc></figure>
 
     <pb facs="liv_000014_0112" n="0112"/><!-- The content of this page should follow the next page. -->
-<lb/><p><figure><figDesc>Calculations that continue from next page.</figDesc></figure>
-<lb/><subst><del><gap extent="1" unit="words"/></del><add place="over-text"><unclear cert="medium">Cloth</unclear></add></subst> found at <placeName><settlement type="town">Unyanyembe</settlement></placeName></p>
+<lb/><figure><figDesc>Calculations that continue from next page.</figDesc></figure>
+<lb/><p rend="no-indent"><subst><del><gap extent="1" unit="words"/></del><add place="over-text">Cloth</add></subst> found at <placeName><settlement type="town">Unyanyembe</settlement></placeName></p>
 
     <pb facs="liv_000014_0113" n="0113"/><!-- The content of this page should precede the previous page. -->
-<lb/><p><figure><figDesc>Calculations that continue to previous page.</figDesc></figure></p>
+<lb/><figure><figDesc>Calculations that continue to previous page.</figDesc></figure>
             </div>
 
-            <div rend="upside-down">
+            <div rend="upside-down gray">
     <pb facs="liv_000014_0114" n="0114"/><!-- The content of this page should follow the next page. -->
-<lb/><p><choice><sic><persName>Stanleys</persName></sic><corr><persName>Stanley</persName>'s</corr></choice> nine bales
+<lb/><p rend="no-indent"><choice><sic><persName>Stanleys</persName></sic><corr><persName>Stanley</persName>'s</corr></choice> nine bales
 <lb/>and one of mine of
 <lb/>5 <foreign xml:lang="und">Jorahs Merikane</foreign>
 <lb/><persName>M<hi rend="sup underline">r</hi> Stanley</persName>'s is very
@@ -2988,9 +2994,10 @@
 <lb/><date when="1872-05-03">3<hi rend="sup underline">d</hi> May 1872</date> 12 bales
 <lb/><foreign xml:lang="und">Merikane</foreign> = 8 <choice><orig>½</orig><reg>1/2</reg></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><sic><persName>Stanleys</persName></sic><corr><persName>Stanley</persName>'s</corr></choice>
 <lb/><date when="1872-07">July</date> Expended another bale</p> <!-- Not sure this is July 72 as it's only May, so changed to 71. HB --><!-- Definitely 1872. AW -->
-<lb/><space dim="vertical" extent="4" unit="lines"/>
-<lb/><p><foreign xml:lang="und"><term type="plant_foodstuff">Matango</term></foreign> = <term type="plant_foodstuff">watermelons</term></p>
-<lb/><space dim="vertical" extent="5" unit="lines"/>
+<lb/>
+<lb/>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><foreign xml:lang="und"><term type="plant_foodstuff">Matango</term></foreign> = <term type="plant_foodstuff">watermelons</term></p>
 
     <pb facs="liv_000014_0115" n="0115"/><!-- The content of this page should precede the previous page. -->
 <lb/><p>28 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Barsati broad
