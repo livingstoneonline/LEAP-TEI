@@ -943,13 +943,13 @@
 	<xsl:template match="milestone">
 		<xsl:choose>
 			<xsl:when test="@rend='double-line'">
-				<hr class="{concat(name(), ' ', 'line', ' ', 'first-double')}"/><br/>
-				<hr class="{concat(name(), ' ', 'second-line')}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line', ' ', 'first-double')}"/><br/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}"/>
 			</xsl:when>
 			<xsl:when test="@rend='triple-line'">
-				<hr class="{concat(name(), ' ', 'line')}"/>
-				<hr class="{concat(name(), ' ', 'third-line')}"/>
-				<hr class="{concat(name(), ' ', 'third-line')}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line')}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
 			</xsl:when>
 			<xsl:otherwise>
 				<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}"/>
