@@ -334,6 +334,20 @@ p.right .linenumber{
 .div.blue .third-line{
 	border-top:1px solid #55759e !important;	
 }
+.line.black.brown,
+.line.first-double.black.brown,
+.halfline.black.brown,
+.quarterline.black.brown,
+.second-line.black.brown,
+.third-line.black.brown,
+.div.black.brown .line,
+.div.black.brown .line.first-double,
+.div.black.brown .halfline,
+.div.black.brown .quarterline,
+.div.black.brown .second-line,
+.div.black.brown .third-line{
+	border-top:1px solid #32251f !important;	
+}
 .line.brown,
 .line.first-double.brown,
 .halfline.brown,
@@ -643,6 +657,9 @@ p{
 .black.gray{
 	color:#404040;
 }
+.black.brown{
+	color:#32251f;
+}
 .blue{
 	color:#55759e;/*#507ca5;*/
 }
@@ -675,11 +692,15 @@ p{
 	/*margin-top:12px;*/
 	text-indent:0em;
 }
+.p .right,
 .list .right{
 	float:right;
 	margin-top:-1.4em;
 	margin-left:2em;
 	padding-right:2em;
+}
+.p .right{
+	padding-right:0em !important;
 }
 .cell{
 	max-width:1%;
