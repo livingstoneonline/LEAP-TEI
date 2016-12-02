@@ -24,7 +24,11 @@ Table of Contents
 
 body{
 	background:#e2e3e1;/*#d3c2a8;*/ /*#e7d5bd*/
+}
+@media all and (max-width: 600px)  {
+body{	
 	padding-left:40px;
+}
 }
 div.transcription{
 	margin-left:auto;
@@ -224,7 +228,9 @@ p.right .linenumber{
 .list .linenumber{
 	text-indent:0;	
 }
-
+.indent .linenumber{
+	margin-left:-5em !important;
+}
 
 /* 4. Milestone and lines */
 
@@ -528,7 +534,8 @@ p{
 	border-bottom:4px double;
 	text-decoration:underline;
 }
-.indent{		
+.indent{	
+	margin-left:25px;	
 	}
 .inline{
 	/*color:gray;*/
