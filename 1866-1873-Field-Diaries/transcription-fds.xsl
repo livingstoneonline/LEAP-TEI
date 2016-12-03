@@ -36,7 +36,7 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="style-fds-html.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
-					<xsl:value-of select="//teiHeader//title[1]"/>
+					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
 				<!--<link type="text/css" rel="stylesheet" href="http://jamescummings.github.io/LEAP/style.css"/>-->
 			</head>
@@ -304,8 +304,12 @@
 			<xsl:apply-templates/></span>
 	</xsl:template>
 
-	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
+	<xsl:template match="add[@place='marginleft']" priority="10">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'addmargin')}"> [<xsl:apply-templates/>] </span>
+	</xsl:template>
+
+	<xsl:template match="add[@place='marginright']" priority="10">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'addmargin')}"> <xsl:apply-templates/> </span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='over-text']">
@@ -989,6 +993,11 @@
 	<xsl:template match="note">
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
 			>[<xsl:apply-templates/>]</span>
+	</xsl:template>
+
+	<xsl:template match="note[@place='marginright']">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
+			><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">

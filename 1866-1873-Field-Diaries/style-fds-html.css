@@ -334,6 +334,22 @@ p.right .linenumber{
 .div.blue .third-line{
 	border-top:1px solid #55759e !important;	
 }
+.line.black,
+.line.first-double.black,
+.halfline.black,
+.quarterline.black,
+.second-line.black,
+.third-line.black,
+.div.black .line,
+.div.black .line.first-double,
+.div.black .halfline,
+.div.black .quarterline,
+.div.black .second-line,
+.div.black .third-line,
+.div.blue .line.black,
+.div.blue .halfline.black{
+	border-top:1px solid black !important;	
+}
 .line.black.brown,
 .line.first-double.black.brown,
 .halfline.black.brown,
@@ -711,11 +727,14 @@ p{
 	text-align:left;
 	display:inline-block;
 }
+.cell.center{
+	margin-left:4.7em;
+}
 .cell.right{
 	margin-left:7em;
 }
 .cell.right.cell-after-center{
-	margin-left:4em;
+	margin-left:2em;
 }
 
 
