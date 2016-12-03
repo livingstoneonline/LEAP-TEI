@@ -173,6 +173,12 @@
 		</div>
 	</xsl:template>
 
+	<xsl:template match="div[@n='noSpace']" priority="10">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:apply-templates/>
+		</div>
+	</xsl:template>
+
 	<xsl:template match="lb">
 		<xsl:variable name="class">
 			<xsl:if test="@rend">
