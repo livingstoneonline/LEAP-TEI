@@ -432,6 +432,10 @@
 		<span style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
 	</xsl:template>
 
+	<xsl:template match="hi[@rend='double-underline orange gray']" priority="10">
+		<span class='doubleunderline-orange' style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
 <!-- End proof-of-concept for J. Livingstone -->
 
 	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
