@@ -10,25 +10,21 @@
                 <title>Unyanyembe Journal, 28 January 1866 - 5 March 1872</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
-                <respStmt xml:id="AW">
+                <principal>Megan Ward</principal>
+				<respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Transcription</resp>
                     <resp>TEI Encoding</resp>
                     <resp>Editorial Decisions</resp>
 					<resp>Proofing</resp>
 					<resp>Encoding Review</resp>
-                </respStmt>
-				<respStmt xml:id="CL">
-					<name>Christopher Lawrence</name>
-					<resp>Final proofing</resp>
-				</respStmt>
-                <respStmt xml:id="MW">
-                    <name>Megan Ward</name>
-                    <resp>Transcription</resp>
-                    <resp>TEI Encoding</resp>
-                    <resp>Editorial Decisions</resp>
-					<resp>Proofing</resp>
                 </respStmt>
                 <respStmt xml:id="HB">
                     <name>Heather F. Ball</name>
@@ -38,6 +34,16 @@
 					<resp>Proofing</resp>
 					<resp>Quality Control and Integration</resp>
                 </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                    <resp>Proofing</resp>     
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
                 <respStmt xml:id="KS">
                     <name>Kate Simpson</name>
                     <resp>Transcription</resp>
@@ -45,17 +51,31 @@
                     <resp>Editorial Decisions</resp>
 					<resp>Proofing</resp>
                 </respStmt>
-                <respStmt xml:id="AM">
-                    <name>Anne Martin</name>
+                <respStmt xml:id="AS">
+                    <name>A.J. Schmitz</name>
                     <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                    <resp>Proofing</resp>     
+                    <resp>TEI Encoding</resp>
+                    <resp>Proofing</resp>
                 </respStmt>
                 <respStmt xml:id="AK">
                     <name>Ashanka Kumari</name>
                     <resp>Transcription</resp>
                     <resp>TEI Encoding</resp>
                     <resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="SF">
+                    <name>Samantha Fitch</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
                 </respStmt>
 				<respStmt xml:id="EC">
                     <name>Erin Cheatham</name>
@@ -306,7 +326,7 @@
         	
         <!-- 0001 - 1084 -->
         	<!-- Final Proofing -->
-			<change when="2015-04-23" who="#Cl">Corrections</change>
+			<change when="2015-04-23" who="#CL">Corrections</change>
         	<change when="2014-12-19" who="#AW">Coding review</change>
         	<!-- Integration -->
             <change when="2014-12-14" who="#HB">Editorial Decisions</change>

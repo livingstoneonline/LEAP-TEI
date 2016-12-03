@@ -2,15 +2,15 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="transcription-fds.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000005"><!-- Adrian change only -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000005">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Field Diary V</title><!-- Adrian change only -->
+                <title>Field Diary V</title>
 				<title type="alternative">Field Diary V, 5 September - 23 October 1866</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Transcription</resp>
@@ -19,10 +19,6 @@
 					<resp>Proofing</resp>
 					<resp>Encoding Review</resp>
                 </respStmt>
-				<respStmt xml:id="CL">
-					<name>Christopher Lawrence</name>
-					<resp>Final proofing</resp>
-				</respStmt>
                 <respStmt xml:id="MW">
                     <name>Megan Ward</name>
                     <resp>Transcription</resp>
@@ -38,23 +34,21 @@
 					<resp>Proofing</resp>
 					<resp>Quality Control and Integration</resp>
                 </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
                 <respStmt xml:id="KS">
                     <name>Kate Simpson</name>
                     <resp>Transcription</resp>
                     <resp>TEI Encoding</resp>
                     <resp>Editorial Decisions</resp>
-					<resp>Proofing</resp>
-                </respStmt>
-                <respStmt xml:id="JM">
-                    <name>Jared McDonald</name>
-                    <resp>Transcription</resp>
-                    <resp>TEI Encoding</resp>
-					<resp>Proofing</resp>
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>TEI Encoding</resp>
 					<resp>Proofing</resp>
                 </respStmt>
                 <respStmt xml:id="AK">
@@ -63,8 +57,14 @@
                     <resp>TEI Encoding</resp>
 					<resp>Proofing</resp>
                 </respStmt>
-                <respStmt xml:id="AM">
-                    <name>Anne Martin</name>
+                <respStmt xml:id="SF">
+                    <name>Samantha Fitch</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="EC">
+                    <name>Erin Cheatham</name>
                     <resp>Transcription</resp>
                     <resp>TEI Encoding</resp>
 					<resp>Proofing</resp>
@@ -91,9 +91,9 @@
                         <country>United Kingdom</country>
                         <settlement>Blantyre</settlement>
                         <repository>David Livingstone Centre</repository>
-                        <idno type="shelfmark">Cat 1126</idno><!-- Adrian change only -->
+                        <idno type="shelfmark">Cat 1126</idno>
                         <altIdentifier>
-                            <idno type="ccnumber">Field Diaries, 018</idno><!-- Adrian change only -->
+                            <idno type="ccnumber">Field Diaries, 018</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>
@@ -106,7 +106,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Field Diary V</title><!-- Adrian change only -->
+                    <title>Field Diary V</title>
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" from="1866-09-05" to="1866-10-23">5 September - 23 October 1866</date><!-- Adrian change x2 only -->
                 </bibl>
@@ -1368,14 +1368,14 @@
 <lb/>who expected to be paid 
 <lb/>He replied that they <!-- Or "He"? SF --><!-- "He"- DL has a weird capital H :) HB -->
 <lb/>would return tomorrow</p>
-<lb/><figure rend="gray black"><figDesc>Drawings of <term type="occupation">carriers</term> (?).</figDesc></figure><!--Dr. Wisnicki, not sure how to describe this or how to go about the rest of this page with the text; could you check this? -AK--><!-- I would take a stab at it but figure it's better to leave this to Dr. Wisnicki, as I'm not sure exactly how to do this, either. SF --> <!-- I would say to tag these text blurbs as heads within the figure tag, but also defer to Adrian for exact breakdown (one or two figure tags?) HB --><!-- It appears to me that we have the drawings and then separate but beside is the text, so I'm coding as such. AW -->
+<lb/><figure rend="gray black"><head><term type="tribe"><choice><sic>maravi</sic><corr>Maravi</corr></choice></term>. <term type="tribe"><choice><sic>chipeta</sic><corr>Chipeta</corr></choice></term></head><figDesc>Drawings of <term type="occupation">carriers</term>.</figDesc></figure><!--Dr. Wisnicki, not sure how to describe this or how to go about the rest of this page with the text; could you check this? -AK--><!-- I would take a stab at it but figure it's better to leave this to Dr. Wisnicki, as I'm not sure exactly how to do this, either. SF --> <!-- I would say to tag these text blurbs as heads within the figure tag, but also defer to Adrian for exact breakdown (one or two figure tags?) HB --><!-- It appears to me that we have the drawings and then separate but beside is the text, so I'm coding as such. AW -->
 <lb/><ab><space extent="4" unit="words"/><foreign xml:lang="und">Kanthunda</foreign>
 <lb/><space extent="4" unit="words"/><foreign xml:lang="und">Nthunda</foreign> to
 <lb/><space extent="4" unit="words"/>climb
 <space extent="4" unit="words"/><milestone unit="section" rend="quarter-line center"/>
 <lb/><space extent="4" unit="words"/><placeName><geogName type="mountain">Kaputi</geogName></placeName>
 <lb/><space extent="4" unit="words"/><choice><abbr>M<hi rend="sup underline">ts</hi></abbr><expan>Mountains</expan></choice> <measure>3 days</measure> to
-<lb/><space extent="4" unit="words"/><term type="tribe">Maravi</term> <choice><abbr>N</abbr><expan>North</expan></choice> of <placeName><app><rdg>Phunzi</rdg><rdg>Phunze</rdg></app></placeName></ab>
+<lb/><space extent="4" unit="words"/><choice><abbr>N</abbr><expan>North</expan></choice> of <placeName><app><rdg>Phunzi</rdg><rdg>Phunze</rdg></app></placeName></ab><space/>
 	
 	<pb facs="liv_000005_0063" n="0063"/>
 <lb/><figure rend="gray black"><figDesc>Drawings of <term type="occupation">carriers</term> (?).</figDesc></figure><!--Not sure how to describe these images. Dr. Wisnicki could you take a look? -AK--> <!-- Adrian, I took a stab at it, but as always defer to you! HB --><!-- Fixed. AW -->
@@ -1550,7 +1550,7 @@
 <lb/>low bushes prevail
 <lb/>more than trees - &amp;
 <lb/><term type="plant"><w>Masuk<subst><del>a</del><add place="over-text">o</add></subst>a</w></term> is the most <!-- Take a look at this because Masuka as a person here doesn't seem to make sense. SF --><!-- See how I have coded. HB --> 
-<lb/>common</p>
+<lb/>common</p><space/>
 
 	<pb facs="liv_000005_0071" n="0071"/>
 <lb/><p rend="no-indent">a seat seen in house
@@ -1968,9 +1968,9 @@
 <lb/><placeName><settlement type="village">Kanthunda</settlement></placeName> - 3 days or 2
 <lb/>(<persName>Makosa</persName>)</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><delSpan spanTo="#delpass"/><list><item>1. <placeName><settlement type="village">Mkanga</settlement></placeName></item> <item><add place="below">^</add> <add place="below" rend="left"><metamark/>2 <placeName><settlement type="village">Chifunga</settlement></placeName></add></item> <item>= 3 <placeName><settlement type="village">Mtumbwe</settlement></placeName> <add place="below">other side</add></item>
-<lb/><item>4 <placeName><settlement type="village">Lekune</settlement></placeName> -</item> <item>5 <placeName><settlement type="village">Mapuio</settlement></placeName></item>
-<lb/><item>Kiss 2 Chokera - <del type="strikethrough">Nsiko</del> = Chikouo</item></list><anchor xml:id="delpass"/><!-- I find the names on this line particularly difficult as I cannot tell whether they are place or person names - AM --><!-- No idea! AW -->
+<lb/><delSpan spanTo="#delpass"/><list><item><del type="strikethrough">1. <placeName><settlement type="village">Mkanga</settlement></placeName></del></item> <item><del type="strikethrough"><add place="below">^</add> <add place="below" rend="left"><metamark/>2 <placeName><settlement type="village">Chifunga</settlement></placeName></add></del></item> <item><del type="strikethrough">= 3 <placeName><settlement type="village">Mtumbwe</settlement></placeName> <add place="below">other side</add></del></item>
+<lb/><item><del type="strikethrough">4 <placeName><settlement type="village">Lekune</settlement></placeName> -</del></item> <item><del type="strikethrough">5 <placeName><settlement type="village">Mapuio</settlement></placeName></del></item>
+<lb/><item><del type="strikethrough">Kiss 2 Chokera - <del type="strikethrough">Nsiko</del> = Chikouo</del></item></list><anchor xml:id="delpass"/><!-- I find the names on this line particularly difficult as I cannot tell whether they are place or person names - AM --><!-- No idea! AW -->
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent"><placeName><settlement type="village"><del type="strikethrough">Pam</del>Noma</settlement></placeName> - <placeName><settlement type="village">Lekune</settlement></placeName>
 <lb/><placeName><settlement type="village">Chindundu</settlement></placeName> is one
@@ -2127,7 +2127,7 @@
 <lb/>their greatest Hero their
 <lb/>founders latest descendant</p> <!-- Adrian, should I section off the chavla section as cb/ab, or leave as-is? HB --><!-- I used <ab>. AW -->
 <lb/><milestone unit="section" rend="line"/>
-<lb/><ab><hi rend="double-underline gray"><foreign xml:lang="und"><choice><sic>chavla</sic><corr>Chavla</corr></choice></foreign></hi> <seg rend="orange">name of poison
+<lb/><ab><hi rend="double-underline orange gray"><foreign xml:lang="und">chavla</foreign></hi> <seg rend="orange">name of poison
 <lb/>of arrows used on the
 <lb/><placeName><geogName type="lake">Lake Nyassa</geogName></placeName> by the
 <lb/><term type="tribe">Manganja</term></seg></ab>
@@ -2212,7 +2212,7 @@
 <lb/>comes down stream
 <lb/>in flood - (<foreign xml:lang="la"><hi rend="underline"><term type="animal">Glanis Siluris</term></hi></foreign>)</seg></p> <!-- Adrian, if this is the animal's Latin name, should it have an animal tag as well? HB --><!-- Yes, added. AW -->
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><foreign xml:lang="und"><term type="plant_foodstuff"><hi rend="double-underline gray">Toku</hi></term></foreign> a preparation 
+<lb/><p><foreign xml:lang="und"><term type="plant_foodstuff"><hi rend="double-underline orange gray">Toku</hi></term></foreign> a preparation 
 <lb/>of <term type="plant_foodstuff">grain</term> which brings
 <lb/>out all its sweetness -
 <lb/>is very refreshing

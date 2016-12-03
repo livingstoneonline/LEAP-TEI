@@ -2,15 +2,15 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="transcription-fds.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000014"><!-- Adrian change only -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000014">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Field Diary XIV</title><!-- Adrian change only -->
+                <title>Field Diary XIV</title>
 				<title type="alternative">Field Diary XIV, 14 November 1871 - 14 September 1872</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Transcription</resp>
@@ -19,10 +19,6 @@
 					<resp>Proofing</resp>
 					<resp>Encoding Review</resp>
                 </respStmt>
-				<respStmt xml:id="CL">
-					<name>Christopher Lawrence</name>
-					<resp>Final proofing</resp>
-				</respStmt>
                 <respStmt xml:id="MW">
                     <name>Megan Ward</name>
                     <resp>Transcription</resp>
@@ -38,25 +34,10 @@
 					<resp>Proofing</resp>
 					<resp>Quality Control and Integration</resp>
                 </respStmt>
-                <respStmt xml:id="KS">
-                    <name>Kate Simpson</name>
-                    <resp>Transcription</resp>
-                    <resp>TEI Encoding</resp>
-                    <resp>Editorial Decisions</resp>
-					<resp>Proofing</resp>
-                </respStmt>
-                <respStmt xml:id="JM">
-                    <name>Jared McDonald</name>
-                    <resp>Transcription</resp>
-                    <resp>TEI Encoding</resp>
-					<resp>Proofing</resp>
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>TEI Encoding</resp>
-					<resp>Proofing</resp>
-                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
                 <respStmt xml:id="AK">
                     <name>Ashanka Kumari</name>
                     <resp>Transcription</resp>
@@ -75,12 +56,6 @@
                     <resp>TEI Encoding</resp>
 					<resp>Proofing</resp>
                 </respStmt>
-                <respStmt xml:id="AM">
-                    <name>Anne Martin</name>
-                    <resp>Transcription</resp>
-                    <resp>TEI Encoding</resp>
-					<resp>Proofing</resp>
-                </respStmt>	
             </titleStmt>
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -103,9 +78,9 @@
                         <country>United Kingdom</country>
                         <settlement>Blantyre</settlement>
                         <repository>David Livingstone Centre</repository>
-                        <idno type="shelfmark">Cat 1130</idno><!-- Adrian change only -->
+                        <idno type="shelfmark">Cat 1130</idno>
                         <altIdentifier>
-                            <idno type="ccnumber">Field Diaries, 027</idno><!-- Adrian change only -->
+                            <idno type="ccnumber">Field Diaries, 027</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>
@@ -116,7 +91,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Field Diary XIV</title><!-- Adrian change only -->
+                    <title>Field Diary XIV</title>
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" from="1871-11-14" to="1872-09-14">14 November 1871 - 14 September 1872</date><!-- Adrian change x2 only -->
                 </bibl>
