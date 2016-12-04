@@ -1325,12 +1325,12 @@
 	<xsl:template match="space[@extent][@unit]" priority="10">
 		<xsl:choose>
 			<xsl:when test="@unit='chars'">
-				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
+				<span class="space">
 					<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
 			</xsl:when>
 			<xsl:when test="@unit='words'">
-				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
+				<span class="space">
 					<xsl:for-each select="1 to @extent"
 						>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
@@ -1341,7 +1341,7 @@
 					<br class="verticalSpace"/></span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="space-other" title="{concat(name(), ': ', @extent, ' ', @unit, ' ', @agent)}">
+				<span class="space-other">
 					[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>]</span>
 			</xsl:otherwise>
 		</xsl:choose>

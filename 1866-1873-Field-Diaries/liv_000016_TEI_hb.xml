@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="transcription-fds.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000016">
     <teiHeader>
@@ -109,7 +109,8 @@
 	<pb facs="liv_000016_0003" n="0003"/>
 <lb/><p rend="no-indent"><seg rend="black"><persName>David Livingstone</persName>
 <lb/><placeName><region>Bemba</region></placeName> <date when="1872-12"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1872</date>.</seg></p>
-<lb/><space dim="vertical" extent="3" unit="lines"/>
+<lb/>
+<lb/>
 <lb/><figure><head>Length of watershed mound</head><figDesc>Calculation.</figDesc></figure>
 <lb/><figure><head>Continent across</head><figDesc>Calculation based on coordinates "<measure><measure>12º <choice><abbr>E.</abbr><expan>East</expan></choice></measure> and <measure>40º East</measure></measure>".</figDesc></figure>
 
@@ -117,10 +118,9 @@
 
        	<body>
 			<div rend="gray">
-				<gb/>
 
 	<pb facs="liv_000016_0004" n="0004"/>
-<lb/><fw n="heading_XVI" rend="center large">XVI.</fw>
+<lb/><fw n="heading_XVI" rend="large">XVI.</fw>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><date when="1872-12-01">1<hi rend="sup">st</hi> December 1872</date>
 <lb/><placeName><geogName type="rivulet"><choice><abbr>Rt</abbr><expan>Rivulet</expan></choice> Katanta</geogName></placeName> in <placeName><region>Wemba
@@ -185,12 +185,12 @@
 <lb/>village with food</p>
 <lb/><p rend="no-indent"><date when="1872-12-03">3 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date> <choice><sic>on</sic><corr>On</corr></choice> <placeName><geogName type="rivulet">Lampussi</geogName></placeName>
 <lb/><seg type="weather">Noon <figure><figDesc>Group of 3 numbers linked together by curly bracket under temperature 92º and "x 3.18".</figDesc></figure></seg> <choice><abbr>No</abbr><expan>Number</expan></choice> 3
-<lb/><space extent="10" unit="chars"/>incurably
-<lb/><space extent="10" unit="chars"/>injured by
+<lb/><space extent="3" unit="words"/><space extent="1" unit="chars"/>incurably
+<lb/><space extent="3" unit="words"/><space extent="1" unit="chars"/>injured by
 <lb/><add place="above">x 3.18</add> <term type="occupation">carrier</term> sliding on
 <lb/>clayey path &amp; falling</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><seg type="weather">3 PM <figure><figDesc>Group of 3 numbers linked together by curly bracket under temperature 86º.</figDesc></figure></seg></p>
+<lb/><figure><head>3 PM</head><figDesc>Group of 3 numbers linked together by curly bracket under temperature 86º.</figDesc></figure>
 
 	<pb facs="liv_000016_0007" n="0007"/>
 <lb/><milestone unit="section" rend="line"/>
@@ -240,7 +240,7 @@
 	<pb facs="liv_000016_0009" n="0009"/>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><placeName><settlement type="village"><placeName><geogName type="river">Sintila</geogName></placeName> village</settlement></placeName> &amp; <choice><abbr>Rr</abbr><expan>River</expan></choice></p>
-<lb/><p><date when="1872-12-06">6<hi rend="sup double-underline">th</hi></date> <choice><sic>across</sic><corr>Across</corr></choice> <placeName><geogName type="rivulet">Malunda</geogName></placeName> or
+<lb/><p rend="no-indent"><date when="1872-12-06">6<hi rend="sup double-underline">th</hi></date> <choice><sic>across</sic><corr>Across</corr></choice> <placeName><geogName type="rivulet">Malunda</geogName></placeName> or
 <lb/><placeName><geogName type="rivulet">Lampussi</geogName></placeName> again &amp; up to
 <lb/>a mountain along
 <lb/>which we went = a long
@@ -253,7 +253,7 @@
 <lb/>&amp; four sick can go
 <lb/>to get food</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><date when="1872-12-07">7<hi rend="sup double-underline">th</hi></date> <choice><sic>off</sic><corr>Off</corr></choice> at 6 - 15 - a
+<lb/><p rend="no-indent"><date when="1872-12-07">7<hi rend="sup double-underline">th</hi></date> <choice><sic>off</sic><corr>Off</corr></choice> at 6 - 15 - <space extent="3" unit="chars"/>a
 <lb/><term type="animal">leopard</term> came into our
 <lb/>camp about 1 AM &amp;
 <lb/>bit a woman - she
@@ -320,12 +320,13 @@
 <lb/>1 - 2 <choice><abbr>SW</abbr><expan>South-West</expan></choice> silent <space extent="2" unit="chars"/><measure>2.31</measure>
 <lb/>3 - 4 PM <choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice> <space extent="5" unit="chars"/><measure>1 <space extent="2" unit="chars"/>.4</measure>
 <lb/>By night silent <space extent="5" unit="chars"/>.14</seg></p>
+<lb/><gap extent="8" unit="lines" agent="cutoff-page"/>
 <!-- on closer examination this may not be a line after all - looks more like the end of a cut-off page superimposed on another page thus obscuring some of the following paragraph AM -->
 <!-- solved on 20/7/2015 by AW - remaining text need not be transcribed here as it belongs to page 13 AM --><!-- I have removed the original milestone coding to reflect it being end of page. HB -->
 
 	<pb facs="liv_000016_0012" n="0012"/>
-
 <!-- as previous page this is a cut-off page on top of another full page, so top portion need not be transcribed here  - see AW's email of 20/7/2015 AM -->
+<lb/><gap extent="8" unit="lines" agent="cutoff-page"/>
 <lb/><p rend="no-indent">intelligent pleasant young
 <lb/>man who has been
 <lb/>attacked several times by
@@ -382,7 +383,7 @@
 <lb break="no"/>-ed</w> village to another =
 <lb/>very many = chiefly
 <lb/>West <space extent="6" unit="chars"/><measure><hi rend="double-underline">5</hi> hours</measure>
-<lb/><seg type="weather">3 PM <figure><figDesc>Group of 3 numbers linked together by curly bracket under temperature 86º and "clouded over".</figDesc></figure></seg></p>
+<lb/><figure><head>3 PM</head><figDesc>Group of 3 numbers linked together by curly bracket under temperature 86º and "clouded over".</figDesc></figure></p>
 <lb/><milestone unit="section" rend="double-line"/>
 <lb/><p><date when="1872-12-11">11<hi rend="sup double-underline">th</hi></date> Being far from its
 <lb/>water we went <measure>2 hours</measure>
@@ -470,7 +471,6 @@
 <lb/>crossed <placeName><geogName type="river">Lupere</geogName></placeName>
 <lb/>midway - goes into
 <lb/><placeName><geogName type="river">Mokobwe</geogName></placeName> - --</p>
-<lb/><space dim="vertical" unit="lines" extent="5"/>
 
 	<pb facs="liv_000016_0018" n="0018"/>
 <lb/><p rend="no-indent"><date when="1872-12-15">15 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1872</date> <choice><sic>country</sic><corr>Country</corr></choice> level
@@ -511,7 +511,7 @@
 <lb/>and now retail it in
 <lb/>the way back.</p>
 <lb/><p rend="no-indent">Noon <placeName><settlement type="village"><choice><sic><persName>Kasiane</persName>s</sic><corr><persName>Kasiane</persName>'s</corr></choice> villages</settlement></placeName>
-<lb/><seg type="weather"><figure><figDesc>Group of 3 numbers linked together by curly bracket under temperature 78º and "cloudy".</figDesc></figure></seg> <space extent="2" unit="chars"/>near Rivulets
+<lb/><seg type="weather"><figure><figDesc>Group of 3 numbers linked together by curly bracket under temperature 78º and "cloudy".</figDesc></figure></seg> <space extent="3" unit="chars"/>near Rivulets
 <lb/><space extent="10" unit="chars"/><placeName><geogName type="rivulet">Lopanza</geogName></placeName> &amp;
 <lb/><space extent="10" unit="chars"/><placeName><geogName type="rivulet">Lolela</geogName></placeName></p>
 <lb/><p rend="no-indent">The <term type="occupation">headman</term> a relative of
@@ -538,7 +538,7 @@
 <lb/>flat pollarded forest until
 <lb/>we reached <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Kalungwesi</geogName></placeName>
 <lb/>course South <space extent="6" unit="chars"/><hi rend="double-underline"><measure>4<choice><orig>¾</orig><reg>3/4</reg></choice></measure></hi></p>
-<lb/><p>We are on <choice><sic><placeName><geogName type="river">Kalungwesi</geogName></placeName>s</sic><corr><placeName><geogName type="river"><choice><orig>Kalungwesi</orig><reg>Kalongwesi</reg></choice></geogName></placeName>'s</corr></choice>
+<lb/><p rend="no-indent">We are on <choice><sic><placeName><geogName type="river">Kalungwesi</geogName></placeName>s</sic><corr><placeName><geogName type="river"><choice><orig>Kalungwesi</orig><reg>Kalongwesi</reg></choice></geogName></placeName>'s</corr></choice>
 <lb/>right bank and about
 <lb/><subst><del>2</del><add place="over-text"><choice><orig>¼</orig><reg>1/4</reg></choice></add></subst> <subst><del>North</del><add place="over-text">East</add></subst> of the <placeName><geogName type="confluence">confluence
 <lb/>of the <placeName><geogName type="river"><w>Lue<subst><del>nga</del><add place="over-text">na</add></subst></w></geogName></placeName></geogName></placeName> <add place="above">or <placeName><geogName type="river">Kisaka</geogName></placeName></add> = this
@@ -552,9 +552,9 @@
 <lb/>away <choice><abbr>NW</abbr><expan>North-West</expan></choice>.</p>
 <lb/><p><placeName><region>Kisinga</region></placeName> on this &amp; on
 <lb/>other side to <placeName>Kabanda</placeName>
-<lb/><seg type="weather">3 PM clouded over after 
-<lb/><figure><figDesc>Group of 3 numbers linked together by curly bracket under temperature 73º.</figDesc></figure> heavy rain
-<lb/><space extent="10" unit="chars"/> <metamark/><figure><head>7 AM</head><figDesc>Group of 3 numbers linked together by curly bracket under temperature 69º.</figDesc></figure><!-- this figure is separated off by a top horizontal line and a vertical line at the left AM --></seg></p>
+<lb/><figure><head>3 PM</head><figDesc>Group of 3 numbers linked together by curly bracket under temperature 73º.</figDesc></figure> <seg type="weather">clouded over after 
+<lb/><space extent="1" unit="words"/><space extent="3" unit="chars"/>heavy rain
+<lb/><space extent="1" unit="words"/><space extent="3" unit="chars"/><metamark/><figure><head>7 AM</head><figDesc>Group of 3 numbers linked together by curly bracket under temperature 69º.</figDesc></figure><!-- this figure is separated off by a top horizontal line and a vertical line at the left AM --></seg></p>
 
 	<pb facs="liv_000016_0021" n="0021"/>
 <lb/><p><term type="animal">Donkey</term> sends a foot
@@ -3604,7 +3604,7 @@
 			</div>
 
 			<div rend="upside-down gray">
-<lb/><figure><head><foreign xml:lang="und"><term type="animal">Lopatakwao</term></foreign></head><head><foreign xml:lang="und"><term type="animal">Polwe</term></foreign></head><figDesc>Drawing of <term type="animal">fish</term>.</figDesc></figure><!-- Both names are types of fish according to Last Journals AM -->
+<lb/><figure><head><foreign xml:lang="und"><term type="animal">Lopatakwao</term></foreign>. <foreign xml:lang="und"><term type="animal">Polwe</term></foreign></head><figDesc>Drawing of <term type="animal">fish</term>.</figDesc></figure><!-- Both names are types of fish according to Last Journals AM -->
 
 	<pb facs="liv_000016_0145" n="0145"/>
 <lb/><p><seg rend="black"><placeName><settlement type="city">Simbamwene</settlement></placeName> <measure><subst><del>5</del><add place="over-text">4</add></subst>
@@ -3954,7 +3954,7 @@
 <lb/>Renown is not the child
 <lb/>of indolent repose</quote>" <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></p>
 <lb/><milestone unit="section" rend="line brown"/>
-<lb/><addSpan spanTo="#add-1" rend="right"/><p>James Thomson (1700-1748) <lb/>Castle of Indolence</p><anchor xml:id="add-1"/> <figure/><list rend="left"><item>Red<!-- diagonal line linking item to other items in this list AM--></item> <!-- to the right of the item appears "James Thomson (1700-1748) Castle of Indolence" which I think is the source of the above quotes rather than part of the list AM -->
+<lb/><addSpan spanTo="#add-1"/><p>James Thomson (1700-1748) <lb/>Castle of Indolence</p><anchor xml:id="add-1"/> <figure/><list rend="left"><item>Red<!-- diagonal line linking item to other items in this list AM--></item> <!-- to the right of the item appears "James Thomson (1700-1748) Castle of Indolence" which I think is the source of the above quotes rather than part of the list AM -->
 <lb/><item>Orange<!-- diagonal line linking item to other items in this list AM--></item>
 <lb/><item>Yellow<!-- diagonal line linking item to other items in this list AM--> White</item>
 <lb/><item>Green<!-- diagonal line linking item to other items in this list AM--></item></list><!-- continues to top of p.158 AM -->
@@ -4417,7 +4417,7 @@
 <lb/><placeName>Uchéwa</placeName> place
 <lb/><choice><abbr>L.</abbr><expan>Lokeleñañga</expan></choice> came from <placeName><region>West</region></placeName> on a
 <lb/>mat across <placeName><geogName type="river">Lualaba</geogName></placeName></p>
-<lb/><p rend="right"><date when="1873-04-01">1<hi rend="sup">st</hi> April 1873</date>
+<lb/><p rend="no-indent"><date when="1873-04-01">1<hi rend="sup">st</hi> April 1873</date>
 <lb/>A small snatch of <term type="tribe">Bisa</term>
 <lb/>ancient lore - they say
 <lb/><placeName>Uchéwa</placeName> is <placeName><region><choice><abbr>SE</abbr><expan>South-East</expan></choice></region></placeName> of this</p>  
