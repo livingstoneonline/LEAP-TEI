@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001342"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to John Kirk 2</title>
+                <title type="alternative">Letter to John Kirk 2, 21 July 1858</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="BL">
+                    <name>Blaze Livingston</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_001342</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Washington, D.C.</settlement>
+                        <repository>Smithsonian Institution. Libraries. Joseph F. Cullman 3rd Library of natural History</repository>
+                        <idno type="shelfmark">M081</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0811</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to John Kirk 2, 21 July 1858</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-07-21">21 July 1858</date>
+                    <placeName type="compositionPlace">Off Shupanga</placeName>
+                    <persName type="addressee">John Kirk 2</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-12-02" who="#BL">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001342_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><date when="1858-07-21">21<hi rend="sup">st</hi>July 1858</date>
+<lb/><add place="inline" rend="red" hand="#U">13</add><space extent="3" unit="chars"/>Off <placeName><geogName type="settlement">Shupanga</geogName></placeName>
+</dateline></opener>
+<lb/><salute>My Dear <persName><choice><abbr>D<hi rend="sup underline">r</hi></abbr><expan>Doctor</expan></choice> Kirk</persName> &amp;</salute>
+<lb/><p>We came to <placeName><unclear>Margaro</unclear></placeName>
+<lb/>this morning about 9 <choice><orig>½</orig><reg>1/2</reg></choice> and
+<lb/>on going ashore among
+<lb/>a crowd of <orgName>natives</orgName> &amp;
+<lb/><term type="nationality">Portuguese</term> was sickened
+<lb/>by the sight of headless
+<lb/>mutilated bodies lying
+<lb/>about - the <term type="occupation">Governor</term><!-- not sure if another tag is more appropriate. BL. -->
+<lb/>having fever the <term type="occupation">officers</term>
+<lb/>begged me to take
+<lb/>him on to <placeName><geogName type="settlement">Shupanga</geogName></placeName>
+<lb/>I consented and while</p>
+
+	<cb rend="vertical"/>
+<lb/><closer>My kindest salutations to you all
+<lb/><signed>David Livingston</signed></closer><!-- No direct continuation, but acts as closer. BL. -->
+			</div>
+				
+			<div>
+
+	<pb facs="liv_001342_0002" n="0002"/>
+<p><lb/>waiting for him the firing
+<lb/>began a short distance
+<lb/>off - Everything was in
+<lb/>confusion and the  <w>com-
+<lb break="no"/>-mandant</w> of <placeName><geogName type="settlement">Tete</geogName></placeName> &amp; <persName>M<hi rend="sup underline">r</hi>
+<lb/><unclear>Arzereto</unclear></persName> &amp; <persName>Colonel <unclear>Sunes</unclear></persName>
+<lb/>all told me that the
+<lb/>man at <placeName><geogName type="settlement">Shupanga</geogName></placeName> was
+<lb/>a thief and would
+<lb/>connive at the <placeName><unclear>Landeras</unclear></placeName>
+<lb/>robbing us of the goods
+<lb/>we intended to leave
+<lb/>it seems therefore decidedly
+<lb/>necessary for us to
+<lb/>go on to <placeName><unclear>Jenna</unclear></placeName> - it would
+<lb/>be throwing them away
+<lb/>here - We shall be there
+
+	<pb facs="liv_001342_0003" n="0003"/>
+<lb/>days <add place="above">to</add> that place now that
+<lb/>we know the way
+<lb/>My Dear friends you
+<lb/>must excercise patience
+<lb/>I would <unclear>service</unclear> at
+<lb/>the island <unclear>simpely</unclear> but
+<lb/>feel my presence necessary
+<lb/>where either <orgName>natives</orgName>
+<lb/>or <term type="nationality">Portuguese</term> come to
+<lb/>us to make our objects
+<lb/>understood - If you
+<lb/>see any plan by
+<lb/>which we might hasten
+<lb/>our departure from
+<lb/>the island let me know
+<lb/>where I come down
+
+	<pb facs="liv_001342_0004" n="0004"/>
+<lb/>I still think the <term type="nationality">Portuguese</term>
+<lb/>may help us but war
+<lb/>engrosses every thought
+<lb/>I go ashore here to try
+<lb/>&amp; get some <unclear>fowls feat</unclear>
+<lb/>down to you. Examine
+<lb/>all the things and
+<lb/>use by all necessary
+<lb/>thing you like. I forgot
+<lb/>to say before leaving
+<lb/>that you ought to make
+<lb/>fresh bread for yourselves
+<lb/>the <term type="foodstuff">flour</term> is under my
+<lb/>boxes. God bless &amp;
+<lb/>preserve you all. <persName>Baines</persName>
+<lb/>is quite well now. May I
+<lb/>suggest a short morning prayer
+<lb/>again. We have been unable
+<lb/>to attend to this for some time past
+</p>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
