@@ -426,12 +426,16 @@
 
 <!-- Begin proof-of-concept for J. Livingstone -->
 
-	<xsl:template match="del[@rend='red']">
-		<span style='color:#B33B24;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
+	<xsl:template match="del[@rend='black']"><!-- text = gray -->
+		<span style='color:black;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
 	</xsl:template>
 
 	<xsl:template match="del[@rend='gray']">
 		<span style='color:gray;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="del[@rend='red']">
+		<span style='color:#B33B24;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
 	</xsl:template>
 
 	<xsl:template match="add[@rend='red']/del[@hand='#DL']">
