@@ -149,8 +149,6 @@
     </teiHeader>
 
     <text>
-			    
-<gb/>
 
     <!-- hb, mw, hb -->
 
@@ -1502,7 +1500,7 @@
 <lb/>grass tall - no animals
 <lb/>of any kind seen or even
 <lb/>their marks =</p>
-<lb/><figure rend="black gray"><head rend="right"><date when="1866-08-03">3 August <lb/>1866</date> <lb/><placeName><settlement type="village">Mbanga</settlement></placeName></head><figDesc>Calculations.</figDesc></figure>
+<lb/><figure rend="black gray"><head><date when="1866-08-03">3 August <lb/>1866</date> <lb/><placeName><settlement type="village">Mbanga</settlement></placeName></head><figDesc>Calculations.</figDesc></figure>
 
 	<pb facs="liv_000004_0061" n="0061"/>
 <lb/><p><date when="1866-08-03">3<hi rend="sup">d</hi> August 1866</date> -</p>
@@ -1821,9 +1819,9 @@
 <lb/>to <seg type="weather">wind in the <placeName><region><choice><abbr>S.W.</abbr><expan>South-West</expan></choice></region></placeName></seg> -</p>
 <lb/><list>
 <lb/><item><placeName><region>North</region></placeName></item> <item>is <hi rend="underline blue"><placeName><settlement type="village"><w><subst><del/><add place="over-text">M</add></subst>photo</w></settlement></placeName></hi> <!-- the "other" in the <hi> is to denote blue underlining, as I think if I put "blue" here it will make the text blue as well - AM --><!-- That's a tough one. I've put "blue" in <hi>. Another option is to treat the underline as a metamark and rend that blue. AW --> </item>
-<lb/><item><placeName><region>South</region></placeName></item><item> - <subst><del type="strikethrough"><placeName><settlement type="village">Komero</settlement></placeName></del><add place="above" rend="blue underline"><app><rdg>Moeli</rdg><rdg>Moelo</rdg></app></add></subst></item>
-<lb/><item><placeName><region>West</region></placeName></item><item> <add rend="blue underline"><placeName><settlement type="village">Molsamba</settlement></placeName></add></item>
-<lb/><item><placeName><region>East</region></placeName></item><item> <add rend="blue underline"><placeName><settlement type="village">Phuma</settlement></placeName></add></item></list>
+<lb/><item><placeName><region>South</region></placeName></item><item> - <subst><del type="strikethrough"><placeName><settlement type="village">Komero</settlement></placeName></del><add place="above" rend="blue"><hi rend="underline"><app><rdg>Moeli</rdg><rdg>Moelo</rdg></app></hi></add></subst></item>
+<lb/><item><placeName><region>West</region></placeName></item><item> <add rend="blue"><hi rend="underline"><placeName><settlement type="village">Molsamba</settlement></placeName></hi></add></item>
+<lb/><item><placeName><region>East</region></placeName></item><item> <add rend="blue"><hi rend="underline"><placeName><settlement type="village">Phuma</settlement></placeName></hi></add></item></list>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent"><date when="1866-08-15">15<hi rend="sup underline">th</hi></date> sent <persName>Musa</persName> to see
 <lb/>what detained the dhow -
@@ -2226,7 +2224,7 @@
 <lb/>lightest load of the party -</p>
 	</div>
 			    
-<!--This page is rendered upside down. -Ashanka--><!-- Ashanka, see how I have coded. HB --><!-- Should actually be <gb/>. See previous diaries. AW -->
+<!--This page is rendered upside down. -Ashanka--><!-- Ashanka, see how I have coded. HB --><!-- Should actually be <gb/>. See previous diaries. AW --><!-- Not using <gb/> anymore. AW -->
 
 	<div rend="upside-down gray">
 	<pb facs="liv_000004_0091" n="0091"/>
@@ -2361,7 +2359,7 @@ Also includes the follwing note: "<placeName><geogName>Limila</geogName></placeN
     <!-- aa, hb, hb -->
                 
 	<!-- Adrian, changed the gb/ to div for the rest of this section- is that correct? HB -->
-	<!-- One <gb/> for the entire upside down section is enough. See above. AW -->
+	<!-- One <gb/> for the entire upside down section is enough. See above. AW --><!-- Not using <gb/> anymore. AW -->
 
 	<pb facs="liv_000004_0096" n="0096"/>
 <lb/><figure><head>Imitation basket work <lb/>on rims of pots</head><figDesc>Drawings of basket work that continues to the following page.</figDesc></figure>
@@ -2499,7 +2497,7 @@ Also includes the follwing note: "<placeName><geogName>Limila</geogName></placeN
 <lb break="no"/>tempt</w> only</p>
 	
 	<pb facs="liv_000004_0103" n="0103"/>	
-<!--What is the code for switching back to normal after the rest of the pages were upside down? -AA --> <!-- I believe you would just end that div and begin a new one, but Adrian correct me if I'm wrong. Also, I don't believe the orientation rights itself for the rest of the diary, so this would be a moot point here. HB --><!-- You would just use a new <gb/> tag. The default is right side up. AW -->
+<!--What is the code for switching back to normal after the rest of the pages were upside down? -AA --> <!-- I believe you would just end that div and begin a new one, but Adrian correct me if I'm wrong. Also, I don't believe the orientation rights itself for the rest of the diary, so this would be a moot point here. HB --><!-- You would just use a new <gb/> tag. The default is right side up. AW --><!-- No longer using <gb/>. AW -->
 <lb/><p><placeName><settlement type="village">Lozéwa</settlement></placeName> <persName>Jumbe</persName>'s place</p> 
 <!-- Adrian, I am trying to tag this line as a <head>, but it's not letting me- how do I do correctly? HB --><!-- Looks like <label> is our best bet. AW -->
 <lb/><milestone unit="section" rend="line"/>

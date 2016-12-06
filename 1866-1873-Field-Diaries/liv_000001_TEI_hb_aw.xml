@@ -88,6 +88,8 @@
                         <handDesc>
                             <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
                                 but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="JMcN"><label>Rev James McNair</label> This hand is that 
+                                of the founder of the David Livingstone Centre, Blantyre, Scotland.</handNote>
                         </handDesc>
                     </physDesc>
                 </msDesc>
@@ -158,9 +160,6 @@
 
 	<!-- aw, mw, aw -->
 
-	<gb/>
-<!-- Heather, note the addition of the <gb/> and, of course, later when the text goes upside-down. I hope this makes sense. Each of these is a gathering, so both should be marked. AW -->
-
 		<front rend="blue">
 <!-- Adrian, not sure how to include a front div tag correctly here (keeps saying error no matter what I change/move) Should I be swapping out the 'body' above for 'front' then start 'body' after this page?. HB 2014-05-27 -->
 <!-- Yes, I changed <div> to <front>. Note that <front> is a "sibling" of <body> so either <body> or <front> (or <back> for that matter). You can't have <front> inside <body> so that's why it wasn't accepting it. See how I've done it too once the text proper starts at 0004. AW -->
@@ -171,7 +170,7 @@
     <pb facs="liv_000001_0002" n="0002"/> 
 			            
     <pb facs="liv_000001_0003" n="0003"/> 
-<lb/><p rend="no-indent"><add place="inline" hand="#U">This contains a rough 
+<lb/><addSpan spanTo="#fd1" hand="#JMcN"/><p rend="no-indent"><add place="inline" hand="#U">This contains a rough 
 <lb/>diary of <persName>Livingstone</persName>'s voyage
 <lb/>to <placeName><settlement type="city">Bombay</settlement></placeName> from <placeName><settlement type="city">Marseilles</settlement></placeName>
 <lb/>in <date when="1865">1865</date>, his stay in <placeName><settlement type="city">Bombay</settlement></placeName>,
@@ -189,7 +188,7 @@
 <lb break="no"/>uary</w> 1866</date> as written
 <lb/>at Sea, whereas <bibl><persName>Waller</persName></bibl>
 <lb/>gives it under date
-<lb/><date when="1866-03-26">March 26<hi rend="sup">th</hi></date></add></p>
+<lb/><date when="1866-03-26">March 26<hi rend="sup">th</hi></date></add></p><anchor xml:id="fd1"/>
 		</front>
 		
 		<body>

@@ -92,6 +92,8 @@
                     </msIdentifier>
                     <physDesc>
                         <handDesc>
+                            <handNote xml:id="JMcN"><label>Rev James McNair</label> This hand is that 
+                                of the founder of the David Livingstone Centre, Blantyre, Scotland.</handNote>
                             <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
                                 but thought not David Livingstone's.</handNote>
                         </handDesc>
@@ -151,8 +153,6 @@
 
     <text>
 
-	<gb/>
-
         <!-- hb, mw, aw -->
 
     <front rend="gray"><!-- Heather, note how this initial section is set off with <front> while the next has <body><div> -->			
@@ -163,7 +163,7 @@
     <pb facs="liv_000002_0002" n="0002"/>
 
     <pb facs="liv_000002_0003" n="0003"/>
-<lb/><p><add hand="#U" place="inline">Rough notes which
+<lb/><addSpan spanTo="#fd2" hand="#JMcN"/><p><add hand="#U" place="inline">Rough notes which
 <lb/>are the basis of the
 <lb/>entries in the '<bibl>Last
 <lb/>Journals</bibl>' There is
@@ -177,7 +177,7 @@
 <lb/>not of any great
 <lb/>importance. These have
 <lb/>been pencilled where
-<lb/>noticed.</add></p>
+<lb/>noticed.</add></p><anchor xml:id="fd2"/>
 		</front>
 		
     <body>			
@@ -675,7 +675,7 @@
     
 	<pb facs="liv_000002_0025" n="0025"/>
 <lb/>tough</p>
-<lb/><p rend="no-indent">Another <figure rend="right"><figDesc>Drawing of two thorny branches.</figDesc></figure>
+<lb/><p rend="no-indent">Another <figure><figDesc>Drawing of two thorny branches.</figDesc></figure>
 <lb/>The woods are still - few
 <lb/>new <term type="animal">birds</term> appear - this
 <lb/>is probably owing to the 
