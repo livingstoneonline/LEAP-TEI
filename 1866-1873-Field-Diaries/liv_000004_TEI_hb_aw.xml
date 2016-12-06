@@ -112,6 +112,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<!-- Online Display -->
+			<change when="2016-12-06" who="#AW">Editing for online display</change>
             <!-- Final Proofing -->
 			<change when="2015-12-15" who="#HB">Final corrections/TEI incorporations</change>
 			<change when="2015-01-09" who="#AW">Additional corrections</change>
@@ -1818,10 +1820,10 @@
 <lb/><term type="occupation">headman</term> without hesitation
 <lb/>to <seg type="weather">wind in the <placeName><region><choice><abbr>S.W.</abbr><expan>South-West</expan></choice></region></placeName></seg> -</p>
 <lb/><list>
-<lb/><label><placeName><region>North</region></placeName></label><item>is <hi rend="underline blue"><placeName><settlement type="village"><w><subst><del/><add place="over-text">M</add></subst>photo</w></settlement></placeName></hi> <!-- the "other" in the <hi> is to denote blue underlining, as I think if I put "blue" here it will make the text blue as well - AM --><!-- That's a tough one. I've put "blue" in <hi>. Another option is to treat the underline as a metamark and rend that blue. AW --> </item>
-<lb/><label><placeName><region>South</region></placeName></label><item> - <subst><del type="strikethrough"><placeName><settlement type="village">Komero</settlement></placeName></del><add place="above" rend="blue underline"><app><rdg>Moeli</rdg><rdg>Moelo</rdg></app></add></subst></item>
-<lb/><label><placeName><region>West</region></placeName></label><item> <add rend="blue underline"><placeName><settlement type="village">Molsamba</settlement></placeName></add></item>
-<lb/><label><placeName><region>East</region></placeName></label><item> <add rend="blue underline"><placeName><settlement type="village">Phuma</settlement></placeName></add></item></list>
+<lb/><item><placeName><region>North</region></placeName></item> <item>is <hi rend="underline blue"><placeName><settlement type="village"><w><subst><del/><add place="over-text">M</add></subst>photo</w></settlement></placeName></hi> <!-- the "other" in the <hi> is to denote blue underlining, as I think if I put "blue" here it will make the text blue as well - AM --><!-- That's a tough one. I've put "blue" in <hi>. Another option is to treat the underline as a metamark and rend that blue. AW --> </item>
+<lb/><item><placeName><region>South</region></placeName></item><item> - <subst><del type="strikethrough"><placeName><settlement type="village">Komero</settlement></placeName></del><add place="above" rend="blue underline"><app><rdg>Moeli</rdg><rdg>Moelo</rdg></app></add></subst></item>
+<lb/><item><placeName><region>West</region></placeName></item><item> <add rend="blue underline"><placeName><settlement type="village">Molsamba</settlement></placeName></add></item>
+<lb/><item><placeName><region>East</region></placeName></item><item> <add rend="blue underline"><placeName><settlement type="village">Phuma</settlement></placeName></add></item></list>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent"><date when="1866-08-15">15<hi rend="sup underline">th</hi></date> sent <persName>Musa</persName> to see
 <lb/>what detained the dhow -
@@ -1857,10 +1859,10 @@
 
 	<pb facs="liv_000004_0076" n="0076"/>
 <!--<lb/><p rend="no-indent">* <measure>69° 33' 40"</measure> <unclear>α anstr</unclear>
-<lb rend="right"/>angle
+<lb/>angle
 <lb/>gives <measure>13° 32' 39</measure>
 <lb/><space extent="2" unit="chars"/><measure>69 20</measure> passed a litte
-<lb rend="right"/><placeName><geogName type="river">Loangwa</geogName></placeName></p>-->
+<lb/><placeName><geogName type="river">Loangwa</geogName></placeName></p>-->
 
 <lb/><figure><head><placeName><geogName type="river">Loangwa</geogName></placeName></head><figDesc>Calculations</figDesc></figure>
 
@@ -1990,7 +1992,7 @@
 <lb/><placeName><settlement type="village">Losewa</settlement></placeName> - <metamark/>We could get <!-- Livingstone has drawn two small sets of vertical lines in the middle of the text. HB -->
 <lb/>no sleep for the minute
 <lb/><term type="insect">ant</term>'s capers &amp; chirruping
-<lb/><figure><head>α Draconis <lb/><date when="1866-08-23"><hi rend="blue right">23 <choice><abbr>Aug.</abbr><expan>August</expan></choice> <lb/><placeName><geogName type="river">Loangwa</geogName></placeName></hi> <lb/><hi rend="gray">1866</hi></date></head><figDesc>Calculations.</figDesc></figure></p> <!--I'm not sure how to transcribe the rest of this page. Dr. Wisnicki, could you take a look at this? - Ashanka --><!-- Ashanka, see how I've done- Adrian, can you just double-check? HB --><!-- Looks good. AW -->
+<lb/><figure><head>α Draconis <lb/><date when="1866-08-23"><hi rend="blue">23 <choice><abbr>Aug.</abbr><expan>August</expan></choice> <lb/><placeName><geogName type="river">Loangwa</geogName></placeName></hi> <lb/><hi rend="gray">1866</hi></date></head><figDesc>Calculations.</figDesc></figure></p> <!--I'm not sure how to transcribe the rest of this page. Dr. Wisnicki, could you take a look at this? - Ashanka --><!-- Ashanka, see how I've done- Adrian, can you just double-check? HB --><!-- Looks good. AW -->
 
 	<pb facs="liv_000004_0081" n="0081"/>
 <lb/><p rend="no-indent"><date when="1866-08-23">23<hi rend="sup">d</hi></date> Removal to <choice><abbr>S</abbr><expan>South</expan></choice> side

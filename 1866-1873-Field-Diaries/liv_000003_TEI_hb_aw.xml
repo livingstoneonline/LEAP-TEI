@@ -119,6 +119,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<!-- Online Display -->
+			<change when="2016-12-06" who="#AW">Editing for online display</change>
             <!-- Final Proofing -->
 			<change when="2015-12-15" who="#HB">Final corrections/TEI incorporations</change>
 			<change when="2014-11-23" who="#AW">Further corrections</change>
@@ -170,9 +172,9 @@
 
 	<pb facs="liv_000003_0003" n="0003"/>
 <lb/><p rend="center"><fw n="heading_III"><space extent="1" unit="words"/><choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> III</fw>
-<lb rend="center"/><date when="1866-05-14">14 May</date> to <date when="1866-07-01">1<hi rend="sup underline">st</hi> July
-<lb rend="center"/><space extent="1" unit="words"/>1866</date>
-<lb rend="center"/><persName>David Livingstone</persName></p>
+<lb/><date when="1866-05-14">14 May</date> to <date when="1866-07-01">1<hi rend="sup underline">st</hi> July
+<lb/><space extent="1" unit="words"/>1866</date>
+<lb/><persName>David Livingstone</persName></p>
 	</front>
 	
        	<body>
@@ -1208,7 +1210,7 @@
 <lb/><milestone unit="section" rend="half-line"/>
 <lb/><row><cell rend="left">11</cell><cell rend="center">18</cell><cell rend="right">18</cell></row></table>-->
 
-<lb/><figure><head><hi rend="right"><choice><abbr>Lat</abbr><expan>Latitude</expan></choice> of</hi> <lb/><placeName><geogName type="hill">Hill Ngozo</geogName></placeName> by α Crucis <lb/>on evening of <date when="1866-06-10">10<hi rend="sup underline">th</hi> June <add place="below">1866</add></date> <lb/><placeName><settlement type="village"><unclear cert="medium">Kitwanga</unclear></settlement></placeName></head><figDesc>Geographical calculation.</figDesc></figure>
+<lb/><figure><head><choice><abbr>Lat</abbr><expan>Latitude</expan></choice> of <lb/><placeName><geogName type="hill">Hill Ngozo</geogName></placeName> by α Crucis <lb/>on evening of <date when="1866-06-10">10<hi rend="sup underline">th</hi> June <add place="below">1866</add></date> <lb/><placeName><settlement type="village"><unclear cert="medium">Kitwanga</unclear></settlement></placeName></head><figDesc>Geographical calculation.</figDesc></figure>
 
 <lb/><milestone unit="section" rend="line"/>
 
@@ -1254,7 +1256,7 @@
 <lb/>peeling off &amp; <unclear cert="high">covered</unclear>
 <lb/>with light grey grassy
 <lb/>plants <unclear cert="low">Mabvin</unclear> is near
-<lb rend="center"/><placeName><settlement type="village">Ngozo</settlement></placeName></p> 
+<lb/><placeName><settlement type="village">Ngozo</settlement></placeName></p> 
             
     <pb facs="liv_000003_0055" n="0055"/>
 <lb/><p>An <orgName><orgName>Arab</orgName> <term type="occupation"><orgName>slave</orgName> trader</term></orgName> <w>ha<gap agent="blot" extent="1" unit="chars"/><supplied cert="high">s</supplied></w>
@@ -2438,7 +2440,7 @@
 <lb/>from <persName>Mtarika</persName> = south
 <lb/><persName>Chirikaloma</persName>'s <term type="occupation">chief</term> =</p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><list rend="left"><metamark/><item><persName><w>Che<del type="strikethrough">w</del>unde</w></persName></item><metamark/>
+<lb/><list><metamark/><item><persName><w>Che<del type="strikethrough">w</del>unde</w></persName></item><metamark/>
 <note place="marginright">stages from
 <lb/><placeName><settlement type="village">Chirekaloma</settlement></placeName>
 <lb/>to <placeName><settlement type="village">Mtarika</settlement></placeName>
@@ -2452,8 +2454,8 @@
 
 
 	<pb facs="liv_000003_0105" n="0105"/>
-<lb/><list><head><hi rend="underline">From</hi> <placeName><settlement type="village"><persName>Kinazombe</persName>'s</settlement></placeName> - <date when="1866-06-30">30<hi rend="sup">th</hi> <lb rend="right"/>June</date></head>
-<lb/><item><persName><choice><orig>Cherekaloma</orig><reg>Chirikaloma</reg></choice></persName></item>
+<lb/><list><head><hi rend="underline">From</hi> <placeName><settlement type="village"><persName>Kinazombe</persName>'s</settlement></placeName> - <date when="1866-06-20">20<hi rend="sup">th</hi></date> </head>
+<lb/><item><persName><choice><orig>Cherekaloma</orig><reg>Chirikaloma</reg></choice></persName></item> <space extent="1" unit="words"/><item><date when="1866-06-20">June</date></item>
 <lb/><item><persName>Namabo</persName></item>
 <lb/><item><persName><choice><orig>Chinjawala</orig><reg>Chenjewala</reg></choice></persName></item>
 <lb/><item><persName>Kinamotusi</persName></item>
@@ -2467,9 +2469,8 @@
 <lb/><item><persName>Mataka</persName></item></list>
 <lb/><milestone unit="section" rend="double-line"/>
 <lb/><list><head><persName>Chirikaloma</persName>'s account
-<lb/>of North end of Lake journey <!-- Adrian, we're no longer using geogFeat in any sense, correct? If not, I will remove these tags. HB --><!-- Removed. AW --><!-- Which lake is this? Should be geog: Lake etc. AW -->
-<lb/>of <placeName><settlement type="village">Kandulo</settlement></placeName>
-<lb rend="right"/><date when="1866-06-22">22 June</date></head>
+<lb/><add place="marginleft">of</add> North end of Lake journey <!-- Adrian, we're no longer using geogFeat in any sense, correct? If not, I will remove these tags. HB --><!-- Removed. AW --><!-- Which lake is this? Should be geog: Lake etc. AW -->
+<lb/><placeName><settlement type="village">Kandulo</settlement></placeName> <space extent="3" unit="words"/><date when="1866-06-22">22 June</date></head>
 <lb/><item><placeName><geogName type="river">Zandulo</geogName></placeName> <choice><abbr>R</abbr><expan>River</expan></choice> from <choice><abbr>S</abbr><expan>South</expan></choice></item>
 <lb/><item><placeName><geogName type="river">Zanjezi</geogName></placeName> <choice><abbr>R</abbr><expan>River</expan></choice> <choice><abbr>Do</abbr><expan>Ditto</expan></choice></item>
 <lb/><item><placeName><geogName type="river">Lochiringo</geogName></placeName> <space extent="1" unit="chars"/><choice><abbr>R.</abbr><expan>River</expan></choice> <placeName>Makanjela</placeName></item>
@@ -2558,7 +2559,7 @@
 <lb/>some <term type="plant_foodstuff">maize</term> <unclear cert="medium"><w>bal<gap extent="2" unit="chars"/><supplied cert="medium">es</supplied></w></unclear>
 <lb/>being among them
 <lb/>go on to <placeName><settlement type="village"><persName>Mtarika</persName><supplied cert="medium">'s</supplied></settlement></placeName>
-<lb rend="right"/><measure>2 <choice><orig>½</orig><reg>1/2</reg></choice> hours</measure></p>
+<lb/><space extent="2" unit="words"/><measure>2 <choice><orig>½</orig><reg>1/2</reg></choice> hours</measure></p>
 			</div>
 		</body>
 
