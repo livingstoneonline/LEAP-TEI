@@ -391,11 +391,11 @@ p.right .linenumber{
 .div.gray .quarterline,
 .div.gray .second-line,
 .div.gray .third-line{
-	border-top:1px solid #585754;	
+	border-top:1px solid gray/*#585754*/;	
 }
 .div.brown .first-double.gray,
 .div.brown .second-line.gray{
-	border-top:1px solid #585754 !important;	
+	border-top:1px solid gray/*#585754*/ !important;	
 }
 .line.orange,
 .line.first-double.orange,
@@ -459,16 +459,16 @@ p{
 }
 .ab.center{
 }
-.head{
-}
 .note{
 	display:inline;
 }
 .note.marginleft .linenumber{
 	display:none;
 }
-.fw{
-	display:inline-block;
+.fw,
+.p .fw,
+.p.noindent .fw{
+	float:none !important;
 }
 .fw.pageno{
 	text-indent:0 !important;
@@ -479,6 +479,9 @@ p{
 }
 .fw.catch.right{
 	text-indent:0;
+}
+.fw-double-right{
+	margin-left:.5em !important;
 }
 .note.marginleft{
 	margin-left:-3.6em !important;
@@ -602,7 +605,7 @@ p{
 }
 .right{
 	text-indent:0;
-	margin-left:12em;
+	margin-left:15em;
 }
 .figure.right{
 	text-indent:0em;
@@ -610,6 +613,7 @@ p{
 }
 .fw .right{
 	margin-left:15em;
+	float:none;
 }
 .small{
 	font-size:85%;
@@ -705,7 +709,7 @@ p{
 	color:#5b4338;
 }
 .gray{
-	color:#585754/*72716d*/
+	color:gray/*585754*//*72716d*/
 }
 .green{
 	color:green;
@@ -726,7 +730,7 @@ p{
 
 /* 11. Lists and Tables */
 .list{
-	display:inline-block;
+	/*display:inline-block;*//*removed for now*/
 	/*margin-top:12px;*/
 	text-indent:0em;
 }

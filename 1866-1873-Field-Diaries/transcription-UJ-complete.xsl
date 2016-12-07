@@ -590,6 +590,18 @@
 		</span>
 	</xsl:template>
 
+	<xsl:template match="fw[@rend='right'][preceding-sibling::fw[1][child::add[contains(@rend,'right')]]]">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', 'fw-double-right')}" title="">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="p//add[contains(@rend,'right')][parent::fw[preceding-sibling::fw]]">
+			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'fw-double-right')}">
+				<xsl:apply-templates/>
+			</span>
+	</xsl:template>
+
 	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
 			<xsl:apply-templates/>
