@@ -34,9 +34,9 @@
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
 				<meta charset="UTF-8"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-UJ-html.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+				<link rel="stylesheet" type="text/css" href="style-UJ-complete.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
-					<xsl:value-of select="//teiHeader//title[1]"/>
+					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
 				<!--<link type="text/css" rel="stylesheet" href="http://jamescummings.github.io/LEAP/style.css"/>-->
 			</head>
@@ -63,7 +63,7 @@
 					<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/>
 					<hr class="title-section"/><br/>
 					<span class="authority"><strong>Date of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/date[@type='composition']"/></span><br/>
-					<span class="authority"><strong>Place of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']"/></span><br/>
+					<!--<span class="authority"><strong>Place of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']"/></span><br/>-->
 					<span class="authority"><strong>Repository:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//repository"/>, <xsl:value-of select="//teiHeader//settlement"/>, <xsl:value-of select="//teiHeader//country"/></span><br/>
 					<span class="authority"><strong>Shelfmark:</strong><xsl:text> </xsl:text> <xsl:value-of select="//teiHeader//idno[@type='shelfmark']"/></span><br/>
 					<span class="authority"><strong>Clendennen &amp; Cunningham number(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//idno[@type='ccnumber']"/></span><br/>
@@ -148,6 +148,12 @@
 	<xsl:template match="text|body|front|back">
 		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
+		</div><br/>
+	</xsl:template>
+
+	<xsl:template match="body[following-sibling::back]" priority="10">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
@@ -155,7 +161,24 @@
 		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
-		<br/>
+	</xsl:template>
+
+	<xsl:template match="div/div">
+		<br/><br/><div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:apply-templates/>
+		</div>
+	</xsl:template>
+
+	<xsl:template match="div[preceding-sibling::div][child::pb[1]]">
+		<br/><div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:apply-templates/>
+		</div>
+	</xsl:template>
+
+	<xsl:template match="div[@n='noSpace']" priority="10">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:apply-templates/>
+		</div>
 	</xsl:template>
 
 	<xsl:template match="lb">
@@ -271,14 +294,14 @@
 
 	<!-- Alphabetical list of elements. Alphabetized by last element in path *or* first element among options. -->
 
-	<xsl:template match="ab|p">
+	<xsl:template match="ab|p" priority="10">
 		<p class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
 
 	<!-- added p/cb for 1870 FD -->
-	<xsl:template match="cb/ab|p/cb" priority="10">
+	<xsl:template match="p/cb" priority="10">
 		<xsl:apply-templates/>
 	</xsl:template>
 
@@ -289,8 +312,12 @@
 			<xsl:apply-templates/></span>
 	</xsl:template>
 
-	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
+	<xsl:template match="add[@place='marginleft']" priority="10">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'addmargin')}"> [<xsl:apply-templates/>] </span>
+	</xsl:template>
+
+	<xsl:template match="add[@place='marginright']" priority="10">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'addmargin')}"> <xsl:apply-templates/> </span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='over-text']">
@@ -410,6 +437,34 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+
+<!-- Begin proof-of-concept for J. Livingstone -->
+
+	<xsl:template match="del[@rend='black']"><!-- text = gray -->
+		<span style='color:black;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="del[@rend='gray']">
+		<span style='color:gray;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="del[@rend='red']">
+		<span style='color:#B33B24;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="add[@rend='red']/del[@hand='#DL']">
+		<span style='color:black;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="hi[@rend='underline orange']" priority="10">
+		<span style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="hi[@rend='double-underline orange gray']" priority="10">
+		<span class='doubleunderline-orange' style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+<!-- End proof-of-concept for J. Livingstone -->
 
 	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
 		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
@@ -897,28 +952,52 @@
 		</xsl:element>
 	</xsl:template>
 
-<xsl:template match="idno[@type='LEAP-ID']">
+	<xsl:template match="idno[@type='LEAP-ID']">
 		<span class="idno"><xsl:apply-templates/></span>
-	</xsl:template>
-
-	<xsl:template match="list/item">
-		<span class="listitem" title="item">
-			<xsl:apply-templates/>
-		</span>
 	</xsl:template>
 
 	<!-- For "lb" see above -->
 
-	<xsl:template match="list">
-		<span class="list" title="list">
+	<xsl:template match="list|table">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="list/head">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="metamark"><span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span></xsl:template>
+	<xsl:template match="list/item|row">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
 
-	<xsl:template match="add[@place='marginleft']/metamark|add[@place='marginright']/metamark" priority="10">
-			<span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
+	<xsl:template match="cell">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:apply-templates/><xsl:text>     </xsl:text>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="cell[@rend='right'][preceding-sibling::cell[@rend='center']]" priority="10">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'cell-after-center')}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="metamark">
+		<xsl:choose>
+			<xsl:when test="@rend='red'">
+				<span class="metamark-color {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
+			</xsl:when>
+			<xsl:when test="@rend='orange'">
+				<span class="metamark-color {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
+			</xsl:when>
+			<xsl:otherwise>
+				<span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 
 	<xsl:template match="milestone">
@@ -956,6 +1035,11 @@
 	<xsl:template match="note">
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
 			>[<xsl:apply-templates/>]</span>
+	</xsl:template>
+
+	<xsl:template match="note[@place='marginright']">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
+			><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">
@@ -1014,7 +1098,25 @@
 	</xsl:template>
 
 	<xsl:template match="pb">
+		<br/><span class="pb-title">
+			<xsl:value-of select="@n"/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="pb[1][parent::back]" priority="10">
 		<span class="pb-title">
+			<xsl:value-of select="@n"/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="pb[preceding-sibling::p[0]]|p/pb" priority="10">
+		<br/><br/><span class="pb-title-notop">
+			<xsl:value-of select="@n"/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="pb[preceding-sibling::ab[0]]" priority="9">
+		<span class="pb-title-notop">
 			<xsl:value-of select="@n"/>
 		</span>
 	</xsl:template>
@@ -1269,15 +1371,9 @@
 						>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
 			</xsl:when>
-			<xsl:when test="@unit='lines'">
-				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit)}">
-					<xsl:for-each select="1 to @extent"
-						><br/></xsl:for-each>
-				</span>
-			</xsl:when>
 			<xsl:when test="@dim='vertical'">
 				<span class="verticalSpace" title="{concat('vertical space: ',@extent, ' ', @unit)}">
-					[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
+					[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
 					<br class="verticalSpace"/></span>
 			</xsl:when>
 			<xsl:otherwise>
@@ -1299,26 +1395,6 @@
 	</xsl:template>-->
 
 	<!-- For "surface" see above -->
-
-	<!-- Beginning of elements that go with table -->
-	<xsl:template match="table">
-		<table>
-			<xsl:apply-templates/>
-			<!-- select="@*|node()" -->
-		</table>
-	</xsl:template>
-
-	<xsl:template match="row">
-		<tr>
-			<xsl:apply-templates/>
-			<!-- select="@*|node()" -->
-		</tr>
-	</xsl:template>
-
-	<xsl:template match="cell">
-		<td> &#x00A0;<xsl:apply-templates/>&#x00A0;<!-- select="@*|node()" --> </td>
-	</xsl:template>
-	<!-- End of elements that go with table -->
 
 	<!-- For "TEI" see above -->
 
