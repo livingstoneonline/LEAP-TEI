@@ -1,0 +1,27 @@
+1. Convert original TIFFs to TIFFs.
+2. Rename to LO scheme.
+3. Add DC metadata.
+4. Generate JPEGs per restrictions (if any).
+5. Generate MD5s for JPEGs.
+6. Separate out JPEGs and MD5s and move into directories.
+7. Add _archival-packet suffix.
+8. Add to archival packets: MODS files, copyright_information, 4 documentation files.
+9. Copy TXT and XMP files from TIFF directories to archival packets.
+10. Add TEI/PDF (if available) to archival packets.
+11. Remove hidden files.
+12. Add JPEGs to JPEG archive
+
+Distributing images
+1. TEI --> Image directories & Archival Packets
+2. JPEGs --> Archival Packets (+md5/txt/xmp) & JPEG archive
+3. TIFFs et al --> Image directories
+
+New repository addition
+1. Update MODS
+2. Update DC
+3. Add/update repo to Browse by Repo
+4. Edit Institutional Credits
+5. Edit Collaborating Institutions
+6. Edit Acknowledgments
+
+
