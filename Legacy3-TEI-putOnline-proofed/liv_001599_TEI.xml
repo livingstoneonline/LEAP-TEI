@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
  <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001599"><!-- LP105 -->
 	<teiHeader>
@@ -48,11 +48,13 @@
 			<div>
 
 	<pb n="0001" facs="liv_001599_0001"/><!--pb/@n='235'--> 
-<fw type="pageno" place="margintop" rend="center">235</fw> <fw type="head" place="margintop" rend="center">ON FEVER IN THE ZAMBESI.</fw>
-<lb/><p rend="center">A NOTE FROM DR. LIVINGSTONE TO DR. <term>M'WILLIAM.<!--<note type="editorial">James Ormiston McWilliam (1808-1862), Naval surgeon. Received his medical degree in 1840 and was appointed senior surgeon on the Albert, one of three ships on the Niger Expedition in 1841, the report of which was published in 1843. He was active in the formation of the Epidemiological Society and became its secretary.</note>--></term></p>
-<lb/><p rend="center">Transmitted by Captain WASHINGTON, R.N., F.R.S., Hydrographer 
-<lb/>to the Admiralty.</p>
-<lb/><p rend="center"><hi rend="italic">Read June 3rd</hi>, 1861.</p>
+<lb/><p rend="no-indent"><space extent="5" unit="words"/><fw type="head" place="inspace">ON FEVER IN THE ZAMBESI</fw> <space extent="1" unit="words"/><fw type="pageno" place="inspace">235</fw></p>
+<lb/>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/>A NOTE FROM DR. LIVINGSTONE TO DR. <term>M'WILLIAM.<!--<note type="editorial">James Ormiston McWilliam (1808-1862), Naval surgeon. Received his medical degree in 1840 and was appointed senior surgeon on the Albert, one of three ships on the Niger Expedition in 1841, the report of which was published in 1843. He was active in the formation of the Epidemiological Society and became its secretary.</note>--></term></p>
+<lb/><p rend="no-indent">Transmitted by Captain WASHINGTON, R.N., F.R.S., Hydrographer 
+<lb/><space extent="6" unit="words"/>to the Admiralty.</p>
+<lb/><p rend="no-indent"><space extent="5" unit="words"/><space extent="2" unit="chars"/><hi rend="italic">Read June 3rd</hi>, 1861.</p>
+<lb/>
 <lb/><p>IN the typical cases given in Dr. <term>M'William's<!--<note type="editorial">James Ormiston McWilliam (1808-1862), Naval surgeon. Received his medical degree in 1840 and was appointed senior surgeon on the Albert, one of three ships on the Niger Expedition in 1841, the report of which was published in 1843. He was active in the formation of the Epidemiological Society and became its secretary.</note>--></term><term>"Medical 
 <w>His-<lb break="no"/>tory</w> of the Niger Expedition"<!--<note type="editorial">James Ormiston McWilliam, &lt;i&gt;Medical history of the expedition to the Niger during the years 1841-2: comprising an account of the fever which led to its abrupt termination&lt;/i&gt; (London: John Churchill, 1843)</note>--></term>, the gall-bladder was found 
 <w>dis-<lb break="no"/>tended</w> with black bile; and, if my memory does not deceive 
@@ -84,10 +86,11 @@
 <lb/>In some very severe attacks it was necessary for the patient to 
 <lb/>travel upon a donkey, but after two or three days he would 
 <lb/>prefer to tramp it.</p>
-<lb/><note type="editorial">* Since the paper was read, Dr. McWilliam has received through the Foreign Office the following amended formula of Dr. Livingstone's prescription--viz.: "Take of resin, of jalap, and of rhubarb, six or eight grains; of calomel and quinine four grains each: mix well in a mortar, and preserve for use." (The rest is correct.)</note>
+<lb/><note type="editorial">* Since the paper was read, Dr. McWilliam has received through <lb/>the Foreign Office the following amended formula of <lb/>Dr. Livingstone's prescription--viz.: "Take of resin, of jalap, and <lb/>of rhubarb, six or eight grains; of calomel and quinine four <lb/>grains each: mix well in a mortar, and preserve for use." (The rest <lb/>is correct.)</note>
 
 	<pb n="0002" facs="liv_001599_0002"/><!--pb/@n='236'--> 
-<fw type="pageno" place="margintop" rend="left">236</fw> <fw type="head" place="margintop" rend="center">ON FEVER IN THE ZAMBESI</fw> 
+<lb/><fw type="pageno" place="inspace" rend="left">236</fw><space extent="3" unit="words"/><space extent="3" unit="chars"/> <fw type="head" place="inspace">ON FEVER IN THE ZAMBESI</fw> 
+<lb/>
 <lb/><p>We tried <term>Warburg's tincture<!--<note type="editorial">"A preparation containing quinine and many other ingredients, often used in the treatment of malarial affections. It was invented by Dr. Warburg of London"</note>--></term>, which has a great reputation 
 <lb/>in India, but it causes profuse sweating, and does not cure the 
 <lb/>disease; the strength is also impaired. We had a good supply, 
@@ -131,11 +134,13 @@
 <lb/>drink it, as the natives do on the banks of the Thames, but 
 <lb/>make holes in the sand to draw from. Possibly this has as 
 <lb/>much to do with the origin of fever as it has at home.</p>
-<lb/><p rend="right"><hi rend="smallcaps">David Livingstone</hi>.</p>
-<lb/><p><hi rend="small">Tette, 28th November, 1860.</hi></p>
+<lb/><p rend="right"><space extent="2" unit="words"/><hi rend="smallcaps">David Livingstone</hi>.</p>
+<lb/><p rend="no-indent"><hi rend="small">Tette, 28th November, 1860.</hi></p>
+<lb/><lb/>
 
 	<pb n="0003" facs="liv_001599_0003"/><!--pb/@n='237'--> 
-<fw type="pageno" place="margintop" rend="right">237</fw> <fw type="head" place="margintop" rend="center">ON FEVER IN THE ZAMBESI</fw> 
+<lb/><p rend="no-indent"><space extent="5" unit="words"/><fw type="head" place="inspace">ON FEVER IN THE ZAMBESI</fw> <space extent="1" unit="words"/><fw type="pageno" place="inspace">237</fw></p> 
+<lb/>
 <lb/><p>I give a specimen of the difference between dry and wet 
 <lb/>bulb, Victoria Falls, 24th September, 1860.</p><table><row><cell><hi rend="small">In Shade, 9 A.M.</hi></cell><cell><hi rend="small">{ Air ........87°</hi></cell><cell><hi rend="small">}</hi></cell><cell><hi rend="small">Difference, 28°</hi></cell></row><row><cell/><cell><hi rend="small">{ Wet Bulb .. 59°</hi></cell><cell><hi rend="small">}</hi></cell><cell/></row><row><cell><hi rend="small">" 12 "</hi></cell><cell><hi rend="small">{ Air ........96<hi rend="sup">.</hi>5°</hi></cell><cell><hi rend="small">}</hi></cell><cell><hi rend="small">Difference, 33<hi rend="sup">.</hi>5°</hi></cell></row><row><cell/><cell><hi rend="small">{ Wet Bulb .. 63°</hi></cell><cell><hi rend="small">}</hi></cell><cell/></row><row><cell><hi rend="small">" 3 P.M.</hi></cell><cell><hi rend="small">{ Air ........96°</hi></cell><cell><hi rend="small">}</hi></cell><cell><hi rend="small">Difference, 36°. Once 
 <lb/>the difference was 40°</hi></cell></row><row><cell/><cell><hi rend="small">{ Wet Bulb .. 60°</hi></cell><cell><hi rend="small">}</hi></cell><cell/></row></table>
@@ -176,11 +181,12 @@
 <lb/>it might not be uninteresting to the society that he (Dr. 
 <lb/><term>M'William<!--<note type="editorial">James Ormiston McWilliam (1808-1862), Naval surgeon. Received his medical degree in 1840 and was appointed senior surgeon on the Albert, one of three ships on the Niger Expedition in 1841, the report of which was published in 1843. He was active in the formation of the Epidemiological Society and became its secretary.</note>--></term>) should briefly recapitulate the losses sustained in 
 <lb/>the expedition to the Congo in 1816; to the Zambesi, from 
-<lb/>Captain Owen's ship, in 1823; to the Niger, under Laird, 
+<lb/>Captain Owen's ship, in 1823; to the Niger, under Laird,</p> 
 
 	<pb n="0004" facs="liv_001599_0004"/><!--pb/@n='238'--> 
-<fw type="pageno" place="margintop" rend="left">238</fw> <fw type="head" place="margintop" rend="center">ON FEVER IN THE ZAMBESI</fw> 
-<lb/>Lander, and Oldfield, in 1832; and to the Niger, under 
+<lb/><fw type="pageno" place="inspace" rend="left">238</fw> <space extent="3" unit="words"/><space extent="3" unit="chars"/><fw type="head" place="inspace">ON FEVER IN THE ZAMBESI</fw>
+<lb/> 
+<lb/><p rend="no-indent">Lander, and Oldfield, in 1832; and to the Niger, under 
 <w>Cap-<lb break="no"/>tain</w> Trotter, in 1841-32. He should also state the mortality 
 <lb/>of the <hi rend="italic">Eclair</hi> in 1845, and, although not in chronological 
 <lb/>order, the dreadful loss sustained by two detachments of 
@@ -217,7 +223,8 @@
 <lb/>on the 1st of September, and was likely to recover; but some 
 
 	<pb n="0005" facs="liv_001599_0005"/><!--pb/@n='239'--> 
-<lb/><fw type="pageno" place="margintop" rend="right">239</fw> <fw type="head" place="margintop" rend="center">ON FEVER IN THE ZAMBESI</fw> 
+<lb/><space extent="5" unit="words"/><fw type="head" place="inspace">ON FEVER IN THE ZAMBESI</fw> <space extent="1" unit="words"/><fw type="pageno" place="inspace">239</fw> 
+<lb/>
 <lb/>imprudence caused a relapse, which proved fatal to him on the 
 <lb/>28th of October. The blacks got out of the river safe.</p>
 <lb/><p><hi rend="italic">Expedition to the Niger in</hi> 1832.--In the expedition to the 
@@ -256,11 +263,12 @@
 <lb/>1841, under the command of Captain Trotter--consisting of 
 <lb/>the iron steam vessels <hi rend="italic">Albert</hi>, <hi rend="italic">Wilberforce</hi>, and <hi rend="italic">Soudan</hi>--the 
 <lb/>vessels entered the Nun branch of the Niger on the 13th of 
-<lb/>August, 1841, and commenced the ascent of the river on the 
+<lb/>August, 1841, and commenced the ascent of the river on the</p>
 
 	<pb n="0006" facs="liv_001599_0006"/><!--pb/@n='240'--> 
-<lb/><fw type="pageno" place="margintop" rend="left">240</fw> <fw type="head" place="margintop" rend="center">ON FEVER IN THE ZAMBESI</fw> 
-<lb/>19th. At this time the strength of the expedition was as 
+<lb/><fw type="pageno" place="inspace" rend="left">240</fw> <space extent="3" unit="words"/><space extent="3" unit="chars"/><fw type="head" place="inspace">ON FEVER IN THE ZAMBESI</fw> 
+<lb/>
+<lb/><p rend="no-indent">19th. At this time the strength of the expedition was as 
 <lb/>follows:--</p><table><row><cell/><cell><hi rend="small">Officers, Seamen, and 
 <lb/>Marines (Whites).</hi></cell><cell><hi rend="small">Men of Colour, 
 <lb/>various nations.</hi></cell><cell><hi rend="small">Blacks, entered 
@@ -302,7 +310,8 @@
 <lb/>and quinine, the last often early in the disease, either combined 
 
 	<pb n="0007" facs="liv_001599_0007"/><!--pb/@n='241'--> 
-<lb/><fw type="pageno" place="margintop" rend="right">241</fw> <fw type="head" place="margintop" rend="center">ON FEVER IN THE ZAMBESI</fw> 
+<lb/><space extent="5" unit="words"/><fw type="head" place="inspace">ON FEVER IN THE ZAMBESI</fw> <space extent="1" unit="words"/><fw type="pageno" place="inspace">241</fw> 
+<lb/>
 <lb/>with <term>calomel<!--<note type="editorial">"This name was originally applied to the Aethiops mineral, or black sulphuret of mercury; it was afterwards very inappropriately applied to the protochloride, which is the only substance now known under the name of calomel"&lt;br&gt;Robert Hooper, &lt;i&gt;Lexicon Medicum; or medical dictionary&lt;/i&gt;, 7th edition, (London: Longman, Orme, and Co., 1839), p.303</note>--></term> or by itself; blisters to the nape of the neck were 
 <lb/>sometimes beneficial; general bleeding could not be tolerated.</p>
 <lb/><p><hi rend="italic">Case of the "Eclair" in</hi> 1845.--The mortality on board of 
@@ -343,11 +352,13 @@
 <lb/><p>In Lander and Laird's expedition of 1832, in less than two 
 <lb/>months, 81<hi rend="sup">.</hi>25 per cent.</p>
 <lb/><p>In the expedition to the Niger, under Captain Trotter in 
-<lb/>1841-2, in which nearly the whole mortality from fever took 
+<lb/>1841-2, in which nearly the whole mortality from fever took </p>
+
 
 	<pb n="0008" facs="liv_001599_0008"/><!--pb/@n='242'--> 
-<lb/><fw type="pageno" place="margintop" rend="left">242</fw> <fw type="head" place="margintop" rend="center">ON FEVER IN THE ZAMBESI</fw> 
-<lb/>place within two months, and all within four months, 28<hi rend="sup">.</hi>96 
+<lb/><fw type="pageno" place="inspace" rend="left">242</fw> <space extent="3" unit="words"/><space extent="3" unit="chars"/><fw type="head" place="inspace">ON FEVER IN THE ZAMBESI</fw> 
+<lb/>
+<lb/><p rend="no-indent">place within two months, and all within four months, 28<hi rend="sup">.</hi>96 
 <lb/>per cent.</p>
 <lb/><p>In the <hi rend="italic">Eclair</hi> in six months, 49<hi rend="sup">.</hi>28 per cent.</p>
 <lb/><p>But these heavy rates of mortality are surpassed by what 
