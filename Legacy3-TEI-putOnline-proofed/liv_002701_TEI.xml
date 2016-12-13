@@ -2,13 +2,15 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002701"><!-- Change @xml:id -->
+ 
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002701"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-				<title></title><!-- Ignore this line -->
+				<title>Letter to Arthur Mills</title>
+                <title type="alternative">Letter to Arthur Mills, 12 May 1865</title><!-- Ignore this line -->
                 <title type="alternative">Letter to Arthur Mills, 12 May 1865</title><!-- Change -->
-                <author>David Livingstone</author>
+                <author>Livingstone, David, 1813-1873</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
                 <respStmt xml:id="AW">
@@ -36,7 +38,7 @@
                         <repository>Smithsonian Institution. Libraries. Joseph F. Cullman 3rd Library of Natural History</repository><!-- Change as needed -->
                         <idno type="shelfmark">M094 bis</idno><!-- Change as needed -->
                         <altIdentifier>
-                            <idno type="ccnumber"></idno><!-- This the CC number; change, as appropriate -->
+                            <idno type="ccnumber"/><!-- This the CC number; change, as appropriate -->
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>

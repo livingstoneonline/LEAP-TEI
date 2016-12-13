@@ -2,13 +2,15 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+ 
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Unknown</title><!-- Change -->
+                <title>Letter to Unknown</title>
                 <title type="alternative">Letter to Unknown, 21 [September 1857]</title><!-- Change -->
-                <author>David Livingstone</author>
+                <title type="alternative">Letter to Unknown, 21 [September 1857]</title><!-- Change -->
+                <author>Livingstone, David, 1813-1873</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
                 <respStmt xml:id="AW">
@@ -37,7 +39,7 @@
                         <country>Scotland</country><!-- Change as needed -->
                         <settlement>Hamilton</settlement><!-- Change as needed -->
                         <repository>National Library of Scotland</repository><!-- Change as needed -->
-                        <idno type="shelfmark"></idno><!-- Change as needed -->
+                        <idno type="shelfmark"/><!-- Change as needed -->
                         <altIdentifier>
                             <idno type="ccnumber">Letters, 0589</idno><!-- This the CC number; change, as appropriate -->
                         </altIdentifier>
