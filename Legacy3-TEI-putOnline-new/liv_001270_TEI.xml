@@ -11,6 +11,11 @@
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+					<resp>Proofing</resp>
+                    <resp>Coding review</resp>
+                </respStmt>
                 <respStmt xml:id="JZ"><!-- Add or remove individuals from the list as appropriate -->
                     <name>Jade Zuehlke</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
@@ -22,11 +27,6 @@
             		<resp>Encoding</resp>
 					<resp>Proofing</resp>
             	</respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-					<resp>Proofing</resp>
-                    <resp>Coding review</resp>
-                </respStmt>
                 <respStmt xml:id="LG">
                     <name>Lauren Geiger</name>
                     <resp>Proofing</resp>
@@ -88,10 +88,12 @@
             <div>
                
 	<pb facs="liv_001270_0001" n="0001"/>
-<lb/><opener><dateline rend="right"><date when="1858-03-06"><subst><del>5</del><add place="over-text">6</add></subst> March 1858</date></dateline><add place="above" hand="#U"><metamark/><!-- circle around 9 -->9 41</add>
-<lb/><space extent="4" unit="chars"/><placeName><settlement type="town">Birkenhead</settlement></placeName> 
-<lb/><persName>Bevan Braithwaite<choice><abbr>Esq</abbr><expan>Esquire</expan></choice></persName>
-<lb/><salute>My Dear Friend,</salute></opener><!-- Change line info as appropriate -->
+<lb/><p rend=" no-indent"><space extent="4" unit="words"/><add place="inspace" rend="small gray" hand="#U"><metamark/><!-- circle around 9 -->9 41</add></p>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><date when="1858-03-06"><subst><del>5</del><add place="over-text">6</add></subst> March 1858</date>
+<lb/><space extent="2" unit="words"/><space extent="2" unit="chars"/><placeName><settlement type="town">Birkenhead</settlement></placeName> 
+<lb/><persName>Bevan Braithwaite<choice><abbr>Esq</abbr><expan>Esquire</expan></choice></persName></p>
+<lb/>
+<lb/><p rend="no-indent">My Dear Friend,</p><!-- Change line info as appropriate -->
 <lb/><p>I enclose a note
 <lb/>from <persName>D<hi rend="sup underline">r</hi> Tidman</persName> and
 <lb/>an answer which if
@@ -153,7 +155,7 @@
 <lb/><closer rend="indent">In the meanwhile
 <lb/>may every blessing be on 
 <lb/>you &amp; yours
-<lb rend="right"/><signed><persName>David Livingstone</persName></signed></closer>
+<lb/><space extent="2" unit="words"/><signed><persName>David Livingstone</persName></signed></closer>
 
             </div>
         </body>

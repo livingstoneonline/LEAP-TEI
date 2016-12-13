@@ -11,6 +11,10 @@
 				<author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
 				<respStmt xml:id="BL">
 					<name>Blaze Livingston</name>
 					<resp>Revision</resp>
@@ -19,10 +23,6 @@
                     <name>Amzie Dunekacke</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
-                </respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -78,19 +78,19 @@
             <div>
                
 	<pb facs="liv_001195_0001" n="0001"/>
-<lb/><opener><dateline rend="right"><placeName>Manchester</placeName> <add place="inline"><hi rend="red" hand="#U">6</hi></add>
-<lb/><space extent="1" unit="chars"/><date when="1858-01-28">28th January
-<lb/><space extent="3" unit="chars"/>1858</date></dateline>
+<lb/><p rend="no-indent"><space extent="1" unit="words"/><placeName>Manchester</placeName> <add place="inline"><hi rend="red" hand="#U">6</hi></add>
+<lb/><space extent="1" unit="words"/><space extent="1" unit="chars"/><date when="1858-01-28">28th January
+<lb/><space extent="1" unit="words"/><space extent="3" unit="chars"/>1858</date></p>
 <lb/>
-<lb/><salute>My Dear Sir</salute></opener><!-- Change line info as appropriate -->
+<lb/><p rend="no-indent">My Dear Sir</p><!-- Change line info as appropriate -->
 <lb/><p>Your salary
 <lb/>will commence
 <lb/>on the 1<hi rend="sup underline">st</hi> Frebruary
 <lb/>and should you
 <lb/>want more than
 <lb/>a quarter in advance</p><!-- could be "quarter's advance, but would need second opinion. #BL-->
-
-<cb rend="vertical"/><ab><add place="marginleft"><unclear cert="medium">please</unclear> be in <placeName><settlement type="city">London</settlement></placeName> on <date when="1858-01-30">Saturday</date></add></ab>
+<lb/>
+<lb/><cb rend="vertical"/><ab><add place="marginleft"><unclear cert="medium">please</unclear> be in <placeName><settlement type="city">London</settlement></placeName> on <date when="1858-01-30">Saturday</date></add></ab>
 
 	<pb facs="liv_001195_0002" n="0002"/>
 <lb/><p rend="no-indent">I shall feel obliged
@@ -107,7 +107,8 @@
 
 	<pb facs="liv_001195_0003" n="0003"/>
 <lb/>by all means do so -
-<lb/>and you can <unclear cert="medium">remit</unclear> the money
+<lb/>and you can 
+<lb/><unclear cert="medium">remit</unclear> the money
 <lb/>afterwards - We
 <lb/>must get all 
 <lb/>into <unclear cert="medium">town</unclear> by 

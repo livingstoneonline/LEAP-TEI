@@ -11,14 +11,14 @@
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
-                <respStmt xml:id="BL"><!-- Add or remove individuals from the list as appropriate -->
-                    <name>Blaze Livingston</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+                </respStmt>
+				<respStmt xml:id="BL"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Blaze Livingston</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
                 </respStmt>
                 <respStmt xml:id="LG">
                     <name>Lauren Geiger</name>
@@ -80,14 +80,14 @@
             <div>
                
 	<pb facs="liv_001172_0001" n="0001"/>
-<lb/><opener><dateline rend="right"><placeName>50 Albemarle <choice><abbr>St.</abbr><expan>Street</expan></choice></placeName> <add place="above" rend="gray" hand="#U">14</add>
+<lb/><p rend="right"><placeName>50 Albemarle <choice><abbr>St.</abbr><expan>Street</expan></choice></placeName> <add place="above" rend="gray" hand="#U">14</add>
 <lb/><space extent="3" unit="chars"/><date when="1858-01-08">8<hi rend="sup underline">th</hi> January
-<lb/><space extent="6" unit="chars"/>1858</date></dateline><!-- Change line info as appropriate -->
-<lb/><add hand="#U" rend="gray"><add place="marginleft">To</add> <persName>Alexander Macmillan</persName>
+<lb/><space extent="6" unit="chars"/>1858</date></p><!-- Change line info as appropriate -->
+<lb/><p rend="no-indent"><add hand="#U" rend="gray small"><add place="marginleft">To</add> <persName>Alexander Macmillan</persName>
 <lb/><space extent="2" unit="chars"/>The founder of the <orgName>Publishing
-<lb/><space extent="1" unit="words"/>House of Macmillan</orgName></add>
+<lb/><space extent="1" unit="words"/>House of Macmillan</orgName></add></p>
 <lb/>
-<lb/><salute>My Dear Sir</salute></opener><!-- Change line info as appropriate -->
+<lb/><p rend="no-indent">My Dear Sir</p><!-- Change line info as appropriate -->
 <lb/><p><space extent="8" unit="chars"/>I am really quite
 <lb/>ashamed to find that so much
 <lb/>time has glided away since
@@ -126,7 +126,7 @@
 <lb/>books and feel most
 <lb/>grateful for the kind
 <lb/>sentences which <w>accom<supplied>-</supplied>
-<lb break="no"/><lb/>-panied</w> them. May our
+<lb break="no"/>-panied</w> them. May our
 <lb/>Heavenly Father abundantly
 <lb/>reward you for all your
 <lb/>kindly feelings.</p>

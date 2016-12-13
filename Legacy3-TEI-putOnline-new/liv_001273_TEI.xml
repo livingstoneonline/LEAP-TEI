@@ -11,6 +11,10 @@
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
 				<respStmt xml:id="BL">
 					<name>Blaze Livingston</name>
 					<resp>Proofing</resp>
@@ -25,10 +29,6 @@
                     <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
                     <resp>Encoding</resp>
                     <resp>Proofing</resp>
-                </respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -90,11 +90,11 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 
-<lb/><opener><dateline rend="right"><placeName><settlement type="town">Birkenhead</settlement></placeName> <add place="above" hand="#U">7</add>
-<lb/><seg rend="left diagonal"><add hand="#U"><hi rend="underline">3</hi></add></seg> <date when="1858-03-06">6<hi rend="sup underline">th</hi> March 
-<lb/><space extent="3" unit="chars"/> 1858</date></dateline>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><placeName><settlement type="town">Birkenhead</settlement></placeName> <add place="above" hand="#U">7</add>
+<lb/><seg rend="left diagonal gray"><add hand="#U"><hi rend="underline">3</hi></add></seg> <space extent="2" unit="words"/><date when="1858-03-06">6<hi rend="sup underline">th</hi> March 
+<lb/><space extent="10" unit="chars"/> 1858</date></p>
 <lb/>   
-<lb/><salute>My Dear <persName>Agnes</persName></salute></opener><!-- Change line info as appropriate -->
+<lb/><p rend="no-indent">My Dear <persName>Agnes</persName></p><!-- Change line info as appropriate -->
 
 <lb/><p>The Pearl went 
 <lb/>out of dock

@@ -6,17 +6,18 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Unknown, 21 [September 1857]</title><!-- Change -->
+                <title>Letter to Unknown</title><!-- Change -->
+                <title type="alternative">Letter to Unknown, 21 [September 1857]</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
-                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
-                    <name>Jade Zuehlke</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+                </respStmt>
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
                 </respStmt>
 				<respStmt xml:id="EC">
                     <name>Erin Cheatham</name>
@@ -82,12 +83,12 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 
-<lb/><opener><dateline rend="right"><placeName>Burnbank<add place="marginleft">194</add>
-<lb/>Hamilton</placeName> 
-<lb/><date when="1857-09-21">Monday 21st
-<lb/><add place="inspace" hand="#U" rend="gray">[Sept. 1857]</add></date></dateline><!--Addition below dateline, written in unknown hand. Did I code this correctly? EC --><!-- Since it's in the space where a blank line would have been, I've put place='inspace'. AW -->
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><placeName>Burnbank<add place="marginleft">194</add>
+<lb/><space extent="2" unit="words"/><space extent="1" unit="chars"/>Hamilton</placeName> 
+<lb/><space extent="2" unit="words"/><space extent="2" unit="chars"/><date when="1857-09-21">Monday 21st
+<lb/><space extent="2" unit="words"/><space extent="3" unit="chars"/><add place="inspace" hand="#U" rend="gray">[Sept. 1857]</add></date></p><!--Addition below dateline, written in unknown hand. Did I code this correctly? EC --><!-- Since it's in the space where a blank line would have been, I've put place='inspace'. AW -->
 <lb/>    
-<lb/><salute>My Dear Friend</salute></opener><!-- Change line info as appropriate -->
+<lb/><p rend="no-indent">My Dear Friend</p><!-- Change line info as appropriate -->
 <lb/><p>I got your
 <lb/>note a minute
 <lb/>ago just when
@@ -135,13 +136,13 @@
 </p>
 
 <!-- If there is a letter or similar with a closer with content such as salute or signed -->
-<lb/><closer><salute>I am
-<lb/>affectionately yours,</salute><!-- Change as appropriate -->
-<lb/><signed><persName>David Livingstone</persName></signed></closer>
-            
-<lb/><postscript><p>P.S.if I do come back
+<lb/><p rend="no-indent"><space extent="1" unit="words"/>I am
+<lb/><space extent="1" unit="words"/>affectionately yours,<!-- Change as appropriate -->
+<lb/><space extent="1" unit="words"/><persName>David Livingstone</persName></p>
+<lb/>            
+<lb/><p rend="no-indent">If I do come back
 <lb/>I shall let you
-<lb/>know</p></postscript><!--Won't validate because of postscript, can someone else take a look. EC--><!-- The text in a postscript needs to also be inside of a <p> (or <ab>, though <p> seems more logical). AW -->
+<lb/>know</p><!--Won't validate because of postscript, can someone else take a look. EC--><!-- The text in a postscript needs to also be inside of a <p> (or <ab>, though <p> seems more logical). AW -->
 
 
 

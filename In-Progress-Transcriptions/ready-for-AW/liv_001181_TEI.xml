@@ -11,6 +11,10 @@
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
 				<respStmt xml:id="BL">
 					<name>Blaze Livingston</name>
 					<resp>Revision</resp>
@@ -19,10 +23,6 @@
                     <name>Jade Zuehlke</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
-                </respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -74,11 +74,11 @@
             <div>
                
 	<pb facs="liv_001181_0001" n="0001"/>
-<lb/><opener><dateline rend="right"><placeName>12 Kensington Palace Garden</placeName>
-<lb/><date when="1858-01-19">19<hi rend="underline">th</hi> January
-<lb/> 1858</date></dateline>
+<lb/><p rend="no-indent"><placeName>12 Kensington Palace Garden</placeName>
+<lb/><space extent="1" unit="words"/><date when="1858-01-19">19<hi rend="sup underline">th</hi> January
+<lb/><space extent="2" unit="words"/>1858</date></p>
 <lb/>    
-<lb/><salute>My Dear Sir,</salute></opener>
+<lb/><p rend="no-indent">My Dear Sir,</p>
 <lb/><p>I think I had
 <lb/>acknowledged the
 <lb/>receipt of your
@@ -93,7 +93,7 @@
 	<pb facs="liv_001181_0002" n="0002"/>
 <lb/>thanking you for
 <lb/>the courtesy you
-<lb/>showed in directing
+<lb/>shewed in directing
 <lb/>me to send my
 <lb/>things to your <choice><sic>brothers</sic><corr>brother's</corr></choice>
 <lb/>warehouse it has
@@ -108,7 +108,7 @@
 <lb/>the carriage
 
 	<pb facs="liv_001181_0003" n="0003"/>
-<lb/><unclear cert="low">has</unclear> he <unclear cert="low"><app><rdg cert="low">leads and brainsoire</rdg><rdg>beads and bransoire</rdg></app></unclear>
+<lb/>Has he beads, brass wire
 <lb/>&amp; ammunition such as
 <lb/>are used in the <term type="nationality">West 
 <lb/>African</term> trade<!-- tagged with <term>, hope that works. BL -->, if so
@@ -121,7 +121,7 @@
 <lb/>of him too meanly
 <lb/>and that if he is
 <lb/>not actually engaged
-<lb/>in interpreting <unclear cert="low">beads</unclear>
+<lb/>in interpreting beads
 
 	<pb facs="liv_001181_0004" n="0004"/>
 <lb/>he may give me a
@@ -137,11 +137,11 @@
 <lb/>imitate my bad
 <lb/>example in correspondence</p>
 
-<lb/><closer><salute>I am yours most
-<lb/>truly - </salute>
-<lb/><signed><persName>David Livingstone</persName></signed></closer>
+<lb/><p rend="no-indent"><space extent="1" unit="words"/>I am yours most
+<lb/><space extent="2" unit="words"/>Truly -</p>
+<lb/><p rend="no-indent"><persName>David Livingstone</persName></p>
 
-<trailer>J.B. Horsball <unclear cert="low">ny</unclear></trailer><!--Added trailer...is this okay?-->
+<lb/><trailer>J.B. Horsball Esq.</trailer><!--Added trailer...is this okay?-->
 
             </div>
         </body>
