@@ -20,7 +20,7 @@ java -jar saxon9he.jar -it:main -s:$file -xsl:find-xpath.xsl -o:list.html
 MODS XSLT
 ---------
 for file in *_TEI.xml; do java -jar saxon9he.jar -s:$file -xsl:addMODSData.xsl -o:$file; done
-for file in *_TEI.xml; do java -jar saxon9he.jar -s:$file -xsl:addMODSData.xsl -o:`basename $file .xml`_Updated.xml; echo Done $file; done
+for file in *_TEI.xml; do java -jar saxon9he.jar -s:$file -xsl:addMODSData.xsl -o:`basename $file .xml`.xml; echo Done $file; done
 
 ****
 
