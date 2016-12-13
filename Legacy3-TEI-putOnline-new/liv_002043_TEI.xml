@@ -6,10 +6,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Mrs. Noel, 8 August 1864</title><!-- Removed underline coding -->
+                <title>Letter to Mrs. Noel</title><!-- Removed underline coding -->
+                <title type="alternative">Letter to Mrs. Noel, 8 August 1864</title><!-- Removed underline coding -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Jade Zuehlke</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
                 <respStmt xml:id="JZ"><!-- Add or remove individuals from the list as appropriate -->
                     <name>Jade Zuehlke</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
@@ -20,10 +24,6 @@
             		<name>Amzie Dunekacke</name><!-- Change -->
             		<resp>Proofing</resp>
             	</respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
-                </respStmt>
                 <respStmt xml:id="LG">
                     <name>Lauren Geiger</name>
                     <resp>Proofing</resp>
@@ -85,10 +85,10 @@
             <div>
                
 	<pb facs="liv_002043_0001" n="0001"/>
-<lb/><opener><dateline rend="right"><placeName><settlement type="town">Hamilton</settlement></placeName> <add place="above" hand="#U">25 <seg rend="right">62</seg></add> <date when="1865-08-08">8 August
-<lb/>18<add place="inline">[64]</add></date></dateline>
+<lb/><p rend="no-indent"><placeName><settlement type="town">Hamilton</settlement></placeName> <add place="above" rend="gray" hand="#U">25</add> <date when="1865-08-08">8 August <add place="above" rend="gray" hand="#U">62</add>
+<lb/><space extent="3" unit="words"/>18<add place="inline">[64]</add></date></p>
 <lb/>
-<lb/><salute>My Dear <persName>M<hi rend="sup underline">rs</hi> Noel</persName></salute></opener>
+<lb/><p rend="no-indent">My Dear <persName>M<hi rend="sup underline">rs</hi> Noel</persName></p>
 <lb/><p>The kind true
 <lb/>heartedness of your
 <lb/>father and mother
@@ -120,7 +120,7 @@
 <lb/>a retired nook to do
 
 	<pb facs="liv_002043_0003" n="0003"/>
-<lb/>a little work and then <add place="above" hand="#U">63</add>
+<lb/>a little work and then <add place="above" hand="#U" rend="gray">63</add>
 <lb/>be off. <choice><sic>my</sic><corr>My</corr></choice> daughter
 <lb/>now woman grown
 <lb/>is to keep my cottage
@@ -149,11 +149,12 @@
 
 
 <!-- If there is a letter or similar with a closer with content such as salute or signed -->
-<lb/><closer><salute>I am &amp;</salute><!-- Change as appropriate -->
+<lb/><p rend="no-indent"><space extent="1" unit="words"/>&amp; am &amp;<!-- Change as appropriate -->
 <lb/>
-<lb/><signed><persName>David Livingstone</persName></signed></closer><!-- Change as appropriate --> 
-<lb/><space extent="5" unit="lines" dim="vertical"/>
-<lb/><closer><persName>M<hi rend="sup underline">rs</hi></persName></closer>
+<lb/><persName>David Livingstone</persName></p><!-- Change as appropriate --> 
+<lb/>
+<lb/>
+<lb/><p rend="no-indent"><persName>M<hi rend="sup underline">rs</hi> Noel</persName></p>
 
 
 

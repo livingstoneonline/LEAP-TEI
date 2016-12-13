@@ -11,13 +11,13 @@
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
                 <principal>Christopher Lawrence</principal>
-                <respStmt xml:id="LG"><!-- Add or remove individuals from the list as appropriate -->
-                    <name>Lauren Geiger</name><!-- Change -->
+                <respStmt xml:id="AW"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Adrian S. Wisnicki</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
                     <resp>Encoding</resp>
                 </respStmt>
-                <respStmt xml:id="AW"><!-- Add or remove individuals from the list as appropriate -->
-                    <name>Adrian S. Wisnicki</name><!-- Change -->
+                <respStmt xml:id="LG"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Lauren Geiger</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
                     <resp>Encoding</resp>
                 </respStmt>
@@ -81,8 +81,7 @@
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 
 <lb/><opener><dateline rend="right"><placeName><settlement type="river">River Zambesi</settlement></placeName> <date when="1859-08-06">6<hi rend="sup underline">th</hi> August<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
-<lb/>1859</date></dateline><!-- Change line info as appropriate -->
-<lb/>    
+<lb/><space extent="5" unit="words"/>1859</date></dateline><!-- Change line info as appropriate -->
 <lb/><space extent="2" unit="chars"/><salute>My Dear Sir</salute></opener><!-- Change line info as appropriate -->
 <lb/><p><space extent="2" unit="words"/>I ought to have written
 <lb/>long ago to let you know that the hard
@@ -107,11 +106,12 @@
 <lb/>(<placeName><geogName type="lake">Sheerwah</geogName></placeName>). This work was play
 <lb/>compared to the monotony of
 <lb/>an everlasting cutting of wood</p>
-<lb/><fw>E. Marjoribanks Esquire</fw>
+<lb/><p rend="no-indent">E. Marjoribanks Esquire</p>
+<lb/>
 <lb/><cb rend="vertical"/><ab>I am sailing master though as far as taste is concerned
 <lb/>I would as soon drive a cab in <placeName><settlement type="city">London</settlement></placeName> in winter</ab>
                 
-	<pb facs="liv_00146_0002.jpg" n="0002"/>
+	<pb facs="liv_00146_0002" n="0002"/>
 <lb/><p rend="no-indent">and waiting for the slow movement
 <lb/>of an engin really destined I believe
 <lb/>to grind <term type="foodstuff">coffee</term> in a shop window, but
@@ -124,7 +124,7 @@
 <lb/>great pleasure of introducing one 
 <lb/>of my companions <persName>D<hi rend="sup underline">r</hi> Kirk</persName> to a 
 <lb/>portion of the fine country which 
-<lb/>when travelling acoss <placeName><bloc>Africa</bloc><placeName> I discovered
+<lb/>when travelling acoss <placeName><bloc>Africa</bloc></placeName> I discovered
 <lb/>one is so accustomed to think
 <lb/>of this country and "Afric burning
 <lb/>sands" as identical, that in describing
@@ -140,7 +140,7 @@
 <lb/>mountains at least <measure>6000 feet high</measure>
 
 <!-- stop here -->
-	<pb facs="liv_00146_0003.jpg" n="0003"/>
+	<pb facs="liv_00146_0003" n="0003"/>
 <lb/>and all green and covered with trees
 <lb/>to the top. One, 30 mba has a flat
 <lb/>top and is inhabited- We could see
@@ -169,7 +169,7 @@
 <lb/>at a much larger lake beyond <placeName><geogName type="lake"> Shirwa</geogName></placeName>-
 <lb/>By the discovery in the <unclear cert="low">no idea?</unclear>
 
-<pb facs="liv_00146_0004.jpg" n=0004"/>
+	<pb facs="liv_00146_0004" n="0004"/>
 <lb/>Africa will soon appear to be a very
 <lb/>different region from the sandy deserts
 <lb/>of the <unclear cert="low">harp</unclear> makers, and I earnestly
@@ -177,7 +177,7 @@
 <lb/>new state of things than a nightly slave
 <lb/>market- We think that we have <unclear cert="low">endured</unclear>
 <lb/><unclear cert="low">the</unclear> African fever less formidable- And
-<lb/>should <unclear cert="med">the such fertile</unclear> country, most of 
+<lb/>should <unclear cert="medium">the such fertile</unclear> country, most of 
 <lb/>which now lies untilled, welcome the
 <lb/>means of assisting our own home honest
 <lb/>poor by colonization, I think I should
@@ -186,8 +186,8 @@
 <lb/>the information <unclear cert="low">??  ?? ??</unclear>had
 <lb/>most munificently provided religious
 <lb/>instruction for the new colony and this
-<lb/>greatly gladdened my heart.</pb>
-<p>I have little to say on business-
+<lb/>greatly gladdened my heart.</p>
+<lb/><p>I have little to say on business-
 <lb/>I was obliged to have my wife at the
 <lb/><unclear cert="low">?</unclear> and she went with her parents
 <lb/>up to <placeName><unclear cert="low">Kuruman</unclear></placeName>--<measure>500 miles inland-</measure>
@@ -199,7 +199,7 @@
 <lb/>my life being yet spared, and <unclear cert="low">???</unclear>
 <lb/>you have been <unclear cert="low">??</unclear> my<unclear cert="low">??</unclear>
 <lb/>ssalary in consequence.</p>
-!-- More transcribed text -->
+<!-- More transcribed text -->
 <!-- If there is a letter or similar with a closer with content such as salute or signed -->
 <lb/><closer><salute>I am Most Truly Yours;</salute><!-- Change as appropriate -->
 <lb/><signed><persName>David Livingstone</persName></signed></closer><!-- Change as appropriate --> 
