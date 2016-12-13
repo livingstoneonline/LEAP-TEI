@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
  <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002672">
 	<teiHeader>
@@ -58,8 +58,8 @@
 <lb/>Livingston dated <placeName>Cassange</placeName>, Angola, 
 <lb/>West Africa, 14<hi rend="sup underline">th</hi> January 1855.</p>
 <lb/><p><add place="inline" hand="#hand02">Communicated through <persName>D<hi rend="sup">r</hi> Shaw</persName>, by 
-<lb/>the London Missionary Society.</add></p>
-<lb/><p><del type="strikethrough" hand="#hand02">In the city of Loanda</del> I arrived 
+<lb/><space extent="3" unit="words"/>the London Missionary Society.</add></p>
+<lb/><p><space extent="3" unit="words"/><del type="strikethrough" hand="#hand02">In the city of Loanda</del> I arrived 
 <lb/><add place="marginleft" hand="#hand02">in the City</add> wearily knocked up and suffering from <term type="ailment">fever</term> and 
 <lb/><term type="ailment">dysentery</term>. <persName>Edmund Gabriel</persName>, Esq<hi rend="sup underline">r</hi>, Her Majesty's 
 <lb/>Commissioner for the suppression of the slave 
@@ -134,6 +134,8 @@
 <lb/>if you send a letter to <placeName>Quilimane</placeName>. I 
 <lb/>know not whether I shall reach it <add place="inline" hand="#hand02">, but</add> I 
 <lb/>mean to try."</del></p>
+
+	<pb n="0004" facs="liv_002672_0004"/>
 			
 </div>
 		</body>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
@@ -53,9 +54,10 @@
 	<pb n="0001" facs="liv_001854_0001"/><!--pb/@n='1r'-->
 <addSpan spanTo="#p.1r-01" place="marginleft"><!--addSpan/@place='left margins of fols 1r-2r'--></addSpan>
 <lb/><p rend="no-indent"><placeName>Shupanga</placeName> 18<hi rend="sup underline">th</hi> Dec<hi rend="sup underline">r</hi> One of the missionaries informs me that the</p><anchor xml:id="p.1r-01"/>
-<lb/><p rend="right"><placeName>River Zambesi</placeName> 15<hi rend="sup underline">th</hi> Dec<hi rend="sup">r</hi></p>
-<lb/><p rend="right">1862</p>
-<lb/><p>Dear <persName>Admiral Washington</persName></p>
+<lb/><p rend="no-indent"><space extent="5" unit="words"/><placeName>River Zambesi</placeName> 15<hi rend="sup underline">th</hi> Dec<hi rend="sup">r</hi></p>
+<lb/><p rend="no-indent"><space extent="7" unit="words"/><add place="inline" hand="#hand01"><hi rend="underline">R. 22 July</hi></add> 1862</p>
+<lb/>
+<lb/><p rend="no-indent">Dear <persName>Admiral Washington</persName></p>
 <lb/><p>We came from <placeName>Johanna</placeName> to the 
 <lb/>Latitude of the <placeName>Kongone</placeName> in five days during 
 <lb/>two which without steam and a light head 
@@ -189,7 +191,7 @@
 <lb/>will suit our plans much better than 
 <lb/>those who have been employed by the 
 <lb/>mission of the Universities<reg>.</reg></p>
-<lb/><p rend="center">David Livingstone</p> 
+<lb/><p rend="right"><space extent="2" unit="words"/>David Livingstone</p>
 
 </div>
 		</body>

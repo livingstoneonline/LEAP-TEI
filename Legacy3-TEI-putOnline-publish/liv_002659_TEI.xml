@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
  <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002659">
 	<teiHeader>
@@ -52,8 +52,8 @@
 			<div>
 
 	<pb n="0001" facs="liv_002659_0001"/><!--pb/@n='1r'-->
-<lb/><p rend="right"><placeName>Kuruman</placeName> 14<hi rend="sup underline">th</hi> July 1843</p>
-<lb/><p>My Dear Brother in Christ</p>
+<lb/><p rend="right"><space extent="6" unit="words"/><placeName>Kuruman</placeName> 14<hi rend="sup underline">th</hi> July 1843</p>
+<lb/><p rend="no-indent">My Dear Brother in Christ</p>
 <lb/><p>I thank you for the good but little bit you 
 <lb/>appended to the excellent letter of your partner<reg>.</reg> And I now take a 
 <lb/>separate sheet in order to provoke you to do the same. I do not 
@@ -193,19 +193,24 @@
 <lb/>But it is a long way off from this outlandish quarter<reg>.</reg>
 <lb/>May you enjoy the presence of your Saviour &amp; with Him 
 <lb/>every Temporal &amp; Spiritual blessing is the prayer of 
-<lb/>yours affectionately D Livingston</p><!--<pb n="Additional"/>-->
+<lb/><seg rend="right">yours affectionately D Livingston</seg></p><!--<pb n="Additional"/>-->
+
+	<pb n="0005" facs="liv_002659_0005"/><!--pb/@n='2v'-->
 <ab type="envelope">
 <address>
 <addrLine>Care of <persName>Rev<hi rend="sup">d</hi>. D<hi rend="sup">r</hi> Phillip</persName></addrLine>
-<addrLine><!-- CODIC: align right but it looks like crap online --><hi rend="underline">Cape Town</hi></addrLine>
-<addrLine><persName>Rev<hi rend="sup underline">d</hi> J. M<hi rend="sup">c</hi>Robert</persName></addrLine>
-<addrLine><!-- CODIC: align right but it looks like crap online --><placeName>Cambuslang</placeName></addrLine>
-<addrLine><!-- CODIC: align right but it looks like crap online --><hi rend="underline">Glasgow</hi></addrLine>
+<addrLine rend="right"><!-- CODIC: align right but it looks like crap online --><hi rend="underline">Cape Town</hi></addrLine>
+<addrLine><space extent="3" unit="chars"/><persName>Rev<hi rend="sup underline">d</hi> J. M<hi rend="sup">c</hi>Robert</persName></addrLine>
+<addrLine><space extent="3" unit="words"/><!-- CODIC: align right but it looks like crap online --><placeName>Cambuslang</placeName></addrLine>
+<addrLine><space extent="4" unit="words"/><!-- CODIC: align right but it looks like crap online --><hi rend="underline">Glasgow</hi></addrLine>
 </address>
-</ab><!--
+</ab>
+
+<!--
 <p>Glasgow <lb/>12 <unclear cert="low">Feb 1843</unclear></p>
 <p>SHIP LETTER</p>
 -->
+	<pb n="0006" facs="liv_002659_0006"/><!--pb/@n='2v'-->
 			
 </div>
 		</body>
