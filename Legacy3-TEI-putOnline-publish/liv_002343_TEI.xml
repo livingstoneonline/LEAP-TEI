@@ -87,13 +87,13 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 
-<opener>
-<lb/><dateline rend="right"><placeName><placeName>Burnbank Road</placeName> <add place="above" hand="U">70</add> 
-<lb/><add place="marginleft" hand="U">Acc. 912.</add> <placeName>Hamilton</placeName></placeName> <date when="1865-06-20">20 June
-<lb/><space extent="1" unit="words"/>1865</date></dateline>
+
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><placeName><placeName>Burnbank Road</placeName> <add place="above" hand="#U">70</add> 
+<lb/><add place="marginleft" hand="#U"><hi rend="gray small">Acc. 912.</hi></add> <space extent="1" unit="chars"/><placeName>Hamilton</placeName></placeName> <date when="1865-06-20">20 June
+<lb/><space extent="4" unit="words"/>1865</date></p>
 <lb/>    
-<lb/><salute>My Dear Brother</salute>
-</opener>
+<lb/><p rend="no-indent">My Dear Brother</p>
+
 
 <lb/><p>I have to give 
 <lb/>you the intimation
@@ -128,7 +128,7 @@
 <lb/>&amp; collected to the last
 
 	<pb facs="liv_002343_0003" n="0003"/>
-<lb/>When the changes came <add place="inline" rend="right" hand="#U">71</add>
+<lb/>When the changes came <add place="inline" rend="gray" hand="#U">71</add>
 <lb/>near <persName>Agnes</persName> said to
 <lb/>her "<persName>Jesus</persName> is coming
 <lb/>for you. Can you
