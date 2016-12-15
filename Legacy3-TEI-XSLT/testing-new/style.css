@@ -51,7 +51,7 @@ div.transcription{
 div.body{
 	display:block;
 	padding-bottom:2.4em;
-	padding-left:3.5em;/*Find em equivalent*/
+	padding-left:3.5em;
 }
 .front,
 .back{
@@ -89,17 +89,26 @@ a:link{
 	line-height:1.7;
 }
 hr.title-section{
-	width:100%;
+	width:25em;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #666666;	
 	margin-top:-.4em;
 	margin-bottom:-.4em;
+	margin-left:3.5em;
+}
+.project-id,
+.project-encoding{
+	display:inline-block;
+	padding-left:4em;
+	font-size:.9em;
+	color:#666666;
 }
 .project-id{
-	color:#666666;
-	font-size:.9em;
-	padding-left:3.5em;
+	padding-bottom:1em;
+}
+.project-encoding{
+	line-height:170%;
 }
 
 /* 2. Letters */
@@ -366,6 +375,9 @@ p{
 
 /* 8. @rend classes (except colors, lines, and up-down placement) */
 
+.bold{
+	font-weight:600;
+}
 .caps{
 	font-variant:small-caps;
 }
@@ -479,6 +491,9 @@ p{
 }
 .brown{
 	color:brown;
+}
+.dark-gray{
+	font-weight:600;
 }
 .gray{
 	color:#666666;

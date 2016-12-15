@@ -52,6 +52,16 @@
 
 	<!-- TEI -->
 	<xsl:template match="TEI">
+		<xsl:variable name="encoding">
+			<xsl:choose>
+				<xsl:when test="//teiHeader//respStmt/name">
+					<xsl:value-of select="//teiHeader//respStmt/name" separator=", "/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="//teiHeader//revisionDesc/change/name" separator=", "/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
 		<div class="transcription">
 			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
 			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
@@ -59,7 +69,12 @@
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
 			<div class="TEI">
-				<span class="project-id">[project id: <xsl:value-of select="//idno[@type='LEAP-ID']"/>]</span><br/><br/><br/>
+				<div class="item-details">
+				<span class="project-id"><span class="bold">Project ID</span><xsl:text>: </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
+				<span class="project-encoding"><span class="bold">Critical encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></span><br/><br/>
+					<hr class="title-section"/><br/><br/>
+					<br/>
+				</div>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
 					<xsl:when test="$isPaged='true' and //jc:page[@n=$pagenumber]">
