@@ -71,9 +71,9 @@
 			<div class="TEI">
 				<div class="item-details">
 				<span class="project-id"><span class="bold">Project ID</span><xsl:text>: </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
-				<span class="project-encoding"><span class="bold">Critical encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></span><br/><br/>
+				<span class="project-encoding"><span class="bold">Critical encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></span><br/>
+				<span class="project-encoding"><span class="bold">Encoding standardization</span><xsl:text>: Adrian S. Wisnicki</xsl:text></span><br/><br/>
 					<hr class="title-section"/><br/><br/>
-					<br/>
 				</div>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
