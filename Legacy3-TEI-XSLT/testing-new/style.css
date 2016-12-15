@@ -147,8 +147,6 @@ p span.pb-title{
 	margin-left:0;
 	text-indent:0;
 }
-.del-pb{
-}
 /*We need a solution. See 2672-3 for an example or 875 for multiple examples.*/
 .lb{
 	display:block;
@@ -159,7 +157,7 @@ p span.pb-title{
 	color:#666666;
 	margin-left:-3em !important;
 	/*text-indent:9%;*/
-	font-size:80%;
+	font-size:.8em;
 	width:1em;
 }
 p .linenumber{
@@ -195,17 +193,17 @@ p.right .linenumber{
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:22em !important;/*TEST*/
+	width:27em !important;
 	margin-left:0;
 	text-align:left;
-	height:0;/*TEST*/
-	border:0;/*TEST*/
-	border-top:1px solid #58484b;/*TEST*/
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 .doubleline{
 	border-top: 4px double #8c8b8b;
 	display:block;
-	width:65% !important;/*TEST*/
+	width:27em !important;
 	margin-left:9%;
 	text-align:left;
 }
@@ -213,14 +211,14 @@ p.right .linenumber{
 	border-top: 4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
-	width:65% !important;/*TEST*/
+	width:27em !important;
 	margin-left:9%;
 	text-align:left;
 }
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:17.5em !important;/*TEST*/
+	width:17.5em !important;
 	margin-left:0;
 	text-align:left;
 	height:0;
@@ -230,7 +228,7 @@ p.right .linenumber{
 .quarterline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:11em !important;/*TEST*/
+	width:11em !important;
 	margin-left:0;
 	text-align:left;
 	height:0;
@@ -240,7 +238,7 @@ p.right .linenumber{
 .second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:22em !important;
+	width:27em !important;
 	margin-left:0;
 	text-align:left;
 	margin-top:-1em;
@@ -252,7 +250,7 @@ p.right .linenumber{
 .third-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:22em !important;
+	width:27em !important;
 	margin-left:0;
 	text-align:left;
 	margin-top:1.5em;
@@ -282,7 +280,6 @@ p{
 	margin-top:0;
 	margin-bottom:0;
 }
-}
 .head{
 	font-weight:normal;
 }
@@ -300,7 +297,7 @@ p{
 	text-indent:0;
 }
 .fw.catch.right{
-	margin-left:80%;/*AW revisit*//*TEST remove?*/
+	margin-left:14em;
 	text-indent:0;
 }
 
@@ -358,9 +355,7 @@ p{
 .expan{
 	border-bottom:1px green dotted
 }
-.expan{
-	display:none;
-}
+.expan,
 .hidden{
 	display:none;
 }
@@ -376,7 +371,7 @@ p{
 }
 .center{
 	text-indent:0;
-	margin-left:2.7em;/*TEST 6em?*/
+	margin-left:2.7em;
 }
 .doubleunderline{
 	border-bottom:3px double;
@@ -384,9 +379,6 @@ p{
 .tripleunderline{
 	border-bottom:4px double;
 	text-decoration:underline;
-}
-.inline{
-	/*color:#666666;*/
 }
 .italic{
 	font-style:italic;
@@ -400,15 +392,12 @@ p{
 .overline.underline{
 	text-decoration:overline underline;
 }
-.overtext{
-	/*color:#666666;*/
-}
 .right{
 	text-indent:0;
-	margin-left:4em;/*TEST 12em?*/
+	margin-left:4em;
 }
 .small{
-	font-size:85%;
+	font-size:.85em;
 }
 .smallcaps{
 	font-variant:small-caps;
@@ -439,7 +428,7 @@ p{
 .top{
 	/* Specified in % so that the sup/sup is the
      right size relative to the surrounding text */
-	font-size:75%;
+	font-size:.8em;
 
 	/* Zero out the line-height so that it doesn't
      interfere with the positioning that follows */
@@ -517,7 +506,7 @@ p{
 	margin-top:12px;
 }
 table{
-	font-size:85%;
+	font-size:.85em;
 	border-style:none;
 	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 }
