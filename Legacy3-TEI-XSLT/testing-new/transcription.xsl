@@ -55,10 +55,10 @@
 		<xsl:variable name="encoding">
 			<xsl:choose>
 				<xsl:when test="//teiHeader//respStmt/name">
-					<xsl:value-of select="//teiHeader//respStmt/name[not(.=preceding::*)]" separator=", "/>
+					<xsl:value-of select="//teiHeader//respStmt/name[not(.=preceding::name)]" separator=", "/>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:value-of select="//teiHeader//revisionDesc/change/name[not(.=preceding::*)]" separator=", "/>
+					<xsl:value-of select="//teiHeader//revisionDesc/change/name[not(.=preceding::name)]" separator=", "/>
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
