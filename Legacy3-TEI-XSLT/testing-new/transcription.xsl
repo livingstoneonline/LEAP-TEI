@@ -63,7 +63,14 @@
 			</xsl:choose>
 		</xsl:variable>
 		<xsl:variable name="sortedDates" as="xs:string*">
-			<xsl:perform-sort select="//revisionDesc/change/date[not(.=preceding::date)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
+			<xsl:choose>
+				<xsl:when test="//revisionDesc/change[@when]">
+					<xsl:perform-sort select="//revisionDesc/change/@when[not(.=preceding::change/@when)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:perform-sort select="//revisionDesc/change/date[not(.=preceding::change/date)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:variable>
 		<div class="transcription">
 			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
@@ -75,7 +82,7 @@
 				<div class="item-details">
 				<span class="project-id"><span class="bold">Project ID</span><xsl:text>: </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
 				<span class="project-encoding"><span class="bold">Critical encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></span><br/>
-				<span class="project-encoding"><span class="bold">Initial encoding dates</span><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></span><br/>
+				<span class="project-encoding"><span class="bold">Encoding dates</span><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></span><br/>
 				<!--<xsl:value-of select="//revisionDesc/change/date[not(.=preceding::date)]" separator=", "/>-->
 				<span class="project-encoding"><span class="bold">Encoding conversion</span><xsl:text>: James Cummings (2015-03-02)</xsl:text></span><br/>
 				<span class="project-encoding"><span class="bold">Encoding review</span><xsl:text>: Lauren Geiger (2016-2017)</xsl:text></span><br/>
