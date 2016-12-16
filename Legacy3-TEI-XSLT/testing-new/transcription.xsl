@@ -395,7 +395,7 @@
 
 	<xsl:template match="del">
 		<span class="del cancelled">
-			<xsl:if test="@*">
+			<!--<xsl:if test="@*">
 				<xsl:attribute name="title">
 					<xsl:value-of select="concat(name(), 'etion, ')"/>
 					<xsl:for-each select="@*">
@@ -405,12 +405,12 @@
 						</xsl:if>
 					</xsl:for-each>
 				</xsl:attribute>
-			</xsl:if>
+			</xsl:if>-->
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
+	<xsl:template match="del[following-sibling::add[1][@place='over-text']]" priority="10">
 		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
 	</xsl:template>
 
@@ -611,8 +611,9 @@
 		</span>
 	</xsl:template>
 
+	<!-- Prevents page numbers from being struckthrough when nestled in one or two dels -->
 	<xsl:template match="pb[ancestor::del]|pb[ancestor::del[ancestor::del]]" priority="10">
-		<span class="pb-title del-pb">
+		<br/><span class="pb-title pb-del">
 			<xsl:value-of select="@n"/>
 		</span>
 	</xsl:template>

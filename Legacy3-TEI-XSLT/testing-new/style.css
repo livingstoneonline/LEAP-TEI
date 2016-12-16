@@ -3,11 +3,12 @@
 Table of Contents
 -----------------
 1. Textual divisions 
+1.5 Title section
 2. Letters 
 3. pb, lb, linenumber 
 4. Milestone and lines 
 5. p, ab, note, fw 
-6. Additions and Deletions 
+6. del, unclear, gap, space 
 7. Editorial 
 8. @rend classes (except lines, page placement, colors) 
 9. Page placement 
@@ -153,13 +154,9 @@ hr.title-section{
 	color:#AAA;
 	cursor:pointer
 }
-.pb-title:first-of-type {
+.pb-title:first-of-type{
   	margin-top: 0;
 }/*This is to prevent scrolling up when the first image opens. AW*/
-.del-pb{
-	text-decoration:none !important;
-}
-/*We need a solution. See 2672-3 for an example or 875 for multiple examples.*/
 .lb{
 	display:block;
 }
@@ -314,21 +311,17 @@ p{
 }
 
 
-/* 6. Additions and Deletions */
+/* 6. del, unclear, gap, space */
 
 .del,
-.cancelled,
-.strikethrough,
-.overwritten{
-	text-decoration:line-through;
-}
 .del-by-over-text{
-	/*color:#666666;*/
 	text-decoration:line-through;
+	/*color:#666666;*//*Previously used for .del-by-over-text*/
 }
-
-
-/* 7. Unclear, gap, space */
+.pb-del{
+	display:inline-block;
+	margin-bottom:.5em;
+}
 .unclear{
 	color:#666666;
 	border-bottom:1px dotted #666666;
