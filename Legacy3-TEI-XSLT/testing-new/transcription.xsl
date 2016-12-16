@@ -72,6 +72,8 @@
 				<div class="item-details">
 				<span class="project-id"><span class="bold">Project ID</span><xsl:text>: </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
 				<span class="project-encoding"><span class="bold">Critical encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></span><br/>
+				<span class="project-encoding"><span class="bold">Encoding conversion</span><xsl:text>: James Cummings</xsl:text></span><br/>
+				<span class="project-encoding"><span class="bold">Encoding review</span><xsl:text>: Lauren Geiger</xsl:text></span><br/>
 				<span class="encoding-standard"><span class="bold">Encoding standardization</span><xsl:text>: Adrian S. Wisnicki</xsl:text></span><br/><br/>
 					<hr class="title-section"/><br/><br/>
 				</div>
@@ -289,7 +291,7 @@
 	</xsl:template>
 
 	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'addmargin')}"> [<xsl:apply-templates/>] </span>
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"> [<xsl:apply-templates/>] </span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='over-text']">
@@ -597,7 +599,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="del/pb" priority="10">
+	<xsl:template match="pb[ancestor::del]|pb[ancestor::del[ancestor::del]]" priority="10">
 		<span class="pb-title del-pb">
 			<xsl:value-of select="@n"/>
 		</span>

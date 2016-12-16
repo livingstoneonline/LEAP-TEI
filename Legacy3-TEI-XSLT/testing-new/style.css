@@ -18,11 +18,10 @@ Table of Contents
 * /
 
 
-
 /* 1. Textual divisions */
 
 body{
-	background:#ccc2b2; /*d3c2a8*/ /*#e7d5bd*/
+	background:#ccc2b2;
 }
 div.transcription{
 	margin-left:auto;
@@ -57,6 +56,7 @@ div.body{
 .back{
 	display:block;
 }
+
 
 /* 1.5. Title section */
 
@@ -113,6 +113,7 @@ hr.title-section{
   	text-indent:-30px;	
 }
 
+
 /* 2. Letters */
 
 .opener,
@@ -142,21 +143,21 @@ hr.title-section{
 .pb-title{
 	display:block;
 	color:#428bca;
-	/*text-decoration:underline;*/
 	font-size:90%;
 	margin-top:2em;
 	margin-bottom:-.9em;
+	margin-left:0;
+	text-indent:0;
 }
 .pb-title:hover{
 	color:#AAA;
 	cursor:pointer
 }
 .pb-title:first-of-type {
-  margin-top: 0;
+  	margin-top: 0;
 }/*This is to prevent scrolling up when the first image opens. AW*/
-p span.pb-title{
-	margin-left:0;
-	text-indent:0;
+.del-pb{
+	text-decoration:none !important;
 }
 /*We need a solution. See 2672-3 for an example or 875 for multiple examples.*/
 .lb{
@@ -178,7 +179,7 @@ p .linenumber{
 	text-indent:1em;
 }
 p.center .linenumber{
-	margin-left:-12.5em !important;/*TEST*/
+	margin-left:-6.4em !important;
 }
 p.right .linenumber{
 	margin-left:-10.5em !important;
@@ -270,6 +271,7 @@ p.right .linenumber{
 	border-top:1px solid #58484b;
 }
 
+
 /* 5. p, ab, note, fw */
 
 p{
@@ -306,23 +308,14 @@ p{
 .fw.pageno{
 	text-indent:0 !important;
 }
-.fw.catch.left{
-	margin-left:0;/*AW revisit*/
-	text-indent:0;
-}
 .fw.catch.right{
 	margin-left:14em;
 	text-indent:0;
 }
 
+
 /* 6. Additions and Deletions */
 
-.opener-add{
-}
-/*Needs to be sorted out. See 1340-1. AW*/
-.addmargin{
-	text-indent:0px;
-}
 .del,
 .cancelled,
 .strikethrough,
@@ -330,7 +323,7 @@ p{
 	text-decoration:line-through;
 }
 .del-by-over-text{
-	color:#666666;
+	/*color:#666666;*/
 	text-decoration:line-through;
 }
 
@@ -354,16 +347,11 @@ p{
 }
 
 
-
 /* 7. Editorial */
 
 .sic,
 .corr{
 	border-bottom:2px #B33B24 dotted
-}
-.orig,
-.reg{
-	/*border-bottom:1px green dotted*/
 }
 .abbr,
 .expan{
@@ -435,6 +423,7 @@ p{
 	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
 
+
 /* 9. Page placement */
 
 .above,
@@ -472,15 +461,6 @@ p{
      half as far down as the superscript moved up */
 	bottom:-0.25em;
 }
-.margintop{
-	margin-left:0;
-	color:#666666;
-	line-height:0;
-	position:relative;
-	vertical-align:baseline;
-	top:-1em;
-}
-/*Needs to be revisited. See 2133-1. AW*/
 .true{
 	display:inline-block;
 }/*Goes with standalone <note>s*/
@@ -496,9 +476,6 @@ p{
 }
 .brown{
 	color:brown;
-}
-.dark-gray{
-	font-weight:600;
 }
 .gray{
 	color:#666666;
@@ -523,13 +500,12 @@ p{
 /* 11. Lists and Tables */
 .list{
 	display:block;
-	margin-top:12px;
 }
 table{
 	font-size:.85em;
 	border-style:none;
-	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-}
+	margin-right: 2em; 
+}/*Last item needed so that the text doesn't run up against the right edge in the viewer.*/
 tr,
 td{
 	border-style:none;
@@ -546,7 +522,8 @@ td{
 }
 .p .figure,
 .p.noindent .figure,
-.ab .figure{
+.ab .figure,
+p .metamark{
 	margin-left:0px !important;
 	text-indent:0px;
 }
@@ -554,11 +531,6 @@ td{
 	color:#666666;
 	border-bottom:1px #666666 dotted;
 }
-p .metamark{
-	margin-left:0px !important;
-	text-indent:0px !important;
-}
-
 .foreign,
 .geogName,
 .persName,
