@@ -7,6 +7,7 @@ find . -name \*.txt -a -print
 
 delete hidden files recursive that begin with ._
 find . -name ._\* -type f -delete
+find . -name .\* -type f -delete
 
 find . -name *.shtml -type f -delete
 find . -name *.md5 -type f -delete
