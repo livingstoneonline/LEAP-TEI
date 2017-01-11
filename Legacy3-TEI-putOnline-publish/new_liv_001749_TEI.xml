@@ -24,6 +24,10 @@
                     <name>Erin Cheatham</name>
                     <resp>Coding review</resp>
                 </respStmt>
+               	<respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -64,8 +68,9 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-01-11" who="#AW">Coding review</change>
 			<change when="2016-12-01" who="#BL">Proofreading</change>
-            <change when="2016-07-21" who="#EC">Code Review</change>
+            <change when="2016-07-21" who="#EC">Coding review</change>
 			<change when="2016-07-20" who="#JZ">Initial transcription and XML encoding</change>
 			<!-- Reordered <change>s so earliest was at bottom, as is requested. BL.-->
         </revisionDesc>
@@ -77,12 +82,13 @@
                
 	<pb facs="liv_001749_0001" n="0001"/>
 
-<lb/><fw n="55"><add place="margintop" rend="gray right" hand="#U">55</add></fw>
-<lb/><opener><add place="margintop" rend="gray" hand="#U">32</add><dateline rend="right"><placeName>Shupanga</placeName> <date when="1862-03-15">15<hi rend="sup underline">th</hi> March
-<lb/> 1862</date></dateline>
+<lb/>
+<lb/><opener><space extent="2" unit="words"/><add place="inspace" rend="gray small" hand="#U">32 <space extent="4" unit="words"/>55</add>
+<lb/><dateline><space extent="2" unit="words"/><placeName>Shupanga</placeName> <date when="1862-03-15">15<hi rend="sup underline">th</hi> March
+<lb/><space extent="5" unit="words"/>1862</date></dateline>
 <lb/>    
 <lb/><salute>My Dear <persName>M<hi rend="sup underline">r</hi> Rowley</persName></salute></opener>
-<lb/><p>this is a terrible
+<lb/><p>This is a terrible
 <lb/>blow to the mission &amp;
 <lb/>makes me very much
 <lb/>depressed in view
@@ -92,15 +98,16 @@
 <lb/>must not swerve
 <lb/>from the work we
 <lb/>have undertaken
-<lb/>come what will and I trust you will all
-<lb/>feel the importance</p> 
-<lb/><cb rend="vertical"/><p>
-In January &amp; She is much too deep along
-<lb/>Excuse thus hasty note we are starting</p><!--This vertical text connected to end of letter-->
+<lb/>come what will and 
+<lb/>I trust you will all
+<lb/>feel the importance</p>
+
+<lb/><cb rend="vertical"/><!--This vertical text connected to end of letter-->
+<lb/><p rend="no-indent">In January - She is much too deep &amp; long
+<lb/>Excuse this hasty note we are starting</p>
 
 	<pb facs="liv_001749_0002" n="0002"/>
-<lb/><cb rend="vertical"/><p>for the sea hoping this may find you</p>
-<lb/><p>of sticking more closely<!--paragraph here to validate. EC-->
+<lb/><p rend="no-indent">of sticking more closely<!--paragraph here to validate. EC-->
 <lb/>together and supporting
 <lb/>each other than ever - 
 <lb/>Remember pray that
@@ -111,24 +118,21 @@ In January &amp; She is much too deep along
 <lb/>present you doing
 <lb/>your duty manfully
 <lb/>you will be set down
-<lb/>as a parcel of writing
+<lb/>as a parcel of canting
 <lb/>hypocrites that ought 
 <lb/>never to have been <w>en-
 <lb break="no"/>trusted</w> with anything
 <lb/>Let every little difference
 <lb/>dwindle into insignificance
-<lb/>before the great work <figure><figDesc>tiny lines drawn at end of text</figDesc></figure></p><!-- unclear if this is an &amp;, a squiggle, or in someone else's hand -JZ-->
+<lb/>before the great work</p>
+<lb/><cb rend="vertical"/>
+<lb/><p rend="no-indent">for the sea hoping this may find you</p>
 
 	<pb facs="liv_001749_0003" n="0003"/>
-<lb/><cb rend="vertical"/><p>in health &amp; good spirits</p> <closer><salute>I am the</salute>
-<lb/><signed><persName>David Livingstone</persName></signed></closer></div>
-
-	<div>
-
-<lb/><fw n="56"><add place="margintop" rend="gray right" hand="#U">56</add></fw>
-<lb/><p>in which you are engaged
+<lb/><p rend="no-indent"><space extent="6" unit="words"/><add place="inspace" rend="gray small" hand="#U">56</add>
+<lb/>in which you are engaged
 <lb/>Excuse my saying so 
-<lb/>much in the <unclear cert="low">hoitatery</unclear>
+<lb/>much in the <unclear cert="medium">hortatory</unclear>
 <lb/>style -</p>
 <lb/><p>We could not carry up 
 <lb/>35 tons of the new steamer
@@ -138,7 +142,7 @@ In January &amp; She is much too deep along
 <lb/>again and were forced 
 <lb/>to unload all - put her
 <lb/>together and tow her up
-<lb/>in May next - you
+<lb/>in <date when="1862-05">May</date> next - you
 <lb/>will see how entirely
 <lb/>it is out of our power
 <lb/>to serve you with this
@@ -146,16 +150,20 @@ In January &amp; She is much too deep along
 <lb/>We are entirely out of
 <lb/>provisions - and have 
 <lb/>no prospect of getting</p>
+<lb/><cb rend="vertical"/>
+<lb/><p rend="no-indent">in health &amp; good spirits <space extent="1" unit="words"/>I am the
+<lb/><space extent="3" unit="words"/><persName>David Livingstone</persName></p>
+
 
 	<pb facs="liv_001749_0004" n="0004"/>
-<lb/><p>any except by going to
-<lb/><placeName><settlement type="city">Johanna</settlement></placeName><!-- unsure if this is a city. --> - and should
+<lb/><p rend="no-indent">any except by going to
+<lb/><placeName><geogName type="island">Johanna</geogName></placeName><!-- unsure if this is a city. --> - and should
 <lb/>we be too late for the
-<lb/>ascent of the shire will
-<lb/>lose a season - then
+<lb/>ascent of the <placeName><geogName type="river">Shire</geogName></placeName> will
+<lb/>lose a season - Then
 <lb/>the <term type="occupation">bishop</term> came down
-<lb/>in <date when="1862-11"><choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date> he wished to go
-<lb/>down to the <settlement type="river">Ruo</settlement> &amp; explore
+<lb/>in <date when="1861-11"><choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date> he wished to go
+<lb/>down to the <placeName>Ruo</placeName> &amp; explore
 <lb/>upwards but I objected
 <lb/>very strongly as the <seg type="weather">rains</seg>
 <lb/>fell every afternoon and
@@ -165,12 +173,11 @@ In January &amp; She is much too deep along
 <lb/>6 weeks with a large marsh
 <lb/>on each side of us &amp; lost
 <lb/>our first man in the
-<lb/>expedition - we stood two
-<lb/>days <measure>1 mile above</measure> <settlement type="river">Ruo</settlement> but 
-<lb/>on <date when="1863-01">1<hi rend="sup underline">st</hi> January </date> no <term type="occupation">bishop</term>
+<lb/><orgName>Expedition</orgName> - we stood two
+<lb/>days <measure>1 mile above</measure> <placeName>Ruo</placeName> but 
+<lb/>on <date when="1861-01-01">1<hi rend="sup underline">st</hi> January </date> no <term type="occupation">bishop</term>
 <lb/>could be heard of - We did
-<lb/>not reach the sea till late <!--Livingstone continues this on the first page in vertical text-->
-</p>
+<lb/>not reach the sea till late <!--Livingstone continues this on the first page in vertical text--></p>
             </div>
         </body>
     </text>
