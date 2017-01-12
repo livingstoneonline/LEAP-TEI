@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002569">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to John Kirk, 25 March 1871</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+				<idno type="LEAP-ID">liv_002569</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno type="shelfmark">MS.10768, f. 80</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1968</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to John Kirk, 25 March 1871</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1871-03-25">25 March 1871</date>
+                    <placeName type="compositionPlace">Webb's Lualaba or Lacustrine River</placeName>
+                    <persName type="addressee">John Kirk</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+			<change when="2016-02-10" who="#AW">Coding corrections</change>
+			<change when="2015-04-03" who="#AW">Coding Review</change>
+            <change when="2015-02-22" who="#HB">Quality Control and TEI Encoding</change>
+			<change when="2015-01-14" who="#AW">Conversion to LEAP Standards</change>
+			<change when="2014-12-22" who="#MW">Proofing and additional TEI Encoding</change>
+            <change when="2014-12-15" who="#AK">Proofing and additional TEI Encoding</change>
+            <change when="2011-09-13" who="#AW">Editing</change>
+			<change when="2011-09-13" who="#KS">Proofing</change>
+			<change when="2011-06-14" who="#AW">Initial Transcription and TEI Encoding</change> 		
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                
+    <pb facs="liv_002569_0001" n="0001"/>
+<lb/><opener><dateline rend="center"><placeName><geogName type="river" ref="geogName.xml#geog0034"><choice><sic><persName ref="people.xml#pers0192">Webb</persName>s</sic><corr><persName ref="people.xml#pers0192">Webb</persName>'s</corr></choice> Lualaba</geogName></placeName> or <placeName><geogName type="river" ref="geogName.xml#geog0033">Lacustrine River</geogName></placeName> <date when="1871-03-25">25 March 1871</date> <choice><sic>across</sic><corr>Across</corr></choice> 
+<lb/><add place="inspace"><space extent="2" unit="words"/>another great bend to the West of about <measure>100'</measure></add></dateline>
+<lb/><salute><space extent="5" unit="chars"/>My Dear <persName ref="people.xml#pers0071">Kirk</persName></salute></opener>
+<lb/><p><space extent="17" unit="chars"/>I very thankfully <choice><sic>recieved</sic><corr>received</corr></choice> <bibl>your letter of <date when="1869-02-28">28<hi rend="sup underline">th</hi> <choice><abbr>Feb</abbr><expan>February</expan></choice>/<choice><abbr>69</abbr><expan>1869</expan></choice></date></bibl>
+<lb/>sent by <persName ref="people.xml#pers0165">Sheikh bin Nassib</persName> at <placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName> about <measure>7 days <choice><abbr>N.W.</abbr><expan>North West</expan></choice> of <placeName><settlement type="village" ref="settlement.xml#sett0002"><w>Bam<supplied>-</supplied>
+<lb break="no"/>barre</w></settlement></placeName></measure> containing a welcome one from <persName ref="people.xml#pers0076">Agnes</persName> to you. By it I first
+<lb/>learned that you had taken unto yourself a wife who has presented you
+<lb/>with a daughter - Blessings on them both - <orgName><choice><abbr>R.C.</abbr><expan><term type="faith">Roman Catholic</term></expan></choice> people</orgName> think each has an
+<lb/>angel - I only know that the little ones are angels themselves and come as
+<lb/>ministering spirits of peace and love - I have but one regret in looking
+<lb/>back to my stationary missionary life and that is that I did not play
+<lb/>more with my children but I worked so hard physically &amp; mentally that in
+<lb/>the evenings there was seldom any fun left in me - <space extent="2" unit="chars"/>I thankfully accept <!-- I think these lines about children and his family are very poignant HB -->
+<lb/>your invitation to lodge with you at <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> but I feel so woefully
+<lb/>far away and am going still further in order to make a complete
+<lb/>work of the exploration of the <placeName><geogName type="source" ref="geogName.xml#geog0053">sources of the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName></geogName></placeName> - I have been sorely let <del><gap reason="illegible" extent="1" unit="chars"/></del>
+<lb/>hindered in <placeName><region ref="region.xml#region0013">Manyema</region></placeName> and reaction against the bloody <orgName ref="orgName.xml#org0026">Ujijian</orgName> <orgName>slaving</orgName>
+<lb/>having set in I <subst><del><gap extent="1" unit="words" agent="illegible"/></del><add place="over-text">went</add></subst> off not without apprehension and until I get
+<lb/>beyond the region of bloodshed I cannot feel safe - It is not <orgName>slave trade</orgName>
+<lb/>it is slaking thirst for blood and catching <orgName>free people</orgName> very many of
+<lb/>whom die before reaching <placeName><region>the coast</region></placeName> - I shall give you an episode which
+<lb/>happened about a fortnight ago close by the spot where I write - My spirits
+<lb/>are beyond measure depressed in writing on such matters for the public
+<lb/>and I can only give half statements for fear of letting heartless dawdlers
+<lb/>drawl from their club sofas "exaggeration" "overdrawing" &amp;c - The
+<lb/>restrained exposure of the vile <term type="nationality">Portuguese</term> deeds on the <placeName><geogName type="river" ref="geogName.xml#geog0050">Shire</geogName></placeName> in my last
+<lb/>book made me oblivious to every thing else - My own &amp; family interests
+<lb/>were unheeded - <persName ref="people.xml#pers0142">Lord Palmerston</persName> sent a <term type="occupation"><term type="occupation">Queen</term>'s counsel</term> to ask me "what
+<lb/>he could do to aid me as he was most anxious to serve me" I could only think
+<lb/>of the work in <placeName><bloc>Africa</bloc></placeName> &amp; asked the <placeName><region>East African</region></placeName> ports to be opened to lawful
+<lb/>commerce <add place="below">^</add> <add place="above">for all nations</add> - It never occurred to me that he meant aught for myself or
+<lb/>children till I was out here and <persName ref="people.xml#pers0142">Lord Palmerston</persName> dead - <space extent="2" unit="chars"/>The episode I
+<lb/>mention was by <orgName><persName ref="people.xml#pers0002">Muhamad Bogharib</persName>'s people</orgName>, and he being the best man
+<lb/>of all who have come to trade in <placeName><region ref="region.xml#region0013">Manyema</region></placeName> you may <space extent="2" unit="chars"/>if you can imagine
+<lb/>the conduct of the people of the worst - <persName ref="people.xml#pers0047"><choice><sic>Bon</sic><corr>Bin </corr></choice> Hassani</persName> - <persName ref="people.xml#pers0019"><choice><sic>Bon embegu</sic><corr>Bin Mbegu</corr></choice></persName> &amp;
+<lb/><persName ref="people.xml#pers0020">Bin Omar</persName> the heads of the party sent to trade gave the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> near
+<lb/><persName ref="people.xml#pers0222">Moene Lualaba</persName> 25 copper <w>b<subst><del>l</del><add place="over-text">r</add></subst>acelets</w> worth at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> about 2 <choice><orig>½</orig><reg>1/2</reg></choice> dollars.
+<lb/>This was the trap - Then went down the river &amp; sold all the rest of their copper <!-- geog: Lualaba -->
+<lb/>for ivory - coming back they demanded ivory for the 25 rings &amp; began
+<lb/>to shoot the men in cold blood, and capture women &amp; children &amp; grass cloth -
+<lb/><term type="animal">goats</term> &amp; <term type="animal">fowls</term> - they continued the murdering for three days in a densely peopled
+<lb/>district and carried off an immense number of women &amp; children because
+<lb/><persName ref="people.xml#pers0002">Muhamad</persName> does not intend to trade here again - With all his goodness I
+<lb/>have no doubt but he knew the plan &amp; will <choice><sic>recieve</sic><corr>receive</corr></choice> his full share of the <orgName>captives</orgName>
+<lb/>They will come into <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName><!-- I thought we were coding Zanzibar as an island. MW --><!-- Yes, the older practice was region, but new manual is island. HB --> as <term type="occupation">traders</term>, and the people as <orgName><hi rend="underline">bought</hi> slaves</orgName> but there is
+<lb/>not one <orgName>slave</orgName> among them and to make the matter the more atrocious the very men
+<lb/>who murdered &amp; captured repeatedly declared to me that the people now vicitimized
+<lb/>were remarkably civil and kind - <space extent="2" unit="chars"/>thousands come over to the river every <add place="below">^</add> <add place="above">market</add> day to hold <!-- geog: Lualaba -->
+<lb/>markets at various points for <term type="plant_foodstuff">flour</term> <term type="plant_foodstuff">cassava</term> <term type="plant_foodstuff">beans</term> <term type="plant_foodstuff">groundnuts</term> <term type="foodstuff"><term type="animal">fish</term></term><!-- Do we need an "animal_foodstuff" to go with "plant_foodstuff?"? MW--><!-- Good suggestion- Adrian, thoughts? HB --><!-- See what I've done. AW --> <term type="foodstuff">salt</term> <term type="foodstuff">oil</term>
+<lb/><term type="plant_foodstuff">bananas</term> <term type="plant_foodstuff">plantains</term> <term type="plant_foodstuff">sweet potatoes</term> <term type="plant_foodstuff">sugar cane</term> grass cloth earthen ware = iron ware as
+<lb/>knives spears needles <term type="animal">fowls</term> <term type="animal">sheep</term> <term type="animal">goats</term> <term type="animal">pigs</term> <orgName>slaves</orgName> ivory <unclear cert="medium">&amp;c</unclear> and it was particularly
+<lb/>noticed that when the men of two districts were engaged in actual hostilities the women
+<lb/>go from market to market with their wares unmolested - Women were never
+<lb/>touched until now by these <orgName><choice><orig>Muhamadans</orig><reg>Muhammadans</reg></choice></orgName> - as a rule not a <orgName>slave</orgName> is sold in
+<lb/><placeName><region ref="region.xml#region0013">Manyema</region></placeName> except by the ruffian strangers - It would be only Justice if the
+<lb/><term type="occupation">Sultan</term> would set free all <orgName>captives</orgName> from <placeName><region ref="region.xml#region0013">Manyema</region></placeName> as soon as they arrive -
+<lb/>They were not traded for but murdered for - In talking with these <orgName ref="orgName.xml#org0027">Ujijians</orgName> I
+<lb/>always protest against shedding human blood - they think that rhyming
+<lb/>over "God is great" &amp;c all sin is forgiven - a <orgName>slave</orgName> of <persName ref="people.xml#pers0183">Thani bin <unclear cert="medium">Suellim</unclear></persName> of
+<lb/><placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> named <persName ref="people.xml#pers0193">Yahood</persName> boasted in my hearing of having with his comrades
+<lb/>killed one kindred people &amp; burned 9 villages - all for a single string of red <unclear cert="high">beads</unclear>
+<lb/>which a <orgName><placeName><region ref="region.xml#region0013">Manyema</region></placeName> man</orgName> tried in vain to steal - I said to him "you were sent
+<lb/>to trade not to murder" He replied "we <hi rend="underline">are</hi> sent to kill people, that is our work"
+<lb/>one of my people was killed I suppose in blind revenge - a man was pinned
+<lb/>to the ground with a spear near <unclear cert="high">the</unclear> 9 villages and I was sleeping in another
+<lb/>close by - three were killed at another village and we <choice><sic>dont</sic><corr>don't</corr></choice> know who are
+<lb/>friends &amp; who have first cause to seek revenge of all strangers - I find great
+<lb/>difficulty in getting a canoe after the <persName ref="people.xml#pers0002">Bogharib</persName> feat of arms - all flee from us
+<lb/>your men seem as eager for blood as others - all long to be able to brag of blood
+<lb/>shed = That <persName ref="people.xml#pers0166">Shereef Bosher</persName> has put me to great inconvenience by refusing
+<lb/>to send me my own beads and other things while he stops to feast at my expense
+<lb/>He thinks that he and his three <orgName>slaves</orgName> are earning salary - I have sent orders to
+<lb/>take the goods &amp; give them to <unclear cert="medium"><persName ref="people.xml#pers0113">Moenyeghere</persName></unclear> a trustworthy man - <persName ref="people.xml#pers0013">Awathe</persName> the
+<lb/><space extent="9" unit="words"/><add place="inspace" rend="small">Had it at <space extent="5" unit="chars"/><placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> and <space extent="4" unit="chars"/>onwards</add>
+<lb/>other <term type="occupation">headman</term> has <term type="ailment" ref="ailment.xml#ailm0009">enlarged scrotum</term> - I feel extremely thankful for all
+<lb/><add place="inspace" rend="small">says now <space extent="2" unit="chars"/>it pains him!! <space extent="2" unit="chars"/>wants <space extent="3" unit="chars"/>pay without <space extent="2" unit="chars"/>work <space extent="2" unit="chars"/>I <unclear cert="high">fear</unclear></add>
+
+<!--<lb/>other <term type="occupation">headman</term> has <term type="ailment" ref="ailment.xml#ailm0009">enlarged scrotum</term> <add place="above">Had it at <space extent="5" unit="chars"/><placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> and <space extent="4" unit="chars"/>onwards</add> <add place="below">says now <space extent="2" unit="chars"/>it pains him!! <space extent="2" unit="chars"/>wants <space extent="3" unit="chars"/>pay without work I <unclear cert="high">fear</unclear></add> - I feel extremely thankful for all--><!-- Recoded to improve transformation. AW -->
+
+<lb/>you did for me in the most trying circumstances a man could be placed
+<lb/>in - I send a cheque for <choice><abbr>Rs</abbr><expan>Rupees</expan></choice> 4000 by <persName ref="people.xml#pers0002">Muhamad Bogharib</persName> - <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> becomes
+<lb/>smaller down here than stated in <bibl>my despatch</bibl> - "<measure><measure>2</measure> to <measure>4 miles</measure></measure>" - but it is still
+<lb/>a mighty river <add place="below">^</add> <add place="above">from <space extent="2" unit="chars"/><measure><measure>1 <choice><orig>½</orig><reg>1/2</reg></choice></measure> <space extent="4" unit="chars"/>to <measure>2 miles</measure></measure></add> = Please to detain the <bibl>Despatch</bibl> &amp; <bibl>letters</bibl> if you hear of
+<lb/>my being on the way down and near I should like <space extent="3" unit="chars"/>to <unclear cert="high">rewrite</unclear></p>
+
+    <ab>    
+<lb/>The <term type="occupation">Governor</term> is very <space extent="7" unit="chars"/><w>li<del><gap reason="damage" extent="1" unit="chars" agent="hole"/></del><supplied cert="high">b</supplied>eral</w> with presents of foolscap paper <placeName><settlement type="city">London</settlement></placeName> makers name <persName>Millington</persName> <date when="1867">1867</date> same as yours - <w>Sus-
+<lb break="no"/>picious</w>
+<lb/>I got a
+<lb/>sheet of
+<lb/>my own
+<lb/>paper
+    </ab>
+
+    <pb facs="liv_002569_0002" n="0002"/>
+<lb/><p><choice><sic>all</sic><corr>All</corr></choice> the hearsay written only in apprehension of never coming
+<lb/>out - Not a single line from <persName ref="people.xml#pers0194">Sir Paraffin Young</persName> since I left <placeName><country>England</country></placeName>
+<lb/>and I have written him by every opportunity - the money I sent for was to
+<lb/>be lifted from £1000 in <orgName ref="orgName.xml#org0007">Coutts</orgName><supplied>'</supplied> hands - mine not his - <bibl>letters</bibl> may be in the 
+<lb/>box which <persName ref="people.xml#pers0128">Muhamad bin Saleh</persName> had <bibl>my note</bibl> to open and take out medicines
+<lb/>and <bibl>letters</bibl> but <persName ref="people.xml#pers0166">M<hi rend="sup">r</hi> Shereef</persName> refused to allow him - If you write to <persName ref="people.xml#pers0163">Seward</persName>
+<lb/>remember me kindly to him and his wife - Take good care of your
+<lb/>better half &amp; child
+<lb/>move about as
+<lb/>often as you can
+<lb/>Good people are
+<lb/>scarce - I am
+<lb/>thankful to hear
+<lb/>you say that
+<lb/>my words have
+<lb/>had some little
+<lb/>effect at home -
+<lb/>I have often
+<lb/>said with a sore
+<lb/>heart, I have laboured in
+<lb/>vain &amp; spent
+<lb/>my strength for
+<lb/>nought &amp; in
+<lb/>vain, yet surely
+<lb/>my work is
+<lb/>with the Lord
+<lb/>and my <w>judg-
+<lb break="no"/>-ment</w> with my
+<lb/>god - the cheering
+<lb/>prospect of
+<lb/>stopping the
+<lb/><orgName><placeName><region>East Coast</region></placeName>
+<lb/>slave trade</orgName> belongs
+<lb/>to you, and
+<lb/>therein I do greatly
+<lb/>rejoice - The
+<lb/><term type="occupation">Sultan</term> must
+<lb/>get <term type="occupation">troops</term> who
+<lb/>will scorn the
+<lb/><placeName><region>mainland</region></placeName> &amp;
+<lb/>catch the bloody
+<lb/>thieves <placeName><region>inland</region></placeName>
+<lb/>By the counsel
+<lb/>of <add place="inline">an</add> old man
+<lb/>near him he is
+<lb/>said to have
+<lb/>parted with his
+<lb/>Belooches to save
+<lb/>expense - He
+<lb/>must not trust
+<lb/>to <orgName>Arabs</orgName> they are
+<lb/>such liars -
+<lb/>their <term type="occupation">prophet</term>
+<lb/>lied to reform
+<lb/><orgName>his countrymen</orgName> who now lie because it is
+<lb/>ingrained in their constitutions -</p>
+<lb/><p><space extent="4" unit="chars"/>In the event of detaining the <bibl>despatch</bibl> &amp; <bibl>letters</bibl>
+<lb/>you might give <space extent="3" unit="chars"/>the substance of <bibl>my letter to you
+<lb/>to the <orgName>Government</orgName></bibl> = I am rather anxious to
+<lb/>give but little to the public - <bibl>Four spurious <w>pub-
+<lb break="no"/>-lications</w></bibl> = were concocted from <bibl>my letters on my
+<lb/>journey across <placeName><bloc>the continent</bloc></placeName></bibl> - one a five shilling
+<lb/>book was sold in <placeName><bloc><country>America</country></bloc></placeName> &amp; all over the world
+<lb/>extensively as "<hi rend="underline">The book</hi>" It was by a schoolmaster
+<lb/>named <persName ref="people.xml#pers0011">Adams</persName> - <orgName ref="orgName.xml#org0021">Routledge</orgName> sold a shilling book as <!-- I think Routledge is the same publishing house as today, so tagging as orgName, but let me know if is actual person at this point in time. HB --><!-- Looks good to me. Indeed my publisher! AW -->
+<lb/>mine at all the railways in <placeName><country>England</country></placeName> &amp; <placeName><bloc><country>America</country></bloc></placeName>
+<lb/>and offered me £20 to hold my peace about it -
+<lb/>a <term type="occupation">secretary</term> of the <orgName ref="orgName.xml#org0014"><placeName><settlement type="city">London</settlement></placeName> Missionary Society</orgName> issued
+<lb/>a <bibl>pamphlet</bibl> = <bibl><persName ref="people.xml#pers0078"><choice><abbr>D<hi rend="sup">r</hi> L</abbr><expan>Doctor Livingstone</expan></choice></persName>'s life &amp; travels "with a map"</bibl>
+
+    <cb rend="vertical"/>
+<lb/>"<quote>by the author</quote>" and again advertised it with "<quote>revised by himself</quote>" another <term type="occupation">secretary</term> performed a like piece <!-- Adrian, I believe all these following quotes are from the actual pamphlet...should they be tagged with quote since directly from literature? HB --><!-- Fixed. AW -->
+<lb/>of villainy but palmed it off as from <orgName ref="orgName.xml#org0014">the "Society"</orgName> knowing that I would not injure a great Institution doing
+<lb/>work of priceless value in the world = Another <term type="occupation">secretary</term> of the same society indulged on a tirade <add place="below">^</add> <add place="above">in a <placeName><settlement type="city">London</settlement></placeName> church</add> against me as
+<lb/>"morally guilty of the death of <persName ref="people.xml#pers0048">M<hi rend="sup underline">r</hi> Helmore</persName>" <persName ref="people.xml#pers0032">Cooley</persName> regularly proved me all wrong in the <bibl>Athenæum</bibl> as soon
+<lb/>as <bibl>my letters</bibl> reached home - The <placeName><geogName type="river" ref="geogName.xml#geog0059">Liambai</geogName></placeName> which we found to be <measure>a mile broad</measure>  was "an undeveloped river" that
+<lb/>ran under the <placeName><geogName type="desert" ref="geogName.xml#geog0016">Kalahari desert</geogName></placeName> and was lost "and I was a fool to say that it was a river at all<supplied>"</supplied> - Give <persName ref="people.xml#pers0191">Waller</persName> a hint
+<lb/>not to answer him by name - It is the breath of life to him to be named - When I was silent he <hi rend="underline">entreated</hi> me to
+<lb/>argue the point of the <placeName><geogName type="river" ref="geogName.xml#geog0059">Liambai</geogName></placeName> with him and <bibl>Athenæum</bibl> <w>shu<del><gap reason="damage" extent="1" unit="chars" agent="blot"/></del><supplied cert="high">t</supplied></w> out <bibl>his letters</bibl> when I only joked at him without naming
+<lb/>him -"the great <term type="occupation">apostle</term> of hearsay geography"- <persName ref="people.xml#pers0191">Waller</persName> does not seem to know <persName ref="people.xml#pers0082">James Russell Lowell</persName><supplied>'</supplied>s <bibl>poems</bibl>
+<lb/>He is a <orgName>Northerner</orgName> and lashed the <orgName>slaveocracy</orgName> <!-- Never seen this word- I love it! HB --> of <placeName><region>the South</region></placeName> when they uttered the same trash as the <term type="occupation">Anthropologists</term>
+<lb/>till they were red hot with rage -"The mass aught to <space extent="3" unit="chars"/>labour and we lie on sofies" &amp;c &amp;c</p>
+<lb/><p rend="no-indent">A friend at <placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName> gave me a young <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> or <term type="animal">gorilla</term> lately - she sits 18 inches high and is the most 
+<lb/>intelligent and least mischievous of all the <term type="animal">monkeys</term> I have seen - I could not take her with me as
+<lb/>I am mobbed enough already - two <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal"><choice><orig>sokos</orig><reg>Sokos</reg></choice></term></term></foreign> she &amp; I would not get a breath of air - she is to be kept for me at
+<lb/><placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> - she walks on the backs of four fingers the space between the first joint &amp; second touching the ground -
+<lb/>the nails &amp; thumbs do not touch <unclear cert="high">it</unclear> = It is like the daft <term type="occupation">minister</term> you knew the legs are hitched forward as if the arms were crutches</p>
+            </div>
+
+            <div rend="vertical">
+<lb/><p><persName ref="people.xml#pers0136"><choice><orig>Moosa</orig><reg>Musa</reg></choice> <choice><orig>Kamaals</orig><reg>Kamaal</reg></choice></persName> was <w>detain<gap reason="damage" extent="1" unit="chars" agent="blot"/>ed</w> many months &amp; even sent back to <unclear cert="high"><placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName></unclear> He hid
+<lb/><add place="inspace" rend="small"><bibl>his <space extent="3" unit="chars"/>letter</bibl> <space extent="3" unit="chars"/>as his <space extent="16" unit="chars"/>wages <space extent="2" unit="chars"/>depended on <space extent="12" unit="chars"/>it -</add> 
+<lb/>The <bibl>40 letters</bibl> went off same day as <choice><sic><persName ref="people.xml#pers0136"><choice><orig>Moosa</orig><reg>Musa</reg></choice> Kamaal</persName>s</sic><corr><persName ref="people.xml#pers0136"><choice><orig>Moosa</orig><reg>Musa</reg></choice> Kamaal</persName>'s</corr></choice> <space extent="4" unit="chars"/>I
+<lb/>suspect the <term type="occupation">Governor</term> is guilty not to allow evidence
+<lb/>of the plunder of my goods by his man <persName ref="people.xml#pers0135">Musa bin
+<lb/><choice><orig>Salum</orig><reg>Salem</reg></choice></persName> going to <placeName><region>the coast</region></placeName> - Giving off my goods to his own
+<lb/>creature who stopped the <term type="occupation">porters</term> ten days while he plundered
+<lb/>was villainy - the <term type="occupation">porters</term> needed no one they had come so
+<lb/>far honestly - and then <persName ref="people.xml#pers0135"><choice><orig>Salum</orig><reg>Salem</reg></choice></persName> went off to buy ivory in
+<lb/><placeName><region ref="region.xml#region0004">Karagwe</region></placeName> - <space extent="3" unit="chars"/>I fear my two guns are abstracted from
+<lb/>the box which <persName ref="people.xml#pers0166">Shereef</persName> nurses - You packed it and it is
+<lb/>now repacked with I suspect <choice><sic><persName ref="people.xml#pers0166">Shereef</persName>s</sic><corr><persName ref="people.xml#pers0166">Shereef</persName>'s</corr></choice> connivance
+<lb/>but I may be mistaken - It is suspicious that <persName ref="people.xml#pers0166">Shereef</persName>
+<lb/>persisted in keeping it close in spite of my written order to
+<lb/><persName ref="people.xml#pers0128">Muhamad bin Saleh</persName> to open it or sent it entire - the men came
+<lb/>without loads - a party went from us to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> told <persName ref="people.xml#pers0166">Shereef</persName>
+<lb/>that I was near and waiting for him - invited him to come with
+<lb/>them so he is inexcusable</p>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
