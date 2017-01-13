@@ -21,6 +21,11 @@
                     <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
                     <resp>Encoding</resp>
                 </respStmt>
+                <respStmt xml:id="BL"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Blaze Livingston</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -64,6 +69,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-01-13" who="#BL">Codding Review</change>
+			<change when="2017-01-13" who="#AW">Codding Review</change>
             <change when="2016-10-13" who="#AW">Proofing</change>
             <change when="2016-10-08" who="#LG">Initial transcription and XML encoding</change>
 			<!-- Note that @who initials are taken from <respStmt> above -->
@@ -80,10 +87,10 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 
-<lb/><opener><dateline rend="right"><placeName><settlement type="river">River Zambesi</settlement></placeName> <date when="1859-08-06">6<hi rend="sup underline">th</hi> August<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
-<lb/><space extent="5" unit="words"/>1859</date></dateline><!-- Change line info as appropriate -->
+<lb/><opener><dateline rend="right"><space extent="1" unit="words"/><placeName><settlement type="river">River Zambesi</settlement></placeName> <date when="1859-08-06">6<hi rend="sup underline">th</hi> August,<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
+<lb/><space extent="7" unit="words"/>1859</date></dateline><!-- Change line info as appropriate -->
 <lb/><space extent="2" unit="chars"/><salute>My Dear Sir</salute></opener><!-- Change line info as appropriate -->
-<lb/><p><space extent="2" unit="words"/>I ought to have written
+<lb/><p><space extent="2" unit="words"/><space extent="2" unit="chars"/>I ought to have written
 <lb/>long ago to let you know that the hard
 <lb/>work unmercifully imposed on me
 <lb/>by our contracting engineer has not
@@ -113,7 +120,7 @@
                 
 	<pb facs="liv_00146_0002" n="0002"/>
 <lb/><p rend="no-indent">and waiting for the slow movement
-<lb/>of an engin really destined I believe
+<lb/>of an engine really destined I believe
 <lb/>to grind <term type="foodstuff">coffee</term> in a shop window, but
 <lb/>palmed off on us at an enormous
 <lb/>price, by a <term type="occupation">philanthropist</term>! I never
@@ -139,70 +146,66 @@
 <lb/>in altitude, and then we were among
 <lb/>mountains at least <measure>6000 feet high</measure>
 
-<!-- stop here -->
 	<pb facs="liv_00146_0003" n="0003"/>
 <lb/>and all green and covered with trees
-<lb/>to the top. One, 30 mba has a flat
-<lb/>top and is inhabited- We could see
-<lb/>the gardens from below- Its top is
-<lb/>quite <measure> fifteen miles</measure> broad- And then
+<lb/>to the top. One, <placeName><geogName type="mountain">Zomba</geogName></placeName>, has a flat
+<lb/>top and is inhabited - We could see
+<lb/>the gardens from below - Its top is
+<lb/>quite <measure>fifteen miles</measure> broad - and then
 <lb/>all the country below is so fertile
 <lb/>that one is quite buried in the tall
-<lb/>grass<measure> 7 or 8 feet high-</measure> Every few
+<lb/>grass <measure>7 or 8 feet high</measure> - Every few
 <lb/>miles you cross a running stream
-<lb/>or <unclear cert="low"> burn</unclear>, and large fields of cotton,
-<lb/>grain, and kassava (from which
-<lb/>tapioca is made) are met with. Sugar
-<lb/>cane grows every where, and but
-<lb/>little care is needed- This above
+<lb/>or burn, and large fields of <term type="plant">cotton</term>,
+<lb/><term type="plant_foodstuff">grain</term>, and <term type="plant_foodstuff">kassava</term> (from which
+<lb/><term type="foodstuff">tapioca</term> is made) are met with. <term type="plant">Sugar
+<lb/>cane</term> grows everywhere, and but
+<lb/>little care is needed. This above
 <lb/>all countries is calculated to yield
 <lb/>the new materials of our commerce
 <lb/>and if it should please Providence
 <lb/>to permit us to introduce the
 <lb/>trade in these we shall do something
-<lb/>to <unclear cert="low"> render</unclear> the extinction of slavery- We
+<lb/>towards the extinction of <orgName>slavery</orgName>. We
 <lb/>are now on our way back to the
 <lb/>Lake region, and this time I have
-<lb/><unclear cert="low"> Dr. Kirk-</unclear> <unclear cert="high"> Mr</unclear> G. Livingstone (my
-<lb/>brothr) and <unclear cert="low"> Mr Rae, a</unclear> scotchman
+<lb/><persName>D<hi rend="sup underline">r</hi> Kirk</persName> - <persName>M<hi rend="sup underline">r</hi> <choice><abbr>C.</abbr><expan>Charles</expan></choice> Livingstone</persName> (my
+<lb/>brother) and <persName>Mr Rae</persName>, all <term type="people">Scotchmen</term>
 <lb/>in company, and hope to look 
-<lb/>at a much larger lake beyond <placeName><geogName type="lake"> Shirwa</geogName></placeName>-
-<lb/>By the discovery in the <unclear cert="low">no idea?</unclear>
+<lb/>at a much larger lake beyond <placeName><geogName type="lake">Shirwa</geogName></placeName> -
+<lb/>By the discoveries in the <unclear cert="low">no idea?</unclear>
 
 	<pb facs="liv_00146_0004" n="0004"/>
-<lb/>Africa will soon appear to be a very
+<lb/><placeName><bloc>Africa</bloc></placeName> will soon appear to be a very
 <lb/>different region from the sandy deserts
-<lb/>of the <unclear cert="low">harp</unclear> makers, and I earnestly
+<lb/>of the <orgName><term type="occupation">Map makers</term></orgName>, and I earnestly
 <lb/>hope that I may see a beginning of a
-<lb/>new state of things than a nightly slave
-<lb/>market- We think that we have <unclear cert="low">endured</unclear>
-<lb/><unclear cert="low">the</unclear> African fever less formidable- And
-<lb/>should <unclear cert="medium">the such fertile</unclear> country, most of 
-<lb/>which now lies untilled, welcome the
+<lb/>new state of things than a nightly <orgName>slave</orgName>
+<lb/>market. We think that we have rendered
+<lb/>the <term type="ailment">African fever</term> less formidable - and
+<lb/>should the rich fertile country, most of 
+<lb/>which now lies untilled, become the
 <lb/>means of assisting our own home honest
 <lb/>poor by colonization, I think I should
-<lb/>die contented- We have had but little
+<lb/>die contented. <space extent="2" unit="chars"/>We have had but little
 <lb/>news from home but that little contained
-<lb/>the information <unclear cert="low">??  ?? ??</unclear>had
+<lb/>the information that <persName>Miss Coutts</persName> had
 <lb/>most munificently provided religious
-<lb/>instruction for the new colony and this
+<lb/>instruction for the new <placeName>Colony</placeName> and this
 <lb/>greatly gladdened my heart.</p>
-<lb/><p>I have little to say on business-
+<lb/><p><space extent="1" unit="words"/>I have little to say on business.
 <lb/>I was obliged to have my wife at the
-<lb/><unclear cert="low">?</unclear> and she went with her parents
-<lb/>up to <placeName><unclear cert="low">Kuruman</unclear></placeName>--<measure>500 miles inland-</measure>
-<lb/>She has been <unclear cert="low">???</unclear> on the  £500 you
-<lb/>kindly placed for me at Mr. Dickson's
+<lb/><placeName><region>Cape</region></placeName> and she went with her parents
+<lb/>up to <placeName><settlement type="village">Kuruman</settlement></placeName> - <measure>500 miles inland</measure>.
+<lb/>She has been drawing on the £500 you
+<lb/>kindly placed for me at <persName>Mr. Dickson</persName>'s
 <lb/>I don't know how much, for we
-<lb/>no penny postage nuisance here-
-<lb/>The government has been aware of
-<lb/>my life being yet spared, and <unclear cert="low">???</unclear>
-<lb/>you have been <unclear cert="low">??</unclear> my<unclear cert="low">??</unclear>
-<lb/>ssalary in consequence.</p>
-<!-- More transcribed text -->
-<!-- If there is a letter or similar with a closer with content such as salute or signed -->
-<lb/><closer><salute>I am Most Truly Yours;</salute><!-- Change as appropriate -->
-<lb/><signed><persName>David Livingstone</persName></signed></closer><!-- Change as appropriate --> 
+<lb/>no penny postage nuisance here -
+<lb/>The <orgName>Government</orgName> has been aware of
+<lb/>my life being yet spared, and I suppose
+<lb/>you have been drawing my <term type="occupation">consular</term>
+<lb/>salary in consequence. <space extent="2" unit="chars"/>With kind saluations
+<lb/>I am most Truly Yours <persName>David Livingstone</persName></p> 
 
 
 
