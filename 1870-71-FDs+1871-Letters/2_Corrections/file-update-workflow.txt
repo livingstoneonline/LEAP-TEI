@@ -1,20 +1,26 @@
 A) Update Core Data/Manuscripts
-v/1. update ZIP spreadsheet using MODS spreadsheet
-2. generate new MODS
-3. remove old ZIP spreadsheet from all uncompressed, SA, and non-spectral packets
-4. add new ZIP spreadsheet & MODS to uncompressed packets & SA packets
-5. add new ZIP spreadsheet & MODS & all relevant XML files to nonSpectral zip packets
-6. remove hidden files
-7. ZIP all uncompressed folders
-8. add new ZIP folders and new MODS to all core data/manuscript folders
-9. remove manifests
-10. remove hidden files
+v//1. update ZIP spreadsheet using MODS spreadsheet
+v//2. generate new MODS
+v//3. remove old ZIP spreadsheet from all uncompressed, SA, and non-spectral packets
+v//4. add new ZIP spreadsheet to uncompressed packets, SA & nonSpectral packets using:
+
+for dir in */*; do [ -d "$dir" ] && cp 1_Livingstone_Online_Digital_Catalogue_12_Jan_2017.xlsx "$dir" ; done
+
+v//5. add MODS to all uncompressed packets & SA packets
+v//5. MODS & XML/PDF/HTML files to nonSpectral zip packets
+v//6. remove hidden files
+v//7. ZIP all uncompressed folders
+v//8. add new ZIP folders and new MODS to all core data/manuscript folders, distribute, retain nonSpectral
+v//9. remove manifests
+v//10. remove hidden files
 
 B) Update Spectral
-1. Go to Images-with-Metadata-ZIPs (uncompressed)
+v//1. Go to Images-with-Metadata-ZIPs (uncompressed)
 2. remove old ZIP spreadsheet from all subdirectories
 3. add new ZIP spreadsheet to all subdirectories using: 
-	for dir in */*; do [ -d "$dir" ] && cp 1_Livingstone_Online_Digital_Catalogue_18_Sept_2016.xlsx "$dir" ; done
+
+for dir in */*; do [ -d "$dir" ] && cp 1_Livingstone_Online_Digital_Catalogue_12_Jan_2017.xlsx "$dir" ; done
+
 4. distribute new XML files (xml, pdf, html) and new MODS to all main directories
 5. copy XML and MODS into all subdirectories using (see workflow): 
 	copy-files-in-mult-dir-to-mult-subdr.sh

@@ -10,11 +10,9 @@ copy files of a certain type
 find . -type f -name \*_MODS.xml -exec cp \{\} ~/Desktop/new \;
 
 move files of a certain type
-find . -type f -name \*.tif -exec mv \{\} /Volumes/HD-Reviv/liv_000095_TIFF \;
+find . -type f -name \*_MODS.xml -exec mv \{\} /Volumes/HD-Reviv/liv_000095_TIFF \;
 
 
 remove spectral zip files
 
 find . -type f -d 2 -name \*.xml -exec mv \{\} /Volumes/Mr-Blue-Cat/z-removed \;
-
-
