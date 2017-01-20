@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000493"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to John Naismith, Sr.</title>
+                <title type="alternative">Letter to John Naismith, Sr., 2 December 1841</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="BL">
+                    <name>Blaze Livingston</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_000493</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Washington, D.C.</settlement>
+                        <repository>Smithsonian Institution. Libraries. Joseph F. Cullman 3rd Library of natural History</repository>
+                        <idno type="shelfmark">M081</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0038</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to Unknown, Date Unknown (No Later than 1873)</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1841-12-02">2 December 1841</date>
+                    <placeName type="compositionPlace">Kuruman</placeName>
+                    <persName type="addressee">John Naismith, Sr.</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-12-06" who="#AW">Coding review</change>
+            <change when="2016-12-01" who="#BL">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000493_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><space extent="5" unit="words"/><placeName><geogName type="settlement">Kuruman</geogName></placeName> <date when="1841-12-02">2<hi rend="sup">d</hi> <choice><abbr>Dec</abbr><expan>December</expan></choice><hi rend="sup">r</hi> 1841</date>
+</dateline>
+<lb/><salute>My Dear Brother in the Lord</salute></opener>
+<lb/><p><space extent="7" unit="words"/>Knowing that you take a deep
+<lb/>interest in everything relating to the extension of the <app><rdg>Redeemers</rdg><rdg>Redeemer's</rdg></app>
+<lb/>kingdom both at home &amp; abroad, and feeling persuaded
+<lb/>that the relationship which has existed between us is still
+<lb/>sometimes remembered both by you and the Church in
+<lb/><placeName><geogName type="town">Hamilton</geogName></placeName> I have no hestiancy in writing you a short
+<lb/>epistle respecting the dark negros of the world  a negro of <!-- did I read this line correctly? Writing is legible, but I was under the impression that Livingstone avoided the saying "negro" and similar verbage. Could be before that decision/I could've misunderstood. Please review. BL. -->
+<lb/>which it may truly be said it is the <del><gap extent="1" unit="words"/></del><add rend="above">"land of</add> shadow
+<lb/>of death." Darkness <unclear>more</unclear> than <term type="nationality">Egyptian</term> has overspread it
+<lb/>And Satan <unclear>low</unclear> has retained in undisturbed possession, his
+<lb/>seat in it, - <del><gap extent="2" unit="words"/></del><unclear>pert</unclear> now returned from a journey
+<lb/>of about 700 mile<del><gap extent="2" unit="chars"/></del> length during which I <add rend="below">^</add><add rend="above">have</add> had ample
+<lb/>opportunities of observing the miserable state of the inhabitants
+<lb/>in the <placeName><geogName type="region">Interior</geogName></placeName> of the continent and really no words can
+<lb/>express their sad conditions. Their state now is generally
+<lb/>wretched in the extreme and their prospects for the future
+<lb/>are as dark as midnight. We visited several tribes, some
+<lb/>of whom had never seen a white man except one <unclear>on</unclear>
+<lb/><choice><sic cert="medium">enterpreneuring</sic><corr>entrepreneuring</corr></choice> <term type="nationality">Scotch</term> trader who a few years ago visited
+<lb/>much of the <placeName><geogName type="region">Interior</geogName></placeName> in serach of Ivory &amp; one tribe which
+<lb/>had lived out of the tract of other traders who have since
+<lb/>gone into the country had never beheld a white face so
+<lb/>our just intercourse with them was sufficiently amusing
+<lb/>and then subsequent kindness, good behaviors and
+<lb/>good sense of their chief have quite endeared them to
+<lb/>us, West of the other tribes being accustomed to see traders
+<lb/>surrounded our <choice><orig>waggons</orig><reg>wagons</reg></choice> as soon as we approached their
+<lb/>towns, commencing begging with all their might, a
+<lb/>failure for which generally they <add rend="above"><unclear>Pechanas</unclear></add><!-- is "Pechanas" the tribe name? BL. --> are <unclear>note</unclear><del><gap extent="1" unit="words" agent="fading"/></del> But
+<lb/>here the women fled into their houses &amp; the child<!--Should I correct to "children"?; no evidence of more letters on page, also may possibly be referring to a single child? Please review. BL. -->
+<lb/>screamed in turns the men with the chief in the centre were
+<lb/>drawn up in line before <del><gap extent="1" unit="chars" agent="illegible"/></del> <unclear>Fever</unclear> &amp; waited respectfully until
+<lb/>we had unyoked &amp; approached them after salutations <unclear>they
+<lb/>panted</unclear> out to his dignitaries who advanced &amp; formed a semicircle
+<lb/>The chief in the centre of it &amp; <del type="strikethrough">myself</del> <persName>Mr Edwards</persName> &amp; myself with
+<lb/>two of our <term type="faith"><choice><sic>christian</sic><corr>Christian</corr></choice></term> <orgName>natives</orgName> who accopmanied us in the middle
+<lb/>thus arranged we sat down on the sand when refreshments
+<lb/>were brought of which the chief tasted &amp; then handed over
+<lb/>to us. We were quite at home with them all in a minute
+<lb/>or two as they knew one of our <orgName>native</orgName> <term type="faith">Christians</term>, (the
+<lb/>son of an ungodly<!-- right word? BL. --> chief) and he explained our objects --</p>
+<lb/>
+<lb/><cb rend="vertical"/><ab>When you write please <unclear cert="low">attach</unclear> me at <unclear><placeName>Kuruman</placeName></unclear> <app><rdg>Cave</rdg><rdg>Cove</rdg></app> of <persName><choice><abbr>Rev<hi rend="sup">d</hi></abbr><expan>Reverend</expan></choice> <choice><abbr>D<hi rend="sup">r</hi></abbr><expan>Doctor</expan></choice> Phillip</persName> Church Square <placeName><geogName type="city">Cape Town</geogName></placeName>
+<lb/>By the end of next month I hope again to go with the veterans <del type="strikethrough">with</del> for the purpose of planting two of our <choice><orig>bretheren</orig><reg>brethren</reg></choice>
+<lb/>amongst a tribe of<del><gap extent="1" unit="words" agent="fading"/></del> countrymen - I shall remain some time with them, kind regards to <persName>Mrs M</persName>.
+<lb/><space extent="21" unit="words"/>yours <choice><abbr>affecly</abbr><expan>affectionately</expan></choice>
+<lb/><space extent="23" unit="words"/>&amp; DL.</ab><!-- Livingstone initialed here. Still keep <signed> tags? BL. --><space/>
+
+	<pb facs="liv_000493_0002" n="0002"/>
+<lb/><p rend="no-indent">One of the chiefs having sore eyes I promised him medicine which
+<lb/>pleased him so much he never afterward left my <choice><orig>waggons</orig><reg>wagons</reg></choice>
+<lb/>except for the purpose of bringing me <term type="foodstuff">beans</term>, <term type="foodstuff">porridge</term> or <unclear>nul</unclear><!--gets cut off by page. BL. -->
+<lb/><space extent="1" unit="chars"/><!-- doesn't seem like a new paragraph, too small an indent. BL. -->We then went to the <choice><sic>chiefs</sic><corr>chief's</corr></choice> house and in passing through to
+<lb/><placeName>Town</placeName><!--seems capitalized, treating as placeName. BL. --> the women peeped past their gateways but none of them
+<lb/>dared to wait <choice><orig>untill</orig><reg>until</reg></choice> we came near, the very dogs <choice><orig>stopt</orig><reg>stopped</reg></choice> <unclear>me</unclear><!-- again, cut off by page. BL. -->
+<lb/>to bark but fled with precipitation as if they had seen a
+<lb/><term type="animal">lion</term> or <term type="animal">tiger</term><!-- terms here used figuratively. Should they still be tagged? BL. -->, But before we left we had gained <app><rdg>its</rdg><rdg>his</rdg></app> confidence<!--word crosses pages. BL. -->
+<lb/>His gospel preached by <persName>Mr E.</persName> &amp; our people without the least
+<lb/>appearance of fear, and all behaved with decorum both
+<lb/>during sermon &amp; prayer - I feel <unclear cert="low">wicked</unclear> to say much more
+<lb/>about this tribe but forbear in order that I may have a
+<lb/>little space to speak concerning the great importance of
+<lb/>the churches at home immediately taking possession of these
+<lb/>tribes in the name of the Lord. When men &amp; lands are
+<lb/>discovered by voyagers it is their custom to take <w>possess-
+<lb break="no"/>-ion</w> of them in name of their monarch <unclear>when</unclear> we can
+<lb/>take possession of these tribes in a far nobler sense
+<lb/>Every church almost might take a tribe under its care
+<lb/>for if we can place two <orgName>native</orgName> teachers any of their
+<lb/>towns. they being able to keep school &amp; preach in their
+<lb/>own simple affectionate manner His message of mercy
+<lb/><del type="blot">and</del> <del type="strikethrough">theirs</del> I hesitate not to say as much towards th<add>-eir</add> - <w>evange<supplied>-</supplied>
+<lb break="no"/>-lization</w> will by His Divine blessing be affected in the
+<lb/>first few years as can be expected from the labours
+<lb/>of any two <orgName>Europeans</orgName> -- When we preach to <unclear>amen</unclear>
+<lb/>people it takes a long time to efface from the <orgName>native</orgName> mind
+<lb/>an impression that what we teach is nothing else than
+<lb/>different customs to which we have become attached
+<lb/><q>"These are just ways of these foreigners"</q> say they but
+<lb/><choice><sic>But</sic><corr/></choice> when one of themselves tells them of the way of
+<lb/>life then their minds are brought more directly in
+<lb/>contact with the truth and they are not diverted away
+<lb/>from the subject by the peculiar strangeness which
+<lb/>always clings to foreigners in every country
+<lb/>What I cannot ipress your mind with the importance of
+<lb/>having <orgName>native</orgName> agents at work amongst these benighted
+<lb/>people so much as I could wish But if you had
+<lb/>beheld with me the vast difference manifested by tribes <del type="blot">24</del><!--may be different number or similar looking character. BL. -->
+<lb/><measure>250 miles</measure> Northward and those only <measure>50</measure> <add place="below">^</add><add place="above">distant</add> In the same direction
+<lb/>or <measure>80</measure> to the East &amp; East by North, who have again &amp;
+<lb/>again heard the gospel but amongst whom no regular
+<lb/>systematic operations have yet been <del><gap extent="1" unit="words"/></del> carved on
+
+	<pb facs="liv_000493_0003" n="0003"/>
+<lb/>you certainly would heartily wish that the influences which
+<lb/>have made <del><gap extent="1" unit="chars"/></del> the surrounding <choice><sic>tribes</sic><corr>tribe's</corr></choice> scorners &amp; bitter opponent
+<lb/>of the gospel might not reach those more distant before the
+<lb/>truth has made some "headway" amongst them, near to us
+<lb/>that is, within <measure>100</measure> or <measure>150 miles</measure> north &amp; N: ,E,<!--please review, a lot of wierd small vertical marks. BL. --> the people are
+<lb/>visited by traders, <unclear cert="low">Griepas</unclear> &amp; who have given diseases but
+<lb/>in remedies either for body or mind and many of them
+<lb/>from having lived as <unclear>this,</unclear><hi rend="sup">4</hi> Stations know the truth
+<lb/>but have become gospel hardened. But legend that
+<lb/>they are more free from the contamination of Europeans
+<lb/>more unsophisticated &amp; behave more respectfully to <term type="occupation">missionary</term>
+<lb/>they appear to me to be somewhat in the same position as
+<lb/>the <orgName>natives</orgName> of newly discovered blends in the South Seas
+<lb/><unclear agent="fold">of that we had the</unclear><del><gap extent="1" unit="words"/></del> to send some of our converts<!--might be a similar word. BL. --> amongst
+<lb/>these people, some <add place="below">^</add><add place="above">here</add> are willing to go and the <del><gap extent="3" unit="words" agent="hole"/></del>
+<lb/>greater wordly <del><gap extent="2" unit="words"/></del> then what <orgName>Christians</orgName> <unclear>ashame</unclear><!--may be something like "ashew"? BL. -->
+<lb/>give their money <del><gap extent="1" unit="words"/></del> although they give largely, For
+<lb/><measure>£10</measure> is by no means sufficient to support one in this
+<lb/>country, they receive it thankfully as an assistance but
+<lb/>they are still occasionally to go out &amp; hunt, but in this
+<lb/>they are also useful for <unclear>rewe</unclear> in hunting when they
+<lb/>arrive at villages collect the people &amp; preach to the <del><gap extent="1" unit="words"/></del>
+<lb/>I shall speak freely (but privately) to you &amp; I impore you
+<lb/>to try if you with my Dear friends <persName>John</persName> &amp; <persName>Samuel</persName>, cannot
+<lb/>somehow or another collect as much as <unclear>seculera</unclear> <orgName>natives</orgName>
+<lb/><term type="occupation">Missionary</term> as your representative <del type="strikethrough">here</del> in the <placeName><geogName type="region">Interior</geogName></placeName>
+<lb/>As the <orgName>natives</orgName> say "my heart asks strongly" <hi rend="underline">two</hi>
+<lb/>But knowing the circumstances of the church I have
+<lb/>not confidence to write them <choice><orig>publicly</orig><reg>publically</reg></choice> if you can do anything
+<lb/>more than you are now doing Do think of <del><gap extent="1" unit="words"/></del>
+<lb/><placeName><geogName type="region">Interior</geogName></placeName> of Africa had with <persName>John</persName> &amp; <del><gap extent="2" unit="words"/></del>
+<lb/>As I can; Remember we to <unclear>this</unclear> J. &amp; S. &amp; the <del><gap extent="2" unit="chars"/></del> on. I
+<lb/>knew they have love to the cause of Christ and they will
+<lb/>make an effort to help it on here. If you saw my
+<lb/>heart you would excuse me for wanting so urgently and
+<lb/>what I implore you to attempt if possible, I am not
+<lb/>unwilling to attempt myself. By being hard I fondly hope to
+<lb/>be able to support 1 if not 2 from my salary which is at
+<lb/>present such as is no more than sufficient to keep me
+<lb/>in the rank of a tradesman at home and I am willing
+<lb/>to <unclear>beat</unclear><!-- is there a better fitting word? BL. --> all the fatigue &amp; expense of taking these teachers
+<lb/>to their destination. Each journey amount to about <measure>£6</measure>
+
+	<pb facs="liv_000493_0004" n="0004"/>
+<lb/>I mention these things implicitly believing that they will not go
+<lb/>a single step beyond your own family <unclear>work</unclear> &amp; I mention
+<lb/>I do not think by way of boasting But I feel so anxious for
+<lb/>the object I wanted to anything, if anything more than letting
+<lb/>you <del><gap extent="1" unit="words"/></del> knew the real state of the case were necessary
+<lb/>to <unclear>stit</unclear> you up &amp; provoke you to love &amp; good works
+<lb/>I know you dont need it but my heard was speaking
+<lb/>the Church here raises annually between <measure>£20</measure> &amp; <measure>£30</measure> &amp; there is
+<lb/>scarcely any money amongst them, most of them are
+<lb/>really poor, none so as negros food &amp; clothing than
+<lb/>wearers in Hamilton, yesterday 1 paid my driver <measure>18
+<lb/>dollars</measure> <del type="strikethrough">for</del> as wages for the journey which we had first
+<lb/>concluded &amp; in which he had endured an immense
+<lb/><del><gap extent="2" unit="words"/></del>fatigue, no sooner had he the money in his
+
+	<cb/>
+<lb/>hand than he walked over to the <unclear>table</unclear> where <persName>Mr Edwards</persName>
+<lb/>was sitting &amp; paid down 12 our of the 18 to assist
+<lb/>the spread of the gospel. This amongst a people
+<lb/>where money is scarce &amp; valuable &amp; amongst a people
+<lb/>notorious for niggardliness was <unclear>chewing</unclear> to our
+<lb/>hearts &amp; this instance is not <choice><sic>nohtary</sic><corr>notary</corr></choice> -- that excellent
+<lb/>good old man  <persName>Mr. Hamilton</persName> sends his Christian salutation to <persName>M<hi rend="sup">rs</hi> M</persName>.
+<lb/>I told him I should tell you about our need of <orgName>native</orgName> teachers, O Do
+<lb/>said he and just try &amp; let them know the real state of the case"<!-- unmatched quotation marks. BL. -->
+<lb/>this however is impossible you must see with your own eyes
+<lb/>the good that has been effected by theirs <unclear>success</unclear> &amp; the sad state
+<lb/>of those who now sit without even the means of enlightenment
+<lb/><cb rend="vertical upside-down"/>before you can appreciate fully their great
+<lb/>value</p>
+<lb/>
+<lb/><ab rend="vertical"><figure><figDesc>a black stamp that reads "THE" (or something similar) "LETTER", vertically.</figDesc></figure>
+<lb/><del type="strikethrough">Care of <persName><choice><abbr>Rev<hi rend="sup">d</hi></abbr><expan>Reverend</expan></choice> <choice><abbr>D<hi rend="sup">r</hi></abbr><expan>Doctor</expan></choice> Phillip</persName> Church square</del><!-- not sure if actual deletion or misplaced underline. BL. -->
+<lb/><space extent="1" unit="words"/><hi rend="right underline"><del type="strikethrough"><placeName><geogName type="city">Cape Town</geogName></placeName></del></hi>
+<lb/><space extent="2" unit="words"/><figure><figDesc>an "S"-shape squiggly line</figDesc></figure> <space extent="1" unit="words"/><figure><figDesc>a large sideways "8" written over address lines.</figDesc></figure>
+<address>
+<addrLine><space extent="1" unit="words"/><persName><choice><abbr>M<hi rend="sup">r</hi></abbr><expan>Mister</expan></choice> John Naismith, <hi rend="underline"> Senior</hi></persName></addrLine>
+<addrLine><space extent="3" unit="words"/><term type="occupation"><hi rend="underline">Leather Merchant</hi></term></addrLine>
+<addrLine><space extent="2" unit="words"/><placeName>Hamilton</placeName></addrLine>
+<addrLine><space extent="1" unit="words"/><placeName>Lanarkshire</placeName></addrLine>
+<addrLine rend="right large">N.<app><rdg>R.</rdg><rdg>B.</rdg></app></addrLine></address>
+<lb/><figure><figDesc>Red circle stamp with "1842" encircled.</figDesc></figure> <figure><figDesc>Faded Red rectangular stamp overlapping red circle stamp. Illegible.</figDesc></figure>
+</ab>
+			
+
+			</div>
+        </body>
+    </text>
+
+</TEI>
