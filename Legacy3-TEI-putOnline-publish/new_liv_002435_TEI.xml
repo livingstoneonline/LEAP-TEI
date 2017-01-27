@@ -66,6 +66,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-01-27" who="#AW">Coding review</change>
+			<change when="2017-01-27" who="#BL">Coding review</change>
 			<change when="2017-01-17" who="#BL">Proofing</change>
             <change when="2016-10-17" who="#LG">Initial transcription and XML encoding</change>
         </revisionDesc>
@@ -79,127 +81,121 @@
 
 <!-- I have questions for you regarding how to handle the vertical text; the coding guidelines instruct me to end the previous text as a paragraph (even if it's not the end of a paragraph) and open the vertical text as a new paragraph. Do I need to close the vertical text as a paragraph as well, and then reopen the continued horizontal text as a new paragraph? Should I just continue and not mark the continued horizontal text as a new paragraph? -->
 
-<lb/><opener><add place="inline"><gap reason="illegible" extent="4" atLeast="3" atMost="5" unit="chars"/> <unclear cert="medium">Village</unclear> 4</add><space extent="1" unit="chars"/> <dateline><placeName>Bombay</placeName> <date when="1865-11-17">17 <choice><abbr>Nov.</abbr><expan>November</expan></choice><hi rend="sup"><unclear cert="low">br</unclear></hi> 1865</date></dateline>
+<lb/><opener><metamark/><add place="inline" rend="gray small"><gap reason="illegible" extent="4" atLeast="3" atMost="5" unit="chars"/> <unclear cert="medium">Village</unclear> 4</add> <dateline><placeName><settlement type="city">Bombay</settlement></placeName> <date when="1865-11-17">17 <choice><abbr>Nov.</abbr><expan>November</expan></choice><hi rend="sup">r</hi> 1865</date></dateline>
 <lb/><add place="inline" rend="gray vertical large diagonal">42</add>
-<lb/><measure>CCCXXXIX</measure><!-- The number is 329, and I have no idea what it could be referring to. Considering a measurement for the time being. BL.--> <space extent="1" unit="chars"/><add place="inline" rend="blue">14</add><!-- number is circled. Not sure how to code. BL. -->
-<lb/></opener>
-<lb/><ab>My Dearest <persName>Annie</persName></ab><!-- having this line in opener makes it appear at the bottom and messes with format/size. Using <ab> seems to work just fine. BL -->
-
-<p rend="left"><lb/><space extent="1" unit="words"/>You have hit on an
+<lb/>CCCXXXIX<!-- The number is 329, and I have no idea what it could be referring to. Considering a measurement for the time being. BL.--> <space extent="1" unit="chars"/><add place="inline" rend="blue"><metamark/>14</add><!-- number is circled. Not sure how to code. BL. --></opener>
+<lb/><p rend="no-indent">My Dearest <persName>Nannie</persName></p><!-- having this line in opener makes it appear at the bottom and messes with format/size. Using <ab> seems to work just fine. BL -->
+<lb/><p><space extent="1" unit="words"/>You have hit on an
 <lb/>admirable plan, and here
 <lb/>you see the influence of good
 <lb/>example for I have adopted
-<lb/>it too. I have duly received
-<lb/>your III and as <persName><choice><abbr>M<hi rend="sup">s</hi></abbr><expan>Miss</expan></choice> Stearns</persName>
+<lb/>it too - I have duly received
+<lb/>your III and as <persName>M<hi rend="sup">s</hi> Stearns</persName>
 <lb/>despatches a ship on the <date when="1865-11-20">20<hi rend="sup">th</hi></date>
-<lb/>to <settlement type="city">Suez</settlement> I begin a note to be
-<lb/>in <unclear>need of men</unclear> for that occurs
-<lb/><unclear cert="low">on</unclear> I am getting very uneasy
+<lb/>to <placeName><settlement type="city">Suez</settlement></placeName> I begin a note to be
+<lb/>in readiness for that <w>occass
+<lb break="no"/>ion</w>. I am getting very uneasy
 <lb/>to be off - no word has yet
 <lb/>come from the <term type="occupation">Admiral</term> and
 <lb/>as I am all ready to start I
 <lb/>am not at all reconciled
-<lb/>to delay - I have <measure>12</measure> men of
-<lb/>the <term type="occupation">Marines</term> &amp; <placeName>Mavildar</placeName> a
-<lb/><orgName>native</orgName> officer ready to go
+<lb/>to delay - I have 12 men of
+<lb/>the <term type="occupation">Marines</term> &amp; a <term type="occupation">Havildar</term> or
+<lb/><orgName>native</orgName> <term type="occupation">officer</term> ready to go
 <lb/>at a moment's notice - Then
-<lb/><measure>8</measure> <orgName>Africans</orgName> from <placeName>Nassick</placeName><!--Not sure if they're "from" a village named Nassick or from a person names as such. BL> --> </p> 
-<lb/>
-<p><lb/><cb rend="vertical"></cb>Love to <unclear><persName>Madline</persName></unclear> tocédé<unclear> <!-- French for Tobacco? Best I can come up with. BL. !--></unclear></p>
+<lb/>8 <orgName><orgName>Africans</orgName> from <placeName><region>Nassick</region></placeName></orgName><!--Not sure if they're "from" a village named Nassick or from a person names as such. BL> --> </p> 
+<lb/><cb rend="vertical"/>
+<lb/><p rend="no-indent">Love to <persName>Madame Hocédé</persName></p>
 
     <pb facs="liv_002435_0002" n="0002"/>
-
-<p><lb/>a Government school for
+<p><lb/>a <orgName>Government school for
 <lb/>the education of captured &amp;
-<lb/>liberated <orgName>Africans</orgName> - <measure>Five</measure> more
+<lb/>liberated <orgName>Africans</orgName></orgName> - Five more
 <lb/>from the <placeName><geogName type="river">Zambesi</geogName></placeName> go part
 <lb/>of the way, and <measure>two</measure> boys
 <lb/>whom we once gave to 
 <lb/><persName>Bishop Mackenzie</persName> - They
-<lb/>have been at <persName>D<hi rend="sup underline">r</hi> Wilson's</persName>
-<lb/>school here and have picked
-<lb/>up <term type="language">English</term> - <unclear cert="low">to indo ostance</unclear><!-- currently can't gleam any concrete words from this. BL. -->
-<lb/>and <term type="language">Marathi</term> so as to speak
+<lb/>have been at <orgName><persName>D<hi rend="sup underline">r</hi> Wilson's</persName>
+<lb/>school</orgName> here and have picked
+<lb/>up English - <choice><orig>Hindoostanee</orig><reg>Hindustani</reg></choice><!-- currently can't gleam any concrete words from this. BL. -->
+<lb/>and Marathi so as to speak
 <lb/>a little of each - They read
-<lb/>English pretty well &amp; <persName><choice><abbr>D<hi rend="sup">r</hi></abbr><expan>Doctor</expan></choice> Wilson</persName>
+<lb/>English pretty well &amp; <persName>D<hi rend="sup">r</hi> Wilson</persName>
 <lb/>thinks that they are fit for
 <lb/>baptism. This is pretty well
-<lb/>for <measure>15 months</measure> education
+<lb/>for 15 months education
 <lb/>One of them named <persName>Chuma</persName>
 <lb/>wrote a letter to <persName>Waller</persName> - and
-<lb/>the address was - <persName><choice><abbr>M<hi rend="sup">s</hi></abbr><expan>Miss</expan></choice> Waller</persName> <persName>Chuma</persName><!-- currently putting text in-line, even though "Chuma" is practcally in the line below. BL. Unable to mark with <query> without splitting it up, and using <lb/> was convoluted. Edit as fit. BL.-->
-<lb/>Those will form
-<lb/>the party say <measure>23</measure> - I have got
-<lb/>several volunteers <unclear>in hudra</unclear><!--No clue. BL.-->
+<lb/>the address was - <metamark/><persName>M<hi rend="sup">r</hi> Waller</persName> 
+<lb/>Those will form <space extent="2" unit="chars"/><persName>Chuma</persName><!-- currently putting text in-line, even though "Chuma" is practcally in the line below. BL. Unable to mark with <query> without splitting it up, and using <lb/> was convoluted. Edit as fit. BL.-->
+<lb/>the party say 23 - I have got
+<lb/>several volunteers in <placeName><country>India</country></placeName>
 <lb/>but declined them. If I had
-<lb/><persName><choice><abbr>D<hi rend="sup">r</hi></abbr><expan>Doctor</expan></choice> Kirk</persName> it would be different
+<lb/><persName>D<hi rend="sup">r</hi> Kirk</persName> it would be different
 <lb/>but untried men are often a
-<lb/>nuisance. <measure>Fo<add place="below">^</add><add place="above">u</add>rteen</measure> <term type="animal">buffaloes</term></p>
-<lb/>
-<lb/><p><cb rend="vertical"></cb><persName><choice><abbr>M<hi rend="sup">s</hi></abbr><expan>Miss</expan></choice> Stearns</persName> is an active <term type="nationality">American</term> <term type="occupation">merchant</term></p>
-
+<lb/>nuisance. Fo<add place="below">^</add><add place="above">u</add>rteen <term type="animal">buffaloes</term></p>
+<lb/><cb rend="vertical"/>
+<lb/><p rend="no-indent"><persName>M<hi rend="sup">r</hi> Stearns</persName> is an active <term type="nationality">American</term> <term type="occupation">merchant</term></p>
 
     <pb facs="liv_002435_0003" n="0003"/>
-
-<lb/><p rend="no-indent">and the <term type="animal">calves</term> are sent
+<lb/><p rend="no-indent">and the <term type="animal">calves</term> are sent <add place="above" rend="gray">30</add>
 <lb/>off already - and should an
 <lb/>opportunity occur for me
-<lb/>to go I shall follow- I am
+<lb/>to go I shall follow - I am
 <lb/>all ready.</p>
 <lb/><p>I went up <measure>300 miles</measure>
-<lb/>in <placeName><choice><orig>Goozerat</orig><reg>Gujarat</reg></choice></placeName> - &amp; I think
-<lb/>sent my <measure>338</measure> from <settlement type="city">Surat</settlement>
+<lb/>in <placeName><region><choice><orig>Goozerat</orig><reg>Gujarat</reg></choice></region></placeName> - &amp; I think
+<lb/>sent my <measure>338</measure> from <placeName><settlement type="city">Surat</settlement></placeName>
 <lb/>as well as one to <persName>M<hi rend="sup underline">rs</hi>Webb</persName>
 <lb/>in answer to what I received
-<lb/>from her- The country was
-<lb/>just like <placeName><bloc>Africa</bloc></placeName>- plants &amp;
+<lb/>from her - The country was
+<lb/>just like <placeName><bloc>Africa</bloc></placeName> - plants &amp;
 <lb/>trees nearly identical - I saw
 <lb/>the buildings of which I
 <lb/>saw the photographs last
-<lb/>time I went down to <persName><choice><abbr>M<hi rend="sup">r</hi></abbr><expan>Mister</expan></choice>
+<lb/>time I went down to <persName>M<hi rend="sup">r</hi>
 <lb/>Murray's</persName> at <settlement type="city">Wimbledon</settlement> - 
 <lb/>They are very fine, and
 <lb/>the carving is wonderfully
 <lb/>elaborate - The city of
-<lb/><choice><orig><placeName><settlement type="city">Ahmeda-bad</settlement></placeName></orig><reg>Ahmedabad</reg></choice> in which they
-<lb/>are found is <unclear>around old I</unclear>
-<lb/><unclear cert="low">Wilson</unclear> one and a week
+<lb/><placeName><settlement type="city"><choice><orig>Ahmeda-bad</orig><reg>Ahmedabad</reg></choice></settlement></placeName> in which they
+<lb/>are found is a grand old
+<lb/><term type="nationality">Indian</term> one and a week
 <lb/>would have been well
-<lb/>spent in <unclear cert="low">warming</unclear> up them
+<lb/>spent in examining them
 <lb/>but I felt so anxious to be</p>
-<lb/>
-<lb/><p><cb rend="vertical"></cb>His father a professor - in a college - a brother
-<lb/>was killed in the war - good people <persName><choice><orig>alex</orig><reg>Alex</reg></choice></persName></p>
+<lb/><cb rend="vertical"/>
+<lb/><p rend="no-indent">His father a professor in a college - a brother
+<lb/>was killed in the war - good people all</p>
     
     <pb facs="liv_002435_0004" n="0004"/>
-
 <lb/><p rend="no-indent">away from this that I spent
-<lb/>only one day - I saw a <orgName>native</orgName>
-<lb/><term type="faith">Christian</term> village and was
+<lb/>only one day - I saw a <placeName><settlement type="village"><orgName>native</orgName>
+<lb/><term type="faith">Christian</term> village</settlement></placeName> and was
 <lb/>gratified by the pleasant
 <lb/>expression of the women's
-<lb/>faces - The several appearance<supplied>s</supplied>
+<lb/>faces - The general appearance<gap extent="1" unit="chars"/><supplied>s</supplied>
 <lb/>of the same clans but of heathen
 <lb/>women is not pleasing -
-<lb/>After service on <date when="1865-11-12">Sunday</date>
+<lb/>After service on Sunday
 <lb/>morning one came <w>for-
 <lb break="no"/>ward</w> &amp; said she did not like
-<lb/>to see us going away <unclear cert="medium">&amp; basting</unclear><!-- my best guess is that she didn't like to seem them go as if they had just had a beating (an obsolete use of baste). BL.-->
+<lb/>to see us going away fasting
 <lb/>would we take <term type="foodstuff">tea</term> or <term type="foodstuff">milk</term> -
 <lb/>I chose the latter and she gave
-<lb/>me a cup of <term type="animal">buffaloe</term>'s <term type="foodstuff">milk</term>
+<lb/>me a cup of <term type="foodstuff"><term type="animal">buffaloe</term>'s milk</term>
 <lb/>which is very white - and so
 <lb/>is the butter but it is <w>pre-
 <lb break="no"/>-ferred</w> to <term type="animal">cow</term>'s here - You see
 <lb/>the <term type ="animal">buffaloes</term> lying in the water
 <lb/>during the day with their heads
 <lb/>only above the surface - I
-<lb/>stopped a day with <persName><choice><abbr>M<hi rend="sup underline">r</hi></abbr><expan>Mister</expan></choice> Taylor</persName>
+<lb/>stopped a day with <persName>M<hi rend="sup underline">r</hi> Taylor</persName>
 <lb/>he is quite alone as his wife
-<lb/>had to leave from bad health-
+<lb/>had to leave from bad health -
 <lb/>I was disappointed in not
-<lb/>meeting a <persName>M<hi rend="sup underline">rs</hi>Oliphant</persName>'s daugt<supplied>er</supplied>
-<lb/>of <term type="occupation">General</term> <persName>Alexander <unclear>Wilson</unclear></persName></p>
+<lb/>meeting a <persName>M<hi rend="sup underline">rs</hi> Oliphant</persName>'s daught<gap extent="2" unit="chars"/><supplied>er</supplied>
+<lb/>or <term type="occupation">General</term> <persName>Alexander <unclear>Wilson</unclear></persName></p>
 
 
             </div>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001951"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Robert Moffat 1, 6 January 1863</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JZ"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name>
+                    <resp>Transcription</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001951</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 20312, ff. 132-133</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1381</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Charles J. Meller, 20 July 1863</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1863-07-20">20 July 1863</date><!-- Change -->
+                    <placeName type="compositionPlace">Cataracts</placeName><!-- Change -->
+                    <persName type="addressee">Charles J. Meller</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-26" who="#JZ">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001951_0001" n="0001"/>
+<lb/><opener><dateline rend="right"><placeName>Cataracts</placeName> <date when="1863-07-20">20 July
+<lb/> 1863</date></dateline><add place="above">132</add>
+<lb/>    
+<lb/><salute>My Dear <persName>D<hi rend="sup underline">r</hi> Meller</persName></salute></opener>
+
+<lb/><p>It has occurred
+<lb/>to me since you
+<lb/>left that possibly
+<lb/>you might like
+<lb/>to go at once down
+<lb/>to the Kongone<!-- should this word be tagged as something? -->
+<lb/>where the <app><rdg cert="medium">Rajind</rdg><rdg>Rajird</rdg></app><!-- should this be tagged? --> is 
+<lb/>to touch in August
+<lb/>and leave the <placeName><geogName type="region">Cape</geogName></placeName> -
+<lb/><unclear cert="low">wait</unclear> of your luggage
+<lb/>to go with "Pioneer"</p>
+<!-- unsure if he is beginning a new paragraph here --><p><cb rend="vertical"/>Fell Waller I write him after Alwah</p>
+	<pb facs="liv_001951_0002" n="0002"/>
+<p>
+<lb/>as the end of the
+<lb/>year - the difficulty
+<lb/>of luggage presented
+<lb/>my thinking of
+<lb/>this before the
+<lb/>bishop came up
+<lb/> but though we
+<lb/>can scarcely ask
+<lb/>it - if he <!-- variant reading could or would -->
+<lb/>be prevailed on
+<lb/>to stop one day
+<lb/>more you could
+<lb/>give directions to
+<lb/>the <term type="occupation">Steward</term> about
+	<pb facs="liv_001951_0003" n="0003"/>
+<lb/>the bulkier articles
+<lb/>being packed &amp;
+<lb/>possibly be favoured
+<lb/>with a passage
+<lb/>in his boat to
+<lb/><unclear cert="medium">Mazaro</unclear> - Hence
+<lb/>I write for a
+<lb/>canoe to go down
+<lb/>to the bar by Kongone
+<lb/>for our stores
+<lb/>and I could give
+<lb/>you some pieces 
+<lb/>of cloth to pay
+<lb/>your way in
+<lb/>the matter <unclear cert="low">of food</unclear>
+    <pb facs="liv_00191951_0004" n="0004"/>      
+<lb/>the wish of the Gov<hi rend="sup underline">t</hi>
+<lb/>that salaries should
+<lb/>cease by 31<hi rend="sup">st</hi> Dec<hi rend="sup underline"><unclear cert="medium">r</unclear></hi>
+<lb/>makes me mention 
+<lb/>this plan though
+<lb/>it may not be
+<lb/>quite agreeable - I think
+<lb/>about it - <persName>Captain
+<lb/>Gardner</persName> says the Rajind
+<lb/>will call "as the end
+<lb/>of August" &amp; I write
+<lb/>to the captain to go
+<lb/>round &amp; take our
+<lb/>late companions off
+<lb/>from Liullumane so
+<lb/>you might make up to
+<lb/>them yet <persName>David Livingstone</persName><!-- unofficial closer -->
+</p>
+            </div>
+        </body>
+    </text>
+
+</TEI>
