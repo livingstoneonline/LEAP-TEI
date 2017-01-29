@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001463"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title>Letter to Edward Marjoribanks</title><!-- Ignore this line -->
+                <title type="alternative">Letter to Edward Marjoribanks, 6 August 1859</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Adrian S. Wisnicki</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="LG"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Lauren Geiger</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="BL"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Blaze Livingston</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001463</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United States</country><!-- Change as needed -->
+                        <settlement>Washington, D.C.</settlement><!-- Change as needed -->
+                        <repository>Smithsonian Institution. Libraries. Joseph F. Cullman 3rd Library of Natural History</repository><!-- Change as needed -->
+                        <idno type="shelfmark">M087</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0926</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Edward Marjoribanks</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1859-08-06">6 August 1859</date><!-- Change -->
+                    <placeName type="compositionPlace">River Zambesi</placeName><!-- Change -->
+                    <persName type="addressee">Marjoribanks, Edward, 1776-1868</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2017-01-13" who="#BL">Codding Review</change>
+			<change when="2017-01-13" who="#AW">Codding Review</change>
+            <change when="2016-10-13" who="#AW">Proofing</change>
+            <change when="2016-10-08" who="#LG">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001463_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+
+<lb/><opener><dateline rend="right"><space extent="1" unit="words"/><placeName><settlement type="river">River Zambesi</settlement></placeName> <date when="1859-08-06">6<hi rend="sup underline">th</hi> August,<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
+<lb/><space extent="7" unit="words"/>1859</date></dateline><!-- Change line info as appropriate -->
+<lb/><space extent="2" unit="chars"/><salute>My Dear Sir</salute></opener><!-- Change line info as appropriate -->
+<lb/><p><space extent="2" unit="words"/><space extent="2" unit="chars"/>I ought to have written
+<lb/>long ago to let you know that the hard
+<lb/>work unmercifully imposed on me
+<lb/>by our contracting engineer has not
+<lb/>killed me. We have been doing the work
+<lb/>which a decent engine would have done -
+<lb/>and it was only a dogged determination
+<lb/>not to "give in" that has enabled me
+<lb/>to hold on so long. Leaving the labour
+<lb/>of navigating the <placeName><settlement type="river">Zambesi</settlement></placeName> for a
+<lb/>season <add place="below">^</add> we ascended a branch of it
+<lb/>named <placeName><geogName type="river">Shire (Sheerey)</geogName></placeName> about a
+<lb/><measure>hundred miles</measure>. This had never
+<lb/>been examined by any <orgName>European</orgName>
+<lb/>before. We then left the people
+<lb/>there for awhile, and returning
+<lb/>went <measure>about 20 days</measure> on foot
+<lb/>beyond <measure>one hundred miles</measure>, and
+<lb/>discovered a magnificent
+<lb/>inland Lake called <placeName><geogName type="lake">Shirwa</geogName></placeName>
+<lb/>(<placeName><geogName type="lake">Sheerwah</geogName></placeName>). This work was play
+<lb/>compared to the monotony of
+<lb/>an everlasting cutting of wood</p>
+<lb/><p rend="no-indent">E. Marjoribanks Esquire</p>
+<lb/>
+<lb/><cb rend="vertical"/><ab>I am sailing master though as far as taste is concerned
+<lb/>I would as soon drive a cab in <placeName><settlement type="city">London</settlement></placeName> in winter</ab>
+                
+	<pb facs="liv_00146_0002" n="0002"/>
+<lb/><p rend="no-indent">and waiting for the slow movement
+<lb/>of an engine really destined I believe
+<lb/>to grind <term type="foodstuff">coffee</term> in a shop window, but
+<lb/>palmed off on us at an enormous
+<lb/>price, by a <term type="occupation">philanthropist</term>! I never
+<lb/>appreciated the value of <choice><sic>you</sic><corr>your</corr></choice> <term type="occupation">business
+<lb/>men</term> so highly as I do now; but
+<lb/>not to weary you with the story of
+<lb/>our toils; I may state that I had the 
+<lb/>great pleasure of introducing one 
+<lb/>of my companions <persName>D<hi rend="sup underline">r</hi> Kirk</persName> to a 
+<lb/>portion of the fine country which 
+<lb/>when travelling acoss <placeName><bloc>Africa</bloc></placeName> I discovered
+<lb/>one is so accustomed to think
+<lb/>of this country and "Afric burning
+<lb/>sands" as identical, that in describing
+<lb/>the rich fertile valleys &amp; uplands
+<lb/>with running streams, I often
+<lb/>felt that it was hardly fair for
+<lb/>me to expect persons entirely to
+<lb/>believe me. When however we
+<lb/>went on foot beyond the furthest
+<lb/>point our vessel could go up the <placeName><geogName type="river">Shire</geogName></placeName>,
+<lb/>we ascended in <measure>ten days</measure> <measure>\1500 feet</measure>
+<lb/>in altitude, and then we were among
+<lb/>mountains at least <measure>6000 feet high</measure>
+
+	<pb facs="liv_00146_0003" n="0003"/>
+<lb/>and all green and covered with trees
+<lb/>to the top. One, <placeName><geogName type="mountain">Zomba</geogName></placeName>, has a flat
+<lb/>top and is inhabited - We could see
+<lb/>the gardens from below - Its top is
+<lb/>quite <measure>fifteen miles</measure> broad - and then
+<lb/>all the country below is so fertile
+<lb/>that one is quite buried in the tall
+<lb/>grass <measure>7 or 8 feet high</measure> - Every few
+<lb/>miles you cross a running stream
+<lb/>or burn, and large fields of <term type="plant">cotton</term>,
+<lb/><term type="plant_foodstuff">grain</term>, and <term type="plant_foodstuff">kassava</term> (from which
+<lb/><term type="foodstuff">tapioca</term> is made) are met with. <term type="plant">Sugar
+<lb/>cane</term> grows everywhere, and but
+<lb/>little care is needed. This above
+<lb/>all countries is calculated to yield
+<lb/>the new materials of our commerce
+<lb/>and if it should please Providence
+<lb/>to permit us to introduce the
+<lb/>trade in these we shall do something
+<lb/>towards the extinction of <orgName>slavery</orgName>. We
+<lb/>are now on our way back to the
+<lb/>Lake region, and this time I have
+<lb/><persName>D<hi rend="sup underline">r</hi> Kirk</persName> - <persName>M<hi rend="sup underline">r</hi> <choice><abbr>C.</abbr><expan>Charles</expan></choice> Livingstone</persName> (my
+<lb/>brother) and <persName>Mr Rae</persName>, all <term type="people">Scotchmen</term>
+<lb/>in company, and hope to look 
+<lb/>at a much larger lake beyond <placeName><geogName type="lake">Shirwa</geogName></placeName> -
+<lb/>By the discoveries in the <unclear cert="low">no idea?</unclear>
+
+	<pb facs="liv_00146_0004" n="0004"/>
+<lb/><placeName><bloc>Africa</bloc></placeName> will soon appear to be a very
+<lb/>different region from the sandy deserts
+<lb/>of the <orgName><term type="occupation">Map makers</term></orgName>, and I earnestly
+<lb/>hope that I may see a beginning of a
+<lb/>new state of things than a nightly <orgName>slave</orgName>
+<lb/>market. We think that we have rendered
+<lb/>the <term type="ailment">African fever</term> less formidable - and
+<lb/>should the rich fertile country, most of 
+<lb/>which now lies untilled, become the
+<lb/>means of assisting our own home honest
+<lb/>poor by colonization, I think I should
+<lb/>die contented. <space extent="2" unit="chars"/>We have had but little
+<lb/>news from home but that little contained
+<lb/>the information that <persName>Miss Coutts</persName> had
+<lb/>most munificently provided religious
+<lb/>instruction for the new <placeName>Colony</placeName> and this
+<lb/>greatly gladdened my heart.</p>
+<lb/><p><space extent="1" unit="words"/>I have little to say on business.
+<lb/>I was obliged to have my wife at the
+<lb/><placeName><region>Cape</region></placeName> and she went with her parents
+<lb/>up to <placeName><settlement type="village">Kuruman</settlement></placeName> - <measure>500 miles inland</measure>.
+<lb/>She has been drawing on the £500 you
+<lb/>kindly placed for me at <persName>Mr. Dickson</persName>'s
+<lb/>I don't know how much, for we
+<lb/>no penny postage nuisance here -
+<lb/>The <orgName>Government</orgName> has been aware of
+<lb/>my life being yet spared, and I suppose
+<lb/>you have been drawing my <term type="occupation">consular</term>
+<lb/>salary in consequence. <space extent="2" unit="chars"/>With kind saluations
+<lb/>I am most Truly Yours <persName>David Livingstone</persName></p> 
+
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

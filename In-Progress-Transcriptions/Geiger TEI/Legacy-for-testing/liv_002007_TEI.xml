@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002007">
+    <!-- xml:id attribute value above should be same as the LEAP file name (without .xml suffix) -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title>Letter to John Pennell</title>
+                <title type="alternative">Letter to John Pennell, 7 March 1864</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+				<respStmt xml:id="SF">
+					<name>Samantha Fitch</name>
+					<resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+             </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2014</date>
+				<idno type="LEAP-ID">liv_002007</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">762</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1434</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to John Pennell, 18 August 1850</title>
+                    <author>Livingstone, David, 1813-1873</author>
+                    <date type="composition" when="1864-03-07">7 March 1864</date>
+                    <placeName type="compositionPlace">Mosambique</placeName>
+                    <persName type="addressee">Pennell, John</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-10-18" who="#CL">Corrections</change>
+			<change when="2015-08-23" who="#AW">Coding Review</change>
+            <change when="2015-08-01" who="#HB">Proofing and Quality Control</change>
+			<change when="2014-10-05" who="#SF">Proofing</change>
+            <change when="2014-08-17" who="#AM">Initial Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                
+    
+	<pb facs="liv_002007_0001" n="0001"/>
+
+	<pb facs="liv_002007_0002" n="0002"/>
+         
+	<pb facs="liv_002007_0003" n="0003"/>
+<lb/><opener><dateline><space extent="2" unit="words"/><placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> <date when="1864-03-07">7<hi rend="sup underline">th</hi> March
+<lb/><space extent="8" unit="words"/>1864</date></dateline></opener>
+<lb/><p rend="no-indent">I hereby certify that <persName>John
+<lb/>Pennell</persName> served in the <orgName><placeName><geogName type="river">Zambesi</geogName></placeName>
+<lb/>Expedition</orgName> from <date from="1861-03-11" to="1864-02-15">11<hi rend="sup underline">th</hi> March 1861
+<lb/>to 15<hi rend="sup underline">th</hi> February 1864</date> and              
+<lb/>during the whole of that time
+<lb/>his conduct has given me
+<lb/>the greatest satisfaction - He
+<lb/>is thoroughly well behaved,
+<lb/>very attentive to his duty
+<lb/>and always respectful to
+<lb/>his superiors - He seems
+<lb/>good tempered - very obliging - -
+<lb/>He knows his duty &amp;
+<lb/>has certainly performed
+<lb/>it well - I can recommend
+<lb/><choice><sic>-</sic><corr></corr></choice>him strongly to his superiors
+<lb/>as a thoroughly trustworthy
+<lb/>honest man</p>              
+<lb/><closer><space extent="2" unit="words"/><signed><persName>David Livingstone</persName></signed></closer> 
+            </div>
+        </body>
+    </text>
+
+</TEI>

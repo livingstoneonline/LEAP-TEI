@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ 
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001299">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Robert M. Livingstone</title>
+                <title type="alternative">Letter to Robert M. Livingstone, 25 March 1858</title>
+                <author>Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="BL">
+					<name>Blaze Livingston</name>
+					<resp>Revision</resp>
+				</respStmt>
+                <respStmt xml:id="JZ">
+                    <name>Jade Zuehlke</name>
+                    <resp>Transcription</resp>
+               		<resp>Encoding</resp>
+				</respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_001299</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno type="shelfmark">MS. 10701, ff. 98-99</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0773</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Robert M. Livingstone, 25 March 1858</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-03-25">25 March 1858</date>
+                    <placeName type="compositionPlace">Pearl near Sierra Leone</placeName>
+                    <persName type="addressee">Robert M. Livingstone</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-11-03" who="#BL">Revision</change>
+            <change when="2016-06-16" who="#JZ">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001299_0001" n="0001"/>
+<lb/><p rend="no-indent"><add place="inline marginleft" rend="diagonal" hand="#U"><hi rend="underline">3 Set</hi></add> <space extent="5" unit="words"/><add place="above" hand="#U" rend="gray">98</add></p>
+<lb/><p rend="center"><space extent="1" unit="words"/>Pearl,
+<lb/><space extent="1" unit="words"/>near <placeName>Sierra Leone</placeName>
+<lb/><space extent="1" unit="words"/><space extent="1" unit="chars"/><date when="1858-03-25">25<hi rend="sup underline">th</hi> March
+<lb/><space extent="1" unit="words"/><space extent="1" unit="words"/>1858</date></p>
+<lb/>    
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/>My Dear Robert,</p>
+<lb/><p><space extent="2" unit="chars"/>We have been going
+<lb/>at the rate of 200 miles a day
+<lb/>ever since we left <placeName>Liverpool</placeName>
+<lb/>and have been much favoured
+<lb/>by a kind provdidence in
+<lb/>the weather Poor <persName>Oswell</persName> was
+<lb/>sorely sick while rolling
+<lb/>through the <placeName><geogName type="bay">Bay of Biscay</geogName></placeName>
+<lb/>and eat nothing for about
+<lb/>three days but we soon
+
+	<pb facs="liv_001299_0002" n="0002"/>
+<lb/>got away from the ice &amp;
+<lb/>snow to beautiful summer
+<lb/>weather, and we are getting
+<lb/><unclear cert="medium">nearly</unclear> thawed. We sleep
+<lb/>with all our portholes open
+<lb/>and are glad of the morning
+<lb/>by day - At night we see
+<lb/>the Southern <unclear cert="medium">cross</unclear> and the <!--Are these geographic tags?-->
+<lb/>pole star which stands
+<lb/>so high over you is here
+<lb/>so low we cannot see
+<lb/>it for the haze - We shall
+<lb/>not see it again but
+<lb/>the same Almighty gracious
+<lb/><del type="strikethrough">f</del>Father is over all and
+<lb/>is near to all who love him
+
+	<pb facs="liv_001299_0003" n="0003"/>
+<lb/>you are now alone in the
+<lb/>world and must seek his
+<lb/>friendship and guidance
+<lb/>for if yo do not lean
+<lb/>on him you will go
+<lb/>astray and find that the
+<lb/>way of trangsgressors is
+<lb/>hard. The Lord be
+<lb/>gracious to you and
+<lb/>accept you though un -
+<lb/>worthy of his favour</p>
+<lb/><p>you must write 
+<lb/>to me for if you do not
+<lb/><gap extent="2" unit="words"/> continue to write
+
+	<pb facs="liv_001299_0004" n="0004"/>
+<lb/>to you. <persName>Oswell</persName> says he will
+<lb/>gather some shells for you
+<lb/>we land today but it is
+<lb/>only to <app><rdg cert="medium">cool</rdg><rdg>coal</rdg></app> and then we
+<lb/>go to the <region>cape</region> - we <!--place?--><!--I tagged with <region>, though "cape" isn't capitalized. Seems to fit, thoughts? #BL-->
+<lb/>shall be there before
+<lb/><persName>Uncle John Moffat</persName>
+<lb/>Mama &amp; <!-- group of people? --><persName>Oswell</persName>'s love
+<lb/>to you - My kind regards
+<lb/>to your master &amp; Mistress
+<lb/>if <term type="nationality">French</term> is not too
+<lb/>much for you it might
+<lb/>be added to <term type="nationality">Latin</term> &amp; <term type="nationality">Greek</term>
+<lb/>but your master will
+<lb/><w><gap extent="2" unit="chars"/><supplied cert="high">kn</supplied>ow</w> best <gap extent="2" unit="words"/></p>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

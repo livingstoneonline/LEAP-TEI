@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ <!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001340">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title>Letter to Norman B. Bedingfeld</title>
+                <title type="alternative">Letter to Norman B. Bedingfeld, 13 July 1858</title>
+				<author>Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001340</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country><!-- Change as needed -->
+                        <settlement>Edinburgh</settlement><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark">MS. 10768, ff. 33-34</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0810</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Norman B. Bedingfeld, 13 July 1858</title><!-- Change -->
+                    <author>Livingstone, David, 1813-1873</author>
+                    <date type="composition" when="1850-08-18">13 July 1858</date><!-- Change -->
+                    <placeName type="compositionPlace">Senna</placeName><!-- Change -->
+                    <persName type="addressee">Bedingfeld, Norman B., 1824-1894</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-09-15" who="#AW">Coding revew</change>
+            <change when="2015-09-15" who="#EM">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001340_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+<lb/><opener><add hand="#U" rend="gray small">Acc 6630<space extent="2" unit="words"/>39 <space extent="3" unit="words"/>33</add>
+<lb/><dateline><space extent="5" unit="words"/><placeName><settlement type="village">Senna</settlement></placeName> <date when="1858-07-13">13<hi rend="sup underline">th</hi> July
+<lb/><space extent="7" unit="words"/>1858</date></dateline><!-- Change line info as appropriate -->
+<lb/><space extent="2" unit="chars"/><salute>Sir</salute></opener><!-- Change line info as appropriate -->
+<lb/><p>The <term type="people">Portugese</term> are
+<lb/>all of opinion that
+<lb/>the village of <placeName><settlement type="village">Nyaruka</settlement></placeName>
+<lb/>is nearer to this 
+<lb/>than any point
+<lb/>that can be approached
+<lb/>here. <space extent="2" unit="chars"/>I think it will</p>
+<lb/><ab> <add place="marginleft" rend="gray diagonal" hand="#U">£5500</add> <persName>Commander Bedingfeld <choice><abbr>R.N.</abbr><expan>Royal Navy</expan></choice></persName></ab>
+
+	<pb facs="liv_001340_0002" n="0002"/>
+<lb/><p rend="no-indent">be the best plan to get
+<lb/>up the steam in the morning
+<lb/>and go down to it.  I shall
+<lb/>meet you there about
+<lb/>10 o clock -</p>
+<lb/><p>The <term type="people">Portuguese</term> here have
+<lb/>no canoes or Launches
+<lb/>as all were sent down
+<lb/>to meet the <persName>Governor</persName>
+<lb/>and were behind the
+<lb/><placeName><geogName type="island">island near <placeName><settlement type="village">Mazaro</settlement></placeName></geogName></placeName>
+<lb/>where we met the officer
+
+	<pb facs="liv_001340_0003" n="0003"/>
+<lb/>He is expected there daily &amp; <add place="marginright" hand="#U" rend="gray">34</add>
+<lb/>we may arrange with
+<lb/>him about them - <persName><choice><abbr>L<hi rend="sup">t</hi></abbr><expan>Lieutenant</expan></choice>
+<lb/><unclear>Ferraõ</unclear></persName> has put two
+<lb/>rooms at our service
+<lb/>I go to see them tonight
+<lb/>Please wind up my
+<lb/>watch in the locker
+<lb/>They tell me that the
+<lb/>other side of the river<!-- geog: -->
+<lb/>is always the deepest &amp;
+<lb/>best even up to <placeName><settlement type="village">Tete</settlement></placeName></p>
+<!-- If there is a letter or similar with a closer with content such as salute or signed -->
+<lb/><p rend="no-indent"><space extent="1" unit="words"/>I am &amp;c <persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName><!-- Change as appropriate --></p>
+
+	<pb facs="liv_001340_0004" n="0004"/>
+	<cb rend="vertical"/>
+<ab><address>
+<addrLine><persName>Commander Bedingfeld <choice><abbr>R.N.</abbr><expan>Royal Navy</expan></choice></persName></addrLine>
+<addrLine><space extent="2" unit="words"/>Ma Robert<!-- This is DL's boat --></addrLine>
+</address></ab>
+	
+            </div>
+        </body>
+    </text>
+
+</TEI>

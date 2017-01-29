@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001318"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            	<title>Letter to Thomas S. Livingstone</title>
+            	<title type="alternative">Letter to Thomas S. Livingstone, 7 May 1858</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="BL">
+					<name>Blaze Livingston</name>
+					<resp>Proofreading</resp>
+				</respStmt>
+                <respStmt xml:id="AD">
+                    <name>Amzie Dunekacke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_001318</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                    	<country>Scotland</country>
+                    	<settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                    	<idno type="shelfmark">MS. 10701, ff. 100-101</idno>
+                        <altIdentifier>
+                        	<idno type="ccnumber">Letters, 0791</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                	<title>Letter to Thomas S. Livingstone, 7 May 1858</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1858-05-07">7 May 1858</date>
+                    <placeName type="compositionPlace">Steamer "Pearl," Indian Ocean</placeName>
+                    <persName type="addressee">Thomas S. Livingstone</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2017-01-11" who="#AW">Coding review</change>
+			<change when="2016-12-01" who="#BL">Proofreading</change>
+            <change when="2016-06-19" who="#AD">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001318_0001" n="0001"/>
+<lb/><opener><add place="inspace" rend="gray small" hand="#U">52 <space extent="4" unit="words"/>100</add>
+<lb/><add rend="diagonal blue small" hand="#U"><persName>Moffat</persName> &amp; <gap extent="1" unit="words" reason="illegible"/></add> <dateline><placeName>Steamer Pearl</placeName> <date when="1858-05-07">7<hi rend="sup underline">th</hi> May
+<lb/><space extent="6" unit="words"/>1858</date></dateline>
+<lb/>    
+<lb/><salute>My Dear <persName>Tom</persName></salute></opener>
+
+<lb/><p><space extent="1" unit="words"/><persName>Mama</persName><!-- leaving as is. "Mama" refers to Mrs. Mary Livingstone quite obviously, so I will keep persName tag. BL--> was so
+<lb/>sick all the way from
+<lb/><placeName><country>Sierra Leone</country></placeName> to the <placeName><region>Cape</region></placeName>
+<lb/>that I was obliged to leave
+<lb/>her and <persName>Oswell</persName> there. 
+<lb/>But <persName><choice><sic>Grand Pa</sic><corr>Grandpa</corr></choice> &amp; Grandma
+<lb/>Moffat</persName> were then on a 
+<lb/>visit to <placeName><settlement type="city">Cape Town</settlement></placeName> and
+<lb/>happily were ready to 
+<lb/>take charge of <persName>Mama</persName> up to 
+
+	<pb facs="liv_001318_0002" n="0002"/>
+<lb/><placeName><settlement type="village">Kuruman</settlement></placeName> whither she will
+<lb/>now go while I am sailing
+<lb/>along the <placeName><region>East Coast</region></placeName> to
+<lb/>the <placeName><geogName type="river">Zambesi</geogName></placeName>. We hope to
+<lb/>meet <persName>Mama</persName> &amp; <persName>Oswell</persName>
+<lb/>when she is better but we
+<lb/>shall be parted a year at
+<lb/>least - <persName>Gandpa</persName> has been 
+<lb/>to see <persName>Mosilikatze</persName><!-- I believe it is either the name of a chief of an African tribe or the name of said tribe itself. Can't find much info, leaving as is. BL--> and 
+<lb/>found him willing to recieve 
+<lb/>a teacher - <persName>Uncle John</persName>
+<lb/>may possibly go and live
+<lb/>with him to instruct him
+<lb/>in the way of life - but that
+<lb/>is not yet certain - I hope
+<lb/>you are <choice><sic>recieving</sic><corr>receiving</corr></choice> into your
+
+	<pb facs="liv_001318_0003" n="0003"/>
+<lb/>heart the knowledge of <persName>Jesus</persName> <add place="above" rend="gray" hand="#U">101</add>
+<lb/>and that you feel him to
+<lb/>be your Saviour and friend
+<lb/>Tell him all your wants
+<lb/>and cares for he cares for 
+<lb/>the humblest of the sons
+<lb/>of men, and He loves all
+<lb/>and watches over all.</p>
+<lb/><p>I hope you are getting
+<lb/>on with your lessons at
+<lb/>school and becoming fitted
+<lb/>to be something and of some
+<lb/>use to your dear Saviour
+<lb/>in the world. You must
+<lb/>live for him - give yourself
+<lb/>up to him to be saved and
+
+	<pb facs="liv_001318_0004" n="0004"/>
+<lb/>sanctified by him and you
+<lb/>will be complete for ever
+<lb/>in him. Write to <persName>Agnes</persName>
+<lb/>&amp; <persName>Robert</persName>.</p>
+<lb/><p>Don't be content to crawl
+<lb/>through with your lessons
+<lb/>you must walk on with
+<lb/>them - try to be first - <persName>M<hi rend="sup underline">r</hi> 
+<lb/>Young</persName> will arrange for 
+<lb/>another school when it is 
+<lb/>necessary and wherever 
+<lb/>you are look up with a
+<lb/>loving heart to him who
+<lb/>tenderly regards both man
+<lb/>and bird &amp; beast - I am &amp;c
+<lb/><space extent="2" unit="words"/><persName>David Livingstone</persName></p>
+
+<lb/><postscript><p rend="no-indent">My kind regards to <persName>Dr. Landon</persName> 
+<lb/><space extent="1" unit="words"/>&amp; his son</p></postscript>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

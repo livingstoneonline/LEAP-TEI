@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001729">
+    <!-- xml:id attribute value above should be same as the LEAP file name (without .xml suffix) -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title>Letter to John Kirk 2</title>
+                <title type="alternative">Letter to John Kirk 2, 17 February 1862</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2014</date>
+				<idno type="LEAP-ID">liv_001729</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">232</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1179</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to John Kirk, 17 February 1862</title>
+                    <author>Livingstone, David, 1813-1873</author>
+                    <date type="composition" when="1862-02-17">17 February 1862</date>
+                    <placeName type="compositionPlace">Maruru, above Paulo's</placeName>
+                    <persName type="addressee">Kirk, John 2, 1832-1922</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-10-18" who="#CL">Corrections</change>
+			<change when="2015-08-23" who="#AW">Coding Review</change>
+            <change when="2015-08-01" who="#HB">Proofing and Quality Control</change>
+            <change when="2014-10-07" who="#AM">Additional Transcription and TEI Encoding of Missing Page 2</change>
+            <change when="2014-08-17" who="#AM">Initial Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                
+             <pb facs="liv_001729_0001" n="0001"/>
+<lb/><p rend="no-indent"><space extent="3" unit="words"/>Pioneer <placeName><settlement type="village">Maruru</settlement></placeName>
+<lb/><space extent="3" unit="words"/><measure>about 1° above 
+<lb/><space extent="3" unit="words"/><space extent="3" unit="chars"/><placeName><settlement type="village"><persName>Paulo</persName>'s</settlement></placeName></measure> <date when="1862-02-17">17<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice>
+<lb/><space extent="3" unit="words"/><space extent="3" unit="words"/>1862 -</date></p>
+<lb/><p rend="no-indent">My Dear <persName>D<hi rend="sup">r</hi> Kirk</persName></p>
+<lb/><p><space extent="3" unit="words"/>Our progress is
+<lb/>frightfully slow - creeping &amp; scarcely
+<lb/>that - if Vienna would cut wood
+<lb/>at <placeName><settlement type="village">Shamo</settlement></placeName> or <placeName><settlement type="village">Bandeira</settlement></placeName> <choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice>
+<lb/>please make an agreement
+<lb/>with them - I fear we shall not
+<lb/>get up to <placeName><settlement type="village">Ruo</settlement></placeName> before the <term type="occupation">officers</term>
+<lb/>must leave - <persName><term type="occupation">Captain</term> Wilson</persName>
+<lb/>wishes your company - &amp;
+<lb/>should the <term type="occupation">bishop</term> meet you
+<lb/>at <placeName><settlement type="village">Ruo</settlement></placeName> - you will not be so
+<lb/>much needed as a <term type="occupation">guide</term> - Wood
+<lb/>burned off at frightful rate
+<lb/>makes me fear that we must
+<lb/>unload part at <placeName><settlement type="village">Shamo</settlement></placeName> or sooner
+
+                <pb facs="liv_001729_0002" n="0002"/>
+<!-- No image of this page currently available as it is obscured by frame - it is therefore transcribed by copying an existing transcript (in same frame as page 1 of the letter). This is not ideal as line breaks and other textual formatting features cannot be determined. I have used <supplied> to mark the section thus added - AM-->
+<lb/><supplied>We can only go at night <seg type="weather">after the breeze springs up</seg>. I feel very sorry at our slow progress chiefly on account of the friends with us. If <persName><term type="occupation">Captain</term> Wilson</persName> wishes you to go on, and I believe he does at present you may go up to the <term type="occupation">Bishops</term>. We are all well <persName>Meller</persName> a little better</supplied></p>
+<lb/><closer rend="center"><salute><supplied>I am etc</supplied></salute> <!-- Adrian, I'm pretty sure this etc would be the &amp;c, but cannot be sure...should we code even the postscript as supplied as well? HB --><!-- If we're adhering to the transcript, we'd better just do so and can always correct if we get to see the letter. AW -->
+<lb/><signed rend="center"><hi><supplied>David Livingstone</supplied></hi></signed></closer>
+<lb/><postscript><p><supplied>We cannot do without <persName>Rae</persName> if we unload he must help us <persName><term type="occupation">Captain</term> Wilson</persName> will give him a few provisions to last till we come. We hope to near <placeName><settlement type="village">Mazaro</settlement></placeName> tonight</supplied></p></postscript>
+               
+            </div>
+        </body>
+    </text>
+
+</TEI>

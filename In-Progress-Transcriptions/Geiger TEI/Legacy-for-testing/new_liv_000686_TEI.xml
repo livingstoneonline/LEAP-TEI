@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ 
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000686"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Joseph J. Freeman</title>
+                <title type="alternative">Letter to Joseph J. Freeman, 14 November 1849</title><!-- Change -->
+                <author>Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="LG">
+                    <name>Lauren Geiger</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_000686</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country><!-- Change as needed -->
+                        <settlement>London</settlement><!-- Change as needed -->
+                        <repository>University of London. School of Oriental and African Studies</repository><!-- Change as needed -->
+                        <idno type="shelfmark">CWM/LMS/Livingstone Wooden Box, item 47</idno><!--Should this be "CWM/LMS/Livingstone Wooden Box, item 47"?-->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0216</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Joseph J. Freeman, 14 November 1849</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1849-11-14">14 November 1849</date><!-- Change -->
+                    <placeName type="compositionPlace">Kolobeng</placeName><!-- Change -->
+                    <persName type="addressee">Joseph J. Freeman</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-10-23" who="#LG">Final review</change>
+            <change when="2016-07-07" who="#AW">Coding review</change>
+            <change when="2016-07-05" who="#JZ">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_000686_0001" n="0001"/>
+<lb/><p rend="no-indent"><space extent="5" unit="words"/><placeName><settlement type="village">Kolobeng</settlement></placeName> <date when="1849-11-14">14<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1849</date></p>
+<lb/> 
+<lb/><p rend="no-indent"><persName>The <choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice> <choice><abbr>J.</abbr><expan>Jospeh</expan></choice> J. Freeman</persName></p>
+<lb/><p rend="no-indent"><space extent="5" unit="words"/>My Dear Sir,</p>
+<lb/><p><space unit="words" extent="6"/>We have indulged
+<lb/>the hope for several months past that you would
+<lb/>find it convenient to visit us, but having
+<lb/>lately heard from <persName>M<hi rend="sup">r</hi> Moffat</persName> that you seemed
+<lb/>inclined to make <placeName><settlement type="village">Kuruman</settlement></placeName> your farthest
+<lb/>point North. I now take the liberty of entreating
+<lb/>you to reconsider your resolution. I hope
+<lb/>our <orgName><placeName><settlement type="village">Kuruman</settlement></placeName> friends</orgName> will press on your<!--should 'friends' be outside the </orgName> qualifier?-->
+<lb/>attention the superior claims of the stations 
+<lb/>in this quarter to those of the <orgName><term type="nationality">French</term> bretheren</orgName> 
+<lb/>by which you propose to return. But before
+<lb/>I urge any other consideration I may mention
+<lb/>that before undertaking my late journey I 
+<lb/>expected to return in time to meet you at 
+<lb/>the <placeName><settlement type="village">Kuruman</settlement></placeName> before the departure of <persName>M<hi rend="sup">rs</hi> <choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName>
+<lb/>my journey was much longer than I expected
+<lb/>and <persName>M<hi rend="sup">rs</hi> <choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName> wanted 2 months here along -
+<lb/>I have been eight months from home
+<lb/>this year - Two of these were spent in trying
+<lb/>place <persName>Paul</persName> with the tribe of <term type="tribe">Mokhatla</term>
+
+	<pb facs="liv_000686_0002" n="0002"/>
+<lb/>there is always a great deal of work to be done
+<lb/>after an absence from a station - our house is yet
+<lb/>unfinished - But were there no other considerations
+<lb/>the <term type="animal">oxen</term> are altogether unfit to travel - one half
+<lb/>have been worked for six months and have
+<lb/>done &amp; endured more than <term type="animal">oxen</term> ever did before 
+<lb/>The others have all been affected by a disease
+<lb/>which renders them unable to travel</p>
+<lb/><p>For your coming I have to urge - that<!--do we need to code an indent or alignment to the right side of the page?-->
+<lb/>when you have visited the <placeName>colonial stations</placeName>
+<lb/>you have only seen one end of the chain, and 
+<lb/>as your advice at home will probably vitally
+<lb/>affect the onward movement of the whole you
+<lb/>ought for your own satisfaction to see the other end 
+<lb/>This is the more necessary because the <orgName><term type="occupation">Directors</term></orgName>
+<lb/>seem by our expression in the <bibl>Report for <date when="1847"><choice><abbr>/47</abbr><expan>1847</expan></choice></date></bibl>
+<lb/>to have imbibed our erroneous impression
+<lb/>as to the position a <term type="occupation">missionary</term> occupies when 
+<lb/>beginning with a new tribe - It is stated
+<lb/>that I had been under the necessity of returning 
+<lb/>to <placeName><settlement type="village">Mabotsa</settlement></placeName> - a step I never dreamed of - for 
+<lb/>although put to shifts from the beginning
+<lb/>till now for <term type="foodstuff">vegetables</term> &amp; <term type="foodstuff">corn</term>, the uniform
+<lb/>kindness of the people endeared us to them 
+
+<pb facs="liv_000686_0003" n="0003"/>
+<lb/>and I am fully persuaded that any <term type="occupation">missionary</term> may
+<lb/>live in perfect security <add place="below">^</add> <add place="above">with any tribe</add> in so far as the natives
+<lb/>are concerned if he have only a decent smack
+<lb/>of common sense. So strong is my conviction
+<lb/>on this point I do not believe there is any necessity 
+<lb/>for two <orgName>Europeans</orgName> to be present with any one tribe 
+<lb/>and I should consider giving countenance to a <w>colle<del>gue</del><supplied>-</supplied>
+<lb/>-gue</w> to settle here as inflicting a wrong on some
+<lb/>other tribe which might otherwise be enjoying
+<lb/>his services - <space extent="3" unit="chars"/>Then again you stated, I think 
+<lb/>most truly in a speech delivered in <placeName><settlement type="town">Cape Town</settlement></placeName> 
+<lb/>that since the failure of the <orgName><placeName><geogName type="river">Niger</geogName></placeName> expedition</orgName><!--should 'expedition' be outside the </orgName> qualifier?-->
+<lb/>this must be considered the key to the interior
+<lb/>Now we have sailed on the southern end<!-- Looks like some kind of wax seal here. AW -->
+<lb/>of a navigable highway to a large tract of
+<lb/>country - this discovery belongs to <orgName><term type="occupation">Missionaries</term></orgName>
+<lb/>Will you not come in &amp; give your advice 
+<lb/>as to how we are to take advantage of it
+<lb/>If I incur any expense I have the rod of "<quote>a
+<lb/>vote of disaprobation</quote>" in committee over my
+<lb/>head - and then the world we have beyond
+<lb/>in the North - (is that to be left to <term type="occupation">traders</term>
+<lb/>&amp; <orgName><choice><sic>boers</sic><corr>Boers</corr></choice></orgName>) presses hard on the other side
+<lb/>I do most sincerely wish you may be
+
+<pb facs="liv_000686_0004" n="0004"/>
+<lb/>induced to come for many reasons but hope
+<lb/>you will be guided by His counsel who 
+<lb/>cannot err.</p>
+<lb/><p rend="no-indent"><space extent="3" unit="words"/>Affectionally yours
+<lb/><space extent="7" unit="words"/><persName>David Livingstone</persName></p>
+
+<lb/><cb rend="vertical upside-down"/>
+<lb/><p rend="no-indent"><persName>The <choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice> <choice><abbr>J.</abbr><expan>Jospeh</expan></choice> J. Freeman</persName>
+<lb/><space extent="2" unit="words"/><hi rend="underline"><placeName><settlement type="village">Kuruman</settlement></placeName></hi>
+<lb/><space extent="1" unit="words"/>or elsewhere</p>
+
+<cb rend="vertical"/>
+<ab><addSpan hand="#U" spanTo="#add1"/>
+<lb/><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName>
+<lb/><space extent="2" unit="chars"/><date when="1849-11-14">14 <choice><abbr>Nov.</abbr><expan>November</expan></choice> 1849</date><anchor xml:id="add1"/>
+</ab>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
