@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001347">
+    <!-- xml:id attribute value above should be same as the LEAP file name (without .xml suffix) -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title>Letter to [Commander Her Majesty's Ship]</title>
+                <title type="alternative">Letter to [Commander Her Majesty's Ship], 13 August 1858</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+				<principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2015</date>
+				<idno type="LEAP-ID">liv_001347</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">775</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0816</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Commander, H.M. Ship, 13 August 1858</title>
+                    <author>Livingstone, David, 1813-1873</author>
+                    <date type="composition" when="1858-08-13">13 August 1858</date>
+                    <placeName type="compositionPlace">Expedition Island</placeName>
+                    <persName type="addressee">Her Majesty's Ship, Commander</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-10-18" who="#CL">Corrections</change>
+			<change when="2015-08-22" who="#AW">Coding Review</change>
+            <change when="2015-08-02" who="#HB">Proofing and Quality Control</change>
+            <change when="2014-08-17" who="#AM">Initial Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+                <pb facs="liv_001347_0001" n="0001"/>
+<lb/><p rend="no-indent"><space extent="4" unit="words"/><space extent="2" unit="chars"/><placeName><geogName type="island">Expedition Island</geogName></placeName> 
+<lb/><space extent="6" unit="words"/><date when="1858-08-13">13 August
+<lb/><space extent="7" unit="words"/>1858</date></p>
+<lb/><p rend="no-indent small"><space extent="2" unit="words"/><measure>Longitude 35°-51'-09" E</measure></p>
+<lb/>
+<lb/><p rend="no-indent">On this Island the <orgName><placeName><geogName type="river">Zambesi</geogName></placeName> <!-- geog: Expedition Island -->
+<lb/>Expedition</orgName> under <persName>D<hi rend="sup underline">r</hi> 
+<lb/>Livingstone</persName> erected their
+<lb/>iron house and deposited
+<lb/>their luggage till by
+<lb/>five successive trips
+<lb/>the Ma Robert steam
+<lb/>Launch removed it
+<lb/>up the river. At this <!-- geog: Zambesi -->
+<lb/>log of <foreign xml:lang="la"><hi rend="underline">lignum vitae</hi></foreign> <add place="above" hand="#U">(1)</add>
+<lb/><persName>M<hi rend="sup underline">r</hi> <hi rend="underline">Francis Skead</hi></persName> <choice><abbr>R.N.</abbr><expan>Royal Navy</expan></choice> <add place="above" hand ="#U">(2)</add>
+<lb/>observed for the latitude
+<lb/>and Longitude</p>
+
+                <pb facs="liv_001347_0002" n="0002"/>
+<!-- A gap of about 6 lines here - need to check if this is the right way to code this AM --><!-- Yup, it is! HB -->
+<lb/><space extent="6" unit="lines" dim="vertical"/>
+<lb/><!-- vertical line in left margin (probably in the same hand as the (1) (2) & (3)) marks out whole of next paragraph AM --><p rend="no-indent"><add place="marginleft" hand="#U"><metamark/></add> <add place="above" hand="#U">(3)</add> At a tree about <measure>300 <choice><abbr>yds</abbr><expan>yards</expan></choice> <choice><abbr>Mag.</abbr><expan>Magnetic</expan></choice> North</measure>
+<lb/>marked with the broad arrow
+<lb/>and the letter M <persName>M<hi rend="sup underline">r</hi> Charles
+<lb/>Livingstone</persName> took sets of
+<lb/>observations for Magnetical
+<lb/>dip. deflection, vibration
+<lb/><add place="marginleft" hand="#U">(3)</add> and declination</p>
+<lb/><p>On this day the <orgName>Expedition</orgName>
+<lb/>finally quits the island <!-- geog: Expedition Island -->
+<lb/>to go first to <placeName><settlement type="village">Shupanga</settlement></placeName>
+<lb/>and thence to <placeName><settlement type="town">Tete</settlement></placeName>.
+
+                <pb facs="liv_001347_0003" n="0003"/>
+<lb/>It is hoped that about three
+<lb/>trips will suffice to land
+<lb/>all the <orgName>Expedition</orgName> at <placeName><settlement type="town">Tete</settlement></placeName>
+<lb/>some machinery and stores
+<lb/>will be left at <placeName><settlement type="village">Shupanga</settlement></placeName>
+<lb/>and <placeName><settlement type="town">Senna</settlement></placeName> <add place="inline" hand="#U">(4)</add></p>
+<lb/><p>All the members of 
+<lb/>the <orgName>Expedition</orgName> have
+<lb/>enjoyed good health
+<lb/>- ever since our arrival
+<lb/>in the <placeName><region>Delta</region></placeName> in the 
+<lb/>middle of <date when="1858-05">May last</date>.
+<lb/>All except one have
+<lb/>taken small doses
+<lb/>of <term type="medicament">quinine</term> daily.
+<lb/><persName>M<hi rend="sup underline">r</hi> Baines</persName> suffers
+<lb/>a little at present
+
+                <pb facs="liv_001347_0004" n="0004"/>
+<lb/>a slight <term type="ailment">stroke of the sun</term>.
+<lb/><add place="marginleft" hand="#U">(5)</add><add hand="#U"><metamark/></add><!-- underlining, probably in the same unknown hand as the numbering, also marks out this section between the (5) markers AM --> The country has been in <!-- geog:  -->
+<lb/>a state of war ever
+<lb/>since we came but
+<lb/>no party ever molested
+<lb/>us - <add place="inline" hand="#U">(5)</add> We have had
+<lb/>intercourse with both
+<lb/><add place="inline" hand="#U">(6)</add><add hand="#U"><metamark/></add><!-- underlining, probably in the same unknown hand as the numbering, also marks out this section between the (6) markers except the words "are termed rebels" which are not underlined - AM --> <term type="people">Portuguese</term> and what
+<lb/>are termed rebels
+<lb/>without offence <add place="above" hand="#U">(6)</add></p>
+<lb/><p>We propose to come
+<lb/>down from <placeName><settlement type="town">Tete</settlement></placeName> to the
+<lb/>mouth of the <placeName><geogName type="river">Kongone</geogName></placeName> so as
+<lb/>to be there on <date when="1858-12-25">Christmas day
+<lb/>next</date> to <choice><sic>recieve</sic><corr>receive</corr></choice> &amp; deliver
+<lb/>despatches</p> <closer><signed>David Livingstone
+<lb/><term type="occupation"><choice><abbr>H.M<supplied cert="high">.</supplied></abbr><expan>Her Majesty's</expan></choice> Consul</term>.</signed></closer>              
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
