@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000699">
+    <!-- xml:id attribute value above should be same as the LEAP file name (without .xml suffix) -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title>Letter to David G. Watt</title>
+                <title type="alternative">Letter to David G. Watt, 18 August 1850</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2015</date>
+				<idno type="LEAP-ID">liv_000699</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">778</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0229</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Rev. D.G. Watt, 18 August 1850</title>
+                    <author>Livingstone, David, 1813-1873</author>
+                    <date type="composition" when="1850-08-18">18 August 1850</date>
+                    <placeName type="compositionPlace">Kolobeng</placeName>
+                    <persName type="addressee">Watt, David G., 1817-1897</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="und">undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2015-10-17" who="#CL">Corrections</change>
+			<change when="2015-08-22" who="#AW">Coding Review</change>
+            <change when="2015-07-26" who="#HB">Proofing and Quality Control</change>
+            <change when="2014-10-19" who="#AK">Proofreading and additional XML encoding</change>
+            <change when="2014-08-16" who="#AM">Initial Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+ 
+                <pb facs="liv_000699_0001" n="0001"/>
+<lb/><p rend="no-indent"><space extent="9" unit="words"/><space extent="2" unit="chars"/><placeName><settlement type="village">Kolobeng</settlement></placeName> <date when="1850-08-18">18<hi rend="sup underline">th</hi> August 1850</date></p>
+<lb/>
+<lb/><p>My Dear <persName>Watt</persName></p>
+<lb/><p rend="no-indent"><choice><sic>Recieved</sic><corr>Received</corr></choice> your <bibl>first note</bibl> dated <placeName><settlement type="town">Northwich</settlement></placeName> by <placeName><region><w>Ches<add place="below">^</add><add place="above">h</add>ire</w></region></placeName> <date when="1850-08-17">yesterday</date> and with pleasure begin
+<lb/>an answer before the mental stimulus it imparted has evaporated. Happy to hear you are settled
+<lb/>in a sphere of usefulness. We hope you will prove a blessing and make yours a working
+<lb/>church. I think if <orgName>Christians</orgName> are not set to act on the masses of heathenism around
+<lb/>them they soon get to quarrelling and plague the "incumbent" who as the word I believe
+<lb/>implies is a weight lying on them. I <choice><sic>dont</sic><corr>don't</corr></choice> understand how the mental work of <term type="occupation">ministers</term> is
+<lb/>harder than that of <term type="occupation">missionaries</term>. If one spins long yarns out of his own noddle
+<lb/>instead of out of the infinite variety of motives inducements persuasions &amp; threatenings &amp;c
+<lb/>drawn from Heaven earth &amp; Hell &amp; ready made for him in the <bibl>Bible</bibl>. I should think
+<lb/>him in a pretty "fix" &amp; fancy I see him sweating at every pore in close embrace of the <placeName><geogName type="river">Nile</geogName></placeName> Difficulty
+<lb/>But I observed that one of the most useful <term type="occupation">ministers</term> in <placeName><settlement type="city">London</settlement></placeName> <persName>Mr Sherman</persName> had very
+<lb/>little in his sermons of his own weaving and I believe you wish to be useful more than <w>any<supplied>-</supplied>
+<lb break="no"/>thing</w> else. <persName>D<hi rend="sup">r</hi> Leifchild</persName> seemed much the same as <persName>M<hi rend="sup">r</hi> Sherman</persName> Will you enlighten my
+<lb/>darkness in reference to the  mental labour which can be dispensed with here. I suspect
+<lb/>young <term type="occupation">ministers</term> often shoot over their peoples' heads by taking it for granted that
+<lb/>they know the simple elementary truths of the gospel - I may as well give it to you
+<lb/>for twitting me anent the <orgName>Committee</orgName>. I am no <orgName>anti Phillipite</orgName>. Nor am I an <orgName>anti <w>Committee<supplied>-</supplied>
+<lb break="no"/>-man</w></orgName>. I think that a set of ignoramuses with but little principle in them would be best    
+<lb/>managed by a <term type="occupation">bishop</term> or <term type="occupation">Archdeacon</term> or something of that sort. If the body of <term type="occupation">missionaries</term>
+<lb/>had a little more knowledge or principle then they would be entitled to a committee
+<lb/>or <orgName><term type="faith">Presbytery</term></orgName>. If they possessed the highest degree of principle &amp; piety then they might
+<lb/>be allowed to act as <choice><sic>independants</sic><corr>independents</corr></choice> of the other words. <orgName><term type="faith">Episcopacy</term></orgName> for the most
+<lb/>ignorant, <orgName><term type="faith">Presbytery</term></orgName> for the better informed &amp; <orgName><choice><sic>Independancy</sic><corr>Independency</corr></choice></orgName> for the highest order
+<lb/>of moral excellence, <orgName>Despotism</orgName> for the barbarian (<placeName><country>Russia</country></placeName>) mixed monarchy for the <!-- Adrian, not sure if these past few lines qualify for orgName tags, so pls correct as necessary. HB --><!-- Looks OK to me, although marked faith also. AW -->
+<lb/>more civilized (<placeName><country>Britain</country></placeName>) &amp; Democracy for the most civilized (<placeName><country>United States</country></placeName>) Committees
+<lb/><choice><sic>dont</sic><corr>don't</corr></choice> work well here. It is my full &amp; sorrowful conviction that there is no more <term type="faith">Christian</term>
+<lb/>affection between the members of <orgName>our Committee</orgName> than there is between my riding <term type="animal">ox</term> and
+<lb/>his grandmother. Had it been possible to foresee the state of feeling now existing I should
+<lb/>never have formed <orgName>the mission</orgName>. <persName>Sechele</persName> made a very fair promise to become an <unclear cert="medium">eminent</unclear>
+<lb/><orgName>Christian</orgName>. <persName>M<hi rend="sup">r</hi> Inglis</persName> who never saw him was visited by one of <orgName><persName><choice><abbr>S</abbr><expan>Sechele</expan></choice></persName>'s people</orgName> and <persName>M<hi rend="sup">r</hi> <choice><abbr>I</abbr><expan>Inglis</expan></choice></persName> took the
+<lb/>opportunity of spewing forth a volley of abuse upon <persName>Sechele</persName>, so very gross the man a heathen
+<lb/>would not repeat his words to me. He repeatedly asked his authority for his statements
+<lb/>but <persName>Inglis</persName> would not <unclear cert="medium">mention</unclear> it. The man of course told his <term type="occupation">chief</term> and I suspect the
+<lb/><term type="occupation">chief</term>'s declension commenced. We make but little headway in this country Even <persName>Ross</persName> <!-- geog: -->
+<lb/>who admits members more <term type="faith">presbyterians</term> cannot be said to be doing much. A triennial deputation
+<lb/>would perhaps be better than a committee for us for without joking we are a sorry set of
+<lb/>fellows. <persName>M<hi rend="sup">r</hi> Thomson</persName> late of Bellary is to be our <foreign xml:lang="la"><term type="occupation">Prelatus</term></foreign> and <term type="occupation">agent</term>. I just now notice
+<lb/>that I am becoming latinized in style. If you get through thus far with your dictionary
+<lb/><choice><sic>dont</sic><corr>don't</corr></choice> grumble for I will try &amp; amend - <persName>M<hi rend="sup">r</hi> Freeman</persName> thinks I ought to have my extra
+<lb/>expenses paid which I suppose is as good as done. He seems very friendly to us - and regarding
+<lb/>all the friendship of the wise &amp; good as tokens of the Divine goodness to me my obligations
+<lb/>to the Father of lights are greatly increased. Sorry to hear of the attack on the old  <persName>D<hi rend="sup underline">r</hi> M<hi rend="sup">r</hi>
+<lb/>Whish</persName> was <supplied cert="medium">a</supplied> personal friend of mine though I never saw him. The old lady wished me to
+<lb/>write her and was very fond of <bibl>my letters</bibl> to <persName>M<hi rend="sup">r</hi> Whish</persName> but she did not leave anything to me
+<lb/>so we are as the boys say "quits" <persName>M<hi rend="sup">r</hi> Whish</persName> lately excited himself to get an iron plough for
+<lb/>me and I believe it is on the way. But notwithstanding all that it would still take
+<lb/>an immense deal to make me think ill of the good old <persName>D<hi rend="sup">r</hi> Wardlaw</persName>. The boys in
+<lb/>the <orgName>Academy</orgName> <unclear cert="medium">seem</unclear> to have attained to the status of the sweet <term type="occupation">singer</term> of <placeName><country>Israel</country></placeName>, when he found
+<lb/>himself wiser than all his <term type="occupation">teachers</term>. Unmerciful expulsion ought to be the verdict unless
+<lb/>the body of <term type="occupation">students</term> is unanimous in the charges preferred. Esteem on the part of
+<lb/>the <term type="occupation">student</term> is essential to his success. The parcel from you of which I have been advised
+<lb/>has not yet reached us. I shall inform you when it does. I see your relatives as I
+<lb/>suppose they are in <placeName><settlement type="town">Irvine</settlement></placeName> <choice><sic>dont</sic><corr>don't</corr></choice> practise the filthy bawbee system</p>    
+   
+                <pb facs="liv_000699_0002" n="0002"/>
+<lb/><p rend="no-indent">Well I expect you hope for some more information about the Lake. We have revisited <!-- geog: Ngami --><!-- Adrian, this is the only Lake mentioned in this letter, but pls correct if it's in fact another unnamed lake. HB --><!-- Looks OK. AW -->
+<lb/>it. My wife &amp; children, <persName>Sechele</persName> &amp; a <orgName>party of 20 <term type="tribe">Bakwains</term></orgName> &amp; our <orgName>native</orgName> <term type="occupation">teacher</term> <persName>Mebaloe</persName> formed
+<lb/>the cavalcade. Went to <placeName><settlement type="village"><persName>Sekhomi</persName>'s</settlement></placeName>. After salutations I said I passed you last year because
+<lb/>I knew you did not wish me to get into the Lake. He replied <foreign xml:lang="und">u'nstile mi kia boka</foreign> You <!-- geog: Ngami -->
+<lb/>surpassed me, &amp; I thank you. (or give in) We had more intercourse with the <term type="tribe">Bakalaboka</term>
+<lb/>than last year and having gone in <seg type="weather">shortly after the rains fell</seg> and plenty of water. When
+<lb/>we reached the <placeName><geogName type="river">Zouga</geogName></placeName> it was just beginning to flow and <term type="ailment">fever</term> prevailed. We crossed
+<lb/>and went upon the North bank intending to go to <persName>Sebitoane</persName> but when near the junction
+<lb/>of the <unclear cert="medium">Tamunakll</unclear> &amp; <placeName><geogName type="river">Zouga</geogName></placeName> got intelligence of the existence of the fly styled "<term type="insect">Tsetse</term>" <persName>M<hi rend="sup">rs</hi> <choice><abbr>L</abbr><expan>Livingstone</expan></choice></persName> thought
+<lb/>she would like to stand down at this Botaiawa town while I went North on <term type="animal">ox</term>back. <!-- Adrian, the w tag won't let me encaps the term tag here, so how to code properly? HB --><!-- I think it's OK to leave as is. AW -->
+<lb/>When we reached that point we found <term type="ailment">fever</term> raging. Two <term type="people">Englishmen</term> had come up for
+<lb/>ivory - a third one &amp; a <term type="tribe">Hottentot</term> died of it. The whole party were put to a standstill by
+<lb/>the <term type="ailment">fever</term>. I coaxed up one of the <term type="people">Englishmen</term> from the gates of the grave and he repaid
+<lb/>my kindness by cheating me! We only remained a week with the <term type="tribe">Botaiawa</term>. One of
+<lb/>the days was put in taking down my wife to take a peep at the Lake. The children <!-- geog: Ngami -->
+<lb/>took to playing in it as <term type="animal">ducklings</term> do. "Paddling" in it was grand fun, Immediately
+<lb/>on our return a <term type="occupation">driver</term> &amp; <term type="occupation">leader</term> were knocked down by the <term type="ailment">fever</term>. Then two of
+<lb/>the children and then other three of the party - this made me give up the idea of going
+<lb/>any farther. We spent two pleasant Sundays with the <term type="tribe">Botaiawa</term>. But I was obliged
+<lb/>to become <term type="occupation">driver</term> in order to get away on Monday. The Lake is the great focus of <!-- geog: Ngami -->
+<lb/><term type="ailment">fever</term>. And when fairly away our party were in mercy restored to health. The <term type="tribe">Botaiawa</term>
+<lb/><term type="occupation">chief</term> was more friendly this year than last - the friendship began in the <orgName>African</orgName> manner
+<lb/>by his taking an intense longing for a beautiful gun presented to me by <persName><choice><abbr>Lieut<hi rend="sup">t</hi></abbr><expan>Lieutenant</expan></choice>
+<lb/>Arkwright</persName>. He promised me <term type="occupation">guides</term> to take me to <persName>Sebituane</persName> although he refused them
+<lb/>to a <term type="occupation">trader</term> who offered him any reward he chose to ask - said he would supply
+<lb/><persName>M<hi rend="sup">rs</hi> <choice><abbr>L</abbr><expan>Livingstone</expan></choice></persName> with <term type="animal">elephants'</term> flesh &amp;c during my absence and added if I knew his character
+<lb/>&amp; friendship I should have no hesitation in trusting him anent my family <hi rend="underline">&amp; gun</hi>.
+<lb/>I immediately handed it to him. Had we been permitted to go to <placeName><settlement type="village"><persName>Sebitoane</persName>'s</settlement></placeName> the act of
+<lb/>confidence would have been more than repaid. It is of great importance to gain
+<lb/>the confidence of these fellows in the beginning. I was mistaken in supposing that
+<lb/><term type="ailment">Pneumonia</term> is the only complaint prevalent there. We found real <term type="ailment">Paludal fever</term>
+<lb/>And it descends every year the <orgName>natives</orgName> say from the North with or previous to the
+<lb/>annual flow of waters. Providence seems determined to keep <placeName><region>Intertropical
+<lb/>Africa</region></placeName> for the <orgName>black races</orgName>. No <orgName>European</orgName> could live on the <placeName><geogName type="lake">Ngami</geogName></placeName>. A <seg type="weather">more
+<lb/>salubrious climate</seg> must exist farther up to the North. And that the country is <!-- geog: -->
+<lb/>higher seems evident from the fact mentioned by the <term type="tribe">Bahkoba</term> that the
+<lb/>water of the <placeName><geogName type="river">Teoge</geogName></placeName> the river which falls into the <placeName><geogName type="lake">Ngami</geogName></placeName> at the North West
+<lb/>part of it flows with great rapidity. Canoes ascending punt all the way
+<lb/>and the men must hold on by the reed in order to prevent being carried back
+<lb/>by the current. Large trees <term type="animal">springbucks</term> &amp; other <term type="animal">antelopes</term> are sometimes
+<lb/>brought down by it. Do you wonder at my pressing on in the way we have
+<lb/>done. The <orgName><term type="tribe">Bechuana</term> mission</orgName> has been carried on in a cul de sac. I tried to
+<lb/>break through by going among the <orgName><placeName><region>Eastern</region></placeName> tribes</orgName> but the <orgName>Boers</orgName> shut up the
+<lb/>field A <term type="nationality">French</term> <term type="occupation">missionary</term> - <persName>M<hi rend="sup">r</hi> Fridoux</persName> of <placeName><settlement type="village">Motito</settlement></placeName> later tried to follow
+<lb/>on my trail to the <term type="tribe">Bamangwato</term> but was turned back by a party of armed
+<lb/>men. When he burst through the Barrier on the North. It appeared
+<lb/>very plain that no mission could be successful there unless we could
+<lb/>go <add place="below">^</add> <add place="above">to</add> a well-watered country having a passage to the sea on either the
+<lb/><placeName><region>East</region></placeName> or <placeName><region>West coast</region></placeName>. This project I am almost afraid to moot but
+<lb/>nothing less will do. I intend <gap extent="2" unit="words" agent="illegible"/> to go in <date when="1851">next year</date> and remain a
+<lb/>twelve-month. My wife poor soul I pity her, proposed to let me go for that
+<lb/>time while she remains at <placeName><settlement type="village">Kolobeng</settlement></placeName> - You will pray for us both during
+<lb/>that period. Referring to the above I cannot but smile when I think
+<lb/>of one gentleman (<persName>Inglis</persName>) going about the country for years pretending he could <!-- geog: -->
+<lb/>not get a sphere of labour although he never made a Latitude of <placeName><settlement type="village">Kolobeng</settlement></placeName>
+
+                <pb facs="liv_000699_0003" n="0003"/>
+<lb/>I have heard him hinting that <persName>M<hi rend="sup">r</hi> Moffat</persName> had told stories when he said that there were
+<lb/>any people at all in the country. What <persName>M<hi rend="sup">r</hi> <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName> asserted was that no one knew the <!-- geog: -->
+<lb/>termination of <placeName><region><term type="tribe">Bechuana</term> country</region></placeName>. I felt disappointed to find so small a population
+<lb/>to the South of this but go far enough and you will see plenty of people. I should
+<lb/>say <del type="strikethrough">from</del> <add place="above">on</add> good grounds that the <term type="tribe">Sitchuana</term> will carry a man <measure>a thousand miles</measure>
+<lb/>beyond this and how much farther nobody knows. It is however upon the whole
+<lb/>a thinly peopled country. The only prolific people in it are the <term type="occupation">missionaries</term>. We have <!-- geog: -->
+<lb/>four children already. Did you see certain resolutions passed at a meeting at
+<lb/><placeName><settlement type="city">Leeds</settlement></placeName>. With all due deference to the superior knowledge &amp; judgement of the <orgName><placeName><settlement type="city">Leeds</settlement></placeName> worthies</orgName>
+<lb/>I suspect they did not very well know what to do with themselves. They talk of a
+<lb/>"lapse of 50 years" as requiring a little friendly enquiry, in innocent <w>unconscious<supplied>-</supplied>
+<lb break="no"/>-ness</w> that 2 years have not elapsed since there was as much of both hostile
+<lb/>and friendly enquiry as would have satisfied most reasonable men. And
+<lb/>then they exalt their "most valued <term type="occupation">secretary</term> <persName>Rev J.G. Miall</persName>" to the skies, for what,
+<lb/>letting groundless suspicions become known, and penning resolutions which
+<lb/>devour each other like Pharoah's lean <term type="animal">kine</term>. This (Aside) we suspect these
+<lb/>fellows <choice><sic>dont</sic><corr>don't</corr></choice> allow the mission churches so much liberty as they ought to have) But
+<lb/><add place="marginleft">1<hi rend="sup">st</hi></add> <term type="occupation">Directors</term>, Remember we must have the mission churches <choice><sic>independant</sic><corr>independent</corr></choice>
+<lb/>self supported - self governed. We <choice><sic>wont</sic><corr>won't</corr></choice> allow you to lord it over them. Then
+<lb/>2<hi rend="sup">dly</hi> <term type="occupation">Directors</term> - why do you allow these free <choice><sic>independant</sic><corr>independent</corr></choice> churches to
+<lb/>so use their liberty in reference to <orgName><choice><abbr>Gov<hi rend="sup underline">t</hi></abbr><expan>Government</expan></choice></orgName> grants for education? Coerce them
+<lb/>instanter. They know that <choice><sic>independant</sic><corr>independent</corr></choice> self supported self governed churches
+<lb/>at home can do as they like on the same subject. Out &amp; out voluntary as
+<lb/>I am I <choice><sic>dont</sic><corr>don't</corr></choice> like to see the <term type="occupation">Directors</term> pushed up into a corner &amp; forced
+<lb/>by these <placeName><settlement type="city">Leeds</settlement></placeName> bullies to proclaim freedom &amp; coercion with the same breath
+<lb/>and then to crown all they part stroking each <choice><sic>others</sic><corr>other's</corr></choice> backs and puffing
+<lb/>about the "excellent spirit which characterized this meeting". Excellent
+<lb/>spirit forsooth. <persName>M<hi rend="sup">r</hi> Tidman</persName> displayed an excellent spirit in submitting to
+<lb/>be poked by the hour without telling them what they <choice><sic>dont</sic><corr>don't</corr></choice> seem to know
+<lb/>that the <term type="occupation">agents</term> of the <orgName><choice><abbr>L.M.S.</abbr><expan><placeName><settlement type="city">London</settlement></placeName> Missionary Society</expan></choice></orgName> both at home &amp; abroad are the worst
+<lb/>paid of all the <choice><sic><orgName>Societie</orgName>'s</sic><corr><orgName>societies</orgName>'</corr></choice> <term type="occupation">agents</term> in existence: If it had been a liberal spirit
+<lb/>they would have proposed that <persName>M<hi rend="sup">r</hi> Tidman</persName> be requested to accept the £<app><rdg>500</rdg><rdg>600</rdg></app>. As it is now
+<lb/>he gives £100 annually to <orgName>the society</orgName>. Or they would have passed a resolution that
+<lb/>as all their suspicions were groundless they double their subscriptions for the
+<lb/>future. Why <choice><sic>dont</sic><corr>don't</corr></choice> you give them a few hints - sitting on your watch tower
+<lb/>I think you might enjoy poking those who go too far even in the right direction.
+<lb/>There are fools among the new lights no doubt as you have among the old lights who
+<lb/>will say anything. And sometimes a rough sentence will come out of the mouth
+<lb/>of a wise man - but you would not condemn a whole <unclear cert="medium">party</unclear> on that account
+<lb/>I know. That which makes me think favourably of them is the practice
+<lb/>If obliged to vote I should decide for those who are right in practice although
+<lb/>they might be as I believe the new lights are about half a hairsbreadth wrong in
+<lb/>theology. I think it was an immense absurdity to throw them off. You <orgName><term type="people">Scotch</term>
+<lb/><choice><sic>independants</sic><corr>independents</corr></choice></orgName> have somewhat of the <orgName>Yankee</orgName> in you. <choice><sic>Independants</sic><corr>Independents</corr></choice> <w>recom-
+<lb break="no"/>-municating</w> <choice><sic>independants</sic><corr>independents</corr></choice>. Bah. Hoot man. <persName>D<hi rend="sup">r</hi> Alexander</persName> seems the only liberal
+<lb/>fellow among you. I am looking for your parcel but it does not turn out
+<lb/>Have heard nothing as yet from any source except from you about what the
+<lb/>Editor of the <bibl>Patriot</bibl> wrote. It may turn out soon. Think I must go down
+<lb/>to the <placeName><region>colony</region></placeName> to get my uvula excised. If I do I shall write you thence. Hope
+<lb/>you will get through this at two sittings. No large paper. I suppose in your
+<lb/>quarter of the world. I give you a sheet like a newspaper and you return
+<lb/>a lady's note. Is that the fashion in <placeName><region>Cheshire</region></placeName>. What did you eat which cost
+<lb/>£10 per month - bank notes? I am still in darkness - Have written <persName>Moore</persName> <!-- Haha! Good one, DL :) HB -->
+<lb/>&amp; <persName>Fairbrother</persName>. The latter in answer to request but he seems to have got <w>entangl<supplied>ed</supplied></w>
+
+                <pb facs="liv_000699_0004" n="0004"/>
+<lb/>in the meshes of courtship &amp; forgotten to answer me. <choice><sic>Dont</sic><corr>Don't</corr></choice> send envelopes here -
+<lb/>I shall attend to your suggestions respecting the paper &amp; probably will send it               
+<lb/>to you in the way you propose. But I intend to be away Lakeward for <!-- geog: Ngami -->
+<lb/>a Twelvemonth next season. Have given the <term type="occupation">Directors</term> some particulars
+<lb/>respecting the Lake omitted last year.</p> <!-- geog: Ngami -->
+<lb/><p rend="no-indent">With affectionate salutations
+<lb/>I conclude this long <bibl>epistle</bibl>. The opportunity is one formed by an express
+<lb/>from the <orgName>Government</orgName> to <persName>M<hi rend="sup">r</hi> Oswell</persName> whom we met on our return
+<lb/><choice><sic>Dont</sic><corr>Don't</corr></choice> expect he will go very far beyond our point by himself - 
+<lb/>But we shall see
+<lb/><persName><choice><abbr>D</abbr><expan>David</expan></choice> Livingstone</persName></p>
+
+<cb/><ab>
+<address>
+<addrLine/><persName>Care of Rev<hi rend="sup">d</hi> W. Thompson</persName> <placeName><settlement type="city">Cape Town</settlement></placeName>
+<addrLine/><persName>Rev<hi rend="sup">d</hi> D. G. Watt.</persName>
+<addrLine/><placeName><settlement type="town">Northwich</settlement></placeName>
+<addrLine/><placeName><region>Cheshire</region></placeName></address>    
+</ab>              
+               
+            </div>
+        </body>
+    </text>
+
+</TEI>
