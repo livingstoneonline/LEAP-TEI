@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
@@ -53,18 +54,19 @@
 
 	<pb n="0001" facs="liv_000955_0001"/><!--pb/@n='1'-->
 <!-- This file needs to be rechecked since it was mangled by word MH 2005-12-18 - checked CO 2006-01-26 --><!-- PB element? MH 2005-12-18 --><!--Hand 01 9 top left--><!--Hand 02 68011 superscript A top right-->
-<lb/><p rend="right"><placeName>57 Sloane St.</placeName></p>
-<lb/><p rend="right">London 27 <choice><abbr>Jan<hi rend="sup">y</hi></abbr><expan>January</expan></choice>.</p><!--Hand 03 1857 under date-->
-<lb/><p><hi rend="underline">Private</hi><!--this is written across top left-hand corner--></p>
+<lb/><p rend="no-indent"><hi rend="underline">Private</hi><!--this is written across top left-hand corner--></p>
+<lb/><p rend="center"><space extent="2" unit="chars"/><placeName>57 Sloane St.</placeName></p>
+<lb/><p rend="center"><space extent="2" unit="chars"/>London 27 <choice><abbr>Jan<hi rend="sup">y</hi></abbr><expan>January</expan></choice>.</p><!--Hand 03 1857 under date-->
+<lb/>
 <lb/><p>Sir</p>
-<lb/><p>I have been 
+<lb/><p><space extent="3" unit="chars"/>I have been 
 <lb/>requested by <persName>Mr Prout</persName>
 <lb/>to reply to a note you 
 <lb/>sent to him respecting 
 <lb/>my acceptance 
 <lb/>of the Freedom of 
 <lb/>the City of Edinburgh.</p>
-<lb/><p>If I consult my 
+<lb/><p rend="no-indent">If I consult my 
 <lb/>own inclinations 
 
 	<pb n="0002" facs="liv_000955_0002"/><!--pb/@n='2'-->
@@ -114,9 +116,9 @@
 <lb/>I must accede to 
 <lb/>the honour and will 
 <lb/>try to do it thankfully</p>
-<lb/><p rend="right">Believe me Dear Sir</p>
-<lb/><p rend="center">&amp;c</p>
-<lb/><p rend="right">David Livingstone</p>
+<lb/><p><space extent="1" unit="chars"/>Believe me Dear Sir</p>
+<lb/><p><space extent="2" unit="chars"/>&amp;c</p>
+<lb/><p><space extent="3" unit="chars"/>David Livingstone</p>
 			
 </div>
 		</body>
