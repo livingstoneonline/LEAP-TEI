@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ 
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002701"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title>Letter to Arthur Mills</title>
+                <title type="alternative">Letter to Arthur Mills, 12 May 1865</title><!-- Ignore this line -->
+                <author>Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+                <respStmt xml:id="LG"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Lauren Geiger</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002701</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>USA</country><!-- Change as needed -->
+                        <settlement>Washington, D.C.</settlement><!-- Change as needed -->
+                        <repository>Smithsonian Institution. Libraries. Joseph F. Cullman 3rd Library of Natural History</repository><!-- Change as needed -->
+                        <idno type="shelfmark">M094 bis</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber"/><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Arthur Mills</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1865-05-12">12 May 1865</date><!-- Change -->
+                    <placeName type="compositionPlace">8 Dover St. Piccadilly</placeName><!-- Change -->
+                    <persName type="addressee">Mills, Arthur, 1816-1898</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-09-15" who="#AW">Proofing and coding review</change>
+            <change when="2016-09-13" who="#LG">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002701_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+
+<lb/><p rend="center"><placeName>8 Dover St. 
+<lb/><space extent="3" unit="chars"/>Piccadilly</placeName> 
+<lb/><space extent="3" unit="chars"/><date when="1865-05-12">12<hi rend="sup underline">th</hi> May 1865</date></p>
+<lb/>
+<lb/>
+<lb/><p rend="no-indent">My Dear M<hi rend="sup">r</hi> Mills</p><!-- Change line info as appropriate -->
+<lb/><p><space extent="1" unit="chars"/>I am not at
+<lb/>all anxious to be
+<lb/>examined by the
+<lb/>committee now
+<lb/>sitting but rather
+<lb/>than let <choice><sic><persName>Burton</persName>s</sic><corr><persName>Burton</persName>'s</corr></choice>
+<lb/>assertions pass
+<lb/>uncontradicted
+<lb/>I would undergo
+
+	<pb facs="liv_002701_0002" n="0002"/>
+<lb/>the ordeal - <space extent="1" unit="chars"/>His
+<lb/>assertions about
+<lb/>missionaries are
+<lb/>monstrous and
+<lb/>false and as I
+<lb/>understand he
+<lb/>was allowed to
+<lb/>make them why
+<lb/>not take in a
+<lb/>little evidence
+<lb/>on the other side
+<lb/>I know <placeName><country>Sierra
+<lb/>Leone</country></placeName> - and <placeName><settlement type="town">Loanda</settlement></placeName>
+<lb/>on the West Coast                
+
+	<pb facs="liv_002701_0003" n="0003"/>
+<lb/>the Interior - and
+<lb/>I can compare
+<lb/>the effects of
+<lb/>missions - <w>settle<supplied>-</supplied>
+<lb break="no"/>-ments</w> and the
+<lb/>efforts of cruizers
+<lb/>on both East
+<lb/>and West Coasts -
+<lb/>but if evidences
+<lb/>on these points
+<lb/>are not desired
+<lb/>I must be <w>con<supplied>-</supplied>
+<lb break="no"/>-tent</w> - I leave
+
+              
+	<pb facs="liv_002701_0004" n="0004"/>
+<lb/>for <placeName><country>Scotland</country></placeName> on
+<lb/>23<hi rend="sup underline">rd</hi> current -</p>
+                
+<!-- If there is a letter or similar with a closer with content such as salute or signed -->
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/>I am &amp;c<!-- Change as appropriate -->
+<lb/><persName>David Livingstone</persName></p>
+<lb/><space extent="2" unit="chars"/><note rend="center"><add hand="#U">&amp;c &amp;c
+<lb/>2
+<lb/><seg rend="right"><gap extent="1" unit="words" agent="illegible"/></seg></add></note>
+<lb/>
+<lb/><trailer><persName>Arthur Mills <choice><abbr>Esq.</abbr><expan>Esquire</expan></choice></persName></trailer> 
+
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

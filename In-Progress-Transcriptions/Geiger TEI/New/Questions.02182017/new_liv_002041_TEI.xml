@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002041"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            	<title>Letter to Mr. Baines</title><!-- Change -->
+            	<title type="alternative">Letter to Mr. Baines, 8 August 1864</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+            	<respStmt xml:id="BL">
+					<name>Blaze Livingston</name>
+					<resp>Proofing</resp>
+            	</respStmt>
+                  <respStmt xml:id="AD"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Amzie Dunekacke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+<respStmt xml:id="JZ"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Proofing</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002041</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country><!-- Change as needed -->
+                        <settlement>Hamilton</settlement><!-- Change as needed -->
+                    	<repository>Private owner</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- I don't think this has a shelfmark? -->
+                        <altIdentifier>
+                        	<idno type="ccnumber">Letters, 1463</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                	<title>Letter to Mr. Baines, 8 August 1864</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1864-08-08">8 August 1864</date><!-- Change -->
+                    <placeName type="compositionPlace">Hamilton</placeName><!-- Change -->
+                    <persName type="addressee">Mr. Baines</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2017-01-11" who="#AW">Coding review</change>
+			<change when="2016-11-12" who="#BL">Proofing</change>
+			<change when="2016-06-16" who="#AW">Coding review</change>
+			<change when="2016-06-14" who="#JZ">Proofing</change>
+            <change when="2016-06-15" who="#AD">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002041_0001" n="0001"/><!-- Change both @facs and @n -->
+<lb/><opener><space extent="3" unit="words"/><add place="inspace" rend="small"><unclear cert="medium">Res.</unclear> David Livingstone <add place="below">L L D.</add></add>
+<lb/><dateline rend="right"><placeName><settlement type="town">Hamilton</settlement></placeName> <date when="1864-08-08">8<hi rend="sup underline">th</hi> August<!-- Placement? --> 
+<lb/><space extent="4" unit="words"/>1864</date></dateline><!-- Change line info as appropriate -->
+<lb/>    
+<lb/><salute>My Dear <persName>M<hi rend="underline sup">r</hi> Baines</persName></salute></opener>
+<lb/><p>I feel very much
+<lb/>flattered by your
+<lb/>invitation to lecture
+<lb/>before the <orgName><placeName><settlement type="city">Leeds</settlement></placeName>
+<lb/>Philosophical &amp;
+<lb/>literary society</orgName> and
+<lb/>I think I could tell
+<lb/>my story among
+<lb/><orgName><placeName><region>Yorkshire</region></placeName> men</orgName> with
+<lb/>as little embarrassment 
+<lb/>as among <term type="people">Scotchmen</term>
+<lb/>but I am anxious
+
+	<pb facs="liv_002041_0002" n="0002"/>
+<lb/>to get back to <placeName><bloc>Africa</bloc></placeName>
+<lb/>again and by some
+<lb/>work North of the 
+<lb/><term type="nationality"><term type="people">Portuguese</term></term> prevent
+<lb/>my past labours
+<lb/>from being rendered
+<lb/>fruitless by those
+<lb/>inveterate <term type="occupation"><orgName>slavers</orgName></term> -
+<lb/>I left my steamer
+<lb/>at <placeName><settlement type="city">Bombay</settlement></placeName> for
+<lb/>this very object
+<lb/>when I might have
+<lb/>sold her - and now
+<lb/>in order to have a 
+<lb/>few months quiet
+<lb/>but not of idleness
+<lb/>refuse all public
+
+	<pb facs="liv_002041_0003" n="0003"/>
+<lb/>engagements except
+<lb/>the <orgName>British association</orgName>
+<lb/>at <placeName><settlement type="town">Bath</settlement></placeName> - </p>
+<lb/><p rend="no-indent">Please do accept
+<lb/>hearty thanks for
+<lb/>your kind offers
+<lb/>of hospitality
+<lb/>and present a
+<lb/>warm greeting
+<lb/>to <persName>M<hi rend="underline">rs</hi> Baines</persName></p>
+<lb/><closer><salute>from Yours Ever</salute><!-- Change as appropriate -->
+<lb/><signed><persName>David Livingstone</persName></signed></closer><!-- Change as appropriate --> 
+
+<lb/><postscript><p>I think I have
+<lb/>an invitation from
+<lb/>
+
+	<pb facs="liv_002041_0004" n="0004"/>
+<lb/>the <term type="occupation">secretary</term> and hope
+<lb/>that this which I 
+<lb/>could not answer
+<lb/>sooner will suffice
+<lb/>for an answer
+<lb/><space extent="2" unit="words"/><persName><choice><abbr>D.L.</abbr><expan>David Livingstone</expan></choice></persName></p></postscript>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

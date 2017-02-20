@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000147">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Receipt for Francis Skead</title>
+                <title type="alternative">Receipt for Francis Skead, 3 April 1858</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<pubPlace>London</pubPlace>
+				<date>2009</date>
+				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+				<idno type="LEAP-ID">liv_000147</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl xml:id="shelfmark">Royal Geographical Society (Great Britain); Archives, DL 4/10/4</bibl>
+				<bibl xml:id="ccnumber">Documents, 18</bibl>
+				<bibl xml:id="recipient"><persName>Skead, Francis, 1823-1891</persName></bibl>
+				<bibl xml:id="date"><date when="1858-04-03">3 April 1858</date></bibl>
+				<bibl xml:id="where">Steamer "Pearl"</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote xml:id="hand01">Scribe: Unknown</handNote>
+			</handNotes>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2009-01-09</date>
+				<name xml:id="SM">Sharon Messenger</name>Initial Transcription by Sharon Messenger 
+			</change>
+			<change>
+				<date>2009-01-22</date>
+				<name xml:id="CL">Christopher Lawrence</name>Proof by Chris Lawrence
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body xml:lang="en">
+			<div>
+
+	<pb n="0001" facs="liv_000147_0001"/><!--pb/@n='1r'-->
+<lb/><p rend="right"><placeName>Steamer Pearl</placeName>
+<lb/>3<hi rend="sup underline">d</hi> April 1858</p>
+<lb/><p><choice><sic>Recieved</sic><corr>Received</corr></choice> from <persName>M<hi rend="sup underline">r</hi> Skead</persName>
+<lb/>one sextant N<hi rend="sup">o</hi> Da 20 
+<lb/>for the use of the <placeName>Zambesi</placeName>
+<lb/>Expedition<reg>.</reg></p>
+<lb/><p><persName>David Livingstone</persName></p>
+			
+</div>
+		</body>
+	</text></TEI>

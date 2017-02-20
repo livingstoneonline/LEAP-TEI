@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002435">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title></title>
+                <title type="alternative">Letter to Agnes Livingstone 3</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="BL">
+                    <name>Blaze Livingston</name>
+                    <resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="LG">
+                    <name>Lauren Geiger</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
+                <idno type="LEAP-ID">liv_002435</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno type="shelfmark">MS. 10704, 29-30</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1840</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Agnes Livingstone 3</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1865-11-17">17 November 1865</date>
+                    <placeName type="compositionPlace">Bombay</placeName>
+                    <persName type="addressee">Agnes Livingstone</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2017-01-27" who="#AW">Coding review</change>
+			<change when="2017-01-27" who="#BL">Coding review</change>
+			<change when="2017-01-17" who="#BL">Proofing</change>
+            <change when="2016-10-17" who="#LG">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+    <pb facs="liv_002435_0001" n="0001"/>
+
+<!-- I have questions for you regarding how to handle the vertical text; the coding guidelines instruct me to end the previous text as a paragraph (even if it's not the end of a paragraph) and open the vertical text as a new paragraph. Do I need to close the vertical text as a paragraph as well, and then reopen the continued horizontal text as a new paragraph? Should I just continue and not mark the continued horizontal text as a new paragraph? -->
+
+<lb/><opener><metamark/><add place="inline" rend="gray small"><gap reason="illegible" extent="4" atLeast="3" atMost="5" unit="chars"/> <unclear cert="medium">Village</unclear> 4</add> <dateline><placeName><settlement type="city">Bombay</settlement></placeName> <date when="1865-11-17">17 <choice><abbr>Nov.</abbr><expan>November</expan></choice><hi rend="sup">r</hi> 1865</date></dateline>
+<lb/><add place="inline" rend="gray vertical large diagonal">42</add>
+<lb/>CCCXXXIX<!-- The number is 329, and I have no idea what it could be referring to. Considering a measurement for the time being. BL.--> <space extent="1" unit="chars"/><add place="inline" rend="blue"><metamark/>14</add><!-- number is circled. Not sure how to code. BL. --></opener>
+<lb/><p rend="no-indent">My Dearest <persName>Nannie</persName></p><!-- having this line in opener makes it appear at the bottom and messes with format/size. Using <ab> seems to work just fine. BL -->
+<lb/><p><space extent="2" unit="chars"/>You have hit on an
+<lb/>admirable plan, and here
+<lb/>you see the influence of good
+<lb/>example for I have adopted
+<lb/>it too - I have duly received
+<lb/>your III and as <persName>M<hi rend="sup">s</hi> Stearns</persName>
+<lb/>despatches a ship on the <date when="1865-11-20">20<hi rend="sup">th</hi></date>
+<lb/>to <placeName><settlement type="city">Suez</settlement></placeName> I begin a note to be
+<lb/>in readiness for that <w>occass
+<lb break="no"/>ion</w>. I am getting very uneasy
+<lb/>to be off - no word has yet
+<lb/>come from the <term type="occupation">Admiral</term> and
+<lb/>as I am all ready to start I
+<lb/>am not at all reconciled
+<lb/>to delay - I have 12 men of
+<lb/>the <term type="occupation">Marines</term> &amp; a <term type="occupation">Havildar</term> or
+<lb/><orgName>native</orgName> <term type="occupation">officer</term> ready to go
+<lb/>at a moment's notice - Then
+<lb/>8 <orgName><orgName>Africans</orgName> from <placeName><region>Nassick</region></placeName></orgName><!--Not sure if they're "from" a village named Nassick or from a person names as such. BL> --> </p> 
+<lb/><cb rend="vertical"/>
+<lb/><p rend="no-indent">Love to <persName>Madame Hocédé</persName></p>
+
+    <pb facs="liv_002435_0002" n="0002"/>
+<p><lb/>a <orgName>Government school for
+<lb/>the education of captured &amp;
+<lb/>liberated <orgName>Africans</orgName></orgName> - Five more
+<lb/>from the <placeName><geogName type="river">Zambesi</geogName></placeName> go part
+<lb/>of the way, and <measure>two</measure> boys
+<lb/>whom we once gave to 
+<lb/><persName>Bishop Mackenzie</persName> - They
+<lb/>have been at <orgName><persName>D<hi rend="sup underline">r</hi> Wilson's</persName>
+<lb/>school</orgName> here and have picked
+<lb/>up English - <choice><orig>Hindoostanee</orig><reg>Hindustani</reg></choice><!-- currently can't gleam any concrete words from this. BL. -->
+<lb/>and Marathi so as to speak
+<lb/>a little of each - They read
+<lb/>English pretty well &amp; <persName>D<hi rend="sup">r</hi> Wilson</persName>
+<lb/>thinks that they are fit for
+<lb/>baptism. This is pretty well
+<lb/>for 15 months education
+<lb/>One of them named <persName>Chuma</persName>
+<lb/>wrote a letter to <persName>Waller</persName> - and
+<lb/>the address was - <metamark/><persName>M<hi rend="sup">r</hi> Waller</persName> 
+<lb/>Those will form <space extent="2" unit="chars"/><persName>Chuma</persName><!-- currently putting text in-line, even though "Chuma" is practcally in the line below. BL. Unable to mark with <query> without splitting it up, and using <lb/> was convoluted. Edit as fit. BL.-->
+<lb/>the party say 23 - I have got
+<lb/>several volunteers in <placeName><country>India</country></placeName>
+<lb/>but declined them. If I had
+<lb/><persName>D<hi rend="sup">r</hi> Kirk</persName> it would be different
+<lb/>but untried men are often a
+<lb/>nuisance. Fo<add place="below">^</add><add place="above">u</add>rteen <term type="animal">buffaloes</term></p>
+<lb/><cb rend="vertical"/>
+<lb/><p rend="no-indent"><persName>M<hi rend="sup">r</hi> Stearns</persName> is an active <term type="nationality">American</term> <term type="occupation">merchant</term></p>
+
+    <pb facs="liv_002435_0003" n="0003"/>
+<lb/><p rend="no-indent">and the <term type="animal">calves</term> are sent <add place="above" rend="gray">30</add>
+<lb/>off already - and should an
+<lb/>opportunity occur for me
+<lb/>to go I shall follow - I am
+<lb/>all ready.</p>
+<lb/><p>I went up <measure>300 miles</measure>
+<lb/>in <placeName><region><choice><orig>Goozerat</orig><reg>Gujarat</reg></choice></region></placeName> - &amp; I think
+<lb/>sent my <measure>338</measure> from <placeName><settlement type="city">Surat</settlement></placeName>
+<lb/>as well as one to <persName>M<hi rend="sup underline">rs</hi>Webb</persName>
+<lb/>in answer to what I received
+<lb/>from her - The country was
+<lb/>just like <placeName><bloc>Africa</bloc></placeName> - plants &amp;
+<lb/>trees nearly identical - I saw
+<lb/>the buildings of which I
+<lb/>saw the photographs last
+<lb/>time I went down to <persName>M<hi rend="sup">r</hi>
+<lb/>Murray's</persName> at <settlement type="city">Wimbledon</settlement> - 
+<lb/>They are very fine, and
+<lb/>the carving is wonderfully
+<lb/>elaborate - The city of
+<lb/><placeName><settlement type="city"><choice><orig>Ahmeda-bad</orig><reg>Ahmedabad</reg></choice></settlement></placeName> in which they
+<lb/>are found is a grand old
+<lb/><term type="nationality">Indian</term> one and a week
+<lb/>would have been well
+<lb/>spent in examining them
+<lb/>but I felt so anxious to be</p>
+<lb/><cb rend="vertical"/>
+<lb/><p rend="no-indent">His father a professor in a college - a brother
+<lb/>was killed in the war - good people all</p>
+    
+    <pb facs="liv_002435_0004" n="0004"/>
+<lb/><p rend="no-indent">away from this that I spent
+<lb/>only one day - I saw a <placeName><settlement type="village"><orgName>native</orgName>
+<lb/><term type="faith">Christian</term> village</settlement></placeName> and was
+<lb/>gratified by the pleasant
+<lb/>expression of the women's
+<lb/>faces - The general appearance<gap extent="1" unit="chars"/><supplied>s</supplied>
+<lb/>of the same clans but of heathen
+<lb/>women is not pleasing -
+<lb/>After service on Sunday
+<lb/>morning one came <w>for-
+<lb break="no"/>ward</w> &amp; said she did not like
+<lb/>to see us going away fasting
+<lb/>would we take <term type="foodstuff">tea</term> or <term type="foodstuff">milk</term> -
+<lb/>I chose the latter and she gave
+<lb/>me a cup of <term type="foodstuff"><term type="animal">buffaloe</term>'s milk</term>
+<lb/>which is very white - and so
+<lb/>is the butter but it is <w>pre-
+<lb break="no"/>-ferred</w> to <term type="animal">cow</term>'s here - You see
+<lb/>the <term type ="animal">buffaloes</term> lying in the water
+<lb/>during the day with their heads
+<lb/>only above the surface - I
+<lb/>stopped a day with <persName>M<hi rend="sup underline">r</hi> Taylor</persName>
+<lb/>he is quite alone as his wife
+<lb/>had to leave from bad health -
+<lb/>I was disappointed in not
+<lb/>meeting a <persName>M<hi rend="sup underline">rs</hi> Oliphant</persName>'s daught<gap extent="2" unit="chars"/><supplied>er</supplied>
+<lb/>or <term type="occupation">General</term> <persName>Alexander <unclear>Wilson</unclear></persName></p>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

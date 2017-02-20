@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001918">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to Horace Waller</title>
+                <title type="alternative">Letter to Horace Waller, 1 May 1863</title>
+				<author>Livingstone, David, 1813-1873</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<pubPlace>College Park, MD, USA</pubPlace>
+				<publisher>University of Maryland Libraries</publisher>
+				<date>2016</date>
+				<idno type="LEAP-ID">liv_001918</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl xml:id="shelfmark">Bodleian Library. Weston Library; Waller MSS. Afr. s. 16.1, 29</bibl>
+				<bibl xml:id="ccnumber">Letters, 1349</bibl>
+				<bibl xml:id="recipient"><persName>Waller, Horace, 1833-1896</persName>; </bibl>
+				<bibl xml:id="date"><date when="1863-05-01">1 May 1863</date></bibl>
+				<bibl xml:id="where">Cataracts</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2011-12-01</date>
+				<name xml:id="AJS">A.J. Schmitz</name> initial transcription and XML encoding.
+            
+			</change>
+			<change>
+				<date>2012-01-04</date>
+				<name xml:id="HFB">Heather F. Ball</name> proofreading.
+            
+			</change>
+			<change>
+				<date>2011-12-04</date>
+				<name xml:id="AW">Adrian S. Wisnicki</name> editing.
+            
+			</change>
+			<change>
+				<date>2012-09-25</date>
+				<name>Heather F. Ball</name> second XML editing.
+            
+			</change>
+			<change>
+				<date>2016-10-23</date>
+				<name xml:id="AM">Anne Martin</name> final review.
+            
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div>
+
+	<pb n="0001" facs="liv_001918_0001"><!--pb/@n='29r'--></pb>
+<lb/><p rend="no-indent"><placeName><geogName type="cataract">Cataracts</geogName></placeName> <date when="1863-05-01">1<hi rend="sup underline">st</hi> May 1863</date></p><!-- Again, should "Cataracts" be feature or region? HB 1/4/12 -->
+<lb/>
+<lb/><p rend="no-indent">My dear <persName><choice><abbr>W.</abbr><expan>Waller</expan></choice></persName></p>
+<lb/><p><space extent="1" unit="words"/><space extent="1" unit="chars"/>Whoever sends the 
+<lb/>food will man the Galzo
+<lb/>if you will not use it 
+<lb/>I shall - but I suspect 
+<lb/>you misunderstand 
+<lb/>the matter - </p>
+<lb/><p>If the <persName><term type="occupation">Governor</term></persName> does not 
+<lb/><choice><sic>recieve</sic><corr>receive</corr></choice> something more 
+<lb/>stiff from his own <orgName><choice><abbr>Gov<hi rend="sup underline">t</hi></abbr><expan>Government</expan></choice></orgName>
+<lb/>than from me in the <bibl><placeName><region>Cape</region></placeName><!-- geog: Cape Colony -->
+<lb/>papers</bibl> I am mistaken. We
+<lb/>would like <persName>Rowley</persName> to say 
+<lb/>he on the spot <hi rend="underline">can</hi> say nothing 
+<lb/>on the merits. I shall bear 
+<lb/>it all myself however 
+<lb/>like a <term type="nationality">Briton</term>. Something 
+<lb/>will come of it nothing like 
+<lb/>kicking up a dust on these 
+<lb/>subjects</p>
+<lb/><p rend="center"><persName>David Livingstone</persName></p>
+
+	<pb n="0002" facs="liv_001918_0002"><!--pb/@n='29v'--></pb><!-- no text on this page AJS 12/1 -->
+			
+</div>
+		</body>
+	</text></TEI>
