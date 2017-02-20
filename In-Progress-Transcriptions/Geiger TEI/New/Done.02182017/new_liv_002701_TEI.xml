@@ -80,9 +80,9 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 
-<lb/><p rend="center"><placeName>8 Dover St. 
-<lb/><space extent="3" unit="chars"/>Piccadilly</placeName> 
-<lb/><space extent="3" unit="chars"/><date when="1865-05-12">12<hi rend="sup underline">th</hi> May 1865</date></p>
+<lb/><p rend="no-indent"><space extent="1" unit="words"/><placeName>8 Dover St. 
+<lb/><space extent="2" unit="words"/>Piccadilly</placeName> 
+<lb/><space extent="2" unit="words"/><date when="1865-05-12">12<hi rend="sup underline">th</hi> May 1865</date></p>
 <lb/>
 <lb/>
 <lb/><p rend="no-indent">My Dear M<hi rend="sup">r</hi> Mills</p><!-- Change line info as appropriate -->
@@ -134,10 +134,14 @@
                 
 <!-- If there is a letter or similar with a closer with content such as salute or signed -->
 <lb/><p rend="no-indent"><space extent="2" unit="chars"/>I am &amp;c<!-- Change as appropriate -->
-<lb/><persName>David Livingstone</persName></p>
-<lb/><space extent="2" unit="chars"/><note rend="center"><add hand="#U">&amp;c &amp;c
-<lb/>2
-<lb/><seg rend="right"><gap extent="1" unit="words" agent="illegible"/></seg></add></note>
+<lb/><space extent="1" unit="words"/><persName><hi rend="small">D<hi rend="sup">r</hi></hi>
+<lb/>David Livingstone</persName>
+
+
+<lb/><space extent="2" unit="words"/><add hand="#U" rend="small">&amp;c &amp;c
+<lb/><space extent="1" unit="words"/>2 <gap extent="1" unit="words" agent="illegible"/>
+<lb/><space extent="2" unit="words"/><gap extent="1" unit="words" agent="illegible"/></add></p>
+<lb/>
 <lb/>
 <lb/><trailer><persName>Arthur Mills <choice><abbr>Esq.</abbr><expan>Esquire</expan></choice></persName></trailer> 
 
