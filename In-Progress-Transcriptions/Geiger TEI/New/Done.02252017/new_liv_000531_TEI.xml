@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000531">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to Arthur Tidman</title>
+                <title type="alternative">Letter to Arthur Tidman, 24 June 1843</title>
+				<author>Livingstone, David, 1813-1873</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<pubPlace>College Park, MD, USA</pubPlace>
+				<publisher>University of Maryland Libraries</publisher>
+				<date>2016</date>
+				<idno type="LEAP-ID">liv_000531</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl xml:id="shelfmark">University of London. School of Oriental and African Studies; CWM/LMS/Livingstone Wooden Box, item 23</bibl>
+				<bibl xml:id="ccnumber">Letters, 0076</bibl>
+				<bibl xml:id="recipient"><persName>Tidman, Arthur, 1792-1868</persName>; </bibl>
+				<bibl xml:id="date"><date when="1843-06-24">24 June 1843</date></bibl>
+				<bibl xml:id="where">Kuruman</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+				<language ident="la">Latin</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2012-08-07</date>
+				<name xml:id="JM">Jared McDonald</name>Initial transcription and XML encoding.
+            
+			</change>
+			<change>
+				<date>2013-06-25</date>
+				<name xml:id="AJS">AJ Schmitz</name>Proofreading.
+            
+			</change>
+			<change>
+				<date>2013-09-01</date>
+				<name xml:id="HFB">Heather F. Ball</name>Additional encoding.
+            
+			</change>
+			<change>
+				<date>2016-05-19</date>
+				<name xml:id="AM">Anne Martin</name>Final Review
+            
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div>
+
+	<pb n="0001" facs="liv_000531_0001"><!--pb/@n='1r'--></pb>
+				<lb/><p rend="right"><space extent="4" unit="words"/><space extent="3" unit="chars"/><placeName><settlement type="village">Kuruman</settlement></placeName> <date when="1843-06-24">24<hi rend="sup">th</hi> June 1843</date></p>
+<lb/><p><persName>Rev<hi rend="sup underline">d</hi> <choice><abbr>A.</abbr><expan>Arthur</expan></choice> Tidman</persName></p>
+<lb/><p><space extent="4" unit="words"/>Dear Sir</p>
+<lb/><p><space extent="6" unit="words"/>Your kind and encouraging letter <!-- Would this be better coded as margin right? And if so, how code next line left margin without using new p line? HB 9-1-13 -->
+<lb/>I found a few days ago on returning from another tour in the
+<lb/><placeName><region>Interior</region></placeName>, and I now beg leave gratefully to acknowledge the
+<lb/>encouragement it imparted to my mind. It afforded me
+<lb/>unfeigned pleasure to be informed that the measures I felt it
+<lb/>my duty to adopt had met the approbation of the <orgName>Directors</orgName>. Their
+<lb/>satisfaction in my labours I hope at all times to feel anxious to
+<lb/>secure. And I earnestly pray the Great Head of the <orgName>church</orgName> may
+<lb/>condescend so to guide my operations, as that all may
+<lb/>be for His glory. If that prayer is answered I have no
+<lb/>doubt but that I shall obtain not only the testimony of my
+<lb/>own conscience but also the approbation of all His eminent
+<lb/><orgName>servants</orgName>.</p>
+<lb/><p>In reference to two topics adverted to in yours <foreign xml:lang="la"><choice><abbr>viz.</abbr><expan cert="high">videlicet</expan></choice></foreign>
+<lb/><orgName>Native</orgName> agency and the appointment of a <orgName>District Committee</orgName>
+<lb/>it will be gratifying for you to be informed that having written
+<lb/>some of my <orgName><term type="faith">Christian</term> friends</orgName> in <placeName><country>Scotland</country></placeName> in behalf of the former
+<lb/>I have <choice><sic>recieved</sic><corr>received</corr></choice> some very encouraging promises of support
+<lb/>One has already remitted the sum of £12 to the <orgName>Society</orgName>, and
+<lb/>others promise to make an effort to raise other two
+<lb/>such sums as soon as the then depressed state of the
+<lb/>country had been got over. But with respect to the
+<lb/>latter measure I confess I entertain no very sanguine
+<lb/>hopes of it being successful. I only know of two
+<lb/>of the <choice><orig>bretheren</orig><reg>brethren</reg></choice> <foreign xml:lang="la"><choice><abbr>viz.</abbr><expan cert="high">videlicet</expan></choice></foreign> <choice><sic>M<hi rend="sup">rs</hi></sic><corr>M<hi rend="sup">essrs</hi></corr></choice> <persName>Moffat</persName> &amp; <persName>Ross</persName> at all desirous of its <!-- Adrian, is the Misters prefix coded properly, or should it be supplied for Ross as well? HB 9-1-13 --> <!-- I would suggest correcting "Mrs" to "Messrs", and have coded it accordingly AM -->
+<lb/>establishment. This and the fact that the others will join
+<lb/>simply because such is the expressed will of the <orgName>Directors</orgName>, 
+<lb/>seem to <unclear cert="medium">augus</unclear><!-- "augur" ? AM --> ill for its prosperity. For my own part
+<lb/>although a warm admirer of the principles on which the
+<lb/>congregational unions of <placeName><country>England</country></placeName> and <placeName><country>Scotland</country></placeName> are formed
+<lb/>my short experience among <term type="occupation">missionaries</term> makes me not quite
+<lb/>so sure of the propriety of <term type="occupation">missionary</term> unions. the salutary
+<lb/>influence of enlightened public opinion which these possess
+<lb/>is here entirely awaiting and without it I believe we may
+
+	
+
+	<pb n="0002" facs="liv_000531_0002"><!--pb/@n='1v'--></pb>
+<lb/>in our corporate capacity do what as <orgName>individuals</orgName> no one of us
+<lb/>should ever dare. I however endeavour to repress my private
+<lb/>feelings on the subject And I do so with the hope that the
+<lb/>measure may be productive of all the advantage to the cause
+<lb/>which a well conducted combination is calculated to effect. 
+<lb/>But the <orgName>Directors</orgName> will not I trust consider me guilty of
+<lb/>any impropriety if when yielding a prompt compliance
+<lb/>with their wish I feel constrained to add I must reserve to
+<lb/>myself the power of withdrawing from that <orgName>committee</orgName> if
+<lb/>at any future time I feel that to be my duty. If compelled
+<lb/>to dissolve my connection with it I earnestly hope it may
+<lb/>not be in consequence of having indulged a spirit inimical
+<lb/>to brotherly union, but that it may be the result of a
+<lb/>humble prayerful deliberation and with grief that the
+<lb/>measure has failed to answer my expectations -- </p>
+<lb/><p>I shall now endeavour to give you some account of 
+<lb/>the manner in which I have been e<unclear>m</unclear>ployed since the date
+<lb/>of my last <foreign xml:lang="la"><choice><abbr>viz.</abbr><expan cert="high">videlicet</expan></choice></foreign> <date when="1842-07-18">18 July / 42</date>. And of the prospects still
+<lb/>before us notwithstanding the commotions wh<unclear>ic</unclear>h soon
+<lb/>after that period arose. No instructions had arrived
+<lb/>from home and the esteemed <choice><orig>bretheren</orig><reg>brethren</reg></choice> <persName>Hamilton</persName> and
+<lb/><persName>Edwards</persName> having fully approved of my efforts to <choice><sic>benifit</sic><corr>benefit</corr></choice>
+<lb/>the <term type="tribe">Bakwains</term> I resolved immediately to follow up these
+<lb/>endeavours in another journey. But when all my
+<lb/>arrangements had been completed the sad news were brought
+<lb/>that <persName>Sebegwe</persName> the <term type="occupation">chief</term> of the <term type="tribe">Bangwaketze</term> had contrary to
+<lb/>the advice I had tendered him last year from the <placeName><region>Bakwain
+<lb/>country</region></placeName>, left the desert of the <placeName><geogName type="desert">Bakalahari</geogName></placeName> - that he
+<lb/>had been attacked by the combined forces of <persName>Mahura</persName>
+<lb/>and <persName>Sehutsane</persName>, and that very many of <orgName>his people</orgName> had
+<lb/>been murdered. To add to our grief on the reception
+<lb/>of these news we learned that several of the <orgName>believers</orgName> of
+<lb/>this station had been with <persName>Sebegwe</persName> at the very time
+<lb/>of attack, they being ignorant of the <choice><sic>treachourous</sic><corr>treacherous</corr></choice>
+<lb/>designs of their <term type="occupation">chief</term> had just before assured <persName>Sebegwe</persName>
+<lb/>that <persName>Mahura</persName> was his friend &amp; ally. The consequence
+<lb/>was, an impression was produced on the minds of
+<lb/>both <term type="tribe">Bangwaketze</term> &amp; other <orgName><placeName><region>Interior</region></placeName> tribes</orgName> that the <orgName>believers</orgName>
+<lb/>had been the means made use of by <persName>Mahura</persName> for the
+
+	
+
+	<pb n="0003" facs="liv_000531_0003"><!--pb/@n='2r'--></pb>
+<lb/>betrayal of <persName>Sebegwe</persName>. Some incidents which happened during
+<lb/>their visit tended very much to deepen that impression. The
+<lb/>accidental firing of a musket on the night preceding the attack by
+<lb/>one of the <orgName>visiting <orgName>party</orgName></orgName> was construed as having been the signal by
+<lb/>which they apprised <persName>Mahura</persName> of the exact situation of <persName>Sebegwe</persName> --
+<lb/>The singing at family worhsip as their incantations for success
+<lb/>And the collecting the people together for worship (it being sabbath morning
+<lb/>when the attack was made) as only a pretext by which the <orgName>believers</orgName>
+<lb/>tried to aid the massacre. On being informed of these untoward
+<lb/>events, I felt still more anxious to undertake the journey that
+<lb/>by my presence and explanations I might endeavour to
+<lb/>disabuse the minds of the <orgName>Heathen</orgName> of their prejudices. I feared
+<lb/>if no effort for that purpose were made the prejudices against
+<lb/><orgName>our people</orgName> might become transferred to the <bibl>gospel</bibl> and thus
+<lb/>another barrier be raised against us when we should be permitted
+<lb/>to carry it to them. But after making every effort I found it
+<lb/>impossible to procu<unclear>re</unclear> people for the <choice><orig>waggon</orig><reg>wagon</reg></choice>. All the <orgName>natives</orgName>
+<lb/>felt certain that <persName>Sebegwe</persName> revenge himself on the first
+<lb/><orgName>party</orgName> from this quarter that fell into his hands. I was therefore
+<lb/>compelled to remain in this neighbourhood for several months
+<lb/>afterwards. This I very much regretted, as the <orgName>population</orgName> here
+<lb/>is very small indeed, the majority are <term type="occupation">professors</term> of religion
+<lb/>and the remainder being very few there is no scope for more
+<lb/>than two <term type="occupation">missionaries</term> at most. The greater portion of
+<lb/>my time I employed in itineracy to the <choice><sic>agacent</sic><corr>adjacent</corr></choice> tribes. But when
+<lb/>here I took part in the routine business of the station, preaching, 
+<lb/>working occasionally at the printing press, assisting at the
+<lb/>erection of a small chapel got up by <persName>M<hi rend="sup">r</hi> Edwards</persName> &amp; myself at
+<lb/>one of the outstations, administering to the wants of the sick <!-- Cannot tell if this is "outstations" or "institutions"? HB 9-1-13--> <!-- "outstations" seems fine AM -->
+<lb/>many of whom come great distances for aid, and other duties
+<lb/>which though differing entirely from those of the <term type="occupation">minister</term>
+<lb/>at home all require to be cheerfully performed. To think of
+<lb/>standing upon what some people at home call "clerical
+<lb/>dignity" in the sense they have of it, would be as much
+<lb/>out of place in a <term type="occupation">missionary</term> in <placeName><bloc>Africa</bloc></placeName> as his becoming
+<lb/><term type="occupation">Entomologist</term> would be. - The work of God has
+<lb/>been going on steadily here ever since we arrived, 
+<lb/>but I am not aware of its having <choice><sic>recieved</sic><corr>received</corr></choice> any visible impulse
+<lb/>through our instrumentality. It must therefore be attributed
+<lb/>under God entirely to the machinery previously set in motion
+<lb/>by our honoured <orgName>predecessors</orgName>. If you could realize this fact
+
+	
+
+	<pb n="0004" facs="liv_000531_0004"><!--pb/@n='2v'--></pb>
+<lb/>as fully as those on the spot can, you would be able to enter into
+<lb/>the feelings of inexpressible delight with which I hail the decision
+<lb/>of the <orgName>Directors</orgName> that we go forward to the dark <placeName><region>Interior</region></placeName>. May
+<lb/>the Lord enable me to consecrate my whole being to the glorious work.</p>
+<lb/><p>Most of my period of suspense here was one of great commotion
+<lb/>in the <placeName><region>Interior</region></placeName>. One tribe or another was attacked either by the
+<lb/><orgName>Southern tribes</orgName> or by the more to be dreaded <term type="tribe">Matibele</term>. These wars
+<lb/>&amp; rumours of wars seemed to occupy the minds of those under 
+<lb/>the preaching of the <bibl>gospel</bibl> to the exclusion of everything else. This
+<lb/>proved a great hindrance to the work of conversion. But by
+<lb/>the month of <date when="1843-02">February last</date> the ferment had so far subsided
+<lb/>I was at length able to find people to conduct the <choice><orig>waggon</orig><reg>wagon</reg></choice></p>
+<lb/><p>I left thus on <date when="1843-02-21">21<hi rend="sup">st</hi> of February</date> and after 12 days travelling
+<lb/>arrived at the village where <persName>Sebegwe</persName> with <orgName>the remains of
+<lb/>his tribe</orgName> has taken up his residence. One of my men had
+<lb/>been of the <orgName>party</orgName> which it was supposed had betrayed him.
+<lb/>He entered the village along with me and when we arrived at the
+<lb/>place where <persName>Sebegwe</persName> &amp; his <term type="occupation">warriors</term> were seated a most
+<lb/>uproarious recognition of my <term type="occupation">servant</term> followed. After
+<lb/>which I having taken my seat close by <persName>Sebegwe</persName>, he turned to
+<lb/>me and demanded why I had attacked and destroyed all <orgName>his people</orgName>. 
+<lb/>I replied by asking, why he had refused to listen to my advice
+<lb/>and thus destroy himself. Did the <term type="occupation">messengers</term> he had sent <unclear>to</unclear>
+<lb/>me last year fail to deliver my message or did he discredit
+<lb/>my words. Some of the <term type="occupation">messengers</term> being still alive then
+<lb/>recognized me and <persName>Sebegwe</persName> &amp; I soon became very good
+<lb/>friends. He urged in excuse for acting contrary to my advice
+<lb/>that he was already on his march out of the <placeName><region><term type="tribe">Bakalihari</term> country</region></placeName> 
+<lb/>when his <term type="occupation">messengers</term> returned. That he was most desirous
+<lb/>again to eat <term type="plant_foodstuff">corn</term>. - That great numbers of <orgName>his
+<lb/>people</orgName> had been cut off by a <term type="ailment">fever</term> which prevails near
+<lb/>the <placeName><geogName type="lake">Lake Mokhoro</geogName></placeName> - And that being entirely ignorant of
+<lb/>the power of guns he despised the <term type="tribe">Batlapi</term> as antagonists. 
+<lb/>The meaning of the comet which was then visible to us
+<lb/>in all its splendour was his next enquiry. He, like all
+<lb/>the tribes which I visited, thought that it was indicative
+<lb/>of the approach of some dreadful calamity. Perhaps it
+<lb/>was significant of the death of <persName>Mahura</persName> which he had been
+<lb/>trying to bring about by means of witchcraft. Or it might be
+
+	
+
+	<pb n="0005" facs="liv_000531_0005"><!--pb/@n='3r'--></pb>
+<lb/>an intimation of another inroad of the <term type="tribe">Matibele</term> as they had seen a
+<lb/>comet just before their first invasion." I tried to convince him <!-- Not sure where the opening of this quoted phrase was HB 9-1-13 -->
+<lb/>that there was no calamity permitted to befall man except by the
+<lb/>will of God and that for some object of good to those who experienced
+<lb/>it. But the mind of poor <persName>Sebegwe</persName> is on these subjects as dark as
+<lb/>midnight. He however during the whole of our visit behaved
+<lb/>in a most friendly way. It being Saturday when I arrived I
+<lb/>explained the nature of the Sabbath and requested an opportunity
+<lb/>to address <orgName>his people</orgName>. Next morning before daybreak I was 
+<lb/>much pleased to hear a herald proclaiming that by the orders
+<lb/>of the <term type="occupation">chief</term> "nothing should be done on that day but praying
+<lb/>to God and listening to the words of the <choice><sic>foriegner</sic><corr>foreigner</corr></choice>" He himself
+<lb/>listened with great attention when I told them of "<persName>Jesus</persName> and the
+<lb/>resurrection" and I was not unfrequently interrupted by him
+<lb/>putting sensible questions on the subject. He told me that
+<lb/>he once saw <persName>M<hi rend="sup">r</hi> Moffat</persName> but as <persName>M<hi rend="sup">r</hi> <choice><abbr>M.</abbr><expan>Moffat</expan></choice></persName> was young and did
+<lb/>not know the language it is not remarkable that <persName>Sebegwe</persName> had
+<lb/>forgotten all that had been said. May the Holy Spirit be poured
+<lb/>down upon him for without his gracious influences nothing
+<lb/>that we can do will penetrate the thick crest of ignorance 
+<lb/>which <choice><sic>envelopes</sic><corr>envelops</corr></choice> their benighted souls -- </p>
+<lb/><p>After remaining a few days with <persName>Sebegwe</persName> and partaking of
+<lb/>such hospitality as his reduced circumstances now enable
+<lb/>him to bestow I passed on to the <term type="tribe">Bakhatla</term> who live a few
+<lb/>hours to the Northwest. Their situation is peculiarly well
+<lb/>adapted for <term type="occupation">missionary</term> operations, more so indeed than any
+<lb/>I have seen in this country. There is as great a <orgName>population</orgName>
+<lb/>collected in one spot as in any other point in the <placeName><region>Interior</region></placeName>
+<lb/>and that <orgName>population</orgName> seems attached to the soil - There are
+<lb/>abundant facilities for a more improved mode of <term type="occupation"><w>agri-
+<lb break="no"/>-culture</w></term> even should that be adopted by a much more
+<lb/>numerous <orgName>population</orgName> than at present exists. The <term type="occupation">manufactory
+<lb/>of iron</term> seems to have been carried on here <choice><sic>uninteruptedly</sic><corr>uninterruptedly</corr></choice>
+<lb/>from a very remote period. The ore is found at
+<lb/>the junction of the <unclear cert="medium">Trappean</unclear> &amp; sandstone rocks in the
+<lb/>immediate vicinity of the villages, and is scarcely <w>any-
+<lb break="no"/>where</w> covered by any depth of soil. It was very
+<lb/>near to this spot where <persName>M<hi rend="sup">r</hi> Campbell</persName> faced about to
+<lb/>go home and very probably the iron founderies which he
+
+	
+
+	<pb n="0006" facs="liv_000531_0006"><!--pb/@n='3v'--></pb>
+<lb/>heard of but was not permitted to see are the very same as belong to
+<lb/>them. They always refuse admittance to those who have had intercourse
+<lb/>with the other sex since the period of the year when they annually
+<lb/>commence <term type="occupation">smelting</term> lest they should bewitch the iron. Which
+<lb/>is probably the very same reason which prevented <persName>M<hi rend="sup">r</hi> Campbell</persName>
+<lb/>a sight of them. Iron bewitched is when it is burned to a 
+<lb/>cinder from a too brisk use of the bellows. When the <term type="occupation">chief</term> &amp;
+<lb/>principal families of the tribe fled along with <persName>Sebegwe</persName> on account
+<lb/>of the inroads of the <term type="tribe">Matibele</term> the <choice><sic>magority</sic><corr>majority</corr></choice> of the tribe remained
+<lb/>and carried on their works in iron as usual. The nature
+<lb/>of the soil too is different from that at <placeName><settlement type="village">Kuruman</settlement></placeName> and it
+<lb/>is probable we should not be mortified as here by the frequent
+<lb/>removals of the people on account of the deaths of their <term type="animal">cattle</term>
+<lb/>And as they are situated near several other tribes the <!-- In this line brackets are introduced with the caption "Published" in the left margin, not in DL's hand HB 9-1-13 -->
+<lb/>difficulties of itineracy and <choice><sic>superintendance</sic><corr>superintendence</corr></choice> of <orgName>native</orgName> <term type="occupation">agents</term>
+<lb/>among them would not be very formidable. I lately asked
+<lb/>the <term type="occupation">chief</term> of that tribe if he should like me to come and be
+<lb/>his <term type="occupation">missionary</term> <unclear>He</unclear> held up his hands &amp; said "O I shall dance
+<lb/>for joy if you do" I shall collect all <orgName>my people</orgName> to hoe for
+<lb/>you a garden and you will get more sweet <term type="plant">reed</term> &amp; <term type="plant_foodstuff">corn</term> than
+<lb/>myself" No instructions on the subject of an <placeName><region>Interior</region></placeName>
+<lb/>mission having then come to hand I could only say in
+<lb/>answer to his enquiries, that I should inform my <term type="faith">Christian</term>
+<lb/>friends in <placeName><country>England</country></placeName> of his desires for a <term type="occupation">missionary</term>. I
+<lb/>need scarcely add that his wish although sincere does not
+<lb/>indicate any love to the doctrines we teach. It is merely
+<lb/>a desire for the protection &amp; temporal benefit which
+<lb/><term type="occupation">missionaries</term> are everywhere supposed to bring. It is
+<lb/>however as much as we can expect from the
+<lb/><orgName>Heathen</orgName>. If we have security for life &amp; property
+<lb/>we trust the Lord will give us in his own time
+<lb/>all the rest our hearts long for.</p>
+<lb/><p>The <placeName><settlement type="village">village of <persName>Sechele</persName></settlement></placeName> the <term type="occupation">chief</term> of the <term type="tribe">Bakwain</term> is five
+<lb/>days beyond the <term type="tribe">Bakhatla</term>. Last year he was exasperated
+<lb/>with me for remaining a month with <persName><unclear cert="high">Bube</unclear></persName> another <term type="tribe">Bakwain</term>
+<lb/><term type="occupation">chief</term> whom <persName>Sechele</persName> considers as in rebellion against
+<lb/>him. <unclear>He</unclear> made known to some of the <orgName>believers</orgName> of this
+<lb/>station his determination to do me mischief should
+
+	
+
+	<pb n="0007" facs="liv_000531_0007"><!--pb/@n='4r'--></pb>
+<lb/>I ever attempt to pass his country again. But the Lord was
+<lb/>my shield and <persName>Sechele</persName> was kinder than I ever saw him before
+<lb/>His only child was sick when I arrived and the child of one of
+<lb/><orgName>his principal men</orgName> was red<unclear>uc</unclear>ed to a skeleton by <term type="ailment">dysentery</term>. The
+<lb/>means I employed were with the Divine blessing useful to both
+<lb/>and <persName>Sechele</persName> did not seem able to speak a single angry word.
+<lb/>We had much private conversation together in the course of which
+<lb/>he told me all his objections to the <bibl>gospel</bibl> we preach. Several
+<lb/>of his questions were striking. One was "since it is true
+<lb/>that all who die unforgiven are lost forever, Why did your nation
+<lb/><add place="marginleft">not</add> come to tell us of it before now"? My ancestors are all gone
+<lb/>&amp; none of them knew anything of what you tell me. How is this?
+<lb/>(I thought immediately of the guilt of the church but did not
+<lb/>confess.) I told him multitudes in our own country were
+<lb/>like himself so much in love with <unclear>their</unclear> sins my
+<lb/>ancestors had spent a great deal of time in trying to <w>per-
+<lb break="no"/>-suade</w> them And yet after all many of them by refusing
+<lb/>were lost. We now wish to tell all the world about
+<lb/>a saviour And if men did not believe the guilt would
+<lb/>be entirely theirs. <persName>Sechele</persName> has been driven to another
+<lb/>part of his country from that in which he was located
+<lb/>last year. And so has <persName>Bube</persName> so the prospects I had
+<lb/>last year of benefitting them by <orgName>native</orgName> <term type="occupation">teachers</term> are
+<lb/>for the present darkened. It is painful to see it
+<lb/>But we must not be discouraged. If we only do our
+<lb/>duty in an energetic hearty way the Most High will
+<lb/>surely lift upon us the light of His countenance &amp;
+<lb/>bless us.</p>
+<lb/><p>The <term type="tribe">Matibele</term> of <persName>Mosilikatze</persName> during their last
+<lb/>inroad upon the tribes in the <placeName><region>Interior</region></placeName> took many of
+<lb/>the women prisoners. These are constantly making their
+<lb/>escape &amp; returning to their respective tribes. When
+<lb/>still at the <placeName><settlement type="town">town of <persName><choice><sic>Sehele</sic><corr>Sechele</corr></choice></persName></settlement></placeName> I saw a <orgName>party</orgName> of these fugitives
+<lb/>which had just arrived. They had travelled nearly two
+<lb/>months from the period of making their escape, <w>collect<supplied>-</supplied><lb break="no"/>-ing</w> the roots of the desert for subsistence by day
+<lb/>and climbing any high rock they saw in their way
+<lb/>for protection by night. The hardships they had
+<lb/>undergone reduced them almost to skeletons and
+<lb/>it was most affecting to listen to their tale of woe 
+
+	
+
+	<pb n="0008" facs="liv_000531_0008"><!--pb/@n='4v'--></pb>
+<lb/>But on the part of their fellow countrymen the recital of their sufferings
+<lb/>seemed <add place="below">^</add> <add place="above">to</add> excite not the smallest sympathy. They were "women only" and
+<lb/>the men sat &amp; listened with the greatest indifference Truly Heathenism
+<lb/>has no <unclear cert="medium">bowels</unclear> of compassion. The tale of these females although
+<lb/>it had no effect on the <term type="tribe">Bakwains</term>, had a powerful effect upon the
+<lb/>people of my <choice><orig>waggon</orig><reg>wagon</reg></choice>. I could not prevail upon them to go an inch
+<lb/>further for to go any nearer the <term type="tribe">Matibele</term> than they were seemed
+<lb/>like rushing into the jaws of death. Their very hearts seemed
+<lb/>ready to die within them. I was thus reduced to the necessity
+<lb/>of either giving up my tour &amp; returning, or going forward on
+<lb/>oxback. I chose the latter and although it has some
+<lb/>inconveniences, it possesses some advantages over the
+<lb/><choice><orig>waggon</orig><reg>wagon</reg></choice>. I visited no fewer than four <placeName><settlement type="village">villages of the 
+<lb/><term type="tribe">Bakalihari</term></settlement></placeName> to which with the <choice><orig>waggon</orig><reg>wagon</reg></choice> I could not have
+<lb/>come. And as they are much more attentive to our instructions
+<lb/>than any other <term type="tribe">Bechuana</term> tribe the pleasure of proclaiming
+<lb/>the message of mercy <unclear>to</unclear> those who had never before
+<lb/>seen a white face, far outweighed any fatigue incurred
+<lb/>in reaching them. <unclear>By</unclear> far the happiest portion of my 
+<lb/>late journey was when sitting by their fires &amp; listening to
+<lb/>their traditionary tales I could intermingle the story of the
+<lb/>cross with their conversation. They are a poor degraded
+<lb/><orgName>enslaved people</orgName>. The other tribes consider them as their
+<lb/>inferiors - keep them constantly <term type="occupation">hunting</term> for them and
+<lb/>although they procure all the skins which the other tribes
+<lb/>sew into Karosses they can scarcely keep as many as 
+<lb/>cover their own nakedness - their gardens are always
+<lb/>situated far from their villages in order to secure the
+<lb/>produce from the exactions of their <term type="occupation">masters</term>. And they
+<lb/>are always found far from water in order to get as few
+<lb/>visits from the <term type="occupation">servants</term> of the <term type="occupation">chiefs</term> as possible. To us
+<lb/><orgName>Europeans</orgName> it is wonderful how they live. But though they
+<lb/>are in want of much that we consider almost necessary
+<lb/>to existence a kind Providence has supplied them with
+<lb/>many substitutes, they have <choice><orig>shewn</orig><reg>shown</reg></choice> me more than 40
+<lb/>different kinds of <term type="plant_foodstuff">roots</term> and above 30 kinds of <term type="plant_foodstuff">fruits</term> which
+<lb/>the desert spontaneously yields them. And many of these are
+<lb/>by no means unsavoury <unclear cert="high">esculents</unclear>, "<term type="insect">Locusts</term> and <term type="foodstuff">wild
+<lb/>honey</term>" abound to them. Perhaps I may be excused if I mention
+<lb/>the physiological effects of <persName>the Baptist</persName>'s food, the former <!-- If Baptist is tagged as personal name, why not Jesus/Christ? HB 9-1-13 -->
+<lb/>is excessively <term type="ailment">constipating</term> and the latter has quite the opposite
+<lb/>tendency. The <term type="insect">locusts</term> pounded &amp; mixed with <term type="foodstuff">honey</term> are as good
+
+	
+
+	<pb n="0009" facs="liv_000531_0009"><!--pb/@n='5r'--></pb>
+<lb/>if not better than <term type="animal"><term type="foodstuff">shrimps</term></term> at home. It is not probable that he confined
+<lb/>himself to that diet. If however "<term type="insect"><term type="foodstuff">locusts</term></term> and <term type="foodstuff">wild honey</term>" were as plentiful
+<lb/>in the wilderness of <placeName><region>Judea</region></placeName> as they are now in the <placeName><geogName type="desert">desert of the
+<lb/><term type="tribe">Bakalihari</term></geogName></placeName> he would have had very little difficulty in finding a constant
+<lb/>supply. During a period of twelve months I saw no fewer than
+<lb/>nineteen swarms of <term type="insect"><term type="foodstuff">locusts</term></term> and yet no particular damage was
+<lb/>done to the crops of the <orgName>natives</orgName> in consequence; and had I myself
+<lb/>attended all the calls of the "<term type="animal">honey bird</term>" I should never have been
+<lb/>without a sufficiency of <term type="foodstuff">honey</term>.</p>
+<lb/><p>When at the <term type="tribe">Bamangwato</term> I saw a son of <persName>Conrad Buys</persName>, a name
+<lb/>both known and dreaded by the early <term type="occupation">missionaries</term>. He is apparently
+<lb/>about 30 years of age. - is dressed &amp; speaks the language exactly as
+<lb/>the <orgName>native</orgName>. He is one of their lowest menials &amp; is kept to tend a garden
+<lb/>in a sort of <orgName>slavery</orgName>. His father, <persName>Buys</persName> after committing many
+<lb/>acts of injustice &amp; murder among the more southern tribes proceeded
+<lb/>to the <placeName><region>North East of the <term type="tribe">Bamangwato</term></region></placeName> and there fell a victim to
+<lb/><term type="ailment">fever</term>. The <orgName>natives</orgName> took possessi<unclear>on</unclear> of everything belonging to him
+<lb/>Even his children of <add place="below">^</add> <add place="above">whom</add> by different <orgName>native</orgName> wives he had seven, the
+<lb/>different <term type="occupation">chiefs</term> took and distributed among their <term type="occupation">servants</term>
+<lb/>This man had been given by a former <term type="occupation">chief</term> of the <term type="tribe">Bamangwato</term>
+<lb/>to his present <term type="occupation">master</term>, two brothers he informed me are still
+<lb/>alive but in <orgName>servitude</orgName> to another tribe. He has forgot all
+<lb/>about God &amp; <persName>Jesus</persName> &amp; only remembers that his father sometimes
+<lb/>collected his children - read a book, and then knelt down to pray. 
+<lb/>He does not remember a single word of Dutch although I tried <!-- How should Dutch be tagged here, if at all? HB 9-1-13 -->
+<lb/>to recall it to his memory by frequently addressing him in that
+<lb/>language. His <term type="occupation">owner</term> would not consent to part with him
+<lb/>so I was obliged to leave him in his sad position. And I could
+<lb/>not help thinking that the passage "the seed of evil doers
+<lb/>shall never be renowned" has found in him something like
+<lb/>a fulfillment</p>
+<lb/><p>Both <term type="tribe">Bamangwato</term>, <term type="tribe">Bakaa</term> &amp; <term type="tribe">Makalaka</term> have been
+<lb/>visited during the last year by the <orgName><term type="occupation">commandoes</term> of <persName>Mosilikatze</persName></orgName>
+<lb/>and they are all in a much more impoverished condition than
+<lb/>when I saw them last. The caverns of the <term type="tribe">Bakaa</term> &amp; <term type="tribe">Makalaka</term>
+<lb/>saved their lives; their property has all been carried off
+<lb/>The <term type="tribe">Bamangwato</term> in addition to the loss of property have been <w>consid<supplied>-</supplied><lb break="no"/>-erably</w> reduced in numbers in consequence of having been
+<lb/>without retreats in which to hide themselves. Internal dissension
+
+	
+
+	<pb n="0010" facs="liv_000531_0010"><!--pb/@n='5v'--></pb>
+<lb/>too, during which the <term type="occupation">chief</term> killed his own brother have tended to the same
+<lb/>result - </p>
+<lb/><p>During my last visit to the <term type="tribe">Bakaa</term> a <orgName>native</orgName> who accompanied me
+<lb/>was seized with <term type="ailment">fever</term> just before we entered their village. A report
+<lb/>was afterwards circulated that he had been <term type="ailment">poisoned</term> by the people
+<lb/>This year they seem determined all cause for such an
+<lb/>imputation for during my three days sojourn with them they gave
+<lb/>me nothing but a little sweet <term type="plant_foodstuff">reed</term> and a few <term type="plant_foodstuff">watermelons</term>. These
+<lb/>were very good but my <term type="tribe">Bakwains</term> (of whom I had three <orgName>my own
+<lb/>people</orgName> being left with the <choice><orig>waggon</orig><reg>wagon</reg></choice>) said it was only a little water
+<lb/>&amp; complained bitterly of hunger. I felt it too but I had reason
+<lb/>to be thankful for their stinginess. For when returning down
+<lb/>their lofty rocks to our sleeping place below I was so interested
+<lb/>in the questions they were putting concerning the subject on which
+<lb/>I had just addressed them I forgot for a moment the dangers of
+<lb/>the path I was descending. Presently however feeling as if falling
+<lb/>down the precipice I made a violent effort to save myself
+<lb/>but in doing so struck my hand against a sharp fragment
+<lb/>of the rock And the <bibl>testament</bibl> being in that hand <unclear>it</unclear> served as
+<lb/>a point of resistance between which &amp; the rock a finger
+<lb/>suffered <term type="ailment">compound fracture</term>. I got a good splint made of a
+<lb/><choice><sic>peice</sic><corr>piece</corr></choice> of sweet <term type="plant_foodstuff">reed</term>. My involuntary low diet saved me from
+<lb/>irritative <term type="ailment">fever</term> and though I did not rest a day in consequence
+<lb/>of the accident it proceeded to heal kindly. One night however
+<lb/>a <term type="animal">lion</term> of which there are very many in that country came very
+<lb/>near to the <term type="plant">bush</term> where we were all sound asleep &amp; then
+<lb/>suddenly commenced his hideous roaring. - my <term type="animal">ox</term> leaped in
+<lb/>among us - the poor <term type="tribe">Bakwains</term> shrieked for fear and
+<lb/>I half asleep and stupid seized a pistol with the disabled
+<lb/>hand, fired but the rebound hurt me more than the shot did
+<lb/>the <term type="animal">lion</term>. - it rebroke my bone. The <term type="tribe">Bakwains</term>, who were
+<lb/>most attentive to my wants during the whole journey of more
+<lb/>than 400 miles, tried to comfort me when they saw the
+<lb/>blood again running by saying "You have hurt
+<lb/>yourself, but you have redeemed us, Henceforth we will
+<lb/>swear only by you." Poor creatures I wished they had
+<lb/>felt gratitude for the blood which was shed for their
+<lb/>precious souls. The second edition of the fracture was
+<lb/>worse than the first but as I can bear a little pain, it was
+
+	
+
+	<pb n="0011" facs="liv_000531_0011"><!--pb/@n='6r'--></pb>
+<lb/>not nearly so great a hindrance as you may imagine and it is
+<lb/>now nearly well. The Lord has been exceedingly kind to me. He
+<lb/>has shielded me in many such dangers. May my heart be
+<lb/>stirred up to love Him more ardently and may his name be
+<lb/>blessed for ever and ever.</p>
+<lb/><p>I might have proceeded further into the <placeName><region>Interior</region></placeName> but as I
+<lb/>was more than 200 miles north from the <choice><orig>waggon</orig><reg>wagon</reg></choice> and the
+<lb/>people of it not very trustworthy, I deemed it more prudent
+<lb/>to return. The only new people I saw besides the <term type="tribe">Bakalihari</term>
+<lb/>were <orgName>a portion of the race of <term type="tribe">Makalaka</term></orgName>. They live much
+<lb/>farther <placeName><region>North</region></placeName> than the other <del type="strikethrough">portion</del> <add place="above">tribe</add> mentioned above and are
+<lb/>within 2 days of <persName>Mosilikatze</persName>. They assured me that that
+<lb/>Tyrant was still alive and still pursues his career of blood
+<lb/>In returning I walked over what was once the site of <placeName><settlement type="town">his
+<lb/>Town</settlement></placeName> near <placeName><settlement type="village">Mosiga</settlement></placeName> and where he suffered his last dreadful
+<lb/>defeat by a handful of <orgName><choice><orig>Boors</orig><reg>Boers</reg></choice></orgName>. The grass had recently been
+<lb/>burned off the country so I got a good view of the whole
+<lb/>and a few human bones were all that remained of what
+<lb/>once belonged to the marauder. And these will soon
+<lb/>be removed for the <term type="animal">hyaenas</term> are so plentiful in a few years
+<lb/>they remove everything by which one could discover a recent field
+<lb/>of slaughter. <persName>Mosilikatze</persName> is living at the distance of 12 days
+<lb/>or about 200 miles <placeName><region>North East of the <term type="tribe">Bamangwato</term></region></placeName>.</p>
+<lb/><p>To one other topic I feel compelled after a long &amp; painful <w>delibera<supplied>-</supplied><lb break="no"/>-tion</w> explicitly to advert, and while I do so I feel tremblingly alive
+<lb/>to the responsibility which a statement in anyway calculated to
+<lb/>influence the decisions of the <orgName>Directors</orgName>, necessarily involves. Every
+<lb/>time I have the thought of the duty of making known my convictions
+<lb/>my heart has palpitated with fear. But now when I hear of
+<lb/>the glorious prospects opened up for <term type="occupation">missionary</term> enterprise in
+<lb/><placeName><country>China</country></placeName> the dread of unfaithfulness overcomes the fear of <del type="strikethrough">unfaith</del>
+<lb/>misleading you. I feel consolation however in making known
+<lb/>what I consider to be the pec<unclear>u</unclear>liarities of this part of the world in 
+<lb/>the belief that you do not act in consequence of the convictions
+<lb/>of a single mind, but from the knowledge derived from the
+<lb/>sentiments of <add place="below">^</add> <add place="above">all</add> your other <term type="occupation">agents</term> in the country. The conviction
+<lb/>to which I refer is that a much larger share of the benevolence
+<lb/>of the <orgName>Church</orgName> and of <term type="occupation">missionary</term> exertion is directed into
+<lb/>this country than the amount of population as compared with
+<lb/>other countries, and the success attending those efforts seem
+<lb/>to call for. This conviction has been forced upon me
+
+	
+
+	<pb n="0012" facs="liv_000531_0012"><!--pb/@n='6v'--></pb>
+<lb/>both by a personal inspection more extensive than that which has
+<lb/>fallen to the lot of any other either <term type="occupation">missionary</term> or <term type="occupation">trader</term> and by the
+<lb/>sentiments of other <term type="occupation">missionaries</term> who have investigated the subject <w>acc<supplied>-</supplied><lb break="no"/>-ording</w> to their opportunites. In reference to the population I
+<lb/>may mention that I was led in <placeName><country>England</country></placeName> to believe that the <w>pop<supplied>-</supplied><lb break="no"/>-ulation</w> of the <placeName><region>Interior</region></placeName> was dense &amp; now since I have come 
+<lb/>I have conversed with many both of <orgName>our society</orgName>
+<lb/>&amp; of the <term type="nationality">French</term> &amp; none of them could <add place="below">^</add> <add place="above">reckon</add> up the number of 
+<lb/>thirty thousand <term type="tribe">Bechuanas</term>. But lest I should mislead I shall
+<lb/>give the number of huts in each of the Towns not yet
+<lb/>under the immediate influence of <term type="occupation">missionaries</term>. I do so
+<lb/>not with the hope that you will take my estimate as <hi rend="underline">the</hi>
+<lb/><hi rend="underline">truth</hi> but with the wish that it may lead to a call for
+<lb/>statistical information before any other <term type="occupation">missionaries</term> are sent
+<lb/>here. If it is thought proper to accede to this wish &amp; correct
+<lb/>returns made I am confident the estimate I give below will be
+<lb/>over not under the mark - My confidence arises from the
+<lb/>following reasons. In every instance I give a larger number
+<lb/>of huts than actually exist in order to obviate the possibility 
+<lb/>of mistake in counting. - A large proportion of the huts
+<lb/>are store houses &amp; not inhabited by any one - there are usually
+<lb/>one of these to the hut of every wife - And there are others <w>appro-
+<lb break="no"/>-priated</w> as dormitories for the growing up daughters of families - 
+<lb/>And the usual mode of re<unclear>c</unclear>koning five to a family ought not
+<lb/>to be adopted where as in <orgName>heathen</orgName> towns polygamy so <w>extensive<supplied>-</supplied><lb break="no"/>-ly</w> prevails, very many have two wives, others have four
+<lb/>some six &amp; others such as <term type="occupation">chiefs</term> seven. Now each of these wives
+<lb/>has her own hut &amp; store but for preserving <term type="plant_foodstuff">corn</term> &amp;c. And
+<lb/>this state of things operates most injuriously against the
+<lb/>increase of children. The advantage which <orgName>Christianity</orgName> has
+<lb/>over <orgName>heathenism</orgName> in this respect is already quite apparent
+<lb/>in villages where the former has been adopted. On these grounds
+<lb/>I apprehend we ought not to apply the <orgName>European</orgName> mode of
+<lb/>computation here. Two or at most three to a hut is all
+<lb/>that can be given.</p>
+<lb/><p>I begin with <placeName><settlement type="village"><unclear cert="medium">Taons</unclear></settlement></placeName> the chief residence of the <term type="tribe">Batlapi</term>
+<lb/>because although very near to <persName>M<hi rend="sup">r</hi> Helmore</persName> &amp; frequently visited
+<lb/>by him it is compared to other parts destitute of the <bibl>gospel</bibl>
+<lb/>and it is one of the largest collections of population in the
+<lb/>country Huts 480 last year; but it has <choice><sic>recieved</sic><corr>received</corr></choice> by the arrival
+<lb/>of <persName><unclear cert="low">Sehitsane</unclear></persName> there this year about 150 more. Near to <placeName><settlement type="village"><unclear cert="medium">Taons</unclear></settlement></placeName>
+
+	<pb n="0013" facs="liv_000531_0013"><!--pb/@n='7r'--></pb>
+<lb/>there is another section of the <term type="tribe">Batlapi</term> under a <term type="occupation">chief</term> called
+<lb/><persName><unclear cert="medium">Motlabam</unclear></persName>. Huts 770 To which for those engaged in <term type="occupation">tending the
+<lb/><term type="animal">cattle</term></term> of the tribe we may add 200 more. The whole of this
+<lb/>population being situated in a valley can be seen at one
+<lb/>view And to us who are more accustomed to see the dreary
+<lb/>wilderness than the pleasant <unclear cert="low">harvests</unclear> of men. Their
+<lb/>number seems prodigously large. <persName>M<hi rend="sup">r</hi> Owen</persName> of the
+<lb/><orgName>Church Missionary Society</orgName> thought there were at least
+<lb/>20,000 souls at <placeName><settlement type="village"><unclear cert="medium">Taons</unclear></settlement></placeName> But had he adopted some method
+<lb/>of enumeration his estimate would have been less than
+<lb/>half that number. Such as it is however. What a mass
+<lb/>of precious immortals is congregated there. And how sad
+<lb/>it is to think of their state. They have fled from the
+<lb/><bibl>gospel</bibl> and are to a man its bitter opponents - </p>
+<lb/><p>The <term type="tribe">Bahurutse</term> another tribe in that direction numbers 800
+<lb/>huts But no settlement could be made with them for though
+<lb/>friendly to <term type="occupation">missionaries</term> they live in a most unsuitable locality
+<lb/>and are constantly longing to depart from it. Their own
+<lb/>country is in the neighbourhood of the <term type="tribe">Bakhatla</term> and there is
+<lb/>every probability they will return to it as soon as they <choice><sic>recieve</sic><corr>receive</corr></choice>
+<lb/>certain information of the death of <persName>Mosilikatze</persName> - </p>
+<lb/><p>The villages of <placeName><settlement type="village">Litakong</settlement></placeName> (Old <placeName><settlement type="village">Lattakoo</settlement></placeName>) <placeName><settlement type="village">Linokaneng</settlement></placeName> and
+<lb/><placeName><settlement type="village"><unclear cert="medium">Morokueng</unclear></settlement></placeName> the latter the residence of a large section of <term type="tribe">Barolon-<add place="below">-gs</add></term>
+<lb/>are under the <choice><sic>superintendance</sic><corr>superintendence</corr></choice> of the <term type="nationality">French</term> <choice><orig>bretheren</orig><reg>brethren</reg></choice>
+<lb/>of <del type="strikethrough">Motito</del> <placeName><settlement type="village">Moteeto</settlement></placeName> but I may put them into the estimate as 
+<lb/>750 in all.</p>
+<lb/><p>The huts of the <orgName>people of <persName>Sebegwe</persName></orgName> with those of three villages
+<lb/>of <placeName><settlement type="village">Bamaleti</settlement></placeName> 500. These villages although some distance
+<lb/>from each other are not more than a day's journey
+<lb/>from the <term type="tribe">Bakhatla</term>, which have 400. Of <persName>Sechele</persName> <term type="occupation">chief</term>
+<lb/>of the <term type="tribe">Bakwains</term> 300 - Of <persName>Bube</persName> 350. These are larger
+<lb/>numbers than the <term type="tribe">Bakwain</term> <term type="occupation">chiefs</term> had last year But
+<lb/>their increase being occasioned by the dispersion
+<lb/>of the tribe of <persName>Sebegwe</persName> it will probably soon be diminished.</p>
+<lb/><p>The <term type="tribe">Bamangwato</term> are this year so situated among rocks
+<lb/>I could not estimate their number but though I know they
+<lb/>
+<lb/>
+
+	
+
+	<pb n="0014" facs="liv_000531_0014"><!--pb/@n='7v'--></pb>
+<lb/>have suffered severely by the <term type="tribe">Matibele</term> lest I should commit an
+<lb/>error I set them down as at my former visit 600
+<lb/>The <term type="tribe">Bakaa</term> 250 - The <term type="tribe">Makalaka</term> 200 - </p>
+<lb/><p>I do not take into the account the <placeName><settlement type="village">villages of the <term type="tribe">Bakalihari</term></settlement></placeName> as
+<lb/>they were all small and cannot be given as anything like an
+<lb/>approximation to the number of the tribe. The other section of
+<lb/>the <term type="tribe">Makalaka</term> I had no opportunity of estimating. The sum total
+<lb/>of the others is 5750 which we may call 6000, and applying
+<lb/>the <orgName>European</orgName> average we have only 30 000 as the highest
+<lb/>possible estimate. This is however much over the real
+<lb/>population. Indeed I question if there are twenty thousand <term type="tribe">Bechuanas</term>
+<lb/>within the sphere of <orgName>our society</orgName>'s operations. Certainly there are
+<lb/>not forty thousand on the side of this 21<hi rend="sup">st</hi> degree of the South
+<lb/>Latitude unless we include those under the <term type="nationality">French</term> &amp; Wesleyan <!-- Is Wesleyan supposed to be tagged, and if so, how? HB 9-1-13 -->
+<lb/><term type="occupation">missionaries</term> to the <placeName><region>Eastward</region></placeName>. Now for this comparatively
+<lb/>small population we have no fewer than 12 <term type="occupation">missionaries</term>
+<lb/>&amp; their wives. In this I include the two <choice><orig>bretheren</orig><reg>brethren</reg></choice> at <placeName><settlement type="village">Moteeto</settlement></placeName>
+<lb/>Also <persName>M<hi rend="sup">r</hi> Schreiner</persName> and one of the <choice><orig>bretheren</orig><reg>brethren</reg></choice> at <placeName><settlement type="village">Griqua Town</settlement></placeName> as
+<lb/><term type="tribe">Bechuana</term> <term type="occupation">Missionaries</term></p>
+<lb/><p>In view of these facts and the confirmation of them I have
+<lb/><choice><sic>recieved</sic><corr>received</corr></choice> from both <term type="nationality">French</term> &amp; <term type="nationality">English</term> <choice><orig>bretheren</orig><reg>brethren</reg></choice> computing the
+<lb/>population much below what I have stated I confess I feel
+<lb/>grieved to hear of the arrival of new <term type="occupation">missionaries</term>. Nor
+<lb/>Am I the only one who deplores their appointment to this
+<lb/>country. Again &amp; again have I been pained at heart to 
+<lb/>hear the question put. Where will these new <choice><orig>bretheren</orig><reg>brethren</reg></choice>
+<lb/>find fields of labour in this country? Because I
+<lb/>know that in <placeName><country>India</country></placeName> &amp; <placeName><country>China</country></placeName> there are fields large
+<lb/>enough for all their energies - I am very far
+<lb/>from undervaluing the success which has attended
+<lb/>the labours of <term type="occupation">missionaries</term> in this land. No, I
+<lb/>gratefully acknowledge the wonders God hath wrought
+<lb/>and I feel that the salvation of one soul is of
+<lb/>more value than all the effort that has here been
+<lb/>expended. But we are to seek the field where there
+<lb/>is a probability most souls will be converted and
+
+	
+
+	<pb n="0015" facs="liv_000531_0015"><!--pb/@n='8r'--></pb>
+<lb/>it is this consideration which makes me earnestly call the
+<lb/>attention of the <orgName>Directors</orgName> to the subject of statistics. If these
+<lb/>were accurately returned and there would be very little difficulty
+<lb/>in doing so. (An individual could take a census counting each
+<lb/>of the population personally in such villages as this in the course
+<lb/>of a single day &amp; the largest in this country would require
+<lb/>very little more time) It might perhaps be found that there
+<lb/>is not a country better supplied with <term type="occupation">missionaries</term> <del type="cancelled">than any
+<lb/>other</del> in the world. and that in proportion to the number
+<lb/>of <term type="occupation">agents</term> compared to the amount of population the success
+<lb/>may be inferior to most other countries where efforts have been
+<lb/>made</p>
+<lb/><p>Well supplied as the country is it bears no comparison
+<lb/>to the <placeName><region>Colony</region></placeName>. There the number of <term type="occupation">missionaries</term> of <!-- How should Colony be coded again? HB 9-1-13 -->
+<lb/>different societies is so large compared to the population
+<lb/>it must strike every one with astonishment. <placeName><settlement type="village">Algoa
+<lb/>Bay</settlement></placeName> for instance or <placeName><settlement type="village">Colesberg</settlement></placeName>, villages not larger
+<lb/>than <placeName><settlement type="village">Ongar</settlement></placeName> which is I believe the smallest market
+<lb/>town in <placeName><country>England</country></placeName> have each the <bibl>gospel</bibl> preached by three
+<lb/><orgName>Evangelical</orgName> <term type="occupation">ministers</term>. And each of them feels convinced
+<lb/>that he has a very large &amp; very important field of 
+<lb/>labour. <hi rend="underline">They do believe it</hi>. But in what way they
+<lb/>have come to the belief I could not ascertain.</p>
+<lb/><p>In conclusion I beg leave to say whatever may be
+<lb/>the views of the <orgName>Directors</orgName> on this portion of my <w>commun<supplied>-</supplied><lb break="no"/>-ication</w> I feel immensely relieved by making the statement 
+<lb/>I feel a load taken off my heart. And may the Lord 
+<lb/>in mercy guide them to the view of the subject which
+<lb/>will tend most to His glory. I must also state
+<lb/>that I have since hearing of the delightful prospects opened
+<lb/>in <placeName><country>China</country></placeName> felt again the glowings of heart towards that
+<lb/>country which were familiar to my mind when I dedicated
+<lb/>myself to the <term type="occupation">mission work</term> there. I feel it is wrong to
+<lb/>think more of another field than that to which in the
+<lb/>Providence of God I have been called &amp; endeavour to
+<lb/>suppress my feelings But I tell you of them that
+
+	
+
+	<pb n="0016" facs="liv_000531_0016"><!--pb/@n='8v'--></pb>
+<lb/>you may judge how much ought to be dedicated from the force
+<lb/>of these statements by taking the existence of these feelings
+<lb/>into consideration</p>
+				<lb/><p rend="center"><space extent="3" unit="words"/><space extent="3" unit="chars"/>I am Dear Sir</p>
+				<lb/><p rend="right"><space extent="4" unit="words"/><space extent="1" unit="chars"/>Affectionately yours</p>
+				<lb/><p rend="right"><space extent="6" unit="words"/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
+
+	<ab>
+<lb/><add place="inline" hand="#U"><placeName><settlement type="village">Kuruman</settlement></placeName>, <date when="1843-06-24">June 24. 1843</date>
+<lb/><space extent="1" unit="words"/><persName><choice><abbr>D.</abbr><expan>David</expan></choice> <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></add></ab>
+
+	<cb rend="vertical"/><ab>
+<lb/>Care of <persName>Rev<hi rend="sup underline">d</hi> D<hi rend="sup underline">r</hi> Phillip</persName> <space dim="horizontal" extent="5" unit="chars"/><placeName><settlement type="city">Cape Town</settlement></placeName>
+<lb/>
+<lb/>
+<lb/><space extent="1" unit="words"/><add place="above">The</add> <persName>Rev<hi rend="sup underline">d</hi> Arthur Tidman</persName>
+<lb/><space extent="4" unit="words"/>Mission House 
+		<lb/><space extent="5" unit="words"/>Blomfield <choice><abbr>St.</abbr><expan>Street</expan></choice>
+		<lb/><space extent="6" unit="words"/><space extent="1" unit="chars"/><placeName><settlement type="city"><hi rend="underline">London</hi></settlement></placeName></ab>
+<!-- More text on this page written in a different hand HB 9-1-13 -->
+			
+</div>
+		</body>
+	</text></TEI>

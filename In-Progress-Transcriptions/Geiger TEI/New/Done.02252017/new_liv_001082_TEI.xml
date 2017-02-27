@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ 
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001082"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to [Charles Livingstone?]</title>
+                <title type="alternative">Letter to [Charles Livingstone?], 28 August 1857</title>
+                <author>Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+                <respStmt xml:id="BL">
+                    <name>Blaze Livingston</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_001082</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <repository>University of London. School of Oriental and African Studies</repository>
+                        <idno type="shelfmark">CWM/LMS/Africa/Odds - Livingstone, Box 4</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0575</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to [Charles Livingstone?]</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1857-08-28">28 August 1857</date>
+                    <placeName type="compositionPlace">Drumcondra Castle [Dublin]</placeName>
+                    <persName type="addressee">Livingstone, Charles, 1821-1873</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-11-01" who="#AW">Proofing</change>
+            <change when="2016-10-27" who="#BL">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001082_0001" n="0001"/>
+<lb/><p rend="no-indent"><add place="marginleft" hand="#U" rend="left diagonal"><hi rend="blue"><metamark/><!-- circle -->18</hi></add><space extent="2" unit="chars"/><placeName>Drumcondra Castle</placeName>
+<lb/><space extent="2" unit="words"/><space extent="1" unit="chars"/><date when="1857-08-22">28<hi rend="sup underline">th</hi> August
+<lb/><space extent="2" unit="words"/><space extent="2" unit="chars"/>1857</date></p>
+<lb/>   
+<lb/><p rend="no-indent">My Dear Brother</p>
+<lb/><p><space extent="2" unit="chars"/>As there is
+<lb/>some time between
+<lb/>this and the publication
+<lb/>I think we can wait
+<lb/>and I shall consult
+<lb/><persName>Murray</persName> as he
+<lb/>intended the <placeName><geogName type="waterfall">Falls</geogName></placeName><!-- geog: Victoria Falls -->
+<lb/>for the beginning of
+<lb/>the Book.
+
+	<pb facs="liv_001082_0002" n="0002"/>
+<lb/>Please send me
+<lb/>at once a sheet
+<lb/>or two containing
+<lb/>the explanation
+<lb/>of the difference
+<lb/>of amount of
+<lb/>rain south &amp;
+<lb/>North of the Equator
+<lb/>the sheet contains
+<lb/>a note by <persName>Babinet</persName>
+<lb/>the <term type="person">Frenchman</term> - the
+<lb/>other a note by
+
+	<pb facs="liv_001082_0003" n="0003"/>
+<lb/><persName>Gabriel</persName> &amp; <persName>Brand</persName>
+<lb/>I need them for
+<lb/>my <choice><sic><date when="1857-08-31">Monday</date>s</sic><corr><date when="1857-08-31">Monday</date>'s</corr></choice> speech
+<lb/>Will leave on
+<lb/><date when="1857-08-31">Monday</date> night in
+<lb/>order to be at
+<lb/><choice><sic><persName>Captain <unclear>Trotter</unclear></persName>s</sic><corr><persName>Captain <unclear>Trotter</unclear></persName>'s</corr></choice>
+<lb/>wrote <persName>Mary</persName> this
+<lb/>morning. <space extent="1" unit="words"/>1400
+<lb/>tickets of admission
+<lb/>have been bought
+<lb/>in <placeName><settlement type="city">Dublin</settlement></placeName>. The
+<lb/><term type="tribe">Bechuana</term> reed
+<lb/>dance may be
+
+	<pb facs="liv_001082_0004" n="0004"/>
+<lb/>put in where the
+<lb/><term type="tribe">Makololo</term> dance is
+<lb/>described - the
+<lb/><term type="animal">Buffalo</term> is mentioned
+<lb/>on the <placeName><geogName type="river">Leambye</geogName></placeName> <add place="above">near <placeName><settlement>Sesheke</settlement></placeName></add> &amp;
+<lb/>again below
+<lb/><placeName><settlement type="village"><persName>Mpende</persName>'s</settlement></placeName> or <placeName><settlement type="village"><app><rdg>Borowa</rdg><rdg>Boroma</rdg></app></settlement></placeName>
+<lb/>if I succeed in getting
+<lb/>to <choice><sic><persName>Captain <unclear>Trotter</unclear></persName>s</sic><corr><persName>Captain <unclear>Trotter</unclear></persName>'s</corr></choice>
+<lb/>on <date when="1857-09-01"><choice><sic>tuesday</sic><corr>Tuesday</corr></choice></date> I would
+<lb/>sleep at <choice><sic><persName>M<hi rend="sup">s</hi> Taylor</persName>'s</sic><corr><persName>M<hi rend="sup">s</hi> Taylor</persName>'s</corr></choice>
+<lb/>&amp; then join you at
+<lb/><persName>Helen</persName>'s on <date when="1857-09-02">Wednesday</date>.</p><!-- there is actually no visible closer, leaving as is. BL-->
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

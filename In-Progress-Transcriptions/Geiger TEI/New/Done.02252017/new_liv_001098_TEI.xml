@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ 
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Unknown</title>
+                <title type="alternative">Letter to Unknown, 21 [September 1857]</title><!-- Change -->
+                <author>Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JZ"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+				<respStmt xml:id="EC">
+                    <name>Erin Cheatham</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001098</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country><!-- Change as needed -->
+                        <settlement>Hamilton</settlement><!-- Change as needed -->
+                        <repository>National Library of Scotland</repository><!-- Change as needed -->
+                        <idno type="shelfmark"/><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0589</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Unknown, 21 [September 1857]</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1857-09-21">21 [September 1857]</date>
+                    <placeName type="compositionPlace">Burnbank, Hamilton</placeName><!-- Livingstone's or Library of Congress "Hamilton (Scotland)"? -->
+                    <persName type="addressee">Unknown</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-05" who="#JZ">Initial transcription and XML encoding</change>
+			<change when="2016-07-05" who="#EC">Coding Review</change>
+			
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001098_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><space extent="1" unit="chars"/><placeName>Burnbank<add place="marginleft">194</add>
+<lb/><space extent="2" unit="words"/><space extent="2" unit="chars"/>Hamilton</placeName> 
+<lb/><space extent="2" unit="words"/><space extent="3" unit="chars"/><date when="1857-09-21">Monday 21st
+<lb/><space extent="3" unit="words"/><add place="inspace" hand="#U" rend="gray">[Sept. 1857]</add></date></p><!--Addition below dateline, written in unknown hand. Did I code this correctly? EC --><!-- Since it's in the space where a blank line would have been, I've put place='inspace'. AW -->
+<lb/>    
+<lb/><p rend="no-indent">My Dear Friend</p><!-- Change line info as appropriate -->
+<lb/><p><space extent="1" unit="words"/><space extent="2" unit="chars"/>I got your
+<lb/>note a minute
+<lb/>ago just when
+<lb/>on the point of 
+<lb/>startng for
+<lb/><placeName><settlement type="city">Edinburgh</settlement></placeName> on
+<lb/>Thursday we are
+<lb/>at <placeName><settlement type="city">Dundee</settlement></placeName>
+
+	<pb facs="liv_001098_0002" n="0002"/>
+<lb/>Saturday <placeName><settlement type="city">Kendal</settlement></placeName> on 
+<lb/>our way to 
+<lb/><placeName><settlement type="city">Liverpool</settlement></placeName> &amp; <placeName><settlement type="city">Leeds</settlement></placeName>
+<lb/>if my mother's 
+<lb/>illness does not
+<lb/>become serious
+<lb/>I asked every
+<lb/>body for the <term type="occupation">D<hi rend="sup">r</hi></term>
+<lb/>the Presbytery
+<lb/>sir <persName>James Anderson</persName>
+<lb/>but no <term type="occupation">doctor</term>
+<lb/>to be seen &amp; now
+
+	<pb facs="liv_001098_0003" n="0003"/>
+<lb/>I fear I am off
+<lb/>before seeing you 
+<lb/><placeName><settlement><unclear cert="low">Lionoying</unclear></settlement></placeName><!---Not sure exactly what city this is--><!-- Not even clear that it's a city! AW --> very
+<lb/>disagreeable I assure
+<lb/>you &amp; very glad
+<lb/>I shall be to bid <!--Blot on page obscures word--><!-- Fixed. AW -->
+<lb/>adeu to it for
+<lb/>ever <persName>M<hi rend="sup underline">rs</hi> L.</persName>
+<lb/>follows me <w>to- 
+<lb break="no"/>morrow</w> - part
+<lb/>with the <term type="nationality">Canadian</term>
+<lb/>brother today - he 
+<lb/>goes to <placeName><settlement type="city">Liverpool</settlement></placeName>
+<lb/>to sail thence
+
+	<pb facs="liv_001098_0004" n="0004"/>
+<lb/><persName>M<hi rend="sup underline">rs</hi> <choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName> joins in
+<lb/>kindest salutations
+<lb/>to yourself and
+<lb/>to <persName><term type="occupation">D<hi rend="sup">r</hi></term></persName><!--talking about specific person here, not sure who. EC--><!-- Impossible to know since we don't know the recipient. AW -->
+</p>
+
+<!-- If there is a letter or similar with a closer with content such as salute or signed -->
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/>I am
+<lb/><space extent="3" unit="chars"/>affectionately yours,<!-- Change as appropriate -->
+<lb/><space extent="2" unit="chars"/><persName>David Livingstone</persName></p>
+<lb/>            
+<lb/><p rend="no-indent">If I do come back
+<lb/>I shall let you
+<lb/>know</p><!--Won't validate because of postscript, can someone else take a look. EC--><!-- The text in a postscript needs to also be inside of a <p> (or <ab>, though <p> seems more logical). AW -->
+
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
