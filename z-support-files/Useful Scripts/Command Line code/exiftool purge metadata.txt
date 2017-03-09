@@ -8,6 +8,10 @@ can be used for one image or multiple
 
 for i in *.tif; do echo "Processing $i"; exiftool -exif:all= -CommonIFD0= -DocumentName= -HostComputer= -PageName= -PageNumber= -Orientation= -XMP= -overwrite_original "$i"; done
 
+or (heavy duty for spectral images)
+
+for i in *.tif; do echo "Processing $i"; exiftool -exif:all= -CommonIFD0= -DocumentName= -HostComputer= -PageName= -PageNumber= -Orientation= -XMP= -Caption-Abstract= -By-line= -ObjectName= -CopyrightNotice= -overwrite_original "$i"; done
+
 or
 
 for i in *.tif; do echo "Processing $i"; exiftool -exif:all= -CommonIFD0= -overwrite_original "$i"; done
@@ -36,3 +40,4 @@ for i in *.jpg; do echo "Processing $i"; exiftool -geotag= "$i"; done
 
 
 
+for i in *.tif; do echo "Processing $i"; exiftool -exif:all= -CommonIFD0= -DocumentName= -HostComputer= -PageName= -PageNumber= -Orientation= -XMP= -Caption-Abstract= -By-line= -ObjectName= -CopyrightNotice= -overwrite_original "$i"; done
