@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://jamescummings.github.io/LEAP/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001730"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Baldwin W. Walker, 17 February 1862</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2015</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001335</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Cape Town</settlement><!-- Change as needed -->
+                        <repository>University of Cape Town Libraries, Special Collections</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Baldwin Walker Papers, AE 314</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters 1180</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Baldwin W. Walker, 17 February 1862</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1862-02-17">17 February 1862</date><!-- Change -->
+                    <placeName type="compositionPlace">River Zambesi</placeName><!-- Change -->
+                    <persName type="addressee">Baldwin W. Walker</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-03-01" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001730_0001.jpg" n="0001"/>
+<lb/><opener><dateline rend="right"><placeName><geogName type="river">River <choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> <date when="1862-02-17">17<hi rend="sup underline">th</hi>
+<lb/>1862</date></dateline>
+<lb/><term type="occupation">Admiral</term>
+<lb/><persName>Sir Baldwin Walker</persName>
+<lb/><salute>Sir</salute></opener>           
+<lb/><p>I take the liberty
+<lb/>of placing before you a short account
+<lb/>of our proceedings since I last
+<lb/>addressed your predecessor <persName><term type="occupation">Admiral</term>
+<lb/>Sir Henry Keppel</persName>, and of thanking
+<lb/>you for most important services
+<lb/>rendered to us by your direction
+<lb/>by <persName><term type="occupation">Captain</term> Wilson</persName> of H.M.S.
+<lb/>Gorgon.</p>
+<lb/><p>On reaching the <term type="animal">Elephant</term>
+<lb/>marsh about <measure>30 miles</measure> below the
+<lb/>cataracts of the <placeName><geogName type="river">Shire</geogName></placeName> in June last
+    
+    <pb facs="liv_001730_0002.jpg" n="0002"/>
+<lb/>year we found that the river <unclear cert="medium">shoaled</unclear>
+<lb/>to about <measure>four feet</measure> in consequence
+<lb/>of a number of branches passing off
+<lb/>from the main stream. Anxious
+<lb/>to place the ship in a healthy locality
+<lb/>we <unclear cert="low">warped</unclear> her up to within <gap agent="blot"/> <!-- The number obscured by the blot may be "seven". JM -->
+<lb/>miles of the cataracts and feeling
+<lb/>that we could <add place="below">^</add> <add place="above">not</add> well leave the <term type="occupation">bishop</term>'s
+<lb/>mission without introducing him
+<lb/>to the people, we accompanied him
+<lb/>by a few days march up to the
+<lb/><placeName><geogFeat><term type="tribe">Manganja</term> highlands</geogFeat></placeName> <!-- I coded this as a geographical feature. Please check that this is correct. JM --> East of the
+<lb/><placeName><geogName type="river">Shire</geogName></placeName> cataracts. When we had just
+<lb/>passed over the brow of the first
+<lb/>plateau we met a party of <placeName><settlement type="village"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName>
+<lb/><orgName>slaves</orgName> driving 84 captives before
+<lb/>them. They had followed <gap agent="blot"/> <unclear cert="high">the</unclear>
+<lb/>footsteps of our discoveries and
+<lb/><unclear cert="medium">got</unclear> up a system of <orgName>slave</orgName> hunting
+<lb/>in the very country to which
+    
+    <pb facs="liv_001730_0003.jpg" n="0003"/>
+<lb/>to which the mission had come, and of which
+<lb/>they had no previous knowledge,
+<lb/>by employing one tribe called
+<lb/><term type="tribe">Ajawa</term> to attack another named
+<lb/><term type="tribe">Maganja</term> - kill the men and
+<lb/>sell the women and children to
+<lb/>them. I was doubtful how to
+<lb/>act at first, but while making
+<lb/>enquiries among the captives,
+<lb/><term type="nationality">Portuguese</term> <orgName>slaves</orgName> decamped
+<lb/>into the forest. We <unclear cert="medium">herded</unclear> the
+<lb/>captives of this and three other
+<lb/>parties over to the <term type="occupation">bishop</term>. For
+<lb/>one of these we went several
+<lb/>miles out of our way, and
+<lb/>hearing of a fifth party with
+<lb/>over one hundred captives,
+<lb/><persName>Dr Kirk</persName> was sent back to
+<lb/>intercept them in crossing the
+
+    <pb facs="liv_001730_0004.jpg" n="0004"/>
+<lb/>river. His movement failed but
+<lb/>a body of men with about ninety
+<lb/>muskets, and headed by a white
+<lb/><term type="nationality">Portuguese</term> from <placeName><settlement type="village"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName>, was deterred
+<lb/>from joining the <term type="tribe">Ajawa</term> by hearing
+<lb/>of <persName>Dr Kirk</persName>'s return to the ship.</p>
+<lb/><p>We found the <term type="tribe">Maganja</term> all
+<lb/>fleeing from the <term type="tribe">Ajawa</term> and believing
+<lb/>that we could induce them to
+<lb/>desist from murdering the <term type="tribe">Maganja</term>
+<lb/>we went to hold a conference.
+<lb/>We <unclear cert="low">reached</unclear> them about <measure>12 miles</measure>
+<lb/>from the mission station, and 
+<lb/>found them in the act of burning
+<lb/>three villages. Unfortunately our
+<lb/>professions of having come
+<lb/>peaceably were neutralized by
+<lb/>some <term type="tribe">Maganja</term> followers calling
+<lb/>out "our <persName>Chibisa</persName> is come". This
+<lb/><persName>Chibisa</persName> is believed to have <unclear cert="medium">audiences</unclear>
+    
+    <pb facs="liv_001730_0005.jpg" n="0005"/>
+<lb/>capable of ensuring victory. I heard
+<lb/>the words distinctly but it never
+<lb/>struck my mind till afterwards that
+<lb/>they were neutralizing our professions
+<lb/>and depriving us of the protection 
+<lb/>of our <term type="nationality">English</term> name. The 
+<lb/><term type="tribe">Ajawa</term> attacked us with four muskets
+<lb/>and many poisoned arrows
+<lb/>and forced us to drive them off
+<lb/>with our firearms. A matter
+<lb/>for which I am very sorry, as I
+<lb/>never had a hostile encounter
+<lb/>with the natives before.</p>
+<lb/><p>We then left returned to
+<lb/>the ship and carried a boat
+<lb/>past the cataracts of the <placeName><geogName type="river">Shire</geogName></placeName>
+<lb/>there are five cataracts in 35'
+<lb/>of Latitude of <measure>100 or 150 feet</measure>
+<lb/>each, the whole descent amounts
+<lb/>to <measure>1200 feet</measure>, and when we
+
+    <pb facs="liv_001730_0006.jpg" n="0006"/>
+<lb/>launched the boat above the <w>upper<supplied>-</supplied>
+<lb break="no"/>-most</w> cataract we were virtually
+<lb/>on the <placeName><geogName type="lake">Lake Nyassa</geogName></placeName> or <unclear cert="low"><placeName><geogName type="lake">Nyinyesi</geogName></placeName></unclear>
+<lb/>because the upper <placeName><geogName type="river">Shire</geogName></placeName> is all
+<lb/>smooth and deep. There are <measure>sixty
+<lb/>miles</measure> of five gently flowing <unclear cert="medium">rivers</unclear>
+<lb/><unclear cert="medium">above</unclear> the cataracts, and a lakelet
+<lb/><measure>10 or 12 miles</measure> long and <measure>5 or 6</measure> broad.
+<lb/>We sailed into the Lake on the
+<lb/><date when="1862-09-02">2<hi rend="sup">d</hi> September</date> and followed the
+<lb/>Western Shore. It is a very deep
+<lb/>body of water, our sounding line
+<lb/>of <measure>35 fathoms</measure> often <choice><orig>shewed</orig><reg>showed</reg></choice> no
+<lb/>bottom at a mile from the shore
+<lb/>and in the North no bottom
+<lb/>was found at <measure>116 fathoms</measure>. The
+<lb/>Lake is from <measure>18 or 20 to 50 or 60 
+<lb/>miles</measure> broad but we could not
+<lb/>cross to measure accurately, 
+<lb/>It was very stormy when we
+<lb/>were there and being encircled
+    
+    <pb facs="liv_001730_0007.jpg" n="0007"/>
+<lb/>by mountains and highlands,
+<lb/>tremendous seas for an open
+<lb/>boat get up in 15 or 20 minutes,
+<lb/>the length is over <measure>200 miles</measure>.
+<lb/>The shape is an approach to the
+<lb/>Boot shape of <placeName><country>Italy</country></placeName>. We were
+<lb/>forced to return by want of
+<lb/>food without going round the
+<lb/>Northern end. War had raged
+<lb/>there and the country was
+<lb/>depopulated by a tribe of <term type="tribe">Zulus</term>
+<lb/>originally from the South,
+<lb/>so we were obliged to come
+<lb/>back without finding out
+<lb/>about the <placeName><geogName type="river">Rovuma</geogName></placeName>. The 
+<lb/>chief object of our exploration
+<lb/>on the western shore one man
+<lb/>would tell us that we might
+<lb/>sail out of the Lake into the
+<lb/>river. Another that we must
+    
+    <pb facs="liv_001730_0008.jpg" n="0008"/>
+<lb/><add place="below">^</add> <add place="above">carry</add> the boat a few yards. Another
+<lb/>would declare that she must be
+<lb/>carried <measure>fifty miles</measure> or a hundred
+<lb/>on one point alone did all agree
+<lb/>namely, that <placeName><geogName type="river">Rovuma</geogName></placeName> is a very
+<lb/>large river. We must confess
+<lb/>however that we returned just
+<lb/>about as wise as we went after
+<lb/>a three months absence from the
+<lb/>ship.</p>
+<lb/><p>I beg leave to call your attention
+<lb/>to the opinion of <persName><term type="occupation">Colonel</term> Rigby</persName> that
+<lb/>of 19,000 <orgName>slaves</orgName> which pass annually
+<lb/>through the custom house of
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName>, the chief portion comes
+<lb/>from <placeName><geogName type="lake">Lake Nyassa</geogName></placeName>, and the
+<lb/>valley of the <placeName><geogName type="river">Shire</geogName></placeName>; and that should
+<lb/>it ever be possible to place a
+<lb/>steamer on the Lake the trade
+<lb/>would be repressed. Without
+<lb/>knowing this opinion we have
+<lb/>been working with a view
+    
+    <pb facs="liv_001730_0009.jpg" n="0009"/>
+<lb/>to <unclear cert="medium">carrying</unclear> into effect his proposition
+<lb/>with respect to the placing a steamer
+<lb/>on the Lake. Our hopes can
+<lb/>scarcely be realized unless in addition
+<lb/>to a steamer on the Lake we have
+<lb/>an outlet to the <measure>three hundred
+<lb/>miles</measure> of cotton field which in
+<lb/>the upper <placeName><geogName type="river">Shire</geogName></placeName>, and <placeName><geogName type="lake">Lake Nyassa</geogName></placeName>
+<lb/>we have opened up. It must be
+<lb/>beyond <term type="nationality">Portuguese</term> claims, and
+<lb/><placeName><geogName type="river">Rovuma</geogName></placeName> seems to be best adapted
+<lb/>for the object. The <term type="nationality">Portuguese</term> 
+<lb/>watch every step we take and the
+<lb/>Government by lately building
+<lb/>a port at the mouth of the <placeName><geogName type="river">Shire</geogName></placeName>
+<lb/>intends to enrich itself by dues
+<lb/>from the <term type="plant">cotton</term> trade, while
+<lb/><unclear cert="high">in</unclear> <placeName><settlement type="village"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> <term type="occupation">merchants</term> headed by
+<lb/>the <term type="occupation">Governor</term> depopulates the
+<lb/>country from which the trade is
+<lb/>to come by <term type="occupation"><orgName>slave</orgName> hunting</term>.</p>
+    
+    <pb facs="liv_001730_0010.jpg" n="0010"/>
+<lb/><p>The movement of the <term type="occupation">Governor
+<lb/>General of <placeName><country><choice><orig>Mosambique</orig><reg>Mosambique</reg></choice></country></placeName></term> to induce
+<lb/><unclear cert="medium">the</unclear> <term type="occupation">Sultan of <placeName><geogName type="island">Zanzibar</geogName></placeName></term> to cede the
+<lb/><placeName><geogName type="river">Rovuma</geogName></placeName> to him is just of a
+<lb/>piece with all their policy. They
+<lb/>are intensely anxious to be
+<lb/>enriched by <term type="nationality">English</term> enterprise, &amp;
+<lb/>without an outlet away from
+<lb/>them we cannot invite <term type="nationality">English</term>
+<lb/><term type="occupation">merchants</term> into the country.</p>
+<lb/><p>We shall be unable to do anything
+<lb/>about <placeName><geogName type="river">Rovuma</geogName></placeName> during twelve months
+<lb/>in which we shall be carrying
+<lb/>the steamer past the cataracts. It
+<lb/>is extremely desirable that the
+<lb/>new <term type="plant">cotton</term> field should be
+<lb/>opened during the present <w>com-
+<lb break="no"/>-plications</w> of affairs in <placeName><country>America</country></placeName>.
+<lb/>I feel diffident in <unclear cert="medium">venturing</unclear> to
+<lb/>suggest anything to you but
+    
+    <pb facs="liv_001730_0011.jpg" n="0011"/>
+<lb/>remembering the important influence
+<lb/><unclear cert="high">that</unclear> free access of <term type="people">Englishmen</term>
+<lb/>into the country will have on
+<lb/>the <placeName><geogName type="river">Nyassa</geogName></placeName> <orgName>slave</orgName> trade, I hope
+<lb/>you will bear with me in
+<lb/>proposing the exploration of the
+<lb/><placeName><geogName type="river">Rovuma</geogName></placeName> in boats from the sea
+<lb/>upwards. Avoiding the months
+<lb/>when the river is low, probably
+<lb/>June July August September &amp; October
+<lb/>The work might be quickly <w>per-
+<lb break="no"/>-formed</w> especially if committed
+<lb/>to a man so well acquainted
+<lb/>with the coast and so energetic
+<lb/>as <persName><term type="occupation">Captain</term> Wilson</persName>. The service
+<lb/>to this Expedition and to the
+<lb/>objects which we have in
+<lb/>common in relation to the <orgName>slave</orgName>
+<lb/>trade. To my mind all that is
+    
+    <pb facs="liv_001730_0012.jpg" n="0012"/>
+<lb/>wanting to complete the success of
+<lb/>our undertaking is a steamer on the
+<lb/>Lake and a road out to the sea
+<lb/>coast free to <term type="people">Englishmen</term>. Being
+<lb/>very anxious that the latter object
+<lb/>should be secured while we are
+<lb/>busy with the former I hope you
+<lb/>excuse me in saying so much</p>
+<lb/><p>I have now to thank you
+<lb/>for your kind consideration in
+<lb/>instructing <persName><term type="occupation">Captain</term> Wilson</persName> to render
+<lb/>us assistance, and I can soberly
+<lb/>assure you that I feel more
+<lb/>grateful for his services than I
+<lb/>can express. He brought the <!-- I cannot make out this word. JM -->
+<lb/>having the steamer "Lady of the Lake"
+<lb/>on board from <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> to <placeName><settlement type="village">Kongone</settlement></placeName>
+<lb/>and put the principal pieces into the
+<lb/>Pioneer in a week. A work that
+<lb/>would have cost us a month if
+<lb/>we could have accomplished it
+<lb/>at all. I feel very thankful for
+    
+    <pb facs="liv_001730_0013.jpg" n="0013"/>
+<lb/>he has done everthing he could
+<lb/>in the most frank &amp; obliging
+<lb/>manner possible.</p>
+<lb/><p>On another point I feel inclined
+<lb/>to say very little but am sure
+<lb/>that you would not fully
+<lb/>understand matters up here
+<lb/>if I kept silence. The <term type="occupation">bishop</term>
+<lb/>informed us that during
+<lb/>our absence at <placeName><geogName type="lake">Lake Nyassa</geogName></placeName>
+<lb/>he had gone about <measure>15 miles</measure>
+<lb/>and attacked another tribe
+<lb/>of <term type="tribe">Ajawas</term> - burned their
+<lb/>town and drove them away
+<lb/>We took 2 men of wars' men
+<lb/>and our Engineer whom
+<lb/>I had sent up for the sake
+<lb/>of change of air after being
+    
+    <pb facs="liv_001730_0014.jpg" n="0014"/>
+<lb/>much reduced by <term type="ailment">fever</term>. They remembered
+<lb/>after they had gone that I had given
+<lb/>no orders to them to fight and I
+<lb/>excuse them on account of the
+<lb/>portion of the gentlemen who
+<lb/>asked them to go. I never
+<lb/>contemplated the missionary
+<lb/>doing anything in the offensive
+<lb/>and indeed told the natives before
+<lb/>leaving that the white men
+<lb/>would never engage in their
+<lb/>quarrels or fight unless
+<lb/>attacked as we were. I disapprove
+<lb/>of the missionaries fighting at
+<lb/>all except in self defence, but
+<lb/>am not very sure what I ought
+<lb/>to do to prevent it. I apply by
+<lb/>this mail to the Government
+<lb/>for advice on the point. I
+    
+    <pb facs="liv_001730_0015.jpg" n="0015"/>
+<lb/>regret very much that by going
+<lb/>to try and secure a peaceful
+<lb/>settlement for them I became
+<lb/>in a measure mixed up with it.</p>
+<lb/><p>We left our small boat
+<lb/>hoisted up to a shady tree above
+<lb/>the uppermost cataract. We
+<lb/>have one <unclear cert="low">gig</unclear> only and very
+<lb/>much <unclear cert="low">shattered</unclear> by the work it
+<lb/>has done in laying out <unclear cert="medium">anchors</unclear> &amp;c
+<lb/>May I beg a strong cutter <unclear cert="low">gig</unclear>
+<lb/>from the dock yard?</p>
+<lb/><p><persName><term type="occupation">Captain</term> Wilson</persName> will inform
+<lb/>you that he could give us but
+<lb/>very few provisions. We shall
+<lb/>therefore trust to you for a
+<lb/>supply of all sorts of common
+<lb/>provisions at your earliest
+<lb/>convenience.</p>
+     
+    <pb facs="liv_001730_0016.jpg" n="0016"/>
+<lb/><p>We shall come down to the <placeName><settlement type="village">Kongone</settlement></placeName>
+<lb/>sometime in March and again
+<lb/>in April next.</p>
+<lb/><closer><salute>I am Sir
+<lb/>Your most obedient servant</salute>
+<lb/><signed><persName>David Livingstone</persName></signed></closer>
+   
+    
+            </div>
+        </body>
+    </text>
+    
+</TEI>
+            
+            
+    
+        
+       
+    
+    
+    
+    
+    
+    
+    
+    
+       
+
+    
+      
