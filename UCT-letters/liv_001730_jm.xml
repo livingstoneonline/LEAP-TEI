@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://jamescummings.github.io/LEAP/transcription.xsl"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001730"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Baldwin W. Walker, 17 February 1862</title><!-- Change -->
-                <author>David Livingstone</author>
+                <title>Letter to Baldwin W. Walker</title>
+                <title type="alternative">Letter to Baldwin W. Walker, 17 February 1862</title><!-- Removed underline coding -->
+                <author>Livingstone, David, 1813-1873</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
-                <respStmt xml:id="JM">
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
                     <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
                     <resp>Encoding</resp>
                 </respStmt>
                 <respStmt xml:id="AW">
@@ -27,35 +23,41 @@
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
-                <publisher>UCLA Digital Library</publisher>
-                <pubPlace>Los Angeles, CA, USA</pubPlace>
-                <date>2015</date><!-- Change if necessary -->
-                <idno type="LEAP-ID">liv_001335</idno>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001730</idno><!-- Change -->
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>South Africa</country><!-- Change as needed -->
                         <settlement>Cape Town</settlement><!-- Change as needed -->
-                        <repository>University of Cape Town Libraries, Special Collections</repository><!-- Change as needed -->
+                        <repository>University of Cape Town Libraries. Special Collections</repository><!-- Change as needed -->
                         <idno type="shelfmark">Baldwin Walker Papers, AE 314</idno><!-- Change as needed -->
                         <altIdentifier>
-                            <idno type="ccnumber">Letters 1180</idno><!-- This the CC number; change, as appropriate -->
+                            <idno type="ccnumber">Letters, 1180</idno><!-- This the CC number; change, as appropriate -->
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>
                         <handDesc>
-                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U3"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U4"><label>Unknown Hand</label> This hand is unknown
                                 but thought not David Livingstone's.</handNote>
                         </handDesc>
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Baldwin W. Walker, 17 February 1862</title><!-- Change -->
+                    <title>Letter to Baldwin W. Walker, 17 February 1862</title><!-- I don't think this needs to include underline-->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1862-02-17">17 February 1862</date><!-- Change -->
                     <placeName type="compositionPlace">River Zambesi</placeName><!-- Change -->
-                    <persName type="addressee">Baldwin W. Walker</persName><!-- Change -->
+                    <persName type="addressee">Walker, Baldwin W., 1802-1876</persName><!-- Change -->
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -67,7 +69,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-03-01" who="#JM">Initial transcription and XML encoding</change>
+        	<change when="2017-03-18" who="#AW">Proofing</change>
+			<change when="2017-03-01" who="#JM">Initial transcription and XML encoding</change>
 			<!-- Note that @who initials are taken from <respStmt> above -->
 			<!-- Most recent <change> should always be placed first -->
         </revisionDesc>
@@ -78,12 +81,15 @@
             <div>
                
 	<pb facs="liv_001730_0001.jpg" n="0001"/>
-<lb/><opener><dateline rend="right"><placeName><geogName type="river">River <choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> <date when="1862-02-17">17<hi rend="sup underline">th</hi>
-<lb/>1862</date></dateline>
-<lb/><term type="occupation">Admiral</term>
-<lb/><persName>Sir Baldwin Walker</persName>
-<lb/><salute>Sir</salute></opener>           
-<lb/><p>I take the liberty
+<lb/><p rend="no-indent"><add place="inspace" hand="#U1" rend="small">Enclosure 1 in <choice><abbr>No</abbr><expan>Number</expan></choice> 96</add></p>
+<lb/><p rend="no-indent"><add place="over-text" hand="#U2" rend="gray small">List of things <choice><abbr>req<hi rend="sup">d</hi></abbr><expan>required</expan></choice></add></p> 
+<lb/><p rend="no-indent"><add place="inspace" hand="#U1" rend="small"><hi rend="underline">of <date when="1862">1862</date><space extent="3" unit="words"/></hi></add> <space extent="1" unit="chars"/><placeName><geogName type="river">River Zambesi</geogName></placeName> <date when="1862-02-17">17<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice>
+<lb/><add place="over-text" hand="#U2" rend="gray small">by <persName>D<hi rend="sup">r</hi> Livingstone</persName></add> <space extent="4" unit="words"/><date when="1862-02-17">1862</date>.</date></p>
+<lb/><p><add place="inspace" hand="#U2" rend="gray"><choice><abbr>req<hi rend="sup">d</hi></abbr><expan>required</expan></choice></add> <space extent="3" unit="chars"/><figure><figDesc>Calculation[?] initialed B.I.[?]</figDesc></figure> <space extent="1" unit="chars"/><add place="inspace" rend="brown small" hand="#U3"><choice><abbr>Rec<hi rend="sup">d</hi></abbr><expan>Received</expan></choice> <date when="1862-03-25">25 April 1862</date> per Gorgon</add></p>
+<lb/><p><term type="occupation">Admiral</term> <space extent="4" unit="words"/><add hand="#U4"><hi rend="underline small brown">A.E. 314.</hi></add></p>
+<lb/><p rend="no-indent"><space extent="3" unit="words"/><persName>Sir Baldwin Walker</persName></p>
+<lb/><p rend="no-indent"><space extent="4" unit="words"/>√ Sir</p>    
+<lb/><p rend="no-indent"><space extent="5" unit="words"/><space extent="1" unit="chars"/>I take the liberty
 <lb/>of placing before you a short account
 <lb/>of our proceedings since I last
 <lb/>addressed your predecessor <persName><term type="occupation">Admiral</term>
