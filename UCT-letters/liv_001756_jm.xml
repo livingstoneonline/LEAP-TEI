@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://jamescummings.github.io/LEAP/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001756"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Baldwin W. Walker, 19 March 1862</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>UCLA Digital Library</publisher>
+                <pubPlace>Los Angeles, CA, USA</pubPlace>
+                <date>2015</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001335</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Cape Town</settlement><!-- Change as needed -->
+                        <repository>University of Cape Town Libraries, Special Collections</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Baldwin Walker Papers, AE 315</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters 1205</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Baldwin W. Walker, 19 March 1862</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1862-03-19">19 March 1862</date><!-- Change -->
+                    <placeName type="compositionPlace">Kongone Harbour</placeName><!-- Change -->
+                    <persName type="addressee">Baldwin W. Walker</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-02-27" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001756_0001.jpg" n="0001"/>
+
+
+<lb/><p><hi rend="indent">I have ventured</hi>
+<lb/>to send <persName>Dr Meller</persName> who has been
+<lb/>suffering for some time from
+<lb/>remittent <term type="ailment">fever</term> and <term type="ailment">enlarged
+<lb/>spleen</term> to the <placeName><region>Cape</region></placeName> for change
+<lb/>of air as recommended by
+<lb/><persName>Dr Kirk</persName> and <persName>Dr Ramsay</persName>
+<lb/>and I hope it may be in
+<lb/>your power to afford him
+<lb/>the benefits of the hospital
+<lb/>for <term type="occupation">naval officers</term>, for
+<lb/>he well deserves any
+<lb/>kindness that can be
+<lb/>bestowed. He is an excellent
+
+    <pb facs="liv_001756_0002.jpg" n="0002"/>
+<lb/>hardworking and amiable
+<lb/>man, and an invaluable
+<lb/>member of the expedition.</p>
+<lb/><p><persName>Captain Wilson</persName> having 
+<lb/>provisioned us for three
+<lb/>months, and <persName>Captain Oldfield</persName>
+<lb/>having promised to arrange
+<lb/>that a vessel should call on
+<lb/>the <date when="1862-05-20">20<hi rend="sup underline">th</hi> May</date> next with a crew
+<lb/>of <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName>, I forego
+<lb/>the intention of proceeding to
+<lb/><placeName><geogName type="island">Johanna</geogName></placeName> for supplies, in the
+<lb/>hope that the vessel which
+<lb/>may call will be able to
+<lb/>spare us as much as we
+<lb/>shall need for six months.
+<lb/>We shall endeavour to be
+<lb/>here from <date when="1862-05-20">20<hi rend="sup underline">th</hi> May</date> to <date when="1862-06-01">1<hi rend="sup underline">st</hi>
+<lb/>June</date>. The shell of the steamer
+<lb/>for <placeName><geogName type="lake">Lake Nyassa</geogName></placeName> will
+<lb/>be then screwed together at
+<lb/><placeName><settlement type="village">Shupanga</settlement></placeName>, and in the event
+<lb/>of having provisions we
+<lb/>shall go up to the cataracts
+<lb/>and there remain till next
+    
+    <pb facs="liv_001756_0003.jpg" n="0003"/>
+<lb/>year. I am anxious not to
+<lb/>return till we have the steamer
+<lb/>fairly on the Lake and taken a
+<lb/>trip in her.</p>
+<lb/><p>In the event of your sending
+<lb/>any merchant ship with coals
+<lb/>or provisions for the station
+<lb/>to arrive opposite this before
+<lb/>May, it would be a great
+<lb/>service to us if you could
+<lb/>ship ten good <term type="animal">draught oxen</term>, two
+<lb/><term type="animal">cows</term> and a <unclear cert="medium"><term type="tribe">Hottentot</term></unclear> <term type="occupation">driver</term>.
+<lb/>The <term type="animal">mules</term> will carry all the 
+<lb/>light gear and provisions. 
+<lb/>and there being no <term type="insect">tsetse</term> <term type="animal">oxen</term>
+<lb/>would do the rest. I have
+<lb/>written to <persName><term type="occupation">General</term> Wynyard</persName> 
+<lb/>the <term type="occupation">Acting Governor</term> about the
+<lb/>purchase of what we want
+<lb/>but I beg you to remember
+<lb/>that I do not contemplate animals
+<lb/>coming by men of war. I refer
+<lb/>only to a merchant vessel
+<lb/>being freighted, and should that
+<lb/>not occur soon the <term type="animal">oxen</term> &amp;
+<lb/><term type="occupation">driver</term> might be left in charge
+<lb/>of the <term type="people">Portuguese</term> <term type="occupation">officer</term> at this
+<lb/>port, at any future time.</p>
+                
+    <pb facs="liv_001756_0004.jpg" n="0004"/>
+<lb/><p>The provisions I have <choice><orig>recieved</orig><reg>received</reg></choice> 
+<lb/>from <persName><term type="occupation">Captain</term> Wilson</persName> and the
+<lb/>prospect of more by the 
+<lb/>arrangements of <persName><term type="occupation">Captain</term> Oldfield</persName>
+<lb/>for may next, will render the
+<lb/>freighting of vessel from <placeName><region>Natal</region></placeName>
+<lb/>specially for us unnecessary.</p>
+<lb/><p>I beg leave to add to the "demand"
+<lb/>contained in another letter. 
+<lb/>Spare gear for the boat, and 
+<lb/>materials for repairing boats.</p>
+<lb/><p><term type="plant">Hemp</term> for <term type="occupation">Engineer</term></p>
+<lb/><p>20 or 30 feet of bulk's head</p>
+<lb/><p>Angle iron</p>
+<lb/><p>1 or 2 iron plates <choice><orig>3/16</orig><reg>3/16</reg></choice> thick</p>
+<lb/><space dim="vertical" extent="5" unit="lines"/>
+<lb/><closer>I have the honour to be
+<lb/>your most obedient servant
+<lb/><signed><persName>David Livingstone</persName></signed>></closer> 
+                
+
+    
+            </div>
+        </body>
+    </text>
+
+</TEI>
