@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002695"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Mrs. Hamilton, on behalf of Robert Hamilton</title>
+                <title type="alternative">Letter to Mrs. Hamilton, on behalf of Robert Hamilton, 16 January 1851</title><!-- Removed underline coding -->
+                <author>Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002695</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Cape Town</settlement><!-- Change as needed -->
+                        <repository>University of Cape Town Libraries. Special Collections</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Misc. MSS. Liv.</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber"></idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Mrs. Hamilton, on behalf of Robert Hamilton, 16 January 1851</title><!-- I don't think this needs to include underline-->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1851-01-16">16 January 1851</date><!-- Change -->
+                    <placeName type="compositionPlace">Kuruman</placeName><!-- Change -->
+                    <persName type="addressee">Hamilton, Mrs.</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+        	<change when="2017-03-18" who="#AW">Proofing</change>
+			<change when="2017-02-23" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002695_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
+
+<lb/><p rend="no-indent"><space extent="6" unit="words"/><placeName><settlement type="village">Kuruman</settlement></placeName> <date when="1851-01-16">16 <hi rend="sup underline">th</hi> January 1858</date></p> 
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/><persName>Mrs Hamilton</persName></p>
+<lb/><p><space extent="2" unit="words"/>Madam</p><!-- Change line info as appropriate -->
+
+<lb/><p rend="no-indent"><space extent="5" unit="words"/>In consequence of the total inability
+<lb/>of <persName>Mr Hamilton</persName> to handle his pen, I write the following
+<lb/>information at his dictation. He has been laid
+<lb/>on a bed of sickness for more than twelve months
+<lb/>and his bodily powers have during the greater portion
+<lb/>of that time been completely prostrate - <space extent="1" unit="chars"/>He was
+<lb/>first affected by disease in the bowels. This
+<lb/>produced extreme prostration and after being 
+<lb/>bedridden during many months the return
+<lb/>of strength has been so very slow - <space extent="1" unit="chars"/>the
+<lb/>most he can do is to crawl to the
+<lb/>church on Sundays by means of two
+<lb/>crutches. <space extent="3" unit="chars"/>His eyesight is so far impaired
+<lb/>he cannot read the largest print, and but
+<lb/>for the unwearied attentions of <persName>Mr</persName> and
+<lb/><persName>Mrs Moffat</persName> his situation would have
+<lb/>been far from comfortable. He desires
+<lb/>me to express his gratitude to them for their
+    
+    <pb facs="liv_002695_0002" n="0002"/>
+<lb/>kind care &amp; watchfulness over him both by day
+<lb/>and by night. <space extent="1" unit="chars"/><persName>Mr Moffat</persName> could not have done
+<lb/>more though he had been his own brother nor
+<lb/><persName>Mrs Moffat</persName> though she had been his sister. May
+<lb/>God reward them. <space extent="2" unit="chars"/>He adds that the union
+<lb/>and separation of himself and <persName>Mrs Hamilton</persName> has
+<lb/>been mysterious but <del type="strikethrough">probably</del> perhaps it will
+<lb/>appear well in the end.</p>
+<lb/><p>A pious <term type="nationality">American</term> <term type="occupation">Captain</term> called <persName>Holmes</persName>
+<lb/>trades regularly to the <placeName><region>Cape</region></placeName>. It appears desirable
+<lb/>that <persName>Mr Hamilton</persName>'s son be made aware of the
+<lb/>circumstance, for if he would introduce
+<lb/>himself to the <term type="occupation">Captain</term> the pious conversation
+<lb/>of the latter may have a beneficial influence
+<lb/>and this might be a convenient person to
+<lb/>whose care <persName>Mr <choice><abbr>H</abbr><expan>Hamilton</expan></choice></persName>'s watch might be
+<lb/><choice><orig>intrusted</orig><reg>entrusted</reg></choice>. He intends to leave it to
+<lb/>his son. <space extent="2" unit="words"/>If you know your <choice><sic>sons</sic><corr>son's</corr></choice>
+<lb/>address in <placeName><settlement type="city">New York</settlement></placeName> please communicate
+<lb/>the above information -</p>
+<lb/><p>He desires me to inform you that <persName>Mary Moffat</persName>
+<lb/>the wife of <persName>Mr Livingston</persName> is at present here
+    
+    <pb facs="liv_002695_0003" n="0003"/>
+<lb/>she has three children. And her sister <persName>Ann Moffat</persName>
+<lb/>is married to the <term type="nationality">French</term> <term type="occupation">missionary</term> of <placeName><settlement type="village">Motito</settlement></placeName>
+<lb/><persName><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice> <choice><abbr>J</abbr><expan>Jean</expan></choice> Fredoux</persName> - Old <persName>Majima</persName> is still alive
+<lb/>A queer old woman. <persName>Mr Hamilton</persName> presented her
+<lb/>with a <term type="animal">cow</term> lately, and it was with difficulty
+<lb/>she could be induced to thank him for it
+<lb/>she does not seem to care much for any one
+<lb/>else in the world except herself. If you saw
+<lb/>her she might interest you for however
+<lb/>the other members may fail her tongue is
+<lb/>as supple as ever. - All your other friends
+<lb/>are gone off to the <placeName><region>Interior</region></placeName>. And there it is
+<lb/>probable they will have enough to do - <w>t<gap extent="4" unit="chars" agent="blot"/><supplied cert="high">hey</supplied></w>
+<lb/>keep at peace with their neighbours and
+<lb/>enemies the <orgName>Boers</orgName></p>
+<lb/><p>Although <persName>M<hi rend="sup underline">r</hi> <choice><abbr>H</abbr><expan>Hamilton</expan></choice></persName> cannot write you may for
+<lb/>if spared he will always be happy
+<lb/>to hear from his friends</p>
+<lb/><p rend="no-indent"><space extent="3" unit="words"/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
+<lb/><p rend="no-indent"><space extent="3" unit="words"/>For <persName>Robert Hamilton</persName></p>
+                
+    <pb facs="liv_002695_0004" n="0004"/>   
+<lb/><p rend="no-indent">Please give <persName>Mr Hamilton</persName>'s daughter a perusal
+<lb/>of this and present his kind compliments
+<lb/>to her &amp; her husband.</p>
+
+	<cb/>
+<lb/><lb/><ab>Care of <persName><choice><abbr>Rev<hi rend="sup">d</hi></abbr><expan>Reverend</expan></choice> <choice><abbr>W.</abbr><expan>William</expan></choice> Thompson</persName> <hi rend="underline"><placeName><settlement type="town">Cape Town</settlement></placeName></hi>
+<lb/><space extent="1" unit="words"/><persName>M<hi rend="sup underline">rs</hi> Hamilton</persName>
+<lb/><space extent="1" unit="words"/>care of <persName>M<hi rend="sup underline">r</hi> Giffin-Sadler</persName>
+<lb/><seg rend="small">Prepaid for</seg> <space extent="1" unit="words"/><placeName>Church <choice><abbr>St.</abbr><expan>Saint</expan></choice> Hackney</placeName>
+<lb/><seg rend="small"><persName>M<hi rend="sup">r</hi> Hamilton</persName></seg> <space extent="2" unit="words"/><placeName><settlement type="city">London</settlement></placeName></ab>
+            </div>
+        </body>
+    </text>
+
+</TEI>

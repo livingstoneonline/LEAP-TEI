@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002694"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Unknown</title>
+                <title type="alternative">Letter to Unknown, [1860]</title><!-- Removed underline coding -->
+                <author>Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002694</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Cape Town</settlement><!-- Change as needed -->
+                        <repository>University of Cape Town Libraries. Special Collections</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Eric Anderson Walker Papers - BC 618 C2.1</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber"></idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Unknown, [1860]</title><!-- I don't think this needs to include underline-->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1860">[1860]</date><!-- Change -->
+                    <placeName type="compositionPlace">[South East Africa]</placeName><!-- Change -->
+                    <persName type="addressee">The addressee is unknown.</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+        	<change when="2017-03-15" who="#AW">Proofing</change>
+			<change when="2017-02-23" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002694_0001" n="0001"/><!-- Change both @facs and @n -->
+	<!-- Start each page with a <pb> formatted as above -->
+
+<lb/><cb rend="vertical"/><ab>I shall write you when we come
+<lb/>down the <placeName><geogName type="river">Shire</geogName></placeName> to <placeName><settlement type="village">Shupanga</settlement></placeName></ab>
+
+<lb/><p>We are not in immediate 
+<lb/>want of anything except
+<lb/>the <term type="foodstuff">spices</term> but I send this
+<lb/>order that if you have
+<lb/>occasion to send other
+<lb/>things up the country
+<lb/>you may send these too
+<lb/><choice><sic>Dont</sic><corr>Don't</corr></choice> send them specially
+<lb/>If you have <term type="foodstuff">dried <term type="nationality">American</term>
+<lb/>apples</term> or <term type="foodstuff">peaches</term> send a 
+<lb/>box - also some <term type="foodstuff">raisins</term>
+<lb/>but there is no hurry
+<lb/>for them - I have sent
+<lb/>a packet of letters for 
+<lb/>the <term type="occupation">Admiral</term> to your
+<lb/>care - also a number
+    
+    <pb facs="liv_002694_0002" n="0002"/>
+<lb/>of sketches for our Government
+<lb/>in a box - Please do what
+<lb/>you think best if you
+<lb/>can forward them to
+<lb/>a safe person at <placeName><country><w>Mosam<supplied>-</supplied>
+<lb break="no"/>-bique</w></country></placeName> or write there desiring
+<lb/>a ship to call &amp; send in
+<lb/>a boat to <placeName><settlement type="village"><choice><orig>Kilimane</orig><reg>Quilimane</reg></choice></settlement></placeName> - do
+<lb/>what you think will be
+<lb/>the best for forwarding
+<lb/>them to their destination
+<lb/>I could not write you
+<lb/>last night as the man
+<lb/>was waiting till I sealed
+<lb/>them up. <space extent="2" unit="chars"/>I am ever yours
+<lb/>affectionately
+<lb/><space extent="4" unit="chars"/><persName>David Livingstone</persName></p>
+    
+    <pb facs="liv_002694_0003" n="0003"/>
+<lb/><p rend="no-indent"><space extent="1" unit="words"/><hi rend="underline">Order for Goods</hi> <add place="inspace" hand="#U" rend="small gray">BC 618</add>
+<lb/><hi rend="double-underline">At your convenience</hi> <space extent="1" unit="chars"/><add place="inspace" hand="#U" rend="small gray">C2.1</add>
+<lb/>One bag of best <term type="foodstuff">coffee</term>
+<lb/>A <choice><abbr>lb</abbr><expan>pound</expan></choice><!-- I cannot make out what this symbol is. JM --> of <term type="plant_foodstuff">mixed spices</term>
+<lb/>to flavour our food or
+<lb/>in want of that = these
+<lb/><space extent="2" unit="chars"/><term type="plant_foodstuff">Allspice</term> <choice><orig>1/2</orig><reg>1/2</reg></choice> <choice><abbr>lb</abbr><expan>pound</expan></choice>
+<lb/><space extent="2" unit="chars"/><term type="plant_foodstuff">Cloves</term> <space extent="2" unit="chars"/><choice><orig>1/2</orig><reg>1/2</reg></choice> <choice><abbr>lbs</abbr><expan>pounds</expan></choice>
+<lb/><space extent="2" unit="chars"/><term type="plant_foodstuff">Nutmegs</term> <choice><orig>1/2</orig><reg>1/2</reg></choice> a dozen
+<lb/><space extent="1" unit="chars"/>and a fine wine
+<lb/><space extent="2" unit="chars"/>sieve if you have
+<lb/><space extent="2" unit="chars"/>such things at <placeName><settlement type="village">Quilimane</settlement></placeName>
+<lb/><space extent="2" unit="chars"/>to sift <term type="foodstuff">flour</term> -
+<lb/><space extent="2" unit="chars"/><placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> <term type="foodstuff">coffee</term> will
+<lb/><space extent="3" unit="chars"/>do if you have us <placeName><geogName type="island">Zanzibar</geogName></placeName>
+<lb/><space extent="4" unit="chars"/>or <term type="foodstuff">Mocha coffee</term></p>
+    
+    
+            </div>
+        </body>
+    </text>
+
+</TEI>

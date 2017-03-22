@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001893"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Captain of Any Man of War Touching at Mozambique</title>
+                <title type="alternative">Letter to Captain of Any Man of War Touching at Mozambique, 25 February 1863</title><!-- Removed underline coding -->
+                <author>Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001893</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed -->
+                        <settlement>Cape Town</settlement><!-- Change as needed -->
+                        <repository>University of Cape Town Libraries. Special Collections</repository><!-- Change as needed -->
+                        <idno type="shelfmark">Baldwin Walker Papers, S745</idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 1329</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U1"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                            <handNote xml:id="U2"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Letter to Captain of Any Man of War Touching at Mozambique, 25 February 1863</title><!-- I don't think this needs to include underline-->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1863-02-25">25 February 1863</date><!-- Change -->
+                    <placeName type="compositionPlace">River Shire</placeName><!-- Change -->
+                    <persName type="addressee">Any Man of War Touching at Mozambique, Captain of</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+        	<change when="2017-03-18" who="#AW">Proofing</change>
+			<change when="2017-02-27" who="#JM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001893_0001" n="0001"/>
+<lb/><p><add hand="#U1" rend="gray"><hi rend="underline">Enclosure <choice><abbr>No</abbr><expan>Number</expan></choice> 6 in Letter <choice><abbr>No</abbr><expan>Number</expan></choice> 5 to <term type="occupation">Commander in Chief</term></hi>
+<lb/><hi rend="underline black"><unclear cert="medium">Truebany</unclear></hi> <add hand="#U2" rend="large black"><persName>J. Wilson</persName></add>
+<lb/><space extent="2" unit="words"/><hi rend="underline black"><term type="occupation">Commander</term></hi></add></p>
+<lb/>
+<lb/>
+<lb/><p rend="no-indent"><space extent="7" unit="words"/><placeName><geogName type="river">River Shire</geogName></placeName> 
+<lb/><space extent="7" unit="words"/><date when="1863-02-25">25<hi rend="sup">th</hi> February 1863</date></p>
+<lb/><p rend="no-indent">Sir,</p>
+<lb/><p>Three Black men who were brought
+<lb/>from the <placeName><region>Cape</region></placeName> by the late <persName><term type="occupation">Bishop</term> MacKenzie</persName> to
+<lb/>assist the <orgName>Universities' Mission</orgName> are now sent back
+<lb/>to their homes - they were brought up the
+<lb/>Courtesy of the <term type="occupation">Admiral</term> in a man of war, and
+<lb/>if you can give them a passage down I am <w>au-
+<lb break="no"/>thorized</w> by the <term type="occupation">Missionaries</term> to say that all expenses
+<lb/>will cheerfully be paid to your <term type="occupation">Paymaster</term> by the
+<lb/><term type="occupation">Bishop</term> of the <placeName><region>Cape</region></placeName>.</p>
+<lb/><p rend="no-indent">In introducing them, it would scarcely be right in
+<lb/>me not to mention that but little can be said in
+<lb/>favour of their moral characters &amp; behaviour
+<lb/>while with the <orgName>Mission</orgName>.</p>
+<lb/><p><space extent="2" unit="chars"/>Allow me to add, that as the <placeName><geogName type="river">lower Shire</geogName></placeName>  
+<lb/>has been completely depopulated by Slave-hunting -
+<lb/>- drought, and famine, we can purchase no
+<lb/>provisions for the "Pioneer" and will be
+<lb/><space extent="8" unit="words"/><space extent="2" unit="chars"/><hi rend="underline">obliged</hi></p>
+<lb/>
+<lb/><ab>The <term type="occupation">Captain</term> of any Man-of<supplied cert="high">-</supplied>War
+<lb/><space extent="1" unit="words"/>touching <unclear cert="low">at</unclear> <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName></ab>
+    
+    <pb facs="liv_001893_0002" n="0002"/>
+<lb/><p rend="no-indent">obliged to return to the <placeName><geogName type="harbor">Kongone</geogName></placeName> - <placeName><settlement type="village">Quilimane</settlement></placeName> or
+<lb/><placeName><country>Mozambique</country></placeName> for Stores Sooner than we anticipated, 
+<lb/>if you can leave any forces at either of these
+<lb/>Ports you will confer a very great favour
+<lb/>and render us essential Service; as it will
+<lb/>be unwise for us to venture to <placeName><geogName type="island">Johanna</geogName></placeName> at
+<lb/>this Season in this Small Craft. <space extent="2" unit="chars"/>I have to
+<lb/>beg very Earnestly that you will take this request
+<lb/>into your favourable consideration.</p>
+<lb/><p><space extent="2" unit="chars"/>The <placeName><geogName type="river">Shire</geogName></placeName> has not risen as much
+<lb/>as usual this Year, and we have found <w>con<choice><sic>=</sic><corr>-</corr></choice>
+<lb break="no"/>siderable</w> difficulty in getting the two vessels
+<lb/>up through the <placeName><geogName type="swamp"><term type="animal">Elephant</term> Swamp</geogName></placeName>, but we
+<lb/>hope Soon to reach the <placeName><geogName type="cataracts">Cataracts</geogName></placeName></p> <!-- I am not sure how to code "cataracts". JM -->
+<lb/><p>Our <term type="occupation">Blacksmith</term> <persName>William Mcleod</persName> is
+<lb/>obliged by <term type="ailment">disease of the Kidneys</term> to leave us -
+<lb/>he is a very good man; - we got him from the 
+<lb/>"Gorgon" on his passage to the <placeName><region>Cape</region></placeName>.</p>
+<lb/><p rend="no-indent"><space extent="4" unit="words"/><space extent="1" unit="chars"/>I am <unclear cert="medium">&amp;c</unclear>
+<lb/><space extent="4" unit="words"/>(<choice><abbr>sd</abbr><expan>signed</expan></choice>)<!-- There is a symbol here which I cannot make out. JM -->
+<lb/><space extent="4" unit="words"/><space extent="1" unit="chars"/><persName>David Livingstone</persName>
+<lb/><space extent="6" unit="words"/><hi rend="underline">H.M.S. Consul</hi></p>
+    
+            </div>
+        </body>
+    </text>
+
+</TEI>
