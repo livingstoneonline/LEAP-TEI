@@ -15,6 +15,13 @@ find . -name *.txt -type f -delete
 find . -name *.xml -type f -delete
 find . -name *_packflat8.tif -type f -delete
 
+
+Just delete
+
+find . -name __MACOSX\* -type d -delete && find . -name ._\* -type f -delete && find . -name .\* -type f -delete
+
+...And Zip
+
 find . -name __MACOSX\* -type d -delete && find . -name ._\* -type f -delete && find . -name .\* -type f -delete && for i in */; do zip -r "${i%/}.zip" "$i"; done
 
 
