@@ -26,6 +26,9 @@
 			<langUsage>
 				<language ident="en">English</language>
 			</langUsage>
+			<handNotes>
+				<handNote xml:id="hand01">Scribe: Unknown</handNote>
+			</handNotes>
 		</profileDesc>
 		<revisionDesc>
 			<change>
@@ -36,6 +39,10 @@
 				<date>2010-05-15</date>
 				<name xml:id="CL">Chris Lawrence</name>Proofed by Chris
 			</change>
+			<change>
+				<date>2017-01-30</date>
+				<name xml:id="AM">Anne Martin</name>Proofing and placement adjustments
+			</change>
 		</revisionDesc>
 	</teiHeader>
 
@@ -44,28 +51,29 @@
 			<div>
 
 	<pb n="0001" facs="liv_001310_0001"/><!--pb/@n='01'-->
-<lb/><p rend="right">Pearl Steamer </p>
-<lb/><p rend="right">21<hi rend="sup">st</hi> April 
-<lb/>1858</p>
-<lb/><p><persName>Sir George Grey K.C.B.</persName></p>
-<lb/><p>I have the honour 
-<lb/>to forward two letters for 
+<lb/><p rend="no-indent"><space extent="9" unit="chars"/>Pearl Steamer </p>
+<lb/><p rend="no-indent"><space extent="12" unit="chars"/><date when="1858-04-21">21<hi rend="sup">st</hi> April 1858</date></p>
+<lb/><p rend="no-indent"><space extent="19" unit="chars"/><add place="inline" rend="gray" hand="#hand01"><choice><abbr>No</abbr><expan>Number</expan></choice> 1</add></p>
+<lb/>
+<lb/><p rend="no-indent"><persName>Sir George Grey K.C.B.</persName></p>
+<lb/><p rend="no-indent"><space extent="9" unit="chars"/>I have the honour 
+<lb/>to forward two <bibl>letters</bibl> for 
 <lb/>your Excellency and beg 
 <lb/>leave to say that the 
 <lb/>Pearl in which we 
 <lb/>are sailing for the 
-<lb/><placeName>Zambesi</placeName> will leave 
+<lb/><placeName><geogName type="river">Zambesi</geogName></placeName> will leave 
 
 	<pb n="0002" facs="liv_001310_0002"/><!--pb/@n='02'-->
-<lb/><placeName>Table Bay</placeName> tomorrow 
+<lb/><placeName><geogName type="bay">Table Bay</geogName></placeName> <date when="1858-04-22">tomorrow</date> 
 <lb/>forenoon in order to 
-<lb/>coal at <placeName>Simon's Bay</placeName>
+<lb/>coal at <placeName><geogName type="bay">Simon's Bay</geogName></placeName>
 <lb/>but I shall take the 
 <lb/>liberty of calling on 
 <lb/>your Excellency before 
-<lb/>she departs<reg>.</reg></p>
+<lb/>she departs</p>
 <lb/><p rend="center">I am &amp;c </p>
-<lb/><p rend="center"><persName>David Livingstone</persName></p>
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/><persName>David Livingstone</persName></p>
 			
 </div>
 		</body>

@@ -27,6 +27,9 @@
 			<langUsage>
 				<language ident="en">English</language>
 			</langUsage>
+			<langUsage>
+				<language ident="und">undetermined</language>
+			</langUsage>
 			<handNotes>
 				<handNote xml:id="hand01">Scribe: Unknown</handNote>
 			</handNotes>
@@ -40,6 +43,10 @@
 				<date>2010-05-20</date>
 				<name xml:id="CL">Chris Lawrence</name>Proofed by Chris
 			</change>
+			<change>
+				<date>2017-02-06</date>
+				<name xml:id="AM">Anne Martin</name>Proofing and placement adjustments
+			</change>
 		</revisionDesc>
 	</teiHeader>
 
@@ -48,14 +55,17 @@
 			<div>
 
 	<pb n="0001" facs="liv_001321_0001"/><!--pb/@n='1r'-->
-<lb/><p rend="right"><placeName>Steamer, Pearl</placeName> 10<hi rend="sup underline">th</hi> May </p>
-<lb/><p rend="right">1858 </p>
-<lb/><p rend="left"><hi rend="underline">Vocabularies</hi></p>
-<lb/><p>Sir </p>
-<lb/><p>When I sent the vocabularies 
-<lb/>to your Excellency by <persName>M<hi rend="underline">r</hi> Moffat</persName>
+<lb/><p rend="no-indent"><space extent="8" unit="chars"/><placeName>Steamer, Pearl</placeName> <date when="1858-05-10">10<hi rend="sup underline">th</hi> May 
+<lb/><space extent="21" unit="chars"/>1858</date></p>
+<lb/><p rend="no-indent"><hi rend="underline">Vocabularies</hi><!-- The word "Vocabularies" (underlined) appears on an upwards diagonal from left to right, starting about 5 lines down and ending on the top line AM -->
+<space extent="11" unit="chars"/><add place="inline" rend="gray" hand="#hand01"><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 2</add></p>
+<lb/>
+<lb/>
+<lb/><p>Sir</p>
+<lb/><p><space extent="3" unit="chars"/>When I sent the <bibl>vocabularies</bibl> 
+<lb/>to your Excellency by <persName>M<hi rend="sup underline">r</hi> Moffat</persName>
 <lb/>I was unable to write and 
-<lb/>explain that the larger volume 
+<lb/>explain that the <bibl>larger volume</bibl> 
 <lb/>contains the Sichuana tongue 
 <lb/>chiefly, but I had begun 
 <lb/>to put in the dialect of The 
@@ -63,50 +73,50 @@
 <lb/>the Sichuana thus "Sichuana = 
 <lb/>= serotse = English - I did this 
 <lb/>partly because it was easier 
-<lb/>to translate the Serotse into 
+<lb/>to translate the serotse into 
 <lb/>Sichuana, but chiefly because 
 <lb/>I had no paper to make another 
-<lb/>vocabulary. </p>
+<lb/><bibl><choice><sic>vocabularly</sic><corr>vocabulary</corr></choice></bibl> -</p>
 <lb/><p>Towards the end of the 
-<lb/>volume there are several 
-<lb/>dialects tabulated for comparason<reg>.</reg></p>
+<lb/><bibl>volume</bibl> there are several 
+<lb/><add place="marginleft" rend="gray"><persName>Sir George Grey</persName>.</add>dialects tabulated for comparison</p>
 
 	<pb n="0002" facs="liv_001321_0002"/><!--pb/@n='1v'-->
-<lb/><p>The Bayeiye here on the R. Zouga - 
-<lb/>Teoghe - chobe &amp;c the Bashubia 
-<lb/>lived at Sesheéke and along the Leambye 
-<lb/>the Barotse in the valley of that name 
-<lb/>the Balojazi and Ambonda far to the 
-<lb/>N.N.W. of that point. </p>
+<lb/><p>The <term type="tribe">Bayeiye</term> live on the <placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice> Zouga</geogName></placeName> - 
+<lb/><placeName><geogName type="river">Teoghe</geogName></placeName> - <space extent="2" unit="chars"/><placeName><geogName type="river">chobe</geogName></placeName> &amp;c the <term type="tribe">Bashubia</term> 
+<lb/>lived at <placeName><settlement type="village">Seshéke</settlement></placeName> and along the <placeName><geogName type="river">Leambye</geogName></placeName> 
+<lb/>the <term type="tribe">Barotse</term> in the valley of that name 
+<lb/>the <term type="tribe">Balojazi</term> and <term type="tribe">Ambonda</term> far to the 
+<lb/><placeName><region><choice><abbr>N.N.W.</abbr><expan>North-northwest</expan></choice> of that point</region></placeName> -</p>
 <lb/><p>In the calico covers there is 
 <lb/>a number of Angolese words the 
 <lb/>dialect being termed Bunda or 
-<lb/>Ambunda. I think I made a 
+<lb/>Ambunda - I think I made a 
 <lb/>mistake in marking them 
-<lb/>as Serotse. <persName>D<hi rend="sup underline">r</hi> Bleek</persName> will be 
+<lb/>as Serotse - <persName>D<hi rend="sup underline">r</hi> Bleek</persName> will be 
 <lb/>able to detect which is which 
 <lb/>by comparing them with the 
 <lb/>words in the tables in the 
-<lb/>larger volume, and noting a 
+<lb/><bibl>larger volume</bibl>, and noting a 
 <lb/>form of swearing which I 
 <lb/>could not understand but was 
 <lb/>told it was equal to "by the 
-<lb/>holy sacraments." Then we 
+<lb/>holy sacraments" - Then we 
 <lb/>have some of the Londa or 
 <lb/>Lunda dialect - spoken by the 
-<lb/>Balonda - there are also Tette words. </p>
+<lb/><term type="tribe">Balonda</term> - there are also <placeName><settlement type="town">Tete</settlement></placeName> words. </p>
 
 	<pb n="0003" facs="liv_001321_0003"/><!--pb/@n='2r'-->
 <lb/><p>I am sorry the whole is so imperfect. 
 <lb/>The Sichuana contains most of the 
 <lb/>words in common use but by no 
-<lb/>means the whole language. We are 
+<lb/>means the whole language - We are 
 <lb/>perpetually picking up new words 
 <lb/>and even in the short period of 
-<lb/>my absence in <placeName>England</placeName> I see by 
-<lb/>the parts of the bible brought down 
+<lb/>my absence in <placeName><country>England</country></placeName> I see by 
+<lb/>the parts of the <bibl>bible</bibl> brought down 
 <lb/>by <persName>M<hi rend="sup underline">r</hi> Moffat</persName> that he has gathered 
-<lb/>a good many that I never heard<reg>.</reg>
+<lb/>a good many that I never heard
 <lb/>Should you deem the matter sent 
 <lb/>worth printing my companions 
 <lb/>would be very thankful for 
@@ -123,29 +133,29 @@
 <lb/>sounds - in mo - li - &amp;c  - and the 
 
 	<pb n="0004" facs="liv_001321_0004"/><!--pb/@n='2v'-->
-<lb/>deficiencies in some of the dialects. 
+<lb/>deficiencies in some of the dialects - 
 <lb/>If I had the Sichuana so printed 
 <lb/>as to allow corresponding words 
 <lb/>to be put in Londa - Maravi - &amp;c &amp;c 
 <lb/>on the same line in the interleaved 
 <lb/>page I think I could <del type="strikethrough">put</del> collect 
 <lb/>as many words as have served 
-<lb/>to translate bible in the course of 
-<lb/>two years. </p>
+<lb/>to translate <bibl>bible</bibl> in the course of 
+<lb/>two years.</p>
 <lb/><p>As I am in the way of begging 
 <lb/>may I ask your Excellency to 
 <lb/>get <persName>M<hi rend="sup underline">r</hi> Moffat</persName> to go over the 
 <lb/>analysis and add or expunge what 
-<lb/>may be necessary. I wrote it six 
+<lb/>may be necessary - I wrote it six 
 <lb/>years ago and had no time to 
-<lb/>revise. One form of the verb 
+<lb/>revise - One form of the verb 
 <lb/>for instance, I have not <del type="strikethrough">in</del> put in 
 <lb/>at all. And others may be erroneous<reg>.</reg>
-<lb/>My aim was to shew the simplicity 
+<lb/>My aim was to <choice><orig>shew</orig><reg>show</reg></choice> the simplicity 
 <lb/>of the structure of the language 
-<lb/>not to make a grammar<reg>.</reg></p>
-<lb/><p rend="center">I am &amp;c. </p>
-<lb/><p rend="center"><persName>David Livingstone</persName></p>
+<lb/>not to make a <bibl>grammar</bibl></p>
+<lb/><p rend="no-indent"><space extent="11" unit="chars"/>I am &amp;c.</p>
+<lb/><p rend="no-indent"><space extent="11" unit="chars"/><persName>David Livingstone</persName></p>
 			
 </div>
 		</body>
