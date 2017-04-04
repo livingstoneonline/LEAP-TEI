@@ -33,3 +33,8 @@ for dir in */*; do [ -d "$dir" ] && cp 2_Note-on-Processed-Spectral-Images.pdf "
 
 copy all files into all subdirectories
 for dir in */*; do [ -d "$dir" ] && cp * "$dir" ; done
+
+
+***Copy all READMEs at one go
+
+for dir in *; do [ -d "$dir" ] && cp 0_Livingstone_Online_Project_Documents_README.docx "$dir" ; done && for dir in *; do [ -d "$dir" ] && cp 0_Livingstone_Online_Project_Documents_README.txt "$dir" ; done && for dir in *; do [ -d "$dir" ] && cp 0_Livingstone_Online_Project_Documents_README.pdf "$dir" ; done
