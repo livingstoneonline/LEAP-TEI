@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002698">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Richard Southey</title>
+                <title type="alternative">Letter to Richard Southey, 4 March 1862</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="BL">
+                    <name>Blaze Livingston</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+				<respStmt xml:id="SF">
+					<name>Samantha Fitch</name>
+					<resp>Coding review</resp>
+				</respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_002698</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country></country>
+                        <settlement>Washington, D.C.</settlement>
+                        <repository>Smithsonian Institution. Libraries.</repository>
+                        <idno type="shelfmark">Joseph F. Cullman 3rd Library of Natural History: M090</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber"></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to Richard Southey, 4 March 1862</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1862-03-04">4 March 1862</date>
+                    <placeName type="compositionPlace">R. Zambesi</placeName>
+                    <persName type="addressee">Richard Southey</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2017-03-30" who="#SF">Proofing</change>
+            <change when="2016-11-06" who="#BL">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002698_0001" n="0001"/> 
+<lb/><opener><dateline rend="center"><placeName>R. Zambesi</placeName> <date when="1862-03-04">4<hi rend="sup underline">th</hi> March
+<lb/><space extent="5" unit="words"/>1862</date></dateline>
+<lb/>
+<lb/><salute>My Dear Sir</salute></opener>
+<lb/><p><space extent="2" unit="words"/>many thanks
+<lb/>for your kind attentions
+<lb/>to <persName>M<hi rend="sup underline">r</hi> L</persName> &amp; self in sending
+<lb/>the letters &amp; Newspapers
+<lb/>which came all safely
+<lb/>to hand - <space extent="1" unit="chars"/>The <term type="animal">mules</term> too
+<lb/>were in excellent condition
+<lb/>and seem fine strong
+<lb/>animals - <space extent="1" unit="chars"/>The carts &amp;
+<lb/>harness all right - By the
+<lb/>kind assistance of
+<lb/><persName><term type="occupationn">Captain</term> Wilson</persName> &amp; his officers
+<lb/>we had the greater part
+<lb/>of the hull put aboard
+<lb/>the Pioneer but the
+<lb/><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName> is in high
+<lb/>flood and more rapid
+<lb/>than we ever saw it
+
+	<pb facs="liv_002698_0002" n="0002"/>
+<lb/>It is indeed far too strong
+<lb/>a current for the Pioneer
+<lb/>with <measure>35 tons</measure> in her, so
+<lb/>after spending 3 weeks in
+<lb/>getting up to <settlement type="village">Shupanga</settlement>
+<lb/>we are obliged to unload -
+<lb/>put the hull together &amp;
+<lb/>tow her <hi rend="below">^</hi><hi rend="above">the new one</hi> up to the
+<lb/>cataracts - This will detain
+<lb/>us till <date when="1862-05"><choice><sic>may</sic><corr>May</corr></choice></date> - </p>
+<lb/><p>Seeing that we made
+<lb/>such miserably slow
+<lb/>progress <persName><term type="occupation">Captain</term> Wilson</persName>
+<lb/>acceded to the request of
+<lb/><persName>Miss Mackenzie</persName> to be
+<lb/>taken forward to the
+<lb/><term type="occupation">bishop</term> in his gig - The
+<lb/><term type="occupation">bishop</term> was not found
+<lb/>at the <placeName>Ruo</placeName> as he engaged<!-- part of this extends to the other page- do we mark that? SF -->
+
+	<pb facs="liv_002698_0003" n="0003"/>
+<lb/>to be and we hear by the
+<lb/>return of one boat from
+<lb/><placeName><geogName type="river">Shire</geogName></placeName> the <term type="occupation">Captain</term> had gone
+<lb/>on to near the cataracts
+<lb/>where he would send up
+<lb/>for the <term type="occupation">bishop</term> and deliver
+<lb/>up his charge - she
+<lb/>is very weakly at best
+<lb/>and was ill when they 
+<lb/>were kept by the return
+<lb/>boat. There is no doubt
+<lb/>but Ladies would be
+<lb/>a great boon to the
+<lb/>mission if they were
+<lb/>strong as <persName>Mrs.Burrup</persName>
+<lb/>appears to be, but
+<lb/><persName>Miss Mackenzie</persName>'s is
+<lb/>a peculiar case &amp;
+<lb/>I have my fears
+
+	<pb facs="liv_002698_0004" n="0004"/>
+<lb/><space extent="1" unit="words"/>Believe me
+<lb/><space extent="2" unit="words"/><space extent="1" unit="chars"/>Dear Sir</p>
+
+<lb/><closer rend="center"><salute>Most Truly yours</salute>
+<lb/><space extent="1" unit="chars"/><signed><persName>David Livingstone</persName></signed></closer>
+<lb/><trailer><del type="cancelled"><gap extent="1" unit="words"/></del> Esq.</trailer>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002121"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            	<title>Letter to R.M. Smith</title><!-- Change -->
+            	<title type="alternative">Letter to R.M. Smith, 24 November 1864</title>
+				<author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AD"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Amzie Dunekacke</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="SF">
+                    <name>Samantha Fitch</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002121</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country><!-- Change as needed -->
+                        <settlement>Edinburgh</settlement><!-- Change as needed -->
+                    	<repository>National Library of Scotland</repository><!-- Change as needed -->
+                    	<idno type="shelfmark">MS. 20312, ff. 149-151</idno><!-- Change as needed -->
+                        <altIdentifier>
+                        	<idno type="ccnumber">Letters, 1542</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                	<title>Letter to R.M. Smith, 24 November 1864</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1864-11-24">24 November 1864</date><!-- Change -->
+                	<placeName type="compositionPlace">Newstead Abbey</placeName><!-- Change -->
+                    <persName type="addressee">R.M. Smith</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2017-03-03" who="#AW">Final review</change>
+			<change when="2017-03-01" who="#SF">Proofing</change>
+            <change when="2016-06-25" who="#AD">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002121_0001" n="0001"/><!-- Change both @facs and @n -->
+<lb/><p rend="no-indent small"><add place="inline" rend="gray" hand="#U">Acc 7237</add> <space extent="2" unit="words"/><add place="inline" rend="gray" hand="#U">149</add></p>
+<lb/><p rend="italic no-indent small gray"><space extent="1" unit="words"/><placeName>Newstead Abbey</placeName>,
+<lb/><space extent="1" unit="words"/><placeName>Mansfield</placeName>, <placeName>Notts.</placeName></p>
+<lb/><p rend="center"><date when="1864-11-24">24 Nov <hi rend="sup underline">r</hi> 1864</date></p><!-- I guess this is 1857, but can we double check?  It doesn't look like it to me. SF --><!-- Fixed. AW -->
+<lb/>    
+<lb/><p rend="no-indent">My Dear Sir</p>
+
+<lb/><p>I thank you
+<lb/>very much for
+<lb/>your kind invitation
+<lb/>to dinner on <date when="1864-11-28">Monday</date><!-- Any way of figuring out the date for this? SF --><!-- Done! -->
+<lb/>but I am still 
+<lb/>busy at my work
+<lb/>here and sorry
+<lb/>that it does not
+<lb/>permit my going
+<lb/>South - I also
+
+	<pb facs="liv_002121_0002" n="0002"/>
+<lb/>thank you for 
+<lb/>kindly writing on
+<lb/>behalf of my son
+<lb/>to <persName>D<hi rend="sup underline">r</hi> Sherman</persName> -
+<lb/>your friend adopts
+<lb/>the line we sometimes 
+<lb/>had a smile over
+<lb/>in <placeName><country>Africa</country></placeName> - several
+<lb/>friends would write
+<lb/>so many <add place="below">^</add> <add place="above">other</add> friends 
+<lb/>must have given 
+<lb/>you the news that
+<lb/>I need not go into
+<lb/>particulars - Or 
+<lb/>I would have sent
+
+	<pb facs="liv_002121_0003" n="0003"/>
+<lb/>you the new book <add place="above" rend="gray small">150</add>
+<lb/>but feel certain that
+<lb/>some other of your
+<lb/>numerous friends 
+<lb/>must have sent
+<lb/>it - the upshot
+<lb/>was we neither
+<lb/>got the news nor
+<lb/>the book - however
+<lb/>I thank you for 
+<lb/>so far as you were
+<lb/>concerned doing
+<lb/>what you could
+<lb/>and am &amp;
+<lb/><persName>David Livingstone</persName></p> 
+
+	<pb facs="liv_002121_0004" n="0004"/> <!--not sure this page belongs--><!-- OK. AW -->
+<lb/><p>You asked in one
+<lb/>of your notes what
+<lb/>took another son
+<lb/>into the <orgName>Federal Army</orgName>
+<lb/>He says he was 
+<lb/>kidnapped - and 
+<lb/>his refraining from 
+<lb/>taking life even in 
+<lb/>the frenzy of a 
+<lb/>charge <choice><orig>shews</orig><reg>shows</reg></choice> that
+<lb/>he is there against
+<lb/>his will - <persName>M<hi rend="sup underline">r</hi> Adams</persName>
+<lb/>was here to lunch one
+<lb/>day &amp; I had a promise
+<lb/>that he would do what 
+<lb/>he could - this makes
+<lb/>me anxious for his brother</p>
+
+	<pb facs="liv_002121_0005" n="0005"/>
+<lb/><p rend="no-indent"><persName>R.M. Smith <choice><abbr>Esq.</abbr><expan>Esquire</expan></choice></persName>
+<lb/><space extent="2" unit="chars"/><placeName>4 Bellvue Crescent</placeName>
+<lb/><space extent="5" unit="chars"/><placeName><settlement type="city">Edinburgh</settlement></placeName>
+<lb/><seg rend="small"><persName>D<hi rend="sup underline">r</hi> <choice><abbr>L</abbr><expan>Livingstone</expan></choice></persName></seg></p>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002379"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            	<title>Letter to James Hamilton</title><!-- Change -->
+            	<title type="alternative">Letter to James Hamilton, 30 July 1865</title>
+				<author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="AD"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Amzie Dunekacke</name>
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="JZ"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Jade Zuehlke</name><!-- Change -->
+                    <resp>Proofing</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="SF">
+					<name>Samantha Fitch</name>
+					<resp>Coding review</resp>
+				</respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002379</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country><!-- Change as needed -->
+                        <settlement>Edinburgh</settlement><!-- Change as needed -->
+                    	<repository>National Library of Scotland</repository><!-- Change as needed -->
+                    	<idno type="shelfmark">MS. 10768, ff. 72-73</idno><!-- Change as needed -->
+                        <altIdentifier>
+                        	<idno type="ccnumber">Letters, 1784</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                	<title>Letter to James Hamilton, 30 July 1865</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1865-07-30">30 July 1865</date><!-- Change -->
+                	<placeName type="compositionPlace">Newstead Abbey</placeName><!-- Change -->
+                    <persName type="addressee">James Hamilton</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2017-04-06" who="#SF">Corrections</change>
+			<change when="2017-04-05" who="#SF">Proofing</change>
+            <change when="2016-06-25" who="#AD">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002379_0001" n="0001"/><!-- Change both @facs and @n -->
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><add place="inspace" rend="gray small" hand="#U">28</add> <space extent="2" unit="words"/><add place="inspace" rend="gray small" hand="#U">72</add></p>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><date when="1865-07-30">30 July 1865</date></p>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><placeName><hi rend="blue black small" resp="#U2">NEWSTEAD ABBEY,
+<lb/><add place="inspace" rend="gray small">Acc 5973</add> <space extent="2" unit="words"/>MANSFIELD.
+<lb/><space extent="6" unit="words"/>NOTTS.</hi></placeName></p> <!-- Is this correct? It doesn't show up, but I'm not sure if it's supposed to? SF --><!-- Would be OK either way, actually, but looks better with it in. -->
+<lb/><p rend="no-indent">My Dear D<hi rend="sup underline">r</hi> Hamilton</p><!-- Change line info as appropriate -->
+<lb/><p>Many thanks
+<lb/>for the parcel
+<lb/><choice><sic>recieved</sic><corr>received</corr></choice> this 
+<lb/>morning - I did
+<lb/>not know that 
+<lb/>I had left the collars
+<lb/>though I thought
+<lb/>I had left some
+<lb/>for <persName>Agnes</persName> to <w><subst><del>g</del><add place="over-text">s</add></subst>end</w><!-- Not sure if this is right, but it looks to me like he wrote "send", but perhaps started to write "give"? SF -->
+<lb/>to the <unclear cert="medium"><term type="occupation">washerwoman</term></unclear>
+
+	<pb facs="liv_002379_0002" n="0002"/>
+<lb/><persName>Oswell</persName> was upset 
+<lb/>about the train
+<lb/>and we were just
+<lb/>in time. <persName>Webb</persName> is 
+<lb/>better - we have 
+<lb/><persName>Shelley</persName> &amp; <persName>Oswell</persName>
+<lb/>&amp; <term type="nationality">African</term> &amp;
+<lb/><unclear cert="medium">rocky</unclear> mountain
+<lb/>talk has driven 
+<lb/>out the pains &amp;
+<lb/>he walks about
+<lb/>quite brisk - <persName>M<hi rend="sup">rs</hi>
+<lb/>Webb</persName> was giving
+
+	<pb facs="liv_002379_0003" n="0003"/>
+<lb/>me a scolding this <add place="above" rend="gray" hand="#U">73</add>
+<lb/>morning for the
+<lb/>going on Tuesday
+<lb/>next - she thought
+<lb/>I was to be here
+<lb/>till starting on 
+<lb/>the <date when="1865-08-11">11<hi rend="sup underline">th</hi></date> I shall
+<lb/>go to <placeName><settlement type="town">Sedgwick</settlement></placeName> on
+<lb/>Wednesday &amp;
+<lb/>pack up on Friday
+<lb/>on which night
+<lb/>you had better
+<lb/>write your friends
+<lb/>as must come
+<lb/>back - on Saturday
+
+	<pb facs="liv_002379_0004" n="0004"/>
+<lb/>they are going to
+<lb/>keep <persName>Agnes</persName> so 
+<lb/>I must come
+<lb/>back</p>
+<lb/><p>I wonder if 
+<lb/><persName>M<hi rend="sup underline">s</hi> Binney</persName>
+<lb/>would come on
+<lb/>that <unclear cert="low">upset</unclear> for it
+<lb/>will be impossible
+<lb/>for me to go to
+<lb/>him for which
+<lb/>I am sorry</p>
+
+<lb/><p rend="no-indent"><space extent="1" unit="words"/>I am &amp;c<!-- Change as appropriate -->
+<lb/><persName>David Livingstone</persName></p><!-- Change as appropriate --><!-- I can't get this signature to go to the left... I've tried rend="left" but with no luck. SF --> 
+
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

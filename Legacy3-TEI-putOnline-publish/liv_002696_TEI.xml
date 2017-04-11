@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000877"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<title></title><!-- Ignore this line -->
+                <title type="alternative">Letter to Unknown</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="LG"><!-- Add or remove individuals from the list as appropriate -->
+                    <name>Lauren Geiger</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="SF">
+					<name>Samantha Fitch</name>
+					<resp>Coding review</resp>
+				</respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_002696</idno><!-- Change -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Unknown</country><!-- Change as needed -->
+                        <settlement>Unknown</settlement><!-- Change as needed -->
+                        <repository>Private owner</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Unknown</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Lette to Unknown</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-03-02">17 February 1857</date><!-- Change -->
+                    <placeName type="compositionPlace">57 Sloane St.</placeName><!-- Change -->
+                    <persName type="addressee">Unknown</persName><!-- Change -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 20 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2017-04-08" who="#AW">Corrections</change>
+			<change when="2017-04-06" who="#SF">Proofing</change>
+            <change when="2016-10-16" who="#LG">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_002696_0001" n="0001"/>
+<lb/><p rend="no-indent"><space extent="1" unit="words"/><placeName>57 Sloane St.</placeName> 
+<lb/><space extent="1" unit="words"/><space extent="2" unit="chars"/><date when="1857-02-17">17 <choice><abbr>Feby</abbr><expan>February</expan></choice> 1857</date></p>
+<lb/>  
+<lb/><p rend="no-indent">My Dear Sir</p>
+<lb/><p><space extent="1" unit="words"/>Accept of
+<lb/>my hearty thanks
+<lb/>for your kind
+<lb/>congatulations
+<lb/>I remember
+<lb/>you very well
+<lb/>Met <persName>M<hi rend="sup underline">r</hi> Mackenzie</persName>
+<lb/>the other day in
+<lb/>the street quite
+                
+	<pb facs="liv_002696_0002" n="0002"/>
+<lb/>accidentally. I am
+<lb/>sure I was glad to
+<lb/>see him. Have
+<lb/>corresponded with
+<lb/><persName>Hoskins</persName> and <persName><w>Beding<supplied>-</supplied>
+<lb break="no"/>feld</w></persName> but have not
+<lb/>met them. I shall
+<lb/>always remember
+<lb/>you of the <unclear cert="low">Thilomel</unclear><!-- Could this be "Thulamela"? SF --><!-- Looks like Thilomel to me. AW -->
+<lb/>with kindly feelings
+<lb/>Have heard nothing
+<lb/>of Dallas was
+<lb/>that the name of
+
+	<pb facs="liv_002696_0003" n="0003"/>
+<lb/>first <choice><abbr>lieut<hi rend="sup">t</hi></abbr><expan>lieutenant</expan></choice> I have
+<lb/>no time to spare in
+<lb/><placeName><country>England</country></placeName>. Am at
+<lb/>close work over
+<lb/>a book and when
+<lb/>that is over will
+<lb/>leave for <placeName><bloc>East</bloc></placeName>
+<lb/><placeName><bloc>Africa</bloc></placeName>. 110 men
+<lb/>like those you saw
+<lb/>awaiting return
+<lb/>in April. I need
+<lb/>not say I would
+<lb/>like to see you
+<lb/>for I can <choice><sic>recieve</sic><corr>receive</corr></choice>
+
+	<pb facs="liv_002696_0004" n="0004"/>
+<lb/>no one till after
+<lb/>my work is finished
+<lb/>I lost my father in
+<lb/><del type="strikethrough">August</del><add place="above"> February</add> last - and
+<lb/>can sympathize
+<lb/>with you. This is
+<lb/>written at a moment
+<lb/>of relaxation - Notes
+<lb/>I generally must
+<lb/>leave unnoticed
+<lb/>I wish I were away
+<lb/>again. May God 
+<lb/>bless you</p>
+    
+<!-- If there is a letter or similar with a closer with content such as salute or signed -->
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/><persName>David Livingstone</persName></p><!-- Change as appropriate --> 
+
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

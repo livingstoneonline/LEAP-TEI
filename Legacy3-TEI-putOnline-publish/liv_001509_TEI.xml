@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001509">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to John Kirk 2,</title>
+                <title type="alternative">Letter to John Kirk 2, 5 or 6 November 1859</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+                <respStmt xml:id="BL">
+                    <name>Blaze Livingston</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="SF">
+					<name>Samantha Fitch</name>
+					<resp>Coding review</resp>
+				</respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+                </respStmt>
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_001509</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Washington, D.C.</settlement>
+                        <repository>Smithsonian Institution. Libraries.</repository>
+                        <idno type="shelfmark">Joseph F. Cullman 3rd Library of Natural History: M088</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0968</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to John Kirk 2, 5 or 6 November 1859</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1859-11-05" to="1859-11-06">5 or 6 November 1859</date><!-- not sure how to indicate that it could be either 5 or 6 of November. BL-->
+                    <placeName type="compositionPlace">Shupanga</placeName>
+                    <persName type="addressee">John Kirk</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2017-04-04" who="#AW">Corrections</change>
+			<change when="2017-04-01" who="#SF">Proofing</change>
+            <change when="2016-11-12" who="#BL">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+               
+	<pb facs="liv_001509_0001" n="0001"/>
+<lb/><opener><dateline><space extent="1" unit="words"/><placeName>Shupanga</placeName> <date when="1859-11-06"><subst><del>5</del><add place="over-text">6</add></subst> <choice><abbr>Nov</abbr><expan>November</expan></choice> 1859</date></dateline>  
+<lb/><salute>My Dear <persName>D<hi rend="sup">r</hi> Kirk</persName></salute><space extent="2" unit="chars"/><hi rend="red" hand="#U">18</hi></opener>
+<lb/><p>You will no
+<lb/>doubt be disappointed
+<lb/>at not finding us
+<lb/>here - but there is
+<lb/>no help for it as
+<lb/>we are sinking.
+<lb/><space extent="1" unit="chars"/>We waited at
+<lb/>><placeName><settlement>Shamoara</settlement></placeName> till
+<lb/>yesterday morning
+<lb/><date when="1859-11-05">(5<hi rend="sup">th</hi></date>) - <space extent="2" unit="chars"/>We had
+<lb/>made a good deal</p>
+<lb/>
+<lb/><cb rend="vertical"></cb><ab>I saw hardship for paper you see</ab><!-- Used coding manual, however this doesn't show up as verticle when I apply the transformation, so I'm not sure if it's correct? SF -->
+
+	<pb facs="liv_001509_0002" n="0002"/>
+<lb/><p rend="no-indent">of water and had
+<lb/>to pump during the
+<lb/>night while <persName>Rowe</persName>
+<lb/>was away - <space extent="2" unit="chars"/>but - 
+<lb/>lying in a still
+<lb/>place the leak seemed
+<lb/>to fill up. As you
+<lb/>did not make
+<lb/>your appearance
+<lb/>I resolved to run
+<lb/>down here for
+<lb/>food for the crew - 
+<lb/>and went to bed
+<lb/>last night all night
+
+	<pb facs="liv_001509_0003" n="0003"/>
+<lb/>In the morning
+<lb/>we found the <w>righ<gap extent="3" unit="chars"/></w>
+<lb/>hand after hold <w>h<gap extent="3" unit="chars"/></w>
+<lb/>forehold as well
+<lb/>as stoke hole with
+<lb/>a large quantity of
+<lb/>water - This is
+<lb/>in addition the the
+<lb/>constant leak where
+<lb/>the men sleep - Tried
+<lb/>to stop the leak <unclear>in</unclear>
+<lb/>after hold &amp; failed
+<lb/>We have to pump
+<lb/>every little while
+
+
+	<pb facs="liv_001509_0004" n="0004"/><!-- pencil markings on the top of this page, but I didn't add them because I can't tell what they say- the numbers are maybe 2207? Can't properly make out the letters. SF -->
+<lb/>the only chance of
+<lb/>saving her is to get
+<lb/>her beached without
+<lb/>loss of time. We are
+<lb/>Therefore cutting wood
+<lb/>today &amp; will run down
+<lb/>tomorrow to <placeName><geogName type="harbor">Kongone</geogName></placeName>
+<lb/>I leave a whaler for
+<lb/>you - You must just
+<lb/>do the best you
+<lb/>can in the case - I
+<lb/>leave your letters - On
+<lb/><unclear><choice><abbr>tom</abbr><expan>tomorrow</expan></choice></unclear> you will see how
+<lb/>We have a small square
+<lb/>box of tin for you <w>besid<gap extent="1" unit="chars"/><supplied>e</supplied></w>
+<lb/>My brother is better
+<lb/><space extent="1" unit="words"/><persName>David Livingstone</persName></p>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
