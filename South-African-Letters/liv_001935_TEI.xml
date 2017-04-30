@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001935"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to John Kirk, 5 July 1863</title><!-- Change -->
+                <title>Letter to John Kirk</title>
+ 				<title type="alternative">Letter to John Kirk, 5 July 1863</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
                     <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
                 </respStmt>
-				<respStmt xml:id="JM">
-                    <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_001935</idno>
             </publicationStmt>
             <sourceDesc>
@@ -56,7 +52,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to John Kirk, 5 July 1863</title><!-- Change -->
+                    <title type="alternative">Letter to John Kirk, 5 July 1863</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1863-07-05">5 July 1863</date><!-- Change -->
                     <placeName type="compositionPlace">Cataracts of the Shire</placeName><!-- Change -->
@@ -71,6 +67,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-10-01" who="#AW">Coding review</change>
             <change when="2015-09-30" who="#EM">Initial transcription and XML encoding</change>
         </revisionDesc>
@@ -83,13 +81,13 @@
 	<pb facs="liv_001935_0001" n="0001"/>
 
 <opener>
-<lb/><dateline rend="right"><placeName><geogName type="cataracts">Cataracts of <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName> 
-<lb/><date when="1863-07-05">5<hi rend="sup underline">th</hi> July 1863</date></dateline>
+<lb/><dateline><space extent="2" unit="words"/><placeName><geogName type="cataract">Cataracts of <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName> 
+<lb/><space extent="3" unit="words"/><date when="1863-07-05">5<hi rend="sup underline">th</hi> July 1863</date></dateline>
 <lb/>    
 <lb/><salute>My Dear Dr. Kirk</salute>
 </opener>
 
-<lb/><p>The new <persName><term type="occupation"><choice><sic>bishop</sic><corr>Bishop</corr></choice></term></persName>
+<lb/><p><space extent="1" unit="words"/>The new <term type="occupation"><choice><sic>bishop</sic><corr>Bishop</corr></choice></term>
 <lb/>came up to us <date when="1863-07-04">yesterday</date>
 <lb/>and recieved the
 <lb/><bibl>Despatch</bibl> containing 
@@ -109,7 +107,7 @@
 </ab> 
 
 	<pb facs="liv_001935_0002" n="0002"/>
-<lb/><p>after <date when="1863-12-31">31<hi rend="sup underline">st</hi> December</date>
+<lb/><p rend="no-indent">after <date when="1863-12-31">31<hi rend="sup underline">st</hi> December</date>
 <lb/>This has not been
 <lb/>unlooked for by
 <lb/>me - It rather relieves
@@ -118,7 +116,7 @@
 <lb/>as we can screw her
 <lb/>together &amp; sell her in
 <lb/><country>India</country><!-- Context is all. AW --> - As you
-<lb/>know the <orgName>Portuguese</orgName> by
+<lb/>know the <term type="people">Portuguese</term> by
 <lb/>clearing off the
 <lb/>population finished
 <lb/>our work but this
@@ -135,12 +133,12 @@
 <lb/>"information we 
 <lb/>have given is rather
 <lb/>scant' say his
-<lb/><persName>Lordship</persName><choice><sic>"</sic><corr/></choice> <space extent="1" unit="chars"/>Now
+<lb/>Lordship<choice><sic>"</sic><corr/></choice> <space extent="1" unit="chars"/>Now
 <lb/>you may go in
 <lb/>on that to give
-<lb/>a magnificant
+<lb/>a magnificent
 <lb/><bibl>botanical work</bibl>
-<lb/><bibl>economical</bibl> &amp;
+<lb/>economical &amp;
 <lb/>everything else at
 <lb/><orgName>Government</orgName>
 <lb/>expense - at least
@@ -153,16 +151,16 @@
 <lb/>though we could with
 <lb/>Lady Nyassa I am
 <lb/>going up to the <placeName><region>North
-<lb/>end of <placeName><geogName type="lake">Lake Nyassa</geogName></placeName></region></placeName>
+<lb/>end of <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName></region></placeName>
 <lb/>directly to improve
 <lb/>the intermediate time
-<lb/>The <term type="tribe">Makololo</term>
+<lb/>The <term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term>
 <lb/>go with me - The boat was
 <lb/>burned I think by
 <lb/>accidental firing of
 <lb/>the grass but by
 <lb/>the <term type="tribe">Ajawa</term> say the
-<lb/><term type="tribe">Maganja</term> - I <choice><sic>dont</sic><corr>don't</corr></choice>
+<lb/><term type="tribe">Manganja</term> - I <choice><sic>dont</sic><corr>don't</corr></choice>
 <lb/>believe them as all
 <lb/>the copper &amp; iron lay
 <lb/>untouched below
@@ -176,13 +174,14 @@
 <lb break="no"/><supplied>-</supplied>thing</w> else - I persuaded
 <lb/><persName>Meller</persName> to give the same
 <lb/>to <persName>King</persName> and his 
-<lb/><term type="ailment"><choice><orig>Haemorrhoids</orig><reg>Hemerroids</reg></choice></term> went
+<lb/><term type="ailment"><choice><orig>Haemorrhoids</orig><reg>Hemorrhoids</reg></choice></term> went
 <lb/>apace - He was quite
 <lb/><term type="ailment">bloodless</term> &amp; <term type="ailment">delirious</term>
 <lb/>each night - but
 <lb/>we took him up to 
 <lb/><placeName><unclear>Mokurumadzi</unclear></placeName> &amp; he
-<lb/>walked all the way home - - this is all
+<lb/>walked all the way 
+<lb/>home - - this is all
 <lb/>by way of increasing
 
 	<pb facs="liv_001935_0006" n="0006"/>
@@ -191,19 +190,19 @@
 <lb/><persName>Rowley</persName> on his last
 <lb/>legs <hi rend="underline">they say</hi>, too -
 <lb/><persName>Waller</persName> ill yesterday
-<lb/>the new <persName><term type="occupation"><choice><sic>bishop</sic><corr>Bishop</corr></choice></term></persName> a
+<lb/>the new <term type="occupation"><choice><sic>bishop</sic><corr>Bishop</corr></choice></term> a
 <lb/>good cautious man
 <lb/>thinks of trying the
 <lb/>top of <placeName><geogName type="mountain">Merambala</geogName></placeName> -
 <lb/>I am sure I welcome
-<lb/>the new <orgName>squad</orgName> heartily
+<lb/>the new squad heartily
 <lb/>though <persName>Rowley</persName> &amp;
 <lb/>others would place
 <lb/>all the blame of their
 <lb/>fighting on me</p>
 
 	<pb facs="liv_001935_0007" n="0007"/>
-<lb/><p><term type="occupation">Teaching</term> is to be
+<lb/><p>Teaching is to be
 <lb/>the order of the day
 <lb/>He thinks it scandalous
 <lb/>no effort has been
@@ -217,16 +216,16 @@
 <lb/>whaler &amp; wish you
 <lb/>were with me
 <lb/>again - nearly
-<lb/>all the <term type="tribe">Makololo</term>
+<lb/>all the <term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term>
 <lb/>go but stop at
 <lb/>some point to hunt
 <lb/><term type="animal">elephants</term> while I go
 
 	<pb facs="liv_001935_0008" n="0008"/>
 <lb/>on with five in the boat</p>
-<lb/><p>When <persName><choice><sic>Procters</sic><corr>Procter's</corr></choice></persName> hut was
+<lb/><p>When <choice><sic><persName>Procter</persName>s</sic><corr><persName>Procter</persName>'s</corr></choice> hut was
 <lb/>burned several guns going
-<lb/>off made the <term type="tribe">Makololo</term>
+<lb/>off made the <term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term>
 <lb/>think the <orgName><placeName>mission</placeName></orgName> was
 <lb/>attacked by an armed
 <lb/>force - They at once
@@ -240,11 +239,9 @@
 <lb/>give him a kind word
 <lb/>if you see him and
 <lb/>may God Bless you</p>
+<lb/><p>Yours with Affection<!-- Change as appropriate -->
+<lb/><persName>David Livingstone</persName></p><!-- Change as appropriate --> 
 
-<closer>
-<lb/><salute>Yours with Affection</salute><!-- Change as appropriate -->
-<lb/><signed><persName>David Livingstone</persName></signed><!-- Change as appropriate --> 
-</closer>
 
 
             </div>

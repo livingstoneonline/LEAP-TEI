@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001373">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001373"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to George L. Conyngham</title><!-- Change -->
+                <title>Letter to George L. Conyngham</title>
+ 				<title type="alternative">Letter to George L. Conyngham, 5 October 1858</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="JM">
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
@@ -23,13 +24,18 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_001373</idno>
             </publicationStmt>
             <sourceDesc>
@@ -50,7 +56,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to George L. Conyngham, 5 October 1858</title>
+                    <title type="alternative">Letter to George L. Conyngham, 5 October 1858</title>
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1858-10-05">5 October 1858</date>
                     <placeName type="compositionPlace">Zambesi River</placeName>
@@ -66,6 +72,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-26" who="#AW">Coding review</change>
             <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>
             <change when="2015-05-15" who="#JM">Proofreading</change>
@@ -80,12 +88,13 @@
                
 	<pb facs="liv_001373_0001" n="0001"/>
 <opener>
-<lb/><dateline rend="right"><add place="margintop" rend="left vertical gray small" hand="#U"><!-- diagonal -->S-6 9</add> <placeName><geogName type="river">Zambesi River</geogName></placeName> <date when="1858-10-05">5<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice> <add place="margintop" rend="right gray small" hand="#U1">MS 8/5</add>
-<lb/>1858</date></dateline>
+<lb/><space extent="7" unit="words"/><add place="inspace" rend="gray small" hand="#U1">MS 8/5</add>
+<lb/><space extent="1" unit="chars"/><add place="inspace" rend="gray small" hand="#U1">5-6-9</add><!-- diagonal --> <dateline><space extent="4" unit="chars"/> <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice> River</geogName></placeName> <date when="1858-10-05">5<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice>
+<lb/><space extent="5" unit="words"/><space extent="2" unit="chars"/>1858</date></dateline>
 <lb/>    
 <lb/><salute>My Dear <persName>M<hi rend="sup underline">r</hi> Conyngham</persName></salute>
 </opener>
-<lb/><p>We have an opportunity
+<lb/><p><space extent="1" unit="words"/><space extent="2" unit="chars"/>We have an opportunity
 <lb/>of writing home again sooner than
 <lb/>we expected and I have had the
 <lb/>most unpleasant letter to write I
@@ -97,22 +106,22 @@
 <lb/>of the colonial office had to protect
 <lb/><persName>Captain Duncan</persName>, and on the first
 <lb/>occasion in which I did so by
-<lb/>saying "<persName>C<hi rend="sup underline">m</hi> Bedingfeld</persName> I must have
+<lb/>saying "<persName><choice><abbr>C<hi rend="sup underline">m</hi></abbr><expan>Commander</expan></choice> Bedingfeld</persName> I must have
 <lb/>no more of these public alterations"</p>
  
-<cb rend="vertical"/>           	    	
-<p><add place="marginleft"><lb/>Would you be kind enough to send from
+<cb rend="vertical"/><ab>           	    	
+<lb/>Would you be kind enough to send from
 <lb/><term type="occupation">stationer</term> a supply of proper official paper &amp; envelopes
-<lb/>with the newspapers at your convenience</add></p>
+<lb/>with the newspapers at your convenience</ab>
 
 	<pb facs="liv_001373_0002" n="0002"/>
-<lb/><p>he tendered his resignation - He was
+<lb/><p rend="no-indent">he tendered his resignation - He was
 <lb/>evidently of opinion that I could not move
 <lb/>mile without him - and tendered his 
 <lb/>resignation several times. At last I mounted
 <lb/>the paddle box myself and to my no small
 <lb/>wonder found out I was a <term type="occupation">skipper</term>
-<lb/>and have been <unclear cert="high">howling</unclear> out "Ease her, stop her
+<lb/>and have been howling out "Ease her, stop her
 <lb/>&amp;c<!--Adrian, I think this is that and-cetera mark I saw once before, but I can't find the way to code it. If it's not in the manual, could we add it? -AA --><!-- I have encoded this as it should be, I think. JM --><!-- Correct. AW --> ever since - <persName><choice><abbr>B.</abbr><expan>Bedingfeld</expan></choice></persName> - was very much disgusted
 <lb/>when he found he could be dispensed
 <lb/>with and set about plans to secure his
@@ -169,10 +178,9 @@
 <lb/><p>I beg leave to trouble
 <lb/>you again with a packet of
 <lb/>letters and am ever yours</p>
-<closer>
-<lb/><salute>Most truly</salute>
-<lb/><signed><persName>David Livingstone</persName></signed>
-</closer>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/>Most truly
+<lb/><space extent="2" unit="words"/><space extent="2" unit="chars"/><persName>David Livingstone</persName></p>
+
 
 
             </div>

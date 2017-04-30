@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001929">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001929"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Letter to George C. Cato</title>
+ 				<title type="alternative">Letter to George C. Cato, 3 July 1863</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="JM">
                     <name>Jared McDonald</name>
                     <resp>Transcription</resp>
@@ -23,13 +24,18 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date>
+                <date>2017</date>
                 <idno type="LEAP-ID">liv_001929</idno>
             </publicationStmt>
             <sourceDesc>
@@ -51,7 +57,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to George C. Cato, 3 July 1863</title>
+                    <title type="alternative">Letter to George C. Cato, 3 July 1863</title>
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1863-07-03">3 July 1863</date>
                     <placeName type="compositionPlace">Cataracts of the Shire</placeName>
@@ -67,6 +73,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-26" who="#AW">Coding review</change>
             <change when="2015-03-26" who="#AA">Initial transcription and XML encoding</change>
             <change when="2015-03-15" who="#JM">Proofreading</change>
@@ -81,13 +89,13 @@
                
 	<pb facs="liv_001929_0001" n="0001"/>
 <opener>
-<lb/><add place="marginleft" hand="#U"><!-- diagonal -->Enclosure sent
-<lb/>via <unclear cert="low">N.S Field</unclear></add>
-<lb/><dateline rend="right"><placeName><geogName type="cataracts">Cataracts of the <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName> 
-<lb/><date when="1863-07-03">3 July 1863</date></dateline>
+<lb/><add place="marginleft" rend="gray diagonal small" hand="#U">Enclosure sent
+<lb/>via <unclear cert="low">W.S Field</unclear></add>
+<lb/><dateline><space extent="3" unit="chars"/><placeName><geogName type="cataract">Cataracts of the <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName> 
+<lb/><space extent="3" unit="words"/><date when="1863-07-03">3 July 1863</date></dateline>
 <!--I can't tell whether Livingstone wrote part or all of this line and the marginal note. I assumed no in my coding. He appeared to be running out of ink by the end so that could account for the gray and tiny handwriting. -AA --><!-- It's another hand here and elsewhere, as noted. AW -->
-<lb/><add place="inspace" hand="#U"><choice><abbr>Rec<hi rend="sup underline">d</hi></abbr><expan>Received</expan></choice> <date when="1866-03-27">27 March 1864</date></add>    
-<lb/><salute>Dear Sir</salute>
+<lb/><space extent="1" unit="words"/><add place="inspace" rend="gray small" hand="#U"><choice><abbr>Rec<hi rend="sup underline">d</hi></abbr><expan>Received</expan></choice> <date when="1866-03-27">27 March 1864</date></add>    
+<lb/><space extent="1" unit="chars"/><salute>Dear Sir</salute>
 </opener>
 <lb/><p>Though I have
 <lb/>not the pleasure
@@ -104,15 +112,14 @@
 <lb/>for our son <persName>Robert
 <lb/>Moffat Livingstone</persName>
 <lb/>who I hear has come
-<lb/>out to <placeName><settlement><region>Natal</region></settlement></placeName> in
+<lb/>out to <placeName><region>Natal</region></placeName> in
 <lb/>order to join me
 <lb/>We are recalled by
 <lb/>to <choice><abbr>M.</abbr><expan>Majesty's</expan></choice> Government
 <lb/>a thing fully expected
 <lb/>when we found
-<lb/>that the <term type="nationality">Portuguese</term>
-<lb/><term type="occupation">slave hunters</term> of 
-<lb/><placeName><settlement type="town">Tette</settlement></placeName> 
+<lb/>that the <orgName><term type="nationality">Portuguese</term>
+<lb/><orgName><term type="occupation"><orgName>slave</orgName> hunters</term></orgName></orgName> of <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> 
 <lb/>aided by a drought
 <lb/>had completely
 <lb/>depopulated the
@@ -136,12 +143,12 @@
 <lb/>at the <placeName><geogName type="river">Rovuma</geogName></placeName>
 <lb/>though it has
 <lb/>water for navigation
-<lb/>for only about <unclear cert="low">a few</unclear>	
+<lb/>for only about <unclear cert="low">eight</unclear>	
 	
 	<pb facs="liv_001929_0004" n="0004"/>
 <lb/>months of the year. It
-<lb/>has a <unclear cert="medium">fine</unclear> month &amp;
-<lb/>this <placeName><geogName type="river">Zambesi</geogName></placeName> is the
+<lb/>has a fine month &amp;
+<lb/>this <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> is the
 <lb/>terror of all naval
 <lb/>officers, but we
 <lb/>are going away in
@@ -149,7 +156,7 @@
 <lb/>should <persName>Robert</persName> not
 <lb/>have an opportunity
 <lb/>of coming up to
-<lb/><placeName><settlement type="town">Quillimane</settlement></placeName>, <placeName><country>Mozambique</country></placeName>, 
+<lb/><placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg></choice></settlement></placeName>, <placeName><country>Mozambique</country></placeName>, 
 <lb/>or <placeName><geogName type="island">Johanna</geogName></placeName> before
 <lb/>that will you direct
 <lb/>him, to any situation
@@ -174,7 +181,7 @@
 <lb/>and should he settle
 <lb/>to anything now
 <lb/>it may be best in
-<lb/>the long run.</p>
+<lb/>the long run -</p>
             	
 	<pb facs="liv_001929_0006" n="0006"/>
 <lb/><p>Any expenses that
@@ -187,15 +194,11 @@
 <lb/>drink &amp;c.<!--and cetera again -AA --><!-- OK, no need to keep pointing this out. AW --> you
 <lb/>will confer a
 <lb/>great favour on</p>
-<closer>
-<lb/><salute>yours most sincerely</salute>
-<lb/><signed><persName>David Livingstone</persName></signed>
-</closer>
-	</div>
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/>yours most sincerely
+<lb/><space extent="3" unit="chars"/><persName>David Livingstone</persName></p>
 
-	<div>	
 <pb facs="liv_001929_0007" n="0007"/>
-<lb/><addSpan spanTo="#add1" hand="#U"/><p><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName>
+<lb/><addSpan spanTo="#add1" hand="#U"/><p rend="no-indent"><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName>
 <lb/><date when="1863-03-07">3<hi rend="sup underline">rd</hi> July 1863</date></p><anchor xml:id="add1"/>
 	</div>
 

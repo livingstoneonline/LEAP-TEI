@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- 
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001893"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Letter to Captain of Any Man of War Touching at Mozambique</title>
                 <title type="alternative">Letter to Captain of Any Man of War Touching at Mozambique, 25 February 1863</title><!-- Removed underline coding -->
-                <author>Livingstone, David, 1813-1873</author>
+                <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
@@ -19,6 +19,11 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -49,7 +54,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Captain of Any Man of War Touching at Mozambique, 25 February 1863</title><!-- I don't think this needs to include underline-->
+                    <title type="alternative">Letter to Captain of Any Man of War Touching at Mozambique, 25 February 1863</title><!-- I don't think this needs to include underline-->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1863-02-25">25 February 1863</date><!-- Change -->
                     <placeName type="compositionPlace">River Shire</placeName><!-- Change -->
@@ -65,6 +70,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
         	<change when="2017-03-18" who="#AW">Proofing</change>
 			<change when="2017-02-27" who="#JM">Initial transcription and XML encoding</change>
 			<!-- Note that @who initials are taken from <respStmt> above -->
@@ -86,10 +93,10 @@
 <lb/><space extent="7" unit="words"/><date when="1863-02-25">25<hi rend="sup">th</hi> February 1863</date></p>
 <lb/><p rend="no-indent">Sir,</p>
 <lb/><p>Three Black men who were brought
-<lb/>from the <placeName><region>Cape</region></placeName> by the late <persName><term type="occupation">Bishop</term> MacKenzie</persName> to
+<lb/>from the <placeName><region>Cape</region></placeName> by the late <persName><term type="occupation">Bishop</term> <choice><orig>MacKenzie</orig><reg>Mackenzie</reg></choice></persName> to
 <lb/>assist the <orgName>Universities' Mission</orgName> are now sent back
 <lb/>to their homes - they were brought up the
-<lb/>Courtesy of the <term type="occupation">Admiral</term> in a man of war, and
+<lb/>Courtesy of the <persName><term type="occupation">Admiral</term></persName> in a man of war, and
 <lb/>if you can give them a passage down I am <w>au-
 <lb break="no"/>thorized</w> by the <term type="occupation">Missionaries</term> to say that all expenses
 <lb/>will cheerfully be paid to your <term type="occupation">Paymaster</term> by the
@@ -108,7 +115,7 @@
 <lb/><space extent="1" unit="words"/>touching <unclear cert="low">at</unclear> <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName></ab>
     
     <pb facs="liv_001893_0002" n="0002"/>
-<lb/><p rend="no-indent">obliged to return to the <placeName><geogName type="harbor">Kongone</geogName></placeName> - <placeName><settlement type="village">Quilimane</settlement></placeName> or
+<lb/><p rend="no-indent">obliged to return to the <placeName><geogName type="river">Kongone</geogName></placeName> - <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName> or
 <lb/><placeName><country>Mozambique</country></placeName> for Stores Sooner than we anticipated, 
 <lb/>if you can leave any forces at either of these
 <lb/>Ports you will confer a very great favour
@@ -121,7 +128,7 @@
 <lb/>as usual this Year, and we have found <w>con<choice><sic>=</sic><corr>-</corr></choice>
 <lb break="no"/>siderable</w> difficulty in getting the two vessels
 <lb/>up through the <placeName><geogName type="swamp"><term type="animal">Elephant</term> Swamp</geogName></placeName>, but we
-<lb/>hope Soon to reach the <placeName><geogName type="cataracts">Cataracts</geogName></placeName></p> <!-- I am not sure how to code "cataracts". JM -->
+<lb/>hope Soon to reach the <placeName><geogName type="cataract">Cataracts</geogName></placeName></p> <!-- I am not sure how to code "cataracts". JM -->
 <lb/><p>Our <term type="occupation">Blacksmith</term> <persName>William Mcleod</persName> is
 <lb/>obliged by <term type="ailment">disease of the Kidneys</term> to leave us -
 <lb/>he is a very good man; - we got him from the 

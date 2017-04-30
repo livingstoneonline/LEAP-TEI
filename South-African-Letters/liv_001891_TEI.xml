@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001891"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
 				<!-- Change title below -->
-                <title>Letter to The Earl of Clarendon, 24 February 1863</title>
+                <title>Letter to The Earl of Clarendon</title>
+ 				<title type="alternative">Letter to The Earl of Clarendon, 24 February 1863</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
 				<!-- Add or remove <respStmt> as appropriate below -->
 				<!-- Change xml:id below -->
+ 				<respStmt xml:id="MB">
+                    <name>Mary E. Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+					<resp>Tagging Corrections</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
                 <respStmt xml:id="JM">
 					<!-- Change name below -->
                     <name>Jared McDonald</name>
@@ -20,27 +32,13 @@
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
                 </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
- 				<respStmt xml:id="MB">
-                    <name>Mary E. Borgo</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
-                </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
 				<!-- Change date below if necessary -->
-                <date>2016</date>
+                <date>2017</date>
 				<!-- Change base file name below -->
                 <idno type="LEAP-ID">liv_001891</idno>
 				<!-- Change the license below if necessart -->
@@ -81,7 +79,7 @@
                 </msDesc>
                 <bibl type="sourceMetadata">
 					<!-- Change title below -->
-                    <title>Letter to The Earl of Clarendon, 24 February 1863</title>
+                    <title type="alternative">Letter to The Earl of Clarendon, 24 February 1863</title>
                     <author xml:id="DL">David Livingstone</author>
 					<!-- Change @when and date below -->					
                     <date type="composition" when="1863-02-24">24 February 1863</date>
@@ -105,6 +103,8 @@
 			<!-- Note that @who initials are taken from <respStmt> above -->
 			<!-- Add new <change> elements below as needed. -->
 			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-12-11" who="#AW">Coding review</change>
             <change when="2015-12-11" who="#JM">Proofreading</change>
 			<change when="2015-11-05" who="#AW">Proofing and coding review</change>
@@ -122,8 +122,8 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 <opener>
-<lb/><add place="above" rend="gray diagonal underline" hand="#U1">Livingstone</add> <dateline rend="right"><placeName><geogName type="river">River Shire</geogName></placeName> <date when="1863-02-24">24<hi rend="sup underline">th</hi> February <add place="below">1863</add></date> <add place="above" rend="gray" hand="#U2">MS 819</add>
-<lb/><add place="inspace" rend="center"><persName>The Earl of Clarendon</persName></add></dateline>
+<lb/><add place="above" rend="gray diagonal underline" hand="#U1">Livingstone</add> <dateline><space extent="2" unit="chars"/><space extent="2" unit="chars"/><placeName><geogName type="river">River Shire</geogName></placeName> <date when="1863-02-24">24<hi rend="sup underline">th</hi> February</date> <add place="above" rend="gray" hand="#U2">MS 819</add>
+<lb/><add place="inspace" rend="center"><persName>The Earl of Clarendon</persName></add> <space extent="2" unit="chars"/><add place="inspace"><date when="1863-02-24">1863</date></add></dateline>
 <lb/><space extent="2" unit="chars"/><salute>My Lord</salute><!-- Change line info as appropriate -->
 </opener>
 
@@ -132,13 +132,13 @@
 <lb/><term type="occupation"><orgName>slave</orgName> trade</term> I take the liberty of stating the 
 <lb/>new phase in which the whole subject
 <lb/>as relates to this coast now appears. The
-<lb/><term><orgName>slave</orgName> hunting system</term> to which the <term type="people">Portuguese</term>
+<lb/><orgName><term type="occupation"><orgName>slave</orgName> hunting</term> system</orgName> to which the <term type="people">Portuguese</term>
 <lb/>have long been addicted, has at last
 <lb/>crossed our path - in fact followed
 <lb/>our footsteps - and we are witnesses 
 <lb/><!-- Should I encode the damage in the left margin? MB --><!-- No. AW -->of its devastations - The <placeName><geogName type="valley">valley of the
 <lb/><placeName><geogName type="river">lower Shire</geogName></placeName></geogName></placeName> is nearly quite depopulated.
-<lb/>The <orgName>Tette people</orgName> backed by the <term type="occupation">Governor</term>,
+<lb/>The <orgName><placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> people</orgName> backed by the <term type="occupation">Governor</term>,
 <lb/>came across to the <placeName><geogName type="river">Shire</geogName></placeName> - instigated one
 <lb/>tribe to attack another, and <choice><sic>recieved</sic><corr>received</corr></choice> good
 <lb/>payment for the arms &amp; ammunition
@@ -149,8 +149,8 @@
 <lb/>grain was left behind - droughts &amp; famine
 <lb/>followed, and a very grievous mortality
 <lb/>was the result - Further down the river<!-- geog: Shire -->
-<lb/>a sort of <orgName>"ticket of leave"</orgName> gentleman called
-<lb/><persName>Marianno</persName> ravaged the whole country
+<lb/>a sort of <orgName>"<orgName>ticket of leave</orgName>" gentleman</orgName> called
+<lb/><persName><choice><orig>Marianno</orig><reg>Mariano</reg></choice></persName> ravaged the whole country
 <lb/>around <placeName><geogName type="mountain">Mount Clarendon</geogName></placeName> - a panic -
 <lb/>flight and famine followed his <term type="occupation"><orgName>slave</orgName>hunting</term>
 <lb/>too - and where last year we could buy
@@ -160,40 +160,40 @@
 
 		<pb facs="liv_001891_0002" n="0002"/>
 <lb/>cowering among the reeds and striving to
-<lb/>maintain life by <term type="occupation">fishing</term> and <term type="occupation">collecting
-<lb/>the seeds of certain grasses</term>. Thirty two dead
+<lb/>maintain life by <term type="occupation">fishing</term> and collecting
+<lb/>the seeds of certain grasses. Thirty two dead
 <lb/>bodies were counted as we ascended the
 <lb/>river, and this is a mere fragment of those
 <lb/>devoured by <term type="animal">alligators</term> or <!-- Unsure what this is, perhaps or? MB --><!-- Fixed. AW --> left unburied.
-<lb/>This <persName>Marianno</persName> was sentenced to three years
+<lb/>This <persName><choice><orig>Marianno</orig><reg>Mariano</reg></choice></persName> was sentenced to three years
 <lb/>imprisonment for rebellion and murder,
 <lb/>but on returning became a guest of the <term type="occupation">Governor
-<lb/>of <placeName><settlement type="village">Quillimane</settlement></placeName></term> till he "ran away" and <term type="occupation">His
+<lb/>of <placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg></choice></settlement></placeName></term> till he "ran away" and <term type="occupation">His
 <lb/>Excellency</term><!-- Unsure if his Excellency and the governor are the same person; see below--> ran after him but of course could
 <lb/>not catch him. Supplies of arms &amp; ammunition
-<lb/>are sent from <placeName><settlement type="village">Quillimane</settlement></placeName> regularly, and the
+<lb/>are sent from <placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg></choice></settlement></placeName> regularly, and the
 <lb/><term type="occupation">Governor</term> complained to his <term type="occupation">Excellency of
 <lb/><placeName><country><choice><sic>Mosambique</sic><corr>Mozambique</corr></choice></country></placeName></term> that so many arms and 
 <lb/>so much ammunition were introduced by 
-<lb/>the <placeName><geogName><placeName><geogName type="harbor">Kongone</geogName></placeName> <!-- unsure what this word is --><!-- Fixed. AW --> <placeName><geogName type="river">Zambesi</geogName></placeName></geogName></placeName> that the
+<lb/>the <placeName><geogName type="river">Kongone</geogName></placeName> <!-- unsure what this word is --><!-- Fixed. AW --> <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> that the
 <lb/>commerce of the country was damaged.
-<lb/>The <placeName><geogName type="harbor">Kongone</geogName></placeName><!-- unsure what this word is --><!-- Fixed. AW --> is never used by any but 
+<lb/>The <placeName><geogName type="river">Kongone</geogName></placeName><!-- unsure what this word is --><!-- Fixed. AW --> is never used by any but 
 <lb/>ourselves, and the <orgName>Mission of the Universities</orgName>
-<lb/>The <term type="occupation">Governor of <placeName><settlement type="village">Tette</settlement></placeName></term> connives<!--not sure that this is right--> at and derives
+<lb/>The <term type="occupation">Governor of <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName></term> connives<!--not sure that this is right--> at and derives
 <lb/>profits from the <term type="occupation"><orgName>slave</orgName> hunting</term> on the <placeName><geogName type="river">Shire</geogName></placeName>.
 <lb/>When the <orgName>captives</orgName> reach that village the 
 <lb/>men are retained while the women and children
-<lb/>are sent up the <placeName><geogName type="river">Zambesi</geogName></placeName> to buy ivory.
+<lb/>are sent up the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> to buy ivory.
 <lb/>When an opportunity occurs either at 
-<lb/><placeName><settlement type="village">Quillimane</settlement></placeName>, <placeName><settlement type="village">Sofala</settlement></placeName>, or <placeName><settlement type="village"><w>Mbamba<gap agent="blot" extent="1" unit="chars"/><supplied cert="medium">n</supplied>e</w></settlement></placeName>, these
+<lb/><placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg></choice></settlement></placeName>, <placeName><settlement type="village">Sofala</settlement></placeName>, or <placeName><settlement type="village"><w>Mbamba<gap agent="blot" extent="1" unit="chars"/><supplied cert="medium">n</supplied>e</w></settlement></placeName>, these
 <lb/>men are speedily sent to the coast. We
 <lb/>saw very little of the system which has
 <lb/>made the country between <placeName><geogName type="cape">Cape Delgado</geogName></placeName>
 <lb/>and <placeName><geogName type="bay">Delagoa Bay</geogName></placeName><!-- I'm having trouble reading this. MB --><!-- Fixed. AW --> simply a <orgName>slave</orgName> "Preserve"
 <lb/>because all the "<orgName><term type="nationality">French</term> Free Emigrants</orgName><add place="above">"</add>
 <lb/>were supplied by forays in the North &amp;
-<lb/>North West of <placeName><settlement type="village">Quillimane</settlement></placeName> - very few
-<lb/>went from the <placeName><geogName type="river">lower Zambesi</geogName></placeName> - It had
+<lb/>North West of <placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg></choice></settlement></placeName> - very few
+<lb/>went from the <placeName><geogName type="river">lower <choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> - It had
 <lb/>already been depopulated - but now we
 <lb/>see that in one year the <placeName><geogName type="river">lower Shire</geogName></placeName>. 
 
@@ -207,7 +207,7 @@
 <lb/>to have another state of things, and we find that
 <lb/>all the sacrifices which our <orgName>Government</orgName>
 <lb/>has made are rendered fruitless. In the <placeName><region>West
-<lb/>coast</region></placeName> according to an intelligent <term type="people">American</term>
+<lb/>coast</region></placeName> according to an intelligent <term type="person">American</term>
 <lb/><term type="occupation">missionary</term> named <persName>Wilson</persName>, <persName>Lord Palmerston</persName>'s 
 <lb/>policy produced a sense of security which
 <lb/>led to the establishment of over twenty 
@@ -218,7 +218,7 @@
 <lb/>to between £2 000-000 - £3,000 000 - and 
 <lb/>a larger tonnage is employed in carrying
 <lb/>it than ever was engaged in the <term type="occupation"><orgName>slave</orgName> trade</term>. 
-<lb/>Though an <term type="people">American</term>, he says that but for 
+<lb/>Though an <term type="person">American</term>, he says that but for 
 <lb/>the efforts of <placeName><country>England</country></placeName> "<placeName><bloc>Africa</bloc></placeName> had as yet
 <lb/>been inaccessible to the gospel," and he earnestly
 <lb/>calls upon his countrymen to take advantage
@@ -229,7 +229,7 @@
 <lb/>than would have been on the <placeName><region>West</region></placeName> had
 <lb/>only a few <orgName>convict <term type="people">Portuguese</term></orgName> obtained
 <lb/>ingress. The exports &amp; imports duties for
-<lb/>the whole <placeName><geogName type="river">Zambesi</geogName></placeName> amount only to £600
+<lb/>the whole <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> amount only to £600
 <lb/>per annum - and by this <term type="occupation"><orgName>slave</orgName> hunting</term> they
 <lb/>do all that men can do to turn the natives
 <lb/>from industrial pursuits. I gave the
@@ -243,7 +243,7 @@
 <lb/>if they are to be allowed to follow in our
 <lb/>footsteps the scamps will spoil every thing
 <lb/>My only hope now lies in the <placeName><region>Lake districts</region></placeName>
-<lb/>and there  I <w><subst><del><gap agent="overwriting" extent="3" unit="chars"/>pt</del><add place="over-text">trust</add></subst></w> these <term type="occupation"><orgName>slave</orgName> hunters</term> will
+<lb/>and there  I <w><subst><del><gap agent="overwriting" extent="3" unit="chars"/>pt</del><add place="over-text">trust</add></subst></w> these <orgName><term type="occupation"><orgName>slave</orgName> hunters</term></orgName> will
 <lb/>not follow us. <space extent="2" unit="chars"/>Firearms are so much
 <lb/>superior to the native Bows &amp; Arrows
 <lb/>that any one may become <term type="occupation"><orgName>slave</orgName> hunter</term>
@@ -262,7 +262,7 @@
 <lb/>be well if the countries therein over
 <lb/>which they have no control should be
 <lb/>declared free to all nations. The <placeName><geogName type="mouth">mouths 
-<lb/>of the <placeName><geogName type="river">Zambesi</geogName></placeName></geogName></placeName> are still never used by 
+<lb/>of the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName></geogName></placeName> are still never used by 
 <lb/>any <term type="people">Portuguese</term> and they have to pay 
 <lb/>tribute to the natives for nearly all the 
 <lb/>right bank.<!-- should this be coded as a place? MB --></p><!-- geog: Right bank of the Zambesi --> 
@@ -271,7 +271,7 @@
 <lb/>much good has been done by this gentleman
 <lb/>quietly working in that dingy <orgName>Foreign 
 <lb/>Office</orgName> in which I had the honor to
-<lb/>meet you.</p> <closer><salute>I am &amp;c</salute> <signed><persName>David Livingstone</persName></signed></closer>
+<lb/>meet you. <space extent="2" unit="chars"/>I am &amp;c <persName>David Livingstone</persName></p>
 
             </div>
         </body>

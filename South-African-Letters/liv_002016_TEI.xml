@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002016"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to William Sunley, 25 April 1864</title><!-- Change -->
+                <title>Letter to William Sunley</title>
+ 				<title type="alternative">Letter to William Sunley, 25 April 1864</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
                     <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
                 </respStmt>
-				<respStmt xml:id="JM">
-                    <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_002016</idno>
             </publicationStmt>
             <sourceDesc>
@@ -58,7 +54,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to William Sunley, 25 April 1864</title><!-- Change -->
+                    <title type="alternative">Letter to William Sunley, 25 April 1864</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1864-04-25">25 April 1864</date><!-- Change -->
                     <placeName type="compositionPlace">Zanzibar</placeName><!-- Change -->
@@ -74,6 +70,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-09-29" who="#AW">Coding review</change>
             <change when="2015-09-26" who="#EM">Initial transcription and XML encoding</change>
 			<!-- Note that @who initials are taken from <respStmt> above -->
@@ -87,23 +85,24 @@
                
 	<pb facs="liv_002016_0001" n="0001"/>
 <opener>
-<lb/><add rend="gray" hand="#U1">5-6-9</add> <add place="above marginright" rend="gray" hand="#U1">ms 8/11</add> <dateline rend="right"><placeName><geogName type="island">Zanzibar</geogName></placeName> <date when="1864-04-25">25 April
-<lb/>1864</date></dateline>
-<lb/>    
+<lb/><space extent="4" unit="words"/><add place="inspace" rend="gray small" hand="#U">MS 8/11</add>
+<lb/><dateline><add place="above marginleft" rend="gray" hand="#U">5-6-9</add> <space extent="1" unit="chars"/><placeName><geogName type="island">Zanzibar</geogName></placeName> <date when="1864-04-25">25 April 
+<lb/><space extent="4" unit="words"/><space extent="2" unit="chars"/>1864</date></dateline>
 <lb/><salute>My Dear Sunley,</salute>
 </opener>
 
-<lb/><p rend="center">We left <placeName><country><choice><orig><w>Mosam-<lb break="no"/>-bique</w></orig><reg><w>Mozam-
+<lb/><p>We left <placeName><country><choice><orig><w>Mosam-<lb break="no"/>-bique</w></orig><reg><w>Mozam-
 <lb break="no"/>-bique</w></reg></choice></country></placeName> on <date when="1864-04-16">16<hi rend="sup underline">th</hi></date> and 
 <lb/>arrived here on the
 <lb/><date when="1864-04-23">23<hi rend="sup underline">rd</hi></date> hoping to meet
-<lb/>you, <subst><del><gap extent="1" unit="words" agent="overwriting"/></del><add place="over-text"><gap extent="1" unit="words" agent="illegible"/></add></subst> have
+<lb/>you, <subst><del><gap extent="1" unit="words" agent="overwriting"/></del><add place="over-text">but</add></subst> have
 <lb/>been unfortunate
 <lb/>enough to miss 
 <lb/>you - We set out
 <lb/>with the intention
 <lb/>of calling at <placeName><geogName type="island">Johanna</geogName></placeName> -
-<lb/>- paying the odd <orgName><placeName><geogName type="island">Johanna</geogName></placeName> man</orgName> and
+<lb/>- paying the odd 
+<lb/><orgName><placeName><geogName type="island">Johanna</geogName></placeName> man</orgName> and
 
 	<pb facs="liv_002016_0002" n="0002"/>
 <lb/><add place="above marginleft" rend="gray" hand="#U1">2</add> and then push on to
@@ -127,7 +126,8 @@
 <lb/><measure>six hours</measure> only <add place="above marginright" rend="gray" hand="#U1">3</add>
 <lb/>made <measure>eight <add place="below">^</add> <add place="above">miles</add></measure> of
 <lb/>Easting - Then
-<lb/>made away for <placeName><geogName type="island">Zanzibar</geogName></placeName> - I knew
+<lb/>made away for 
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName> - I knew
 <lb/>that you were very 
 <lb/>anxious to see
 <lb/><persName>Rae</persName>, and I was
@@ -140,7 +140,7 @@
 <lb/>of the pleasure -</p>
 
 	<pb facs="liv_002016_0004" n="0004"/>
-<lb/><p><add place="above marginleft" rend="gray" hand="#U1">4</add> I was bringing
+<lb/><p rend="no-indent"><add place="above marginleft" rend="gray" hand="#U1">4</add> <space extent="2" unit="chars"/>I was bringing
 <lb/>a waggon capable
 <lb/>of carrying your 
 <lb/>heavy machinery
@@ -149,15 +149,16 @@
 <lb/>charge for you -
 <lb/>I have a small
 <lb/>box of medicines
-<lb/>from the <placeName><region>Ariel</region></placeName>
+<lb/>from the Ariel
 <lb/>for you and some
 <lb/>seeds from the
 <lb/><placeName><region>Cape</region></placeName> which I put
 <lb/>into the same charge </p>
-<lb/><p><term type="occupation">Captain</term><persName>Frazer</persName>
+<lb/><p><persName><term type="occupation">Captain</term> Frazer</persName>
 
 	<pb facs="liv_002016_0005" n="0005"/>
-<lb/>took the <add place="margintop" rend="gray" hand="#U1">5</add> waggon <add place="above marginright" rend="gray" hand="#U1">MS 8/11</add> instead
+<lb/><space extent="2" unit="words"/><add place="inspace" rend="gray small" hand="#U1">5</add> <space extent="1" unit="words"/><add place="inspace" rend="gray small" hand="#U1">MS 8/11</add>
+<lb/>took the waggon instead
 <lb/>of <persName>de Witte</persName> and I
 <lb/>see he has it mounted
 <lb/>I have to hurry away
@@ -185,11 +186,9 @@
 <lb/>you wish - &amp; that
 <lb/>your undertaking
 <lb/>will prosper - </p>
+<lb/><closer><space extent="1" unit="words"/><salute>Ever yours</salute><!-- Change as appropriate -->
+<lb/><signed><persName>David Livingstone</persName></signed></closer><!-- Change as appropriate --> 
 
-<closer>
-<lb/><salute>Ever yours</salute><!-- Change as appropriate -->
-<lb/><signed><persName>David Livingstone</persName></signed><!-- Change as appropriate --> 
-</closer>
 
             </div>
 			<div>
@@ -198,14 +197,14 @@
 <!-- Blank Page -->
 
 	<pb facs="liv_002016_0008" n="0008"/>
-	<note>
-	<add hand="#U2">
-<lb rend="right"/><date when="1864-04-23">23 April 1864</date>
+	
+	
+<lb rend="right"/><note><add hand="#U2"><date when="1864-04-23">23 April 1864</date>
 <lb rend="right"/><persName>Livingstone</persName>
 <lb rend="right"/>Rec<hi rend="sup">d</hi> <date when="1864-07-18">18 July</date>            
-<lb rend="right"/><gap extent="1" unit="words" agent="illegible"/> 27 <gap extent="1" unit="words" agent="illegible"/>
-	</add>
-	</note>
+<lb rend="right"/><gap extent="1" unit="words" agent="illegible"/> 27 <gap extent="1" unit="words" agent="illegible"/></add></note>
+	
+	
 
 			</div>
         </body>

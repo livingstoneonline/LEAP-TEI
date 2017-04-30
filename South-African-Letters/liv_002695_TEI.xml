@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- 
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002695"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Letter to Mrs. Hamilton, on behalf of Robert Hamilton</title>
                 <title type="alternative">Letter to Mrs. Hamilton, on behalf of Robert Hamilton, 16 January 1851</title><!-- Removed underline coding -->
-                <author>Livingstone, David, 1813-1873</author>
+                <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
@@ -19,6 +19,11 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -47,7 +52,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Mrs. Hamilton, on behalf of Robert Hamilton, 16 January 1851</title><!-- I don't think this needs to include underline-->
+                    <title type="alternative">Letter to Mrs. Hamilton, on behalf of Robert Hamilton, 16 January 1851</title><!-- I don't think this needs to include underline-->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1851-01-16">16 January 1851</date><!-- Change -->
                     <placeName type="compositionPlace">Kuruman</placeName><!-- Change -->
@@ -63,6 +68,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
         	<change when="2017-03-18" who="#AW">Proofing</change>
 			<change when="2017-02-23" who="#JM">Initial transcription and XML encoding</change>
 			<!-- Note that @who initials are taken from <respStmt> above -->
@@ -124,14 +131,14 @@
 <lb/>address in <placeName><settlement type="city">New York</settlement></placeName> please communicate
 <lb/>the above information -</p>
 <lb/><p>He desires me to inform you that <persName>Mary Moffat</persName>
-<lb/>the wife of <persName>Mr Livingston</persName> is at present here
+<lb/>the wife of <persName>Mr <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName> is at present here
     
     <pb facs="liv_002695_0003" n="0003"/>
 <lb/>she has three children. And her sister <persName>Ann Moffat</persName>
 <lb/>is married to the <term type="nationality">French</term> <term type="occupation">missionary</term> of <placeName><settlement type="village">Motito</settlement></placeName>
 <lb/><persName><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice> <choice><abbr>J</abbr><expan>Jean</expan></choice> Fredoux</persName> - Old <persName>Majima</persName> is still alive
 <lb/>A queer old woman. <persName>Mr Hamilton</persName> presented her
-<lb/>with a <term type="animal">cow</term> lately, and it was with difficulty
+<lb/>with a <term type="animal_foodstuff">cow</term> lately, and it was with difficulty
 <lb/>she could be induced to thank him for it
 <lb/>she does not seem to care much for any one
 <lb/>else in the world except herself. If you saw

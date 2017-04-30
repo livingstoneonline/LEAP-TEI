@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002416">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002416"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to William S. Price, 27 September 1865</title><!-- Change -->
+                <title>Letter to William S. Price</title>
+ 				<title type="alternative">Letter to William S. Price, 27 September 1865</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
                     <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
                 </respStmt>
-				<respStmt xml:id="JM">
-                    <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+					<resp>Formatting review</resp>
                 </respStmt>
  				<respStmt xml:id="MB">
                     <name>Mary E. Borgo</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
-                </respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
+					<resp>Tagging Corrections</resp>
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_002416</idno><!-- Change as needed -->
             </publicationStmt>
             <sourceDesc>
@@ -63,7 +56,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to William S. Price, 27 September 1865</title><!-- Change -->
+                    <title type="alternative">Letter to William S. Price, 27 September 1865</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1865-09-27">27 September 1865</date><!-- Change -->
                     <placeName type="compositionPlace">Bombay</placeName><!-- Change -->
@@ -77,6 +70,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-02-28" who="#AW">Coding Review</change><!-- Was actualy February 29 but Oxygen doesn't accept! AW -->
 			<change when="2015-02-28" who="#MB">Proofreading</change> <!-- Was actualy February 29 but Oxygen doesn't accept! MB -->
 			<change when="2015-12-11" who="#AW">Initial Proofing</change>
@@ -89,12 +84,14 @@
             <div>
                
 	<pb facs="liv_002416_0001" n="0001"/><!-- Change both @facs and @n -->
-<lb/><dateline><add place="above marginleft" rend="gray" hand="#U">5-6-9</add> <placeName><settlement type="city">Bombay</settlement></placeName> <date when="1865-09-27">27 <choice><abbr>Sept</abbr><expan>September</expan></choice> 1865</date> <add place="above marginright" rend="gray" hand="#U">MS 8/13</add></dateline>
+<opener>
+<lb/><add place="inspace" rend="gray small" hand="#U"><space extent="5" unit="words"/>MS 8/13</add>
+<lb/><dateline><add place="above marginleft" rend="gray" hand="#U">5-6-9</add> <space extent="1" unit="chars"/><placeName><settlement type="city">Bombay</settlement></placeName> <date when="1865-09-27">27 <choice><abbr>Sept</abbr><expan>September</expan></choice> 1865</date></dateline>
 <lb/>
 <lb/>    
-<lb/><salute>My Dear M<hi rend="sup underline">r</hi> Price</salute><!-- Looks like an "s," but the letter is addressed to William. MB --><!-- Looks like an "s" but evidence suggests "r" so we'll go with that. AW -->
+<lb/><salute>My Dear M<hi rend="sup underline">r</hi> Price</salute></opener><!-- Looks like an "s," but the letter is addressed to William. MB --><!-- Looks like an "s" but evidence suggests "r" so we'll go with that. AW -->
 <lb/><p> I was leaving
-<lb/><placeName><settlement>Poonah</settlement></placeName> when I got
+<lb/><placeName><settlement type="city">Poonah</settlement></placeName> when I got
 <lb/>your <bibl>letter</bibl> of the <date when="1865-09-23">23</date> and I have
 <lb/>been so occupied since
 <lb/>as to be unable to 
@@ -155,7 +152,7 @@
 <lb/>protection </p>
 
 	<pb facs="liv_002416_0004" n="0004"/>
-<lb/><p>At the principal villages 
+<lb/><p rend="no-indent">At the principal villages 
 <lb/>we usually rest a few days
 <lb/>and it is sometimes
 <lb/>necessary that two or three
@@ -217,7 +214,7 @@
 <lb/>intend to take some
 <lb/><term type="animal">buffaloes</term> as beasts of
 <lb/>burden and if they are
-<lb/>capable as <gap extent="1" unit="words" agent="illegible"/><unclear cert="medium">I <choice><sic>epect</sic><corr>expect</corr></choice></unclear><!-- Not sure what this is. EM --><!-- This is my guess. MB --><!-- Looks OK to me. AW --> they
+<lb/>capable as <supplied cert="medium">I</supplied> <unclear cert="medium">expect</unclear><!-- Not sure what this is. EM --><!-- This is my guess. MB --><!-- Looks OK to me. AW --> they
 <lb/>will be of withstanding
 
 	<pb facs="liv_002416_0007" n="0007"/>
@@ -251,7 +248,7 @@
 <lb/>aware that every one
 <lb/>conforms to the regulations</p>
 <lb/><p>I am going back to
-<lb/><placeName><settlement><choice><orig>Guniskind</orig><reg>Ganeshkhind</reg></choice></settlement></placeName> on <choice><sic>monday</sic><corr>Monday</corr></choice>
+<lb/><placeName><choice><orig>Guniskind</orig><reg>Ganeshkhind</reg></choice></placeName> on <choice><sic>monday</sic><corr>Monday</corr></choice>
 <lb/>next and have to give a
 <lb/>little lecture on Tuesday
 <lb/><unclear>then</unclear> - I shall be at <w>Govern<supplied>-</supplied>
@@ -262,10 +259,10 @@
 <lb/>avoid <persName><choice><sic>bishop</sic><corr>Bishop</corr></choice> Mackenzie</persName>'s
 <lb/>difficulty makes me
 <lb/>particular in specifying the
-<lb/>duties -</p> <closer><persName>David Livingstone</persName></closer> 
+<lb/>duties - <persName>David Livingstone</persName></p> 
 
 	<pb facs="liv_002416_0009" n="0009"/>
-<lb/><postscript><p>P.S. I should like
+<lb/><postscript><p rend="no-indent">P.S. I should like
 <lb/>to know if any
 <lb/>of the men have
 <lb/>a knowledge of
@@ -280,10 +277,17 @@
 			<div>
 
 <pb facs="liv_002416_0010" n="0010"/>
-<lb/><addSpan rend="right" spanTo="#add1"/><p><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName>
-<lb/><date when="1865-10"><choice><abbr>Oct.</abbr><expan>October</expan></choice> 1865</date></p><anchor xml:id="add1"/>
-<lb/><space dim="vertical" extent="19" unit="lines"/>
-<lb/><addSpan rend="right gray" place="bottom" spanTo="#add2"/><p>MS 8/13/3</p><anchor xml:id="add2"/>
+<lb/><addSpan spanTo="#add1"/><p rend="no-indent"><space extent="2" unit="words"/><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName>
+<lb/><space extent="3" unit="words"/><date when="1865-10"><choice><abbr>Oct.</abbr><expan>October</expan></choice> 1865</date></p><anchor xml:id="add1"/>
+<lb/>
+<lb/>
+<lb/>
+<lb/>
+<lb/>
+<lb/>
+<lb/>
+<lb/>
+<lb/><addSpan place="bottom" spanTo="#add2"/><p rend="gray small"><space extent="3" unit="words"/>MS 8/13/3</p><anchor xml:id="add2"/>
 
             </div>
         </body>

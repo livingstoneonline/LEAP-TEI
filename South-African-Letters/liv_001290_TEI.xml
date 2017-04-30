@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001290">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001290"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to John Kirk, 18 March 1858</title><!-- Change -->
+                <title>Letter to John Kirk</title>
+ 				<title type="alternative">Letter to John Kirk, 18 March 1858</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
                     <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+					<resp>Formatting review</resp>
                 </respStmt>
 				<respStmt xml:id="JM">
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
                     <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
                 </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_001290</idno><!-- Change as needed -->
             </publicationStmt>
             <sourceDesc>
@@ -58,7 +59,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to John Kirk, 18 March 1858</title><!-- Change -->
+                    <title type="alternative">Letter to John Kirk, 18 March 1858</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1856-04-04">18 March 1858</date><!-- Change -->
                     <placeName type="compositionPlace">Screw Streamship Pearl at sea off Madeira</placeName><!-- Change -->
@@ -73,6 +74,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-12-17" who="#AW">Coding review</change>
             <change when="2015-12-17" who="#JM">Proofreading</change>
 			<change when="2015-12-01" who="#AW">Initial coding review</change>
@@ -85,12 +88,15 @@
             <div>
                
 	<pb facs="liv_001290_0001" n="0001"/><!-- Change both @facs and @n -->
-<lb/><opener rend="right"><add place="inspace" rend="left red diagonal" hand="#U2">12</add> <dateline><placeName>Screw Steamship Pearl <lb/>at Sea off <placeName><geogName type="island">Madeira</geogName></placeName></placeName><!-- Not sure if this needs a more specific postition indicator on the page. EM --><!-- Looks OK. AW -->
-<lb/><date when="1843-03-18">18 March 1858</date> <add place="above marginright" rend="gray" hand="#U1">MS 19</add><add place="above margintop">(1)</add></dateline>
+<opener>
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small">(1)</add><space extent="2" unit="words"/><add rend="gray small" hand="#U1">MS 19</add>
+<lb/><add place="inspace" rend="left red diagonal" hand="#U2">12</add> <space extent="2" unit="words"/><space extent="1" unit="chars"/><dateline><placeName>Screw Steamship Pearl 
+<lb/><space extent="3" unit="words"/>at Sea off <placeName><geogName type="island">Madeira</geogName></placeName></placeName><!-- Not sure if this needs a more specific postition indicator on the page. EM --><!-- Looks OK. AW -->
+<lb/><space extent="3" unit="words"/><space extent="3" unit="chars"/><date when="1843-03-18">18 March 1858</date> </dateline>
 <lb/>    
-<lb/><salute>D<hi rend="sup underline">r</hi> John Kirk 
-<lb rend="center"/>Sir</salute></opener><!-- Did I do this correctly? EM --><!-- Yes. AW -->
-<lb/><p rend="right">The main object
+<lb/><space extent="2" unit="chars"/><salute>D<hi rend="sup underline">r</hi> John Kirk 
+<lb/><space extent="2" unit="words"/><space extent="3" unit="chars"/>Sir</salute></opener><!-- Did I do this correctly? EM --><!-- Yes. AW -->
+<lb/><p><space extent="2" unit="words"/><space extent="2" unit="chars"/>The main object
 <lb/>of the <orgName>Expedition</orgName> to which you
 <lb/>are appointed <term type="occupation">Economic
 <lb/>Botanist</term> and <term type="occupation">Medical Officer</term>
@@ -100,7 +106,7 @@
 <lb/>resources of <placeName><region>Eastern and
 <lb/>Central <bloc>Africa</bloc></region></placeName><!-- Should Eastern/Central be marked as 'Regions' in this case? EM--><!-- Yes. AW -->, to improve 
 <lb/>our acquaitance with the 
-<lb/>inhabitants, and to engage
+<lb/><orgName>inhabitants</orgName>, and to engage
 <lb/>them to apply their energies
 
 	<pb facs="liv_001290_0002" n="0002"/>
@@ -123,13 +129,13 @@
 <lb/>will eventually become a
 <lb/>more certain source of profit
 <lb/>than the latter.</p>
-<lb/><p><add place="marginleft">2.</add> It is intended that the
+<lb/><p rend="no-indent"><add place="marginleft">2.</add> <space extent="3" unit="chars"/>It is intended that the
 <lb/><orgName>Expedition</orgName> should pass
 
 	<pb facs="liv_001290_0003" n="0003"/>
-<lb/>through the <term type="ailment">malarious</term> district
-<lb/>at the lower portion of the
-<lb/><placeName><geogName type="river">Zambesi river</geogName></placeName> as quickly
+<lb/>through the <placeName><region><term type="ailment">malarious</term> district</region></placeName>
+<lb/>at the <placeName><region>lower portion of the
+<lb/><placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice> river</geogName></placeName></region></placeName> as quickly
 <lb/>as possible, and it will
 <lb/>be necessary for you to
 <lb/>put into practice those
@@ -142,11 +148,11 @@
 <lb/>suggest as likely to secure
 <lb/>the health of your
 <lb/>companions -</p>
-<lb/><p><add place="marginleft">3.</add>The efforts of every member
+<lb/><p rend="no-indent"><add place="inspace">3.</add>  <space extent="3" unit="chars"/>The efforts of every member
 <lb/>of the <orgName>Expedition</orgName> will probably
 <lb/>be required to facilitate the
 <lb/>transport of the luggage
-<lb/>to and beyond <unclear cert="medium"><placeName><choice><sic>Tett</sic><corr>Tete</corr></choice></placeName></unclear><!-- Not sure what this is. Tete? EM --><!-- Yes, Tete. JM --> the most
+<lb/>to and beyond <unclear cert="medium"><placeName><settlement type="town"><choice><sic>Tett</sic><corr>Tete</corr></choice></settlement></placeName></unclear><!-- Not sure what this is. Tete? EM --><!-- Yes, Tete. JM --> the most
 
 	<pb facs="liv_001290_0004" n="0004"/>
 <lb/>advanced part of civilization
@@ -173,6 +179,7 @@
 <lb/>warlike and predatory <unclear cert="high">habit</unclear>
 
 	<pb facs="liv_001290_0005" n="0005"/>
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small">(2)</add>
 <lb/>and substitute the more <w>peace-
 <lb break="no"/>-able</w> pursuits of agriculture
 <lb/>and commerce; the time
@@ -182,7 +189,7 @@
 <lb/>with your personal safety,
 <lb/>to glean a general idea of
 <lb/>the resources of the country
-<lb/>to the North of <placeName><choice><sic>Tett</sic><corr>Tete</corr></choice></placeName><!-- Still not certain about this location. EM --><!-- Tete is in modern-day Mozambique, on the Zambezi River. JM --> and
+<lb/>to the North of <placeName><settlement type="town"><choice><sic>Tett</sic><corr>Tete</corr></choice></settlement></placeName><!-- Still not certain about this location. EM --><!-- Tete is in modern-day Mozambique, on the Zambezi River. JM --> and
 <lb/>to ascertain in as full detail
 <lb/>as the time will allow the
 <lb/>nature of the plant called
@@ -197,7 +204,7 @@
 <lb/>home to the <orgName>Foreign Office</orgName>-</p>
 
 	<pb facs="liv_001290_0006" n="0006"/>
-<lb/><p><add place="marginleft">4.</add>Your attention is
+<lb/><p rend="no-indent"><add place="inspace">4.</add>  <space extent="2" unit="words"/>Your attention is
 <lb/>particularly requested to the
 <lb/>discovery of dyestuffs,
 <lb/><unclear cert="medium">gums</unclear>, and medicinal
@@ -251,12 +258,12 @@
 <lb/>see the propriety of <unclear cert="high"><w>limiti<gap extent="2" unit="chars" agent="illegible"/><supplied>ng</supplied></w></unclear>
 <lb/>for a time the range of
 <lb/>your pursuits.</p>
-<lb/><p><add place="marginleft">5.</add> Our stay in the <unclear cert="medium"><w>vici<gap extent="4" unit="chars" agent="illegible"/><supplied>nity</supplied></w></unclear>
-<lb/>of <placeName><choice><sic>Tett</sic><corr>Tete</corr></choice></placeName> must necessarily <unclear cert="medium">be</unclear>
+<lb/><p rend="no-indent"><add place="marginleft">5.</add>  <space extent="5" unit="chars"/>Our stay in the <unclear cert="medium"><w>vici<gap extent="4" unit="chars" agent="illegible"/><supplied>nity</supplied></w></unclear>
+<lb/>of <placeName><settlement type="town"><choice><sic>Tett</sic><corr>Tete</corr></choice></settlement></placeName> must necessarily <unclear cert="medium">be</unclear>
 <lb/>short because it is <unclear cert="medium"><w>essen<gap extent="4" unit="chars" agent="illegible"/><supplied>tial</supplied></w></unclear>
 <lb/>to proceed at an early <unclear cert="medium"><w>perio<gap extent="1" unit="chars" agent="illegible"/><supplied>d</supplied></w></unclear>
-<lb/>to the rapid <placeName><geogName type="rapids">Kebra basa</geogName></placeName> <gap extent="4" unit="chars" agent="illegible"/>
-<lb/><unclear cert="low"><placeName><geogName type="rapids">Chicova</geogName></placeName></unclear> to ascertain the
+<lb/>to the rapid <placeName><geogName type="rapid"><choice><orig>Kebra basa</orig><reg>Cahora Bassa</reg></choice></geogName></placeName> <gap extent="4" unit="chars" agent="illegible"/>
+<lb/><unclear cert="low"><placeName><geogName type="rapid">Chicova</geogName></placeName></unclear> to ascertain the
 <lb/>possibility of passing it <unclear cert="low"><gap extent="4" unit="chars" agent="illegible"/></unclear>
 <lb/>the river is still <unclear cert="low"><w>comparati<gap extent="6" unit="chars" agent="illegible"/><supplied>tively</supplied></w></unclear>
 <lb/>high and thus avoid the
@@ -271,14 +278,15 @@
 <lb/>to the prejudicial influence
 	
 	<pb facs="liv_001290_0009" n="0009"/>
-<lb/><add place="margintop">(3)</add> of such communication, it
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small">(3)</add> 
+<lb/>of such communication, it
 <lb/>will be unadvisable to make
 <lb/>any distant excursions - Our
 <lb/>energies must be bent to
 <lb/><choice><sic>to</sic><corr/></choice> the establishment of a depot
 <lb/>at some eligible spot beyond
 <lb/>the confluence of the <placeName><geogName type="river">Kafue</geogName></placeName> 
-<lb/>and <placeName><geogName type="river">Zambesi</geogName></placeName> - Having
+<lb/>and <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> - Having
 <lb/>reached a tolerable elevation
 <lb/>and examined the country
 <lb/>adjacent it will be advisable
@@ -293,7 +301,7 @@
 <lb/>and sufficiently high to secure
 <lb/>salubrity, a small plot of
 <lb/>ground may at that altitude
-<lb/>be planted with <term type="plant">wheat</term> and
+<lb/>be planted with <term type="plant_foodstuff">wheat</term> and
 
 	<pb facs="liv_001290_0010" n="0010"/>
 <lb/><orgName>European</orgName> vegetables as an
@@ -308,7 +316,7 @@
 <lb/>order to induce the <orgName>natives</orgName>
 <lb/>to take an interest in the
 <lb/>Result.</p>
-<lb/><p><add place="marginleft">6.</add>The central depot once
+<lb/><p rend="no-indent"><add place="inspace">6.</add> <space extent="5" unit="chars"/>The central depot once
 <lb/>established and and intercourse with
 <lb/>the <orgName>natives</orgName> set on foot, a more
 <lb/>extended range of scientific <w>observa-
@@ -326,11 +334,11 @@
 <lb/>that may be met with
 <lb/>in excursions which 
 <lb/>in company with the
-<lb/><term type="tribe">Makololo</term> may safely be
+<lb/><term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> may safely be
 <lb/>made, and the results
 <lb/>be deposited at the central
 <lb/>station</p>
-<lb/><p><add place="marginleft">7.</add> Although these
+<lb/><p rend="no-indent"><space extent="1" unit="chars"/><add place="inspace">7.</add> <space extent="5" unit="chars"/>Although these
 <lb/>explorations and collections
 <lb/>are very desirable, you will
 <lb/>understand that <orgName>Her Majesty's
@@ -358,7 +366,7 @@
 <lb/><choice><sic>recieving</sic><corr>receiving</corr></choice> it, and inculcating
 <lb/>peace and goodwill to
 <lb/>each other</p>
-<lb/><p><add place="marginleft">8.</add> One especial means
+<lb/><p rend="no-indent"><add place="inspace">8.</add> <space extent="4" unit="chars"/>One especial means
 <lb/>of gaining their favour <unclear cert="high"><w>wil<gap extent="1" unit="chars" agent="illegible"/><supplied>l</supplied></w></unclear>
 <lb/>be by giving them the <unclear cert="high"><w>benef<gap extent="2" unit="chars" agent="illegible"/><supplied>it</supplied></w></unclear>
 <lb/>of your medical skill and
@@ -370,7 +378,7 @@
 <lb/>times on good terms with them
 
 	<pb facs="liv_001290_0013" n="0013"/>
-<lb/><add place="margintop">(4)</add>
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small">(4)</add>
 <lb/>In order to this slight complaint,
 <lb/>except among the very poor,
 <lb/>ought to be referred to their 
@@ -396,7 +404,7 @@
 <lb/>followers we profess to be -</p>
 
 	<pb facs="liv_001290_0014" n="0014"/>
-<lb/><p><add place="marginleft">9.</add> The <orgName>Expedition</orgName> is well
+<lb/><p rend="no-indent"><add place="inspace">9.</add> <space extent="6" unit="chars"/>The <orgName>Expedition</orgName> is well
 <lb/>supplied with arms and ammunition
 <lb/>and it will be necessary at
 <lb/>times to use these in order to
@@ -439,7 +447,7 @@
 <lb/>anxious that none of my
 <lb/>companions should be
 <lb/>guilty of similar abominations</p>
-<lb/><p><add place="marginleft">10.</add> It is hoped that we
+<lb/><p rend="no-indent"><add place="marginleft">10.</add> <space extent="3" unit="chars"/>It is hoped that we
 <lb/>may never have occasion
 <lb/>to use our arms for protection
 <lb/>from the <orgName>natives</orgName>, but the
@@ -458,7 +466,7 @@
 <lb/>to conciliate as far as <del type="strikethrough"><gap extent="4" unit="chars" agent="illegible"/></del>
 <lb/>possibly can be admitted
 <lb/>with safety to our own party</p>
-<lb/><p><add place="marginleft">11.</add> It is unnecessary
+<lb/><p rend="no-indent"><add place="inspace">11.</add> <space extent="4" unit="chars"/>It is unnecessary
 <lb/>for me to enjoin the <unclear cert="high"><w>strictes<gap extent="1" unit="chars" agent="illegible"/><supplied>t</supplied></w></unclear>
 <lb/>justice in dealing with the
 <lb/>people - This your own
@@ -471,14 +479,15 @@
 <lb/>in every case in which
 
 	<pb facs="liv_001290_0017" n="0017"/>
-<lb/><add place="margintop">(5)</add>
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small">(5)</add>
 <lb/>a <orgName>native</orgName> is to be employed
 <lb/>that the terms be well <w>under<supplied>-</supplied>
 <lb break="no"/>-stood</w> and a little patience
 <lb/>in settling the amount of
 <lb/>remunertation in the presence 
 <lb/>of witnesses and the exact
-<lb/>number of persons engaged will prevent that
+<lb/>number of persons 
+<lb/>engaged will prevent that
 <lb/>heartburning and discontent
 <lb/>which otherwise may ensue
 <lb/>Let the payment be invariably
@@ -500,7 +509,7 @@
 <lb/>subjection to the head chief
 <lb/>alone and is otherwise a
 <lb/>free subject -</p>
-<lb/><p><add place="marginleft">12.</add> The <term type="occupation">chiefs</term> of tribes and
+<lb/><p rend="no-indent"><add place="marginleft">12.</add> <space extent="2" unit="chars"/>The <term type="occupation">chiefs</term> of tribes and
 <lb/>leading men of villages ought
 <lb/>always to be treated with
 <lb/>great respect and nothing
@@ -512,7 +521,7 @@
 <lb/>of feeding strangers to go into
 <lb/>disuse - We come among
 <lb/>them as members of a superior
-<lb/>race, and servants of a <orgName><w>Gover-
+<lb/>race, and servants of a <orgName><w>Govern-
 <lb break="no"/>-ment</w></orgName> that desires to elevate
 <lb/>the more degraded portions
 <lb/>of the human family - We
@@ -538,7 +547,7 @@
 <lb/>influence. Depend upon it
 <lb/>a kind word or deed is
 <lb/>never lost.</p>
-<lb/><p><add place="marginleft"><del type="strikethrough" rend="gray" hand="#U1">12</del><add place="above" rend="gray" hand="#U1">13</add></add> You will have access
+<lb/><p rend="no-indent"><add place="inspace"><del type="strikethrough" rend="gray" hand="#U1">12</del><add place="above" rend="gray" hand="#U1">13</add></add> <space extent="2" unit="chars"/>You will have access
 <lb/>to <bibl><persName>Koelle</persName>'s <choice><orig>pol<subst><del>l</del><add place="over-text">y</add></subst> glotta</orig><reg>Pol<subst><del>l</del><add place="over-text">y</add></subst>glotta</reg></choice> Africana</bibl>.
 <lb/><bibl><choice><sic><persName>Bleek</persName>s</sic><corr><persName>Bleek</persName>'s</corr></choice> vocabulary of the
 <lb/>languages of <placeName><country><choice><sic>Mosambique</sic><corr>Mozambique</corr></choice></country></placeName></bibl> 
@@ -549,7 +558,7 @@
 
 	<pb facs="liv_001290_0020" n="0020"/>
 <lb/>is generally spoken in the
-<lb/><placeName><term type="tribe">Makololo</term> country</placeName> and its
+<lb/><placeName><term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> country</placeName> and its
 <lb/>acquisition will <unclear cert="medium"><w>material<gap extent="3" unit="chars" agent="illegible"/><supplied>ize</supplied></w></unclear>
 <lb/>aid you in all your <unclear cert="high"><w>pursu<gap extent="3" unit="chars" agent="illegible"/><supplied>its</supplied></w></unclear>
 <lb/>should opportunity offer <unclear cert="high"><w>you<gap extent="1" unit="chars" agent="illegible"/><supplied>u</supplied></w></unclear>
@@ -562,7 +571,7 @@
 <lb/>sound they have in Italian
 <lb/>Spanish &amp; in most <orgName>European</orgName>
 <lb/>languages.</p>
-<lb/><p><add place="marginleft">14.</add>You are distinctly to
+<lb/><p rend=" no-indent"><add place="inspace">14.</add> <space extent="3" unit="chars"/>You are distinctly to
 <lb/>understand that your 
 <lb/>services are engaged for
 <lb/>two years unless any
@@ -574,13 +583,14 @@
 <lb/>to <placeName><country>England</country></placeName>-</p>
 
 	<pb facs="liv_001290_0021" n="0021"/>
-<lb/><p><add place="marginleft">15.</add> <add place="margintop">(6)</add> In the event of my being
+<lb/><p rend="no-indent"><space extent="3" unit="words"/><add place="inspace" rend="small">(6)</add>
+<lb/><add place="inspace">15.</add>  <space extent="2" unit="chars"/>In the event of my being
 <lb/>prostrated by illness or
-<lb/>my accident rendered
+<lb/>any accident rendered
 <lb/>incapable of conducting
 <lb/>the <orgName>Expedition</orgName>, the charge
 <lb/>of it will devolve on
-<lb/><persName>Commander Redingfeld</persName>,
+<lb/><persName>Commander Bedingfeld</persName>,
 <lb/>If he too should fail
 <lb/>it will devolve on you,
 <lb/>and then on <persName>M<hi rend="sup underline">r</hi> Charles
@@ -590,7 +600,7 @@
 <lb/>to be transmitted to
 <lb/><placeName><country>England</country></placeName> for further
 <lb/>instructions.</p>
-<lb/><p><add place="marginleft">16.</add> You are at liberty
+<lb/><p rend="no-indent"><add place="inspace">16.</add> <space extent="3" unit="chars"/>You are at liberty
 <lb/>to consult a copy of the
 <lb/>original instructions
 
@@ -603,7 +613,7 @@
 <lb/>circumstances will allow
 <lb/>endeavour to carry them
 <lb/>into effect.</p>
-<lb/><p><add place="marginleft">17</add> Finally, you are
+<lb/><p rend="no-indent"><space extent="1" unit="chars"/><add place="inspace">17</add> <space extent="5" unit="chars"/>Finally, you are
 <lb/>strictly enjoined to take the
 <lb/>greatest care of your own
 <lb/>health and that of the
@@ -626,7 +636,7 @@
 <lb/>or <term type="ailment">unpleasant taste in the
 <lb/>mouth in the mornings</term>.
 <lb/>If <term type="medicament">Quinine</term> combined with
-<lb/><term type="medicament">a mild aperient</term> be
+<lb/>a mild <term type="medicament">aperient</term> be
 <lb/>administered, this <w>pre-
 <lb break="no"/>-cautionary</w> measure will
 <lb/>often ward off an attack
@@ -646,12 +656,10 @@
 <lb/>the safe keeping of
 <lb/>the Almighty Disposer
 <lb/>of Events.</p>
+<lb/><p>I am your
+<lb/><space extent="1" unit="words"/><space extent="2" unit="chars"/>Most Obedient Servant</p><!-- Change as appropriate -->
+<lb/><p><persName>David Livingstone</persName></p><!-- Change as appropriate --> 
 
-<closer>
-<lb rend="center"/><salute>I am your
-<lb rend="right"/>Most Obedient Servant</salute><!-- Change as appropriate -->
-<lb rend="center"/><signed><persName>David Livingstone</persName></signed><!-- Change as appropriate --> 
-</closer>
 
 
             </div>

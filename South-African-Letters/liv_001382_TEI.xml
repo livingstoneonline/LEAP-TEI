@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001382">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001382"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Richard Thornton</title><!-- Change -->
+                <title>Letter to Richard Thornton</title>
+ 				<title type="alternative">Letter to Richard Thornton, [29 November 1858]</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
-                <respStmt xml:id="JM">
-                    <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="AA">
                     <name>Angela Aliff</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
                 </respStmt>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date>
+                <date>2017</date>
                 <idno type="LEAP-ID">liv_001382</idno>
             </publicationStmt>
             <sourceDesc>
@@ -50,7 +56,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Richard Thornton, [29 November 1858]</title>
+                    <title type="alternative">Letter to Richard Thornton, [29 November 1858]</title>
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1858-11-29">[29 November 1858]</date>
                     <placeName type="compositionPlace">Caborra Basa Rapids</placeName>
@@ -66,6 +72,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-26" who="#AW">Coding review</change>
 			<change when="2015-05-15" who="#JM">Proofreading</change>
             <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>
@@ -83,7 +91,7 @@
 <opener>  
 <lb/><salute>Dear <persName>Thornton</persName>,</salute>
 </opener>
-<lb/><p>A <term type="animal">hippo</term> - has been
+<lb/><p rend="no-indent">A <term type="animal">hippo</term> - has been
 <lb/>shot <measure>7 miles</measure> above
 <lb/>you - We go on
 <lb/>to the high hill
@@ -104,12 +112,9 @@
 <lb/>as you think
 <lb/>best - I hope
 <lb/>you are now
-<lb/>recovered -
-</p>
-
-<closer>
-<lb/><signed><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName></signed></closer>
-<lb/><postscript><p>supposing you
+<lb/>recovered -</p>
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName></p>
+<lb/><postscript><p rend="no-indent">Supposing you
 <lb/>remain send
 <lb/>some to cut
 <lb/>up &amp; dry &amp;

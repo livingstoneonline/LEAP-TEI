@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002443">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002443"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to John Kirk, 2 December 1865</title><!-- Change -->
+                <title>Letter to John Kirk</title>
+ 				<title type="alternative">Letter to John Kirk, 2 December 1865</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
                     <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
                 </respStmt>
-				<respStmt xml:id="JM">
-                    <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+					<resp>Formatting review</resp>
                 </respStmt>
 				<respStmt xml:id="MB">
                     <name>Mary E. Borgo</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
-                </respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
+					<resp>Tagging Corrections</resp>
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_002443</idno><!-- Change as needed -->
             </publicationStmt>
             <sourceDesc>
@@ -63,7 +56,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to John Kirk, 2 December 1865</title><!-- Change -->
+                    <title type="alternative">Letter to John Kirk, 2 December 1865</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1865-12-02">2 December 1865</date><!-- Change -->
                     <placeName type="compositionPlace">Bombay</placeName><!-- Change -->
@@ -78,6 +71,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2016-02-02" who="#AW">Coding review</change>
 			<change when="2016-02-01" who="#MB">Proof reading</change>
 			<change when="2016-01-13" who="#AW">Light coding review</change>
@@ -90,12 +85,12 @@
             <div>
                
 	<pb facs="liv_002443_0001" n="0001"/><!-- Change both @facs and @n -->
-<lb/><dateline><add place="above marginleft" rend="gray" hand="#U1">MS/17/2</add> <placeName><settlement type="city">Bombay</settlement></placeName> <date when="1865-12-02">2 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1865</date> <add place="below" rend="red" hand="#U2">60</add></dateline>
-<lb/><!-- empty line break to indicate space? MB -->
-<lb/><salute>My Dear Kirk</salute>
-<lb/><p rend="right"><persName>D<hi rend="sup underline">r</hi> Birdwood</persName>
-<lb/>The <term type="occupation">curator</term> of the <orgName>Botanical garden
-<lb/>and Museum</orgName> here told me <w>yester-<!-- dash at the end of this line? MB --><!-- Fixed. AW -->
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/><add place="above marginleft" rend="gray" hand="#U1">MS/17/2</add> <placeName><settlement type="city">Bombay</settlement></placeName> <date when="1865-12-02">2 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1865</date></p>
+<lb/><p><space extent="3" unit="words"/><space extent="4" unit="chars"/><add place="inspace" rend="red large" hand="#U2">60</add></p>
+<lb/><p rend="no-indent">My Dear Kirk</p>
+<lb/><p><space extent="3" unit="words"/><persName>D<hi rend="sup underline">r</hi> Birdwood</persName>
+<lb/>The <term type="occupation">curator</term> of the <placeName>Botanical <choice><sic>garden</sic><corr>Garden</corr></choice>
+<lb/>and Museum</placeName> here told me <w>yester-<!-- dash at the end of this line? MB --><!-- Fixed. AW -->
 <lb break="no"/>day</w> that he would recommend
 <lb/>you to the <term type="occupation">Governor</term> as a fit
 <lb/>person to occupy his place - He
@@ -121,18 +116,18 @@
 
 <cb rend="vertical"/>
 	<ab>
-<lb/>a sad end was that of poor <persName>Ral</persName> - <persName>M<hi rend="sup">r</hi> Brown</persName> of
+<lb/>a sad end was that of poor <persName>Rae</persName> - <persName>M<hi rend="sup">r</hi> Brown</persName> of
 <lb/>the same company <unclear cert="medium">now</unclear> says that they are	
 	</ab><!-- follows to veritcal passage on page 2. -->
 	
 	<pb facs="liv_002443_0002" n="0002"/>
 <lb/><p rend="no-indent">month, so with your <choice><abbr>R</abbr><expan>Rupees</expan></choice> 500 to 700
 <lb/>you would have £20 &amp; £40 over
-<lb/><add place="above">say £240 or £480 to same <space extent="1" unit="words"/>yearly</add> <!-- Is it necessary to add a <space> here in the 'above' note? EM --><!-- Yes. AW -->
+<lb/><add place="inspace" rend="small">say £240 or £480 to same <space extent="1" unit="words"/>yearly</add> <!-- Is it necessary to add a <space> here in the 'above' note? EM --><!-- Yes. AW -->
 <lb/>the cost of <term type="animal">horse</term> &amp; phaeton would
-<lb/>be £150 - In house is in the <orgName>Botanic
-<lb/>Garden</orgName> - and that is new - The
-<lb/><orgName>Museum</orgName> is only building - and
+<lb/>be £150 - In house is in the <placeName>Botanic
+<lb/>Garden</placeName> - and that is new - The
+<lb/><placeName>Museum</placeName> is only building - and
 <lb/>is rather a fine building at the
 <lb/>entrance to the Garden - you would
 <lb/>direct the planting out and select
@@ -151,7 +146,7 @@
 <lb/>and his stomach cannot bear
 <lb/><term type="medicament">quinine</term> or <term type="medicament">arsenic</term> - He is rather
 <lb/>desponding as to his state of health
-<lb/>The <term type="occupation">Governors</term> band plays in the
+<lb/>The <choice><sic><term type="occupation">Governor</term>s</sic><corr><term type="occupation">Governor</term>'s</corr></choice> band plays in the
 <lb/>gardens &amp; people flock to hear it -
 <lb/>as you are a lady killer you might
 <lb/>be successful in the matrimonial
@@ -172,7 +167,7 @@
 <lb/>than practice, hence &amp; guess his duties
 <lb/>do not occupy a large portion of
 <lb/>his time - He is <term type="occupation"><choice><abbr>Gov</abbr><expan>Governor</expan></choice> Secretary</term> to the
-<lb/><orgName><placeName><settlement type="city">Bombay</settlement></placeName> Asiatic society</orgName> &amp; something
+<lb/><orgName><placeName><settlement type="city">Bombay</settlement></placeName> Asiatic <choice><sic>society</sic><corr>Society</corr></choice></orgName> &amp; something
 <lb/>else which bring honour &amp; bother
 <lb/>only - My impression is that if
 <lb/>nothing better has turned up yet
@@ -182,7 +177,7 @@
 <lb/>would provide for you elsewhere
 <lb/>in the event of <persName>Birdwood</persName> resuming
 <lb/>his duties - He gave his private
-<lb/><term type="occupation">physician</term> <persName>D<hi rend="sup underline">Steadman</hi></persName> a good
+<lb/><term type="occupation">physician</term> <persName>D<hi rend="sup underline">r</hi> Steadman</persName> a good
 <lb/>appointment as head of the <placeName><persName>Sir
 <lb/><choice><orig>Jamsetyee Jhejeebhoy</orig><reg>Jamsetjee Jeejebhoy</reg></choice></persName> hospital</placeName><!-- or orgName? MB--><!-- Placename is OK. AW --> - 
 <lb/>there are many <term type="people">Scotchmen</term><!-- or nationality? MB --><!-- OK. AW --> here - and
@@ -201,11 +196,12 @@
 <cb rend="vertical"/>
 	<ab><!-- follows from vertical passage on page 2 -->
 <lb/>their labour in open market he does not know
-<lb/>of <persName>Ral</persName>'s brother coming out - Is <persName>Ral</persName>'s wife his <add place="below">heir?</add>
+<lb/>of <persName>Rae</persName>'s brother coming out - Is <persName>Rae</persName>'s wife his 
+<lb/><space extent="10" unit="words"/><space extent="2" unit="chars"/>heir?
 	</ab>
 
 	<pb facs="liv_002443_0004" n="0004"/>
-<lb/><p>stake than usually offers a shove
+<lb/><p rend="no-indent">stake than usually offers a shove
 <lb/>but you must decide &amp; I trust
 <lb/>that God will give wisdom
 <lb/>to act for the best -</p>
@@ -219,7 +215,7 @@
 <lb break="no"/>-ner</w> only - when I hear more
 <lb/>I shall let you have it <space extent="1" unit="chars"/>This
 <lb/>goes by a new company started
-<lb/>by <term type="nationality">American</term>'s "Stearns Hobart <unclear>&amp;c</unclear>"
+<lb/>by <term type="people"><choice><sic>American's</sic><corr>Americans</corr></choice></term> "Stearns Hobart <unclear>&amp;c</unclear>"
 <lb/>who send <term type="plant">cotton</term> by the overland 
 <lb/>route &amp; charge <unclear cert="medium">only</unclear><!-- There is a white smudge here EM--> £60 <add place="below">^</add> <add place="above">passage money</add> from this
 <lb/>to <placeName><settlement type="city">Liverpool</settlement></placeName> - I am living with
@@ -233,8 +229,8 @@
 <lb/>called Mule a present <unclear cert="low">of</unclear> the <term type="occupation">Sultan</term>
 <lb/>of <placeName><geogName type="island">Zanzibar</geogName></placeName><!-- or country? MB --> - <persName>Seward</persName> is acting
 <lb/>there - no appointment has been
-<lb/>made</p> <closer>Affectionably yours
-<lb/><signed>David Livingstone</signed></closer>
+<lb/>made Affectionably yours
+<lb/><space extent="1" unit="words"/><persName>David Livingstone</persName></p>
 
 
             </div>

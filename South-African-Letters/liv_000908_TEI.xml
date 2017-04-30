@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000908"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
 				<!-- Change title below -->
-                <title>Letter to Edmund Gabriel, 27 June 1856</title>
+                <title>Letter to Edmund Gabriel</title>
+ 				<title type="alternative">Letter to Edmund Gabriel, 27 June 1856</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
 				<!-- Add or remove <respStmt> as appropriate below -->
 				<!-- Change xml:id below -->
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
                 <respStmt xml:id="JM">
 					<!-- Change name below -->
                     <name>Jared McDonald</name>
@@ -20,14 +26,14 @@
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
                 </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -35,7 +41,7 @@
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
 				<!-- Change date below if necessary -->
-                <date>2016</date>
+                <date>2017</date>
 				<!-- Change base file name below -->
                 <idno type="LEAP-ID">liv_000908</idno>
 				<!-- Change the license below if necessart -->
@@ -74,7 +80,7 @@
                 </msDesc>
                 <bibl type="sourceMetadata">
 					<!-- Change title below -->
-                    <title>Letter to Edmund Gabriel, 27 June 1856</title>
+                    <title type="alternative">Letter to Edmund Gabriel, 27 June 1856</title>
                     <author xml:id="DL">David Livingstone</author>
 					<!-- Change @when and date below -->					
                     <date type="composition" when="1856-06-27">27 June 1856</date>
@@ -98,6 +104,8 @@
 			<!-- Note that @who initials are taken from <respStmt> above -->
 			<!-- Add new <change> elements below as needed. -->
 			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-12-11" who="#AW">Coding review</change>
             <change when="2015-12-11" who="#JM">Proofreading</change>
             <change when="2015-10-20" who="#AA">Initial transcription and XML encoding</change>
@@ -113,40 +121,40 @@
 	<pb facs="liv_000908_0001" n="0001"/>
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 <opener>
-<lb/><dateline rend="right"><placeName><settlement type="village">Quilimane</settlement></placeName> <date when="1856-06-27">27<hi rend="sup underline">th</hi> June<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
-<lb/>1856</date></dateline><!-- Change line info as appropriate -->
+<lb/><dateline><space extent="4" unit="words"/><placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName> <date when="1856-06-27">27<hi rend="sup underline">th</hi> June<!-- Change line info as appropriate --><!-- Begin each line with <lb/> as here --> 
+<lb/><space extent="2" unit="words"/><add place="inspace" rend="gray" hand="#U"><metamark/>7</add> <space extent="5" unit="words"/><space extent="2" unit="chars"/>1856</date></dateline><!-- Change line info as appropriate -->
 <lb/>    
-<lb/><salute>My Dear <persName>M<hi rend="sup underline">r</hi> Gabriel</persName>,</salute><!-- Change line info as appropriate -->
+<lb/><space extent="2" unit="chars"/><salute>My Dear <persName>M<hi rend="sup underline">r</hi> Gabriel</persName>,</salute><!-- Change line info as appropriate -->
 </opener> 	
-<lb/><p><space extent="3" unit="words"/>Having by the Divine
+<lb/><p><space extent="4" unit="words"/>Having by the Divine
 <lb/>goodness reached this on the <date when="1856-05-20">20<hi rend="sup underline">th</hi> of May</date>
 <lb/>last I felt very greatly disappointed
 <lb/>in not finding a single line from you
 <lb/>the box &amp; parcel of which I heard of at 
-<lb/><placeName><settlement type="village">Tete</settlement></placeName> contained a dozen of <term type="foodstuff">wine</term> from
+<lb/><placeName><settlement type="town">Tete</settlement></placeName> contained a dozen of <term type="foodstuff">wine</term> from
 <lb/><persName>Commodore Trotter</persName> and some <term type="medicament">quinine</term>
 <lb/>letters &amp; newspapers. I could scarcely
 <lb/>believe my eyes when turning everything
 <lb/>over &amp; over again not a scrap appeared
-<lb/>from <placeName><settlement type="city">Loanda</settlement></placeName>. I had many fears
+<lb/>from <placeName><settlement type="city"><choice><orig>Loanda</orig><reg>Luanda</reg></choice></settlement></placeName>. I had many fears
 <lb/>imagining you had become ill and
 <lb/>had gone home, and a mournful
 <lb/>event which happened after days
 <lb/>before my arrival gave a sombre cast
-<lb/>to my musings - <unclear cert="low"><persName>H. M Brg<hi rend="sup">e</hi> Dart</persName></unclear>	came
-<lb/>to <placeName><settlement type="village">Quilimane</settlement></placeName> to pick me up and the
+<lb/>to my musings - <unclear cert="low"><persName><choice><abbr>H. M Brg<hi rend="sup">e</hi></abbr><expan>Her Majesty's Brigadier</expan></choice> Dart</persName></unclear>	came
+<lb/>to <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName> to pick me up and the
 <lb/>commander tried to come ashore when
 <lb/>it was very rough - Unfortunately the</p>
 	<cb rend="vertical left"/><ab>
-<lb/>Don't forget the champagne Particularly if
+<lb/>Don't forget the champagne <space extent="1" unit="chars"/>Particularly if
 <lb/>any of my old acquaintances are with you at the time</ab> <!--tweet -AA-->
 
 	<pb facs="liv_000908_0002" n="0002"/>
-<lb/><p>boat was upset on the bar and the
+<lb/><p rend="no-indent">boat was upset on the bar and the
 <lb/>commander - with a fine young man
-<lb/><persName>Lieut <hi rend="sup">t</hi> Woodruff</persName> &amp; 5 sailors were
+<lb/><persName><term type="occupation"><choice><abbr>Lieut<hi rend="sup">t</hi></abbr><expan>Lieutenant</expan></choice></term> Woodruff</persName> &amp; 5 sailors were
 <lb/>lost. This sad event embittered all
-<lb/>my joy on reaching <placeName><settlement type="village">Quilimane</settlement></placeName>
+<lb/>my joy on reaching <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName>
 <lb/>I would have died for them rather
 <lb/>than that they should have lost
 <lb/>their lives on my account.</p>
@@ -166,12 +174,12 @@
 	
 	<pb facs="liv_000908_0003" n="0003"/>	
 <lb/>me to <placeName><settlement type="village">Cabango</settlement></placeName> and not having gone to
-<lb/><persName>Matamvo</persName> I suppose it must have
-<lb/>been returned to <placeName><settlement type="city">Loanda</settlement></placeName>. I suppose
+<lb/><persName>Matiamwo</persName> I suppose it must have
+<lb/>been returned to <placeName><settlement type="city"><choice><orig>Loanda</orig><reg>Luanda</reg></choice></settlement></placeName>. I suppose
 <lb/>you <choice><sic>recieved</sic><corr>received</corr></choice> the map from <placeName><settlement type="village">Cassange</settlement></placeName>
 <lb/>and letter with sketch from <placeName><settlement type="village">Cabango</settlement></placeName> too
-<lb/>I wrote also from the <term type="tribe">Barotse</term> and 
-<lb/>from <persName>Sekeletu</persName>'s town. Also from <placeName><settlement type="town">Lete</settlement></placeName>
+<lb/>I wrote also from the <term type="tribe"><choice><orig>Barotse</orig><reg>Lozi</reg></choice></term> and 
+<lb/>from <persName>Sekeletu</persName>'s town. Also from <placeName><settlement>Lete</settlement></placeName>
 <lb/>as soon as I came there. Writing to
 <lb/><choice><sic>to</sic><corr/></choice> you is somewhat different from
 <lb/>addressing many others. It feels as
@@ -180,7 +188,7 @@
 <lb/>an interest in the enterprise I have
 <lb/>undertaken. I sometimes fear I will
 <lb/>tire you with my yarns. As friend
-<lb/><persName>Arsenis</persName> did. It seems I <unclear cert="medium">have S</unclear> of
+<lb/><persName>Arsenio</persName> did. It seems I have got
 <lb/>the Queens gold medal from the <choice><abbr>R G.</abbr><expan>Royal Geographical</expan></choice>
 <lb/><choice><abbr>Soc.</abbr><expan>Society</expan></choice> and an honorary degree from
 <lb/>our old <orgName>Alma mater</orgName> <placeName><settlement type="city">Glasgow</settlement></placeName>. The <orgName><placeName><settlement type="city">London</settlement></placeName>
@@ -215,8 +223,8 @@
 	<pb facs="liv_000908_0005" n="0005"/>
 <lb/><p>The commodore said if the Dart
 <lb/>returned to the <placeName><region>Cape</region></placeName> without me he would
-<lb/>send another vessel to <placeName><settlement type="village">Quilimane</settlement></placeName>. The 
-<lb/>governor of <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> offers
+<lb/>send another vessel to <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName>. The 
+<lb/><term type="occupation">governor</term> of <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> offers
 <lb/>me a small vessel called Zambesi
 <lb/>but it would be improper to accept
 <lb/>of it and reject that of the commodore
@@ -229,14 +237,14 @@
 <lb/>in. An act of which I had much
 <lb/>need as I had a furious <unclear cert="low">Tertian</unclear> <!-- I also cannot make out this word. JM --><!-- Looks like Tertian to me, as you've transcribed. AW -->
 <lb/>on me, got as soon as I reached
-<lb/>the Delta. The <term type="nationality">Portuguese</term> have
+<lb/>the Delta. The <term type="people">Portuguese</term> have
 <lb/>all been remarkably kind to me
 <lb/>and my men. The latter are working
-<lb/>at <placeName><settlement type="village">Tete</settlement></placeName> only a few came down
-<lb/>here. There being a famine at <placeName><settlement type="village">Quilimane</settlement></placeName>
+<lb/>at <placeName><settlement type="town">Tete</settlement></placeName> only a few came down
+<lb/>here. There being a famine at <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName>
 
    	<pb facs="liv_000908_0006" n="0006"/>            	
-<lb/>they cannot remain except at <placeName><settlement type="village">Tete</settlement></placeName>
+<lb/>They cannot remain except at <placeName><settlement type="town">Tete</settlement></placeName>
 <lb/>where provisions are abundant
 <lb/>some are employed as boatmen some
 <lb/>as carriers &amp; some bring wood for
@@ -245,15 +253,15 @@
 <lb/>remain till I return. This is a
 <lb/>wretched port. small vessels can
 <lb/>enter &amp; depart but twice a month
-<lb/>The Governor asked my opinion
+<lb/>The <term type="occupation">Governor</term> asked my opinion
 <lb/>in writing about the salubrity of
-<lb/><unclear cert="low">Senna</unclear>. I pointed out a mountain
+<lb/><settlement type="village">Senna</settlement>. I pointed out a mountain
 <lb/>called <placeName><geogName type="mountain">Morumbala</geogName></placeName> close by as likely
 <lb/>to be more salubrious but its entire
 <lb/>decay from want of trade cannot
 <lb/>be revived by this. If the village
 <lb/>were put to one of the real mouths
-<lb/>of the <placeName><geogName type="river">Zambesi</geogName></placeName> (Catrina) the people
+<lb/>of the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> (Catrina) the people
 <lb/>would do good to both themselves
 <lb/>and the country. This opinion seems
 <lb/>to please &amp; is to be forwarded to the proper
@@ -261,15 +269,15 @@
 	<pb facs="liv_000908_0007" n="0007"/> 
 <lb/>quarter. But the state of the country is
 <lb/>from various causes most miserable
-<lb/>There are not 50 <term type="nationality">Portuguese</term> in the country
+<lb/>There are not 50 <term type="people">Portuguese</term> in the country
 <lb/>and the natives lord it over them, making
 <lb/>them pay tribute in some instances
 <lb/>in the most disgraceful manner
 <lb/>if our cruizers have done nothing
 <lb/>else they have conferred a good name
-<lb/>on the <term type="nationality">English</term>. I was astonished
+<lb/>on the <term type="people">English</term>. I was astonished
 <lb/>to observe how far this had spread
-<lb/>they <add place="above">(natives)</add> say "these <term type="nationality">English</term> love the black
+<lb/>they <add place="above">(natives)</add> say "these <term type="people">English</term> love the black
 <lb/>people much." This is so far in our
 <lb/>favour in endeavouring to <w>propag-
 <lb break="no"/>-ate</w> our blessed Christianity - I feel
@@ -282,36 +290,31 @@
 <lb/>our <persName>Burns</persName> has it. 	
 
 	<pb facs="liv_000908_0008" n="0008"/> 
-<lb/>"<quote>Then let us pray that come it may
-<lb/>For come it will for a'that--
-<lb/>When man and man the world o'er
-<lb/>Shall brothers be for a'that.</quote>"</p>
-<lb/><p>I have looked over the letter enclosed
+<lb/><space extent="1" unit="words"/>"Then let us pray that come it may
+<lb/><space extent="1" unit="words"/>For come it will for a'that -
+<lb/><space extent="1" unit="words"/>When man and man the world o'er
+<lb/><space extent="1" unit="words"/>Shall brothers be for a'that."</p>
+<lb/><p rend="no-indent">I have looked over the letter enclosed
 <lb/>in this and felt inclined to destroy it
 <lb/>but you will make allowances for
 <lb/>my unburdening my feelings. I send
-<lb/>the letter for <persName><choice><abbr>Gov<hi rend="sup">r</hi></abbr><expan>Governor</expan></choice>
-	 Amaral</persName> to the <choice><abbr>Gov<hi rend="sup">r</hi></abbr><expan>Governor</expan></choice>
-<lb/>General of <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> though I once
+<lb/>the letter for <persName><term type="occupation"><choice><abbr>Gov<hi rend="sup">r</hi></abbr><expan>Governor</expan></choice></term>
+	 Amaral</persName> to the <term type="occupation"><choice><abbr>Gov<hi rend="sup">r</hi></abbr><expan>Governor</expan></choice>
+<lb/>General</term> of <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> though I once
 <lb/>thought of enclosing it to you. There
-<lb/>is one too for <add place="above"><persName>Mr Sehut</persName></add><del type="strikethrough"><placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName></del> - a <persName>Captain
-<lb/>Bobsein</persName> of <placeName><settlement type="city">Hamburgh</settlement></placeName> is here and knows
-<lb/><persName>M<hi rend="sup">r</hi> Sehut</persName> - He lost his ship on the Bar
+<lb/>is one too for <add place="above"><persName>Mr Schut</persName></add><del type="strikethrough"><placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName></del> - a <persName>Captain
+<lb/>Bobsein</persName> of <placeName><settlement type="city"><orig>Hamburgh</orig><reg>Hamburg</reg></settlement></placeName> is here and knows
+<lb/><persName>M<hi rend="sup">r</hi> Schut</persName> - He lost his ship on the Bar
 <lb/>I send this to <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> because a 
 <lb/><term type="nationality">French</term> vessel is there which will tour
-<lb/>at <placeName><settlement type="city">Loanda</settlement></placeName>. They seem to be reviving
+<lb/>at <placeName><settlement type="city"><choice><orig>Loanda</orig><reg>Luanda</reg></choice></settlement></placeName>. They seem to be reviving
 <lb/>a sort of <orgName>slave</orgName> trade between this coast
-<lb/>and the <placeName><geogName type="island">Isle of Bourbon</geogName></placeName>. </p>  
-
-<closer>
-<lb/><salute>Accept my
+<lb/>and the <placeName><geogName type="island">Isle of Bourbon</geogName></placeName>. Accept my
 <lb/>heartiest salutations and the heart's
-<lb/>love of your ever affectionate</salute><!-- Change as appropriate -->
-<lb/><signed><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></signed><!-- Change as appropriate --> 
-</closer>
-
+<lb/>love of your ever affectionate</p><!-- Change as appropriate -->
+<lb/><p rend="no-indent"><space extent="3" unit="words"/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p><!-- Change as appropriate --> 
 <!-- I cannot get the postscript code to work. -AA --><!-- Needs to have a <p> inside. AW -->
-<postscript><p>Remember me to <persName>Captain Need</persName>. please.</p></postscript>
+<lb/><postscript><p rend="no-indent">Remember me to <persName>Captain Neves</persName>. please.</p></postscript>
 
             </div>
         </body>

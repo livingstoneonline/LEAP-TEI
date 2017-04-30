@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000930"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Unknown, 13 December [1856]</title><!-- Change -->
+                <title>Letter to Unknown</title>
+ 				<title type="alternative">Letter to Unknown, 13 December [1856]</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
-                <respStmt xml:id="JM">
-                    <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="AA">
                     <name>Angela Aliff</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
                 </respStmt>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name><!-- Change -->
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_000930</idno>
             </publicationStmt>
             <sourceDesc>
@@ -55,7 +61,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Unknown, 13 December [1856]</title><!-- Change -->
+                    <title type="alternative">Letter to Unknown, 13 December [1856]</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1856-12-16">13 December [1856]</date><!-- Change -->
                     <placeName type="compositionPlace">Blomfield St., London</placeName><!-- Change -->
@@ -71,6 +77,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-22" who="#AW">Coding review</change>
             <change when="2015-05-15" who="#JM">Proofreading</change>
             <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>
@@ -85,9 +93,9 @@
                
 	<pb facs="liv_000930_0001" n="0001"/><!-- Change both @facs and @n -->
 <opener>
-<lb/><add place="inspace" rend="left vertical gray" hand="#U1"><note>5490</note></add><dateline rend="right"><placeName>Mission House</placeName><!-- Change to diagonal -->
-<lb/><placeName>Blomfield <choice><abbr>St.</abbr><expan>Street</expan></choice></placeName>	
-<lb/><date when="1856-12-18">18<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup">r</hi></abbr><expan>December</expan></choice></date></dateline> <add place="inspace" rend="left gray" hand="#U2"><note>Filed with 5318</note></add>
+<lb/><add place="inspace" rend="diagonal small gray" hand="#U1">5490</add> <dateline><space extent="1" unit="words"/><placeName>Mission House</placeName><!-- Change to diagonal -->
+<lb/><space extent="3" unit="words"/><placeName>Blomfield <choice><abbr>St.</abbr><expan>Street</expan></choice></placeName>	
+<lb/><add place="inspace" rend="small gray" hand="#U2">Filed with 5318</add> <space extent="1" unit="chars"/><date when="1856-12-18">18<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup">r</hi></abbr><expan>December</expan></choice></date></dateline>
 <lb/>    
 <lb/><salute>Sir</salute>
 </opener>
@@ -106,26 +114,25 @@
 
 	<pb facs="liv_000930_0002" n="0002"/>
 <lb/>to <persName>M<hi rend="sup underline">r</hi> Murray</persName>.</p>
-<lb/><p><space extent="4" unit="chars"/>Accept of my thanks
+<lb/><p>Accept of my thanks
 <lb/>for the kind words of
 <lb/>welcome with which
 <lb/>you favour me and
 <lb/>believe me</p>
+<lb/><p>Yours faithfully</p>
+<lb/><p><space extent="1" unit="words"/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
 
-<closer>
-<lb rend="center"/><salute>Yours faithfully</salute>
-<lb rend="right"/><signed><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></signed>
-</closer>
 
 	<pb facs="liv_000930_0003" n="0003"/>
 <!--This page contains ink marks from the previous page, which was pressed against it. Otherwise, it is blank. -AA --><!-- OK. AW -->
 
 	<pb facs="liv_000930_0004" n="0004"/>
 <addSpan spanTo="#add1" hand="#U3"/>
-<lb rend="vertical large gray"/><note>£12/0/0<!-- Change @rend from vertical to diagonal -->
-<lb/><space extent="3" unit="lines" dim="vertical"/>
-<lb/><hi rend="underline"><choice><orig>½</orig><reg>1/2</reg></choice></hi>
-</note><!-- <note> isn't ideal, but it's one of the few things it will accept. AW -->
+<lb/><p rend="no-indent vertical gray">£12/0/0<!-- Change @rend from vertical to diagonal -->
+<lb/>
+<lb/>
+<lb/>
+<lb/><hi rend="underline"><choice><orig>½</orig><reg>1/2</reg></choice></hi></p><!-- <note> isn't ideal, but it's one of the few things it will accept. AW -->
 <anchor xml:id="add1"/>
 <!--I can't tell if this writing is a penciled price or something else. Also not sure whether I'm supposed to code it or the note in the transcription header about the other hands is sufficient. Or do I need to add a third hand to the header? -AA --><!-- Third hand to header, and transcribe each addition in the letter in the relevant place. AW -->
             </div>

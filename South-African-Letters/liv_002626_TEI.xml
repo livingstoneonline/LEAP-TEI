@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002626">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002626"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to John C.L. Marsh, 21 November 1872</title><!-- Change -->
+                <title>Letter to John C.L. Marsh</title>
+ 				<title type="alternative">Letter to John C.L. Marsh, 21 November 1872</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
                     <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
                 </respStmt>
-				<respStmt xml:id="JM">
-                    <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_002626</idno><!-- Change as needed -->
             </publicationStmt>
             <sourceDesc>
@@ -56,7 +52,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to John C.L. Marsh, 21 November 1872</title><!-- Change -->
+                    <title type="alternative">Letter to John C.L. Marsh, 21 November 1872</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1872-11-21">21 November 1872</date><!-- Change -->
                     <placeName type="compositionPlace">South Central Africa</placeName><!-- Change -->
@@ -70,6 +66,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-10-13" who="#AW">Coding review</change>
             <change when="2015-10-10" who="#EM">Initial transcription and XML encoding</change>
         </revisionDesc>
@@ -82,13 +80,13 @@
 	<pb facs="liv_002626_0001" n="0001"/><!-- Change both @facs and @n -->
 	
 <opener>
-<lb/><dateline><placeName><region>South Central Africa</region></placeName> 
-<lb rend="right"/><date when="1872-11-21">21<hi rend="sup underline">st</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1872</date></dateline>
+<lb/><dateline><space extent="2" unit="chars"/><placeName><region>South Central <bloc>Africa</bloc></region></placeName> 
+<lb/><space extent="2" unit="words"/><space extent="2" unit="chars"/><date when="1872-11-21">21<hi rend="sup underline">st</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1872</date></dateline>
 <lb/>    
-<lb/><salute>My Dear Sir</salute><!-- Change line info as appropriate -->
+<lb/><space extent="2" unit="chars"/><salute>My Dear Sir</salute><!-- Change line info as appropriate -->
 </opener>
 
-<lb/><p rend="right">I was very
+<lb/><p><space extent="2" unit="words"/><space extent="1" unit="chars"/>I was very
 <lb/>much pleased by the arrival
 <lb/>at <placeName><settlement type="town">Unyanyembe</settlement></placeName> in <date when="1872-08">August
 <lb/>last</date> of your <bibl>note</bibl> dated
@@ -109,10 +107,10 @@
 
 <cb rend="vertical"/>
 <ab>
-<lb/>up a little for I am nearly toothless = a deadful old fogie
+<lb/>up a little for I am nearly toothless = a dreadful old fogie
 <lb/>but yours cordally, <persName>David Livingstone</persName>
-<lb rend="right"/>to <persName>Dr.
-<lb rend="right"/>L. Marsh</persName>
+<lb/><space extent="8" unit="words"/>to <space extent="2" unit="chars"/><persName>D<hi rend="sup double-underline">r</hi>
+<lb/><space extent="8" unit="words"/>L. Marsh</persName>
 </ab><!-- This is the closer. AW -->
 
 	<pb facs="liv_002626_0002" n="0002"/>
@@ -139,7 +137,7 @@
 <lb/>hurt a <term type="insect">flea</term> or murder a <term type="insect">louse</term>
 <lb/>but they are virtually the worst
 <lb/><orgName>cannibals</orgName> in all <placeName><bloc>Africa</bloc></placeName> - the
-<lb/><term type="tribe">Manyuema</term> women are very
+<lb/><orgName><choice><orig><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orig><reg>Maniema</reg></choice></orgName> women are very
 <lb/>pretty and are sold off often
 <lb/>as soon as captured for very
 
@@ -149,7 +147,7 @@
 <lb/>in chains to the coast - When trying
 <lb/>to follow down the main line
 <lb/>of drainage of the <placeName><geogName type="valley"><placeName><geogName type="river">Nile</geogName></placeName> valley</geogName></placeName>
-<lb/>I came among the <term type="tribe">Manyuema</term>
+<lb/>I came among the <orgName><choice><orig><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orig><reg>Maniema</reg></choice></orgName>
 <lb/>the reputed <orgName>cannibals</orgName> and was
 <lb/>thus in the comfortable want
 <lb/>of the <orgName>slaving coterie</orgName> - the men
@@ -161,7 +159,7 @@
 <lb/>the <orgName>ring</orgName> one <persName>Ludha Damji</persName> &amp;
 <lb/>he handed them off to another member
 <lb/>who in <choice><sic>turned</sic><corr>turn</corr></choice> handed them off
-<lb/>to one <term type="occupation">Shereef</term> who sold off all
+<lb/>to one <persName>Shereef</persName> who sold off all
 <lb/>except a few pounds worth for
 <lb/><orgName>slaves</orgName> and ivory at <placeName><settlement type="village">Ujiji</settlement></placeName> - He
 <lb/>wrote to <persName>Ludha</persName> that all my
@@ -171,7 +169,7 @@
 <lb/>was going <add place="below">^</add> <add place="above">too</add> when I returned <measure>300
 <lb/>miles</measure> &amp; secured your <bibl>note</bibl> with
 <lb/>a portion of the goods - the
-<lb/>plunderers were very quite - men
+<lb/>plunderers were very quiet - men
 
 	<pb facs="liv_002626_0004" n="0004"/>
 <lb/>employed at the consulate to report
@@ -188,12 +186,12 @@
 <lb/>that they were positively instructed 
 <lb/>not to follow but force me back
 <lb/>I have no opinion as to who did this
-<lb/>but they persisted in their statments
+<lb/>but they persisted in their statements
 <lb/>all over the country - I suspect
 <lb/>that they overacted their part - An
 <lb/><term type="nationality">American</term> gentleman <persName>Henry M. Stanley</persName>
 <lb/>sent by <persName>James Gordon Bennett</persName>
-<lb/>of the <bibl><orgName>New York Herald</orgName></bibl> nobly relieved
+<lb/>of the <bibl>New York Herald</bibl> nobly relieved
 <lb/>my wants &amp; proved himself a
 <lb/>good <orgName>Samaritan</orgName> truly - I am now
 <lb/>by his means enabled to go away

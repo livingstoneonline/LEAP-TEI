@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002005"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
 				<!-- Change title below -->
-                <title>Letter to William Sunley, 4 March 1864</title>
+                <title>Letter to William Sunley</title>
+ 				<title type="alternative">Letter to William Sunley, 4 March 1864</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
 				<!-- Add or remove <respStmt> as appropriate below -->
 				<!-- Change xml:id below -->
-                <respStmt xml:id="JM">
-					<!-- Change name below -->
-                    <name>Jared McDonald</name>
-					<!-- Change, remove, or add more <resp> as appropriate below -->
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="AA">
                     <name>Angela Aliff</name>
                     <resp>Transcription</resp>
@@ -32,6 +26,18 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
+                </respStmt>
+                <respStmt xml:id="JM">
+					<!-- Change name below -->
+                    <name>Jared McDonald</name>
+					<!-- Change, remove, or add more <resp> as appropriate below -->
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -39,7 +45,7 @@
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
 				<!-- Change date below if necessary -->
-                <date>2016</date>
+                <date>2017</date>
 				<!-- Change base file name below -->
                 <idno type="LEAP-ID">liv_002005</idno>
 				<!-- Change the license below if necessary -->
@@ -80,7 +86,7 @@
                 </msDesc>
                 <bibl type="sourceMetadata">
 					<!-- Change title below -->
-                    <title>Letter to William Sunley, 4 March 1864</title>
+                    <title type="alternative">Letter to William Sunley, 4 March 1864</title>
                     <author xml:id="DL">David Livingstone</author>
 					<!-- Change @when and date below -->					
                     <date type="composition" when="1864-03-04">18 August 1850</date>
@@ -104,6 +110,8 @@
 			<!-- Note that @who initials are taken from <respStmt> above -->
 			<!-- Add new <change> elements below as needed. -->
 			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2016-03-30" who="#AW">Integrating duplicate versions</change>
 			<change when="2015-12-10" who="#AW">Coding review</change>
 			<change when="2015-12-10" who="#JM">Proofreading</change>		
@@ -123,18 +131,18 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 <opener>
-<lb/><add place="margintop" rend="right gray small" hand="#U1">MS 8/10</add>
-<lb/><add place="margintop" rend="left gray small" hand="#U1">8-6-9</add>
-<lb/><dateline rend="right"><placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> <date when="1866-03-04">4 March 
-<lb/> 1866</date></dateline><!-- Change line info as appropriate -->
+<lb/><space extent="5" unit="words"/><add place="inspace" rend="gray small" hand="#U">MS 8/10</add>
+<lb/><dateline><add place="above marginleft" rend="gray" hand="#U">5-6-9</add> <space extent="1" unit="chars"/><placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> <date when="1866-03-04">4 March 
+<lb/><space extent="5" unit="words"/>1864</date></dateline><!-- Change line info as appropriate -->
 <lb/>    
 <lb/><salute>My Dear <persName>Sunley</persName></salute><!-- Change line info as appropriate -->
 </opener>
 
-<lb/><p>We left the
-<lb/><placeName><geogName type="river">Zambesi</geogName></placeName> on <date when="1866-02-15">15<hi rend="sup underline">th</hi></date> <choice><abbr>ult.</abbr><expan>ultimo</expan></choice><!--I'm not sure of date/ abbreviation. -AA -EM --><!-- 15th ultimo, meaning 15 February. JM -->
+<lb/><p><space extent="1" unit="words"/>We left the
+<lb/><placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> on <date when="1866-02-15">15<hi rend="sup underline">th</hi></date> <choice><abbr>ult.</abbr><expan>ultimo</expan></choice><!--I'm not sure of date/ abbreviation. -AA -EM --><!-- 15th ultimo, meaning 15 February. JM -->
 <lb/>The Ariel taking the
-<lb/>Lady Nyassa and the Orestes the Pioneer
+<lb/>Lady Nyassa and 
+<lb/>the Orestes the Pioneer
 <lb/>in tow. We had a
 <lb/>gale on the <date when="1866-02-16">16<hi rend="sup underline">th</hi></date> &amp; <date when="1866-02-17">17<hi rend="sup">th</hi></date> <!--Uncertain on dates...see previous comment. -AA -EM--><!-- OK. AW -->
 <lb/>and readied this
@@ -144,8 +152,7 @@
 <lb/>yet come in sight
 
 	<pb facs="liv_002005_0002" n="0002"/>
-<lb/><add place="margintop" rend="left gray small" hand="#U1">2/</add>
-<lb/>and possibly may
+<lb/><add place="above" rend="left gray small" hand="#U1">2/</add> and possibly may
 <lb/>have gone on to <placeName><region>Natal</region></placeName>
 <lb/><persName>Captain Chapman</persName>
 <lb/>had a great deal to
@@ -163,8 +170,7 @@
 <lb/>herself a good seaboat
 
 	<pb facs="liv_002005_0003" n="0003"/>
-<lb/><add place="margintop" rend="right gray small" hand="#U1">3</add>
-<lb/>though she did kick
+<lb/>though she did kick <add place="above" rend="gray" hand="#U1">3</add>
 <lb/>about &amp; no mistake</p>
 <lb/><p>I hear that you
 <lb/>are bent on going to
@@ -183,8 +189,7 @@
 <lb/>orphans &amp; widows 
 	
 	<pb facs="liv_002005_0004" n="0004"/>	
-<lb/><add place="margintop" rend="left gray small" hand="#U1">4</add>
-<lb/>who having been 
+<lb/><add place="above" rend="left gray small" hand="#U1">4</add> who having been 
 <lb/>attached to the <orgName>Mission</orgName>
 <lb/>by <persName><term type="occupation">Bishop</term> Mackenzie</persName>
 <lb/>we did not think
@@ -204,8 +209,7 @@
 <lb/>to our passengers	
 
 	<pb facs="liv_002005_0005" n="0005"/>	
-<lb/><add place="margintop" rend="center gray small" hand="#U1">5</add>	
-<lb/><add place="margintop" rend="right gray small" hand="#U1">MS 8/10</add>
+<lb/><space extent="1" unit="words"/><add place="inspace" rend="center gray small" hand="#U1">5</add> <space extent="1" unit="words"/><add place="inspace" rend="gray small" hand="#U1">MS 8/10</add>
 <lb/>The <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName>
 <lb/>unfortunately diminished
 <lb/>by three are in the
@@ -215,25 +219,25 @@
 <lb/>them safely to <placeName><geogName type="island">Johanna</geogName></placeName> -
 <lb/>but we were in
 <lb/>such a hurry at
-<lb/><unclear cert="low">Hongone</unclear> that no
+<lb/><placeName><geogName type="harbor">Kongone</geogName></placeName> that no
 <lb/>arrangements could
 <lb/>be made and fully
 <lb/>expected to find
 <lb/>the Pioneer here -
-<lb/>one man died of <term type="ailment">dysentery</term> - one was
+<lb/>one man died of 
+<lb/><term type="ailment">dysentery</term> - one was
 <lb/>taken off by a <term type="animal"><choice><orig>crockodile</orig><reg>crocodile</reg></choice></term>
 
 	<pb facs="liv_002005_0006" n="0006"/>
-<lb/><add place="margintop" rend="left gray small" hand="#U1">6</add>
-<lb/>close to the ship his
+<lb/><add place="above" rend="left gray small" hand="#U1">6</add> close to the ship his
 <lb/>companions all
 <lb/>standing by but not
 <lb/>stirring to help him
 <lb/>and the third - a
-<lb/><orgName>slave</orgName> imposed on <unclear cert="low">now</unclear>
+<lb/><orgName>slave</orgName> imposed on <unclear cert="low">us</unclear>
 <lb/>and a native of
 <lb/>the country about
-<lb/><placeName><geogName type="lake">Nyassa</geogName></placeName> ran away
+<lb/><placeName><geogName type="lake"><choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName> ran away
 <lb/>&amp; lived among his
 <lb/>people with three
 <lb/>or four wives - Before
@@ -245,14 +249,13 @@
 <lb/>a better report to give
 
 	<pb facs="liv_002005_0007" n="0007"/>
-<lb/><add place="margintop" rend="right gray small" hand="#U1">7</add>
-<lb/>of the conduct of the
+<lb/>of the conduct of the <add place="above" rend="gray" hand="#U1">7</add>
 <lb/>rest than what you
-<lb/>gave of the <orgName><placeName><geogName type="island">Johannese</geogName></placeName></orgName>
+<lb/>gave of the <orgName>Johannese</orgName>
 <lb/>generally to the <orgName><term type="occupation"><w>mission<supplied>-</supplied>
 <lb break="no"/>-ary</w></term> society</orgName> -</p>
 <lb/><p>We are going South
-<lb/>probably to <unclear cert="medium">Promtery</unclear>
+<lb/>probably to <placeName><settlement type="city">Bombay</settlement></placeName>
 <lb/>to sell Lady Nyassa
 <lb/>We are now getting a
 <lb/>yard &amp; square<gap extent="1" unit="chars" agent="overwriting"/> sail to
@@ -268,33 +271,31 @@
 <lb/>proclivities as
 
 	<pb facs="liv_002005_0008" n="0008"/>
-<lb/><add place="margintop" rend="left gray small" hand="#U1">8</add>
-<lb/>unwittingly <add place="above">March 4'</add> <w>communi<supplied>-</supplied>
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small brown">March 4'</add>
+<lb/><add place="above" rend="left gray small" hand="#U1">8</add> unwittingly <w>communi<supplied>-</supplied>
 <lb break="no"/>-cated</w> to me by his
-<lb/>brother at <add place="above">Livingstone</add> <placeName><settlement type="village">Tette</settlement></placeName> - He
-<lb/>certainly never <add place="above"><unclear cert="low">?? 11 March 1864</unclear></add> expected
+<lb/>brother at <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> - He
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small brown">Livingstone</add>
+<lb/>certainly never expected
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small brown"><choice><abbr>Rec<hi rend="sup">d</hi></abbr><expan>Received</expan></choice> 11 March 1864</add>
 <lb/>his brother to blab &amp;
 <lb/>shew up his big brother
 <lb/>as the very antipodes
 <lb/>of what he professed
 <lb/>himself to be to the cruizer's
 <lb/>the late <term type="occupation">Governor</term> of
-<lb/><placeName><region>Quillimane</region></placeName> died 20 
+<lb/><placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg> </choice></settlement></placeName> died 20 
 <lb/>days after landing in 
 <lb/><placeName><settlement type="city">Lisbon</settlement></placeName> - <persName><term type="occupation">Bishop</term> Tozer</persName>
-<lb/>was at <placeName><region>Quillimane</region></placeName> when
+<lb/>was at <placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg> </choice></settlement></placeName> when
 <lb/>we passed, in the act of
 <lb/>bolting - the Orestes says
 <lb/>that he never intended
 <lb/>to settle in the country
 <lb/><persName>Rae</persName> is writing so I will now
-<lb/>say Goodbye
-</p>
+<lb/>say Goodbye</p>
+<lb/><closer><space extent="3" unit="words"/><space extent="1" unit="chars"/><signed><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName></signed></closer><!-- Change as appropriate --> 
 
-<!-- If there is a letter or similar with a closer with content such as salute or signed -->
-<closer>
-<lb/><signed><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName></signed><!-- Change as appropriate --> 
-</closer>
 
             </div>
         </body>

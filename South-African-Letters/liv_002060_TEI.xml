@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002060"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Unknown, 1 September 1864</title><!-- Change -->
+                <title>Letter to Unknown</title>
+ 				<title type="alternative">Letter to Unknown, 1 September 1864</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="JM">
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
@@ -23,14 +24,19 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
-                <idno type="LEAP-ID">liv_001335</idno>
+                <date>2017</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_02060</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -51,7 +57,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Unknown, 1 September 1864</title><!-- Change -->
+                    <title type="alternative">Letter to Unknown, 1 September 1864</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1864-09-01">1 September 1864</date><!-- Change -->
                     <placeName type="compositionPlace">Hamilton</placeName><!-- Change -->
@@ -67,6 +73,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-26" who="#AW">Coding review</change>
             <change when="2015-05-07" who="#AA">Proofing</change>
         	<change when="2015-04-21" who="#JM">Initial transcription and XML encoding</change>
@@ -83,11 +91,11 @@
 	<!-- Start each page with a <pb> formatted as above -->
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 <opener>
-<lb/><add place="margintop" rend="left gray small" hand="#U"><!-- diagonal -->5-6-9</add> <dateline rend="center"><placeName><settlement type="town">Hamilton</settlement></placeName> <add place="margintop" rend="right gray small">MS 8/12</add>     
-<lb rend="right"/><date when="1864-09-01">1<hi rend="sup underline">st</hi> <choice><abbr>Sept</abbr><expan>September</expan></choice> 
-<lb rend="right"/>1864</date></dateline>
+<lb/><dateline><add place="above marginleft" rend="gray" hand="#U">5-6-9</add> <space extent="3" unit="chars"/><placeName><settlement type="city">Hamilton</settlement></placeName> <add place="above marginright" rend="gray" hand="#U">MS 8/12</add>     
+<lb/><space extent="3" unit="words"/><date when="1864-09-01">1<hi rend="sup underline">st</hi> <choice><abbr>Sept</abbr><expan>September</expan></choice> 
+<lb/><space extent="3" unit="words"/><space extent="3" unit="chars"/>1864</date></dateline>
 <lb/>
-<lb/><salute>My Dear Sir</salute><!-- Change line info as appropriate -->
+<lb/><space extent="2" unit="chars"/><salute>My Dear Sir</salute><!-- Change line info as appropriate -->
 </opener>
 <lb/><p><space extent="5" unit="chars"/>Absence in
 <lb/>the <placeName><region>Highlands</region></placeName> has
@@ -99,8 +107,8 @@
 <lb/>collected were <w>for-
 <lb break="no"/>warded</w> to <placeName><country>England</country></placeName>
 <lb/>at different times
-<lb/>and the <unclear cert="high"><placeName><settlement type="city">Bristol</settlement></placeName></unclear>
-<lb/>Museum has had    
+<lb/>and the <placeName><term type="nationality">British</term>
+<lb/>Museum</placeName> has had    
                 
     <pb facs="liv_002060_0002" n="0002"/>
 <lb/>the choice. The
@@ -120,15 +128,14 @@
 
     <pb facs="liv_002060_0003" n="0003"/>
 <lb/>nearly all animals.</p>
-<lb/><closer rend="center">I am &amp;c
+<lb/><closer><space extent="1" unit="words"/>I am &amp;c
 <lb/><signed><persName>David Livingstone</persName></signed></closer>
-<lb/>
-<lb/><postscript><p><choice><sic>a</sic><corr>A</corr></choice> large <term type="insect">louse</term> is
+<lb/><postscript><p rend="no-indent"><choice><sic>a</sic><corr>A</corr></choice> large <term type="insect">louse</term> is
 <lb/>met with on
 <lb/><term type="animal">Pelican</term>s - specimens
 <lb/>of all were sent
 <lb/>home. I failed to
-<lb/>secure the <term type="insect">leeches</term>
+<lb/>secure the <term type="animal">leeches</term>
 <lb/>in <term type="animal"><choice><sic>crockodile</sic><corr cert="high">crocodile</corr></choice></term>'s
 <lb/>mouths.</p></postscript>
 

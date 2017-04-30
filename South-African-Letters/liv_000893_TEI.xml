@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000893"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
 				<!-- Change title below -->
-                <title>Letter to Alfredo Duprat, 26 March 1856</title>
+                <title>Letter to Alfredo Duprat</title>
+ 				<title type="alternative">Letter to Alfredo Duprat, 26 March 1856</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
 				<!-- Add or remove <respStmt> as appropriate below -->
 				<!-- Change xml:id below -->
-                <respStmt xml:id="JM">
-					<!-- Change name below -->
-                    <name>Jared McDonald</name>
-					<!-- Change, remove, or add more <resp> as appropriate below -->
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="MB">
                     <name>Mary E. Borgo</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
+					<resp>Tagging Corrections</resp>
                 </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -40,7 +31,7 @@
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
 				<!-- Change date below if necessary -->
-                <date>2016</date>
+                <date>2017</date>
 				<!-- Change base file name below -->
                 <idno type="LEAP-ID">liv_000893</idno>
 				<!-- Change the license below if necessart -->
@@ -80,14 +71,14 @@
                 </msDesc>
                 <bibl type="sourceMetadata">
 					<!-- Change title below -->
-                    <title>Letter to Alfredo Duprat, 26 March 1856</title>
+                    <title type="alternative">Letter to Alfredo Duprat, 26 March 1856</title>
                     <author xml:id="DL">David Livingstone</author>
 					<!-- Change @when and date below -->					
                     <date type="composition" when="1856-03-26">26 March 1856</date>
 					<!-- Change place below -->
                     <placeName type="compositionPlace">Tete or Nyungwe on the Zambesi. Africa</placeName>
 					<!-- Change addressee below -->
-                    <persName type="addressee">Alfredo Duprat</persName>
+                    <persName type="addressee">Alfred Duprat</persName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -104,6 +95,9 @@
 			<!-- Note that @who initials are taken from <respStmt> above -->
 			<!-- Add new <change> elements below as needed. -->
 			<!-- Note that the most recent <change> should always be placed first, at the top -->
+ 			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
+			<change when="2016-12-29" who="#MB">Corrected minor error</change>
 			<change when="2015-10-21" who="#AW">Coding reveiw</change>
             <change when="2015-09-29" who="#MB">Initial transcription and XML encoding</change>
         </revisionDesc>
@@ -119,18 +113,18 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 <opener>
-<lb/><dateline rend="right"><placeName><settlement type="village">Tete</settlement></placeName>, or <placeName><settlement type="village">Nyungué</settlement></placeName> <add place="above" rend="gray" hand="#U">36</add>
-<lb/>on the <placeName><geogName type="river">Zambesi</geogName></placeName>, <placeName><bloc>Africa</bloc></placeName>
-<lb/><date when="1856-03-26">26<hi rend="sup underline">th</hi> March 1856</date></dateline> 
-<lb/><persName>Alfred Duptrat, Esquire</persName>
+<lb/><space extent="8" unit="words"/><space extent="2" unit="chars"/><add place="inspace" rend="gray" hand="#U">36</add>
+<lb/><dateline><space extent="5" unit="words"/><placeName><settlement type="town">Tete</settlement></placeName>, or <placeName><settlement type="village">Nyungué</settlement></placeName>
+<lb/><add place="inspace" rend="gray" hand="#U">7</add> <space extent="4" unit="words"/>on the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName>, <placeName><bloc>Africa</bloc></placeName>
+<lb/><space extent="5" unit="words"/><space extent="2" unit="chars"/><date when="1856-03-26">26<hi rend="sup underline">th</hi> March 1856</date></dateline> 
+<lb/><persName>Alfred Duprat, Esquire</persName>
 <!-- Change line info as appropriate -->
 <!-- Begin each line with <lb/> as here -->
-<lb/>    
-<lb/><salute rend="center">My Dear Sir</salute><!-- Change line info as appropriate -->
+<lb/><space extent="3" unit="words"/><salute>My Dear Sir</salute><!-- Change line info as appropriate -->
 </opener>
 
-<lb/><p rend="right">I begin another
-<lb/>notefor you without any intention of
+<lb/><p><space extent="5" unit="words"/>I begin another
+<lb/>note for you without any intention of
 <lb/>finishing it till I am farther down
 <lb/>the river, but the subject being still<!-- geog: Zambesi -->
 <lb/>fresh in my mind I like to "strike
@@ -162,7 +156,7 @@
 <lb/><term type="occupation">midwives</term> too. <space extent="3" unit="chars"/>To expect much <w>fro<gap extent="1" unit="chars"/><supplied>m</supplied></w>
 <lb/>such in the way of collecting except
 <lb/>for <w><subst><del>his</del><add place="over-text">their</add></subst></w> own table, is like thinking of 
-<lb/>bolting a castle gate with a <term type="plant_foodstuff">boiled carro<gap extent="1" unit="chars"/><supplied cert="medium">t</supplied></term>
+<lb/>bolting a castle gate with a <term type="foodstuff">boiled <term type="plant_foodstuff">carro<gap extent="1" unit="chars"/><supplied cert="medium">t</supplied></term></term>
 <lb/>a definition of "nonsense" I have <w>somew<gap extent="2" unit="chars"/><supplied>here</supplied></w>
 <lb/>seen. <space extent="2" unit="chars"/>The <orgName>Jesuits</orgName> did a great deal
 <lb/>however, but whoever heard of a 
@@ -174,8 +168,8 @@
 <lb/>I landed on its shores 16 years ago.
 <lb/>you need expect nothing from me
 <lb/>then, but the present <term type="occupation">Governor</term> of 
-<lb/><placeName><settlement type="village">Tete</settlement><!-- Is Tete a city or a village? MB --></placeName>, <persName><term type="occupation">Mayor</term> Augusto d' Araujo
-<lb/>Secard</persName>, will very gladly collect or
+<lb/><placeName><settlement type="town">Tete</settlement><!-- Is Tete a city or a village? MB --></placeName>, <persName><term type="occupation">Mayor</term> Augusto d' Araujo
+<lb/><choice><orig>Secard</orig><reg>Sicard</reg></choice></persName>, will very gladly collect or
 <lb/>cause to be collected - <del><gap extent="2" unit="chars"/></del> the <term type="plant_foodstuff">seeds of 
 <lb/>all the edible fruits</term> in this vicinity
 <lb/>and I promise in your name of
@@ -197,10 +191,10 @@
 <lb/>taste is that of a pear but it does not 
 <lb/>gratify one like that fruit by having 
 <lb/>enough of the fleshy part. It is <w>referr<gap agent="hole" extent="2" unit="chars"/><supplied>ed</supplied></w>
-<lb/>to at the end of <bibl><persName>Borodick</persName>'s work</bibl>. 
+<lb/>to at the end of <bibl><persName>Bowdich</persName>'s work</bibl>. 
 <lb/>Others are equally good and contain
 <lb/>saccharine matter enough to 
-<lb/>yield <term type="medicament"><term type="foodstuff">aquardiente</term></term><!-- Is this a foodstuff? Or can it also be used for medicine? MB --> by distillation
+<lb/>yield <term type="medicament"><term type="foodstuff"><choice><sic>aquardiente</sic><corr>aguardiente</corr></choice></term></term><!-- Is this a foodstuff? Or can it also be used for medicine? MB --> by distillation
 <lb/>with pots and a gun barrel - a process
 <lb/>the knowledge of which among the
 <lb/><orgName>natives</orgName> does not tend to promote
@@ -215,17 +209,17 @@
 <lb/>this when an opportunity of sending a 
 <lb/>packet happens I shall now conclude
 <lb/>begging to be excused for again troubling
-<lb/>you and</p> <closer><salute>presenting my cordial salutatio<gap extent="1" unit="chars"/><supplied cert="high">n</supplied></salute>
-<lb rend="right"/><signed><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></signed></closer>
-<lb/><postscript><p><seg rend="left">P.S.</seg> I shall either bring or send the seeds.</p></postscript>
+<lb/>you and presenting my cordial salutatio<gap extent="1" unit="chars"/><supplied cert="high">n</supplied></p>
+<lb/><p rend="no-indent"><space extent="6" unit="words"/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
+<lb/><postscript><p rend="no-indent"><seg rend="left">P.S.</seg> I shall either bring or send the seeds.</p></postscript>
 		</div>
 
 		<div>
 	<cb rend="vertical"/>
-	<ab><address rend="right">
-<lb/><addrLine><persName>Alfred Duprat, Esquire</persName></addrLine>
-<lb/><addrLine>H. F. M's Commissioner</addrLine>
-<lb/><addrLine/><hi rend="underline"><placeName><region>Cape of Good Hope</region></placeName></hi>
+	<ab><address>
+<addrLine><persName>Alfred Duprat, Esquire</persName></addrLine>
+<addrLine><space extent="1" unit="words"/>H. F. M's Commissioner</addrLine>
+<addrLine><space extent="2" unit="words"/><hi rend="double-underline"><placeName><region>Cape of Good Hope</region></placeName></hi></addrLine><!-- fixed hi rend issue to make this a valid TEI document. MB -->
 <!-- wax seal -->
 	</address></ab>
 
@@ -238,8 +232,8 @@
 <lb/>collected at different times upwards of 30
 <lb/>kinds of <term type="plant_foodstuff">fruits</term> and <term type="plant_foodstuff">berries</term>. I exclude from <w>the<gap extent="1" unit="chars"/><supplied>m</supplied></w>
 <lb/>those which though eaten are <w><choice><sic>disagreable</sic><corr>disagreeable</corr></choice></w>. <w>On<gap extent="1" unit="chars"/><supplied>e</supplied></w>
-<lb/>the <term type="occupation">Major</term> now sends is used for making a 
-<lb/><term type="foodstuff">sweet meat</term> or <term type="foodstuff">preserve</term> as <term type="plant_foodstuff">almonds</term> are. 
+<lb/>the <term type="occupation">Mayor</term> now sends is used for making a 
+<lb/><term type="foodstuff">sweet meat</term> or <term type="foodstuff">preserve</term> as <term type="foodstuff">almonds</term> are. 
 </p>
 			</div>
         </body>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001193"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Thomas Baines, 28 January 1858</title><!-- Change -->
+                <title>Letter to Thomas Baines</title>
+ 				<title type="alternative">Letter to Thomas Baines, 28 January 1858</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="JM">
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
@@ -23,14 +24,19 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
-                <idno type="LEAP-ID">liv_001335</idno>
+                <date>2017</date><!-- Change if necessary -->
+                <idno type="LEAP-ID">liv_001193</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -51,7 +57,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to </title><!-- Change -->
+ 					<title type="alternative">Letter to Thomas Baines, 28 January 1858</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1858-01-28">28 January 1858</date><!-- Change -->
                     <placeName type="compositionPlace">Manchester</placeName><!-- Change -->
@@ -67,6 +73,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-22" who="#AW">Coding review</change>
             <change when="2015-05-06" who="#AA">Proofing</change>
         	<change when="2015-04-13" who="#JM">Initial transcription and XML encoding</change>
@@ -84,14 +92,15 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 <opener>
-<lb/><dateline rend="right"><placeName><settlement type="town">Manchester</settlement></placeName> <add place="margintop" rend="right gray small" hand="#U">MS 004</add>
-<lb/><date when="1858-01-28">28<choice><abbr>Jan y</abbr><expan>January</expan></choice>1858</date></dateline> 
+<lb/><space extent="2" unit="words"/><space extent="3" unit="chars"/><add place="inspace" rend="gray small" hand="#U">MS 004</add>
+<lb/><dateline><space extent="1" unit="words"/><placeName><settlement type="city">Manchester</settlement></placeName>
+<lb/><space extent="1" unit="words"/><space extent="3" unit="chars"/><date when="1858-01-28">28 <choice><abbr>Jan y</abbr><expan>January</expan></choice>1858</date></dateline> 
 <lb/><salute>Sir</salute><!-- Change line info as appropriate -->
 </opener>
-<lb/><p><space extent="2" unit="chars"/>I have ordered
-<lb/>about <measure>1600 <unclear cert="medium"><choice><abbr>lbs</abbr><expan>pounds</expan></choice></unclear></measure>
+<lb/><p>I have ordered
+<lb/>about <measure>1600 <choice><abbr>lbs</abbr><expan>pounds</expan></choice></measure>
 <lb/>of beads from 
-<lb/><persName><choice><abbr>Ms</abbr><expan>Miss</expan></choice>Kendal</persName> of
+<lb/><persName>Ms Kendal</persName> of
 <lb/>5 Leadan Mall <choice><abbr>St</abbr><expan>Street</expan></choice>
 <lb/>City - to be packed
 <lb/>in cases of    
@@ -110,9 +119,11 @@
 <lb/>cases are to
 
     <pb facs="liv_001193_0003" n="0003"/>
-<lb/>be marked ♁1 <!-- There is a symbol above the number that appears to be a "plus" sign. JM --><!-- See character added. AW --><add place="margintop" rend="right gray small" hand="#U">MS 004</add>
-<lb/>♁2 <!-- The same symbol appears above this number. JM --> &amp;c <persName>D<hi rend="sup">r</hi>
-<lb/>Livingstones</persName>
+<lb/><space extent="2" unit="words"/><space extent="3" unit="chars"/><add place="inspace" rend="gray small" hand="#U">MS 004</add>
+<lb/>be marked ♁1 <!-- There is a symbol above the number that appears to be a "plus" sign. JM --><!-- See character added. AW -->
+<lb/>♁2 <!-- The same symbol appears above this number. JM --> &amp;c <choice><sic><persName>D<hi rend="sup">r</hi>
+<lb/>Livingstone</persName>s</sic><corr><persName>D<hi rend="sup">r</hi>
+<lb/>Livingstone</persName>'s</corr></choice>
 <lb/>expedition. I
 <lb/>would like
 <lb/>you to call at
@@ -137,7 +148,8 @@
 <lb/><unclear cert="low">Laurds</unclear> stores at
  
     <pb facs="liv_001193_0005" n="0005"/>
-<lb/><placeName><unclear cert="medium">Borken</unclear> head</placeName> for <add place="margintop" rend="right gray small" hand="#U">MS 004</add>
+<lb/><space extent="2" unit="words"/><space extent="3" unit="chars"/><add place="inspace" rend="gray small" hand="#U">MS 004</add>
+<lb/><placeName><unclear cert="medium">Borken</unclear> head</placeName> for
 <lb/>embarkation
 <lb/>on the <date when="1858-02-15">15<hi rend="sup underline">th</hi></date>. Please
 <lb/>take a note of
@@ -145,13 +157,13 @@
 <lb/>additional bale
 <lb/>marked <unclear cert="medium">I</unclear>. A. T.</p>
 <lb/><p><space extent="2" unit="chars"/>A packet of
-<lb/>preserved <term type="plant">vegetables</term>
+<lb/><term type="foodstuff">preserved vegetables</term>
 <lb/>was left at
 <lb/><persName>Sir Morton Peto</persName>'s    
     
     <pb facs="liv_001193_0006" n="0006"/>
 <lb/>for samples. 
-<lb/>Captain <persName><unclear>Bedinfeld</unclear></persName>
+<lb/>Captain <persName><unclear><choice><sic>Bedinfeld</sic><corr>Bedingfeld</corr></choice></unclear></persName>
 <lb/>will order <del type="strikethrough">them</del>
 <lb/>some from the
 <lb/>same parties
@@ -184,10 +196,12 @@
 <lb/>month. I shall
 <lb/>be in <placeName><settlement type="city">London</settlement></placeName>
 <lb/>on Saturday.</p>
-<lb/><closer rend="center"><salute>And am &amp;c</salute>
-<lb/><persName>David Livingstone</persName></closer>
-<lb/><space extent="5" unit="lines" dim="vertical"/>
-<lb/><trailer><persName>M<hi rend="sup underline">r</hi> Braines</persName></trailer>
+<lb/><closer><space extent="1" unit="words"/><salute>and am &amp;c</salute>
+<lb/><space extent="1" unit="chars"/><persName>David Livingstone</persName></closer>
+<lb/>
+<lb/>
+<lb/>
+<lb/><trailer><persName>M<hi rend="sup underline">r</hi> <choice><abbr>T.</abbr><expan>Thomas</expan></choice> Baines</persName></trailer>
 <!-- The name "Mr. T. Baines" appears in the bottom left-hand corner of this page. I am not sure how to encode this. JM --><!-- Fixed. AW -->
 
 

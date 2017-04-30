@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000896">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000896"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Edmund Gabriel, [2 March-3 April 1856]</title><!-- Change -->
+                <title>Letter to Edmund Gabriel</title>
+ 				<title type="alternative">Letter to Edmund Gabriel, [2 March-3 April 1856]</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
                     <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
                 </respStmt>
-				<respStmt xml:id="JM">
-                    <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+					<resp>Formatting review</resp>
                 </respStmt>
                 <respStmt xml:id="AA">
                     <name>Angela Aliff</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
                 </respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_000896</idno><!-- Change as needed -->
             </publicationStmt>
             <sourceDesc>
@@ -56,7 +57,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Edmund Gabriel, [2 March-3 April 1856]</title><!-- Change -->
+                    <title type="alternative">Letter to Edmund Gabriel, [2 March-3 April 1856]</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1856-03-02">2 March 1856</date><!-- Change -->
                     <placeName type="compositionPlace">Tete (Mozambique : Province)</placeName><!-- Change -->
@@ -67,10 +68,12 @@
         <profileDesc>
             <langUsage>
                 <language ident="en">English</language>
-				
+				<language ident="und">Undetermined</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-11-12" who="#AW">Coding review</change>
             <change when="2015-11-11" who="#AA">Proofing</change>
 			<change when="2015-11-05" who="#AW">Initial coding revew</change>
@@ -83,7 +86,8 @@
             <div>
                
 	<pb facs="liv_000896_0001" n="0001"/><!-- Change both @facs and @n -->
-<lb/><p><add place="margintop" rend="gray" hand="#U">5</add>I make a few addenda as they occur to
+<lb/><p rend="no-indent"><space extent="3" unit="words"/><add place="inspace" rend="gray" hand="#U"><metamark/>5</add>
+<lb/>I make a few addenda as they occur to
 <lb/>me in the hope that you may be induced
 <lb/>by <unclear cert="low">insnoozy</unclear> ability some evening to glance
 <lb/>over them. <space extent="3" unit="chars"/>Though I make an offer
@@ -99,14 +103,14 @@
 <lb/>of pride in offering to do what they <w>them-
 <lb break="no"/>-selves</w> desired but could never accomplish
 <lb/>I have got two plants - one like but I think
-<lb/>superior to <term type="plant"><unclear cert="medium">Ifi</unclear></term> the succulent part can
+<lb/>superior to <term type="plant"><unclear cert="medium"><foreign xml:lang="und">Ifi</foreign></unclear></term> the succulent part can
 <lb/>be knocked off at once leaving fibres
 <lb/>which when tries their strength seem
 <lb/>as if they could cut the fingers - it can
 <lb/>be made into fine thread and is a kind
 <lb/>of thornless aloes. Here they name it
-<lb/><term type="plant">Congé or Konjé</term> - Another named
-<lb/><term type="plant">Buanze</term> is very good strong lint.</p>
+<lb/><term type="plant"><foreign xml:lang="und">Congé</foreign> or <foreign xml:lang="und">Konjé</foreign></term> - Another named
+<lb/><term type="plant">Buaze</term> is very good strong lint.</p>
 
 <cb rend="vertical"/>
 <ab>
@@ -125,7 +129,7 @@
 <lb/><persName>Earl of Clarendon</persName><!-- Not sure how this should have been marked as it is a specific Title -EM --><!-- Fixed. AW --> without the help of 
 <lb/>any one like yourself. <space extent="1" unit="chars"/>I wish to introduce
 <lb/>the <term type="plant">Buaze</term> to <placeName><country>India</country></placeName> it would be a benefit
-<lb/>to the poort population for I think it
+<lb/>to the poor population for I think it
 <lb/>may be found to grow in uncultivated
 <lb/>tracts of country - I mean to collect
 <lb/>some <term type="plant">papyrus</term> too - I <choice><sic>dont</sic><corr>don't</corr></choice> care though
@@ -134,14 +138,14 @@
 <lb/>fellow men - It is like our Heavenly
 <lb/>Father to try and do good to the unthankful
 <lb/>and evil. <space extent="1" unit="chars"/>If the <term type="plant">Buaze</term> succeeds in
-<lb/><placeName><country>India</country></placeName> surely the <orgName>Portuguese</orgName> here <choice><sic>wont</sic><corr>won't</corr></choice>
-<lb/>lag behind. <term type="occupation">Mayor</term> <persName>Secard</persName> the <term type="occupation"><choice><abbr>Gov<hi rend="sup">r</hi></abbr><expan>Governor</expan></choice></term> here
+<lb/><placeName><country>India</country></placeName> surely the <term type="people">Portuguese</term> here <choice><sic>wont</sic><corr>won't</corr></choice>
+<lb/>lag behind. <term type="occupation">Mayor</term> <persName><choice><orig>Secard</orig><reg>Sicard</reg></choice></persName> the <term type="occupation"><choice><abbr>Gov<hi rend="sup">r</hi></abbr><expan>Governor</expan></choice></term> here
 <lb/>seems anxious to promote the welfare of
 <lb/>this fine but spoiled country - He
 <lb/>advises me to secure a licence to go back
-<lb/>again from the <unclear cert="medium"><orgName><choice><abbr>Port.<hi rend="sup">e</hi></abbr><expan>Portuguese</expan></choice></orgName></unclear> <term type="occupation"><choice><abbr>Gov<hi rend="sup underline">r</hi></abbr><expan>Government</expan></choice></term> <!-- I wondered if this is actually Government. -AA --><!-- Yes. AW --> as many
+<lb/>again from the <orgName><term type="nationality"><choice><abbr>Port.<hi rend="sup">e</hi></abbr><expan>Portuguese</expan></choice></term> <choice><abbr>Gov<hi rend="sup underline">r</hi></abbr><expan>Government</expan></choice></orgName> <!-- I wondered if this is actually Government. -AA --><!-- Yes. AW --> as many
 <lb/>have been refused permission to ascend
-<lb/>the <placeName><geogName type="river">Zambesi</geogName></placeName>. The knowledge <persName>Lord <choice><abbr>C<hi rend="sup underline">n</hi></abbr><expan>Clarendon</expan></choice></persName>
+<lb/>the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName>. The knowledge <persName>Lord <choice><abbr>C<hi rend="sup underline">n</hi></abbr><expan>Clarendon</expan></choice></persName>
 
 	<pb facs="liv_000896_0003" n="0003"/>
 <lb/>possesses about my labours may be
@@ -154,13 +158,13 @@
 <lb/>faults - It will scarcely be worth your
 <lb/>while ordering it now as you will soon
 <lb/>go home - <space extent="1" unit="chars"/>Remember to look at
-<lb/><persName><choice><abbr>D<hi rend="sup underline">r</hi></abbr><expan>Doctor</expan></choice> Smith</persName>'s birds in some library - His
+<lb/><persName>D<hi rend="sup underline">r</hi> Smith</persName>'s birds in some library - His
 <lb/>animals are not good - But those
 <lb/>of <persName>Harris</persName>. The large plates, are excellent
 <lb/>Also <unclear><term type="animal">Angus</term></unclear> plates of savage <orgName>Caffres</orgName>.
 <lb/>I never saw <persName>Audubon</persName> or <persName>Wilson</persName>'s
 <lb/><term type="nationality">American</term> <term type="animal">birds</term>. Some of your <w>acquaint<supplied>-</supplied>
-<lb break="no"/>-ances</w> may be seen in <persName>Le Vaillant's</persName> 
+<lb break="no"/>-ances</w> may be seen in <persName>Le Vaillant</persName>'s 
 <lb/>plates - <space extent="2" unit="chars"/>This, when you are lounging
 <lb/>some time in <bloc>Europe</bloc>.  you will
 <lb/>remember to do -  There are <term type="nationality">British</term>
@@ -193,11 +197,9 @@
 <lb/>you in all your future life and
 <lb/>lead you to his heavenly kingdom is
 <lb/>the hearts' desire of yours Ever</p>
+<lb/><p rend="no-indent"><space extent="3" unit="words"/>affectionately &amp; Truly</p><!-- Change as appropriate -->
+<lb/><p rend="no-indent"><space extent="5" unit="words"/><persName>David Livingstone</persName></p><!-- Change as appropriate --> 
 
-<closer>
-<lb/><salute>affectionately &amp; Truly</salute><!-- Change as appropriate -->
-<lb/><signed><persName>David Livingstone</persName></signed><!-- Change as appropriate --> 
-</closer>
 
 
             </div>

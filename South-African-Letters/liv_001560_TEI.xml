@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001560"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
 				<!-- Change title below -->
-                <title>Letter to Robert Gray, 8th April 1860</title>
+                <title>Letter to Robert Gray</title>
+ 				<title type="alternative">Letter to Robert Gray, 8th April 1860</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
 				<!-- Add or remove <respStmt> as appropriate below -->
 				<!-- Change xml:id below -->
-                <respStmt xml:id="JM">
-                    <name>Jared McDonald</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
@@ -31,6 +22,11 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -38,7 +34,7 @@
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
 				<!-- Change date below if necessary -->
-                <date>2016</date>
+                <date>2017</date>
 				<!-- Change base file name below -->
                 <idno type="LEAP-ID">liv_001560</idno>
 				<!-- Change the license below if necessart -->
@@ -77,7 +73,7 @@
                 </msDesc>
                 <bibl type="sourceMetadata">
 					<!-- Change title below -->
-                    <title>Letter to Robert Gray, 8 April 1860</title>
+                    <title type="alternative">Letter to Robert Gray, 8 April 1860</title>
                     <author xml:id="DL">David Livingstone</author>
 					<!-- Change @when and date below -->					
                     <date type="composition" when="1860-04-08">8 April 1860</date>
@@ -101,6 +97,8 @@
 			<!-- Note that @who initials are taken from <respStmt> above -->
 			<!-- Add new <change> elements below as needed. -->
 			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-09-10" who="#AW">Coding review</change>
             <change when="2015-09-07" who="#EM">Initial transcription and XML encoding</change>
         </revisionDesc>
@@ -115,14 +113,16 @@
 	<pb facs="liv_001560_0001" n="0001"/>
 
 <opener>
-<lb/><add place="above marginright" hand="#U">ms 8/6</add><dateline rend="right"><placeName><settlement type="village">Senna</settlement></placeName> <date when="1860-04-08">8<hi rend="sup underline">th</hi> April 1860</date></dateline>
+<lb/><space extent="8" unit="words"/><add place="inspace" rend="gray small" hand="#U">ms 8/6</add><dateline rend="right">
+<lb/><space extent="5" unit="words"/><placeName><settlement type="village"><choice><orig>Senna</orig><reg>Sena</reg></choice></settlement></placeName> <date when="1860-04-08">8<hi rend="sup underline">th</hi> April 1860</date></dateline>
 <lb/>
 <lb/>
-<lb/><add place="above" hand="#U" rend="gray">5-6-9</add> <hi rend="underline">Private</hi>    
-<lb/><salute rend="center">My Dear Sir</salute><!-- Change line info as appropriate -->
+<lb/><add place="inspace" hand="#U" rend="gray small diagonal">5-6-9</add> 
+<lb/><hi rend="underline">Private</hi>    
+<lb/><space extent="2" unit="words"/><salute rend="center">My Dear Sir</salute><!-- Change line info as appropriate -->
 </opener>
-<lb/><p rend="right">On recieving your
-<lb/><bibl>letter</bibl> of <date when="1859-03-31">31<hi rend= "sup underline">nd</hi> March 1859</date> I wrote at once
+<lb/><p><space extent="4" unit="words"/>On recieving your
+<lb/><bibl>letter</bibl> of <date when="1859-03-31">31<hi rend="sup underline">nd</hi> March 1859</date> I wrote at once
 <lb/>from <placeName><settlement type="village">Mazaro</settlement></placeName> in reply but being hurried
 <lb/>by the departure of the mail, I omitted
 <lb/>some things which considering that
@@ -131,7 +131,7 @@
 <lb/>it may be well for me now to supply.</p>
 <lb/><p>I had no reason whatever for
 <lb/>not wishing your mission to go into
-<lb/>the <placeName><region><term type="tribe">Makololo</term> country</region></placeName>, except that the
+<lb/>the <placeName><region><term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> country</region></placeName>, except that the
 <lb/>way having lately been opened by the 
 <lb/>river <placeName><geogName type="river">Shire</geogName></placeName> to a much more inviting
 <lb/>field, and one specially adapted for
@@ -140,19 +140,19 @@
 <lb/>soon as you became aware of its
 <lb/>features it would at once secure
 <lb/>your preference -  I entertained a strong</p>
-
-<cb rend="vertical"/><ab>I believe that <persName>Don Pedro</persName> the king would favour the mission and our
-<lb/>own <persName>Prince Consort</persName> would use his influence with him, I am &amp;c] <add hand="#U" rend="gray">]</add>
-<lb rend="right"/><persName>David Livingstone</persName></ab>
+<lb/>
+<lb/><cb rend="vertical"/><ab>I believe that <persName>Don Pedro</persName> the king would favour the mission and our
+<lb/>own <term type="occupation"><persName>Prince Consort</persName></term> would use his influence with him, I am &amp;c] <add hand="#U" rend="gray">]</add>
+<lb/><space extent="12" unit="words"/><persName>David Livingstone</persName></ab>
 		
 	<pb facs="liv_001560_0002" n="0002"/>
-<lb/><p>conviction too, that the <orgName><term type="faith">Church of England</term></orgName>
+<lb/><p rend="no-indent">conviction too, that the <orgName>Church of England</orgName>
 <lb/>ought there to step into the van. There is a
 <lb/>difficulty in the way to each sphere of
 <lb/>labour.  The <placeName><geogName type="river">Shire</geogName></placeName> has <measure>33 miles</measure> of
 <lb/>cataracts and there the passage must<!-- geog: cataracts of Shire -->
-<lb/>alaways be by land - The rapids of <placeName><geogName type="rapids"><w>Kebra-
-<lb break="no"/>-basa</w></geogName></placeName> are about the same length and at
+<lb/>alaways be by land - The rapids of <placeName><geogName type="rapid"><choice><orig><w>Kebra-
+<lb break="no"/>-basa</w></orig><reg>Cahora Bassa</reg></choice></geogName></placeName> are about the same length and at
 <lb/>present we believe that a powerful steamer
 <lb/>may go up during the period of flood,
 <lb/>but that is during only three or four
@@ -162,14 +162,14 @@
 <lb/>with an unreduced language, and among
 <lb/>a people who are entirely ignorant of what
 <lb/><term type="occupation"><orgName>missionaries</orgName></term> intend, are a litle more<!-- Heather, should we use <orgName> here? AW -->
-<lb/>formidable than those of the <placeName><region><term type="tribe">Makololo</term> country</region></placeName>
+<lb/>formidable than those of the <placeName><region><term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> country</region></placeName>
 <lb/>but then the field is you own, and
 <lb/>if your <orgName>University men</orgName> have not the pluck
 <lb/>and desire to go beyond other men's
 <lb/>line of things made ready to their hands,
 <lb/>they are not the stuff I thought them made of.</p>
 <lb/><p>A steamer may take them at once past
-<lb/>the unfriendly coast tribes.  The <term type="tribe"><unclear>Borderors</unclear></term>-
+<lb/>the unfriendly coast tribes.  The <orgName><unclear>Borderors</unclear></orgName>-
 <lb/>and into the land of a comparatively mild
 <lb/>race.  They have no desire to hear the
 <lb/>gospel for they know nothing about
@@ -188,8 +188,8 @@
 <lb/> but these highlands will prove a blessing<!-- geog: -->
 <lb/>to our own over crowded population
 <lb/>at home, nor have the least <w>mis-
-<lb break="no"/>giving</w> as to the ability of the <orgName><term type="faith"><term type="people">English
-<lb/>church</term></term></orgName> to become a double blessing -
+<lb break="no"/>giving</w> as to the ability of the <orgName><term type="nationality">English</term>
+<lb/>church</orgName> to become a double blessing -
 <lb/>by engaging in the work with a will -
 <lb/>To me it seems as if she never had
 <lb/>such an opportunity of entering on a
@@ -198,7 +198,7 @@
 <lb/>everywhere -</p>
 <lb/><p>In ventureing to advise the mission
 <lb/>not to leave the <placeName><region>Cape</region></placeName> till <date when="1860-11">November</date> when
-<lb/>we return from the <placeName><region><term type="tribe">Makololo</term> country</region></placeName>,
+<lb/>we return from the <placeName><region><term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> country</region></placeName>,
 <lb/>or until they have a steamer as a temporary
 <lb/>home, I do not assume that we are
 <lb/>indispensible in any respect.  We can
@@ -222,21 +222,21 @@
 <lb/>invaluable in the cure of the complaint,
 <lb/>but <add place="above">it</add> never wards off an attack.  <term type="foodstuff">Preserved
 <lb/>meats</term> are indispensibly necessary, and 
-<lb/>these with <term type="foodstuff">coffee</term> <term type="foodstuff">Tea</term> &amp; <term type="foodstuff">sugar</term> - and abundance
+<lb/>these with <term type="foodstuff">coffee</term> <term type="plant_foodstuff">Tea</term> &amp; <term type="foodstuff">sugar</term> - and abundance
 <lb/>of <term type="foodstuff">biscuits</term> (or carefully preserved  <term type="foodstuff">flour</term>)
 <lb/>are all the essentials -</p>
-<lb/><p><term type="insect">Mosquisto</term> curtains or materials to 
+<lb/><p><term type="insect">Mosquito</term> curtains or materials to 
 <lb/>make them with, are invaluable for the 
-<lb/><placeName><geogName type="delta">Delta</geogName></placeName> and <placeName><region>lower <placeName><geogName type="river">Shire</geogName></placeName></region></placeName> - The invention deserves
+<lb/><placeName><region><geogName type="delta">Delta</geogName><!-- geog: of lower Shire --> and <placeName><geogName type="river">lower Shire</geogName></placeName></region></placeName> - The invention deserves
 <lb/>a statue in <placeName>Westminster Abbey</placeName>.  On the <placeName><region>Highlands</region></placeName>
 <lb/>there are few or no<subst><del>ne</del><add place="over-text">^</add></subst> <add place="above"><term type="insect">mosquitos</term></add> - On the banks of
 <lb/><placeName><geogName type="lake">Shirwa</geogName></placeName> many, but few on those of <placeName><geogName type="lake">Lake <lb/>Nyasa</geogName></placeName>-</p>
-<lb/><p><add place="inline" hand="#U" rend="gray">(</add>[I have written to <persName>Sir George Gray</persName> about
+<lb/><p><add place="inline" hand="#U" rend="gray">(</add>[I have written to <persName>Sir George <choice><orig>Gray</orig><reg>Grey</reg></choice></persName> about
 <lb/>the entrance of the <term type="people">French</term>. I am in doubts as
 <lb/>to whether we ought to ask liberty from the
 <lb/><term type="people">Portuguese</term> to go up the <placeName><geogName type="river">Shire</geogName></placeName>. Possibly it
 <lb/>may be the better plan to go and simply 
-<lb/>notify to their <orgName>Government</orgName> of the fact.
+<lb/>notify to <orgName>their Government</orgName> of the fact.<!-- orgName: Portuguese Government -->
 <lb/>They already prefer anxiety to civilize the 
 <lb/><orgName>natives</orgName>. The Lakes are not in their dominion.</p><!-- geog: Shirwa and Nyassa -->
 

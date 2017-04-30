@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001538">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001538"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Richard Thornton</title> <!--I've been using the titles rather than the alternate titles from MODS in this spot. I hope that's correct. -AA -->
+                <title>Letter to Richard Thornton</title>
+ 				<title type="alternative">Letter to Richard Thornton, 8 February 1860</title><!--I've been using the titles rather than the alternate titles from MODS in this spot. I hope that's correct. -AA -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
-                <respStmt xml:id="JM">
-                    <name>Jared McDonald</name>
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="AA">
                     <name>Angela Aliff</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
                 </respStmt>
+                <respStmt xml:id="JM">
+                    <name>Jared McDonald</name>
+                    <resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date>
+                <date>2017</date>
                 <idno type="LEAP-ID">liv_001538</idno>
             </publicationStmt>
             <sourceDesc>
@@ -50,7 +56,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Richard Thornton, 8 February 1860</title>
+                    <title type="alternative">Letter to Richard Thornton, 8 February 1860</title>
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1860-02-08">8 February 1860</date>
                     <placeName type="compositionPlace">Tette</placeName>
@@ -66,6 +72,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-26" who="#AW">Coding review</change>
 			<change when="2015-05-15" who="#JM">Proofreading</change>
             <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>            
@@ -80,15 +88,14 @@
                
 	<pb facs="liv_001538_0001" n="0001"/>
 <opener>
-<lb/><dateline rend="right"><placeName><settlement type="town">Tette</settlement></placeName> <date when="1860-02-08">8<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice>
-<lb/> 1860</date></dateline>
-<lb/>    
+<lb/><dateline><space extent="1" unit="words"/><placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> <date when="1860-02-08">8<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice>
+<lb/><space extent="3" unit="words"/>1860</date></dateline>
 <lb/> 	
 <lb/><salute><persName>M<hi rend="sup underline">r</hi> Thornton</persName>
-<lb/>Dear Sir</salute>
+<lb/><space extent="2" unit="words"/>Dear Sir</salute>
 </opener>
 
-<lb/><p rend="right">Should you
+<lb/><p><space extent="1" unit="words"/>Should you
 <lb/>wish any medicines
 <lb/>by either speaking
 <lb/>to <persName>D<hi rend="sup underline">r</hi> Kirk</persName> or
@@ -99,21 +106,19 @@
 	<pb facs="liv_001538_0002" n="0002"/>
 <lb/>you with whatever
 <lb/>we can spare</p>
-
-<closer>
-<lb/><salute>I am &amp;c<!--and cetera? -AA --></salute>
-<lb/><signed><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName></signed>
+<lb/><p>I am &amp;c<!--and cetera? -AA -->
+<lb/><space extent="2" unit="chars"/><persName><choice><abbr>D.</abbr><expan>David</expan></choice> Livingstone</persName></p>
 
 
 	<pb facs="liv_001538_0003" n="0003"/>
 <!--Blank page. -AA -->
             	
   	<pb facs="liv_001538_0004" n="0004"/>         	
-<address>
-<addrLine/><persName>M<hi rend="sup underline">r</hi> Thornton</persName>
-<addrLine/><placeName><settlement type="town">Tette</settlement></placeName>
-</address>
-</closer>
+<p><address>
+<addrLine><persName>M<hi rend="sup underline">r</hi> Thornton</persName></addrLine>
+<addrLine><space extent="1" unit="words"/><placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName>.</addrLine>
+</address></p>
+
             
             </div>
         </body>

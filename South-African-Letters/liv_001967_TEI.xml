@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001967"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
 				<!-- Change title below -->
-                <title>Letter to Adam Sedgwick, 5 November, 24 December 1863</title>
+                <title>Letter to Adam Sedgwick</title>
+ 				<title type="alternative">Letter to Adam Sedgwick, 5 November, 24 December 1863</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
 				<!-- Add or remove <respStmt> as appropriate below -->
 				<!-- Change xml:id below -->
-                <respStmt xml:id="JM">
-					<!-- Change name below -->
-                    <name>Jared McDonald</name>
-					<!-- Change, remove, or add more <resp> as appropriate below -->
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="AA">
                     <name>Angela Aliff</name>
                     <resp>Transcription</resp>
@@ -32,6 +26,11 @@
 				<respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
 			</titleStmt>	
             <publicationStmt>
@@ -39,7 +38,7 @@
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
 				<!-- Change date below if necessary -->
-                <date>2016</date>
+                <date>2017</date>
 				<!-- Change base file name below -->
                 <idno type="LEAP-ID">liv_001967</idno>
 				<!-- Change the license below if necessart -->
@@ -78,7 +77,7 @@
                 </msDesc>
                 <bibl type="sourceMetadata">
 					<!-- Change title below -->
-                    <title>Letter to Adam Sedgwick, 5 November, 24 December 1863</title>
+                    <title type="alternative">Letter to Adam Sedgwick, 5 November, 24 December 1863</title>
                     <author xml:id="DL">David Livingstone</author>
 					<!-- Change @when and date below -->					
                     <date type="composition" when="1863-11-05">05 November 1863</date>
@@ -102,6 +101,8 @@
 			<!-- Note that @who initials are taken from <respStmt> above -->
 			<!-- Add new <change> elements below as needed. -->
 			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-10-29" who="#AW">Coding review</change>
             <change when="2015-10-28" who="#EM">Proofing</change>
 			<change when="2015-08-16" who="#AA">Initial transcription and XML encoding</change>
@@ -118,14 +119,16 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 <opener>
-<lb/><add place="margintop" rend="right gray small" hand="#U1">MS 10/2</add><dateline rend="right"><placeName>Murchison's Cataracts</placeName> <date when="1863-11-05">5 <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1863</date></dateline>
+<lb/><add place="inspace" rend="gray small" hand="#U1">1</add><space extent="4" unit="words"/><add place="inspace" rend="gray small" hand="#U1">MS 10/2</add>
+<lb/><dateline><space extent="1" unit="words"/><placeName>Murchison's Cataracts</placeName> 
+<lb/><space extent="2" unit="words"/><space extent="2" unit="chars"/><date when="1863-11-05">5 <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1863</date></dateline>
 <lb/>    
-<lb/><salute>Dear Professor Sedgwick</salute>
+<lb/><space extent="1" unit="chars"/><salute>Dear Professor Sedgwick</salute>
 </opener>
 
 <lb/><p>Your letter about the
 <lb/>boat service reached me
-<lb/>on the 1<hi rend="sup underline">st</hi> <unclear cert="medium"><choice><sic>currt</sic><corr>current</corr></choice></unclear>. when I
+<lb/>on the 1<hi rend="sup underline">st</hi> <choice><sic>currt</sic><corr>current</corr></choice>. when I
 <lb/>fear you may have <w>con-
 <lb break="no"/>-strued</w> my silence as neglect	
 <lb/>of duty, and anything I
@@ -133,7 +136,7 @@
 <lb/>be of no avail - It will be
 <lb/>small comfort to mention
 <lb/>that four or five of
-<lb/><persName>Admiral Washington</persName>'s own
+<lb/><persName><term type="occupation">Admiral</term> Washington</persName>'s own
 <lb/><bibl>letters</bibl> bore yours company
 <lb/>in a long detention <w>some-
 <lb break="no"/><supplied>-</supplied>where</w> - but in the event
@@ -142,8 +145,7 @@
 <lb/>assist the <orgName>mission</orgName> by
             	
 		<pb facs="liv_001967_0002" n="0002"/>
-<add place="margintop" rend="left gray small" hand="#U1">2</add>
-<lb/>a boat service - I would
+<lb/><add place="above" rend="gray small" hand="#U1">2</add> a boat service - I would
 <lb/>suggest a pinnace drawing
 <lb/>when loaded not more than
 <lb/><measure>2<choice><orig>½</orig><reg>1/2</reg></choice> feet</measure> - she would carry
@@ -167,14 +169,13 @@
 <lb/>of H.M.S Gorgon whose
 	
 		<pb facs="liv_001967_0003" n="0003"/>
-<add place="margintop" rend="right gray small" hand="#U1">3</add>
-<lb/>address may be found at
+<lb/>address may be found at <add place="above" rend="gray small" hand="#U1">3</add>
 <lb/>the Admiralty</p>
 <lb/><p>-A hint I ventured to
 <lb/>give <persName><term type="occupation">Bishop</term> Tozer</persName> may
 <lb/>possibly obviate the
 <lb/>necessity for sending to the
-<lb/><placeName><region><geogName type="cape">Cape</geogName></region></placeName><!--of Good Hope? or which one? -AA--><!-- Sounds like Cape. AW --> for <term type="foodstuff">flour</term>. <term type="plant_foodstuff">Wheat</term><!-- geog: Cape of Good Hope -->
+<lb/><placeName><region>Cape</region></placeName><!--of Good Hope? or which one? -AA--><!-- Sounds like Cape. AW --> for <term type="foodstuff">flour</term>. <term type="plant_foodstuff">Wheat</term><!-- geog: Cape of Good Hope -->
 <lb/>sown in May and
 <lb/>irrigated by any small
 <lb/>stream yields a crop
@@ -193,8 +194,7 @@
 <lb/>two years. <term type="plant_foodstuff"><term type="nationality">English</term> potatoes</term>
 	
 		<pb facs="liv_001967_0004" n="0004"/>	
-<add place="margintop" rend="left gray small" hand="#U1">4</add>
-<lb/>ofthe sort called "<term type="plant_foodstuff">kidney potatoes</term>"	
+<lb/><add place="above" rend="gray small" hand="#U1">4</add> of the sort called "<term type="plant_foodstuff">kidney potatoes</term>"	
 <lb/>yielded the finest tubers I ever
 <lb/>saw - the round ones grew
 <lb/>too big and were hollow in
@@ -212,19 +212,18 @@
 <lb/>By <hi rend="underline">we</hi>, I mean the <orgName>Expedition</orgName>
 <lb/>I must go with the steamer
 <lb/>Lady Nyassa probably to
-<lb/><unclear cert="low">move</unclear> for a market - the
+<lb/><placeName><country>India</country></placeName> for a market - the
 <lb/><orgName>mission</orgName> is now the
 <lb/>only hopeful point in
 <lb/>the country - the <term type="people">Portuguese</term>
 <lb/>after all their profuse
 
 		<pb facs="liv_001967_0005" n="0005"/>	
-<add place="margintop" rend="right gray small" hand="#U1">10/2</add>
-<lb/>professions of desire to
-<lb/>open up the country to <add place="marginright" rend="gray small" hand="#U1">5</add>
+<lb/><add place="above" rend="gray small" hand="#U1">2</add> professions of desire <add place="above" rend="gray small" hand="#U1">10/2</add> to
+<lb/>open up the country to <add place="inspace" rend="gray small" hand="#U1">5</add>
 <lb/>the influences of civilization
 <lb/>are determined to shut
-<lb/>it <del type="strikethrough">us</del> more closely than
+<lb/>it <del type="strikethrough">as</del> more closely than
 <lb/>ever - the heavy dues -
 <lb/>4 pence per pound weight
 <lb/>levied on <persName><term type="occupation">Bishop</term> Tozer</persName>'s
@@ -243,11 +242,10 @@
 <lb/>to send out an agricultural
 
 <pb facs="liv_001967_0006" n="0006"/>	
-<add place="margintop" rend="left gray small" hand="#U1">6</add>
-<lb/>colony to <placeName><settlement type="village">Tette</settlement></placeName> - procured
+<lb/><add place="above" rend="gray small" hand="#U1">6</add> colony to <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> - procured
 <lb/>ploughs &amp; other implements
 <lb/>for them and when the
-<lb/><term type="occupation">colonists</term> arrived at <placeName><settlement type="village">Tette</settlement></placeName>
+<lb/><orgName><term type="occupation">colonists</term></orgName> arrived at <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName>
 <lb/>for them and when the
 <lb/>The <term type="occupation">Governor</term> informed me
 <lb/>that the king had been
@@ -265,16 +263,15 @@
 <lb/>only to please their best
 <lb/>customer <placeName><country>England</country></placeName> as
 <lb/>the enactments are never
-<lb/>put into execution
+<lb/>put into execution</p>
             	
 <pb facs="liv_001967_0007" n="0007"/>
-<add place="margintop" rend="right gray small" hand="#U1">7</add></p>            
-<lb/><p>I bitterly regret ever
+<lb/><p>I bitterly regret ever <add place="above" rend="gray small" hand="#U1">7</add>
 <lb/>believing a word of their
 <lb/>professions of desire
 <lb/>for the cessation of the
 <lb/><orgName>slave</orgName> trade - because
-<lb/>anywhere else - on the <hi rend="underline"><placeName><geogName type="river">>Rovuma</geogName></placeName></hi> even which
+<lb/>anywhere else - on the <hi rend="underline"><placeName><geogName type="river">Rovuma</geogName></placeName></hi> even which
 <lb/>is navigable for	
 <lb/>only eight or nine months
 <lb/>yearly - with half the
@@ -292,22 +289,22 @@
 <lb/>been better employed
 
 		<pb facs="liv_001967_0008" n="0008"/>
-<add place="margintop" rend="left gray small" hand="#U1">8</add>
-<lb/>in the lower occupations
+<lb/><add place="above" rend="left gray small" hand="#U1">8</add> in the lower occupations
 <lb/>of mere exploration -
 <lb/>However nothing a man
 <lb/>does to serve the Supreme
 <lb/>Ruler of all can be
 <lb/>lost -</p>
 <lb/><p>I have just returned
-<lb/>from <placeName><geogName type="lake">Lake Nyassa</geogName></placeName> - our
+<lb/>from <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName> - our
 <lb/>object in going was to
 <lb/>improve the time between
 <lb/>our recal and the next
 <lb/>flood by examining whether
 <lb/>a large river comes into the
 <lb/>Lake <!--Lake Nyassa -AA--> to account for the<!-- geog: Lake Nyassa -->
-<lb/>perennial flow of the <hi rend="underline"><placeName><geogName type="river">Shíre</geogName></placeName></hi> and also whether
+<lb/>perennial flow of the 
+<lb/><placeName><geogName type="river">Shire</geogName></placeName> and also whether
 <lb/>the 19,000 <orgName>slaves</orgName> that pass
 <lb/>annually through the
 <lb/>custom house of
@@ -317,8 +314,7 @@
 <lb/>carrying past the cataracts
 	
 		<pb facs="liv_001967_0009" n="0009"/>
-<add place="margintop" rend="right gray small" hand="#U1">10/2</add>	
-<lb/>then tramped it &amp; went <choice><abbr>N.W.</abbr><expan>northwest</expan></choice>
+<lb/><add place="above" rend="gray small" hand="#U1">3</add> then tramped it &amp; went <add place="above" rend="gray small" hand="#U1">10/2</add> <choice><abbr>N.W.</abbr><expan>northwest</expan></choice>
 <lb/>to come to the Latitude of
 <lb/>the North end of the Lake
 <lb/>without intruding on the
@@ -337,13 +333,14 @@
 <lb/>to replace one that had
 <lb/>been wrecked - We now
 <lb/>turned West on the great
-<lb/>slave route and my enquiries led me to
+<lb/>slave route and my 
+<lb/>enquiries led me to
 <lb/>the conclusion that
 
 		<pb facs="liv_001967_0010" n="0010"/>
 <lb/>from that quarter nearly
 <lb/>all the <orgName>slaves</orgName> for <placeName><geogName type="island">Zanzibar</geogName></placeName>
-<lb/><unclear>Quillsa -(Kilwa) Ibaev</unclear>
+<lb/><placeName><settlement type="island">Quilloa</settlement></placeName> - (<placeName><settlement type="island">Kilwa</settlement></placeName>), <placeName>Iboe</placeName>
 <lb/><placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> are drawn
 <lb/>It is only a fathom of calico
 <lb/>or one shilling they have to
@@ -364,7 +361,7 @@
 <lb break="no"/><supplied>-</supplied>formants</w> could tell us
 	
 <pb facs="liv_001967_0011" n="0011"/>
-<lb/>apart from this I had
+<lb/>Apart from this I had
 <lb/>crossed so many streams
 <lb/>whose mouths from
 <lb/>being hidden among
@@ -373,11 +370,11 @@
 <lb/>I was forced to conclude
 <lb/>that a large river was
 <lb/>not necessary to account
-<lb/>for the <hi rend="underline"><placeName><geogName type="river">Shíre</geogName></placeName></hi> - the plateau
+<lb/>for the <placeName><geogName type="river">Shire</geogName></placeName> - the plateau
 <lb/>over which we went
 <lb/>about <measure>100 miles</measure> or so
 <lb/> is flat - is well
-<lb/>people dand cool -
+<lb/>peopled and cool -
 <lb/>several Lakes are reported
 <lb/>but our time was up
 <lb/>and we had to come
@@ -385,7 +382,7 @@
 <lb/>the grain - I might
 <lb/>have speculated on a
 <lb/>late rise of the river 
-<lb/>but <persName>Earl Russells</persName>
+<lb/>but <choice><sic><persName>Earl Russell</persName>s</sic><corr><persName>Earl Russell</persName>'s</corr></choice>
 	
 		<pb facs="liv_001967_0012" n="0012"/>	
 <lb/>orders were explicit &amp;
@@ -404,18 +401,16 @@
 <lb/>hitherto experienced may
 <lb/>only be the prelude to
 <lb/>ultimate success</p>
+<lb/><p rend="no-indent"><space extent="1" unit="words"/>Believe me my Dear
+<lb/><space extent="1" unit="words"/><space extent="3" unit="chars"/>friends yours
+<lb/><space extent="1" unit="words"/><space extent="2" unit="chars"/>affectionately
+<lb/><space extent="1" unit="words"/><persName>David Livingstone</persName></p>
 
-<closer>
-<lb/><salute>Believe me my Dear
-<lb/>friends yours
-<lb/>affectionately</salute>
-<lb/><signed><persName>David Livingstone</persName></signed>
-</closer>
 
 		<pb facs="liv_001967_0013" n="0013"/>
 <!--The instructions on formatting postscripts are unclear to me, and I can't quite get the formatting correct. -AA-->
-<lb/><postscript><p>P.S. <date when="1863-12-24">24<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date>
-<lb rend="indent"/>I regret exceedingly
+<lb/><postscript><p rend="no-indent"><add place="above" rend="gray small" hand="#U1">4</add> P.S. <date when="1863-12-24">24<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date></p>
+<lb/><p>I regret exceedingly
 <lb/>to learn from <persName><term type="occupation">Bishop</term>
 <lb/>Tozer</persName> that he has resolved
 <lb/>to abandon the <orgName>mission</orgName>
@@ -457,7 +452,7 @@
 <lb/>and <persName>Burrup</persName> contracted
 
 		<pb facs="liv_001967_0015" n="0015"/>  
-<lb/>his fatal illnesss. The <term type="tribe">Makololo</term>
+<lb/>his fatal illnesss. The <term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term>
 <lb/>hurrying him home to
 <lb/><placeName><settlement type="village">Magomero</settlement></placeName> lest he should
 <lb/>die in their hands and
@@ -484,7 +479,7 @@
 <lb/>too much to expect gentlemen
 <lb/>to begin at the beginning - 
 <lb/>I began where none had
-<lb/>ever appeared except <unclear cert="low">cousin</unclear>
+<lb/>ever appeared except <persName><choice><sic>couran</sic><corr>Couran</corr></choice></persName>
 <lb/>and <persName>Donovan</persName> two travellers
 <lb/>who were never again
 <lb/>heard of and were I to
@@ -500,7 +495,7 @@
 <lb/>on faster than ever - the
 <lb/>low effete <orgName>slavers</orgName> seem to do
 <lb/>it now as if in bravado</p>
-<closer><persName><choice><abbr>D</abbr><expan>David</expan></choice> Livingstone</persName></closer></postscript>	
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><persName><choice><abbr>D</abbr><expan>David</expan></choice> Livingstone</persName></p></postscript>	
 
             </div>
         </body>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001297"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to George L. Conyngham, 25 March 1858</title><!-- Change -->
+                <title>Letter to George L. Conyngham</title>
+ 				<title type="alternative">Letter to George L. Conyngham, 25 March 1858</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="JM">
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
@@ -23,13 +24,18 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_001297</idno>
             </publicationStmt>
             <sourceDesc>
@@ -51,7 +57,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to </title><!-- Change -->
+ 					<title type="alternative">Letter to George L. Conyngham, 25 March 1858</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1858-03-25">25 March 1858</date><!-- Change -->
                     <placeName type="compositionPlace">Steamer "Pearl"</placeName><!-- Change -->
@@ -67,6 +73,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-26" who="#AW">Coding revew</change>
             <change when="2015-05-07" who="#AA">Proofing</change>
         	<change when="2015-03-21" who="#JM">Initial transcription and XML encoding</change>
@@ -84,13 +92,15 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 <opener>
-<lb rend="right"/><dateline><add place="margintop" rend="left vertical gray small" hand="#U"><!-- diagonal -->C/4/49</add> <placeName>Steamer Pearl</placeName> <add place="margintop" rend="right gray small" hand="#U">MS 7/1</add><!-- I am not sure how to encode "Steamer Pearl". Please advise. JM --><!-- It's a ship, so I guess placeName is OK. AW -->
-<lb/><date when="1858-03-25">25 March 1858</date>
+<lb/><add place="margintop" rend="vertical gray small" hand="#U"><!-- diagonal -->C/4/49</add> <space extent="3" unit="words"/><add place="margintop" rend="gray small" hand="#U">MS 7/1</add>
+<lb/><dateline><space extent="2" unit="words"/><placeName>Steamer Pearl</placeName><!-- I am not sure how to encode "Steamer Pearl". Please advise. JM --><!-- It's a ship, so I guess placeName is OK. AW -->
+<lb/><space extent="2" unit="words"/><space extent="2" unit="chars"/><date when="1858-03-25">25 March 1858</date>
 </dateline>
-<add place="marginleft"><hi rend="underline">Private</hi></add>
+<lb/><add place="marginleft"><hi rend="underline">Private</hi></add>
+<lb/>
 <lb/><salute>My Dear Sir</salute>
 </opener>
-<lb/><p><space extent="6" unit="chars"/>We have been going   
+<lb/><p>We have been going   
 <lb/>at the rate of <measure>200 miles</measure> 
 <lb/>a day ever since we
 <lb/>left <placeName><settlement type="city">Liverpool</settlement></placeName> on the
@@ -99,7 +109,7 @@
 <lb/>pitying the natives we
 <lb/>have left behind in
 <lb/>their miserable frost
-<lb/>and now - We go
+<lb/>and snow - We go
 <lb/>into <placeName><country>Sierra Leone</country></placeName>
 <lb/>today and will get
 <lb/>nicely thawed out
@@ -121,8 +131,8 @@
 <lb/>thus far. When we
 <lb/>have <unclear cert="high">waled</unclear> we
 <lb/>proceed to the <placeName><region>Cape</region></placeName>.</p>
-<lb/><p><space extent="4" unit="chars"/>I enclose to
-<lb/>you a packet of
+<lb/><p>I enclose to
+<lb/>you a packet of <space extent="1" unit="chars"/>
 
     <pb facs="liv_001297_0003" n="0003"/>
 <lb/>letters which you will
@@ -130,7 +140,7 @@
 <lb/>forward to their destinations
 <lb/>Any expense you
 <lb/>may incur will be
-<lb/>paid by <persName>M<hi rend="sup underline">r</hi> <unclear cert="low">Coults &amp;c</unclear></persName>
+<lb/>paid by <orgName><persName>M<hi rend="sup underline">r</hi> <unclear cert="low">Coults</unclear></persName> <unclear cert="low">&amp;c</unclear></orgName>
 <lb/>We are not late enough
 <lb/>to send home a certificate
 <lb/>of life for this
@@ -148,29 +158,30 @@
 <lb/>large <placeName><settlement type="city">New York</settlement></placeName> steamers</p>
     
     <pb facs="liv_001297_0004" n="0004"/>
-<lb/><p>We hope to be at the    
-<lb/><placeName><geogName type="river">Zambesi</geogName></placeName> by the <date when="1858-05-01">first
+<lb/><p rend="no-indent">We hope to be at the    
+<lb/><placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> by the <date when="1858-05-01">first
 <lb/>of May</date>. The Colonial
 <lb/>Office have acted from
 <lb/>first to last in the
 <lb/>most handsome way
 <lb/>to us and I am sure
 <lb/>I feel grateful</p>
-<lb/><p><space extent="4" unit="chars"/>I am so sorry that
+<lb/><p>I am so sorry that
 <lb/>we did not arrange the
 <lb/>insurance so that we
 <lb/>could have gone in to
-<lb/><placeName><settlement type="town">Loanda</settlement></placeName>. I would have
+<lb/><placeName><settlement type="city"><choice><orig>Loanda</orig><reg>Luanda</reg></choice></settlement></placeName>. I would have
 <lb/>sent a specimen of the
-<lb/><placeName><country>Angola</country></placeName> <term type="foodstuff">coffee</term> which
+<lb/><term type="plant_foodstuff"><placeName><country>Angola</country></placeName> <term type="foodstuff">coffee</term></term> which
 <lb/>would have pleased you
 <lb/>more than <term type="insect">beetles</term> <term type="insect">bugs</term> 
 <lb/>&amp; <term type="insect">cockroaches</term>, it is the
 <lb/>finest I ever tasted and
 <lb/>I wish it were known
-<lb/>at home.</p> <closer>Accept of my 
+<lb/>at home. Accept of my 
 <lb/>hearty thanks for all
-<lb/>your kindness <salute>I am &amp;C</salute> <signed><persName>David Livingstone</persName></signed></closer>
+<lb/>your kindness I am &amp;c
+<lb/><space extent="3" unit="words"/><persName>David Livingstone</persName></p>
 
             </div>
         </body>

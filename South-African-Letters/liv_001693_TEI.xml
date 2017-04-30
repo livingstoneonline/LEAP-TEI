@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001693"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
 				<!-- Change title below -->
-                <title>Letter to William Sunley, 18th November 1861</title>
+                <title>Letter to William Sunley</title>
+ 				<title type="alternative">Letter to William Sunley, 18th November 1861</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
 				<!-- Add or remove <respStmt> as appropriate below -->
 				<!-- Change xml:id below -->
-                <respStmt xml:id="JM">
-                    <name>Jared McDonald</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
@@ -31,6 +22,11 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -38,7 +34,7 @@
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
 				<!-- Change date below if necessary -->
-                <date>2016</date>
+                <date>2017</date>
 				<!-- Change base file name below -->
                 <idno type="LEAP-ID">liv_001693</idno>
 				<!-- Change the license below if necessart -->
@@ -77,7 +73,7 @@
                 </msDesc>
                 <bibl type="sourceMetadata">
 					<!-- Change title below -->
-                    <title>Letter to William Sunley, 18th November 1861</title>
+                    <title type="alternative">Letter to William Sunley, 18th November 1861</title>
                     <author xml:id="DL">David Livingstone</author>
 					<!-- Change @when and date below -->					
                     <date type="composition" when="1861-11-18">18 November 1861</date>
@@ -101,6 +97,8 @@
 			<!-- Note that @who initials are taken from <respStmt> above -->
 			<!-- Add new <change> elements below as needed. -->
 			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
             <change when="2015-09-15" who="#AW">Coding review</change>
             <change when="2015-09-08" who="#EM">Initial transcription and XML encoding</change>
         </revisionDesc>
@@ -116,12 +114,14 @@
 
 <!-- If this is a letter or similar with an opener (with content such as dateline and/or salute) add it. For example: -->
 <opener>
-    <lb/><add place="above marginright" rend="gray" hand="#U">ms 8/7</add> <dateline rend="right"><placeName><geogName type="river">River Shire</geogName></placeName> <date when="1861-11-18">18<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1861</date></dateline>
+<lb/><space extent="7" unit="words"/><add place="inspace" rend="gray small" hand="#U">ms 8/7</add> 
+<lb/><dateline rend="right"><placeName><geogName type="river">River Shire</geogName></placeName> <date when="1861-11-18">18<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1861</date></dateline>
+<lb/>
 <lb/><space extent="2" unit="chars"/><hi rend="underline">Private</hi>    
 <lb/><space extent="2" unit="chars"/><salute>My Dear Sunley,</salute>
 </opener>
 
-<lb/><p rend="center">We went up to <placeName><geogName type="lake">Lake
+<lb/><p><space extent="3" unit="words"/>We went up to <placeName><geogName type="lake">Lake
 <lb/>Nyasa</geogName></placeName> by carrying a boat past the
 <lb/>cataracts of this river intending to find out<!-- geog: Cataracts of River Shire -->
 <lb/>more about the <placeName><geogName type="river">Rovuma</geogName></placeName> from above
@@ -143,11 +143,11 @@
 <cb rend="vertical"/>
 <ab>
 <lb/>Do you know where a place called by the <orgName>Arabs</orgName> <placeName>Shamo</placeName>
-<lb/>is?
+<lb/><space extent="2" unit="chars"/>is?
 </ab> 
 
 	<pb facs="liv_001693_0002" n="0002"/>
-<lb/><p>equaly positive statement that we must
+<lb/><p rend="no-indent">equaly positive statement that we must
 <lb/>carry it a month - We found the Lake to be<!-- geog: Lake Nyassa -->
 <lb/>very deep - no bottom at <measure><measure>116 fathoms</measure> a <measure>mile</measure>
 <lb/>out</measure> - and generally a ship must be near
@@ -159,15 +159,15 @@
 <lb/>It fled from us twice and we could
 <lb/>not cross to the East side to look at it.<!-- geog: East Side of Lake Nyassa -->
 <lb/>We heard that <persName>Ben Habib</persName> the <orgName>Arab</orgName> who
-<lb/>abducted 95 <term type="tribe">Makololo</term> had gone back
-<lb/>in a great hurry, we suspect stirred up by 
-<lb/><persName><choice><abbr>Col</abbr><expan>Colonel</expan></choice> Ryby</persName> - He has had them
+<lb/>abducted 95 <term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> had gone back
+<lb/>in a great hurry, we suspect stirred 
+<lb/>up by <persName><choice><abbr>Col</abbr><expan>Colonel</expan></choice> Rigby</persName> - He has had them
 <lb/>away seven years - Your <orgName><placeName><geogName type="island">Johanna</geogName></placeName> 
 <lb/>men</orgName> have turned out very well -
-<lb/>they are better than the <term type="tribe">Kroomen</term> we
+<lb/>they are better than the <term type="tribe"><choice><orig>Kroomen</orig><corr>Kurumen</corr></choice></term> we
 <lb/>formaly had - they have been most
 <lb/>of their time at the foot of the cataracts<!-- geog: Cataracts of the River Shire -->
-<lb/>where <term type="foodstuff">rice</term> is not to be had, but <term type="foodstuff">meal</term>
+<lb/>where <term type="plant_foodstuff">rice</term> is not to be had, but <term type="foodstuff">meal</term>
 <lb/>seems to go down with them - I did
 <lb/>not take them up to <placeName><geogName type= "lake">Nyasa</geogName></placeName> as
 
@@ -180,8 +180,8 @@
 <lb/>these by man of war - At present they
 <lb/>are all well, and do not express any
 <lb/>anxiety about returning -</p>
-<lb/><p>I met two <orgName><placeName><geogName><region>Zanzibar</region></geogName></placeName> <orgName>Arabs</orgName></orgName> who
-<lb/>had come down from <placeName><geogName><region>Katanga</region></geogName></placeName> in the
+<lb/><p>I met two <orgName><placeName><geogName><geogName type="island">Zanzibar</geogName></geogName></placeName> <orgName>Arabs</orgName></orgName> who
+<lb/>had come down from <placeName><region>Katanga</region></placeName> in the
 <lb/>far interior to buy cloth at <placeName><geogName type="lake">Nyasa</geogName></placeName>
 <lb/>they had been some 14 years up there!
 <lb/>Their names were <persName>Juma bin Saide</persName> 
@@ -190,7 +190,7 @@
 <lb/>at present - population prodigious -
 <lb/>the <term type="occupation">bishop</term> is in the heart of the <orgName>slavery</orgName>
 <lb/>when I went up to the highlands with<!-- geog: Highlands of Lake Nyassa -->
-<lb/>him I met <placeName><settlement type="village">Tette</settlement></placeName> people coming with
+<lb/>him I met <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> people coming with
 <lb/>84 captives - they fled &amp; left these
 <lb/>and many others in my hand so
 <lb/>I gave them over to the <orgName>mission</orgName> &amp;
@@ -201,7 +201,7 @@
 <lb/><term type="people">Portuguese</term> had employed a tribe called 
 <lb/><term type="tribe">Ajawa</term> to hunt <orgName>slaves</orgName> for them - as all
 <lb/>the <term type="occupation">bishop</term>'s people were fleeing I went to
-<lb/>try and induce the <term type="tribe">Ayawa</term> to give it up.
+<lb/>try and induce the <term type="tribe">Ajawa</term> to give it up.
 <lb/>They got but 2 fathoms for a man &amp; 1 for 
 <lb/>a woman - but we came as they were
 <lb/>in the act of burning three villages and
@@ -222,7 +222,7 @@
 <lb/>on <date when="1861-11-13">13<hi rend="sup underline">th</hi></date> that <persName>May</persName> had remained with you
 <lb/>till lately - you must make out a bill
 <lb/>against the Expedition and I shall get it 
-<lb/>paid -</p> <closer>I am &amp;c <signed><persName>David Livingstone</persName></signed></closer>
+<lb/>paid - <space extent="1" unit="chars"/>I am &amp;c <persName>David Livingstone</persName></p>
             </div>
         </body>
     </text>

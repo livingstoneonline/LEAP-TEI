@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- 
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001756"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Letter to Baldwin W. Walker</title>
                 <title type="alternative">Letter to Baldwin W. Walker, 19 March 1862</title><!-- Removed underline coding -->
-                <author>Livingstone, David, 1813-1873</author>
+                <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
+				<principal>Megan Ward</principal>
                 <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
@@ -19,6 +19,11 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -51,7 +56,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Baldwin W. Walker, 19 March 1862</title><!-- I don't think this needs to include underline-->
+                    <title type="alternative">Letter to Baldwin W. Walker, 19 March 1862</title><!-- I don't think this needs to include underline-->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1862-03-19">19 March 1862</date><!-- Change -->
                     <placeName type="compositionPlace">Kongone Harbour</placeName><!-- Change -->
@@ -67,6 +72,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
         	<change when="2017-03-18" who="#AW">Proofing</change>
 			<change when="2017-02-27" who="#JM">Initial transcription and XML encoding</change>
 			<!-- Note that @who initials are taken from <respStmt> above -->
@@ -85,7 +92,7 @@
 <lb/><p rend="no-indent"><add place="marginleft" hand="#U1" rend="gray"><choice><abbr>req<hi rend="sup">d</hi></abbr><expan>required</expan></choice></add> <space extent="2" unit="chars"/><figure><figDesc>Calculation[?] initialed B.I.[?]</figDesc></figure> <space extent="1" unit="chars"/><add place="inspace" rend="brown small" hand="#U2"><choice><abbr>Rec<hi rend="sup">d</hi></abbr><expan>Received</expan></choice> <date when="1862-03-25">25 April 1862</date> per Gorgon</add></p>
 <lb/><p rend="no-indent"><term type="occupation">Admiral</term> <space extent="4" unit="words"/><add hand="#U2"><hi rend="underline small brown">A.E. 315.</hi></add></p>
 <lb/><p rend="no-indent"><space extent="2" unit="words"/><persName>Sir Baldwin Walker</persName></p>
-<lb/><p rend="no-indent"><space extent="3" unit="words"/>√ Sir</p>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><space extent="3" unit="chars"/><add hand="#U1" rend="gray">√</add> Sir</p>
 <lb/><p rend="no-indent"><space extent="4" unit="words"/>I have ventured
 <lb/>to send <persName>D<hi rend="sup">r</hi> Meller</persName> who has been
 <lb/>suffering for some time from
@@ -121,7 +128,7 @@
 <lb/>We shall endeavour to be
 <lb/>here from <date when="1862-05-20">20<hi rend="sup underline">th</hi> May</date> to <date when="1862-06-01">1<hi rend="sup underline">st</hi> of
 <lb/>June</date> - <space extent="1" unit="chars"/>The shell of the steamer
-<lb/>for <placeName><geogName type="lake">Lake Nyassa</geogName></placeName> will
+<lb/>for <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName> will
 <lb/>be then screwed together at
 <lb/><placeName><settlement type="village">Shupanga</settlement></placeName>, and in the event
 <lb/>of having provisions we
@@ -140,10 +147,10 @@
 <lb/><date when="1862-05">May</date>, it would be a great
 <lb/>service to us if you could
 <lb/>ship ten good <term type="animal">draught oxen</term>, two
-<lb/><term type="animal">cows</term> and a <orgName>Hottentot</orgName> <term type="occupation">driver</term>.
+<lb/><term type="animal_foodstuff">cows</term> and a <orgName>Hottentot</orgName> <term type="occupation">driver</term>.
 <lb/>The <term type="animal">mules</term> will carry all the 
 <lb/>light gear and provisions, 
-<lb/>and there being no <term type="insect">tsetse</term> <term type="animal">oxen</term>
+<lb/>and there being no <term type="insect">tsetse</term> <term type="animal_foodstuff">oxen</term>
 <lb/>would do the rest - I have
 <lb/>written to <persName><term type="occupation">General</term> Wynyard</persName> 
 <lb/>the <term type="occupation">acting Governor</term> about the
@@ -153,7 +160,7 @@
 <lb/>coming by men of war - I refer
 <lb/>only to a merchant vessel
 <lb/>being freighted, and should that
-<lb/>not occur soon the <term type="animal">oxen</term> &amp;
+<lb/>not occur soon the <term type="animal_foodstuff">oxen</term> &amp;
 <lb/><term type="occupation">driver</term> might be left in charge
 <lb/>of the <term type="nationality">Portuguese</term> <term type="occupation">officer</term> at this
 <lb/>port, at any future time.</p>

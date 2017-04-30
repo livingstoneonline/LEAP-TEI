@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002676">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002676"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Letter to Alfredo Duprat</title>
+ 				<title type="alternative">Letter to Alfredo Duprat, 4 March 1856</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="JM">
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
@@ -23,13 +24,18 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date>
+                <date>2017</date>
                 <idno type="LEAP-ID">liv_002676</idno>
             </publicationStmt>
             <sourceDesc>
@@ -50,11 +56,11 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Alfredo Duprat, 4 March 1856</title>
+                    <title type="alternative">Letter to Alfredo Duprat, 4 March 1856</title>
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1856-03-04">4 March 1856</date>
                     <placeName type="compositionPlace">Tette</placeName>
-                    <persName type="addressee">Duprat, Alfredo, 1816-1881</persName>
+                    <persName type="addressee">Duprat, Alfred, 1816-1881</persName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -66,6 +72,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-27" who="#AW">Coding review</change>
             <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>
             <change when="2015-05-15" who="#JM">Proofreading</change>
@@ -80,7 +88,7 @@
                
 	<pb facs="liv_002676_0001" n="0001"/>
 <opener>
-<lb/><add place="margintop" rend="right" hand="#U">35</add> <dateline rend="right"><placeName><settlement type="town">Tette</settlement></placeName> <date when="1856-03-04">4 March 1856</date></dateline>
+<lb/><dateline rend="center"><space extent="2" unit="words"/><placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> <date when="1856-03-04">4 March 1856</date> <add place="above" rend="gray" hand="#U">35</add></dateline>
 <lb/>
 <lb/>Alfredo Duprat <choice><abbr>Esqu.</abbr><expan>Esquire</expan></choice> 
 <lb/><salute>My dear Sir,</salute>
@@ -93,11 +101,11 @@
 <lb/>with the usual politeness and generosity
 <lb/>of your nation. The <term type="occupation">governor</term> kindly
 <lb/>proposed to send an express forward
-<lb/>to <unclear cert="medium"><persName>Senna</persName></unclear> with letters and I have
+<lb/>to <settlement type="village"><unclear cert="medium">Senna</unclear></settlement> with letters and I have
 <lb/>been constantly employed in writing
 <lb/>ever since. The enclosed you will see
-<lb/>is intended to show the <persName><term type="occupation">King of
-<lb/>Portugal</term></persName> <!-- Could this be more accurately encoded as <term type="occupation">? JM --><!-- We can have both! AW -->my gratitude by giving
+<lb/>is intended to show the <persName><term type="occupation">King</term> of
+<lb/><placeName><country>Portugal</country></placeName></persName> <!-- Could this be more accurately encoded as <term type="occupation">? JM --><!-- We can have both! AW -->my gratitude by giving
 <lb/>him the earliest intelligence of my
 <lb/>discoveries. I cannot be sure whether
 <lb/>it will be acceptable or not, but on
@@ -106,7 +114,7 @@
 <lb/>that no answer is expected; and
 <lb/>indeed if it only reaches his eye, I hope
 <lb/>for no more. Even though he may not
-<lb rend="right"/>have
+<lb/><space extent="8" unit="words"/>have
 
 
 	<pb facs="liv_002676_0002" n="0002"/>
@@ -134,36 +142,36 @@
 <lb/>island below this, takes what
 <lb/>and as much as he likes - out of
 <lb/>every boat that ascends. There
-<lb rend="right"/>is</p>
+<lb/><space extent="7" unit="words"/>is
 
 	<pb facs="liv_002676_0003" n="0003"/>
-<lb/><p>There is a fine bed of coal close to
+<lb/>There is a fine bed of coal close to
 <lb/>this on the surface almost, and
 <lb/>superior iron too. What fools! not
 <lb/>to have a small flat bottomed
 <lb/>steamer flying between this and 
-<lb/><placeName><settlement type="village"><persName>Senna</persName></settlement></placeName>. Two swivels would keep
+<lb/><placeName><settlement type="village"><choice><orig>Senna</orig><reg>Sena</reg></choice></settlement></placeName>. Two swivels would keep
 <lb/>off all robbers and in six months
 <lb/>her price would be paid. The only
 <lb/>impediments I have seen besides
-<lb/><placeName><geogName type="fissure">Monoatunya</geogName></placeName> are insignificant
-<lb/>rapids which would not delay the <term type="tribe">Makololo</term> a day.</p>
+<lb/><placeName><geogName type="waterfall"><choice><orig>Mosioatunya</orig><reg>Mosi oa tunya</reg></choice></geogName></placeName> are insignificant
+<lb/>rapids which would not delay the 
+<lb/><term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> a day.</p>
             	
 <lb/><p>Wait a little, we shall see,
 <lb/>if we live. I have had excellent
 <lb/>health all the way down here,
 <lb/>but am very thin and tired from
 <lb/>marching on foot; but will soon
-<lb/><unclear cert="low">r---</unclear>.</p>
+<lb/><unclear cert="medium">recover</unclear>.</p>
 
 <lb/><p>I often remember my <w>obliga-
 <lb break="no"/>-tions</w> to your kind recommendations.
 <lb/>May God bless and reward you, is
 <lb/>the sincere wish of</p>
-<closer>
-<lb/><salute>your <choice><abbr>obedt</abbr><expan>obedient</expan></choice></salute>
-<lb/><signed><choice><abbr>Sigt</abbr><expan>Signature</expan></choice> <persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></signed>
-</closer>
+<lb/><p rend="no-indent"><space extent="3" unit="words"/><space extent="2" unit="chars"/>your <choice><abbr>obedt</abbr><expan>obedient</expan></choice>
+<lb/><space extent="3" unit="words"/><space extent="2" unit="chars"/><choice><abbr>Sigt</abbr><expan>Signature</expan></choice> <persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
+
 
 
             </div>

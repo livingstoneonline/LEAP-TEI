@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002686"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to J. Dyke, Date Unknown</title><!-- Change -->
+                <title>Letter to J. Dyke</title>
+ 				<title type="alternative">Letter to J. Dyke, Date Unknown</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
                     <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
                 </respStmt>
-				<respStmt xml:id="JM">
-                    <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
-                </respStmt>
-                <respStmt xml:id="AA">
-                    <name>Angela Aliff</name>
-                    <resp>Transcription</resp>
-                    <resp>Encoding</resp>
-                </respStmt>
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_002686</idno>
             </publicationStmt>
             <sourceDesc>
@@ -56,7 +52,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to J. Dyke, Date Unknown</title><!-- Change -->
+                    <title type="alternative">Letter to J. Dyke, Date Unknown</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition">Unknown</date><!-- Change -->
                     <placeName type="compositionPlace">Unknown</placeName><!-- Change -->
@@ -72,6 +68,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-09-29" who="#AW">Coding review</change>
             <change when="2015-09-28" who="#EM">Initial transcription and XML encoding</change>
 			<!-- Note that @who initials are taken from <respStmt> above -->
@@ -87,10 +85,10 @@
 
 <cb rend="vertical"/>
 <ab>
-<lb rend="center"/><persName><choice><abbr>Rev<hi rend="sup">d</hi></abbr><expan>Reverend</expan></choice> J. Dyke</persName>
-<lb rend="center"/>at <placeName><geogName>Thaba Bossiu</geogName></placeName>
-<lb rend="center"/>Care of <persName><choice><abbr>Rev<hi rend="sup">d</hi></abbr><expan>Reverend</expan></choice> J. Alkinson</persName>
-<lb rend="center"/><placeName><settlement type="town">Colesberg</settlement></placeName>
+<lb/><space extent="3" unit="words"/><persName><choice><abbr>Rev<hi rend="sup">d</hi></abbr><expan>Reverend</expan></choice> J. Dyke</persName>
+<lb/><space extent="4" unit="words"/>at <placeName><geogName type="mountain">Thaba Bossiu</geogName></placeName>
+<lb/>Care of <persName><choice><abbr>Rev<hi rend="sup">d</hi></abbr><expan>Reverend</expan></choice> J. Atkinson</persName>
+<lb/><space extent="6" unit="words"/><placeName><settlement type="town">Colesberg</settlement></placeName>
 </ab> 
 
 	<pb facs="liv_002686_0002" n="0002"/>
@@ -120,9 +118,8 @@
 <lb/>was perfectly <unclear cert="low">patent</unclear> &amp; even the <unclear cert="low">taitas</unclear> on
 <lb/>the outside which in <add place="below">^</add> <add place="above">herbivorous</add> animals is usually dark
 <lb/>coloured was as natural as in <unclear cert="medium">the</unclear> recent
-<lb/>subjects. </p> <closer>Mr &amp; Mrs Leinne's affectionate regards to you &amp;c
-<lb/><signed><persName><choice><abbr>D</abbr><expan>David</expan></choice> <choice><orig>Liv<gap extent="3" unit="chars" agent="hole"/><supplied>ing</supplied>ston</orig><reg>Livingstone</reg></choice></persName></signed>
-</closer>
+<lb/>subjects. Mr &amp; Mrs Leinne's affectionate regards to you &amp;c
+<lb/><space extent="9" unit="words"/><persName><choice><abbr>D</abbr><expan>David</expan></choice> <choice><orig>Liv<gap extent="3" unit="chars" agent="hole"/><supplied>ing</supplied>ston</orig><reg>Livingstone</reg></choice></persName></p>
 
 
             </div>

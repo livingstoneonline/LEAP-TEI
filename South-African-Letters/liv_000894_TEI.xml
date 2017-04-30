@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000894">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000894"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Jean Fredoux and Ann Fredoux, 26 March, 12 July, 12 August 1856</title><!-- Change -->
+                <title>Letter to Jean Fredoux and Ann Fredoux</title>
+ 				<title type="alternative">Letter to Jean Fredoux and Ann Fredoux, 26 March, 12 July, 12 August 1856</title><!-- Change -->
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="EM">
                     <name>E. Alexander Munson</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
                     <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
                 </respStmt>
-				<respStmt xml:id="JM">
-                    <name>Jared McDonald</name><!-- Change -->
-                    <resp>Transcription</resp><!-- Change -->
-                    <resp>Encoding</resp><!-- Change, remove, or add more <resp> as appropriate -->
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+					<resp>Formatting review</resp>
                 </respStmt>
                 <respStmt xml:id="AA">
                     <name>Angela Aliff</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
                 </respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date><!-- Change if necessary -->
+                <date>2017</date><!-- Change if necessary -->
                 <idno type="LEAP-ID">liv_000894</idno><!-- Change as needed -->
             </publicationStmt>
             <sourceDesc>
@@ -56,7 +57,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Jean Fredoux and Ann Fredoux, 26 March, 12 July, 12 August 1856</title><!-- Change -->
+                    <title type="alternative">Letter to Jean Fredoux and Ann Fredoux, 26 March, 12 July, 12 August 1856</title><!-- Change -->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1856-03-26">26 March 1856</date><!-- Change -->
                     <placeName type="compositionPlace">Tette, or Nyungue</placeName><!-- Change -->
@@ -71,6 +72,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-11-12" who="#AW">Coding review</change>
 			<change when="2015-11-12" who="#AA">Proofing</change>
         	<change when="2015-10-29" who="#AW">Limited review</change>
@@ -85,16 +88,16 @@
 	<pb facs="liv_000894_0001" n="0001"/><!-- Change both @facs and @n -->
 	
 <opener>
-<lb/><add place="above marginright" hand="#U">ms 16</add><dateline rend="right"><placeName><settlement type="village"><choice><sic>Tete</sic><corr>Tette</corr></choice></settlement>, or <placeName><settlement type="village"><choice><orig>Nyungue</orig><reg>Nyungwe</reg></choice></settlement></placeName>, 
-<lb/><geogName type="river">River Zambesi</geogName>, <bloc>Africa</bloc></placeName> 
-<lb/><date when="1856-03-26">26<hi rend="sup underline">th</hi> March 1856</date></dateline>
+<lb/><space extent="2" unit="chars"/><add place="above" rend="gray" hand="#U">ms 16</add><space extent="3" unit="words"/><dateline><placeName><settlement type="town">Tete</settlement>, or <placeName><settlement type="village"><choice><orig>Nyungue</orig><reg>Nyungwe</reg></choice></settlement></placeName>, 
+<lb/><space extent="4" unit="words"/><geogName type="river">River <choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName>, <bloc>Africa</bloc></placeName> 
+<lb/><space extent="5" unit="words"/><space extent="1" unit="chars"/><date when="1856-03-26">26<hi rend="sup underline">th</hi> March 1856</date></dateline>
 <lb/>    
-<lb/><salute>My Dear Brother and Sister</salute><!-- Change line info as appropriate -->
+<lb/><space extent="2" unit="chars"/><salute>My Dear Brother and Sister</salute><!-- Change line info as appropriate -->
 </opener>
 
-<lb/><p rend="center">Having reached this the
-<lb/>furthest inland station of the <orgName>Portuguese</orgName>
-<lb/>in <region>Eastern Africa</region> on the 2<hi rend="sup underline">d</hi> <choice><abbr>Currt</abbr><expan>Current</expan></choice> - I have
+<lb/><p><space extent="3" unit="words"/>Having reached this the
+<lb/>furthest inland station of the <term type="people">Portuguese</term>
+<lb/>in <placeName><region>Eastern <bloc>Africa</bloc></region></placeName> on the 2<hi rend="sup underline">d</hi> <choice><abbr>Currt</abbr><expan>Current</expan></choice> - I have
 <lb/>much pleasure in remembering the
 <lb/>friends I left behind me some years ago -
 <lb/>I could give you no more than a
@@ -106,20 +109,20 @@
 <lb/>you come yourselves we should not
 <lb/>have had the pleasure of meeting. <placeName><bloc>Africa</bloc></placeName>
 <lb/>is a very wide country, one can go
-<lb/>no where quickly and while at <placeName><settlement type="town">Loanda</settlement></placeName>
+<lb/>no where quickly and while at <placeName><settlement type="city"><choice><orig>Loanda</orig><reg>Luanda</reg></choice></settlement></placeName>
 <lb/>I was long delayed by a severe attack
 <lb/>of disease. <space extent="1" unit="chars"/>In coming Eastward we
 <lb/>followed in a general way the course 
-<lb/>of the <placeName><geogName type="river">Zambesi</geogName></placeName>. <space extent="1" unit="chars"/>It flows Eastwards
-<lb/>from <placeName><settlement type="town">Sesheke</settlement></placeName> to the falls then having
+<lb/>of the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName>. <space extent="1" unit="chars"/>It flows Eastwards
+<lb/>from <placeName><settlement type="village">Sesheke</settlement></placeName> to the falls then having
 <lb/>passed that wonderful spot, it winds
 <lb/>away <choice><abbr>N.N.E.</abbr><expan>North Northeast</expan></choice> till it reaches the <choice><abbr>Lat.</abbr><expan>Latitude</expan></choice>
 <lb/>15° 37' South.  The falls are in 17° 57' <choice><abbr>S.</abbr><expan>South</expan></choice>
 <lb/>There passing Eastward it turns down
-<lb/>again to the South East to <placeName><settlement type="city">Quilimane</settlement></placeName>
+<lb/>again to the South East to <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName>
 
 	<pb facs="liv_000894_0002" n="0002"/>
-<lb/>the falls are not like other waterfalls - This
+<lb/>The falls are not like other waterfalls - This
 <lb/>is simply an enourmous rent made in
 <lb/>the hard basaltic rock of the bottom or bed
 <lb/>from bank to bank - and prolonged from
@@ -127,7 +130,7 @@
 <lb/>miles of hills - The rent is about <measure>100 feet</measure>
 <lb/>deep and from <measure>60 to 80 feet</measure> apart at the
 <lb/>lips. <space extent="1" unit="chars"/>Into this the river of a thousand
-<lb/>yards precipitates itself and <unclear cert="high">being</unclear> compresse<supplied cert="high">d</supplied>
+<lb/>yards precipitates itself and <unclear cert="high">being</unclear> compressed
 <lb/>at the bottom into <measure>fifteen or twenty</measure>, the
 <lb/>pressure is so great as to cause large
 <lb/>columns of vapour to rush up <measure>300
@@ -141,43 +144,43 @@
 <lb/>it is <measure>500 fathoms or 1000 yards</measure> and
 <lb/>it is often much broader - It however
 <lb/>becomes spread out among numerous
-<lb/>branches among the deltas of <placeName><settlement type="city">Quilimane</settlement></placeName>
+<lb/>branches among the deltas of <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName>
 <lb/>and <unclear cert="high">sailors</unclear> passing along <choice><sic>dont</sic><corr>don't</corr></choice> <choice><sic>percieve</sic><corr>perceive</corr></choice>
 <lb/>its size except by finding fresh water
 <lb/>out <measure>20 miles</measure> from the land.  It is
 <lb/>never fordable but becomes lower
 <lb/>in summer than it is now - the land
-<lb/>is very fertile and the inhabitants raise
+<lb/>is very fertile and the <orgName>inhabitants</orgName> raise
 <lb/>immense quantities of grain.  they
-<lb/>had been fighting with the <orgName>Portuguese</orgName> before
+<lb/>had been fighting with the <term type="people">Portuguese</term> before
 <lb/>we came and burned all their five villas
 
 <pb facs="liv_000894_0003" n="0003"/>
-<lb/><placeName><settlement type="village"><choice><sic>Tete</sic><corr>Tette</corr></choice></settlement></placeName> is in ruins - <placeName><settlement type="village">Senna</settlement></placeName> _____ <placeName><settlement type="city">Quilimane</settlement></placeName>
-<lb/>not much better - there being real <orgName>Caffreo</orgName>
-<lb/>there who are called <orgName>Landeens</orgName>. <placeName><settlement type="village">Senna</settlement></placeName>
-<lb/>and <placeName><settlement type="city">Quilimane</settlement></placeName> are very deadly but
-<lb/><placeName><settlement type="village"><choice><sic>Tete</sic><corr>Tette</corr></choice></settlement></placeName> is better and a part higher up the
+<lb/><placeName><settlement type="town">Tete</settlement></placeName> is in ruins - <placeName><settlement type="village"><choice><orig>Senna</orig><reg>Sena</reg></choice></settlement></placeName> <choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice> <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName>
+<lb/>not much better - there being real <orgName>Caffres</orgName>
+<lb/>there who are called <orgName>Landeens</orgName>. <placeName><settlement type="village"><choice><orig>Senna</orig><reg>Sena</reg></choice></settlement></placeName>
+<lb/>and <placeName><settlement type="town"><choice><orig><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></orig><reg>Quelimane</reg></choice></settlement></placeName> are very deadly but
+<lb/><placeName><settlement type="town">Tete</settlement></placeName> is better and a part higher up the
 <lb/>river is still more salubrious - We
 <lb/><gap extent="15" unit="chars" agent="hole"/> through the sickly districts <!-- A portion from the left side of the page and bellow this line is missing -->
 <lb/><gap extent="15" unit="chars" agent="hole"/><unclear cert="low">ne</unclear> of the year if we can
-<lb/><hi rend="underline">without the children.</hi> <unclear cert="high">Get</unclear> <unclear cert="low">m<supplied>ore</supplied><gap extent="3" unit="chars" agent="hole"/></unclear> <unclear cert="low">whe<supplied>n</supplied><gap extent="1" unit="chars" agent="hole"/></unclear>
+<lb/><hi rend="underline">without the children.</hi> <unclear cert="high">Get</unclear> <unclear cert="low">m<supplied>ore</supplied><gap extent="3" unit="chars" agent="hole"/></unclear> <unclear cert="low">when</unclear>
 <lb/>we are there if we can - ! That's what
 <lb/><persName>M<hi rend="sup">r</hi> Ashton</persName> would call moral courage
-<lb/>_____. is it not - ? I am waiting here
+<lb/><choice><abbr><app><rdg>Aun.</rdg><rdg>Ann.</rdg></app></abbr></choice> is it not - ? I am waiting here
 <lb/>till the beginning of <date when="1856-04">April</date> partly to rest
 <lb/>myself and partly to allow the healthy
-<lb/>seaso<supplied cert="high">n</supplied><gap extent="1" unit="chars" agent="hole"/> to set in at <placeName><settlement type="city">Quilimane</settlement></placeName> before
+<lb/>seaso<supplied cert="high">n</supplied><gap extent="1" unit="chars" agent="hole"/> to set in at <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName> before
 <lb/>breath<supplied cert="high">i</supplied><gap extent="1" unit="chars" agent="hole"/>ng its febrile vapours I was 
-<lb/>pretty well knocked up, for the <term type="animal">oxen</term> all
-<lb/>died of <term type="insect">Tetse</term> and then I had to march
+<lb/>pretty well knocked up, for the <term type="animal_foodstuff">oxen</term> all
+<lb/>died of <term type="insect">Tsetse</term> and then I had to march
 <lb/>on foot - <space extent="1" unit="chars"/>this is very well for those
 <lb/>who are fond of pedestrianism or
 <lb/>need their obesity reduced like <persName>Mamary</persName> -
 <lb/>but for me who had become as lean
 <lb/>as a lath the only good I saw in the
 <lb/>constant trudging was it gave an honest
-<lb/>fellow a pretty good idea of the treadmill ,<!-- Tweet! This is hilarious...maybe for New Year's Resolutions if we haven't used it before then. -AA -->
+<lb/>fellow a pretty good idea of the treadmill,<!-- Tweet! This is hilarious...maybe for New Year's Resolutions if we haven't used it before then. -AA -->
 <lb/>I am very well now but drank enormous
 <lb/>quantities of water after my arrival
 <lb/>as if I had exchanged my own teetotal
@@ -191,34 +194,31 @@
 <lb/>proposed and preserved my life
 <lb/>where so many have fallen. Hope
 <lb/>your children are better - May God bless
-<lb/>you abundantly</p> <closer>Ever yours Affectionately
-<lb rend="right"/><signed><supplied cert="high">David Livingstone</supplied></signed></closer>
-            </div>
-			<div>
+<lb/>you abundantly <space extent="1" unit="chars"/>Ever yours Affectionately
+<lb/><supplied cert="high">David Livingstone</supplied></p>
 
-<cb rend="vertical upside-down"/> <!--vertical upside-down or just vertical? -AA --><!-- As is. AW -->
+<lb/><cb rend="vertical"/> <!--vertical upside-down or just vertical? -AA --><!-- As is. AW -->
+<lb/><p rend="no-indent">Left <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName> <date when="1856-07-12">12 July</date> <space extent="2" unit="words"/><add place="inspace marginright" rend="gray small" hand="#U">E</add>
+<lb/>at <placeName><geogName type="island">Mauritius</geogName></placeName> <date when="1856-08-12">12 August</date>
+<lb/><space extent="3" unit="words"/><choice><abbr>DL.</abbr><expan>David Livingstone</expan></choice></p>
+			
 <ab><address>
-<addrLine>Left <placeName><settlement type="city">Quilimane</settlement></placeName> <date when="1856-07-12">12 July</date></addrLine>
-<addrLine>at <placeName><settlement type="city"><unclear>Maurihus</unclear></settlement></placeName> <date when="1856-08-12">12 August</date></addrLine>
-<addrLine><choice><abbr>DL.</abbr><expan>David Livingstone</expan></choice></addrLine>
+<addrLine><space extent="3" unit="words"/><persName><term type="occupation"><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan> </choice></term> <choice><abbr>J.</abbr><expan>Jean</expan></choice> Fredoux</persName></addrLine>
+<addrLine><space extent="5" unit="words"/><placeName><settlement type="village">Motito</settlement></placeName></addrLine>
+<addrLine><space extent="5" unit="words"/><placeName><settlement type="village">Kuruman</settlement></placeName></addrLine>
+<addrLine><space extent="2" unit="words"/><placeName><region><hi rend="double-underline">Cape of Good Hope</hi></region></placeName></addrLine>
+</address></ab>
 
-<addrLine rend="center"><persName><term type="occupation"><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan> </choice></term> <choice><abbr>J.</abbr><expan>Jean</expan></choice> Fredoux</persName></addrLine>
-<addrLine rend="center"><placeName><settlement type="village">Motito</settlement></placeName></addrLine>
-<addrLine rend="center"><placeName><settlement type="town">Kuruman</settlement></placeName></addrLine>
-<addrLine rend="center"><placeName><region><hi rend="double-underline">Cape of Good Hope</hi></region></placeName></addrLine>
-</address>
-<add place="above marginleft" hand="#U">E</add> <add place="marginright" rend="diagonal" hand="#U">MS 16</add>
+<ab>
+<lb/><space extent="6" unit="words"/><add place="marginright" rend="diagonal gray small" hand="#U">MS 16</add>
 </ab>
 
-			</div>
-			<div>
-
-<lb/><p>Now that your <orgName>mission</orgName> has fraternized
-<lb/>with the <persName>Boer Kirk</persName>, are you permitted
+<lb/><p rend="no-indent">Now that your <orgName>mission</orgName> has fraternized
+<lb/>with the <orgName><orgName>Boer</orgName> Kirk</orgName>, are you permitted
 <lb/>to go where you like?  And preach where
 <lb/>you like? Or what benefit have you
 <lb/>derived from the alliance? I suppose
-<lb/>you remember that you and the <unclear>T. baal</unclear>
+<lb/>you remember that you and the <placeName><region><choice><abbr>T. Vaal</abbr><expan>Transvaal</expan></choice></region></placeName>
 <lb/><orgName>congregation</orgName> were <choice><sic>recieved</sic><corr>received</corr></choice> together at the
 <lb/>very time when the latter were making
 <lb/><orgName>slaves</orgName> of <persName>Sechele</persName>'s children &amp; murdering the parents</p>

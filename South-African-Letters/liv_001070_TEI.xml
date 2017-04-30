@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001070">
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001070"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Letter to J.E. Grey</title>
+ 				<title type="alternative">Letter to J.E. Grey, 31 July [1857]</title>
                 <author>David Livingstone</author>
                 <principal>Adrian S. Wisnicki</principal>
-                <principal>Christopher Lawrence</principal>
+                <principal>Megan Ward</principal>
                 <respStmt xml:id="JM">
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
@@ -23,13 +24,18 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date>
+                <date>2017</date>
                 <idno type="LEAP-ID">liv_001070</idno>
             </publicationStmt>
             <sourceDesc>
@@ -51,7 +57,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to J.E. Grey</title>
+ 					<title type="alternative">Letter to J.E. Grey, 31 July [1857]</title>
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1857-07-31">31 July [1857]</date>
                     <placeName type="compositionPlace">50 A Albemarle St., London</placeName>
@@ -67,6 +73,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-22" who="#AW">Coding review</change>
             <change when="2015-03-25" who="#AA">Initial transcription and XML encoding</change>
             <change when="2015-03-25" who="#JM">Proofreading</change>
@@ -81,13 +89,14 @@
                
 	<pb facs="liv_001070_0001" n="0001"/>
 <opener>
-<lb/><dateline rend="right"><date when="1857-07-31"><subst><del>29<hi rend="sup">th</hi></del><add place="over-text">July 31<hi rend="sup">st</hi> </add></subst>
+<lb/><dateline><space extent="1" unit="words"/><date when="1857-07-31"><subst><del>29<hi rend="sup">th</hi></del><add place="over-text">July 31<hi rend="sup">st</hi> </add></subst>
 </date></dateline>
 <lb/>    
 <lb/><salute>My Dear Sir</salute>
 </opener>
 
-<lb/><p>I shall be
+<lb/><p><space extent="1" unit="words"/>I shall be
+<lb/>extremely obliged
 <lb/>by your giving
 <lb/><persName>M<hi rend="sup">r</hi> Ford</persName> instructions
 <lb/>to draw the <term type="insect">Tsetse</term>	
@@ -122,7 +131,7 @@
 
 	<pb facs="liv_001070_0004" n="0004"/>
 <lb/>natural position
-<lb/><figure><figDesc>A tiny sketch of the tsetse's natural position</figDesc></figure></p>
+<lb/><figure><figDesc>Small sketch of the tsetse's natural position</figDesc></figure></p>
 <lb/><p>Please send it
 <lb/>to <persName>M<hi rend="sup">r</hi> Cooke</persName> <persName>M<hi rend="sup">r</hi>
 <lb/>Murray</persName>'s cousin	
@@ -132,13 +141,10 @@
 <lb/>I thank you most
 <lb/>heartily for your
 <lb/>prompt attention
-<lb/>to my request
-</p>
+<lb/>to my request</p>
+<lb/><p>I am to you obliged
+<lb/><persName>David Livingstone</persName></p>
 
-<closer>
-<lb/><salute>I am to you obliged</salute>
-<lb/><signed><persName>David Livingstone</persName></signed>
-</closer>
 
             </div>
         </body>

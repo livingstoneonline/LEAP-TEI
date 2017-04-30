@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001730"><!-- Change @xml:id --><!-- -->
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001730"><!-- Change @xml:id -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Letter to Baldwin W. Walker</title>
                 <title type="alternative">Letter to Baldwin W. Walker, 17 February 1862</title><!-- Removed underline coding -->
-                <author>Livingstone, David, 1813-1873</author>
-                <principal>Adrian S. Wisnicki</principal>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>	
+				<principal>Megan Ward</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+                </respStmt>
                 <respStmt xml:id="JM"><!-- Add or remove individuals from the list as appropriate -->
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change, remove, or add more <resp> as appropriate -->
                     <resp>Encoding</resp>
                 </respStmt>
-                <respStmt xml:id="AW">
-                    <name>Adrian S. Wisnicki</name>
-                    <resp>Coding review</resp>
+				<respStmt xml:id="MB">
+                    <name>Mary Borgo</name><!-- Change -->
+                    <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -53,7 +58,7 @@
                     </physDesc>
                 </msDesc>
                 <bibl type="sourceMetadata">
-                    <title>Letter to Baldwin W. Walker, 17 February 1862</title><!-- I don't think this needs to include underline-->
+                    <title type="alternative">Letter to Baldwin W. Walker, 17 February 1862</title><!-- I don't think this needs to include underline-->
                     <author xml:id="DL">David Livingstone</author>
                     <date type="composition" when="1862-02-17">17 February 1862</date><!-- Change -->
                     <placeName type="compositionPlace">River Zambesi</placeName><!-- Change -->
@@ -70,6 +75,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2017-04-26" who="#AW">Formatting review</change>
+			<change when="2017-04-21" who="#MB">Tagging corrections</change>
         	<change when="2017-03-18" who="#AW">Proofing</change>
 			<change when="2017-03-01" who="#JM">Initial transcription and XML encoding</change>
 			<!-- Note that @who initials are taken from <respStmt> above -->
@@ -84,12 +91,12 @@
 	<pb facs="liv_001730_0001" n="0001"/>
 <lb/><p rend="no-indent"><add place="inspace" rend="small">Enclosure 1 in <choice><abbr>No</abbr><expan>Number</expan></choice> 96</add></p>
 <lb/><p rend="no-indent"><add place="over-text" hand="#U2" rend="gray small">List of things <choice><abbr>req<hi rend="sup">d</hi></abbr><expan>required</expan></choice></add></p> 
-<lb/><p rend="no-indent"><add place="inspace" rend="small"><hi rend="underline">of <date when="1862">1862</date><space extent="3" unit="words"/></hi></add> <space extent="1" unit="chars"/><placeName><geogName type="river">River Zambesi</geogName></placeName> <date when="1862-02-17">17<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice>
+<lb/><p rend="no-indent"><add place="inspace" rend="small"><hi rend="underline">of <date when="1862">1862</date><space extent="3" unit="words"/></hi></add> <space extent="1" unit="chars"/><placeName><geogName type="river">River <choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> <date when="1862-02-17">17<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice>
 <lb/><add place="over-text" hand="#U2" rend="gray small">by <persName>D<hi rend="sup">r</hi> Livingstone</persName></add> <space extent="4" unit="words"/><date when="1862-02-17">1862</date>.</date></p>
 <lb/><p><add place="inspace" hand="#U2" rend="gray"><choice><abbr>req<hi rend="sup">d</hi></abbr><expan>required</expan></choice></add> <space extent="3" unit="chars"/><figure><figDesc>Calculation[?] initialed B.I.[?]</figDesc></figure> <space extent="1" unit="chars"/><add place="inspace" rend="brown small" hand="#U3"><choice><abbr>Rec<hi rend="sup">d</hi></abbr><expan>Received</expan></choice> <date when="1862-03-25">25 April 1862</date> per Gorgon</add></p>
 <lb/><p><term type="occupation">Admiral</term> <space extent="4" unit="words"/><add hand="#U4"><hi rend="underline small brown">A.E. 314.</hi></add></p>
 <lb/><p rend="no-indent"><space extent="3" unit="words"/><persName>Sir Baldwin Walker</persName></p>
-<lb/><p rend="no-indent"><space extent="4" unit="words"/>√ Sir</p>    
+<lb/><p rend="no-indent"><space extent="4" unit="words"/><add hand="#U2" rend="gray">√</add> Sir</p>    
 <lb/><p rend="no-indent"><space extent="5" unit="words"/><space extent="1" unit="chars"/>I take the liberty
 <lb/>of placing before you a short account
 <lb/>of our proceedings since I last
@@ -99,9 +106,10 @@
 <lb/>rendered to us by your direction
 <lb/>by <persName><term type="occupation">Captain</term> Wilson</persName> of <choice><abbr>H.M.S.</abbr><expan>Her Majesty's Ship</expan></choice>
 <lb/>Gorgon.</p>
-<lb/><p>On reaching the <placeName><geogName type="marsh"><term type="animal">Elephant</term>
+<lb/><p>On reaching the <placeName><geogName type="swamp"><term type="animal">Elephant</term>
 <lb/>marsh</geogName></placeName> about <measure>30 miles</measure> below the
-<lb/><placeName><geogName type="cataracts">cataracts of the <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName> in <date when="1861-06">June last
+<lb/><placeName><geogName type="cataract">cataracts of the <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName> in <date when="1861-06">June last
+<lb/><lb/>
     
     <pb facs="liv_001730_0002" n="0002"/>
 <lb/>year</date> we found that the river shoaled
@@ -116,9 +124,9 @@
 <lb/>to the people, we accompanied him
 <lb/>by a few days march up to the
 <lb/><placeName><geogName type="highlands"><term type="tribe">Maganja</term> highlands</geogName></placeName> <!-- I coded this as a geographical feature. Please check that this is correct. JM --> East of the
-<lb/><placeName><geogName type="cataracts"><placeName><geogName type="river">Shire</geogName></placeName> cataracts</geogName></placeName> - <space extent="1" unit="chars"/>When we had just
+<lb/><placeName><geogName type="cataract"><placeName><geogName type="river">Shire</geogName></placeName> cataracts</geogName></placeName> - <space extent="1" unit="chars"/>When we had just
 <lb/>passed over the brow of the first
-<lb/>plateau we met a party of <orgName><placeName><settlement type="village"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName>
+<lb/>plateau we met a party of <orgName><placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName>
 <lb/><orgName>slaves</orgName></orgName> driving <orgName>84 captives</orgName> before
 <lb/>them - <space extent="1" unit="chars"/>They had followed the
 <lb/>footsteps of our discoveries and
@@ -137,7 +145,7 @@
 <lb/>enquiries among the <orgName>captives</orgName>,
 <lb/><orgName><term type="nationality">Portuguese</term> <orgName>slaves</orgName></orgName> decamped
 <lb/>into the forest. We handed the
-<lb/><orgName>captives of this</orgName> and <orgName>three other
+<lb/><orgName>captives of this and three other
 <lb/>parties</orgName> over to the <term type="occupation">bishop</term> - For
 <lb/>one of these we went several
 <lb/>miles out of our way - and
@@ -148,9 +156,9 @@
 
     <pb facs="liv_001730_0004" n="0004"/>
 <lb/>river - <space extent="1" unit="chars"/>This movement failed but
-<lb/>a <orgName>body of men with about ninety
-<lb/>muskets</orgName>, and headed by a <orgName>white
-<lb/><term type="nationality">Portuguese</term></orgName> from <placeName><settlement type="village"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName>, was deterred
+<lb/>a <orgName>body of men</orgName> with about ninety
+<lb/>muskets, and headed by a <orgName>white
+<lb/><term type="nationality">Portuguese</term></orgName> from <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName>, was deterred
 <lb/>from joining the <term type="tribe">Ajawa</term> by hearing
 <lb/>of <persName>D<hi rend="sup underline">r</hi> Kirk</persName>'s return to the ship -</p>
 <lb/><p>We found the <term type="tribe">Maganja</term> all
@@ -184,7 +192,7 @@
 <lb/>with the natives before -</p>
 <lb/><p>We then left - returned to
 <lb/>the ship and carried a boat
-<lb/>past the <placeName><geogName type="cataracts">cataracts of the <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName>
+<lb/>past the <placeName><geogName type="cataract">cataracts of the <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName>
 <lb/>there are five cataracts in 35'
 <lb/>of Latitude of <measure>100 or 150 feet</measure>
 <lb/>each - the whole descent amounts
@@ -193,11 +201,11 @@
     <pb facs="liv_001730_0006" n="0006"/>
 <lb/>launched the boat above the <w>upper<supplied>-</supplied>
 <lb break="no"/>-most</w> cataract we were virtually
-<lb/>on the <placeName><geogName type="lake">Lake Nyassa</geogName></placeName> or <placeName><geogName type="lake">Nyinyesi</geogName></placeName>
+<lb/>on the <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName> or <placeName><geogName type="lake">Nyinyesi</geogName></placeName>
 <lb/>because the <placeName><geogName type="river">upper Shire</geogName></placeName> is all
 <lb/>smooth and deep - There are <measure>sixty
 <lb/>miles</measure> of five gently flowing <unclear cert="medium">river</unclear>
-<lb/><unclear cert="medium">above</unclear> the cataracts, and a lakelet
+<lb/>above the cataracts, and a lakelet
 <lb/><measure>10 or 12 miles</measure> long and <measure>5 or 6</measure> broad.
 <lb/>We sailed into the Lake on the
 <lb/><date when="1862-09-02">2<hi rend="sup underline">d</hi> September</date> and followed the
@@ -251,7 +259,7 @@
 <lb/>of 19,000 <orgName>slaves</orgName> which pass annually
 <lb/>through the custom house of
 <lb/><placeName><geogName type="island">Zanzibar</geogName></placeName>, the chief portion comes
-<lb/>from <placeName><geogName type="lake">Lake Nyassa</geogName></placeName>, and the
+<lb/>from <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName>, and the
 <lb/><placeName><geogName type="valley">valley of the <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName>; and that should
 <lb/>it ever be possible to place a
 <lb/>steamer on the Lake the trade<!-- geog:Lake Nyassa -->
@@ -267,7 +275,7 @@
 <lb/>to a steamer on the Lake we have<!-- geog: Lake Nyassa -->
 <lb/>an outlet to the <measure>three hundred
 <lb/>miles</measure> of cotton field which in
-<lb/>the <placeName><geogName type="river">upper Shire</geogName></placeName>, and <placeName><geogName type="lake">Lake Nyassa</geogName></placeName>
+<lb/>the <placeName><geogName type="river">upper Shire</geogName></placeName>, and <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName>
 <lb/>we have opened up - It must be
 <lb/>beyond <term type="nationality">Portuguese</term> claims, and
 <lb/><placeName><geogName type="river">Rovuma</geogName></placeName> seems to be best adapted
@@ -277,13 +285,13 @@
 <lb/>a port at the mouth of the <placeName><geogName type="river">Shire</geogName></placeName>
 <lb/>intends to enrich itself by dues
 <lb/>from the <term type="plant">cotton</term> trade, while
-<lb/>the <placeName><settlement type="village"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> <term type="occupation">merchants</term> headed by
+<lb/>the <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> <term type="occupation">merchants</term> headed by
 <lb/>the <term type="occupation">Governor</term> depopulates the
 <lb/>country from which the trade is
 <lb/>to come by <term type="occupation"><orgName>slave</orgName> hunting</term>.</p>
     
     <pb facs="liv_001730_0010" n="0010"/>
-<lb/><p>The movement of the <term type="occupation">Governor
+<lb/><p rend="no-indent">The movement of the <term type="occupation">Governor
 <lb/>General of <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName></term> to induce
 <lb/><unclear cert="medium">the</unclear> <term type="occupation">Sultan of <placeName><geogName type="island">Zanzibar</geogName></placeName></term> to cede the
 <lb/><placeName><geogName type="river">Rovuma</geogName></placeName> to him is just of a
@@ -301,14 +309,14 @@
 <lb/>new <term type="plant">cotton</term> field should be
 <lb/>opened during the present <w>com-
 <lb break="no"/>-plications</w> of affairs in <placeName><country>America</country></placeName>.
-<lb/>I feel diffident in <unclear cert="medium">venturing</unclear> to
+<lb/>I feel diffident in venturing to
 <lb/>suggest anything to you but
     
     <pb facs="liv_001730_0011" n="0011"/>
 <lb/>remembering the important influence
 <lb/><unclear cert="high">that</unclear> free access of <term type="people">Englishmen</term>
 <lb/>into the country will have on
-<lb/>the <orgName><placeName><geogName type="river">Nyassa</geogName></placeName> <orgName>slave</orgName> trade</orgName>, I hope
+<lb/>the <orgName><placeName><geogName type="river"><choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName> <orgName>slave</orgName> trade</orgName>, I hope
 <lb/>you will bear with me in
 <lb/>proposing the exploration of the
 <lb/><placeName><geogName type="river">Rovuma</geogName></placeName> in boats from the sea
@@ -360,7 +368,7 @@
 <lb/>understand matters up here
 <lb/>if I kept silence - The <term type="occupation">bishop</term>
 <lb/>informed us that during
-<lb/>our absence at <placeName><geogName type="lake">Lake Nyassa</geogName></placeName>
+<lb/>our absence at <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName>
 <lb/>he had gone about <measure>15 miles</measure>
 <lb/>and attacked another tribe
 <lb/>of <term type="tribe">Ajawas</term> - burned their
@@ -399,10 +407,10 @@
 <lb/><p>We left our small boat
 <lb/>hoisted up to a shady tree above
 <lb/>the uppermost cataract. We<!-- geog: Cataract of the Shire -->
-<lb/>have one <unclear cert="low">gig</unclear> only and very
-<lb/>much <unclear cert="low">shattered</unclear> by the work it
+<lb/>have one gig only and very
+<lb/>much shattered by the work it
 <lb/>has done in laying out <unclear cert="medium">anchors</unclear> &amp;c
-<lb/>May I beg a strong cutter <unclear cert="low">gig</unclear>
+<lb/>May I beg a strong cutter gig
 <lb/>from the dock yard?</p>
 <lb/><p><persName><term type="occupation">Captain</term> Wilson</persName> will inform
 <lb/>you that he could give us but
@@ -413,7 +421,7 @@
 <lb/>convenience -</p>
      
     <pb facs="liv_001730_0016" n="0016"/>
-<lb/><p>We shall come down to the <placeName><geogName type="harbour">Kongone</geogName></placeName>
+<lb/><p>We shall come down to the <placeName><geogName type="harbor">Kongone</geogName></placeName>
 <lb/>sometime in <date when="1863-03">March</date> and again
 <lb/>in <date when="1863-04">April next</date>.</p>
 <lb/><p rend="no-indent"><space extent="2" unit="words"/>I am Sir
