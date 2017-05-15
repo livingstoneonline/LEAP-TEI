@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-UJ-html.xsl" type="text/xsl"?>-->
-<?xml-stylesheet href="transcription-UJ-html.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-UJ-html.xsl" type="text/xsl"?>
+<!--<?xml-stylesheet href="transcription-UJ-html.xsl" type="text/xsl"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_015005">
     <teiHeader>
         <fileDesc>
@@ -24,6 +24,12 @@
 					<name>Christopher Lawrence</name>
 					<resp>Final proofing</resp>
 				</respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
                 <respStmt xml:id="HB">
                     <name>Heather F. Ball</name>
                     <resp>Transcription</resp>
@@ -61,7 +67,7 @@
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date>
+                <date>2016-2017</date>
 				<idno type="LEAP-ID">liv_015005</idno>
             </publicationStmt>
             <sourceDesc>
