@@ -24,6 +24,12 @@
 					<name>Christopher Lawrence</name>
 					<resp>Final proofing</resp>
 				</respStmt>
+                <respStmt xml:id="AM">
+                    <name>Anne Martin</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
                 <respStmt xml:id="HB">
                     <name>Heather F. Ball</name>
                     <resp>Transcription</resp>
@@ -31,6 +37,12 @@
                     <resp>Editorial Decisions</resp>
 					<resp>Proofing</resp>
 					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
                 </respStmt>
                 <respStmt xml:id="EC">
                     <name>Erin Cheatham</name>
@@ -44,12 +56,18 @@
 					<resp>TEI Encoding</resp>
 					<resp>Proofing</resp>
 				</respStmt>
+				<respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>Livingstone Online</authority>
                 <publisher>University of Maryland Libraries</publisher>
                 <pubPlace>College Park, MD, USA</pubPlace>
-                <date>2016</date>
+                <date>2016-2017</date>
 				<idno type="LEAP-ID">liv_015005</idno>
             </publicationStmt>
             <sourceDesc>
@@ -91,13 +109,35 @@
         </profileDesc>
         <revisionDesc>
 
-	<!-- Break out 1870 FD segment -->
+		<!-- Break out 1870 FD segment, part 2 (0543-0556) -->
+			<change when="2017-05-13" who="#AW">Review and Revision</change>
+
+		<!-- Online Display -->
+			<change when="2016-05-10" who="#AW">More Editing for Online Display</change>
+			<change when="2016-05-05" who="#HB">Word List Review</change>
+			<change when="2016-12-06" who="#AW">Editing for Online Display</change>
+		<!-- Global Integration -->
+            <change when="2015-11-15" who="#HB">Quality Control and Integration</change>
+
+        <!-- Integration 0546-0593 -->
+            <change when="2015-04-25" who="#HB">Quality Control and Integration</change>
+        <!-- 0546 -->
+            <change when="2016-01-25" who="#KS">Proofing</change>
+            <change when="2015-12-16" who="#EM">Transcription and TEI Encoding</change>
+
+        <!-- Integration 0494-0545 -->
+			<change when="2015-03-20" who="#HB">Quality Control and Integration</change>
+        <!-- 0515 -->
+			<change when="2016-03-19" who="#EM">Proofing</change>
+            <change when="2015-12-13" who="#AM">Transcription and TEI encoding</change>
+
+		<!-- Break out 1870 FD segment, part 1 (0620-0626, 0645-0659) -->
 			<change when="2016-10-04" who="#AW">Review and Revision</change>
 
-    <!-- Integration, 0620-0731 -->
+    	<!-- Integration, 0620-0731 -->
             <change when="2015-03-15" who="#HB">Quality Control and Integration</change>
 
-    <!-- 0620-0626, 0645-0659 -->
+ 	   <!-- 0620-0626, 0645-0659 -->
 			<!-- Final review -->
 			<change when="2015-10-23" who="#CL">Proofing</change>
 			<change when="2015-09-04" who="#CL">Proofing</change>
@@ -118,9 +158,557 @@
        	<body>
 			<div>
 
+	<pb facs="liv_000019_0543" n="0543"/>
+<lb/><fw n="537"><add place="inspace" rend="gray right" hand="#U">537</add></fw>
+<lb/><p rend="no-indent"><space extent="3" unit="words"/><space extent="2" unit="chars"/><placeName><settlement type="village">Bambarre</settlement></placeName> = <placeName><region><orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName> country</region></placeName>
+<lb/><space extent="1" unit="words"/>say, <measure>about 150 <choice><abbr>W.</abbr><expan>West</expan></choice> of <placeName><settlement type="village">Ujiji</settlement></placeName></measure> <date when="1870-11-15">15 November 1870</date></p>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><space extent="2" unit="chars"/><persName>The Right Honourable</persName>
+<lb/><space extent="6" unit="words"/><persName>Lord Stanley</persName></p>
+<lb/><p rend="no-indent"><space extent="7" unit="words"/>My Lord -</p>
+<lb/><p rend="no-indent"><space extent="8" unit="words"/>As soon as
+<lb/>I recovered sufficiently to be able to march from
+<lb/><placeName><settlement type="village">Ujiji</settlement></placeName> - I went up <placeName><geogName type="lake">Tanganyika</geogName></placeName> <measure>about sixty
+<lb/>miles</measure>, and thence struck away <choice><orig>Nor West</orig><reg>Northwest</reg></choice> into
+<lb/>the <placeName><region>country of the <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName> or <orgName>Manyema</orgName></region></placeName> =
+<lb/>the reputed <orgName>cannibals</orgName> - My object was to follow
+<lb/>down the central line of drainage of the <placeName><geogName type="valley">Great
+<lb/><placeName><geogName type="river">Nile</geogName></placeName> valley</geogName></placeName> which I had seen passing through
+<lb/>the great <placeName><geogName type="lake">lake Bañgweolo</geogName></placeName>, and changing its
+<lb/>name from <placeName><geogName type="river"><choice><orig>Chambeze</orig><reg>Chambezi</reg></choice></geogName></placeName> to <placeName><geogName type="river">Luapula</geogName></placeName> = then
+<lb/>again on passing through <placeName><geogName type="lake">Lake Moero</geogName></placeName>, <w>assum-
+<lb break="no"/>ing</w> <placeName><geogName type="river">Lualaba</geogName></placeName> and after forming a third
+<lb/>Lake = <placeName><geogName type="lake">Kamolondo</geogName></placeName> becoming itself a great
+<lb/>Lacustrine river or <choice><sic>Riverein</sic><corr>riverine</corr></choice> lake with
+<lb/>many islands in it - I soon found myself
+<lb/>in the large bend which this great Lacustrine 
+<lb/>river makes by flowing West <measure>about 180
+<lb/>miles</measure> then sweeping round to the North -
+<lb/>Two hours were the utmost I could accomplish
+<lb/>in a day but by persevering I gained
+<lb/>strength, and came up to the <orgName><term type="occupation">trading</term> <orgName>party</orgName>
+<lb/>of <persName>Muhamad Bogharib</persName></orgName> who by <orgName>native</orgName>
+<lb/>medicines and carriage saved my life in
+<lb/>my late severe illness in <placeName><region>Marungu</region></placeName> = Two
+<lb/>days before we reached <placeName><settlement type="village">Bambarre</settlement></placeName> - the residence
+<lb/>of the most sensible <term type="occupation">chief</term> in <placeName><region>Manyema</region></placeName>
+<lb/>called <persName>Moenekuss</persName>, we met a band of <orgName><orgName>Ujijian</orgName>
+<lb/><term type="occupation">traders</term></orgName> carrying 18,000 <choice><abbr>lbs</abbr><expan>pounds</expan></choice> weight of ivory
+<lb/>bought in this new field for a mere trifle
+<lb/>in thick copper bracelets and beads - the
+<lb/><term type="occupation">traders</term> had been obliged to employ their
+<lb/><orgName>slaves</orgName> to <term type="occupation">collect</term> the ivory, and <orgName>slaves</orgName> with
+
+	<pb facs="liv_000019_0544" n="0544"/>
+<lb/><fw n="538"><add place="inspace" rend="gray left" hand="#U">538</add></fw>
+<lb/><choice><sic>with</sic><corr/></choice> guns in their hands are often no better
+<lb/>than Demons - We heard but one side of
+<lb/>the story = the <choice><sic><orgName>slaves</orgName></sic><corr><orgName>slaves</orgName>'</corr></choice> version - and such as
+<lb/>would have appeared in the <bibl>Newspaper</bibl>
+<lb/>if they had one - "the <orgName>Manyema</orgName> were very
+<lb/>bad = were always in the wrong = wanted
+<lb/>in fact to eat the <orgName>slaves</orgName> = and always gave
+<lb/>them just reason to capture women and
+<lb/>children, <term type="animal">goats</term>, <term type="animal">sheep</term>, <term type="animal">fowls</term> and <term type="plant_foodstuff">grain</term> - "
+<lb/>The <orgName><term type="occupation">masters</term></orgName> did not quite approve of this,
+<lb/>but the deeds had been done - and then
+<lb/><orgName><term type="occupation">masters</term></orgName> and men joined in one chorus
+<lb/>"the <orgName>Manyema</orgName> are bad, bad, bad, awfully
+<lb/>bad, and <orgName>cannibals</orgName>" - In going <placeName><region>West of
+<lb/><placeName><settlement type="village">Bambarre</settlement></placeName></region></placeName> in order to embark on the
+<lb/><placeName><geogName type="river">Lualaba</geogName></placeName>, I went down the <placeName><geogName type="river">Luamo</geogName></placeName> - a
+<lb/>river of <measure><measure>from 100 yards</measure> to <measure>200 yards
+<lb/>broad</measure></measure> which rises in the <placeName><geogName type="mountain">mountains
+<lb/>opposite <placeName><settlement type="village">Ujiji</settlement></placeName></geogName></placeName> and flows across the
+<lb/>great bend of the <placeName><geogName type="river">Lualaba</geogName></placeName> - When near its
+<lb/><placeName><geogName type="confluence">confluence</geogName></placeName>, I found myself among
+<lb/>people who had been maltreated by the
+<lb/><orgName>slaves</orgName>, and they naturally look on <unclear cert="low">me</unclear> as
+<lb/>of the same tribe with their <orgName>cruel <w>per-
+<lb break="no"/>-secutors</w></orgName> - <orgName>Africans</orgName> are not generally
+<lb/>unreasonable though smarting under
+<lb/>wrongs if you can fairly make them
+<lb/>understand your claim to innocence
+<lb/>and do not appear as having your "back"
+<lb/>"up" - the women were particularly <w>out<supplied>-</supplied>
+<lb break="no"/>spoken</w> in asserting our identity with
+<lb/>the <orgName>cruel strangers</orgName> - on calling to one <w>vocifer<supplied>-</supplied>
+<lb break="no"/>-ous</w> lady who gave me the head <choice><sic><term type="occupation">trader</term>s</sic><corr><term type="occupation">trader</term>'s</corr></choice> 
+<lb/>name to look at my colour, and see if
+<lb/>it were the same as his - she replied
+<lb/>with a bitter little laugh - "then you must
+<lb/>be his father"! the worst the men did was
+
+	<pb facs="liv_000019_0545" n="0545"/>
+<lb/><fw n="539"><add place="inspace" rend="gray right" hand="#U">539</add></fw>
+<lb/>to turn out in force armed with their large
+<lb/>spears and wooden shields, and <choice><orig>shew</orig><reg>show</reg></choice> us out
+<lb/>of their districts - Glad that no collision took
+<lb/>place, we returned to <placeName><settlement type="village">Bambarre</settlement></placeName> = and then
+<lb/>with our friend <persName>Muhamad</persName> struck away due
+<lb/>North = He to buy ivory, and I to reach
+<lb/>another part of the <placeName><geogName type="river">Lualaba</geogName></placeName> and buy a
+<lb/>canoe -</p>
+<lb/><p>The country is extremely beautiful, but <!-- geog: Manyema -->
+<lb/>difficult to travel over - the mountains
+<lb/>of light grey granite stand like islands in
+<lb/>New Red sandstone, and mountain and
+<lb/>valley are all clad in a mantle of different
+<lb/>shades of green - The <term type="plant">vegetation</term> is <w>indescri-
+<lb break="no"/>-bably</w> rank - through the grass, if
+<lb/>grass it can be called which is over half
+<lb/>an inch in diameter in the stalk, and
+<lb/>from ten to twelve feet high, nothing but
+<lb/><term type="animal">elephants</term> can walk = the leaves of this
+<lb/><term type="plant">Megatherium grass</term> are armed with -
+<lb/>minute spikes which as we worm our
+<lb/>way along <term type="animal">elephant</term> walks rub <choice><sic>disagreably</sic><corr>disagreeably</corr></choice>
+<lb/>on the side of the face where the gun is held
+<lb/>and the hand is made sore by fending it
+<lb/>off the other side for hours - <seg type="weather">the rains
+<lb/>were fairly set in by <date when="1870-11">November</date>; and in
+<lb/>the mornings or after a shower</seg> the <choice><sic>leave's</sic><corr>leaves</corr></choice> <!-- there appears to be a "-" here above the "s" but doesn't make much sense here AM --><!-- I think it's a misappropriated apostrophe, so have coded as such - Adrian, pls correct if necessary. HB -->
+<lb/>were loaded with moisture which wet us 
+<lb/>to the bone - the valleys are deeply <w>undu-
+<lb break="no"/>-lating</w>, and in each innumerable dells
+<lb/>have to be crossed - there may be only a
+<lb/>thread of water at the bottom, but the mud,
+<lb/>mire, or scotticé "<foreign xml:lang="gd"><w>g<hi  rend="underline">laur</hi></w></foreign>" <!-- "glaur" may be an old Scots word (I would use it!) so I'm not sure if it is really foreign? AM --><!-- I changed to Scottish lang tag. HB --> is grievous -
+<lb/><measure>thirty or forty yards</measure> of the path on each
+<lb/>side of the stream are worked by the feet
+<lb/>of passengers into an adhesive <w>com-
+<lb break="no"/>-pound</w> - By placing a foot on each
+
+	<pb facs="liv_000019_0546" n="0546"/>
+<lb/><fw n="540"><add place="inspace" rend="gray left" hand="#U">540</add></fw>
+<lb/>side of the narrow way, one may waddle a
+<lb/><note place="marginleft">little <add place="below">^</add> <lb/>distance</note> along, but the rank <term type="plant">crop of grasses, <term type="plant_foodstuff">gingers</term>
+<lb/>and bushes</term> cannot spare the few inches
+<lb/>of soil required for the side of the foot, and
+<lb/>down he comes into the slough - the path
+<lb/>often runs along the bed of the rivulet for
+<lb/><measure>sixty or more yards</measure>, as if he who first
+<lb/>cut it out went that distance <del type="strikethrough">along</del> seeking
+<lb/>for a part of the forest less dense for his
+<lb/>axe - In other cases the "<term type="plant"><hi rend="underline">Muale</hi>" palm</term>
+<lb/>from which here as in <placeName><country>Madagascar</country></placeName> grass
+<lb/>cloth is woven and called by the same
+<lb/>name "<hi rend="underline"><foreign xml:lang="mg">Lamba</foreign></hi>", has taken possession
+<lb/>of a valley - the leaf stalks as thick as a
+<lb/>strong man's arm fall off and block up
+<lb/>all passage save by a path made and
+<lb/>mixed up by the feet of <term type="animal">elephants</term> and
+<lb/><term type="animal">buffaloes</term> - the slough therein is groan
+<lb/>compelling and deep - Every now and
+<lb/>then the <term type="occupation">traders</term> with rueful faces stand 
+<lb/>panting = the sweat trickles down my
+<lb/>face and I suppose that I look as grim
+<lb/>as they though I try to cheer them with
+<lb/>the hope that good prices will reward
+<lb/>them as the coast for ivory obtained with
+<lb/>so much toil - In some cases the
+<lb/>subsoil has given way beneath the
+<lb/><choice><sic><term type="animal">elephant</term>s</sic><corr><term type="animal">elephant</term>'s</corr></choice> enormous weight - the deep hole
+<lb/>is filled with mud, and one taking it
+<lb/>all to be <measure>about calf deep</measure>, steps in to
+<lb/>the top of the thigh, and flaps on to a
+<lb/>seat soft enough but not luxurious
+<lb/>a merry laugh relaxes the facial muscles
+<lb/>though I have no better reason for it
+<lb/>than that it is better to laugh than to cry
+<lb/><note place="marginleft">&#8267;<hi rend="large">/</hi><hi rend="below">^</hi></note> Some of the numerous rivers which in
+<lb/>this region flow into <placeName><geogName type="river">Lualaba</geogName></placeName> -
+
+	<pb facs="liv_000019_0547" n="0547"/>
+<lb/><fw n="541"><add place="inspace" rend="gray right" hand="#U">541</add></fw>
+<lb/>are covered with living <term type="plant_foodstuff">vegetable</term> bridges -
+<lb/>a species of dark glossy leaved grass with
+<lb/>its roots and leaves felts itself into a mat
+<lb/>that covers the whole stream = When stepped
+<lb/>upon it yields twelve or fifteen inches and
+<lb/>that amount of water rises up on the leg -
+<lb/>At every step the foot has to be raised high
+<lb/>enough to place it on the unbent mass in
+<lb/>front - This high stepping fatigues like
+<lb/>walking on deep snow - Here and there
+<lb/>holes appear which we could not sound
+<lb/>with a stick six feet long - they gave the
+<lb/>impression that anywhere one might
+<lb/>plump though and finish the chapter -
+<lb/>There the water is shallow the <term type="plant">Lotus</term> or
+<lb/>sacred <term type="plant"><choice><sic>lilly</sic><corr>lily</corr></choice></term> sends its roots to the bottom,
+<lb/>and spreads its broad leaves over the
+<lb/>floating bridge so as to make believe that
+<lb/>the mat is its own, but the grass referred to
+<lb/>is the real felting and supporting agent,
+<lb/>for it often performs duty as bridge where no
+<lb/><term type="plant"><choice><sic>lillies</sic><corr>lilies</corr></choice></term> grow - The bridge is called by the
+<lb/><orgName>Manyema</orgName> - "<foreign xml:lang="und"><term type="plant">Kintefwetefwe</term></foreign>"<!-- Not sure on this spelling. Or if it should be marked as a plant. EM --> as if he
+<lb/>who first coined it was grasping for
+<lb/>breath after plunging <measure>over a mile</measure> of it</p>
+<lb/><p>Between each district of <placeName><region>Manyema</region></placeName>
+<lb/>large belts of the primeval forest still stand
+<lb/>into these <seg type="weather">the sun though vertical cannot
+<lb/>penetrate except by sending down at
+<lb/>midday thin pencils of rays into the
+<lb/>gloom</seg> - The rain water stands for months
+<lb/>in stagnant pools made by the feet of
+<lb/><term type="animal">elephants</term> - and the dead leaves decay
+<lb/>on the damp soil and make the water
+<lb/>of the numerous rivulets of the colour
+<lb/>of strong <term type="plant_foodstuff">tea</term> - The <term type="plant">climbing plants</term>
+<lb/>from the size of whip cord to that of a
+<lb/>man of war's hawsers are so numerous
+    
+	<pb facs="liv_000019_0548" n="0548"/>
+<lb/><fw n="542"><add place="inspace" rend="gray left" hand="#U">542</add></fw>
+<lb/>The ancient path is the only passage - When
+<lb/>one of the giant trees falls across the
+<lb/>road, it forms a wall breast high to be
+<lb/>climbed over - and the mass of tangled
+<lb/>ropes brought down makes cutting a
+<lb/>path round it a work of time which
+<lb/><term type="occupation">travellers</term> never undertake - the shelter of
+<lb/>the forest from the sun makes it
+<lb/>but the roots of trees high out of the soil
+<lb/>across the path keep the eyes <term type="animal">ox</term>like on
+<lb/>the ground - The trees are so high that
+<lb/>a good shotgun does no harm to
+<lb/><term type="animal">parrots</term> or <term type="animal">guinea fowls</term> on their tops
+<lb/>and they are often so closely planted 
+<lb/>that I have heard <term type="animal"><choice><sic>gorillahs</sic><corr>gorillas</corr></choice></term> here called
+<lb/><foreign xml:lang="und"><term type="animal">Sokos</term></foreign> -<!-- Should this be marked as animal. EM --><!-- Yes :) HB --> growling about <measure>50 yards off</measure>
+<lb/>without getting a glimpse of them -
+<lb/>His nest is a poor contrivance
+<lb/>It exhibits no more <w>arch<add place="below">^</add> <add place="above">it</add>ectural</w> skill
+<lb/>than the nest of our <term type="animal"><foreign xml:lang="gd">Cushat</foreign> dove</term> - <!-- Again, is Cushat a placeName that needs to be tagged? HB -->
+<lb/>Here he sits in <seg type="weather">pelting rain</seg> with his
+<lb/>hands over his head - The <orgName>natives</orgName> give
+<lb/><add place="marginleft"><metamark/></add><foreign xml:lang="und"><term type="animal">Soko</term></foreign> <!-- Still not sure how this should be identified --> a good character and from
+<lb/>what I have seen he deserves it but
+<lb/>they call his nest his house, and
+<lb/>laugh at him for being such a fool as
+<lb/>to build a house and not go beneath it 
+<lb/>for shelter - </p>
+<lb/><p>Bad water and <seg type="weather">frequent wettings</seg>
+<lb/>told on us all by <term type="ailment">choleraic symptoms</term>
+<lb/>and <term type="ailment">loss of flesh</term> - Meanwhile the news
+<lb/>of cheap ivory caused a sort of <placeName><region><w>Californi<supplied>-</supplied>
+<lb break="no"/>-an</w></region></placeName><!-- Not sure how I should identify this. EM --><!-- identify placeName before word break --> gold fever<!-- Ailment, yes/no? EM --><!-- nope :-) --> at <placeName><settlement type="town">Ujiji</settlement></placeName> and we were
+<lb/>soon overtaken by a herd numbering
+<lb/>600 muskets all eager for the precious
+<lb/>tusks - these had been left by the <orgName><w>Man<supplied>-</supplied>
+<lb break="no"/><supplied>-</supplied>yema</w></orgName> in the interminable forests
+
+	<pb facs="liv_000019_0549" n="0549"/>
+<lb/><fw n="543"><add place="inspace" rend="gray right" hand="#U">543</add></fw>
+<lb/>where the animals had been slain - the
+<lb/><orgName>natives</orgName> knew where they lay and if
+<lb/>treated civilly readily brought them many
+<lb/>half <unclear cert="high">rotten</unclear> or gnawed by a certain
+<lb/><term type="animal">Rodent</term> to sharpen his teeth as <placeName><settlement type="city">London</settlement></placeName>
+<lb/><term type="animal">rats</term> do on leaden pipes - I had already in
+<lb/>this journey two severe lessons that
+<lb/>travelling in <seg type="weather">an unhealthy climate in the
+<lb/>rainy season</seg> is killing work - By
+<lb/>getting drenched to the skin once too often
+<lb/>in <placeName><region>Marungu</region></placeName> I had <term type="ailment">pneumonia</term> = the illness
+<lb/>to which I have referred, and that was worse
+<lb/>than ten <term type="ailment">fevers</term> - That is, <term type="ailment">fevers</term> treated by
+<lb/>our medicine, and not by the dirt <w>sup-
+<lb break="no"/>-plied</w> to <persName>Bishop Mackenzie</persName> at the <placeName><region>Cape</region></placeName> as
+<lb/>the same - Besides being unwilling to bear
+<lb/>the <choice><sic>newcomers</sic><corr>newcomers'</corr></choice> company, I feared
+<lb/>that by further exposure in the <seg type="weather">rains</seg>
+<lb/>the weakness might result in something
+<lb/><!-- The words are tucked to the side and difficult to read. EM --><!-- see below for coding this marginleft text insertion, but your reading round curves is spot on! :-) ks --><note rend="small" place="marginleft">or a <lb/>little <lb/><w>back<supplied>-</supplied><lb break="no"/><supplied>-</supplied>wards</w></note> worse - I went <measure>seven days</measure> South West
+<lb/>to a camp formed by the <term type="occupation">headmen</term> of
+<lb/>the ivory horde, and on the <date when="1870-02-07"><!-- Maybe double check the year? EM --><!-- I think from double checking between last journals and parliamentry papers its 1869 but i might be wrong, ks -->7<hi rend="sup underline">th</hi> February</date>
+<lb/>went into winter quarters - I found these men
+<lb/>as civil and kind as I could wish - <bibl>A letter
+<lb/>from the <persName>Sultan of <placeName><geogName type="island">Zanzibar</geogName></placeName></persName></bibl> which I owe to
+<lb/>the kind offices of <persName>Sir Bartle Frere</persName> has been
+<lb/>of immense service to me with most of <orgName>his
+<lb/>subjects</orgName> - I had no medicine but rest -
+<lb/>shelter, boiling all the water I used, and a
+<lb/>new <term type="plant_foodstuff">potato</term> farmed among the <orgName>natives</orgName> as
+<lb/>restorative soon put me all right - <seg type="weather">the rains
+<lb/>continued into <date when="1870-07">July</date> and fifty eight inches 
+<lb/>fell</seg> - The mud from the clayey soil of
+<lb/><placeName><region>Manyema</region></placeName><!-- Still not sure if this is tribe/place. EM --><!-- region and tribe, ks --> was awful, and laid up some
+<lb/>of the strongest men in spite of their
+<lb/>intense eagerness for ivory - I lost
+<lb/>no time after it was feasible to travel
+
+	<pb facs="liv_000019_0550" n="0550"/>
+<lb/><fw n="544"><add place="inspace" rend="gray left" hand="#U">544</add></fw>
+<lb/>in preparing to follow the river but my <!-- geog: Lualaba, I think. HB -->
+<lb/>attendants were fed and lodged by the
+<lb/><note place="marginleft">from <lb/>the <lb/>camp</note> <orgName>slave</orgName> women whose husbands were
+<lb/>away <add place="below">^</add> on <term type="occupation">trade</term> and pretended to fear going
+<lb/>into a canoe - I consented to refrain from
+<lb/>buying one - They then pretended to fear <orgName>the
+<lb/>people</orgName> though <orgName>the inhabitants all along
+<lb/>the <placeName><geogName type="river">Lualaba</geogName></placeName></orgName> were reported by the <orgName>slaves</orgName> to
+<lb/>be remarkably friendly - I have heard
+<lb/>both <orgName>slaves</orgName> and <orgName>freemen</orgName> say "No one
+<lb/>will every attack people so good" as they
+<lb/>found them - Elsewhere I could employ
+<lb/>the <orgName>country people</orgName> as <term type="occupation">carriers</term> but was
+<lb/>comparatively independent though deserted
+<lb/>by some four times over - but in
+<lb/><placeName><region>Manyema</region></placeName> no one can be induced to go
+<lb/>into the next district for fear they say
+<lb/>of being killed and eaten - I was at the
+<lb/>mercy of those who had been <orgName><orgName>Moslem</orgName>
+<lb/>slaves</orgName> and knew that in thwarting me
+<lb/>they had the sympathy of all that class
+<lb/>in the country, and as many others
+<lb/>would have done took advantage of the
+<lb/>situation - I went on with only three
+<lb/><term type="occupation">attendants</term> - and this time North West
+<lb/>in ignorance that the great river <!-- geog: Nile -->
+<lb/>flowed West and by South - but no one
+<lb/>could tell me anything about it - a
+<lb/>broad belt of <foreign xml:lang="und">Buga</foreign> or Prairie lies
+<lb/>along the right bank - Inland from 
+<lb/>this it is all primeval forest with
+<lb/>villages <measure>from eight to ten miles apart</measure>
+<lb/>one sees the sun only in the cleared
+<lb/>spaces around human dwellings
+<lb/>From the facilities for escaping the
+<lb/><orgName>forest people</orgName> are wilder and more
+<lb/>dangerous than <orgName>those on <foreign xml:lang="und">Buga</foreign> lands</orgName>
+
+	<pb facs="liv_000019_0551" n="0551"/>
+<lb/><fw n="545"><add place="inspace" rend="gray right" hand="#U">545</add></fw>
+<lb/><orgName><persName>Muhamad</persName>'s people</orgName> went further on in the
+<lb/>rest than I could, and came to the <placeName><region><w>mount<supplied>-</supplied>
+<lb break="no"/><supplied>-</supplied>ainous</w> country of the <term type="tribe"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term></region></placeName> who collected
+<lb/>in large numbers and demanded of the
+<lb/>strangers why they came - "We came to buy
+<lb/>ivory" was the reply, "and if you have
+<lb/>none no harm is done we shall return"
+<lb/>"Nay" they shouted - "you came to die and
+<lb/>this day is your last, you came to die, you
+<lb/>came to die" - When forced to fire on the
+<lb/><term type="tribe"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term> - the Terror was like their insolence -
+<lb/>extreme - and next day when sent for to
+<lb/>take away the women and children who
+<lb/>were captured, no one appeared - Having
+<lb/>travelled with my <term type="occupation">informants</term> I know
+<lb/>their accounts to be trustworthy - The rivers
+<lb/>crossed by them are numerous and
+<lb/>large - One was so tortuous they were <measure>five
+<lb/>hours</measure> in <measure><measure>water waist</measure> and <measure>often neck
+<lb/>deep</measure></measure> with a man in a small canoe
+<lb/>sounding for places which they could
+<lb/>pass, and could see nothing in the forest
+<lb/>and nothing in the <placeName><region><term type="tribe"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term> country</region></placeName> but
+<lb/>one mountain packed closely to the back
+<lb/>of another without end, and a very hot
+<lb/>fountain in one of the valleys - I found
+<lb/>continued wading in mud grievous -
+<lb/>For the first time in my life my feet
+<lb/>failed - When torn by hard travel
+<lb/>instead of healing kindly as here to fore
+<lb/><term type="ailment">irritable eating ulcers</term> fastened on each
+<lb/>foot - The people were invariably civil
+<lb/>and even kind for curiously enough
+<lb/>to <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName> <orgName>slaves</orgName></orgName> propagated every
+<lb/>where glowing of my goodness and
+<lb/>of the <term type="people">English</term> generally because
+<lb/>they never made <orgName>slaves</orgName> - A <orgName>trading
+
+	<pb facs="liv_000019_0552" n="0552"/>
+<lb/><fw n="546"><add place="inspace" rend="gray left" hand="#U">546</add></fw>
+<lb/>party</orgName> passed us, and one of their number
+<lb/>was pinned to the ground at dead of night
+<lb/>while I was sleeping with my three -
+<lb/><term type="occupation">attendants</term>  at a village close by - Nine
+<lb/>villages had been burned and as the author
+<lb/>of the outrage told me at least forty men
+<lb/>killed because a <orgName>Manyema</orgName> man tried
+<lb/>to steal a string of beads -  The midnight
+<lb/>assassination was revenge for the loss 
+<lb/>of friends there - It was evident that
+<lb/>reaction against the bloody <orgName><orgName>Ujijian</orgName>
+<lb/>slaving</orgName> had set in - The accounts
+<lb/>evidently truthful given by <orgName><persName>Muhamad</persName>'s
+<lb/>people</orgName> <choice><orig>shewed</orig><reg>showed</reg></choice> that nothing would be
+<lb/>gained by going further in our present
+<lb/>course, and now being very <term type="ailment">lame</term> I
+<lb/>limped back to <placeName><settlement type="town">Bambarre</settlement></placeName> and here
+<lb/>I was laid up by the <term type="ailment">eating ulcers</term> for
+<lb/>many months - they are common in
+<lb/>the <placeName><region><orgName>Manyema</orgName> country</region></placeName> and kill many
+<lb/><orgName>slaves</orgName> - If the foot is placed on the
+<lb/>ground blood flows, and every night
+<lb/>a discharge of bloody ichor takes place
+<lb/>with pain that prevents sleep - The
+<lb/>wailings of poor <orgName>slaves</orgName> with <term type="ailment">ulcers</term> that
+<lb/>eat through everything even bone
+<lb/>is one of the night sounds of a <orgName><orgName>slave</orgName>
+<lb/>camp</orgName> - They are probably allied to <term type="ailment">Fever</term></p>
+<lb/><p>I have been minute even to
+<lb/>triviality that your Lordship may
+<lb/>have a clear idea of the difficulties of
+<lb/>exploration in this region - satisfactory <!-- geog: Manyema country, I think. HB -->
+<lb/>progress could only be made in canoes
+<lb/>with men accustomed to work - I tried
+<lb/>hard to get others at <placeName><settlement type="village">Ujiji</settlement></placeName>, but all the
+<lb/><term type="occupation">traders</term> were eager to secure all the 
+<lb/><term type="occupation">carriers</term> for themselves, and circulated
+
+	<pb facs="liv_000019_0553" n="0553"/>
+<lb/><fw n="547"><add place="inspace" rend="gray right" hand="#U">547</add></fw>
+<lb/>the report that I would go away from <placeName><region><orgName><w>Man-
+<lb/>-yema</w></orgName></region></placeName> to my own country and leave <orgName>my people</orgName>
+<lb/>to shift for themselves "like <persName>Speke</persName>"- they
+<lb/>knew perfectly that <orgName><persName>Speke</persName>'s men</orgName> left him
+<lb/>first - It was like the case of certain <term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term>
+<lb/>who left me on the <placeName><geogName type="river">Shire</geogName></placeName>, and refused to
+<lb/>carry back the medicine to their <term type="occupation">chief</term> for which
+<lb/>they had come = I was afterwards accused by
+<lb/>men <del type="strikethrough">of</del> similar to the <orgName>Ujijians</orgName> of having
+<lb/>abandoned them though I gave them <term type="animal">cattle</term>
+<lb/>even after they deserted me - these being the 
+<lb/>wealth that they value most highly - Failing
+<lb/>to obtain other men <add place="below">^</add> <add place="inline"><metamark function="transposition"/></add> at <placeName><settlement type="village">Ujiji</settlement></placeName>, <del type="strikethrough"><hi rend="underline">for whom I
+<lb/>had written</hi></del><!-- Does this look alright seeing as how he deleted the part that was meant to be moved? EM --><!-- yep, see  transposition :-) --> I might have waited in comfort
+<lb/>there till those for whom I had written should
+<lb/>come from <placeName><region>the coast</region></placeName>, and my great <w>weak<supplied>-</supplied>
+<lb break="no"/>ness</w> almost demanded that I should do
+<lb/>so, but I had then as now an intense
+<lb/>desire to finish the work and retire - But
+<lb/>on learning some parts of the history of
+<lb/><del><unclear cert="high">of</unclear></del> the <term type="occupation">Lewale</term><!-- Not sure what this is. EM --><!-- am occupation, ks --> or <orgName><orgName>Arab</orgName> <term type="occupation">governor</term></orgName> of
+<lb/><placeName><settlement type="town"><choice><orig>Unyinyembe</orig><corr>Unyanyembe</corr></choice></settlement></placeName> I had grave suspicions
+<lb/>that <bibl>my letters</bibl> would be destroyed = He
+<lb/>conducted the first <orgName><term type="nationality">English</term> Expedition</orgName> <!-- did I identify this correctly? EM --><!-- not quite, ks -->
+<lb/>from <placeName><geogName type="island">Zanzibar</geogName></placeName> to <placeName><settlement type="town">Ujiji</settlement></placeName> and <placeName><settlement type="village">Uvira</settlement></placeName>, and
+<lb/>back again to <placeName><region>the coast</region></placeName> - and was left <w>un<supplied>-</supplied>
+<lb break="no"/>-paid</w> till the <orgName><term type="nationality">Indian</term> Government</orgName> took
+<lb/>the matter up and sent him a thousand
+<lb/>dollars - He seems <add place="below">^</add> <add place="above">to be</add> naturally an ill conditioned
+<lb/>mortal = a hater of the <term type="people">English</term> - When I
+<lb/>sent a stock of goods to be placed indepot
+<lb/>at <placeName><settlement type="village">Ujiji</settlement></placeName> to await my arrival - The
+<lb/><orgName><term type="tribe"><choice><orig>Banyamwezi</orig><reg>Nyamwezi</reg></choice></term> <term type="occupation">porters</term></orgName> as usual brought
+<lb/>them honestly to <placeName><settlement type="town"><choice><orig>Unyinyembe</orig><corr>Unyanyembe</corr></choice></settlement></placeName> - The
+<lb/><term type="occupation">governor</term> then gave them in charge
+<lb/>to his <orgName>slave</orgName> <persName>Saloom</persName> who stopped the
+<lb/>caravan ten days in the way hither
+<lb/>while he plundered it, and then went
+<lb/>off to buy ivory for his <orgName><term type="occupation">master</term></orgName> in
+<lb/><placeName><region>Karagwe</region></placeName> = It was evident that he would
+<lb/>do what he could to prevent evidence
+
+	<pb facs="liv_000019_0554" n="0554"/>
+<lb/><fw n="548"><add place="inspace" rend="gray left" hand="#U">548</add></fw>
+<lb/>of the plundering going to <placeName><region>the coast</region></placeName> - and his
+<lb/><term type="occupation">agent</term> at <placeName><settlement type="town">Ujiji</settlement></placeName> who knew all this though
+<lb/>I did not - after I had paid him in full
+<lb/>all he asked to send the <bibl>packet with
+<lb/>about forty letters</bibl>, returned it back to me
+<lb/>with the message that "he did not know
+<lb/>what words <bibl>these letters</bibl> contained = Two
+<lb/>of my friends protested strongly and he
+<lb/>took the <bibl>packet</bibl> - When I learned the
+<lb/>character of the <term type="occupation">governor</term> I lost hope
+<lb/>of any <bibl>letters</bibl> going to <placeName><region>the coast</region></placeName> and took
+<lb/>back <orgName>my deserters</orgName>, making allowance
+<lb/>for their early education and for the
+<lb/>fact that they did well after <persName>Musa</persName> fled
+<lb/>up to the time that a black <orgName>Arab</orgName> who had
+<lb/>long been a prisoner with <foreign xml:lang="und"><term type="occupation"><persName>Cazembe</persName></term></foreign> found
+<lb/>us - He encouraged them to desert
+<lb/>and harboured them, and when they
+<lb/>relented on seeing me go off to <placeName><geogName type="lake"><choice><sic>Bañgweolo</sic><corr>Bangweulu</corr></choice></geogName></placeName><!-- Not sure what kind of place this is. EM --> <!--Adrian, are we correcting Bangweolo to this? I thought it was fine as is, so let me know if not and I will go back and revise other sections. HB -->
+<lb/>with only <orgName>four followers</orgName> and proposed
+<lb/>to follow me he dissuaded them by the
+<lb/>gratuitous assertion that there was war
+<lb/>in the country to which I was going <!-- geog: Manyema country, I think. HB -->
+<lb/>and he did many other things which we
+<lb/>think discreditable though he got his
+<lb/>liberty solely by the influence I brought
+<lb/>to <foreign xml:lang="und"><term type="occupation"><persName>Cazembe</persName></term></foreign>, yet judged by the <orgName><placeName><region>East
+<lb/>African</region></placeName> Moslem</orgName> standard as he ought
+<lb/>to be and not by ours, he is a very
+<lb/>good man and as I have learned to
+<lb/>keep my own counsel among them,
+<lb/>I never deemed it prudent to come to
+<lb/>a rupture with the old "<foreign xml:lang="sco">Neer do weel</foreign>"-</p>
+<lb/><p>Compelled to inactivity <add place="below">^</add> <add place="above">here</add> for many
+<lb/>months I offered a thousand dollars
+<lb/>to several of the <term type="occupation">traders</term> for the loan of
+<lb/>ten of <orgName>their people</orgName> - This is more than
+<lb/>that number of men ever obtained but
+<lb/>the imaginations were inflamed, and
+
+	<pb facs="liv_000019_0555" n="0555"/>
+<lb/><fw n="549"><add place="inspace" rend="gray right" hand="#U">549</add></fw>
+<lb/>each expected to make a fortune by in ivory
+<lb/>now lying rotting in the forests, and
+<lb/>no one would consent to my propositions
+<lb/>till his goods should be all expended and
+<lb/>no hope of more ivory remained.  I
+<lb/>lived in what may be called the <orgName><placeName><region>Tipperary</region></placeName> of
+<lb/><del>of</del> <placeName><region>Manyema</region></placeName></orgName> and they are certainly a bloody
+<lb/>people among themselves But they are very
+<lb/>far from being in appearance like the ugly
+<lb/><orgName>negroes of <placeName><region>the West Coast</region></placeName></orgName> - Finely formed
+<lb/>heads are common, and generally men &amp;
+<lb/>women are vastly superior to the <orgName><placeName><geogName type="island">Zanzibar</geogName></placeName>
+<lb/><orgName>slaves</orgName></orgName> <add place="above">and elsewhere</add> = We must go deeper than phrenology
+<lb/>to account for their low moral tone -
+<lb/>If they are <orgName>cannibals</orgName> they are not <w>ostentatious<supplied>-</supplied>
+<lb break="no"/>-ly</w> - The <orgName>neighboring tribes</orgName> all assert
+<lb/>that they are <orgName>men eaters</orgName> and they themselves
+<lb/>laughingly admit the change but they like to
+<lb/>impose on the credulous, and they <choice><orig>shewed</orig><reg>showed</reg></choice>
+<lb/>the skull of a recent victim to horrify one
+<lb/>of <orgName>my people</orgName> - I found it to be the skull of
+<lb/>a <choice><orig>gorillah</orig><reg>gorilla</reg></choice> or <foreign xml:lang="und"><term type="animal">Soko</term></foreign> the first I knew of its
+<lb/>existence here and this they do eat - If
+<lb/>I had believed a tenth of what I heard from
+<lb/><term type="occupation">traders</term> I might never have entered the
+<lb/>country - Their people told tales with <!-- geog: Manyema country, I think. HB -->
+<lb/>shocking circumstantiality as if of eye
+<lb/>witnesses that could not be committed
+<lb/>to paper or even spoken about beneath the
+<lb/>breath - Indeed one wishes them to vanish
+<lb/>from memory - But fortunately I was
+<lb/>never frightened in infancy with "Bogie"<!-- 'Ailment'?  Yes/No? EM --><!-- no the Bogie man is a Scottish monster that comes in your sleep, ks -->
+<lb/>and am not liable to attacks of what may
+<lb/>almost be called "Bogiephobia" for
+<lb/>the patient in a paroxysm believes everything
+<lb/>horrible if it be ascribed to the possessor
+<lb/>of a -black skin- I have not yet been
+<lb/>able to make up my mind as to whether
+
+	<pb facs="liv_000019_0556" n="0556"/>
+<lb/><fw n="550"><add place="inspace" rend="gray left" hand="#U">550</add></fw>
+<lb/>the <orgName>Manyema</orgName> are <orgName>cannibals</orgName> or not - I
+<lb/>have offered goods of sufficient value
+<lb/>to tempt any of them to call me to see
+<lb/>a <orgName>cannibal</orgName> feast in the dark forests
+<lb/>where these orgies are said to be held
+<lb/>but hitherto in vain <add place="below">^</add> <add place="above">all</add> the real evidence
+<lb/><note place="marginleft">yet <add place="below">^</add> <lb/>obtained</note> would elicit form a <orgName><term type="nationality">Scotch</term> Jury</orgName> the
+<lb/>verdict <add place="below">^</add> <add place="above">only</add> of "not proven" -</p>
+<lb/><p>Although I have not done half I
+<lb/>hoped to accomplish I trust to <term type="occupation">your
+<lb/>Lordship</term> kind consideration to
+<lb/>award me you approbation
+<lb/><space extent="2" unit="chars"/>and am your most obedient servant</p>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><space extent="2" unit="chars"/><persName>David Livingstone</persName>
+<lb/><space extent="3" unit="words"/><space extent="2" unit="chars"/><term type="occupation"><orgName><choice><abbr>H M</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term>
+<lb/><space extent="4" unit="words"/><space extent="2" unit="chars"/><placeName><region>Inner Africa</region></placeName></p>
+			
+
     <!-- ec, ak, hb -->
 
-<pb facs="liv_000019_0620" n="0620"/>
+	<pb facs="liv_000019_0620" n="0620"/>
 <lb/><fw n="614"><add place="inspace" rend="gray left" hand="#U">614</add></fw>
 <lb/><gap extent="1" unit="words"/>
 <lb/><p><note place="marginleft"><date when="1870-07-23">July <lb/>23<hi rend="sup">d</hi> <lb/>1870</date></note> The <term type="ailment">sores</term> on my feet laid me up
@@ -160,7 +748,7 @@
 <lb/>they kill many <orgName>slaves</orgName> - and an 
 <lb/>epidemic came to us which carried
 <lb/><note place="marginleft"><date when="1870-10">October</date></note> off thirty in our small camp - it was 
-<lb/><term type="ailment">Choleraic</term> and how many <term type="tribe">Manyema</term>
+<lb/><term type="ailment">Choleraic</term> and how many <orgName>Manyema</orgName>
 
 	<pb facs="liv_000019_0621" n="0621"/>
 <lb/><fw n="615"><add place="inspace" rend="gray right" hand="#U">615</add></fw>
@@ -306,8 +894,8 @@
 <lb/>it - I was very anxious to embark on it 
 <lb/>but was also disinclined to force - the 
 <lb/><orgName>slaves</orgName> who are excessively afraid of 
-<lb/><term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term><!--Not sure if this is a person or a place name? EC--><!--It looks like an alternate spelling of "Manyema," but I'm not sure -AK--><!-- Fixed. AW --> and everything in their 
-<lb/>country - so we went on to <placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName> 
+<lb/><orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName><!--Not sure if this is a person or a place name? EC--><!--It looks like an alternate spelling of "Manyema," but I'm not sure -AK--><!-- Fixed. AW --> and everything in their 
+<lb/>country - so we went on to <placeName><settlement type="village">Mamohela</settlement></placeName> 
 <lb/><note place="marginleft"><date when="1871-02-25">25<hi rend="sup underline">th</hi></date></note> and found that it was now known
 <lb/>that <placeName><geogName type="river">Lualaba</geogName></placeName> flowed West South West 
 <lb/>and that our course was to be West 
@@ -453,7 +1041,7 @@
 <lb/><fw n="646"><add place="inspace" rend="gray left" hand="#U">646</add></fw>
 <lb/><gap extent="1" unit="words"/>
 <lb/><p>It has been somewhat difficult to 
-<lb/>ascertain the <orgName>cannibalism</orgName> of the <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> <!--Still not sure how to tag this -AK--><!-- Fixed. AW --> 
+<lb/>ascertain the <orgName>cannibalism</orgName> of the <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName> <!--Still not sure how to tag this -AK--><!-- Fixed. AW --> 
 <lb/>by reasonable evidence - If I had believed 
 <lb/><unclear cert="medium">all</unclear> tenth part of the tales of <orgName><orgName>native</orgName> <term type="occupation">traders</term></orgName>
 <lb/>and even of the adjacent tribes I might
@@ -468,7 +1056,7 @@
 <lb/>ogres in the dark forests - I gave a large 
 <lb/>sum to be privately invited to witness 
 <lb/>one of these feasts, and though sufficient 
-<lb/>to be a strong temptation to <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term>, <!--unsure of this term here. EC-->
+<lb/>to be a strong temptation to <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName>, <!--unsure of this term here. EC-->
 <lb/>it lay in a village for many months 
 <lb/>in <seg type="weather">rain</seg> - there being no lack of food in
 <lb/>the country the only reason for the horrible 
@@ -578,7 +1166,7 @@
 <lb/>Men are worse than brutes - This which have
 <lb/>often heard on <orgName>native</orgName> testimony seems to be true.</p>
 <lb/><p><note place="marginleft"><date when="1871-03-01">1871</date></note><date when="1871-03-01">1<hi rend="sup underline">st</hi> March 1871</date>. I was to start <date when="1871-03-01">today</date>
-<lb/>from <placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName> but the <orgName>Arabs</orgName> begged me
+<lb/>from <placeName><settlement type="village">Mamohela</settlement></placeName> but the <orgName>Arabs</orgName> begged me
 <lb/>to take seven of their men going to buy
 <lb/>"<foreign xml:lang="und">Viramba</foreign>" or grass cloths and they had to
 <lb/>grind <term type="foodstuff">flour</term>. The offer was gladly accepted
@@ -609,7 +1197,7 @@
 
 	<pb facs="liv_000019_0650" n="0650"/>
 <lb/><fw n="650"><add place="inspace" rend="gray left" hand="#U">650</add></fw>
-<lb/><p><note place="marginleft"><date when="1871-03-02">1871 <lb/>2 March</date></note> Left <placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName> and travelled over fine
+<lb/><p><note place="marginleft"><date when="1871-03-02">1871 <lb/>2 March</date></note> Left <placeName><settlement type="village">Mamohela</settlement></placeName> and travelled over fine
 <lb/>grassy plains crossing <measure>in six hours</measure>
 <lb/>fourteen running rills from <measure><measure>three
 <lb/>to ten or fifteen feet broad</measure> and from
@@ -714,7 +1302,7 @@
 <lb/><placeName><bloc>Europe</bloc></placeName> would be as eagerly sought
 <lb/>and bought as <term type="animal">horse</term> shoe nails
 <lb/>are for the best gun barrels - I <w>over<supplied>-</supplied>
-<lb break="no"/>hear</w> the <term type="tribe">Manyema</term> telling each
+<lb break="no"/>hear</w> the <orgName>Manyema</orgName> telling each
 <lb/>other that I am the "good one" I have
 <lb/>no <orgName>slaves</orgName> and I owe this character
 <lb/>to the propagation of a good name by
@@ -732,15 +1320,15 @@
 <lb/><fw n="653"><add place="inspace" rend="gray right" hand="#U">653</add></fw>
 <lb/><note place="marginleft"><date when="1871-03-05">1871 <lb/>March <lb/>5<hi rend="sup underline">th</hi></date></note> and when I complained to the <orgName><term type="occupation">masters</term></orgName>
 <lb/>they confessed that all the mischief was
-<lb/>done by <orgName>slaves</orgName> - for the <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> on
+<lb/>done by <orgName>slaves</orgName> - for the <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName> on
 <lb/>being insulted lose temper and use their
 <lb/>spears on the nasty curs and their vengeance
 <lb/>is taken with guns - <orgName>Free men</orgName> behave
 <lb/>better than <orgName>slaves</orgName> - the <term type="occupation">bondmen</term> are not
-<lb/>responsible - The <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> are far
+<lb/>responsible - The <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName> are far
 <lb/>more beautiful than either the bond or
 <lb/>free of <placeName><geogName type="island">Zanzibar</geogName></placeName> - I <choice><sic>over hear</sic><corr>overhear</corr></choice> the
-<lb/>remark often - "If we had <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term>
+<lb/>remark often - "If we had <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName>
 <lb/>wives what beautiful children we
 <lb/>should beget." The men are usually <w>hand-
 <lb break="no"/>-some</w> and many of the women are very
@@ -755,14 +1343,14 @@
 <lb/>heard <date when="1871-03-05">today</date> that <persName>Muhamad Bogharib</persName>'s
 <lb/>people passed us still further to the West
 <lb/>with much worry and an immense
-<lb/>number of <orgName><orgName>captive</orgName> <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term></orgName> - The
+<lb/>number of <orgName><orgName>captive</orgName> <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName></orgName> - The
 <lb/>ivory did not satiate their greed but
 <lb/>they seized women &amp; children and
 <lb/>slaughtered men because it could be
 <lb/>done without danger - The best men
 <lb/>have often the very worst <term type="occupation">attendants</term>
 <lb/>but they take their share of the spoil
-<lb/>and remark "The <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> are 
+<lb/>and remark "The <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName> are 
 <lb/>bad bad bad" - By the passage West
 <lb/>I miss some things promised as 
 <lb/>notes of all the rivers crossed &amp;c</p>
@@ -836,7 +1424,7 @@
 <lb/>seeing the advantage of fire arms he has
 <lb/>bought four muskets - We were now only
 <lb/><measure>six miles</measure> from <placeName><geogName type="river">Lualaba</geogName></placeName> and yet <placeName><region>south of
-<lb/><placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName></region></placeName> - This great river in fact <!-- geog: Lualaba -->
+<lb/><placeName><settlement type="village">Mamohela</settlement></placeName></region></placeName> - This great river in fact <!-- geog: Lualaba -->
 <lb/>makes a second great sweep to the
 <lb/>West of some <measure>130 miles</measure> and there at
 <lb/>least <measure>30' of Southing</measure> - but now it comes
@@ -861,11 +1449,11 @@
 <lb/><orgName>slaves</orgName> where no danger has to be <w>en-
 <lb break="no"/>-countered</w> for after staying away ten
 <lb/>days they came back and reported
-<lb/>that they had killed three <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term>
+<lb/>that they had killed three <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName>
 <lb/>and the <term type="occupation">guide</term> given by <persName><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName> had
 <lb/>bullet hole through his shoulder -
 <lb/>they seem to have been firing at random
-<lb/>among the <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> and hit their
+<lb/>among the <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName> and hit their
 <lb/>best friend - <persName><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName> said little
 <lb/>about it save that it was an accident
 <lb/>and I would never trust them out
@@ -893,7 +1481,7 @@
 	<pb facs="liv_000019_0657" n="0657"/>
 <lb/><fw n="657"><add place="inspace" rend="gray right" hand="#U">657</add></fw>
 <lb/><note place="marginleft"><date when="1871-03-11">1871 <lb/>March</date></note> and again that I should certainly be
-<lb/>killed and eaten - The <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term>
+<lb/>killed and eaten - The <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName>
 <lb/>now wanted a white man to eat -
 <lb/>I needed 200 guns for so perilous a 
 <lb/>journey - I must not go to die - &amp;c - I told
@@ -916,7 +1504,7 @@
 <lb/>their <orgName>slaves</orgName> become worse than <w>them-
 <lb break="no"/>-selves</w> in thirst for blood. Each longs to
 <lb/>be able to sit at home and tell how
-<lb/>much blood he has shed the <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term>
+<lb/>much blood he has shed the <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName>
 <lb/>as an easy prey - they are so terrified
 <lb/>by the loud reports of guns they dash at
 <lb/>once into the forest &amp; the women and
@@ -984,12 +1572,12 @@
 <lb/>disjoined. <persName><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName> declared that he did
 <lb/>not lie like <orgName>Moslems</orgName> but his goodness
 <lb/>consists in helping them against all
-<lb/>other <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> who have ivory - By his
+<lb/>other <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName> who have ivory - By his
 <lb/>guidance <orgName><persName>Hassani</persName>'s party</orgName> slew <orgName>many of the
 <lb/>people of <placeName><settlement type="village">Luapanga</settlement></placeName></orgName> called <term type="tribe">Bahika</term> - 
 <lb/>The <term type="tribe">Bahika</term> blame <persName><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName> only as the cause 
 <lb/>of their losses - I told <persName><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName> that he was
-<lb/>safe only so long as many other <term type="tribe"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term>
+<lb/>safe only so long as many other <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName>
 <lb/>were with reach of the <term type="occupation"><orgName>slavers</orgName></term>, They would 
 <lb/>yet turn round on him and I would see
 <lb/>him in the <orgName>slave</orgName> stick going to <placeName><region>the coast</region></placeName>
