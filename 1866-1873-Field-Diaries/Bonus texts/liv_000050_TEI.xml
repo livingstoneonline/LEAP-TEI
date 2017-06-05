@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000050">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Journal</title>
+                <title type="alternative">Journal, 14-24 August 1872</title>
+                <author>Livingstone, David, 1813-1873</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Megan Ward</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                    <resp>Encoding Review</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
+				<idno type="LEAP-ID">liv_000050</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">963</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber"></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Journal</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1872-08-14" to="1872-08-24">14-24 August 1872</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-06-03" who="#HB">Transcription and TEI encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body rend="brown brown">
+            <div>
+			    
+    <pb facs="liv_000050_0001" n="0001"/>
+<lb/><!-- fron cover external -->
+
+    <pb facs="liv_000050_0002" n="0002"/>
+<lb/><!-- page blank -->
+
+    <pb facs="liv_000050_0003" n="0003"/>
+<lb/><p rend="center" hand="U"><!-- This seems to be in Stanley's hand, but didn't see an element for him? HB -->From
+<lb/><persName><unclear cert="low">Jim F Webb</unclear> <choice><abbr>Esq</abbr><expan>Esquire</expan></choice></persName>
+<lb/><hi rend="underline"><term type="occupation"><term type="nationality">American</term> Consul.</term></hi></p>
+<lb/><list rend="center"><item>49</item> <item><unclear cert="low">Eufield Carbines</unclear></item>
+<lb/><item>2</item> <item><persName>Stanley</persName>'s <unclear cert="medium">Breechloaders</unclear> -</item></list>
+<lb/>
+<lb/><p>These have <add place="below">^</add> <add place="above">been</add> given to <term type="occupation">Soldiers</term> to take
+<lb/>to <placeName><settlement type="town">Unyanyembe</settlement></placeName> - from <placeName><geogName type="island">Zanzibar</geogName></placeName>
+<lb/>10 rounds of ball cartridge for each
+<lb/><space unit="words" extent="1"/>man</p>
+<lb/><list rend="center"><item>20 caps each</item>
+<lb/><item>5 Blank Cartridges - 5 each</item></list>
+<lb/><p rend="right"><persName>Stanley</persName></p>
+<lb/><space dim="vertical" unit="lines" extent="9"/>
+
+    <pb facs="liv_000050_0004" n="0004"/>
+<lb/><p><space unit="words" extent="2"/><bibl>Journal of <persName>David Livingstone</persName></bibl>
+<lb/>beginning <date when="1872-08-14">14<hi rend="sup underline">th</hi> August 1872</date> at
+<lb/><placeName><settlement type="town">Unyanyembe</settlement></placeName> two days after
+<lb/>the men procured by <persName>M<hi rend="sup underline">r</hi> Stanley</persName>
+<lb/>had arrived</p>
+<lb/><p><date when="1872-08-15">15<hi rend="double-underline">th</hi></date> I have prepared the loads for the men
+<lb/>and gave each five <foreign xml:lang="und">dotis</foreign> to act as <term type="occupation">carriers</term>
+<lb/>For the extra loads we shall get <orgName><term type="tribe"><choice><orig>Banyamwezi</orig><reg>Nyamwezi</reg></choice></term>
+<lb/><foreign xml:lang="swh"><term type="occupation">pagazi</term></foreign></orgName>.</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><metamark/><p><date when="1872-08-16">16<hi rend="sup underline">th</hi></date> <choice><sic>favourable</sic><corr>Favourable</corr></choice> exports of the results of
+<lb/>treating <term type="ailment">jungle fever</term> by <term type="medicament"><unclear cert="medium">hipposulphat</unclear> of
+<lb/>soda</term> come from <placeName><country>India</country></placeName> - quicker cures
+<lb/>than with <term type="medicament">quinine</term> - the <orgName>native</orgName> remedy
+<lb/><foreign xml:lang="und"><term type="medicament">Lettagootie</term></foreign> also effectual</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><date when="1872-08-17">17<hi rend="sup underline">th</hi></date> Getting ready and sending for <foreign xml:lang="swh"><term type="occupation">Pagazi</term></foreign></p>
+<lb/><p><date when="1872-08-18">18<hi rend="sup underline">th</hi></date> <choice><sic>go</sic><corr>Go</corr></choice> over to say <choice><orig>Good by</orig><reg>Goodbye</reg></choice> to <persName><term type="occupation">Sultan</term> bin Ali</persName> &amp; to
+<lb/>others and leave goods for the return journey
+<lb/>four bales calico, cartridges full &amp; empty &amp;c</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><date when="1872-08-19">19<hi rend="sup underline">th</hi></date> <foreign xml:lang="swh"><term type="occupation">Pagazi</term></foreign> expected to come <date when="1872-08-19">today</date> also the
+<lb/>permission to <unclear cert="medium"><persName>a chiongosi</persName></unclear> to go with us -</p>
+<lb/><p rend="black"><date when="1872-08-24">24<hi rend="sup underline">th</hi></date> <choice><sic>delay</sic><corr>Delay</corr></choice> as usual by the want of <foreign xml:lang="swh"><term type="occupation">Pagazi</term></foreign>
+<lb/>All those available are collected for the
+<lb/>war with <persName>Mrambo</persName> - I have got some but
+<lb/>still need seven - one of the soldiers was
+<lb/>firing off cartridges contrary to <unclear cert="medium">ours</unclear>
+<lb/>and when reproved by <persName>Manna sera</persName> the
+<lb/><term type="occupation">headman</term> he gave him a severe cut on the
+<lb/>head 2 inches long &amp; deep and a shot
+<lb/>in the forearm - called all hands and
+<lb/>made each give him a beating - some were
+<lb/>too gentle and I laid my stick on their backs</p>
+
+    <pb facs="liv_000050_0005" n="0005"/>
+<lb/><!-- newspaper insert appended to page - Chinese transcription dated from the British Consulate, Shanghae (sp), Nov. 8, 1870 -->
+
+    <pb facs="liv_000050_0006" n="0006"/>
+<lb/><!-- newspaper insert appended to page - seems to be approx. May 1871 -->
+
+    <pb facs="liv_000050_0007" n="0007"/>
+<lb/><!-- page blank -->
+
+    <pb facs="liv_000050_0008" n="0008"/>
+<lb/><!-- page blank -->
+
+    <pb facs="liv_000050_0009" n="0009"/>
+<lb/><!-- page blank -->
+
+    <pb facs="liv_000050_0010" n="0010"/>
+<lb/><!-- page blank -->
+
+    <pb facs="liv_000050_0011" n="0011"/>
+<lb/><!-- back cover external -->
+
+    <pb facs="liv_000050_0012" n="0012"/>
+<lb/><!-- spine -->
+
+
+            </div>
+		</body>
+    </text>
+</TEI>
