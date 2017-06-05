@@ -36,7 +36,7 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-UJ-complete.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+				<link rel="stylesheet" type="text/css" href="style-UJ-complete.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
@@ -160,25 +160,25 @@
 	</xsl:template>
 
 	<xsl:template match="div">
-		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="div/div">
-		<br/><br/><div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+		<br/><br/><div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="div[preceding-sibling::div][child::pb[1]]">
-		<br/><div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+		<br/><div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="div[@n='noSpace']" priority="10">
-		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
@@ -260,7 +260,7 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match="corr|expan|reg|supplied"/>
+	<xsl:template match="corr|expan|reg"/>
 	
 	<!-- Text below removed for annotated edition; also see app, supplied & unclear -->
 	
@@ -972,6 +972,10 @@
 		</xsl:element>
 	</xsl:template>
 
+	<xsl:template match="head[parent::div[@type='letter']]">
+		<span class="head"><xsl:apply-templates/></span>
+	</xsl:template>
+
 	<xsl:template match="idno[@type='LEAP-ID']">
 		<span class="idno"><xsl:apply-templates/></span>
 	</xsl:template>
@@ -1057,7 +1061,7 @@
 			>[<xsl:apply-templates/>]</span>
 	</xsl:template>
 
-	<xsl:template match="note[@place='marginright']">
+	<xsl:template match="note[@place='marginleft']|note[@place='marginright']" priority="10">
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
 			><xsl:apply-templates/></span>
 	</xsl:template>
@@ -1405,6 +1409,10 @@
 
 	<xsl:template match="subst">
 		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="supplied">
+		<span class="supplied" title="The editors have supplied this text."><xsl:apply-templates/></span>	
 	</xsl:template>
 
 	<!-- Text below removed for annotated edition; also see app, choice & unlcear -->
