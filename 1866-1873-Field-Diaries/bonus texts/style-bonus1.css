@@ -195,20 +195,20 @@ p.right .linenumber{
 	margin-left:0;
 	margin-right:9%;
 	margin-top:.7em;
-	margin-bottom:0em;
+	margin-bottom:-.5em;
 	padding:0px;
 }
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:21em !important;
+	width:20em !important;
 	margin-left:0;
 	text-align:left;
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
 }
-.doubleline{
+/*.doubleline{
 	border-top: 4px double #8c8b8b;
 	display:block;
 	width:27em !important;
@@ -222,7 +222,7 @@ p.right .linenumber{
 	width:27em !important;
 	margin-left:9%;
 	text-align:left;
-}
+}*/
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
@@ -246,10 +246,10 @@ p.right .linenumber{
 .second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:27em !important;
+	width:20em !important;
 	margin-left:0;
 	text-align:left;
-	margin-top:-1em;
+	margin-top:-.5em;
 	margin-bottom:0em;
 	height:0;
 	border:0;
@@ -265,6 +265,11 @@ p.right .linenumber{
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
+}
+.div.gray .line,
+.div.gray .line.first-double,
+.div.gray .second-line{
+	border-top:1px solid #706f6a;	
 }
 
 
