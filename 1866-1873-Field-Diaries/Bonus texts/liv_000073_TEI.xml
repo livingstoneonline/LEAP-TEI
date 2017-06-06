@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-final-MS-bonus.xsl" type="text/xsl"?><!-- -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000073">
     <teiHeader>
         <fileDesc>
@@ -67,40 +67,42 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-06-06" who="#AW">Proofing and finalization</change>
             <change when="2017-06-05" who="#HB">Transcription and TEI encoding</change>
         </revisionDesc>
     </teiHeader>
 
     <text>
-        <body>
-            <div>
+        <body n="cfd1d0">
+            <div rend="gray">
 			    
     <pb facs="liv_000073_0001" n="0001"/>
-<lb/><lb/><figure><figDesc>Calculations running perpendicular to printed text on page.</figDesc></figure>
+<lb/><figure><figDesc>Several sets of calculations, some oriented horizontally, some vertically.</figDesc></figure>
 
     <pb facs="liv_000073_0002" n="0002"/>
 <lb/><cb n="1"/>
-<lb/><p><add place="marginleft" hand="#U"><hi rend="vertical">22</hi></add> <choice><sic>slept</sic><corr>Slept</corr></choice> on bank of the
+<lb/><p><add place="marginleft" hand="#U" rend="vertical">22</add> <choice><sic>slept</sic><corr>Slept</corr></choice> on bank of the
 <lb/>most southern branch of
-<lb/>the <placeName><geogName type="river">Monikazi</geogName></placeName> &amp; on
-<lb/><space unit="chars" extent="3"/><date from="1871" to="1873">9<hi rend="sup underline">th</hi></date> after <measure>two hours</measure>
+<lb/>the <placeName><geogName type="river">Monikazi</geogName></placeName> &amp; on</p>
+<lb/><p><date when="1873-04-09">9<hi rend="sup underline">th</hi></date> after <measure>two hours</measure>
 <lb/>threading its very winding
 <lb/>deep channel came to a
 <lb/>village where our men
 <lb/>crossed it &amp; sent after
 <lb/>them = we are all tired
 <lb/>by the rushes and <term type="plant">vegetation</term></p>
-<lb/><space dim="vertical" rend="line" extent="4"/>
-<lb/><figure><head>Gandochite chief</head><figDesc>May of rivers and dates traveled through land.</figDesc></figure> <!-- Adrian, not sure if the head for this is the name of the chief, or some geog locational name? HB -->
 <lb/>
+<lb/>
+<lb/><figure><head>Gandochite chief</head><figDesc>Map of Livingstone's travels from <placeName><geogName>Kirira</geogName></placeName> to and across <placeName><geogName type="river">Monikazi River</geogName></placeName>. Includes Livingstone's locations for <date when="1873-04-06">6</date>, <date when="1873-04-07">7</date>, and <date when="1873-04-09">9 April 1873</date>.</figDesc></figure>
+<!-- Adrian, not sure if the head for this is the name of the chief, or some geog locational name? HB --><!-- I also don't know. AW -->
 <lb/><cb n="2"/>
-<lb/><p rend="no-indent"><date from="1871" to="1873">7<hi rend="sup underline">th</hi></date> <choice><sic>slept</sic><corr>Slept</corr></choice> on an <term type="insect">ant</term>hill
+<lb/><p rend="no-indent"><date when="1873-04-07">7<hi rend="sup underline">th</hi></date> <choice><sic>slept</sic><corr>Slept</corr></choice> on an <term type="insect">ant</term>hill
 <lb/>Went on <measure>2 hours</measure> then
 <lb/>came to a broad shallow
 <lb/>bench on right of the
 <lb/><placeName><geogName type="river">Monikazi <choice><abbr>R.</abbr><expan>River</expan></choice></geogName></placeName> had to
 <lb/>unload canoes &amp; haul
-<lb/>each over into <placeName><geogName type="river">Monikaze</geogName></placeName>
+<lb/>each over into <placeName><geogName type="river">Monikazi</geogName></placeName>
 <lb/>which has a thick fringe
 <lb/>of <term type="plant">Papyrus</term> - then
 <lb/>hearing voices &amp; a drum
@@ -111,7 +113,7 @@
 <lb/>slept on an <term type="insect">ant</term>hill
 <lb/>a <term type="animal">lion</term> wandering &amp; roaring
 <lb/>in the waste of waters</p>
-<lb/><p rend="no-indent"><date from="1871" to="1873">8<hi rend="sup underline">th</hi></date> <choice><sic>send</sic><corr>Send</corr></choice> a canoe to
+<lb/><p rend="no-indent"><date when="1873-04-08">8<hi rend="sup underline">th</hi></date> <choice><sic>send</sic><corr>Send</corr></choice> a canoe to
 <lb/><choice><abbr>vil</abbr><expan>village</expan></choice> where voices come
 <lb/>from for information -
 <lb/><term type="plant">Papyrus plants</term> 8 feet
@@ -119,15 +121,14 @@
 <lb/>3 feet across horizontally ==
 <lb/>got two <term type="occupation">guides</term> but the
 <lb/>water <measure><measure>about 15 inches</measure> in
-<lb/><add place="marginleft"><figure><figDesc>Calculations spanning the next 5 lines in margin.</figDesc></figure></add> spots and <measure>thigh deep</measure></measure> in
+<lb/><add place="marginleft"><figure><figDesc>Calculations oriented upside-down relative to main text.</figDesc></figure></add> spots and <measure>thigh deep</measure></measure> in
 <lb/>others caused constant
 <lb/>dragging of the large canoe
 <lb/>through rushes <space unit="chars" extent="2"/><term type="plant">Papyrus</term>
 <lb/><foreign xml:lang="und"><term type="plant_foodstuff">arum</term></foreign> = <term type="plant_foodstuff">wild rice</term> &amp; stiff
 <lb/>grasses aquatic = <measure>5 Hours <choice><abbr>E &amp; S.</abbr><expan>East and South</expan></choice></measure></p>
-<lb/>
 <lb/><cb n="3"/>
-<lb/><figure><figDesc>Calculations.</figDesc></figure>
+<lb/><figure><figDesc>Three columns of calculations.</figDesc></figure>
 
 
 
