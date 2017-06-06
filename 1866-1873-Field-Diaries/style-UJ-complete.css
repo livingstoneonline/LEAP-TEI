@@ -614,11 +614,16 @@ p{
 	min-width:23.7em !important;
 	margin:-1.4em !important;
 }
-.head.center{
-	float:none !important;
-	margin:0em;
+.right{
+	float:right;
+	margin:-1.4em 14em;	
 }
-
+.left.right{
+	float:right;
+	margin:-1.4em 20em;	
+	text-align:left !important;
+	min-width:23.7em !important;
+}
 .fw .right{
 	margin-left:15em !important;
 	float:none !important;
@@ -627,6 +632,13 @@ p{
 .cell.right{
 	float:right;
 	margin:-1.4em 16em;
+}
+.altitudesRight .right{
+	float:right;
+	text-align:left;
+	margin:-1.4em 13em;
+	min-width:5em;
+	max-width:0em;
 }
 .rightFloatRain .right{
 	float:right;
