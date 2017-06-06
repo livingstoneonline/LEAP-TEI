@@ -343,7 +343,7 @@
 	<!-- Start of addSpan/anchor -->
 
 	<xsl:template match="tei:addSpan[preceding-sibling::node()[1][name()='p']]|tei:addSpan[preceding-sibling::node()[2][name()='p']]|p/addSpan">
-		<!--<br/>-->
+		<br/>
 		<xsl:apply-templates/>
 	</xsl:template>
 
