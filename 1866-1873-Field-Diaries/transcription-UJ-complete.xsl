@@ -59,6 +59,16 @@
 			<!--<h2>
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
+			<xsl:variable name="sortedDates" as="xs:string*">
+				<xsl:choose>
+					<xsl:when test="//revisionDesc/change[@when]">
+						<xsl:perform-sort select="//revisionDesc/change/@when[not(.=preceding::change/@when)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:perform-sort select="//revisionDesc/change/date[not(.=preceding::change/date)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:variable>
 			<div class="TEI">
 				<div class="item-details">
 					<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
@@ -73,6 +83,7 @@
 					<span class="authority"><strong>Publisher:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/pubPlace"/></span><br/>
 					<span class="idno"><strong>Project id:</strong><xsl:text> </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
 					<span class="authority"><strong>TEI encoding:</strong><xsl:text> </xsl:text> <xsl:value-of select="//teiHeader//respStmt/name" separator=", "/></span><br/>
+					<span class="authority"><strong>Encoding dates</strong><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></span><br/>
 					<br/>
 					<hr class="title-section"/>
 					<br/>
@@ -162,7 +173,7 @@
 	<xsl:template match="div">
 		<div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
-		</div>
+		</div><br/>
 	</xsl:template>
 
 	<xsl:template match="div/div">
@@ -1062,7 +1073,7 @@
 	</xsl:template>
 
 	<xsl:template match="note[@place='marginleft']|note[@place='marginright']" priority="10">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored, ' ', @n)}"
 			><xsl:apply-templates/></span>
 	</xsl:template>
 

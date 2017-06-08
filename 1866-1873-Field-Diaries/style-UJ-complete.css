@@ -27,7 +27,7 @@ body{
 }
 @media all and (max-width: 768px)  {
 body{	
-	padding-left:6.5em;
+	padding-left:6em;
 }
 }
 div.transcription{
@@ -476,17 +476,17 @@ p{
 .fw.catch.right{
 	text-indent:0;
 }
-.fw-double-right{
-	margin-left:.5em !important;
-}
 .fw .gray{
 	color:#747571
 }
 .note.marginleft{
-	margin-left:-6.2em !important;
+	margin-left:-4.6em;
 	text-indent:0;	
 	float:left;
-	text-align:left;
+	text-align:center;
+}
+.note.marginleft.extraLeft{
+	margin-left:-6.4em !important;
 }
 .note.marginright{
 	margin-right:-2.6em !important;
@@ -601,7 +601,7 @@ p{
 .overtext{
 	/*color:gray;*/
 }
-/*--------------------------------------*/
+/*--------------------------------*/
 .center{
 	float:right;
 	text-align:left;
@@ -624,10 +624,14 @@ p{
 	text-align:left !important;
 	min-width:23.7em !important;
 }
+/*--------------------------------*/
 .fw .right{
 	margin-left:15em !important;
 	float:none !important;
 	padding:0 0 0 0 !important;
+}
+.fw-double-right{
+	margin-left:-13.7em !important;
 }
 .cell.right{
 	float:right;
@@ -689,67 +693,7 @@ p{
 	min-width:5em;
 	max-width:0em;
 }
-/*--------------------------------------*/
-/*.right{
-	text-indent:0;
-	margin-left:15em;
-}
-.figure.right{
-	text-indent:0em;
-	margin-left:15em;
-}
-
-.p .right{
-	float:right;
-	margin-top:-1.4em;
-	margin-left:2em;
-	padding-right:0em !important;
-	text-indent:0 !important;
-}
-.list .right{
-	float:right;
-	margin-left:2em;
-	padding-right:2em;
-	clear:both;
-	min-width:12em;
-}
-.center{
-	text-indent:0;
-	margin-left:6em;
-}*/
-/*.right{
-	float:right;
-	margin-right:3em;
-	margin-left:11em;
-}
-.p .right{
-	margin-left:10em;
-	margin-right:3em;
-}
-.p.noindent .right{
-	margin-left:0em;
-	margin-right:-4em;
-}
-.list{
-	
-}
-.fw .right{
-	margin-left:13em !important;
-	float:none;
-	padding-right:0em !important;
-	text-indent:0em !important;
-	margin-bottom:0em;
-}
-.cell.center{
-	margin-left:5.5em;
-}
-.cell.right{
-	margin-left:7em;
-}
-.cell.right.cell-after-center{
-	margin-left:2em;
-}*/
-/*--------------------------------------*/
+/*--------------------------------*/
 .small{
 	font-size:85%;
 }
