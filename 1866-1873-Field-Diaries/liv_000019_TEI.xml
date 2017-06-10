@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-UJ-complete.xsl" type="text/xsl"?>-->
-<?xml-stylesheet href="transcription-UJ-complete.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-UJ-complete.xsl" type="text/xsl"?>
+<!--<?xml-stylesheet href="transcription-UJ-complete.xsl" type="text/xsl"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019">
 
 
@@ -386,6 +386,8 @@
             <change when="2014-09-14" who="#EC">Transcription and TEI encoding</change>
         </revisionDesc>
     </teiHeader>
+
+<!-- Note: Lots of unique @n values are add for rendering the file with XSL -->
 
     <text>
 		<front rend="brown">
@@ -3662,7 +3664,7 @@
 <lb/>and another to strengthen himself by
 <lb/>carrying a small load on his head for
 <lb/>an hour - All are comparatively strong who
-<lb/><metamark><note place="marginleft"/></metamark>have done work - I promised them fatigue
+<lb/><note place="marginleft"><metamark/></note>have done work - I promised them fatigue
 <lb/>duty pay if they behaved better from this time
 <lb/>forward - but none if they conducted themselves
 <lb/>ill -</p>
@@ -8086,8 +8088,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><milestone unit="section" rend="double-line"/>
 <lb/><p><space extent="1" unit="words"/><space extent="2" unit="chars"/><hi rend="underline">Paragraph left out of <choice><abbr>vol.</abbr><expan>volume</expan></choice> printed</hi></p>
 <lb/>
-<lb/><p rend="no-indent"><metamark place="marginleft"/>"<!-- line down the side of page delineating section,ks --><space extent="1" unit="words"/>It is well known to <term type="occupation">Physicians</term> that if a child
-<lb/>sleeps with an elderly person, a transference of
+<lb/><p rend="no-indent"><note place="marginleft">"</note><!-- line down the side of page delineating section,ks --><space extent="1" unit="words"/>It is well known to <term type="occupation">Physicians</term> that if a child
+<lb/><note place="marginleft"><metamark place="marginleft"/></note>sleeps with an elderly person, a transference of
 <lb/>vitality sometimes takes place; the younger
 <lb/>loses, and the elder gains in vital force, and
 <lb/>the child becoming sickly and old looking can
@@ -8106,7 +8108,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>similar circumstances acquire the peculiar
 <lb/>which want of cleanliness develops in some
 <lb/><orgName>Africans</orgName> and many months of bathing
-<lb/><metamark place="marginleft"/>"<!-- line down the side of page delineating section,ks --> are said to be needed to get rid of it -"</p> <!-- This entire passage is...interesting :) HB --> <!--This passage is particularly disturbing, even for DL! EC-->
+<lb/><note place="marginleft">"</note><!-- line down the side of page delineating section,ks --> are said to be needed to get rid of it -"</p> <!-- This entire passage is...interesting :) HB --> <!--This passage is particularly disturbing, even for DL! EC-->
 <lb/><p>In speaking to <persName><term type="occupation">Professor</term> Owen</persName> about
 <lb/>this passage he thought that there is another
 <lb/>and deeper reason for man &amp; wife <w>be-
@@ -8116,17 +8118,17 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0208" n="0208"/>
 <lb/><fw n="202"><add place="inspace" rend="gray left" hand="#U">202</add></fw>
-<lb/><metamark place="marginleft"/><!-- line down the side of page delineating section,ks --> has the blood of a being only half her own  
+<lb/><note place="marginleft"><metamark place="marginleft"/></note><!-- line down the side of page delineating section,ks --> has the blood of a being only half her own  
 <lb/>circulating through every part of her system
 <lb/>and no wonder a similarity ensues
 <lb/>directly between her &amp; the child &amp; remotely with
-<lb/><metamark place="marginleft"/><!-- line down the side of page delineating section,ks -->the father -</p>
-<lb/><p rend="no-indent"><metamark place="marginleft"/><!-- line down the side of page delineating section,ks --> <space extent="4" unit="chars"/>In connection with this subject I
+<lb/><note place="marginleft"><metamark place="marginleft"/></note><!-- line down the side of page delineating section,ks -->the father -</p>
+<lb/><p rend="no-indent"><note place="marginleft"><metamark place="marginleft"/></note><!-- line down the side of page delineating section,ks --> <space extent="4" unit="chars"/>In connection with this subject I
 <lb/>observed that my <orgName><placeName><geogName type="river">Zambesi</geogName></placeName>ans</orgName> who were <!-- not sure if these chaps should be tribe or nationality instead?, ks --><!-- Hmm, this is tricky- as Zambesi isn't a defined space but rather the ppl that inhabit around it (I think), I would stick with orgName, but defer to Adrian. HB --><!-- orgName looks OK to me -->
 <lb/>taken to <placeName><country>India</country></placeName> with the <orgName>African</orgName> odour
 <lb/>strongly developed - lost it entirely in the
 <lb/>course of a year and acquired the peculiar
-<lb/><metamark place="marginleft"/><!-- line down the side of page delineating section,ks -->mousy smell of some <orgName>East <term type="people">Indians</term></orgName></p>
+<lb/><note place="marginleft"><metamark place="marginleft"/></note><!-- line down the side of page delineating section,ks -->mousy smell of some <orgName>East <term type="people">Indians</term></orgName></p>
 <lb/><milestone unit="section" rend="double-line"/>
 <lb/><p><note place="marginleft"><date when="1866-10-31">31<hi rend="sup">th</hi> <lb/><choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice> <lb/>1866</date></note> Proceed westwards &amp; a little South through
 <lb/>a country covered with forest - Trees thickly
@@ -11489,10 +11491,10 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>men but in shooting in a bushy place
 <lb/>they killed one of their own party &amp;
 <lb/>wounded another - </p>
-<lb/><p rend="no-indent"><metamark place="marginleft"/><space extent="1" unit="words"/>On enquiring of an <orgName>Arab</orgName> who had
+<lb/><p rend="no-indent"><note place="marginleft"><metamark place="marginleft"/></note><space extent="1" unit="words"/>On enquiring of an <orgName>Arab</orgName> who had
 <lb/>sailed on <placeName><geogName type="lake">Tanganyika</geogName></placeName>, which way the
 <lb/>water flowed, he replied to the South!
-<lb/><metamark place="marginleft"/>The <term type="animal">wagtails</term> build in the thatch of
+<lb/><note place="marginleft"><metamark place="marginleft"/></note>The <term type="animal">wagtails</term> build in the thatch of
 <lb/>huts - They are busy now and other
 <lb/>animals are active in the same way
 <lb/><note place="marginleft"><date when="1867-06-14">14<hi rend="sup">th</hi> <lb/>June</date></note> The cold seems to act as a stimulus in
@@ -14281,7 +14283,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <!-- ak, mw -->
 
-<pb facs="liv_000001_0363" n="0363"/>
+<pb facs="liv_000019_0363" n="0363"/>
 <lb/><fw n="357"><add place="inspace" rend="gray right" hand="#U">357</add></fw>
 <lb/><p><note place="marginleft"><date from="1868-01-26" to="1868-01-30"><w><supplied>2</supplied>6</w><hi rend="sup">th</hi> 27<hi rend="sup">th</hi> <lb/><w><supplied>Ja</supplied>nuary</w> <lb/><w><supplied>1</supplied>868</w> 29<hi rend="sup underline">th</hi> <lb/>30<hi rend="sup underline">th</hi></date></note> Ill with <term type="ailment">fever</term> as I always am when stationary
 <lb/><date when="1868-01-28">28<hi rend="sup underline">th</hi></date> Better and thankful to Him of the greatest
@@ -14320,7 +14322,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>connected with <placeName><geogName type="river">Moero</geogName></placeName> or <placeName><geogName type="river">Luapula</geogName></placeName> it would
 <lb/>run off -</p>
 			    
-    <pb facs="liv_000001_0364" n="0364"/>
+    <pb facs="liv_000019_0364" n="0364"/>
 <lb/><fw n="358"><add place="inspace" rend="gray left" hand="#U">358</add></fw>
 <lb/><p rend="no-indent"><note place="marginleft"><date from="1868-02-07" to="1868-02-21">7<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice> <lb/>1868.</date></note> - 21<hi rend="sup double-underline">st</hi> <choice><sic>on</sic><corr>On</corr></choice> enquiring of men who have seen
 <lb/>the underground houses in <placeName><region><choice><orig>Rua</orig><reg>Lubaland</reg></choice></region></placeName> I find
@@ -14360,7 +14362,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>-la salla lahu, a leihi oa salama"</foreign> - <persName>Simon</persName>
 <lb/>recovered but <term type="tribe"><choice><sic>Gallahs</sic><corr>Gallas</corr></choice></term> are in general not strong.</p>
 			    
-	<pb facs="liv_000001_0365" n="0365"/>
+	<pb facs="liv_000019_0365" n="0365"/>
 <lb/><fw n="359"><add place="inspace" rend="gray right" hand="#U">359</add></fw>
 <lb/><p><note place="marginleft"><date when="1868-02-25">25<hi rend="sup underline">th</hi> <lb/>February <lb/><w><supplied>1</supplied>868</w>.</date></note> <persName>Muhamad</persName> called me this <date when="1868-02-25">morning</date> to apologize
 <lb/>for the outrage of <date when="1868-02-24">yesterday</date> but no one was to
@@ -14401,7 +14403,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>have a general row in the <choice><sic>bazar</sic><corr>bazaar</corr></choice> - but no
 <lb/>bad feeling exists next day.</p>
 			    
-    <pb facs="liv_000001_0366" n="0366"/>
+    <pb facs="liv_000019_0366" n="0366"/>
 <lb/><fw n="360"><add place="inspace" rend="gray left" hand="#U">360</add></fw>
 <lb/><p><note place="marginleft"><date when="1868-02-26">26<hi rend="sup">th</hi> <lb/>February <lb/>1868</date></note> If a child cuts the upper front teeth before
 <lb/>the lower it is killed. as unlucky. this
@@ -14443,7 +14445,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>wife's mother - a <term type="occupation">queen</term> - that she might be
 <lb/>no obstacle to him in securing her daughter.</p>
    
-    <pb facs="liv_000001_0367" n="0367"/>
+    <pb facs="liv_000019_0367" n="0367"/>
 <lb/><fw n="361"><add place="inspace" rend="gray right" hand="#U">361</add></fw>
 <lb/><p><note place="marginleft"><date when="1868-03-02">2<hi rend="sup underline">nd</hi> <lb/>March <lb/>1868</date></note> We are waiting in company with a number
 <lb/>of <term type="tribe"><choice><orig>Wanyamwesi</orig><reg>Wanyamwezi</reg></choice></term> <seg type="weather">for the cessation of the rains
@@ -14484,7 +14486,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>on the mind of groping in the dark - It
 <lb/>may be all different when we come to see it -</p>
 			   
-    <pb facs="liv_000001_0368" n="0368"/>
+    <pb facs="liv_000019_0368" n="0368"/>
 <lb/><fw n="362"><add place="inspace" rend="gray left" hand="#U">362</add></fw>
 <lb/><p><note place="marginleft"><date when="1868-03-03">3<hi rend="sup underline">d</hi> <lb/>March <lb/>1868</date></note> The <term type="plant_foodstuff">fruit of the <term type="plant">Palm</term></term> which yields <term type="plant_foodstuff">Palm oil</term>
 <lb/>is first of all boiled, then pounded in a
@@ -14526,7 +14528,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>possesses the same force as if he had
 <lb/><note place="marginleft">-</note> said, <orgName>Muhamadans</orgName> would catch more
 
-    <pb facs="liv_000001_0369" n="0369"/>
+    <pb facs="liv_000019_0369" n="0369"/>
 <lb/><fw n="363"><add place="inspace" rend="gray right" hand="#U">363</add></fw>
 <lb/><note place="marginleft"><date when="1868-03-06">6<hi rend="sup">th</hi> <lb/>March <lb/><w><supplied>1</supplied>868</w>.</date></note> <term type="animal">birds</term> than <orgName>Christians</orgName> because they would put
 <lb/><term type="foodstuff">salt</term> on their tails - The indispensible requisite
@@ -14567,7 +14569,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>any new ideas they obtain - they were <w>aston-
 <lb break="no"/>-ished</w> to find that <persName>Park</persName> knew the stories.</p>
 			    
-	<pb facs="liv_000001_0370" n="0370"/>
+	<pb facs="liv_000019_0370" n="0370"/>
 <lb/><fw n="364"><add place="inspace" rend="gray left" hand="#U">364</add></fw>
 <lb/><p><note place="marginleft"><date when="1868-03-10">10<hi rend="sup">th</hi> <lb/>March <lb/>1868</date></note> <orgName>The people at <placeName><region>Katanga</region></placeName></orgName> are afraid to dig for
 <lb/>the gold in their country because they believe that <!-- geog:  -->
@@ -14608,7 +14610,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>of speaking &amp; is the same that beguiled <persName>Eve</persName>.
 <lb/>It is a crime at <placeName><settlement type="town">Ujiji</settlement></placeName> to kill a <term type="animal">serpent</term>
 
-    <pb facs="liv_000001_0371" n="0371"/>
+    <pb facs="liv_000019_0371" n="0371"/>
 <lb/><fw n="365"><add place="inspace" rend="gray right" hand="#U">365</add></fw>
 <lb/><note place="marginleft"><date when="1868-03-12">12<hi rend="sup underline">th</hi> <lb/>March <lb/>1868</date></note> even though it enter a house and kills a kid!
 <lb/>The <orgName>native</orgName> name for <orgName>the people of <placeName><settlement type="town">Ujiji</settlement></placeName></orgName> is <term type="tribe"><choice><orig>Wayeiye</orig><reg>Waiyau</reg></choice></term>
@@ -14655,7 +14657,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>read and write <!--I'm not sure how to encode this sideways text in this transcription, for now I've just transcribed the text to the best of my ability within the note tag here -AK--><!-- See how I have moved to the end of page and used ab tags to encapsulate. HB -->
     </ab>
     
-    <pb facs="liv_000001_0372" n="0372"/>
+    <pb facs="liv_000019_0372" n="0372"/>
 <lb/><fw n="366"><add place="inspace" rend="gray left" hand="#U">366</add></fw>
 <lb/><p><note place="marginleft"><date when="1868-03-16">16<hi rend="sup">th</hi> <lb/>March <lb/>1868</date></note> <choice><sic>started</sic><corr>Started</corr></choice> for <placeName><settlement type="village"><persName>Mpweto</persName>'s village</settlement></placeName> which is
 <lb/>situated on the <placeName><geogName type="river">Lualaba</geogName></placeName> and in our course
@@ -14696,7 +14698,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>at <placeName><settlement type="village">Kirwa</settlement></placeName> by <persName>Bin Habib</persName> and now with 
 <lb/>him here.</p>
 
-    <pb facs="liv_000001_0373" n="0373"/>
+    <pb facs="liv_000019_0373" n="0373"/>
 <lb/><fw n="367"><add place="inspace" rend="gray right" hand="#U">367</add></fw>
 <lb/><p><note place="marginleft"><date when="1868-03-18">18<hi rend="sup">th</hi> <lb/>March <lb/><w><supplied>1</supplied>868</w></date></note> A very beautiful young woman came to
 <lb/>look at us - perfect in every way &amp; nearly
@@ -14736,7 +14738,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>away and if we did not move he
 <lb/>would come with all his people and
 
-    <pb facs="liv_000001_0374" n="0374"/>
+    <pb facs="liv_000019_0374" n="0374"/>
 <lb/><fw n="368"><add place="inspace" rend="gray left" hand="#U">368</add></fw>
 <lb/><note place="marginleft"><date when="1868-03-23">23<hi rend="sup">d</hi> <lb/>March <lb/>1868</date></note> drive us away - <persName>Sariano</persName> said if he
 <lb/>were not afraid for <choice><sic><persName>Syde bin Habib</persName>s</sic><corr><persName>Syde bin Habib</persName>'s</corr></choice> goods
@@ -14777,7 +14779,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>horizon only - the <term type="animal">Tsebula</term> &amp; <term type="tribe">Nzoe</term> abound
 <lb/>people desire <term type="foodstuff">salt</term> and not beads for sale.</p>
 
-    <pb facs="liv_000001_0375" n="0375"/>
+    <pb facs="liv_000019_0375" n="0375"/>
 <lb/><fw n="369"><add place="inspace" rend="gray right" hand="#U">369</add></fw>
 <lb/><p><note place="marginleft"><date when="1868-04-02">2<hi rend="sup">d</hi> <lb/>April <lb/><w><supplied>1</supplied>868</w></date></note> If I am not <choice><sic>decieved</sic><corr>deceived</corr></choice> by the information
 <lb/>I have <choice><sic>recieved</sic><corr>received</corr></choice> from various reliable sources,
@@ -14816,7 +14818,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><persName>Syde</persName> modifies the above - see - on pages marked <date when="1868-08-11">August 11</date> <!--Not sure about the year here or on the next one -AK-->
 <lb/>and <date when="1868-08-14">August 14</date>. bottom.</p>
 
-	<pb facs="liv_000001_0376" n="0376"/>
+	<pb facs="liv_000019_0376" n="0376"/>
 <lb/><fw n="370"><add place="inspace" rend="gray left" hand="#U">370</add></fw>
 <lb/><p><note place="marginleft"><date when="1868-04-11">April <lb/><subst><del>12</del><add place="over-text">11</add></subst><hi rend="sup underline">th</hi> <lb/>1868</date></note> Had a long oration from <persName>Muhamad</persName> <date when="1868-04-10">yesterday</date>
 <lb/>against going off for <placeName><geogName type="lake">Bemba</geogName></placeName> <date when="1868-04-12">tomorrow</date> - 
@@ -14859,7 +14861,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>to me but <persName>Muhamad</persName> detains them - and when
 <lb/>I asked his reason he said <persName>Muabo</persName> refuses but they
 
-    <pb facs="liv_000001_0377" n="0377"/>
+    <pb facs="liv_000019_0377" n="0377"/>
 <lb/><fw n="371"><add place="inspace" rend="gray right" hand="#U">371</add></fw>
 <lb/><note place="marginleft"><date when="1868-04-13">April <lb/><w><supplied>1</supplied>3</w><hi rend="sup underline">th</hi> <lb/><w><supplied>1</supplied>868</w></date></note> point to <persName>Muhamad</persName>'s house &amp; say "It is he who refuses."</p>
 <lb/><p>On preparing to start <date when="1868-04-13">this morning</date> people refuse to 
@@ -14899,7 +14901,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>bind them but he had refused." He wanted to
 <lb/>appear to <orgName>the people</orgName> as much better than I am</p>
 
-    <pb facs="liv_000001_0378" n="0378"/>
+    <pb facs="liv_000019_0378" n="0378"/>
 <lb/><fw n="372"><add place="inspace" rend="gray left" hand="#U">372</add></fw>
 <lb/><p><note place="marginleft"><date when="1868-04-14">April <lb/>14<hi rend="sup">th</hi> <lb/>1868</date></note> Start off with five <term type="occupation">attendants</term> leaving most of the
 <lb/>luggage with <persName>Muhamad</persName> - and reach the <placeName><geogName type="river">Luao</geogName></placeName> to
@@ -23426,7 +23428,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>accomplices of <persName>Shereef</persName> who connived 
 
 	<pb facs="liv_000019_0593" n="0593"/>
-<lb/><fw n="586"><add place="inspace" rend="gray right" hand="#U">586</add></fw>
+<lb/><fw n="587"><add place="inspace" rend="gray right" hand="#U">587</add></fw>
 <lb/>in supplanting help for me into a trade <w>specu-
 <lb break="no"/>-lation</w> - they ought also to pay the <orgName>slaves</orgName> sent by
 <lb/><persName>Ludha</persName> and let them (the <orgName>Banians</orgName>) recover
@@ -30217,8 +30219,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><fw n="760"><add place="inspace" rend="gray left" hand="#U">760</add></fw>
 <lb/><item><bibl>Private <choice><abbr>Mem.</abbr><expan>Memorandum</expan></choice></bibl> <persName>M<hi rend="sup underline">r</hi> Tozer</persName> repudiates <seg rend="right"><hi rend="double-underline">November</hi></seg>
 <lb/><persName><term type="occupation"><choice><abbr>bp</abbr><expan>Bishop</expan></choice></term> Mackenzie</persName> and the pugilistic <term type="occupation">bishop</term> <seg rend="right">11.</seg>
-<lb/>is a man of peace - propagates a <seg><date when="1871"></date></seg>
-<lb/><term type="nationality">Portuguese</term> scandal &amp; <persName><term type="occupation"><choice><abbr>bp</abbr><expan>Bishop</expan></choice></term> Gray</persName> hides it <seg rend="right"></seg></item>
+<lb/>is a man of peace - propagates a <seg rend="right">--</seg>
+<lb/><term type="nationality">Portuguese</term> scandal &amp; <persName><term type="occupation"><choice><abbr>bp</abbr><expan>Bishop</expan></choice></term> Gray</persName> hides it <seg rend="right">--</seg></item>
 <lb/><item><bibl>Private <choice><abbr>Mem.</abbr><expan>Memorandum</expan></choice></bibl> <persName>Richard Thornton</persName> <seg rend="right">12.</seg>
 <lb/>oh if he had a friend! and £12 bill <seg rend="right">--</seg>
 <lb/>for <term type="foodstuff">gin</term> came into <persName>D<hi rend="sup underline">r</hi> <choice><abbr>L</abbr><expan>Livingstone</expan></choice></persName>'s hands <seg rend="right">--</seg></item>
