@@ -1,0 +1,2470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000001">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Field Diary I</title>
+                <title type="alternative">Field Diary I, 4 August 1865 - 31 March 1866</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Megan Ward</principal>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Encoding Review</resp>
+                </respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+				<respStmt xml:id="CL">
+					<name>Christopher Lawrence</name>
+					<resp>Final proofing</resp>
+				</respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AA">
+                    <name>Angela Aliff</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
+				<idno type="LEAP-ID">liv_000001</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                        All materials are licensed for use under the 
+                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
+                        (c) Dr. Neil Imray Livingstone Wilson, 2014
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">Cat 1123</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 014</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="JMcN"><label>Rev James McNair</label> This hand is that 
+                                of the founder of the David Livingstone Centre, Blantyre, Scotland.</handNote>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Field Diary I</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1865-08-04" to="1866-03-31">4 August 1865 - 31 March 1866</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><!-- Heather, the other languages found in the various transcription sections need to be added here. Put English first, then the other languages in alphabetical order using the @ident value. AW -->
+                <language ident="en">English</language>
+                <language ident="ajw">Ajawa</language>
+                <language ident="ar">Arabic</language>
+				<language ident="fr">French</language>
+                <language ident="hi">Hindi</language>
+				<language ident="la">Latin</language>
+				<language ident="swh">Swahili</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <!-- Heather, the <change> below is just an example. All the <change> elements from the various transcription sections need to be integrated here and placed in chronological order, starting with the most recent. In addition, you need to regularize the text of what each person does, so that it matches the standardized text I've put in the <resp> statements further above. AW -->
+			<!-- Online Display -->
+			<change when="2016-12-06" who="#AW">Editing for online display</change>
+			<!-- Final corrections -->
+			<change when="2015-12-15" who="#HB">Final corrections/TEI incorporations</change>
+			<change when="2014-11-22" who="#AW">Further corrections</change>
+        	<change when="2014-10-31" who="#HB">Implement TEI manual changes</change>
+			<change when="2014-08-21" who="#CL">Final proofing</change>
+			<!-- Penultimate review -->
+        	<change when="2014-06-03" who="#AW">Editorial Decisions</change>
+            <!-- Integration -->
+        	<change when="2014-05-27" who="#HB">Quality Control and Integration; Editorial Decisions</change>
+        	<!-- _0001 -->
+            <change when="2014-05-13" who="#AW">Encoding Review</change>
+            <change when="2014-05-07" who="#MW">Proofing</change>
+            <change when="2014-04-29" who="#AW">Transcription and TEI Encoding</change>
+            <!-- _0008 -->
+            <change when="2014-05-13" who="#AW">Encoding Review</change>
+            <change when="2014-05-07" who="#MW">Proofing</change>
+            <change when="2014-05-05" who="#AW">Coding review</change>
+            <change when="2014-05-01" who="#AA">Transcription and TEI Encoding</change>
+            <!-- _0027 -->
+            <change when="2014-05-14" who="#AW">Encoding Review</change>
+            <change when="2014-05-08" who="#KS">Proofing</change>
+        	<change when="2014-04-29" who="#MW">Transcription and TEI Encoding</change>
+            <!-- _0048 -->
+            <change when="2014-05-15" who="#AW">Encoding Review</change>
+			<change when="2014-05-08" who="#AK">Proofing</change>
+        	<change when="2014-04-29" who="#KS">Transcription and TEI Encoding</change>
+            <!-- _0068 -->
+            <change when="2014-05-15" who="#AW">Proofing</change>
+			<change when="2014-05-10" who="#AK">Proofing</change>
+			<change when="2014-05-09" who="#AW">Proofing</change>
+            <change when="2014-05-03" who="#AK">Transcription and TEI Encoding</change>
+            <!-- _0088 -->
+            <change when="2014-05-18" who="#HB">Proofing</change>
+            <change when="2014-05-03" who="#AW">Transcription and TEI Encoding</change>
+            
+       </revisionDesc>
+    </teiHeader>
+
+<!-- Heather, I think that at the beginning of each transcription section that you add, you should copy the initials of the people that worked on that section from the file name, as in the example I give below. That way we'll retain that record, which would otherwise be lost through integration. Also, when you integrate the sections, please leave in all the green comments, except for the comments I specifically make to you, which can be removed. However, leave in the comments from me to you that appear above. AW -->
+
+    <text>
+
+	<!-- aw, mw, aw -->
+
+		<front rend="blue">
+<!-- Adrian, not sure how to include a front div tag correctly here (keeps saying error no matter what I change/move) Should I be swapping out the 'body' above for 'front' then start 'body' after this page?. HB 2014-05-27 -->
+<!-- Yes, I changed <div> to <front>. Note that <front> is a "sibling" of <body> so either <body> or <front> (or <back> for that matter). You can't have <front> inside <body> so that's why it wasn't accepting it. See how I've done it too once the text proper starts at 0004. AW -->
+
+	<pb facs="liv_000001_0001" n="0001"/>
+<lb/><p rend="center"><fw n="heading_I">I</fw></p> <!-- Adrian, how to notate that this is at the bottom of the page? HB -->
+                    
+    <pb facs="liv_000001_0002" n="0002"/> 
+			            
+    <pb facs="liv_000001_0003" n="0003"/> 
+<lb/><addSpan spanTo="#fd1" hand="#JMcN"/><p rend="no-indent"><add place="inline" hand="#U">This contains a rough 
+<lb/>diary of <persName>Livingstone</persName>'s voyage
+<lb/>to <placeName><settlement type="city">Bombay</settlement></placeName> from <placeName><settlement type="city">Marseilles</settlement></placeName>
+<lb/>in <date when="1865">1865</date>, his stay in <placeName><settlement type="city">Bombay</settlement></placeName>,
+<lb/>his arrival in <placeName><geogName type="island">Zanzibar</geogName></placeName> &amp;
+<lb/><subst><del/><add place="over-text">the</add></subst> beginnings of his last
+<lb/>Journey - <date when="1866-03">March 1866</date></add></p>
+<lb/><p><add place="inline" hand="#U">It does not closely <w>corres-
+<lb break="no"/>pond</w> with <bibl><persName>Waller</persName>'s "Last
+<lb/><choice><sic>Journey</sic><corr>Journals</corr></choice>"</bibl> &amp; seems like rough
+<lb/>notes that were written
+<lb/>up carefully later; For
+<lb/>instance its <gap extent="1" unit="chars"/> well-known
+<lb/>passage <choice><sic>in</sic><corr>on</corr></choice> the <bibl>Joys of
+<lb/>Travel</bibl> appears on <date when="1866-01"><w>Jan-
+<lb break="no"/>uary</w> 1866</date> as written
+<lb/>at Sea, whereas <bibl><persName>Waller</persName></bibl>
+<lb/>gives it under date
+<lb/><date when="1866-03-26">March 26<hi rend="sup">th</hi></date></add></p><anchor xml:id="fd1"/>
+		</front>
+		
+		<body>
+			<div rend="blue">
+
+    <pb facs="liv_000001_0004" n="0004"/>
+<lb/><addSpan spanTo="#addFr-1" hand="#U"/><p rend="no-indent"><foreign xml:lang="fr">À Monsieur</foreign> <!-- Not sure why this page is coded as addSpan as not added to text after the fact but part of text itself? (or am I reading the definition incorrectly?) HB 2014-05-27 --><!-- I'm treating this as an addition to DL's diary by someone else and so timing doesn't matter. The point is it's a span of text, rather than a short addition, not by DL. AW -->
+<lb/><persName>Monsieur <w>Ca<add place="above">i</add>lliatte</w></persName>
+<lb/><placeName><settlement type="city">Marsauceux</settlement></placeName>
+<lb/>pres <placeName><settlement>Dreux</settlement></placeName><!-- commune -->
+<lb/><placeName><region>Eure et Loir</region></placeName></p><anchor xml:id="addFr-1"/>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><persName><foreign xml:lang="fr"><choice><sic>Monsier</sic><corr>Monsieur</corr></choice></foreign> <choice><sic>Calliatte</sic><corr>Cailliatte</corr></choice></persName>
+<lb/><placeName><settlement type="city">Marsauceux</settlement></placeName>
+<lb/>Pres <placeName><settlement>Dreux</settlement></placeName><!-- commune -->
+<lb/><placeName><region><hi rend="underline">Eure</hi> et Loir</region></placeName></p>
+
+	<pb facs="liv_000001_0005" n="0005"/>
+<lb/><addSpan spanTo="#addFr-2"/><delSpan spanTo="#delFr-1"/><p rend="no-indent"><del type="strikethrough"><foreign xml:lang="fr">À</foreign> <persName><foreign xml:lang="fr">Madame</foreign> Hocidi</persName>
+<lb/><foreign xml:lang="fr">du</foreign> <persName><foreign xml:lang="fr">Docteur</foreign> Livingstone</persName></del></p><anchor xml:id="delFr-1"/>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><foreign xml:lang="fr">À</foreign> <persName><foreign xml:lang="fr">Madame</foreign> Hocidi</persName>
+<lb/><foreign xml:lang="fr">chez</foreign> <persName><foreign xml:lang="fr"><choice><abbr>M.</abbr><expan>Monseiur</expan></choice></foreign> <unclear cert="high">Frédine</unclear> de
+<lb/><unclear cert="medium">Comisets</unclear></persName></p>
+<lb/><p><placeName><settlement type="city">Le Havre</settlement></placeName>
+<lb/><foreign xml:lang="fr">du</foreign> <persName><foreign xml:lang="fr">Docteur</foreign> Livingstone</persName>
+<lb/><placeName>Hotel des Deux Mondes</placeName>
+<lb/><space extent="1" unit="words"/><placeName><settlement type="city">Paris</settlement></placeName></p>
+<lb/><p rend="no-indent"><foreign xml:lang="fr">"Nous <unclear cert="medium">sommes</unclear> à <placeName><settlement type="city">Marsauceux</settlement></placeName>
+<lb/>Mercredi à onze heures
+<lb/>et demi</foreign> -" </p><anchor xml:id="addFr-2"/>
+<lb/><p>In answer to the above <persName>M<hi rend="sup underline">rs</hi>
+<lb/>Hocede</persName> came up from <placeName><settlement type="city">Havre</settlement></placeName>
+<lb/>to <placeName><settlement type="city">Marsauceux</settlement></placeName> &amp; we met
+<lb/>her there - on <date when="1865-08-17">17<hi rend="sup">th</hi></date> left <persName>Agnes</persName>
+<lb/>on <date when="1865-08-18">18<hi rend="sup underline">th</hi></date> God bless her</p>
+
+	<pb facs="liv_000001_0006" n="0006"/>
+<lb/><p rend="no-indent">£1300 per ton
+<lb/>185 for ivory - The
+<lb/>largest price given</p>
+<lb/><milestone unit="section" rend="line"/> 
+<lb/><p rend="no-indent"><date when="1865-08-19">19<hi rend="sup underline">th</hi> August 1865</date>
+<lb/>reached <placeName><settlement type="city">Marseilles</settlement></placeName>
+<lb/>at noon - slept
+<lb/>in a <placeName>Hotel Louvre
+<lb/>et Paix</placeName> and on
+<lb/><date when="1865-08-20">20<hi rend="sup underline">th</hi></date> came on
+<lb/>board Massalia
+<lb/>P<supplied>.</supplied> &amp; O. steamer to
+<lb/>sail as soon as
+<lb/>the mails come
+<lb/>on board -</p>
+<lb/><p>Dined with <persName>M. Champlones</persName>
+<lb/>in <placeName><settlement type="city">Paris</settlement></placeName> - a good <term type="occupation">geographer</term>
+
+	<pb facs="liv_000001_0007" n="0007"/>
+<lb/><metamark/><placeName><settlement>Dreux</settlement></placeName><!-- commune --> where <persName>Agnes</persName> remains
+<lb/>in order to speak French is <!-- We're not tagging languages, correct? HB 2014-05-27 --><!-- Yes. Only words *in* foreign languages. AW -->
+<lb/>a very old town - country
+<lb/>on chalk, a <term type="foodstuff">wine</term> growing
+<lb/>one - people well off - no
+<lb/>poor - mostly <unclear cert="high">agricultural</unclear>
+<lb/>in a small way - very
+<lb/>merry and careless
+<lb/>This region was that
+<lb/>in which <persName>Julius <choice><sic>Caezar</sic><corr>Caesar</corr></choice></persName>
+<lb/>was when we wrote his
+<lb/>2<hi rend="sup underline">d</hi> book of his <w>com-
+<lb break="no"/>mentaries</w>. The people
+<lb/>seem changed now
+<lb/>for they are small &amp;
+<lb/>dark instead of being
+<lb/>the big fair blue eyed
+<lb/><orgName>Gauls</orgName> of old - The
+<lb/>burying place of the
+<lb/><persName>Bourbon</persName> family is
+<lb/>near <placeName><settlement>Dreux</settlement></placeName><!-- commune --> - some
+<lb/>fine stained glass in it
+			    
+	<!-- aa, aw, mw, aw -->	    
+
+	<pb facs="liv_000001_0008" n="0008"/>
+<lb/>The country along which
+<lb/>we coast is sterile
+<lb/>in appearance but is
+<lb/>fertile - it looks stoney</p>
+<lb/><p rend="no-indent"><date when="1865-08-21">21<hi rend="sup underline">st</hi> August 1865</date></p>  
+<lb/><p><seg type="weather">Beautiful sailing - The
+<lb/>Massilia goes at 12<choice><orig>½</orig><reg>1/2</reg></choice> knots
+<lb/>over a silent sea, and <add place="above">it</add> is
+<lb/>pleasantly warm</seg> - <persName>M<hi rend="sup">r</hi> 
+<lb/>Maine</persName> eminent as a<!-- pers: This is undoubtedly [Sir after 1871] Henry Maine, Britain’s great authority on ancient jurisprudence –returning to India after a break I guess. CL -->
+<lb/><term type="occupation">lawyer</term> &amp; <term type="occupation">writer</term> on ancient
+<lb/>law is on board &amp; <persName>M<hi rend="sup">r</hi> Tucker</persName>
+<lb/>also a <term type="occupation">lawyer</term> - <persName>M<hi rend="sup">r</hi> Sterne</persName>
+<lb/>an <orgName><term type="nationality">American</term> <term type="occupation">merchant</term></orgName>
+<lb/>well educated &amp; clever - 
+<lb/>and all are <choice><sic>agreable</sic><corr>agreeable</corr></choice> --</p>
+<lb/><p><date when="1865-08-22">22<hi rend="sup underline">d</hi></date> Reached <placeName><geogName type="island">Malta</geogName></placeName>
+<lb/>about 5 P.M. and found
+<lb/>quarantine regulations
+<lb/>in full force - boats at
+<lb/>once surrounded us
+
+  <pb facs="liv_000001_0009" n="0009"/>
+<lb/>each having a man with
+<lb/>a yellow collar &amp; yellow
+<lb/>flag - and all who had
+<lb/>come with us to <placeName><geogName type="island">Malta</geogName></placeName>
+<lb/>were to be put in quarantine
+<lb/>for 10 days - some cases
+<lb/>of <term type="ailment">cholera</term> had appeared at
+<lb/><placeName><settlement type="city">Marseilles</settlement></placeName>. The ship's
+<lb/>papers were <choice><sic>recieved</sic><corr>received</corr></choice> in
+<lb/>a box at the end of a
+<lb/>pole and tongs employed
+<lb/>to open &amp; and shut it.</p>
+<lb/><p>A man of war's crew
+<lb/>was said to have been
+<lb/>put into quarantine
+<lb/>for one of the men having
+<lb/>touched a man of our
+<lb/>ship - too much <w>defer-
+<lb break="no"/>ence</w> is paid by our
+<lb/>government to the
+<lb/><orgName>Maltese</orgName> who are very
+<!--I'm not sure if "nationality" is the correct tag for Maltese. Adrian, I wonder if this is another example of that vaguer people group type we talked about the other day. AA --><!-- Use <orgName> for all such instances. AW -->
+<lb/>presuming.</p>
+            	
+	<pb facs="liv_000001_0010" n="0010"/>
+<lb/><p><date when="1865-08-23">23<hi rend="sup">d</hi> <choice><abbr>Aug.</abbr><expan>August</expan></choice> 1865</date>. We were
+<lb/>prevented from coaling
+<lb/>till this morning. Then
+<lb/>left at midday - <persName>D<hi rend="sup underline">r</hi>
+<lb/>Parkes</persName> &amp; family went
+<lb/>off to quarantine - a
+<lb/><persName>M<hi rend="sup underline">rs</hi> Webb</persName> heard that her
+<lb/>husband was ill of
+<lb/><term type="ailment">fever</term> &amp; unable to come
+<lb/>near her before she
+<lb/>went into <choice><sic>th</sic><corr>the</corr></choice> <placeName>Lazaretto</placeName><!-- The Lazaretto must be the hospital where Mr Webb is held [see the “into a thick fog” 2 lines below]. CL -->
+<lb/>as we left we entered
+<lb/>into a thick fog which
+<lb/>seemed to be only near
+<lb/>the island &amp; not on it
+<lb/>We may hear of this at
+<lb/>a later date as associated
+<lb/>with an outburst
+<lb/>of <term type="ailment">cholera</term></p>
+<lb/><p><seg type="weather">Weather outside very
+<lb/>fine</seg> we hope to get to
+
+	<pb facs="liv_000001_0011" n="0011"/>
+<lb/><placeName><settlement type="city">Alexandria</settlement></placeName> by Saturday at
+<lb/>noon &amp; thence start at
+<lb/>once for <placeName><settlement type="city">Suez</settlement></placeName>.</p>
+<lb/><p><persName>M<hi rend="sup underline">rs</hi> Tucker</persName> going up to
+<lb/><placeName><settlement type="city"><choice><orig>Mahableswar</orig><reg>Mahabaleshwar</reg></choice></settlement></placeName> at night
+<lb/>her horse went over a
+<lb/>precipice <subst><del/><add place="over-text">in</add></subst> the dark
+<lb/>and was jammed between
+<lb/><subst><del>the</del><add place="over-text">a</add></subst> tree and the rock. both
+<lb/>horse &amp; rider saved.
+<lb/>This is surely <w>Providen-	
+<lb break="no"/>tial</w></p>
+<lb/><p><date when="1865-08-26">26<hi rend="sup underline">th</hi> <choice><abbr>Aug.</abbr><expan>August</expan></choice> 1865</date>. <choice><sic>arrived</sic><corr>Arrived</corr></choice> at
+<lb/><placeName><settlement type="city">Alexandria</settlement></placeName> about 4 P.M.
+<lb/>and at once went on <w>to-
+<lb break="no"/>wards</w> <placeName><settlement type="city">Cairo</settlement></placeName>. reached it
+<lb/>at 12.30 &amp; stopped at
+<lb/><placeName>Shepherds Hotel</placeName> - to start
+<lb/>at 9 A.M. Sunday <w>morn-
+<lb break="no"/>ing</w>. went at 8 A.M.
+<lb/>to call on <persName>M<hi rend="sup underline">rs</hi> Lieder</persName>.</p>
+	
+	<pb facs="liv_000001_0012" n="0012"/>
+<lb/><p><persName>M<hi rend="sup">r</hi> Lieder</persName> long a missionary
+<lb/>in <placeName><country>Egypt</country></placeName> died lately - &amp; so
+<lb/>did an old companion
+<lb/><persName>Miss Daniels</persName> - so she is left
+<lb/>alone. <persName>Palgrave</persName> is at
+<lb/><placeName><settlement type="city">Cairo</settlement></placeName> among <orgName>Abyssinian</orgName>
+<lb/><term type="occupation">merchants</term> and the
+<lb/>worthless <orgName>Burtonites</orgName> <hi rend="underline">alias</hi>
+<lb/>unprincipled - going to
+<lb/>try &amp; liberate <persName>D<hi rend="sup double-underline">r</hi> Cameron</persName>
+<lb/>&amp; other missionaries in
+<lb/><placeName><region>Abyssinia</region></placeName> - <persName>M<hi rend="sup underline">rs</hi> L.</persName> thinks
+<lb/>that <persName>Cameron</persName> was <w>im-
+<lb break="no"/>-prudent</w> only in presuming
+<lb/>too much as a hunter
+<lb/>and thinking he had more
+<lb/>influence with the
+<lb/>king than he possessed
+<lb/><unclear cert="low"><persName>M<hi rend="sup underline">r</hi> Flad</persName></unclear> a very prudent
+<lb/>&amp; able missionary is one
+<lb/>of the captures. <persName>Miss 
+<lb/> <unclear cert="low">Whately</unclear></persName> is coming out
+ 	
+	<pb facs="liv_000001_0013" n="0013"/>
+<lb/>again in six weeks to
+<lb/>resume her labours
+<lb/>among the <term type="faith">Mahometan</term>
+<lb/>children = she retires in
+<lb/>the hot season and
+<lb/>therein is wise. May a
+<lb/>blessing rest on her
+<lb/>labours.</p>
+<lb/><p>An accident had <w>happen<supplied>-</supplied>
+<lb break="no"/>ed</w> on the railway &amp; one
+<lb/>man killed on Saturday
+<lb/>night - this was the
+<lb/>reason we had to sleep
+<lb/>at <placeName>Shepherds Hotel</placeName> - the
+<lb/><add place="above" hand="#U"><term type="ailment">cholera</term></add> <term type="ailment">cholera</term> was very severe
+<lb/>on this line. Fifteen
+<lb/>engine drivers died of it
+<lb/>one was taken ill and
+<lb/>died before he could get
+<lb/>to a station</p>
+
+	<pb facs="liv_000001_0014" n="0014"/>
+<lb/><p><date when="1865-08-28">28<hi rend="sup underline">th</hi> <choice><abbr>Aug.</abbr><expan>August</expan></choice> 1865</date>. Went
+<lb/>on board the "Benares"
+<lb/>and set sail this morning
+<lb/>with a fine breeze down
+<lb/>the <placeName><geogName type="sea">Red Sea</geogName></placeName>. -</p>
+<lb/><p rend="no-indent"><date when="1865-08-29">29<hi rend="sup underline">th</hi></date> at noon we were
+<lb/><measure>220 miles</measure> from <placeName><settlement type="city">Suez</settlement></placeName>
+<lb/>and <measure>1050</measure> from <placeName><settlement type="city">Aden</settlement></placeName>	
+<lb/>a nice breeze keeps us
+<lb/>pleasant &amp; steady
+<lb/>Reading <persName>Palgrave</persName>
+<lb/>very ambitious in
+<lb/>his style</p>
+<lb/><p rend="no-indent"><date when="1865-08-30">30<hi rend="sup underline">th</hi></date> noon Distance
+<lb/>run <measure>218 miles</measure> -
+<lb/>From <placeName><settlement type="city">Aden</settlement></placeName> <measure>832 miles</measure>
+<lb/>A fine breeze astern
+<lb/>helps us on &amp; cools us</p>
+ 
+	<pb facs="liv_000001_0015" n="0015"/>
+<lb/><figure><head><placeName><geogName type="sea">Red Sea</geogName></placeName> end of <lb/>range <add><placeName><settlement type="city">Suez</settlement></placeName> <lb/>end of <supplied cert="high">range</supplied></add></head><figDesc>Drawing of a landscape.</figDesc></figure>
+ 		
+	<pb facs="liv_000001_0016" n="0016"/> 	
+<lb/><p rend="no-indent"><date when="1865-08-31">31 August 1865</date>	
+<lb/>Distance run today
+<lb/><measure>219 miles</measure> - <measure>614</measure> from  
+<lb/><placeName><settlement type="city">Aden</settlement></placeName> - <seg type="weather">warmer
+<lb/>but wind still keeping
+<lb/>up</seg> -</p>
+<lb/><p rend="no-indent"><date when="1865-09-01">1<hi rend="sup underline">st</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1865</date> - <measure>206
+<lb/>miles</measure> distance run
+<lb/>went down to stoke hole
+<lb/>where <term type="people">Somalis</term> are
+<lb/>employed <choice><orig>½</orig><reg>1/2</reg></choice> an hour
+<lb/>at a time - <w>thermom<supplied>-</supplied>
+<lb break="no"/>eter</w> in stoke hole at
+<lb/>roof 150° Fah<hi rend="sup underline">r</hi>
+<lb/>yesterday 163° - Engine
+<lb/>room 109 - yesterday
+<lb/>110<hi rend="underline">°</hi></p>
+
+	<pb facs="liv_000001_0017" n="0017"/> 
+<lb/><p><date when="1865-09-03">3<hi rend="sup underline">d</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1865</date> Visited
+<lb/><placeName><settlement type="city">Aden</settlement></placeName> - and went
+<lb/>with <persName><term type="occupation"><choice><abbr>Col.</abbr><expan>Colonel</expan></choice></term> Merryweather</persName>
+<lb/>to the old Tanks from
+<lb/>which the town is
+<lb/>supplied = They are built
+<lb/>in a gully &amp; across it
+<lb/>the workmanship
+<lb/>solid &amp; prodigious -
+<lb/>a few trees are planted
+<lb/>It is mentioned by 
+<lb/><persName>Balthazar</persName> an old
+<lb/><term type="person">Portuguese</term> who called
+<lb/>there 300 years ago
+<lb/>that <placeName><settlement type="city">Aden</settlement></placeName> was a
+<lb/>perfect garden - the 
+<lb/>old tanks held more
+<lb/>than the present - 
+<lb/>The town is built
+<lb/>over many of them</p>
+<lb/><p>two <orgName>Parsees</orgName> &amp; a
+ 	
+	<pb facs="liv_000001_0018" n="0018"/> 
+<lb/><term type="faith">Mahometan</term> have in
+<lb/>company cleared out
+<lb/>one &amp; selling 100 gallons
+<lb/>for 1 Rupee realize
+<lb/>about 25 per cent
+<lb/>on the outlay - People
+<lb/>have increased to 30,000
+<lb/>and are crowding in
+<lb/>fast from starvation <!-- Not sure if this should be tagged as ailment, but thought better safe than sorry! HB 2014-05-27 --><!-- I removed it because I don't think it is. AW -->
+<lb/>in the country caused
+<lb/>by <term type="ailment">Murrain</term>. Dined <!-- Murrain is a disease carried by sheep/cattle...should this be tagged with ailment as well, or left alone? HB 2014-05-27 --><!-- I think so as I see ailment as embracing illness, so added it. AW -->
+<lb/>with <persName><term type="occupation"><choice><abbr>Col.</abbr><expan>Colonel</expan></choice></term> Merryweather</persName>
+<lb/>&amp; <persName><term type="occupation"><choice><abbr>Col.</abbr><expan>Colonel</expan></choice></term> Woolcombe</persName> &amp;
+<lb/>then sailed at nine
+<lb/>P M</p>
+<lb/><p>Prodigious quantities
+<lb/>of <term type="animal">fish</term> in <placeName><geogName type="gulf"><choice><sic>Gulph</sic><corr>Gulf</corr></choice> of
+<lb/>Aden</geogName></placeName> - I wonder that
+<lb/>no fisheries have
+<lb/>been established
+ 	
+	<pb facs="liv_000001_0019" n="0019"/> 
+<lb/>a sudden lowering of
+<lb/><choice><abbr>Temp.</abbr><expan>Temperature</expan></choice> took place in
+<lb/>the sea as soon as
+<lb/>we came out of the
+<lb/><placeName><geogName type="sea">Red Sea</geogName></placeName> to <placeName><geogName type="gulf"><choice><sic>Gulph</sic><corr>Gulf</corr></choice> of
+<lb/>Aden</geogName></placeName>. The bath made
+<lb/>us start from its
+<lb/>coldness. <choice><sic>query</sic><corr>Query</corr></choice> a
+<lb/>current from south
+<lb/>brought to surface - ?</p>
+<lb/><p><date when="1865-09-05">5<hi rend="sup underline">th</hi> <choice><abbr>Sept</abbr><expan>September</expan></choice> 1865</date></p>
+<lb/><p>Still in <placeName><geogName type="gulf"><choice><sic>Gulph</sic><corr>Gulf</corr></choice> of
+<lb/>Aden</geogName></placeName> = <measure>1570 miles</measure>
+<lb/>from <placeName><settlement type="city">Bombay</settlement></placeName> - went
+<lb/><measure>212 miles</measure> -</p>
+<lb/><p><date when="1865-09-06">6<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice></date> when we
+<lb/>got out of <placeName><geogName type="gulf"><choice><sic>Gulph</sic><corr>Gulf</corr></choice> of
+<lb/>Aden</geogName></placeName> came to southern
+<lb/>swell &amp; wind - going
+<lb/>well &amp; cool - <measure>254 miles</measure></p>
+
+	<pb facs="liv_000001_0020" n="0020"/>
+<lb/><p>The <term type="occupation"><orgName>Roman</orgName> Emperors</term>
+<lb/>looked on <term type="faith">Christianity</term>
+<lb/>as politically subversive
+<lb/>and morally abominable
+<lb/>As many of ourselves
+<lb/>do <term type="faith">Mormonism</term> &amp;
+<lb/>our rulers do the
+<lb/><orgName>Jesuits</orgName>. <term type="faith">Christianity</term>
+<lb/>is still looked on
+<lb/>as a new spirit
+<lb/>likely to act as a 
+<lb/>dissolvent of <orgName>Eastern</orgName> <!-- Should Eastern be tagged here, as it is being talked about in relation to other cultures? HB 2014-05-27 --><!-- It makes sense as you've presented it, so I've tagged it. AW -->
+<lb/>systems. It produces
+<lb/>an instinctive
+<lb/>shrinking, and
+<lb/>repugnance - <orgName>Asiatic</orgName>
+<lb/>rulers have an
+<lb/>instinctive prescience
+<lb/>of the result &amp; naturally
+<lb/>shrink from
+ 	
+	<pb facs="liv_000001_0021" n="0021"/>
+<lb/>closer contact with
+<lb/><orgName>Western</orgName> commerce &amp; <!-- Again, should Western be tagged here? HB 2014-05-27 --><!-- Yes, see above. AW -->
+<lb/><term type="faith">Christianity</term> which
+<lb/>combined will inevitably
+<lb/>modify the whole
+<lb/>structure of society</p>
+<lb/><p>No <orgName>oriental</orgName> <w>com-
+<lb break="no"/>prehends</w> the meaning
+<lb/>of benefitting the people -
+<lb/>the notion of promoting
+<lb/>the welfare of a nation
+<lb/>is <unclear cert="medium">scouted</unclear> as a matter
+<lb/>of course <choice><sic>"</sic><corr>=</corr></choice> - and we are <!-- It looks like a quotation mark after 'course', but not sure if that or just metamark. HB 2014-05-27 --><!-- I think it's quotation mark, then dash and have coded it as such. <metamark/> should always be usually be empty in this way and not contain anything, as we're simply noting that a metamark is there, not reproducing it. AW --><!-- Corrected to =. AW -->
+<lb/>always supposed to be
+<lb/>following <w><subst><del>own</del><add place="over-text">our</add></subst></w> <w><subst><del>so</del><add place="over-text">own</add></subst></w>
+<lb/>ends in all we do -</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><space dim="vertical" extent="3" unit="lines"/>
+
+	<pb facs="liv_000001_0022" n="0022"/>
+<lb/><p rend="no-indent"><date when="1865-09-07">7 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1865</date> Distance
+<lb/>run <measure>235 miles</measure>. <term type="animal">Flying 
+<lb/>fish</term> are caught by
+<lb/>nets held behind a
+<lb/><subst><del/><add place="inline">light</add></subst> - The <orgName><term type="nationality">French</term>
+<lb/><term type="occupation">soldiers</term></orgName> were shockingly
+<lb/>ill treated by their own
+<lb/>officers on board our
+<lb/>transport ships, but
+<lb/>no complaint made - 
+<lb/>thrown overboard
+<lb/>without any ceremony
+<lb/>not even sewn up
+<lb/>in great coats - These
+<lb/>were usually stolen
+<lb/>ere they were dead -</p>
+<lb/><p rend="no-indent"><date when="1865-09-09"><subst><del>8</del><add place="over-text">9</add></subst><hi rend="sup underline">th</hi></date> <measure>226 miles</measure> &amp; we are
+<lb/>now <measure>352 miles</measure> from
+<lb/><placeName><settlement type="city">Bombay</settlement></placeName> - light breeze
+<lb/>and <space extent="4" unit="chars"/>some <space extent="2" unit="chars"/>sea</p>
+
+	<pb facs="liv_000001_0023" n="0023"/>
+<lb/><p>A foreign people is not to
+<lb/>be understood in a short
+<lb/>or hurried visit - nor indeed 
+<lb/>to be appreciated by the
+<lb/>oldest inhabitant, unless
+<lb/>he will consent to
+<lb/>waive all prejudice &amp; live
+<lb/>as one of themselves - 
+<lb/>Difficult to realize the
+<lb/>true aspect of the people
+<lb/>- learn to respect their
+<lb/>hearts -</p>
+<lb/><p>Quickness of apprehension
+<lb/>a ready wit &amp; retentive
+<lb/>memory
+<lb/>cruel old platitudes
+<lb/>about governing <orgName>orientals</orgName>
+<lb/>by fear - the "stick" -
+<lb/>"vigour" They are the
+<lb/>same as free born <unclear cert="low">Instinct</unclear>
+
+	<pb facs="liv_000001_0024" n="0024"/>
+<lb/>not long ago <term type="people">
+</term> &amp;
+<lb/><term type="people">Germans</term> were regarded
+<lb/>as we now regard "niggers
+<lb/>&amp; <term type="people">Egyptians</term>" - our
+<lb/>island belt of prejudice
+<lb/>with better knowledge
+<lb/>we learn that black &amp;
+<lb/>white are men of like
+<lb/>passions with <w>our<supplied>-</supplied>
+<lb break="no"/>-selves-</w></p> <!-- Great line! Just had to notate for myself to go back later :) HB 2014-05-27 --><!-- This is indeed a great line and the one that follows, demonstrating how DL is both a product of his century "savages" but also progressive in a way that remains important today. We might use this in the site somewhere. AW -->
+<lb/><p>Treat savages as you
+<lb/>would countrymen
+<lb/>remembering that
+<lb/>you lose nothing
+<lb/>by the act &amp; they gain
+<lb/>all -</p>
+<lb/><p>little pet tucked her
+<lb/>legs under her &amp; ate <w>daint<supplied>-</supplied>
+<lb break="no" rend="right"/>ily</w>
+
+	<pb facs="liv_000001_0025" n="0025"/>
+<lb/>such a darling of sweet
+<lb/>pure beauty -
+<lb/><orgName>slave</orgName> is a term of
+<lb/>affection -"<orgName>slave</orgName> whom
+<lb/>he loved"</p>
+<lb/><p>Genuine sympathy
+<lb/>with human beings
+<lb/>obliterates the distinctions
+<lb/>of race &amp; clime rank
+<lb/>&amp; religion &amp; even of
+<lb/>intellect.</p> <!-- Another great line to come back to! HB 2014-05-27 --><!-- Yes, again, working within the ideas of his time, but also fighting to think around its prejudices. AW -->
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent">It is evidence of brutal
+<lb/>vulgarity of mind to
+<lb/>treat all <orgName>natives</orgName> as "niggers"
+<lb/>Avoid this unhappy
+<lb/>form of slang &amp; without
+<lb/>falling into unreal sentiment
+<lb/>endeavour to return to that
+<lb/>chivalry which regards with
+<lb/>especial <choice><sic>forbearance</sic><corr>forebearance</corr></choice> &amp; <w>con<supplied>-</supplied>
+<lb break="no"/>sideration</w> <supplied cert="high">for</supplied> the inferior &amp; helpless</p>
+ 	
+	<pb facs="liv_000001_0026" n="0026"/>
+<lb/><p><metamark/>a man at <placeName><settlement type="city">Rio de Janero</settlement></placeName>
+<lb/>catching a rope was
+<lb/>bit by a <term type="animal">sea snake</term>
+<lb/><subst><del>which</del><add place="over-text">and</add></subst> <choice><orig>shewed</orig><reg>showed</reg></choice> <w>sym-
+<lb break="no"/>-ptoms</w> of poisons
+<lb/>This case was <w>men-
+<lb break="no"/>-tioned</w> by <persName>Captain White</persName>
+<lb/>of the <placeName><settlement type="city">Benares</settlement></placeName> as <!-- Is Benares here referred to as a city, or the people who come from there? HB 2014-05-27 --><!-- City seems more likely to me, so let's leave as is. AW -->
+<lb/>having come under
+<lb/>his own personal
+<lb/>observation</p>
+<lb/><space dim="vertical" extent="4" unit="lines"/>
+<!-- Is there a way to indicate that this whole page is surrounded by three lines, or do I just leave that out? AA --><!-- Use <metamark/> as I have. AW -->
+            
+    <!-- mw, ks, aw -->
+				
+	<pb facs="liv_000001_0027" n="0027"/>
+<lb/><p><date when="1865-09-10">10<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup double-underline">r</hi></abbr><expan>September</expan></choice> 1865</date>
+<lb/>Divine service this
+<lb/>morning at 10-30   
+<lb/>After inspection
+<lb/>all attended - We are
+<lb/>within <measure>120 miles</measure> of
+<lb/><placeName><settlement type="city">Bombay</settlement></placeName> - We have
+<lb/>now been 4 Sundays
+<lb/>on board from
+<lb/><placeName><settlement type="city">Marseilles</settlement></placeName>: <choice><abbr>viz.</abbr><expan>videlicet</expan></choice> - one
+<lb/>at <placeName><settlement type="city">Marseilles</settlement></placeName> - one
+<lb/>crossing Desert -
+<lb/>one at <placeName><settlement type="city">Aden</settlement></placeName> &amp; thus
+<lb/><supplied cert="high">b</supplied>y which we reach
+<lb/><placeName><settlement type="city">Bombay</settlement></placeName> at about
+<lb/>4 A. M. Monday</p>
+	
+	<pb facs="liv_000001_0028" n="0028"/> <!-- Page 96 (line 2096) utilizes a list for similar-looking page...should we convert this to a table as well? HB 2014-05-27 --><!-- I don't see what you mean on page 96. The text at the top of this page appears to be an address. AW -->
+<lb/><p rend="no-indent"><persName><term type="occupation">Chaplain</term> Holberton
+<lb/><space extent="4" unit="chars"/><term type="occupation">Brigade Major</term></persName>	
+<lb/><placeName>River side</placeName>
+<lb/><space extent="5" unit="chars"/><placeName><settlement type="city">Kirkee</settlement></placeName></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><date when="1865-09-13">13<hi rend="sup underline">th</hi></date> start for <placeName><settlement type="city"><choice><sic>Nassuck</sic><corr>Nassick</corr></choice></settlement></placeName>
+<lb/>at 8 A M &amp; reach
+<lb/>4 - 30. <persName>M<hi rend="sup underline">r</hi> <add place="below">^</add> <add place="above"><term type="occupation">Rev</term> W.</add> <choice><sic>Prxel</sic><corr>Prixel</corr></choice></persName></p> <!-- It looks like 'Prixel' is actually misspelled as 'Prxel' or 'Pixel'- thoughts? HB 2014-05-27 --><!-- Corrected. AW -->
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><date when="1865-09-11">11<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup double-underline">r</hi></abbr><expan>September</expan></choice> 1865</date>
+<lb/>Arrived at <placeName><settlement type="city">Bombay</settlement></placeName>
+<lb/>at 4 A M - Went
+<lb/>to House of <persName>M<hi rend="sup">r</hi>
+<lb/>G M Stewart</persName> on
+<lb/><placeName><settlement type="city">Kambala hill</settlement></placeName>
+<lb/>visited <persName><term type="occupation">Governor</term></persName>
+	
+	<pb facs="liv_000001_0029" n="0029"/>
+<lb/>in forenoon. He
+<lb/>recommends a 
+<lb/>visit to <placeName><settlement type="city"><choice><sic>Nassuck</sic><corr>Nassick</corr></choice></settlement></placeName>
+<lb/>to see a school of
+<lb/><orgName>Africans</orgName> there to
+<lb/>select men for
+<lb/>journey - dine
+<lb/>with him tomorrow
+<lb/>evening &amp; then go
+<lb/>Wednesday morning
+<lb/>up country -</p>
+<lb/><p rend="no-indent"><date when="1865-09-12">12<hi rend="sup underline">th</hi></date></p>
+<lb/><p rend="no-indent">went to <placeName><settlement type="town">Pareill</settlement></placeName> to
+<lb/>residence of the <persName><term type="occupation">Governor</term></persName>
+<lb/>offered a room &amp;
+<lb/>then to dine in the
+<lb/>evening - sat beside
+	
+	<pb facs="liv_000001_0030" n="0030"/>
+<lb/><persName>M<hi rend="sup">r</hi> <choice><sic>Chisolme</sic><corr>Chisholme</corr></choice> Anstey</persName> -
+<lb/>who is rather notorious
+<lb/>in <placeName><settlement type="city">Bombay</settlement></placeName> - a disciple
+<lb/>of <persName>Daniel O'Connell</persName> -</p>
+<lb/><p><date when="1865-09-14">14<hi rend="sup underline">th</hi></date> Went up to
+<lb/><placeName><settlement type="city">Nassick</settlement></placeName> to see if any 
+<lb/>of the <orgName>Africans</orgName> there
+<lb/>would suit me.
+<lb/><choice><sic>Recieved</sic><corr>Received</corr></choice> by <persName><term type="occupation">Major</term>
+<lb/>Houghton</persName> very kindly</p>
+<lb/><p rend="no-indent"><date when="1865-09-15">15<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup double-underline">r</hi></abbr><expan>September</expan></choice></date> As the
+<lb/><choice><sic>reamination</sic><corr>reanimation</corr></choice> of the <!-- Adrian, cannot tell if this should be 'rexamination' or 'reanimation' here. HB 2014-05-27 --><!-- I removed your correction. It looks like reamination, but I've put an unclear on it. In any case, what's written here doesn't make much sense to me. AW -->
+<lb/>school by the <persName><term type="occupation">Bishop</term>
+<lb/>of <placeName><settlement type="city">Bombay</settlement></placeName></persName>. <choice><sic>children</sic><corr>Children</corr></choice>
+<lb/>did very well indeed
+<lb/>sang beautifully
+<lb/>an <term type="person">African</term> <w>com<supplied>-</supplied>
+<lb break="no"/>poses</w> tunes and
+	
+	<pb facs="liv_000001_0031" n="0031"/>
+<lb/>has made about 25
+<lb/>with songs in his
+<lb/>own language - The
+<lb/>tongue of <placeName><region>Londa</region></placeName> -
+<lb/>told the young men
+<lb/>that it was not
+<lb/>play they were going
+<lb/>to but work, and
+<lb/>they had better think
+<lb/>about it for some 
+<lb/>time before giving an
+<lb/>answer - Two <w>volun<supplied>-</supplied>
+<lb break="no"/>-teered</w> at once - but I
+<lb/>requested them to 
+<lb/>pause -</p>
+<lb/><p rend="no-indent"><date when="1865-09-16">16<hi rend="sup underline">th</hi></date> came down to
+<lb/><placeName><settlement type="city">Bombay</settlement></placeName> - very many
+<lb/>of the plants seem
+	
+	<pb facs="liv_000001_0032" n="0032"/>
+<lb/>identical with those in
+<lb/><placeName><bloc>Africa</bloc></placeName> -- saw the
+<lb/><term type="plant">ghants</term> clearly and they
+<lb/>are very fine and the
+<lb/>jungle is very like
+<lb/>what we have near
+<lb/><placeName><settlement type="village">Kolobeng</settlement></placeName> &amp; elsewhere
+<lb/><term type="plant">Teak trees</term> - <term type="plant">Euphorbias</term>
+<lb/><term type="plant">acacias</term> &amp; <term type="plant">palmyras</term>
+<lb/>bring back <orgName>African</orgName> <!-- Adrian, tagged this as nationality as it seems from the manual that when used adjectivally it should be tagged as such- let me know if this is incorrect. HB 2014-05-27 --><!-- African and Africans should always orgName. AW -->
+<lb/>scenery vividly -</p>
+<lb/><p><date when="1865-09-17">17<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup double-underline">r</hi></abbr><expan>September</expan></choice> 1865</date>
+<lb/>Went to <placeName><settlement type="city">Fort</settlement></placeName> to settle
+<lb/>affairs - four of
+<lb/>my men have died
+<lb/>climate disagrees with
+<lb/>them - <persName>Chuma</persName> &amp;
+<lb/><persName><choice><orig>Wikotane</orig><reg>Wikatani</reg></choice></persName> have done
+<lb/>very well at <placeName><settlement type="city">Bombay</settlement></placeName>
+<lb/>under <persName>D<hi rend="sup underline">r</hi> Wilson</persName></p>
+	
+	<pb facs="liv_000001_0033" n="0033"/>
+<lb/><p rend="no-indent"><date when="1865-09-18">Sunday 18<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1865</date>
+<lb/>went to <orgName><term type="nationality">Scotch</term> church</orgName>
+<lb/>under <persName>M<hi rend="sup">r</hi> Boyd</persName> &amp; to the
+<lb/><orgName><term type="nationality">English</term> church</orgName> in the
+<lb/>evening -</p>
+<lb/><p><date when="1865-09-19">19<hi rend="sup underline">th</hi></date> came up to <placeName><choice><orig><w>Guny-
+<lb break="no"/>skind</w></orig><reg>Ganeshkhind</reg></choice></placeName> - residence of <persName>Sir
+<lb/>Bartle Frere</persName> the <persName><term type="occupation">Governor</term></persName>
+<lb/>Went after dinner to
+<lb/>an entertainment given
+<lb/>by the <term type="occupation">Officers</term> - Private
+<lb/>theatricals very well
+<lb/>performed - Supped with
+<lb/><persName><term type="occupation"><choice><abbr>Col.</abbr><expan>Colonel</expan></choice></term> Foster</persName> - Home at
+<lb/>2 in the morning -</p>
+<lb/><p><date when="1865-09-20">20<hi rend="sup">th</hi></date> Sleep in quarters
+<lb/>of staff of <persName><term type="occupation">Governor</term></persName>,
+<lb/>go over to <placeName><choice><orig>Gunyskind</orig><reg>Ganeshkhind</reg></choice></placeName> to
+<lb/>meals -</p>
+	
+	<pb facs="liv_000001_0034" n="0034"/>
+<lb/><p rend="no-indent"><date when="1865-09-20">20<hi rend="sup underline">th</hi> <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1865</date></p>
+<lb/><p>After breakfast <persName><term type="occupation">Governor</term></persName>
+<lb/>told me that <persName><term type="occupation">Major</term> Clarke</persName>
+<lb/>had spoken to <term type="occupation">Officers</term>
+<lb/>&amp; men of the <orgName>Marine
+<lb/>Battallion</orgName> &amp; found
+<lb/>them very willing to
+<lb/>go - He says many
+<lb/>of them have been
+<lb/>wrecked &amp; kept at 
+<lb/>places where they have
+<lb/>been obliged to rough it
+<lb/>much and he will
+<lb/>ensure their pay &amp;
+<lb/>pensions - They are
+<lb/>accustomed to making
+<lb/>packs for beasts of 
+<lb/>burden -
+	
+	<pb facs="liv_000001_0035" n="0035"/>
+<lb/>spoke of <term type="animal">buffaloes</term> as
+<lb/>able to bear bite of the
+<lb/><term type="insect">tsetse</term> - Thought favourably
+<lb/>of it - He also said
+<lb/>that any <orgName>Africans</orgName> &amp;
+<lb/>myself wish to send
+<lb/>of one tribe he would
+<lb/>see to their expenses
+<lb/>being paid</p>
+<lb/><p><seg type="weather">very pleasant weather
+<lb/>up here</seg></p>
+<lb/><p><date when="1865-09-22">22 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1865</date></p>
+<lb/><p>Visited a cave
+<lb/>temple and walked
+<lb/>to <placeName>Holkar's bridge</placeName>
+<lb/>Read <bibl><persName>Duffy</persName>'s
+<lb/>history of <placeName><settlement type="town">Kirkee</settlement></placeName>
+<lb/>battle</bibl> -</p>
+	
+	<pb facs="liv_000001_0036" n="0036"/>
+<lb/><p><metamark/><persName>M<hi rend="sup underline">r</hi> Dalzell</persName> gardener
+<lb/>wished seeds of
+<lb/><term type="plant">mosokoso</term> - and 
+<lb/><term type="plant">Buarze</term> <figure><figDesc>Small drawing of <term type="plant">Buarze</term> seeds.</figDesc></figure> send them</p>
+<lb/><milestone unit="section" rend="double-line"/>
+<lb/><p>Invited to lecture
+<lb/>at <orgName>United service
+<lb/>institution</orgName> - Mutiny
+<lb/>medals distributed
+<lb/>A <term type="occupation">fakeer</term> seen in 
+<lb/><placeName><region><choice><sic>Scinde</sic><corr>Sindh</corr></choice></region></placeName> came to 
+<lb/>tell <persName>Sir Bartle</persName>
+<lb/>that the last of
+<lb/>the <term type="occupation">Imams</term> would
+<lb/>soon appear -
+<lb/>
+	
+	<pb facs="liv_000001_0037" n="0037"/>
+<lb/>a woman washed
+<lb/>her face - Political
+<lb/>officer still <w>en-
+<lb break="no"/>quiring</w> into the
+<lb/>case when he
+<lb/>left <placeName><region>Oude</region></placeName> -
+<lb/>men put on a 
+<lb/>new coat over
+<lb/>the old &amp; his age
+<lb/>is asked by how
+<lb/>many coats has
+<lb/>he?</p>
+<lb/><space dim="vertical" extent="4" unit="lines"/>
+	
+	<pb facs="liv_000001_0038" n="0038"/>
+<lb/><p rend="no-indent"><date when="1865-09-25">25 <choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1865</date> - Came
+<lb/>down to <placeName><settlement type="city">Bombay</settlement></placeName>
+<lb/>saw <choice><sic><persName>M<hi rend="sup underline">r</hi> Stearn</persName>'s</sic><corr><persName>M<hi rend="sup underline">r</hi> Stearns</persName></corr></choice> about
+<lb/>calico &amp; <term type="animal">buffaloes</term>
+<lb/>Paid <persName><term type="occupation"><choice><abbr>Gov<hi rend="sup underline">r</hi></abbr><expan>Governor</expan></choice></term></persName> 609 Rupees
+<lb/>3 annas for repairs
+<lb/>of steamer &amp; keep of
+<lb/>men - <persName>M<hi rend="sup underline">r</hi> Hoggan</persName>, an
+<lb/><term type="occupation">engineer</term> volunteers to 
+<lb/>go with me - I decline - 
+<lb/>I go to Lady Nyassa
+<lb/>to <choice><orig>shew</orig><reg>show</reg></choice> her to <persName><term type="occupation">Captain
+<lb/>Blackmore</term></persName> with a
+<lb/>view to advertisement
+<lb/>for sale -</p>
+<lb/><p>She is <choice><sic>advertized</sic><corr>advertised</corr></choice> twice
+<lb/>a week. Two offers
+<lb/><persName>M<hi rend="sup underline">r</hi> Tucker</persName> spoke of
+<lb/>a company buying her</p>
+	
+	<pb facs="liv_000001_0039" n="0039"/>
+<lb/><p rend="no-indent"><date when="1865-09-29">29<hi rend="sup">th</hi></date> Went up again to
+<lb/><placeName><settlement type="city">Poonah</settlement></placeName> after spending 
+<lb/>a week in <placeName><settlement type="city">Bombay</settlement></placeName>
+<lb/>and on <date when="1865-10-03">3<hi rend="sup underline">d</hi> <choice><abbr>Oct.</abbr><expan>October</expan></choice></date> gave
+<lb/>a lecture in the <orgName>United
+<lb/>Service Institution</orgName>
+<lb/>to a crowd - <persName><term type="occupation">Governor</term></persName>
+<lb/>and <persName><term type="occupation">bishop</term></persName> present
+<lb/>the latter introduced
+<lb/>me &amp; voted thanks
+<lb/>afterwards -</p>
+<lb/><p rend="no-indent">Visted a <persName><term type="occupation">Sirdar</term></persName> or
+<lb/><orgName>native</orgName> gentleman
+<lb/>in <placeName><settlement type="city">Poonah</settlement></placeName> with the
+<lb/><persName><term type="occupation">Governor</term></persName> - garlands
+<lb/>of flowers hung
+<lb/>round <choice><sic>or</sic><corr>our</corr></choice> necks
+<lb/>wands of <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> in hands
+<lb/>other of <term type="plant">Roses</term> - &amp;c.
+
+	<pb facs="liv_000001_0040" n="0040"/>
+<lb/>stairs so narrow
+<lb/>only one person can
+<lb/>ascend - for defence
+<lb/>in lawless times - </p>
+<lb/><p rend="no-indent"><date when="1865-10-05">5<hi rend="sup underline">th</hi> Oct<hi rend="sup underline">r</hi> 1865</date></p>
+<lb/><p>Came down to
+<lb/><placeName><settlement type="city">Bombay</settlement></placeName> - gave
+<lb/>a lecture in Town 
+<lb/>Hall to a crowd who
+<lb/>gave three cheers
+<lb/>and subscribed
+<lb/>some thousands of
+<lb/>Rupees to help -</p>
+<lb/><p><date when="1865-10-17">17<hi rend="sup underline">th</hi></date> <persName><term type="occupation">Sultan</term></persName> gave 
+<lb/>me an order to
+<lb/>his <persName><term type="occupation">captain</term></persName> to carry
+<lb/>12 <term type="animal">buffaloes</term> for
+<lb/>me to <placeName><geogName type="island">Zanzibar</geogName></placeName></p>
+	
+	<pb facs="liv_000001_0041" n="0041"/>
+<lb/><p>14 men of <orgName>Marine
+<lb/>Battalion</orgName> volunteered
+<lb/>to go - Men drew back
+<lb/>and there 14 volunteered
+<lb/>after hearing that we
+<lb/>had carriage <w>pro-
+<lb break="no"/>vided</w> for their luggage
+<lb/>order - goods -
+<lb/>provisions - blankets
+<lb/>boots -</p>
+<lb/><p>Visited <persName><term type="occupation">Sultan</term></persName> several
+<lb/>times - very gracious
+<lb/>which I owe to <persName>Sir
+<lb/>Bartle Frere</persName> <choice><orig>shewing</orig><reg>showing</reg></choice>
+<lb/>me so much
+<lb/>attention - and calling
+<lb/>me his Moushee</p>
+	
+	<pb facs="liv_000001_0042" n="0042"/>
+<lb/><p rend="no-indent"><date when="1865-10-22">22<hi rend="sup underline">d</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice></date> went to
+<lb/><orgName><term type="nationality">Scotch</term> Church</orgName> in 
+<lb/>morning - spent 
+<lb/>some time with
+<lb/><persName>D<hi rend="sup underline">r</hi> Wilson</persName> Then
+<lb/>go back to <persName>M<hi rend="sup">r</hi>
+<lb/>Stewart</persName> to lodge</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><date when="1865-10-25">25</date> Shipped 14
+<lb/><term type="animal">buffaloes</term> and two
+<lb/><term type="animal">calves</term> on board
+<lb/>the Gazelle - bought
+<lb/>iron tanks for their
+<lb/>water - Hay supplied
+<lb/>by <persName><term type="occupation">commissariat</term></persName>
+<lb/>at instance of the 
+<lb/><persName><term type="occupation">Governor</term></persName> - The
+<lb/><persName><term type="occupation">Sultan</term></persName> changes his
+<lb/>mind about sailing
+	
+	<pb facs="liv_000001_0043" n="0043"/>
+<lb/>and may not leave
+<lb/>for some days yet -
+<lb/><persName><term type="occupation">Commissariat</term></persName> is
+<lb/>getting saddles made</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><metamark/><persName>Phenembe</persName> is name
+<lb/>of <persName>D<hi rend="sup underline">r</hi> <w>Peter<app><rdg><supplied>'</supplied>s</rdg><rdg>s<supplied>'</supplied></rdg></app></w></persName> <term type="animal">"Caia" <!-- Should Caia be tagged as other language/tribe, or is it part of lizard name so should be included in animal tag? HB 2014-05-27 --><!-- I'm not sure what Caia is and don't see anything of use online, so let's just tag it as part of the animal name. AW -->
+<lb/>Lizard</term> = It eats <term type="animal">chickens</term>
+<lb/>&amp; <term type="animal">mice</term> - <term type="animal"><foreign xml:lang="ajw">Nganye</foreign></term> is 
+<lb/>the <term type="tribe">Ajawa</term> &amp; <term type="tribe">Manganja</term>
+<lb/>name for same
+<lb/>animal = <foreign xml:lang="und">Kaia</foreign> 
+<lb/>falls during <seg type="weather">rains</seg> -</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><add place="marginleft">In</add> an inscription given -
+<lb/>by <persName>Cosmas</persName> the Adulike
+<lb/>inscription copied in
+<lb/><date when="0545">A.D. 545</date> <persName>Ptolemy the
+<lb/>Great</persName> is made to say <!-- Should the Great be included in Ptolemy's name tag? HB 2014-05-27 --><!-- Yes. AW -->
+<lb/>that "he invaded <placeName><bloc>Asia</bloc></placeName>
+<lb/>with his land &amp; sea forces
+	
+	<pb facs="liv_000001_0044" n="0044"/>
+<lb/><metamark/><choice><sic>"</sic><corr/></choice>and with <term type="animal">elephants</term>
+<lb/>from the country of the
+<lb/><orgName>Troglodites</orgName> &amp; <term type="people">Ethiopians</term>. <!-- Somalis and Ethiopians are coded differently (S- as tribe, E- as people)- which correct? HB 2014-05-28 --><!-- Let's just go for "people" for both. I've fixed throughout. AW -->
+<lb/>This body of <term type="animal">Elephants</term>
+<lb/>was found collected out
+<lb/>of those countries by his
+<lb/>father and himself and
+<lb/>brought into <placeName><country>Egypt</country></placeName> and
+<lb/>tamed for the service
+<lb/>of war. <choice><sic>with</sic><corr>With</corr></choice> these forces
+<lb/><persName>Ptolemy</persName> advanced -
+<lb/>into <placeName><bloc>Asia</bloc></placeName>, reduced all 
+<lb/>his country on this side
+<lb/>the <placeName><geogName type="river">Euphrates</geogName></placeName> xxxxx
+<lb/>In this Expedition having 
+<lb/>captured also <choice><sic>manyy</sic><corr>many</corr></choice>
+<lb/><term type="animal"><term type="nationality">Indian</term> elephants</term>
+<lb/>and <choice><sic>subjectingall</sic><corr>subjecting all</corr></choice> the
+<lb/><term type="occupation">princes</term> to his <w>obed<supplied>-</supplied>
+<lb break="no"/>ience</w> he crossed to
+<lb/><placeName><geogName type="river">Euphrates</geogName></placeName>, entered<choice><sic>"</sic><corr/></choice>
+	
+	<pb facs="liv_000001_0045" n="0045"/>
+<lb/><metamark/><placeName><bloc>Mesopotamia</bloc></placeName> &amp;c" <!-- Adrian, DL's quotes are a bit haphazard over the last two pages...can you look at and make sure correct notations? HB 2014-05-28 --><!-- Fixed. Open each page that contiues a quotation with a quotation mark, but put a closing one only at the end. AW -->
+<lb/><bibl><supplied>"</supplied>Vincent's Ancient Commerce
+<lb/>II pp-538"</bibl></p>
+<lb/><milestone unit="section" rend="line"/> <!-- Adrian, this is not a full line (like three-quarters), so not sure how to code properly. HB 2014-05-28 --><!-- I think the intention in this case was a full line, so let's just go with that. AW -->
+<lb/><p rend="no-indent"><metamark/>Leave articles &amp; retire.
+<lb/>ancient way of trading
+<lb/>in gold - <choice><abbr>D<hi rend="sup underline">o</hi> D<hi rend="sup">o</hi></abbr><expan>Ditto Ditto</expan></choice></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><date when="1865-11-01">1<hi rend="sup">st</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1865</date> <seg type="weather">We have
+<lb/>had heavy rains for some
+<lb/>days</seg> - The <persName><term type="occupation">Captain</term></persName> of the
+<lb/>Gazelle rather disobliging
+<lb/>about the <term type="animal">buffaloes</term> -
+<lb/><choice><sic>wont</sic><corr>won't</corr></choice> help my men - is
+<lb/>a drunken <term type="faith">Mahometan</term>
+<lb/><persName>Mahomet Ali</persName> <unclear cert="low">Durt</unclear>.
+<lb/>got letters from <persName>M<hi rend="sup">r</hi> Price</persName>
+<lb/>about boys - From <persName>Sir
+<lb/>Roderick</persName> about <placeName><geogName type="lake"><choice><sic><persName>Baker</persName>s</sic><corr>Baker's</corr></choice>
+<lb/>Lake</geogName></placeName> - He wishes me to 
+<lb/>hasten on to <placeName><geogName type="lake">Tanganyika</geogName></placeName>
+<lb/>2 <term type="occupation">Marines</term> come daily &amp;
+<lb/>act as orderlies -</p>
+	
+	<pb facs="liv_000001_0046" n="0046"/>
+<lb/><p><date when="1865-11-04">4 Nov<hi rend="sup underline">r</hi> 1865</date> Went
+<lb/>up with <persName>M<hi rend="sup">r</hi> Tracey</persName> to
+<lb/>the Mountain sanatorium
+<lb/><placeName><geogName type="mountain">Mattaran</geogName></placeName> which has
+<lb/>most gorgeous scenery
+<lb/>remained with <persName>M<hi rend="sup">r</hi>
+<lb/>Hammay</persName> on <choice><sic>monday</sic><corr>Monday</corr></choice>
+<lb/>&amp; returned to <placeName><settlement type="city">Bombay</settlement></placeName>
+<lb/>on the morning of the 
+<lb/><date when="1865-11-07">7<hi rend="sup">th</hi></date>.</p>
+<lb/><p>On <date when="1865-11-09">9<hi rend="sup underline">th</hi></date> went to <placeName><settlement type="city">Surat</settlement></placeName>
+<lb/>and remained overnight
+<lb/>at <persName><term type="occupation">Rev<hi rend="sup underline"><choice><sic/><corr>d</corr></choice></hi></term> Montgomery</persName>'s <!-- Looks like the sup underline is there, but no 'd' for Rev...how code? Or is it just a dash? HB 2014-05-27 --><!-- See how I've done it. AW -->
+<lb/>of <orgName><term type="nationality">Irish</term> <term type="faith">Presbyterian</term>
+<lb/>Mission</orgName> - Saw the old
+<lb/>tombs of <term type="nationality">English</term> <w>mag<supplied>-</supplied>
+<lb break="no"/>nates</w> of former days
+<lb/>they are very grand -
+<lb/>imitations of <orgName>Mahometans</orgName></p>
+	
+	<pb facs="liv_000001_0047" n="0047"/>
+<lb/><p rend="no-indent"><date when="1865-11-10">10<hi rend="sup">th</hi></date> On to <choice><sic><persName>M<hi rend="sup">r</hi> Taylor</persName>s</sic><corr><persName>M<hi rend="sup">r</hi> Taylor</persName>'s</corr></choice>
+<lb/>at <placeName><settlement type="city">Borsad</settlement></placeName> - reached
+<lb/>him by <term type="animal">bullock</term> cart
+<lb/>at <choice><orig>ₑ⁄₄</orig><reg>1/4</reg></choice> to 12 at night
+<lb/>remained <choice><sic>net</sic><corr>next</corr></choice> day
+<lb/>and on <date when="1865-11-12">12<hi rend="sup underline">th</hi></date> went on
+<lb/>to <placeName><settlement type="city">Ahmedabad</settlement></placeName> - country
+<lb/>identical with many
+<lb/>parts of <placeName><region>Tropical
+<lb/>Africa</region></placeName> - Take away
+<lb/><term type="plant">hedgerows</term> which are
+<lb/>of <term type="plant"><orgName>African</orgName> Euphorbias</term>
+<lb/>and no imagination
+<lb/>is needed to fancy <w>one<supplied>-</supplied>
+<lb break="no"/>-self</w> on the other side of
+<lb/><placeName><geogName type="ocean"><term type="nationality">Indian</term> Ocean</geogName></placeName> - Ruins
+<lb/>very fine - Went out
+<lb/>on <date when="1865-11-13">13<hi rend="sup underline">th</hi></date> to service at
+<lb/><orgName>native</orgName> <term type="faith"><choice><sic>christian</sic><corr>Christian</corr></choice></term> village</p>
+                  
+    <!-- ks, ak, aw -->
+			            
+	<pb facs="liv_000001_0048" n="0048"/>
+<lb/><p>The expression of
+<lb/>countenance of women
+<lb/>very pleasant as <w>com<supplied>-</supplied>
+<lb break="no"/>-pared</w> with the heathen - 
+<lb/>one motherly person
+<lb/>did not like to see us
+<lb/>go away fasting &amp;
+<lb/>brought a draught of
+<lb/>milk for me -</p>
+<lb/><p><persName>M<hi rend="sup underline">rs</hi> Oliphant</persName> the collector<supplied cert="high">'</supplied>s
+<lb/>wife is a daughter of
+<lb/>my friend <persName><term type="occupation"><choice><abbr>Gen<hi rend="sup underline">l</hi></abbr><expan>General</expan></choice></term> <w>Alex<supplied>-</supplied>
+<lb break="no"/>-ander</w></persName> - She was absent</p>
+<lb/><p rend="no-indent"><date when="1865-11-14">14 <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1865</date></p>
+<lb/><p>Returned to <placeName><settlement type="city">Bombay</settlement></placeName>
+<lb/>in one day a distance
+<lb/>of <measure>300 miles</measure> - Railway
+<lb/>very straight &amp; level
+<lb/>not a tunnel in it
+<lb/>all - Several large
+<lb/>bridges built on
+
+	<pb facs="liv_000001_0049" n="0049"/>
+<lb/>iron tubes screwed
+<lb/>into the mud - The
+<lb/><placeName><geogName type="river"><sic>Narbudda</sic><corr>Nerbudda</corr></geogName></placeName> at <placeName><settlement type="city">Breach</settlement></placeName>
+<lb/><choice><orig>₃⁄₄</orig><reg>3/4</reg></choice> of a mile - The
+<lb/>bridges are very
+<lb/>elegant &amp; high -</p> 
+<lb/><p><orgName>Caste</orgName> the result in a
+<lb/>measure of having 
+<lb/>been yielded to by the
+<lb/><term type="people">English</term> - When the
+<lb/><orgName>natives</orgName> found that
+<lb/>they were believed <w>in<supplied>-</supplied>
+<lb break="no"/>capable</w> by <orgName>caste</orgName> rules
+<lb/>of performing certain
+<lb/>duties they added to
+<lb/>the regulations -</p>
+<lb/><p>A <term type="occupation">banker</term> seen in a
+<lb/>third class carriage
+<lb/>Love of money stronge<supplied cert="high">r</supplied>
+<lb/>than love of <orgName>caste</orgName></p>
+            	
+	<pb facs="liv_000001_0050" n="0050"/>
+<lb/><p>In a ship a <orgName>Sudrah</orgName> may
+<lb/>cook for them - a bath
+<lb/>is taken by throwing
+<lb/>a stone in water - a
+<lb/>vicarious ablution
+<lb/>and then the mark is
+<lb/>put on the <add place="below">˄</add> <add place="above">fore</add>head as
+<lb/>emblematic of <w>purifica<supplied>-</supplied>
+<lb break="no"/>tion</w> -</p> 
+<lb/><p>A woman taken in
+<lb/>a <choice><orig>palankin</orig><reg>palanquin</reg></choice> &amp; screened
+<lb/>into carriage was
+<lb/>seen to take a bundle
+<lb/>of dirty clothes on her
+<lb/>back when leaving
+<lb/>it -</p>
+<lb/><p>Hear of <persName>Rae</persName>'s death
+<lb/>"<hi rend="underline">Leave his sins to his
+<lb/>saviour</hi>" is the line
+<lb/>we must follow
+<lb/>a sad end enough</p>
+
+	<pb facs="liv_000001_0051" n="0051"/>        	
+<lb/><p><date when="1865-11-14">14 <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> <choice><sic>1863</sic><corr>1865</corr></choice></date> returned <!-- Is this a mistake and should be 1865 instead of written 1863? HB 2014-05-28 --><!-- Yes. Fixed. AW -->
+<lb/>in one day to <placeName><settlement type="city">Bombay</settlement></placeName>
+<lb/>and lived in <persName>M<hi rend="sup">r</hi> <choice><sic>Stearn's</sic><corr>Stearns</corr></choice></persName><supplied cert="high">'</supplied>
+<lb/>house <placeName>Malabar Hill</placeName> -
+<lb/>No news of importance
+<lb/>had come -</p>
+<lb/><p rend="no-indent">About <date when="1865-11-20">20<hi rend="sup underline">th</hi></date> H M S Severn 
+<lb/>came and the <persName><term type="occupation">Commodore</term></persName>
+<lb/>told me that I had to go in
+<lb/>the Vigilant and she would
+<lb/>be here in about a
+<lb/>month - no help for it
+<lb/><choice><sic>Recieved</sic><corr>Received</corr></choice> from <orgName>Asiatic
+<lb/>Society</orgName> Rupees (6450) about
+<lb/>£645 - very handsome
+<lb/>contribution Resolve
+<lb/>to dedicate it to careful
+<lb/>commerce &amp; place it
+<lb/>at <orgName><persName>Ritchie Stewart</persName> &amp; Cos</orgName>
+<lb/>at 6 percent interest
+<lb/>to be given to any feasible
+<lb/>committee for that
+	
+	<pb facs="liv_000001_0052" n="0052"/>
+<lb/>purpose -</p>
+<lb/><p><date when="1865-11-24">24<hi rend="sup underline">th</hi></date> Sailed to <placeName><geogName type="island">Hog island</geogName></placeName>
+<lb/>visited <placeName><geogName type="cave">caves of 
+<lb/>Elephanta</geogName></placeName> about 900
+<lb/>years old - My expectations
+<lb/>had been over excited
+<lb/><choice><sic>Recieved</sic><corr>Received</corr></choice> a number
+<lb/>of articles for journey
+<lb/>from <choice><sic>Authorties</sic><corr>Authorities</corr></choice> here</p>
+<lb/><p><date when="1865-12-05">5<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date> waiting
+<lb/>for M. "Thule" being
+<lb/>ready as I am to go 
+<lb/>in her - a guest of
+<lb/>the <orgName>Government</orgName> -
+<lb/>negotiating sale
+<lb/>of Lady Nyassa <!-- Should this ship name be encoded? -Ashanka: 2014-05-08 --><!-- No, we have not done so in the past. HB -->
+<lb/><persName>M<hi rend="sup underline">r</hi> Tucker</persName> failed
+<lb/>to get up a company
+
+	<pb facs="liv_000001_0053" n="0053"/>
+<lb/>to purchase her - dined
+<lb/>in company with
+<lb/><persName>M<hi rend ="sup underline">r</hi> <term type="occupation">Justice</term> Anstey</persName> - 
+<lb/>has a fund of anecdote<supplied cert="high">s</supplied>
+<lb/>admired <persName><choice><sic>O'Connel</sic><corr>O'Connell</corr></choice></persName> -</p>
+<lb/><p rend="no-indent"><date when="1865-12-08">8<hi rend="sup underline">th</hi> Dec<hi rend="sup underline">r</hi> <choice><abbr>/65</abbr><expan>1865</expan></choice></date> - visited the <!-- Does 1865 have to be expanded here, or understood? HB 2014-05-28 --><!-- Expanding is fine. AW -->
+<lb/><placeName>Rock Temples</placeName> of
+<lb/><placeName><region><choice><sic>Kanera</sic><corr>Kangra</corr></choice></region></placeName> - <term type="faith"><choice><sic>Budhist</sic><corr>Buddhist</corr></choice></term>	
+<lb/>and one is very fine
+<lb/>like saloon of <placeName><settlement><w>News<supplied>-</supplied>
+<lb break="no"/>tead</w> Abbey</settlement></placeName> - a row
+<lb/>of pillars runs down
+<lb/>each side some carved
+<lb/>at top with elephants
+<lb/>many figures of <persName><choice><sic>Budh</sic><corr>Buddha</corr></choice></persName>
+<lb/>with <term type="faith"><choice><orig>Hindoo</orig><reg>Hindu</reg></choice></term> gods
+<lb/>under him</p>
+<lb/><p rend="no-indent"><date when="1865-12-07">7<hi rend="sup underline">th</hi></date> Shocked by the sudden
+<lb/>death of <persName>M<hi rend="sup underline">rs</hi> Holberton</persName></p>
+	
+	<pb facs="liv_000001_0054" n="0054"/>	
+<lb/><p rend="no-indent"><hi rend="underline"><date when="1865-12-08">8 <choice><abbr>Dec<hi rend="sup">r</hi></abbr><expan>December</expan></choice> 1865</date></hi></p>
+<lb/><milestone unit="section" rend="double-line"/>
+<lb/><metamark/><p>Since my return
+<lb/>to <placeName><settlement type="city">Bombay</settlement></placeName> I have
+<lb/>noticed that my men
+<lb/>from the <placeName><geogName type="river">Zambesi</geogName></placeName>
+<lb/>have lost the <orgName>African</orgName> <!-- Coding this be nationality as it is being used as an adjective to odour. HB 2014-05-28 --><!-- African is never nationality. It is always orgName. AW -->
+<lb/>&amp; emit the <term type="nationality">Indian</term>
+<lb/>odour - They <w>com-
+<lb break="no"/>plain</w> of weakness</p>
+<lb/><milestone unit="section" rend="double-line"/>
+<lb/><p><placeName><region><choice><sic>Scinde</sic><corr>Sindh</corr></choice></region></placeName> is notable
+<lb/>for darkening the
+<lb/>complexion - <placeName><settlement type="city">Bombay</settlement></placeName>
+<lb/>whitens it - <placeName><region><w>Devon<supplied>-</supplied>
+<lb break="no"/>shire</w></region></placeName> - darkens more
+<lb/>than most places</p>
+<lb/><milestone unit="section" rend="double-line"/>
+<lb/><p><persName><term type="occupation">Captain</term> Osborne</persName>
+<lb/>offers to take me
+<lb/>up to <placeName><settlement type="town">Nagpore</settlement></placeName> free
+<lb/>of expense -</p>	
+
+	<pb facs="liv_000001_0055" n="0055"/>
+<lb/><p rend="no-indent"><add place="marginleft" rend="brown" hand="#U"><metamark/></add><date when="1865-12-10">10<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1865</date> <persName>Chuma</persName>
+<lb/>and <persName>Wikatani</persName> were
+<lb/>baptized this morning
+<lb/>by <persName>D<hi rend="sup">r</hi> Wilson</persName> - <persName>John <choice><abbr>W</abbr><expan>Wikatani</expan></choice></persName> - 
+<lb/>&amp; <persName>James Chuma</persName> - trust they
+<lb/>will be followers of
+<lb/><persName>Christ</persName> in truth -</p> 
+<lb/><p><date when="1865-12-11">11<hi rend="sup underline">th</hi></date> <choice><sic>Recieved</sic><corr>Received</corr></choice> an
+<lb/>anonymous note
+<lb/>from "<orgName><orgName>African</orgName> Asylum</orgName>"
+<lb/>complaining of <w>un-
+<lb break="no"/>kindness</w> - sent it to 
+<lb/><persName>M<hi rend="sup underline">r</hi> Price</persName> - It <choice><orig>shews</orig><reg>shows</reg></choice>
+<lb/>ingratitude</p>
+<lb/><p><date when="1865-12-12">12<hi rend="sup underline">th</hi></date> Went to <persName><term type="occupation">Commodore</term></persName>
+<lb/>he <choice><orig>shewed</orig><reg>showed</reg></choice> me his
+<lb/>order to <orgName><placeName><region>East Coast</region></placeName>
+<lb/>Captains</orgName> to assist
+<lb/>me as much as they
+<lb/>could</p>
+
+	<pb facs="liv_000001_0056" n="0056"/>
+<lb/><p>Declined <persName><term type="occupation">Captain</term>
+<lb/>Osborne</persName><supplied cert="high">'</supplied>s very
+<lb/>kind invitation
+<lb/>to go up country 
+<lb/>with him -</p>
+<lb/><p rend="no-indent">Went to observatory 
+<lb/>about 2 <w>chrono-
+<lb break="no"/>meters</w> to be sent
+<lb/>home by H. M. S.
+<lb/>Severn</p>
+<lb/><p rend="no-indent"><date when="1865-12-18">18<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1865.</date>
+<lb/>Went on board the
+<lb/>Thule and find
+<lb/>her a very fine
+<lb/>vessel with
+<lb/>ample cabin
+<lb/>accommodation</p>
+
+	<pb facs="liv_000001_0057" n="0057"/>
+<lb/><p><date when="1865-12-22">22 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1865</date>. Sold
+<lb/>the Lady Nyassa for
+<lb/>£2300 to <persName><term type="occupation">Rajah</term> of
+<lb/><placeName><choice><sic><w>Bhownugg<subst><del>er</del><add place="over-text">ree</add></subst></w></sic><corr>Bhownaggree</corr></choice></placeName></persName> - 
+<lb/>the <orgName>Government</orgName> have
+<lb/>given me the honour
+<lb/>of formally presenting
+<lb/>the Thule to the <persName><persName><term type="occupation">Sultan</term></persName>
+<lb/>of <placeName><geogName type="island">Zanzibar</geogName></placeName></persName> - This is
+<lb/>to <choice><orig>shew</orig><reg>show</reg></choice> the consideration
+<lb/>in which I am held &amp;
+<lb/>will aid me with the 
+<lb/><orgName>Arabs</orgName> = It is very kind
+<lb/>in the <persName><term type="occupation">Governor</term></persName> so to
+<lb/>arrange the matter - 
+<lb/>A <persName><term type="occupation">Colonel</term></persName> would have
+<lb/>been sent had the 
+<lb/>commission not been
+<lb/>given to me</p>
+            	
+	<pb facs="liv_000001_0058" n="0058"/>
+<lb/><p><date when="1865-12-26">26<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1865</date> =
+<lb/>Tiffin on board the
+<lb/>"Windsor Castle." after 
+<lb/>service at the Cathedral
+<lb/>yesterday - <persName>Lord Edward
+<lb/>Seymour</persName> with whom            
+<lb/>I went to <placeName><geogName type="cave">Elephanta
+<lb/>caves</geogName></placeName> after going with
+<lb/><persName>Sir Bartle Frere</persName> to the
+<lb/><placeName><region>South Maratha</region></placeName> country
+<lb/>went to hunt <term type="animal">bears</term> - 
+<lb/>Placed above a <term type="animal">bear</term>
+<lb/>cave he shot one of
+<lb/>two <term type="animal">cubs</term> which first
+<lb/>came out. Then the
+<lb/>mother followed &amp; he 
+<lb/>retiring fell - The beast
+<lb/>gave him one of the 
+<lb/>tremendous bites on the 
+<lb/>inside of the thigh which
+<lb/>the brutes can give &amp;
+<lb/>went on - Two days
+<lb/>elapsed ere medical
+	
+	<pb facs="liv_000001_0059" n="0059"/>
+<lb/>assistance could be
+<lb/>brought. Then amputation <!-- Should amputation be coded in any way? HB 2014-05-28 --><!-- No, as we're only marking illness and medicament. The latter could be stretched to this, but that doesn't strike me as right. AW  -->
+<lb/>and death followed - 
+<lb/>an untimely end for a 
+<lb/>hopeful young man
+<lb/>who came to learn that
+<lb/>knowledge of <placeName><country>India</country></placeName> not
+<lb/>easily found in books - 
+<lb/>Pity the poor father &amp;
+<lb/>mother &amp; sisters if he
+<lb/>has any -</p>
+<lb/><p><date when="1866-01-04">4<hi rend="sup underline">th</hi> January 1866</date> -
+<lb/>embarked on board
+<lb/>the Thule going to 
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName> as a <w>pre-
+<lb break="no"/>-sent</w> to the <persName><term type="occupation">Sultan</term></persName> - the
+<lb/><term type="animal">mules</term> were not on
+<lb/>board so we had to 
+<lb/>wait till the morning
+<lb/>of the <date when="1866-01-05">5<hi rend="sup">th</hi></date> before
+
+	<pb facs="liv_000001_0060" n="0060"/>	
+<lb/>sailing - Two <orgName>Seedies</orgName>	
+<lb/>were by accident
+<lb/>knocked overboard
+<lb/>but were picked up -
+<lb/><seg type="weather">weather fine - but
+<lb/>winds light</seg></p>            
+<lb/><p rend="no-indent"><date when="1866-01-16">16 January 1866</date> Had a
+<lb/>squall this morning
+<lb/><term type="animal">mules</term> find it difficult
+<lb/>to stand on account of
+<lb/>rolling of vessel - We
+<lb/>are more than half
+<lb/>way now to <placeName><geogName type="island">Zanzibar</geogName></placeName></p>
+<lb/><p rend="no-indent"><date when="1866-01-19">19<hi rend="sup">th</hi></date> <seg type="weather">began to steam
+<lb/>on <date when="1866-01-17">17<hi rend="sup underline">th</hi></date> on account
+<lb/>of want of wind -
+<lb/>It is now dead calm</seg></p>
+<lb/><space dim="vertical" extent="3" unit="lines"/>
+            	
+     <pb facs="liv_000001_0061" n="0061"/>         	
+<lb/><p>When one travels
+<lb/>with the specific object
+<lb/>in view of ameliorating
+<lb/>the benighted <orgName>natives</orgName> of
+<lb/><placeName><bloc>Africa</bloc></placeName> every act becomes
+<lb/>enobled - While exchanging
+<lb/>the customary civilities - 
+<lb/><choice><sic>Recieving</sic><corr>Receiving</corr></choice> a <choice><sic>nights</sic><corr>night's</corr></choice> shelter	
+<lb/>- purchasing food for
+<lb/>the party - asking for
+<lb/>information - or giving
+<lb/>answers to the <orgName>African</orgName>'s <!-- Is DL talking about one specific African here? And if so, should it be tagged differently? HB 2014-05-28 --><!-- No, orgName is correct. AW -->
+<lb/>polite enquiries as to the 
+<lb/>objects of the <term type="occupation"><choice><sic>travelers</sic><corr>travellers</corr></choice></term> - We
+<lb/>begin to spread <w>inform<supplied>-</supplied>
+<lb break="no"/>-ation</w> respecting that people
+<lb/>by whose agency their 
+<lb/>hand will yet be freed
+<lb/>from the cursed <orgName>slave</orgName> trade
+<lb/>The mere animal pleasure
+<lb/>Travelling is very great
+
+	<pb facs="liv_000001_0062" n="0062"/>
+<lb/>the elasticity of muscle
+<lb/>imparted by brisk exercise
+<lb/>fresh &amp; healthy blood
+<lb/>circulates through the 
+<lb/>brain - the eye is clear
+<lb/>the step firm and the 
+<lb/><choice><sic>days</sic><corr>day's</corr></choice> exertion has been
+<lb/>enough to make repose
+<lb/>thoroughly enjoyable - 
+<lb/>We have always the 
+<lb/>influence of remote
+<lb/>chances of danger either 
+<lb/>from men or wild 
+<lb/>beasts - Our sympathies
+<lb/>are drawn out to our
+<lb/>humble hardy <w>com-
+<lb break="no"/>panions</w> by a <w>com-
+<lb break="no"/>munity</w> of interests
+<lb/>and perils - and
+<lb/>makes us all friends indeed
+
+	<pb facs="liv_000001_0063" n="0063"/>	
+<lb/>the mind meanwhile
+<lb/>is made more self 
+<lb/>reliant - confident in
+<lb/>resources with greater 
+<lb/>presence of mind -</p>
+<lb/><p>The body &amp; limbs become
+<lb/>well knit - the muscles
+<lb/><w><subst><del>loose</del><add place="over-text">lose</add></subst></w> all their fat &amp; are
+<lb/>as hard as a board - the 
+<lb/>countenance bronzed
+<lb/>no <term type="ailment">dyspepsia</term>-</p>
+<lb/><p rend="no-indent">The sweat of <choice><sic>ones</sic><corr>one's</corr></choice> brow
+<lb/>is no longer a curse
+<lb/>when one works for
+<lb/>God - It is converted
+<lb/>into a blessing - It is a 
+<lb/>tonic to the system - The
+<lb/>charm of repose can
+<lb/>only be known after
+<lb/>severe exertion</p>
+            	
+     <pb facs="liv_000001_0064" n="0064"/>            	
+<lb/><p><date when="1866-01-24">24<hi rend="sup underline">th</hi> January 1866</date> = <seg type="weather">After
+<lb/>several days of very light
+<lb/>winds we have a breeze today
+<lb/>but she does not go quick</seg> -
+<lb/>A <term type="animal">shark</term> bit the revolving vane
+<lb/>of the Patent log several days
+<lb/>ago and on <date when="1866-01-22">22<hi rend="sup">d</hi></date> repeated
+<lb/>the bite and left several
+<lb/>pieces of the enamel of his
+<lb/>teeth indented in the brass
+<lb/>We caught several <term type="animal">dolphins</term>
+<lb/>yesterday - the dorsal fin
+<lb/>is prolonged &amp; large on to the 
+<lb/>nose - This gives him great
+<lb/>power in turning his head
+<lb/>&amp; mouth to catch the <term type="animal">fishes</term>
+<lb/>All the <term type="animal">fishes</term> in their <w>stom<supplied>-</supplied>
+<lb break="no"/>achs</w> were partially <w>con<supplied>-</supplied>
+<lb break="no"/>sumed</w> though they could
+<lb/>not have been long in
+<lb/>The gastric juice is very
+<lb/>strong <figure><figDesc>Drawing of a <term type="animal">fish</term>.</figDesc></figure> <unclear cert="high">found</unclear>
+<lb/>inside &amp; of this size</p>
+            	
+      <pb facs="liv_000001_0065" n="0065"/>
+<lb/><p rend="no-indent"><date when="1866-01-25">25 January 1866</date>. <seg type="weather">a good
+<lb/>wind today</seg> and vessel
+<lb/>going slowly <choice><sic><w>never<supplied>-</supplied>	
+<lb break="no"/>-the-less</w></sic><corr><w>never<supplied>-</supplied>	
+<lb break="no"/>-theless</w></corr></choice></p>
+<lb/><p rend="no-indent"><date when="1866-01-26">26</date> <choice><sic>get</sic><corr>Get</corr></choice> up steam in the
+<lb/>Afternoon -</p>
+<lb/><p><date when="1866-01-28">28<hi rend="sup underline">th</hi></date> Sunday came into
+<lb/><placeName><geogName type="island">Zanzibar</geogName></placeName> harbour this
+<lb/>afternoon - all the <orgName><w>Europe<supplied>-</supplied>
+<lb break="no"/>-ans</w></orgName> off on a <choice><orig>picknick</orig><reg>picnic</reg></choice> -
+<lb/>Opened mail bags in order
+<lb/>to see that man of war
+<lb/>letters might not be
+<lb/>kept from <term type="occupation">Officers</term> &amp;
+<lb/>men of the "Vigilant" by
+<lb/>the <choice><orig>picknick</orig><reg>picnic</reg></choice> affair - called 
+<lb/>at Vigilant</p>
+<lb/><p><date when="1866-01-29">29<hi rend="sup double-underline">th</hi></date> Went to call on
+<lb/><persName><term type="occupation">Sultan</term></persName> in accordance
+<lb/>with request for a 
+<lb/>private interview
+<lb/>which sent in the evening
+<lb/>we were <choice><sic>recieved</sic><corr>received</corr></choice> by a 
+
+	<pb facs="liv_000001_0066" n="0066"/>
+<lb/><choice><sic>gaurd</sic><corr>guard</corr></choice> - A band at the 
+<lb/>bottom of stairs struck
+<lb/>up the "<term type="occupation">Queen</term>'s Anthem"
+<lb/>when we shook hands
+<lb/>with <persName>his Highness</persName> - We
+<lb/>told him that I was <w>com-
+<lb break="no"/>missioned</w> to deliver the 
+<lb/>Thule as a present from 
+<lb/>the <orgName><placeName><settlement type="city">Bombay</settlement></placeName> <w>Govern-
+<lb break="no"/>-ment</w></orgName> but a few days
+<lb/>were required to clean
+<lb/>&amp; repair her. Then we
+<lb/>should get up a trial
+<lb/>trip if he would come 
+<lb/>on board - to this he
+<lb/>assented - on drinking
+<lb/><term type="plant_foodstuff">coffee</term> &amp; <term type="foodstuff">sherbet</term> we came
+<lb/>away &amp; the band struck
+<lb/>up the "<term type="nationality">British</term> Grenadiers"
+<lb/>called on <persName>M<hi rend="sup underline">r</hi> Shultz</persName>
+<lb/>acting for <persName>D<hi rend="sup underline">r</hi> Seward</persName>
+<lb/>I did not accept his
+
+	<pb facs="liv_000001_0067" n="0067"/>
+<lb/>mediation as political
+<lb/>agent because he is a
+<lb/>foreigner =</p>
+<lb/><p>He says <persName>Baron <choice><sic>van</sic><corr>von</corr></choice>
+<lb/>der Decken</persName> is murdered
+<lb/>His bloody clothes were seen
+<lb/>by some <orgName>Mahometans</orgName>
+<lb/>who were allowed to 
+<lb/>escape - <persName>D<hi rend="sup underline">r</hi> Link</persName> ran into 
+<lb/>the water and tried to escape
+<lb/>but was slain - They
+<lb/>spared one light coloured
+<lb/>man on his repeating
+<lb/>part of the <bibl>Koran</bibl> - (<persName>D<hi rend="sup underline">r</hi>
+<lb/>Seward</persName> is at <placeName><region>Seyschelles</region></placeName>)
+<lb/>The <persName>Baron</persName> was said not
+<lb/>to be cautious and rather
+<lb/>liked to drive all before
+<lb/>him - Poor fellow an
+<lb/>untimely end - the river
+<lb/>is said to wind so much
+<lb/>at times as scarcely to
+<lb/>allow a long steamer to 
+<lb/>go up - He went <measure>300 miles</measure> <add place="below">about</add></p>
+            		
+<!-- ak, aw, ak, aw -->
+                
+	<pb facs="liv_000001_0068" n="0068"/>
+<lb/><p><date when="1866-02-19">19<hi rend="sup underline">th</hi> February 1866</date> -             
+<lb/><persName><term type="occupation">Captain</term> Brebner</persName> left in
+<lb/>the Nadir Shah at noon 
+<lb/><persName><term type="occupation">Sultan</term></persName> offered a money
+<lb/>present through <persName><term type="occupation">Sheikh</term>
+<lb/>Sulieman</persName> which was
+<lb/>decidedly declined -</p>
+<lb/><p rend="no-indent"><date when="1866-02-20">20<hi rend="sup underline">th</hi></date> This morning
+<lb/>the <persName><term type="occupation">Sultan</term></persName> goes out
+<lb/>to buy the Thule =</p> 
+<lb/><p rend="no-indent">22<hi rend="sup underline">d</hi> He sent some one 
+<lb/>else - He seems too feeble
+<lb/>&amp; irresolute to do anything
+<lb/>He is like all <orgName>Easterns</orgName>
+<lb/>profuse of promises</p>
+<lb/><p><date when="1866-03-08">8<hi rend="sup underline">th</hi> March</date>. <persName><term type="occupation">Sultan</term></persName>
+<lb/>sent Thule over to 
+<lb/>examine a new bay
+<lb/>nearly opposite to
+<lb/>this and <persName><term type="occupation">Sheikh</term>
+<lb/>Sulieman</persName> tells us
+
+	<pb facs="liv_000001_0069" n="0069"/>
+<lb/>that he intends to build
+<lb/>a <orgName>custom House</orgName> there
+<lb/>and get his way at
+<lb/>the spot = They have
+<lb/>difficulties when it is
+<lb/>embarked elsewhere
+<lb/>Bought two <term type="animal">camels</term>
+<lb/>one for 20 the <supplied cert="medium">other</supplied> for 32
+<lb/>dollars</p>
+<lb/><note place="marginleft"><date when="1866-03-10">10<hi rend="sup underline">th</hi></date></note><p rend="no-indent">Bought another <term type="animal">camel</term>
+<lb/>and a white <term type="animal">Donkey</term>
+<lb/>of <placeName><settlement type="city">Muscat</settlement></placeName></p>
+<lb/><p rend="no-indent"><choice><sic>case</sic><corr>Case</corr></choice> of a man a 
+<lb/><orgName>Monyar</orgName> who ran 
+<lb/>away from this &amp;
+<lb/>was sold at <placeName><settlement type="city">Muscat</settlement></placeName>
+<lb/>his <placeName><geogName type="island">Zanzibar</geogName></placeName> owner
+<lb/>getting information
+<lb/>thereof sent an order
+<lb/>to sell him - He was 
+<lb/>taken to <placeName><settlement type="city">Calcutta</settlement></placeName> &amp;
+
+	<pb facs="liv_000001_0070" n="0070"/>
+<lb/>becoming sick was 
+<lb/>deserted by his <orgName><term type="occupation">master</term></orgName>
+<lb/>there - when he got
+<lb/>out of hospital sailed
+<lb/>in P. &amp; O<supplied cert="high">.</supplied> ships for six 
+<lb/>years - then coming
+<lb/>back worked to <orgName><persName>Fraeser</persName>
+<lb/>&amp; co</orgName> for 18 months but
+<lb/>was again <del type="cancelled">paid</del> sold
+<lb/>to <persName><term type="occupation">Captain</term> Abdullah</persName>
+<lb/>2 months ago - <persName><term type="occupation">Sultan</term></persName>
+<lb/>says he purchased him
+<lb/>from said <persName>Abdullah</persName>
+<lb/>&amp; will give him over
+<lb/>to <term type="occupation">Consul</term> but will
+<lb/>not say he has done
+<lb/>wrong</p>
+<lb/><space dim="vertical" extent="4" unit="lines"/>
+
+	<pb facs="liv_000001_0071" n="0071"/>
+<lb/><p rend="no-indent"><date when="1866-03-19">19<hi rend="sup underline">th</hi> March 1866</date> - sailed
+<lb/>from <placeName><geogName type="island">Zanzibar</geogName></placeName> on
+<lb/>board <choice><sic>H M -S</sic><corr>H.M.S.</corr></choice> Penguin 
+<lb/><persName><term type="occupation"><choice><abbr>Lieut<hi rend="sup underline">t</hi></abbr><expan>Lieutenant</expan></choice></term> Garforth</persName> - with
+<lb/>a <foreign xml:lang="ar">dhow</foreign> having <term type="animal">camels</term>
+<lb/><term type="animal">mules</term> <term type="animal"><choice><sic>donkies</sic><corr>donkeys</corr></choice></term> &amp;
+<lb/><term type="animal">buffaloes</term> on board -
+<lb/>Paid 180 dollars for it
+<lb/>Reached <placeName><geogName type="bay">Rovuma 
+<lb/>bay</geogName></placeName> on <date when="1866-03-22">22<hi rend="sup underline">d</hi></date> and
+<lb/>anchored in 5 fathoms
+<lb/>went up left bank &amp;
+<lb/>examined gullies to 
+<lb/>see if <term type="animal">camels</term> can 
+<lb/>cross them - very
+<lb/>difficult, so told the 
+<lb/><term type="occupation">master</term> of the <foreign xml:lang="ar">dhow</foreign>
+<lb/>to go up along right
+<lb/>bank which always
+
+	<pb facs="liv_000001_0072" n="0072"/>
+<lb/>was deep - on <date when="1866-03-23">23<hi rend="sup">d</hi></date> he
+<lb/>warped up some <w>dis-
+<lb break="no"/>tance</w> - We then went
+<lb/>to examine further up
+<lb/>on left bank &amp; foun<supplied cert="high">d</supplied>
+<lb/>it utterly impracticable 
+<lb/>from thickness of
+<lb/>jungle &amp; <term type="plant">Mangrove</term>
+<lb/>swamps full of <!-- Should Mangrove swamps be tagged as place? HB 2014-05-28 --><!-- No. geogFeat could be used, but I don't think the case here qualifies as specific enough. See the manual. AW -->
+<lb/><term type="plant">gullies</term> &amp; <term type="plant">roots</term> plant<supplied cert="medium">ed</supplied>
+<lb/>in excessively stick<supplied cert="high">y</supplied>
+<lb/>mud - The <foreign xml:lang="ar">dhow</foreign> went 
+<lb/>up about a mile on
+<lb/>the right bank and
+<lb/>grounded while we 
+<lb/>were examining
+<lb/>the left bank and
+<lb/>getting a <term type="animal">Hippopotamus
+<lb/>calf</term> shot by <persName>M<hi rend="sup">r</hi> <w>Fan<gap extent="1" unit="chars"/><supplied cert="high">e</supplied></w></persName>
+
+	<pb facs="liv_000001_0073" n="0073"/>
+<lb/>in one of the small <term type="plant">gullies</term>
+<lb/>Went over to <foreign xml:lang="ar">dhow</foreign>
+<lb/>&amp; found she had grounded
+<lb/>and could proceed
+<lb/>no further - Went <w>in-
+<lb break="no"/>land</w> from <foreign xml:lang="ar">dhow</foreign>
+<lb/>&amp; found <term type="plant">mangroves</term> 
+<lb/>quite as bad as other
+<lb/>side <term type="plant">roots</term> sticky
+<lb/>mud &amp; <term type="plant">gullies</term> without
+<lb/>end - <w><subst><del>s</del><add place="over-text">T</add></subst>hought</w> of 
+<lb/>landing at point
+<lb/>where <persName>M<hi rend="sup underline">r</hi> May</persName> observed
+<lb/>and then wading the
+<lb/><term type="animal">camels</term> up on the
+<lb/>sands in river
+<lb/>but it occurred to
+<lb/>me that if that should 
+<lb/>fail we should be
+<lb/>fairly jammed
+
+	<pb facs="liv_000001_0074" n="0074"/>
+<lb/>and obliged to leave
+<lb/><term type="animal">camels</term> altogether -
+<lb/>went to Penguin &amp;
+<lb/><persName><term type="occupation"><choice><abbr>Lieut<hi rend="sup underline">t</hi></abbr><expan>Lieutenant</expan></choice></term> Garforth</persName> agreed
+<lb/>that it would be
+<lb/>better to go to <placeName><geogName type="island"><settlement type="town">Kilwa</settlement></geogName></placeName>
+<lb/><persName><term type="occupation">Captain</term></persName> of <foreign xml:lang="ar">Dhow</foreign>
+<lb/>strongly <w>recom-
+<lb break="no"/>-mended</w> <placeName><geogName type="bay">Mikindany</geogName></placeName>
+<lb/>in which bay there is
+<lb/>a fine harbour calle<supplied cert="high">d</supplied>
+<lb/><placeName><geogName type="harbor">Pemba</geogName></placeName> completely 
+<lb/>shut in by land -
+<lb/>on west side the 
+<lb/>seaface rises up at
+<lb/>once from the water
+<lb/>to about <measure>200 feet</measure>
+<lb/>the slope down being
+<lb/>clothed in rich
+
+	<pb facs="liv_000001_0075" n="0075"/>
+<lb/>green foliage very 
+<lb/>pleasant to behold -
+<lb/>went over to <foreign xml:lang="hi"><term type="occupation">sirkar</term></foreign>
+<lb/>of <persName><choice><sic>Synd</sic><corr>Seyed</corr></choice> Majid</persName> - we
+<lb/>were landed on <choice><abbr>N.</abbr><expan>North</expan></choice>
+<lb/>point of the gap in 
+<lb/>got out <term type="animal">camels</term> &amp;
+<lb/>hired a house - then
+<lb/>Penguin left us 
+<lb/>the <persName><term type="occupation"><choice><abbr>Lieut<hi rend="sup">t</hi></abbr><expan>Lieutenant</expan></choice></term></persName> behaved <!-- Why expand Lieutenant and Colonel previously, but not here? HB 2014-05-29 --><!-- Fixed. The only ones that shouldn't be expanded are Mr, Mrs, Ms, and Dr. AW -->
+<lb/>most kindly &amp;
+<lb/>liberally</p>
+<lb/><p><hi rend="brown"><persName>Kalane</persName> name of man
+<lb/>to whom I am to pay
+<lb/>rent</hi> of 4 dollars a
+<lb/>month = the <placeName><geogName type="hill">hill John</geogName></placeName>
+<lb/>is the landmark in
+<lb/>making the harbour</p> <!-- geog: Pemba, I think. HB -->
+<lb/>
+
+	<pb facs="liv_000001_0076" n="0076"/>
+<lb/><p><date when="1866-03-28">28<hi rend="sup underline">th</hi> March 1866</date>
+<lb/>The <orgName>Arab</orgName> who acts as <!-- Should this 'Arab' be coded as nationality as it's only referring to one? HB 2014-05-29 --><!-- Arab is always orgName. AW -->
+<lb/><term type="occupation">soldier</term> here for the
+<lb/><persName><term type="occupation">Sultan</term></persName> came today
+<lb/>with a man who is
+<lb/>said to know all the
+<lb/><placeName><region>Interior</region></placeName> - and who
+<lb/>was offered if I shoul<supplied cert="high">d</supplied>
+<lb/>pay him <w>handsome-
+<lb break="no"/>ly</w> beforehand to be
+<lb/>a sort of <term type="occupation">guide</term> - an
+<lb/>ill looking fellow
+<lb/>I replied that I wante<supplied cert="high">d</supplied>
+<lb/><term type="occupation">porters</term> and if these
+<lb/>could not be had
+<lb/>I would go on 
+<lb/>with the men I
+<lb/>had - After a
+
+	<pb facs="liv_000001_0077" n="0077"/>
+<lb/>long talk we decided
+<lb/>nothing - They have
+<lb/>no <term type="animal">cattle</term> here nor
+<lb/>at <unclear cert="high"><placeName><settlement type="village"><w>Mag<subst><del>aa</del><add place="over-text">ao</add></subst></w></settlement></placeName></unclear> which is
+<lb/>said to be <measure>six hours</measure>
+<lb/>North of this - all
+<lb/>sad<w><subst><del>l</del><add place="over-text">d</add></subst>les</w> finished</p>
+	</div>
+	<div rend="gray" n="noSpace">
+<lb/><p rend="no-indent"><date when="1866-03-30">30 March 1866</date> - Plenty
+<lb/>of game in country
+<lb/>adjacent but no 
+<lb/><term type="insect">Tsetse</term> - They have not
+<lb/>tried <term type="animal">cattle</term> - having 
+<lb/>been here only five
+<lb/>or six years here
+<lb/>They know the <term type="insect">Tsetse</term>
+<lb/>on <placeName><geogName type="river">Rovuma</geogName></placeName> -</p>
+<lb/><p rend="no-indent">We have several 
+<lb/>times been asked by 
+<lb/>the half-caste <orgName>Arabs</orgName>
+
+	<pb facs="liv_000001_0078" n="0078"/>
+<lb/>for <term type="foodstuff">brandy</term> which the<supplied cert="high">y</supplied>
+<lb/>drink in secret but
+<lb/>may have not made it
+<lb/>an article of commerce
+<lb/>as we have done on
+<lb/>the <placeName><region>West Coast</region></placeName> -
+<lb/>no <term type="occupation">carriers</term> to be had
+<lb/><term type="occupation">Sirkar</term> will give two
+<lb/>men to <choice><orig>shew</orig><reg>show</reg></choice> road =
+<lb/>refuse rent of house
+<lb/>for things we leave
+<lb/>behind</p>
+<lb/><note place="marginleft"><date when="1866-03-31">31<hi rend="sup">st</hi></date></note><p rend="no-indent"><choice><sic>Excercising</sic><corr>Exercising</corr></choice> <term type="animal">camels</term>
+<lb/>two very stubborn
+<lb/>ruin was a mosque</p>
+<lb/><space dim="vertical" extent="4" unit="lines"/>
+
+<!-- From page 0079 onward in fact Livingstone's text is upside down because he, apparently, wrote in this field diary from the begining of the notebook (0001-0078) and from the end (0079-0107) at the same time. It should also be noted that in the second gathering he began with page 0107, then 0106, 0105, etc. so the pages should be read in that reverse order. AW-->
+
+	<div rend="upside-down">
+
+	<pb facs="liv_000001_0079" n="0079"/>
+<lb/><list><item>5 bags of beads</item>
+<lb/><item>5 boxes instruments</item>
+<lb/><item><space extent="2" unit="chars"/>books</item> <item>clothes -</item>
+<lb/><item>1 bag bedding</item>
+<lb/><item>1 box soap</item> <item>1 <choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice> <term type="plant_foodstuff">Tea</term> -</item>
+<lb/><item>15 bales cloth</item> <item><metamark/><term type="animal">camels</term></item>
+<lb/><item>1 box preserved <term type="foodstuff">meats</term></item>
+<lb/><item>1 bag <term type="plant_foodstuff">coffee</term> -</item>
+<lb/><item>1 box candles</item>
+<lb/><item>7 boxes ammunition</item>
+<lb/><item><del type="strikethrough">15 small bales cloth</del></item>
+<lb/><item>1 sugar -</item> <item>cooking utensil</item></list>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><term type="animal">Camels</term> carry all the
+<lb/>bales -</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><list><item>3 bags clothes -</item>
+<lb/><item>4 instruments</item>
+<lb/><item>1 medicine box</item>
+<lb/><item>1 ammunition</item></list>
+	</div>
+
+    <div rend="blue">
+	<pb facs="liv_000001_0080" n="0080"/> 
+    	
+<lb/><list><item><foreign xml:lang="und">chaza</foreign> = oyster</item>
+
+<lb/><item><foreign xml:lang="und">makararu</foreign> another <term type="animal">shellfish</term>
+
+<lb/>eaten - good <hi rend="double-underline"><foreign xml:lang="und">pia</foreign></hi></item>
+
+<lb/><item><placeName><geogName type="hill">John</geogName></placeName> = <figure><figDesc>Drawing of a small triangular hill.</figDesc></figure> the direction
+
+<lb/>hill <choice><abbr>W N W</abbr><expan>West North West</expan></choice> of entrance</item></list>
+
+<lb/><list><head><space extent="1" unit="words"/>Distances</head>
+
+<lb/><item><placeName><settlement type="village">Makonde</settlement></placeName></item> <!-- These place names need more qualifiers (settlement, city, town, etc), but not sure which they are. HB 2014-05-29 --><!-- I'm going to guess these are villages. Livingstone is trying to record the stopping points between various places on trade routes, I think. AW -->
+
+<lb/><item><placeName><settlement type="village">Kuaridelwi</settlement></placeName> = <add place="above">2</add> <placeName><settlement type="village">Kuaridea</settlement></placeName></item>
+
+<lb/><item><add place="marginleft">1</add> <placeName><settlement type="village">Jantulo</settlement></placeName></item>
+
+<lb/><item><add place="marginleft">3</add> <placeName><settlement type="village">Ligongonda</settlement></placeName></item>
+
+<lb/><item><placeName><settlement type="village">Lehuma</settlement></placeName></item></list>
+
+<lb/><p><placeName><settlement type="village"><w>Mg<subst><del>g</del><add place="over-text">a</add></subst>o</w></settlement></placeName> is said to <supplied cert="high">be</supplied> only
+
+<lb/><measure>six hours north</measure>
+
+<lb/>of <placeName><geogName type="harbor">Kindany harbour</geogName></placeName></p>
+
+<lb/><space dim="vertical" extent="4" unit="lines"/>
+
+
+	<pb facs="liv_000001_0081" n="0081"/>
+<lb/><figure rend="gray blue"><head><placeName><geogName type="harbor">Mikindani</geogName></placeName></head><figDesc><measure/>Map of <placeName><geogName type="harbor">Mikindani harbour</geogName></placeName> with various geographical coordinates related to <placeName><geogName type="bay">Rovuma Bay</geogName></placeName>.</figDesc></figure>
+
+
+	<pb facs="liv_000001_0082" n="0082"/>
+<lb/><list><item>Paid <persName>Antonio</persName> <choice><abbr>Rs</abbr><expan>Rupees</expan></choice> 14 -</item>
+<lb/><item><space extent="1" unit="chars"/>soap <space extent="2" unit="words"/><choice><abbr>Rs</abbr><expan>Rupees</expan> </choice>4
+<lb/>candles &amp; serge £5-3-8</item>
+<lb/><item>advanced to <orgName><placeName><geogName type="island">Johanna</geogName></placeName>
+<lb/>men</orgName> by <persName><term type="occupation">Captain</term> Garforth</persName>
+<lb/><space extent="1" unit="chars"/>£29-4 &amp; repaid by me</item>
+<lb/><item><space extent="1" unit="words"/><w>1<subst><del>5</del><add place="over-text">0</add></subst></w> <choice><abbr>R.</abbr><expan>Rupees</expan></choice> Ghee at <placeName><geogName type="bay"><w>Kindan<supplied cert="high">y</supplied></w></geogName></placeName></item> <!-- Is Ghee a person, so should be tagged? HB 2014-05-29 --><!-- I think he's referencing the butter here. AW -->
+<lb/><item>advanced <persName><choice><orig><w>Wikat<subst><del>n</del><add place="over-text">d</add></subst>ani</w></orig><reg>Wikatani</reg></choice></persName> 4/
+<lb/>for gun mending</item></list>
+<lb/><space dim="vertical" extent="8" unit="lines"/>
+
+
+	<pb facs="liv_000001_0083" n="0083"/>
+<!-- The table at the top of this page continues from 0084. How do we mark this connection? AW -->
+<lb/><table><row><cell rend="left">mill -</cell><cell rend="right">2</cell></row>
+
+<lb/><row><cell rend="left">Big beads 500</cell><cell rend="right">2 50</cell></row>
+
+<lb/><row><cell rend="left">Buffalo house</cell><cell rend="right"><hi rend="underline">35</hi></cell></row>
+
+<lb/><row><cell rend="left">soap - 1 box</cell><cell rend="right"><hi rend="underline">2.50</hi></cell></row></table>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><list><item><del type="strikethrough">1100 = 12</del></item>
+
+<lb/><item>1112 = 18</item>
+
+<lb/><item><space extent="1" unit="chars"/>138 - 63</item>
+
+<lb/><milestone unit="section" rend="half-line"/>
+
+<lb/><item>1250<space extent="3" unit="chars"/>81 = 1291<unclear cert="medium"> = 31</unclear></item> <!-- Adrian, I believe this and the two previous lines are sums like what we see later, so how code it? HB 2014-05-30 --><!-- Not sure. Let's ask James. AW -->
+
+<lb/><item><w>26<del><gap extent="2" unit="chars"/></del><add place="over-text">89</add></w> = <del>8</del><del type="cancelled">25</del><add place="above">4</add> <choice><abbr>Rs</abbr><expan>Rupees</expan></choice></item></list>
+
+<lb/><table><row><cell rend="left">on second</cell><cell rend="right">coffe<supplied cert="high">e</supplied> 6</cell></row>
+
+<lb/><row><cell rend="left">account</cell><cell rend="right">sugar 3.50</cell></row>
+
+<lb/><row><cell rend="left"><choice><abbr>R</abbr><expan>Rupees</expan></choice> 2776-5</cell><cell rend="right"><term type="foodstuff">Brandy</term> <hi rend="underline">11<space extent="3" unit="chars"/></hi></cell></row>
+
+<lb/><row><cell rend="right">men 20</cell></row></table>
+
+<lb/><p rend="no-indent"><persName>Koroje bin
+
+<lb/>Volamadasa</persName></p>
+
+
+	<pb facs="liv_000001_0084" n="0084"/>
+    	
+<lb/><table><row><cell rend="left">2 frasilah beads <del type="cancelled"><gap extent="2" unit="chars"/></del></cell></row>
+
+<lb/><row><cell rend="right"><space extent="1" unit="chars"/>26.75</cell></row>
+
+<lb/><row><cell rend="left">20 pieces cloth</cell><cell rend="right">46.25</cell></row>
+
+<lb/><row><cell rend="left">20 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></cell><cell rend="right">46.25</cell></row>
+
+<lb/><row><cell rend="left">20 Kaniki</cell><cell rend="right">46.25</cell></row>
+
+<lb/><row><cell rend="left">20 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></cell><cell rend="right">28.50</cell></row>
+
+<lb/><row><cell rend="left">samesame 5<choice><orig>¼</orig><reg>1/4</reg></choice></cell><cell rend="right">70.25</cell></row> <!-- For these next four lines, should the 5 1/4 be tagged as a center cell? HB 2014-05-30 --><!-- Yes! Fixed. AW -->
+
+<lb/><row><cell rend="left">Golaleia 5<choice><orig>¼</orig><reg>1/4</reg></choice></cell><cell rend="right"><w><subst><del>5</del><add place="over-text">6</add></subst>1.69</w></cell></row>
+
+<lb/><row><cell rend="left"><unclear cert="low">unduo</unclear> 5<choice><orig>¼</orig><reg>1/4</reg></choice></cell><cell rend="right">24.16</cell></row>
+
+<lb/><row><cell rend="left">Langĩo 5<choice><orig>¼</orig><reg>1/4</reg></choice></cell><cell rend="right">49.88</cell></row>
+
+<lb/><row><cell rend="left">Powder -</cell><cell rend="right">4.</cell></row>
+
+<lb/><row><cell rend="left">Balls</cell><cell rend="right"><space extent="2" unit="chars"/>63</cell></row>
+
+<lb/><row><cell rend="left">2 guns</cell><cell rend="right">6</cell></row>
+
+<lb/><milestone unit="section" rend="half-line"/>
+
+<lb/><row><cell rend="left"><term type="animal"><choice><sic>Buggalo</sic><corr>Buffalo</corr></choice></term></cell><cell rend="right">100</cell></row>
+
+<lb/><row><cell rend="left">food</cell><cell rend="right">86.57</cell></row>
+
+<lb/><row><cell rend="left">presents</cell><cell rend="right">22.50</cell></row>
+
+<lb/><row><cell rend="left"><term type="occupation">porters</term></cell><cell rend="center"><space extent="1" unit="chars"/>-- 200</cell></row>
+
+<lb/><row><cell rend="left">food of <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></cell><cell rend="right"><space extent="1" unit="chars"/>7</cell></row></table>
+
+	<pb facs="liv_000001_0085" n="0085"/>
+<lb/><figure><figDesc>Calculations related to payments to <persName>Salim</persName> for <term type="animal">camels</term>, <term type="animal">donkeys</term>, and guns.</figDesc></figure>
+<lb/><space dim="vertical" extent="4" unit="lines"/>
+    </div>
+
+	<div rend="gray">
+	<pb facs="liv_000001_0086" n="0086"/>
+<lb/><list><item><term type="animal"><foreign xml:lang="la">Colobus Guereza</foreign></term> = <term type="animal">Tippet monkey</term>
+<lb/>the <foreign xml:lang="und"><term type="animal">Polume</term></foreign> - or <foreign xml:lang="swh"><term type="animal">Mbega</term></foreign> of <placeName><region><choice><abbr>E</abbr><expan>East</expan></choice> <w>A<subst><del>s</del><add place="over-text">f</add></subst>rica</w></region></placeName></item>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><item><foreign xml:lang="und"><term type="animal">Tangoe</term></foreign> = <term type="animal"><term type="foodstuff">Honey</term> bird</term></item>
+<lb/><item><space extent="1" unit="chars"/><foreign xml:lang="la"><term type="animal"><choice><sic>Sakirdornis melanota</sic><corr>Sarkidionis melanotos</corr></choice></term></foreign> = <term type="animal">black
+<lb/>backed goose</term></item></list>
+<lb/><figure><figDesc>Drawing of what appears to be the prow of a dhow.</figDesc></figure>
+	</div>
+	<div rend="blue" n="noSpace">
+<lb/><p rend="no-indent">Leave with <persName>D<hi rend="sup underline">r</hi> Seward</persName>
+<lb/>one hundred Pounds
+<lb/>£100 - to send <term type="animal">buffaloes</term>
+<lb/>&amp; other matters
+<lb/><date when="1866-03-12">12 March 1866</date> = </p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><persName>Kerje</persName> to send 300 <choice><abbr>lbs</abbr><expan>pounds</expan></choice>
+<lb/>beads - 500 egg beads
+<lb/>&amp; 80 pieces cloth
+<lb/>to <persName>Thani bin Suelum</persName>
+<lb/>at <placeName><settlement type="town">Ujiji</settlement></placeName> - Then his <orgName><term type="occupation">Sepoy</term></orgName>
+<lb/>to come back to <persName>Said bin
+<lb/>Salem</persName> at <placeName><settlement type="town"><choice><sic>Unyembe</sic><corr>Unyanyembe</corr></choice></settlement></placeName></p>
+	</div>
+
+	<div rend="gray">
+	<pb facs="liv_000001_0087" n="0087"/> 
+<lb/><figure><!-- rend="left" --><figDesc>The upper left-hand part of this page has an illustration of a genealogical chart.</figDesc></figure> 
+<lb/><list><!-- rend="right" --><item>cousins are <foreign xml:lang="und">Bari</foreign>
+<lb/>&amp; not <choice><sic>marrigiable</sic><corr>marriageable</corr></choice></item>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><item><foreign xml:lang="und"><w>neic<subst><del>he</del><add place="over-text">es</add></subst></w></foreign> not <w><choice><sic>marriagi</sic><corr>marriage</corr></choice><supplied>-</supplied>
+<lb break="no"/>able</w> = <foreign xml:lang="und">Bokaru</foreign></item>
+<lb/><item><foreign xml:lang="und">Bariao</foreign> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item>
+<lb/><item><foreign xml:lang="und">Nkamoane</foreign>
+<lb/><choice><sic>grandneices</sic><corr>grandnieces</corr></choice> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>D<hi rend="sup"></hi></abbr><expan>Ditto</expan></choice></item>
+<lb/><item><foreign xml:lang="und"><w>mbu<subst><del>i</del><add place="over-text">e</add></subst>a</w> <w>mej<subst><del>e</del><add place="over-text">u</add></subst>ala</w></foreign> may
+<lb/>marry or be married
+<lb/>but the blood <w>relation<supplied>-</supplied>
+<lb break="no"/>ship</w> is finished</item></list>
+<lb/><space dim="vertical" extent="5" unit="lines"/>
+</div>
+             
+<!-- aw, hb -->
+	    
+              <div rend="blue">
+
+	<pb facs="liv_000001_0088" n="0088"/>
+<lb/><p rend="no-indent">a large <choice><sic>peace</sic><corr>piece</corr></choice> &amp; opposite
+<lb/>shore just visible in a
+<lb/>clear day - <persName>Salim bin
+<lb/>Abdullah</persName> was his <orgName>Arab</orgName>
+<lb/><term type="occupation">guide</term> thither - <term type="tribe">Mafite</term> are
+<lb/>there = <persName>Kingomanga</persName>
+<lb/>carried him in a cot
+<lb/>His village is <placeName><settlement type="village">Mamemba</settlement></placeName>
+<lb/><persName>Roscher</persName> left goods with
+<lb/><persName>Likoomboo</persName> a <term type="occupation">chief</term> at
+<lb/><placeName><geogName type="river">Rovuma</geogName></placeName> &amp; was going
+<lb/>for them -</p>
+<lb/><p rend="no-indent"><persName>Mukokota</persName> name of
+<lb/>murderer</p>
+	
+	<pb facs="liv_000001_0089" n="0089"/>
+<lb/><p rend="no-indent"><persName>D<hi rend="sup underline">r</hi> Roscher</persName> was killed
+<lb/>at a village called
+<lb/><placeName><settlement type="village">Kisoongoona</settlement></placeName> <measure>3 days</measure> <subst><del><gap extent="1" unit="words"/></del><add place="over-text">to</add></subst>
+<lb/>the <placeName><region>North East of <placeName><geogName type="lake">Lake 
+<lb/>Nyassa</geogName></placeName></region></placeName> - <date when="1865-11-19">19<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date> reached <choice><abbr>L.</abbr><expan>Lake</expan></choice> <!-- geog: Lake Nyassa -->
+<lb/>He remained at <placeName><settlement type="village">Nussewa</settlement></placeName>
+<lb/>on the <placeName><region>borders of the Lake</region></placeName><!-- geog: Lake Nyassa -->
+<lb/>nearly 4 months - The
+<lb/><term type="occupation">chief</term> is <persName>Makawa</persName> - to
+<lb/>him <persName>Roscher</persName>'s <term type="occupation">servant</term>
+<lb/>returned - He gave an
+<lb/>escort to the <term type="occupation">district
+<lb/>chief</term> <persName>Kingomanga <add place="below">^</add> <add place="above">a <unclear cert="medium">mogace</unclear></add></persName> <measure>4
+<lb/>days</measure> from the Lake<!-- geog: Lake Nyassa -->
+<lb/>who went with <orgName>50 followers</orgName>
+<lb/><persName>Kingomanga</persName> &amp; <persName>Makawa</persName>
+<lb/>sent all the goods &amp;
+<lb/>murderers to <placeName><geogName type="island"><settlement type="town">Kilwa</settlement></geogName></placeName>
+<lb/><persName>Roscher</persName> lodged in
+<lb/><persName>Marvole</persName>'s house at
+<lb/><placeName><settlement type="village">Nussewa</settlement></placeName></p>
+
+
+	<pb facs="liv_000001_0090" n="0090"/>
+
+<!-- When we are transcribing pages with dense coding, as below, we should use extra spacing to make reading easier. AW -->
+              	
+<lb/><list><item><persName>Amoda</persName> <date when="1866-02-10">10 <choice><abbr>Feb<hi rend="sup">y</hi></abbr><expan>February</expan></choice></date> <choice><abbr>Rs</abbr><expan>Rupees</expan></choice> 10
+
+<lb/><persName>Suzi</persName> <space extent="4" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="4" unit="chars"/> <choice><abbr>Rs</abbr><expan>Rupees</expan></choice> 10
+
+<lb/>being <date when="1866-02">February</date> &amp; <choice><orig>½</orig><reg>1/2</reg></choice> <date when="1866-03">March</date></item>
+
+<lb/><item><persName>Juma</persName> &amp; <persName>Wikatani</persName> 1 <choice><abbr>R.</abbr><expan>Rupee</expan></choice> each</item>
+
+<lb/><item>Gave <persName>Chitko</persName> &amp; <persName>Dungudza</persName>
+
+<lb/>12 days provisions &amp;
+
+<lb/>1 Rupee passage to
+
+<lb/><placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> <date when="1866-02-11">11 <choice><abbr>Feby</abbr><expan>Febraury</expan></choice> <choice><abbr>/66</abbr><expan>1866</expan></choice></date></item>
+
+<lb/><item><persName>Amoda</persName> <space extent="1" unit="words"/><choice><abbr>R</abbr><expan>Rupee</expan></choice> 1 + 1</item>
+
+<lb/><item><persName>Suzi</persName> for Dobi <space extent="3" unit="chars"/><choice><abbr>R</abbr><expan>Rupee</expan></choice> 1</item>
+
+<lb/><item><persName>Suzi</persName> 4 <gap extent="1" unit="chars" agent="overwriting"/> for <space extent="3" unit="chars"/> 1 musket</item>
+
+<lb/><item><persName>Suzi</persName> for stealing to pay
+
+<lb/>10 Rupees -</item>
+
+<lb/><item><persName>Amoda</persName> <measure>1 <unclear cert="high"><choice><abbr>yd.</abbr><expan>yard</expan></choice></unclear></measure> - 1 Shilling</item>
+
+<lb/><item><persName>Suzi</persName> blue jumper 6/</item>
+
+<lb/><item>eight <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName>
+
+<lb/>Jumpers <space extent="2" unit="words"/>6/</item>
+
+<lb/><item><orgName><placeName><settlement type="city">Nassick</settlement></placeName> boys</orgName> each 6/</item>
+
+<lb/><item><unclear cert="high">Paid fine</unclear> by <orgName><placeName><geogName type="island">Johanna</geogName></placeName> man</orgName> <space extent="1" unit="chars"/>2/</item></list>
+
+
+	<pb facs="liv_000001_0091" n="0091"/>
+<lb/><list><item>Paid to <persName>Theodor Schulby</persName> <gap agent="blot" extent="2" unit="chars"/>
+	
+<lb/>at <placeName><geogName type="island">Zanzibar</geogName></placeName> £27-4
+
+<lb/>for keep of <term type="animal">buffaloes</term>
+
+<lb/>at <placeName><geogName type="island">Zanzibar</geogName></placeName></item>
+
+<lb/><item><date when="1866-02-10">10<hi rend="sup underline">th</hi> <choice><abbr>Feb<hi rend="sup">y</hi></abbr><expan>February</expan></choice> 1866</date>
+
+<lb/><list><item>Paid <orgName><term type="occupation">Havildar</term></orgName></item> <item>for 3 days
+
+<lb/>for grass to <choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice> &amp; <term type="animal">mules</term> <choice><abbr>R</abbr><expan>Rupees</expan></choice> 2</item>
+
+<lb/><item>for other <subst><del>five</del><add place="over-text">six</add></subst> days <choice><abbr>Rs</abbr><expan>Rupees</expan></choice> 3</item>
+
+<lb/><item>for feed of <term type="animal">cattle</term> <space extent="1" unit="chars"/><choice><abbr>R</abbr><expan>Rupees</expan></choice> 5</item>
+</list></item></list>
+
+<lb/><space dim="vertical" extent="3" unit="lines"/>
+
+<lb/><figure><figDesc>Insect that appears to be a <term type="insect">butterfly</term> pressed into the diary.</figDesc></figure>
+
+		</div>
+
+	<div rend="gray">
+	<pb facs="liv_000001_0092" n="0092"/>
+<lb/><p rend="no-indent"><persName>Hamid bin Sulayyam</persName>
+<lb/><orgName><choice><sic>arab</sic><corr>Arab</corr></choice></orgName> of the <foreign xml:lang="ar">Dhow</foreign> on <placeName><geogName type="lake">Lake
+<lb/>Tanganyika</geogName></placeName></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><persName>Khamis bin Juma</persName> another
+<lb/>who knew him well but
+<lb/>was East of <placeName><geogName type="lake">Lake
+<lb/>Uvira</geogName></placeName> last point of <orgName>Arabs</orgName> <choice><abbr>N.</abbr><expan>North</expan></choice>
+<lb/><choice><abbr>S.</abbr><expan>South</expan></choice> of Lake is land of <term type="tribe">Marunga</term></p> <!-- geog: Tanganyika -->
+<lb/><milestone unit="section" rend="line"/>
+<lb/><list><item><placeName><geogName type="island">Ubwari island</geogName></placeName></item> <!-- Why do you use the 'p' tag here and not on other pages? HB 2014-05-18 --><!-- Removed. AW -->
+<lb/><item><placeName><settlement type="town">Uvinza</settlement></placeName> salt comes from</item>
+<lb/><item><placeName><region><term type="tribe"><choice><orig>Wabembe</orig><reg>Bemba</reg></choice></term></region></placeName> = man eaters</item>
+<lb/><item><placeName><geogName type="lake">Uvira</geogName></placeName> - stalwart sons of
+<lb/><persName><term type="occupation">Sultan</term> Maruta</persName></item></list>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><space/>
+	</div>
+
+	<div rend="blue">
+	<pb facs="liv_000001_0093" n="0093"/>
+<lb/><list><item><foreign xml:lang="und"><hi rend="underline">Morofi</hi></foreign> = <term type="animal">sawfish</term> is said
+<lb/>to eat <foreign xml:lang="und"><hi rend="underline">Mabande</hi></foreign> a <choice><sic>spears</sic><corr>spear</corr></choice>
+<lb/>of grass growing in wet
+<lb/>places = saws it through</item>
+<lb/><item><term type="animal"><foreign xml:lang="und"><hi rend="underline">Chinyessi</hi></foreign></term> = <term type="animal">electric fish</term>
+<lb/>eats <term type="animal"><foreign xml:lang="und"><hi rend="underline">Makamba</hi></foreign></term> or <term type="animal">craw
+<lb/>fish</term>.</item>
+<lb/><item><foreign xml:lang="und"><hi rend="underline">Dōwe</hi></foreign> = <foreign xml:lang="und">Mchura</foreign> or its
+<lb/>own tail which grows again -</item>
+<lb/><item>Colour of <term type="animal">Dolphin</term> fins
+<lb/>bright blue - body light
+<lb/>green - causes <w>fascin-
+<lb break="no"/>-ation</w> in flying <term type="animal">fish</term>
+<lb/>as <term type="animal">cobra</term>'s hood does
+<lb/>a <term type="animal">fish</term> if once it comes
+<lb/>in its sphere cannot
+<lb/>fly scarcely</item>
+<lb/><item><foreign xml:lang="und">zikombo</foreign> other side or
+<lb/>country</item></list>
+
+	<pb facs="liv_000001_0094" n="0094"/>
+<lb/><p rend="no-indent"><date when="1865-12-26">26 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1865</date> Sent off
+<lb/>to ship by <persName>Dubash</persName></p>
+<lb/><list><item>10 Loads of calico</item>
+<lb/><item>8 --- <space extent="2" unit="chars"/>of coloured and
+<lb/><space extent="2" unit="words"/>woolen cloths</item>
+<lb/><item>18 boxes provisions</item>
+<lb/><milestone unit="section" rend="quarter-line"/>
+<lb/><item>36 in all</item></list>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><list><item><w>1<subst><del>0</del><add place="over-text">1</add></subst></w> bags of beads sent</item>
+<lb/><item>3 -- <space extent="2" unit="chars"/>shot -</item>
+<lb/><item>6 boxes<space extent="2" unit="words"/><date when="1865-12-29">29<hi rend="sup">th</hi></date></item></list>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><figure rend="gray"><figDesc>A series of calculations, including geometric calculations.</figDesc></figure>
+
+	<pb facs="liv_000001_0095" n="0095"/>
+<lb/><list><item><list><item><choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> 3 remains</item>
+<lb/><item>2<hi rend="sup">d</hi> <choice><abbr>N</abbr><expan>Number</expan></choice> 1 goes -</item> <item><unclear cert="high">medium</unclear>
+<lb/>box -</item> <item>Revolver</item>
+<lb/><item>essence of beef -</item> <item><choice><sic>compas</sic><corr>compass</corr></choice></item></list></item>
+<lb/><item>Left with <persName>M<hi rend="sup underline">r</hi> <unclear cert="medium"><app><rdg>Francis</rdg><rdg>Frenchy</rdg></app></unclear></persName>
+<lb/><list><item>3 tin boxes (clothing)</item>
+<lb/><item>1 wooden box
+<lb/>(Microscope)</item>
+<lb/><item>1 medicine box</item>
+<lb/><item>1 box magic Lantern</item>
+<lb/><item>11 saws</item>
+<lb/><item>4 axes</item>
+<lb/><item>1 wooden box -</item> <item>books</item></list></item></list>
+<lb/><milestone unit="section" rend="double-line"/>
+<lb/><figure rend="gray"><figDesc>Calculations, including geometric calculations.</figDesc></figure>
+
+	
+	<pb facs="liv_000001_0096" n="0096"/>
+<lb/><list><item><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 2 to go to <placeName><geogName type="island">Zanzibar</geogName></placeName></item>
+<lb/><item>travelling clothes</item>
+<lb/><item>&amp; some books - <unclear cert="medium"><foreign xml:lang="und">mbane</foreign></unclear>
+<lb/>inside -</item>
+<lb/><item><choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> 1 -</item> <item><unclear cert="low">Hammock</unclear>
+<lb/>of <persName>M<hi rend="sup">s</hi> Alington</persName> -</item> <item>6
+<lb/><w><subst><del>s</del><add place="over-text">c</add></subst>hecked</w> shirts</item>
+<lb/><item><term type="insect">Mosquito</term> curtains</item>
+<lb/><item>needles</item> <item>looking glasses</item>
+<lb/><item>coloured woolen <del type="cancelled">4</del>
+<lb/><add place="marginleft">4</add> <unclear cert="high">roles</unclear> -</item> <item>knives -</item> <item>silver
+<lb/>spoons -</item> <item>looking
+<lb/>glasses -</item> <item>iron spoons</item>
+<lb/><item>1 towel =</item> <item><unclear cert="medium"><choice><sic>Preseved</sic><corr>Preserved</corr></choice> tin</unclear> <unclear cert="low"><w>kirnes<supplied>-</supplied>
+<lb/>-files</w></unclear> -</item> <item><placeName><settlement type="city">Lancaster</settlement></placeName> gun &amp;
+<lb/>powder horn -</item> <item>shot belt</item>
+<lb/><item>shells --</item> <item>bullet moulds</item>
+<lb/><item>Foolscap paper =</item> <item>piece of
+<lb/>red striped stuff =</item> <item>shawl</item></list>
+
+	<pb facs="liv_000001_0097" n="0097"/>
+<lb/><list><item><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 4 box to be left
+<lb/>at <persName>M<hi rend="sup">s</hi> Tracey</persName>'s contains
+<lb/><list><item>Uniform -</item> <item>black dress</item>
+<lb/><item>coat &amp; Trowsers -</item> <item>New <!-- Does trowsers have to be corrected to trousers, or is it British English? HB 2014-05-18 --><!-- Leave as is. Just checked OED and this form was still in use in the c19. AW -->
+<lb/>blue coat &amp; <w>check<supplied>e</supplied>d</w>
+<lb/>trowsers -</item> <item>1 <choice><abbr>pr</abbr><expan>pair</expan></choice> boots</item></list></item>
+<lb/><item><choice><abbr>N<hi rend="sup">o</hi></abbr><expan>Number</expan></choice> 5 contains -
+<lb/><list><item>Uniform hat -</item> <item>paper</item>
+<lb/><item>flannel &amp; other shirts</item>
+<lb/><item>stockings -</item> <item>boots 1 <choice><abbr>p<hi rend="sup">r</hi></abbr><expan>pair</expan></choice></item>
+<lb/><item>microscope box</item></list></item></list>
+
+	<pb facs="liv_000001_0098" n="0098"/>
+<lb/><p rend="no-indent"><date when="1865-11-08">8<hi rend="sup underline">th</hi></date> Paid <orgName>Livery Company</orgName> <!-- Does this get an orgName tag as it's a company, or too broad for it? HB 2014-05-30 --><!-- orgName is fine here. AW -->
+<lb/>for buggy hire <choice><abbr>R.</abbr><expan>Rupees</expan></choice> 24</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p><term type="tribe">Psylli</term> of <persName>Strabo</persName> whose
+<lb/>bodies were supposed
+<lb/>to have antidote to poison
+<lb/>of <term type="animal">serpents</term></p>
+<lb/><p>In <placeName><country>India</country></placeName> = <foreign xml:lang="und">Saadi</foreign></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><list><item><space extent="1" unit="words"/><bibl><choice><sic><persName>Ben Habib</persName>s</sic><corr><persName>Ben Habib</persName>'s</corr></choice> Journal</bibl>
+<lb/>mentions <placeName><geogName type="river">Umarungu
+<lb/><choice><abbr>R.</abbr><expan>River</expan></choice></geogName></placeName> flowing into <choice><abbr>S.</abbr><expan>Southern</expan></choice> End of
+<lb/>Lake = He went to <placeName><settlement type="village">Peto</settlement></placeName> -</item>
+<lb/><item><placeName><settlement type="village">Karembo</settlement></placeName> = <placeName><settlement type="village">Makunga
+<lb/>Karunguesi</settlement></placeName> =</item>
+<lb/><item><space extent="2" unit="chars"/><persName>Charéka</persName> name of <foreign xml:lang="und"><term type="occupation"><persName>Cazembe</persName></term></foreign></item>
+<lb/><item><placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice> Ragira</geogName></placeName> flows past
+<lb/><placeName><region>Katanga</region></placeName> &amp; joins <placeName><geogName type="river">Luapula</geogName></placeName></item>
+<lb/><item>country <placeName><region>Buira</region></placeName> =
+<lb/><term type="tribe">Makololo</term> <placeName><region>Ujenje</region></placeName></item></list>
+
+	<pb facs="liv_000001_0099" n="0099"/>
+<lb/><p rend="no-indent"><persName>Speke</persName> says page 165 of
+<lb/>His <bibl>Journal</bibl> - <supplied cert="high">"</supplied>On starting
+<lb/>to the rescue, my companion
+<lb/>complained of the shock
+<lb/>his nerves <choice><sic>recieved</sic><corr>received</corr></choice> since
+<lb/>the <term type="nationality">Somali</term> encounter,
+<lb/>and this appeared to
+<lb/>affect him during the
+<lb/>whole of this journey"
+<lb/><choice><sic>he</sic><corr>He</corr></choice> evinces an evident
+<lb/>dislike to <persName>Burton</persName> and
+<lb/>did not hesitate to call
+<lb/>him a coward, but this
+<lb/>does not justify <persName>Speke</persName>
+<lb/>in stealing a march on
+<lb/><persName>Burton</persName> by publication
+<lb/>of his <bibl>Journal</bibl> after
+<lb/>promising not so to do</p>
+<lb/><p rend="no-indent"><space extent="5" unit="words"/><persName><choice><abbr>DL</abbr><expan>David Livingstone</expan></choice></persName></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><foreign xml:lang="und">Nsango</foreign> Divination</p>
+
+	<pb facs="liv_000001_0100" n="0100"/>
+<lb/><list><head>native measures</head>
+<lb/><item><foreign xml:lang="und">Gora</foreign> = 15 cloths of 4 cubits <add place="below">each</add></item>
+<lb/><item>(<foreign xml:lang="und">Kinike</foreign> Indigo dyed stuff)</item>
+<lb/><item><foreign xml:lang="und">Sahari</foreign> = <foreign xml:lang="und">Dubuani</foreign> <unclear cert="medium">&amp;c</unclear></item>
+<lb/><item><foreign xml:lang="und">Barsate</foreign> <add place="above">table</add>cloths of various
+<lb/>colours</item>
+<lb/><item>cloth of 4 cubits = a <foreign xml:lang="und">Shukka</foreign></item>
+<lb/><item><foreign xml:lang="und">Dhote</foreign> = piece of 12 <w><subst><del>fathoms</del><add place="over-text">feet</add></subst></w>
+<lb/>or 8 cubits = 8 + 18 = <w>1<subst><del>6</del><add place="over-text">4</add></subst>4</w>
+<lb/>= to 12 feet or <w><subst><del>6</del><add place="over-text">4</add></subst></w> yards
+<lb/>= 2 fathoms</item>
+<lb/><item><foreign xml:lang="und">Kitindi</foreign> = brass rings</item></list>
+<lb/><p>"To save repetition, I
+<lb/>may as well mention <w><subst><del>that</del><add>the</add></subst></w>
+<lb/>fact that neither <persName><term type="occupation">Captain</term>
+<lb/>Burton</persName> nor myself were
+<lb/>able to converse in any 
+<lb/><orgName>African</orgName> language until
+<lb/>we were close to the coast on
+<lb/>the return Journey -" <w>foot<supplied>-</supplied>
+<lb break="no"/>note</w> page 199 <persName>Speke</persName>'s <bibl>Journal</bibl></p>
+
+	<pb facs="liv_000001_0101" n="0101"/>
+<lb/><p rend="no-indent"><add place="inspace" rend="small"><date when="1865-11-07"><w><subst><del>4</del><add place="over-text">7</add></subst></w> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date></add></p>
+<lb/><list><item>Paid for 800 pages
+<lb/>of map blanks 10 <choice><abbr>Rs</abbr><expan>Rupees</expan></choice> 8</item>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><item>Drew to self 20 Rupees</item>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><item>Paid for calico 259-8
+<lb/>Rupees - to <orgName><persName>Nicol</persName> &amp; Co</orgName></item></list>
+<lb/><list><item><date when="1865-12-02">2 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date></item> <item>To <choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>R</abbr><expan>Rupees</expan></choice> 260</item>
+<lb/><item>-- <space extent="1" unit="words"/>-- <space extent="3" unit="words"/> <w><subst><del>5</del><add><choice><abbr>R</abbr><expan>Rupees</expan></choice></add></subst>34</w></item>
+<lb/><item>To <orgName><persName>Nicol</persName> &amp; Co</orgName> calico <space extent="1" unit="chars"/>500 <choice><abbr>Rs</abbr><expan>Rupees</expan></choice></item>
+<lb/><item>Sundries <space extent="3" unit="chars"/>---- <space extent="1" unit="words"/><space extent="2" unit="chars"/>10</item>
+<lb/><item>- <space extent="3" unit="words"/>---- <space extent="1" unit="words"/><space extent="1" unit="chars"/>10</item>
+<lb/><item>- <space extent="3" unit="words"/>---- <space extent="1" unit="words"/><space extent="1" unit="chars"/>10</item>
+<lb/><item>self - <space extent="4" unit="words"/><space extent="1" unit="chars"/>24</item>
+<lb/><item><space extent="2" unit="chars"/>watches repair <space extent="4" unit="chars"/>19</item>
+<lb/><item>Paid to <persName><term type="occupation"><w><subst><del>Col</del><add>Major</add></subst></w></term> Muler</persName>
+<lb/>for shoes 24 pai<supplied cert="high">r</supplied> <choice><abbr>R</abbr><expan>Rupees</expan></choice> 120</item>
+<lb/><item>at 5 <choice><abbr>R</abbr><expan>Rupees</expan></choice> per pair</item>
+<lb/><item>for Tin <space extent="2" unit="words"/><space extent="1" unit="chars"/> <choice><abbr>R:</abbr><expan>Rupees</expan></choice> 5</item>
+<lb/><item><date when="1865-12-08"><choice><abbr>Dec</abbr><expan>December</expan></choice> 8<hi rend="sup underline">th</hi></date></item> <item>Drew <date when="1865-12-01"><choice><abbr>Currt</abbr><expan>Current</expan></choice></date> <w><subst><del>1</del><add>2</add></subst>100</w> <choice><abbr>R</abbr><expan>Rupees</expan></choice></item> <!-- Not sure if this is '2x' or '4' HB 2014-05-19 --><!-- Looks to me like 2 written over 1. AW -->
+<lb/><item>Sundries <space extent="1" unit="words"/><choice><abbr>R</abbr><expan>Rupees</expan></choice> 46-13 2</item></list>
+
+
+	<pb facs="liv_000001_0102" n="0102"/>
+<lb/><figure rend="blue black"><figDesc>Calculations, including wage calculations, for <persName>David</persName>, <persName>Bizenti</persName>, <persName>Safuri</persName>, <persName>Nyampinga</persName>, <persName>Cachoro</persName> (<persName>Suzi</persName>'s brother[?]), <persName>Amoda</persName>, <persName>Suzi</persName>, and <persName>Dungudza</persName> from <date from="1865-10" to="1865-12">October, November, and December 1865</date>. Segment of text in black ink.</figDesc></figure>
+
+	<pb facs="liv_000001_0103" n="0103"/>
+<lb/><figure><figDesc>Calculations, including wage calculations, for <persName>Matita</persName>, <persName>Suzi</persName>, and <persName>Amoda</persName> from <date from="1865-10" to="1865-12">October, November, and December 1865</date>.</figDesc></figure>
+
+
+	<pb facs="liv_000001_0104" n="0104"/>
+<lb/><table><row><cell rend="center"><date when="1865-10-01">1<hi rend="sup">st</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice></date></cell></row><!-- We need to revisit the idea of expanding dates. Perhaps we could skip month names? AW --><!--I agree HB 2014-05-19 --><!-- I'm finding it hard to let this go, despite what I said. AW -->
+
+<lb/><row><cell rend="left"><persName>Suzi</persName></cell><cell rend="right">12 Rupees</cell></row>
+
+<lb/><row><cell rend="left"><persName>Amoda</persName></cell><cell rend="right">12 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></cell></row>
+
+<lb/><row><cell rend="left"><persName>Manta</persName> -</cell><cell rend="right">30</cell></row>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><row><cell rend="center"><date when="1865-10-16">16<hi rend="sup">th</hi></date></cell></row>
+
+<lb/><row><cell rend="left"><persName>Mantu</persName></cell><cell rend="right">15 <choice><abbr>R.</abbr><expan>Rupees</expan></choice></cell></row>
+
+<lb/><row><cell rend="left"><persName>Dungodza</persName></cell><cell rend="right">10</cell></row>
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><row><cell rend="left">to self <space extent="6" unit="chars"/>---</cell><cell rend="right">20</cell></row>
+
+<lb/><row><cell rend="left">washing</cell><cell rend="right">10</cell></row>
+
+<lb/><milestone unit="section" rend="line black"/>
+
+<lb/><row rend="black"><cell rend="left"><persName>Amoda</persName></cell><cell rend="right">5<hi rend="blue"><del type="cancelled">5</del></hi></cell></row>
+
+<lb/><row><cell rend="left"><persName>Monita</persName></cell><cell rend="right">5 <hi rend="blue">5</hi></cell></row>
+
+<lb/><milestone unit="section" rend="half-line black"/>
+
+<lb/><row><cell rend="left"><persName>Amoda</persName></cell><cell rend="right">6</cell></row></table>
+
+
+	<pb facs="liv_000001_0105" n="0105"/>
+<lb/><p rend="no-indent"><date when="1865-09-27">27 <choice><abbr>Sep<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1865</date></p>
+<lb/><p rend="no-indent">Paid <persName>Wikatani</persName> &amp; <persName>Chuma</persName>
+<lb/>2 months &amp; a half - 12-3 or
+<lb/><choice><abbr>Rs</abbr><expan>Rupees</expan></choice> 25 ---
+<lb/>+ </p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><figure><figDesc>Wage calculations for <persName>Suzi</persName> for <date from="1865-10" to="1865-11">October and November 1865</date>.</figDesc></figure>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><figure><figDesc>Wage calculations for <persName>Dugudza</persName> for <date from="1865-10" to="1865-11">October and November 1865</date>.</figDesc></figure>
+
+
+	<pb facs="liv_000001_0106" n="0106"/>
+<lb/><table><row><cell rend="left"><space extent="1" unit="words"/>Fare to <placeName><settlement type="city">Paris</settlement></placeName></cell><cell rend="right"><metamark/><hi rend="underline">£ 5 3 4</hi></cell></row>
+
+<lb/><row><cell rend="right"><hi rend="underline">£ 2 11 8</hi></cell></row>
+
+<lb/><row><cell rend="left"><space extent="1" unit="words"/>Luggage ---</cell><cell rend="right"><hi rend="underline">£ 1 8 6</hi></cell></row>
+
+<lb/><row><cell rend="right"><hi rend="underline">£ 4 0 2</hi></cell></row>
+
+<lb/><row><cell rend="left">self <space extent="4" unit="chars"/>£ 0-5 =</cell><cell rend="right">£ 3-5-0</cell></row>
+
+<lb/><row><cell rend="left"><placeName><settlement type="city">Marseilles</settlement></placeName></cell><cell rend="right">£ 4-</cell></row>
+
+<lb/><row><cell rend="left"><placeName>Hotel <placeName><settlement type="city">Paris</settlement></placeName></placeName> -</cell><cell rend="right">£ 2 8</cell></row>
+
+<lb/><row><cell rend="left">&amp; <placeName><settlement type="city">Marseilles</settlement></placeName></cell><cell rend="right"><hi rend="underline">£ 1 10</hi></cell></row>
+
+<lb/><row><cell rend="left"><date when="1865-08-20">20 <choice><abbr>Aug</abbr><expan>August</expan></choice></date></cell><cell rend="right">£ 11 30</cell></row>
+
+<lb/><row><cell rend="left">medicine box</cell></row></table>
+
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><metamark/><date when="1865-09-26">26<hi rend="sup underline">th</hi> Sept-<hi rend="sup underline">r</hi></date> Paid on
+<lb/>my own private <choice><abbr>acct</abbr><expan>account</expan></choice>-
+<lb/>for painting steamer
+<lb/>food for men &amp; to the
+<lb/><orgName><placeName><settlement type="city">Bombay</settlement></placeName> Government</orgName>
+<lb/>609-3 Rupees = and
+<lb/>wages of men
+<lb/>500 Rupees -/ 100 Rupees <add place="above"><date when="1865-09-29"><w>2<subst><del>8</del><add>9</add></subst></w> Sepr</date></add></p>
+
+
+	<pb facs="liv_000001_0107" n="0107"/>
+<lb/><p rend="no-indent"><date when="1865-05-09">May 9<hi rend="sup">th</hi> 1865</date> / £ 121 17
+<lb/>Paid to <orgName><persName>Macdougall</persName> &amp;co</orgName>
+<lb/>clothing <space extent="1" unit="words"/>£ 11 18 
+<lb/><date when="1865-05-29">29 May</date> to
+<lb/><persName>M<hi rend="sup">r</hi> Joseph Starkey</persName>
+<lb/>for caps &amp; belt - £ 3 14 6 
+<lb/><date when="1865-08-20">20 <choice><abbr>Aug.</abbr><expan>August</expan></choice></date> <gap agent="blot" extent="1" unit="chars"/> <space extent="5" unit="chars"/><hi rend="underline">£ 11 3 <space extent="1" unit="chars"/></hi> 
+<lb/><space extent="4" unit="words"/>£ 148 2 <w><subst><del>7</del><add>6</add></subst></w> 
+<lb/>
+<lb/><unclear cert="medium"><choice><sic>Eitre</sic><corr>Entire</corr></choice></unclear> Luggage
+<lb/>to <placeName><settlement type="city">Bombay</settlement></placeName> £ <space extent="2" unit="chars"/>9-14-9 
+<lb/><term type="occupation"><app><rdg>steward<supplied>'</supplied>s</rdg><rdg>stewards<supplied>'</supplied></rdg></app></term> fees £ 1 10 
+<lb/><placeName><placeName><settlement type="city">Cairo</settlement></placeName> Hotel</placeName>  <space extent="5" unit="chars"/> 16 
+<lb/><placeName><placeName><settlement type="city">Suez</settlement></placeName> Hotel</placeName> <hi rend="underline"><space extent="7" unit="chars"/>8 6</hi> 
+<lb/><space extent="3" unit="words"/>£ 160 12 9 
+<lb/>To <persName><app><rdg>M<hi rend="sup">r</hi></rdg><rdg>M<hi rend="sup">s</hi></rdg></app> Young</persName> <space extent="1" unit="chars"/><hi rend="underline">105<space extent="5" unit="chars"/></hi> 
+<lb/>for clothing £ 265 12 9 
+<lb/>Magic Lanter<supplied cert="high">n</supplied> 
+<lb/>watches &amp;c </p><!-- I've added attributes and values to the three summative rows in on page. Is this the way to capture the fact that these rows sum up what came before? AW -->
+
+	<pb facs="liv_000001_0108" n="0108"/>
+<lb/><p rend="no-indent"><date when="1865-08-09">9<hi rend="sup underline">th</hi> August 1865</date>
+<lb/>To <orgName>P &amp; O Company</orgName>
+<lb/>for passage from
+<lb/><placeName><settlement type="city">Marseilles</settlement></placeName> to
+<lb/><placeName><settlement type="city">Bombay</settlement></placeName> <space extent="1" unit="words"/>£ 82-10 
+<lb/>Stereoscope = <space extent="3" unit="chars"/>12 
+<lb/><date when="1865-08-11">11<hi rend="sup underline">th</hi> August</date>
+<lb/>Bought of <persName>John Searle</persName>
+<lb/>one Leathern trunk 
+<lb/>for Journey <space extent="1" unit="words"/>£3-5 
+<lb/><choice><sic>Stationary</sic><corr>Stationery</corr></choice> - <space extent="1" unit="words"/>£ 11- 
+<lb/>Drew for
+<lb/>Journey through 
+<lb/><placeName><country>France</country></placeName> &amp; to <placeName><settlement type="city">Bombay</settlement></placeName> £ 25- 
+<milestone unit="section" rend="line"/>
+<lb/>Expenses <space extent="1" unit="words"/><space extent="2" unit="chars"/>£ 121-17 </p><space/>
+
+	<pb facs="liv_000001_0109" n="0109"/>
+<lb/><list><head><date when="1865-08-04">4 August 1865</date> <choice><abbr>Mem.</abbr><expan>Memorandum</expan></choice></head>
+<lb/><item><add place="marginleft">to</add> Bind <choice><abbr>Obs<hi rend="sup underline">n</hi></abbr><expan>Observation</expan></choice> books</item>
+<lb/><item>candles -</item> <item>Lantern</item>
+<lb/><item>sextant stand</item>
+<lb/><item>watch -</item> <item><placeName><settlement type="city">Bombay</settlement></placeName></item>
+<lb/><item><term type="occupation">Dentist =</term></item>
+<lb/><item><add place="marginleft">sell</add> steamer -</item> <item>compass &amp;
+<lb/>ruler -</item> <item>Beads string</item>
+<lb/><item><term type="plant_foodstuff">Tea</term> =</item> <item><term type="plant_foodstuff">coffee</term> -</item> <item><term type="plant_foodstuff">sugar</term></item>
+<lb/><item>preserved <term type="foodstuff">meats</term> -</item> <item><term type="foodstuff"><term type="animal">sardines</term></term></item>
+<lb/><item><choice><sic>Tarpauling</sic><corr>Tarpaulin</corr></choice> -</item>
+<lb/><item>kettle. </item><item>saucepan -</item>
+<lb/><item>Frying pan -</item>
+<lb/><item>Flour</item></list>
+	</div>
+
+	</div>
+		</body>
+
+<!-- Heather, note how I added <back> below. AW -->       	
+
+		<back>
+
+	<pb facs="liv_000001_0110" n="0110"/>
+
+	<pb facs="liv_000001_0111" n="0111"/>
+<lb/><figure><figDesc>Annotated insert from the Stirling University Conservation Project from 1986.</figDesc></figure>
+
+	<pb facs="liv_000001_0112" n="0112"/>
+
+	<pb facs="liv_000001_0113" n="0113"/>         
+	
+		</back>
+
+  </text>
+</TEI>
