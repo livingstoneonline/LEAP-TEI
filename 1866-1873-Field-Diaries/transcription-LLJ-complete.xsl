@@ -36,9 +36,9 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-UJ-complete.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-LLJ-complete.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
-					<xsl:value-of select="//teiHeader//title[2]"/>
+					<xsl:value-of select="//teiHeader//title[1]"/>
 				</title>
 				<!--<link type="text/css" rel="stylesheet" href="http://jamescummings.github.io/LEAP/style.css"/>-->
 			</head>
@@ -53,36 +53,42 @@
 
 	<!-- TEI -->
 	<xsl:template match="TEI">
+		<xsl:variable name="encoding">
+			<xsl:choose>
+				<xsl:when test="//teiHeader//respStmt/name">
+					<xsl:value-of select="//teiHeader//respStmt/name[not(.=preceding::name)]" separator=", "/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="//teiHeader//revisionDesc/change/name[not(.=preceding::name)]" separator=", "/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="sortedDates" as="xs:string*">
+			<xsl:choose>
+				<xsl:when test="//revisionDesc/change[@when]">
+					<xsl:perform-sort select="//revisionDesc/change/@when[not(.=preceding::change/@when)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:perform-sort select="//revisionDesc/change/date[not(.=preceding::change/date)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
 		<div class="transcription">
 			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
 			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
 			<!--<h2>
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
-			<xsl:variable name="sortedDates" as="xs:string*">
-				<xsl:choose>
-					<xsl:when test="//revisionDesc/change[@when]">
-						<xsl:perform-sort select="//revisionDesc/change/@when[not(.=preceding::change/@when)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:perform-sort select="//revisionDesc/change/date[not(.=preceding::change/date)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
-					</xsl:otherwise>
-				</xsl:choose>
-			</xsl:variable>
 			<div class="TEI">
 				<div class="item-details">
 					<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
-					<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/>
+					<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/><br/>
 					<hr class="title-section"/><br/>
-					<span class="authority"><strong>Date of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/date[@type='composition']"/></span><br/>
-					<!--<span class="authority"><strong>Place of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']"/></span><br/>-->
-					<span class="authority"><strong>Repository:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//repository"/>, <xsl:value-of select="//teiHeader//settlement"/>, <xsl:value-of select="//teiHeader//country"/></span><br/>
-					<span class="authority"><strong>Shelfmark:</strong><xsl:text> </xsl:text> <xsl:value-of select="//teiHeader//idno[@type='shelfmark']"/></span><br/>
-					<span class="authority"><strong>Clendennen &amp; Cunningham number(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//idno[@type='ccnumber']"/></span><br/>
+					<span class="authority"><strong>Original publisher and date:</strong><xsl:text> </xsl:text><xsl:value-of select="//imprint//publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//imprint/date"/></span><br/>
 					<span class="authority"><strong>Digital edition and date:</strong><xsl:text> </xsl:text> <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
 					<span class="authority"><strong>Publisher:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/pubPlace"/></span><br/>
 					<span class="idno"><strong>Project ID:</strong><xsl:text> </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
-					<span class="authority"><strong>Critical encoding:</strong><xsl:text> </xsl:text> <xsl:value-of select="//teiHeader//respStmt/name" separator=", "/></span><br/>
+					<span class="authority"><strong>Critical encoding</strong><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></span><br/>
 					<span class="authority"><strong>Encoding dates</strong><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></span><br/>
 					<br/>
 					<hr class="title-section"/>
@@ -161,37 +167,14 @@
 	<xsl:template match="text|body|front|back">
 		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
-		</div><br/>
-	</xsl:template>
-
-	<xsl:template match="body[following-sibling::back]" priority="10">
-		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
-			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="div">
-		<div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
-			<xsl:apply-templates/>
-		</div><br/>
-	</xsl:template>
-
-	<xsl:template match="div/div">
-		<br/><br/><div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
-	</xsl:template>
-
-	<xsl:template match="div[preceding-sibling::div][child::pb[1]]">
-		<br/><div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
-			<xsl:apply-templates/>
-		</div>
-	</xsl:template>
-
-	<xsl:template match="div[@n='noSpace']" priority="10">
-		<div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
-			<xsl:apply-templates/>
-		</div>
+		<br/>
 	</xsl:template>
 
 	<xsl:template match="lb">
@@ -271,7 +254,7 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match="corr|expan|reg"/>
+	<xsl:template match="corr|expan|reg|supplied"/>
 	
 	<!-- Text below removed for annotated edition; also see app, supplied & unclear -->
 	
@@ -307,14 +290,14 @@
 
 	<!-- Alphabetical list of elements. Alphabetized by last element in path *or* first element among options. -->
 
-	<xsl:template match="ab|p" priority="10">
+	<xsl:template match="ab|p">
 		<p class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
 
 	<!-- added p/cb for 1870 FD -->
-	<xsl:template match="p/cb" priority="10">
+	<xsl:template match="cb/ab|p/cb" priority="10">
 		<xsl:apply-templates/>
 	</xsl:template>
 
@@ -325,12 +308,8 @@
 			<xsl:apply-templates/></span>
 	</xsl:template>
 
-	<xsl:template match="add[@place='marginleft']" priority="10">
+	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'addmargin')}"> [<xsl:apply-templates/>] </span>
-	</xsl:template>
-
-	<xsl:template match="add[@place='marginright']" priority="10">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'addmargin')}"> <xsl:apply-templates/> </span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='over-text']">
@@ -423,11 +402,11 @@
 	<!-- For "corr" see above -->
 
 	<xsl:template match="date[@when]" priority="10">
-		<span class="date" data-date="{@when}"><xsl:apply-templates/></span>
+		<span class="date" data-date="{@when}"><xsl:apply-templates/> <span class="date-red"><xsl:text> </xsl:text>[<xsl:value-of select="@when"/>]</span><!-- Changed for full LJ --></span>
 	</xsl:template>
 
 	<xsl:template match="date[@from]" priority="10">
-		<span class="date" data-date="{@from} {@to}"><xsl:apply-templates/></span>
+		<span class="date" data-date="{@from} {@to}"><xsl:apply-templates/> <span class="date-red"><xsl:text> </xsl:text>[<xsl:value-of select="@from"/>&#8212;<xsl:value-of select="@to"/>]</span><!-- Changed for full LJ --></span>
 	</xsl:template>
 
 	<xsl:template match="date">
@@ -457,34 +436,6 @@
 		</span>
 	</xsl:template>
 
-<!-- Begin proof-of-concept for J. Livingstone -->
-
-	<xsl:template match="del[@rend='black']"><!-- text = gray -->
-		<span style='color:black;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-	<xsl:template match="del[@rend='gray']">
-		<span style='color:gray;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-	<xsl:template match="del[@rend='red']">
-		<span style='color:#B33B24;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-	<xsl:template match="add[@rend='red']/del[@hand='#DL']">
-		<span style='color:black;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-	<xsl:template match="hi[@rend='underline orange']" priority="10">
-		<span style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-	<xsl:template match="hi[@rend='double-underline orange gray']" priority="10">
-		<span class='doubleunderline-orange' style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-<!-- End proof-of-concept for J. Livingstone -->
-
 	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
 		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
 	</xsl:template>
@@ -513,9 +464,6 @@
 
 	<xsl:template match="figure">
 		<!-- newFigDesc goes away and applies templates to content to get it into a single dedupped string -->
-		<xsl:variable name="newHead">
-			<xsl:apply-templates select="head" mode="normalizeHead"/>
-		</xsl:variable>
 		<xsl:variable name="newFigDesc">
 			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
 		</xsl:variable>
@@ -524,31 +472,43 @@
 		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="head and $newFigDesc/text()">
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', $newHead, '.&quot; ', $newFigDesc)}">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="head and not($newFigDesc/text())">
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', $newHead, '.&quot; ')}">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', head, '.&quot; ')}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="not(head) and $newFigDesc/text()">
 				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{$newFigDesc}">{figure}</span>
 			</xsl:when>
+			<xsl:when test="..//graphic[@n='inline-left-medium']">
+				<span class="graphic inline-left-medium"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
+			</xsl:when>
+			<xsl:when test="..//graphic[@n='inline-left-small']">
+				<span class="graphic inline-left-small"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
+			</xsl:when>
+			<xsl:when test="..//graphic[@n='inline-left']">
+				<span class="graphic inline-left"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
+			</xsl:when>
+			<xsl:when test="..//graphic[@n='inline-right-medium']">
+				<span class="graphic inline-right-medium"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
+			</xsl:when>
+			<xsl:when test="..//graphic[@n='inline-right-small']">
+				<span class="graphic inline-right-small"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
+			</xsl:when>
+			<xsl:when test="..//graphic[@n='inline-right']">
+				<span class="graphic inline-right"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
+			</xsl:when>
+			<xsl:when test="..//graphic[@n='hyperlink']">
+				<span class="graphic"><a href="{$graphicURL}" target="_blank"><img src="{$graphicURL}" style="width:100%;"/></a></span>
+			</xsl:when>
 			<xsl:when test="..//graphic">
-				<span class="graphic"><a href="{$graphicURL}"><img src="{$graphicURL}" style="width:100%;"/></a></span>
+				<span class="graphic"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="{concat(name(), ' ', @rend, ' ', @place)}">{figure}</span>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-
-	<!-- Template passes through abbr, sic, and orig in head in normalizeHead mode -->
-	<xsl:template match="head//abbr|head//sic|head//orig" mode="normalizeHead">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<!-- Template kills through expan, corr, reg, and supplied in head in normalizeHead mode -->
-	<xsl:template match="head//expan|head//corr|head//reg|head//supplied"
-		mode="normalizeHead"/>
 
 	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->
 	<xsl:template match="figDesc//abbr|figDesc//sic|figDesc//orig" mode="normalizeFigDesc">
@@ -604,26 +564,20 @@
 	</xsl:template>
 
 	<xsl:template match="fw">
-		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
-			<xsl:apply-templates/>
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}" title=""><!-- @place added for full LJ -->
+			<br/><xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="fw[@rend='right'][preceding-sibling::fw[1][child::add[contains(@rend,'right')]]]">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', 'fw-double-right')}" title="">
-			<xsl:apply-templates/>
+	<xsl:template match="fw[@type='pageno']">
+		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
+			<xsl:apply-templates/><br/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="p//add[contains(@rend,'right')][parent::fw[preceding-sibling::fw]]">
-			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'fw-double-right')}">
-				<xsl:apply-templates/>
-			</span>
-	</xsl:template>
-
-	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
+	<xsl:template match="fw[@type='catch']">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
-			<xsl:apply-templates/>
+			<br/><xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
@@ -983,71 +937,44 @@
 		</xsl:element>
 	</xsl:template>
 
-	<xsl:template match="head[parent::div[@type='letter']]">
-		<span class="head"><xsl:apply-templates/></span>
+<xsl:template match="idno[@type='LEAP-ID']">
+		<span class="idno"><xsl:apply-templates/></span>
 	</xsl:template>
 
-	<xsl:template match="idno[@type='LEAP-ID']">
-		<span class="idno"><xsl:apply-templates/></span>
+	<xsl:template match="list/item">
+		<span class="listitem" title="item">
+			<xsl:apply-templates/>
+		</span>
 	</xsl:template>
 
 	<!-- For "lb" see above -->
 
-	<xsl:template match="list|table">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}"><xsl:apply-templates/></span>
-	</xsl:template>
-
-	<xsl:template match="list/head">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+	<xsl:template match="list">
+		<span class="list" title="list">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="list/item|row">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
+	<xsl:template match="metamark"><span class="metamark italic" title="Editorial symbol, mark, or unusual character"
+		>#</span></xsl:template>
 
-	<xsl:template match="cell">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
-			<xsl:apply-templates/><xsl:text>     </xsl:text>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="cell[@rend='right'][preceding-sibling::cell[@rend='center']]" priority="10">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'cell-after-center')}">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="metamark">
-		<xsl:choose>
-			<xsl:when test="@rend='red'">
-				<span class="metamark-color {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
-			</xsl:when>
-			<xsl:when test="@rend='orange'">
-				<span class="metamark-color {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
-			</xsl:when>
-			<xsl:otherwise>
-				<span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
-			</xsl:otherwise>
-		</xsl:choose>
+	<xsl:template match="add[@place='marginleft']/metamark|add[@place='marginright']/metamark" priority="10">
+		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
 	</xsl:template>
 
 	<xsl:template match="milestone">
 		<xsl:choose>
-			<xsl:when test="contains(@rend,'double-line')">
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line', ' ', 'first-double')}"/><br/>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}"/>
+			<xsl:when test="@rend='double-line'">
+				<hr class="{concat(name(), ' ', 'line')}"/><br/>
+				<hr class="{concat(name(), ' ', 'second-line')}"/>
 			</xsl:when>
-			<xsl:when test="contains(@rend,'triple-line')">
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line')}"/>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
+			<xsl:when test="@rend='triple-line'">
+				<hr class="{concat(name(), ' ', 'line')}"/>
+				<hr class="{concat(name(), ' ', 'third-line')}"/>
+				<hr class="{concat(name(), ' ', 'third-line')}"/>
 			</xsl:when>
 			<xsl:otherwise>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'reduce')}"></hr><xsl:text disable-output-escaping="yes">&lt;/p&gt;</xsl:text><xsl:text disable-output-escaping="yes">&lt;p class="p noindent"&gt;</xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
 			<!--<xsl:if test="@*">
@@ -1069,11 +996,6 @@
 
 	<xsl:template match="note">
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
-			>[<xsl:apply-templates/>]</span>
-	</xsl:template>
-
-	<xsl:template match="note[@place='marginleft']|note[@place='marginright']" priority="10">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored, ' ', @n)}"
 			><xsl:apply-templates/></span>
 	</xsl:template>
 
@@ -1133,27 +1055,7 @@
 	</xsl:template>
 
 	<xsl:template match="pb">
-		<br/><span class="pb-title">
-			<xsl:value-of select="@n"/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="pb[1][parent::back]" priority="10">
-		<span class="pb-title">
-			<xsl:value-of select="@n"/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="pb[preceding-sibling::p[0]]|p/pb" priority="10">
-		<br/><br/><span class="pb-title-notop">
-			<xsl:value-of select="@n"/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="pb[preceding-sibling::ab[0]]" priority="9">
-		<span class="pb-title-notop">
-			<xsl:value-of select="@n"/>
-		</span>
+		<span class="pb-title"><br/><xsl:text>[</xsl:text><xsl:value-of select="@n"/>]</span><!-- Changed for full LJ -->
 	</xsl:template>
 
 	<xsl:template match="del/pb" priority="10">
@@ -1396,23 +1298,28 @@
 	<xsl:template match="space[@extent][@unit]" priority="10">
 		<xsl:choose>
 			<xsl:when test="@unit='chars'">
-				<span class="space">
+				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
 					<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
 			</xsl:when>
 			<xsl:when test="@unit='words'">
-				<span class="space">
+				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
 					<xsl:for-each select="1 to @extent"
 						>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
 			</xsl:when>
+			<xsl:when test="@unit='lines'">
+				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit)}">
+					<xsl:for-each select="1 to @extent"><br/></xsl:for-each>
+				</span>
+			</xsl:when>
 			<xsl:when test="@dim='vertical'">
 				<span class="verticalSpace" title="{concat('vertical space: ',@extent, ' ', @unit)}">
-					[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
+					[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
 					<br class="verticalSpace"/></span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="space-other">
+				<span class="space-other" title="{concat(name(), ': ', @extent, ' ', @unit, ' ', @agent)}">
 					[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>]</span>
 			</xsl:otherwise>
 		</xsl:choose>
@@ -1420,10 +1327,6 @@
 
 	<xsl:template match="subst">
 		<xsl:apply-templates/>
-	</xsl:template>
-
-	<xsl:template match="supplied">
-		<span class="supplied" title="The editors have supplied this text."><xsl:apply-templates/></span>	
 	</xsl:template>
 
 	<!-- Text below removed for annotated edition; also see app, choice & unlcear -->
@@ -1434,6 +1337,26 @@
 	</xsl:template>-->
 
 	<!-- For "surface" see above -->
+
+	<!-- Beginning of elements that go with table -->
+	<xsl:template match="table">
+		<table>
+			<xsl:apply-templates/>
+			<!-- select="@*|node()" -->
+		</table>
+	</xsl:template>
+
+	<xsl:template match="row">
+		<tr>
+			<xsl:apply-templates/>
+			<!-- select="@*|node()" -->
+		</tr>
+	</xsl:template>
+
+	<xsl:template match="cell">
+		<td> &#x00A0;<xsl:apply-templates/>&#x00A0;<!-- select="@*|node()" --> </td>
+	</xsl:template>
+	<!-- End of elements that go with table -->
 
 	<!-- For "TEI" see above -->
 
@@ -1470,21 +1393,13 @@
 	</xsl:template>
 
 	<!-- Text below removed for annotated edition; also see app, choice & supplied -->	
-
 	<xsl:template match="unclear">
 		<span class="unclear">
-				<xsl:choose>
-				<xsl:when test="@cert">
-					<xsl:attribute name="title">
-						<xsl:value-of select="concat('word(s) ', name(), '; certainty of transcription: ', @cert)"/>
-					</xsl:attribute>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:attribute name="title">
-						<xsl:value-of select="concat('word(s) ', name())"/>
-					</xsl:attribute>
-				</xsl:otherwise>
-				</xsl:choose>
+			<xsl:if test="@cert">
+				<xsl:attribute name="title">
+					<xsl:value-of select="concat(name(), ', certainty of reading: ', @cert)"/>
+				</xsl:attribute>
+			</xsl:if>
 			<xsl:apply-templates select="node()"/>
 		</span>
 	</xsl:template>
