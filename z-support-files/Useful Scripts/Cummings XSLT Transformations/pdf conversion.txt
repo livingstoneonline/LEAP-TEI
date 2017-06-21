@@ -4,4 +4,16 @@ PDF conversion one file
 /Users/awisnicki2/GitHub/Stylesheets/bin/teitopdf --profile=LEAP liv_000859_TEI.xml liv_000859_TEI.pdf
 
 PDF conversion all files in directory
+for file in *.xml; do /Users/awisnicki2/GitHub/Stylesheets/bin/teitopdf  --localsource=/Users/awisnicki2/GitHub/TEI/P5 --profile=LEAP $file `basename $file .xml`.pdf; echo done $file; done
+
+
+
+
+
+
+
+
+
+
+PDF conversion all files in directory (old version -- ignore)
 for file in *.xml; do /Users/awisnicki2/GitHub/Stylesheets/bin/teitopdf --localsource=/GitHub/TEI-dev/P5 --profile=LEAP $file `basename $file .xml`.pdf; echo done $file; done
