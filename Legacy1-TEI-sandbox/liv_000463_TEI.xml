@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000463">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Letter to [Thomas L. Prentice?]</title>
                 <title type="alternative">Letter to [Thomas L. Prentice?], 17 June 1840</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+				<author>Livingstone, David, 1813-1873</author>
 			</titleStmt>
 			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>2008-10-07</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
 				<idno type="LEAP-ID">liv_000463</idno>
 			</publicationStmt>
 			<sourceDesc>
+				<bibl xml:id="shelfmark">University of London. School of Oriental and African Studies; CWM/LMS/Livingstone Wooden Box, item 12</bibl>
 				<bibl xml:id="ccnumber">Letters, 0009</bibl>
+				<bibl xml:id="recipient"><persName>Prentice, Thomas L.</persName>; </bibl>
+				<bibl xml:id="date"><date when="1840-06-17">17 June 1840</date></bibl>
+				<bibl xml:id="where">London</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -33,7 +37,15 @@
 		<revisionDesc>
 			<change>
 				<date>2008-10-07</date>
-				<name xml:id="initials">SM</name>Initial Transcription by Sharon Messenger
+				<name>Sharon Messenger</name>Initial Transcription by Sharon Messenger
+			</change>
+			<change>
+				<date>2017-04-14</date>
+				<name>Mary Borgo</name>Proofing
+			</change>
+			<change>
+				<date>2017-06-14</date>
+				<name>Adrian S. Wisnicki</name>Formatting Review by Adrian S. Wisnicki
 			</change>
 		</revisionDesc>
 	</teiHeader>
@@ -43,12 +55,12 @@
 			<div>
 
 	<pb n="0001" facs="liv_000463_0001"/><!--pb/@n='1r'-->
-<lb/><p rend="right"><placeName>London</placeName> 17 June 1840 </p>
+<lb/><p rend="right"><add place="above" rend="gray" hand="#U"><metamark/>Envelope</add> <space extent="2" unit="words"/><placeName>London</placeName> 17 June 1840 </p>
 <lb/><p>My Dear Friend </p>
-<lb/><p>In compliance with your request 
+<lb/><p><space extent="4" unit="words"/>In compliance with your request 
 <lb/>I shall not now endeavour to give utterance to the 
 <lb/>emotions which spring up in my bosom when 
-<lb/>I yesterday received your letter. I do this 
+<lb/>I yesterday received your <bibl>letter</bibl>. I do this 
 <lb/>rather reluctantly because, in returning thanks 
 <lb/>to Him who bestows every good &amp; perfect gift, 
 <lb/>I would fain include the instrument through 
@@ -56,8 +68,8 @@
 <lb/><p>I was not aware that I had made 
 <lb/>known my pecuniary difficulties to any one 
 <lb/>besides him who knows all things, but as 
-<lb/>I now address a brother disciple of Jesus &amp; a 
-<lb/>friend who (quite unexpected by me) has taken <add place="above">an interest</add> in 
+<lb/>I now address a <orgName>brother disciple of <persName>Jesus</persName></orgName> &amp; a 
+<lb/>friend who (quite unexpected by me) has taken <add place="below">^</add><add place="above">an interest</add> in 
 <lb/>my future course, I may mention that these 
 <lb/>difficulties were chiefly prospective &amp; that 
 <lb/>the Lord has now dispelled all my fears 
@@ -86,7 +98,7 @@
 <lb/>may descend upon you &amp; that the Lord will 
 <lb/>fulfil the utmost desire of your heart with 
 <lb/>respect to every one of your beloved family<reg>.</reg></p>
-<lb/><p>Yours very affectionately <hi rend="sup underline">D.</hi> Livingston </p>
+<lb/><p><space extent="1" unit="words"/>Yours very affectionately <persName><choice><abbr>D<hi rend="sup underline">d</hi></abbr><expan>David</expan></choice> <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
 			
 </div>
 		</body>

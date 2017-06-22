@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000652">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Letter to William C. Oswell</title>
                 <title type="alternative">Letter to William C. Oswell, 10 April 1848</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+				<author>Livingstone, David, 1813-1873</author>
 			</titleStmt>
 			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>08-04-10</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
 				<idno type="LEAP-ID">liv_000652</idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl xml:id="shelfmark">Auckland Libraries; MS. 116</bibl>
-				<bibl xml:id="recipient"><persName>Oswell, William C., 1818-1893</persName></bibl>
-				<bibl xml:id="where">Kolobeng</bibl>
-				<bibl xml:id="date"><date when="1848-04-10">10 April 1848</date></bibl>
 				<bibl xml:id="ccnumber">Letters, 0184</bibl>
+				<bibl xml:id="recipient"><persName>Oswell, William C., 1818-1893</persName>; </bibl>
+				<bibl xml:id="date"><date when="1848-04-10">10 April 1848</date></bibl>
+				<bibl xml:id="where">Kolobeng</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -35,9 +35,17 @@
 			</handNotes>
 		</profileDesc>
 		<revisionDesc>
-			<change>
-				<date>2010-05-21</date>
-				<name xml:id="SM">Sharon Messenger</name>Intial Transcription by Sharon Messenger
+			<change> 
+				<date>2010-05-21</date> 
+				<name>Sharon Messenger</name>Initial Transcription by Sharon Messenger
+			</change>
+			<change> 
+				<date>2017-05-24</date> 
+				<name>Kate Simpson</name>Proofreading 
+			</change>
+			<change> 
+				<date>2017-06-14</date> 
+				<name>Adrian S. Wisnicki</name>Formatting Review by Adrian S.Wisnicki 
 			</change>
 		</revisionDesc>
 	</teiHeader>
@@ -46,216 +54,228 @@
 		<body xml:lang="en">
 			<div>
 
-	<pb n="0001" facs="liv_000652_0001"/><!--pb/@n='1r'-->
-<lb/><p rend="right"><placeName>Kolobeng</placeName>
-<lb/>10<hi rend="sup underline">th</hi> April 1848 </p>
-<lb/><p>My Dear <persName>M<hi rend="sup">r</hi> Oswel</persName></p>
-<lb/><p>Your favour of July last containing a communication 
-<lb/>from our friend <persName>Vardon</persName> reached its destination a short time ago. It was 
-<lb/>extremely welcome and afforded us much pleasure. I only wish mine 
-<lb/>may yield a tithe of what yours imparted. It set my mind at ease 
-<lb/>on several points. I had concluded that my note had miscarried - 
-<lb/>that you had gone to <placeName>England</placeName> - &amp; was on the eve of writing to 
-<lb/><persName>Vardon</persName> for your address. In addition to the plasure of perusal 
+<pb n="0001" facs="liv_000652_0001"/><!--pb/@n='1r'-->
+<lb/><p><add place="above"><hi hand="#hand01" rend="gray"><hi rend="underline"><date when="1933-03-09">9 <choice><abbr>MAR</abbr><expan>March</expan></choice> 1933</date></hi> <add place="below">51<add place="above">A</add>| 091.5</add></hi></add><space extent="22" unit="chars"/><placeName>Kolobeng</placeName> <date when="1848-04-10">10<hi rend="sup underline">th</hi> April 1848</date> </p>
+<lb/><p rend="no-indent">My Dear <persName>M<hi rend="sup">r</hi> <choice><sic>Oswel</sic><corr>Oswell</corr></choice></persName></p>
+<lb/><p><space extent="11" unit="chars"/>Your favour of <date when="1847-07">July</date> last containing a communication 
+<lb/>from our friend <persName>Vardon</persName> reached its destination a short time ago - It was 
+<lb/>extremely welcome and afforded us much pleasure - I only wish mine 
+<lb/>may yield a tithe of what yours imparted - It set my mind at ease 
+<lb/>on several points - I had concluded that my note had miscarried - 
+<lb/>that you had gone to <placeName><country>England</country></placeName> - &amp; was on the eve of writing to 
+<lb/><persName>Vardon</persName> for your address - <space extent="3" unit="chars"/> In addition to the pleasure of perusal 
 <lb/>the prospect of another visit allows us to indulge the pleasures 
-<lb/>of hope. And our position in this out of the world region has taught 
-<lb/>us to make the most of this source of employment. On one point 
-<lb/>I feel a little sorry, and though engaged in building a new house 
+<lb/>of hope - and our position in this out of the world region has taught 
+<lb/>us to make the most of this source of employment - On one point 
+<lb/>I feel a little sorry - and though engaged in building a new house 
 <lb/>I hasten to remove the impression from your mind which my 
-<lb/>letter seems unfortunately to have produced. I suspect the wording 
-<lb/>of my epistle has been <del type="strikethrough">read</del> far wrong to induce you to conclude I doubted 
-<lb/>your accuracy in the nothing of the Limpopo. I do not recollect 
+<lb/>letter seems unfortunately to have produced - I suspect the wording 
+<lb/>of my epistle has been as far wrong to induce you to conclude I doubted 
+<lb/>your accuracy in the Northing of the <placeName><geogName type="river">Limpopo</geogName></placeName> - I do not recollect 
 <lb/>my words but I remember having a conversation with you on the 
-<lb/>point before my mind in perusing it, in which you remarked 
-<lb/>if the River really did come round as far south as the <placeName>Aegoa Bay</placeName>
-<lb/>it would be one of the most remarkable rivers in the world. Having 
-<lb/>ascertained that it really does come very far south I felt anxious to 
-<lb/>set you right in your idea of the unprobability of such a roundaboit 
-<lb/>course. If I appeared to throw discredit on the Morthing it makes 
-<lb/>I must have alluded (in my own mind) to Arkthought mao &amp; I 
-<lb/>am very sorry the blunder has caused you uneasiness. <persName>N<hi rend="sup underline">r</hi> A</persName> left 
+<lb/>point before my mind in penning it, in which you remarked 
+<lb/>if the River really did come round as far South as <placeName><geogName type="bay">Delagoa Bay</geogName></placeName>
+<lb/>it would be one of the most remarkable rivers in the world - Having 
+<lb/>ascertained that it really does come very far South I felt anxious to 
+<lb/>set you right in your idea of the improbability of such a roundabout 
+<lb/>course - If I appeared to throw discredit on the Northing it makes 
+<lb/>I must have alluded (in my own mind) to <persName>Arkwright</persName><add place="above">'s</add> map &amp; I 
+<lb/>am very sorry the blunder has caused you uneasiness. <persName>M<hi rend="sup underline">r</hi> <choice><abbr>A</abbr><expan>Arkwright</expan></choice></persName> left 
 <lb/>me a sketch but I relied on yours and indeed that information furnished 
-<lb/>by you and <persName>Capt<hi rend="sup">n</hi> M</persName> is the only knowledge I posess on that part of the 
-<lb/>course of the River. I never was East of the Balai in the same latitute 
-<lb/>My knowledge of the Lulipolo was gained in the Latitute of <placeName>Choumane</placeName>
-<lb/>and Southwards (a little) I believe <persName>M<hi rend="sup">r</hi> Murray's</persName> rights to have been 
-<lb/>pretty correct and from  your account that the Limpolo goes 
+<lb/>by you and <persName>Capt<hi rend="sup">n</hi> M</persName> is the only knowledge I posses on that part of the 
+<lb/>course of the River. I never was East of the <term type="tribe">Bakaa</term> in the same latitude</p> 
+<lb/><p>My knowledge of the <placeName><geogName type="river">Limpopo</geogName></placeName> was gained in the latitude of <placeName><settlement type="village">Chonuane</settlement></placeName>
+<lb/>and Southwards (a little) I believe <persName>M<hi rend="sup">r</hi> Murray</persName>'s rights to have been 
+<lb/>pretty correct and from  your account that the <placeName><geogName type="river">Limpopo</geogName></placeName> goes 
 <lb/>as far North as that tribe I see no reason to dissent - But whatever 
-<lb/>may be the Southing it makes It comes round again to very nearly 
-<lb/>the latitude of the <placeName>Choumane</placeName>. The latter however (the junction) 
-<lb/>I did not see. It was pointed out to me in the distance. In going from 
-<lb/>this to the <placeName>Bamapela</placeName> our course is not quite straight. We have to make 
-<lb/>some southing to avoid some ranges of hills. We crossed to <placeName>Marikoe</placeName> then 
-<lb/>its source, but course was then North East for 9 days and there lies 
-<lb/>the <placeName>Limpolo</placeName> again after having traversed the course you know 
-<lb/>the first two crossings are by <placeName>Lundungo</placeName> the main direction of 
-<lb/>the whole must however be at those parts North West. I imagine 
-<lb/>its course may be some what of the following shape <!--Mike: diagram-->there exists a range of very high hills North East 
-<lb/>of the <placeName>Bamapela</placeName> these may be the obstacle to its 
+<lb/>may be the Northing it makes It comes round again to very nearly 
+<lb/>the latitude of its source <space extent="3" unit="chars"/> The source may be a degree South of
+<lb/><placeName><settlement type="village">Chonuane</settlement></placeName> and when it takes in the <placeName><geogName type="river">Lepimole</geogName></placeName> it is very near if not
+<lb/>quite at the latitude of <placeName><settlement type="village">Chonuane</settlement></placeName>. The latter however (the junction) 
+<lb/>I did not see. It was pointed out to me in the distance - In going from 
+<lb/>this to the <term type="tribe">Bamapela</term> our course is not quite straight - We have to make 
+<lb/>some Southing to avoid some ranges of hills - We crossed to <unclear cert="medium"><placeName><geogName type="river">Marikoe</geogName></placeName></unclear> then 
+<lb/>its source - <measure>our course was then North East for 9 days</measure> and there lies 
+<lb/>the <placeName><geogName type="river">Limpopo</geogName></placeName> again after having traversed the course you know 
+<lb/>the first two crossings are by windings the main direction of 
+<lb/>the whole must however be at those parts North West - I imagine 
+<lb/>its course may be some what of the following shape <figure><figDesc>outline of river route</figDesc></figure>
+<lb/>there exists a range of very high hills North East 
+<lb/>of the <term type="tribe">Bamapela</term> these may be the obstacle to its 
 <lb/>finding its way to the sea farther north but this 
-<lb/>is merely conjecture. Do not I entreat you imagine that 
+<lb/>is merely conjecture - Do not I entreat you imagine that</p> 
+<lb/><cb rend="vertical"/>
+<lb/><addSpan spanTo="#addEnd-2v" corresp="#add-1r"/><ab rend="vertical">What has become of <persName>M<hi rend="sup">r</hi> Murray</persName>? I wrote him long ago but suppose my letter has miscarried - I shall let fly at
+<lb/>him again soon - I write <persName>Vardon</persName> by this post - and will give you some farther information in the course of the winter</ab><anchor xml:id="addEnd-2v"/>
 
-	<pb n="0002" facs="liv_000652_0002"/><!--pb/@n='1v'-->
-<lb/>doubted the candour with which you made your observations. I supposed 
-<lb/>that your observations had been dicated by a mass of magnetic rocks 
-<lb/>eastward of <placeName>Choumane</placeName>. Arkwrights certainly were by some means 
+<pb n="0002" facs="liv_000652_0002"/><!--pb/@n='1v'-->
+<lb/><p rend="no-indent">I doubted the candour with which you made your observations. I supposed 
+<lb/>that your observations had been vitiated by a mass of magnetic rocks 
+<lb/>Eastward of <placeName><settlement type="village">Chonuane</settlement></placeName> - <persName>Arkwright</persName><supplied cert="high">'</supplied>s certainly were by some means 
 <lb/>or other but now I believe it is quite possible yours in respect to 
-<lb/>nothing may be correct by supposing that the river makes a great 
-<lb/>bend. It certainly come round very far south whatever it may 
-<lb/>have done in the north. </p>
-<lb/><p>I have written <persName>Captain Steele</persName> very fully about about my projected journey lakewards<reg>.</reg>
-<lb/>Our removal to <placeName>Kolobeng</placeName> has deferred it but I had proposed to go 
-<lb/>next month and had your letter not come to hand I would in a probability 
-<lb/>have proceeded. I wait now for you if I hear of no one else having 
-<lb/>his face in that direction. <persName>Sechele</persName> whom you know if a mixture 
+<lb/>Northing may be correct by supposing that the river makes a great 
+<lb/>bend. It certainly comes round very far south whatever it may 
+<lb/>have done in the North - </p>
+<lb/><p>I have written <persName>Captain Steele</persName> very fully about my projected journey Lakewards
+<lb/>Our removal to <placeName><settlement type="village">Kolobeng</settlement></placeName> has deferred it - but I had proposed to go 
+<lb/>next month and had your letter not come to hand - I should in a probability 
+<lb/>have proceeded - I wait now for you if I hear of no one else having 
+<lb/>his face in that direction. <persName>Sechele</persName> whom you know as a mixture 
 <lb/>of good &amp; evil has for a considerable time past exhibited most of the 
-<lb/>former quality on his character. He would accompany me himself 
+<lb/>former quality on his character - He would accompany me himself 
 <lb/>and as he has a considerable amount of regard for you it is probable 
 <lb/>he will do the same when you come. I heard him lately saying that 
-<lb/>you &amp; <unclear cert="low"><persName>Olson</persName></unclear> exceeded all other travellers and when I told him that you 
+<lb/>you &amp; <persName>Vardon</persName> exceeded all other travellers and when I told him that you 
 <lb/>intended another visit he seemed much pleased &amp; requested me to 
-<lb/>return your salutationsas that is possible on paper. His conduct 
+<lb/>return your salutations as that as possible on paper. His conduct 
 <lb/>to us &amp; to others has been for a long time better than we hoped for in 
-<lb/>a native - is a great reader according to his means - has perused 
+<lb/>a <orgName>native</orgName> - is a great reader according to his means - has perused 
 <lb/>the Testament &amp; all the other parts of the Bible printed three times 
-<lb/>and is found of general informationthe innate African 
-<w>greed-<lb break="no"/>iness</w> may not not be diminished to others but it to us for he 
-<lb/>invariably offers to pay for what he gets from us. We are infinitely 
-<lb/>better here than where we were formerly, the hutonegs have been 
-<lb/>a sore drain on the salary but we are devoutly thankful that we are 
-<lb/>away from <placeName>Mabotsa</placeName>. We have had and still have much hard work 
-<lb/>but feel in good spirits. We can irrigate now. Have good water - 
-<lb/>A great blessing in <placeName>Africa</placeName>. People talk of nightingales &amp; poets turn 
-<lb/>up their eyes to ?? I thank they call her because they have 
-<lb/>nothing else to do But if all the songsters in the world I like best to
-<lb/>
-        hear the merry frogs tantalus like up to their chins in water. Esop 
-<lb/>must have been an African for he speaks tenderly of these same 
-<lb/>musicians. We are about 40 miles West N. West of <placeName>Chouname</placeName>. 
+<lb/>and is <unclear cert="medium">found</unclear> of general information - the innate <orgName>African</orgName> <w>greed-
+<lb break="no"/>iness</w> may not yet be diminished to others but it is to us for he 
+<lb/>invariably offers to pay for what he gets from us - We are infinitely 
+<lb/>better here than where we were formerly, the buildings have been 
+<lb/>a sore drain on the salary - but we are devoutly thankful that we are 
+<lb/>away from <placeName><settlement type="village">Mabotsa</settlement></placeName>. We have had &amp; still have much hard work 
+<lb/>but feel in good spirits - We can irrigate now - Have good water - 
+<lb/>A great blessing in <placeName><bloc>Africa</bloc></placeName>. People talk of <term type="animal">nightingales</term> &amp; <term type="occupation">poets</term> turn 
+<lb/>up their eyes to <persName>Philmel</persName> I think they call her because they have 
+<lb/>nothing else to do But of all the songsters in the world I like best to
+<lb/>hear the merry <term type="animal">frogs</term> Tantalus like up to their chins in water - <persName>Esop</persName> 
+<lb/>must have been an <orgName>African</orgName> for he speaks tenderly of these same 
+<lb/><term type="occupation">musicians</term> - We are about <measure>40 miles</measure> West <choice><abbr>N.</abbr><expan>North</expan></choice> West of <placeName><settlement type="village">Chonuane</settlement></placeName> - 
 <lb/>the spot I mentioned as due west of our old place did not afford a 
-<lb/>good prospect for native produce so we went down the stream a 
-<lb/>little. If no mishap occurs we shall be able to supply you with 
-<w>com-<lb break="no"/>ment</w> year - so you must not purchase much in the colony. If we 
-<lb/>have it &amp; shall write &amp; let you know. You must allow us to 
-<lb/>furnish you with at least corn &amp; potatoes. When we came hither 
+<lb/>good prospect for <orgName>native</orgName> produce so we went down the stream a 
+<lb/>little - If no mishap occurs we shall be able to supply you with <term type="foodstuff">corn</term>
+<lb/>next year - So you must not purchase much in the <placeName><region>Colony</region></placeName> - If we 
+<lb/>have it &amp; we shall write &amp; let you know - you must allow us to 
+<lb/>furnish you with at least <term type="foodstuff">corn</term> &amp; <term type="foodstuff">potatoes</term>. When we came hither 
 <lb/><persName>Sechele</persName> of his own accord built the school &amp; his people made the 
 <lb/>watercourse &amp; dam in exchange for some assistance in erecting 
-<lb/>a square house for their chief - these works saved some expenses 
-<lb/>which had we been in <placeName>Mabotsa</placeName> must have been incurred. Poor 
-<lb/>Mabotsa <persName>M<hi rend="sup">r</hi> E</persName> quarrelled with Mosielele soon after we left - the difference 
-<lb/>was never made up &amp; scarcely a single Mokhatea either adult or 
-<lb/>child ever comes near him for instruction. We feel very sorry for 
-<lb/>this for we worked hard there in matters were looking favourable<reg>.</reg>
-<lb/>If you wished to come through Mabotsa again you know the route<reg>.</reg>We go by a path West of the station leaving the old path at <placeName>Maritsane</placeName>
-<lb/>we enter the hills near <placeName>Motsenekatze</placeName> &amp; come along by the high hills 
-<lb/>directly west of the reedy part of <placeName>Mitoane</placeName> where <persName>Baba</persName> was killed 
-<lb/>on your spoor. We come close  by a large table hill which is visible 
+<lb/>a square house for their <term type="occupation">chief</term> - these works saved some expenses 
+<lb/>which had we been in <placeName><settlement type="village">Mabotsa</settlement></placeName> must have been incurred - Poor 
+<lb/><placeName><settlement type="village">Mabotsa</settlement></placeName> <persName>M<hi rend="sup">r</hi> <choice><abbr>E</abbr><expan>Edwards</expan></choice></persName> quarrelled with <persName>Mosielele</persName> soon after we left - the difference 
+<lb/>was never made up &amp; scarcely a single <term type="tribe">Mokhatla</term> either adult or 
+<lb/>child ever comes near him for instruction - We feel very sorry for 
+<lb/>this for we worked hard there &amp; matters were looking favourable</p>
+<lb/><p rend="no-indent">If you wished to come through <placeName><settlement type="village">Mabotsa</settlement></placeName> again - you know the route
+<lb/>We go by a path West of that station - Leaving the old path at <unclear cert="low"><placeName><settlement type="village">Maritsane</settlement></placeName></unclear>
+<lb/>we enter the hills near <unclear cert="low"><placeName><settlement type="village">Motsenekatze</settlement></placeName></unclear> &amp; come along by the high hills 
+<lb/>directly west of the reedy part of <placeName>Motoane</placeName><!-- There should be a tilde above the M but there is no symbol for that particular letter in Oxygen, I can get a tild ebeside but not on top. ks --> where <persName>Baba</persName> was killed 
+<lb/>on your spoor - We come close  by a large table hill which is visible 
 
-	<pb n="0003" facs="liv_000652_0003"/><!--pb/@n='2r'-->
-<lb/>from <placeName>Choumane</placeName> containing plenty of Black buck. We sent out 
-<lb/>waggon lately by the Western path which the Gruguas always take 
-<lb/>on account of the game. Either of these I should prefer if a sportsman 
-<lb/><persName>Cumming</persName> took your spoor last year with 15 horses 18 dogs &amp; a hottentot 
-<lb/>Venus - a species of solace I suppose. He spent some considerable time 
-<lb/>in hunting a new buck which he resolved to call A. Ronalyni in honour 
-<lb/>of himself. I thought it entirely new untill I described it to two boers 
-<lb/>I heard them declare it was the Bushbuck of the colony. I have no 
+<pb n="0003" facs="liv_000652_0003"/><!--pb/@n='2r'-->
+<lb/>from <placeName><settlement type="village">Chonuane</settlement></placeName> - containing plenty of <term type="animal">Black buck</term>. We sent out a
+<lb/>waggon lately by the Western path which the <orgName>Griquas</orgName> always take 
+<lb/>on account of the game - Either of these I should prefer if a <term type="occupation">sportsman</term> 
+<lb/><persName>Cumming</persName> took your spoor last year with 15 <term type="animal">horses</term> 18 <term type="animal">dogs</term> &amp; a <orgName>Hottentot 
+<lb/>Venus</orgName> - a species of solace I suppose. He spent some considerable time 
+<lb/>in hunting a new <term type="animal">buck</term> which he resolved to call A. Ronalyni in honour 
+<lb/>of himself. I thought it entirely new too - <choice><orig>untill</orig><reg>until</reg></choice> I described it to two <orgName>boers</orgName> 
+<lb/>I heard them declare it was the <term type="animal">Bushbuck</term> of the <placeName><region>Colony</region></placeName>! I have no 
 <lb/>doubt it is the same you shot &amp; lost among the reed - viz the same 
-<lb/>as you mention. <unclear cert="low">fine</unclear> white stripes like the Khoodoo &amp; about 20 
-<lb/>small <add place="above">white</add> spots on the hip - horns of male like those of the goat here. &amp; 
-<lb/>a darkish belly, hoops prettily curved <add place="above">towards</add> this. I felt sorry you had not 
-<lb/>secured it but do no regret now. If no one <add place="above">un</add> moreover <persName>Cumming</persName>
-<lb/>before he gets to the colony. I shall send you a portion of newspaper 
-<lb/>with the puff he is sure to put in. He passed the Barilaka I could 
-<lb/>not ascertain from him how far  but believe it must have 
-<lb/>been 7 or 9 days beyond at most. He gave the Lumpopo a little more 
-<lb/>herd south than you - a very little however, says he killed 33 elephants 
-<lb/>a great number of hippopotomi. Went to some hills West of the 
-<lb/>river to hunt putokuane  - was successful - and so were the tsetse 
-<lb/>for he wrote to us from beyond the junction of the votsave for 
-<lb/>the loan of oxen. One solitary mare &amp; two oxen with a dog or two 
-<lb/>attested what the fly can do. One of his hottentots was snatched away 
-<lb/>from the fire one evening by a lion &amp; devoured a few paces from 
-<lb/>the waggon. <persName>Cumming</persName> killed it next day. We will never think 
-<lb/>the Lake. Not he, unless somebody tells him that he may get wary 
-<lb/>lying on the ground there. He is by far the keenest trader we have 
-<lb/>seen in <placeName>Africa</placeName>. When he sees an elephant he does not become excited 
-<lb/>with the idea of sport. He says in his heart "there goes £25" I could not 
+<lb/>as you mention. <unclear cert="low">fine</unclear> white stripes like the <term type="animal">Khoodoo</term> &amp; about 20 
+<lb/>small <add place="above">white</add> spots on the hip - horns of male like those of the <term type="animal">goat</term> here - &amp; 
+<lb/>a darkish belly - hoops prettily curved <add place="above">upwards</add> thus - <figure><figDesc>small drawing of hoof</figDesc></figure> - I felt sorry you had not 
+<lb/>secured it but do not regret now - If no one <add place="above">un</add>deceives <persName>Cumming</persName>
+<lb/>before he gets to the <placeName><region>Colony</region></placeName> - I shall send you a portion of newspaper 
+<lb/>with the puff he is sure to put in. He passed the <unclear cert="low">Basilaka</unclear><!-- I am unsure if this is a people or a village --> I could 
+<lb/>not ascertain from him how far but believe it must have 
+<lb/>been 7 or 9 days beyond at most. He gave the <placeName><geogName type="river">Limpopo</geogName></placeName> a little more 
+<lb/>bend South than you - a very little however - says he killed 33 <term type="animal">elephants</term> 
+<lb/>a great number of <term type="animal">hippopotomi</term> - Went to some hills West of the 
+<lb/>River to hunt <term type="animal">putokuane</term>  - was successful - and so were the <term type="insect">Tsetse</term> 
+<lb/>for he wrote to us from beyond the junction of the <unclear cert="low"><placeName><geogName type="river">Hotoaue</geogName></placeName></unclear> for 
+<lb/>the loan of <term type="animal">oxen</term> - One solitary <term type="animal">mare</term> &amp; two <term type="animal">oxen</term> with a <term type="animal">dog</term> or two 
+<lb/>attested what the fly can do. One of his <orgName>Hottentots</orgName> was snatched away 
+<lb/>from the fire one evening by a <term type="animal">lion</term> &amp; devoured a few paces from 
+<lb/>the waggon - <persName>Cumming</persName> killed it next day - He will never think of
+<lb/>the Lake - Not he - unless somebody tells him that he may get ivory 
+<lb/>lying on the ground there - He is by far the keenest <term type="occupation">trader</term> we have 
+<lb/>seen in <placeName><bloc>Africa</bloc></placeName> - When he sees an <term type="animal">elephant</term> he does not become excited 
+<lb/>with the idea of sport - He says in his heart "there goes £25" I could not 
 <lb/>help pitying him when he made the confession - feels anxious to obtain 
-<lb/>a fastu &amp; uncertain too whether he will come up again. I think his 
-<lb/>necessaries will drive in again but it will be  to the Lumpopo 
-<lb/><del type="strikethrough">again</del>. I mention this much concerning him that you feel at ease 
-<lb/>on his future course. </p>
-<lb/><p>I feel confident that <persName>M<hi rend="sup">r</hi> Ashton</persName> has <choice><sic>recieved</sic><corr>received</corr></choice> the sum you mention, if 
-<lb/>he had not I should have heard it from him when at <placeName>Kuruman</placeName> I distinctly 
+<lb/>a farm - Is uncertain too whether he will come up again. I think his 
+<lb/>necessaries will drive him in again but it will be  to the <placeName><geogName type="river">Limpopo</geogName></placeName>
+<lb/><del type="strikethrough">again</del> - I mention this much concerning him that you feel at ease 
+<lb/>on his future course - </p>
+<lb/><p>I feel confident that <persName>M<hi rend="sup">r</hi> Ashton</persName> has <choice><sic>recieved</sic><corr>received</corr></choice> the sum you mention. If 
+<lb/>he had not I should have heard it from him when at <placeName><settlement type="village">Kuruman</settlement></placeName> - I distinctly 
 <lb/>remember that he stated the manner in which you settled about the rifle 
-<lb/>he thought a money transaction would be the most <gap extent="8" unit="chars" agent="illgblDel"/>
-<lb/>&amp; therefore said he I proposed it to <persName>M<hi rend="sup">r</hi> O.</persName> I shall ask him however <persName>M<hi rend="sup">r</hi>
-<lb/>Hume</persName> has been in <placeName>Graham's town</placeName> for some time past. I shall 
+<lb/>he thought a money transaction would be the most <gap extent="8" unit="chars" agent="illegible"/> it if you
+<lb/>&amp; therefore said he I proposed it to <persName>M<hi rend="sup">r</hi> <choice><abbr>O.</abbr><expan>Oswell</expan></choice></persName> I shall ask him however - <persName>M<hi rend="sup">r</hi>
+<lb/>Hume</persName> has been in <placeName><settlement type="town">Graham's town</settlement></placeName> for some time past. I shall 
 <lb/>deliver your message by first opportunity &amp; it will probably reach 
-<lb/><placeName>Kuruman</placeName> as soon as he - your kind gift to me was brought 
-<lb/>to us in August last, the rogues however had taken as much 
+<lb/><placeName><settlement type="village">Kuruman</settlement></placeName> as soon as he - your kind gift to me was brought 
+<lb/>to us in <date when="1847-08">August</date> last, the rogues however had taken as much 
 <lb/>benefit out of it during the two years they kept it from me as to render 
 <lb/>him useless for some time after I got him - the sickness began 
-<lb/>early this season and he fell a victim to my great sorrow. We got by 
-<lb/>him several eilads &amp; Kaveels. I had always doubts about his identity, he 
+<lb/>early this season and he fell a victim to my great sorrow - We got by 
+<lb/>him several <term type="animal">elands</term> &amp; <unclear cert="medium"><term type="animal">Kameels</term></unclear> - I had always doubts about his identity, he 
 <lb/>had a bay mane &amp; tail now you mentioned that these points were black 
-<lb/>they deny the saddle. It may howeveryet turn out when no longer 
+<lb/>they deny the <unclear cert="medium">sadle</unclear> - It may however yet turn out when no longer 
 <lb/>usable. We felt the more sorry to part with the poor animal  as it was 
-<lb/>in our minds closely associated with yourself. As I am on a four footed 
-<lb/>subject I may mention that <persName>Roberts</persName> cow has calved <add place="above">a heffer calf</add> &amp; both cow &amp; 
+<lb/>in our minds closely associated with yourself - As I am on a four footed 
+<lb/>subject I may mention that <persName>Robert</persName>'s <term type="animal">cow</term> has calved <add place="above">a <choice><sic>hiefer</sic><corr>heifer</corr></choice> <term type="animal">calf</term></add> &amp; both <term type="animal">cow</term> &amp; 
+<lb/><term type="animal">calf</term> are now very beautiful animals - We thank you for the <term type="foodstuff">milk</term>
 <lb/>you have given us. <persName>Robert</persName> runs about now &amp; speaks a little in both  
 <lb/>languages, his sister helps him occasionally in the 
 
-	<pb n="0004" facs="liv_000652_0004"/><!--pb/@n='2v'-->
-<lb/>matrimonial music we enjoy. If you heard them both at it you would 
-<w>con-<lb break="no"/>sider</w>  that <persName>Selkirk</persName> talked nonsense when he said something about science 
+<pb n="0004" facs="liv_000652_0004"/><!--pb/@n='2v'-->
+<lb/>matrimonial music we enjoy - If you heard them both at it you would <w>con<supplied>-</supplied>
+<lb break="no"/>-clude</w>  that <persName>Selkirk</persName> talked nonsense when he said something about science 
 <lb/>is shocking to me. I am building a new house at present. I burned the 
-<lb/>old house &amp; school lest a boer might take up his residence in them. This 
-<lb/>brings to my mind the Boor expedition to <persName>Mosilikatze</persName>. It was a mere foray 
-<lb/>for cattle &amp; they suceeded in carrying of a number but the Matibele recaptured 
-<lb/>them &amp; killed a great number of their native auxilaries, the expedition 
-<lb/>ended by their attacking one of their assistant tribes - the Bamapela - and 
-<lb/>carrying off a great number of children &amp; sheep. I saw in my late journey 
-<lb/>many Bamapele children in their houses kept in a kind of slavery. The 
-<lb/>Boers generally are indignent until the party which acted treacherously 
-<lb/>with a friendly tribe - they have had some meetings on the subject. But 
-<lb/>I need not trouble you with Boor politics. The above is the report given 
-<lb/>by the boors themselves &amp; the native report agrees with it, the Boors generally 
-<lb/>intend an expedition against <persName>Moszilikatze</persName> in May next, they crossed the 
-<lb/><placeName>Limpopo</placeName> somewhere about  x <persName>Cumming</persName> did not see their spoor 
-<lb/>so I conclude he did not go very much further than yourselves. <persName>Mosilikatze</persName>
-<lb/>lives not very far from the Limpopo. It would be dangerous to go very 
-<lb/>far down the River on the northern bank. One might fall in with 
-<lb/>Matibele &amp; be mistaken for a boer. </p>
-<lb/><p>As I have but little space now I must say a word on the course to the 
-<lb/>Lake one route is N. W. from this for a considerable part of the way &amp; 
-<lb/>waggons can go on till within 8 days of the water - the other has more 
-<lb/>northing &amp; passes by Sekhomi, this is the preferable route as waggons can perform the whole distance. Sekhomi is unwilling that any one 
-<lb/>go past him for his ivory comes from the tribes situated there 
-<lb/>but we should not ask his leave. We should go through north from 
-<lb/>Masihue or Koribelo. Please bring a nautical Almanack with you. 
-<lb/>Five shillings in London. But 15 at the <placeName>Cape</placeName>. I have requested <persName>Captain 
-<lb/>Steele </persName> to bring any periodicals he can lay his hands on. Any old 
-<lb/>Reviews Scientific  journals - <hi rend="underline">not new.</hi> Maybe left here rather than 
-<lb/>be consigned to luniber homes at home. If you can take in the Edinburgh or 
-<lb/>Blackwood  while at home. Please do not leave them behind you 
-<lb/>If you wonder at my impudence  But I am a caffre - the seeds have 
-<lb/>not arrived yet but will in due time I have no doubt . I thank 
-<lb/>you infrequently for them - the ?? seeds did not vegetate here<reg>.</reg></p>
-<lb/><p>
+<lb/>old house &amp; school lest a <orgName>boer</orgName> might take up his residence in them - This 
+<lb/>brings to my mind the <orgName>Boer</orgName> expedition to <persName>Mosilikatze</persName>. It was a mere foray 
+<lb/>for cattle &amp; they succeeded in carrying of a number but the <term type="tribe">Matibele</term> recaptured 
+<lb/>them &amp; killed a great number of their <term type="occupation"><orgName>native</orgName> auxiliaries</term> - the expedition 
+<lb/>ended by their attacking one of their assistant tribes - the <term type="tribe">Bamapela</term> - and 
+<lb/>carrying off a great number of children &amp; <term type="animal">sheep</term> - I saw in my late journey 
+<lb/>many <term type="tribe">Bamapela</term> children in their houses kept in a kind of <orgName>slavery</orgName>. The 
+<lb/><orgName>Boers</orgName> generally are indignant until the party which acted treacherously 
+<lb/>with a friendly tribe - they have had some meetings on the subject But 
+<lb/>I need not trouble you with <orgName>Boer</orgName> politics - The above is the report given 
+<lb/>by the <orgName>boers</orgName> themselves &amp; the <orgName>native</orgName> report agrees with it - The <orgName>Boers</orgName> generally 
+<lb/>intend an expedition against <persName>Moszilikatse</persName> in May next, they crossed the 
+<lb/><placeName><geogName type="river">Limpopo</geogName></placeName> somewhere about  x <persName>Cumming</persName> did not see their spoor 
+<lb/>so I conclude he did not go very much further than yourselves. <persName>Mosilikatse</persName>
+<lb/>lives not very far from the <placeName><geogName type="river">Limpopo</geogName></placeName>. It would be dangerous to go very 
+<lb/>far down the River on the northern bank - One might fall in with 
+<lb/><term type="tribe">Matibele</term> &amp; be mistaken for a <orgName>boer</orgName>- </p>
+<lb/><ab rend="vertical">
 <address>
-<addrLine>Care of the <persName>Rev. D<hi rend="sup underline">r</hi> Philip <placeName>Cape Town</placeName></persName>
-<lb/><persName> W, Oswell  Esq</persName><hi rend="sup underline">re</hi>
-<lb/>India</addrLine>
+<addrLine><space extent="4" unit="chars"/>Care of the <persName><choice><abbr>Rev. D<hi rend="sup underline">r</hi></abbr><expan>Reverend</expan></choice> Philip</persName> <placeName><settlement type="city">Cape Town</settlement></placeName></addrLine>
+<addrLine><del type="cancelled">Care of <gap agent="illegible" unit="words" extent="3"/> <placeName><settlement type="city">Cape Town</settlement></placeName></del></addrLine>
+<addrLine><space extent="4" unit="chars"/><persName>W. <choice><sic>Oswel</sic><corr>Oswell</corr></choice>  <choice><abbr>Esq<hi rend="sup underline">re</hi></abbr><expan>Esquire</expan></choice></persName></addrLine>
+<addrLine><del type="cancelled"><unclear cert="low">Mp Crawfurd Calcutta</unclear></del></addrLine>
+<addrLine><space extent="8" unit="chars"/><del type="cancelled"><placeName><settlement type="city">Madras</settlement></placeName> <unclear cert="low"><choice><abbr>C. S.</abbr><expan>Chennai State</expan></choice></unclear></del></addrLine>
+<addrLine><space extent="15" unit="chars"/><del type="cancelled"><gap agent="illegible" unit="chars" extent="8"/></del></addrLine>
+<addrLine><space extent="16" unit="chars"/><del type="cancelled"><placeName><country>India</country></placeName></del></addrLine>
 </address>
-</p><addSpan spanTo="#addEnd-2v" place="end"><!--addSpan/@place='sheet folded to make envelope. Envelope test on the middle of fo. 2v'--></addSpan>
-<lb/><p>Saw two genuine Banyanis. Roots coming down 
+</ab><!--addSpan/@place='sheet folded to make envelope. Envelope test on the middle of fo. 2v'-->
+<lb/><p>As I have but little space now I must say a word on the course to the 
+<lb/>Lake one route is <choice><abbr>N. W.</abbr><expan>North West</expan></choice> from this for a considerable part of the way &amp; 
+<lb/>waggons can go on till within 8 days of the water - the other has more 
+<lb/>Northing &amp; passes by <persName>Sekhomi</persName>, this is the preferable route as waggons 
+<lb/>can perform the whole distance. <persName>Sekhomi</persName> is unwilling that any one 
+<lb/>go past him for all his ivory comes from the tribes situated there 
+<lb/>but we should not ask his leave - We should go through north from 
+<lb/><placeName><geogName type="well">Mashue</geogName></placeName> or <unclear cert="low"><placeName><geogName>Koribelo</geogName></placeName></unclear> - Please bring a nautical Almanack with you. 
+<lb/>Five shillings in <placeName><settlement type="city">London</settlement></placeName> - But 15 at the <placeName><region>Cape</region></placeName>. I have requested <persName>Captain <lb/>Steele</persName> to bring any periodicals he can lay his hands on - Any old 
+<lb/>Reviews Scientific Journals - <hi rend="underline">not new -</hi> Maybe left here rather than 
+<lb/>be consigned to lumber homes at home - If you can take in the <bibl>Edinburgh</bibl> or 
+<lb/><bibl>Blackwood</bibl> while at home. Please do not leave them behind you 
+<lb/>You wonder at my impudence  But I am a <orgName>Caffre</orgName> - the seeds have 
+<lb/>not arrived yet but will in due time I have no doubt - I thank 
+<lb/>you infrequently for them - the <term type="plant">Moana</term> seeds did not vegetate here</p>
+<lb/><cb/>
+<lb/><ab rend="vertical">Saw two genuine <term type="plant">Banyan</term>'s. Roots coming down thus
 <lb/>a lot of fibrils at the end of each descending branch all 
-<lb/>ready to do duty in the ground. <persName>M<hi rend="sup underline">rs</hi>L</persName> joins 
-<lb/>with me in very affectionate salutations. </p>
-<lb/><p>Ever yours <persName>D Livingston</persName></p><anchor xml:id="addEnd-2v"/>
-			
-</div>
+<lb/>ready to do duty in the ground. <persName>M<hi rend="sup underline">rs</hi> <choice><abbr>L</abbr><expan>Livingstone</expan></choice></persName> joins 
+<lb/>with me in very affectionate salutations. 
+<lb/><space extent="3" unit="words"/>Ever yours <persName><choice><abbr>D</abbr><expan>David</expan></choice> Livingston</persName> <add place="below"><hi rend="black"><persName>Dr. Livingstone</persName></hi></add><anchor xml:id="addEnd-1r"/></ab>
+
+			</div>
 		</body>
-	</text></TEI>
+	</text>
+</TEI>

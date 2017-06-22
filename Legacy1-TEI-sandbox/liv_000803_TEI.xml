@@ -1,119 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000803">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>Letter to Thomas Maclear</title>
-                <title type="alternative">Letter to Thomas Maclear, 29 September 1853</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
-			</titleStmt>
-			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>2008-10</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
-				<idno type="LEAP-ID">liv_000803</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl xml:id="shelfmark">National Library of Scotland; MS. 10768, ff. 10-11</bibl>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Letter to Thomas Maclear</title>
+            <title type="alternative">Letter to Thomas Maclear, 29 September 1853</title>
+			<author>Livingstone, David, 1813-1873</author>
+		</titleStmt>
+		<publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
+			<idno type="LEAP-ID">liv_000803</idno>
+		</publicationStmt>
+		<sourceDesc>
+				<bibl xml:id="shelfmark">National Library of Scotland; MS. 10768, 10-11</bibl>
 				<bibl xml:id="ccnumber">Letters, 0323</bibl>
-				<bibl xml:id="recipient"><persName>Maclear, Thomas, 1794-1879</persName></bibl>
+				<bibl xml:id="recipient"><persName>Maclear, Thomas, 1794-1879</persName>; </bibl>
 				<bibl xml:id="date"><date when="1853-09-29">29 September 1853</date></bibl>
 				<bibl xml:id="where">Sekeletu's Town</bibl>
-			</sourceDesc>
-		</fileDesc>
-		<profileDesc>
-			<langUsage>
-				<language ident="en">English</language>
-			</langUsage>
-			<handNotes>
-				<handNote xml:id="hand01">Scribe: Unknown</handNote>
-			</handNotes>
-		</profileDesc>
-		<revisionDesc>
+		</sourceDesc>
+	</fileDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+		</langUsage>
+		<handNotes>
+			<handNote xml:id="hand01">Scribe: Unknown</handNote>
+		</handNotes>
+	</profileDesc>
+	<revisionDesc>
+		<change>
+			<date>2008</date>
+			<name>Caroline Overy</name>Initial Transcription by Caroline Overy
+		</change>
+		<change>
+			<date>2017-05-14</date>
+			<name>Kate Simpson</name>Proofreading by Kate Simpson
+		</change>
 			<change>
-				<date>2008</date>
-				<name xml:id="initials">CO</name>Initial Transcription by Caroline Overy
+				<date>2017-06-14</date>
+				<name>Adrian S. Wisnicki</name>Formatting Review by Adrian S. Wisnicki
 			</change>
-		</revisionDesc>
-	</teiHeader>
+	</revisionDesc>
+</teiHeader>
 
-	<text>
-		<body xml:lang="en">
-			<div>
+<text>
+	<body xml:lang="en">
+		<div>
 
-	<pb n="0001" facs="liv_000803_0001"/><!--pb/@n='10r'-->
-<lb/><p rend="right"><placeName>Town of Sekeletu</placeName>, <placeName>Linyanti</placeName> 29<hi rend="sup"><hi rend="underline">th</hi></hi> September</p>
-<lb/><p rend="right">1853</p>
-<lb/><p><persName>Thomas Maclear</persName> Esq<hi rend="sup"><hi rend="underline">re</hi></hi></p>
-<lb/><p rend="center">My Dear Sir</p>
-<lb/><p>Enclosed you will <choice><sic>percieve</sic><corr>perceive</corr></choice> a mass of 
-<lb/>manuscripts with which I take the liberty to trouble you. The <unclear cert="medium">faggot</unclear> contains 
-<lb/>observations made at different parts of the country and I venture to 
+<pb n="0001" facs="liv_000803_0001"/><!--pb/@n='10r'-->
+			<lb/><p><space extent="30" unit="chars"/><placeName><settlement type="town">Town of Sekeletu</settlement></placeName>, <placeName><region>Linyanti</region></placeName> <date when="1853-09-29">29<hi rend="sup"><hi rend="underline">th</hi></hi> September
+				<lb/><space extent="60" unit="chars"/>1853</date></p>
+			<lb/><p><space extent="2" unit="chars"/><persName>Thomas Maclear</persName> <choice><abbr>Esq<hi rend="underline">re</hi></abbr><expan>Esquire</expan></choice></p>
+<lb/><p><space extent="22" unit="chars"/>My Dear Sir
+<lb/><space extent="34" unit="chars"/>Enclosed you will <choice><sic>percieve</sic><corr>perceive</corr></choice> a mass of 
+<lb/>manuscripts with which I take the liberty to trouble you - The faggot contains 
+<lb/>observations made at different parts of the country and I venture to
 <lb/>send them such as they are because you mentioned that you preferred 
 <lb/>such to those which have passed through the adulterating process of an 
-<lb/>African calculation. If you read them backwards like Hebrew viz. 
-<lb/>beginning with the fifth or sixth <del type="strikethrough">page</del><add place="above">sheet</add> I shal feel obliged for 
+<lb/><orgName>African</orgName> calculation. If you read them backwards like Hebrew viz. 
+<lb/>beginning with the fifth or sixth <del type="strikethrough">page</del><add place="above">sheet</add> I shall feel obliged for 
 <lb/>then you will be able to see the reason why I sent such 
-<lb/>poor things as those made from the <term type="tribe">Bamangwato</term> Northwards<reg>.</reg>
-<lb/>I found or thought I found that our Longitudes of last 
+<lb/>poor things as those made from the <term type="tribe">Bamangwato</term> Northwards</p>
+<lb/><p rend="no-indent">I found or thought I found that our Longitudes of last 
 <lb/>journey were all wrong, our waggon stand instead of being in 
-<lb/>26º is not more than 23º 48′ or 50′. But I have not so much 
+<lb/><measure>26º</measure> is not more than <measure>23º 48′ or 50′</measure> - But I have not so much 
 <lb/>confidence in my calculations as to assert this without serious 
-<lb/>misgivings. When I found that the Boers had destroyed my 
+<lb/><add place="marginleft" hand="#hand01" rend="gray">X</add> misgivings - When I found that the <orgName>Boers</orgName> had destroyed my 
 <lb/>celestial map - I set off to work on the Lunars and persevered 
-<lb/><choice><sic>untill</sic><corr>until</corr></choice> I think I have mastered the methods given in <persName>Thomson's</persName>
-<lb/>Tables perfectly, I made many obsevations between <placeName>Kuruman</placeName>
+<lb/><choice><orig>untill</orig><reg>until</reg></choice> I think I have mastered the methods given in <persName>Thomson</persName>'s
+<lb/>Tables perfectly, I made many observations between <placeName><settlement type="village">Kuruman</settlement></placeName>
 <lb/>and this but working with the inverting telescope chiefly I placed 
-<lb/>no value on them. My chief aim was to acquire as much 
+<lb/>no value on them - My chief aim was to acquire as much 
 <lb/>facility with it as with the small telescope, I have succeeded 
-<lb/>in this too, but when i found out longitudes were wrong 
-<lb/>I felt nsorry I had not written down all my observations. 
+<lb/>in this too, but when I found out longitudes were wrong 
+<lb/>I felt sorry I had not written down all my observations - 
 <lb/>Those I have put down are from the <term type="tribe">Bamangwato</term> Northwards 
 <lb/>and were made in trying to work with the sextant fixed on 
-<lb/>a stand with a movable joint. <choice><reg>T</reg><orig>t</orig></choice>hey are very precise but 
+<lb/>a stand with a movable joint - they are very precise but 
 <lb/>the time required to get the mercury into the right position in 
 <lb/>turning from one object to another, and above all this difficulty 
 <lb/>of getting the instrument adjusted to the different angles in which 
 <lb/>Lunars are observed rendered this effort after many trials 
-<lb/>abortive. I thought however that you may be able to 
-<lb/>make something of them, perhaps determine whether the Long. 
-<lb/>of the <term type="tribe">Bamangwato</term> is right. I worked out many here before 
-<lb/>coming to the conclusion that 26º was wrong, and a new 
+<lb/>abortive - I thought however that you may be able to 
+<lb/>make something of them, perhaps determine whether the <choice><abbr>Long-</abbr><expan>Longitude</expan></choice> 
+<lb/>of the <term type="tribe">Bamangwato</term> is right - I worked out many here before 
+<lb/>coming to the conclusion that <measure>26º</measure> was wrong, and a new 
 <lb/>idea has lately entered my head which makes me fear 
-<lb/>that <persName>M<hi rend="sup"><hi rend="underline">r</hi></hi> Morton</persName> may be right after all. <gap extent="3" unit="words" agent="editorialDecision"/>
+<lb/>that <persName>M<hi rend="sup"><hi rend="underline">r</hi></hi> Morton</persName> may be right after all - I have been
 
-	<pb n="0002" facs="liv_000803_0002"/><!--pb/@n='10v'-->
-<gap extent="1" unit="pages" agent="editorialDecision"/>
+<pb n="0002" facs="liv_000803_0002"/><!--pb/@n='10v'-->
+<lb/>all along deduc<del>ing</del><add place="over-text">ed</add> my time at the station from Attitudes of the Sun
+<lb/>taken in the morning or evening but the sun's declination has
+<lb/>always <choice><orig>untill</orig><reg>until</reg></choice> lately been North and I suspect the true time cannot
+<lb/>be obtained when the station (Latitude of) and Declination are of
+<lb/>contrary names <space unit="chars" extent="2"/> I have not time at present to work out another 
+<lb/>being busy writing for the present which is the only opportunity
+<lb/>I have had of transmitting letters to the <placeName><region>South</region></placeName> - you will please
+<lb/>take notice of this source of error - Nobody requires to have
+<lb/>all his wits about him so much as <del type="strikethrough">those</del><add place="above">he</add> who ha<del>ve</del><add place="over-text">s</add> anything
+<lb/>to do with the stars - My chief hope lies in the occultations few
+<lb/>and inexplicit though these are -</p>
+<lb/><p>I am now waiting for the commencement of the
+<lb/><term type="weather">rains</term> in order to proceed Westward on <term type="animal">horse</term>back - <orgName><term type="occupation"><orgName>Slave</orgName> merchants</term></orgName>
+<lb/>report it impossible to go in waggons There are so many rivers
+<lb/>and thick forests - They are carried in hammocks slung to poles
+	<lb/>It does not look well - The <orgName>slaves</orgName> admired my walking and
+	<lb/>especially marching through small rivers which abound in the
+	<lb/><placeName><region><term type="tribe">Barotse</term> country</region></placeName> without thinking I was doing anything extraordinary
+	<lb/>the <term type="tribe">Barotse</term> who were with me called out "Hello <persName>Mambari</persName> your
+	<lb/>father is a child - you <foreign xml:lang="und">pépa</foreign> him", a child's word for nurse - the poor
+	<lb/>fellows were quite of the same opinion - The heat is lessened 
+	<lb/>when the <seg type="weather">rains</seg> commence So should my <term type="animal">horse</term> die the walk
+	<lb/>will not be so trying - I think of <placeName><settlement type="city">Londa</settlement></placeName> though it is
+	<lb/>farther than <unclear cert="medium"><placeName><settlement type="village">Banguela</settlement></placeName></unclear> because there are <term type="nationality">English</term> living
+	<lb/>there - <space extent="2" unit="chars"/> The <term type="nationality">Portuguese</term> maps are all constructed from <orgName>Native</orgName>
+	<lb/>information - A <term type="nationality">French</term> man <choice><sic>recieved</sic><corr>received</corr></choice> various honours
+	<lb/>for determining some points - and the <term type="nationality">Portuguese</term> <term type="occupation">merchants</term>
+	<lb/>assert that he was never known to have travelled in <placeName><region>Western
+	<lb/>Africa</region></placeName> at all - If I am permitted to follow out my
+	<lb/>plan I shall return - through <placeName><settlement type="city">Londa</settlement></placeName>, the capital of a powerful
+	<lb/>state, down the <placeName><geogName type="river">Leeba</geogName></placeName> - Should my return be prevented
+	<lb/>I shall not have any occultations for you, because I 
+	<lb/>do not know the stars which are to be occulted in
+	<lb/>the next three months - But in <date when="1854-01">January 1854</date> I see 
+	<lb/>several which I believe I know γ Leonis for instance
+	<lb/>on the <date when="1854-01-16">16<hi rend="sup underline">th</hi></date> if the moon is not too far down and
+	<lb/>β<hi rend="sup">1</hi> Scorpii - ω<hi rend="sup">1</hi> <choice><abbr>D<hi rend="sup underline">o</hi></abbr><expan>Ditto</expan></choice> both on the <date when="1854-01-23">23<hi rend="sup">d</hi></date> The same stars may
+	<lb/>perhaps be seen on the <date when="1854-04-08">8<hi rend="sup underline">th</hi></date> &amp; <date when="1854-04-15">15 April</date> but where I shall
+	<lb/>be it is hard to tell - I suppose it will be best for me to
+	<lb/>multiple observations of Lunar distances</p>
 
-	<pb n="0003" facs="liv_000803_0003"/><!--pb/@n='11r'-->
-<gap extent="0.5" unit="pages" agent="editorialDecision"/></p>
-<lb/><p>One of the slave merchants wished me to go westward in 
-<lb/>his company. He was as kind to me when I was up at the <term type="tribe">Barotse</term>
+<pb n="0003" facs="liv_000803_0003"/><!--pb/@n='11r'-->
+<lb/><p>I have enclosed a letter to <persName><choice><abbr>Lieut<hi rend="sup underline">t</hi></abbr><expan>Lieutenant</expan></choice> Colonel Steele</persName>. It is not <add place="marginright" rend="gray" hand="#hand01">11</add>
+	<lb/>a private letter but intended for the <orgName>Royal Geographical Society</orgName>, so
+<lb/>you need feel no hesitation in reading it - I feel rather anxious
+<lb/>that you should peruse it in order to see whether I have said too
+<lb/>much on the subject of the Longitude - If you will add a note
+<lb/>to correct my mistake it will make the communication so much
+	<lb/>more valuable - Your family <persName>M<hi rend="sup">r</hi> Mann</persName> &amp; <persName>M<hi rend="sup">r</hi> Morton</persName> are welcome
+<lb/>to a perusal if they wish it - Please just do with the observations
+<lb/>whatever you think best - Send them to any of your friends who
+<lb/>may take an interest in such things and draw your pen
+<lb/>through my remarks about the calculation if it does not
+<lb/>please you - The sketch is intended to give a correct idea of 
+<lb/>what I saw and no more - I took the bearings of every reach
+<lb/>of the river both in ascending and descending - It became very
+<lb/>long - In reducing it I may be wrong, so send a copy of the original
+	<lb/>for cleverer persons to do better - If <persName>M<hi rend="sup">r</hi> Morton</persName> wishes to have
+<lb/>a sketch of this too it is at his service; those who are at
+<lb/>the head quarters of observations on <placeName><bloc>Africa</bloc></placeName> have the best
+<lb/>right to early notices of any discoveries  - You will observe
+<lb/>how very like the drawings of the <orgName>natives</orgName> from which we
+<lb/>constructed our map are to that made from actual survey -
+<lb/>I have not worked out a Lunar of our farthest point North
+	<lb/>viz. the confluence the <placeName><geogName type="river">Leeba</geogName></placeName> and <placeName><geogName type="river">Leeambye</geogName></placeName> -
+<lb/></p>
+			<lb/><p>One of the <orgName><term type="occupation"><orgName>slave</orgName> merchants</term></orgName> wished me to go Westward in 
+<lb/>his company - He was as kind to me when I was up at the <term type="tribe">Barotse</term>
 <lb/>as he could be, influenced probably by a letter from the <persName>chevalier 
-<lb/>Du Pratt</persName>. <choice><reg>B</reg><orig>b</orig></choice>ut the sight of gangs of poor wretches in chains 
-<lb/>was so much against the grain I resolved to proceed alone<reg>.</reg>
-<lb/>He could speak no language, but Portuguese. We managed 
-<lb/>to make a jargon. I caught all the owrds resembling latin 
+<lb/>Du Pratt</persName>. but the sight of gangs of poor wretches in chains 
+<lb/>was so much against the grain I resolved to proceed alone</p>
+<lb/><p rend="no-indent">He could speak no language, but Portuguese - We managed 
+<lb/>to make a jargon - I caught all the words resembling latin 
 <lb/>added other Latin terms to these and when very much at a 
 <lb/>loss stuck in some big rough Dutch word to eke out the 
-<lb/>sentence. It is so wonderful how seeon one believes he understands 
+<lb/>sentence. It is so wonderful how soon one believes he understands 
 <lb/>what is said, <persName>Cumming</persName> thought he could speak Sechuana 
-<lb/>when he knew about four words. I have heard him call out 
-<lb/>"Rhinoceros" when he wanted his servant to beat the oxen and 
+<lb/>when he knew about four words - I have heard him call out 
+	<lb/>"<term type="animal">Rhinoceros</term>" when he wanted his servant to beat the <term type="animal">oxen</term> and 
 <lb/>he thought he must be understood because the whip was made 
-<lb/>of rhinocerous skin. Pardon this gossip and</p>
-<lb/><p>Believe me yours </p>
-<lb/><p>most Truly </p>
-<lb/><p>David Livingston</p>
+	<lb/>of <term type="animal">rhinoceros</term> skin <space extent="2" unit="chars"/> Pardon this gossip and</p>
+<lb/><p><space extent="21" unit="chars"/>Believe me yours 
+<lb/><space extent="27" unit="chars"/>most Truly 
+<lb/><space extent="30" unit="chars"/>David Livingston</p>
 
-	<pb n="0004" facs="liv_000803_0004"/><!--pb/@n='11v'-->
-<gap agent="editorialDecision"/><!-- envelope -->
-			
+<pb n="0004" facs="liv_000803_0004"/><!--pb/@n='11v'-->
+			<lb/><p rend="vertical">
+				<address>
+<addrLine><hi rend="double-underline">Prepaid</hi></addrLine>
+					<addrLine><space extent="10" unit="chars"/><persName>Thomas Maclear</persName> Esquire</addrLine>
+					<addrLine><space extent="18" unit="chars"/><orgName>Royal Observatory</orgName></addrLine>
+					<addrLine><space extent="22" unit="chars"/><hi rend="underline"><placeName><region>Cape of Good Hope</region></placeName></hi></addrLine>
+				</address></p>
+		
 </div>
-		</body>
-	</text></TEI>
+	</body>
+</text></TEI>

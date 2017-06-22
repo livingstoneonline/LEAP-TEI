@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017--><!-- -->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002538">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Letter to John Kirk 2 and Robert L. Playfair</title>
                 <title type="alternative">Letter to John Kirk 2 and Robert L. Playfair, 30 May 1869</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+				<author>Livingstone, David, 1813-1873</author>
 			</titleStmt>
 			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>2008-01-29</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
 				<idno type="LEAP-ID">liv_002538</idno>
 			</publicationStmt>
 			<sourceDesc>
+				<bibl xml:id="shelfmark">National Library of Scotland; MS. 42421, ff. 7r-8v</bibl>
 				<bibl xml:id="ccnumber">Letters, 1938</bibl>
+				<bibl xml:id="recipient"><persName>Kirk, John 2, 1832-1922</persName>; <persName>Playfair, Robert L., 1828-1899</persName>; </bibl>
+				<bibl xml:id="date"><date when="1869-05-30">30 May 1869</date></bibl>
+				<bibl xml:id="where">Ujiji</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -33,7 +37,19 @@
 		<revisionDesc>
 			<change>
 				<date>2008-01-29</date>
-				<name xml:id="SM">Sharon Messenger</name>Initial Transcription by Sharon Messenger
+				<name>Sharon Messenger</name>Initial Transcription by Sharon Messenger
+			</change>
+			<change>
+				<date>2017-01-19</date>
+				<name>Adrian S. Wisnicki</name>Coding Review by Adrian S. Wisnicki
+			</change>
+			<change>
+				<date>2017-05-11</date>
+				<name>Heather Ball</name>Proofing by Heather Ball
+			</change>
+			<change>
+				<date>2017-06-14</date>
+				<name>Adrian S. Wisnicki</name>Formatting Review by Adrian S. Wisnicki
 			</change>
 		</revisionDesc>
 	</teiHeader>
@@ -43,117 +59,127 @@
 			<div>
 
 	<pb n="0001" facs="liv_002538_0001"/><!--pb/@n='35r'-->
-<lb/><p rend="right"><placeName>Ujiji</placeName> - 30<hi rend="sup"><hi rend="underline">th</hi></hi> May 1869 </p>
-<lb/><p>My Dear <persName>Col. Playfair</persName> or <persName>D<hi rend="sup underline">r</hi> Kirk</persName>
-<lb/><choice><reg>T</reg><orig>t</orig></choice>his note goes by Musa 
-<lb/>Kamaals who was employed 
-<lb/>by Karoji to drive the buffaloes 
-<lb/>hither, but by <add place="above">over</add> driving them 
-<w>un-<lb break="no"/>mercifully</w> in the sun &amp; tying them 
+<addSpan spanTo="#p35r-01" place="marginleft"><!--addSpan/@place='left hand margin'--></addSpan>
+<lb/><cb rend="vertical"/><ab> A long box paid for to <placeName><settlement type="town">Ujiji</settlement></placeName> was left at <placeName><settlement type="town"><choice><abbr>Unjembe</abbr><expan>Unyanyembe</expan></choice></settlement></placeName>
+<lb/>&amp; so with other boxes</ab><anchor xml:id="p35r-01"/>
+			
+<lb/><p rend="no-indent"><space extent="4" unit="chars"/><add rend="red" hand="#U">64</add> <space extent="2" unit="chars"/><placeName><settlement type="town">Ujiji</settlement></placeName> - 30<hi rend="sup"><hi rend="underline">th</hi></hi> May 1869 <add hand="#U" rend="small">35</add></p>
+<lb/>
+<lb/><p rend="no-indent">My Dear <persName><term type="occupation"><choice><abbr>Col.</abbr><expan>Colonel</expan></choice></term> Playfair</persName> or <persName>D<hi rend="sup underline">r</hi> Kirk</persName></p>
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/>This note goes by <persName>Musa 
+<lb/>Kamaals</persName> who was employed 
+<lb/>by <persName>Karoje</persName> to drive the <term type="animal">buffaloes</term> 
+<lb/>hither, but by <add place="below">^</add> <add place="above">over</add> driving them <w>un-
+<lb break="no"/>mercifully</w> in the sun &amp; tying them 
 <lb/>up to save trouble in herding 
-<lb/>they all died before he got to <placeName><w>Unyin-<lb break="no"/>yembe.</w></placeName> He witnessed the plunder
-<lb/>ing of my goods 
-&amp; got a share of 
-<lb/>them. I have given him beads 
-<lb/>and cloth sufficient to buy 
-<w>pro-<lb break="no"/>visions</w> for himself in the way 
-<lb/>back to <placeName>Zanzibar</placeName>. He has done 
-<lb/>nothing here. He neither went 
+<lb/>they all died before he got to <placeName><settlement type="town"><w><choice><abbr>Unyin-
+<lb break="no"/>yembe</abbr><expan>Unyanyembe</expan></choice></w></settlement></placeName> - He witnessed the <w>plunder<supplied>-</supplied>
+<lb/>ing</w> of my goods &amp; got a share of 
+<lb/>them - I have given him beads 
+<lb/>and cloth sufficient to buy <w>pro-
+<lb break="no"/>visions</w> for himself in the way 
+<lb/>back to <placeName><geogName type="island">Zanzibar</geogName></placeName> - He has done 
+<lb/>nothing here - He neither went 
 <lb/>near the goods here nor tried to 
 <lb/>prevent them being stolen in the 
-<lb/>way. I suppose that pay for 
+<lb/>way - <space extent="2" unit="chars"/>I suppose that <choice><sic>pay</sic><corr>pays</corr></choice> for 
 <lb/>four months in coming - other 
 <lb/>four of rest - and four in going 
 <lb/>back would be ample <del type="strikethrough">pay</del>
-<lb/>but I leave this to your decision<reg>.</reg>
+<lb/>but I leave this to your decision
 <lb/>I could not employ him to 
 <lb/>carry my mail back, nor can 
 <lb/>I say anything to him for he 
-<lb/>at once goes to the Ujijians 
+<lb/>at once <space extent="1" unit="chars"/>goes to the <orgName>Ujijians</orgName>
 
 	<pb n="0002" facs="liv_002538_0002"/><!--pb/@n='35v'-->
 <lb/>and gives his own version of all 
-<lb/>he hears. He <add place="above">is</add> untruthful and 
-<w>ill-<lb break="no"/>conditioned</w> and would hand off 
+<lb/>he hears - He <add place="above">is</add> untruthful and <w>ill
+<lb break="no"/>-conditioned</w> and would hand off 
 <lb/>the mail to anyone who wished to 
-<lb/>destroy it. <choice><reg>T</reg><orig>t</orig></choice>he people here are like 
-<lb/>the Kilwa traders <del type="strikethrough">from Kilwa</del>
-<lb/>haters of the English. Those <add place="above"><placeName>Zanzibar</placeName> men</add> whom 
-<lb/>I met between this &amp; <placeName>Nyassa</placeName> were 
-<lb/>gentlemen and traded with honour<reg>.</reg>
-<lb/>Here as in the haunts of the Kilwa 
-<lb/>hordes slaving is a series of 
+<lb/>destroy it - the people here are like 
+<lb/>the <orgName><placeName><settlement type="town">Kilwa</settlement></placeName> <term type="occupation">traders</term></orgName> <del type="strikethrough">from <placeName><settlement type="town">Kilwa</settlement></placeName></del>
+<lb/>haters of the <term type="people">English</term> - Those <add place="below">^</add> <add place="above"><orgName><placeName><geogName type="island">Zanzibar</geogName></placeName> men</orgName></add> whom 
+<lb/>I met between this &amp; <placeName><geogName type="lake">Nyassa</geogName></placeName> were 
+<lb/>gentlemen and traded with honour
+<lb/>Here as in the haunts of the <placeName><settlement type="town">Kilwa</settlement></placeName>
+<lb/>hordes <orgName>slaving</orgName> is a series of 
 <lb/>forays - and they dread exposure 
-<lb/>by my letters - no one will take 
+<lb/>by <bibl>my letters</bibl> - no one will take 
 <lb/>charge of them - I have got <persName>Thani 
-<lb/>bin Suellim</persName> to take a mail <add place="above">privately</add> for 
-<lb/>transmission to <placeName>Uny<add place="above">any</add>ambe</placeName> - <!-- TODO SM: addition in other hand needs to be coded properly --> It 
-<lb/>contains a cheque on Ritchie 
-<lb/>Steuart &amp;co of <placeName>Bombay</placeName> for 
-<lb/>Rs 2000 - and some forty letters 
+<lb/>bin Suellim</persName> to take a mail <add place="below">^</add> <add place="above">privately</add> for 
+<lb/>transmission to <placeName><settlement type="town"><choice><abbr>Uny<add place="above" hand="#U">any</add>ambe</abbr><expan>Unyanyembe</expan></choice></settlement></placeName> - <!-- TODO SM: addition in other hand needs to be coded properly --> It 
+<lb/>contains a cheque on <persName cert="medium">Ritchie 
+<lb/>Stewart</persName> &amp;c off <placeName><settlement type="city">Bombay</settlement></placeName> for 
+<lb/><choice><abbr>Rs</abbr><expan>Rupees</expan></choice> 2000 - and some <bibl>forty letters</bibl>
 <lb/>written during my slow recovery. 
-<lb/>I fear it may never reach you<reg>.</reg> A party was sent to the coast two 
-<lb/>months ago. One man volunteered 
-<lb/>to take a letter secretly, but his master 
+<lb/>I fear it may never reach you 
+<lb/><orgName>A party</orgName> was sent to <placeName><region>the coast</region></placeName> two 
+<lb/>months ago. one man volunteered 
+<lb/>to take <bibl>a letter</bibl> secretly, but his <orgName><term type="occupation">master</term></orgName> 
 <lb/>warned them all not to do so, 
 <lb/>"because I might write something 
-<lb/>he did not like." He went out 
-<lb/>with the party &amp; gave orders to 
-<lb/>the headman to destroy any letter 
-<lb/>he might detect in the way. 
+<lb/>he did not like". He went out 
+<lb/>with <orgName>the party</orgName> &amp; gave orders to 
+<lb/>the <term type="occupation">headman</term> to destroy any letter 
+<lb/>he might detect in the way - 
 
 	<pb n="0003" facs="liv_002538_0003"/><!--pb/@n='36r'-->
 <lb/>This, though I am good friends 
-<lb/>outwardly with them all. I 
-<lb/>can get no assistance in 
-<w>Pro-<lb break="no"/>curing</w> carriers and as you will 
+<lb/>outwardly with them all. I <add place="marginright" hand="#U">36</add>
+<lb/>can get no assistance in <w>pro-
+<lb break="no"/>curing</w> <term type="occupation">carriers</term> and as you will 
 <lb/>see if the mail comes to hand. 
-<lb/>I send to <placeName>Zanzibar</placeName> for fifteen 
-<lb/>good boatmen to act as carriers 
+<lb/>I send to <placeName><geogName type="island">Zanzibar</geogName></placeName> for fifteen 
+<lb/>good <term type="occupation">boatmen</term> to act as <term type="occupation">carriers</term> 
 <lb/>if required - 80 pieces of 
-<lb/>Merikans 40 d<hi rend="sup">o</hi> Kinike 
+<lb/>Merikano 40 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> Kinike 
 <lb/>12 Frasilas of the beads called 
 <lb/>Samsam - shoes &amp;c and 
-<lb/>I have written to Sayad Majid 
-<lb/>begging two of his <choice><sic>gaurd</sic><corr>guard</corr></choice> to 
+<lb/>I have written to <persName>Seyed Majid</persName> 
+<lb/>begging two of his <term type="occupation"><choice><sic>gaurd</sic><corr>guard</corr></choice></term> to 
 <lb/>see to the safety of the goods 
-<lb/>here into <persName>Thani bin Suellim<reg>'</reg>s</persName>
-<lb/>hands or into those of <persName>Muhamad bin Saleh</persName>. </p>
-<lb/><p>As to the work to be done 
+<lb/>here into <persName>Thani bin <choice><sic>Suellims</sic><corr>Suellim's</corr></choice></persName>
+<lb/>hands or into those of 
+<lb/><persName>Muhamad bin Saleh</persName> -</p>
+<lb/><p rend="no-indent"><space extent="1" unit="chars"/>As to the work to be done 
 <lb/>by me it is only to connect 
-<lb/>the sources which I have 
+<lb/>the <placeName><geogName type="source">sources which I have 
 <lb/>discovered from 500 to 700 
-<lb/>miles south of Speke and 
-<lb/>Baker's <add place="above">with their <placeName>Nile</placeName></add>. The volume of 
-<lb/>water which flows North from Lat. 12º South is <gap extent="3" unit="lines" agent="damage"/>
+<lb/>miles south of <persName>Speke</persName> and 
+<lb/><persName>Baker's</persName> <add place="above">with their <placeName><geogName type="river">Nile</geogName></placeName></add></geogName></placeName> The volume of 
+<lb/>water which flows North 
+<lb/>from Lat. 12º South is 
+<lb/><gap extent="3" unit="lines" agent="damage"/><space extent="2" unit="words"/>that
+<lb/><space extent="4" unit="words"/><space extent="2" unit="chars"/>at the
+<lb/><space extent="4" unit="words"/><space extent="2" unit="chars"/>as well
 
 	<pb n="0004" facs="liv_002538_0004"/><!--pb/@n='36v'-->
-<lb/>those of the <placeName>Nile</placeName>. I have to go 
+<lb/>those of the <placeName><geogName type="river">Nile</geogName></placeName> - I have to go 
 <lb/>down the Eastern Line of 
-<lb/>drainage to Baker's turning 
-<lb/>point. <placeName>Tanganyika</placeName> - Nzige - 
-<lb/>Chowambe (Baker's?) are 
+<lb/>drainage to <placeName><geogName type="lake"><persName>Baker's</persName></geogName></placeName> turning 
+<lb/>point. <placeName><geogName type="lake">Tanganyika</geogName></placeName> - <placeName><geogName type="lake">Nzige</geogName></placeName> - 
+<lb/><placeName><geogName type="lake">Chowambe (<persName>Baker's</persName>?)</geogName></placeName> are 
 <lb/>one water - and the head of it 
-<lb/>is 300 miles south of this. 
-<lb/><choice><reg>T</reg><orig>t</orig></choice>he Western &amp; central lines of 
-<lb/>drainage converge into an 
-<w>un-<lb break="no"/>visited</w> Lake West or SW of 
-<lb/>this. The outflow of this whether 
-<lb/>to <placeName>Congo</placeName> or <placeName>Nile</placeName> I have 
-<w>to-<lb break="no"/>ascertain.</w><choice><reg>T</reg><orig>t</orig></choice>he people West of 
-<lb/>this called <term type="tribe">Menyema</term> are cannibals if Arabs speak truly<reg>.</reg>
+<lb/>is 300 miles South of this. 
+<lb/>The Western &amp; central lines of 
+<lb/>drainage converge into an <w>un-
+<lb break="no"/>visited</w> Lake West or SW of 
+<lb/>this - The outflow of this whether 
+<lb/>to <placeName><geogName type="river">Congo</geogName></placeName> or <placeName><geogName type="river">Nile</geogName></placeName> I have to <w>as-
+<lb break="no"/>-certain</w> - <orgName>the people West of 
+<lb/>this</orgName> called <term type="tribe">Manyema</term> are 
+<lb/><orgName>cannibals</orgName> if <orgName>Arabs</orgName> speak truly
 <lb/>I may have to go there first 
-<lb/>and down <placeName>Tanganyike</placeName> if 
+<lb/>and down <placeName><geogName type="lake">Tanganyika</geogName></placeName> if 
 <lb/>I come out uneaten &amp; find 
-<lb/>my new squad from <placeName>Zanzibar</placeName><reg>.</reg>
-<lb/>I ernestly hope that you will 
+<lb/>my new squad from <placeName><geogName type="island">Zanzibar</geogName></placeName>
+<lb/>I earnestly hope that you will 
 <lb/>do what you can to help me 
-<lb/>with the goods &amp; men - £400 to 
+<lb/>with the goods &amp; men - £<space extent="2" unit="chars"/>400 to 
 <lb/>be sent by <persName>M<hi rend="sup underline">r</hi> Young</persName> must 
-<lb/>surely have come to you through <persName>Fleming</persName><gap extent="1" unit="lines" agent="damage"/></p><addSpan spanTo="#p35r-01" place="marginleft"><!--addSpan/@place='left hand margin'--></addSpan>
-<lb/><p>A long box paid for to Ujiji was left at <placeName>Unjembe</placeName>
-<lb/>&amp; so with other boxes<reg>.</reg></p><anchor xml:id="p35r-01"/>
-			
+<lb/>surely have come to you through 
+<lb/><persName><w>Flemin<supplied cert="high">g</supplied></w></persName> <gap extent="1" unit="lines" agent="damage"/></p>
 </div>
 		</body>
 	</text></TEI>

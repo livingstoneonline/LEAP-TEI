@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001836">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Letter to [? Livingstone]</title>
                 <title type="alternative">Letter to [? Livingstone], 21 October 1862</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+				<author>Livingstone, David, 1813-1873</author>
 			</titleStmt>
 			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>2010</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
 				<idno type="LEAP-ID">liv_001836</idno>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl xml:id="shelfmark">National Library of Scotland; MS. 10701, ff. 136-137</bibl>
+				<bibl xml:id="shelfmark">National Library of Scotland; MS. 10701, 136-137</bibl>
+				<bibl xml:id="ccnumber">Letters, 1282</bibl>
+				<bibl xml:id="recipient"><persName>Livingstone, [?]</persName>; </bibl>
 				<bibl xml:id="date"><date when="1862-10-21">21 October 1862</date></bibl>
+				<bibl xml:id="where">Johanna</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -30,8 +33,16 @@
 		</profileDesc>
 		<revisionDesc>
 			<change>
-				<date>19-01-2010</date>
-				<name xml:id="SM">Sharon Messenger</name>Transcribed by Sharon Messenger
+				<date>2010-19-01</date>
+				<name>Sharon Messenger</name>Transcribed by Sharon Messenger
+			</change>
+			<change>
+				<date>2017-05-11</date>
+				<name>Heather Ball</name>Proofed by Heather Ball
+			</change>
+			<change>
+				<date>2017-06-14</date>
+				<name>Adrian S. Wisnicki</name>Formatting Review by Adrian S. Wisnicki
 			</change>
 		</revisionDesc>
 	</teiHeader>
@@ -41,34 +52,34 @@
 			<div>
 
 	<pb n="0001" facs="liv_001836_0001"/><!--pb/@n='01'-->
-<lb/><p rend="right"><placeName>Johanna</placeName> 21<hi rend="sup"><hi rend="underline">st</hi></hi> Oct<hi rend="sup">r</hi></p>
-<lb/><p>P.S. We went up a few 
+<lb/><p rend="no-indent gray"><add place="marginleft" hand="#U" rend="black small">64</add> <space unit="chars" extent="2"/><placeName><geogName type="island">Johanna</geogName></placeName> 21<hi rend="sup underline">st</hi> <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice> <add place="marginright" rend="small" hand="#U">136</add></p>
+<lb/><p rend="no-indent"><choice><abbr>P.S.</abbr><expan>Post Script</expan></choice> <space unit="chars" extent="2"/>We went up a few 
 <lb/>miles after coming back 
 <lb/>to the ship to get ebony 
 <lb/>which grows abundantly 
-<lb/>on the <placeName>Rovuma</placeName>, and 
+<lb/>on the <space unit="chars" extent="2"/><placeName><geogName type="river">Rovuma</geogName></placeName>, and 
 <lb/>when returning I saw 
-<lb/>a hippopotamus put 
+<lb/>a <term type="animal">hippopotamus</term> put 
 <lb/>his head up right in 
 <lb/>our way in a narrow 
 <lb/>channel - several 
 <lb/>others were a few 
 <lb/>yards to the left, and 
-<lb/>I said to <persName>D<hi rend="sup underline">r</hi> Kirk</persName>
-<lb/>that fellow seems 
-<lb/>waiting for us 
+<lb/>I said to <space unit="chars" extent="1"/><persName>D<hi rend="sup underline">r</hi> <space unit="chars" extent="1"/>Kirk</persName>
+<lb/>that fellow <space unit="chars" extent="2"/>seems 
+<lb/>waiting <space unit="chars" extent="2"/>for <space unit="chars" extent="2"/>us 
 
 	<pb n="0002" facs="liv_001836_0002"/><!--pb/@n='02'-->
 <lb/>the boat went right 
 <lb/>over him and he 
 <lb/>put up his head a 
 <lb/>few yards behind us. 
-<lb/>Then in under us 
+<lb/>Then <space unit="chars" extent="1"/>in under us 
 <lb/>and lifted a big boat 
 <lb/>with ten men and 
 <lb/>about a ton of ebony 
-<lb/>in it - giving it two 
-<lb/>tremendous bumps - 
+<lb/>in it - giving <space unit="chars" extent="2"/>it two 
+<lb/>tremendous <space unit="chars" extent="2"/>bumps - 
 <lb/>as the water began 
 <lb/>to flow in we ran 
 <lb/>over to a sand bank 
@@ -77,10 +88,10 @@
 
 	<pb n="0003" facs="liv_001836_0003"/><!--pb/@n='03'-->
 <lb/>the beast followed 
-<lb/>and <persName>D<hi rend="sup"><hi rend="underline">r</hi></hi> Kirk</persName> put a 
+<lb/>and <persName>D<hi rend="sup underline">r</hi> Kirk</persName> put a 
 <lb/>bullet into his ear 
 <lb/>which probably gave 
-<lb/>him the earache<reg>.</reg>
+<lb/>him the earache
 <lb/>We found that he 
 <lb/>had tried to bite 
 <lb/>the boat but it was 
@@ -88,29 +99,28 @@
 <lb/>out of his mouth 
 <lb/>the tusks cut some 
 <lb/>planks like a chisel 
-<lb/>&amp; made some holes 
-<lb/>besides. We went 
+<lb/>&amp; <space unit="chars" extent="1"/>made some holes 
+<lb/>besides - We went 
 <lb/>next day thinking 
-<lb/>to get his head for 
+<lb/>to get <space unit="chars" extent="2"/>his head for 
 
 	<pb n="0004" facs="liv_001836_0004"/><!--pb/@n='04'-->
-<lb/><persName>M<hi rend="sup underline">r</hi>Fitch</persName>
-<lb/>but he had 
+<lb/><persName>M<hi rend="sup underline">r</hi> Fitch</persName> but he had 
 <lb/>left that part and 
 <lb/>all his worthy family 
 <lb/>had followed him. 
 <lb/>We made some repairs 
 <lb/>in the ship then 
-<lb/>steamed over to 
+<lb/>steamed over <space unit="chars" extent="2"/>to 
 <lb/><placeName>Mohilla</placeName> in two days 
-<lb/>&amp; yesterday 20<hi rend="sup"><hi rend="underline">th</hi></hi> Oct <hi rend="sup underline">th</hi>
-<lb/>came to <placeName>Johanna</placeName>
+<lb/>&amp; yesterday <space unit="chars" extent="2"/>20<hi rend="sup"><hi rend="underline">th</hi></hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice>
+<lb/>came to <space unit="chars" extent="2"/><placeName><geogName type="island">Johanna</geogName></placeName>
 <lb/>whence this will be sent 
 <lb/>by a dhow owned by 
-<lb/>a Malagasse man to 
-<lb/><placeName>Mayotta</placeName> &amp; I hope it will 
-<lb/>reach you safely<reg>.</reg></p>
-<lb/><p rend="center"><persName>David Livingstone</persName></p>
+<lb/>a <orgName>Malagasse</orgName> man to 
+<lb/><space unit="chars" extent="1"/><placeName>Mayotta</placeName> &amp; I hope it will 
+<lb/>reach you safely</p>
+<lb/><p rend="no-indent"><space unit="words" extent="1"/><persName>David Livingstone</persName></p>
 			
 </div>
 		</body>

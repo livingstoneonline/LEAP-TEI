@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000846">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Letter to Arthur Tidman</title>
-                <title type="alternative">Letter to Arthur Tidman, 10 February 1855</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+				<title>Letter to Arthur Tidman and Maps of Angola and Central Southern Africa</title>
+                <title type="alternative">Letter to Arthur Tidman and Maps of Angola and Central Southern Africa, 10 February 1855</title>
+				<author>Livingstone, David, 1813-1873</author>
 			</titleStmt>
 			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>2009</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
 				<idno type="LEAP-ID">liv_000846</idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl xml:id="shelfmark">University of London. School of Oriental and African Studies; CWM/LMS/Livingstone Wooden Box, item 87</bibl>
 				<bibl xml:id="ccnumber">Letters, 0364</bibl>
-				<bibl xml:id="recipient"><persName>Tidman, Arthur, 1792-1868</persName></bibl>
+				<bibl xml:id="recipient"><persName>Tidman, Arthur, 1792-1868</persName>; </bibl>
 				<bibl xml:id="date"><date when="1855-02-10">10 February 1855</date></bibl>
 				<bibl xml:id="where">Cassange</bibl>
 			</sourceDesc>
@@ -37,7 +37,19 @@
 		<revisionDesc>
 			<change>
 				<date>2009-05-19</date>
-				<name xml:id="CO">Caroline Overy</name>Letter foliated by Caroline Overy
+				<name>Caroline Overy</name>Letter foliated by Caroline Overy
+			</change>
+			<change>
+				<date>2017-04-14</date>
+				<name>Kate Simpson</name>Proofread by Kate Simpson
+			</change>
+			<change>
+				<date>2017-05-24</date>
+				<name>Adrian S. Wisnicki</name>Proofread by Kate Simpson
+			</change>
+			<change>
+				<date>2017-06-14</date>
+				<name>Adrian S. Wisnicki</name>Formatting Review by Adrian S. Wisnicki
 			</change>
 		</revisionDesc>
 	</teiHeader>
@@ -47,30 +59,35 @@
 			<div>
 
 	<pb n="0001" facs="liv_000846_0001"/><!--pb/@n='1r'-->
-<lb/><p rend="right"><placeName>Cassange</placeName>10<hi rend="sup underline">th</hi>Feby 
-<lb/><hi rend="underline">1855</hi></p>
-<lb/><p rend="right">Rev<hi rend="sup underline">d</hi> D<hi rend="sup"><hi rend="underline">r</hi></hi> Tidman </p>
-<lb/><p>Dear Sir </p>
-<lb/><p>It affords me 
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><placeName><settlement type="village">Cassange</settlement></placeName> <date when="1855-02-10">10<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice> 
+<lb/><space extent="5" unit="words"/><hi rend="underline">1855</hi></date></p>
+<lb/>
+<lb/><p rend="no-indent"><persName><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice> D<hi rend="sup"><hi rend="underline">r</hi></hi> Tidman</persName> </p>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><space extent="3" unit="chars"/>Dear Sir </p>
+<lb/><p rend="no-indent"><space extent="4" unit="words"/>It affords me 
 <lb/>much pleasure to be able to 
 <lb/>repair in some measure 
 <lb/>the loss caused by the wreck 
 <lb/>of the "Forerunner" by means 
-<lb/>of the enclosed maps of the 
-<lb/><placeName>Province of Angola</placeName>, and 
+<lb/>of the enclosed <bibl>maps of the 
+<lb/><placeName><country>Province of Angola</country></placeName>, and 
 <lb/>that portion of the country 
-<lb/>of <placeName>Lunda</placeName> through which 
-<lb/>we passed. You will 
+<lb/>of <placeName><region>Lunda</region></placeName> through which 
+<lb/>we passed</bibl>. You will 
 <lb/>thereby be able to appreciate 
 <lb/>some of the obstacles presented 
-<lb/>by wood and water to the 
+<lb/>by wood and water to the </p>
+<lb/><ab rend="gray small">87</ab>
+<addSpan spanTo="#p1r-01" place="marginleft"><!--addSpan/@place='lefthand margin fol.1r'--></addSpan>
+<lb/><p rend="no-indent"><bibl>Letters for <persName>D<hi rend="underline">r</hi><hi rend="sup">r</hi> Tidman</persName> and <persName>M<hi rend="sup">rs</hi> <choice><abbr>L.</abbr><expan>Livingstone</expan></choice></persName></bibl> were sent on 23<hi rend="sup">d</hi> Ult. </p><anchor xml:id="p1r-01"/>
 
 	<pb n="0002" facs="liv_000846_0002"/><!--pb/@n='1v'-->
-<lb/>formation of a path such 
+<lb/><p rend="no-indent">formation of a path such 
 <lb/>as we have been accustomed 
-<lb/>to use. Only the larger streams 
+<lb/>to use. <space extent="1" unit="chars"/>Only the larger streams 
 <lb/>or such as we found large 
-<lb/>are inserted in the <placeName>Lunda</placeName> portion<reg>.</reg>But <choice><sic>ajacent</sic><corr>adjacent</corr></choice> to 
+<lb/>are inserted in the <placeName><region>Lunda</region></placeName> 
+<lb/>portion<reg>.</reg> <space extent="1" unit="chars"/>But <choice><sic>ajacent</sic><corr>adjacent</corr></choice> to 
 <lb/>all these and in many 
 <lb/>other parts there are large 
 <lb/>dense forests. And if we 
@@ -81,19 +98,19 @@
 <lb/>a waste of life to attempt 
 <lb/>single handed <del type="strikethrough">handed</del> to 
 <lb/>worm a way for a ponderous 
-<lb/>Cape waggon. The actual 
+<lb/><placeName><region>Cape</region></placeName> waggon. <space extent="1" unit="chars"/>The actual 
 
 	<pb n="0003" facs="liv_000846_0003"/><!--pb/@n='2r'-->
-<lb/>distance <add place="above">is not great</add> between the Northern 
-<lb/>parts of <persName>Sekeletu's</persName> country 
-<lb/>and this the commercial 
-<lb/>capital of the Interior where 
-<lb/>European supplies may 
+<lb/>distance<add place="below">^</add> <add place="above">is not great</add> between the <placeName><region>Northern 
+<lb/>parts of <persName>Sekeletu's</persName> country</region></placeName>
+<lb/>and this the <placeName><settlement>commercial 
+<lb/>capital of the Interior</settlement></placeName> where 
+<lb/><orgName>European</orgName> supplies may 
 <lb/>be obtained, and mails pass 
 <lb/>to the coast twice or three 
-<lb/>times every month. And 
+<lb/>times every month. <space extent="2" unit="chars"/>And 
 <lb/>if some of our strong 
-<lb/>young missionaries would 
+<lb/>young <term type="occupation">missionaries</term> would 
 <lb/>view the limited spheres 
 <lb/>in which they spend their 
 <lb/>lives in comparison 
@@ -107,20 +124,21 @@
 <lb/>of the way down to the other 
 <lb/>coast. I leave this on the 
 <lb/>13<hi rend="sup underline">th</hi> currt. </p>
-<lb/><p>If looking at the map 
+<lb/><p>If looking at the <bibl>map</bibl> 
 <lb/>you may wonder why 
 <lb/><placeName>Little Fish Bay</placeName> or <placeName>Benquella</placeName>
 <lb/>was not attempted being so 
-<lb/>much nearer than <placeName>Angola</placeName>
+<lb/>much nearer than <placeName><country>Angola</country></placeName>
 <lb/>the reason was the presence 
 <lb/>of the tsetse on our 
-<lb/>Western borders. </p><addSpan spanTo="#p1r-01" place="marginleft"><!--addSpan/@place='lefthand margin fol.1r'--></addSpan>
-<lb/><p>Letters for <persName>D<hi rend="underline">r</hi><hi rend="sup">r</hi> Tidman</persName> and <persName>M<hi rend="sup">rs</hi>L.</persName> were sent on 23 Ult. </p><anchor xml:id="p1r-01"/>
+<lb/><placeName><region>Western borders</region></placeName>. </p>
 
 	<pb n="0005" facs="liv_000846_0005"/><!--pb/@n='3r'-->
+<lb/><figure><figDesc>Map of "<placeName><country>Province of Angola</country></placeName>."</figDesc></figure>
 <!--Mike: map on whole of page 3r-->
 
 	<pb n="0006" facs="liv_000846_0006"/><!--pb/@n='4r'-->
+<lb/><figure><figDesc>Map of "that portion of the country <placeName><region>Lunda</region></placeName> through which we passed."</figDesc></figure>
 <!-- Mike: map on whole of page 3v -->
 			
 </div>

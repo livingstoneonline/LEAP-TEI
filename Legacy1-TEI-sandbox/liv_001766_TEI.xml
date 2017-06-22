@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001766">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Letter to Lord Kinnaird</title>
                 <title type="alternative">Letter to Lord Kinnaird, 25 April, 8 May 1862</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+				<author>Livingstone, David, 1813-1873</author>
 			</titleStmt>
 			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>2008-06-10</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
 				<idno type="LEAP-ID">liv_001766</idno>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl xml:id="ccnumber">Letters, 1215</bibl><!-- this is a photocopy from Blantyre but there is no sign of an original in candc -->
+				<bibl xml:id="shelfmark">David Livingstone Centre; 813</bibl>
+				<bibl xml:id="ccnumber">Letters, 1215</bibl>
+				<bibl xml:id="recipient"><persName>Kinnaird, Lord, 1807-1878</persName>; </bibl>
+				<bibl xml:id="date"><date from="1862-04-25" to="1862-05-08">25 April, 8 May 1862</date></bibl>
+				<bibl xml:id="where">Shupanga</bibl><!-- this is a photocopy from Blantyre but there is no sign of an original in candc -->
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -35,6 +39,14 @@
 				<date>2008-06-10</date>
 				<name xml:id="SM">Sharon Messenger</name>Initial Transcription by Sharon Messenger
 			</change>
+			<change>
+				<date>2017-05-04</date>
+				<name>Megan Ward</name>Proofing by Megan Ward
+			</change>
+			<change>
+				<date>2017-06-14</date>
+				<name>Adrian S. Wisnicki</name>Formatting Review by Adrian S. Wisnicki
+			</change>
 		</revisionDesc>
 	</teiHeader>
 
@@ -43,9 +55,10 @@
 			<div>
 
 	<pb n="0001" facs="liv_001766_0001"/><!--pb/@n='01'-->
-<lb/><p rend="right"><placeName>Shupanga</placeName>25 <hi rend="sup underline">th</hi>April 1862 </p>
+<lb/><p rend="right"><placeName>Shupanga</placeName> <date when="1862-04-25">25 <hi rend="sup underline">th</hi>April 1862</date></p>
+<lb/>
 <lb/><p>Dear <persName>Lord Kinnaird</persName>
-<lb/>You may have been 
+<lb/><space extent="4" unit="words"/>You may have been 
 <w>sur-<lb break="no"/>prised</w><add place="above">to</add> hear of the death of <persName>Bishop MacKenzie</persName>
 <lb/>by the same mail with my last letter containing 
 <lb/>no forebodings of such a loss. The time between 
@@ -67,10 +80,14 @@
 <lb/>trees and surrounded on three sides by 
 <lb/>a fine stream about 10 yards wide. <choice><reg>T</reg><orig>t</orig></choice>he 
 <lb/>poor bishop admired the trees exceedingly 
-<lb/>and would allow none to be cut down. 
+<lb/>and would allow none to be cut down.</p>
+<lb/>
+<lb/><addSpan spanTo="#p01-01" place="marginleft"><!--addSpan/@place='left hand margin'--></addSpan>
+<lb/><p>A kind salutation to <persName>Lady Kinnaird</persName>. My wife told me 
+<lb/>lately of her kindness to her. </p><anchor xml:id="p01-01"/>
 
 	<pb n="0002" facs="liv_001766_0002"/><!--pb/@n='02'-->
-<lb/><choice><reg>B</reg><orig>b</orig></choice>ut having about 140 freed captives the 
+<lb/><p rend="no-indent"><choice><reg>B</reg><orig>b</orig></choice>ut having about 140 freed captives the 
 <lb/>absence of sanitary regulations <add place="above">and air</add>made the 
 <lb/>place become like a huge cesspool. <choice><reg>T</reg><orig>t</orig></choice>he 
 <lb/>missionaries speak of it as a "pest hole". 
@@ -88,10 +105,11 @@
 <lb/>wonder that some of them feel discouraged 
 <lb/>and 
 <lb/><!-- nothing missing here - he just ends mid sentence --></p>
-<lb/><p>8<hi rend="sup underline">th</hi> May<reg>.</reg> I had written thus much by the 
+<lb/><p><date when="1862-05-08">8<hi rend="sup underline">th</hi> May</date><reg>.</reg> I had written thus much by the 
 <lb/>sick bed of my wife when the saddest 
 <lb/>event of my life put it out of my head. 
-<lb/>On 27<hi rend="sup"><hi rend="underline">th</hi></hi> I had to part with my good and faithful companion of eighteen years whom 
+<lb/>On <date when="1862-04-27">27<hi rend="sup"><hi rend="underline">th</hi></hi></date> I had to part with my good and 
+<lb/>faithful companion of eighteen years whom 
 <lb/>I married for love and the longer I had her 
 <lb/>I loved her the more. It is the first 
 <w>heart-<lb break="no"/>stroke</w> I have experienced and seems to take the 
@@ -107,7 +125,7 @@
 <lb/>was a good though often dejected christian<reg>.</reg>
 <lb/>You will excuse my saying so much 
 <lb/>of a personal nature. </p>
-<lb/><p>Our steamer for <placeName>Nyassa</placeName> came out 
+<lb/><p>Our steamer for <placeName><geogName type="lake">Nyassa</geogName></placeName> came out 
 <lb/>in pieces instead of sailing out as I had 
 <lb/>arranged that she should do. It was 
 <lb/>feared that in sailing out she might be 
@@ -119,7 +137,7 @@
 <lb/>months. But I do not feel much regret 
 <lb/>for the change of plan compared to 
 <lb/>the loss we have sustained by the engines 
-<lb/>of the <term type="boat">Pioneer</term>being out of order - For 
+<lb/>of the Pioneerbeing out of order - For 
 <lb/><persName>Commander Wilson </persName> of H.M.S. Gorgon 
 <lb/>who is well known to <persName>Admiral Hope</persName>
 <lb/>volunteered to help us up the <placeName>cataracts</placeName>
@@ -127,8 +145,8 @@
 <lb/>departure from the lowlands but 
 
 	<pb n="0004" facs="liv_001766_0004"/><!--pb/@n='04'-->
-<lb/>the engineer of the <term type="boat">Pioneer</term> had neglected his 
-<lb/>duty. <choice><reg>he</reg><orig>t</orig></choice>engines were full of sand &amp; 
+<lb/>the engineer of the Pioneer had neglected his 
+<lb/>duty. The engines were full of sand &amp; 
 <lb/>we were three weeks in getting up to 
 <lb/><placeName>Shupanga</placeName> which we have done before &amp; 
 <lb/>since with as heavy a load in two &amp; 
@@ -142,20 +160,19 @@
 <lb/>the Portuguese - their last detachment 
 <lb/>of soldiers was sent up <add place="above">at once</add> to <placeName>Tette</placeName> and they 
 <lb/>have lost but two in two years. While 
-<lb/>formerly when they kept them down at <placeName>Quillimane</placeName> and <placeName>Senna</placeName>they were 
+<lb/>formerly when they kept them down at 
+<lb/><placeName>Quillimane</placeName> and <placeName>Senna</placeName>they were 
 <lb/>invariably nearly all cut off. </p>
 <lb/><p><persName>M<hi rend="sup underline">r</hi>Rae</persName> put the shell of the steamer 
 <lb/>together in a fortnight. I am carrying the 
 <lb/>rest of her from <placeName>Kongone</placeName> to <placeName>Shupanga</placeName>
-<lb/>and we hope to go up <placeName>Shire</placeName> in June. <choice><reg>T</reg><orig>t</orig></choice>he 
+<lb/>and we hope to go up <placeName>Shire</placeName> in <date when="1862-06">June</date>. <choice><reg>T</reg><orig>t</orig></choice>he 
 <lb/>Portuguese say nothing to us about the 
 <lb/>captives we freed and we of course don<reg>'</reg>t 
 <lb/>introduce the subject. We hope to do something 
 <lb/>towards a permanent stoppage of the trade 
-<lb/>from <placeName>Nyassa</placeName> of 19000 slaves to <placeName>Zanzibar</placeName>
-<lb/>as soon as we get on the lake<reg>.</reg>David Livingstone </p><addSpan spanTo="#p01-01" place="marginleft"><!--addSpan/@place='left hand margin'--></addSpan>
-<lb/><p>A kind salutation to <persName>Lady Kinnaird</persName>. My wife told me 
-<lb/>lately of her kindness to her. </p><anchor xml:id="p01-01"/>
+<lb/>from <placeName><geogName type="lake">Nyassa</geogName></placeName> of 19000 <orgName>slaves</orgName> to <placeName>Zanzibar</placeName>
+<lb/>as soon as we get on the Lake<reg>.</reg> David Livingstone </p>
 			
 </div>
 		</body>

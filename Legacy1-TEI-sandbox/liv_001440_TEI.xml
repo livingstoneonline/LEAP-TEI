@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001440">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Letter to Commander of Her Majesty's Ship</title>
                 <title type="alternative">Letter to Commander of Her Majesty's Ship, 31 May 1859</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+				<author>Livingstone, David, 1813-1873</author>
 			</titleStmt>
 			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>29-01-2010</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
 				<idno type="LEAP-ID">liv_001440</idno>
 			</publicationStmt>
 			<sourceDesc>
+				<bibl xml:id="shelfmark">National Library of Scotland; MS. 42421, ff. 7r-8v</bibl>
 				<bibl xml:id="ccnumber">Letters, 0903</bibl>
+				<bibl xml:id="recipient"><persName>Her Majesty's Ship, Commander</persName>; </bibl>
+				<bibl xml:id="date"><date when="1859-05-31">31 May 1859</date></bibl>
+				<bibl xml:id="where">Shupanga</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -29,8 +33,16 @@
 		</profileDesc>
 		<revisionDesc>
 			<change>
-				<date>29-01-2010</date>
+				<date>2010-01-29</date>
 				<name xml:id="SM">Sharon Messenger</name>Transcribed by Sharon Messenger
+			</change>
+			<change>
+				<date>2017-05-07</date>
+				<name>Heather Ball</name>Proofed by Heather Ball
+			</change>
+			<change>
+				<date>2017-06-14</date>
+				<name>Adrian S. Wisnicki</name>Formatting Review by Adrian S. Wisnicki
 			</change>
 		</revisionDesc>
 	</teiHeader>
@@ -40,79 +52,82 @@
 			<div>
 
 	<pb n="0001" facs="liv_001440_0001"/><!--pb/@n='01'-->
-<lb/><p rend="left"><placeName>Shupanga</placeName> 31<hi rend="sup underline">st</hi> May </p>
-<lb/><p rend="left">1859 </p>
-<lb/><p>To The </p>
-<lb/><p>Commander of </p>
-<lb/><p>Her Majesty<reg>'</reg>s Ship - </p>
-<lb/><p>Sir </p>
-<lb/><p>I took the liberty 
-<lb/>of applying to <persName>Admiral 
-<lb/>Sir Frederick Grey</persName> about 
-<lb/>the beginning of the present 
-<lb/>year for some salt provisions 
-<lb/>for our crew and the 
-<lb/>Expedition, and hoped that 
-<lb/>it would be in the Admiral's 
-<lb/>power to send a vessel 
-<lb/>with them to the Mouth of 
-<lb/>the <placeName>Kongone</placeName> on the 24<hi rend="sup underline">th</hi>
-<lb/>May, but no ship appearing 
+<lb/><p rend="no-indent"><space extent="3" unit="words"/><placeName><settlement type="village">Shupanga</settlement></placeName> 31<hi rend="sup underline">st</hi> May
+<lb/><space extent="4" unit="words"/><space extent="4" unit="chars"/>1859</p>
+<lb/>
+<lb/><p rend="no-indent">To The
+<lb/><space extent="1" unit="words"/><space extent="2" unit="chars"/>Commander of
+<lb/><space extent="3" unit="words"/><space extent="4" unit="chars"/><orgName><choice><sic>Her Majestys</sic><corr>Her Majesty's</corr></choice></orgName> Ship -</p>
+<lb/>
+<lb/>
+<lb/><p><space extent="2" unit="words"/><space extent="4" unit="chars"/>Sir</p>
+<lb/><p><space extent="3" unit="words"/><space extent="2" unit="chars"/>I took the liberty 
+<lb/><space extent="4" unit="chars"/>of applying to <persName><term type="occupation">Admiral</term>
+<lb/><space extent="4" unit="chars"/>Sir Frederick Grey</persName> about 
+<lb/><space extent="4" unit="chars"/>the beginning of the present
+<lb/><space extent="4" unit="chars"/>year for some <term type="foodstuff">salt</term> provisions 
+<lb/><space extent="4" unit="chars"/>for our crew and <space extent="3" unit="chars"/>the 
+<lb/><space extent="4" unit="chars"/><orgName>Expedition</orgName>, and hoped that 
+<lb/><space extent="4" unit="chars"/>it would be in the <term type="occupation">Admiral's</term>
+<lb/><space extent="4" unit="chars"/>power to send a vessel 
+<lb/><space extent="4" unit="chars"/>with them to the <placeName><geogName type="mouth">Mouth of 
+<lb/><space extent="4" unit="chars"/>the <placeName><geogName type="river">Kongone</geogName></placeName></geogName></placeName> on the 24<hi rend="sup underline">th</hi>
+<lb/><space extent="4" unit="chars"/>May, but no ship appearing 
 
 	<pb n="0002" facs="liv_001440_0002"/><!--pb/@n='02'-->
-<lb/>on that day either the <placeName>Kongone</placeName>
-<lb/>or <placeName>Luabo</placeName> mouths of the <placeName>Zambesi</placeName>
-<lb/>I conclude that my letter may 
-<lb/>may have been detained in the way 
-<lb/>or that the service required 
-<lb/>all the ships elsewhere. We 
-<lb/>buried a bottle on the island 
-<lb/>in the entrance to Kongone 
-<lb/>harbour ten yards Magnetic 
-<lb/>North of a + cut on one 
-<lb/>of the supports of what was 
-<lb/>the flag staff containing an 
-<lb/>appointment for the 30<hi rend="sup"><hi rend="underline">th</hi></hi>
-<lb/>of July next in the same 
-<lb/>harbour. It contained also 
-<lb/>some account of our movements 
-<lb/>and of the discovery of a large 
-<lb/>inland Lake to which we propose 
-<lb/>to return after visiting <placeName>Tette</placeName>. </p>
+<lb/>on that day either the <placeName><geogName type="river">Kongone</geogName></placeName>
+<lb/>or <placeName><geogName type="river">Luabo</geogName></placeName> <placeName><geogName type="mouth">mouths of the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName></geogName></placeName>
+<lb/><space extent="1" unit="chars"/>I conclude that <bibl>my letter</bibl> may 
+<lb/><space extent="2" unit="chars"/>may have been detained in the way 
+<lb/><space extent="2" unit="chars"/>or that the service required 
+<lb/><space extent="2" unit="chars"/>all the ships elsewhere - We 
+<lb/><space extent="2" unit="chars"/>buried a bottle on the island <!-- geog:  --> 
+<lb/><space extent="2" unit="chars"/>in the entrance to <placeName><geogName type="harbor"><placeName><geogName type="river">Kongone</geogName></placeName> 
+<lb/><space extent="2" unit="chars"/>harbour</geogName></placeName> ten yards Magnetic 
+<lb/><space extent="2" unit="chars"/>North of a + cut on one 
+<lb/><space extent="2" unit="chars"/>of the supports of what was 
+<lb/><space extent="2" unit="chars"/>the flag staff containing an 
+<lb/><space extent="2" unit="chars"/>appointment for the 30<hi rend="sup underline">th</hi>
+<lb/><space extent="2" unit="chars"/>of July next in the same 
+<lb/><space extent="2" unit="chars"/>harbour. <space extent="2" unit="chars"/>It contained also <!-- geog: Kongone harbor -->
+<lb/><space extent="2" unit="chars"/>some account of our movements 
+<lb/><space extent="2" unit="chars"/>and of the discovery of a large 
+<lb/><space extent="2" unit="chars"/>inland Lake to which we propose 
+<lb/><space extent="2" unit="chars"/>to return after visiting <space extent="2" unit="chars"/><placeName><settlement type="village">Tette</settlement></placeName>. </p>
 
 	<pb n="0003" facs="liv_001440_0003"/><!--pb/@n='03'-->
-<lb/><p>The despatches accompaning 
-<lb/>this are of importance as 
-<lb/>the first information 
-<lb/>respecting the New lake to 
-<lb/>our own Government<reg>.</reg>
-<lb/>It is scarcely necessary to 
-<lb/>mention this as any 
-<lb/>despatches committed to your 
-<lb/>charge will without doubt 
-<lb/>be carefully preserved. 
-<lb/>What is said in the buried 
-<lb/>letter is for your own 
-<lb/>private information and 
-<lb/>that of the Admiral. We say 
-<lb/>little to the Portuguese beyond 
-<lb/>the fact of having discovered 
-<lb/>a large Lake called <placeName>Shirwa</placeName><reg>.</reg>
-<lb/>As yet they have made no 
-<lb/>pretensions to a previous knowledge 
-<lb/>of it<reg>.</reg>
+<lb/><p>The <bibl>despatches</bibl> accompanying 
+<lb/>this <space extent="2" unit="chars"/>are of importance as 
+<lb/><space extent="1" unit="chars"/>the <space extent="2" unit="chars"/>first information 
+<lb/>respecting the New Lake to 
+<lb/><space extent="1" unit="chars"/>our own <orgName>Government</orgName>
+<lb/><space extent="2" unit="chars"/>It is scarcely necessary to 
+<lb/><space extent="2" unit="chars"/>mention this as any 
+<lb/><space extent="2" unit="chars"/><bibl>despatches</bibl> committed to your 
+<lb/><space extent="3" unit="chars"/>charge will without doubt 
+<lb/><space extent="3" unit="chars"/>be carefully preserved. 
+<lb/><space extent="3" unit="chars"/>What is said in the <bibl>buried 
+<lb/><space extent="3" unit="chars"/>letter</bibl> is for your own 
+<lb/><space extent="3" unit="chars"/>private information and 
+<lb/><space extent="3" unit="chars"/>that of the <term type="occupation">Admiral</term>. We say 
+<lb/><space extent="3" unit="chars"/>little to the <term type="people">Portuguese</term> beyond 
+<lb/><space extent="3" unit="chars"/>the fact of having discovered 
+<lb/><space extent="3" unit="chars"/>a large Lake called <placeName><geogName type="lake">Shirwa</geogName></placeName>
+<lb/><space extent="3" unit="chars"/>As yet they have made no 
+<lb/><space extent="3" unit="chars"/>pretensions to a previous knowledge 
+<lb/><space extent="7" unit="words"/><space extent="2" unit="chars"/>of it
 
 	<pb n="0004" facs="liv_001440_0004"/><!--pb/@n='04'-->
-<lb/>We have had some fever 
+<lb/>We have had some <term type="ailment">fever</term> 
 <lb/>but of a mild form 
-<lb/><persName>D<hi rend="sup underline">r</hi> Kirk</persName> and I have escaped<reg>.</reg></p>
-<lb/><p rend="center">I have the honour to be </p>
-<lb/><p rend="center">Sir </p>
-<lb/><p rend="center">your most obedient </p>
-<lb/><p rend="center">Servant </p>
-<lb/><p rend="center"><persName>David Livingstone</persName></p>
-<lb/><p rend="center">Consul, </p>
-<lb/><p rend="center">commanding <placeName>Zambesi</placeName> Expedition </p>
+<lb/><persName>D<hi rend="sup underline">r</hi> Kirk</persName> and I have escaped</p>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/>I have the honour to be
+<lb/><space extent="4" unit="words"/>Sir
+<lb/><space extent="2" unit="words"/><space extent="4" unit="chars"/>Your most obedient
+<lb/><space extent="5" unit="words"/>servant</p>
+<lb/><p rend="no-indent"><space extent="3" unit="words"/><space extent="3" unit="chars"/><persName>David Livingstone</persName></p>
+<lb/><p rend="no-indent"><space extent="4" unit="words"/><space extent="4" unit="chars"/><term type="occupation">Consul</term>,
+<lb/><space extent="2" unit="words"/>commanding <orgName><placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> Expedition</orgName></p>
 			
 </div>
 		</body>

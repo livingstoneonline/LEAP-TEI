@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_001247">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Letter to John Livingstone</title>
                 <title type="alternative">Letter to John Livingstone, 18 February 1858</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+				<author>Livingstone, David, 1813-1873</author>
 			</titleStmt>
 			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>2009-05-19</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
 				<idno type="LEAP-ID">liv_001247</idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl xml:id="shelfmark">University of London. School of Oriental and African Studies; CWM/LMS/Livingstone Wooden Box, item 107</bibl>
 				<bibl xml:id="ccnumber">Letters, 0726</bibl>
-				<bibl xml:id="recipient"><persName>Livingstone, John, 1811-1899</persName></bibl>
+				<bibl xml:id="recipient"><persName>Livingstone, John, 1811-1899</persName>; </bibl>
 				<bibl xml:id="date"><date when="1858-02-18">18 February 1858</date></bibl>
 				<bibl xml:id="where">50 Albemarle St., London</bibl>
 			</sourceDesc>
@@ -37,7 +37,15 @@
 		<revisionDesc>
 			<change>
 				<date>2009-05-19</date>
-				<name xml:id="initials">SM</name>Letter foliated by Sharon Messenger
+				<name>Sharon Messenger</name>Letter foliated by Sharon Messenger
+			</change>
+			<change>
+				<date>2017-04-14</date>
+				<name>Kate Simpson</name>Proofed by Kate Simpson
+			</change>
+			<change>
+				<date>2017-06-14</date>
+				<name>Adrian S. Wisnicki</name>Formatting Review by Adrian S. Wisnicki
 			</change>
 		</revisionDesc>
 	</teiHeader>
@@ -47,11 +55,14 @@
 			<div>
 
 	<pb n="0001" facs="liv_001247_0001"/><!--pb/@n='01'-->
+<lb/><addSpan spanTo="#p01r-01" place="marginright"><!--addSpan/@place='right hand margin of fol.01'--></addSpan><p rend="no-indent"><space extent="2" unit="chars"/>I was waiting at the Admiralty and 
+<lb/>found time for this. Write at once to <persName>Young</persName></p>
+<lb/><p rend="no-indent"><space extent="6" unit="words"/><persName>David Livingstone</persName></p><anchor xml:id="p01r-01"/>
 <lb/><p rend="right"><placeName>50 Albemarle St.</placeName></p>
 <lb/><p rend="right"><placeName>London</placeName> 18<hi rend="sup underline">th</hi> Feby </p>
-<lb/><p>1858 </p>
-<lb/><p>My Dear Brother </p>
-<lb/><p>I have been unable 
+<lb/><p rend="right"><space extent="1" unit="words"/><space extent="2" unit="chars"/>1858 </p>
+<lb/><p rend="no-indent"><space extent="2" unit="chars"/>My Dear Brother </p>
+<lb/><p><space extent="3" unit="words"/>I have been unable 
 <lb/><choice><sic>until</sic><corr>untill</corr></choice> this moment to write you 
 <lb/>on a very important point to 
 <lb/>which I am happy to call your 
@@ -92,11 +103,10 @@
 <lb/>yourself out for an immense 
 <lb/>sale by advertizing it beforehand 
 <lb/>for next winter. Write to 
-<lb/>him </p>
-<lb/><p><persName>James Young Esq.</persName></p>
-<lb/><p><placeName>Sardinia Terrace</placeName>
-<lb/><placeName>Glasgow</placeName></p>
-<lb/><p>and tell him whether you are 
+<lb/>him <space extent="2" unit="chars"/><persName>James Young Esq.</persName>
+<lb/><space extent="2" unit="words"/><placeName>Sardinia Terrace</placeName>
+<lb/><space extent="3" unit="words"/><space extent="2" unit="chars"/><placeName>Glasgow</placeName>
+<lb/>and tell him whether you are 
 <lb/>willing to engage in it. You 
 <lb/>will be able both to benefit 
 <lb/>yourself and him by entering 
@@ -113,7 +123,8 @@
 <lb/>ten days. I got a letter from our 
 <lb/>cousin John &amp; will send him 
 <lb/>a book having the index before 
-<lb/>I sail. Our launch was tried yesterday &amp; gave from 8 to 10 
+<lb/>I sail. Our launch was tried 
+<lb/>yesterday &amp; gave from 8 to 10 
 <lb/>knots an hour. We sail in 
 <lb/>the "Pearl" - She puts into the 
 <lb/><placeName>Zambesi</placeName> then we put our 
@@ -125,10 +136,8 @@
 <lb/>not forgot my promise. You 
 <lb/>will hear from me Charles gave 
 <lb/>up £750 a year on the west he has 
-<lb/>£350 now. Love to <persName>Sarah</persName> &amp; all<reg>.</reg>
-<lb/><addSpan spanTo="#p01r-01" place="marginright"><!--addSpan/@place='right hand margin of fol.01'--></addSpan>I was waiting at the Admiralty and 
-<lb/>found time for this. Write at once to <persName>Young</persName></p>
-<lb/><p><persName>David Livingstone</persName></p><anchor xml:id="p01r-01"/>
+<lb/>£350 now - love to <persName>Sarah</persName> &amp; all<reg>.</reg></p>
+
 			
 </div>
 		</body>

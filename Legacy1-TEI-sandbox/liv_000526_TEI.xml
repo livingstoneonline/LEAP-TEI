@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt.xsl" type="text/xsl"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000526">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Letter to George Drummond</title>
                 <title type="alternative">Letter to George Drummond, 20 June 1843</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+				<author>Livingstone, David, 1813-1873</author>
 			</titleStmt>
 			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>20-12-07</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
 				<idno type="LEAP-ID">liv_000526</idno>
 			</publicationStmt>
 			<sourceDesc>
+				<bibl xml:id="shelfmark">National Library of Scotland; MS. 10707, 14-15</bibl>
 				<bibl xml:id="ccnumber">Letters, 0071</bibl>
+				<bibl xml:id="recipient"><persName>Drummond, George, 1808-1893</persName>; </bibl>
+				<bibl xml:id="date"><date when="1843-06-20">20 June 1843</date></bibl>
+				<bibl xml:id="where">Kuruman</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -32,8 +36,16 @@
 		</profileDesc>
 		<revisionDesc>
 			<change>
-				<date>20-12-07</date>
-				<name xml:id="CO">Caroline Overy</name>Initial Transcription by Caroline Overy
+				<date>2007-20-12</date>
+				<name>Caroline Overy</name> Initial Transcription by Caroline Overy
+			</change>
+			<change>
+				<date>2017-05-22</date>
+				<name>Heather Ball</name> Proofing by Heather Ball
+			</change>
+			<change>
+				<date>2017-06-14</date>
+				<name>Adrian S. Wisnicki</name>Formatting Review by Adrian S. Wisnicki
 			</change>
 		</revisionDesc>
 	</teiHeader>
@@ -43,167 +55,180 @@
 			<div>
 
 	<pb n="0001" facs="liv_000526_0001"/><!--pb/@n='14r'-->
-<lb/><p><placeName>Kuruman</placeName> 20<hi rend="sup">th</hi> June 1843 </p>
-<lb/><p>My Dear Friend</p>
-<lb/><p>I <choice><sic>recieved</sic><corr>received</corr></choice> your most welcome &amp; long expected letter a few days 
+<lb/><p rend="no-indent"><space unit="words" extent="12"/><placeName><settlement type="village">Kuruman</settlement></placeName> 20<hi rend="sup">th</hi> June 1843</p>
+<lb/><p rend="no-indent"><space unit="chars" extent="3"/>My Dear Friend</p>
+<lb/><p rend="no-indent"><space unit="words" extent="4"/><space unit="chars" extent="2"/>I <choice><sic>recieved</sic><corr>received</corr></choice> your most welcome &amp; long expected <bibl>letter</bibl> a few days 
 <lb/>ago, and I assure you my heart was made white by its perusal. I am 
 <lb/>glad you have at length arrived at a sphere of labour &amp; that there is a 
 <lb/>prospect of your labour being crowned with success. May you have 
-<lb/>an <unclear cert="low">sanction</unclear> from the Holy one that many sinners may through your 
-<lb/>instrumentality be baptized with the holy Ghost sent down from Heaven<reg>.</reg>
+<lb/>an unction from the Holy one that <choice><sic>magny</sic><corr>many</corr></choice> sinners may through your 
+<lb/>instrumentality be baptized with the Holy Ghost sent down from Heaven
 <lb/>But while I am glad to hear of your prospects I feel sorry that you 
-<lb/>have some <del type="strikethrough"><gap agent="illgblDel"/></del> pain in that you are not engaging in full cooperation 
+<lb/>have some <del type="cancelled"><gap agent="illegible" extent="1" unit="words"/>/&gt;</del> pain in that you are not enjoying the full cooperation <!-- Adrian, for some reason this del tag with "cancelled" isn't working properly - how fix? HB -->
 <lb/>of your dear partner in life. The debility of which you spoke 
 <lb/>I hope however is by this time removed and you may now be 
-<lb/>both vigorously prosecuting the great work for which we have 
-<lb/>been sent to the Heathen. I a not going to give you medical 
+<lb/>both vigourously prosecuting the great work for which we have 
+<lb/>been sent to the <orgName>Heathen</orgName>. <space unit="chars" extent="2"/>I am not going to give you medical 
 <lb/>advice at such a distance but you could easily manufacture 
-<lb/>a shower <unclear cert="medium">bath</unclear> which if used when you are not sensible 
-<lb/>of either chill or fatigue I have no doubt would benefit you 
-<lb/>both. You must present my Christian love to <persName>M<hi rend="sup">rs</hi> D</persName> &amp; 
-<lb/>her little<persName>Jean</persName>. I mention it now lest as I am this old 
-<lb/>batchelor I should forget it at the end. <persName>Inglis</persName> is married &amp; 
+<lb/>a shower bath which if used when you are <term type="ailment">not sensible 
+<lb/>of either chill or fatigue</term> I have no doubt would benefit you 
+<lb/>both. You must present my <term type="faith">Christian</term> Love to <persName>M<hi rend="sup">rs</hi> <choice><abbr>D</abbr><expan>Drummond</expan></choice></persName> &amp;
+<lb/>her little <persName>Jean</persName>. I mention it now lest as I am still this old 
+<lb/><choice><sic>batchelor</sic><corr>bachelor</corr></choice> I should forget it at the end. <space unit="chars" extent="2"/><persName>Ingles</persName> is married &amp; 
 <lb/>now on his way up here, so is <persName>Moore</persName> &amp; now on his way 
-<lb/>to your quarter, <persName>Prentice</persName> is married to <persName><unclear cert="medium">Catrine</unclear></persName> &amp; has a child 
-<lb/>I believe he gor her because he <unclear cert="low">inferred she</unclear> a missionary 
-<lb/>now he is stuck up in his <unclear cert="medium">fathers counting</unclear> house at 
-<lb/><placeName>Stowmarket</placeName> &amp; <persName>John <unclear cert="medium">Hay</unclear></persName> is expected home to be noosed to 
+<lb/>to your quarter. <space unit="chars" extent="2"/><persName>Prentice</persName> is married to <persName>Catrine</persName> &amp; has a child 
+<lb/>I believe he got her because he intended to be a <term type="occupation">missionary</term> 
+<lb/>now he is stuck up in his <choice><sic>fathers</sic><corr>father's</corr></choice> <orgName>counting house</orgName> at <!-- Not sure if counting house is like custom house, which I believe we tag? HB -->
+<lb/><placeName><settlement type="town">Stowmarket</settlement></placeName> &amp; <persName>John <unclear cert="medium">Hay</unclear></persName> is expected home to be noosed to 
 <lb/><persName>Lucy</persName>. Thus you see the world goes on and all my good 
-<lb/>example is lost upon it. O Tempores O mores! You 
-<lb/>thought I should turn foolish at the Cape What nonsense 
-<lb/>man<reg>.</reg> Do you think I would take a thing in hand &amp; 
-<lb/>not carry it through<reg>.</reg> But I suppose I must give in 
-<lb/>directly for I shall get a few of the wise sayings og 
+<lb/>example is lost upon it. <foreign xml:lang="la">O Tempores O mores</foreign>! You 
+<lb/>thought I should turn foolish at <placeName><region>the Cape</region></placeName> What nonsense 
+<lb/>man <space unit="chars" extent="2"/>Do you think I would take a thing in hand &amp; 
+<lb/>not carry it through <space unit="chars" extent="1"/>But I suppose I must give in 
+<lb/>directly for I shall get a few of the wise sayings of
 <lb/><persName>Magregor</persName> before long.</p>
-<lb/><p>I am happy to hear your are succeeding with the  
+<lb/><p rend="no-indent"><space unit="words" extent="2"/><space unit="chars" extent="2"/>I am happy to hear you are succeeding with the  
 <lb/>language. I had to speak long before I knew what to 
-<lb/>say. Colics came in by dozens &amp; sore bellies by the score &amp; if I did not help them they were sure to help me, I then 
-<lb/>set <unclear cert="low">off N</unclear> left all European society, went far north 
-<lb/>&amp; beyond every other white man in order to learn the 
-<lb/>different dialects of the language, this latter I partially 
-<lb/>effected &amp; now i can speak so as to be understood 
-<lb/>by any of them. <choice><reg>T</reg><orig>t</orig></choice>he language of the other tribe however is 
-<lb/>that in which I am most expert, I can preach in it with nearly the same ease as i can speak 
-<lb/>English<reg>.</reg> But still I have something to learn, I cannot 
+<lb/>say. <term type="ailment">Colics</term> came in by dozens &amp; <term type="ailment">sore bellies</term> by the score &amp;
+<lb/>if I did not help them they were sure to help me. I then 
+<lb/>set off <choice><abbr>N</abbr><expan>North</expan></choice> left all <orgName>European</orgName> Society, went far north 
+<lb/>&amp; beyond every other <orgName>white man</orgName> in order to learn the 
+<lb/>different dialects of the language, the latter I partially 
+<lb/>effected &amp; now I can speak so as to be understood 
+<lb/>by any of them. The language of the other tribe however is 
+<lb/>that in which I am most expert, I can preach
+<lb/>in it with nearly the same ease as I can speak 
+<lb/>English But still I have something to learn, I can not 
 <lb/>apply all the words I know at the exact time when 
-<lb/>I wish to use them. By the above course I have 
+<lb/>I wish to <add place="above">use</add> <del type="strikethrough">have</del> them. By the above course I have 
 <lb/>been made acquainted with the customs &amp; modes of thinking 
 
 	<pb n="0002" facs="liv_000526_0002"/><!--pb/@n='14v'-->
-<lb/>of the people better than if I had remained as one station, and 
+<lb/>of <orgName>the people</orgName> better than if I had remained as one station, and 
 <lb/>there being but a very slender assistance to be to be derived from the 
-<lb/>language used in the testament the above course was absolutely 
-<lb/>necessary. During my first visit to the Interior I went as 
-<lb/>far as North East as far as Lat 22º S. Long 29º E. &amp; visited many 
+<lb/>language used in <bibl>the testament</bibl> the above course was absolutely 
+<lb/>necessary. <space unit="chars" extent="1"/>During my first visit to <placeName><region>the Interior</region></placeName> I went as 
+<lb/>far <choice><sic>as</sic><corr/></choice> North East as far as <choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 22º <choice><abbr>S.</abbr><expan>South</expan></choice> <choice><abbr>Long</abbr><expan>Longitude</expan></choice> 29º <choice><abbr>E.</abbr><expan>East</expan></choice> &amp; visited many 
 <lb/>tribes who had never before seen a white face. By 
-<lb/>means of native teachers with me I was enabled in a poor 
-<lb/>was to proclaim the message od mercy. That tour 
+<lb/>means of <orgName><orgName>native</orgName> <term type="occupation">teachers</term></orgName> with me I was enabled in a poor 
+<lb/><del type="cancelled"><gap agent="illegible" extent="2" unit="chars"/>/&gt;</del> way to proclaim the message of mercy. That tour <!-- Same for this del tag as above. HB -->
 <lb/>lasted 4 months &amp; now I am just returned from another 
-<lb/>of a like duration. But this is a weary wide wide country &amp; the people are scattered over it at immense distances from each other, I could give you many 
+<lb/>of a like duration, <space unit="chars" extent="1"/>But this is a weary wide wide
+<lb/>country &amp; <orgName>the people</orgName> are scattered over it at immense
+<lb/>distances from each other. I could give you many 
 <lb/>anecdotes of wild beasts if you were a lover of such 
 <lb/>stuff but as I know you are not I would fain 
 <lb/>give you something more profitable. I have not been 
 <lb/>allowed to attempt anything of a permanent nature in 
-<lb/>consequence of an interdict of the Directors, they forbade information of any new station <choice><sic>untill</sic><corr>until</corr></choice> the whole 
-<lb/>mission should be organized, this  organization was 
+<lb/>consequence of an <bibl>interdict of the <term type="occupation">Directors</term></bibl>, they forbade
+<lb/>information of any new station <choice><sic>untill</sic><corr>until</corr></choice> the <orgName>whole 
+<lb/>mission</orgName> should be organized, this organization was 
 <lb/>to take place after the arrival of <persName>M<hi rend="sup">r</hi> Moffat</persName> &amp; the 
-<lb/>other bretheren &amp; means simply, a committee is to be 
-<lb/>got up by <persName>M<hi rend="sup">r</hi> M.</persName> in opposition to the former 
-<lb/>state of things by <persName>D<hi rend="sup">r</hi> Phillip</persName>. A committe it is to be 
-<lb/>alias a presbetery. <choice><reg>T</reg><orig>t</orig></choice>his is as much against the grain 
-<lb/>with me as the bishoprick is, But if it will advance 
-<lb/>the cause I wont spend time quarelling. I have not 
+<lb/>other <choice><sic>bretheren</sic><corr>brethren</corr></choice> &amp; means simply, a <orgName>committee</orgName> is to
+<lb/>be got up by <persName>M<hi rend="sup">r</hi> <choice><abbr>M.</abbr><expan>Moffat</expan></choice></persName> in opposition to the former 
+<lb/>state of things by <persName>D<hi rend="sup">r</hi> Phillip</persName>. A <orgName>committee</orgName> it is to be 
+<lb/>alias a <orgName><choice><sic>presbetery</sic><corr>presbytery</corr></choice></orgName>. <choice><sic>this</sic><corr>This</corr></choice> is as much against the grain 
+<lb/>with me as the <orgName><choice><sic>bishoprick</sic><corr>bishopric</corr></choice></orgName> is. But if it will advance 
+<lb/>the cause I <choice><sic>wont</sic><corr>won't</corr></choice> spend time quarelling. I have not 
 <lb/>the least confidence in the wisdom either collective or 
-<lb/>individual of our S. African bretheren. There has been 
-<lb/>too much <unclear cert="medium">jarring</unclear> &amp; now a committee the result of a <unclear cert="medium">jar</unclear>
+<lb/>individual of our <orgName><term type="nationality"><choice><abbr>S.</abbr><expan>South</expan></choice> African</term> <choice><sic>bretheren</sic><corr>brethren</corr></choice></orgName>. There has been 
+<lb/>too much <unclear cert="medium">jarring</unclear> &amp; now a <orgName>committee</orgName> the result of a <unclear cert="medium">jar</unclear>
 <lb/>It does not bode well. I shall give it the go by if I 
-<lb/>see nonsense springing up. O that <unclear cert="medium">none</unclear> of my life 
+<lb/>see nonsense springing up. O that none of my life 
 <lb/>may be spent in vain <unclear cert="low">jangling</unclear> after I have had 
 <lb/>such an opportunity of devoting it to him who 
 <lb/>died to save me.</p>
-<lb/><p>This mission has been pretty successful among 
+<lb/><p rend="no-indent"><space unit="words" extent="1"/><space unit="chars" extent="1"/><orgName>This mission</orgName> has been pretty successful among 
 <lb/>the <term type="tribe">Bechuanas</term>, But a stranger coming here would 
-<lb/>not know it. Indeed he wold feel disappointment 
-<lb/>if he had not read the accounts published respecting it<reg>.</reg>
-<lb/><choice><reg>T</reg><orig>t</orig></choice>hey are far below the Hottentots in point of 
-<w>civiliz-<lb break="no"/>ation</w> &amp; general information as well as morality<reg>.</reg>
-<lb/>Of a church composed of more than 300  don't know 
+<lb/>not know it. Indeed he would feel disappointment 
+<lb/>if he had read <bibl>the accounts published</bibl> respecting it
+<lb/>They are far below the <term type="tribe">Hottentots</term> in point of <w>civiliz<supplied>-</supplied>
+<lb break="no"/>-ation</w> &amp; general information as well as morality
+<lb/>Of a <orgName>church</orgName> composed of more than 300 I <choice><sic>dont</sic><corr>don't</corr></choice> know 
 <lb/>half a dozen of whom I could say with confidence 
-<lb/>the man appears to have consacrated himself to 
+<lb/>the man appears to have <choice><sic>consacrated</sic><corr>consecrated</corr></choice> himself to 
 <lb/>the Redeemer. But notwithstanding <supplied reason="illegible">this</supplied> the change 
 
 	<pb n="0003" facs="liv_000526_0003"/><!--pb/@n='15r'-->
-<lb/>among them upon the whole has been wonderful. <choice><reg>T</reg><orig>t</orig></choice>he 
+<lb/>among them upon the whole has been wonderful. <space unit="chars" extent="1"/><choice><sic>the</sic><corr>The</corr></choice> 
 <lb/>difference which exists between professed believers &amp; 
-<lb/>the professed heatheb is such as to make one feel there 
-<lb/>there must be something more than outward conformity 
-<w>notwit-<lb break="no"/>hstanding</w> all the darkness &amp; perversity with which it is 
-<lb/>asociated.<choice><reg>T</reg><orig>t</orig></choice>he pure heathen are as degraded in soul 
-<lb/>body &amp; spirit as it is possible to <choice><sic>concieve</sic><corr>conceive</corr></choice> the human
-<lb/><del type="strikethrough"> mind</del><add place="above">ity</add><!--TODO MH: 'ity'. DL wrote 'human <lb/>mind' and then changed it to 'humanity'. --><!-- TODO SM: Email jpg of this page to me so I can check something out --> to be &amp; nothing but the Holy Spirit can produce any 
-<lb/>the least change in such characters. Very soon I 
-<lb/>expect to depart for the interior &amp; assist in the 
-<w>form-<lb break="no"/>ation</w> of a station at the <term type="tribe">Bakhatla</term> tribe. <choice><reg>T</reg><orig>t</orig></choice>hey are the  
-<lb/>iron smelters of whom <persName>M<hi rend="sup">r</hi> Campbell</persName> heard but 
+<lb/>the professed <orgName>heathen</orgName> is such as to make one feel there 
+<lb/>there must be something more than outward conformity <w>notwit-
+<lb break="no"/>hstanding</w> all the darkness &amp; perversity with which it is 
+<lb/>asociated. <space unit="chars" extent="2"/><choice><sic>the</sic><corr>The</corr></choice> <orgName><orgName>pure</orgName> <orgName>heathen</orgName></orgName> are as degraded in soul 
+<lb/>body &amp; spirit as <del type="strikethrough">its</del> it is possible to <choice><sic>concieve</sic><corr>conceive</corr></choice> the <w>human<supplied>-</supplied>
+<lb break="no"/><add place="above">-ity</add></w> <del type="cancelled">mind</del> to be &amp; nothing but the Holy Spirit can produce any 
+<lb/>the least change in such characters. <space unit="chars" extent="4"/>Very soon I 
+<lb/>expect to depart for <placeName><region>the Interior</region></placeName> &amp; assist in the <w>form<supplied>-</supplied>
+<lb break="no"/>-ation</w> of a station at the <term type="tribe">Bakhatla</term> tribe. <choice><sic>they</sic><corr>They</corr></choice> are the  
+<lb/><term type="occupation">iron smelters</term> of whom <persName>M<hi rend="sup">r</hi> Campbell</persName> heard but 
 <lb/>was not permitted to see &amp; they are situated very 
 <lb/>near the spot where he faced round to go away 
 <lb/>home. It is also near the spot where <persName>Mosilkatse</persName>
-<lb/>was seen by <persName>M<hi rend="sup">r</hi> Moffat</persName>. you will read an 
-<lb/>account of him in <persName>M<hi rend="sup">r</hi> M's</persName> book. You will see numerals in that book, for instance the 
+<lb/>was seen by <persName>M<hi rend="sup">r</hi> Moffat</persName>. You will read an 
+<lb/>account of him in <bibl><persName>M<hi rend="sup">r</hi> <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName>'s book</bibl>. You will
+<lb/>see numerals in that book, for instance the 
 <lb/>immense armies of <persName>Mosilikatse</persName>, cut off a few 
-<lb/>cyphers always then you will have the truth<reg>.</reg>
-<lb/>I do not wish to say a word against <persName>M<hi rend="sup">r</hi> M</persName> but 
+<lb/>cyphers always then you will have the truth
+<lb/>I do not wish to say a word against <persName>M<hi rend="sup">r</hi> <choice><abbr>M</abbr><expan>Moffat</expan></choice></persName> but 
 <lb/>in his love for the good cause he sometimes <supplied reason="damage">mistates</supplied>. 
 <lb/>He always calls thousands what others who were with 
-<lb/>him call hundreds.  I hope he will be still <gap agent="damage" extent="1" unit="words"/>
+<lb/>him call hundreds. <space unit="chars" extent="1"/>I hope he will be still <w>mo<gap agent="damage" extent="1" unit="words"/><supplied cert="high">re</supplied></w>
 <lb/>useful than he has been. Indeed I have no doubt 
-<lb/>he will if he has not been spoiled in England<reg>.</reg>
+<lb/>he will if he has not been spoiled in <placeName><country>England</country></placeName>
 <lb/>Is it true that Good <persName>M<hi rend="sup">r</hi> Williams</persName> was spoiled by the 
-<lb/>people in E? We fear for <persName>M<hi rend="sup">r</hi> M.</persName> It is not every 
-<lb/>one who can drink of the cup of flattery &amp; not get 
-<lb/>"top heavy"<reg>.</reg></p>
-<lb/><p>I have heard from the <persName>Pynes</persName> frequently, also 
-<lb/>from <persName>M<hi rend="sup">rs</hi> Cecil</persName> &amp; other friends whom you know<reg>.</reg>
-<lb/>Wee <persName>Thomas <gap agent="illegible"/></persName> wrote this shabby thing had no 
-<lb/>time to write to any one but <persName>Catrine</persName>. Is he a 
-<w>mission-<lb break="no"/>ary</w> as she expected? <persName>Birt</persName> lost his wife a few 
+<lb/>people in <placeName><country><choice><abbr>E</abbr><expan>England</expan></choice></country></placeName>? We fear for <persName>M<hi rend="sup">r</hi> <choice><abbr>M.</abbr><expan>Moffat</expan></choice></persName> It is not <w>every<supplied>-</supplied> 
+<lb break="no"/>one</w> who can drink of the cup of flattery &amp; not get 
+<lb/>"top heavy"</p>
+<lb/><p rend="no-indent"><space unit="chars" extent="6"/>I have heard from the <persName><choice><sic>Pyne's</sic><corr>Pynes</corr></choice></persName> frequently, also 
+<lb/>from <persName>M<hi rend="sup underline">rs</hi> Cecil</persName> &amp; other friends whom you know
+<lb/>Wee <persName>Thomas</persName> <gap agent="illegible"/> wrote this shabby thing had no 
+<lb/>time to write to any one but <persName>Catrine</persName>. Is he a <w>mission<supplied>-</supplied>
+<lb break="no"/>-ary</w> as she expected? <space unit="chars" extent="2"/><persName>Birt</persName> lost his wife a few 
 <lb/>weeks ago by the overturning of his waggon, 
 <lb/>mine was overturnd twice during my late journey 
-<lb/>&amp; yet I am spared, may my spared life be devoted to Him who spares it. <persName>Fairbrother</persName> is still at 
-<lb/><placeName><unclear cert="medium">Springhill</unclear></placeName> &amp; is expected to go out to <placeName><unclear cert="low">Benares</unclear></placeName>, <persName>Parker</persName>
-<lb/>is at <placeName>Homerton</placeName> &amp; <persName>Jock Bradford</persName> is at the scalpel<reg>.</reg>
+<lb/>&amp; yet I am spared, may my spared life be devoted
+<lb/>to Him who spares it. <space unit="chars" extent="2"/><persName>Fairbrother</persName> is still at 
+<lb/><placeName><settlement type="town">Springhill</settlement></placeName> &amp; is expected to go out to <placeName><settlement type="city">Benares</settlement></placeName>, <persName>Parker</persName>
+<lb/>is at <placeName><region>Homerton</region></placeName> &amp; <persName>Jock Bradford</persName> is at the scalpel
 <lb/>Poor dear <persName>Moore</persName> my heart is sore when I think 
 <lb/>of him. He wished to come out here &amp; I groaned 
 <lb/>for it But it was selfishness on my part he 
 
 	<pb n="0004" facs="liv_000526_0004"/><!--pb/@n='15v'-->
-<lb/>will be more useful where he is young. Blessings upon 
-<lb/>the head of Joseph &amp; on the crown of the head of him 
-<lb/>who is separated from his bretheren. I shall write 
-<lb/>you again before long &amp; you <choice><sic>you</sic><corr>no text</corr></choice> must do the  
-<lb/>same to me, then we shall have a letter in <supplied reason="damage" cert="medium">advance</supplied>
-<lb/>&amp; there wont be such a long gap in our 
-<w>corresp-<lb break="no"/>ondence.</w> By the Bye, I have thought of you, <unclear cert="low">then</unclear>
-<lb/>you will not be unwilling to give some <gap agent="hand"/>
-<lb/>information to a projected Welsh periodical which 
-<lb/>is to be chiefly devoted to missionary matters. Tell me  
-<lb/>&amp; I shall give your name to the Editor. If you will 
-<lb/>supply a letter occasionally it will be translated &amp; 
-<lb/>published &amp; may advance the cause of our blessed saviour<reg>.</reg></p>
-<lb/><p><persName>Salome Cecil</persName> is very ill of some complaint of the liver<reg>.</reg>
-<lb/>You have probably heard of <persName>M<hi rend="sup">r</hi> Wright's</persName> death, I mean <persName>M<hi rend="sup">r</hi>
-<lb/>Wright</persName> of <placeName>Ongar</placeName>. <persName>M<hi rend="sup">r</hi> Wright</persName> of <placeName>Griqua Town</placeName> ia also 
-<lb/>dead. He was an able &amp; efficient missionary, &amp; his 
-<lb/>place will not soon be filled up<reg>.</reg> May we who are 
+<lb/>will be more useful where he is young. Blessings <w><add place="above">up</add>on</w> 
+<lb/>the head of <persName>Joseph</persName> &amp; on the crown of the head of him 
+<lb/>who is separated from his <choice><sic>bretheren</sic><corr>brethren</corr></choice>. <space unit="chars" extent="1"/>I shall write 
+<lb/>you again before long &amp; you <space unit="chars" extent="1"/><choice><sic>you</sic><corr/></choice> must do the  
+<lb/>same to me, then we shall have a <bibl>letter</bibl> in <w>adva<supplied reason="damage" cert="medium">nce</supplied></w>
+<lb/>&amp; there <choice><sic>wont</sic><corr>won't</corr></choice> be such a long gap in our <w>corresp<supplied>-</supplied>
+<lb break="no"/>-ondence</w>. By the Bye, I have thought of you, <unclear cert="low">then</unclear>
+<lb/>you will not be unwilling to give some <unclear cert="low">mission</unclear>
+<lb/>information to a projected <bibl><term type="nationality">Welsh</term> periodical</bibl> which 
+<lb/>is to be chiefly devoted to <orgName><term type="occupation">missionary</term> matters</orgName>. Tell me  
+<lb/>&amp; I shall give your name to the <term type="occupation">Editor</term>. If you will 
+<lb/>supply a <bibl>letter</bibl> occasionally it will be translated &amp; 
+<lb/>published &amp; may advance the cause of our blessed <w>savi<supplied cert="high">our</supplied></w></p>
+
+
+<lb/>
+<lb/><cb rend="vertical"/><ab><space unit="words" extent="3"/>Care of <persName><term type="occupation"><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice></term> D<hi rend="sup underline">r</hi> Phillip</persName> <hi rend="underline"><placeName><settlement type="city">Cape Town</settlement></placeName></hi> <!-- there is unknown handwriting/editing on this, with the addition of "care of Dr Rap Sidney" and the deletion of the original care of line - to code?! HB -->
+<lb/>
+<lb/><space unit="words" extent="3"/><persName><term type="occupation"><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice></term> George Drummond</persName>
+<lb/><space unit="words" extent="2"/><space unit="chars" extent="2"/><placeName><geogName type="island">Island of Savaii</geogName></placeName>
+<lb/><space unit="words" extent="5"/><space unit="chars" extent="2"/><hi rend="double-underline"><placeName><geogName type="sea">South Seas</geogName></placeName></hi></ab>
+
+
+<lb/><p rend="no-indent"><space unit="chars" extent="4"/><persName>Salome Cecil</persName> is very ill of some <term type="ailment">complaint of the Liver</term>
+<lb/>You have probably heard of <persName>M<hi rend="sup">r</hi> Wright</persName>'s death, I mean <persName>M<hi rend="sup">r</hi>
+<lb/>Wright</persName> of <placeName><region>Ongar</region></placeName>. <space unit="chars" extent="3"/><persName>M<hi rend="sup">r</hi> Wright</persName> of <placeName><settlement type="town">Griqua Town</settlement></placeName> is also 
+<lb/>dead<space unit="chars" extent="1"/>. <space unit="chars" extent="2"/>He was <space unit="chars" extent="1"/>an able &amp; efficient <term type="occupation">missionary</term>, &amp; his 
+<lb/>place will not soon be filled up <space unit="chars" extent="2"/>May we who are 
 <lb/>spared be enabled to work while we are able &amp; glorify 
-<lb/>Our Father in Heaven. My very kind regards to 
-<lb/><persName>M<hi rend="sup">rs</hi> D.</persName> &amp; believe me ever yours most affectionately 
-<lb/><!-- TODO SM: Email jpg of this page --><!-- TODO MH: Check transcription/coding of this section -->I shall be content if you address me just D Livingston 
-<lb/>as I write <unclear cert="low">there without any ???</unclear> &amp; to the care of <persName>D<hi rend="sup">r</hi> Phillip</persName> Cape Town.</p>
-<lb/><p><!--TODO SM: Envelope needs coding with addSpan/anchor-->Care of <persName>Rev<hi rend="sup"><hi rend="underline">d</hi></hi> D<hi rend="sup"><hi rend="underline">r</hi></hi> Phillip</persName><hi rend="underline">Cape Town</hi></p>
-<lb/><p><persName>Rev<hi rend="sup"><hi rend="underline">d</hi></hi> George Drummond</persName></p>
-<lb/><p><placeName>Island of Savaii</placeName></p>
-<lb/><p><hi rend="double-underline">South Seas</hi></p>
+<lb/>Our Father in Heaven. <space unit="chars" extent="3"/>My very kind regards to 
+<lb/><persName>M<hi rend="sup">rs</hi> <choice><abbr>D.</abbr><expan>Drummond</expan></choice></persName> &amp; believe me ever <seg rend="black">yours most affectionately</seg>
+<lb/>I shall be content if you address me <supplied cert="high">as</supplied> <seg rend="black">just <persName><choice><abbr>D Livingston</abbr><expan>David Livingstone</expan></choice></persName></seg>
+<lb/>as I write <unclear cert="low">there without any time &amp; <gap agent="overwriting"/></unclear> <seg rend="black">to the care of <persName>D<hi rend="sup">r</hi> Phillip</persName> <placeName><settlement type="city">Cape Town</settlement></placeName>.</seg></p>
 			
 </div>
 		</body>
