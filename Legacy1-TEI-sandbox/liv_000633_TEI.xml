@@ -2,24 +2,28 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
- <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2016-->
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02--><!--TEI encoding revised and standardized by Adrian S. Wisnicki, 2015-2017-->
          <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000633">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Letter to Benjamin T. Pyne</title>
                 <title type="alternative">Letter to Benjamin T. Pyne, 31 May 1847</title>
-				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+				<author>Livingstone, David, 1813-1873</author>
 			</titleStmt>
 			<publicationStmt>
-				<authority>Livingstone Online</authority>
-				<pubPlace>London</pubPlace>
-				<date>2009-04-20</date>
-				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date>
 				<idno type="LEAP-ID">liv_000633</idno>
 			</publicationStmt>
 			<sourceDesc>
+				<bibl xml:id="shelfmark">Royal Geographical Society (Great Britain); Archives, DL 2/6/1</bibl>
 				<bibl xml:id="ccnumber">Letters, 0168</bibl>
+				<bibl xml:id="recipient"><persName>Pyne, Benjamin T., 1798/9-1880</persName>; </bibl>
+				<bibl xml:id="date"><date when="1847-05-31">31 May 1847</date></bibl>
+				<bibl xml:id="where">Kuruman</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -33,7 +37,15 @@
 		<revisionDesc>
 			<change>
 				<date>2009-04-20</date>
-				<name xml:id="initials">SM</name>Initial Transcription by Sharon Messenger
+				<name xml:id="initials">Sharon Messenger</name>Initial Transcription by Sharon Messenger
+			</change>
+			<change>
+				<date>2017-06-22</date> 
+				<name>Kate Simpson</name>Proofreading 
+			</change>
+			<change> 
+				<date>2017-06-22</date> 
+				<name>Adrian S. Wisnicki</name>Proofing and Formatting 
 			</change>
 		</revisionDesc>
 	</teiHeader>
@@ -43,13 +55,11 @@
 			<div>
 
 	<pb n="0001" facs="liv_000633_0001"/><!--pb/@n='01'-->
-<lb/><p rend="right"><placeName>Kuruman</placeName>31 <hi rend="sup"><hi rend="underline">st</hi></hi> May 1847 
-<lb/>A little girl called Agnes the name 
-<lb/>of my mother has taken up her abode with us for 
-<lb/>a time. May we 
-<lb/>feel she is lent <unclear cert="low">hither</unclear> up for God </p>
-<lb/><p>My very Dear Friends </p>
-<lb/><p>Your favour of Dec<hi rend="sup">r</hi> 19 has just now been placed 
+<lb/><p rend="no-indent"><space extent="2" unit="words"/><add place="inspace">A little girl called Agnes the name</add>  <placeName>Kuruman</placeName>31 <hi rend="sup"><hi rend="underline">st</hi></hi> May 1847 
+<lb/><space extent="4" unit="words"/><add place="inspace">of my mother has taken up her abode with us for 
+<lb/><space extent="12" unit="words"/>a time. May we</add> 
+<lb/><space extent="1" unit="words"/>My very Dear Friends <space extent="2" unit="words"/><add place="inspace">feel she is lent <unclear cert="low">hither</unclear> up for God</add></p>
+<lb/><p rend="no-indent"><space extent="5" unit="words"/>Your favour of Dec<hi rend="sup">r</hi> 19 has just now been placed 
 <lb/>in my hands and though these are trembling I begin to do what I have 
 <lb/>been doing most of the past day viz "strike while the 
 <lb/>iron is hot." What have you seen doing say you? Are you 
@@ -150,7 +160,7 @@
 <lb/>of another wife of <persName>Bube</persName> whose name I forget<reg>.</reg></p>
 
 	<pb n="0003" facs="liv_000633_0003"/><!--pb/@n='03'-->
-<lb/><p><choice><reg>T</reg><orig>t</orig></choice>hey were intended as specimens of Bechuana hair. <choice><reg>T</reg><orig>t</orig></choice>he small bag has 
+<lb/><p rend="no-indent"><choice><reg>T</reg><orig>t</orig></choice>hey were intended as specimens of Bechuana hair. <choice><reg>T</reg><orig>t</orig></choice>he small bag has 
 <lb/>if I remember rightly medicine in it these are worn round the neck as 
 <lb/>charms and <del type="strikethrough">that particular one</del> sent was thrown into a <add place="above">believers</add> woman's house 
 <lb/>in order to bewitch her. <choice><reg>T</reg><orig>t</orig></choice>he little box is what was worn in a slit in the 
@@ -219,15 +229,20 @@
 <lb/>sandstone <unclear cert="low">at the</unclear> top into schist and <unclear cert="low">get out south senworthies I think</unclear>
 <lb/>all this were boulder or pebble rolled down from <placeName>Timbuctoo</placeName> the 
 <lb/><unclear cert="low">fields of Lilias Mills</unclear> are worth a chart load of the scientific dreams<reg>.</reg></p>
-<lb/><p>
-<address>
-<addrLine><del type="strikethrough">Care of <persName>D<hi rend="sup"><hi rend="underline">r</hi></hi> Philips</persName><placeName>Capetown</placeName></del></addrLine>
+
+<addSpan spanTo="#p.04-01" place="marginright"><!--addSpan/@place='right hand margin of p.04-01'--></addSpan>
+<lb/><p rend="no-indent">extremely <unclear cert="low">handy</unclear> (?) had they fitted her - they were too small &amp; are now 
+<lb/>worn by her sister. We have been favoured with a little 
+<lb/><space extent="2" unit="words"/>daughter. Mother &amp; child both doing well. No word of the box so 
+<lb/><space extent="2" unit="words"/>we conclude it lost. We thank you for it although it has not come<reg>.</reg></p><anchor xml:id="p.04-01"/>
+
+<lb/><p><address><addrLine><del type="strikethrough">Care of <persName>D<hi rend="sup"><hi rend="underline">r</hi></hi> Philips</persName> <placeName>Cape Town</placeName></del></addrLine>
 <addrLine><persName>Benjamin Pyne Esq<hi rend="sup"><hi rend="underline">r</hi></hi></persName></addrLine>
 <addrLine><placeName>North Weald</placeName></addrLine>
 <addrLine><placeName>Ongar</placeName>. <placeName>Essex</placeName></addrLine>
-<addrLine>S.B. </addrLine>
-</address>
-</p>
+<addrLine>S.B. </addrLine></address></p>
+<lb/>
+
 <lb/><p>All here are pretty well - <persName>M<hi rend="sup">r</hi> Hamilton</persName> very frail. <persName>M<hi rend="sup">r</hi> Moffat</persName> busy 
 <lb/>translating <unclear cert="low">karah</unclear>. <choice><reg>T</reg><orig>t</orig></choice>here is not much done at present among 
 <lb/>the  people - the <unclear cert="low">contensions</unclear> for some time back have been <unclear cert="low">dead</unclear>. 
@@ -236,12 +251,11 @@
 <lb/>not know her intended. He has a good character but his letters seem 
 <lb/>to indicate a sort of peevishness such as prevents me wishing you 
 <lb/>to make his acquaintance. If <persName>Robert Moffat</persName> comes your way 
-<lb/>he will visit you we have a better opinion of him - <persName>M<hi rend="sup">rs</hi> L</persName>desires me to say that a pair of stays (alias pincers) you kindly sent would have 
-<lb/><addSpan spanTo="#p.04-01" place="marginright"><!--addSpan/@place='right hand margin of p.04-01'--></addSpan>extremely <unclear cert="low">handy</unclear> (?) had they fitted her - they were too small &amp; are now 
-<lb/>worn by her sister. We have been favoured with a little 
-<lb/>daughter. Mother &amp; child both doing well. No word of the box so 
-<lb/>we conclude it lost. We thank you for it although it has not come<reg>.</reg></p><anchor xml:id="p.04-01"/>
+<lb/>he will visit you we have a better opinion of him - <persName>M<hi rend="sup">rs</hi> L</persName>desires me 
+<lb/><space extent="1" unit="words"/>to say that a pair of stays (alias pincers) you kindly sent would have </p>
+
 			
-</div>
+			</div>
 		</body>
-	</text></TEI>
+	</text>
+</TEI>
