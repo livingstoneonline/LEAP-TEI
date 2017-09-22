@@ -1,6 +1,0 @@
-for f in *; do mkdir ${f:0:10}; mv $f ${f:0:10}/; done
-
-
-move only the files for which directories already exist (everything else wills stay in main directory)
-
-for f in *; do mv $f ${f:0:10}/; done
