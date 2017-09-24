@@ -81,7 +81,7 @@
                 <xsl:for-each select="$xpath">
                   <xsl:sort select="lower-case(normalize-space(string(.)))"/>
                   <li><xsl:value-of select="normalize-space(string(.))"/>
-                    <xsl:if test="@type">[<xsl:value-of select="@type"/>]</xsl:if>
+                    <xsl:if test="@type"> [<xsl:value-of select="@type"/>]</xsl:if>
                   (<xsl:value-of select="jc:substring-after-last(base-uri(), '/')"/>)
                   </li>
                 </xsl:for-each>
