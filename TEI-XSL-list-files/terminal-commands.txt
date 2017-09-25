@@ -44,5 +44,5 @@ for file in *.xml; do /Users/awisnicki2/GitHub/Stylesheets/bin/teitopdf  --local
 paged file for Mac
 for file in *.xml; do saxon -s:$file -xsl:processpb.xsl -o:`basename $file .xml`-paged.xml; done
 
-paged file for PC?
+paged file for PC
 java -jar saxon9he.jar files=*.xml -xsl:processpb.xsl -o:*-paged.xml
