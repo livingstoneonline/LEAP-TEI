@@ -1,1 +1,1 @@
-find . -name "*.gif" -exec sh -c 'NEWDIR=`basename "$1" .gif` ; mkdir "$NEWDIR" ; mv "$1" "$NEWDIR" ' _ {} \;
+find . -name "*.tif" -exec sh -c 'NEWDIR=`basename "$1" .tif` ; mkdir "$NEWDIR" ; mv "$1" "$NEWDIR" ' _ {} \;
