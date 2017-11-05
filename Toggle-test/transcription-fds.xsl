@@ -105,7 +105,7 @@
 					<br/>
 					<hr class="title-section"/>
 					<br/>
-				<button id="toggle-display"><span class="black-white-text">Show text as black and white</span><span class="livingstone-color">Show manuscript colors</span></button>
+				<button id="toggle-display"><span class="black-white-text">Show all text as black and white</span><span class="livingstone-color">Show manuscript and editor-added colors</span></button>
 				<!-- <button id="toggle-display">Toggle Display</button>-->
 				</div>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
