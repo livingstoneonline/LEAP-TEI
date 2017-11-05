@@ -51,7 +51,7 @@
 					      // and toggle the class 'change-display'.
 					      document.querySelector('div.TEI')
 					        .classList
-					        .toggle('change-display');  
+					        .toggle('change-display');
 					    };
 					});
 				</script>
@@ -88,7 +88,6 @@
 				</xsl:choose>
 			</xsl:variable>
 			<div class="TEI">
-        		<button id="toggle-display">Toggle Display</button>
 				<div class="item-details">
 					<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
 					<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/>
@@ -106,6 +105,8 @@
 					<br/>
 					<hr class="title-section"/>
 					<br/>
+				<button id="toggle-display"><span class="black-white-text">Show text as black and white</span><span class="livingstone-color">Show manuscript colors</span></button>
+				<!-- <button id="toggle-display">Toggle Display</button>-->
 				</div>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>

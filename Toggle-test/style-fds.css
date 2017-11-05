@@ -40,6 +40,19 @@ div.transcription{
 	/*white-space:nowrap;*/
 	color:black; /*#58484b;*/ /*#574d44*/ /*#4E2F2F*/
 }
+div.transcription button{
+	padding-top:4px;
+	font-size:.9em !important;
+}
+.black-white-text,
+.change-display .livingstone-color{
+	display:inline;
+}
+.change-display .black-white-text,
+.livingstone-color{
+	display:none;
+}
+
 .TEI{
 	display:inline-block;
 	white-space:nowrap;
@@ -96,6 +109,9 @@ div.body{
 }
 a:link{
 	color:#428bca !important;
+}
+.change-display a:link{
+	color:black !important;
 }
 .change-display a:link{
 	color:black;
@@ -592,11 +608,6 @@ p{
 }
 .doubleunderline-orange{
 	border-bottom:1px double gray;
-}
-.change-display{
-	.doubleunderline-orange{
-	border-bottom:1px double black;
-}
 }
 .tripleunderline{
 	border-bottom:4px double;
