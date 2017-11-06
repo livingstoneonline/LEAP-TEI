@@ -23,7 +23,7 @@ Table of Contents
 
 /* Rules for containers either this is shown embedded in the viewer or not */
 body.non-embedded-transcription,
-div.transcription-viewer-content.style-mt-html{
+div.transcription-viewer-content.style-mt-html {
 	background:#e2e3e1;
 	/*#d3c2a8;*/
 	/*#e7d5bd*/
@@ -32,7 +32,7 @@ div.transcription-viewer-content.style-mt-html{
 
 /* 1. Textual divisions */
 
-div.transcription.style-mt-html{
+div.transcription.style-mt-html {
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -42,7 +42,7 @@ div.transcription.style-mt-html{
 	color:black; /*#58484b;*/ /*#574d44*/ /*#4E2F2F*/
 }
 
-.TEI{
+.TEI {
 	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
@@ -55,11 +55,11 @@ div.transcription.style-mt-html{
 }
 /*
 @media all and (max-width:1224px)  {
-.TEI{	
+.TEI {	
 	padding-left:1em;
 }
 */
-.item-details{
+.item-details {
 	max-width:29em;
 	min-width:29em;
 	white-space:normal;
@@ -67,22 +67,22 @@ div.transcription.style-mt-html{
 	padding-left:12em;
 	padding-right:12em;
 }
-div.text{
+div.text {
 	/*margin-left:3em;*/ /*Prevent line numbers from being hidden.*/ /*Removed*/
 }
-div.body{
+div.body {
 	display:block;
 	padding-bottom:2.4em;
 }
-.vertical-line{
+.vertical-line {
 	border-left:thin solid white;
 	padding-left:.8em;
 }
 .front,
-.back{
+.back {
 	display:block;
 }
-.div{
+.div {
 	white-space:normal;
 	width:29.8em;
 	padding-right:3.2em;
@@ -91,35 +91,35 @@ div.body{
 
 /* 1.5. Title section */
 
-.title{
+.title {
 	display:block;
 	text-align:center;
 	margin-bottom:-0.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
-.author{
+.author {
 	display:block;
 	text-align:center;
 	margin-bottom:.5em;
 	font-size:1.2em;
 	font-style:italic;
 }
-.authority{
+.authority {
 	font-size:.9em;
 	line-height:1.7;
 }
-.pub-date{
+.pub-date {
 	font-size:.9em;
 }
-a:link{
+a:link {
 	color:#428bca !important;
 }
-.idno{
+.idno {
 	font-size:.9em;
 	line-height:1.7;
 }
-hr.title-section{
+hr.title-section {
 	width:100%;
 	height:0;
 	border:0;
@@ -127,7 +127,7 @@ hr.title-section{
 	margin-top:-0.4em;
 	margin-bottom:-0.4em;
 }
-.project-id{
+.project-id {
 	color:#706f6a;
 	font-size:.9em;
 }
@@ -136,40 +136,40 @@ hr.title-section{
 /* 2. Letters */
 
 .opener,
-.closer{
+.closer {
 	margin-bottom:0px;
 }
-.opener{
+.opener {
 	display:inline;
 	margin-top:1em;
 }
-.closer{
+.closer {
 	display:block;
 }
-.dateline{
+.dateline {
 	display:inline;
 	text-indent:0;
 }
-.dateline.center{
+.dateline.center {
 	display:inline-block;
 }
-.dateline.right{
+.dateline.right {
 	display:block;
 }
-.closer-salute{
+.closer-salute {
 	margin-left:0 !important;
 }
-.signed{
+.signed {
 	display:inline-block;
 }
-.address{
+.address {
 	display:block;
 }
 
 
 /* 3. pb, lb, linenumber */
 
-.pb-title{
+.pb-title {
 	display:block;
 	color:#428bca !important;
 	/*text-decoration:underline;*/
@@ -179,21 +179,21 @@ hr.title-section{
 	margin-top:2em;
 	margin-bottom:-0.9em;
 }
-.pb-title:hover{
+.pb-title:hover {
 	color:#AAA !important;
 	cursor:pointer !important;
 }
-.pb-title:first-of-type{
+.pb-title:first-of-type {
 	margin-top:0;
 }
-p span.pb-title{
+p span.pb-title {
 	margin-left:0;
 	text-indent:0;
 }
-.lb{
+.lb {
 	display:block;
 }
-.linenumber{
+.linenumber {
 	text-align:right;
 	float:left;
 	color:#8c8b85;
@@ -202,20 +202,20 @@ p span.pb-title{
 	font-size:80%;
 	width:1em;
 }
-.p .linenumber{
+.p .linenumber {
 	text-indent:37em;
 }
-.p.noindent .linenumber{
+.p.noindent .linenumber {
 	text-indent:37em !important;
 }
-.p.noindent .marginleft.marginleft .linenumber{
+.p.noindent .marginleft.marginleft .linenumber {
 	text-indent:37em !important;
 	font-size:80% !important;	
 }
-.note .linenumber{
+.note .linenumber {
 	text-indent:37em !important;	
 }
-.add.marginleft .note .linenumber{
+.add.marginleft .note .linenumber {
 	text-indent:56.2em !important;
 	display:none;
 }
@@ -224,29 +224,29 @@ p span.pb-title{
 .U3 .linenumber,
 .U4 .linenumber,
 .U5 .linenumber,
-.CL .linenumber{
+.CL .linenumber {
 	font-style:normal;
 }
-/*p .linenumber{
+/*p .linenumber {
 	text-indent:-1%;
 }
-.p.noindent.linenumber{
+.p.noindent.linenumber {
 	text-indent:1em;
 }
-p.center .linenumber{
+p.center .linenumber {
 	margin-left:-12.5em !important; 
 }
-p.right .linenumber{
+p.right .linenumber {
 	margin-left:-18em !important;
 }
-.list .linenumber{
+.list .linenumber {
 	text-indent:0;	
 }*/
 
 
 /* 4. Milestone and lines */
 
-.milestone{
+.milestone {
 	display:block;
 	width:60%;
 	background:#FFF;
@@ -258,7 +258,7 @@ p.right .linenumber{
 	padding:0px;
 	margin-bottom:-1em;
 }
-.milestone.red.line{
+.milestone.red.line {
 	display:block;
 	width:60%;
 	background:#FFF;
@@ -270,7 +270,7 @@ p.right .linenumber{
 	padding:0px;
 	margin-bottom:-.7em;
 }
-.line{
+.line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:23em !important;
@@ -281,10 +281,10 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.doubleline{
+.doubleline {
 	margin-top:20px;
 }
-/*.doubleline{
+/*.doubleline {
 	border-top:4px double #8c8b8b;
 	display:block;
 	width:35% !important;
@@ -292,7 +292,7 @@ p.right .linenumber{
 	text-align:left;
 	color:black;
 }*/
-/*.tripleline{
+/*.tripleline {
 	border-top:4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
@@ -302,7 +302,7 @@ p.right .linenumber{
 	color:black;
 }*/
 /* Both of the above are not used in the 1870 FD transformation. See .second-line below.*/
-.halfline{
+.halfline {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:10.5em !important;
@@ -312,7 +312,7 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.quarterline{
+.quarterline {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:5em !important;
@@ -322,7 +322,7 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.second-line{
+.second-line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:23em !important;
@@ -334,7 +334,7 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.third-line{
+.third-line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:23em !important;
@@ -349,62 +349,62 @@ p.right .linenumber{
 
 /* 5. p, ab, note, fw */
 
-p{
+p {
 	margin-right:2em;
 }/*Needed so that the text doesn't run up against the right edge in the viewer.*/
-.p{
+.p {
 	display:inline-block;
 	text-indent:25px;
 	margin-top:0;
 	margin-bottom:0;	
 }
-.p.noindent{
+.p.noindent {
 	text-indent:0 !important;
 }
-.p.center{
+.p.center {
 	text-indent:0 !important;
 }
-.p.right{
+.p.right {
 	text-indent:0 !important;
 }
-.ab{
+.ab {
 	text-indent:0;
 	margin-top:0;
 	margin-bottom:0;
 }
-.head{
+.head {
 	font-weight:normal;
 	line-height:0em;
 }
-.note{
+.note {
 	display:inline;
 }
-.fw{
+.fw {
 	display:inline-block;
 }
-.fw.pageno{
+.fw.pageno {
 	text-indent:0 !important;
 }
-.fw.catch.left{
+.fw.catch.left {
 	margin-left:0;/*AW revisit*/
 	text-indent:0;
 }
-.fw.catch.right{
+.fw.catch.right {
 	text-indent:0;
 }
 
 /* Did you add the following four items for MT? If not, then remove them all */
-.add.marginleft{
+.add.marginleft {
 	text-indent:0;	
 	margin-left:0;
 	font-size:1em;
 }
-.addmargin{	
+.addmargin {	
 	margin-left:0 !important;
 	float:none !important;
 }
 .marginleft.marginleft,
-.note.marginleft{
+.note.marginleft {
 	margin-left:-8.9em;/*Changed. AW*/
 	text-indent:0;	
 	float:left;
@@ -412,10 +412,10 @@ p{
 	height:0;
 	/*font-size:.9em;*/
 }
-.add.marginleft .note{
+.add.marginleft .note {
 	font-size:.9em !important;
 }
-.note.marginright{
+.note.marginright {
 	margin-right:-2.6em !important;
 	text-indent:0;	
 	float:right;
@@ -426,77 +426,77 @@ p{
 
 /* 6. Additions and Deletions */
 
-.addmargin{
+.addmargin {
 	text-indent:0px;
 }
 .del,
 .strikethrough,
-.overwritten{
+.overwritten {
 	text-decoration:line-through;
 }
-.del-by-over-text{
+.del-by-over-text {
 	color:#706f6a;
 	text-decoration:line-through;
 }
 /*added for MT:retrace*/
-.retrace.red{
+.retrace.red {
     color:#B33B24 !important;
     border-bottom:1px gray dotted;	
 }
-.retrace.DL{
+.retrace.DL {
     color:black;
     border-bottom:1px gray dotted;
 }
-.retrace.CL{
+.retrace.CL {
     color:#746553;
     border-bottom:1px gray dotted;
 }
-.retrace.CL .add{
+.retrace.CL .add {
     color:#746553;
     border-bottom:1px gray dotted;
 }
-.retrace.U5{
+.retrace.U5 {
     color:#936541 !important;
     border-bottom:1px gray dotted;
 }
-.retrace.U5 .add{
+.retrace.U5 .add {
     color:#936541 !important;
     border-bottom:1px gray dotted;
 }
-.retrace.red .add{
+.retrace.red .add {
     color:#B33B24 !important;
 }
-.retrace.gray .add{
+.retrace.gray .add {
     color:gray !important;
 }
-.retrace.red .metamark{
+.retrace.red .metamark {
     color:#B33B24 !important;
 }
-.retrace.gray .metamark{
+.retrace.gray .metamark {
     color:gray !important;
 }
-.retrace.DL .add{
+.retrace.DL .add {
     color:black !important;
 }
-.retrace.DL .metamark{
+.retrace.DL .metamark {
     color:black !important;
 }
 
 
 /* 7. Unclear, gap, space */
 
-.unclear{
+.unclear {
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
 }
-.gap{
+.gap {
 	border-bottom:1px dotted black;
 }
-.space-other{
+.space-other {
 	border-bottom:1px dotted black;
 	display:block;
 }
-.verticalSpace{
+.verticalSpace {
 	display:inline-block;
 	border-bottom:1px dotted black;
 	text-indent:0;
@@ -507,97 +507,97 @@ p{
 /* 8. Editorial */
 
 .sic,
-.corr{
+.corr {
 	border-bottom:2px #B33B24 dotted;
 }
 .orig,
-.reg{
+.reg {
 	/*border-bottom:1px green dotted*/
 }
 .abbr,
-.expan{
+.expan {
 	border-bottom:1px green dotted;
 }
-.expan{
+.expan {
 	display:none;
 }
-.hidden{
+.hidden {
 	display:none;
 }
-.rdg{
+.rdg {
 	display:block;
 }
 
 
 /* 9. @rend classes (except colors, lines, and up-down placement) */
 
-.caps{
+.caps {
 	font-variant:small-caps;
 }
-.center{
+.center {
 	text-indent:0;
 	margin-left:6em;
 }
-.doubleunderline{
+.doubleunderline {
 	border-bottom:3px double;
 }
-.tripleunderline{
+.tripleunderline {
 	border-bottom:4px double;
 	text-decoration:underline;
 }
-.inline{
+.inline {
 	/*color:#706f6a;*/
 }
-.italic{
+.italic {
 	font-style:italic;
 }
-.large{
+.large {
 	font-size:120%;
 }
-.seg.left{
+.seg.left {
 	position:relative;
 	right:4em;
 }
-.body.left{
+.body.left {
 	text-indent:0;
 	margin-left:12em;
 }
-.overline.underline{
+.overline.underline {
 	text-decoration:overline underline;
 }
-.overtext{
+.overtext {
 	/*color:#706f6a;*/
 }
-.right{
+.right {
 	text-indent:0;
 	margin-left:12em;
 }
 
 /*Did you add the next two items? If not, remove them both */
-.add-right{
+.add-right {
 	margin-left:8em;
 }
-.right-right{
+.right-right {
 	margin-left:0em;
 }
 /*See previous note. End of items to remove possible */
 
-.small{
+.small {
 	font-size:85%;
 }
-.smallcaps{
+.smallcaps {
 	font-variant:small-caps;
 }
-.underline{
+.underline {
 	text-decoration:underline;
 }
-.upsidedown{
+.upsidedown {
 	/*-ms-transform:rotate(180deg);*/ /* IE 9 */
 	/*-moz-transform:rotate(180deg);*/ /* Firefox */
 	/*-webkit-transform:rotate(180deg);*/ /* Safari and Chrome */
 	/*-o-transform:rotate(180deg);*/ /* Opera */
 }
-.vertical{
+.vertical {
 	/*-ms-transform:rotate(90deg);*/ /* IE 9 */
 	/*-moz-transform:rotate(90deg);*/ /* Firefox */
 	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
@@ -612,7 +612,7 @@ p{
 .bottom,
 .sub,
 .sup,
-.top{
+.top {
 	/* Specified in % so that the sup/sup is the
      right size relative to the surrounding text */
 	font-size:75%;
@@ -631,18 +631,18 @@ p{
 }
 .above,
 .sup,
-.top{
+.top {
 	/* Move the superscripted text up */
 	top:-0.5em;
 }
 .below,
 .bottom,
-.sub{
+.sub {
 	/* Move the subscripted text down, but only
      half as far down as the superscript moved up */
 	bottom:-0.25em;
 }
-/*.margintop{
+/*.margintop {
 	margin-left:0;
 	color:#706f6a;
 	line-height:0;
@@ -650,11 +650,11 @@ p{
 	vertical-align:baseline;
 	top:-1em;
 }*/
-.margintop.left{
+.margintop.left {
 }
-.margintop.right{
+.margintop.right {
 }
-.true{
+.true {
 	/*display:inline-block;*/
 }/*Goes with standalone <note>s*//*Not relevant to MT?*/
 /*Commented this out again because it was messing up hi/del when outside of note*/
@@ -662,62 +662,62 @@ p{
 
 /* 11. Colors */
 
-.black{
+.black {
 	color:black;
 }
 
 /*Did you add the following two? If not, remove. If so, add a note that this are for MT*/
-.black.gray{
+.black.gray {
 	color:#404040;
 }
 /*See previous*/
 
-.blue{
+.blue {
 	color:blue;
 }
-.brown{
+.brown {
 	color:#8e6352;
 }
-.gray{
+.gray {
 	color:#706f6a !important;
 }
-.green{
+.green {
 	color:green;
 }
-.orange{
+.orange {
 	color:orange;
 }
-.purple{
+.purple {
 	color:purple;
 }
-.red{
+.red {
 	color:#B33B24;
 }
-.yellow{
+.yellow {
 	color:yellow;
 }
 
 
 /* 12. Lists and Tables */
-.list{
+.list {
 	display:block;
 	margin-top:12px;
 }
-table{
+table {
 	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
 	margin-right:2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 	color:#58484b; /*Added color for 1870 Field Diary*/
 }
 tr,
-td{
+td {
 	border-style:none;
 }
 
 
 /* 13. Misc */
 
-.figure{
+.figure {
 	margin-left:0;
 	color:#706f6a;
 	font-size:.8em;
@@ -725,7 +725,7 @@ td{
 }
 .p .figure,
 .p.noindent .figure,
-.ab .figure{
+.ab .figure {
 	margin-left:0px !important;
 	text-indent:0px;
 }
@@ -734,17 +734,17 @@ td{
 
 /* Removed .metamark code, for Missionary Travels. See section 14 instead.*/
 
-p .metamark{
+p .metamark {
 	margin-left:0px !important;
 	text-indent:0px !important;
 }
 /*See previous*/
 
 /*Did you add the following two? If not, remove. If so, add a note that these are for MT*/
-.makeRed{
+.makeRed {
 color:#B33B24;
 }
-.makeGray{
+.makeGray {
 color:gray;
 }
 /*See previous*/
@@ -756,30 +756,30 @@ color:gray;
 .region,
 .settlement,
 .term-ailment,
-.term-tribe{
+.term-tribe {
 	border-bottom:2px #428bca dotted; /* change to 1px */
 }
 
 
 /* 14. Multiple hands */ /*added for MT*/
 
-.CL{
+.CL {
     font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	color:#746553;
 	font-style:italic;
 }
-.DL{
+.DL {
     font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	color:black;
 	font-style:normal;
 }
-.U1{
+.U1 {
     font-style:normal;
 }
-.U2{
+.U2 {
     font-style:normal;
 }
-.U5{
+.U5 {
     font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; 
 	color:#936541;
@@ -789,117 +789,117 @@ color:gray;
 
 /*15. Metamarks*/ /*added for MT*/
 
-.dashed{
+.dashed {
     border-bottom:2px dashed;
 }
-.dashed-red{
+.dashed-red {
     border-bottom:2px #B33B24 dashed;
 }
-.dashed-gray{
+.dashed-gray {
     border-bottom:2px gray dashed;
 }
-.dashed-red .metamark{
+.dashed-red .metamark {
 font-size:1em !important;
 }
-.dashed-gray .metamark{
+.dashed-gray .metamark {
 font-size:1em !important;
 }
-.dashed .metamark{
+.dashed .metamark {
 font-size:1em !important;
 }
-.metamark{
+.metamark {
 	font-style:italic;
 	border-bottom:1px gray dotted;
 	/*font-size:1em;*/
 }
-.metamark.red{
+.metamark.red {
     color:#B33B24;
     font-style:italic;
 	border-bottom:1px gray dotted;
 	/*font-size:.9em;*/
     }
-.metamark.gray{
+.metamark.gray {
     color:gray;
     font-style:italic;
 	border-bottom:1px gray dotted;
 	/*font-size:.9em;*/
 }
-.metamark.ed-mark{
+.metamark.ed-mark {
 	font-style:italic;
 	border-bottom:1px gray dotted;
 	/*font-size:1.1em;*/
 }
-.metamark.flag{
+.metamark.flag {
     font-size:1.5em;
     font-style:normal !important;
 }
-.metamark.no-newParagraph{
+.metamark.no-newParagraph {
 	font-style:italic;
 	border-bottom:1px gray dotted;
 	font-size:2em;
 }
-.metamark.placeMark{
+.metamark.placeMark {
 	font-style:italic;
 	border-bottom:1px gray dotted;
 	font-size:2em !important;
 	line-height:70%;
 }
-/*.metamark.placeMark.marginleft{
+/*.metamark.placeMark.marginleft {
 	    margin-left:-5em !important;
 		margin-right:2.5em;
 	    font-size:2em !important;
 		float:none;
 		line-height:100%;
 }*/
-.marginleft.marginleft.metamark.marginleft.placeMark{
+.marginleft.marginleft.metamark.marginleft.placeMark {
 	float:none;
 	margin-left:-2em !important;
 	margin-right:1.4em;
 	line-height:45%;
 }
-.metamark.deletion{
+.metamark.deletion {
 	font-style:italic;
 	border-bottom:1px gray dotted;
 	/*font-size:1.1em;*/
 }
 .marginleft.marginleft.metamark.deletion,
-.marginleft.marginleft.metamark.ed-mark{
+.marginleft.marginleft.metamark.ed-mark {
 	float:none;
 	margin-left:-5em !important;
 	margin-right:4em;
 }
-.marginleft.marginleft.metamark.marginleft{
+.marginleft.marginleft.metamark.marginleft {
 	float:none;
 	margin-left:-5em !important;
 	margin-right:4.2em;
 }
-.marginleft.marginleft.metamark.marginleft.query{
+.marginleft.marginleft.metamark.marginleft.query {
 	float:none;
 	margin-left:-4.5em !important;
 	margin-right:3.8em;
 }
-.marginleft.marginleft .metamark.placeMark.marginleft{
+.marginleft.marginleft .metamark.placeMark.marginleft {
 	float:left;
 }
-.metamark.transposition{
+.metamark.transposition {
 	font-style:italic;
 	border-bottom:1px gray dotted;
 	/*font-size:0.9em;*/
 }
-.metamark.marginleft{
+.metamark.marginleft {
     margin-left:-12em !important;/*Changed from 5.2em. AW*/
 	text-indent:0;	
 	float:none;
 	text-align:center;
 	font-size:.9em;
 }
-.metamark.marginleft.second-margin-metamark{
+.metamark.marginleft.second-margin-metamark {
     margin-left:-2.8em !important;/*Changed. AW*/	
 }
-.metamark.marginleft.alternate-margin-metamark{
+.metamark.marginleft.alternate-margin-metamark {
 	margin-left:-3em !important;/*Changed. AW*/
 }
-p .metamark{
+p .metamark {
 	margin-left:0px !important;
 	text-indent:0px !important;
 }
