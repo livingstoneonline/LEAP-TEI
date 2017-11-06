@@ -48,7 +48,7 @@ div.transcription.style-LLJ-complete{
 	/*LLJ*/
 }
 /*
-@media all and (max-width: 768px)  {
+@media all and (max-width:768px)  {
 .TEI{	
 	/*padding-left:1.5em;*//*Removed because didn't work with triple viewer*/
 }
@@ -229,7 +229,7 @@ p.right .linenumber{
 	border-top:1px solid #58484b;
 }
 /*.doubleline{
-	border-top: 4px double #8c8b8b;
+	border-top:4px double #8c8b8b;
 	display:block;
 	width:35% !important;
 	margin-left:9%;
@@ -237,7 +237,7 @@ p.right .linenumber{
 	color:black;
 }*/
 /*.tripleline{
-	border-top: 4px double #8c8b8b;
+	border-top:4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
 	width:35% !important;
@@ -294,7 +294,7 @@ p.right .linenumber{
 /* 5. p, ab, note, fw */
 
 p{
-	/*margin-right: 2em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	/*margin-right:2em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 }
 .p,
 .note{
@@ -318,8 +318,8 @@ p{
 	text-indent:0 !important;
 }
 .ab{
-	padding-left: 0em;
-	text-indent: -1.5em;/*This and previous together create a hanging indent for LLJ*/
+	padding-left:0em;
+	text-indent:-1.5em;/*This and previous together create a hanging indent for LLJ*/
 	margin-left:2em;/*LLJ*/
 	margin-top:0;
 	margin-bottom:0;
@@ -338,8 +338,8 @@ p{
 	margin-top:-1em;
 	display:block;
 	/*color:purple;*/ /*Added for full LJ*/
-	padding-left: 2em; /*Added for full LJ*/
-	padding-right: 3em; /*Added for full LJ*/
+	padding-left:2em; /*Added for full LJ*/
+	padding-right:3em; /*Added for full LJ*/
 }/*LLJ*/
 .fw.catch.left{
 	text-indent:0;
@@ -505,7 +505,7 @@ p{
      interfere with the positioning that follows */
 	line-height:0;
 
-	/* Where the magic happens: makes all browsers position
+	/* Where the magic happens:makes all browsers position
      the sup/sup properly, relative to the surrounding text */
 	position:relative;
 
@@ -578,7 +578,7 @@ p{
 table{
 	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
-	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	margin-right:2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 	color:#58484b; /*Added color for 1870 Field Diary*/
 }
 tr,
@@ -590,7 +590,7 @@ td{
 /* 13. Misc */
 
 .date-red{
-	display: none;
+	display:none;
 	color:red;
 	font-style:normal;
 }/*Added for full LLJ*/
