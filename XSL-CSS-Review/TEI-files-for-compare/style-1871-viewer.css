@@ -9,23 +9,26 @@ Table of Contents
 4. Milestone and lines 
 5. p, ab, note, fw 
 6. Additions and Deletions 
-7. Editorial 
-8. @rend classes (except lines, page placement, colors) 
-9. Page placement 
-10. Colors 
-11. Lists and Tables 
-12. Misc 
+7. Unclear, gap, space
+8. Editorial 
+9. @rend classes (except lines, page placement, colors) 
+10. Page placement 
+11. Colors 
+12. Lists and Tables 
+13. Misc 
 
-* /
-
+*/
+/* Rules for containers either this is shown embedded in the viewer or not */
+body.non-embedded-transcription,
+div.transcription-viewer-content.style-1871-viewer{
+	background:#d3c2a8;
+	/*#e7d5bd*/
+}
 
 
 /* 1. Textual divisions */
 
-body{
-	background:#d3c2a8; /*#e7d5bd*/
-}
-div.transcription{
+div.transcription.style-1871-viewer{
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -38,19 +41,24 @@ div.transcription{
 	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
+	padding-left:2em;
+	/*Needed to position line numbers in MS viewer*/
+	padding-right:2em;
+	/*Needed to position line numbers in MS viewer*/
 	text-align:left;
+	background:#d3c2a8;
+	/*#e7d5bd*/
 }
+/*
 @media all and (max-width: 768px)  {
 .TEI{	
 	padding-left:2em; /*Needed to position line numbers in MS viewer*/
 }
-}
+*/
 .item-details{
 	max-width:29em;
 	min-width:29em;
 	white-space:normal;
-}
-div.text{
 }
 div.body{
 	display:block;
@@ -61,15 +69,14 @@ div.body{
 .back{
 	display:block;
 }
-.div{
-}
+
 
 /* 1.5. Title section */
 
 .title{
 	display:block;
 	text-align:center;
-	margin-bottom:-.5em;
+	margin-bottom:-0.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
@@ -99,14 +106,15 @@ hr.title-section{
 	height:0;
 	border:0;
 	border-top:1px solid #52463d;
-	margin-top:-.4em;
-	margin-bottom:-.4em;
+	margin-top:-0.4em;
+	margin-bottom:-0.4em;
 }
 .project-id{
 	color:#706f6a;
 	font-size:.9em;
 	padding-left:1.5em;
 }
+
 
 /* 2. Letters */
 
@@ -131,22 +139,14 @@ hr.title-section{
 .dateline.right{
 	display:block;
 }
-.opener-salute{
-}
 .closer-salute{
 	margin-left:0 !important;
-}
-.closer.center{
 }
 .signed{
 	display:inline-block;
 }
 .address{
 	display:block;
-}
-.addrLine.center{
-}
-.addrLine.right{
 }
 
 
@@ -158,27 +158,21 @@ hr.title-section{
 	/*text-decoration:underline;*/
 	font-size:90%;
 	margin-top:2em;
-	margin-bottom:-.9em;
+	margin-bottom:-0.9em;
 }
 .pb-title:hover{
 	color:#AAA;
-	cursor:pointer
+	cursor:pointer;
 }
-.pb-title:first-of-type {
-  margin-top: 0;
-}/*This is to prevent scrolling up when the first image opens. AW*/
+.pb-title:first-of-type{
+	margin-top:0;
+}
 p span.pb-title{
 	margin-left:0;
 	text-indent:0;
 }
-.del-pb{
-}
 .lb{
 	display:block;
-}
-.lb.center{
-}
-.lb.right{
 }
 .linenumber{
 	text-align:right;
@@ -311,7 +305,7 @@ p.right .linenumber{
 /* 5. p, ab, note, fw */
 
 p{
-	margin-right: 2em;
+	margin-right:2em;
 }/*Needed so that the text doesn't run up against the right edge in the viewer.*/
 .p{
 	display:inline-block;
@@ -333,8 +327,6 @@ p{
 	margin-top:0;
 	margin-bottom:0;
 }
-.ab.center{
-}
 .head{
 	font-weight:300;
 }
@@ -355,10 +347,9 @@ p{
 	text-indent:0;
 }
 
+
 /* 6. Additions and Deletions */
 
-.opener-add{
-}
 .addmargin{
 	text-indent:0px;
 }
@@ -393,12 +384,11 @@ p{
 }
 
 
-
-/* 7. Editorial */
+/* 8. Editorial */
 
 .sic,
 .corr{
-	border-bottom:2px #9a6152 dotted
+	border-bottom:2px #9a6152 dotted;
 }
 .orig,
 .reg{
@@ -406,7 +396,7 @@ p{
 }
 .abbr,
 .expan{
-	border-bottom:1px green dotted
+	border-bottom:1px green dotted;
 }
 .expan{
 	display:none;
@@ -419,7 +409,7 @@ p{
 }
 
 
-/* 8. @rend classes (except colors, lines, and up-down placement) */
+/* 9. @rend classes (except colors, lines, and up-down placement) */
 
 .caps{
 	font-variant:small-caps;
@@ -445,7 +435,7 @@ p{
 	font-size:120%;
 }
 .overline{
-	text-decoration: overline;
+	text-decoration:overline;
 }
 .overline.underline{
 	text-decoration:overline underline;
@@ -479,7 +469,8 @@ p{
 	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
 
-/* 9. Page placement */
+
+/* 10. Page placement */
 
 .above,
 .below,
@@ -524,16 +515,12 @@ p{
 	vertical-align:baseline;
 	top:-1em;
 }
-.margintop.left{
-}
-.margintop.right{
-}
 .true{
 	display:inline-block;
 }/*Goes with standalone <note>s*/
 
 
-/* 10. Colors */
+/* 11. Colors */
 
 .black{
 	color:black;
@@ -567,7 +554,8 @@ p{
 }
 
 
-/* 11. Lists and Tables */
+/* 12. Lists and Tables */
+
 .list{
 	display:block;
 	margin-top:12px;
@@ -575,7 +563,7 @@ p{
 table{
 	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
-	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	margin-right:2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 	color:#52463d; /*Added color for 1870 Field Diary*/
 }
 tr,
@@ -584,7 +572,7 @@ td{
 }
 
 
-/* 12. Misc */
+/* 13. Misc */
 
 .figure{
 	/*margin-left:9%;*/ /*1871 FD, removed*/
