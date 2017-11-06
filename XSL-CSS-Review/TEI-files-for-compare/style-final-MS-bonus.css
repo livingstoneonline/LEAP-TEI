@@ -16,21 +16,26 @@ Table of Contents
 11. Lists and Tables 
 12. Misc 
 
-* /
-
-
-/* 1. Textual divisions */
-
-body{
+*/
+/* Rules for containers either this is shown embedded in the viewer or not */
+body.non-embedded-transcription,
+div.transcription-viewer-content.style-final-MS-bonus{
 	/*background:#ccc2b2;*/
 }
+/*
 @media all and (max-width: 768px)  {
 body{	
 	padding-left:2.5em;
 	padding-top:1.5em;
 }
-}
-div.transcription{
+*/
+
+
+/* 1. Textual divisions */
+
+div.transcription.style-final-MS-bonus{
+	padding-left:2.5em;
+	padding-top:1.5em;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -42,19 +47,21 @@ div.transcription{
 	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
+	padding-left:1em;
+	padding-right:1em;
 	text-align:left;
+	/*background:#ccc2b2;*/
 }
+/*
 @media all and (max-width: 768px)  {
 .TEI{	
 	padding-left:1em;
-}
-}
+}*/
+
 .item-details{
 	max-width:27em;
 	min-width:27em;
 	white-space:normal;
-}
-div.text{
 }
 div.body{
 	display:block;
@@ -71,7 +78,7 @@ div.body{
 .title{
 	display:block;
 	text-align:center;
-	margin-bottom:-.5em;
+	margin-bottom:-0.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
@@ -101,8 +108,8 @@ hr.title-section{
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
-	margin-top:-.4em;
-	margin-bottom:-.4em;
+	margin-top:-0.4em;
+	margin-bottom:-0.4em;
 }
 .project-id,
 .project-encoding,
@@ -111,6 +118,7 @@ hr.title-section{
 	font-size:.9em;
 	line-height:2em;
 }
+
 
 /* 2. Letters */
 
@@ -143,19 +151,19 @@ hr.title-section{
 	color:#428bca;
 	font-size:90%;
 	margin-top:2em;
-	margin-bottom:-.9em;
+	margin-bottom:-0.9em;
 	margin-left:0;
 	text-indent:0;
 	font-style:normal;
 }
 .pb-title:hover{
 	color:#AAA;
-	cursor:pointer
+	cursor:pointer;
 }
 .pb-title:first-of-type{
-  	margin-top: 0;
+	margin-top:0;
 	font-style:normal;
-}/*This is to prevent scrolling up when the first image opens. AW*/
+}
 .lb{
 	display:block;
 }
@@ -196,7 +204,7 @@ p.right .linenumber{
 	margin-left:0;
 	margin-right:9%;
 	margin-top:.7em;
-	margin-bottom:-.5em;
+	margin-bottom:-0.5em;
 	padding:0px;
 }
 .line{
@@ -250,7 +258,7 @@ p.right .linenumber{
 	width:20em !important;
 	margin-left:0;
 	text-align:left;
-	margin-top:-.5em;
+	margin-top:-0.5em;
 	margin-bottom:0em;
 	height:0;
 	border:0;
@@ -349,11 +357,11 @@ p{
 
 .sic,
 .corr{
-	border-bottom:2px #B33B24 dotted
+	border-bottom:2px #B33B24 dotted;
 }
 .abbr,
 .expan{
-	border-bottom:1px green dotted
+	border-bottom:1px green dotted;
 }
 .expan,
 .hidden{
@@ -390,7 +398,7 @@ p{
 	font-size:120%;
 }
 .overline{
-	text-decoration: overline;
+	text-decoration:overline;
 }
 .overline.underline{
 	text-decoration:overline underline;
@@ -502,6 +510,7 @@ p{
 
 
 /* 11. Lists and Tables */
+
 .list{
 	display:block;
 }
