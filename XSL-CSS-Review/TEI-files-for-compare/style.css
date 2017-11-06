@@ -19,22 +19,22 @@ Table of Contents
 */
 /* Rules for containers either this is shown embedded in the viewer or not */
 body.non-embedded-transcription,
-div.transcription-viewer-content.style{
+div.transcription-viewer-content.style {
 	background:#ccc2b2;
 }
 
 
 /* 1. Textual divisions */
 
-div.transcription.style{
+div.transcription.style {
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:16px;
-	/*white-space: nowrap;*/
+	/*white-space:nowrap;*/
 }
-.TEI{
+div.transcription.style .TEI {
 	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
@@ -44,58 +44,58 @@ div.transcription.style{
 	background:#ccc2b2;
 }
 /*
-@media all and (max-width: 768px)  {
-.TEI{	
+@media all and (max-width:768px)  {
+.TEI {	
 	padding-left:1em;
 }
 */
-.item-details{
+div.transcription.style .item-details {
 	max-width:30em;
 	min-width:30em;
 	white-space:normal;
 }
-div.body{
+div.transcription.style div.body {
 	display:block;
 	padding-bottom:2.4em;
 	padding-left:3.5em;
 }
-.front,
-.back{
+div.transcription.style .front,
+div.transcription.style .back {
 	display:block;
 }
 
 
 /* 1.5. Title section */
 
-.title{
+div.transcription.style .title {
 	display:block;
 	text-align:center;
 	margin-bottom:-0.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
-.author{
+div.transcription.style .author {
 	display:block;
 	text-align:center;
 	margin-bottom:.5em;
 	font-size:1.2em;
 	font-style:italic;
 }
-.authority{
+div.transcription.style .authority {
 	font-size:.9em;
 	line-height:1.7;
 }
-.pub-date{
+div.transcription.style .pub-date {
 	font-size:.9em;
 }
-a:link{
+div.transcription.style a:link {
 	color:#428bca !important;
 }
-.idno{
+div.transcription.style .idno {
 	font-size:.9em;
 	line-height:1.7;
 }
-hr.title-section{
+div.transcription.style hr.title-section {
 	width:27em;
 	height:0;
 	border:0;
@@ -104,16 +104,16 @@ hr.title-section{
 	margin-bottom:-0.4em;
 	margin-left:3.5em;
 }
-.project-id,
-.project-encoding,
-.encoding-standard{
+div.transcription.style .project-id,
+div.transcription.style .project-encoding,
+div.transcription.style .encoding-standard {
 	display:inline-block;
 	padding-left:4em;
 	padding-bottom:.4em;
 	font-size:.9em;
 	line-height:170%;
 }
-.project-encoding{
+div.transcription.style .project-encoding {
 	line-height:140% !important;
   	margin-left:30px;
   	text-indent:-30px;	
@@ -122,31 +122,31 @@ hr.title-section{
 
 /* 2. Letters */
 
-.opener,
-.closer,
-.trailer{
+div.transcription.style .opener,
+div.transcription.style .closer,
+div.transcription.style .trailer {
 	margin-bottom:0px;
 }
-.opener{
+div.transcription.style .opener {
 	display:inline;
 	margin-top:1em;
 }
-.closer,
-.address{
+div.transcription.style .closer,
+div.transcription.style .address {
 	display:block;
 }
-.dateline{
+div.transcription.style .dateline {
 	display:inline;
 	text-indent:0;
 }
-.signed{
+div.transcription.style .signed {
 	display:inline-block;
 }
 
 
 /* 3. pb, lb, linenumber */
 
-.pb-title{
+div.transcription.style .pb-title {
 	display:block;
 	color:#428bca;
 	font-size:90%;
@@ -155,17 +155,17 @@ hr.title-section{
 	margin-left:0;
 	text-indent:0;
 }
-.pb-title:hover{
+div.transcription.style .pb-title:hover {
 	color:#AAA;
 	cursor:pointer;
 }
-.pb-title:first-of-type{
+div.transcription.style .pb-title:first-of-type {
 	margin-top:0;
 }
-.lb{
+div.transcription.style .lb {
 	display:block;
 }
-.linenumber{
+div.transcription.style .linenumber {
 	text-align:right;
 	float:left;
 	color:#8c8b85;
@@ -174,26 +174,26 @@ hr.title-section{
 	font-size:.8em;
 	width:1em;
 }
-p .linenumber{
+div.transcription.style p .linenumber {
 	text-indent:-1%;
 }
-.p.noindent.linenumber{
+div.transcription.style .p.noindent.linenumber {
 	text-indent:1em;
 }
-p.center .linenumber{
+div.transcription.style p.center .linenumber {
 	margin-left:-6.4em !important;
 }
-p.right .linenumber{
+div.transcription.style p.right .linenumber {
 	margin-left:-10.5em !important;
 }
-.list .linenumber{
+div.transcription.style .list .linenumber {
 	text-indent:0;	
 }
 
 
 /* 4. Milestone and lines */
 
-.milestone{/*check all of this against 1870 viewer*/
+div.transcription.style .milestone {/*check all of this against 1870 viewer*/
 	display:block;
 	width:60%;
 	background:#FFF;
@@ -204,7 +204,7 @@ p.right .linenumber{
 	margin-bottom:-0.5em;
 	padding:0px;
 }
-.line{
+div.transcription.style .line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:27em !important;
@@ -214,14 +214,14 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.doubleline{
+div.transcription.style .doubleline {
 	border-top:4px double #8c8b8b;
 	display:block;
 	width:27em !important;
 	margin-left:9%;
 	text-align:left;
 }
-.tripleline{
+div.transcription.style .tripleline {
 	border-top:4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
@@ -229,7 +229,7 @@ p.right .linenumber{
 	margin-left:9%;
 	text-align:left;
 }
-.halfline{
+div.transcription.style .halfline {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:17.5em !important;
@@ -239,7 +239,7 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.quarterline{
+div.transcription.style .quarterline {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:11em !important;
@@ -249,7 +249,7 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.second-line{
+div.transcription.style .second-line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:27em !important;
@@ -261,7 +261,7 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.third-line{
+div.transcription.style .third-line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:27em !important;
@@ -276,41 +276,41 @@ p.right .linenumber{
 
 /* 5. p, ab, note, fw */
 
-p{
-	margin-right: 2em;
+div.transcription.style p {
+	margin-right:2em;
 }/*Needed so that the text doesn't run up against the right edge in the viewer.*/
-.p{
+div.transcription.style .p {
 	display:inline-block;
 	text-indent:25px;
 	margin-top:0;
 	margin-bottom:0;	
 }
-.p.noindent,
-.p.center,
-.p.right{
+div.transcription.style .p.noindent,
+div.transcription.style .p.center,
+div.transcription.style .p.right {
 	text-indent:0 !important;
 }
-.p.right{
+div.transcription.style .p.right {
 	margin-left:6em !important;
 }
-.ab{
+div.transcription.style .ab {
 	text-indent:0;
 	margin-top:0;
 	margin-bottom:0;
 }
-.head{
+div.transcription.style .head {
 	font-weight:normal;
 }
-.note{
+div.transcription.style .note {
 	display:inline;
 }
-.fw{
+div.transcription.style .fw {
 	display:inline-block;
 }
-.fw.pageno{
+div.transcription.style .fw.pageno {
 	text-indent:0 !important;
 }
-.fw.catch.right{
+div.transcription.style .fw.catch.right {
 	margin-left:14em;
 	text-indent:0;
 }
@@ -318,27 +318,27 @@ p{
 
 /* 6. del, unclear, gap, space */
 
-.del,
-.del-by-over-text{
+div.transcription.style .del,
+div.transcription.style .del-by-over-text {
 	text-decoration:line-through;
 	/*color:#666666;*//*Previously used for .del-by-over-text*/
 }
-.pb-del{
+div.transcription.style .pb-del {
 	display:inline-block;
 	margin-bottom:.5em;
 }
-.unclear{
+div.transcription.style .unclear {
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
 }
-.gap{
+div.transcription.style .gap {
 	border-bottom:1px dotted black;
 }
-.space-other{
+div.transcription.style .space-other {
 	border-bottom:1px dotted black;
 	display:block;
 }
-.verticalSpace{
+div.transcription.style .verticalSpace {
 	display:inline-block;
 	border-bottom:1px dotted black;
 	text-indent:0;
@@ -347,74 +347,74 @@ p{
 
 /* 7. Editorial */
 
-.sic,
-.corr{
+div.transcription.style .sic,
+div.transcription.style .corr {
 	border-bottom:2px #B33B24 dotted;
 }
-.abbr,
-.expan{
+div.transcription.style .abbr,
+div.transcription.style .expan {
 	border-bottom:1px green dotted;
 }
-.expan,
-.hidden{
+div.transcription.style .expan,
+div.transcription.style .hidden {
 	display:none;
 }
-.rdg{
+div.transcription.style .rdg {
 	display:block;
 }
 
 
 /* 8. @rend classes (except colors, lines, and up-down placement) */
 
-.bold{
+div.transcription.style .bold {
 	font-weight:600;
 }
-.caps{
+div.transcription.style .caps {
 	font-variant:small-caps;
 }
-.center{
+div.transcription.style .center {
 	text-indent:0;
 	margin-left:2.7em;
 }
-.doubleunderline{
+div.transcription.style .doubleunderline {
 	border-bottom:3px double;
 }
-.tripleunderline{
+div.transcription.style .tripleunderline {
 	border-bottom:4px double;
 	text-decoration:underline;
 }
-.italic{
+div.transcription.style .italic {
 	font-style:italic;
 }
-.large{
+div.transcription.style .large {
 	font-size:120%;
 }
-.overline{
+div.transcription.style .overline {
 	text-decoration:overline;
 }
-.overline.underline{
+div.transcription.style .overline.underline {
 	text-decoration:overline underline;
 }
-.right{
+div.transcription.style .right {
 	text-indent:0;
 	margin-left:4em;
 }
-.small{
+div.transcription.style .small {
 	font-size:.85em;
 }
-.smallcaps{
+div.transcription.style .smallcaps {
 	font-variant:small-caps;
 }
-.underline{
+div.transcription.style .underline {
 	text-decoration:underline;
 }
-.upsidedown{
+div.transcription.style .upsidedown {
 	/*-ms-transform:rotate(180deg);*/ /* IE 9 */
 	/*-moz-transform:rotate(180deg);*/ /* Firefox */
 	/*-webkit-transform:rotate(180deg);*/ /* Safari and Chrome */
 	/*-o-transform:rotate(180deg);*/ /* Opera */
 }
-.vertical{
+div.transcription.style .vertical {
 	/*-ms-transform:rotate(90deg);*/ /* IE 9 */
 	/*-moz-transform:rotate(90deg);*/ /* Firefox */
 	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
@@ -424,12 +424,12 @@ p{
 
 /* 9. Page placement */
 
-.above,
-.below,
-.bottom,
-.sub,
-.sup,
-.top{
+div.transcription.style .above,
+div.transcription.style .below,
+div.transcription.style .bottom,
+div.transcription.style .sub,
+div.transcription.style .sup,
+div.transcription.style .top {
 	/* Specified in % so that the sup/sup is the
      right size relative to the surrounding text */
 	font-size:.8em;
@@ -438,7 +438,7 @@ p{
      interfere with the positioning that follows */
 	line-height:0;
 
-	/* Where the magic happens: makes all browsers position
+	/* Where the magic happens:makes all browsers position
      the sup/sup properly, relative to the surrounding text */
 	position:relative;
 
@@ -446,103 +446,103 @@ p{
      is already set and you can remove this rule */
 	vertical-align:baseline;
 }
-.above,
-.sup,
-.top{
+div.transcription.style .above,
+div.transcription.style .sup,
+div.transcription.style .top {
 	/* Move the superscripted text up */
 	top:-0.35em;
 }
-.below,
-.bottom,
-.sub{
+div.transcription.style .below,
+div.transcription.style .bottom,
+div.transcription.style .sub {
 	/* Move the subscripted text down, but only
      half as far down as the superscript moved up */
 	bottom:-0.25em;
 }
-.true{
+div.transcription.style .true {
 	display:inline-block;
 }/*Goes with standalone <note>s*/
 
 
 /* 10. Colors */
 
-.black{
+div.transcription.style .black {
 	color:black;
 }
-.blue{
+div.transcription.style .blue {
 	color:blue;
 }
-.blue.black{
+div.transcription.style .blue.black {
 	color:#454668;
 }
-.brown{
+div.transcription.style .brown {
 	color:brown;
 }
-.gray{
+div.transcription.style .gray {
 	color:#706f6a;
 }
-.green{
+div.transcription.style .green {
 	color:green;
 }
-.orange{
+div.transcription.style .orange {
 	color:orange;
 }
-.purple{
+div.transcription.style .purple {
 	color:purple;
 }
-.red{
+div.transcription.style .red {
 	color:#B33B24;
 }
-.yellow{
+div.transcription.style .yellow {
 	color:yellow;
 }
 
 
 /* 11. Lists and Tables */
-.list{
+div.transcription.style .list {
 	display:block;
 }
-table{
+div.transcription.style table {
 	font-size:.85em;
 	border-style:none;
-	margin-right: 2em; 
+	margin-right:2em; 
 }/*Last item needed so that the text doesn't run up against the right edge in the viewer.*/
-tr,
-td{
+div.transcription.style tr,
+div.transcription.style td {
 	border-style:none;
 }
-table .linenumber{
+div.transcription.style table .linenumber {
 	display:none;
 }
 
 
 /* 12. Misc */
 
-.figure{
+div.transcription.style .figure {
 	margin-left:0;
 	color:#666666;
 	font-size:.8em;
 	border-bottom:1px #666666 dotted;
 }
-.p .figure,
-.p.noindent .figure,
-.ab .figure,
-p .metamark{
+div.transcription.style .p .figure,
+div.transcription.style .p.noindent .figure,
+div.transcription.style .ab .figure,
+div.transcription.style p .metamark {
 	margin-left:0px !important;
 	text-indent:0px;
 }
-.metamark{
+div.transcription.style .metamark {
 	color:#666666;
 	border-bottom:1px #666666 dotted;
 }
-.foreign,
-.geogName,
-.persName,
-.orgName,
-.quote,
-.region,
-.settlement,
-.term-ailment,
-.term-tribe{
+div.transcription.style .foreign,
+div.transcription.style .geogName,
+div.transcription.style .persName,
+div.transcription.style .orgName,
+div.transcription.style .quote,
+div.transcription.style .region,
+div.transcription.style .settlement,
+div.transcription.style .term-ailment,
+div.transcription.style .term-tribe {
 	border-bottom:2px #428bca dotted; /* change to 1px */
 }
