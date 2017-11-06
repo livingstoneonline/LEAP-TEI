@@ -9,29 +9,29 @@ Table of Contents
 4. Milestone and lines 
 5. p, ab, note, fw 
 6. Additions and Deletions 
-7. Editorial 
-8. @rend classes (except lines, page placement, colors) 
-9. Page placement 
-10. Colors 
-11. Lists and Tables 
-12. Misc 
+7. Unclear, gap, space
+8. Editorial 
+9. @rend classes (except lines, page placement, colors) 
+10. Page placement 
+11. Colors 
+12. Lists and Tables 
+13. Misc 
 
-* /
-
+*/
+/* Rules for containers either this is shown embedded in the viewer or not */
+body.non-embedded-transcription,
+div.transcription-viewer-content.style-fds{
+	/*background:#e2e3e1;*/
+	/*#d3c2a8;*/
+	/*#e7d5bd*/
+}
 
 
 /* 1. Textual divisions */
 
-body{
-	/*background:#e2e3e1;*//*#d3c2a8;*/ /*#e7d5bd*/
-}
-@media all and (max-width: 768px)  {
-body{	
+div.transcription.style-fds{
 	padding-left:2.5em;
 	padding-top:1.5em;
-}
-}
-div.transcription{
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -44,13 +44,17 @@ div.transcription{
 	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
+	padding-left:1em;
+	padding-right:1em;
+	/*background:#e2e3e1;*/
+	/*#d3c2a8;*/
+	/*#e7d5bd*/
 	text-align:left;
 }
-@media all and (max-width: 768px)  {
+/*@media all and (max-width: 768px)  {
 .TEI{	
 	padding-left:1em;
-}
-}
+}*/
 .item-details{
 	max-width:29em;
 	min-width:29em;
@@ -58,8 +62,6 @@ div.transcription{
 }
 .div{
 	margin-top:-1.2em;
-}
-div.text{
 }
 div.body{
 	display:block;
@@ -76,7 +78,7 @@ div.body{
 .title{
 	display:block;
 	text-align:center;
-	margin-bottom:-.5em;
+	margin-bottom:-0.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
@@ -106,13 +108,14 @@ hr.title-section{
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
-	margin-top:-.4em;
-	margin-bottom:-.4em;
+	margin-top:-0.4em;
+	margin-bottom:-0.4em;
 }
 .project-id{
 	color:gray;
 	font-size:.9em;
 }
+
 
 /* 2. Letters */
 
@@ -137,22 +140,14 @@ hr.title-section{
 .dateline.right{
 	display:block;
 }
-.opener-salute{
-}
 .closer-salute{
 	margin-left:0 !important;
-}
-.closer.center{
 }
 .signed{
 	display:inline-block;
 }
 .address{
 	display:block;
-}
-.addrLine.center{
-}
-.addrLine.right{
 }
 
 
@@ -164,7 +159,7 @@ hr.title-section{
 	/*text-decoration:underline;*/
 	font-size:90%;
 	margin-top:2em;
-	margin-bottom:-.9em;
+	margin-bottom:-0.9em;
 }
 .notop{ /*needed for some .pb-titles*/
 	margin-top:.5em;    
@@ -172,11 +167,11 @@ hr.title-section{
 }
 .pb-title:hover{
 	color:#AAA;
-	cursor:pointer
+	cursor:pointer;
 }
-.pb-title:first-of-type {
-  margin-top: 0;
-}/*This is to prevent scrolling up when the first image opens. AW*/
+.pb-title:first-of-type{
+	margin-top:0;
+}
 p span.pb-title{
 	margin-left:0;
 	text-indent:0;
@@ -184,14 +179,8 @@ p span.pb-title{
 .p.pb-title{
     margin-top:2em;
 }
-.del-pb{
-}
 .lb{
 	display:block;
-}
-.lb.center{
-}
-.lb.right{
 }
 .linenumber{
 	text-align:right;
@@ -226,6 +215,7 @@ p.right .linenumber{
 .indent .linenumber{
 	margin-left:-5em !important;
 }
+
 
 /* 4. Milestone and lines */
 
@@ -421,7 +411,6 @@ p.right .linenumber{
 }
 
 
-
 /* 5. p, ab, note, fw */
 
 p{
@@ -446,10 +435,6 @@ p{
 	text-indent:0;
 	margin-top:0;
 	margin-bottom:0;
-}
-.ab.center{
-}
-.head{
 }
 .note{
 	display:inline;
@@ -483,10 +468,9 @@ p{
 	margin-top:-1.4em;
 }
 
+
 /* 6. Additions and Deletions */
 
-.opener-add{
-}
 .addmargin{
 	text-indent:0px;
 }
@@ -521,12 +505,11 @@ p{
 }
 
 
-
-/* 7. Editorial */
+/* 8. Editorial */
 
 .sic,
 .corr{
-	border-bottom:2px #B33B24 dotted
+	border-bottom:2px #B33B24 dotted;
 }
 .orig,
 .reg{
@@ -534,7 +517,7 @@ p{
 }
 .abbr,
 .expan{
-	border-bottom:1px green dotted
+	border-bottom:1px green dotted;
 }
 .expan{
 	display:none;
@@ -547,7 +530,7 @@ p{
 }
 
 
-/* 8. @rend classes (except colors, lines, and up-down placement) */
+/* 9. @rend classes (except colors, lines, and up-down placement) */
 
 .caps{
 	font-variant:small-caps;
@@ -579,7 +562,7 @@ p{
 	font-size:120%;
 }
 .overline{
-	text-decoration: overline;
+	text-decoration:overline;
 }
 .overline.underline{
 	text-decoration:overline underline;
@@ -613,7 +596,8 @@ p{
 	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
 
-/* 9. Page placement */
+
+/* 10. Page placement */
 
 .above,
 .below,
@@ -658,16 +642,12 @@ p{
 	vertical-align:baseline;
 	top:-1em;
 }
-.margintop.left{
-}
-.margintop.right{
-}
 .true{
 	display:inline-block;
 }/*Goes with standalone <note>s*/
 
 
-/* 10. Colors */
+/* 11. Colors */
 
 .black{
 	color:black;
@@ -685,7 +665,7 @@ p{
 	color:#5b4338;
 }
 .gray{
-	color:#585754/*72716d*/
+	color:#585754; /*72716d*/
 }
 .green{
 	color:green;
@@ -704,7 +684,8 @@ p{
 }
 
 
-/* 11. Lists and Tables */
+/* 12. Lists and Tables */
+
 .list{
 	display:inline-block;
 	/*margin-top:12px;*/
@@ -737,7 +718,7 @@ p{
 }
 
 
-/* 12. Misc */
+/* 13. Misc */
 
 .figure{
 	margin-left:0;
