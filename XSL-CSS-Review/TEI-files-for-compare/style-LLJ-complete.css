@@ -9,23 +9,26 @@ Table of Contents
 4. Milestone and lines 
 5. p, ab, note, fw 
 6. Additions and Deletions 
-7. Editorial 
-8. @rend classes (except lines, page placement, colors) 
-9. Page placement 
-10. Colors 
-11. Lists and Tables 
-12. Misc 
+7. Unclear, gap, space
+8. Editorial 
+9. @rend classes (except lines, page placement, colors) 
+10. Page placement 
+11. Colors 
+12. Lists and Tables 
+13. Misc 
 
-* /
-
+*/
+/* Rules for containers either this is shown embedded in the viewer or not */
+body.non-embedded-transcription,
+div.transcription-viewer-content.style-LLJ-complete{
+	background:#ead7b3;
+	/*LLJ*/
+}
 
 
 /* 1. Textual divisions */
 
-body{
-	background:#ead7b3; /*LLJ*/
-}
-div.transcription{
+div.transcription.style-LLJ-complete{
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -39,20 +42,22 @@ div.transcription{
 .TEI{
 	display:block;/*LLJ*/
 	padding-top:.5em;
-	text-align:justify;/*LLJ*/
+	text-align:justify;
+	/*LLJ*/
+	background:#ead7b3;
+	/*LLJ*/
 }
+/*
 @media all and (max-width: 768px)  {
 .TEI{	
 	/*padding-left:1.5em;*//*Removed because didn't work with triple viewer*/
 }
-}
+*/
 .item-details{
 	max-width:26em;/*LLJ*/
 	min-width:26em;/*LLJ*/
 	text-align:left;/*LLJ*/
 	padding-top:1em;
-}
-div.text{
 }
 div.body{
 	display:block;
@@ -63,8 +68,7 @@ div.body{
 .back{
 	display:block;
 }
-.div{
-}
+
 
 /* 1.5. Title section */
 
@@ -78,7 +82,8 @@ div.body{
 .author{
 	display:block;
 	text-align:center;
-	margin-bottom:-.5em;/*LLJ*/
+	margin-bottom:-0.5em;
+	/*LLJ*/
 	font-size:1.2em;
 	font-style:italic;
 }
@@ -101,13 +106,14 @@ hr.title-section{
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
-	margin-top:-.4em;
-	margin-bottom:-.4em;
+	margin-top:-0.4em;
+	margin-bottom:-0.4em;
 }
 .project-id{
 	color:gray;
 	font-size:.9em;
 }
+
 
 /* 2. Letters */
 
@@ -132,22 +138,14 @@ hr.title-section{
 .dateline.right{
 	display:block;
 }
-.opener-salute{
-}
 .closer-salute{
 	margin-left:0 !important;
-}
-.closer.center{
 }
 .signed{
 	display:inline-block;
 }
 .address{
 	display:block;
-}
-.addrLine.center{
-}
-.addrLine.right{
 }
 
 
@@ -163,24 +161,20 @@ hr.title-section{
 	padding-bottom:10px;/*Added for full LJ.*/
 }
 .pb-title:hover{
-	color:#AAA;/*Changed for full LJ. Was color:#f6dbb0;*/
-	cursor:pointer
+	color:#AAA;
+	/*Changed for full LJ. Was color:#f6dbb0;*/
+	cursor:pointer;
 }
-.pb-title:first-of-type {
- 	/*margin-top: 0;*/ /*This is to prevent scrolling up when the first image opens. AW*/
+.pb-title:first-of-type{
+	/*margin-top:0;*/
+	/*This is to prevent scrolling up when the first image opens. AW*/
 }
 p span.pb-title{
 	text-indent:0;/*LLJ*/
 	margin-left:0;/*Changed for full LJ. Was margin-top:3em;*/
 }
-.del-pb{
-}
 .lb{
 	display:block;
-}
-.lb.center{
-}
-.lb.right{
 }
 .linenumber{
 	text-align:right;
@@ -221,9 +215,8 @@ p.right .linenumber{
 	margin-left:0;
 	margin-right:9%;
 	padding:0px;
-	margin-bottom: -.5em;
-	margin-top: 1em;
-
+	margin-bottom:-0.5em;
+	margin-top:1em;
 }
 .line{
 	border-bottom:1px solid #d0d0d0;
@@ -297,23 +290,24 @@ p.right .linenumber{
 	border-top:1px solid #58484b;
 }
 
+
 /* 5. p, ab, note, fw */
 
 p{
 	/*margin-right: 2em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 }
 .p,
-.note/*LLJ*/{
+.note{
 	display:inline-block;
 	text-indent:25px;
 	margin-top:0;
 	margin-bottom:0;	
-}
-.note/*LLJ*/{
+}/*LLJ*/
+.note{
 	margin-top:1.5em;
 	text-indent:0px !important;
 	font-size:.9em;
-}
+}/*LLJ*/
 .p.noindent{
 	text-indent:0 !important;
 }
@@ -329,55 +323,51 @@ p{
 	margin-left:2em;/*LLJ*/
 	margin-top:0;
 	margin-bottom:0;
-	font-size:.9em;/*LLJ*/
-}
-.ab.center{
+	font-size:0.9em;/*LLJ*/
 }
 .head{
 	font-weight:300;
 	text-align:center;/*LLJ*/
 	margin-bottom:0em;/*LLJ*/
 }
-.fw/*LLJ*/{
+.fw{
 	font-size:.9em !important;
 	/*color:#706f6a;*/ /*Removed for full LJ*/
-}
-.fw.catch/*LLJ*/{
+}/*LLJ*/
+.fw.catch{
 	margin-top:-1em;
 	display:block;
 	/*color:purple;*/ /*Added for full LJ*/
 	padding-left: 2em; /*Added for full LJ*/
 	padding-right: 3em; /*Added for full LJ*/
-}
-.fw.catch.left/*LLJ*/{
+}/*LLJ*/
+.fw.catch.left{
 	text-indent:0;
-}
-.fw.catch.right/*LLJ*/{
+}/*LLJ*/
+.fw.catch.right{
 	text-indent:0;
-}
+}/*LLJ*/
 .fw.inspace .right{
 	/*color:purple;*/ /*Added for full LJ*/
 }
 .fw.inspace .right{
-	padding-right: 3em; /*Added for full LJ*/
+	padding-right:3em; /*Added for full LJ*/
 }
-.fw.pageno/*LLJ*/{
+.fw.pageno{
 	text-indent:0 !important;
 	display:block;
 	text-align:center;
 	margin-bottom:1em;
-}
-.p .fw.pageno/*LLJ*/{
+}/*LLJ*/
+.p .fw.pageno{
 	margin-bottom:1em;
 	display:block;
 	text-align:center;
-}
+}/*LLJ*/
 
 
 /* 6. Additions and Deletions */
 
-.opener-add{
-}
 .addmargin{
 	text-indent:0px;
 }
@@ -394,6 +384,7 @@ p{
 
 
 /* 7. Unclear, gap, space */
+
 .unclear{
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
@@ -412,12 +403,11 @@ p{
 }
 
 
-
-/* 7. Editorial */
+/* 8. Editorial */
 
 .sic,
 .corr{
-	border-bottom:2px #B33B24 dotted
+	border-bottom:2px #B33B24 dotted;
 }
 .orig,
 .reg{
@@ -425,7 +415,7 @@ p{
 }
 .abbr,
 .expan{
-	border-bottom:1px green dotted
+	border-bottom:1px green dotted;
 }
 .expan{
 	display:none;
@@ -438,15 +428,15 @@ p{
 }
 
 
-/* 8. @rend classes (except colors, lines, and up-down placement) */
+/* 9. @rend classes (except colors, lines, and up-down placement) */
 
 .caps{
 	font-variant:small-caps;
 }
-.center/*LLJ*/{
+.center{
 	text-align:center;
 	/*color:green;*//*Added for full LJ.*/
-}
+}/*LLJ*/
 .doubleunderline{
 	border-bottom:3px double;
 }
@@ -459,12 +449,12 @@ p{
 .large{
 	font-size:120%;
 }
-.left/*LLJ*/{
+.left{
 	float:left;
-}
+}/*LLF*/
 
 .overline{
-	text-decoration: overline;
+	text-decoration:overline;
 }
 .overline.underline{
 	text-decoration:overline underline;
@@ -472,10 +462,10 @@ p{
 .overtext{
 	/*color:#706f6a;*/
 }
-.right/*LLJ*/{
+.right{
 	text-indent:0;
 	float:right;
-}
+}/*LLJ*/
 .small{
 	font-size:85%;
 }
@@ -498,7 +488,8 @@ p{
 	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
 
-/* 9. Page placement */
+
+/* 10. Page placement */
 
 .above,
 .below,
@@ -543,16 +534,12 @@ p{
 	vertical-align:baseline;
 	top:-1em;
 }
-.margintop.left{
-}
-.margintop.right{
-}
 .true{
 	display:inline-block;
 }/*Goes with standalone <note>s*/
 
 
-/* 10. Colors */
+/* 11. Colors */
 
 .black{
 	color:black;
@@ -583,7 +570,7 @@ p{
 }
 
 
-/* 11. Lists and Tables */
+/* 12. Lists and Tables */
 .list{
 	display:block;
 	margin-top:12px;
@@ -600,16 +587,16 @@ td{
 }
 
 
-/* 12. Misc */
+/* 13. Misc */
 
-.date-red{/*Add for full LJ.*/
+.date-red{
 	display: none;
 	color:red;
 	font-style:normal;
-}
-.reduce{/*Fixes issues intro by milestone in LJs*/
+}/*Added for full LLJ*/
+.reduce{
 	margin-bottom:-2em;
-}
+}/*Fixes issues introd by milestone in LLJ*/
 
 .figure{
 	margin-left:0;
@@ -620,32 +607,33 @@ td{
 .graphic.inline-left{	
 	width:12em;
 	float:left;
-	margin: .5em 2.5em -1em -1.5em;
+	margin:0.5em 2.5em -1em -1.5em;
 }
 .graphic.inline-left-medium{	
 	width:10em;
 	float:left;
-	margin: .5em 2.5em -.5em -1.5em; /*-.5 deviation needed for LJ 1:72*/
+	margin:0.5em 2.5em -0.5em -1.5em;
+	/*-.5 deviation needed for LJ 1:72*/
 }
 .graphic.inline-left-small{	
 	width:8em;
 	float:left;
-	margin: .5em 2.5em -1em -1.5em;
+	margin:0.5em 2.5em -1em -1.5em;
 }
 .graphic.inline-right{	
 	width:12em;
 	float:right;
-	margin: .5em -.2em -1em .5em;
+	margin:0.5em -0.2em -1em 0.5em;
 }
 .graphic.inline-right-medium{	
 	width:10em;
 	float:right;
-	margin: .5em -.2em -1em .5em;
+	margin:0.5em -0.2em -1em 0.5em;
 }
 .graphic.inline-right-small{	
 	width:8em;
 	float:right;
-	margin: .5em -.2em -1em .5em;
+	margin:0.5em -0.2em -1em 0.5em;
 }
 .p .graphic.inline-right,
 .p .graphic.inline-right-medium,

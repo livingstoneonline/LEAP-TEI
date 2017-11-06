@@ -9,23 +9,27 @@ Table of Contents
 4. Milestone and lines 
 5. p, ab, note, fw 
 6. Additions and Deletions 
-7. Editorial 
-8. @rend classes (except lines, page placement, colors) 
-9. Page placement 
-10. Colors 
-11. Lists and Tables 
-12. Misc 
+7. Unclear, gap, space
+8. Editorial 
+9. @rend classes (except lines, page placement, colors) 
+10. Page placement 
+11. Colors 
+12. Lists and Tables 
+13. Misc 
 
 * /
 
+/* Rules for containers either this is shown embedded in the viewer or not */
+body.non-embedded-transcription,
+div.transcription-viewer-content.style-UJ-html{
+	background:#c7beb0;
+	/*#e7d5bd*/
+}
 
 
 /* 1. Textual divisions */
 
-body{
-	background:#c7beb0; /*#e7d5bd*/
-}
-div.transcription{
+div.transcription.style-UJ-html{
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -39,12 +43,15 @@ div.transcription{
 	white-space:nowrap;
 	padding-top:.5em;
 	text-align:left;
+	background:#c7beb0;
+	/*#e7d5bd*/
 }
 .item-details{
 	max-width:29em;
 	min-width:29em;
 	white-space:normal;
 	margin-left:.5em;
+	margin-right:.5em;
 	padding-top:1em;
 }
 div.text{
@@ -58,15 +65,14 @@ div.body{
 .back{
 	display:block;
 }
-.div{
-}
+
 
 /* 1.5. Title section */
 
 .title{
 	display:block;
 	text-align:center;
-	margin-bottom:-.5em;
+	margin-bottom:-0.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
@@ -96,13 +102,14 @@ hr.title-section{
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
-	margin-top:-.4em;
-	margin-bottom:-.4em;
+	margin-top:-0.4em;
+	margin-bottom:-0.4em;
 }
 .project-id{
 	color:#706f6a;
 	font-size:.9em;
 }
+
 
 /* 2. Letters */
 
@@ -127,22 +134,14 @@ hr.title-section{
 .dateline.right{
 	display:block;
 }
-.opener-salute{
-}
 .closer-salute{
 	margin-left:0 !important;
-}
-.closer.center{
 }
 .signed{
 	display:inline-block;
 }
 .address{
 	display:block;
-}
-.addrLine.center{
-}
-.addrLine.right{
 }
 
 
@@ -158,23 +157,18 @@ hr.title-section{
 }
 .pb-title:hover{
 	color:#AAA;
-	cursor:pointer
+	cursor:pointer;
 }
-.pb-title:first-of-type {
- 	/*margin-top: 0;*/ /*This is to prevent scrolling up when the first image opens. AW*/
+.pb-title:first-of-type{
+	/*margin-top:0;*/
+	/*This is to prevent scrolling up when the first image opens. AW*/
 }
 p span.pb-title{
 	margin-left:0;
 	text-indent:0;
 }
-.del-pb{
-}
 .lb{
 	display:block;
-}
-.lb.center{
-}
-.lb.right{
 }
 .linenumber{
 	text-align:right;
@@ -289,6 +283,7 @@ p.right .linenumber{
 	border-top:1px solid #58484b;
 }
 
+
 /* 5. p, ab, note, fw */
 
 p{
@@ -314,8 +309,6 @@ p{
 	margin-top:0;
 	margin-bottom:0;
 }
-.ab.center{
-}
 .head{
 	font-weight:300;
 }
@@ -326,10 +319,9 @@ p{
 	text-align:center;
 }
 
+
 /* 6. Additions and Deletions */
 
-.opener-add{
-}
 .addmargin{
 	text-indent:0px;
 }
@@ -346,6 +338,7 @@ p{
 
 
 /* 7. Unclear, gap, space */
+
 .unclear{
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
@@ -364,12 +357,11 @@ p{
 }
 
 
-
-/* 7. Editorial */
+/* 8. Editorial */
 
 .sic,
 .corr{
-	border-bottom:2px #B33B24 dotted
+	border-bottom:2px #B33B24 dotted;
 }
 .orig,
 .reg{
@@ -377,7 +369,7 @@ p{
 }
 .abbr,
 .expan{
-	border-bottom:1px green dotted
+	border-bottom:1px green dotted;
 }
 .expan{
 	display:none;
@@ -390,7 +382,7 @@ p{
 }
 
 
-/* 8. @rend classes (except colors, lines, and up-down placement) */
+/* 9. @rend classes (except colors, lines, and up-down placement) */
 
 .caps{
 	font-variant:small-caps;
@@ -419,7 +411,7 @@ p{
 	margin-bottom:-2.6em !important;/*Needed for UJ when the marginal date adds a line between lines that shouldn't be there*/
 }
 .overline{
-	text-decoration: overline;
+	text-decoration:overline;
 }
 .overline.underline{
 	text-decoration:overline underline;
@@ -460,7 +452,8 @@ p{
 	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
 
-/* 9. Page placement */
+
+/* 10. Page placement */
 
 .above,
 .below,
@@ -505,16 +498,12 @@ p{
 	vertical-align:baseline;
 	top:-1em;
 }
-.margintop.left{
-}
-.margintop.right{
-}
 .true{
 	display:inline-block;
 }/*Goes with standalone <note>s*/
 
 
-/* 10. Colors */
+/* 11. Colors */
 
 .black{
 	color:black;
@@ -545,7 +534,8 @@ p{
 }
 
 
-/* 11. Lists and Tables */
+/* 12. Lists and Tables */
+
 .list{
 	display:block;
 	margin-top:12px;
@@ -562,7 +552,7 @@ td{
 }
 
 
-/* 12. Misc */
+/* 13. Misc */
 
 .figure{
 	margin-left:0;
