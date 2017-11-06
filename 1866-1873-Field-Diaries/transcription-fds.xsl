@@ -56,7 +56,10 @@
 
 	<!-- TEI -->
 	<xsl:template match="TEI">
-		<div class="transcription">
+		<xsl:variable name="body-color">
+			<xsl:apply-templates select="//body/@n[1]"/>
+		</xsl:variable>
+		<div class="transcription style-fds" style="background:#{$body-color};">
 			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
 			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
 			<!--<h2>
@@ -72,7 +75,7 @@
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:variable>
-			<div class="TEI">
+			<div class="TEI" style="background:#{$body-color};">
 				<div class="item-details">
 					<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
 					<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/>
