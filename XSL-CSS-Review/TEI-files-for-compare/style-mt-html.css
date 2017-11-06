@@ -9,24 +9,30 @@ Table of Contents
 4. Milestone and lines 
 5. p, ab, note, fw 
 6. Additions and Deletions 
-7. Editorial 
-8. @rend classes (except lines, page placement, colors) 
-9. Page placement 
-10. Colors 
-11. Lists and Tables 
-12. Misc 
-13. Multiple hands
-14. Metamarks
-* /
+7. Unclear, gap, space
+8. Editorial 
+9. @rend classes (except lines, page placement, colors) 
+10. Page placement 
+11. Colors 
+12. Lists and Tables 
+13. Misc 
+14. Multiple hands
+15. Metamarks
 
+*/
+
+/* Rules for containers either this is shown embedded in the viewer or not */
+body.non-embedded-transcription,
+div.transcription-viewer-content.style-mt-html{
+	background:#e2e3e1;
+	/*#d3c2a8;*/
+	/*#e7d5bd*/
+}
 
 
 /* 1. Textual divisions */
 
-body{
-	background:#e2e3e1;/*#d3c2a8;*/ /*#e7d5bd*/
-}
-div.transcription{
+div.transcription.style-mt-html{
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -40,19 +46,26 @@ div.transcription{
 	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
+	padding-left:1em;
+	padding-right:1em;
 	text-align:left;
+	background:#e2e3e1;
+	/*#d3c2a8;*/
+	/*#e7d5bd*/
 }
+/*
 @media all and (max-width: 1224px)  {
 .TEI{	
 	padding-left:1em;
 }
-}
+*/
 .item-details{
 	max-width:29em;
 	min-width:29em;
 	white-space:normal;
 	padding-top:1em;
 	padding-left:12em;
+	padding-right:12em;
 }
 div.text{
 	/*margin-left: 3em;*/ /*Prevent line numbers from being hidden.*/ /*Removed*/
@@ -62,8 +75,8 @@ div.body{
 	padding-bottom:2.4em;
 }
 .vertical-line{
-	border-left: thin solid white;
-	padding-left: .8em;
+	border-left:thin solid white;
+	padding-left:.8em;
 }
 .front,
 .back{
@@ -75,12 +88,13 @@ div.body{
 	padding-right:3.2em;
 }
 
+
 /* 1.5. Title section */
 
 .title{
 	display:block;
 	text-align:center;
-	margin-bottom:-.5em;
+	margin-bottom:-0.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
@@ -110,13 +124,14 @@ hr.title-section{
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
-	margin-top:-.4em;
-	margin-bottom:-.4em;
+	margin-top:-0.4em;
+	margin-bottom:-0.4em;
 }
 .project-id{
 	color:#706f6a;
 	font-size:.9em;
 }
+
 
 /* 2. Letters */
 
@@ -141,22 +156,14 @@ hr.title-section{
 .dateline.right{
 	display:block;
 }
-.opener-salute{
-}
 .closer-salute{
 	margin-left:0 !important;
-}
-.closer.center{
 }
 .signed{
 	display:inline-block;
 }
 .address{
 	display:block;
-}
-.addrLine.center{
-}
-.addrLine.right{
 }
 
 
@@ -170,28 +177,21 @@ hr.title-section{
 	font-size:90% !important;
 	font-style:normal !important;
 	margin-top:2em;
-	margin-bottom:-.9em;
-
+	margin-bottom:-0.9em;
 }
 .pb-title:hover{
 	color:#AAA !important;
 	cursor:pointer !important;
 }
-.pb-title:first-of-type {
-  margin-top: 0;
-}/*This is to prevent scrolling up when the first image opens. AW*/
+.pb-title:first-of-type{
+	margin-top:0;
+}
 p span.pb-title{
 	margin-left:0;
 	text-indent:0;
 }
-.del-pb{
-}
 .lb{
 	display:block;
-}
-.lb.center{
-}
-.lb.right{
 }
 .linenumber{
 	text-align:right;
@@ -346,6 +346,7 @@ p.right .linenumber{
 	border-top:1px solid #58484b;
 }
 
+
 /* 5. p, ab, note, fw */
 
 p{
@@ -370,8 +371,6 @@ p{
 	text-indent:0;
 	margin-top:0;
 	margin-bottom:0;
-}
-.ab.center{
 }
 .head{
 	font-weight:normal;
@@ -427,8 +426,6 @@ p{
 
 /* 6. Additions and Deletions */
 
-.opener-add{
-}
 .addmargin{
 	text-indent:0px;
 }
@@ -485,7 +482,9 @@ p{
     color:black !important;
 }
 
+
 /* 7. Unclear, gap, space */
+
 .unclear{
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
@@ -505,11 +504,11 @@ p{
 }
 
 
-/* 7. Editorial */
+/* 8. Editorial */
 
 .sic,
 .corr{
-	border-bottom:2px #B33B24 dotted
+	border-bottom:2px #B33B24 dotted;
 }
 .orig,
 .reg{
@@ -517,7 +516,7 @@ p{
 }
 .abbr,
 .expan{
-	border-bottom:1px green dotted
+	border-bottom:1px green dotted;
 }
 .expan{
 	display:none;
@@ -530,7 +529,7 @@ p{
 }
 
 
-/* 8. @rend classes (except colors, lines, and up-down placement) */
+/* 9. @rend classes (except colors, lines, and up-down placement) */
 
 .caps{
 	font-variant:small-caps;
@@ -605,7 +604,8 @@ p{
 	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
 
-/* 9. Page placement */
+
+/* 10. Page placement */
 
 .above,
 .below,
@@ -660,7 +660,7 @@ p{
 /*Commented this out again because it was messing up hi/del when outside of note*/
 
 
-/* 10. Colors */
+/* 11. Colors */
 
 .black{
 	color:black;
@@ -698,7 +698,7 @@ p{
 }
 
 
-/* 11. Lists and Tables */
+/* 12. Lists and Tables */
 .list{
 	display:block;
 	margin-top:12px;
@@ -706,7 +706,7 @@ p{
 table{
 	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
-	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	margin-right:2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 	color:#58484b; /*Added color for 1870 Field Diary*/
 }
 tr,
@@ -715,7 +715,7 @@ td{
 }
 
 
-/* 12. Misc */
+/* 13. Misc */
 
 .figure{
 	margin-left:0;
@@ -761,7 +761,8 @@ color:gray;
 }
 
 
-/* 13. Multiple hands */ /*added for MT*/
+/* 14. Multiple hands */ /*added for MT*/
+
 .CL{
     font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	color:#746553;
@@ -770,23 +771,24 @@ color:gray;
 .DL{
     font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	color:black;
-	font-style: normal;
+	font-style:normal;
 }
 .U1{
-    font-style: normal;
+    font-style:normal;
 }
 .U2{
-    font-style: normal;
+    font-style:normal;
 }
 .U5{
     font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; 
 	color:#936541;
-	font-style: italic;
+	font-style:italic;
 }
 
 
-/*14. Metamarks*/ /*added for MT*/
+/*15. Metamarks*/ /*added for MT*/
+
 .dashed{
     border-bottom:2px dashed;
 }
@@ -808,24 +810,24 @@ font-size:1em !important;
 .metamark{
 	font-style:italic;
 	border-bottom:1px gray dotted;
-	/*font-size: 1em;*/
+	/*font-size:1em;*/
 }
 .metamark.red{
     color:#B33B24;
     font-style:italic;
 	border-bottom:1px gray dotted;
-	/*font-size: .9em;*/
+	/*font-size:.9em;*/
     }
 .metamark.gray{
     color:gray;
     font-style:italic;
 	border-bottom:1px gray dotted;
-	/*font-size: .9em;*/
+	/*font-size:.9em;*/
 }
 .metamark.ed-mark{
 	font-style:italic;
 	border-bottom:1px gray dotted;
-	/*font-size: 1.1em;*/
+	/*font-size:1.1em;*/
 }
 .metamark.flag{
     font-size:1.5em;
@@ -858,7 +860,7 @@ font-size:1em !important;
 .metamark.deletion{
 	font-style:italic;
 	border-bottom:1px gray dotted;
-	/*font-size: 1.1em;*/
+	/*font-size:1.1em;*/
 }
 .marginleft.marginleft.metamark.deletion,
 .marginleft.marginleft.metamark.ed-mark{
@@ -882,7 +884,7 @@ font-size:1em !important;
 .metamark.transposition{
 	font-style:italic;
 	border-bottom:1px gray dotted;
-	/*font-size: .9em;*/
+	/*font-size:0.9em;*/
 }
 .metamark.marginleft{
     margin-left:-12em !important;/*Changed from 5.2em. AW*/
