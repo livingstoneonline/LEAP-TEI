@@ -39,8 +39,8 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
-				<link rel="stylesheet" type="text/css" href="change-display.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<link rel="stylesheet" type="text/css" href="style-fds.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+				<link rel="stylesheet" type="text/css" href="change-display.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 								<script>
 					// Wait till document is loaded before executing.
 					document.addEventListener("DOMContentLoaded", function(event) {
@@ -50,7 +50,7 @@
 					    .onclick = function () {
 					      // Find the element with class TEI,
 					      // and toggle the class 'change-display'.
-					      document.querySelector('div.TEI')
+					      document.querySelector('div.transcription')
 					        .classList
 					        .toggle('change-display');
 					    };
