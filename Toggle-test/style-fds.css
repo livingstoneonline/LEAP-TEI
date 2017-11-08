@@ -9,181 +9,221 @@ Table of Contents
 4. Milestone and lines 
 5. p, ab, note, fw 
 6. Additions and Deletions 
-7. Unclear, gap, space
-8. Editorial 
-9. @rend classes (except lines, page placement, colors) 
-10. Page placement 
-11. Colors 
-12. Lists and Tables 
-13. Misc 
+7. Editorial 
+8. @rend classes (except lines, page placement, colors) 
+9. Page placement 
+10. Colors 
+11. Lists and Tables 
+12. Misc 
 
-*/
-/* Rules for containers either this is shown embedded in the viewer or not */
-body.non-embedded-transcription,
-div.transcription-viewer-content.style-fds {
-	/*background:#e2e3e1;*/
-	/*#d3c2a8;*/
-	/*#e7d5bd*/
-}
+* /
+
 
 
 /* 1. Textual divisions */
 
-div.transcription.style-fds {
+body{
+	/*background:#e2e3e1;*//*#d3c2a8;*/ /*#e7d5bd*/
+}
+@media all and (max-width: 768px)  {
+body{	
 	padding-left:2.5em;
 	padding-top:1.5em;
+}
+}
+div.transcription{
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
-	font-size:16px; /*Make .9em; also for table*/
+	font-size:1em; /*Make .9em; also for table*/
 	/*white-space:nowrap;*/
 	color:black; /*#58484b;*/ /*#574d44*/ /*#4E2F2F*/
 }
-div.transcription.style-fds .TEI {
+div.transcription button{
+	font-size:.85em !important;	
+	padding-top:4px;
+	margin:0px auto;
+	display:block;
+}
+.black-white-text,
+.change-display .livingstone-color{
+	display:inline;
+}
+.change-display .black-white-text,
+.livingstone-color{
+	display:none;
+}
+
+.TEI{
 	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
-	padding-left:1em;
-	padding-right:1em;
-	/*background:#e2e3e1;*/
-	/*#d3c2a8;*/
-	/*#e7d5bd*/
 	text-align:left;
 }
-/*@media all and (max-width:768px)  {
-.TEI {	
+@media all and (max-width: 768px)  {
+.TEI{	
 	padding-left:1em;
-}*/
-div.transcription.style-fds .item-details {
+}
+}
+.item-details{
 	max-width:29em;
 	min-width:29em;
 	white-space:normal;
 }
-div.transcription.style-fds .div {
+.div{
 	margin-top:-1.2em;
 }
-div.transcription.style-fds div.body {
+.text{
+}
+div.body{
 	display:block;
 	padding-bottom:2.4em;
 }
-div.transcription.style-fds .front,
-div.transcription.style-fds .back {
+.front,
+.back{
 	display:block;
 }
 
 
 /* 1.5. Title section */
 
-div.transcription.style-fds .title {
+.title{
 	display:block;
 	text-align:center;
-	margin-bottom:-0.5em;
+	margin-bottom:-.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
-div.transcription.style-fds .author {
+.author{
 	display:block;
 	text-align:center;
 	margin-bottom:.5em;
 	font-size:1.2em;
 	font-style:italic;
 }
-div.transcription.style-fds .authority {
+.authority{
 	font-size:.9em;
 	line-height:2em;
 }
-div.transcription.style-fds .pub-date {
+.pub-date{
 	font-size:.9em;
 }
-div.transcription.style-fds a:link {
+a:link{
 	color:#428bca !important;
 }
-div.transcription.style-fds .idno {
+.change-display a:link{
+	color:black !important;
+}
+.change-display a:link{
+	color:black;
+}
+.idno{
 	font-size:.9em;
 	line-height:2em;
 }
-div.transcription.style-fds hr.title-section {
+hr.title-section{
 	width:100%;
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
-	margin-top:-0.4em;
-	margin-bottom:-0.4em;
+	margin-top:-.4em;
+	margin-bottom:-.4em;
 }
-div.transcription.style-fds .project-id {
+.project-id{
 	color:gray;
 	font-size:.9em;
 }
-
+.change-display .project-id{
+	color:black;
+}
 
 /* 2. Letters */
 
-div.transcription.style-fds .opener,
-div.transcription.style-fds .closer {
+.opener,
+.closer{
 	margin-bottom:0px;
 }
-div.transcription.style-fds .opener {
+.opener{
 	display:inline;
 	margin-top:1em;
 }
-div.transcription.style-fds .closer {
+.closer{
 	display:block;
 }
-div.transcription.style-fds .dateline {
+.dateline{
 	display:inline;
 	text-indent:0;
 }
-div.transcription.style-fds .dateline.center {
+.dateline.center{
 	display:inline-block;
 }
-div.transcription.style-fds .dateline.right {
+.dateline.right{
 	display:block;
 }
-div.transcription.style-fds .closer-salute {
+.opener-salute{
+}
+.closer-salute{
 	margin-left:0 !important;
 }
-div.transcription.style-fds .signed {
+.closer.center{
+}
+.signed{
 	display:inline-block;
 }
-div.transcription.style-fds .address {
+.address{
 	display:block;
+}
+.addrLine.center{
+}
+.addrLine.right{
 }
 
 
 /* 3. pb, lb, linenumber */
 
-div.transcription.style-fds .pb-title {
+.pb-title{
 	display:block;
 	color:#428bca;
 	/*text-decoration:underline;*/
 	font-size:90%;
 	margin-top:2em;
-	margin-bottom:-0.9em;
+	margin-bottom:-.9em;
 }
-div.transcription.style-fds .notop {
-  /*needed for some .pb-titles*/
+.change-display .pb-title{
+	color:black;
+}
+.notop{ /*needed for some .pb-titles*/
 	margin-top:.5em;    
 	text-indent:0 !important;
 }
-div.transcription.style-fds .pb-title:hover {
+.pb-title:hover{
 	color:#AAA;
-	cursor:pointer;
+	cursor:pointer
 }
-div.transcription.style-fds .pb-title:first-of-type {
-	margin-top:0;
+.change-display .pb-title:hover{
+	color:black;
 }
-div.transcription.style-fds p span.pb-title {
+.pb-title:first-of-type {
+  margin-top: 0;
+}/*This is to prevent scrolling up when the first image opens. AW*/
+p span.pb-title{
 	margin-left:0;
 	text-indent:0;
 }
-div.transcription.style-fds .p.pb-title {
+.p.pb-title{
     margin-top:2em;
 }
-div.transcription.style-fds .lb {
+.del-pb{
+}
+.lb{
 	display:block;
 }
-div.transcription.style-fds .linenumber {
+.lb.center{
+}
+.lb.right{
+}
+.linenumber{
 	text-align:right;
 	float:left;
 	color:#AAA;
@@ -192,35 +232,37 @@ div.transcription.style-fds .linenumber {
 	font-size:80%;
 	width:1em;
 }
-div.transcription.style-fds p .linenumber {
+.change-display .linenumber{
+	color:black;
+}
+p .linenumber{
 	text-indent:-1%;
 }
-div.transcription.style-fds .p.noindent.linenumber {
+.p.noindent.linenumber{
 	text-indent:1em;
 }
-div.transcription.style-fds p.center .linenumber {
+p.center .linenumber{
 	margin-left:-12.5em !important; /*Needs to be checked.*/
 }
-div.transcription.style-fds p.right .linenumber {
+p.right .linenumber{
 	margin-left:-18em !important;
 }
-div.transcription.style-fds .marginright .linenumber {
+.marginright .linenumber{
 	display:none;
 }
-div.transcription.style-fds .p .list .linenumber {
+.p .list .linenumber{
 	margin-left:-5em !important;
 }
-div.transcription.style-fds .list .linenumber {
+.list .linenumber{
 	text-indent:0;	
 }
-div.transcription.style-fds .indent .linenumber {
+.indent .linenumber{
 	margin-left:-5em !important;
 }
-
 
 /* 4. Milestone and lines */
 
-div.transcription.style-fds .milestone {
+.milestone{
 	display:block;
 	width:60%;
 	background:#FFF;
@@ -232,7 +274,7 @@ div.transcription.style-fds .milestone {
 	padding:0px;
 	margin-bottom:-1em;
 }
-div.transcription.style-fds .line {
+.line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:14em !important;
@@ -242,16 +284,16 @@ div.transcription.style-fds .line {
 	border:0;
 	border-top:1px solid #58484b;
 }
-/*.doubleline {
-	border-top:4px double #8c8b8b;
+/*.doubleline{
+	border-top: 4px double #8c8b8b;
 	display:block;
 	width:35% !important;
 	margin-left:9%;
 	text-align:left;
 	color:black;
 }*/
-/*.tripleline {
-	border-top:4px double #8c8b8b;
+/*.tripleline{
+	border-top: 4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
 	width:35% !important;
@@ -260,7 +302,7 @@ div.transcription.style-fds .line {
 	color:black;
 }*/
 /* Both of the above are not used in the 1870 FD transformation. See .second-line below.*/
-div.transcription.style-fds .halfline {
+.halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:10.5em !important;
@@ -270,7 +312,7 @@ div.transcription.style-fds .halfline {
 	border:0;
 	border-top:1px solid #58484b;
 }
-div.transcription.style-fds .quarterline {
+.quarterline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:6.5em !important;
@@ -280,7 +322,7 @@ div.transcription.style-fds .quarterline {
 	border:0;
 	border-top:1px solid #58484b;
 }
-div.transcription.style-fds .second-line {
+.second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:14em !important;
@@ -292,7 +334,7 @@ div.transcription.style-fds .second-line {
 	border:0;
 	border-top:1px solid #58484b;
 }
-div.transcription.style-fds .third-line {
+.third-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:14em !important;
@@ -303,309 +345,331 @@ div.transcription.style-fds .third-line {
 	border:0;
 	border-top:1px solid #58484b;
 }
-div.transcription.style-fds .first-double {
+.first-double{
 	margin-top:1em;/*changed from 1.5em; may need to change back*/
 }
-div.transcription.style-fds .line.blue,
-div.transcription.style-fds .line.first-double.blue,
-div.transcription.style-fds .halfline.blue,
-div.transcription.style-fds .quarterline.blue,
-div.transcription.style-fds .second-line.blue,
-div.transcription.style-fds .third-line.blue,
-div.transcription.style-fds .div.blue .line,
-div.transcription.style-fds .div.blue .line.first-double,
-div.transcription.style-fds .div.blue .halfline,
-div.transcription.style-fds .div.blue .quarterline,
-div.transcription.style-fds .div.blue .second-line,
-div.transcription.style-fds .div.blue .third-line {
+.line.blue,
+.line.first-double.blue,
+.halfline.blue,
+.quarterline.blue,
+.second-line.blue,
+.third-line.blue,
+.div.blue .line,
+.div.blue .line.first-double,
+.div.blue .halfline,
+.div.blue .quarterline,
+.div.blue .second-line,
+.div.blue .third-line{
 	border-top:1px solid #4f6c92 !important;	
 }
-div.transcription.style-fds .line.black,
-div.transcription.style-fds .line.first-double.black,
-div.transcription.style-fds .halfline.black,
-div.transcription.style-fds .quarterline.black,
-div.transcription.style-fds .second-line.black,
-div.transcription.style-fds .third-line.black,
-div.transcription.style-fds .div.black .line,
-div.transcription.style-fds .div.black .line.first-double,
-div.transcription.style-fds .div.black .halfline,
-div.transcription.style-fds .div.black .quarterline,
-div.transcription.style-fds .div.black .second-line,
-div.transcription.style-fds .div.black .third-line,
-div.transcription.style-fds .div.blue .line.black,
-div.transcription.style-fds .div.blue .halfline.black {
+.line.black,
+.line.first-double.black,
+.halfline.black,
+.quarterline.black,
+.second-line.black,
+.third-line.black,
+.div.black .line,
+.div.black .line.first-double,
+.div.black .halfline,
+.div.black .quarterline,
+.div.black .second-line,
+.div.black .third-line,
+.div.blue .line.black,
+.div.blue .halfline.black{
 	border-top:1px solid black !important;	
 }
-div.transcription.style-fds .line.black.brown,
-div.transcription.style-fds .line.first-double.black.brown,
-div.transcription.style-fds .halfline.black.brown,
-div.transcription.style-fds .quarterline.black.brown,
-div.transcription.style-fds .second-line.black.brown,
-div.transcription.style-fds .third-line.black.brown,
-div.transcription.style-fds .div.black.brown .line,
-div.transcription.style-fds .div.black.brown .line.first-double,
-div.transcription.style-fds .div.black.brown .halfline,
-div.transcription.style-fds .div.black.brown .quarterline,
-div.transcription.style-fds .div.black.brown .second-line,
-div.transcription.style-fds .div.black.brown .third-line {
+.line.black.brown,
+.line.first-double.black.brown,
+.halfline.black.brown,
+.quarterline.black.brown,
+.second-line.black.brown,
+.third-line.black.brown,
+.div.black.brown .line,
+.div.black.brown .line.first-double,
+.div.black.brown .halfline,
+.div.black.brown .quarterline,
+.div.black.brown .second-line,
+.div.black.brown .third-line{
 	border-top:1px solid #32251f !important;	
 }
-div.transcription.style-fds .line.brown,
-div.transcription.style-fds .line.first-double.brown,
-div.transcription.style-fds .halfline.brown,
-div.transcription.style-fds .quarterline.brown,
-div.transcription.style-fds .second-line.brown,
-div.transcription.style-fds .third-line.brown,
-div.transcription.style-fds .div.brown .line,
-div.transcription.style-fds .div.brown .line.first-double,
-div.transcription.style-fds .div.brown .halfline,
-div.transcription.style-fds .div.brown .quarterline,
-div.transcription.style-fds .div.brown .second-line,
-div.transcription.style-fds .div.brown .third-line {
+.line.brown,
+.line.first-double.brown,
+.halfline.brown,
+.quarterline.brown,
+.second-line.brown,
+.third-line.brown,
+.div.brown .line,
+.div.brown .line.first-double,
+.div.brown .halfline,
+.div.brown .quarterline,
+.div.brown .second-line,
+.div.brown .third-line{
 	border-top:1px solid #5b4338 !important;	
 }
-div.transcription.style-fds .line.gray,
-div.transcription.style-fds .line.first-double.gray,
-div.transcription.style-fds .halfline.gray,
-div.transcription.style-fds .quarterline.gray,
-div.transcription.style-fds .second-line.gray,
-div.transcription.style-fds .third-line.gray,
-div.transcription.style-fds .div.gray .line,
-div.transcription.style-fds .div.gray .line.first-double,
-div.transcription.style-fds .div.gray .halfline,
-div.transcription.style-fds .div.gray .quarterline,
-div.transcription.style-fds .div.gray .second-line,
-div.transcription.style-fds .div.gray .third-line {
+.line.gray,
+.line.first-double.gray,
+.halfline.gray,
+.quarterline.gray,
+.second-line.gray,
+.third-line.gray,
+.div.gray .line,
+.div.gray .line.first-double,
+.div.gray .halfline,
+.div.gray .quarterline,
+.div.gray .second-line,
+.div.gray .third-line{
 	border-top:1px solid #585754;	
 }
-div.transcription.style-fds .div.brown .first-double.gray,
-div.transcription.style-fds .div.brown .second-line.gray {
+.div.brown .first-double.gray,
+.div.brown .second-line.gray{
 	border-top:1px solid #585754 !important;	
 }
-div.transcription.style-fds .line.orange,
-div.transcription.style-fds .line.first-double.orange,
-div.transcription.style-fds .halfline.orange,
-div.transcription.style-fds .quarterline.orange,
-div.transcription.style-fds .second-line.orange,
-div.transcription.style-fds .third-line.orange,
-div.transcription.style-fds .div.orange .line,
-div.transcription.style-fds .div.orange .line.first-double,
-div.transcription.style-fds .div.orange .halfline,
-div.transcription.style-fds .div.orange .quarterline,
-div.transcription.style-fds .div.orange .second-line,
-div.transcription.style-fds .div.orange .third-line {
+.line.orange,
+.line.first-double.orange,
+.halfline.orange,
+.quarterline.orange,
+.second-line.orange,
+.third-line.orange,
+.div.orange .line,
+.div.orange .line.first-double,
+.div.orange .halfline,
+.div.orange .quarterline,
+.div.orange .second-line,
+.div.orange .third-line{
 	border-top:1px solid #CD7300 !important;	
 }
-div.transcription.style-fds .line.red,
-div.transcription.style-fds .line.first-double.red,
-div.transcription.style-fds .halfline.red,
-div.transcription.style-fds .quarterline.red,
-div.transcription.style-fds .second-line.red,
-div.transcription.style-fds .third-line.red,
-div.transcription.style-fds .div.red .line,
-div.transcription.style-fds .div.red .line.first-double,
-div.transcription.style-fds .div.red .halfline,
-div.transcription.style-fds .div.red .quarterline,
-div.transcription.style-fds .div.red .second-line,
-div.transcription.style-fds .div.red .third-line {
+.line.red,
+.line.first-double.red,
+.halfline.red,
+.quarterline.red,
+.second-line.red,
+.third-line.red,
+.div.red .line,
+.div.red .line.first-double,
+.div.red .halfline,
+.div.red .quarterline,
+.div.red .second-line,
+.div.red .third-line{
 	border-top:1px solid red !important;	
 }
 
 
+
 /* 5. p, ab, note, fw */
 
-div.transcription.style-fds p {
-	margin-right:2em;
+p{
+	margin-right: 2em;
 }/*Needed so that the text doesn't run up against the right edge in the viewer.*/
-div.transcription.style-fds .p {
+.p{
 	display:inline-block;
 	text-indent:25px;
 	margin-top:0;
 	margin-bottom:0;	
 }
-div.transcription.style-fds .p.noindent {
+.p.noindent{
 	text-indent:0 !important;
 }
-div.transcription.style-fds .p.center {
+.p.center{
 	text-indent:0 !important;
 }
-div.transcription.style-fds .p.right {
+.p.right{
 	text-indent:0 !important;
 }
-div.transcription.style-fds .ab {
+.ab{
 	text-indent:0;
 	margin-top:0;
 	margin-bottom:0;
 }
-div.transcription.style-fds .note {
+.ab.center{
+}
+.head{
+}
+.note{
 	display:inline;
 }
-div.transcription.style-fds .note.marginleft .linenumber {
+.note.marginleft .linenumber{
 	display:none;
 }
-div.transcription.style-fds .fw {
+.fw{
 	display:inline-block;
 }
-div.transcription.style-fds .fw.pageno {
+.fw.pageno{
 	text-indent:0 !important;
 }
-div.transcription.style-fds .fw.catch.left {
+.fw.catch.left{
 	margin-left:0;/*AW revisit*/
 	text-indent:0;
 }
-div.transcription.style-fds .fw.catch.right {
+.fw.catch.right{
 	text-indent:0;
 }
-div.transcription.style-fds .note.marginleft {
+.note.marginleft{
 	margin-left:-3.6em !important;
 	text-indent:0;	
 	float:left;
 	text-align:center;
 }
-div.transcription.style-fds .note.marginright {
+.note.marginright{
 	margin-right:-2.6em !important;
 	text-indent:0;	
 	float:right;
 	margin-top:-1.4em;
 }
 
-
 /* 6. Additions and Deletions */
 
-div.transcription.style-fds .addmargin {
+.opener-add{
+}
+.addmargin{
 	text-indent:0px;
 }
-div.transcription.style-fds .del,
-div.transcription.style-fds .cancelled,
-div.transcription.style-fds .strikethrough,
-div.transcription.style-fds .overwritten {
+.del,
+.cancelled,
+.strikethrough,
+.overwritten{
 	text-decoration:line-through;
 }
-div.transcription.style-fds .del-by-over-text {
+.del-by-over-text{
 	color:gray;
 	text-decoration:line-through;
+}
+.change-display .del-by-over-text{
+	color:black;
 }
 
 
 /* 7. Unclear, gap, space */
-div.transcription.style-fds .unclear {
+.unclear{
 	color:gray;
 	border-bottom:1px dotted gray;
 }
-div.transcription.style-fds .gap {
+.gap{
 	border-bottom:1px dotted gray;
 }
-div.transcription.style-fds .space-other {
+.change-display .unclear,
+.change-display .gap{
+	color:black;
+	border-bottom:1px dotted black;
+}
+.space-other{
 	border-bottom:1px dotted black;
 	display:block;
 }
-div.transcription.style-fds .verticalSpace {
+.verticalSpace{
 	display:inline-block;
 	border-bottom:1px dotted black;
 	text-indent:0;
 }
 
 
-/* 8. Editorial */
 
-div.transcription.style-fds .sic,
-div.transcription.style-fds .corr {
-	border-bottom:2px #B33B24 dotted;
+/* 7. Editorial */
+
+.sic,
+.corr{
+	border-bottom:2px #B33B24 dotted
 }
-div.transcription.style-fds .orig,
-div.transcription.style-fds .reg {
+.change-display .sic,
+.change-display .corr{
+	border-bottom:2px black dotted
+}
+.orig,
+.reg{
 	/*border-bottom:1px green dotted*/
 }
-div.transcription.style-fds .abbr,
-div.transcription.style-fds .expan {
-	border-bottom:1px green dotted;
+.abbr,
+.expan{
+	border-bottom:1px green dotted
 }
-div.transcription.style-fds .expan {
+.change-display .abbr,
+.change-display .expan{
+	border-bottom:1px black dotted
+}
+.expan{
 	display:none;
 }
-div.transcription.style-fds .hidden {
+.hidden{
 	display:none;
 }
-div.transcription.style-fds .rdg {
+.rdg{
 	display:block;
 }
 
 
-/* 9. @rend classes (except colors, lines, and up-down placement) */
+/* 8. @rend classes (except colors, lines, and up-down placement) */
 
-div.transcription.style-fds .caps {
+.caps{
 	font-variant:small-caps;
 }
-div.transcription.style-fds .center {
+.center{
 	text-indent:0;
 	margin-left:6em;
 }
-div.transcription.style-fds .doubleunderline {
+.doubleunderline{
 	border-bottom:3px double;
 }
-div.transcription.style-fds .doubleunderline-orange {
+.doubleunderline-orange{
 	border-bottom:1px double gray;
 }
-div.transcription.style-fds .tripleunderline {
+.tripleunderline{
 	border-bottom:4px double;
 	text-decoration:underline;
 }
-div.transcription.style-fds .indent {
+.indent{	
 	margin-left:25px;	
 	}
-div.transcription.style-fds .inline {
+.inline{
 	/*color:gray;*/
 }
-div.transcription.style-fds .italic {
+.italic{
 	font-style:italic;
 }
-div.transcription.style-fds .large {
+.large{
 	font-size:120%;
 }
-div.transcription.style-fds .overline {
-	text-decoration:overline;
+.overline{
+	text-decoration: overline;
 }
-div.transcription.style-fds .overline.underline {
+.overline.underline{
 	text-decoration:overline underline;
 }
-div.transcription.style-fds .overtext {
+.overtext{
 	/*color:gray;*/
 }
-div.transcription.style-fds .right {
+.right{
 	text-indent:0;
 	margin-left:12em;
 }
-div.transcription.style-fds .small {
+.small{
 	font-size:85%;
 }
-div.transcription.style-fds .smallcaps {
+.smallcaps{
 	font-variant:small-caps;
 }
-div.transcription.style-fds .underline {
+.underline{
 	text-decoration:underline;
 }
-div.transcription.style-fds .upsidedown {
+.upsidedown{
 	/*-ms-transform:rotate(180deg);*/ /* IE 9 */
 	/*-moz-transform:rotate(180deg);*/ /* Firefox */
 	/*-webkit-transform:rotate(180deg);*/ /* Safari and Chrome */
 	/*-o-transform:rotate(180deg);*/ /* Opera */
 }
-div.transcription.style-fds .vertical {
+.vertical{
 	/*-ms-transform:rotate(90deg);*/ /* IE 9 */
 	/*-moz-transform:rotate(90deg);*/ /* Firefox */
 	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
 	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
 
+/* 9. Page placement */
 
-/* 10. Page placement */
-
-div.transcription.style-fds .above,
-div.transcription.style-fds .below,
-div.transcription.style-fds .bottom,
-div.transcription.style-fds .sub,
-div.transcription.style-fds .sup,
-div.transcription.style-fds .top {
+.above,
+.below,
+.bottom,
+.sub,
+.sup,
+.top{
 	/* Specified in % so that the sup/sup is the
      right size relative to the surrounding text */
 	font-size:75%;
@@ -614,7 +678,7 @@ div.transcription.style-fds .top {
      interfere with the positioning that follows */
 	line-height:0;
 
-	/* Where the magic happens:makes all browsers position
+	/* Where the magic happens: makes all browsers position
      the sup/sup properly, relative to the surrounding text */
 	position:relative;
 
@@ -622,20 +686,20 @@ div.transcription.style-fds .top {
      is already set and you can remove this rule */
 	vertical-align:baseline;
 }
-div.transcription.style-fds .above,
-div.transcription.style-fds .sup,
-div.transcription.style-fds .top {
+.above,
+.sup,
+.top{
 	/* Move the superscripted text up */
 	top:-0.5em;
 }
-div.transcription.style-fds .below,
-div.transcription.style-fds .bottom,
-div.transcription.style-fds .sub {
+.below,
+.bottom,
+.sub{
 	/* Move the subscripted text down, but only
      half as far down as the superscript moved up */
 	bottom:-0.25em;
 }
-div.transcription.style-fds .margintop {
+.margintop{
 	margin-left:0;
 	color:gray;
 	line-height:0;
@@ -643,117 +707,156 @@ div.transcription.style-fds .margintop {
 	vertical-align:baseline;
 	top:-1em;
 }
-div.transcription.style-fds .true {
+.change-display .margintop{
+	color:black;
+}
+.margintop.left{
+}
+.margintop.right{
+}
+.true{
 	display:inline-block;
 }/*Goes with standalone <note>s*/
 
 
-/* 11. Colors */
+/* 10. Colors */
 
-div.transcription.style-fds .black {
+.black{
 	color:black;
 }
-div.transcription.style-fds .black.gray {
+.black.gray{
 	color:#404040;
 }
-div.transcription.style-fds .black.brown {
+.black.brown{
 	color:#32251f;
 }
-div.transcription.style-fds .blue {
+.blue{
 	color:#4f6c92;/*55759e*//*#507ca5;*/
 }
-div.transcription.style-fds .brown {
+.brown{
 	color:#5b4338;
 }
-div.transcription.style-fds .gray {
-	color:#585754; /*72716d*/
+.gray{
+	color:#585754/*72716d*/
 }
-div.transcription.style-fds .green {
+.green{
 	color:green;
 }
-div.transcription.style-fds .orange {
+.orange{
 	color:#CD7300;
 }
-div.transcription.style-fds .purple {
+.purple{
 	color:purple;
 }
-div.transcription.style-fds .red {
+.red{
 	color:#B33B24;
 }
-div.transcription.style-fds .yellow {
+.yellow{
 	color:yellow;
+}
+.change-display .black,
+.change-display .black.gray,
+.change-display .black.brown,
+.change-display .blue,
+.change-display .brown,
+.change-display .gray,
+.change-display .green,
+.change-display .orange,
+.change-display .purple,
+.change-display .red,
+.change-display .yellow{
+	color:black;
 }
 
 
-/* 12. Lists and Tables */
-
-div.transcription.style-fds .list {
+/* 11. Lists and Tables */
+.list{
 	display:inline-block;
 	/*margin-top:12px;*/
 	text-indent:0em;
 }
-div.transcription.style-fds .p .right,
-div.transcription.style-fds .list .right {
+.p .right,
+.list .right{
 	float:right;
 	margin-top:-1.4em;
 	margin-left:2em;
 	padding-right:2em;
 }
-div.transcription.style-fds .p .right {
+.p .right{
 	padding-right:0em !important;
 }
-div.transcription.style-fds .cell {
+.cell{
 	max-width:1%;
 	min-width:1%;
 	text-align:left;
 	display:inline-block;
 }
-div.transcription.style-fds .cell.center {
+.cell.center{
 	margin-left:5.5em;
 }
-div.transcription.style-fds .cell.right {
+.cell.right{
 	margin-left:7em;
 }
-div.transcription.style-fds .cell.right.cell-after-center {
+.cell.right.cell-after-center{
 	margin-left:2em;
 }
 
 
-/* 13. Misc */
+/* 12. Misc */
 
-div.transcription.style-fds .figure {
+.figure{
 	margin-left:0;
 	color:gray;
 	font-size:.8em;
 	border-bottom:1px gray dotted;
 }
-div.transcription.style-fds .p .figure,
-div.transcription.style-fds .p.noindent .figure,
-div.transcription.style-fds .ab .figure {
+.change-display .figure{
+	color:black;
+	border-bottom:1px black dotted;
+}
+.p .figure,
+.p.noindent .figure,
+.ab .figure{
 	margin-left:0px !important;
 	text-indent:0px;
 }
-div.transcription.style-fds .metamark,
-div.transcription.style-fds .metamark-color {
+.metamark,
+.metamark-color{
 	font-style:italic;
 	border-bottom:1px gray dotted;
 }
-div.transcription.style-fds .metamark {
+.metamark{
 	color:gray;
 }
-div.transcription.style-fds p .metamark {
+.change-display .metamark,
+.change-display .metamark-color{
+	color:black;
+	border-bottom:1px black dotted;
+}
+p .metamark{
 	margin-left:0px !important;
 	text-indent:0px !important;
 }
-div.transcription.style-fds .foreign,
-div.transcription.style-fds .geogName,
-div.transcription.style-fds .persName,
-div.transcription.style-fds .orgName,
-div.transcription.style-fds .quote,
-div.transcription.style-fds .region,
-div.transcription.style-fds .settlement,
-div.transcription.style-fds .term-ailment,
-div.transcription.style-fds .term-tribe {
-  border-bottom:2px #428bca dotted;
-  /* change to 1px */
+
+.foreign,
+.geogName,
+.persName,
+.orgName,
+.quote,
+.region,
+.settlement,
+.term-ailment,
+.term-tribe{
+	border-bottom:2px #428bca dotted; /* change to 1px */
+}
+.change-display .foreign,
+.change-display .geogName,
+.change-display .persName,
+.change-display .orgName,
+.change-display .quote,
+.change-display .region,
+.change-display .settlement,
+.change-display .term-ailment,
+.change-display .term-tribe{
+	border-bottom:2px black dotted; /* change to 1px */
 }

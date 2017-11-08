@@ -40,8 +40,7 @@
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
 				<link rel="stylesheet" type="text/css" href="style-fds.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
-				<link rel="stylesheet" type="text/css" href="change-display.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
-								<script>
+				<script>
 					// Wait till document is loaded before executing.
 					document.addEventListener("DOMContentLoaded", function(event) {
 					  // Select the button element using it's ID.
@@ -50,7 +49,7 @@
 					    .onclick = function () {
 					      // Find the element with class TEI,
 					      // and toggle the class 'change-display'.
-					      document.querySelector('div.transcription')
+					      document.querySelector('div.TEI')
 					        .classList
 					        .toggle('change-display');
 					    };
@@ -72,10 +71,7 @@
 
 	<!-- TEI -->
 	<xsl:template match="TEI">
-		<xsl:variable name="body-color">
-			<xsl:apply-templates select="//body/@n[1]"/>
-		</xsl:variable>
-		<div class="transcription style-fds" style="background:#{$body-color};">
+		<div class="transcription">
 			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
 			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
 			<!--<h2>
@@ -91,7 +87,7 @@
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:variable>
-			<div class="TEI" style="background:#{$body-color};">
+			<div class="TEI">
 				<div class="item-details">
 					<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
 					<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/>
