@@ -39,8 +39,9 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
-				<link rel="stylesheet" type="text/css" href="change-display.css"/><!--  -->
+
 				<link rel="stylesheet" type="text/css" href="style-final-MS-bonus.css"/><!--  -->
+				<link rel="stylesheet" type="text/css" href="change-display.css"/><!--  -->
 				<script>
 					// Wait till document is loaded before executing.
 					document.addEventListener("DOMContentLoaded", function(event) {
@@ -101,6 +102,8 @@
 			<!--<h2>
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
+					<button id="toggle-display"><span class="black-white-text">Show all text as black and white</span><span class="livingstone-color">Show manuscript and editor-added colors</span></button>
+<br/>
 			<div class="TEI" style="background:#{$body-color};">
 				<div class="item-details">
 				<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
@@ -124,7 +127,6 @@
 				<span class="encoding-standard"><span class="bold">Encoding standardization</span><xsl:text>: Adrian S. Wisnicki (2015-2017)</xsl:text></span><br/><br/>-->
 					<br/>
 					<hr class="title-section"/><br/>
-					<button id="toggle-display"><span class="black-white-text">Show all text as black and white</span><span class="livingstone-color">Show manuscript and editor-added colors</span></button>
 					<br/>
 				<!-- <button id="toggle-display">Toggle Display</button>-->
 				</div>
