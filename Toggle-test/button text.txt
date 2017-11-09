@@ -1,0 +1,20 @@
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/change-display.css"/>
+				<!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+				<script>
+					// Wait till document is loaded before executing.
+					document.addEventListener("DOMContentLoaded", function(event) {
+					  // Select the button element using it's ID.
+					  document.querySelector('button#toggle-display')
+					    // Call this function when the button is clicked.
+					    .onclick = function () {
+					      // Find the element with class TEI,
+					      // and toggle the class 'change-display'.
+					      document.querySelector('div.TEI')
+					        .classList
+					        .toggle('change-display');
+					    };
+					});
+				</script>
+
+
+					<button id="toggle-display"><span class="black-white-text">Show all text as black and white</span><span class="livingstone-color">Show manuscript and editor-added colors</span></button>
