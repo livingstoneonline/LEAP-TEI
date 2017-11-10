@@ -499,12 +499,18 @@ div.transcription.style-fds .del-by-over-text {
 	text-decoration:line-through;
 	color:gray;
 }
+div.transcription.style-fds .change-display .del-by-over-text {
+	color:black;
+}
 
 
 /* 7. Unclear, gap, space */
 div.transcription.style-fds .unclear {
 	color:gray;
 	border-bottom:1px dotted gray;
+}
+div.transcription.style-fds .change-display .unclear {
+	border-color:black;
 }
 div.transcription.style-fds .gap {
 	border-bottom:1px dotted gray;
