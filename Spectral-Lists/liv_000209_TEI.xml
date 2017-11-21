@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000209">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment of 1870 Field Diary (LXXVIII-LXXXVII), 24 January-19 February 1871</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+				<idno type="LEAP-ID">liv_000209</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno type="shelfmark">MS.10703, ff. 27-31</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 037</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Fragment of 1870 Field Diary (LXXVIII-LXXXVII), 24 January-19 February 1871</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1871-01-24" to="1871-02-19">24 January-19 February 1871</date>
+                    <placeName type="compositionPlace">Bambarre; Manyema</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="nym">Nyamwezi</language>
+				<language ident="fa">Persian</language>
+				<language ident="tr">Turkish</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+            <!-- Integration -->
+			<change when="2016-02-09" who="#AW">Coding corrections</change>
+			<change when="2015-04-02" who="#AW">Coding review</change>
+            <change when="2015-02-05" who="#HB">Quality control and integration</change>
+            <!-- 080 -->
+            <change when="2014-11-20" who="#MW">Proofing and additional TEI encoding</change>
+            <change when="2014-11-14" who="#AK">Proofing and additional TEI encoding</change>
+            <change when="2014-11-04" who="#AW">Initial transcription and TEI encoding</change>
+            <!-- 078 -->
+            <change when="2014-10-24" who="#AK">Proofing</change>
+            <change when="2014-10-08" who="#AW">Proofing</change>
+			<change when="2014-10-01" who="#MW">Initial transcription and TEI encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<gb type="book-pages"/>
+                
+    <!-- mw, aw, ak -->
+
+	<pb facs="liv_000209_0001" n="LXXVIII"/>
+	<!--<pb facs="NLS10703_078_027r_0_A_color" n="0078"/>-->
+<!-- Staining on this page and scuffing around edges looks to be interesting with processing. AW -->
+<lb/><p rend="no-indent"><fw n="heading_LXXVIII">LXXVIII</fw> <date when="1871-01-24">24<hi rend="sup underline">th</hi> January 1871</date> - <persName ref="people.xml#pers0002">Muhamad</persName> mentioned <add place="marginright" rend="gray" hand="#U"><fw n="27">27</fw></add>
+<lb/>this morning that <persName ref="people.xml#pers0065">Moenemokaia</persName> &amp; <persName ref="people.xml#pers0105">Moeneghere</persName> his
+<lb/>brother brought about thirty <orgName>slaves</orgName> from <placeName><region ref="region.xml#region0005">Katanga</region></placeName>
+<lb/>to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> affected with <term type="ailment" ref="ailment.xml#ailm0020">swelled Thyroid glands</term>
+<lb/>or <term type="ailment" ref="ailment.xml#ailm0011"><hi rend="underline">Goitre</hi></term> and that drinking the water of <placeName><geogName type="lake" ref="geogName.xml#geog0025"><w>Tang-
+<lb break="no"/>anyika</w></geogName></placeName> proved a perfect cure to all in a very
+<lb/>few days. Sometimes the <term type="ailment">swelling</term> went
+<lb/>down in two days after they began to use the
+<lb/>water in their ordinary way of cooking washing
+<lb/>and drinking - Possibly some ingredient of
+<lb/>the hot fountain that flows into it - for the 
+<lb/>people on the <placeName><geogName type="river" ref="geogName.xml#geog0029">Lofubu</geogName></placeName> in <placeName><region><persName ref="people.xml#pers0052">Isana</persName>'s country</region></placeName> had
+<lb/>the <term type="ailment">swelling</term> - Shut in bays were decidedly
+<lb/>brackish while the body of <placeName><geogName type="lake" ref="geogName.xml#geog0025">Tanganyika</geogName></placeName> was
+<lb/>quite fresh -</p>
+<lb/><p>The odour of putrid <term type="animal">elephant</term>'s meat in a house kills
+<lb/><term type="animal">parrots</term> - The <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> keep it till quite rotten
+<lb/>but know its fatal effects on their favorite
+<lb/><term type="animal">birds</term></p>
+
+	<pb facs="liv_000209_0002" n="LXXIX"/>
+	<!--<pb facs="NLS10703_079_027v_0_A_color" n="0079"/>--><!-- A few interesting stains on this page worth processing. AW -->
+<lb/><p rend="no-indent"><fw n="heading_LXXIX" rend="large">LXXIX</fw>. <date when="1871-01-28">28<hi rend="sup underline">th</hi> January 1871</date> - <choice><sic>a</sic><corr>A</corr></choice> safari under <persName ref="people.xml#pers0047">Hassani</persName>
+<lb/>and <persName ref="people.xml#pers0006"><choice><sic>Ebed</sic><corr>Abed</corr></choice></persName> arrived with news of great mortality
+<lb/>by <term type="ailment" ref="ailment.xml#ailm0004">cholera</term> (<foreign xml:lang="und"><term type="ailment" ref="ailment.xml#ailm0025"><hi rend="underline">Towny</hi></term></foreign>) at <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> - and my "brother"
+<lb/>who I conjecture to be <persName ref="people.xml#pers0071">D<hi rend="sup underline">r</hi> Kirk</persName> has fallen - The men
+<lb/>I wrote for have come to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> but did not know 
+<lb/>my whereabouts - When told by <orgName><persName ref="people.xml#pers0065">Katomba</persName>'s men</orgName> 
+<lb/>they will come here - and bring my much longed
+<lb/>for letters &amp; goods - 70,000 thousand victims in<!-- The letters mentioned here will include the Letter from Bambarre, which arrives on Feb. 4. AW -->
+<lb/><placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> <space extent="3" unit="chars"/>alone! and it spread inland to the
+<lb/><app><rdg><placeName><region ref="region.xml#region0012"><choice><orig>Masai</orig><reg>Maasailand</reg></choice></region></placeName></rdg><rdg><term type="tribe" ref="ethnic-group.xml#ethnic0011">Maasai</term></rdg></app> and <app><rdg><placeName><region ref="region.xml#region0002">Ugogo</region></placeName></rdg><rdg><term type="tribe" ref="ethnic-group.xml#ethnic0007"><choice><orig><choice><orig>Ugogo</orig><reg>Bagogo</reg></choice></orig><reg>Gogo</reg></choice></term></rdg></app> - <term type="animal">cattle</term> shivered and fell dead
+<lb/>the <term type="animal">fishes</term> in the sea died in great numbers. Here
+<lb/>the <term type="animal">fowls</term> were first seized and died and then men - 
+<lb/>thirty perished in our small camp made still 
+<lb/>smaller by all the able men being off <term type="occupation">trading</term> at the
+<lb/><foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0009"><placeName><region ref="region.xml#region0007"><geogName type="forest" ref="geogName.xml#geog0041">Metamba</geogName></region></placeName></term></foreign> and how many <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> died we<!-- Ensure that Metamba is being coded consistently. AW --><!-- Adrian, in a previous text Metamba is translated as forest, so wasn't sure if this was the general word for forest, or the name of a specific one- let me know and I will code properly throughout. HB --><!-- As per email exchange, have fixed coding. HB -->
+<lb/><choice><sic>dont</sic><corr>don't</corr></choice> know - The survivors became afraid of
+<lb/>eating the dead - Formerly the pest kept along
+<lb/>the sea shore now it goes far inland and will
+<lb/>spread all over <placeName><bloc>Africa</bloc></placeName> - This we get from <placeName><settlement type="city">Mecca</settlement></placeName><!-- Not sure how to tag this. MW --><!-- Resolved. AW -->
+<lb/>filth - nothing was done to prevent the place being
+<lb/>made a perfect cesspool of <choice><sic>animals</sic><corr>animals'</corr></choice> guts &amp; ordure of men</p>
+
+    <!-- aw, ak, mw -->
+                
+	<pb facs="liv_000209_0003" n="LXXX"/>
+	<!--<pb facs="NLS10703_080_028r_0_A_color" n="0080"/>-->
+<!-- This page may continue from previous, so <p> may not be needed here. Please check. AW --><!-- Adrian, I don't think it's a continuation of pg 79, so am leaving as-is with p tags. HB -->
+<!-- The text after DL's page number and before the second paragraph appears to be in a different ink. Should be processed. AW -->
+<!-- Stains in upper left-hand corner and at right edge look interesting and should be processed. AW -->
+<lb/><p rend="no-indent"><fw n="heading_LXXX" rend="large"><add place="above">LXXX --</add></fw> <choice><sic>a</sic><corr>A</corr></choice> piece of skin bound round chest of an arm &amp; half of <add place="above marginright" rend="gray" hand="#U"><fw n="28">28</fw></add><!-- Need to check that all these additions are rend="gray" AW -->
+<lb/>it hanging down prevents waste of his strength and he
+<lb/>forgets and fattens ----</p>
+<lb/><p rend="no-indent"><orgName><persName ref="people.xml#pers0006">Abed</persName>'s party</orgName> bring 200 <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0002">Frasilahs</term></foreign> of all sorts of beads &amp;
+<lb/>They will cross <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> &amp; open<!-- Stain for processing here. AW --> a new field in the
+<lb/>other or <placeName><geogName type="river" ref="geogName.xml#geog0030"><persName ref="people.xml#pers0194">Young</persName>'s Lualaba</geogName></placeName> - all <placeName><region>central <placeName><bloc>Africa</bloc></placeName></region></placeName> <figure><figDesc>Weight calculation at the end of this line.</figDesc></figure>
+<lb/>will soon be known - The evils inflicted by
+<lb/>these <orgName>Arabs</orgName> are enormous but probably not greater
+<lb/>than the people inflict on each other -----</p>
+<lb/><p><persName ref="people.xml#pers0098">Merere</persName> has turned against the <orgName>Arabs</orgName> and killed one
+<lb/>robbing several others of all they had though he has
+<lb/>ivory sufficient to send down 7000 <choice><abbr>lbs</abbr><expan>pounds</expan></choice> of ivory to <placeName><region>the
+<lb/>coast</region></placeName> and <choice><sic>recieve</sic><corr>receive</corr></choice> loads of goods for 500 men - He
+<lb/>looks as if <term type="ailment">insane</term> &amp; probably is so - He will soon be
+<lb/>killed - His <term type="ailment">insanity</term> may be the effect of <term type="foodstuff">Pombe</term> of
+<lb/>which he drinks largely - and <orgName>his people</orgName> may have
+<lb/>told him that the <orgName>Arabs</orgName> were plotting with <persName ref="people.xml#pers0041"><unclear cert="medium">Goambari</unclear></persName>
+<lb/>He restored <persName ref="people.xml#pers0002">Muhamad</persName>'s ivory and <orgName>slaves</orgName> and sent for
+<lb/>the other <term type="occupation">traders</term> who had fled - said <orgName>his people</orgName> had
+<lb/><space extent="3" unit="chars"/>spoken badly and he would repay all losses -</p>
+
+	<pb facs="liv_000209_0004" n="LXXXI"/>
+	<!--<pb facs="NLS10703_081_028v_0_A_color" n="0081"/>-->
+<!-- Raking shows this page to be quite beat up. AW -->
+<!-- Staining at the bottom of this page mirrors staining seen at the top of the other. AW -->
+<lb/><p rend="no-indent"><space extent="3" unit="chars"/><fw n="heading_LXXXI">LXXXI</fw> Two young <term type="animal">elephants</term> were sent by <persName ref="people.xml#pers0137">Mteza</persName> to
+<lb/><persName ref="people.xml#pers0158">Seyed Majid</persName> by <choice><sic>was</sic><corr>way</corr></choice> of the <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0008"><term type="occupation">Lewale</term></term></foreign> - <term type="tribe" ref="ethnic-group.xml#ethnic0012"><choice><orig><choice><orig>Watuta</orig><reg>Batuta</reg></choice></orig><reg>Ngoni</reg></choice></term> came stealing
+<lb/><term type="tribe" ref="ethnic-group.xml#ethnic0014"><choice><orig>Banyamwezi</orig><reg>Nyamwezi</reg></choice></term> <term type="animal">cattle</term> <unclear cert="medium">&amp;</unclear> <orgName><persName ref="people.xml#pers0137">Mteza</persName>'s men</orgName> went out to them
+<lb/>and twenty two were killed The <orgName><foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0008"><term type="occupation">Lewale</term></term></foreign>'s people</orgName> did nothing
+<lb/>The <term type="occupation">Governor</term>'s sole anxiety is to obtain ivory and no
+<lb/>aid is rendered to the <term type="occupation">traders</term> <space extent="2" unit="chars"/><persName ref="people.xml#pers0164">Seyed Suleiman</persName> the <unclear cert="medium"><foreign xml:lang="tr"><term xml:lang="tr" ref="foreign-word.xml#frgn0021"><term type="occupation"><choice><orig>wanzeer</orig><reg>wuzeer</reg></choice></term></term></foreign></unclear>
+<lb/>is the author<!-- The use here doesn't qualify as occupation, methinks. AW --> of the do nothing policy - Sent away all the 
+<lb/><orgName ref="orgName.xml#org0023"><term type="occupation">Sepoys</term></orgName> as too expensive <space extent="3" unit="chars"/>an old man &amp; avaricious
+<lb/>The <del><gap extent="1" unit="chars"/></del><term type="tribe" ref="ethnic-group.xml#ethnic0007"><choice><orig>Bagogo</orig><reg>Gogo</reg></choice></term> plunder <term type="occupation">traders</term> unchecked = one of the
+<lb/>young <term type="animal">elephants</term> died in the way to <placeName><region>the coast</region></placeName> - It is
+<lb/>reported that <orgName><term type="nationality">Egyptian</term> <term type="people"><choice><sic>turks</sic><corr>Turks</corr></choice></term></orgName> came up &amp; attacked
+<lb/><persName ref="people.xml#pers0137">Mteza</persName> but lost many people and fled - A <term type="faith">Moslem</term>
+<lb/>mission to <persName ref="people.xml#pers0137">Mteza</persName> was a falsehood though the
+<lb/>details given were circumstantial - Falsehood
+<lb/>is so common one can believe nothing the <orgName>Arabs</orgName>
+<lb/>say unless confirmed of other evidence - They are
+<lb/>followers of the Prince of lies <persName ref="people.xml#pers0001">Muhamad</persName> <!-- This makes for painful reading. We should explicitly discuss DL's dislike of Muslims in our critical materials. It is worth noting that DL's experience with Muslim appears to some degree limited to East African slave traders. AW --><!-- Agreed, I'm particularly interested in the implications of a person in his position disliking the Muslims's as much as he seems in this time period and what histrical facets may have contributed to this hatred - does he ever move away from this dislike? -AK--><!-- I think this comes at least in part from his "scientific," categorizing, as he tends to characterize peoples in a proto-anthropological but very critical way, e.g. Sepoys are lazy, Muslims are liars, etc. -MW -->- His cool
+<lb/>appropriation of the knowledge gained at <placeName><settlement type="city">Damascus</settlement></placeName>
+<lb/>and from the <orgName>Jews</orgName> is perfectly disgusting - All his
+<lb/>deeds were done when unseen by any witnesses</p>
+
+	<pb facs="liv_000209_0005" n="LXXXII"/>
+	<!--<pb facs="NLS10703_082_029r_0_A_color" n="0082"/>-->
+<!-- Same staining pattern on this page as on 80. AW -->
+<lb/><p rend="no-indent"><fw n="heading_LXXXII">LXXXII.</fw> It is worth noticing that all admit the decadence <add place="above marginright" rend="gray" hand="#U"><fw n="29">29</fw></add>
+<lb/>of the <term type="faith">Moslem</term> power and they ask how it is fallen -
+<lb/>they seem sincere in their devotions &amp; reading the <bibl>Koran</bibl>
+<lb/>but its meaning is comparatively hid from most of the
+<lb/><orgName ref="orgName.xml#org0024"><choice><orig>Suaheli</orig><reg>Swahili</reg></choice></orgName><!-- We need to ensure we're coding this consistently. AW --> - the <space extent="3" unit="chars"/><orgName><orgName>Persian</orgName> <orgName>Arabs</orgName></orgName> are said to be gross
+<lb/>idolators and awfully impure - Earth from a grave
+<lb/>at <persName ref="people.xml#pers0072"><app><rdg>Kurbelosi</rdg><rdg>Kurbelori</rdg></app></persName><add place="above"><app><rdg>'s</rdg><rdg> is</rdg></app></add> put in the turban and worshipped - some of the
+<lb/>sects <choice><sic>wont</sic><corr>won't</corr></choice> say "Amen"!</p>
+<lb/><p><persName ref="people.xml#pers0114">Moenyegumbe</persName> never drank more than a mouthful
+<lb/>of <term type="foodstuff">pombe</term> - He said the wisdom of a <term type="occupation">chief</term> is dangerous
+<lb/>He kills people and <choice><sic>it</sic><corr>he</corr></choice> ought never to be excited by <term type="foodstuff">beer</term> -
+<lb/>When young he could make his spear pass right through
+<lb/><w><gap extent="1" unit="chars" agent="hole"/><supplied>a</supplied>n</w> elephant and stick in the ground on the other side -
+<lb/>He was a large man and all his members were largely
+<lb/>developed - hands fingers all in proportion to his great
+<lb/>height - lived to old age with strength unimpaired --
+<lb/><persName ref="people.xml#pers0041">Goambari</persName> inherits his white colour and sharp nose =
+<lb/>but not his wisdom or courage - <persName ref="people.xml#pers0098">Merere</persName> killed five of his
+<lb/>own people for exciting him "against the <orgName>Arabs</orgName> -" the
+<lb/><orgName>half caste</orgName> is the murderer of many of <persName ref="people.xml#pers0026"><choice><sic>charura</sic><corr>Charura</corr></choice></persName>'s
+<lb/>descendants - His father got a <subst><del type="strikethrough"><gap extent="1" unit="words" agent="illegible"/></del> <add place="below">^</add> <add place="above">daughter</add></subst> of <persName ref="people.xml#pers0114">Moenyegumbe</persName>
+<lb/><unclear cert="medium">for</unclear> courage in fighting the <term type="tribe" ref="ethnic-group.xml#ethnic0003"><choice><orig>Babena</orig><reg>Bena</reg></choice></term> of <placeName><region ref="region.xml#region0003">Ubena</region></placeName></p>
+
+	<pb facs="liv_000209_0006" n="LXXXIII"/>
+	<!--<pb facs="NLS10703_083_029v_0_A_color" n="0083"/>-->
+<!-- Even more trauma visible in the raking images for this page. AW -->
+<lb/><p><fw n="heading_LXXXIII">LXXXIII.</fw> <choice><sic>my</sic><corr>My</corr></choice> long detention in <placeName><region ref="region.xml#region0013"><term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term></region></placeName> leads me to 
+<lb/>believe that they are truly a bloody people - cold blooded
+<lb/>murders are frightfully common and they say that <unclear cert="high">but for</unclear>
+<lb/>our presence they would <add place="below">^</add> <add place="above">be</add> still more frequent - They have no
+<lb/>fear of spears and shields - guns alone frighten them - they
+<lb/>tell us frankly and quite truly that but for our firearms not
+<lb/>one of us should even return to his country - some kill
+<lb/>in order to be allowed to wear the red tail feathers of a
+<lb/><term type="animal">parrot</term> in their hair - and they are not ugly like the <orgName><placeName><region>West
+<lb/>coast</region></placeName> negroes</orgName> many men have as finely formed heads as
+<lb/>would be found in <placeName><settlement type="city">London</settlement></placeName> - We <term type="people">English</term><!--Interesting that Livingstone doesn't identify himself as Scottish. Critical essay on national identity? MW--> if naked would
+<lb/>make but a poor figure beside the strapping forms and
+<lb/>finely shaped limbs of <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> men &amp; women - their
+<lb/>cannibalism is doubtful but my observations raise
+<lb/>grave suspicions a <term type="nationality">Scotch</term> jury would say "<hi rend="underline">not proven</hi>"
+<lb/>The women are not guilty -</p>
+<lb/><p>The <term type="ailment" ref="ailment.xml#ailm0004">cholera</term> came along the seashore from <placeName><settlement type="city">Mecca</settlement></placeName> but
+<lb/>this year it came inland and made great havoc - <term type="animal">Goats</term>
+<lb/>and <term type="animal">fowls</term> died not by the pest <!-- I think that "pest" here refers to cholera not to an insect, but I'm leaving the tag for further review. MW --><!-- I agree, it is referring to cholera- removing term tag. HB --> but by its companion
+<lb/><del><gap extent="1" unit="chars" agent="blot"/></del> <term type="animal">cattle</term> shivered and fell dead - about 30 people died in
+<lb/>our small camp and how many <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> we <choice><sic>dont</sic><corr>don't</corr></choice> know
+<lb/><bibl>Letters from <placeName><settlement type="city">Mecca</settlement></placeName></bibl> told of its coming from that focus
+<lb/>of filth but <w>t<subst><del>a</del><add place="over-text">h</add></subst>e</w> rest of the world must do nothing for
+<lb/>political economy says we must not <space extent="3" unit="chars"/><unclear cert="medium">interfere</unclear></p>
+
+	<pb facs="liv_000209_0007" n="LXXXIV"/>
+	<!--<pb facs="NLS10703_084_030r_0_A_color" n="0084"/>-->
+<lb/><p rend="no-indent"><fw n="heading_LXXXIV">LXXXIV -</fw> <date when="1871-02-04">4<hi rend="sup underline">th</hi> February 1871</date> - Ten of my men from <add place="above" rend="gray" hand="#U"><fw n="30">30</fw></add> <placeName><region>the
+<lb/>coast</region></placeName> have come near to <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> and will arrive today
+<lb/>I am extremely thankful to hear it for it assures me
+<lb/>that <bibl>my packet of letters</bibl><!-- Have we marked letters consistently in this way? AW --><!--Letters are mentioned in 0083 above and not marked. MW --><!-- Adrian, let me know if you want me to mark up the Letters/packets with bibl, and I will go back and do HB. --><!-- As per email exchange, yes. HB --> was not destroyed - they know
+<lb/>at home by this time what has detained me <space extent="1" unit="words"/>and the
+<lb/>end to which I strain</p>
+<lb/><p rend="no-indent"><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> only <bibl>one letter</bibl> reached and <bibl>40</bibl> are missing - <space extent="4" unit="chars"/><persName ref="people.xml#pers0053">James</persName>
+<lb/>was killed today by an arrow - the assassin was hid
+<lb/>in the forest till my men going to buy food came
+<lb/>up - I propose to leave on the <date when="1871-02-12">12<hi rend="sup underline">th</hi></date> I have
+<lb/>sent <persName ref="people.xml#pers0071">D<hi rend="sup">r</hi> Kirk</persName> a cheque for <choice><abbr>Rs</abbr><expan>Rupees</expan></choice> 4000<!-- This may survive. AW --> Four <w>thous- <!-- Adrian, is this 400 four thousand a repetition that should be corrected with sic/corr tags? HB -->
+<lb break="no"/>-and</w> - Great havoc was made by <term type="ailment" ref="ailment.xml#ailm0004">cholera</term> and
+<lb/>in the midst of it my friend exerted himself
+<lb/>greatly to get men off to me with goods - First
+<lb/>gang of <term type="occupation">porters</term> all died. When they came to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName>
+<lb/><persName ref="people.xml#pers0166"><choice><sic>Sherreef</sic><corr>Shereef</corr></choice></persName> the <term type="occupation">head man</term> stopped wth four and
+<lb/>is now feasting &amp; drinking on my goods though
+<lb/>he knows me to be here -</p>
+<lb/><p rend="no-indent"><date when="1871-02-08">8<hi rend="sup">th</hi></date> The ten men refusing to go North influenced
+<lb/>probably <choice><sic>be</sic><corr>by</corr></choice> <persName ref="people.xml#pers0166">Shereef</persName> &amp; my two ringleaders who
+<lb/><add place="below"><metamark/></add> try this means to compel me to take them</p>
+
+	<pb facs="liv_000209_0008" n="LXXXV"/>
+	<!--<pb facs="NLS10703_085_030v_0_A_color" n="0085"/>-->
+<lb/><p rend="no-indent"><fw n="heading_LXXXV">LXXXV</fw> <date when="1871-02-09">9<hi rend="sup underline">th</hi> February 1871</date> - <choice><sic>the</sic><corr>The</corr></choice> man who contrived the
+<lb/>murder of <persName ref="people.xml#pers0053">James</persName> came here drawn by the pretence that he
+<lb/>was needed to lead a party against the villages which he
+<lb/>led to commit the outrage - His thirst for blood is awful
+<lb/>He was bound &amp; word sent to bring the actual <choice><sic>murders</sic><corr>murderers</corr></choice> within
+<lb/>3 days or he suffers death - He brought 5 <term type="animal">goats</term> <choice><sic>think</sic><corr>thinking</corr></choice> that would
+<lb/>smooth the matter over</p>
+<lb/><p rend="no-indent"><date when="1871-02-11">11<hi rend="sup underline">th</hi></date> Men struck work for higher wages - I consented
+<lb/>to give them 6 six dollars a month if they <w>be-
+<lb break="no"/>-haved</w> well - <space extent="2" unit="chars"/>If ill, I diminish it - <space extent="2" unit="chars"/>so we hope
+<lb/>to start tomorrow - another mutiny quelled by <persName ref="people.xml#pers0002"><choice><abbr>M</abbr><expan cert="medium">Muhamad</expan></choice></persName> &amp; me</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><date when="1871-02-12">12<hi rend="sup underline">th</hi></date> <choice><sic>the</sic><corr>The</corr></choice> men sent are all <orgName ref="orgName.xml#org0004"><orgName>slaves</orgName> of the <orgName ref="orgName.xml#org0005">Banians</orgName></orgName><!-- Not sure if this is the right tag. AW --> &amp;
+<lb/>came with a lie in their mouths - They were <foreign xml:lang="fa"><term xml:lang="fa" ref="foreign-word.xml#frgn0007"><term type="occupation">lascars</term></term></foreign>
+<lb/>or <term type="occupation">soldiers</term> - they objected to going today so I wait
+<lb/>till tomorrow = orders given today not attended to
+<lb/>so I had to treat them as <orgName>slaves</orgName> and promised
+<lb/>on the word of an <term type="person">Englishman</term> that I would shoot
+<lb/>the ringleader against my orders - <persName ref="people.xml#pers0002">Muhamad</persName>
+<lb/>swore that he would kill them if they contended with
+<lb/>me and they gave in and but for <persName ref="people.xml#pers0091">Mabruki</persName> sick
+<lb/><space extent="6" unit="words"/>we should <unclear cert="medium">go</unclear> <gap extent="1" unit="words" agent="blot"/> <unclear cert="medium">tomorrow</unclear></p><!-- The relationship between this text and the <ab> segment that follows is a bit complex on the page, but I think this way is the best for coding it, by reading this second half life as the end of the previous line above and the first half life as part of a new segment. It also doesn't help that the text here is quite smeared. Might be worth seeing if processing can clarify it. AW-->
+
+	<ab>
+<lb/><placeName><settlement type="town" ref="settlement.xml#sett0015"><choice><abbr>Unyembe</abbr><expan>Unyanyembe</expan></choice></settlement></placeName><!-- How's that for some complex coding? And still not sure if Unyanyembe is a village or town. Need to check what we did before. AW --><!-- Fixed. AW --> 6 six dotis each 
+<lb/>to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> 3 three <space extent="2" unit="chars"/>each of the <foreign xml:lang="nym"><term xml:lang="nym" ref="foreign-word.xml#frgn0011"><term type="occupation">Pagazi</term></term></foreign>
+<lb/>three <foreign xml:lang="nym"><term xml:lang="nym" ref="foreign-word.xml#frgn0011"><term type="occupation"><choice><orig>pagasi</orig><reg>pagazi</reg></choice></term></term></foreign> <!-- Same word, next line, different spelling! I'm normalizing this version. AW --> 4 four <gap extent="1" unit="chars" agent="illegible"/><!-- The c19 proofs suggest this is a dollar $ sign. AW --> each <persName ref="people.xml#pers0040">Ghamees</persName> <persName ref="people.xml#pers0094">Sudi</persName> <persName ref="people.xml#pers0155">Salem</persName>
+<lb/><space extent="2" unit="words"/>from <date when="1871-02-12">12<hi rend="sup underline">th</hi> <space extent="2" unit="chars"/> February</date> <w>onw<space extent="2" unit="chars"/>ards</w>
+	</ab>
+
+	<pb facs="liv_000209_0009" n="LXXXVI"/>
+	<!--<pb facs="NLS10703_086_031r_0_A_color" n="0086"/>-->
+<!-- Raking shows that this page was folded in half, which is different from the preceeding pages. Also, kind of odd that Livingstone didn't write anything in the center of the page, but I don't see any evidence of faded ink in any of the processed images. AW -->
+<lb/><p><fw n="heading_LXXXVI">LXXXVI</fw> <date when="1871-02-13">13<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice> 1871</date> - <space extent="3" unit="chars"/><persName ref="people.xml#pers0091">Mabruki</persName> seized with <add place="marginright" rend="gray" hand="#U"><fw n="31">31</fw></add>
+<lb/><term type="ailment" ref="ailment.xml#ailm0003">choleraic purging</term> detains us today - gave <persName ref="people.xml#pers0002">Muhamad</persName>
+<lb/>5 Pieces <foreign xml:lang="swh"><term xml:lang="swh" ref="foreign-word.xml#frgn0022">amerikano</term></foreign> 5 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0005">Kanike</term></foreign> &amp; 2 <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0002">frasilahs</term></foreign> <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0013">samsam</term></foreign><!-- Need to review if we've previously coded kanike and samsam in any way. AW --><!-- Not that I've seen, but let me know if you'd like me to, and as what, and I will get it done. HB -->
+<lb/>He gives me a note to <persName ref="people.xml#pers0047">Hassani</persName> for 20 thick copper bracelets
+<lb/><date when="1871-02-12">Yesterday</date> <!-- I wonder if we should code words like yesterday and today with the date tag. AW --><!-- Voice from the future: yes, we do now :) HB --> crowds came to eat the meat of the man who
+<lb/>misled <persName ref="people.xml#pers0053">James</persName> to his death spot - We want the man
+<lb/>who set the <term type="tribe">Mbanga</term> men to shoot him - They were much
+<lb/>disappointed when <choice><sic>the</sic><corr>they</corr></choice> <space extent="2" unit="chars"/>found that no one was killed
+<lb/>and are undoubtedly <space extent="3" unit="words"/>cannibals <!-- Why the huge space between words here? Also, it appears that the color of the ink shifts in this line. -->
+<lb/><space dim="vertical" extent="9" unit="lines"/>
+<lb/><date when="1871-02-16"><w>1<gap extent="1" unit="chars" agent="blot"/><supplied>6</supplied></w><hi rend="sup underline">th</hi> Friday</date> - <choice><sic>started</sic><corr>Started</corr></choice> today <persName ref="people.xml#pers0091">Mabruki</persName> making himself
+<lb/>very ill as all who have been at <orgName ref="orgName.xml#org0002"><placeName><settlement type="city" ref="settlement.xml#sett0010">Nassick</settlement></placeName> coddling school</orgName> 
+<lb/>do <space extent="1" unit="words"/><persName ref="people.xml#pers0002">Muhamad</persName> roused him out by telling how I travelled
+<lb/>when much worse - <term type="occupation">chief</term> gave me a <term type="animal">goat</term> &amp; <persName ref="people.xml#pers0002">Muhamad</persName> <w>an<supplied>-</supplied>
+<lb break="no"/><subst><del>go</del><add place="over-text">other</add></subst></w> but in coming through the forest on the neck of the
+<lb/>mountain the men lost three &amp; have to go back <unclear cert="medium">for them</unclear>
+<lb/>and return tomorrow - <persName ref="people.xml#pers0168">Simon</persName> &amp; <persName ref="people.xml#pers0050">Ibram</persName> were <unclear cert="medium">bundled</unclear> <supplied cert="high">on</supplied><!-- This corner of the page was originally folded over when DL wrote on it. In the image it is unfolded, so that some of DL's missing text from here actually appears in a corner of the next page. However, using GIMP I was able to cut the text out of the next page and paste it here. I've included the file in Spacely. It's called "NLS10703_086_031r_0_A_color_corner-restored". Using that trick, I've been able to restore the missing letters at the end of this line and the next. AW --><!-- You're the data master! HB -->
+<lb/><gap extent="1" unit="words" agent="blot"/> <unclear cert="medium">camp</unclear> and imprudently followed me when they <w>ca<gap extent="2" unit="chars" agent="fading"/><supplied cert="high">me</supplied></w>
+<lb/>up I told them to be off or I <space extent="2" unit="chars"/>would certainly shoot them</p>
+
+	<pb facs="liv_000209_0010" n="LXXXVII"/>
+	<!--<pb facs="NLS10703_087_031v_0_A_color" n="0087"/>-->
+<lb/><p rend="no-indent"><fw n="heading_LXXXVII">LXXXVII.</fw> <date when="1871-02-17">17<hi rend="sup underline">th</hi></date> <choice><sic>waiting</sic><corr>Waiting</corr></choice> at a village on the Western slope<!-- See the note at the end of the last page for the odd writing that appears in the corner here. AW -->
+<lb/>for the men to come up with <unclear cert="high">their</unclear> <term type="animal">goats</term> <unclear cert="medium">if</unclear> <space extent="3" unit="chars"/>they have
+<lb/>gone back to the camp - <space extent="2" unit="chars"/><persName ref="people.xml#pers0002">Muhamad</persName> would <unclear cert="low">not</unclear> <unclear cert="medium">allow</unclear><!-- There is text under this line and the next. I have transcribed it in a separate <ab> segment at the end of the main transcription of this page. AW -->
+<lb/>the <orgName>deserters</orgName> to remain among <orgName>his people</orgName> nor would <supplied cert="high">I</supplied>
+<lb/>it would only be to imbue the minds of my <orgName><w>slav<gap extent="1" unit="chars" agent="blot"/><supplied cert="high">e</supplied>s</w></orgName>
+<lb/>with their want of respect for all <term type="people">English</term> and total
+<lb/>disregard of honesty &amp; honour - They came after me
+<lb/>with inimitable effrontery believing that though I said
+<lb/>that I would not take them - they <space extent="3" unit="chars"/>were so valuable I
+<lb/>was only saying what I knew to be false - I warned
+<lb/>them off and they went away among <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> -</p>
+<lb/><p>The <term type="animal">goats</term> were brought by a <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> man who
+<lb/>found one fallen in a pitfall &amp; dead - He ate it &amp; brought
+<lb/>one of his own in lieu of it - I gave him 10 strings of
+<lb/>beads &amp; he presented a <space extent="2" unit="chars"/><term type="animal">fowl</term> in token of good willl -</p>
+<lb/><p><date when="1871-02-18">18<hi rend="sup underline">th</hi></date> <choice><sic>went</sic><corr>Went</corr></choice> on to a village on the <unclear cert="medium"><placeName><geogName type="river">Lulwa</geogName></placeName></unclear> and on the
+<lb/><date when="1871-02-19">19<hi rend="sup underline">th</hi></date> reached <persName ref="people.xml#pers0109">Moenemgoi</persName> who dissuaded me so
+<lb/>earnestly against going to <persName ref="people.xml#pers0106">Moenekurumbo</persName> for the
+<lb/>canoe of <persName ref="people.xml#pers0035">Molembalemba</persName> that I agreed not to venture</p>
+<lb/><p rend="no-indent">20<hi rend="sup">th</hi> <choice><sic>to</sic><corr>To</corr></choice> ford only one canoe now as 2 men of
+<lb/><persName ref="people.xml#pers0065">Katomba</persName> were swept away in the other &amp; drowned
+<lb/>They would not sell the remaining canoe so I go
+<lb/><choice><abbr>N W</abbr><expan>North West</expan></choice> on foot to <persName ref="people.xml#pers0222">Moene Lualaba</persName> where five large
+<lb/>canoes are abundant - grass &amp; mud grievous but
+<lb/>my <space extent="1" unit="words"/>men lift me over <gap extent="1" unit="words" agent="blot"/><supplied cert="high">the</supplied> waters <date when="1871-02-21">21<hi rend="sup">st</hi></date> <placeName><settlement type="village"><choice><sic><persName ref="people.xml#pers0197">Moenendeba</persName>s</sic><corr><persName ref="people.xml#pers0197">Moenendeba</persName>'s</corr></choice></settlement></placeName></p>
+
+<!-- The text in the following segment appears in the middle of the page, under the main text. See note above. AW -->
+<ab rend="center">
+<lb/><persName>M<hi rend="sup">r</hi> <unclear><choice><sic>andso</sic><corr>Andso</corr></choice></unclear></persName><!-- I think this says, "Mr ???s twill be." Might be able to make out with processing? MW--> twill be
+<lb/>When I am gone
+</ab>
+
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000205">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment of 1870 Field Diary (XXI-LXI), 3-15 November 1870</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+				<idno type="LEAP-ID">liv_000205</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno type="shelfmark">MS.10703, ff. 3-23</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 037</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Fragment of 1870 Field Diary (XXI-LXI), 3-15 November 1870</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1870-11-03" to="1870-11-15">3-15 November 1870</date>
+                    <placeName type="compositionPlace">Bambarre</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grk">Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="lea">Lega-Shabunda</language>
+				<language ident="mg">Malagasy</language>
+				<language ident="nym">Nyamwezi</language>
+                <language ident="gd">Scottish Gaelic</language>
+                <language ident="swh">Swahili</language>
+				<language ident="tr">Turkish</language>
+                <language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+            <!-- Integration -->
+			<change when="2016-02-09" who="#AW">Coding corrections</change>
+			<change when="2015-04-03" who="#AW">Coding review</change>
+            <change when="2015-01-29" who="#HB">Quality control and integration</change>
+            <!-- 051 -->
+            <change when="2014-10-22" who="#MW">Proofreading and additional XML encoding</change>
+            <change when="2014-10-04" who="#AK">Proofreading and additional XML encoding</change>
+            <change when="2014-09-14" who="#AW">Initial transcription and XML encoding</change>
+            <!-- 041 -->
+            <change when="2014-07-17" who="#AK">Proofing and XML encoding</change>
+            <change when="2014-07-11" who="#MW">Proofing and XML encoding</change>    
+            <change when="2014-06-21" who="#AW">Initial transcription and XML encoding</change>
+            <!-- 031 -->
+            <change when="2014-09-03" who="#MW">Proofreading</change>
+            <change when="2014-07-08" who="#AW">Proofreading</change>
+            <change when="2014-06-24" who="#AK">Initial transcription and XML encoding</change>
+            <!-- 021 -->
+            <change when="2014-09-11" who="#AW">Proofreading</change>
+            <change when="2014-07-04" who="#AK">Proofreading and XML encoding</change>
+            <change when="2014-06-01" who="#MW">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<gb type="book-pages"/>
+
+    <!-- mw, ak, aw -->
+
+    <pb facs="liv_000205_0001" n="XXI"/>
+	<!--<pb facs="NLS10703_021_003r_0_A_color" n="0021"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXI">XXI</fw> <foreign xml:lang="und">Laba</foreign> means in the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> dialect medicine - <add place="above marginright" rend="gray" hand="#U"><fw n="3">3</fw></add>
+<lb/>a charm - "<foreign xml:lang="und">boganga</foreign>" This would make  <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> mean the
+<lb/>river of medicine or charms - but we do not hear of
+<lb/>its being famed among them<!-- Stain for processing above this word. AW --> as the <placeName><geogName type="river" ref="geogName.xml#geog0009">Ganges</geogName></placeName> is in
+<lb/><placeName><country>India</country></placeName> - and possibly this is not the proper meaning 
+<lb/>of the word - <persName ref="people.xml#pers0002">Muhamad</persName> and others found its banks
+<lb/>very healthy and it yields abundant food both 
+<lb/>in its waters and on its banks. <space extent="3" unit="chars"/>The sacred River <!-- geog: Ganges -->
+<lb/>does not accord with the fact of <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> being
+<lb/>applied to the <placeName><geogName type="river" ref="geogName.xml#geog0039">Lufira</geogName></placeName> when it becomes large
+<lb/>and also to the third <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> or <placeName><geogName type="river" ref="geogName.xml#geog0030"><persName ref="people.xml#pers0194">Young</persName>'s river</geogName></placeName>
+<lb/>still further West dividing <placeName><region ref="region.xml#region0010">Rua</region></placeName> from <placeName><region ref="region.xml#region0011"
+><choice><orig>Lōnda</orig><reg>Lunda</reg></choice></region></placeName> -
+<lb/><persName ref="people.xml#pers0047">Hassani</persName> thought that it meant great because
+<lb/>it seemed to mean flowing greatly or grandly -</p>
+<lb/><p><space extent="3" unit="chars"/><persName ref="people.xml#pers0067">Cazembe</persName> caught all the <orgName>slaves</orgName> that escaped<!-- Stain for processing beside this word. AW -->
+<lb/>from <persName ref="people.xml#pers0002">Muhamad</persName> and placed them in charge of <persName ref="people.xml#pers0037"><w>Funga<supplied>-</supplied>
+<lb break="no"/>-funga</w></persName> so there is little hope for fugitive <orgName>slaves</orgName> so long as
+<lb/><persName ref="people.xml#pers0067">Cazembe</persName> lives =  This act is to the <orgName><choice><sic>Arab's</sic><corr>Arabs</corr></choice></orgName> very good -
+<lb/>He is very sensible and upright besides - <space extent="3" unit="chars"/><fw n="heading_XXI">XXI</fw></p>
+
+    <pb facs="liv_000205_0002" n="XXII"/>
+	<!--<pb facs="NLS10703_022_003v_0_A_color" n="0022"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXII" rend="large">XXII</fw> <date when="1870-11-03">3<hi rend="sup underline">d</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1870</date> <choice><sic>got</sic><corr>Got</corr></choice> a <unclear cert="high"><foreign xml:lang="la">Kondo</foreign> <foreign xml:lang="la"><app><rdg>hondoas</rdg><rdg>hondeas</rdg></app></foreign></unclear> the large 
+<lb/>double billed <term type="animal">Hornbill</term> The <add place="below">^</add> <add place="above"><term type="animal"><foreign xml:lang="la">Buceros</foreign> <foreign xml:lang="la">cristata</foreign></term></add> <term type="animal"><foreign xml:lang="und">Kangomira</foreign></term> of the <placeName><geogName type="river" ref="geogName.xml#geog0050">Shire</geogName></placeName> and <!-- I'm not sure how to mark this.  It looks to me like "Hornbill the Kangomira of the Shire" is one name, i.e., the Hornbill is called Kangomira by the people of the shire. And the Buceros Christata is another bird. I wasn't sure how the nested tages of the name thing would work, so I marked as three separate animals. MW 2014-07-01 -->
+<lb/>the <term type="animal"><foreign xml:lang="und">Sassassa</foreign> of <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName></term> - It is good eating = The
+<lb/>fat of an <term type="animal"><choice><sic>orangetinge</sic><corr>orangutan</corr></choice></term><!--Is this different from an orangutan? Was he trying to spell Orangutan? -AK--> like that of the <term type="animal">zebra</term> I keep
+<lb/>the <unclear cert="medium">hide</unclear> to make a spoon of it - <space extent="2" unit="chars"/>An <term type="occupation">Ambassador</term>
+<lb/>at <placeName><settlement type="city"><choice><orig>Stanboul</orig><reg>Istanbul</reg></choice></settlement></placeName> or <placeName><settlement type="city">Constantinople</settlement></placeName> was <choice><orig>shewn</orig><corr>shown</corr></choice> a
+<lb/><term type="animal">hornbill</term> spoon and asked if it were really the bill
+<lb/>of the <term type="animal">Phoenix</term> - He replied that he did not
+<lb/>know but he had a friend in <placeName><settlement type="city">London</settlement></placeName> who knew
+<lb/>all these sort of things - The <term type="nationality">Turkish</term> <term type="occupation">Ambassador</term>
+<lb/>in <placeName><settlement type="city">London</settlement></placeName> brought the spoon to <persName ref="people.xml#pers0141"><term type="occupation">Professor</term> Owen</persName>
+<lb/>He observed something in the divergence of the
+<lb/>fibres of the horn which he knew before and
+<lb/>went off into the <placeName>Museum of the <choice><sic>college</sic><corr>College</corr></choice> of Surgeons</placeName>
+<lb/>and brought a preserved specimen of this very 
+<lb/>bird - "God is great - God is great" said the <term type="person">Turk</term> 
+<lb/>This is the <term type="animal">Phoenix</term> of which we have heard so often =
+<lb/>I heard the <term type="occupation">professor</term> tell this at a dinner of the
+<lb/><orgName ref="orgName.xml#org0013"><placeName><settlement type="city">London</settlement></placeName> Hunterian Society</orgName> in <date when="1857">1857</date>.</p> <!-- Because the date and month are not given, please make sure I did this correctly. MW  --><!-- Am changing as per new manual standards. HB -->
+
+    <pb facs="liv_000205_0003" n="XXIII"/>
+	<!--<pb facs="NLS10703_023_004r_0_A_color" n="0023"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXIII" rend="large">XXIII</fw> There is no great <term type="occupation">chief</term> in <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> or <term type="tribe" ref="ethnic-group.xml#ethnic0009"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term> <add place="above marginright" rend="gray" hand="#U"><fw n="4">4</fw></add>
+<lb/>all are petty <term type="occupation">headmen</term> each of whom considers himself a
+<lb/><term type="occupation">chief</term> - It is the Ethnic State with no cohesion between
+<lb/>the different portions of the tribe - Murder cannot 
+<lb/>be punished except by a war in which many
+<lb/>fall and the feud is made worse and <w>trans-
+<lb break="no"/>mitted</w> to their descendants. <add place="inspace"><space extent="2" unit="words"/><app><rdg>cor</rdg><rdg cert="low"><choice><sic>cor</sic><corr>copied</corr></choice></rdg></app><space extent="2" unit="words"/>copied</add></p><!-- This may have been added later but is in Livingstone's hand. MW 2014-07-01 -->
+<lb/><p rend="no-indent">+ The <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> is represented by some to be extremely
+<lb/>cunning stalking succesfully men &amp; women
+<lb/>while at their work - kidnapping children -
+<lb/>and running up trees with them - He seems
+<lb/>to be amused by the sight of the young <orgName>native</orgName>
+<lb/>in his arms - but comes down when tempted 
+<lb/>by a bunch of <term type="plant_foodstuff">bananas</term> and as he lifts that
+<lb/>drops the child - The young <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> in that case would
+<lb/>cling closely to the armpit of the older - One man
+<lb/>was cutting out <term type="foodstuff">honey</term> from a tree and naked a 
+<lb/><foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> suddenly appeared &amp; caught by <choice><sic>by</sic><corr/></choice> the privates <!-- Staians worth processing at edge of page? -->
+
+    <pb facs="liv_000205_0004" n="XXIV"/>
+	<!--<pb facs="NLS10703_024_004v_0_A_color" n="0024"/>-->
+<lb/><fw n="heading_XXIV" rend="large">XXIV</fw> then let him go <space extent="1" unit="words"/>Another man was hunting <!-- Stains worth processing at edge of page? AW -->
+<lb/>and missed in his attempt to stab a <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> - <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> seized
+<lb/>the spear &amp; broke it then grappled with the man who
+<lb/>called to his companions "<add place="inline" hand="#U"><metamark/></add><foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> has <hi rend="underline">caught</hi> me" he bit off
+<lb/>the ends of his fingers <add place="inline" hand="#U"><metamark/></add>and escaped <space extent="3" unit="chars"/>unharmed -
+<lb/>both men are now alive at <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign>
+<lb/>is so cunning and has such sharp eyes that no
+<lb/>one can stalk him in front with<add place="below">^</add><add place="above">out</add> being seen by
+<lb/>his small sharp eyes, hence when shot it is
+<lb/>always in the back - When surrounded by men
+<lb/>and nets he is generally speared in the back too
+<lb/>otherwise he is not a very formidable beast -
+<lb/>He is nothing as compared in power of damaging
+<lb/>his assailant to a <term type="animal">leopard</term> or <term type="animal">lion</term> - He is
+<lb/>more like a man unarmed - It does not occur
+<lb/>to him to use his canine teeth which are long
+<lb/>and formidable - <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Sokos</term></term></foreign> come down in the 
+<lb/>forest within a <measure>hundred yards</measure> of our camp &amp; would be  
+<lb/>unknown but for giving tongue <space extent="2" unit="chars"/>Like <term type="animal">fox hounds</term>
+<lb/>This is his nearest approach to <space extent="2" unit="words"/>speech -</p>
+
+    <pb facs="liv_000205_0005" n="XXV"/>
+	<!--<pb facs="NLS10703_025_005r_0_A_color" n="0025"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXV">XXV</fw> A man hoeing having his privates uncovered <add place="above marginright" rend="gray" hand="#U"><fw n="5">5</fw></add>
+<lb/>behind was stalked by a <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> and seized thereby - <space extent="2" unit="chars"/>He
+<lb/>roared out but <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> giggled &amp; grinned &amp; left him
+<lb/>as if he had done it in play - a child caught up
+<lb/>by <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> is often abused by being pinched &amp; scratched 
+<lb/>and let fall <space extent="2" unit="chars"/>He is said sometimes to use a 
+<lb/>spear drawn out of his own body but this is denied
+<lb/>by some - <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> kills the <term type="animal">Leopard</term> occasionally by
+<lb/>seizing both paws &amp; biting them so as to disable
+<lb/>them - <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> goes up a tree groans over his 
+<lb/>wounds &amp; sometimes recovers - while <term type="animal">Leopard</term>
+<lb/>dies - At other times both <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> &amp; <term type="animal">Leopard</term> die -
+<lb/><term type="animal">Lion</term> kills him at once and sometimes tears his
+<lb/>limbs off but does not eat him - <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> eats
+<lb/>no flesh - <add place="inline" hand="#U"><metamark/></add><!-- What I've called metamarks, but are really just horizontal lines, appear on both this page, the previous, and several following. It might be worth processing these. AW -->small <term type="plant_foodstuff">bananas</term> <add place="inline" hand="#U"><metamark/></add>are his dainties but
+<lb/>not <term type="plant_foodstuff">maize</term> - his food consist of <term type="foodstuff">wild <space extent="3" unit="chars"/>fruits</term>
+<lb/>which abound - one <foreign xml:lang="und"><term type="plant">Stafene</term></foreign> or <term type="plant"><term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> <foreign xml:lang="und">mamwa</foreign></term> is
+<lb/>like large sweet sop but indifferent in taste &amp; flesh
+<lb/><foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> brings forth at times twins - never catches women</p><!-- Process the dirt at the bottom of this page? AW -->
+
+    <pb facs="liv_000205_0006" n="XXVI"/>
+	<!--<pb facs="NLS10703_026_005v_0_A_color" n="0026"/>-->
+<!-- Process the dirt at the top of this page? AW -->
+<lb/><p rend="no-indent"><fw n="heading_XXVI">XXVI</fw> A very large <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign> was seen by <choice><sic><persName ref="people.xml#pers0002">Muhamad</persName>s</sic><corr><persName ref="people.xml#pers0002">Muhamad</persName>'s</corr></choice>
+<lb/><term type="occupation">hunter</term> sitting picking his nails - tried to stalk him but
+<lb/>he vanished - <space extent="2" unit="chars"/>Some <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> think that their buried
+<lb/>rise as <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Sokos</term></term></foreign> - one was killed with holes in his ears
+<lb/>as if he had been a man - <space extent="2" unit="chars"/><add place="inline" hand="#U"><metamark/></add> He is very strong - fears guns
+<lb/>but not spears -</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p>The <orgName><term type="faith">Heathen</term> <term type="occupation">Philosophers</term></orgName> <!-- I marked these all in the same way to try to capture Livingstone's intent here to trace a philosophical and religion lineage of great thinkers. MW --><!-- I've standardized this a bit. AW --> were content with mere <!-- Process blot at edge. AW -->
+<lb/>guesses at the future of the Soul - The <orgName>elder <term type="occupation">prophets</term></orgName>
+<lb/>were content with the Divine support in life and in 
+<lb/>death - The <orgName>later <term type="occupation">prophets</term></orgName> advance further as
+<lb/><persName ref="people.xml#pers0051">Isaiah</persName> - <supplied>"</supplied>Thy dead men shall live together with my
+<lb/>dead body shall they arise - awake and sing ye that 
+<lb/>dwell in the dust for thy dew is as the dew of herbs
+<lb/>the earth also shall cast out her dead" <space extent="2" unit="chars"/>This taken
+<lb/>with the sublime spectacle of <placeName>Hades</placeName> in the <bibl>XIV chap</bibl>
+<lb/>seems a forecast of the future but <persName ref="people.xml#pers0055">Jesus</persName> instructed
+<lb/><persName ref="people.xml#pers0093">Mary</persName> and her sister and <persName ref="people.xml#pers0073">Lazarus</persName> &amp; <persName ref="people.xml#pers0092">Martha</persName> without
+<lb/>hesitation spoke of the resurrection at the last
+<lb/>day <space extent="2" unit="chars"/> as a familiar doctrine far in advance of its
+<lb/><space extent="4" unit="words"/><bibl>Mosaic law</bibl> in which <subst><del>she h</del><add place="over-text">she had</add></subst> been reared</p>
+<!-- Process blots at page bottom. AW -->
+
+    <pb facs="liv_000205_0007" n="XXVII"/>
+	<!--<pb facs="NLS10703_027_006r_0_A_color" n="0027"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXVII">XXVII</fw> <add place="above" rend="gray right" hand="#U"><fw n="6">6</fw></add></p><!-- Had to reverse order of <fw> and <add> from the usual so Oxygen would accept. AW --> 
+<lb/><ab rend="indent"><list><item><foreign xml:lang="und">Ikwenu</foreign> <foreign xml:lang="und">alumwa</foreign> = <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> salutation</item>
+<lb/><item><foreign xml:lang="und">a</foreign> <foreign xml:lang="und">ko</foreign> <foreign xml:lang="und">sema</foreign> <foreign xml:lang="und">iamwu</foreign> <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> to men</item>
+<lb/><item><foreign xml:lang="und">Doshanga</foreign> <foreign xml:lang="und">kakaka</foreign> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="2" unit="chars"/> to women</item></list></ab>
+<!-- <lb/> removed to improve transformation. AW --><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><persName ref="people.xml#pers0122">Monyungo</persName> <!-- This looks like it should be the name of a tribe, but I believe Monyungo is the name of a chief, sometimes also spelled Moené Ungo. MW  --><term type="occupation">chief</term> was sent for five years among the
+<lb/><term type="tribe" ref="ethnic-group.xml#ethnic0012"><choice><orig><choice><orig>Watuta</orig><reg>Batuta</reg></choice></orig><reg>Ngoni</reg></choice></term> to learn their language and ways - He sent
+<lb/>his two sons and a daughter to <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> to school
+<lb/>Kills many of <orgName>his people</orgName> says they are so bad if
+<lb/>not killed they would murder strangers - Unruly
+<lb/>ordered some of them to give their huts to <persName ref="people.xml#pers0002">Muhamad</persName>
+<lb/>refusing he put fire to them &amp; they soon called
+<lb/>out <supplied>"</supplied>let them alone we will retire<supplied>"</supplied> - <space extent="2" unit="chars"/>He dresses
+<lb/>like <orgName>Arabs</orgName> <space extent="2" unit="chars"/>has ten loaded guns at his sitting place
+<lb/>four pistols - two swords several spears and
+<lb/>a two bundles of the <term type="tribe" ref="ethnic-group.xml#ethnic0012"><choice><orig>Batuta</orig><reg>Ngoni</reg></choice></term> spears - laments
+<lb/>that his <add place="inline" hand="#U"><metamark/></add> father filed his <add place="inline" hand="#U"><metamark/></add> teeth when <add place="inline" hand="#U"><metamark/></add> he was young</p>
+<lb/><p>The names of his very numerous people is <term type="tribe" ref="ethnic-group.xml#ethnic0005"><choice><orig>Bawungu</orig><reg>Bungu</reg></choice></term>
+<lb/><placeName><region ref="region.xml#region0001">country Wungu</region></placeName> = his other names are <persName ref="people.xml#pers0122">Iranga</persName> - <persName ref="people.xml#pers0122">Mohamu</persName></p>
+
+    <pb facs="liv_000205_0008" n="XXVIII"/>
+	<!--<pb facs="NLS10703_028_006v_0_A_color" n="0028"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXVIII">XXVIII</fw> The <term type="tribe" ref="ethnic-group.xml#ethnic0015"><choice><orig>Basango</orig><reg>Sangu</reg></choice></term> on the other hand consider their <term type="occupation">chief</term>
+<lb/>as a deity and fear to say aught wrong lest he should hear
+<lb/>them = They fear both before him &amp; when out of sight = The
+<lb/>Father of <add place="inline" hand="#U"><metamark/></add><persName ref="people.xml#pers0098">Merere</persName> never drank <term type="foodstuff">pombe</term> or <term type="foodstuff">beer</term> and <!-- There are also some vertical marks here. I now see that these appear to be Livingstone's annotations/marks on the underlying text! It wasn't till I looked at the Sharpie images that I realized this. AW -->
+<lb/>assigned as a reason that a great man who had
+<lb/>charge of people's lives should never become
+<lb/>intoxicated so as to do evil = <term type="plant">Bange</term> he never
+<lb/>smoked but in council smelled at a bunch of it
+<lb/>in order to make <orgName>his people</orgName> believe it <space extent="2" unit="chars"/>had 
+<lb/>great effect on him - - <space extent="2" unit="chars"/><persName ref="people.xml#pers0098">Merere</persName> drinks <term type="foodstuff">pombe</term>
+<lb/>freely but never uses <term type="plant">Bange</term> - He alone kills
+<lb/><term type="animal">sheep</term> - He is a lover of <term type="foodstuff">mutton</term> - and <term type="foodstuff">beef</term>
+<lb/>but neither <term type="animal">goats</term> nor <term type="animal">fowls</term> are touched by him</p>
+<lb/><p rend="no-indent"><date when="1870-11-09">9 <hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1870</date> <choice><sic>sent</sic><corr>Sent</corr></choice> to <placeName><settlement type="village">Lohombo</settlement></placeName> for <term type="plant_foodstuff">dura</term>
+<lb/>and planted some <foreign xml:lang="und"><term type="plant">Nyumbo</term></foreign> - I long excessively
+<lb/>to be away and finish any work by the <placeName><geogName type="river" ref="geogName.xml#geog0032">two <del type="cancelled" cert="medium">Lacustr</del>
+<lb/>Lacustrine rivers</geogName></placeName> <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> of <placeName><geogName type="river" ref="geogName.xml#geog0030"><persName ref="people.xml#pers0194">Young</persName></geogName></placeName> and <placeName><geogName type="river" ref="geogName.xml#geog0034"><persName ref="people.xml#pers0192">Webb</persName></geogName></placeName>
+<lb/>but wait only for <persName ref="people.xml#pers0181">Syde</persName> &amp; <persName ref="people.xml#pers0035">Dugumbe</persName> who may
+<lb/><space extent="2" unit="chars"/>have letters and as <space extent="2" unit="chars"/>I do not intend to return
+
+    <pb facs="liv_000205_0009" n="XXIX"/>
+	<!--<pb facs="NLS10703_029_007r_0_A_color" n="0029"/>-->
+<lb/><fw n="heading_XXIX">XXIX</fw> hither but go through <placeName><region ref="region.xml#region0004">Karagwe</region></placeName> homewards <add place="above marginright" rend="gray"  hand="#U"><fw n="7">7</fw></add>
+<lb/>I should miss them altogether - I groan and am
+<lb/>in bitterness at the delay but <space extent="2" unit="chars"/>thus it is - I pray
+<lb/>for help to do what is right but sorely am I
+<lb/>perplexed and grieved and mourn - <space extent="2" unit="chars"/>I
+<lb/>cannot give up making a complete work of
+<lb/>the exploration</p> <!-- Gotta love his dedication! :) HB -->
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><date when="1870-11-10">10<hi rend="sup underline">th</hi> November 1870</date> a <orgName>party of <choice><sic><persName ref="people.xml#pers0065">Katomba</persName>s</sic><corr><persName ref="people.xml#pers0065">Katomba</persName>'s</corr></choice> men</orgName>
+<lb/>arrived on their way to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> for <term type="occupation">carriers</term> - they
+<lb/>report that a foray was met <choice><abbr>S W</abbr><expan>South West</expan></choice> of <placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName>
+<lb/>to recover four guns which were captured
+<lb/>from <persName ref="people.xml#pers0065">Katomba</persName> and <orgName>his people</orgName> killed when
+<lb/>last here - Three were recovered and ten
+<lb/>of the <orgName><orgName>Arab</orgName> party</orgName> slain <space extent="3" unit="chars"/>The <orgName>people of <placeName><region ref="region.xml#region0013">Manyema</region></placeName></orgName>
+<lb/>fought very fiercly with arrows and not till
+<lb/>many were killed and others mutilated would
+<lb/>they give up the guns - They probably expected
+<lb/>this foray and intended to fight to the last<!-- Black rubbing at bottom of page could be processed. AW -->
+
+    <pb facs="liv_000205_0010" n="XXX"/>
+	<!--<pb facs="NLS10703_030_007v_0_A_color" n="0030"/>-->
+<lb/><!-- There is a lot of blotting at the top of this page that could be processed. MW --><!-- Also see last page. AW --><fw n="heading_XXX" rend="large">XXX -</fw> They had not gone in search of ivory while
+<lb/>this was enacting consequently <orgName><choice><sic><persName ref="people.xml#pers0002">Muhamad</persName>s</sic><corr><persName ref="people.xml#pers0002">Muhamad</persName>'s</corr></choice> men</orgName> 
+<lb/>have got the start of them completely by going along
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> to <placeName><settlement type="village" ref="settlement.xml#sett0005"><persName ref="people.xml#pers0064">Kasongo</persName>'s</settlement></placeName> and then along the western <unclear cert="high">verge</unclear>
+<lb/>of the <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0009"><placeName><region ref="region.xml#region0007"><geogName type="forest" ref="geogName.xml#geog0041">Metamba</geogName></region></placeName></term></foreign> or forest to <placeName><geogName type="river">Loinde</geogName></placeName> or <placeName><geogName type="river">Rindi <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName> -<!-- We have to ensure that Metamba is consistently coded in this way. AW --><!-- Metamba now coded as per our email exchange, and am retro-implementing. HB -->
+<lb/>The last men sent took to fighting instead of <term type="occupation">trading</term>
+<lb/>and returned empty - The experience gained
+<lb/>thus and at the South West will probably
+<lb/>lead them to conclude that the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> are
+<lb/>not to be shot down without reasonable cause
+<lb/>They have sown <term type="plant_foodstuff">rice</term> and <term type="plant_foodstuff">maize</term> at <placeName><settlement type="village"><w>Mamo-
+<lb break="no"/>hela</w></settlement></placeName> but cannot trade now where <space extent="3" unit="chars"/>they got
+<lb/>so much ivory before - <orgName>Free men</orgName> were
+<lb/>killed at <placeName><geogName type="river">Rindi</geogName></placeName> or <placeName><geogName type="river">Loinde</geogName></placeName> and one escaped
+<lb/>The reason of this outbreak by men who have
+<lb/>been so peaceable is not divulged but anyone
+<lb/>seeing the wholesale plunder to which the houses
+<lb/>&amp; gardens were subject can easily guess the <space extent="1" unit="words"/>rest</p>
+                
+    <!-- ak, aw, mw -->
+                
+    <pb facs="liv_000205_0011" n="XXXI"/>
+	<!--<pb facs="NLS10703_031_008r_0_A_color" n="0031"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXXI">XXXI</fw> <placeName><placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName> camp</placeName> had several times been <add place="marginright" rend="gray" hand="#U"><fw n="8">8</fw></add><!-- The Roman numeral at the start of this line appears to be in a different ink. AW -->
+<lb/>set on fire at night by the tribes which suffered assault
+<lb/>but did not effect all that was intended - The <orgName>Arabs</orgName>
+<lb/>say that the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> now understand that
+<lb/>every gunshot does not kill - The <unclear cert="high">next</unclear> thing they
+<lb/>will learn will be to grapple in close quarters
+<lb/>in the forest where their spears will outmatch
+<lb/>the guns in the hands of <orgName>slaves</orgName> - It will follow
+<lb/>too that no one will be able to pass through this 
+<lb/>country - this is the usual course of <orgName><orgName ref="orgName.xml#org0024"><choice><orig>Suaheli</orig><reg>Swahili</reg></choice></orgName>
+<lb/><term type="occupation">trading</term></orgName> - It is murder and plunder and each
+<lb/><orgName>slave</orgName> as he rises in his <choice><sic>owners</sic><corr>owner's</corr></choice> favour is
+<lb/>eager to <choice><orig>shew</orig><reg>show</reg></choice> himself a mighty man of valour
+<lb/>by cold blooded killing of their country men
+<lb/>If they can kill a fellow nigger their pride boils up
+<lb/>The conscience is not enlightened enough to cause <w>un-
+<lb break="no"/>-easiness</w> and <term type="faith">Moslemism</term> gives less than the light of
+<lb/>nature - I am grievously tired of living here.
+
+    <pb facs="liv_000205_0012" n="XXXII"/>
+	<!--<pb facs="NLS10703_032_008v_0_A_color" n="0032"/>-->
+<lb/><fw n="heading_XXXII" rend="large">XXXII</fw> <persName ref="people.xml#pers0002">Muhamad</persName> is as kind as he can be but to
+<lb/>sit idle or give up before I finish my work are
+<lb/>both intolerable I cannot bear either yet am forced
+<lb/>to remain by want of people - Merciful Father Help me </p>
+<lb/><milestone unit="section" rend="line"/><!-- In the ratio image, DL's ink appears to change after this line. The Roman numeral also may or may not be in a different ink. AW -->
+<lb/><p rend="no-indent"><date when="1870-11-11">11<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date> Wrote to <persName ref="people.xml#pers0128">Muhamad bin Saleh</persName> at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName>
+<lb/>for <bibl>letters</bibl> and medicines to be sent in a box of
+<lb/><term type="plant_foodstuff"><placeName><country><choice><sic>china</sic><corr>China</corr></choice></country></placeName> tea</term> which is half empty - If he cannot 
+<lb/>get <term type="occupation">carriers</term> for the long box itself - then he is
+<lb/>to send these the articles of which I stand in
+<lb/>greatest need -</p>
+<lb/><p><space extent="4" unit="chars"/>Friends of a boy captured at <placeName><settlement type="village"><choice><orig>Monanyembe</orig><reg>Monamyembo</reg></choice></settlement></placeName>
+<lb/>brought three <term type="animal">goats</term> to redeem him - He is sick
+<lb/>and emaciated - one <term type="animal">goat</term> was rejected - The boy
+<lb/>cried tears when he saw his grandmother<!-- The discoloration around grandmother appears to be a of different substance than DL's ink. AW -->
+<lb/>and the father too when his <term type="animal">goat</term> was rejected
+<lb/>"<quote corresp="quote.xml#qt0008">So I <!--There is a hole/tear in the page here -AK--> returned and considered all the oppressions
+<lb/>that are done under the Sun - and behold the tears
+<lb/>of <space extent="2" unit="chars"/>such as were <choice><sic><unclear cert="high">were</unclear></sic><corr></corr></choice> oppressed and they had</quote></p><!-- Although not warranted, this </p> is needed otherwise the <quote> on this page continutes to and messess up the next, even though it's coed to end on this page. AW -->
+
+    <pb facs="liv_000205_0013" n="XXXIII"/>
+	<!--<pb facs="NLS10703_033_009r_0_A_color" n="0033"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXXIII" rend="large">XXXIII</fw> <quote corresp="quote.xml#qt0008">no comforter, and on the side of their oppression</quote> <add place="below" rend="gray" hand="#U"><fw n="9">9</fw></add>
+<lb/><quote corresp="quote.xml#qt0008">there was power but they had no comforter</quote>" <bibl><choice><abbr>Ecc</abbr><expan>Ecclesiastes</expan></choice> <choice><orig>IV-I</orig><reg>4:1</reg></choice></bibl>
+<lb/>the relations were told either to bring the <term type="animal">goat</term> or let the
+<lb/>boy die - This was hard hearted - at <placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName>
+<lb/>ten <term type="animal">goats</term> are demanded for a <orgName>captive</orgName> &amp; given too
+<lb/>Here three are demanded "<quote corresp="quote.xml#qt0009">He that is higher than the
+<lb/><choice><orig>"</orig><reg/></choice>highest regardeth, and there be higher than they<choice><orig>"</orig><reg/></choice> <!-- There's an unusually colored disocoloration right below "and" in this line. AW -->
+<lb/><choice><orig>"</orig><reg/></choice>marvel not at the matter</quote>"</p><!-- This citation is from Ecclesiasties 5:8. AW -->
+<lb/><p>I did not write to <placeName><region>the coast</region></placeName> for I suspect that the
+<lb/><foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0008"><term type="occupation">Lewale</term></term></foreign> <persName ref="people.xml#pers0182">Syde bin Salem <choice><orig>Buraschad</orig><reg>Burashid</reg></choice></persName><!--Not sure if this is all one name??? -AK--><!-- Yes, although "Lewale" may be a <roleName>. AW --> destroys <bibl>my
+<lb/>letters</bibl> in order to quash the affair of robbery by his
+<lb/>man <persName ref="people.xml#pers0135"><choice><orig>Saloom</orig><reg>Salem</reg></choice></persName> he kept the other thief <persName ref="people.xml#pers0136">Kamaals</persName> by
+<lb/>him for the same purpose - <persName ref="people.xml#pers0002">Muhamad</persName> writes
+<lb/>to <persName ref="people.xml#pers0128">Bin Saleh</persName> to say that I am here &amp; well - that I
+<lb/>sent a <bibl>large packet of letters</bibl> in <date when="1869-06-01">June/69</date> - with money
+<lb/>received no answer - nor my box from <placeName><settlement type="town" ref="settlement.xml#sett0015"><choice><abbr>Unyembe</abbr><expan>Unyanyembe</expan></choice></settlement></placeName>
+<lb/>and this is to be communicated to the <term type="occupation">consul</term> by a friend
+<lb/>at <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> - If I wrote it would only be to be burned
+<lb/>This is as far as I can see at present</p>
+
+    <pb facs="liv_000205_0014" n="XXXIV"/>
+	<!--<pb facs="NLS10703_034_009v_0_A_color" n="0034"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXXIV" rend="large">XXXIV.</fw> The friend who will communicate with<!-- The Roman numeral appears to be in a different ink. AW -->
+<lb/>the <term type="occupation">consul</term> is <persName ref="people.xml#pers0127">Muhamad bin Abdullah</persName> the <foreign xml:lang="tr"><term xml:lang="tr" ref="foreign-word.xml#frgn0021"><term type="occupation">Wuzeer</term></term></foreign>
+<lb/><persName ref="people.xml#pers0164"><choice><orig>Seyd</orig><reg>Seyed</reg></choice> Suleiman</persName> is the <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0008"><term type="occupation"><choice><orig>lewale</orig><reg>Lewale</reg></choice></term></term></foreign> <choice><sic>of</sic><corr cert="medium">or</corr></choice> <supplied cert="high">the</supplied> <term type="occupation">Governor</term> of <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> <!-- Adrian, Seyd Suleiman has been corrected in previous transcriptions- should we do here as well? HB -->
+<lb/><persName ref="people.xml#pers0177">Suleiman bin Ali</persName> or <hi rend="underline"><persName ref="people.xml#pers0196"><term type="occupation">Sheikh</term> Suleiman</persName></hi> the <term type="occupation">Secretary</term></p>
+<lb/>
+<lb/><p>The <placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName> horde is becoming terrified
+<lb/>Every party going to trade has lost three or four
+<lb/>men and the last foray lost ten and saw
+<lb/>that the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> can fight - They will soon
+<lb/>refuse to go among those whom they have forced
+<lb/>to be enemies - one of the <term type="tribe">Bazula</term> invited a 
+<lb/>man to <supplied cert="high">go</supplied> with him to buy ivory - when well
+<lb/>in among <term type="tribe"><choice><orig>Zulas</orig><reg>Bazula</reg></choice></term> he asked if his gun
+<lb/>killed men and how - He was <choice><orig>shewn</orig><reg>shown</reg></choice> a bale
+<lb/><!--There is a large black mark on the page here (very prominent on the ratio_by_009 image -AK--><!-- Yes, and appears to be a different color than the ink. AW --> and powder and stabbed his <term type="occupation">informant</term> dead 
+<lb/>no one knows the reason of this but the
+<lb/>man probably lost some of his relations else<supplied>-</supplied>
+<lb break="no"/>where - This <space extent="2" unit="chars"/>is called murder without cause</p>
+
+<!--There is a large circular imprint onto this page. It makes me wonder whether Livingstone had set a cup or something onto this page since the one before it is not like this -AK-->
+<!-- Best visible in the raking. AW -->
+<!-- A lot of this page may have been inked over twice. We really need spectral enhancement to tell. AW -->
+    <pb facs="liv_000205_0015" n="XXXV"/>
+	<!--<pb facs="NLS10703_035_010r_0_A_color" n="0035"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXXV">XXXV.</fw> When <persName ref="people.xml#pers0181">Syde</persName> and <persName ref="people.xml#pers0035">Dugumbe</persName> come I hope to <add place="above marginright" rend="gray" hand="#U"><fw n="10">10</fw></add>
+<lb/>get men and a canoe to finish my work among
+<lb/>those who have not been abused by <orgName ref="orgName.xml#org0027">Ujijians</orgName> 
+<lb/>and still retain their natural kindliness of
+<lb/>disposition <space extent="2" unit="chars"/>None of the people are ferocious
+<lb/>without cause, and the sore experience which
+<lb/>they gain from <orgName>slaves</orgName> with guns in their hands
+<lb/>usually ends in sullen hatred of all strangers
+<lb/>the education of the world is a terrible one
+<lb/>and it has come down with relentless rigour
+<lb/>on <placeName><bloc>Africa</bloc></placeName> from the most remote times - What
+<lb/>the <orgName>African</orgName> will become after the <unclear cert="medium"><app><rdg>awfully</rdg><rdg>awefully</rdg></app></unclear> hard
+<lb/>lesson is learned is among the future <w>devel<supplied>-</supplied>
+<lb break="no"/>opments</w> of Providence - When He who is
+<lb/>higher than the highest accomplishes his purposes
+<lb/>This will be a wonderful country and again
+<lb/>something like what it was of old - When <persName ref="people.xml#pers0195">Zerah</persName>
+<lb/>and <persName ref="people.xml#pers0186">Tirhaka</persName> flourished &amp; were great</p>
+
+    <pb facs="liv_000205_0016" n="XXXVI"/>
+	<!--<pb facs="NLS10703_036_010v_0_A_color" n="0036"/>-->
+<lb/><p rend="no-indent">The soil of <placeName><region ref="region.xml#region0013">Manyema</region></placeName> is clayey and <add place="above"><fw n="heading_XXXVI">XXXVI</fw></add> remarkably
+<lb/>fertile - The <term type="plant_foodstuff">maize</term> sown for it rushes up to seed
+<lb/>and everything is in rank profusion if only it
+<lb/>be kept clear of weeds - <orgName><placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> people</orgName>
+<lb/>are indifferent cultivators planting <term type="plant_foodstuff">maize</term>
+<lb/><term type="plant_foodstuff">Bananas</term> &amp; <term type="plant_foodstuff">plantains</term> and <term type="plant_foodstuff">groundnuts</term> only
+<lb/>No <term type="plant_foodstuff">dura</term> a little <term type="plant_foodstuff">cassava</term> - no <term type="plant">perisetum</term>
+<lb/>or <unclear cert="low"><term type="plant">meleda</term></unclear> - <term type="foodstuff">pumpkins</term> <term type="foodstuff">melons</term> <foreign xml:lang="und"><term type="plant">Nyumbo</term></foreign>
+<lb/>though they all flourish in other districts
+<lb/>a few <term type="plant_foodstuff">sweet potatoes</term> appear but elsewhere
+<lb/>all these nature <term type="plant_foodstuff">grains</term> and roots are abundant
+<lb/>and cheap - <space extent="3" unit="chars"/>No one would choose this as a 
+<lb/>residence except for the sake of <persName ref="people.xml#pers0107">Moenekuss</persName> &amp;
+<lb/>The people are honest never steal though
+<lb/>stolen from by our people as <persName ref="people.xml#pers0168">Simon</persName> and
+<lb/><persName ref="people.xml#pers0046">Amoda</persName> of my party and others of <orgName><persName ref="people.xml#pers0002">Muhamad</persName>'s</orgName></p>
+
+    <pb facs="liv_000205_0017" n="XXXVII"/>
+	<!--<pb facs="NLS10703_037_011r_0_B_color" n="0037"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXXVII">XXXVII</fw> <space extent="2" unit="words"/><term type="foodstuff">Oil</term> is very dear while at <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> a <add place="above marginright" rend="gray" hand="#U"><fw n="11">11</fw></add>
+<lb/>gallon may be got for a single string of beads and <term type="plant_foodstuff">beans</term>
+<lb/><term type="plant_foodstuff">ground nuts</term> - <term type="plant_foodstuff">cassava</term> <term type="plant_foodstuff">maize</term> <term type="plant_foodstuff">plantains</term> in rank
+<lb/>profusion The <term type="tribe" ref="ethnic-group.xml#ethnic0009"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term> like the <orgName><placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> people</orgName>
+<lb/>trust chiefly to <term type="plant_foodstuff">Plantains</term> and <term type="plant_foodstuff">ground nuts</term> - 
+<lb/>To play with <term type="animal">parrots</term> is their great amusement -</p>
+<lb/><p rend="no-indent"><date when="1870-11-13">13<hi rend="sup underline">th</hi> <choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice> 1870</date> - The men sent over to <placeName><settlement type="village">Lohombo</settlement></placeName>
+<lb/>about <measure>30 miles</measure> off got two and a half loads of
+<lb/><term type="plant_foodstuff">dura</term> for a small <term type="animal">goat</term> - but the people were
+<lb/>unwilling to trade - "If we encourage <orgName>Arabs</orgName>
+<lb/>to trade they will come and kill us with their guns"
+<lb/>so they said and it is true - The <orgName>slaves</orgName> are overbearing
+<lb/>and when this is resented then slaughter ensues.
+<lb/>Got some <term type="plant_foodstuff">sweet plaintains</term> and a little <term type="foodstuff">oil</term>
+<lb/>which is useful in cooking and with <term type="foodstuff">salt</term> as <term type="foodstuff">butter</term>
+<lb/>on <term type="foodstuff">bread</term> - but all were unwilling to trade -</p>
+<lb/><p><persName ref="people.xml#pers0109"><choice><orig>Monangoi</orig><reg>Moenemgoi</reg></choice></persName> was over near <placeName><settlement type="village">Lohombo</settlement></placeName> <space extent="2" unit="chars"/>and heard of a
+<lb/>large <orgName><term type="occupation">trading</term> party</orgName> coming and not far off, This may be
+<lb/><persName ref="people.xml#pers0181">Syde</persName> &amp; <persName ref="people.xml#pers0035">Dugumbe</persName> but reports are often false</p>
+
+    <pb facs="liv_000205_0018" n="XXXVIII"/>
+	<!--<pb facs="NLS10703_038_011v_0_A_color" n="0038"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XXXVIII">XXXVIII</fw> When <orgName><persName ref="people.xml#pers0065">Katomba</persName>'s men</orgName> were on the late foray
+<lb/>they were completely overpowered &amp; compelled by the <term type="tribe" ref="ethnic-group.xml#ethnic0010"><w>Man<supplied>-</supplied>
+<lb break="no"/>-yema</w></term> to lay down their guns and powder horns on 
+<lb/>pain of being instantly despatched by bowshot - they were
+<lb/>mostly <orgName>slaves</orgName> who could only draw the trigger &amp; make
+<lb/>a noise <space extent="3" unit="chars"/><persName ref="people.xml#pers0065">Katomba</persName> had to rouse and all the <orgName>Arabs</orgName>
+<lb/>who could shoot and when they came they killed many
+<lb/>and gained the lost day - The <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> did not
+<lb/>kill anyone who laid down his gun &amp; powder horn
+<lb/>This is the beginning of an end which was easily
+<lb/><choice><sic>percieved</sic><corr>perceived</corr></choice> when it became not a <term type="occupation">trading</term> but a 
+<lb/>murdering horde of savages and when wherever
+<lb/>invited <space extent="2" unit="chars"/>by old feuds in order to get <term type="animal">goats</term>
+<lb/>and then sell the <orgName>captives</orgName> back for ten <term type="animal">goats</term> each
+<lb/><term type="animal"><foreign xml:lang="la">Buceros</foreign> <foreign xml:lang="la">cristata</foreign></term> - screams &amp; picks at his
+<lb/>tail till he discharges the contents of his bowel Then
+<lb/>leaves him - It is called "play" by the <orgName>natives</orgName> and
+<lb/>in the <orgName ref="orgName.xml#org0024"><choice><orig>Suaheli</orig><reg>Swahili</reg></choice></orgName> "<foreign xml:lang="swh">Utane</foreign>" or
+
+    <pb facs="liv_000205_0019" n="XXXIX"/>
+	<!--<pb facs="NLS10703_039_012r_0_A_color" n="0039"/>-->
+<lb/><fw n="heading_XXXIX"><add place="below">XXXIX</add></fw> <supplied>"</supplied><foreign xml:lang="swh">Msaha</foreign><supplied>"</supplied> - fun or wit. He follows other <term type="animal">birds</term> in the same <add place="above marginright" rend="gray" hand="#U"><fw n="12">12</fw></add>
+<lb/><unclear cert="high">merciless</unclear> way - screaming &amp; pecking to produce purging
+<lb/><term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> call it "<foreign xml:lang="und">Mambambwa</foreign>" - The <term type="animal">Buffalo bird</term>
+<lb/>warns its big friend of danger - calling <hi rend="underline">Chāchāchā</hi>
+<lb/><term type="animal"><choice><sic>Rhinocers</sic><corr>Rhinoceros</corr></choice> <choice><sic>birds</sic><corr>bird</corr></choice></term> calls out Tyetyetye <space extent="3" unit="chars"/>tye for 
+<lb/><supplied>the</supplied> same purpose - <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> call <term type="animal">Buffalo bird</term>
+<lb/>"<foreign xml:lang="und"><term type="animal">Mojela</term></foreign>" <space extent="2" unit="chars"/><app><rdg><orgName ref="orgName.xml#org0024"><choice><orig><choice><sic>Suahel</sic><corr>Suaheli</corr></choice></orig><reg>Swahili</reg></choice></orgName></rdg><rdg><choice><orig><choice><sic>Suahel</sic><corr>Suaheli</corr></choice></orig><reg>Swahili</reg></choice></rdg></app><!-- Not clear if DL is here referencing the language or the people, so I've coded for both. AW --><!-- Adrian, how to code the orig/reg for Suahel properly within the rdg tags? HB --> "<foreign xml:lang="swh"><term type="animal">Chassa</term></foreign>"</p>
+<lb/><p><choice><sic>a</sic><corr>A</corr></choice> <term type="plant">climbing plant</term> is known in <placeName><bloc>Africa</bloc></placeName> as 
+<foreign xml:lang="und"><w><choice><orig>ntulung</orig><reg>Ntulung</reg></choice><choice><sic>-</sic><corr/></choice><add place="above"><choice><sic>-ope</sic><corr>ope</corr></choice></add></w></foreign>
+<lb/>which mixed with <term type="plant_foodstuff">flour of dura</term> kills <term type="animal">mice</term> -
+<lb/>They swarm in our camp and destroy everything
+<lb/>but <foreign xml:lang="und">Ntulungope</foreign> is not near this</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent">The foray above mentioned was undertaken by 
+<lb/><persName ref="people.xml#pers0065">Katomba</persName> for twenty <term type="animal">goats</term> from <persName ref="people.xml#pers0063"><choice><orig>Kassessa</orig><reg>Kasessa</reg></choice></persName>!
+<lb/>Ten men lost for twenty <term type="animal">goats</term> but they will think
+<lb/>twice before they try another foray</p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><choice><sic>one</sic><corr>One</corr></choice> dollar a day is ample for provisions for a 
+<lb/>large family at <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> - What nice flesh of
+<lb/><term type="animal">goats</term> or <term type="animal">ox</term> <supplied>or</supplied> <term type="animal">fowls</term> - <term type="plant_foodstuff">bananas</term> <term type="foodstuff">milk</term> <term type="foodstuff">butter</term> - <term type="plant_foodstuff">sugar</term> <term type="foodstuff">eggs</term>
+<lb/><term type="foodstuff"><unclear cert="medium">bazarre</unclear> mangoes</term> - <term type="plant_foodstuff">potatoes</term></p>
+
+    <pb facs="liv_000205_0020" n="XL"/>
+	<!--<pb facs="NLS10703_040_012v_0_A_color" n="0040"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XL" rend="large">XL.</fw> <term type="foodstuff">Ambergris</term> is boiled in <term type="foodstuff">milk</term> and <term type="plant_foodstuff">sugar</term>
+<lb/>and used by the <orgName>Hindoos</orgName> as a means of increasing
+<lb/>blood in their systems - a small quantity is a dose 
+<lb/><term type="foodstuff">Ambergris</term> is found along the shore of the sea at
+<lb/><placeName><settlement type="town">Barawa</settlement></placeName> or <placeName><settlement type="town">Brava</settlement></placeName> and at <placeName><country><geogName type="island">Madagascar</geogName></country></placeName>
+<lb/>as if the <term type="animal">sperm <choice><sic>whate</sic><corr>whale</corr></choice></term> <foreign xml:lang="und"><term type="animal">Changoi</term></foreign> got rid of it
+<lb/>while alive - <placeName><settlement>Lamos</settlement></placeName> or <placeName><settlement>Amu</settlement></placeName> is wealthy
+<lb/>and well supplied with everything as <term type="foodstuff">grapes</term>
+<lb/><term type="foodstuff">peaches</term> <term type="plant">wheat</term> <term type="animal">cattle</term> <term type="animal">camels</term> &amp;c - The trade
+<lb/>is chiefly with <placeName><country><geogName type="island">Madagascar</geogName></country></placeName> - The houses are
+<lb/>richly furnished with furniture dishes from
+<lb/><placeName><country>India</country></placeName> - <space extent="3" unit="chars"/>At <placeName><settlement type="village">Garaganza</settlement></placeName> there are hundreds of 
+<lb/><orgName><orgName>Arab</orgName> <term type="occupation">traders</term></orgName> <choice><sic>there</sic><corr>There</corr></choice> too all <term type="foodstuff">fruits</term> abound
+<lb/>and the climate is healthy - from its elevation
+<lb/>Why cannot we missionaries imitate these
+<lb/><space extent="1" unit="words"/><orgName>Arabs</orgName> in living on heights?</p>
+
+            </div>
+			<div>
+
+    <!-- aw, mw, ak -->
+
+    <pb facs="liv_000205_0021" n="XLI"/>
+	<!--<pb facs="NLS10703_041_013r_0_A_color" n="0041"/>-->
+<!-- I know that the way I've laid out the opening of this letter below isn't exactly right, but considering me exploiting the minutest of ambiguities in Livingstone's spacing and layout in this instance. AW -->
+<lb/><p rend="no-indent"><fw n="heading_XLI"><hi rend="large">XLI</hi> Copy</fw></p> 
+<lb/><!--<opener><dateline>--><p rend="center"><placeName><region ref="region.xml#region0013"><term type="tribe" ref="ethnic-group.xml#ethnic0010"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> country</region></placeName> <measure>180 miles say <!-- Adrian, schema is saying opener tag not allowed here, but not sure why?? HB --><!-- It needed a div. AW --><add place="above marginright" rend="gray" hand="#U"><fw n="13">13</fw></add>
+<lb/><space extent="3" unit="words"/>West of <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName></measure> <date when="1870-11-15">15 <choice><abbr>Nov</abbr><expan>November</expan></choice>
+<lb/><space extent="7" unit="words"/>1870</date><!--</dateline>--></p>
+<lb/><p rend="no-indent">The <space extent="1" unit="chars"/><persName ref="people.xml#pers0175">Right Honourable Lord Stanley</persName></p><!-- Should "Right Honourable" be part of <persName>? I vote yes, especially if "Lord" is included. But I'll leave it up to you to make the final call in the next phase. MW. --><!-- Yes, as per new manual these titles will be included within persName tag (though not tagged as anything). HB -->
+<lb/><!--<salute rend="indent">--><p>My Lord<!--</salute></opener>--><!-- If we decide to continue with <roleName> this seems like a good place to use it. MW --> As soon as I recovered <w>suffi<supplied>-</supplied>
+<lb break="no"/>-ciently</w> to be able to march from <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> I went
+<lb/>up <placeName><geogName type="lake" ref="geogName.xml#geog0025">Tanganyika</geogName></placeName> <measure>about 60 miles</measure> and thence
+<lb/>struck away <choice><abbr>N W</abbr><expan>North West</expan></choice> into the <placeName><region ref="region.xml#region0013">country of the <term type="tribe" ref="ethnic-group.xml#ethnic0010"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term>
+<lb/>or <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term></region></placeName> - the reputed <orgName>cannibals</orgName><!-- I think we're using <orgName> in for this. Need to double-check. AW --> - My object
+<lb/>was to follow down the <placeName><geogName type="drainage" ref="geogName.xml#geog0003">central line of drainage
+<lb/>of the great <placeName><geogName type="valley" ref="geogName.xml#geog0046"><placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> valley</geogName></placeName></geogName></placeName><!-- See manual #15 to understand why I've marked this geog entity in this way. AW --> which I had seen passing
+<lb/>through the great <placeName><geogName type="lake" ref="geogName.xml#geog0020">Lake Bangweolo</geogName></placeName> and changing 
+<lb/>its name from <placeName><geogName type="river" ref="geogName.xml#geog0037">Chambeze</geogName></placeName> to <placeName><geogName type="river" ref="geogName.xml#geog0037">Luapula</geogName></placeName> - then on
+<lb/>passing through <placeName><geogName type="lake" ref="geogName.xml#geog0024">Lake Moero</geogName></placeName> assuming the name
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> and becoming itself a great <placeName><geogName type="lake" ref="geogName.xml#geog0022"><choice><orig>Riverein</orig><reg>Riverine</reg></choice>
+<lb/>Lake</geogName></placeName> at first <measure><measure>eight</measure> to <measure>ten miles broad</measure></measure> with several
+<lb/>inhabited islands<!-- See manual #15; these don't get encoded because they're not unique or specific. AW --> in it, and then holding a <measure>breadth
+<lb/>of from <measure>two</measure> to <measure>six miles</measure></measure> as far as it is <space extent="2" unit="chars"/>known
+<lb/>I soon found myself in the large bend which this
+<lb/>great <placeName><geogName type="river" ref="geogName.xml#geog0033">Lacustrine River</geogName></placeName> makes by going West and
+<!-- Is the discouloration in the lower left-hand corner of this page anything special and worth processing? AW -->
+<!-- There are holes in the lower right middle of this image that are only visible in the raking version. It might be worth combing the color image with the raking image to emphasize the placement of these holes. Same for next page. AW -->
+
+    <pb facs="liv_000205_0022" n="XLII"/>
+	<!--<pb facs="NLS10703_042_013v_0_A_color" n="0042"/>-->
+<!-- Is the discouloration in the upper left-hand corner of this page anything special and worth processing? AW -->
+<!-- Starting on this page and going for the next few, DL writes over some smeared words in a red ink. I've makred whatever instances I saw. AW --> 
+<lb/><fw n="heading_XLII" rend="large">XLII</fw> then turning away to the North - <measure>Two hours</measure> were the 
+<lb/>utmost I could accomplish in a day, but by <w>persever<supplied>-</supplied>
+<lb break="no"/>ing</w> I gained strength and came up with the <orgName><term type="occupation">trading</term> party
+<lb/>of <persName ref="people.xml#pers0002">Muhamad Bogharib</persName></orgName> who by <term type="medicament"><orgName>native</orgName> medicines</term> and
+<lb/>carrying me saved my life in my late severe illness<!-- Undecided as to whether to use <term type="ailment"> on the foregoing, as I'm not sure if it's specific enough. AW -->
+<lb/>in <placeName><settlement type="village">Marungu</settlement></placeName> <space extent="1" unit="words"/>Two days before we arrived at
+<lb/><placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> the residence of the most <!-- There is a character that precedes this word, but I believe that that's actually bleed through text from the other side. AW --> influential
+<lb/><term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> <term type="occupation">chief</term> called <persName ref="people.xml#pers0107">Moenekuss</persName> we met a
+<lb/>band of <orgName ref="orgName.xml#org0027">Ujijian <term type="occupation">traders</term></orgName> carrying <!-- Smear or deleted word here? AW --><space extent="1" unit="words"/>18000 <choice><abbr>lbs</abbr><expan>pounds</expan></choice>
+<lb/>weight of ivory bought in this new field for a
+<lb/>mere trifle in <w>t<add place="over-text" rend="red">h</add>hick</w> copper bracelets and beads
+<lb/>The <term type="occupation">traders</term> had been obliged to employ their <orgName>slaves</orgName>
+<lb/>to collect the ivory and <orgName>slaves</orgName> with guns in their
+<lb/>hands are often no better than Demons - We
+<lb/>heard but one side of the story - The <orgName>slave</orgName> version
+<lb/>and such as would have appeared in the Newspaper
+<lb/>if they <space extent="2" unit="chars"/>had one - "The <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> were bad
+<lb/>- they were always in the wrong - wanted to eat the
+<lb/><orgName>slaves</orgName> and always gave them just occasion to capture
+<lb/>people <space extent="2" unit="words"/><term type="animal">goats</term> <term type="animal">sheep</term> <term type="animal">fowls</term> and <term type="plant_foodstuff">grain</term><supplied>"</supplied> -</p> <!-- Depending on what we do with the plant / foodstuff tag, "grain" should be tagged here. MW -->
+
+    <pb facs="liv_000205_0023" n="XLIII"/>
+	<!--<pb facs="NLS10703_043_014r_0_A_color" n="0043"/>-->
+<lb/><p rend="no-indent"><fw n="heading_XLIII">XLIII</fw> The masters did not quite approve of this but the <add place="above marginright" rend="gray" hand="#U"><fw n="14">14</fw></add>
+<lb/>deeds were done and then masters and men joined in
+<lb/>one chorus "The <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> are bad bad bad very
+<lb/>bad<add place="inline" rend="red">"</add> - In going West of <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> I followed the
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0040">Luamo</geogName></placeName> a river of from <measure>100 to 250 yards broad</measure>
+<lb/>which rises in the mountains opposite <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> and
+<lb/>flows across the great bend when near its
+<lb/>confluence <!-- If we tag "great bend" shouldn't we tag "confluence"? I'll leave it up to you, Adrian. MW --><!-- As we are no longer using geogFeat as per new manual, I have taken out tags. HB --> I was among people who had been
+<lb/>maltreated by the <orgName>slaves</orgName> <space extent="2" unit="chars"/>and they naturally looked
+<lb/>on one as if of the same tribe with their persecutors
+<lb/><orgName>Africans</orgName> are not unreasonable though <choice><sic>though</sic><corr/></choice>
+<lb/>smarting under wrongs if you can fairly make
+<lb/>them understand your claim to innocence and
+<lb/>do not appear as having your "back up" The
+<lb/>women here were particularly outspoken in asserting
+<lb/>our identity with the <w>cr<add place="over-text" rend="red">ue</add>uel</w> strangers - on calling to
+<lb/>one vociferous lady who gave me the <term type="occupation">head trader</term><choice><sic>s</sic><corr>'s</corr></choice> <!-- I wondered if this should also be marked "occupation." MW --><!-- Yes, see how I have done. HB -->
+<lb/>name, just to look if he and I were of the same
+<lb/><unclear cert="high">colour</unclear> she refused with a bitter little laugh "Then you
+<lb/>must be his brother" The worst the men did
+<!-- There's blotting all through the lower left-hand side of this image. It looks like water interacting with the ink, but is still worth further processing, I think. AW -->
+
+    <pb facs="liv_000205_0024" n="XLIV"/>
+	<!--<pb facs="NLS10703_044_014v_0_A_color" n="0044"/>-->
+<!-- Lots of discoloration and blotting on the left-hand side of this page. Should be processed. Also note the discoloration, which seems to be of a different color in the upper right-hand corner. And the indentation, middle upper right, which is becomig more prominent. AW -->
+<lb/><choice><sic>to</sic><corr/></choice> <fw n="heading_XLIV" rend="large">XLIV</fw> to us was to turn out in force armed
+<lb/>with their large spears &amp; wooden shields and <choice><orig>shew</orig><reg>show</reg></choice>
+<lb/>us out of their districts - Glad that no collision
+<lb/>took place we <w><add place="over-text" rend="red">returned</add>returned</w><!-- Process the discolored stain just below this word. AW --> to <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> and then <!-- Adrian, should the add place inline rend red words also be encapsulated with a w tag to show not repeat word but all one word? HB --><!-- Should be over-text and, yes, using <w> sounds good. Have implemented. AW -->
+<lb/>with our <w><add place="over-text" rend="red">friend</add>friend</w> <persName ref="people.xml#pers0002">Muhamad</persName> struck away due
+<lb/>North <space extent="3" unit="chars"/>he to buy ivory and I to reach
+<lb/>another part of the <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> and buy a canoe -</p>
+<lb/><p>The country is extremely beautiful but difficult
+<lb/>to travel over <space extent="1" unit="words"/>The mountains of light grey
+<lb/>granite stand like islands in <unclear cert="medium"><app><rdg>Now</rdg><rdg>New</rdg></app></unclear> Red
+<lb/>sandstone and mountain and valley are all
+<lb/>clad in a mantle of different shades of green
+<lb/>The <space extent="2" unit="chars"/>vegetation is indescribably rank <space extent="1" unit="words"/>through
+<lb/>the grass if grass it can be called which is over
+<lb/>half an inch in diameter in the stalk and from
+<lb/>ten to twelve feet high nothing but <term type="animal">elephants</term> <!--Should the measurements here and in the line below be marked? -AK--><!-- No need to tag these measurements, as we are only tagging for distances now. HB -->
+<lb/>can walk The leaves of this <foreign xml:lang="grk"><term type="animal">Megatherium</term></foreign>
+<lb/>grass are armed with minute spikes which as
+<lb/>we worm our way along <choice><sic><term type="animal">elephant</term>s</sic><corr><term type="animal">elephant</term>'s</corr></choice><!-- Not ideal to do the foregoing as I have, but it doesn't validate otherwise. AW --><!-- Adrian, see how I have redone. HB --><!-- Changed again. AW --> walks rub
+<lb/>disagreably <space extent="2" unit="words"/>on the side of the face <unclear cert="high">where</unclear> <space extent="2" unit="chars"/>the
+
+    <pb facs="liv_000205_0025" n="XLV"/>
+	<!--<pb facs="NLS10703_045_015r_0_A_color" n="0045"/>-->
+<!-- Discoloration at left-center of page is becoming very pronounced. Note that there are two kinds of discoloration. Along the edges of the spot the ink runs a darker shade of brown and is blotting while at the center, although there is blotting, the paper has also become discolored to a darker tan. Also, the raking shows the same trauma in the lower right-hand corner as on previous pages, as well as trauma not previously seen in the upper left-hand corner. Finally, there are some stains and discolorartion along the edges of the page. AW -->
+<lb/><fw n="heading_XLV">XLV</fw> <choice><sic>the</sic><corr/></choice> gun is <space extent="1" unit="words"/>held and the hand is made sore by <add place="above marginright" rend="gray" hand="#U"><fw n="15">15</fw></add>
+<lb/>fending it off <del type="strikethrough">for hours</del> the other side for hours - The <seg type="weather">Rains
+<lb/>were fairly set in by <date when="1870-11">November</date> and in the morning
+<lb/>or after a shower <unclear cert="medium">these</unclear><!-- Process foregoing. AW --> leaves were loaded with
+<lb/>moisture</seg> which wet us <w><add place="over-text" rend="red">to</add>to</w> <w><add place="over-text" rend="red">the</add>the</w> bone - The valleys are
+<lb/>deeply undulating and in each innumerable
+<lb/>dells have to be crossed There may be only a
+<lb/>thread of <space extent="2" unit="chars"/>water on the bottom but the mud mire
+<lb/>or <term type="nationality">Scotticé</term> "<foreign xml:lang="gd"><term xml:lang="gd" ref="foreign-word.xml#frgn0003">glaur</term></foreign>" is grievous - <measure>thirty or
+<lb/>forty yards</measure> <space extent="2" unit="chars"/>of the path on each side of the
+<lb/>stream are worked by the feet of passengers
+<lb/>into an adhesive <w><add place="over-text" rend="red">compound</add>compound</w> - By placing
+<lb/>a foot on each side of the narrow footway one
+<lb/>may waddle a little way along but the rank
+<lb/>crop of grass <unclear cert="medium">gingers</unclear> &amp; bushes <!-- Mark any of these as plants? MW --><!-- I would say no as they are a bit too general. HB --> cannot spare
+<lb/>the few inches required for the side of the foot and
+<lb/><w><add place="over-text" rend="red">down</add>down</w> he comes into the mire - The path often runs
+<lb/>along the <w><add place="over-text" rend="red">bed</add>bed</w> of the rivulet for <measure>60 or more yards</measure>
+
+    <pb facs="liv_000205_0026" n="XLVI"/>
+	<!--<pb facs="NLS10703_046_015v_0_A_color" n="0046"/>-->
+<!-- See discoloration and trauma comments for the previous page. All apply here, more or less. AW -->
+<lb/><fw n="heading_XLVI">XLVI</fw> as if he who first cut it out went that distance
+<lb/><w>seek<add place="over-text" rend="red">ing</add>ing</w> a part of the <w><add place="over-text" rend="red">forest</add>forest</w> less dense than the rest
+<lb/>for his axe <space extent="1" unit="words"/>In other cases the "<term type="plant"><foreign xml:lang="und">Muale</foreign> palm</term>"
+<lb/>from which <unclear cert="high">here</unclear> as in <placeName><country><geogName type="island">Madagascar</geogName></country></placeName> grass cloth is
+<lb/>woven and called by the same name "<foreign xml:lang="mg"><term xml:lang="mg" ref="foreign-word.xml#frgn0006">Lamba</term></foreign>"
+<lb/>has taken possession of a valley - the leaf stalks<!-- Keith's additional processed images really start to help with these lines, whereas up to here I was still using the old processed images. AW -->
+<lb/>as thick <unclear cert="high">as</unclear> a <w><add place="over-text" rend="red">s</add>strong</w> <choice><sic>mans</sic><corr>man's</corr></choice> arm fall off
+<lb/>and block up all passage save by a path
+<lb/>made and mixed up by the feet of <term type="animal">elephants</term>
+<lb/>and <term type="animal">buffaloes</term> The <unclear cert="high">slough</unclear> therein is <choice><sic>groan</sic><corr>grown</corr></choice>
+<lb/><unclear cert="medium">compelling</unclear> and deep <space extent="2" unit="chars"/>Every now &amp; then the
+<lb/><term type="occupation">traders</term> with <unclear cert="high">rueful <w><add place="over-text" rend="red">faces</add>faces</w></unclear><!-- Again, the addition is in a different ink. AW --> stand panting
+<lb/>The sweat trickles down my face, and I
+<lb/>suppose I look as <unclear cert="high">grim</unclear> as they though I
+<lb/>express a hope <unclear cert="high">that</unclear> good prices will reward
+<lb/>them for <choice><sic><unclear cert="medium">as</unclear></sic><corr>on</corr></choice> <placeName><region>the coast</region></placeName> <unclear cert="high">for</unclear> ivory obtained with
+<lb/>so much toil - In some cases the subsoil
+<lb/>has given way beneath the <choice><sic><term type="animal">elephant</term>s</sic><corr><app><rdg><term type="animal">elephant</term>'s</rdg><rdg><term type="animal">elephants</term>'</rdg></app></corr></choice> enormous
+<lb/>weight - The hole is filled with mud and one
+<lb/>taking it <space extent="3" unit="words"/>all to be about <measure>calf <space extent="1" unit="words"/>deep</measure>
+
+    <pb facs="liv_000205_0027" n="XLVII"/>
+	<!--<pb facs="NLS10703_047_016r_0_A_color" n="0047"/>-->
+<!-- See comments for previous pages. Really relying on all the processed images we have to read some of this page. Thanks to those, I've had a pretty good success record, methinks. But only proofing will tell! AW --> <!-- Your transcription looks great to me. MW -->
+<lb/><fw n="heading_XLVII">XLVII</fw> steps in to the top of the thigh and <w><unclear cert="high"><add place="over-text" rend="red">flaps</add>flaps</unclear></w> on to a <add place="above marginright" rend="gray" hand="#U"><fw n="16">16</fw></add>
+<lb/>seat, soft enough, but not luxurious - a merry laugh
+<lb/>relaxes the facial muscles and I conjecture that this
+<lb/>gruesome fun is all I shall ever get for the explorations
+<lb/>Some of the <w><add place="over-text" rend="red">numerous</add>numerous</w> <w><add place="over-text" rend="red">rivers</add>rivers</w> which in this
+<lb/>region flow into <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> are covered with
+<lb/>living vegetable bridges - a species of dark
+<lb/><w><add place="over-text" rend="red">glossy</add>glossy</w> grass<!-- Mark as plant? MW --> with its roots and leaves is
+<lb/>the chief agent in felting into a <unclear cert="medium">mat</unclear> that covers
+<lb/>the <w><add place="over-text" rend="red">whole</add>whole</w> stream <space extent="1" unit="words"/> <unclear cert="medium">When</unclear> stepped upon it yields
+<lb/>twelve or fifteen inches and that amount of
+<lb/>water <w><add place="over-text" rend="red">rises</add>rises</w> on the leg - At every step the foot
+<lb/>has to be lifted high enough to place it on the
+<lb/><unclear cert="medium">unbent</unclear> mass in front and this fatigues
+<lb/>like walking on deep snow - Here &amp; there <!-- From here to the end of the page would make a good tweet, but I tried and it's a bit too long! AW --> <!-- I tweeted a shortened version. Thanks! MW -->
+<lb/>holes appear which we could not sound with
+<lb/>a stick six feet long - They gave the impression
+<lb/>that any where one might plump through
+<lb/>and finish the chapter - Where the water is
+
+    <pb facs="liv_000205_0028" n="XLVIII"/>
+	<!--<pb facs="NLS10703_048_016v_0_A_color" n="0048"/>-->
+<!-- Blackish discoloration at the top left of the page; worth processing, as it's similar to other pages in more or less the same place. AW -->
+<lb/><fw n="heading_XLVIII"><w>X<subst><del>V</del><add place="inline">L</add></subst>VIII</w></fw> <space extent="2" unit="chars"/><choice><sic>is</sic><corr/></choice> <w><add place="over-text" rend="red">sha</add>shallow</w> The <term type="plant">Lotus</term> or <term type="plant">sacred <choice><sic>Lilly</sic><corr>Lily</corr></choice></term>
+<lb/>sends it roots to the bottom and spreads it broad
+<lb/>leaves over the floating bridge so as to make believe
+<lb/>that the mat is its <unclear cert="low">crown</unclear> <unclear cert="high">but</unclear> the grass referred to
+<lb/>is the real supporting agent -</p>
+<lb/><p>Between each district of <placeName><region ref="region.xml#region0013">Manyema</region></placeName> broad
+<lb/>belts of the primeval forest still stand - Into
+<lb/>these the sun though vertical cannot <w>pene-
+<lb break="no"/>trate</w> except by sending down <add place="below">^</add> <add place="above">at <space extent="1" unit="words"/>Midday</add> thin pencils
+<lb/>of rays into the gloom - The rain water
+<lb/>stands for <unclear cert="high">months</unclear> in stagnant pools
+<lb/>made by <choice><sic><term type="animal">elephant</term>s</sic><corr><term type="animal">elephants</term>'</corr></choice> feet and the dead leaves
+<lb/>decay on the damp soil and make the
+<lb/>water <unclear cert="medium">of the numerous</unclear> rills &amp; rivulets of the 
+<lb/>colour of strong <term type="plant_foodstuff">tea</term> - <space extent="2" unit="chars"/>The <term type="plant">climbing plants</term>
+<lb/>from the size of <w><add place="over-text" rend="red">whip</add>whipcord</w> to that of a man
+<lb/>of <choice><sic>wars</sic><corr>war's</corr></choice> <w><unclear cert="medium">haw<add place="over-text" rend="red">sers</add>sers</unclear></w> are so many the <unclear cert="high">ancient</unclear>
+<lb/>path is the only passage <space extent="1" unit="words"/>When one of the giant
+<lb/>trees falls across the <unclear cert="high">road</unclear> it <w><add place="over-text" rend="red">makes</add>makes</w> a <w><add place="over-text" rend="red">wall</add>wall</w>
+<!-- Livingstone is clearly retracing words in a different ink(?) on this page and going back to at least 0042, as I've maked with the rend="red." I've tried to mark any instances that I saw, but this is very subtle. This is something that processing could really bring out. Already the pseduo_0505-0780s start to highlight this. AW -->
+
+    <pb facs="liv_000205_0029" n="XLIX"/>
+	<!--<pb facs="NLS10703_049_017r_0_A_color" n="0049"/>-->
+<!-- Outline of circular stain very visible on this page, especially when viewed at a distance (i.e., not close up). In raking image, page warping and trauma at right becoming more pronounced, while the trauma in upper left holds steady; also some at the top of the page. AW -->
+<lb/><fw n="heading_XLIX">XLIX</fw> breast high to be climbed over - and the mass <add place="below marginright" rend="gray" hand="#U"><fw n="17">17</fw></add>
+<lb/>of tangled <term type="plant">climbers</term> brought down makes cutting a
+<lb/>path round it a work of time which travellers never
+<lb/>undertake <space extent="3" unit="chars"/>The shelter from the sun of the Forest
+<lb/>makes it pleasant but the roots of trees high out
+<lb/>of the soil across <space extent="2" unit="chars"/>the path keep the eyes constantly
+<lb/>looking down and a good shot gun does no
+<lb/>harm to <term type="animal">parrots</term> or <term type="animal">quince fowls</term> on their
+<lb/>tops - I have heard <term type="animal"><orig>gorillahs</orig><reg>gorillas</reg></term> here called <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Sokos</term></term></foreign>
+<lb/><unclear cert="high">prowling</unclear> <unclear cert="medium">within</unclear> <measure>fifty yards</measure> without getting a
+<lb/>glimpse of them - <unclear cert="medium">Their</unclear> call to each other <w>resem<supplied>-</supplied>
+<lb break="no"/>bles</w> that of a <term type="animal">Tom cat</term> not so loud or far
+<lb/>reaching as that of the <term type="animal">peacocks</term> - When in flight
+<lb/>they give tongue not unlike <term type="animal">fox hounds</term> - His
+<lb/>nest is a poor contrivance resembling that
+<lb/>of our <term type="animal">cushat dove</term> Here he sits in <seg type="weather">pelting rain</seg>
+<lb/>with his hands on his head - The <orgName>natives</orgName> call it
+<lb/>his house and laugh at him for being such a
+<lb/>fool as after building it not to go beneath it
+<lb/>for shelter - Bad water<!-- Unusual reddish dicoloration in the area of this word. AW --> and frequent wettings
+
+    <pb facs="liv_000205_0030" n="L"/>
+	<!--<pb facs="NLS10703_050_017v_0_A_color" n="0050"/>-->
+<!-- Note: general dicoloration of page due to water seepage, but I don't note anything unusual that hasn't been seen on other pages. The raking does show more trauma in various places than visible on the other pages. AW -->
+<lb/><fw n="heading_L" rend="large">L.</fw> told on us all by <term type="ailment" ref="ailment.xml#ailm0006">choleraic symptoms</term> &amp; <term type="ailment">loss
+<lb/>of flesh</term> -  Meanwhile the news of cheap ivory
+<lb/>caused a sort <placeName><settlement type="state">California</settlement>n</placeName> gold fever at <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName>
+<lb/>It prevented me from getting any <term type="occupation">carriers</term> save
+<lb/>the worthless liberated <orgName>slaves</orgName> who by thieving
+<lb/>lying and <subst><del>fornication</del><add place="above" rend="red">cowardice</add></subst><!-- Interesting DL self-censoring. AW --> have been a perpetual
+<lb/>annoyance during all this Journey - <unclear cert="high">The</unclear>
+<lb/><term type="occupation">traders</term> eager to secure all the <foreign xml:lang="nym"><term xml:lang="nym" ref="foreign-word.xml#frgn0011"><term type="occupation">Pagazi</term></term></foreign> or
+<lb/><term type="occupation">carriers</term> spread the report that I would go
+<lb/>away to my own country and leave them as
+<lb/><persName ref="people.xml#pers0170">Speke</persName> did his as <placeName><settlement type="city">Suez</settlement></placeName> - We were now
+<lb/>overtaken by a horde <add place="below">^</add> <add place="above">from <space extent="3" unit="chars"/><placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName></add> numbering 600 muskets
+<lb/>all eager for ivory The <term type="animal">elephant</term> tusks had
+<lb/>been left to rot with the other bones in the
+<lb/>interminable forests where the animals were
+<lb/>killed - The <orgName>natives</orgName> knew where they had been
+<lb/>left and if treated civilly readily brought the
+<lb/><unclear cert="high">precious</unclear> teeth <unclear cert="high">many</unclear> half rotten or gnawed
+
+    <!-- aw, ak, mw -->
+
+          <pb facs="liv_000205_0031" n="LI"/>
+	<!--<pb facs="NLS10703_051_018r_0_A_color" n="0051"/>-->
+<lb/><fw n="heading_LI" rend="large">LI</fw> by <del type="strikethrough">the teeth of</del> a <unclear cert="medium"><term type="animal">rodent</term></unclear> animal to sharpen his <add place="above marginright" rend="gray" hand="#U"><fw n="18">18</fw></add>
+<lb/>teeth as <term type="animal"><placeName><settlement type="city">London</settlement></placeName> rats</term> do on leaden pipes - I had already
+<lb/>in this Journey two severe lessons that travelling
+<lb/>in an unhealthy climate in the <seg type="weather">rainy season</seg>
+<lb/>was killing work and besides being unwilling
+<lb/>to bear company with the new comers I feared
+<lb/>that any present weakness <add place="below">^</add> <add place="above">by further exposure</add> might result in
+<lb/>something worse went back seven days
+<lb/>and on the <date when="1870-02-07">7<hi rend="sup">th</hi> February last</date> went into winter <!-- If this is an 1870 entry and they talk about February past, does that mean of the contemporary year or the previous one? (so should it be 1869) HB --><!-- No, 1870 is correct. It's Nov 1870 when he says this. AW -->
+<lb/>quarters at a camp <unclear cert="medium">formed</unclear> by the heads of
+<lb/>men as civil and kind as I could wish - a
+<lb/><bibl>letter obtained from the <persName ref="people.xml#pers0158"><term type="occupation">Sultan</term> of <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName></persName></bibl><!-- My best guess at coding this name appropriately. AW --><!-- Perfecto! HB -->
+<lb/>through the kind offices of <persName ref="people.xml#pers0036">Sir Bartle Frere</persName>
+<lb/>has been of immense service to me with most
+<lb/>of his subjects - I had no medicine - some though
+<lb/>sent for twice had been unaccountably detained
+<lb/>at <placeName><settlement type="town" ref="settlement.xml#sett0015"><choice><abbr>Unyembe</abbr><expan>Unyanyembe</expan></choice></settlement></placeName> by the <orgName>Arab</orgName> <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0008"><term type="occupation">Lewale</term></term></foreign> or <term type="occupation">governor</term></p>
+<lb/><p>Two <term type="nationality">English</term> guns in the box are surely not
+<space extent="1" unit="chars"/>
+
+    <pb facs="liv_000205_0032" n="LII"/>
+	<!--<pb facs="NLS10703_052_018v_0_A_color" n="0052"/>-->
+<lb/><fw n="heading_LII">LII.</fw> not too much for his virtue <!-- Process stain above this word. AW --> - Rest - boiling
+<lb/>all the water <figure><figDesc>Series of calculations, rotated ninety degrees, over which, it appears, Livingstone then wrote the main narrative text of the diary.</figDesc></figure> I used and a new species of <term type="plant_foodstuff">potato</term>
+<lb/>famed among the <orgName>natives</orgName> as a restorative soon
+<lb/>put me to rights again <space extent="2" unit="chars"/><seg type="weather">The rains continued
+<lb/>into <date when="1870-07">July</date> and 58 inches fell</seg> <space extent="2" unit="chars"/>The mud from
+<lb/>the clayey soil was awful and laid up some
+<lb/>of the strongest in spite of their intense eagerness
+<lb/>for ivory <space extent="2" unit="chars"/>I lost no time after it was feasible
+<lb/>to travel in preparing to go North but my
+<lb/><term type="occupation">attendants</term> were fed and lodged by the <orgName>slave
+<lb/>women</orgName> whose husbands were away from
+<lb/>the camp on trade and pretended to fear going
+<lb/>into a canoe I consented to refrain from
+<lb/>buying one - They <unclear cert="high">then</unclear> feared the people though
+<lb/>the inhabitants were reported by the <orgName>slaves</orgName>
+<lb/>to be remarkably <choice><sic>frienvly</sic><corr>friendly</corr></choice><!-- The pseduoBY images (found in shared/kknox/08-pseudoBY...) shows fairly clearly that DL has misspelled this word in this manner, although it's possible I'm also misreading this word for another. Please review carefully. AW -->  <space extent="2" unit="chars"/>elsewhere<!-- Again see pseduoBY for this word --> I could
+<lb/>get the country people to carry from village
+<lb/>to <space extent="3" unit="chars"/>village and was comparatively independent
+
+    <pb facs="liv_000205_0033" n="LIII"/>
+	<!--<pb facs="NLS10703_053_019r_0_A_color" n="0053"/>-->
+<!-- I'm using the pseduoBY image as my default for transcribing this page. AW -->
+<lb/><fw n="heading_LIII">LIII.</fw> when as <w>happened</w> with some they deserted <add place="above marginright" rend="gray" hand="#U"><fw n="19">19</fw></add>
+<lb/>into the arms of <term type="occupation">prostitutes</term> six times over - But in
+<lb/><placeName><region ref="region.xml#region0013">Manyema</region></placeName> no one can be induced to go into the
+<lb/>next district for fear they say of being killed &amp;
+<lb/>eaten - I was at their mercy and entreaty was
+<lb/>answered by calling when out of sight "who
+<lb/>will carry his things" and a loud laugh to make
+<lb/>me hear - The <orgName>head <orgName>Arabs</orgName></orgName> remonstrated
+<lb/>and they literally <unclear cert="medium">trembled</unclear> and consented to go
+<lb/>anywhere but on <choice><sic>find</sic><corr>finding</corr></choice> that no compulsion
+<lb/>was to be used refused again - When I had
+<lb/>gone with my only three <term type="occupation">attendants</term> I could not
+<lb/>regret the absence of the rest for three of them
+<lb/>had previously gone unknown to me to
+<lb/>a <orgName>slave war</orgName> and came back boasting that
+<lb/>they had killed four of the people whose kindness<!-- Process the discolored blots that follow this line and the next. AW -->
+<lb/>to us had touched my heart and nothing could
+<lb/>exceed the eagerness with which uninvited
+<lb/>they ran off to help to enslave their countrymen
+
+    <pb facs="liv_000205_0034" n="LIV"/>
+	<!--<pb facs="NLS10703_054_019v_0_A_color" n="0054"/>-->
+<!-- I'm using the pseduoBY image as my default for transcribing this page. AW -->
+<lb/><fw n="heading_LIV" rend="large">LIV</fw> nothing but danger would have<!-- Process the discolored blots that follow this line and the next, and also appear above it. AW -->
+<lb/><space extent="1" unit="words"/>deterred <space extent="2" unit="chars"/> them from <orgName>slavehunting</orgName> and
+<lb/>here there is none for the report of gun makes
+<lb/>the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> flee in terror On no account
+<lb/>would I have brought them here but I suspected
+<lb/>that <bibl>my letters</bibl><!-- Not sure if <bibl> has been used consistently for references to letters. We need to double-check. AW --><!-- Am on it :) HB --> to <placeName><region>the coast</region></placeName> for other men
+<lb/>had been destroyed and I had a sore longing
+<lb/>to finish my work and retire - The country
+<lb/>to the North is even more difficult than that
+<lb/>I have described for except a broad belt of
+<lb/><foreign xml:lang="und"><placeName><geogName type="plain"><choice><orig>Buga</orig><reg>Mbuga</reg></choice></geogName></placeName></foreign> or Prairies along the right bank of
+<lb/>the <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> it is all forest saving the clearing
+<lb/>round each village - and these are <measure>ten miles
+<lb/>apart</measure> - The rivers and rivulets are <w>innumer<supplied>-</supplied>
+<lb break="no"/>able</w> I crossed fourteen in one day <measure>from
+<lb/>knee to thigh deep</measure> - <orgName><choice><sic><persName ref="people.xml#pers0002">Muhamad</persName>s</sic><corr><persName ref="people.xml#pers0002">Muhamad</persName>'s</corr></choice> party</orgName> was
+<lb/><measure>five hours</measure> <unclear cert="high">in</unclear> crossing one in flood - a man
+<lb/>in a small canoe went <space extent="2" unit="chars"/>sounding among
+
+    <pb facs="liv_000205_0035" n="LV [v.1]"/>
+	<!--<pb facs="NLS10703_055_020r_0_A_color" n="0055"/>-->
+<!-- Note that there are two distinct pages that DL has numbered with the same number LV. This is the first of them. AW -->
+<!-- I'm using the pseduoBY image as my default for transcribing this page. AW -->
+<lb/><space extent="2" unit="chars"/><fw n="heading_LV">LV.</fw> <add place="above marginright" rend="gray" hand="#U"><fw n="20">20</fw></add><!-- This isn't the right spot for this, but otherwise it falls in the middle of a <measure> tag. AW --> the trees to find where it was <space extent="2" unit="chars"/><measure>breast
+<lb/>deep</measure> In another case they were <measure>two hours</measure> in a river<!-- Process blot over the last word. AW -->
+<lb/><measure>from breast to neck deep</measure> and they saw
+<lb/>nothing but gloomy forest - though they went
+<lb/>near to what the <term type="tribe" ref="ethnic-group.xml#ethnic0009"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term><!-- Need to ensure that Balegga and other tribes are consistently coded in this way. AW --> call <app><rdg><foreign xml:lang="lea"><term xml:lang="lea" ref="foreign-word.xml#frgn0018"><choice><orig>uerere</orig><reg>Uerere</reg></choice></term></foreign></rdg><rdg><foreign xml:lang="swh"><term xml:lang="swh" ref="foreign-word.xml#frgn0019"><choice><orig>uerere</orig><reg>Uerere</reg></choice></term></foreign></rdg></app><!-- I've guessed that this is Lega and, more over, Lega-Shabunda as that's the most commonly spoken variant, but this is a total shot in the dark. This could also be Swahili, and I do remember seeing this on some maps that were based on information from Swahili traders, so I've also offered that variant in my coding. AW --> or <placeName><geogName type="lake" ref="geogName.xml#geog0019">lower
+<lb/>Tanganyika</geogName></placeName> named by its discoverer<!-- Samuel White Baker --> <placeName><geogName type="lake" ref="geogName.xml#geog0018">Albert 
+<lb/>Nyanza</geogName></placeName> For the first time in my life my
+<lb/>feet failed - When torn by rough travel
+<lb/>instead of healing <unclear cert="medium">kindly</unclear> as heretofore an
+<lb/><term type="ailment" ref="ailment.xml#ailm0015">irritable eating ulcer</term> fastened on each foot
+<lb/>and laid me up for five months - these are
+<lb/>common here and <unclear cert="high"><orgName>slaves</orgName></unclear> whose wailing
+<lb/>may be heard the <w>whol<gap extent="1" unit="chars" agent="hole"/><supplied cert="high">e</supplied></w> night long are
+<lb/>often killed by them - I have been minute
+<lb/>even to triviality that your <persName ref="people.xml#pers0175">Lordship</persName> may have
+<lb/>some idea of the obstacles to progress in this
+<lb/>region<!-- The "reg" here seem to have been gone over with a different ink. MW--> exploration is only possible by canoes
+<lb/>and as soon as I get men who have been
+<lb/><unclear cert="low">taught</unclear> to work four or five months will
+<!-- We could have further processing of the bottom of this page to make it more legible. AW -->
+
+    <pb facs="liv_000205_0036" n="LV [v.2]"/>
+	<!--<pb facs="NLS10703_055_020v_0_A_color" n="0055"/>--><!-- The @n for this page (and all those that follow) may need to be changed eventually. AW -->
+<lb/><add place="marginleft"><fw n="heading_LV">LV</fw></add> finish all I have to do - What remains
+<lb/>to be accomplished may be understood<!-- Process the blot under this word. AW -->
+<lb/>by the <space extent="2" unit="chars"/>following -</p>
+<lb/><space dim="vertical" extent="16" unit="lines"/>
+<!-- Curiously given the final sentence, the rest of this page is blank. Since this blankness seems to have meaning in this context, I've coded it with the <space> tag. AW -->
+
+    <pb facs="liv_000205_0037" n="LVI"/>
+	<!--<pb facs="NLS10703_056_021r_0_A_color" n="0056"/>-->
+<!-- This is certainly among the worst pages of my set! I'm using the pseduoBY image along with the 940_by_592 as my defaults for transcribing these pages. AW -->
+<lb/><p rend="no-indent"><fw n="heading_LVI" rend="large">LVI continuation of a Despatch to<!-- Red ink over this word to be processed. AW --> <persName ref="people.xml#pers0175">Lord Stanley</persName></fw> <add place="above marginright" rend="gray" hand="#U"><fw n="21">21</fw></add></p><!-- <p> is needed here or it won't accept the <add>. AW -->
+<lb/><p>This great <placeName><geogName type="river" ref="geogName.xml#geog0033">Lacustrine river</geogName></placeName> which I call
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0034"><persName ref="people.xml#pers0192">Webb</persName>'s Lualaba</geogName></placeName> is only one of <w><add place="over-text" rend="red">three</add>three</w><!-- This, and everything below, is the same kind of after-the-fact addition Livingstone was making on pages in the 40-50 range, in red ink. We need to ensure that this is coded consistently. It would be great to process this second ink so that it is easily visible. AW --> each of<!-- Colored staining at the margin that could be processed. AW -->
+<lb/>which <w><add place="over-text" rend="red">having</add>having</w> <w>th<add place="over-text" rend="red">e</add>e</w> <w><add place="over-text" rend="red">same</add>same</w> <orgName>native</orgName> <w><add place="over-text" rend="red">name</add>name</w> <w><unclear cert="high"><add place="over-text" rend="red">requires</add>requires</unclear></w>
+<lb/><add place="marginleft"><metamark/></add> an <term type="nationality"><w><add place="over-text" rend="red">English</add>English</w></term> <w><add place="over-text" rend="red">epithet</add>epithet</w> to <w>dis<add place="over-text" rend="red">ting</add>tinguish</w> it The
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0039"><w><add place="over-text" rend="red">river</add>river</w> Lufira</geogName></placeName> <w><add place="over-text" rend="red">rises</add>rises</w> in a <w>fount<add place="over-text" rend="red">ain</add>ain</w> South
+<lb/>West of this which <w><add place="over-text" rend="red">I</add>I</w> would fain <w><add place="over-text" rend="red">call</add>call</w> <placeName><geogName type="source" ref="geogName.xml#geog0007"><persName ref="people.xml#pers0036">Bartle 
+<lb/>Frere</persName>'s fountain</geogName></placeName> and <w><add place="over-text" rend="red">th</add>th<gap extent="3" unit="chars" agent="blot"/></w> When it becomes
+<lb/>very large it is called <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> West of this one
+<lb/><w><add place="over-text" rend="red">again</add>again</w> another great <w><add place="over-text" rend="red">river</add>river</w> <w>beg<add place="over-text" rend="red">ins</add>ins</w> <w><add place="over-text" rend="red">in</add>in</w> <w><add place="over-text" rend="red">a</add>a</w> fountain
+<lb/>and from <w><add place="over-text" rend="red">its</add>its</w> <w><add place="over-text" rend="red">source</add>source</w> down <w><add place="over-text" rend="red">its</add>its</w> <w><add place="over-text" rend="red">only</add>only</w> <orgName>native</orgName>
+<lb/>name is <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> - I wish to add <placeName><geogName type="river" ref="geogName.xml#geog0030"><persName ref="people.xml#pers0194">Young</persName>'s
+<lb/><choice><sic>Youngs</sic><corr/></choice> Lualaba</geogName></placeName> and <placeName><geogName type="river" ref="geogName.xml#geog0038"><persName ref="people.xml#pers0036">Bartle Frere</persName>'s Lualaba</geogName></placeName>
+<lb/>unite and form a Lake the <orgName>native</orgName> name of
+<lb/>which is <placeName><geogName type="lake" ref="geogName.xml#geog0021">Chibungo</geogName></placeName> but I am fain to call it
+<lb/><placeName><geogName type="lake" ref="geogName.xml#geog0021">Lake <persName ref="people.xml#pers0075">Lincoln</persName></geogName></placeName><!-- Staining around the word Lincoln that could be processed. AW --> - Looking back from this to the
+<lb/>full <w><add place="over-text" rend="red">grown</add>grown</w> gushing fountains not more<!-- Various marks at the bottom of the page that could be processed. AW --> <!--I had a lot of trouble reading this page well in order to proof, but I tried to do my best! -AK -->
+
+    <pb facs="liv_000205_0038" n="LVII"/>
+	<!--<pb facs="NLS10703_057_021v_0_A_color" n="0057"/>-->
+<lb/><fw n="heading_LVII" rend="large">LVII</fw> <w><add place="over-text" rend="red">more</add>more</w> than <measure><w><add place="over-text" rend="red">ten</add>ten</w> miles apart</measure> The<!-- Staining in this corner could be processed. AW -->
+<lb/>largest of these fountains at which a man
+<lb/>cannot be seen on the other side is the source
+<lb/>of the <placeName><geogName type="river" ref="geogName.xml#geog0059">Liambai</geogName></placeName> or upper <placeName><geogName type="river" ref="geogName.xml#geog0059">Zambesi</geogName></placeName> this
+<lb/>I name after good <persName ref="people.xml#pers0142">Lord Palmerston</persName>
+<lb/>Near it rises the <placeName><geogName type="river" ref="geogName.xml#geog0015">Lunga</geogName></placeName> which further
+<lb/>down is called <placeName><geogName type="river" ref="geogName.xml#geog0015">Luenge</geogName></placeName> and still further
+<lb/>off <placeName><geogName type="river" ref="geogName.xml#geog0015">Kafue</geogName></placeName> or <placeName><geogName type="river" ref="geogName.xml#geog0015">Kafuge</geogName></placeName> - I would name it
+<lb/><placeName><geogName type="source" ref="geogName.xml#geog0051"><persName ref="people.xml#pers0229">Oswell</persName> Fountain</geogName></placeName> <space extent="1" unit="words"/>These four fountains
+<lb/>gushing forth so near to each other
+<lb/>and forming great rivers are probably the
+<lb/>unfathomable springs of the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> <w>men<supplied>-</supplied>
+<lb break="no"/>-tioned</w> to <persName ref="people.xml#pers0049">Herodotus</persName> by the <persName ref="people.xml#pers0161"><term type="occupation">secretary</term><add place="below">retary</add><!-- This addition is only really visible in the pseudo or pseudoBy. AW --> of
+<lb/><persName ref="people.xml#pers0101">Minerva</persName></persName> in the city<add place="below">city</add> of <placeName><settlement type="city" ref="settlement.xml#sett0013">Sais<add place="below">Sais</add></settlement></placeName> from<add place="below">from</add> which
+
+    <pb facs="liv_000205_0039" n="LVIII"/>
+	<!--<pb facs="NLS10703_058_022r_0_A_color" n="0058"/>-->
+<lb/><fw n="heading_LVIII">LVIII</fw> <del><gap extent="1" unit="chars"></gap></del> <supplied cert="low">"</supplied>half the water flowed" = from <placeName><geogName type="source" ref="geogName.xml#geog0054"><placeName><geogName type="river" ref="geogName.xml#geog0030"><choice><sic><persName ref="people.xml#pers0194">Young</persName>s</sic><corr><persName ref="people.xml#pers0194">Young</persName>'s</corr></choice></geogName></placeName> and <add place="above marginright" rend="gray" hand="#U"><fw n="22">22</fw></add>
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0038"><persName ref="people.xml#pers0036">Bartle Frere</persName>'s</geogName></placeName> fountains</geogName></placeName> = "Northward into
+<lb/><placeName><country>Egypt</country></placeName>" - and the other half = "from <placeName><geogName type="source" ref="geogName.xml#geog0056"><placeName><geogName type="river" ref="geogName.xml#geog0052"><choice><sic><persName ref="people.xml#pers0142">Palmerston</persName>s</sic><corr>Palmerston's</corr></choice></geogName></placeName> 
+<lb/>and <placeName><geogName type="river" ref="geogName.xml#geog0051"><choice><sic><persName ref="people.xml#pers0229">Oswell</persName></sic><corr><persName ref="people.xml#pers0229">Oswell</persName>'s</corr></choice></geogName></placeName> fountains</geogName></placeName> = "into <placeName><region>Inner <placeName><country>Ethiopia</country></placeName></region></placeName>"
+<lb/>I heard of this remarkable mound &amp; fountains
+<lb/>some <measure>200 miles</measure> distant on the South West - again
+<lb/>on the South East <measure>150 miles</measure> off - again on
+<lb/>the North East <measure>180 miles</measure> distant and
+<lb/>now on the <choice><abbr>N.N.E.</abbr><expan>North North East</expan></choice> many intelligent
+<lb/><orgName>Arabs</orgName> who have visited the spot give the
+<lb/>very same information as having excited
+<lb/>their <unclear cert="high">admiration</unclear> as much as it that of
+<lb/>the <orgName>natives</orgName> - I have ventured to give name by
+<lb/>anticipation - I shall write no <subst><del><gap extent="1" unit="words"/></del><add place="over-text">other</add></subst> letter
+<lb/>till I have either succeeded or fallen - The
+<lb/>names of <persName ref="people.xml#pers0142">Palmerston</persName> <persName ref="people.xml#pers0075">Lincoln</persName> &amp; <persName ref="people.xml#pers0036">Frere</persName> I wish
+<lb/>to honour as of men who have done more
+
+    <pb facs="liv_000205_0040" n="LIX"/>
+	<!--<pb facs="NLS10703_059_022v_0_A_color" n="0059"/>-->
+<lb/><fw n="heading_LIX">LIX</fw> for the abolition of the <orgName>slave trade</orgName> &amp; <orgName>slavery</orgName>
+<lb/>than any of their <choice><sic>cotemporaries</sic><corr>contemporaries</corr></choice> - The great and 
+<lb/>good man <persName ref="people.xml#pers0142">Palmerston</persName> and <persName ref="people.xml#pers0075">Lincoln</persName> are no
+<lb/>longer among us, and I desire to place, as it were
+<lb/>my poor little garland of love on their tombs.</p>
+<lb/><p><space extent="5" unit="chars"/>By degrees the conviction has crept across
+<lb/>my mind that all we moderns <unclear cert="high">can</unclear> fairly <del type="strikethrough">do in</del>
+<lb/>in common modesty claim is <choice><sic>is</sic><corr/></choice> the rediscovery
+<lb/>of the <placeName><geogName type="source" ref="geogName.xml#geog0053">sources of the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName></geogName></placeName> which had sunk into
+<lb/>oblivion somewhat like the circumnavigation
+<lb/>of <placeName><bloc>Africa</bloc></placeName> by the <orgName ref="orgName.xml#org0019">Phoenician</orgName> <term type="occupation">Admiral</term> of one
+<lb/>of the <choice><sic><term type="occupation">Pharoah</term>s</sic><corr><term type="occupation">Pharaoh</term>'s</corr></choice><!-- Although this tagging isn't ideal, I think it's the best solution. AW --> about <date when="-0600"><choice><abbr>B C</abbr><expan>Before Christ</expan></choice> 600</date> He
+<lb/>was not believed because he reported
+<lb/>having the sun on his right hand in
+<lb/>passing round <placeName><country>Libya</country></placeName> This stamps the tale
+<lb/>of the <term type="occupation">Admiral</term> to us as genuine By placing
+<lb/>the <placeName><geogName type="source" ref="geogName.xml#geog0053">fountains of the <placeName><geogName type="river" ref="geogName.xml#geog0045">river of Egypt</geogName></placeName></geogName></placeName> between
+<lb/><measure>10°-12° South <choice><abbr>Lat.</abbr><expan>Latititude</expan></choice></measure> <persName ref="people.xml#pers0147">Ptolemy</persName> <gap extent="2" unit="words" agent="illegible"/> <unclear cert="medium">genuine</unclear>
+
+    <pb facs="liv_000205_0041" n="LX"/>
+	<!--<pb facs="NLS10703_060_023r_0_A_color" n="0060"/>-->
+<lb/><fw n="heading_LX"><add place="above marginleft">LX</add></fw> geography from men who had visited this very <add place="above marginright" rend="gray" hand="#U"><fw n="23">23</fw></add>
+<lb/>region <space extent="2" unit="chars"/>By making the water collect into <placeName><geogName type="river" ref="geogName.xml#geog0036">two or
+<lb/>three large Lacustrine rivers</geogName></placeName> <!--Should these rivers be tagged? -AK --> - Extant <w>speci-
+<lb/>-mens</w> of those which in prehistoric times
+<lb/>abounded in <placeName><bloc>Africa</bloc></placeName> and in <placeName><region>the south</region></placeName> are still
+<lb/>called "<foreign xml:lang="und">melapo</foreign>" - in the <placeName><region>North</region></placeName> <supplied>"</supplied><foreign xml:lang="und"><choice><sic>Wady's</sic><corr>Wadys</corr></choice></foreign><supplied>"</supplied> both
+<lb/>words meaning the same thing = river beds
+<lb/>where no water ever <unclear cert="high">now</unclear> flows, he did
+<lb/>what no mere <term type="occupation">theorist</term><!-- This was barely qualifies! AW --> would dream of doing
+<lb/><choice><sic><persName ref="people.xml#pers0147">Ptolemy</persName>s</sic><corr><persName ref="people.xml#pers0147">Ptolemy</persName>'s</corr></choice> predecessors were probably the real
+<lb/>collectors of the facts he made use of and the
+<lb/>former <term type="occupation">explorers</term> must have travelled <!-- Some discoloration just before this word. Worth processing? AW -->extensively
+<lb/>Had I left at the end of two years I could have
+<lb/>given little more light on the country than the
+<lb/><term type="people">Portuguese</term> who in their three <orgName>slaving</orgName> visits
+<lb/>to <persName ref="people.xml#pers0067">Cazembe</persName> asked for <orgName>slaves</orgName> &amp; ivory alone
+<lb/>and heard of nothing else - I <choice><orig>enquired</orig><reg>inquired</reg></choice> about the
+<lb/>waters till ashamed and almost afraid of being
+<lb/>put down as affected with <term type="ailment" ref="ailment.xml#ailm0013"><foreign xml:lang="grk">Hydrocephalus</foreign></term><!-- I think that this a word that DL just made up. It means "waterhead" or "water-on-the-brain". AW --><!-- I think it's a pun. Hydrocephalus - an actual condition - isn't really about water but excess spinal fluid in the skull. DL is joking (I think, at least - its rare!) about his obsession with the fountains. MW --> - I had
+<lb/>to feel my way and every step of the way, and
+
+    <pb facs="liv_000205_0042" n="LXI"/>
+	<!--<pb facs="NLS10703_061_023v_0_A_color" n="0061"/>-->
+<lb/><fw n="heading_LXI">LXI</fw> was generally groping <del type="cancelled">in</del> the dark for who cared
+<lb/><choice><sic>were</sic><corr>where</corr></choice> the rivers ran - Many a wary foot I trod ere
+<lb/>I gained a clear idea of the drainage which flows<!-- geog: Central line of drainage of the Nile -->
+<lb/>from the watershed in <space extent="1" unit="words"/><measure>10°<supplied>-</supplied>12° South</measure> on which stand
+<lb/><placeName><geogName type="mountain" ref="geogName.xml#geog0048"><choice><sic><persName ref="people.xml#pers0147">Ptolemy</persName>s</sic><corr><persName ref="people.xml#pers0147">Ptolemy</persName>'s</corr></choice> mountains of the moon</geogName></placeName><!-- <bloc> is a total guess for moon. It's the "largest" tag we have. AW --><!-- Do we need a "planet" tag?  He sometimes refers to earth, too. --><!-- Removed. AW --> - The length of
+<lb/>this watershed is between <measure>700 &amp; 800 miles</measure> from 
+<lb/>West to East - Here the <placeName><geogName type="source" ref="geogName.xml#geog0053">fountains of the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName></geogName></placeName> do
+<lb/>unquestionably arise - The mountains on it <!-- geog: mountains of the moon -->
+<lb/>are <measure>between 600 &amp; 700 feet above the sea</measure>
+<lb/>The idea of melting snow <del type="strikethrough">is</del> if I remember
+<lb/>rightly is not <persName ref="people.xml#pers0147">Ptolemy</persName>'s <placeName><geogName type="mountain" ref="geogName.xml#geog0043"><choice><orig>Kenia</orig><reg>Kenya</reg></choice></geogName></placeName> &amp; <placeName><geogName type="mountain" ref="geogName.xml#geog0044">Kilimanjaro</geogName></placeName> 
+<lb/>are said to be snow capped but no one
+<lb/>ever reached the snow - They send no water to
+<lb/>any part of the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> and never could have
+<lb/>been meant by the <orgName>correct ancient <term type="occupation">explorers</term></orgName></p> 
+<lb/><p><space extent="5" unit="chars"/>I would fain crave your <choice><sic><persName ref="people.xml#pers0175">Lordship</persName>s</sic><corr><persName ref="people.xml#pers0175">Lordship</persName>'s</corr></choice><!-- pers: Lord Stanley --> <unclear cert="high">approboation</unclear>
+<lb/>of my labours but the <bibl><persName ref="people.xml#pers0133"><term type="occupation">supernumerary undersecretary</term>
+<lb/><choice><sic><persName ref="people.xml#pers0133">Murray</persName>s</sic><corr><persName ref="people.xml#pers0133">Murray</persName>'s</corr></choice></persName> impertinent letter</bibl> forbids any <choice><abbr>Gov<hi rend="sup">t</hi></abbr><expan>Government</expan></choice>
+<lb/>from allowing me any claim no matter what
+<lb/>services I may render <persName ref="people.xml#pers0078">David Livingstone</persName></p><!-- The beginning of the letter is on 41. -->
+      
+                
+            </div>
+        </body>
+    </text>
+
+</TEI>

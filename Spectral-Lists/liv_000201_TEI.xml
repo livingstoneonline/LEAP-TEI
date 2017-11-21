@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000201">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment of 1870 Field Diary (I-IV), 18, 24 August 1870</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+                <idno type="LEAP-ID">liv_000201</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <idno type="shelfmark">Add.MS.50184, f. 169</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 037</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Fragment of 1870 Field Diary (I-IV), 18, 24 August 1870</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1870-08-18" to="1870-08-24">18, 24 August 1870</date>
+                    <placeName type="compositionPlace">Bambarre</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+			<change when="2016-02-09" who="#AW">Coding corrections</change>
+			<change when="2015-04-02" who="#AW">Coding review</change>
+            <change when="2015-01-25" who="#HB">Proofing and quality control and integration</change>
+            <change when="2014-06-01" who="#MW">Proofing</change>
+			<change when="2014-05-19" who="#AW">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<gb type="envelope"/>
+
+<!-- Use <geogName> for any kind of entity that includes a formal name, e.g., "four fountains of the Nile", while use <geogFeat> for any kind of significant/unique feature, "four fountains" or a formally named entity that DL chooses not to name in a particular instance, saying "Lake" when he means "Lake Tanganyika," for instance. AW -->
+
+<!-- Megan, if you rotate this page counter-clockwise, you'll see that there's a whole letter to DL buried beneath the text of his diary entry. Can you take a first stab at transcribing this? It doesn't look that hard to read. AW -->
+
+	<pb facs="liv_000201_0001" n="[I]"/>
+	<!--<pb facs="BLAdd50184_001_169r" n="001"/>-->
+
+<lb/><p><supplied cert="high"><fw n="heading_I">I</fw></supplied> <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> <date when="1870-08-18">18 August 1870</date> – <space extent="1" unit="words"/>I learn from <persName ref="people.xml#pers0058">Josuf</persName> &amp; <persName ref="people.xml#pers0112">Moenepembe</persName>
+
+<lb/>who have been to <placeName><region ref="region.xml#region0005">Katanga</region></placeName> and beyond that there is a Lake <choice><abbr>N N W</abbr><expan>North North West</expan></choice>
+
+<lb/>of the copper mine and <measure>12 days distant</measure> – It is called <placeName><geogName type="lake" ref="geogName.xml#geog0021">Chibungo</geogName></placeName> and is 
+
+<lb/>said to be large – <measure>seven days West of <placeName><region ref="region.xml#region0005">Katanga</region></placeName></measure> flows <placeName><geogName type="river" ref="geogName.xml#geog0029">another Lualaba</geogName></placeName>
+
+<lb/>the dividing line between <placeName><region ref="region.xml#region0010">Rua</region></placeName> and <placeName><region ref="region.xml#region0011"><unclear cert="medium">Lunda</unclear></region></placeName> or <placeName><region ref="region.xml#region0011"><choice><orig>Londa</orig><reg>Lunda</reg></choice></region></placeName> - It is very large 
+
+<lb/>and as the <placeName><geogName type="river" ref="geogName.xml#geog0039">Lufira</geogName></placeName> flows into <placeName><geogName type="lake" ref="geogName.xml#geog0021">Chibungo</geogName></placeName> it is probable that the <placeName><geogName type="river" ref="geogName.xml#geog0029">Lualaba 
+
+<lb/>West</geogName></placeName> and <placeName><geogName type="river" ref="geogName.xml#geog0039">Lufira</geogName></placeName> form the Lake = <placeName><geogName type="river" ref="geogName.xml#geog0029">Lualaba West</geogName></placeName> and <placeName><geogName type="river" ref="geogName.xml#geog0039">Lufira</geogName></placeName> rise by 
+
+<lb/>fountains <measure>South of <placeName><region ref="region.xml#region0005">Katanga</region></placeName> 3 or 4 days</measure>. <placeName><geogName type="source" ref="geogName.xml#geog0055"><placeName><geogName type="river" ref="geogName.xml#geog0059">Liambai</geogName></placeName> and <placeName><geogName type="river" ref="geogName.xml#geog0015">Lunga</geogName></placeName> <choice><abbr>f<hi rend="sup underline">tns</hi></abbr><expan>fountains</expan></choice></geogName></placeName>
+
+<lb/>are only <measure>about 10 miles distant</measure> from <placeName><geogName type="source" ref="geogName.xml#geog0053"><placeName><geogName type="river" ref="geogName.xml#geog0029">Lualaba West</geogName></placeName> &amp; <placeName><geogName type="river" ref="geogName.xml#geog0039">Lufira</geogName></placeName> fountains</geogName></placeName>.
+
+<lb/>a mound rises between them the most remarkable in <placeName><bloc>Africa</bloc></placeName>
+
+<lb/>Were this spot in <placeName><country>Armenia</country></placeName> it would serve exactly the description
+ 
+<lb/>of the <placeName><geogName type="garden" ref="geogName.xml#geog0010">garden of Eden</geogName></placeName> in <bibl>Genesis</bibl> with its four rivers – the 
+
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0011">Gihon</geogName></placeName> – <placeName><geogName type="river" ref="geogName.xml#geog0047">Pison</geogName></placeName> <placeName><geogName type="river" ref="geogName.xml#geog0013">Hiddekel</geogName></placeName> and <placeName><geogName type="river" ref="geogName.xml#geog0006">Euphrates</geogName></placeName> – As it is it possibly 
+
+<lb/>gave occasion to the story told <persName ref="people.xml#pers0049">Herodotus</persName> by the <persName ref="people.xml#pers0161"><term type="occupation">secretary</term> of
+    
+<lb/><persName ref="people.xml#pers0101">Minerva</persName></persName> in the city of <placeName><settlement type="city" ref="settlement.xml#sett0013">Sais</settlement></placeName> about two hills with conical tops
+
+<lb/><placeName><geogName type="hill" ref="geogName.xml#geog0005">Crophi</geogName></placeName> and <placeName><geogName type="hill" ref="geogName.xml#geog0042">Mophi</geogName></placeName> – midway between them <add place="below">^</add> <add place="above">said he</add> are the <placeName><geogName type="source" ref="geogName.xml#geog0053">fountains of the 
+
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName></geogName></placeName> – fountains which it is impossible to fathom - Half the
+ 
+<lb/>water runs Northward into <placeName><country>Egypt</country></placeName> - half to the South towards <placeName><country>Ethiopia</country></placeName>.
+
+<lb/>Four fountains rising so near to each other would readily be supposed to 
+
+<lb/>have one source and half the water flowing into the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> – the other 
+
+<lb/><w>ha<subst><del>ve</del><add place="over-text">lf</add></subst></w> to the <placeName><geogName type="river" ref="geogName.xml#geog0059">Zambesi</geogName></placeName> required but little imagination to originate, seeing
+ 
+<lb/>the actual visitor would not feel bound to say how the division 
+
+<lb/>was effected <space extent="3" unit="chars"/>He could only know the fact of waters rising at one 
+
+<lb/>spot and separating to flow North and South – The conical 
+
+<lb/>tops to the mound looks like invention as also do the names.</p>
+
+<lb/><p>A <orgName>slave</orgName> bought on <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba East</geogName></placeName> came from <placeName><geogName type="river" ref="geogName.xml#geog0029">Lualaba
+ 
+<lb/>West</geogName></placeName> in <measure>about twelve days</measure> – These <placeName><geogName type="river" ref="geogName.xml#geog0032">two Lualabas</geogName></placeName> may form 
+
+<lb/>the loop depicted by <persName ref="people.xml#pers0147">Ptolemy</persName> and <placeName><geogName type="lake" ref="geogName.xml#geog0026">upper and lower Tanganyika</geogName></placeName> 
+
+<lb/>be a third arm of the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> – Patience is all I can exercise – these 
+
+<lb/><term type="ailment" ref="ailment.xml#ailm0015">irritable ulcers</term> hedge me in now as did my <term type="occupation">attendants</term> in <date when="1870-06">June</date>
+
+<lb/>but all will be for the best for it is in Providence &amp; not in me</p> <!-- Adrian, I haven't been tagging Providence with anything previously, so let me know if you'd like me to implement, or take away here. HB --><!-- Removed. AW -->
+
+
+	<pb facs="liv_000201_0002" n="II"/>
+	<!--<pb facs="BLAdd50184_001_169v" n="002"/>-->
+
+<lb/><p rend="no-indent"><fw n="heading_II">II.</fw> The watershed is between <measure>700 and 800 miles long from West to East</measure>
+
+<lb/>or say <measure>from <add place="below">^</add> <add place="above">22°-</add> 23° –- to 34° <add place="below">^</add> <add place="above">-35<supplied>°</supplied></add> East longitude</measure> – Parts of it are enormous
+
+<lb/>sponges - In other parts innumerable rills unite into rivulets which <add place="below">^</add> <w><add place="above">a</add>gain</w>
+ 
+<lb/>form rivers – <placeName><geogName type="river" ref="geogName.xml#geog0039">Lufira</geogName></placeName> for instance has nine rivulets and <placeName><geogName type="river">Lekulwe</geogName></placeName> other 
+
+<lb/>nine – The Rose of a garden watering can is a not very apt similitude as
+ 
+<lb/>the rills do not spring off the face of it, and it is <measure>700 miles across the circle</measure>
+
+<lb/>but in the numbers of rills coming out at different heights on the slope
+
+<lb/>there is a faint resemblance, and I <choice><sic>cant</sic><corr>can</corr></choice> at present think of no other – I am
+
+<lb/>a little thankful to old <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> for so hiding his head that all "theoretical <term type="occupation"><w>dis-
+
+<lb break="no"/>-coverers</w></term>" are left out in the cold <space extent="2" unit="words"/>With all real <term type="occupation">explorers</term> I have
+
+<lb/>a hearty sympathy, and I have some regret at being <add place="above">in a manner compelled</add> obliged to speak
+
+<lb/>somewhat disparagingly of the opinions formed by my predecessors
+
+<lb/>The work of <persName ref="people.xml#pers0170">Speke</persName> and <persName ref="people.xml#pers0042">Grant</persName> is part of the history of this region and since 
+
+<lb/>the discovery of the <placeName><geogName type="source" ref="geogName.xml#geog0053">sources of the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName></geogName></placeName> was asserted so positively
+
+<lb/>in making a somewhat similar claim it seems necessary to 
+
+<lb/>explain –, not offensively I hope, wherein their mistake lay – My
+
+<lb/>opinions may yet be <choice><orig>shewn</orig><corr>shown</corr></choice> to be mistaken too – but at present I cannot
+ 
+<lb/><choice><sic>concieve</sic><corr>conceive</corr></choice> how - When <persName ref="people.xml#pers0170">Speke</persName> discovered <placeName><geogName type="lake" ref="geogName.xml#geog0027">Victoria Nyanza</geogName></placeName> in <date when="1858">1858</date>
+ 
+<lb/>he at once concluded that therein lay the <placeName><geogName type="source" ref="geogName.xml#geog0053">sources of the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName></geogName></placeName> His 
+
+<lb/>work after that was simply following a foregone conclusion and 
+
+<lb/><del type="strikethrough">subsequently</del> as soon as he and <persName ref="people.xml#pers0042">Grant</persName> looked towards the
+ 
+<lb/><placeName><geogName type="lake" ref="geogName.xml#geog0027">Victoria Nyanza</geogName></placeName> they turned their backs on the <placeName><geogName type="source" ref="geogName.xml#geog0053"><placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> fountains</geogName></placeName>
+
+<lb/><del type="strikethrough">and</del> so every step of their splendid achievement of following
+
+<lb/>the river down took them further &amp; further away from the <placeName><geogName type="source" ref="geogName.xml#geog0053"><foreign xml:lang="la"><term xml:lang="la" ref="foreign-word.xml#frgn0001">Caput</term></foreign> <!-- geog: Source of the Nile -->
+
+<lb/><foreign xml:lang="la"><term xml:lang="la" ref="foreign-word.xml#frgn0010">Nili</term></foreign></geogName></placeName> – <subst><del type="strikethrough">As soon as</del> <add place="above">When</add></subst> it was <choice><sic>percieved</sic><corr>perceived</corr></choice> that the little river that leaves <!-- geog: White Nile -->
+
+<lb/>the <placeName><geogName type="lake" ref="geogName.xml#geog0027">Nyanza</geogName></placeName> though <del type="strikethrough">called</del> they called it the <placeName><geogName type="river" ref="geogName.xml#geog0057">White Nile</geogName></placeName> would not account 
+
+<lb/>for that great river they might have gone West and found <!-- geog: Nile -->
+
+<lb/>Head waters as the <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> to which it can bear no comparison
+
+<lb/>Taking <add place="below">^</add> <add place="above">their <placeName><geogName type="river" ref="geogName.xml#geog0057">White Nile</geogName></placeName></add> <measure>80 or 90 <choice><abbr>yds</abbr><expan>yards</expan></choice> or say 100 <choice><abbr>yds</abbr><expan>yards</expan></choice></measure> as its breadth the <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName>
+
+<lb/>far south of the <del type="cancelled">North end</del> Latitude of its point of departure
+
+<lb/><choice><orig>shews</orig><reg>shows</reg></choice> <w>an<del type="strikethrough">d</del></w> average breadth of <add place="below">^</add> <measure><add place="above">from 4000 to</add> 6000 yards</measure> and always deep.
+
+<lb/><persName ref="people.xml#pers0016">Baker</persName> discovered the <placeName><geogName type="lake" ref="geogName.xml#geog0019">lower portion of Tanganyika</geogName></placeName> – He
+
+<lb/>came farther up the <placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName> than any <term type="occupation">traveller</term> in modern times
+
+<lb/>but turned when about <measure>700 miles</measure> short of the <placeName><geogName type="source" ref="geogName.xml#geog0053">sources</geogName></placeName></p>
+
+
+	<pb facs="liv_000201_0002" n="III"/>
+	<!--<pb facs="BLAdd50184_001_169v" n="003"/>-->
+
+<cb rend="upside-down"/><!-- We need a rend="upside-down" value for <cb/> -->
+
+<lb/><p rend="no-indent"><fw n="heading_III">III.</fw> <choice><sic>a</sic><corr>A</corr></choice> <persName ref="people.xml#pers0184"><term type="nationality">Dutch</term> lady <term type="occupation">explorer</term></persName> deserves our sympathy more than any<!-- persName: Alexandrine Tinne -->
+
+<lb/>other for after the <del type="strikethrough">loss of he</del> severest domestic afflictions, the loss of her
+
+<lb/>two aunts by <term type="ailment">fever</term> she nobly persevered until after she was assured
+
+<lb/>by <persName ref="people.xml#pers0170">Speke</persName> and <persName ref="people.xml#pers0042">Grant</persName> that they had already discovered in <placeName><geogName type="lake" ref="geogName.xml#geog0027">Victoria
+
+<lb/>Nyanza</geogName></placeName> the <placeName><geogName type="source" ref="geogName.xml#geog0053">sources</geogName></placeName> she sought – that they not, honestly enough no
+
+<lb/>doubt, given their own mistaken views - She had <choice><orig>shewn</orig><reg>shown</reg></choice> so much
+
+<lb/>wise foresight in providing not only a steamer but means of
+
+<lb/>further progress by land and water she must inevitably have
+
+<lb/>reached the true head waters – I cannot <choice><sic>concieve</sic><corr>conceive</corr></choice> of her stopping
+
+<lb/>short of <placeName><geogName type="lake" ref="geogName.xml#geog0020">Lake Bangweolo</geogName></placeName> – <unclear cert="medium">We great He</unclear> <term type="animal">donkeys</term> say exploration
+
+<lb/>was not becoming her sex – considering that more <add place="below">^</add> <add place="above">than</add> sixteen hundred 
+
+<lb/>years have elapsed since <persName ref="people.xml#pers0147">Ptolemy</persName> put down the results <add place="below">^</add> <add place="above">of</add> early 
+
+<lb/><term type="occupation">explorers</term>, and <term type="occupation">Emperors</term>, <term type="occupation">Kings</term>, <term type="occupation">Philosophers</term> – all the great 
+
+<lb/>men of antiquity longed to know the fountains whence flowed 
+
+<lb/>the famous river – and long in vain – exploration does not <!-- geog: Nile -->
+
+<lb/>seem to have been very becoming the other sex either – she came 
+
+<lb/>further up the river than the <term type="occupation">centurions</term> sent by <persName ref="people.xml#pers0139">Nero Caesar</persName> <!-- geog: Nile -->
+
+<lb/>and <choice><orig>shewed</orig><reg>showed</reg></choice> such indomitable pluck as to reflect honour on her race
+
+<lb/>I know nothing about her save <del type="strikethrough">by</del> what has appeared in the public 
+
+<lb/>papers but taking her exploration along with what was done 
+
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small">no long time could have elapsed before the laurels</add> 
+
+<lb/>by <persName ref="people.xml#pers0015">Lady Baker</persName> <del type="strikethrough">I am proud to think that <gap extent="2" unit="words" agent="overwriting"/> a
+
+<!-- <lb/>by <persName ref="people.xml#pers0015">Lady Baker</persName> <subst><add place="above">no long time could have elapsed before the laurels</add> <del type="strikethrough">I am proud to think that <gap extent="2" unit="words" agent="overwriting"/> a --><!-- Recoded to improve transformation. AW -->
+
+<lb/>worthy part</del> <add place="above">for</add> <add place="below">^</add> the modern rediscovery of the <placeName><geogName type="source" ref="geogName.xml#geog0053">sources of the 
+
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0045">Nile</geogName></placeName></geogName></placeName> <space extent="4" unit="words"/>should have been plucked by the ladies -</p>
+
+<lb/><p rend="no-indent">In <date when="1841">1841</date> the <add place="below">^</add> <orgName ref="orgName.xml#org0001"><add place="above">2nd</add> <term type="nationality">Egyptian</term> <add place="below">^</add> <add place="above"><del type="strikethrough">2nd</del></add> expedition</orgName> <add place="below">^</add> <add place="above"><gap extent="1" unit="words"/></add> under <persName ref="people.xml#pers0033">D'Arnauld</persName> &amp; <persName ref="people.xml#pers0154">Sabatier</persName> 
+
+<lb/>reached <measure>North <choice><abbr>Lat.</abbr><expan>Latitude</expan></choice> 4° 42'</measure> - This was a great advance into the <!-- Adrian, when a line is written twice, are we to encompass both in the sic and one in corr, or the second one in sic with a blank corr? HB --><!-- Asked and answered- second option. HB -->
+
+<lb/><choice><sic>the</sic><corr/></choice> <placeName><region>Interior</region></placeName> as compared with <persName ref="people.xml#pers0074">Linant</persName> in <add place="below">^</add> <add place="above"><date when="1827">1827</date></add> <measure>13° 30' <choice><abbr>N.</abbr><expan>North</expan></choice></measure> and even on 
+
+<lb/>the explorations of <persName ref="people.xml#pers0057">Jomard</persName> but it turned when nearly a <measure>thousand <add place="below">miles from the <placeName><geogName type="source" ref="geogName.xml#geog0053">sources</geogName></placeName></add></measure></p>
+
+
+	<pb facs="liv_000201_0001" n="IV"/>
+	<!--<pb facs="BLAdd50184_001_169r" n="004"/>-->
+
+<!-- 
+This page also has underwriting. There's a small notation below the first line, then much more starting below the third line of Livingstone's entry. This is what I can make out:
+
+Dr. David Livingstone
+Care of Political Agent
+Zanzibar
+
+This is the original address that appeared on this letter before DL wrote over it. The letter itself, as I note above, appears below DL's page 1. AW 
+-->
+
+
+<!-- There are stamps below the next three lines. We can ask James how to code this. AW -->
+
+<lb/><p><fw n="heading_IV">IV.</fw> <add place="below" rend="diagonal gray" hand="#U"><metamark/>57B<!-- Circled --></add> <date when="1870-08-24">24 August 1870</date> = Four <term type="animal">gorillas</term> or <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal"><choice><sic>soko's</sic><corr><choice><orig>sokos</orig><reg>Sokos</reg></choice></corr></choice></term></term></foreign> were killed <add place="above marginright" rend="gray" hand="#U"><fw n="169">169</fw></add> <!-- Change rend to gray. AW -->
+
+<lb/><date when="1870-08-23">yesterday</date> an extensive grass burning forced them out of 
+
+<lb/>their usual haunt and coming on the plain they were soon 
+
+<lb/>speared – they often go erect but place the hands on the head
+
+<lb/>as if to steady the body - When seen thus he is an ungainly 
+
+<lb/>beast - The most sentimental young lady would not call him 
+
+<lb/>a "dear" but a bandy legged – pot-bellied – low looking villain
+
+<lb/>without a particle of the gentleman in him – other animals
+
+<lb/>especially the <term type="animal">antelopes</term> are graceful and it is pleasant to
+ 
+<lb/>see them either at rest or <del type="cancelled">moving</del> in motion – the <orgName>natives</orgName> 
+
+<lb/>also are well made, lithe and comely to behold – <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Soko</term></term></foreign>
+
+<lb/>if large would do well to stand for a picture of the Devil. <!-- ;> -->
+
+<lb/>He takes away my appetite by his disgusting bestiality 
+
+<lb/>of appearance - His light yellow face <choice><orig>shews</orig><reg>shows</reg></choice> off his ugly 
+
+<lb/>whiskers and faint apology for a beard – The forehead 
+
+<lb/>villainously low with high ears is well in the background
+
+<lb/>by the great <term type="animal">dog</term> mouth – teeth slightly human but the 
+
+<lb/>canines <choice><orig>shew</orig><reg>show</reg></choice> the beast by their large development – the 
+
+<lb/>hands or rather the fingers are like those of the <orgName>natives</orgName>
+
+<lb/>The fat of the flesh is yellow and the eagerness with 
+
+<lb/>which the <term type="tribe" ref="ethnic-group.xml#ethnic0010"><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></term> devour it leaves the impression 
+
+<lb/>that eating <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014"><term type="animal">Sokos</term></term></foreign> was one <w>sta<subst><del><gap extent="1" unit="chars" agent="overwriting"/></del><add place="inline">g</add></subst>e</w> by which they arrived 
+
+<lb/>at being <orgName>cannibals</orgName> – they say the flesh is delicious –</p><!-- Not sure if <orgName> is right for cannibals, but it does make for a good catch-all group category. AW -->
+
+<lb/><!-- Not sure if we need space if we already have a line break. AW --><!-- Adrian, took out the space tag for extra line as per new manual. HB -->
+       
+            </div>
+        </body>
+    </text>
+
+</TEI>

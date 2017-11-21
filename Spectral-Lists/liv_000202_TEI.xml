@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000202">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment of 1870 Field Diary (X-XIII), 10 October 1870</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+				<idno type="LEAP-ID">liv_000202</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno type="shelfmark">MS.10703, ff. 1-2</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 037</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Fragment of 1870 Field Diary (X-XIII), 10 October 1870</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1870-10-10">10 October 1870</date>
+                    <placeName type="compositionPlace">Bambarre</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+			<change when="2016-02-09" who="#AW">Coding corrections</change>
+			<change when="2015-04-02" who="#AW">Coding review</change>
+            <change when="2015-01-25" who="#HB">Proofing and quality control and integration</change>
+            <change when="2014-06-10" who="#MW">TEI Encoding and Proofing</change>
+            <change when="2014-05-27" who="#AW">Transcription and TEI Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<gb type="book-pages"/>
+
+<!-- Megan, I think for the 1870 diary, we should go ahead and double-space all lines (as I've been doing) for easier reading. AW -->
+
+	<pb facs="liv_000202_0001" n="X"/>
+	<!--<pb facs="NLS10703_010_001r_0_B_color" n="010"/>--><!-- File names are correct here, although they don't quite match the names for the images you're using, so don't correct these. AW -->
+
+<lb/><p rend="no-indent"><fw n="heading_X" rend="large">X<supplied>.</supplied></fw> to be copied into <bibl>Journal</bibl> = <date when="1870-10-10">10<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> 1870</date> <choice><sic>came</sic><corr>Came</corr></choice> out of hut <date when="1870-10-10">today</date> <add place="above marginright" rend="gray" hand="#U"><fw n="1">1</fw></add><!-- change final color to "gray" -->
+ 
+<lb/>after being confined to it since <date when="1870-07-22">22<hi rend="sup underline">nd</hi> July</date> or <measure>80 days</measure> – by <term type="ailment" ref="ailment.xml#ailm0015">irritable
+
+<lb/>ulcers on the feet</term> - The last <measure>20 days</measure> I suffered from <term type="ailment">fever</term>
+ 
+<lb/>which reduced my strength, taking away my voice and <!-- Megan, do you think anything in this line and the following that I haven't already marked would qualify as an "ailment"? AW--><!--No. Do we have a "symptom" tag or something similar? MW. -->
+
+<lb/>purging me = appetite good but the third mouthful of any 
+
+<lb/>food caused <term type="ailment"><w><subst><del><gap extent="1" unit="chars" agent="overwriting"/></del><add place="over-text">n</add></subst>ausea</w></term><!-- Megan, take note of how the foregoing is done. AW --> &amp; <term type="ailment">vomiting</term> – purging took place of
+
+<lb/>profuse sweating – I am thankful to feel myself well – 
+
+<lb/>only one <term type="ailment" ref="ailment.xml#ailm0026">ulcer</term> open the size of a <term type="plant_foodstuff">split pea</term> – <term type="medicament">Malachite</term> was<!-- Spectral process drop on "only". AW -->
+
+<lb/>the remedy most useful but the <seg type="weather">beginning of the rains</seg> may
+ 
+<lb/>have helped the cure as it does to others = <term type="medicament">copper</term> rubbed down
+
+<lb/>is used when <term type="medicament">malachite</term> cannot be had – We expect 
+
+<lb/><persName ref="people.xml#pers0181">Syde <choice><orig>Bin</orig><reg>bin</reg></choice> Habib</persName> soon - He will take to the river and I <!-- geog: Lualaba -->
+ 
+<lb/>hope so shall I – The <term type="occupation"><orgName>native</orgName> traders</term> reached people who 
+
+<lb/>had horns of <term type="animal">oxen</term> got from left bank of <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> – <orgName><persName ref="people.xml#pers0065"><w>Ka-
+
+<lb break="no"/>tomba</w></persName>’s people</orgName><!-- The <w> isn't used exactly right in the foregoing because </w> should really go after the 's, but the schema won't accept it that way. AW --> got most ivory namely 50 tusks – the others 
+
+<lb/>only four – the <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0009"><placeName><region ref="region.xml#region0007"><geogName type="forest" ref="geogName.xml#geog0041">Metamba</geogName></region></placeName></term></foreign> or forest is of immense extent <!-- The Central African rainforest is being referenced here, hence my use of <geogFeat>. AW --><!-- Adrian, I have changed as per or email exchange. HB -->
+
+<lb/>and there is room for much ivory to be picked up 
+
+<lb/>at 5 or 7 bracelets of copper per tusk if the <orgName>slaves</orgName> sent <!-- Spectral process drop on "bracelets". AW -->
+
+<lb/>will only be merciful – The nine villages and a 100 men 
+
+<lb/>killed by <orgName><persName ref="people.xml#pers0065">Katomba</persName>’s <orgName>slaves</orgName></orgName> <!-- Megan, take note of how the foregoing is done. I think we will use <orgName> for any entities that we want to mark, even if they're not formally named, for instance, captives, slaves, etc. AW --> at <placeName><settlement type="village"><persName ref="people.xml#pers0138">Nasangwa</persName><supplied>'s</supplied></settlement></placeName> were 
+
+<lb/>all about a string of beads fastened to a powder horn 
+
+<lb/>which a <orgName><term type="tribe" ref="ethnic-group.xml#ethnic0010"><choice><sic>manyema</sic><corr>Manyema</corr></choice></term> man</orgName><!-- Megan, take note of how the foregoing is done. I've marked both the tribe and the invididual. AW --> tried in vain to steal – – <persName ref="people.xml#pers0065"><abbr>Ka</abbr><expan>Katomba</expan></persName><!-- Spectral process drop on "which". AW -->
+
+<lb/>gets 25 of the 50 tusks brought by <orgName>his people</orgName></p>
+
+
+	<pb facs="liv_000202_0002" n="XI"/>
+	<!--<pb facs="NLS10703_011_001v_0_B_color" n="011"/>--><!-- For spectral processing of drops on this page, see recto (010). AW -->
+<lb/><p rend="no-indent"><fw n="heading_XI" rend="large">XI.</fw> <choice><sic>we</sic><corr>We</corr></choice> expect <bibl>letters</bibl> &amp; perhaps men by <persName ref="people.xml#pers0181">Syde <choice><orig>Bin</orig><reg>bin</reg></choice> Habib</persName>.</p>
+ 
+<lb/><p>No news from <placeName><region>the coast</region></placeName> had come to <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> save a rumour
+ 
+<lb/>that some one was building a large house at <placeName><settlement type="town" ref="settlement.xml#sett0001"><choice><orig>Bagamoio</orig><reg>Bagamoyo</reg></choice></settlement></placeName> 
+
+<lb/>but whether <term type="nationality">French</term> or <term type="nationality">English</term> no one can say – possibly 
+
+<lb/>the <orgName>Mission</orgName> urged on by <persName ref="people.xml#pers0144"><term type="occupation">Colonel</term> Playfair</persName> &amp; <persName ref="people.xml#pers0071">D<hi rend="sup">r</hi> Kirk</persName> 
+
+<lb/><persName ref="people.xml#pers0188">Tozer</persName> curiously enough follows the policy of <persName ref="people.xml#pers0086"><term type="occupation"><choice><abbr>Bp</abbr><expan>Bishop</expan></choice></term> Mackenzie</persName>
+
+<lb/>which he so formally repudiated – Rearing boys got from 
+
+<lb/><orgName>captives</orgName> of men of war and writing to <placeName><country>India</country></placeName> that to teach 
+
+<lb/>the young thus obtained is the great secret of mission work 
+
+<lb/>He does not know <space extent="2" unit="words"/>that <space extent="1" unit="words"/>the especial instruction 
+
+<lb/>of the young has been advocated &amp; acted on for the last 
+
+<lb/>30 years in <placeName><bloc>Africa</bloc></placeName> <placeName><country>India</country></placeName> <placeName><region><geogName type="sea">South Seas</geogName></region></placeName> &amp; elsewhere – Possibly <!-- Adrian, should South Seas be tagged as region as well as I think that's how it's being referred to? HB --><!-- Sure, why not both. AW -->
+
+<lb/>the erection of a huge establishment on the <placeName><region>mainland</region></placeName>
+
+<lb/>may be a way of laboriously proving that it is more healthy 
+
+<lb/>than the island to which he was driven by fear of death <!-- geog:  -->
+
+<lb/>It will take a long time to prove by stone &amp; lime that the higher 
+
+<lb/>lands <measure>200 miles inland</measure> <choice><sic>ar</sic><corr>are</corr></choice> better still both for longevity 
+
+<lb/>and work – <space extent="1" unit="words"/>I am in agony for news from home
+
+<lb/>All I feel sure of now is that my friends will all wish 
+
+<lb/>me to complete my task – I join in the <choice><sic>wis</sic><corr>wish</corr></choice> now <space extent="2" unit="chars"/>as 
+
+<lb/>better than doing it in vain afterwards</p>
+
+
+	<pb facs="liv_000202_0003" n="XII"/>
+	<!--<pb facs="NLS10703_012_002r_0_B_color" n="012"/>-->
+
+<lb/><p rend="no-indent"><fw n="heading_XII" rend="large">XII.</fw> The <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> hoeing is little better than scraping the <add place="above marginright" rend="gray" hand="#U"><fw n="2">2</fw></add><!-- change rend to gray --><!-- Process stain on final "the". AW -->
+
+<lb/>soil &amp; cutting through the roots of grass &amp; weeds by a horizontal
+ 
+<lb/>motion of the hoe or knife – <space extent="2" unit="chars"/>They leave the roots of <term type="plant_foodstuff">maize</term>
+
+<lb/><term type="plant_foodstuff">groundnuts</term> – <term type="plant_foodstuff">sweet potatoes</term> &amp; <term type="plant_foodstuff">dura</term> to find their way into 
+
+<lb/>the rich soft soil, and well they succeed so there is no need<!-- Process drops at line beginning. AW -->
+
+<lb/>for deep ploughing - The <term type="plant_foodstuff">groundnuts</term> &amp; <term type="plant_foodstuff"><choice><sic>cassave</sic><corr>cassava</corr></choice></term> hold their<!-- Process stain below "hold". AW --> 
+
+<lb/>own against grass for years <term type="plant_foodstuff">Bananas</term> if cleared of 
+
+<lb/>weeds yield abundantly – <space extent="1" unit="words"/><persName ref="people.xml#pers0002">Muhamad</persName> sowed <term type="plant_foodstuff">rice</term> 
+
+<lb/>just outside the camp without any advantage being secured 
+
+<lb/>by the vicinity of a rivulet and it yielded for one measure 
+
+<lb/>of seed one hundred &amp; twenty measures of increase – This 
+
+<lb/>season he plants <space extent="3" unit="words"/>and on the damp soil
+ 
+<lb/>along a rivulet called <space extent="2" unit="chars"/><placeName><geogName type="rivulet"><choice><sic>bonde</sic><corr>Bonde</corr></choice></geogName></placeName> <space extent="2" unit="chars"/>The rainwater does not
+ 
+<lb/>percolate far – The clay retains it about <measure>2 feet beneath the
+ 
+<lb/>surface</measure> – this is a cause of unhealthiness to man – <term type="animal">Fowls</term> 
+
+<lb/>and <term type="animal">goats</term> have been cut off this year in large numbers 
+
+<lb/>by an epidemic -</p>
+
+<lb/><milestone unit="section" rend="line"/><!-- Process various stains found below the line. AW -->
+
+<lb/><p>Sentence to be inserted after "<choice><sic>"</sic><corr>'</corr></choice>there may only be a thread<choice><sic>"</sic><corr>'</corr></choice> 
+
+<lb/>of water at the bottom but the mud is grievous" Some <measure>20 
+
+<lb/>or 40 yards</measure> of the path on each bank is mixed up by the feet 
+
+<lb/>of passengers into a deep <choice><sic>stickey</sic><corr>sticky</corr></choice> mass – <subst><del><gap extent="1" unit="words" agent="overwriting"/></del><add place="over-text">You</add></subst> may put one 
+
+<lb/>foot on each side <subst><del>and</del><add place="over-text">of</add></subst> the walk and waddle onwards but soon
+
+<lb/>that fails you for <space extent="2" unit="words"/>the rank vegetation often usurps the few
+
+<lb/>foot holds you have and down
+
+<lb/><unclear cert="low">inches</unclear> <space extent="7" unit="words"/>you come into the mire</p>
+<!-- The last few transcribed lines are my best guess as to how the writing at the bottom of this page lines up. The placement of the word at the beginning of the last line "inches" is certainly odd sounding, although otherwise the sentence at the end here reads farily coherently as I've transcribed it. AW -->
+
+
+	<pb facs="liv_000202_0004" n="XIII"/>
+	<!--<pb facs="NLS10703_013_002v_0_B_color" n="013"/>-->
+
+<lb/><p rend="no-indent"><fw n="heading_XIII" rend="large">XIII.</fw> Often too the path takes the bed of the rill for <measure>50 or 60 <choice><abbr>yds</abbr><expan>yards</expan></choice></measure> 
+
+<lb/>as if the first passenger had gone that distance seeking a space 
+
+<lb/>of forest less dense for his path = Near a village the road <w>run-
+
+<lb break="no"/>-ning</w> along a rivulet may have been to make it difficult for an<!-- Process spot above "an" and along right side here. AW --> 
+
+<lb/>enemy to find a path by night = <space extent="3" unit="chars"/>The approaches to hamlets on the
+ 
+<lb/>side of a hill are certainly made with a view to confuse <term type="occupation">marauders</term> 
+
+<lb/>for <!-- Process spot here. AW -->they come near the dwellings and then ascend to a point
+ 
+<lb/>above the highest point of the village, and they go winding up 
+
+<lb/>and down the steepest parts of the slope The rank vegetation 
+
+<lb/>being left so that it is impossible to take a straight course –</p>  
+
+<lb/><p>The visit of the <orgName ref="orgName.xml#org0027">Ujijian <term type="occupation">traders</term></orgName> must be felt by the <term type="tribe" ref="ethnic-group.xml#ethnic0010"><w>Man-
+
+<lb/>-yema</w></term> to be a severe infliction - The huts are appropriated and 
+
+<lb/>no leave asked – Firewood - pots – baskets <supplied cert="high">of</supplied> food used without 
+
+<lb/>scruple and anything that pleases is taken away – Usually the 
+
+<lb/>women flee into the forest and return to find the whole place a
+ 
+<lb/>litter of broken food – I tried to pay the owners of the huts in 
+
+<lb/>which I slept but often in vain for they were hidden in the forest
+
+<lb/>and feared to come near – It was common for old men 
+
+<lb/>to come forward to me with a present of <term type="plant_foodstuff">bananas</term> as I passed 
+
+<lb/>uttering with trembling accents "<foreign xml:lang="und">Bolongo</foreign><supplied>"</supplied> "<foreign xml:lang="und">Bolongo</foreign>" friendship
+ 
+<lb/>friendship. If I stopped to make a little return present others
+ 
+<lb/>ran for <term type="plant_foodstuff">plantains</term> or <term type="foodstuff"><term type="plant">palm</term> toddy</term> = The <orgName>slaves</orgName> eat up what 
+
+<lb/>they demanded without one word of thanks - "but they are 
+
+<lb/>bad" <supplied>"</supplied><choice><sic>dont</sic><corr>don't</corr></choice> give them anything" <supplied>"</supplied>Why what badness is there in 
+
+<lb/>giving food<supplied>"</supplied> - "O they like you" <supplied>"</supplied>but hate us" - one man gave
+ 
+<lb/>me an iron ring and seemed inclined to be friendly – 
+
+<lb/>yet they are undoubtedly bloodthirsty <space extent="3" unit="chars"/>to other <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> 
+
+<lb/><space extent="12" unit="words"/>&amp; kill each other</p>
+       
+            </div>
+        </body>
+    </text>
+
+</TEI>

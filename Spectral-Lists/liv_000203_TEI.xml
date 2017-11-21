@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000203">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment of 1870 Field Diary (XIV), 13 October 1870</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+				<idno type="LEAP-ID">liv_000203</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">297b</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 037</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Fragment of 1870 Field Diary (XIV), 13 October 1870</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1870-10-13">13 October 1870</date>
+                    <placeName type="compositionPlace">Bambarre</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="lea">Lega-Shabunda</language>
+                <language ident="swh">Swahili</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+			<change when="2016-02-09" who="#AW">Coding corrections</change>
+			<change when="2015-04-02" who="#AW">Coding review</change>
+            <change when="2015-01-25" who="#HB">Proofing and quality control and integration</change>
+            <change when="2014-06-10" who="#MW">Transcription editing and proofreading</change>
+            <change when="2014-05-27" who="#AW">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<gb type="book-pages"/>
+
+	<pb facs="liv_000203_0001" n="XIV"/>
+	<!--<pb facs="DLC297b_014_001r_0_B_color" n="014"/>-->
+
+<lb/><p rend="no-indent"><fw n="heading_XIV" rend="large">XIV</fw> <date when="1870-10-13">13<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice> 1870</date> – <choice><sic><term type="animal">Lion</term>s</sic><corr><term type="animal">Lion</term>'s</corr></choice> fat is asserted to be a certain <!-- Process stain. AW --> <add place="marginright" rend="gray" hand="#U"><fw n="1">1</fw></add>
+
+<lb/>preventative to the bite of the <term type="insect">Tsetse</term> – <term type="animal">Lions</term> are very numerous
+
+<lb/>in <placeName><region ref="region.xml#region0014">Urori</region></placeName> and many are killed and the fat sold – the <term type="tribe" ref="ethnic-group.xml#ethnic0006">Garaganza</term>
+
+<lb/>use it to protect their <term type="animal">cattle</term> and when smeared on the animals
+
+<lb/>the <term type="insect">Tsetse</term> <space extent="2" unit="chars"/>comes not near them on accout of the smell –</p> 
+
+<lb/><p><space extent="3" unit="words"/>on coming inland the safe way is to go to <add place="above">1</add> <placeName><settlement type="village">Mdonye</settlement></placeName>  
+
+<lb/><space extent="4" unit="words"/><add place="inspace" rend="small">2 <space extent="1" unit="words"/><placeName><settlement type="village">Makinde</settlement></placeName> <space extent="1" unit="chars"/>3 <space extent="1" unit="chars"/><placeName><settlement type="village">Zungomero</settlement></placeName> 4 <placeName><settlement type="village">Masapi</settlement></placeName> 5 <placeName><settlement type="village">Irundu</settlement></placeName></add>
+
+<lb/>then turn <space extent="1" unit="words"/><add place="below">^</add><space extent="1" unit="words"/> North to the <term type="tribe" ref="ethnic-group.xml#ethnic0013">Nyamnyams</term> and thence to the <placeName><settlement type="village">Nyembe</settlement></placeName>
+
+<lb/><space extent="4" unit="words"/><add place="inspace" rend="small">6 <placeName><settlement type="village">Nyamgore</settlement></placeName> &amp; then South to <placeName><settlement type="village"><persName ref="people.xml#pers0098"
+>Merere</persName>’s</settlement></placeName></add><!-- This is a tricky line, but I think DL made the addition directly below it, then below the line after that but with the intion of following on from the first addition, hence my coding it as I have in a single line. AW -->                	
+
+<lb/>and so <space extent="2" unit="words"/>on South to <placeName><settlement type="village"><persName ref="people.xml#pers0098">Merere</persName>’s</settlement></placeName> – A woman <term type="occupation">chief</term> lies in
+
+<lb/>the straight <space extent="2" unit="words"/>way to <persName ref="people.xml#pers0098">Merere</persName> but no <term type="animal">cattle</term> live in her land – 
+
+<lb/>another insect lights on the animals &amp; when licked off bites the tongue
+
+<lb/>or breeds &amp; is <space extent="3" unit="chars"/>fatal as well – as <term type="insect">tsetse</term> – It is large in size –</p> 
+
+<lb/><p><space extent="4" unit="words"/><persName ref="people.xml#pers0185">Tipotipo</persName> &amp; <persName ref="people.xml#pers0180">Syde bin Ali</persName> come to <placeName><settlement type="village">Nyembe</settlement></placeName> – thence
+
+<lb/>to <placeName><settlement type="village"><choice><sic><persName ref="people.xml#pers0140">Nsama</persName>s</sic><corr><persName ref="people.xml#pers0140">Nsama</persName>'s</corr></choice></settlement></placeName> <space extent="2" unit="words"/>cross <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> at <placeName><settlement type="village"><choice><sic><persName ref="people.xml#pers0125">Mpweto</persName>s</sic><corr><persName ref="people.xml#pers0125">Mpweto</persName>'s</corr></choice></settlement></placeName> – follow left bank
+
+<lb/>of that <space extent="2" unit="words"/>river till they cross the next <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> &amp; so into <!--geog: Lualaba -->
+
+<lb/><placeName><region ref="region.xml#region0011">Lunda</region></placeName> of <space extent="2" unit="words"/><persName ref="people.xml#pers0095">Matiamvo</persName> – much ivory may be obtained
+
+<lb/>by this <space extent="2" unit="words"/>course &amp; it <choice><orig>shews</orig><reg>shows</reg></choice> enterprise –-</p>
+
+<lb/><p><space extent="4" unit="words"/><persName ref="people.xml#pers0181">Syde bin Habib</persName> &amp; <persName ref="people.xml#pers0035">Dugumbe</persName> will open up the
+
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> <space extent="2" unit="words"/>this year and I am hoping to enter the <placeName><geogName type="river" ref="geogName.xml#geog0029">West
+
+<lb/>Lualaba</geogName></placeName> <space extent="2" unit="words"/>or <placeName><geogName type="river" ref="geogName.xml#geog0030"><choice><sic><persName ref="people.xml#pers0194">Young</persName>s</sic><corr><persName ref="people.xml#pers0194">Young</persName>'s</corr></choice> river</geogName></placeName>, and if possible go up to
+
+<lb/><placeName><region ref="region.xml#region0005">Katanga</region></placeName> – The Lord be my guide &amp; helper – I feel the <add place="marginright" rend="gray vertical" hand="#U"><fw n="3">3</fw></add><!-- Change to <cb rend="vertical"/> -->
+
+<lb/>want of medicine strongly as much almost as of men</p>
+
+
+	<pb facs="liv_000203_0002" n="[XIV]"/>
+	<!--<pb facs="DLC297b_014_001v_0_A_color" n="014"/>-->
+
+<lb/><milestone unit="section" rend="line"/>
+
+<lb/><p rend="no-indent">Turn over = safe way to avoid the <metamark/>
+
+<lb/><add place="marginleft" rend="gray vertical" hand="#U"><fw n="2">2</fw></add> <term type="insect">Tsetse</term> in going to <placeName><settlement type="village"><persName ref="people.xml#pers0098">Merere</persName>'s</settlement></placeName> <add place="below">^</add> <add place="above">North to</add> <hi rend="sup">1</hi> <placeName><settlement type="village">Mdonye</settlement></placeName>
+
+<lb/>2 <placeName><settlement type="village">Makinde</settlement></placeName> 3 <placeName><settlement type="village">Zungomero</settlement></placeName> 4 <placeName><settlement type="village">Masapè</settlement></placeName>
+
+<lb/>5 <placeName><settlement type="village">Irundu</settlement></placeName> 6 <placeName><settlement type="village">Nyamgore</settlement></placeName> = then South
+
+<lb/>to <placeName><settlement type="village"><persName ref="people.xml#pers0098">Merere</persName>'s</settlement></placeName></p>
+
+<lb/><p><placeName><settlement type="village">Msene</settlement></placeName> <measure>6 days</measure> from <placeName><settlement type="town" ref="settlement.xml#sett0015"><choice><abbr>Unyembe</abbr><expan>Unyanyembe</expan></choice></settlement></placeName> North
+
+<lb/><space extent="1" unit="words"/>market &amp; many <orgName>Arabs</orgName> live there</p>
+
+<lb/><milestone unit="section" rend="half-line"/>
+
+<cb rend="upside-down"/><!-- rend="upside-down" -->
+<lb/><p rend="no-indent">all these ten Rivers go into <placeName><geogName type="lake" ref="geogName.xml#geog0019"><app><rdg><foreign xml:lang="lea"><term xml:lang="lea" ref="foreign-word.xml#frgn0018">Uerere</term></foreign></rdg><rdg><foreign xml:lang="swh"><term xml:lang="swh" ref="foreign-word.xml#frgn0019">Uerere</term></foreign></rdg></app></geogName></placeName></p>
+
+<lb/><p rend="no-indent"><placeName><geogName type="river">Mokunge</geogName></placeName> three eyes or fountains all
+
+<lb/>very hot.</p>
+
+<!-- Coding gets a bit tricky in terms of spatial layout from here, but since everything goes with the map, I've put that first. AW -->
+
+<lb/><cb rend="vertical"/><!-- rend="vertical" -->
+<lb/><figure><figDesc>Livingstone has here drawn a map, which he places at "<measure>about 1° South <choice><abbr>Lat.</abbr><expan>Latitude</expan></choice></measure>" The map depicts a series of 10 rivers running west to east, all flowing "to <placeName><geogName type="lake" ref="geogName.xml#geog0019"><app><rdg><foreign xml:lang="lea"><term xml:lang="lea" ref="foreign-word.xml#frgn0018">Uerere</term></foreign></rdg><rdg><foreign xml:lang="swh"><term xml:lang="swh" ref="foreign-word.xml#frgn0019">Uerere</term></foreign></rdg></app> Lake</geogName></placeName>" in the east (which lake does not itself appear on the map). The rivers are laid out in the following order from north (top) to south (bottom) (distances in days between them are also provided): <placeName><geogName type="river">Sombo <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName>, <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Kabilo</geogName></placeName>, <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Molegere</geogName></placeName>, <placeName><geogName type="river">Mokunge</geogName></placeName> (hot fountain), <placeName><geogName type="river">Simnambe <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName>, <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Ngoye</geogName></placeName>, <placeName><geogName type="river">Mokunge <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName>, <placeName><geogName type="river">Mogonye <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName>, <placeName><geogName type="river">Kipembo <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName>, and <placeName><geogName type="river">Lua <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName>. Then the following, separate set of rivers, running east to west and uniting into a single river, appear: <placeName><geogName type="river">Kuruse <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName>, <placeName><geogName type="river">Lobondo <choice><abbr>R</abbr><expan>River</expan></choice></geogName></placeName>, and <placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Logumba</geogName></placeName>. The path of <persName ref="people.xml#pers0150">Ramadan</persName> and <persName ref="people.xml#pers0047">Hassani</persName> as a dotted line runs across these rivers north to south ending at what appears to be a village, <placeName><settlement type="village"><persName ref="people.xml#pers0066">Kanyingere</persName></settlement></placeName>, in the south. Finally, near its center, the map also identifies the <term type="tribe" ref="ethnic-group.xml#ethnic0009"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term> country and notes that "<placeName><region ref="region.xml#region0007"><choice><orig><term type="tribe" ref="ethnic-group.xml#ethnic0009"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term> country</orig><reg>Legaland</reg></choice></region></placeName> all excessively mountainous."</figDesc></figure>
+
+<lb/><milestone unit="section" rend="quarter-line"/><!-- rend="quarter-line" -->
+
+<lb/><p rend="no-indent"><metamark/> Travelled <measure>199<!-- The distances on the map indeed add up to 199. AW -->
+
+<lb/>hours</measure> but so
+
+<lb/>mountainous 
+
+<lb/>say <measure>200 miles</measure></p>
+
+<lb/><milestone unit="section" rend="quarter-line"/><!-- rend="quarter-line" -->
+
+<lb/><p rend="no-indent"><metamark/> Rivers crossed
+
+<lb/>by <persName ref="people.xml#pers0150">Ramadan</persName> &amp;
+
+<lb/><persName ref="people.xml#pers0047">Hassani</persName> <date when="1870-08">August</date>
+
+<lb/>and <date when="1870-09"><choice><abbr>Sept<hi rend="sup underline">r</hi></abbr><expan>September</expan></choice> 1870</date>
+
+<lb/>in <placeName><region ref="region.xml#region0007"><choice><orig>Balegga</orig><reg>Legaland</reg></choice></region></placeName> -<!-- Megan, note how I've done this, as here Balegga is both the name of a tribe and used to identify the region in which the tribe lives. AW -->
+
+<lb/>They fall into <placeName><geogName type="lake" ref="geogName.xml#geog0019"><foreign xml:lang="lea"><term xml:lang="lea" ref="foreign-word.xml#frgn0018"><foreign xml:lang="swh"><term xml:lang="swh" ref="foreign-word.xml#frgn0019"><w>U-
+
+<lb break="no"/>-<choice><sic>irere</sic><corr>erere</corr></choice></w></term></foreign></term></foreign></geogName></placeName> <subst><del>-</del><add>?</add></subst> <placeName><geogName type="lake" ref="geogName.xml#geog0018"><persName ref="people.xml#pers0016">Baker</persName><unclear cert="medium">'s</unclear></geogName></placeName>
+
+<lb/>or what a
+
+<lb/><space extent="1" unit="words"/>"large water" -</p>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

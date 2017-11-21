@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000207">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment of 1870 Field Diary (LXX-LXXV), 12-23 December 1870</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+				<idno type="LEAP-ID">liv_000207</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno type="shelfmark">MS.10703, ff. 24-26</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 037</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Fragment of 1870 Field Diary (LXX-LXXV), 12-23 December 1870</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1870-12-12" to="1870-12-23">12-23 December 1870</date>
+                    <placeName type="compositionPlace">Bambarre</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+				<language ident="swh">Swahili</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+			<change when="2016-02-09" who="#AW">Coding corrections</change>
+			<change when="2015-04-02" who="#AW">Coding review</change>
+			<change when="2015-02-05" who="#HB">Quality control and integration</change>
+            <change when="2014-10-20" who="#AK">Proofing</change>
+			<change when="2014-10-07" who="#AW">Proofing</change>
+            <change when="2014-09-26" who="#MW">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<gb type="book-pages"/>
+
+	<pb facs="liv_000207_0001" n="LXX"/>
+	<!--<pb facs="NLS10703_070_024r_0_B_color" n="070"/>-->
+<lb/><p rend="no-indent"><fw n="heading_LXX">LXX.</fw> <term type="medicament"><choice><sic><term type="animal">Lion</term>s</sic><corr><term type="animal">Lion</term>'s</corr></choice> fat</term> is regarded as a sure preventative of <add place="marginright" rend="gray" hand="#U"><fw n="24">24</fw></add><!-- text goes here; use/change <fw> element as appropriate -->
+<lb/><term type="insect">Tsetse</term> or <foreign xml:lang="und"><term type="insect">Bungo</term></foreign> - This was noted before but I add now
+<lb/>that it is smeared on the <term type="animal">ox</term> tail - preserves hundreds of the
+<lb/><term type="tribe" ref="ethnic-group.xml#ethnic0014"><choice><orig>Banyamwesi</orig><reg>Nyamwezi</reg></choice></term> <term type="animal">cattle</term> in safely while going to <placeName><region>the Coast</region></placeName> -
+<lb/>It is also used to keep <gap extent="2" unit="chars" agent="blot"/> <term type="animal">pigs</term> and <term type="animal">Hippopotami</term>
+<lb/>away from gardens - - The smell is probably
+<lb/>the efficacious part in <foreign xml:lang="und">Heresi</foreign></p>
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><date when="1870-12-12">12 <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date> <space extent="2" unit="chars"/>It may all be for the best that I am so
+<lb/>hindered and compelled to inactivity - advance
+<lb/>to <placeName><settlement type="village">Lohombo</settlement></placeName> was the furthest point of <term type="occupation">traders</term>
+<lb/>for many a day - <orgName>slaves</orgName> returning with ivory
+<lb/>were speared mercilessly by <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> because
+<lb/>they did not know guns could kill &amp; their
+<lb/>spears could - <persName ref="people.xml#pers0065">Katomba</persName> coming to <persName ref="people.xml#pers0107">Moenekuss</persName>
+<lb/>was a great feat three or four years ago
+<lb/>Then <persName ref="people.xml#pers0035">Dugumbe</persName> went on to <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> and fought his
+<lb/>way - So I may be restrained now in mercy
+<lb/>till men come - those I had were not men nor
+<lb/>yet <orgName>slaves</orgName> - <orgName>Hybrids between <orgName>bond</orgName> &amp; <orgName>free</orgName></orgName> so petted <!-- Should bond and free be tagged here as in reference to types of slaves? HB --><!-- Sure, why not. AW -->
+<lb/><!--There is a lot of smudging here -AK-->&amp; coddled as <unclear cert="low">to think the</unclear> <term type="people">English</term> feared them</p>
+
+	<pb facs="liv_000207_0002" n="LXXI"/>
+	<!--<pb facs="NLS10703_071_024v_0_A_color" n="071"/>-->
+<lb/><p rend="no-indent"><fw n="heading_LXXI">LXXI</fw> The <term type="animal">Neggeri</term> an <orgName>African</orgName> animal attacks the
+<lb/>testicles of man and beast - cuts them off and retires
+<lb/>contented - <term type="animal">Buffaloes</term> are often castrated by him -
+<lb/>Men who know it squat down &amp; kill him with knife
+<lb/>or gun - <del type="strikethrough"><term type="animal">Lions</term> fear <subst><del><unclear cert="medium">him</unclear></del><add place="over-text">the</add></subst></del> <foreign xml:lang="und"><term type="animal"><del type="strikethrough">Z</del>ibu</term></foreign> or <foreign xml:lang="und"><term type="animal">Ratel</term></foreign><!--The line goes through the Z of "Zibu" but the schema wouldn't accept the "term" tag with the "del" tag inside it. MW --><!-- See how I've done it. I think I've got it right. Ashanka, what do you think? AW --><!--Not an expert, but it seems to work, so I think that might be the best solution! -AK-->
+<lb/><foreign xml:lang="und"><term type="animal">Zibu</term></foreign> or <foreign xml:lang="und"><term type="animal">Mbuidé</term></foreign> flies at the <foreign xml:lang="la">tendo</foreign> <persName ref="people.xml#pers0010"><choice><sic>achilles</sic><corr>Achilles</corr></choice></persName> =
+<lb/><term type="animal">Ratel</term>? - <space extent="3" unit="chars"/> <term type="animal"><foreign xml:lang="swh">Fisi</foreign> <foreign xml:lang="swh">ea</foreign> <foreign xml:lang="swh">Baharai</foreign></term> probably the <term type="animal">seal</term>
+<lb/>is abundant in the seas but the <term type="animal">Ratel</term> or <term type="animal">badger</term>
+<lb/>probably furnished the skins for the Tabernacle
+<lb/><term type="insect">Bees</term> <del type="strikethrough">die or</del> escape from his <del type="strikethrough">droppings</del>
+<lb/><del type="strikethrough">or</del> urine and he eats the <term type="foodstuff">honey</term> in safety -
+<lb/><term type="animal">Lions</term> &amp; all other animals fear his attacks of the heel
+<lb/><space extent="7" unit="words"/><add place="inspace" rend="small">about <space extent="1" unit="words"/>25 to a measure</add>
+<lb/>the <term type="tribe" ref="ethnic-group.xml#ethnic0002"><choice><orig>Babemba</orig><reg>Bemba</reg></choice></term> mix a handful of castor oil seeds with
+<lb/>the <term type="plant_foodstuff">dura</term> <add place="below">^</add> <add place="above">and</add> they <w><subst><del>pou</del><add place="over-text">gri</add></subst>nd</w> <add place ="above"><term type="plant_foodstuff">Meleza</term></add> = usages makes them like it
+<lb/><space extent="5" unit="words"/><add place="inspace" rend="small">is not <space extent="2" unit="words"/>perceptible <space extent="2" unit="chars"/>in <term type="foodstuff">porridge</term></add>
+<lb/>The nauseous taste and the <term type="foodstuff">oil</term> is needed where so
+<lb/>much farinaceous or starchy matter exists and
+<lb/><space extent="3" unit="chars"/><add place="inspace" rend="small">the bowels <space extent="2" unit="chars"/>are <space extent="2" unit="words"/>regulated by the mixture</add>
+<lb/>experience <add place="below">^</add> has taught them the need of a fatty ingredient</p>
+
+<!--<lb/>the <term type="tribe" ref="ethnic-group.xml#ethnic0002"><choice><orig>Babemba</orig><reg>Bemba</reg></choice></term> mix a handful <add place="above">about 25 to a measure</add> of castor oil seeds with
+<lb/>the <term type="plant_foodstuff">dura</term> <add place="below">^</add> <add place="above">and</add> they <w><subst><del>pou</del><add place="over-text">gri</add></subst>nd</w> <add place ="above"><term type="plant_foodstuff">Meleza</term></add> = usages makes them like it
+<lb/>The nauseous taste <add place="above">is not <space extent="2" unit="words"/>perceptible <space extent="2" unit="chars"/>in <term type="foodstuff">porridge</term></add> and the <term type="foodstuff">oil</term> is needed where so
+<lb/>much farinaceous or starchy matter exists and
+<lb/>experience <add place="below">^</add> <add place="above">the bowels <space extent="2" unit="chars"/>are <space extent="2" unit="words"/>regulated by the mixture</add> has taught them the need of a fatty ingredient</p>--><!-- Recoded this to improve transformation. AW -->
+
+<lb/><milestone unit="section" rend="line"/>
+<lb/><p rend="no-indent"><persName ref="people.xml#pers0103">Moamba</persName> - <persName ref="people.xml#pers0027">Chassa</persName> - brother of <choice><abbr>D<hi rend="sup underline">o</hi></abbr></choice> <placeName><geogName type="river" ref="geogName.xml#geog0037">Chambeze</geogName></placeName> = other brother of
+<lb/><persName ref="people.xml#pers0027">Chassa</persName> - <choice><abbr>D<hi rend="sup underline">o</hi></abbr></choice> in way - <persName>Moenewifa</persName> large country - <placeName><geogName type="mountain">Komanga</geogName></placeName>
+<lb/>and <measure>6 days</measure> to <placeName><settlement type="village">Barari</settlement></placeName> thence</p> <!-- I'm sure I've missed some tags here, but I couldn't be certain of my identifications. MW --><!-- Resolved. AW -->
+
+	<pb facs="liv_000207_0003" n="LXXII"/>
+	<!--<pb facs="NLS10703_072_025r_0_A_color" n="072"/>-->
+<lb/><p rend="no-indent"><fw n="heading_LXXII">LXXII.</fw> <persName ref="people.xml#pers0041">Goambari</persName> is a prisoner at <placeName><settlement type="village"><persName ref="people.xml#pers0098">Merere</persName>'s</settlement></placeName> guarded <add place="marginright" rend="gray" hand="#U"><fw n="25">25</fw></add>
+<lb/>by a thousand or more men to prevent him intriguing with
+<lb/><persName ref="people.xml#pers0122">Monyungo</persName> who is known as bloodthirsty - In the third
+<lb/>generation <choice><sic><persName ref="people.xml#pers0026"><choice><sic>charura</sic><corr>Charura</corr></choice></persName>'s</sic><corr><persName ref="people.xml#pers0026">Charura</persName>'s</corr></choice> descendants numbered sixty
+<lb/>able bodied <term type="occupation">spearmen</term> - <persName ref="people.xml#pers0038">Garahenga</persName> <add place="below">^</add> <add place="above">or <persName ref="people.xml#pers0038">Kimamure</persName></add> killed many of
+<lb/>them - <space extent="2" unit="chars"/> <persName ref="people.xml#pers0026"><choice><sic>charura</sic><corr>Charura</corr></choice></persName> had six white <term type="occupation">attendants</term> with
+<lb/>him but all died before he did and on becoming
+<lb/><term type="occupation">chief</term> he got all his <choice><sic>predecessors</sic><corr>predecessors'</corr></choice> wives - <persName ref="people.xml#pers0098">Merere</persName>
+<lb/>is the son of a woman of the royal stock and of a
+<lb/>common man - Hence he is a shade or two
+<lb/>darker than <persName ref="people.xml#pers0026">Charura</persName>'s descendants who are very
+<lb/>light coloured and have straight noses - <space extent="3" unit="chars"/>They
+<lb/>shave the head and straight hair is all cut off - 
+<lb/>they drink much <term type="foodstuff">milk</term> warm from the teats of the
+<lb/><term type="animal">cows</term> and think that it is strengthening by its heat.
+<lb/>The descent is <!-- What follows seems to be a genealogy of chiefs' rule. I'm not sure I've tagged and spelled everything correctly. MW --><!-- Resolved. AW --><list><item>1 <persName ref="people.xml#pers0026">Charura</persName> -</item> <item>2 <persName ref="people.xml#pers0116">Mokasi</persName> -</item> <item>3 <persName ref="people.xml#pers0114"><w>Moenye-
+<lb break="no"/>gumbe</w></persName> =</item> <item>4 <persName ref="people.xml#pers0098">Mamerere</persName> = <persName ref="people.xml#pers0098">Merere</persName> =</item></list> <persName ref="people.xml#pers0115">Mogandira</persName> son of 3
+<lb/>died after one <choice><orig>years</orig><reg>year's</reg></choice> rule - <persName ref="people.xml#pers0038">Kimamure</persName> a coward followed
+<lb/>2nd son of 3 made <persName ref="people.xml#pers0098">Merere</persName> <space extent="1" unit="words"/>general = <persName ref="people.xml#pers0041">Goambari</persName> called
+<lb/><persName ref="people.xml#pers0122">Monyungo</persName> to first <persName ref="people.xml#pers0098">Merere</persName> - <persName ref="people.xml#pers0038">Kimamure</persName> or otherwise <persName ref="people.xml#pers0038"><w>Garahen<supplied>-</supplied>
+<lb break="no"/>ga</w></persName> killed many by <persName ref="people.xml#pers0098">Merere</persName>'s hand - calls himself his <orgName>slave</orgName>
+<lb/>but rules him and all besides</p>
+
+	<pb facs="liv_000207_0004" n="LXXIII"/>
+	<!--<pb facs="NLS10703_073_025v_0_A_color" n="073"/>-->
+<lb/><p rend="no-indent"><fw n="heading_LXXIII">LXXIII</fw> <date when="1870-12-23"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 23<hi rend="sup underline">d</hi> 1870</date> - <orgName><placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> people</orgName> suffer hunger now
+<lb/>because they will not plant <term type="plant_foodstuff">cassava</term> - This <orgName><term type="occupation">trading</term> party</orgName> eats all
+<lb/>the <term type="plant_foodstuff">maize</term> and sends to a distance for more - <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> buy from
+<lb/>them with <foreign xml:lang="und"><term type="foodstuff">malofu</term></foreign> or <term type="foodstuff">Palm toddy</term> <!-- Since this is a beverage, I wasn't sure if I should mark as foodstuff. MW --><!-- Resolved. AW -->- <term type="plant_foodstuff">Rice</term> all coming into ear
+<lb/>but <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> planted more <space extent="3" unit="chars"/><term type="plant_foodstuff">Maize</term> ripening - <term type="animal">mice</term> a pest
+<lb/>a strong man among <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> does as he pleases &amp;
+<lb/>no <term type="occupation">chief</term> inteferes - a man's wife of ten <term type="animal">goats</term> was
+<lb/>given off to a <term type="tribe">Mene</term> man and his child now grown
+<lb/>is given away too - comes to <persName ref="people.xml#pers0002">Muhamad</persName> for redress
+<lb/>Two <term type="animal">Elephants</term> killed were very large but have
+<lb/>small tusks - They come from <placeName><region>South</region></placeName> in <seg type="weather">the rains</seg>
+<lb/>All animals as <term type="animal">elephants</term> <term type="animal">buffaloes</term> - <term type="animal">zebras</term>
+<lb/>are very large in <placeName><region ref="region.xml#region0014"><term type="tribe" ref="ethnic-group.xml#ethnic0015"><choice><orig>Basango</orig><reg>Sangu</reg></choice></term> country</region></placeName> - tusks full
+<lb/>in the <unclear cert="high">hollows</unclear> weigh very heavy - animals fat
+<lb/>&amp; good in flesh <space extent="4" unit="chars"/>Eleven <term type="animal">goats</term> for the flesh</p>
+<lb/><p><date when="1870-12-24">24<hi rend="sup underline">th</hi></date> Between 25 and 30 <orgName>slaves</orgName> have died in the present
+<lb/>epidemic - also many <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> - Two yesterday at
+<lb/><placeName><settlement type="village">Kandawara</settlement></placeName> - <space extent="3" unit="chars"/>The feet swell then the hands and 
+<lb/>face and in a day or two they drop dead - It came
+<lb/>from <placeName><region>the East</region></placeName> and is very fatal - few escape who take
+<lb/>it.</p><!-- Process staining at very lower edge of page. AW -->
+
+    <pb facs="liv_000207_0005" n="LXXIV"/>
+	<!--<pb facs="NLS10703_074_026r_0_A_color" n="074"/>-->
+<lb/><p rend="no-indent"><fw n="heading_LXXIV">LXXIV.</fw> <choice><sic>a</sic><corr>A</corr></choice> woman was accused of stealing <term type="plant_foodstuff">maize</term> - the <term type="occupation"><w>ch<gap extent="3" unit="chars" agent="hole"/><supplied cert="high">ief</supplied></w></term> <add place="above marginright" rend="gray"><fw n="26">26</fw></add>
+<lb/>here sent all <orgName>his people</orgName> yesterday - plundered all she had in <gap extent="1" unit="words" agent="hole"/><supplied cert="high">her</supplied>
+<lb/>house and garden and brought her husband bound in
+<lb/>thongs till he shall pay a <term type="animal">goat</term> -- She is said to be <w>inn<gap extent="5" unit="chars" agent="hole"/><supplied cert="high">ocent</supplied></w>
+<lb/><persName ref="people.xml#pers0109"><choice><orig>Monangoi</orig><reg>Moenemgoi</reg></choice></persName> does this by fear of the <term type="occupation">traders</term> here <w>an<gap extent="1" unit="chars" agent="hole"/><supplied>d</supplied></w>
+<lb/>as the people tell him as soon as they are gone th<w><gap extent="1" unit="chars" agent="hole"/><supplied>e</supplied></w>
+<lb/>vengeance he is earning by injustice on all sides
+<lb/>will be taken - I told the <term type="occupation">chief</term> that <space extent="2" unit="chars"/>his head would
+<lb/>be as also <persName ref="people.xml#pers0063">Kasessa</persName>'s.</p>
+<lb/><p>Three men went from <persName ref="people.xml#pers0065">Katomba</persName> to <placeName><settlement type="village" ref="settlement.xml#sett0005"><persName ref="people.xml#pers0064">Kasongo</persName>'s</settlement></placeName> to
+<lb/>buy <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0020">viramba</term></foreign><!-- This should probably be tagged, but I can't figure out what it is. Hopefully someone else has better Google skills. MW --><!-- It's cloth. You need look no further than our own critical edition of the 1871 diary: http://livingstone.library.ucla.edu/1871diary/terms_people_places.htm AW  --> - a man was speared belonging to
+<lb/><persName ref="people.xml#pers0064">Kasongo</persName> - these three then fired into a mass of <!-- Process staining at both left and right edges of this line. AW -->
+<lb/>men who collected one killed two another three &amp; so on <!-- It looks like "soon" but so on fits the context. AW -->
+<lb/>So now that place is shut up from <term type="occupation">traders</term> -
+<lb/>and all this country will be so as soon as the
+<lb/><term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> learn that guns are limited in their power
+<lb/>of killing and especially in the hands <space extent="2" unit="chars"/>of <orgName>slaves</orgName> who
+<lb/>cannot shoot but only make a noise - These <orgName ref="orgName.xml#org0024"><choice><orig>Suaheli</orig><reg>Swahili</reg></choice></orgName>
+<lb/>are the most cruel and bloodthirsty missionaries in
+<lb/>existence and withal so impure in talk &amp; acts - spreading
+<lb/><term type="ailment" ref="ailment.xml#ailm0021">syphilis</term> <term type="ailment" ref="ailment.xml#ailm0001">Buboes</term> &amp; <term type="ailment" ref="ailment.xml#ailm0002">chancres</term> -<!-- I'm not sure this is the correct use of "ailment." I believe buboes and chancres are symptoms/results of syphilis. MW --><!-- I've left it, but this is gray to say the least. AW --> The Lord sees it.</p>
+
+	<pb facs="liv_000207_0006" n="LXXV"/>
+	<!--<pb facs="NLS10703_075_026v_0_A_color" n="075"/>-->
+<!-- This page, especially at top and bottom, is a lot more stained damaged than any of the previous pages in this sequence. AW -->
+<lb/><p rend="no-indent"><fw n="heading_LXXV" rend="large">LXXV</fw> <date when="1870-12-28">28 Dec<hi rend="sup underline">r</hi> 1870</date> <persName ref="people.xml#pers0108">Moenembag</persName> the most intelligent of the <!-- Process staining in this corner. AW -->
+<lb/>two sons of <persName ref="people.xml#pers0107"><choice><orig>Moenekus</orig><reg>Moenekuss</reg></choice></persName> in power told us that a man was
+<lb/>killed &amp; eaten <measure>a few miles</measure> from this yesterday - Hunger the reason
+<lb/>assigned = on speaking of tainted meat he said that the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term>
+<lb/>put meat in water two days to make it putrid &amp; smell high = The
+<lb/>love of <hi rend="underline">high</hi> meat is the only reason I know for their cannibalism
+<lb/>but the practice is now hidden on account of the disgust that
+<lb/>the <term type="occupation">traders</term> expressed against open man eating when they
+<lb/>first arrived - <seg type="weather">Lightning very near us last night</seg> - The
+<lb/><term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> say that when it is so loud <term type="animal">fishes</term> of large
+<lb/>size fall with it - an opinion shared in with them
+<lb/>by the <orgName>Arabs</orgName> = <space extent="3" unit="chars"/>But the large <term type="animal">fish</term> is the <term type="animal"><foreign xml:lang="la">clarias</foreign> <foreign xml:lang="la">capensis</foreign></term>
+<lb/>of <persName>Smith</persName> and it is often seen migrating in single file
+<lb/>along the wet grass <measure>for miles</measure> - <space extent="2" unit="chars"/>It <space extent="2" unit="chars"/>is probably this
+<lb/>that the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> think falls from <seg type="weather">lightning</seg>.</p>
+<lb/><p rend="no-indent"><date when="1870-12-30">30<hi rend="sup underline">th</hi></date> <seg type="weather">Rain <space extent="2" unit="chars"/>daily</seg> - a woman murdered without cause
+<lb/>close by the camp - murderer said she is a witch &amp; <w>speare<gap extent="1" unit="chars" agent="hole"/><supplied cert="high">d</supplied></w><!-- The missing bits of DL's words indicate that this tear of the page occurred after the manuscript was written. AW -->
+<lb/>her - body exposed till affair is settled probably by fine of <w>g<gap extent="3" unit="chars" agent="hole"/></w>
+<lb/>the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> are the most bloody callous savages I
+<lb/>know - one puts a scarlet feather on ground and <w>challeng<gap extent="2" unit="chars" agent="hole"/><supplied cert="high">es</supplied></w>
+<lb/>those near to stick it in the hair - He who does so must kill a
+<lb/>man or woman - and so none dare wear skin of <term type="animal">musk <w>ca<gap extent="1" unit="chars" agent="hole"/><supplied cert="high">t</supplied></w></term>
+<lb/><foreign xml:lang="swh"><term type="animal">Ngawa</term></foreign> unless he has murdered - guns alone prevent them
+<lb/>from killing us all - and for no reason either.</p>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

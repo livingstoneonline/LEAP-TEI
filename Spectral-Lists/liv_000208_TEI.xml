@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000208">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment of 1870 Field Diary (LXXVI-[LXXVI]), 16 January 1871</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+                <respStmt xml:id="AK">
+                    <name>Ashanka Kumari</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+				<idno type="LEAP-ID">liv_000208</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">297b</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 037</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Fragment of 1870 Field Diary (LXXVI-[LXXVI]), 16 January 1871</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1871-01-16">16 January 1871</date>
+                    <placeName type="compositionPlace">Bambarre</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+			<change when="2016-02-09" who="#AW">Coding corrections</change>
+			<change when="2015-04-02" who="#AW">Coding review</change>
+            <change when="2015-02-05" who="#HB">Quality control and integration</change>    
+            <change when="2014-10-24" who="#AK">Proofing</change>
+            <change when="2014-10-08" who="#AW">Proofing</change>
+            <change when="2014-09-30" who="#MW">Initial transcription and TEI encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<gb type="book-pages"/>
+
+	<pb facs="liv_000208_0001" n="LXXVI"/>
+	<!--<pb facs="DLC 297b_076_002r_0_A_color" n="0076"/>-->
+<!-- Lots of unusual damage on this page and lots of changes in ink color - all is worth processing. The pseudo image already starts to bring this out. AW -->
+<!-- Ashanka, please review and, as needed, tweak the spacing between words on this page. Megan's marking of <space> was off; I tried to correct it, but was quite distracted in trying to ensure that everything else on this page was captured. aW --> <!--Comment resolved. -AK-->
+<lb/><p rend="no-indent"><fw n="heading_LXXVI" rend="large">LXXVI</fw> <date when="1871-01-16">16<hi rend="sup underline">th</hi> January 1871</date> Ramadan ended last <add place="marginright" rend="gray" hand="#U"><fw n="4">4</fw></add>
+<lb/>night and it is probable my people &amp; others from the
+<lb/><unclear cert="high">cohort</unclear> will begin to travel <add place="over-text" rend="gray"><metamark/></add><!-- There is undertext here in what appears to be pencil, running perpindicular to the main text. MW --><!-- This is one of those squiggles DL makes to test out his pen. I've used metamark plus over-text as it appears to me that the mark is written on top of DL's horizontal text. AW --> after<!-- Process discolored mark above foregoing "a" AW--> three days of feasting
+<lb/><seg type="weather">It has been so rainy</seg> I could have been done little though
+<lb/>I had had <add place="over-text" rend="gray vertical"><metamark/></add> people <add place="over-text" rend="gray vertical"><metamark/></add> <space extent="1" unit="words"/><add place="over-text" rend="gray vertical"><metamark/></add></p>
+<lb/><p rend="no-indent"><date when="1871-01-22">22<hi rend="sup underline">nd</hi></date> a party reported to be in the way hither - This
+<lb/>is likely enough - <add place="over-text" rend="gray vertical"><metamark/></add>but reports are so often false doubts
+<lb/>arise - <space extent="3" unit="chars"/> <persName ref="people.xml#pers0002">Muhamad</persName> says he will give men when the
+<lb/>party of <persName ref="people.xml#pers0047"><w><choice><sic>Hassa<space extent="4" unit="chars"/>ni</sic><corr>Hassani</corr></choice></w></persName><!-- Interesting splotches in this region worth processing. AW --> comes or when <persName ref="people.xml#pers0035">Dugumbe</persName>
+<lb/>arrives <space extent="2" unit="words"/>My <space extent="3" unit="words"/><orgName ref="orgName.xml#org0017">Nassickers</orgName> cooly assert
+<lb/>that they did <space extent="3" unit="chars"/>not <space extent="2" unit="words"/>desert <space extent="1" unit="words"/>after <space extent="1" unit="words"/>this
+<lb/>it will be <choice><sic><w>im- <space extent="3" unit="chars"/>possible</w></sic><corr>impossible</corr></choice> <space extent="2" unit="chars"/>to take the 
+<lb/>ringleaders<add place="over-text" rend="gray vertical"><metamark/></add> <space extent="2" unit="words"/>but <space extent="1" unit="words"/>some
+<lb/>will believe<add place="over-text" rend="gray vertical"><metamark/></add> <space extent="1" unit="words"/>them as <space extent="1" unit="words"/>for
+<lb/>instance <orgName><persName ref="people.xml#pers0188">M<hi rend="sup">r</hi> <space extent="2" unit="chars"/>Tozer</persName> &amp; Co</orgName></p>
+
+    <ab rend="gray black brown vertical">
+<figure><figDesc>Series of calculations over lower half of page in, apparently, pencil and different kinds of inks. In some cases Livingstone has inked over calculations and text. Text includes: "Chirubi", "middle", "S End", "Kipya", "Landsend", "Mpabali", "Sea Horizon", and "<placeName><settlement type="village" ref="settlement.xml#sett0005"><persName ref="people.xml#pers0064"><choice><orig>Kasonga</orig><reg>Kasongo</reg></choice></persName></settlement></placeName>".</figDesc></figure><!-- The text interspersed among these calculations really needs to be brought out with further processing. AW -->
+    </ab> 
+
+	<pb facs="liv_000208_0002" n="[LXXVI]"/>
+	<!--<pb facs="DLC 297b_076_002v_0_A_color" n="0076"/>-->
+<!-- What follows is my best guess at encoding the layout of the page with <cb/>, <lb/> etc -->
+<!-- Lots of blots on this page that could be processed. AW -->
+<cb rend="vertical"/>
+<lb/><p rend="no-indent"><add place="inspace" rend="gray" hand="#U"><fw n="7">7</fw></add></p>
+<lb/><space extent="10" unit="lines" dim="vertical"/>
+<lb/><figure><figDesc>Drawing of a map with the Equator at the top, Lake <placeName><geogName type="lake" ref="geogName.xml#geog0021">Chibungo</geogName></placeName> or <placeName><geogName type="lake" ref="geogName.xml#geog0021"><persName ref="people.xml#pers0075">Lincoln</persName></geogName></placeName>, Lake <placeName><geogName type="lake" ref="geogName.xml#geog0024">Moero</geogName></placeName>, and Lake <placeName><geogName type="lake" ref="geogName.xml#geog0025">Tanganyika</geogName></placeName>, with latitude markings.</figDesc></figure>
+<lb/><p rend="no-indent">There is no desert in all the
+<lb/>country said to be travelled over
+<lb/>It is every where fertile &amp; covered
+<lb/>with rank vegetation = this is the
+<lb/>most unlikely part of the tale</p>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-1870.xsl" type="text/xsl"?> 
+<!--<?xml-stylesheet href="transcription-1870.xsl" type="text/xsl"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000200">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment of 1870 Field Diary, 17, 24 August 1870</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Christopher Lawrence</principal>
+				<respStmt xml:id="AW">
+					<name>Adrian S. Wisnicki</name>
+					<resp>Transcription</resp>
+					<resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Coding Review</resp>
+				</respStmt>
+                <respStmt xml:id="MW">
+                    <name>Megan Ward</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                    <resp>Editorial Decisions</resp>
+                </respStmt>
+                <respStmt xml:id="HB">
+                    <name>Heather F. Ball</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+					<resp>Proofreading</resp>
+					<resp>Quality Control and Integration</resp>
+                </respStmt>
+				<respStmt xml:id="EM">
+                    <name>Alexander Munson</name>
+                    <resp>TEI Encoding</resp>
+					<resp>Proofreading</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2016</date>
+				<idno type="LEAP-ID">liv_000200</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Blantyre</settlement>
+                        <repository>David Livingstone Centre</repository>
+                        <idno type="shelfmark">297a</idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Field Diaries, 035</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title>Fragment of 1870 Field Diary, 17, 24 August 1870</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" from="1870-08-17" to="1870-08-24">17 and 24 August 1870</date>
+                    <placeName type="compositionPlace">Bambarre</placeName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<language ident="la">Latin</language>
+				<language ident="mg">Malagasy</language>
+				<language ident="und">Undetermined</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2016-04-27" who="#AW">Review and corrections</change>
+			<change when="2016-04-27" who="#EM">Addition of @refs</change>
+			<change when="2016-02-09" who="#AW">Coding corrections</change>
+			<change when="2015-04-02" who="#AW">Coding review</change>
+            <change when="2015-01-25" who="#HB">Proofing and quality control and integration</change> 
+            <change when="2014-05-29" who="#MW">Proofreading</change>        
+            <change when="2014-05-18" who="#AW">Proofreading and additional transcription</change>
+            <change when="2014-05-16" who="#MW">Initial transcription and XML encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<gb type="book-page-margins"/>
+
+	<!-- Megan, the various EIC comments below refer to the page numbers of the undertext. AW -->
+
+	<pb facs="liv_000200_0001" n="0001"/>
+	<!--<pb facs="DLC297a_001r_0_C_color" n="001r"/>--><!-- Process blots on this page. AW -->       
+<lb/><p rend="no-indent">for the isolation in which they live
+<lb/>The head of <persName ref="people.xml#pers0107">Moenekuss</persName> is said to be
+<lb/>preserved in a pot in his house
+<lb/>and all public <add place="above"><metamark/></add> matters are gravely
+
+	
+	<pb facs="liv_000200_0002" n="0002"/>
+	<!--<pb facs="DLC297a_001v_0_C_color" n="001v"/>--><!-- Process blots on this page. AW -->
+<lb/>communicated to it as if his spirit
+<lb/>dwelt therein - His body was eaten
+<lb/>The flesh removed from the head
+<lb/>and eaten too - His <choice><sic>fathers</sic><corr>father's</corr></choice> head is
+<lb/>said to <unclear cert="high">be kept</unclear> also</p>
+
+    
+	<pb facs="liv_000200_0003" n="0003"/>
+	<!--<pb facs="DLC297a_002r_0_C_color" n="002r"/>-->
+<lb/><p>The foregoing refers to <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName>
+<lb/>alone - In other districts graves <choice><orig>shew</orig><reg>show</reg></choice>
+<lb/>that <choice><orig>sepulture</orig><reg>sepulcher</reg></choice> is customary - Here no
+<lb/>grave appears - Some admit the
+
+    
+	<pb facs="liv_000200_0004" n="0004"/>
+	<!--<pb facs="DLC297a_002v_0_C_color" n="002v"/>-->
+<lb/>existence of the practice here - others
+<lb/>deny it - In the <placeName><region ref="region.xml#region0007"><foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0009"><placeName><region ref="region.xml#region0007"><geogName type="forest" ref="geogName.xml#geog0041">Metamba</geogName></region></placeName></term></foreign> country</region></placeName>
+<lb/>and <w>adjac<subst><del><gap extent="3" unit="chars"/></del><add place="over-text">ent</add></subst></w> to<!-- Megan, take a look at how I've done the <del><add> in this line. AW --> <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> - a quarrel with
+<lb/>a wife often ends in the husband killing
+<lb/>her and eating her heart mixed up
+
+    
+	<pb facs="liv_000200_0005" n="0005"/>
+	<!--<pb facs="DLC297a_003r_0_C_color" n="003r"/>-->
+<lb/>in a huge mess of <choice><sic><term type="animal">goat</term>s</sic><corr><term type="animal">goat</term>'s</corr></choice> flesh -
+<lb/>This has the charm character - fingers
+<lb/>are taken as charms in other parts 
+<lb/>In <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> alone is the depraved
+
+    
+	<pb facs="liv_000200_0006" n="0006"/>
+	<!--<pb facs="DLC297a_003v_0_C_color" n="003v"/>--><!-- Process bits at page bottom? AW -->
+<lb/>taste the motive for cannibalism</p><!-- I removed <space> for the empty space on this page. Not needed. Only do this for vertial space when it intervenes between lines and be sure to add dim="vertical" in those cases. AW -->
+
+    
+	<pb facs="liv_000200_0007" n="0007"/>
+	<!--<pb facs="DLC297a_004r_0_C_color" n="004r"/>--><!-- EIC 474 -->
+<lb/><p rend="no-indent"><unclear cert="medium">On</unclear><!-- Check processed images for this. AW --> <date when="1870-08-17">17<hi rend="sup">th</hi> August 1870</date> <persName ref="people.xml#pers0118">Monamyembo</persName>
+<lb/>the <term type="occupation">chief</term> who was punished by <persName ref="people.xml#pers0002"><choice><abbr>M</abbr><expan>Muhamad</expan></choice> Bogharib</persName>
+<lb/>lately came <add place="above"><metamark/></add> bring two <term type="animal">goats</term> - One
+<lb/>he gave to <persName ref="people.xml#pers0002">Muhamad</persName> the other to
+<lb/><persName ref="people.xml#pers0107"><choice><orig>Moenekus</orig><reg>Moenekuss</reg></choice></persName>' son acknowledging
+<lb/>that he had killed his elder brother
+    
+	<pb facs="liv_000200_0008" n="0008"/>
+	<!--<pb facs="DLC297a_004v_0_C_color" n="004v"/>--><!-- EIC 473 -->
+<lb/>He had killed eleven persons over
+<lb/><space extent="2" unit="words"/><add place="inspace" rend="small">in our <space extent="3" unit="words"/>absence</add>
+<lb/>at <placeName><geogName type="river" ref="geogName.xml#geog0040">Luamo</geogName></placeName> - in addition to those
+<!--<lb/>at <placeName><geogName type="river" ref="geogName.xml#geog0040">Luamo</geogName></placeName> <add place="above">in our <space extent="3" unit="words"/>absence</add> - in addition to those--><!-- Line recoded to improve transformation. AW -->
+<lb/>killed in villages on our <choice><abbr>SE</abbr><expan>South East</expan></choice> when
+<lb/>we were away - It transpired
+<lb/>that <persName ref="people.xml#pers0062"><w><subst><del>T</del><add place="over-text">K</add></subst>andahara</w></persName> brother of old
+<lb/><persName ref="people.xml#pers0107">Moenekuss</persName> whose village is
+
+	<pb facs="liv_000200_0009" n="0009"/>
+	<!--<pb facs="DLC297a_005r_0_C_color" n="005r"/>-->   
+<lb/>near this - killed 3 women &amp; a child and
+<lb/>that a <add place="below">^</add> <orgName><add place="above"><term type="occupation">trading</term></add> man</orgName> came over from <placeName><settlement type="village">Kasangangazi</settlement></placeName>
+<lb/>and was murdered too for no reason but
+<lb/>to eat his body - <persName ref="people.xml#pers0002">Muhamad</persName> ordered old
+<lb/><persName ref="people.xml#pers0062"><choice><orig><w>Tanda<add place="over-text">h</add>ara</w></orig><reg>Kandahara</reg></choice></persName><!-- This is transcribed as "Kandahara" in the Last Journals, but it looks like an "L" to me. MW. --><!-- See how I've corrected it. AW --> to <subst><del><gap extent="1" unit="words" agent="overwriting"/></del><add place="over-text">bring</add></subst> ten goats and take <!-- The addition in this line looks like a different color. Worth processing? AW -->
+		
+	<pb facs="liv_000200_0010" n="0010"/>
+	<!--<pb facs="DLC297a_005v_0_C_color" n="005v"/>--><!-- Process blots on this page. AW -->   
+<lb/>them over to <placeName><settlement type="village">Kasangangazi</settlement></placeName> to pay
+<lb/>for the murdered <subst><del><gap extent="1" unit="words" agent="overwriting"/></del><add place="over-text">man</add></subst> - When they <!-- The addition in this line looks like a different color. Worth processing? AW -->
+<lb/>tell of each other's deeds they disclose
+<lb/>a horrid state of bloodthirsty callousness
+	
+	<pb facs="liv_000200_0011" n="0011"/>
+	<!--<pb facs="DLC297a_006r_0_C_color" n="006r"/>-->
+<lb/>People over hill <choice><abbr>NNE</abbr><expan>North North East</expan></choice> of this killed a
+<lb/>person out hoeing - if a cultivator is alone
+<lb/>he is almost sure of being slain.</p>
+<lb/><p>Some said that people in the vicinity
+<lb/>or <term type="animal"><choice><orig>hyaenas</orig><reg>hyenas</reg></choice></term> stole the buried dead, but
+<lb/><persName ref="people.xml#pers0145">Posho</persName>'s wife died and in <term type="tribe" ref="ethnic-group.xml#ethnic0014"><choice><orig>Wanyamesi</orig><reg>Nyamwezi</reg></choice></term>
+    
+	<pb facs="liv_000200_0012" n="0012"/>
+	<!--<pb facs="DLC297a_006v_0_C_color" n="006v"/>-->
+<lb/>fashion was thrown out of camp <w>un<supplied>-</supplied>
+<lb break="no"/>buried</w> - <persName ref="people.xml#pers0002">Muhamad</persName> threatened an attack if
+<lb/><term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> did not cease exhuming the 
+<lb/>dead - it was effectual - neither men nor
+<lb/><term type="animal"><choice><orig>hyaenas</orig><reg>hyenas</reg></choice></term> touched her though exposed now
+<lb/>for <measure>seven days</measure> <date when="1870-08-24">24<hi rend="sup">th</hi> August 1870</date></p><!-- Though it seems right, I'm not sure we should put a <p> before the date here. AW -->
+    
+	<pb facs="liv_000200_0013" n="0013"/>
+	<!--<pb facs="DLC297a_007r_0_C_color" n="007r"/>--><!-- EIC foootnote -->
+<lb/><p><space extent="1" unit="words"/>When the <seg type="weather">rains ceased</seg> in <date when="1870-06">June</date><!-- Megan, note the corrections I've made to this line. AW -->
+<lb/>I wished to go Northwards along the 
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> &amp; buy a canoe but my
+<lb/><term type="occupation">attendants</term> professed fear of the water</p>
+<lb/><p>I then promised not to buy a canoe
+<lb/><lb/>
+    
+	<pb facs="liv_000200_0014" n="0014"/>
+	<!--<pb facs="DLC297a_007v_0_C_color" n="007v"/>--><!-- EIC footnote -->
+<lb/>but this elicited that they were determined
+<lb/>not to go at all - the head <orgName>Arabs</orgName> told
+<lb/>me that they were in the habit of going
+<lb/>to the women whose husbands were
+<lb/>away and getting food and spending
+<lb/>the night with them <space extent="1" unit="words"/>- They then
+    
+	<pb facs="liv_000200_0015" n="0015"/>
+	<!--<pb facs="DLC297a_008r_0_C_color" n="008r"/>--><!-- EIC footnote -->
+<lb/>refused rations - not understanding 
+<lb/>why I <choice><orig>enquired</orig><reg>inquiried</reg></choice> the reason = they replied <!-- Megan, note changes in this line. Also note that DL often runs "I" onto other words, so just separate silently. AW -->
+<lb/>that the beads were not enough - the
+<lb/><orgName>Arabs</orgName> said "they are about to desert<unclear cert="medium">"</unclear> &amp;
+<lb/><choice><sic>'</sic><corr>"</corr></choice>that is a <orgName>slave</orgName> custom<supplied cert="medium">"</supplied> -</p>
+	
+	<pb facs="liv_000200_0016" n="0016"/>
+	<!--<pb facs="DLC297a_008v_0_C_color" n="008v"/>--><!-- EIC footnote -->
+<lb/><p rend="no-indent">I <w>spo<subst><del><gap extent="2" unit="chars" agent="overwriting"/></del><add>k</add></subst>e</w> long to them advising them
+<lb/>earnestly not to desert &amp; lose all their
+<lb/>arrears of pay - - But on going out
+<lb/>from me one called out <space extent="1" unit="words"/>"Who
+<lb/>will he get to carry his
+    
+	<pb facs="liv_000200_0017" n="0017"/>
+	<!--<pb facs="DLC297a_009r_0_C_color" n="009r"/>-->
+<lb/>things" - then a loud <supplied>"</supplied>Ha ha ha<supplied>"</supplied> to make
+<lb/>me hear it. On telling them that <persName ref="people.xml#pers0158">Seyed
+<lb/>Majid</persName> had punished those who deserted
+<lb/><persName ref="people.xml#pers0170">Speke</persName> &amp; the <term type="occupation">consul</term> would certainly be
+<lb/>angry to hear that I had been thrown
+<lb/>away by them in the middle of the cannibal
+    
+	<pb facs="liv_000200_0018" n="0018"/>
+	<!--<pb facs="DLC297a_009v_0_C_color" n="009v"/>--><!-- EIC footnote -->
+<lb/>country where I could get no <term type="occupation">carriers</term>
+<lb/>as the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> will not go to the next
+<lb/>village - <persName ref="people.xml#pers0168">Simon</persName> said "give me a bit
+<lb/>of paper to tell that I am a very bad
+<lb/>boy" - This was supposed to be witty
+<lb/>&amp; he added <supplied>"</supplied>let <persName ref="people.xml#pers0158">Seyed Majid</persName> chain
+
+	<pb facs="liv_000200_0019" n="0019"/>
+	<!--<pb facs="DLC297a_0010r_0_C_color" n="0010r"/>-->
+<lb/>me - beat me - shoot me<choice><sic>'</sic><corr>"</corr></choice> I <choice><sic>want</sic><corr>wanted</corr></choice> to go to <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName>
+<lb/><persName ref="people.xml#pers0008">Abram</persName> said the others intended to throw down my
+<lb/>bundles &amp; run away in the forest - "He was <unclear cert="medium">tired</unclear>
+<lb/>with seven <choice><sic>years</sic><corr>years'</corr></choice> work" These two are the <unclear cert="medium">bring</unclear> <gap extent="1" unit="words" agent="fading"/><!-- Spectral processing may help here or Agnes's transciption. Same for next line. AW -->
+<lb/><persName ref="people.xml#pers0065">Katomba</persName> at whose voice they trembled <unclear cert="medium">spel<gap extent="2" unit="words" agent="fading"/></unclear>
+    
+	<pb facs="liv_000200_0020" n="0020"/>
+	<!--<pb facs="DLC297a_0010v_0_C_color" n="0010v"/>--><!-- Spectral processing on left-hand side of the page. AW -->
+<lb/>in <unclear cert="medium"><w><gap extent="2" unit="chars" agent="fading"/>ly</w></unclear> &amp; they said they would go but seeing
+<lb/><unclear cert="medium"><w><gap extent="3" unit="chars" agent="fading"/><supplied cert="medium">tha</supplied>t</w></unclear> he did nothing again refused - The knowledge
+<lb/><unclear cert="medium">that</unclear> I <choice><sic>wont</sic><corr>won't</corr></choice> punish as the <orgName>Arabs</orgName> do is the
+<lb/><w><gap extent="1" unit="chars" agent="fading"/><supplied cert="medium">r</supplied>eason</w> on their desertion - the murders
+<lb/><unclear cert="medium">they</unclear> committed at <placeName><settlement type="village">Kabuire</settlement></placeName> <w>dest<gap extent="2" unit="chars" agent="blot"/><supplied>ro</supplied>yed</w> what
+    
+	<pb facs="liv_000200_0021" n="0021"/>
+	<!--<pb facs="DLC297a_0011r_0_C_color" n="0011r"/>-->
+<lb/>little of moral nature they possessed - I would
+<lb/>not have brought them from <placeName><settlement type="village" ref="settlement.xml#sett0014">Ujiji</settlement></placeName> as the <unclear cert="medium">deterioration</unclear>
+<lb/>was then visible in stealing from me to pay their
+<lb/>prostitutes but <persName ref="people.xml#pers0183">Thani</persName> behaved so strangely to
+<lb/><bibl>my packet of letters</bibl>, refusing it - than send
+
+	<pb facs="liv_000200_0022" n="0022"/>
+	<!--<pb facs="DLC297a_0011v_0_C_color" n="0011v"/>-->
+<lb/>it back "because he did not know the contents"
+<lb/>I feared its destruction and then I should be
+<lb/>waiting for other men from <placeName><geogName type="island" ref="geogName.xml#geog0060">Zanzibar</geogName></placeName> in vain
+<lb/>I therefore strained my utmost to finish up
+<lb/><choice><sic>up</sic><corr/></choice> my work with what I had
+
+    <pb facs="liv_000200_0023" n="0023"/>
+	<!--<pb facs="DLC297a_0012r_0_C_color" n="0012r"/>--><!-- EIC right margin -->
+<lb/>But now these worthless <orgName>slaves</orgName> had me
+<lb/>at their mercy &amp; wished to be masters - to take
+<lb/>what beads they chose and go or remain just
+<lb/>as it suited their fancy - they thought that
+
+	<pb facs="liv_000200_0024" n="0024"/>
+	<!--<pb facs="DLC297a_0012v_0_C_color" n="0012v"/>--><!-- EIC left margin -->
+<lb/>I did not know where they got food and when
+<lb/>declaring their rations of beads too small they
+<lb/>bought grass cloth clothing, knives spears
+<lb/>and <term type="foodstuff">dainties</term> - With three <persName ref="people.xml#pers0179">Susi</persName> - <persName ref="people.xml#pers0029">Chuma</persName> <!-- Adrian, if dainties are candies should they be tagged as foodstuff? HB --><!-- Done. AW -->
+
+    <pb facs="liv_000200_0025" n="0025"/>
+	<!--<pb facs="DLC297a_0013r_0_C_color" n="0013r"/>-->
+<lb/>and <persName ref="people.xml#pers0039">Gardner</persName> I set off - intending to join <persName ref="people.xml#pers0002"><choice><abbr>M-</abbr><expan>Muhamad</expan></choice>
+<lb/>Bogharib</persName> or <persName ref="people.xml#pers0058">Josuf</persName> on <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> -  We went
+<lb/>with three <term type="occupation">deputies</term> from the head <orgName>Arabs</orgName> &amp;
+<lb/>their <orgName>slaves</orgName> - but they hated me &amp; tried to get
+
+<!-- AW transcription begins -->
+			
+    <pb facs="liv_000200_0026" n="0026"/>
+	<!--<pb facs="DLC297a_0013v_0_C_color" n="0013v"/>--><!-- EIC left margin -->
+<lb/>away from me - I however kept up and
+<lb/>on the fourth day passed through nine villages
+<lb/>destroyed by the worthies who did not wish
+<lb/>me to see more of their work - Then
+
+    <pb facs="liv_000200_0027" n="0027"/>
+	<!--<pb facs="DLC297a_0014r_0_C_color" n="0014r"/>--><!-- EIC right margin -->
+<lb/>met with <persName ref="people.xml#pers0002"><choice><orig>Mohamad</orig><reg>Muhamad</reg></choice> Bogharib</persName> &amp; <persName ref="people.xml#pers0058"><choice><orig>Josuph</orig><reg>Josuf</reg></choice></persName> coming
+<lb/>back from <placeName><settlement type="village" ref="settlement.xml#sett0005"><persName ref="people.xml#pers0064">Kasongo</persName>'s</settlement></placeName> - I slept at a village
+<lb/>a little way from them &amp; was met in morning
+<lb/>with the news that a man of the party which
+
+    <pb facs="liv_000200_0028" n="0028"/>
+	<!--<pb facs="DLC297a_0014v_0_C_color" n="0014v"/>--><!-- EIC left margin -->
+<lb/>eschewed <app><rdg>any</rdg><rdg>my</rdg></app> company had been stabbed by
+<lb/>night in revenge for the slaughter of relatives
+<lb/>&amp; burning of nine villages - <persName ref="people.xml#pers0002"><choice><orig>Mohamad</orig><reg>Muhamad</reg></choice></persName>
+<lb/>refused to engage in a wholesale manner
+
+    <pb facs="liv_000200_0029" n="0029"/>
+	<!--<pb facs="DLC297a_0015r_0_C_color" n="0015r"/>--><!-- EIC right margin -->
+<lb/>to revenge the dead one and seeing that I had no
+<lb/>friend &amp; only three people I turned back - the
+<lb/>mud was grievous &amp; as I waded it all
+<lb/>my feet were torn to pieces and <term type="ailment" ref="ailment.xml#ailm0015">irritable
+
+    <pb facs="liv_000200_0030" n="0030"/>
+	<!--<pb facs="DLC297a_0015v_0_C_color" n="0015v"/>--><!-- EIC left margin -->
+<lb/>eating ulcers</term> begun which have <w>dis-
+<lb break="no"/>abled</w> me ever since - I now spoke with my
+<lb/>friend <persName ref="people.xml#pers0002">Muhamad</persName> and he offered to go with <!-- DL spells it both Mohamad and Muhamad. I've arbitrarily decided to treat the latter as the "normal" version. AW -->
+<lb/>me to see <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> from <placeName><geogName type="river" ref="geogName.xml#geog0040">Luamo</geogName></placeName> - but
+
+    <pb facs="liv_000200_0031" n="0031"/>
+	<!--<pb facs="DLC297a_0016r_0_C_color" n="0016r"/>--><!-- EIC right margin -->
+<lb/>I explained that merely to see &amp; measure
+<lb/>its depth would not do - I must see whither
+<lb/>it went - This would require a number of his
+<lb/>people in lieu of my deserters &amp; <add place="inspace">to</add> take
+
+    <pb facs="liv_000200_0032" n="0032"/>
+	<!--<pb facs="DLC297a_0016v_0_C_color" n="0016v"/>-->
+<lb/>them away from his ivory trade which
+<lb/>at present is like gold digging - <subst><del>To</del><add place="over-text">^</add> <add place="above">I must</add></subst> make
+<lb/>amends &amp; I offered him two thousands
+<lb/>Rupees &amp; a gun worth seven hundred
+
+    <pb facs="liv_000200_0033" n="0033"/>
+	<!--<pb facs="DLC297a_0017r_0_C_color" n="0017r"/>-->
+<lb/><choice><abbr>Rs.</abbr><expan>Rupees</expan></choice> 2700 in all on £270. He agreed &amp; should
+<lb/>he enable me to finish up my work in one
+<lb/>trip down <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> &amp; round to <placeName><geogName type="river" ref="geogName.xml#geog0029">Lualaba West</geogName></placeName>
+<lb/>it would be a great favour - The severe
+
+    <pb facs="liv_000200_0034" n="0034"/>
+	<!--<pb facs="DLC297a_0017v_0_C_color" n="0017v"/>-->
+<lb/><term type="ailment">Pneumonia</term> in <placeName><settlement type="village">Marungu</settlement></placeName> - the <term type="ailment" ref="ailment.xml#ailm0005">choleraic
+<lb/>complaint</term> in <placeName><region ref="region.xml#region0013">Manyema</region></placeName> &amp; now <term type="ailment" ref="ailment.xml#ailm0015">irritable
+<lb/>ulcers</term> warn me to retire while life lasts -
+<lb/><orgName><persName ref="people.xml#pers0002">Muhamad</persName><choice><sic>s</sic><corr>'s</corr></choice> people</orgName> went North &amp; East <add place="below">&amp; West</add> <!-- This could also be tagged as <add place="below"> on the previous line --><!-- I amended to suggestion to fit previous transcriptions. HB -->
+
+    <pb facs="liv_000200_0035" n="0035"/>
+	<!--<pb facs="DLC297a_0018r_0_C_color" n="0018r"/>-->
+<lb/>from <placeName><settlement type="village" ref="settlement.xml#sett0005"><persName ref="people.xml#pers0064">Kasongo</persName>'s</settlement></placeName> - <measure>16 Marches North</measure> = - <measure>10 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice>
+<lb/>West</measure> - and <measure>4 <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <choice><abbr>E. &amp; SE.</abbr><expan>East &amp; South-East</expan></choice></measure> - The average march
+<lb/>was <measure>6<choice><orig>½</orig><reg>1/2</reg></choice> hours</measure> <measure>say 12' about 200' North <add place="above">&amp;</add> <choice><abbr>W</abbr><expan>West</expan></choice>
+<lb/><choice><abbr>Lat.</abbr><expan>Latitude</expan></choice> of <placeName><settlement type="village" ref="settlement.xml#sett0005"><persName ref="people.xml#pers0064">Kasongo</persName></settlement></placeName> say 4° South</measure> - they may
+
+    <pb facs="liv_000200_0036" n="0036"/>
+	<!--<pb facs="DLC297a_0018v_0_C_color" n="0018v"/>-->
+<lb/>have reached <measure>1°-2°<choice><abbr>S.</abbr><expan>South</expan></choice></measure> They were now in the 
+<lb/><placeName><region ref="region.xml#region0007"><choice><orig><term type="tribe" ref="ethnic-group.xml#ethnic0009"><choice><orig>Balegga</orig><reg>Lega</reg></choice></term> country</orig><reg>Legaland</reg></choice></region></placeName> &amp; turned - It was all
+<lb/>dense forest - never saw <add place="below">^</add> <add place="above">the</add> sun except when
+<lb/>at a village &amp; then the villages were <gap extent="1" unit="words"/>
+
+    <pb facs="liv_000200_0037" n="0037"/>
+	<!--<pb facs="DLC297a_0019r_0_C_color" n="0019r"/>-->
+<lb/>apart People very fond of <term type="animal">sheep</term> which
+<lb/>they call <foreign xml:lang="swh"><term type="animal">Ngombe</term></foreign> <!-- Context suggests that the language is a form of Lega, for instance, Shabunda Lega or (much less likely) Mwenga Lega. However, given that this word came from the Arab traders and is also Swahili, that last named language is most likely. AW --> or <term type="animal">ox</term> - tusks never used -
+<lb/>They went off to where an <term type="animal">elephant</term> had formerly
+<lb/>been killed &amp; brought the tusks rotted and eaten
+
+    <pb facs="liv_000200_0038" n="0038"/>
+	<!--<pb facs="DLC297a_0019v_0_C_color" n="0019v"/>--><!-- EIC right margin -->
+<lb/>or gnawed by "<foreign xml:lang="swh"><term type="animal">Dezi</term></foreign>" a <term type="animal">Rodent</term> probably the
+<lb/><term type="animal"><foreign xml:lang="la"><app><rdg>aulo</rdg><rdg>anlo</rdg></app></foreign> <foreign xml:lang="la"><app><rdg>candatus</rdg><rdg>caudatus</rdg></app></foreign> <foreign xml:lang="la">swindermanus</foreign></term> - <space extent="2" unit="chars"/>Three <add place="below">^</add> <add place="above">large</add> rivers
+<lb/>were crossed <measure>breast &amp; chin deep</measure> - In one
+<lb/>they were five hours and a man in a
+ 
+    <pb facs="liv_000200_0039" n="0039"/>
+	<!--<pb facs="DLC297a_0020r_0_C_color" n="0020r"/>--><!-- Stains for processing. AW -->
+<lb/>small canoe went ahead sounding for water
+<lb/>capable of being waded - much water &amp; mud
+<lb/>in the forest = <unclear cert="medium"><metamark/></unclear> This report makes me thankful
+<lb/>I did not go for I should have seen nothing -
+<lb/>and been worn out by fatigue &amp; mud</p>
+
+    <pb facs="liv_000200_0040" n="0040"/>
+	<!--<pb facs="DLC297a_0020v_0_C_color" n="0020v"/>--><!-- Stains for processing. AW -->
+<lb/><p rend="no-indent">The <placeName><geogName type="river">river of the <placeName><region>Metunda</region></placeName></geogName></placeName> had black water
+<lb/>and <measure>2 hours to cross it - breast deep</measure>
+<lb/><placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Mohungu</geogName></placeName> = <measure>breast deep</measure> -
+<lb/><placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> of <placeName><region>Mbite</region></placeName></geogName></placeName> also large 
+<lb/><add place="marginright"><metamark/><lb/>crossed about <lb/>40 smaller rivers</add>
+
+    <pb facs="liv_000200_0041" n="0041"/>
+	<!--<pb facs="DLC297a_0021r_0_C_color" n="0021r"/>--><!-- EIC right margin --><!-- Stains for processing. AW -->
+<lb/>All along <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> &amp; <foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0009"><placeName><region ref="region.xml#region0007"><geogName type="forest" ref="geogName.xml#geog0041"><choice><orig>Metambe</orig><reg>Metamba</reg></choice></geogName></region></placeName></term></foreign> the <term type="animal">sheep</term>
+<lb/><w>ar<del><gap extent="1" unit="chars" agent="overwriting"/></del>e</w> hairy dewlaps = no wool = <orgName>Tartar</orgName>
+<lb/>breed? <space extent="1" unit="words"/>small thin tails -</p>
+
+    <pb facs="liv_000200_0042" n="0042"/>
+	<!--<pb facs="DLC297a_0021v_0_C_color" n="0021v"/>--><!-- EIC left margin -->
+<lb/><p rend="no-indent"><choice><sic>a</sic><corr>A</corr></choice> broad belt of meadowland with no
+<lb/>trees lies along <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> - Beyond that it
+<lb/>is all dense forest<choice><sic>.</sic><corr> -</corr></choice> and trees so large
+<lb/>one lying across path is breast high
+<lb/>clearances exist only around <unclear cert="high">villages</unclear>
+
+    <pb facs="liv_000200_0043" n="0043"/>
+	<!--<pb facs="DLC297a_0022r_0_C_color" n="0022r"/>--><!-- EIC 492 -->
+<lb/>People very expert <term type="occupation">smiths</term> and
+<lb/><term type="occupation">weavers</term> of the "<foreign xml:lang="mg"><term xml:lang="mg" ref="foreign-word.xml#frgn0006"><hi rend="underline">Lamba</hi></term></foreign>" - make fine large
+<lb/>spears knives and needles = <w>Market-
+<lb break="no"/>places</w> called "<foreign xml:lang="und"><term xml:lang="und" ref="foreign-word.xml#frgn0014">Soko</term></foreign>" - numerous all
+<lb/>along <placeName><geogName type="river" ref="geogName.xml#geog0033">Lualaba</geogName></placeName> - To these the <term type="tribe" ref="ethnic-group.xml#ethnic0017"><choice><orig>Barua</orig><reg>Luba</reg></choice></term>
+
+    <pb facs="liv_000200_0044" n="0044"/>
+	<!--<pb facs="DLC297a_0022v_0_C_color" n="0022v"/>--><!-- EIC 491 -->
+<lb/>of the other bank come daily in large
+<lb/>canoes bringing grass cloth, <term type="foodstuff">salt</term>, <term type="plant_foodstuff">flour</term>,
+<lb/><term type="plant_foodstuff">cassava</term>, <term type="animal">fowls</term> - <term type="animal">goats</term> - <term type="animal">pigs</term> &amp; <orgName>slaves</orgName> =<!-- Occupation might not be right for slaves. AW --><!-- Changed to orgName as per new encoding guildelines. MW -->
+<lb/>Women beautiful with straight noses
+<lb/>and well clothed <space extent="2" unit="chars"/>When the men
+
+    <pb facs="liv_000200_0045" n="0045"/>
+	<!--<pb facs="DLC297a_0023r_0_C_color" n="0023r"/>--><!-- EIC 490 -->
+<lb/>of districts are at war the women take
+<lb/>their goods to market as if at peace and
+<lb/>are never molested - all are very keen
+<lb/><term type="occupation">traders</term> buying one thing with another &amp;
+<lb/>changing back again and any gain
+<lb/>made is one of the enjoyments of life -</p>
+
+    <pb facs="liv_000200_0046" n="0046"/>
+	<!--<pb facs="DLC297a_0023v_0_C_color" n="0023v"/>--><!-- EIC 489 -->
+<lb/><p>I knew that my people hoped to be
+<lb/>fed by <persName ref="people.xml#pers0002">Muhamad Bogharib</persName> when
+<lb/>we left the camp at <placeName><settlement type="village" ref="settlement.xml#sett0017">Mamohela</settlement></placeName>
+<lb/>but he told them that he would not
+<lb/>have them - <unclear cert="high">This</unclear> took them aback -
+<lb/>but they went &amp; lifted his ivory
+
+    <pb facs="liv_000200_0047" n="0047"/>
+	<!--<pb facs="DLC297a_0024r_0_C_color" n="0024r"/>--><!-- EIC 488 -->
+<lb/>for him and when a parley was thus
+<lb/>brought about talked him over saying
+<lb/>that they would go to me &amp; do all I
+<lb/>desired - never came - but as no
+<lb/>one else would take them I gave
+<lb/>them three loads to go to <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName>
+ 
+    <pb facs="liv_000200_0048" n="0048"/>
+	<!--<pb facs="DLC297a_0024v_0_C_color" n="0024v"/>--><!-- EIC 487 -->
+<lb/>There they told <persName ref="people.xml#pers0002">Muhamad</persName> that I would
+<lb/>not give them their beads &amp; They did not like
+<lb/>to steal <add place="above"><metamark/></add> - They were now trying to get
+<lb/>his food by lies - I invited them 3
+<lb/>times to come &amp; take beads but having
+<lb/>supplies of food from the camp
+
+    <pb facs="liv_000200_0049" n="0049"/>
+	<!--<pb facs="DLC297a_0025r_0_C_color" n="0025r"/>--><!-- EIC 486 -->
+<lb/>women they hoped to get the upper
+<lb/>hand with me and take what they
+<lb/>liked by refusing to carry or work
+<lb/><persName ref="people.xml#pers0002"><orig>Mohamad</orig><reg>Muhamad</reg></persName> spoke long to them but speaking
+<lb/>mildly makes them images that the 
+<lb/><term type="occupation">spokesman</term> is afraid fo them - They
+
+    <pb facs="liv_000200_0050" n="0050"/>
+	<!--<pb facs="DLC297a_0025v_0_C_color" n="0025v"/>--><!-- EIC 485 -->
+<lb/><choice><sic>they</sic><corr/></choice> kept away from my work &amp;
+<lb/>would fain join <persName ref="people.xml#pers0002">Muhamad</persName>'s but he
+<lb/><choice><sic>wont</sic><corr>won't</corr></choice> have them - I gave beads to
+<lb/>all but the two ringleaders - their
+<lb/>conduct looks as if a quarrel had
+<lb/>taken place between us but no such
+
+    <pb facs="liv_000200_0051" n="0051"/>
+	<!--<pb facs="DLC297a_0026r_0_C_color" n="0026r"/>--><!-- EIC 484 -->
+<lb/>excuse have they - on leaving <orgName ref="orgName.xml#org0002"><placeName><settlement type="city" ref="settlement.xml#sett0010">Nassick</settlement></placeName>
+<lb/><orgName>African</orgName> Asylum</orgName> where they had been
+<lb/>clothed fed &amp; taught for years they
+<lb/>sent an anonymous note to me abusing
+<lb/>all the <term type="occupation">teachers</term> &amp; complaining of
+
+    <pb facs="liv_000200_0052" n="0052"/>
+	<!--<pb facs="DLC297a_0026v_0_C_color" n="0026v"/>--><!-- EIC 483 -->
+<lb/>bad treatment - They were sent to their own
+<lb/>people but had all been <orgName>slaves</orgName> and
+<lb/>remained with me only to escape being
+<lb/>made to work again - If the <orgName>freed men</orgName> <!-- Adrian, I am tagging freed men as orgName since it is in line with slavery, but let me know if incorrect and I will delete. HB -->
+<lb/>in <placeName><bloc><country>America</country></bloc></placeName> turn out well it
+<lb/>will be because they were taught
+
+    <pb facs="liv_000200_0053" n="0053"/>
+	<!--<pb facs="DLC297a_0027r_0_C_color" n="0027r"/>--><!-- EIC 482 -->
+<lb/>to work - These might either work play
+<lb/>or do nothing at <placeName><settlement type="city" ref="settlement.xml#sett0010">Nassick</settlement></placeName> &amp; not one of
+<lb/>them could handle a tool = they hoped
+<lb/>for long to get back to a life of idleness
+<lb/>and such as they described would have
+ 
+    <pb facs="liv_000200_0054" n="0054"/>
+	<!--<pb facs="DLC297a_0027v_0_C_color" n="0027v"/>--><!-- EIC 481 -->
+<lb/>any <term type="nationality">English</term> boys - the <term type="occupation">teacher</term> feared
+<lb/>that if punished for idleness they
+<lb/>would run away &amp; bring discredit
+<lb/>on the <orgName ref="orgName.xml#org0002">Asylum</orgName> They were of the lowest
+<lb/>or criminal class in <placeName><bloc>Africa</bloc></placeName>
+
+    <pb facs="liv_000200_0055" n="0055"/>
+	<!--<pb facs="DLC297a_0028r_0_C_color" n="0028r"/>--><!-- EIC 480 -->
+<lb/>and boasted in my hearing that
+<lb/>when fed to the <unclear cert="high">full</unclear> they stole <term type="animal">pigs</term> - kept
+<lb/><space extent="2" unit="chars"/> <add place="inspace" rend="small">&amp; fattened them with their <space extent="3" unit="words"/>extra food</add>
+<lb/>them <add place="below" rend="small">^</add> at the school &amp; killed &amp; <choice><sic>eat</sic><corr>ate</corr></choice> them
+<!-- <lb/>them <add place="below">^</add> <add place="above">&amp; fattened them with their extra food</add> at the school &amp; killed &amp; <choice><sic>eat</sic><corr>ate</corr></choice> them--><!-- Line recoded to improve transformation. AW -->
+<lb/>When returning to <placeName><settlement type="village" ref="settlement.xml#sett0002">Bambarre</settlement></placeName> the 
+<lb/><orgName>people of <persName ref="people.xml#pers0242">Moenemokia</persName></orgName> came to fight as
+
+    <pb facs="liv_000200_0056" n="0056"/>
+	<!--<pb facs="DLC297a_0028v_0_C_color" n="0028v"/>--><!-- EIC 479 -->
+<lb/>they were drunk &amp; fled as soon as they
+<lb/>saw resistance - no danger of being
+<lb/>turned up <add place="below">^</add> <add place="above">on</add> made my good boys rush
+<lb/>off unbidden &amp; capture women &amp;
+<lb/><term type="animal">goats</term> - another case occurred &amp;
+
+    <pb facs="liv_000200_0057" n="0057"/>
+	<!--<pb facs="DLC297a_0029r_0_C_color" n="0029r"/>--><!-- EIC 478 -->
+<lb/>off they ran but captured only <term type="animal">fowls</term>
+<lb/>and <term type="plant">tobacco</term> - two of them have <orgName>captives</orgName><!-- Is captives really an occupation? We need some kind of term for slaves, captives, et. AW --> <!-- Changed to orgName as per new encoding guidelines. MW -->
+<lb/>now bound in their possession
+<lb/>I am powerless as they have left
+<lb/>me and think that they may do as
+<lb/>they like and the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> are
+
+    <pb facs="liv_000200_0058" n="0058"/>
+	<!--<pb facs="DLC297a_0029v_0_C_color" n="0029v"/>--><!-- EIC 477 -->
+<lb/>bad is the song - their badness consists
+<lb/>in being dreadfully afraid of guns
+<lb/>and the <orgName>Arabs</orgName><!-- We also need a name for groups such as Arabs. MW --> can do just as they
+<lb/>like with them and their goods - If
+<lb/>spears alone were used the <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term>
+
+    <pb facs="liv_000200_0059" n="0059"/>
+	<!--<pb facs="DLC297a_0030r_0_C_color" n="0030r"/>--><!-- EIC 476 -->
+<lb/>would be considered brave for they fear
+<lb/>no one though he has many spears
+<lb/>They tell us truly "that were it not for
+<lb/>our guns not one of us would return<choice><sic>"</sic><corr/></choice>
+<lb/>to our own country". <persName ref="people.xml#pers0242">Moenemokia</persName>
+<lb/>killed 2 <orgName><orgName>Arab</orgName> <term type="occupation">agents</term></orgName> &amp; took their guns
+
+    <pb facs="liv_000200_0060" n="0060"/>
+	<!--<pb facs="DLC297a_0030v_0_C_color" n="0030v"/>--><!-- EIC 475 -->
+<lb/>This success led to their asserting
+<lb/>in answer to the remonstrances of the
+<lb/>women "We shall take their <term type="animal">goats</term> guns
+<lb/>and women from them" The <term type="occupation">chief</term> in
+<lb/>reporting the matter to <persName ref="people.xml#pers0110"><choice><orig>Moenemgor</orig><reg>Moenemgoi</reg></choice></persName> at
+<lb/><placeName><geogName type="river" ref="geogName.xml#geog0040">Luamo</geogName></placeName> said the <term type="person">Englishman</term> told
+
+    <pb facs="liv_000200_0061" n="0061"/>
+	<!--<pb facs="DLC297a_0031r_0_C_color" n="0031r"/>--><!-- EIC 493 -->
+<lb/>my people to go away as he did not
+<lb/>like fighting but my men were filled
+<lb/>with "<foreign xml:lang="und"><term type="foodstuff">malofu</term></foreign>" or <term type="foodstuff"><term type="plant">palm</term> toddy</term> &amp; refused <!--Adrian, I am assuming palm toddy is a drink, so have termed it as we do alcoholic beverages. HB -->
+<lb/><supplied cert="low">"</supplied>to their hurt" Elsewhere they
+<lb/>made regular preparation to have a
+
+    <pb facs="liv_000200_0062" n="0062"/>
+	<!--<pb facs="DLC297a_0031v_0_C_color" n="0031v"/>--><!-- EIC 494 -->
+<lb/>fight with <orgName><persName ref="people.xml#pers0035">Dugumbe</persName>'s people</orgName> just to
+<lb/>see who was strongest. They with their 
+<lb/>spears &amp; wooden shields or the <orgName>Arabs</orgName>
+<lb/>with what in derision they called <term type="plant">tobacco</term>
+<lb/>pipes (guns) They killed eight or nine <orgName>Arabs</orgName>.
+
+    <pb facs="liv_000200_0063" n="0063"/>
+	<!--<pb facs="DLC297a_0032r_0_C_color" n="0032r"/>--><!-- EIC 495 -->
+<lb/>The <term type="tribe" ref="ethnic-group.xml#ethnic0010">Manyema</term> villages are situated on
+<lb/>slopes - often on the spurs of mountains
+<lb/>for the sake of quick drainage - The
+<lb/>streets run nearly East &amp; West to catch
+<lb/>the full influence of the Sun - The huts
+
+    <pb facs="liv_000200_0064" n="0064"/>
+	<!--<pb facs="DLC297a_0032v_0_C_color" n="0032v"/>--><!-- EIC 496 -->
+<lb/>are of a square form = the walls being of
+<lb/>well beaten clay - they are well supplied
+<lb/>with firewood piled up on shelves along
+<lb/>the walls inside - This is the women's work
+<lb/>thatch of leaves or grass - low in the
+<lb/>roof and still lower by each housewife
+
+    <pb facs="liv_000200_0065" n="0065"/>
+	<!--<pb facs="DLC297a_0033r_0_C_color" n="0033r"/>--><!-- EIC 497 -->
+<lb/>having form 20 to 30 neatly made <w>bas-
+<lb break="no"/>kets</w> and as many earthen pots hung
+<lb/>to the ceiling - A raised platform of
+<lb/>clay is the sleeping place - a fire at its
+<lb/>side gives light &amp; heat - while a wall
+
+    <pb facs="liv_000200_0066" n="0066"/>
+	<!--<pb facs="DLC297a_0033v_0_C_color" n="0033v"/>--><!-- EIC 498 -->
+<lb/>screens it from the middle compartment
+<lb/>another wall divides off a private room
+<lb/>for stores - the villages are very numerous
+<lb/>a clump of them forms a district with
+<lb/>its <term type="occupation">headman</term> - It is usually isolated from
+
+    <pb facs="liv_000200_0067" n="0067"/>
+	<!--<pb facs="DLC297a_0034r_0_C_color" n="0034r"/>--><!-- EIC footnote -->
+<lb/>every other - nothing would induce men
+<lb/>to go into next district - they came <measure>5 or 6
+<lb/>miles</measure> through the intervening forest
+<lb/>then after civilly inviting us to come
+<lb/>back by the same route on our return
+
+    <pb facs="liv_000200_0068" n="0068"/>
+	<!--<pb facs="DLC297a_0034v_0_C_color" n="0034v"/>--><!-- EIC 500 -->
+<lb/>went back - fear of being killed &amp; eaten
+<lb/>was the reason assigned or simply 
+<lb/>they were at war with their next neighbours
+<lb/>no <term type="occupation">traders</term> seem ever to have come in
+<lb/>before this - <term type="tribe" ref="ethnic-group.xml#ethnic0017"><choice><orig>Barua</orig><reg>Luba</reg></choice></term> brought copper
+
+    <pb facs="liv_000200_0069" n="0069"/>
+	<!--<pb facs="DLC297a_0035r_0_C_color" n="0035r"/>--><!-- EIC 500 -->
+<lb/>and skins for tusks and the <term type="tribe" ref="ethnic-group.xml#ethnic0004"><choice><orig>Babira</orig><reg>Bira</reg></choice></term>
+<lb/>&amp; <term type="tribe" ref="ethnic-group.xml#ethnic0001">Baguha</term> coarse beads - The <term type="tribe" ref="ethnic-group.xml#ethnic0004"><choice><orig><choice><sic>Bavira</sic><corr>Babira</corr></choice></orig><reg>Bira</reg></choice></term>
+<lb/>are now enraged at seeing <orgName ref="orgName.xml#org0027">Ujijians</orgName>
+<lb/>pass into their ivory field - and
+<lb/>no wonder - They <space extent="2" unit="chars"/>took the tusks
+
+    <pb facs="liv_000200_0070" n="0070"/>
+	<!--<pb facs="DLC297a_0035v_0_C_color" n="0035v"/>--><!-- EIC 499 --><!-- Various splotches on page could be processed. AW -->
+<lb/>which cost them a few strings of beads
+<lb/>and <choice><sic>recieved</sic><corr>received</corr></choice> weight for weight in beads
+<lb/>thick brass wire &amp; loads of calico</p>
+<lb/><p rend="center">To be copied into <bibl>Journal</bibl></p> <!--Adrian, I have centered this line and the next vs using the space tag. HB -->
+<lb/><closer rend="center"><signed><persName ref="people.xml#pers0078">David <space extent="1" unit="words"/>Livingstone</persName></signed></closer>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
