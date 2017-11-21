@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000002">
     <teiHeader>
         <fileDesc>
@@ -70,14 +70,6 @@
                 <pubPlace>College Park, MD, USA</pubPlace>
 				<idno type="LEAP-ID">liv_000002</idno>
                 <date>2017</date>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
-                        All materials are licensed for use under the 
-                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
-                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
-                        (c) Dr. Neil Imray Livingstone Wilson, 2014
-                    </licence>
-                </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -85,7 +77,7 @@
                         <country>United Kingdom</country>
                         <settlement>Blantyre</settlement>
                         <repository>David Livingstone Centre</repository>
-                        <idno type="shelfmark">Cat 1124</idno>
+                        <idno type="shelfmark">1124</idno>
                         <altIdentifier>
                             <idno type="ccnumber">Field Diaries, 015</idno>
                         </altIdentifier>
@@ -180,7 +172,7 @@
 <lb/>noticed.</add></p><anchor xml:id="fd2"/>
 		</front>
 		
-    <body>			
+	<body n="dddedc">			
 		<div rend="blue">
 
     <pb facs="liv_000002_0004" n="0004"/>
@@ -306,22 +298,22 @@
 		    
     <pb facs="liv_000002_0010" n="0010"/>
 	<div><!-- I'm enclosing the whole top part of the page in a <div> as it's a separate section, even if in two parts/colors. AW -->
-<lb/><list rend="gray"><item>✓ <persName>Bōto</persName> = bale</item>
-<lb/><item>✓ <persName>Masudi</persName> - </item> 
-<lb/><item>✓ <persName>Bahari</persName> - </item> 
-<lb/><item>✓ <persName>Usene</persName> - box</item> 
-<lb/><item>✓ <persName>Bakari</persName> - bale</item> 
-<lb/><item>✓ <persName>Salem</persName> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
-<lb/><item>✓ <persName><choice><orig>Suliman</orig><reg>Suleiman</reg></choice></persName> <space extent="2" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
-<lb/><item>✓ <persName>Kombo</persName> - semsem</item> 
-<lb/><item>✓ <persName>Umari</persName> - big bale</item> 
-<lb/><item>✓ <persName>Urindi</persName> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
-<lb/><item>✓ <persName>Juma</persName></item> 
-<lb/><item>✓ <persName>Umari</persName> (2)</item> 
-<lb/><item>✓ <persName>Masudi</persName> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
-<lb/><item>✓ <persName>Muftaha</persName> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
+<lb/><list rend="gray"><item>&#8730; <persName>Bōto</persName> = bale</item>
+<lb/><item>&#8730; <persName>Masudi</persName> - </item> 
+<lb/><item>&#8730; <persName>Bahari</persName> - </item> 
+<lb/><item>&#8730; <persName>Usene</persName> - box</item> 
+<lb/><item>&#8730; <persName>Bakari</persName> - bale</item> 
+<lb/><item>&#8730; <persName>Salem</persName> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
+<lb/><item>&#8730; <persName><choice><orig>Suliman</orig><reg>Suleiman</reg></choice></persName> <space extent="2" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
+<lb/><item>&#8730; <persName>Kombo</persName> - semsem</item> 
+<lb/><item>&#8730; <persName>Umari</persName> - big bale</item> 
+<lb/><item>&#8730; <persName>Urindi</persName> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
+<lb/><item>&#8730; <persName>Juma</persName></item> 
+<lb/><item>&#8730; <persName>Umari</persName> (2)</item> 
+<lb/><item>&#8730; <persName>Masudi</persName> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
+<lb/><item>&#8730; <persName>Muftaha</persName> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
 <lb/><item><space extent="2" unit="chars"/><persName>Musa</persName> <space extent="5" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item> 
-<lb/><item>✓ <persName><choice><orig>Bonale</orig><reg>Bon Ali</reg></choice></persName> my <unclear cert="medium">bag</unclear></item></list>
+<lb/><item>&#8730; <persName><choice><orig>Bonale</orig><reg>Bon Ali</reg></choice></persName> my <unclear cert="medium">bag</unclear></item></list>
 
 		<div rend="blue">    
         <cb rend="vertical"/><ab><!-- We need to add the specific <cb/> coding here to the manual. AW -->
@@ -511,24 +503,24 @@
 
     <pb facs="liv_000002_0018" n="0018"/>
 
-<lb/><list rend="gray"><item>✓ <foreign xml:lang="und">Somari</foreign> <add place="inline">15</add> <note place="marginright">Men of <placeName><settlement type="village">Nuri</settlement></placeName> on <lb/><date when="1866-04-11">11<hi rend="sup underline">th</hi> April</date></note></item> 
-<lb/><item>✓ <persName>Rupimi</persName> <add place="inline">13</add></item>     
-<lb/><item>✓ <persName>Boamusa</persName> <add place="inline">10</add></item> 
-<lb/><item>✓ <persName>Monyesa</persName> <add place="inline">8</add></item> 
-<lb/><item>✓ <persName>Salem</persName> <add place="inline">1</add></item> 
-<lb/><item>✓ <persName><w>Monyama<subst><del>s</del><add place="over-text">z</add></subst>i</w></persName> <add place="inline">7</add></item> 
-<lb/><item>✓ <persName>Hamesi</persName></item> 
-<lb/><item>✓ <persName>Monyadade</persName> <add place="inline">11</add></item> 
-<lb/><item>✓ <persName>Asani</persName> <add place="inline">9</add></item> 
-<lb/><item>✓ <persName>Mohamadi</persName> <add place="inline">12</add></item> 
+<lb/><list rend="gray"><item>&#8730; <foreign xml:lang="und">Somari</foreign> <add place="inline">15</add> <note place="marginright">Men of <placeName><settlement type="village">Nuri</settlement></placeName> on <lb/><date when="1866-04-11">11<hi rend="sup underline">th</hi> April</date></note></item> 
+<lb/><item>&#8730; <persName>Rupimi</persName> <add place="inline">13</add></item>     
+<lb/><item>&#8730; <persName>Boamusa</persName> <add place="inline">10</add></item> 
+<lb/><item>&#8730; <persName>Monyesa</persName> <add place="inline">8</add></item> 
+<lb/><item>&#8730; <persName>Salem</persName> <add place="inline">1</add></item> 
+<lb/><item>&#8730; <persName><w>Monyama<subst><del>s</del><add place="over-text">z</add></subst>i</w></persName> <add place="inline">7</add></item> 
+<lb/><item>&#8730; <persName>Hamesi</persName></item> 
+<lb/><item>&#8730; <persName>Monyadade</persName> <add place="inline">11</add></item> 
+<lb/><item>&#8730; <persName>Asani</persName> <add place="inline">9</add></item> 
+<lb/><item>&#8730; <persName>Mohamadi</persName> <add place="inline">12</add></item> 
 <lb/><milestone unit="section" rend="quarter-line"/>
-<lb/><item>✓ <persName>Masuri</persName> <add place="inline">1</add></item> 
-<lb/><item>✓ <persName>Suluman</persName> <add place="inline">2</add></item> 
-<lb/><item>✓ <persName>Salem</persName> <add place="inline">2<hi rend="sup">d</hi> 14</add></item> 
-<lb/><item>✓ <persName>Katembe</persName> <add place="inline">3</add></item> 
-<lb/><item>✓ <persName><w>Sa<subst><del>h</del><add place="over-text">d</add></subst>ke</w></persName> <add place="inline">4</add></item>
-<lb/><item>✓ <persName>Bahari</persName> <add place="inline">5</add></item> 
-<lb/><item>✓ <persName>Stomali</persName> <add place="inline">6</add></item></list> 
+<lb/><item>&#8730; <persName>Masuri</persName> <add place="inline">1</add></item> 
+<lb/><item>&#8730; <persName>Suluman</persName> <add place="inline">2</add></item> 
+<lb/><item>&#8730; <persName>Salem</persName> <add place="inline">2<hi rend="sup">d</hi> 14</add></item> 
+<lb/><item>&#8730; <persName>Katembe</persName> <add place="inline">3</add></item> 
+<lb/><item>&#8730; <persName><w>Sa<subst><del>h</del><add place="over-text">d</add></subst>ke</w></persName> <add place="inline">4</add></item>
+<lb/><item>&#8730; <persName>Bahari</persName> <add place="inline">5</add></item> 
+<lb/><item>&#8730; <persName>Stomali</persName> <add place="inline">6</add></item></list> 
         </div>
 			    
 		<div rend="blue">
@@ -1796,17 +1788,17 @@
 
 	<pb facs="liv_000002_0076" n="0076"/>
 <lb/><list rend="gray"><head><placeName><settlement type="village">Ungoye</settlement></placeName> <term type="occupation">carriers</term> <date when="1866-05-04">4 May</date></head>
-<lb/><item>✓ <persName>Chunjia</persName> <term type="plant_foodstuff">coffee</term></item>
-<lb/><item>✓ <persName>Nahauraga</persName> box</item>
-<lb/><item>✓ <persName>Nchoma</persName> <space extent="4" unit="chars"/><term type="plant_foodstuff">sugar</term></item>
-<lb/><item>✓ <persName>Ntepe</persName> <space extent="4" unit="chars"/><term type="plant_foodstuff">tea</term> &amp; beads</item>
-<lb/><item>✓ <persName>Ntwene</persName> bale</item>
-<lb/><item>✓ <persName>Narihinga</persName> box with <term type="plant_foodstuff">flour</term> &amp;c</item>
-<lb/><item>✓ <persName>Nakorapia</persName> <space extent="1" unit="chars"/>bale</item>
-<lb/><item>✓ <persName>Naloe</persName> <space extent="2" unit="words"/>box</item>
-<lb/><item>✓ <persName>Ntanda</persName> <space extent="2" unit="words"/>luggage</item>
-<lb/><item>✓ <persName>Madwana</persName> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item><item><add place="marginright"><metamark/><persName>Nassi</persName></add></item>
-<lb/><item>✓ <persName><w>Nand<subst><del>o</del><add place="over-text">e</add></subst>nga</w></persName></item></list>
+<lb/><item>&#8730; <persName>Chunjia</persName> <term type="plant_foodstuff">coffee</term></item>
+<lb/><item>&#8730; <persName>Nahauraga</persName> box</item>
+<lb/><item>&#8730; <persName>Nchoma</persName> <space extent="4" unit="chars"/><term type="plant_foodstuff">sugar</term></item>
+<lb/><item>&#8730; <persName>Ntepe</persName> <space extent="4" unit="chars"/><term type="plant_foodstuff">tea</term> &amp; beads</item>
+<lb/><item>&#8730; <persName>Ntwene</persName> bale</item>
+<lb/><item>&#8730; <persName>Narihinga</persName> box with <term type="plant_foodstuff">flour</term> &amp;c</item>
+<lb/><item>&#8730; <persName>Nakorapia</persName> <space extent="1" unit="chars"/>bale</item>
+<lb/><item>&#8730; <persName>Naloe</persName> <space extent="2" unit="words"/>box</item>
+<lb/><item>&#8730; <persName>Ntanda</persName> <space extent="2" unit="words"/>luggage</item>
+<lb/><item>&#8730; <persName>Madwana</persName> <space extent="3" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice></item><item><add place="marginright"><metamark/><persName>Nassi</persName></add></item>
+<lb/><item>&#8730; <persName><w>Nand<subst><del>o</del><add place="over-text">e</add></subst>nga</w></persName></item></list>
 
 <lb/><p><date when="1866-05-04">4<hi rend="sup underline">th</hi> May 1866</date> The
 <lb/><term type="animal">buffaloes</term> were bitten
@@ -1957,15 +1949,15 @@
 <lb/><p rend="no-indent gray"><date when="1866-05-07">7<hi rend="sup underline">th</hi></date> <term type="animal">Camel</term> &amp; <term type="animal">buffalo</term> died
 <lb/>this morning -</p>
 <lb/><list rend="gray"><head><term type="occupation">carriers</term> -</head>
-<lb/><item>✓ <del type="strikethrough"><persName>Itonga</persName></del> luggage <note place="marginright">begin again <lb/>on <date when="1866-05-10">10<hi rend="sup">th</hi></date></note> <!-- Is this the proper place for the additional text? HB --></item>
-<lb/><item>✓ <del type="strikethrough"><persName>Karihenge</persName> food</del> powder</item>
-<lb/><item>✓ <del type="strikethrough"><persName>Lekakwe</persName> box</del> tool</item>
-<lb/><item>✓ <del type="strikethrough"><persName>Liyoyo</persName></del> powder box <add place="inspace"><metamark/></add></item>
-<lb/><item>✓ <del type="strikethrough"><persName>Kamide</persName></del> <add place="below">^</add> <add place="above"><unclear cert="medium">sail</unclear> &amp; carpet bag</add> <del type="strikethrough">box &amp; <term type="plant_foodstuff">rice</term></del></item>
-<lb/><item><unclear cert="medium"><choice><abbr>Pd</abbr><expan>Paid</expan></choice></unclear> ✓ <persName>Nankodaonje</persName> bale <add place="inspace">3</add></item>
+<lb/><item>&#8730; <del type="strikethrough"><persName>Itonga</persName></del> luggage <note place="marginright">begin again <lb/>on <date when="1866-05-10">10<hi rend="sup">th</hi></date></note> <!-- Is this the proper place for the additional text? HB --></item>
+<lb/><item>&#8730; <del type="strikethrough"><persName>Karihenge</persName> food</del> powder</item>
+<lb/><item>&#8730; <del type="strikethrough"><persName>Lekakwe</persName> box</del> tool</item>
+<lb/><item>&#8730; <del type="strikethrough"><persName>Liyoyo</persName></del> powder box <add place="inspace"><metamark/></add></item>
+<lb/><item>&#8730; <del type="strikethrough"><persName>Kamide</persName></del> <add place="below">^</add> <add place="above"><unclear cert="medium">sail</unclear> &amp; carpet bag</add> <del type="strikethrough">box &amp; <term type="plant_foodstuff">rice</term></del></item>
+<lb/><item><unclear cert="medium"><choice><abbr>Pd</abbr><expan>Paid</expan></choice></unclear> &#8730; <persName>Nankodaonje</persName> bale <add place="inspace">3</add></item>
 <lb/><item><choice><abbr>Pd</abbr><expan>Paid</expan></choice> <persName>Chombokela</persName> <term type="plant_foodstuff">coffee</term> <add place="inspace">3</add></item>
-<lb/><item>✓ <del type="strikethrough"><persName>Komota</persName> luggage</del> powder</item>
-<lb/><item>✓ <del type="strikethrough"><persName>Limila</persName> luggage</del> <unclear cert="medium">pans</unclear></item></list>
+<lb/><item>&#8730; <del type="strikethrough"><persName>Komota</persName> luggage</del> powder</item>
+<lb/><item>&#8730; <del type="strikethrough"><persName>Limila</persName> luggage</del> <unclear cert="medium">pans</unclear></item></list>
 <lb/><p rend="no-indent"><term type="insect">Tsetse</term> again</p>
 
 	<pb facs="liv_000002_0084" n="0084"/>

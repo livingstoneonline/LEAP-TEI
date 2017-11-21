@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 
 <!-- Note the new date. AW -->
 <!-- Heather, put <fw> on all DL numbers, especially on covers. In other words, the numbers of the covers of the diaries need to be transcribed and added to this and all previous transcriptions, something we haven't done. AW -->
@@ -73,14 +73,6 @@
                 <pubPlace>College Park, MD, USA</pubPlace>
                 <date>2017</date>
 				<idno type="LEAP-ID">liv_000003</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
-                        All materials are licensed for use under the 
-                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
-                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
-                        (c) Dr. Neil Imray Livingstone Wilson, 2014
-                    </licence>
-                </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -88,7 +80,7 @@
                         <country>United Kingdom</country>
                         <settlement>Blantyre</settlement>
                         <repository>David Livingstone Centre</repository>
-                        <idno type="shelfmark">Cat 1125</idno>
+                        <idno type="shelfmark">1125</idno>
                         <altIdentifier>
                             <idno type="ccnumber">Field Diaries, 016</idno>
                         </altIdentifier>
@@ -175,8 +167,7 @@
 <lb/><persName>David Livingstone</persName></p>
 	</front>
 	
-       	<body>
-       	    
+	<body n="dddedc">       	    
 		<div rend="blue">
 		    
 	<pb facs="liv_000003_0004" n="0004"/>

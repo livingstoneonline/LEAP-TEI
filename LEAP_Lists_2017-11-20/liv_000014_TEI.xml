@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000014">
     <teiHeader>
         <fileDesc>
@@ -63,14 +63,6 @@
                 <pubPlace>College Park, MD, USA</pubPlace>
                 <date>2017</date>
 				<idno type="LEAP-ID">liv_000014</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
-                        All materials are licensed for use under the 
-                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
-                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
-                        (c) Dr. Neil Imray Livingstone Wilson, 2015
-                    </licence>
-                </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -78,7 +70,7 @@
                         <country>United Kingdom</country>
                         <settlement>Blantyre</settlement>
                         <repository>David Livingstone Centre</repository>
-                        <idno type="shelfmark">Cat 1130</idno>
+                        <idno type="shelfmark">1130</idno>
                         <altIdentifier>
                             <idno type="ccnumber">Field Diaries, 027</idno>
                         </altIdentifier>
@@ -129,7 +121,8 @@
     </teiHeader>
 
     <text>
-       	<body>
+		<front></front><!-- Needed for XSLT to work -->
+       	<body n="d0d1cc">
 			<div rend="gray">
 
 	<pb facs="liv_000014_0001" n="0001"/>
@@ -3031,10 +3024,10 @@
 <lb/><list rend="blue indent"><item n="1"><add place="marginleft">Beads</add> Merikano <seg rend="right">2</seg></item> <!-- Adrian, should these numbers be in a sep item tag? Lists and their possibilities always get me :) HB --><!-- OK, as is. AW -->
 <lb/><item n="2">Kanyera <seg rend="right">2</seg></item>
 <lb/><item n="3">Langio<seg rend="right">2</seg></item>
-<lb/><item n="4"><hi rend="gray">✓</hi>1 mixed pink &amp; samsam</item>
+<lb/><item n="4"><hi rend="gray">&#8730;</hi>1 mixed pink &amp; samsam</item>
 <lb/><item n="5">tine Kanyera <seg rend="right">1</seg></item>
 <lb/><item n="6">Merikanz - <seg rend="right">1</seg></item>
-<lb/><item n="7"><hi rend="gray">✓</hi>Black Buhn <seg rend="right">1</seg></item>
+<lb/><item n="7"><hi rend="gray">&#8730;</hi>Black Buhn <seg rend="right">1</seg></item>
 <lb/><item n="8">Sunago maze <seg rend="right">1</seg></item>
 <lb/><item n="9">Matunda <seg rend="right">1</seg></item>
 <lb/><item n="10">500 fine <unclear cert="low">singe mooz</unclear> <seg rend="right">1</seg></item>

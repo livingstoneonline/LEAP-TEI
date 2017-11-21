@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000015">
     <teiHeader>
         <fileDesc>
@@ -51,14 +51,6 @@
                 <pubPlace>College Park, MD, USA</pubPlace>
                 <date>2017</date>
 				<idno type="LEAP-ID">liv_000015</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
-                        All materials are licensed for use under the 
-                        <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
-                            Creative Commons Attribution-Noncommercial 3.0 Unported License</ref>. 
-                        (c) Dr. Neil Imray Livingstone Wilson, 2015
-                    </licence>
-                </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -66,7 +58,7 @@
                         <country>United Kingdom</country>
                         <settlement>Blantyre</settlement>
                         <repository>David Livingstone Centre</repository>
-                        <idno type="shelfmark">Cat 1131</idno>
+                        <idno type="shelfmark">1131</idno>
                         <altIdentifier>
                             <idno type="ccnumber">Field Diaries, 028</idno>
                         </altIdentifier>
@@ -135,7 +127,7 @@
 
         </front>
 
-       	<body>
+       	<body n="c5bcac">
 			<div rend="black brown gray">
 	<pb facs="liv_000015_0004" n="0004"/>
 <!-- there appears to be gray undertext on the 1st half of this page. It seems to mirror the overtext exactly, as if Livingstone has written over it AM  --><!-- See my comments for page 127. AW -->
@@ -2767,7 +2759,7 @@
 <lb/>object of curiosity we
 <lb/>have to the <term type="tribe">Banyamwezi</term></p>
 <lb/><milestone unit="section" rend="line"/> 
-<lb/><p>A very great deal of <add rend="orange large" hand="#U">✓</add>
+<lb/><p>A very great deal of <add rend="orange large" hand="#U">&#8730;</add>
 <lb/><term type="plant">cotton</term> is cultivated all
 <lb/>along the shores of the
 <lb/><placeName><geogName type="lake">Tanganyika</geogName></placeName> = It is the
@@ -2782,7 +2774,7 @@
 <lb/>between them - the <term type="plant">cotton</term>
 <lb/>is manufactured into
 <lb/>common coarse clothe the
-<lb/>general clothing of all <add rend="orange large" hand="#U" >✓</add></p>
+<lb/>general clothing of all <add rend="orange large" hand="#U" >&#8730;</add></p>
 <lb/><milestone unit="section" rend="line"/> 
 <lb/><p><placeName><settlement type="village">Lusise</settlement></placeName> where they land on
 <lb/><add place="above">crossing</add> the <placeName><geogName type="river">Lonengwa</geogName></placeName> <add place="below">^</add> <add place="above">is</add> above <unclear cert="low"><placeName><geogName type="islet">Molelo</geogName></placeName></unclear></p>
