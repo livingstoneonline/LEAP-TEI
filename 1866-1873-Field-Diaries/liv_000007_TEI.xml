@@ -99,6 +99,9 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<!-- Close Out -->
+			<change when="2017-11-21" who="#AW">Final corrections</change>
+			<change when="2017-11-20" who="#HB">Extracted word list review</change>
 			<!-- Online Display -->
 			<change when="2016-12-06" who="#AW">Editing for online display</change>
             <!-- Integration -->
@@ -425,7 +428,7 @@
 <lb/>grates in the teeth
 <lb/>&amp; stomach - <term type="occupation">chief</term>
 <lb/>gave me a mess
-<lb/>of it &amp; <term type="foodstuff"><term type="animal"><choice><sic>elephants</sic><corr>elephant's</corr></choice></term>
+<lb/>of it &amp; <term type="foodstuff"><choice><sic><term type="animal">elephant</term>s</sic><corr><term type="animal">elephant</term>'s</corr></choice>
 <lb/>stomach</term> pretty
 <lb/>high but very 
 <lb/>acceptable</p>
@@ -609,7 +612,7 @@
 <lb/>year O God</p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><placeName><region>Mbulukuta</region></placeName><!--I wasn't sure how to qualify this. MW--><!-- Region. AW --> is the 
-<lb/>name of <placeName><region><persName>Chitemba</persName>'s
+<lb/>name of <placeName><region><persName><choice><orig>Chitemba</orig><reg>Chitembo</reg></choice></persName>'s
 <lb/>district</region></placeName><!--Same with this one. MW--> - We remain 
 <lb/>here <date when="1867-01-01">today</date> by the
 <lb/><choice><sic>boys</sic><corr>boys'</corr></choice> desire to rest
@@ -760,7 +763,7 @@
 <lb/>of <placeName><settlement type="village">Lobemba</settlement></placeName> - many
 <lb/>flowers appear - the
 <lb/>gay <term type="plant">scarlet Martagon
-<lb/><foreign xml:lang="und">(Lilium Chalcedonicum)</foreign></term>
+<lb/>(<foreign xml:lang="und">Lilium Chalcedonicum</foreign>)</term>
 <lb/>is conspicuous - fine
 <lb/>blue flowers - <term type="plant_foodstuff">gingers</term></p> <!-- It doesn't look like this smudge is covering a word, but maybe?? SF -->
 			    
@@ -1159,7 +1162,7 @@
 <lb/><measure><choice><sic>march</sic><corr>March</corr></choice> 1 <add place="above"><choice><abbr>h</abbr><expan>hour</expan></choice></add> - 10 <add place="above"><choice><abbr>m</abbr><expan>minutes</expan></choice></add></measure> along a 
 <lb/>small lake formed by 
 <lb/>the rivulet we crossed <!--geog: -->
-<lb/><measure>two hours</measure> from <placeName><settlement type="village"><choice><sic><persName>Chafungas</persName></sic><corr><persName>Chafunga</persName>'s</corr></choice></settlement></placeName>
+<lb/><measure>two hours</measure> from <placeName><settlement type="village"><choice><sic><persName>Chafunga</persName>s</sic><corr><persName>Chafunga</persName>'s</corr></choice></settlement></placeName>
 <lb/>It is about <measure><measure>5 miles long</measure>
 <lb/>&amp; <measure>1 <choice><orig>½</orig><reg>1/2</reg></choice> broad</measure></measure> -</p>
 <lb/><p rend="no-indent"><measure>+ 45 + 35 in crossing 
@@ -1288,7 +1291,7 @@
 
 	<pb facs="liv_000007_0055" n="0055"/>
 <lb/>Northwards &amp; Westwards 
-<lb/>to the <placeName><geogName type="river"><w><subst><del>Z</del><add place="over-text">Ch</add></subst>ambezi</w></geogName></placeName><!--Is he talking about the Zambesi here? EC--> - feet are
+<lb/>to the <placeName><geogName type="river"><choice><orig><w><subst><del>Z</del><add place="over-text">Ch</add></subst>ambezi</w></orig><reg><w><subst><del>Z</del><add place="over-text">Ch</add></subst>ambezi</w></reg></choice></geogName></placeName><!--Is he talking about the Zambezi here? EC--> - feet are
 <lb/>constantly wet from
 <lb/>getting through oozes - 
 <lb/>no game in the country
@@ -1330,7 +1333,7 @@
 <lb/><measure>+ 1 - 35</measure> - to a strong
 <lb/>Rivulet running in
 <lb/>our direction all day
-<lb/><choice><abbr>NNW</abbr><expan>North North West</expan></choice> &amp; <choice><abbr><subst><del>NWE</del><add place="over-text">NNE</add></subst></abbr><expan>North North East</expan></choice> <add place="above">to</add> <placeName><geogName type="river">Zambesi</geogName></placeName>
+<lb/><choice><abbr>NNW</abbr><expan>North North West</expan></choice> &amp; <choice><abbr><subst><del>NWE</del><add place="over-text">NNE</add></subst></abbr><expan>North North East</expan></choice> <add place="above">to</add> <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName>
 
 	<pb facs="liv_000007_0057" n="0057"/>
 <lb/>at <measure>3 - 30</measure> on banks of
@@ -1409,7 +1412,7 @@
 <lb/>&amp; pound them in
 <lb/>a mortar &amp; make a 
 <lb/>good mass = one 
-<lb/>species called <foreign xml:lang="und"><term type="plant_foodstuff">Chisimbe</term></foreign>
+<lb/>species called <foreign xml:lang="und"><term type="plant_foodstuff"><choice><orig>Chisimbe</orig><reg>Chisimba</reg></choice></term></foreign>
 <lb/>is lobed &amp; green
 <lb/>outside &amp; pink <w>in<supplied>-</supplied>
 <lb break="no"/>-side</w> - very fleshy
@@ -1418,7 +1421,7 @@
 
 	<pb facs="liv_000007_0061" n="0061"/>
 <lb/>of the <term type="foodstuff"><term type="plant_foodstuff">Mushroom</term>
-<lb/>porridge</term> = <figure><head><term type="plant_foodstuff">Chisimbe Mushroom</term></head><figDesc>Drawing of <term type="plant_foodstuff">mushroom</term>.</figDesc></figure></p>
+<lb/>porridge</term> = <figure><head><term type="plant_foodstuff"><choice><orig>Chisimbe</orig><reg>Chisimba</reg></choice> Mushroom</term></head><figDesc>Drawing of <term type="plant_foodstuff">mushroom</term>.</figDesc></figure></p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p><date when="1867-01-24"><w>2<subst><del>5</del><add place="over-text" rend="brown">4</add></subst></w> January 1867</date>
 <lb/>March from <placeName><settlement type="village"><choice><abbr>vil.</abbr><expan>village</expan></choice> of
@@ -1750,7 +1753,7 @@
 <lb/>we came before him
 <lb/>I objected to sit on the
 <lb/>ground &amp; he ordered a
-<lb/>huge <term type="animal"><choice><sic>Elephants</sic><corr>Elephant's</corr></choice></term> tusk
+<lb/>huge <choice><sic><term type="animal">Elephant</term>s</sic><corr><term type="animal">Elephant</term>'s</corr></choice> tusk
 <lb/>to be put down for me
 <lb/>to sit on. On reaching
 <lb/>our hut it was sent
@@ -1774,7 +1777,7 @@
 <lb/>to get more information
 <lb/>from him after dark -</p>
 <lb/><p>The <term type="occupation"><orgName>slavers</orgName></term> (blacks
-<lb/>all) are from <placeName><settlement type="village">Bagamoio</settlement></placeName>
+<lb/>all) are from <placeName><settlement type="town"><choice><orig>Bagamoio</orig><reg>Bagamoyo</reg></choice></settlement></placeName>
 <lb/>one was with <persName>Speke</persName>
 <lb/>at <placeName><geogName type="lake">Tanganyika</geogName></placeName> - They
 <lb/>came in two months
@@ -1799,7 +1802,7 @@
 <lb/>a day - wrote all day
 <lb/><date when="1867-02-01">yesterday</date> &amp; all <date when="1867-02-02">today</date></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><date when="1867-02-03">3<hi rend="sup underline">d</hi></date> <persName>Magoru Mafupe
+<lb/><p rend="no-indent"><date when="1867-02-03">3<hi rend="sup underline">d</hi></date> <persName>Magoru <choice><orig>Mafupe</orig><reg>Mafupi</reg></choice>
 <lb/>Hadim Alamji</persName> left
 <lb/>this morning with
 <lb/>a <bibl>packet of letters</bibl> for 
@@ -1829,7 +1832,7 @@
 
     <pb facs="liv_000007_0079" n="0079"/>
 <lb/>The <term type="occupation"><orgName>black</orgName> traders</term>
-<lb/>came from <placeName><settlement type="village">Bagamoio</settlement></placeName>
+<lb/>came from <placeName><settlement type="town"><choice><orig>Bagamoio</orig><reg>Bagamoyo</reg></choice></settlement></placeName>
 <lb/>straight across &amp;
 <lb/>passed <placeName><geogName type="lake">Nyassa</geogName></placeName> on
 <lb/>their left - not a 
@@ -2318,7 +2321,7 @@
 <lb/>flowing <choice><abbr>N.N.W.</abbr><expan>North Northwest</expan></choice> the first
 <lb/>we have seen going in
 <lb/>that direction - goes into
-<lb/><placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice> Lokopo</geogName></placeName> &amp; it <placeName><geogName type="river">Luapala</geogName></placeName> =
+<lb/><placeName><geogName type="river"><choice><abbr>R.</abbr><expan>River</expan></choice> Lokopo</geogName></placeName> &amp; it <placeName><geogName type="river">Luapula</geogName></placeName> =
 <lb/><figure><figDesc>Drawing of a musical instrument.</figDesc></figure> musical instrument - 
 <lb/>Rivulet embowered in
 <lb/>the tall straight smooth leaved
@@ -2391,7 +2394,7 @@
 <lb/>but like</p><!-- Not sure if this is part of the previous paragraph, but it doesn't really make sense to me so I marked it as a separate paragraph.  SF -->
 <lb/><p rend="no-indent"><persName>Moika</persName> wife of
 <lb/><persName>Moamba</persName></p>
-<lb/><figure><figDesc>Map of rivers, including <placeName><geogName type="river">Lokolu</geogName></placeName>, <placeName><geogName type="river">Lokopa</geogName></placeName>, <placeName><geogName type="river">chambezi</geogName></placeName>, <placeName><geogName type="river">Merenge</geogName></placeName>, and <placeName><geogName type="river">Merengo</geogName></placeName>.</figDesc></figure>
+<lb/><figure><figDesc>Map of rivers, including <placeName><geogName type="river">Lokolu</geogName></placeName>, <placeName><geogName type="river">Lokopa</geogName></placeName>, <placeName><geogName type="river"><choice><sic>chambezi</sic><corr>Chambezi</corr></choice></geogName></placeName>, <placeName><geogName type="river">Merenge</geogName></placeName>, and <placeName><geogName type="river">Merengo</geogName></placeName>.</figDesc></figure>
 
 	<pb facs="liv_000007_0105" n="0105"/>
 <lb/><p rend="no-indent"><date when="1867-02-23">23<hi rend="sup underline">d</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice> 1867</date> Went
@@ -2554,7 +2557,7 @@
 <lb/>2 <choice><orig>½</orig><reg>1/2</reg></choice> <choice><abbr>Rs</abbr><expan>Rupees</expan></choice> from <date from="1866-09" to="1867-03"><choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> to
 <lb/>March</date> -</p> <!-- Adrian, I think I did this date range correctly, but pls doublecheck. HB -->
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p rend="no-indent"><date when="1867-03-04">4<hi rend="sup underline">th</hi> March</date> <unclear><persName>Suzi</persName></unclear> 3 <choice><orig>½</orig><reg>1/2</reg></choice><!-- Looks like there are two diagonal fraction lines. Not sure how to mark this. SF -->
+<lb/><p rend="no-indent"><date when="1867-03-04">4<hi rend="sup underline">th</hi> March</date> <unclear><persName><choice><orig>Suzi</orig><reg>Susi</reg></choice></persName></unclear> 3 <choice><orig>½</orig><reg>1/2</reg></choice><!-- Looks like there are two diagonal fraction lines. Not sure how to mark this. SF -->
 <lb/><choice><abbr>Rs</abbr><expan>rupees</expan></choice><!-- I have no idea what this abbreviation is. Rupees? SF --><!-- I changed this to rupees since that's what appears elsewhere. MW--> extra - <persName>James</persName> 2 <choice><orig>½</orig><reg>1/2</reg></choice>
 <lb/><choice><abbr>Rs</abbr><expan>Rupees</expan></choice> extra - 
 <lb/><persName>Abraham</persName>'s 15 - <unclear cert="low">buy</unclear> 5 <choice><abbr>R</abbr><expan>Rupees</expan></choice></p>
@@ -2581,11 +2584,11 @@
 
 <lb/><item n="10">6 <app><rdg><placeName><settlement type="village">Mofubule</settlement></placeName></rdg><rdg><placeName><geogName type="river">Mofubule</geogName></placeName></rdg></app></item>
 
-<lb/><item n="11">7 <app><rdg><placeName><settlement type="village">Mpando</settlement></placeName></rdg><rdg><placeName><geogName type="river">Mpando</geogName></placeName></rdg></app></item>
+<lb/><item n="11">7 <app><rdg><placeName><settlement type="village"><choice><orig>Mpando</orig><reg>Mpanda</reg></choice></settlement></placeName></rdg><rdg><placeName><geogName type="river"><choice><orig>Mpando</orig><reg>Mpanda</reg></choice></geogName></placeName></rdg></app></item>
 
 <lb/><item n="12">8 <app><rdg><placeName><settlement type="village">Mokapasia</settlement></placeName></rdg><rdg><placeName><geogName type="river">Mokapasia</geogName></placeName></rdg></app></item>
 
-<lb/><item n="13">9 <placeName><settlement type="village"><persName>Chibue</persName></settlement></placeName><!-- Could be person or place. AW --> = <persName>Mesumba</persName> the <note place="marginright" rend="diagonal">- his elder <lb/>- <placeName><settlement type="village">Chitimbwa</settlement></placeName><space extent="1" unit="words"/></note>
+<lb/><item n="13">9 <placeName><settlement type="village"><persName>Chibue</persName></settlement></placeName><!-- Could be person or place. AW --> = <persName><choice><orig>Mesumba</orig><reg>Mesumbe</reg></choice></persName> the <note place="marginright" rend="diagonal">- his elder <lb/>- <placeName><settlement type="village">Chitimbwa</settlement></placeName><space extent="1" unit="words"/></note>
 
 <lb/>head of <placeName><settlement type="village">Bulunga</settlement></placeName></item><!--I'm not sure that I've coded this correctly. MW--><metamark/>
 
@@ -2671,7 +2674,7 @@
 <lb/><space extent="1" unit="words"/><item n="2">2 <persName>Moamba</persName></item>
 <lb/><space extent="1" unit="words"/><item n="3"><metamark/><persName>Monawe</persName> <unclear cert="low">som</unclear></item></list><!-- Livingstone has circled the first word. --> <!--I didn't see a way to indicate that he's drawn a circle around this word. MW--><!-- I used the metmark tag to denote. HB -->
 <lb/><milestone unit="section" rend="line"/>
-<lb/><list><item n="2">2 <app><rdg><placeName>Kasouso</placeName></rdg><rdg><persName>Kasouso</persName></rdg></app></item><metamark/>
+<lb/><list><item n="2">2 <persName><choice><orig>Kasouso</orig><reg>Kasonso</reg></choice></persName></item><metamark/>
 <lb/><item n="1">1 <placeName><settlement type="village"><persName>Chibue</persName></settlement></placeName></item><note place="marginright">95</note><!-- Livingstone has drawn a bracket on the left side of this entry, between the columns. -->
 <lb/><item n="3">3 <app><rdg><placeName>Mosamba</placeName></rdg><rdg><persName>Mosamba</persName></rdg></app></item>
 <lb/><item n="4">4 <app><rdg><placeName>Kanze</placeName></rdg><rdg><persName>Kanze</persName></rdg></app></item></list> <!--These four words have a bracket around them and the number 95. MW--><!-- I have again used metamark for this. HB --><!-- I redid this section. AW -->
@@ -2702,7 +2705,7 @@
 
 <lb/><placeName><orgName>Arab</orgName> route</placeName> <!-- Not sure how to code the route, as I think it is a substantial placeName, but we don't have routes/roads, so how accurately code? HB --><!-- Agree with Heather's assessment, so I just left as-is. MW --><!-- ? AW -->
 
-<lb/><hi rend="double-underline">to <placeName><geogName type="river">Bagamoio</geogName></placeName></hi></p>
+<lb/><hi rend="double-underline">to <placeName><settlement type="town"><choice><orig>Bagamoio</orig><reg>Bagamoyo</reg></choice></settlement></placeName></hi></p>
 
 <lb/><cb rend="right"/><metamark/><!-- Vertical line between columns. AW -->
 
@@ -2851,7 +2854,7 @@
 
     <pb facs="liv_000007_0121" n="0121"/><!-- This page should follow the next one - do we put in sequential order by number or content? HB --><!-- Number. AW -->
 
-<lb/><figure><head><choice><abbr>Lat</abbr><expan>Latitude</expan></choice> <placeName><settlement type="village">Lisenga</settlement></placeName></head><figDesc>Geographical calculations.</figDesc></figure>
+<lb/><figure><head><choice><abbr>Lat</abbr><expan>Latitude</expan></choice> <placeName><settlement type="village"><choice><orig>Lisenga</orig><reg>Lisunga</reg></choice></settlement></placeName></head><figDesc>Geographical calculations.</figDesc></figure>
 
 <lb/><milestone unit="section" rend="double-line"/>
 
@@ -2882,7 +2885,7 @@
 
     <pb facs="liv_000007_0122" n="0122"/><!-- This page should precede the previous one - do we put in sequential order by number or content? HB --><!-- Number. AW -->
 
-<lb/><p rend="no-indent"><figure><figDesc>Drawing of <persName>Babisa</persName>'s face.</figDesc></figure> <persName>Babisa</persName> of
+<lb/><p rend="no-indent"><figure><figDesc>Drawing of <term type="tribe">Babisa</term>'s face.</figDesc></figure> <term type="tribe">Babisa</term> of
 
 <lb/><space extent="2" unit="words"/><placeName><settlement type="village"><unclear cert="low">Movushi</unclear></settlement></placeName>
 
@@ -3027,7 +3030,7 @@
 
 <lb/>Fine pasturage all over
 
-<lb/><placeName><region>these highlands</region></placeName> - short
+<lb/>these <placeName><region>highlands</region></placeName> - short
 
 <lb/>&amp; sweet such as <term type="animal">cattle</term>
 
@@ -3394,7 +3397,7 @@
 
 <lb/><p rend="no-indent"><term type="tribe">Chitembo</term> have food
 
-<lb/><unclear cert="low">Mpoko</unclear> - <add place="above"><term type="occupation"><term type="tribe">Babisa</term> chiefs</term></add> &amp; are <choice><abbr>N.N.E.</abbr><expan>North Northeast</expan></choice></p>
+<lb/><unclear cert="low">Mpoko</unclear> - <add place="above"><orgName><term type="tribe">Babisa</term> <term type="occupation">chiefs</term></orgName></add> &amp; are <choice><abbr>N.N.E.</abbr><expan>North Northeast</expan></choice></p>
 
 <lb/><milestone unit="section" rend="line"/>
 
@@ -3449,9 +3452,9 @@
 
 <lb/><p rend="no-indent"><placeName><geogName type="source"><foreign xml:lang="und">Matambe o chabisa
 
-<lb/>Kondo Chibale</foreign> <placeName><geogName type="source">source
+<lb/>Kondo Chibale</foreign></geogName></placeName> <placeName><geogName type="source">source
 
-<lb/>of <placeName><region><placeName><geogName type="river">Loangwa</geogName></placeName> <choice><sic>coountry</sic><corr>country</corr></choice></region></placeName></geogName></placeName></geogName></placeName>
+<lb/>of <placeName><region><placeName><geogName type="river">Loangwa</geogName></placeName> <choice><sic>coountry</sic><corr>country</corr></choice></region></placeName></geogName></placeName>
 
 <lb/><choice><abbr>N.E.</abbr><expan>North East</expan></choice> <measure>5 days from
 
@@ -3542,7 +3545,7 @@
 
 <lb/>between <placeName><region><placeName><settlement type="village">Lobemba</settlement></placeName> &amp;
 
-<lb/><term type="tribe"><choice><orig>Lobisa</orig><reg>Bisa</reg></choice></term> country</region></placeName> of the
+<lb/><term type="tribe"><choice><orig>Lobisa</orig><reg>Babisa</reg></choice></term> country</region></placeName> of the
 
 <lb/><term type="tribe">Babisa</term></p>
 
