@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Mobile: Home page theming</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#143</span>
+        </p>
+        <h1>Mobile: Home page theming</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body">
+            <p>See screen shot and compare to prod. Please put some padding on the left and right sides of the site title/subtitle and image. Also, the black box around the images is too heavy.
+<img src="https://user-images.githubusercontent.com/12518623/27430211-534a9a48-570d-11e7-85c0-695d4c615d0b.PNG" alt="img_6396"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-25</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-26</time>
+          </div>
+          <div class="body"><p>The padding issue is resolve. Thank you!
+Please make the border around the image 2px (as on prod). Right now it&#39;s 4px.
+Finally, see screen shots. Could you fix the padding/sizing within the colored boxes so that it matches what&#39;s on prod?</p>
+<p>Prod:
+<img src="https://user-images.githubusercontent.com/12518623/27543903-32b4395a-5a51-11e7-814d-9c73b33fc51d.PNG" alt="img_6507"></p>
+<p>Stage:
+<img src="https://user-images.githubusercontent.com/12518623/27543922-4185ebd6-5a51-11e7-8d02-608e4fe92e8d.PNG" alt="img_6506"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Please make the border around the image 2px (as on prod). Right now it&#39;s 4px.
+Finally, see screen shots. Could you fix the padding/sizing within the colored boxes so that it matches what&#39;s on prod?</p>
+</blockquote>
+<p>Ok.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><p>Thanks for adjusting the border. The colored nav tabs could still use, say, 1px of padding top and bottom, so that they&#39;re slightly taller.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><p>K 1px add to the top and bottom of each link.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><p>Perfect. It&#39;s a wrap on this. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

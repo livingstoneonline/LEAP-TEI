@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Importing content</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#134</span>
+        </p>
+        <h1>Importing content</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-6-2</time>
+          </div>
+          <div class="body">
+            <p>On the back end, on the import content page, I&#39;d like the listing ordered and renamed as follows:</p>
+<p>Manuscript(s) =&gt; Manuscript Objects
+Manuscript Page(s) =&gt; Manuscript Object Pages/Images
+Manuscript Additional PDF(s) =&gt; Manuscript Object PDFs
+Spectral Manuscript(s) =&gt; Spectral Manuscript Objects
+Spectral Manuscript Page(s) =&gt; Spectral Manuscript Pages
+[nothing] =&gt; Spectral Manuscript Images [I&#39;d like this one added]
+Illustrative Image(s) =&gt; Illustrative Images</p>
+<p>We discussed this a while ago, but I never made a ticket for it.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>Should be sorted though one point of clarification:</p>
+<blockquote>
+<p>Spectral Manuscript Page(s) =&gt; Spectral Manuscript Pages
+[nothing] =&gt; Spectral Manuscript Images [I&#39;d like this one added]</p>
+</blockquote>
+<p>These represent the same data in fedora a single object (there isn&#39;t a separate object per image, just one for all images of a page). So I&#39;ve combined the two same as the Manuscript pages.</p>
+<p>Spectral Manuscript Page(s) =&gt; Spectral Manuscript Pages/Images</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>See my note for #115. I can&#39;t access that section now, so will come back to this. Note, however, that I wanted to separate out Spectral Manuscript Pages and Images partly as a way for me to keep track of the number of images. So although there are 202 spectral manuscript pages, this really represents 3000 odd images so combining the two sounds like I won&#39;t be getting all that info. So, in other words, for regular manuscripts, one page = one image, hence why I combined then, but for spectral manuscripts, one page could = 17 images, etc. However, I&#39;ll review once I can access this.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>Should have access now (a permission wasn&#39;t set for your account that now has been enabled).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>The data on the server is grouped by &quot;objects&quot; not by the files uploaded, the information on the number of files is not currently present in the structure that is used to build that page, it will take some time to write it to add that information.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>It looks like everything is sorted except the separate listing out of spectral images, so I&#39;m leaving this open. Apologies for the extra work.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>Ok but just to be clear this will take somewhere in the ball park of 6 or more hours.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>Ah, I didn&#39;t realize that was the amount of time you meant! I think this is one of those cases where we need to imagine the ideal and leave it as that, imaginary. I&#39;ll go ahead and close this ticket. Thanks for your work in sorting out the rest of this.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

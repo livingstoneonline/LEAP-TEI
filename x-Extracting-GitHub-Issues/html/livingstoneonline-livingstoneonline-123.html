@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Add another table to the fedora import page to list the number of pages, etc that are missing derivatives </title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#123</span>
+        </p>
+        <h1>Add another table to the fedora import page to list the number of pages, etc that are missing derivatives </h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-12-22</time>
+          </div>
+          <div class="body">
+            <p>An issue when generating derivatives for ingested objects occurred during the migration ran on Dec 12. There is nothing in the logs as to why they failed. I’ve generated the JP2’s now using the “same“ code. So my best guess is that it was a timeout issue (PHP has a max run time per process of 60 seconds). Seems like it would be prudent to add a an additional table to the import page to list all the objects missing derived JP2’s so we’ll be aware of it if it happens again, along with the ability to manually trigger the regeneration of any images listed there.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>Now displayed below the other tables:
+<img src="https://user-images.githubusercontent.com/487373/26846558-ee6e82c8-4af1-11e7-839a-919cb24fc4ad.png" alt="screen shot 2017-06-06 at 19 53 36"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>As noted in #115, I can&#39;t see how to access importing content from remote FTP, so I can double-check this once I can. Leaving open for now as a reminder.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>I&#39;ve corrected the permissions issue so you should be able to view it, everything is under the &quot;Livingstone&quot; admin section of the site.</p>
+<p><img src="https://user-images.githubusercontent.com/487373/26944703-5ff06cb4-4c81-11e7-8b7b-a5d14ca78593.png" alt="screen shot 2017-06-08 at 19 33 09"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

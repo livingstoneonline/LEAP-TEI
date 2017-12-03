@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Mobile Review</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#55</span>
+        </p>
+        <h1>MS Viewer: Mobile Review</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-6-14</time>
+          </div>
+          <div class="body">
+            <p>For the sake of brevity I&#39;m combining all the mobile aspects of the viewer into a single ticket. I&#39;ve made quite a few changes in the last week, some are incompatible with other choices but I feel the affect is nicer. For example when viewing in the iPhone, in portrait the icons are left aligned but in landscape they are centre aligned. Please review what&#39;s currently on stage and put any feed back in this ticket, I&#39;m going to close the others.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-14</time>
+          </div>
+          <div class="body"><p>Header looks fine and, in relation to mobile, I understand why you&#39;d like to distribute the things along the top in this way. So all good.</p>
+<p>A couple of notes:</p>
+<ol>
+<li>Please bring the &quot;Item Details&quot; and &quot;Transcriptions&quot; buttons closer together. Make the distance between these two buttons the same as between the + magnifying glass and rotate buttons. You can take the extra space and put it to the left of the dropdown page number</li>
+<li>In the search box, you should have the text &quot;Search the entire site&quot; in gray and the text box should be white (same as on Kathy&#39;s Amazon dev site.)</li>
+<li>A couple of bugs on Filezilla: Page numbers in the dropdown are too big. Arrows and page numbers currently don&#39;t work, so you can&#39;t switch from first page to anything else.</li>
+<li>I think it&#39;d like to go with icons centered in iPhone portrait.</li>
+<li>iPhone 5 portrait is wonky. Please review.</li>
+</ol>
+<p>Also, one question: </p>
+<ol>
+<li>I thought that for portrait in iPhone etc we were going to have Images/Item Details/Transcription each be full screen? Right now it&#39;s split half and half.</li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-15</time>
+          </div>
+          <div class="body"><p>All the above points should be addressed on stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-15</time>
+          </div>
+          <div class="body"><p>Yes, everything looks good. Thank you!</p>
+<p>I&#39;ve found one last bug. Once you resolve this, you can close this ticket:</p>
+<p>On iPhone, when I&#39;m iPhone 5, when I&#39;m looking first at Item Details (so only that button is highlighted) and then push the button for Transcription, the Transcription comes up (so now both buttons are highlighted).</p>
+<p>However,  I&#39;m looking first at Transcription (so only that button is highlighted) and then push the button for Item Details, nothing happens (so now both buttons are highlighted).</p>
+<p>Is it possible to make it so that when both buttons are highlighted, the last of the two buttons pushed comes up?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>I&#39;ve changed it so that they toggle (only on lower resolution screens, but we can do it for large as well). So now when you click on item details it will close transcription and vice versa.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>I can&#39;t check this because for some reason images aren&#39;t currently coming up in the viewer.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Looks good!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

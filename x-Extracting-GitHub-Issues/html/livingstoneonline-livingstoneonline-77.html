@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Add Facet</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#77</span>
+        </p>
+        <h1>Browse by Catalogue: Add Facet</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-8-15</time>
+          </div>
+          <div class="body">
+            <p>Could we add a facet on the left side of the page, that would appear below the &quot;Search catalogue only&quot; facet and that would have the following options:</p>
+<p>Show all items
+Items with images only
+Items with images &amp; transcriptions</p>
+<p>Note the options here would need to be coordinated with the &quot;&quot;Search Catalogue Only&quot; facet, so that if someone selected &quot;Search transcriptions only&quot; from there, this new facet would have to change to &quot;Items with images &amp; transcriptions&quot; and the other two options would be gone. There might be other such coordinations to be made, but I can&#39;t think of any just now.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-8-25</time>
+          </div>
+          <div class="body"><p>Adding this facet would conflict with the other facets, so instead I&#39;ve altered the existing facet on stage to support this use case:</p>
+<p><img src="https://cloud.githubusercontent.com/assets/487373/17978780/8c6017fa-6aef-11e6-8eeb-21760d16b4cb.png" alt="usecase"></p>
+<p>This add&#39;s the following options to the access facet:</p>
+<ul>
+<li>View (any)</li>
+<li>View (w/ Transcription)</li>
+<li>View (w/o Transcription)</li>
+<li>View (any) &amp; download</li>
+</ul>
+<p>These can be used much in the same way as what was there before.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-8-26</time>
+          </div>
+          <div class="body"><p>This looks good and I like this way of tackling it. Please modify slightly further so that we have all the following options:</p>
+<p>View (any)
+View (items with transcriptions)
+View (items without transcriptions)
+Download (any)
+Download (items with transcriptions)
+Download (items without transcriptions)
+View &amp; download (any)
+View &amp; download (items with transcriptions)
+View &amp; download (items without transcriptions)
+Restricted
+No access available</p>
+<p>Hopefully, all those text variants will fit on the line. If not, you can got back to using w/ and w/o to see if it helps. This way all options are covered. Also note that only the first word is ever capitalized.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-1</time>
+          </div>
+          <div class="body"><p>Hmm seems to only fit (and not 100% but close enough if I drop the &quot;<strong>items</strong>&quot; and use the abbreviated forms for with/without).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-1</time>
+          </div>
+          <div class="body"><p>This looks good and you can push to prod, but let me ask a question: what about dropping the parenthesis (and restoring item) as in the following:</p>
+<p>View (any) [leave this one as is]
+View items w/ transcriptions
+View items w/o transcriptions
+etc.</p>
+<p>It seems to me that if you tested this in the longest line only you&#39;d know whether it worked. </p>
+<p>If you do go with this, then you should probably make it &quot;Restricted items&quot; also.</p>
+<p>If not, the way you&#39;ve resolved it is fine and you can close this ticket.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-1</time>
+          </div>
+          <div class="body"><p>Still a bit too long:</p>
+<p><img src="https://cloud.githubusercontent.com/assets/487373/18182115/69f7f57e-7086-11e6-88e6-aba4ce6caba0.png" alt="screen shot 2016-09-01 at 20 54 49"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-1</time>
+          </div>
+          <div class="body"><p>By the way, could you change the text in the &quot;Access&quot; dropdown so it actually says &quot;Access options&quot;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-3</time>
+          </div>
+          <div class="body"><p>Reopening this, since the one minor mod is still needed. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-4</time>
+          </div>
+          <div class="body"><p>Should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-4</time>
+          </div>
+          <div class="body"><p>Indeed it is. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Search</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#18</span>
+        </p>
+        <h1>Browse by Catalogue: Search</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body">
+            <p>Something is not working right about the search box. Try typing in &quot;hair&quot;. You will get two entries (first and last) that are relevant, but then also three in the middle that don&#39;t have the word &quot;hair&quot; anywhere in them, even when expanded to the full record. Something is amiss in the search, I think.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body"><p>The MODS from those records &quot;Letter to Titus Salt&quot; do contain the word hair in their MODS, for example this is from the MODS description element:</p>
+<blockquote>
+<p>Manufacturer who made his fortune by developing a method of using alpaca hair.</p>
+</blockquote>
+<pre><code class="lang-xml">&lt;mods:mods xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.loc.gov/standards/mods/v3/mods-3-5.xsd&quot;&gt;
+  &lt;mods:identifier type=&quot;local&quot; displayLabel=&quot;master_id&quot;&gt;liv_001123&lt;/mods:identifier&gt;
+  &lt;mods:identifier type=&quot;local&quot; displayLabel=&quot;Canonical Catalog Number&quot;&gt;Letters, 0611.5&lt;/mods:identifier&gt;
+  &lt;mods:titleInfo&gt;
+    &lt;mods:title&gt;Letter to Titus Salt&lt;/mods:title&gt;
+  &lt;/mods:titleInfo&gt;
+  &lt;mods:titleInfo type=&quot;alternative&quot;&gt;
+    &lt;mods:title&gt;Letter to Titus Salt, 29 October 1857&lt;/mods:title&gt;
+  &lt;/mods:titleInfo&gt;
+  &lt;mods:name type=&quot;personal&quot;&gt;
+    &lt;mods:namePart&gt;Livingstone, David, 1813-1873&lt;/mods:namePart&gt;
+    &lt;mods:role&gt;
+      &lt;mods:roleTerm type=&quot;text&quot;&gt;creator&lt;/mods:roleTerm&gt;
+    &lt;/mods:role&gt;
+  &lt;/mods:name&gt;
+  &lt;mods:name type=&quot;personal&quot;&gt;
+    &lt;mods:namePart&gt;Salt, Titus, 1803-1876&lt;/mods:namePart&gt;
+    &lt;mods:role&gt;
+      &lt;mods:roleTerm type=&quot;text&quot;&gt;addressee&lt;/mods:roleTerm&gt;
+    &lt;/mods:role&gt;
+    &lt;mods:description&gt;Manufacturer who made his fortune by developing a method of using alpaca hair. Built manufacturing town of Saltaire. Represented Bradford in the House of Commons 1859-61. Created a Baronet in 1869.&lt;/mods:description&gt;
+  &lt;/mods:name&gt;
+  &lt;mods:genre authority=&quot;aat&quot;&gt;letters&lt;/mods:genre&gt;
+  &lt;mods:genre authority=&quot;aat&quot;&gt;autographs (manuscripts)&lt;/mods:genre&gt;
+  &lt;mods:originInfo&gt;
+    &lt;mods:publisher&gt;Livingstone Online (http://livingstoneonline.org/)&lt;/mods:publisher&gt;
+    &lt;mods:dateCreated&gt;29 October 1857&lt;/mods:dateCreated&gt;
+    &lt;mods:dateCreated encoding=&quot;iso8601&quot;&gt;1857-10-29&lt;/mods:dateCreated&gt;
+  &lt;/mods:originInfo&gt;
+  &lt;mods:originInfo displayLabel=&quot;Livingstone&quot;&gt;
+    &lt;mods:place&gt;
+      &lt;mods:placeTerm type=&quot;text&quot;&gt;50 Albemarle St., London&lt;/mods:placeTerm&gt;
+    &lt;/mods:place&gt;
+  &lt;/mods:originInfo&gt;
+  &lt;mods:originInfo displayLabel=&quot;LoC&quot;&gt;
+    &lt;mods:place&gt;
+      &lt;mods:placeTerm type=&quot;text&quot;&gt;London (England)&lt;/mods:placeTerm&gt;
+    &lt;/mods:place&gt;
+  &lt;/mods:originInfo&gt;
+  &lt;mods:subject&gt;
+    &lt;mods:cartographics&gt;
+      &lt;mods:coordinates&gt;51.507962,-0.141103&lt;/mods:coordinates&gt;
+    &lt;/mods:cartographics&gt;
+  &lt;/mods:subject&gt;
+  &lt;mods:physicalDescription&gt;
+    &lt;mods:note type=&quot;physical details&quot;&gt;Complete manuscript in creator&#39;s hand&lt;/mods:note&gt;
+    &lt;mods:extent unit=&quot;pages&quot;&gt;4&lt;/mods:extent&gt;
+    &lt;mods:note&gt;1 folio, folded to create 4 pages, with writing on 4 pages&lt;/mods:note&gt;
+    &lt;mods:extent unit=&quot;mm&quot;&gt;180 x 113&lt;/mods:extent&gt;
+  &lt;/mods:physicalDescription&gt;
+  &lt;mods:relatedItem type=&quot;original&quot;&gt;
+    &lt;mods:name type=&quot;corporate&quot; authorityURI=&quot;http://id.loc.gov/authorities/names&quot; valueURI=&quot;http://id.loc.gov/authorities/names/n80044899&quot;&gt;
+      &lt;mods:namePart&gt;National Library of Scotland&lt;/mods:namePart&gt;
+      &lt;mods:role&gt;
+        &lt;mods:roleTerm type=&quot;text&quot; authority=&quot;marclerator&quot;&gt;repository&lt;/mods:roleTerm&gt;
+      &lt;/mods:role&gt;
+    &lt;/mods:name&gt;
+    &lt;mods:location&gt;
+      &lt;mods:shelfLocator&gt;MS. 20312, ff. 35-36&lt;/mods:shelfLocator&gt;
+    &lt;/mods:location&gt;
+    &lt;mods:accessCondition type=&quot;use and reproduction&quot;&gt;Images &amp;amp;#169; National Library of Scotland. Creative Commons Share-alike 2.5 UK: Scotland (https://creativecommons.org/licenses/by-nc-sa/2.5/scotland/).&lt;/mods:accessCondition&gt;
+    &lt;mods:accessCondition type=&quot;use and reproduction&quot;&gt;As relevant, &amp;amp;#169; Dr. Neil Imray Livingstone Wilson. Creative Commons Attribution-NonCommercial 3.0 Unported (https://creativecommons.org/licenses/by-nc/3.0/).&lt;/mods:accessCondition&gt;
+  &lt;/mods:relatedItem&gt;
+  &lt;mods:relatedItem type=&quot;otherVersion&quot;&gt;
+    &lt;mods:identifier&gt;Myers&#39; Cat., 10 (1977), no. 5.&lt;/mods:identifier&gt;
+  &lt;/mods:relatedItem&gt;
+&lt;/mods:mods&gt;
+</code></pre>
+<p>The search is being performed on the entire document. We can limit it to the fields shown by creating a specific search handler for that purpose if you&#39;d like though.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body"><p>Yes, that sounds good. I&#39;ll get back to you on this. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-10</time>
+          </div>
+          <div class="body"><p>I&#39;ve made a list of 10 MODS fields to exclude from all searches. See attached.
+<a href="https://github.com/livingstoneonline/livingstoneonline/files/257219/Fields.to.exclude.txt">Fields to exclude.txt</a>
+ All other fields in the MODS records can be included.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-17</time>
+          </div>
+          <div class="body"><p>It looks like this has been completed except for the mods:publisher field. If I do a search for &quot;livingstone online&quot; I get all the records in the catalogue.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-18</time>
+          </div>
+          <div class="body"><p>Seems to be working. </p>
+<p>When you search for <code>livingstone online</code> <strong>unquoted</strong> <em>livingstone</em> will match against almost every record, and <em>online</em> will match against no records. If searching with <code>&quot;livingstone online&quot;</code> in <strong>quotes</strong>, no records are returned.</p>
+<p>Clear Search (~3000 results): <a href="http://livingstonestage.lib.umd.edu/islandora/search">http://livingstonestage.lib.umd.edu/islandora/search</a>
+Unquoted (~3000 results): <a href="http://livingstonestage.lib.umd.edu/islandora/search/livingstone%20online">http://livingstonestage.lib.umd.edu/islandora/search/livingstone%20online</a>
+Online Only (0 results):  <a href="http://livingstonestage.lib.umd.edu/islandora/search/online">http://livingstonestage.lib.umd.edu/islandora/search/online</a>
+Quoted (0 results): <a href="http://livingstonestage.lib.umd.edu/islandora/search/%22livingstone%20online%22">http://livingstonestage.lib.umd.edu/islandora/search/%22livingstone%20online%22</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-18</time>
+          </div>
+          <div class="body"><p>Confirmed. All looks good. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

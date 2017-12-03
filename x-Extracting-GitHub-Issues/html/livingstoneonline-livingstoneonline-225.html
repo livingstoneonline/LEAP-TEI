@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Issue with Spectral Image Viewer</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#225</span>
+        </p>
+        <h1>Issue with Spectral Image Viewer</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-19</time>
+          </div>
+          <div class="body">
+            <p>I&#39;ve just been using the spectral image viewer (on prod) and, on laptop at least, find that there is something wrong with the image display pane. On first visiting the page, you can drag the images around, but once you go to transcription view, then switch to a spectral image, it becomes difficult to drag the image around, and when you move the pointer onto the transcription the image still drags around. However, at a certain point it also locks and cannot be moved around and the zoom slider stops working. I&#39;m using the trackpad rather than a mouse.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-19</time>
+          </div>
+          <div class="body"><p>Here&#39;s the page I was looking at: <a href="http://livingstoneonline.org/islandora/search/%221871%20Field%20Diary%22%20NOT%20integrated%20NOT%20segment?access=all&amp;limit=catalogue&amp;view_pid=liv%3A000095&amp;view_page=0">http://livingstoneonline.org/islandora/search/%221871%20Field%20Diary%22%20NOT%20integrated%20NOT%20segment?access=all&amp;limit=catalogue&amp;view_pid=liv%3A000095&amp;view_page=0</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-19</time>
+          </div>
+          <div class="body"><p>Locking issue should be sorted now, also it won&#39;t move when dragging over the transcription, but it also doesn&#39;t stop dragging if you move back over the image, we were fortunate in that the Openseadragon team just resolve this issue recently: <a href="https://github.com/openseadragon/openseadragon/pull/1133">https://github.com/openseadragon/openseadragon/pull/1133</a>.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-19</time>
+          </div>
+          <div class="body"><p>That is good fortune indeed. Thanks for sorting this out so fast. Looks good!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

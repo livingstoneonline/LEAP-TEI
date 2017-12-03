@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Restricted items showing when &quot;Download&quot; access view is selected in Catalogue.</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#72</span>
+        </p>
+        <h1>Restricted items showing when &quot;Download&quot; access view is selected in Catalogue.</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body">
+            <p>If you select &quot;Download&quot; from the dropdown, the &quot;Restricted&quot; items also come up although, obviously, you can&#39;t download these. </p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>Looks good. However, in the Access dropdown, could you make the order of the items as follows:</p>
+<p>View
+Download
+View &amp; download [note the lower-case &quot;d&quot;]
+Restricted
+No access available</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><p>Changes on stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><p>Looks good. Push to prod. Thanks!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

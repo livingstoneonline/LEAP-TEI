@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Notes for IFrame</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#10</span>
+        </p>
+        <h1>Browse by Catalogue: Notes for IFrame</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-4-29</time>
+          </div>
+          <div class="body">
+            <p>When we rebuild the Catalogue, we&#39;ll want to include the following:</p>
+<ol>
+<li>Lazy load</li>
+<li>Sticky header</li>
+</ol>
+<p>We&#39;ll most likely also want to hide the &quot;Repository&quot; column in the default view, but this is something we can explore once the rebuild is done.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body"><p>Lazy load and a sticky header will come a bit later and aren&#39;t currently deployed but &quot;Repsoitory&quot; is now hidden by default.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body"><p>OK, looks good. What we&#39;ll want to do, ultimately, is to create enough space on the right and left sides of the page so that we can add the navigation arrows like we have on the other pages in the site. Leave this open for now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>Since we&#39;ve taken this up in issue #61, when you get a chance, could you give me an estimate of how much time this would take? There are three things here, I believe: 1) Put the catalogue in an iFrame, 2) add a sticky header, 3) add lazy load.</p>
+<p>Also, note that Kathy is working on the page arrows this week, so you can ignore the points above in relation to that.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-7</time>
+          </div>
+          <div class="body"><p>It&#39;ll take me a while to do some investigation (what existing tools are out there and how can we integrate them etc), I&#39;ll try to prep a estimate for the tail end of next week.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-15</time>
+          </div>
+          <div class="body"><p>I have put about an hour into this and I can&#39;t find anything that will readily work with Drupal and the form that we can plug in and use immediately, so we&#39;d have to build something from scratch if we&#39;re to make use of what Drupal provides for rendering tables and paging, etc. </p>
+<p>That being said there is another tool we could adopt to achieve a buffered table with sorting / searching and the like, provided by Ext JS, that we could embedded into the display.</p>
+<p><a href="http://examples.sencha.com/extjs/6.0.1/examples/classic/grid/filtered-buffered-store.html">http://examples.sencha.com/extjs/6.0.1/examples/classic/grid/filtered-buffered-store.html</a></p>
+<p>I&#39;ve worked with this tool in the past (although that was in it&#39;s 3.0 version and a lot has changed now that it&#39;s on version 6.0). </p>
+<p>It has many <a href="http://examples.sencha.com/extjs/6.0.1/examples/">many more features</a> than dealing with the lazy loading table, which you might be interested in exploring. </p>
+<p>The commercial licence fee is $4,340, but fortunately since this is an open source project we can use it under GPLv3 for free.</p>
+<p>Before I spend any more time building an estimate, have a look at the demo and and some of the <a href="http://examples.sencha.com/extjs/6.0.1/examples/">other features</a> and see if the look and feel interests you or gives you any ideas.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-15</time>
+          </div>
+          <div class="body"><p>OK, I will check this out and be back in touch. Quick question, when you say &quot;see if the look and feel interests you,&quot; the point is we&#39;d have to redo the visual appearance of the table correct? In other words, we wouldn&#39;t be leaving it as is and just changing the underlying functionality/technology?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-15</time>
+          </div>
+          <div class="body"><p>It will change in look and feel of the table, we do have the ability to theme the Ext JS (So it won&#39;t look the same as the demo link above), but the table won&#39;t look the same as it currently does as well.</p>
+<p>Some notable changes:</p>
+<ul>
+<li>It will have a fixed height and width</li>
+<li>Users will be able to adjust the width of columns</li>
+<li>Users will be able to re-order columns</li>
+<li>Users will be able to choose which columns they want to appear</li>
+</ul>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-4-25</time>
+          </div>
+          <div class="body"><p><img src="https://cloud.githubusercontent.com/assets/487373/25401286/3f0c01ea-29ed-11e7-9f78-baa7bb9df22a.png" alt="revised-catalogue-header"></p>
+<p>Columns collapse and on download links can dispear on smaller devices.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-4-25</time>
+          </div>
+          <div class="body"><p>Look into having the header sticky (should be posible) also have the title column sticky as well (might be tricky)(</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-4-25</time>
+          </div>
+          <div class="body"><p>See issue #131 </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>Had a crack at this (sticky header), still not yet resolved as there are issues with implementing this for content that is hidden. Will continue to look into it.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>Ok, thank you for your work on this. I&#39;ll stand by.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-14</time>
+          </div>
+          <div class="body"><p>It&#39;s ready to be reviewed.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-14</time>
+          </div>
+          <div class="body"><p>This works brilliantly on desktop. Thank you.</p>
+<p>I looked at mobile also, but see it&#39;s slightly wonky there. See screen shot.
+<img src="https://user-images.githubusercontent.com/12518623/27157017-43933cc4-5125-11e7-8849-39497fe66a9d.PNG" alt="img_6340"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>Just drawing attention to this as another mobile issue.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-26</time>
+          </div>
+          <div class="body"><p>You didn&#39;t comment on this. This has been improved, but there&#39;s still a slightly small space between the top sticky row of the header and the sticky header of the site.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-28</time>
+          </div>
+          <div class="body"><p>This remains an issue. Please see screen shot. Note that there&#39;s just a sliver of text peeking through in the circled area.
+<img src="https://user-images.githubusercontent.com/12518623/28741308-ef1b02ae-73d8-11e7-8cf2-7a77f7189804.PNG" alt="img_6861"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><p>Looks resolved. Thank you~!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

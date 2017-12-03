@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Multiple Versions of the Text times out too many transcriptions to generate, needs to be ajax</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#208</span>
+        </p>
+        <h1>Multiple Versions of the Text times out too many transcriptions to generate, needs to be ajax</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2017-9-13</time>
+          </div>
+          <div class="body">
+            <p>Times out and fails to render:
+<a href="http://livingstonestage.lib.umd.edu/in-his-own-words/multiple-versions-the-text">http://livingstonestage.lib.umd.edu/in-his-own-words/multiple-versions-the-text</a></p>
+<p>Requires a rewrite.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-21</time>
+          </div>
+          <div class="body"><p>This is now sorted, the page load in stages after selecting which to view. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-21</time>
+          </div>
+          <div class="body"><p>This looks good, but I see that something is off with padding on the right in the panes. See screen shot, pane on the right. This is as far right as I can scroll over, but you can see that there&#39;s a bit more on the page.
+<img src="https://user-images.githubusercontent.com/12518623/30707213-68571060-9ec0-11e7-99ac-828a64bd5a79.png" alt="screen shot 2017-09-21 at 11 30 19"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>It was exactly flush with the item details, I&#39;ve added the same left padding to the right for the item details.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>Ok, this looks great. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

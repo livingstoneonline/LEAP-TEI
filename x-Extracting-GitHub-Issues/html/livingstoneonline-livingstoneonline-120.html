@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Catalogue: Image loading issue</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#120</span>
+        </p>
+        <h1>Catalogue: Image loading issue</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-12-10</time>
+          </div>
+          <div class="body">
+            <p>liv_001696
+liv_001957</p>
+<p>are both private images and are in the &quot;private&quot; directory and are both coming up as private in the catalogue:</p>
+<p><a href="http://livingstoneonline.org/islandora/search/liv_001696">http://livingstoneonline.org/islandora/search/liv_001696</a>
+<a href="http://livingstoneonline.org/islandora/search/liv_001957">http://livingstoneonline.org/islandora/search/liv_001957</a></p>
+<p>However, when one clicks on the red circle in the table to see the &quot;Restricted Item&quot; notice, rather than loading, the page freezes and nothing loads.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-2-5</time>
+          </div>
+          <div class="body"><p>Should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-2-5</time>
+          </div>
+          <div class="body"><p>Indeed, fixed. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

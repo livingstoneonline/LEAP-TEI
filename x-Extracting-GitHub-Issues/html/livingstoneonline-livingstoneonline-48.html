@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Image padding</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#48</span>
+        </p>
+        <h1>MS Viewer: Image padding</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body">
+            <p>Images, when they first appear in the viewer, need some padding at the bottom so that the bottom of the image is not touching the bottom of the browser by default. This was fine before but seems to have been undone by the remove of the thumbnail strip. The padding below the image should be the same as the padding above (which currently looks good).</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>Still not quite right. It seems like you made it smaller.</p>
+<p> Open any image, click &quot;Item Details,&quot; then close &quot;Item Details&quot; and you will see that the padding has changed and is now slightly larger above and below. The images should also by default open with this amount of padding.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>I&#39;ve made the margin a bit larger at the start, we can&#39;t make it exactly the same as when the item details is showing, as the image will dynamically zoom to keep it&#39;s proportions. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Perfect, thank you! Closing this issue.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

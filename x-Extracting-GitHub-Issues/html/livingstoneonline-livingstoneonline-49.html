@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Column Sort Order</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#49</span>
+        </p>
+        <h1>Browse by Catalogue: Column Sort Order</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body">
+            <p>Let&#39;s discuss this in a call this week.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>OK, actually this is simple enough:</p>
+<p>I&#39;d like the main sort to be according to ISO date (as is).
+Then the textual date, the first person in the Creator(s) column, then the Title.</p>
+<p>So, in other words, sorting by these four columns in this order:</p>
+<p>ISO date, textual date, first person in Creator(s), Title</p>
+<p>Also, while you&#39;re looking a this, could you widen the &quot;Other Version(s)&quot; column by half. So, if it&#39;s 1 now, make it 1.5, please.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-8</time>
+          </div>
+          <div class="body"><p>ISO date, textual date, first person in Creator(s), Title
+The first sort field ISO date will change with the user selected column, the others will remain fixed and applied regardless of the sort field the user chooses.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Rebuilding the solr index now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Well done!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

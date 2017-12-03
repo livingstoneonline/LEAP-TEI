@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Minor bugs found in full site review</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#232</span>
+        </p>
+        <h1>Minor bugs found in full site review</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body">
+            <p>I&#39;ve finished my full review of the stage site against prod and only found a few minor issues, as follows:</p>
+<p>1) A handful of pages are not rendering in-text images. See attached zip. You can use the breadcrumbs in the screenshots to identify the pages.</p>
+<p><a href="https://github.com/livingstoneonline/livingstoneonline/files/1384963/Pages-with-missing-images.zip">Pages-with-missing-images.zip</a></p>
+<p>Here&#39;s an example: </p>
+<p><img src="https://user-images.githubusercontent.com/12518623/31579125-d5c62988-b0f4-11e7-88ce-5af0621cd6f8.png" alt="screen shot 2017-10-14 at 14 41 22"></p>
+<p>2) The following pages are rendering H4 tags incorrectly (this might be an issue on other pages, but I only noticed these):
+<a href="http://livingstonestage.lib.umd.edu/spectral-imaging/1871-edition-guide">http://livingstonestage.lib.umd.edu/spectral-imaging/1871-edition-guide</a>
+<a href="http://livingstonestage.lib.umd.edu/spectral-imaging/tei-p5-encoding-guidelines">http://livingstonestage.lib.umd.edu/spectral-imaging/tei-p5-encoding-guidelines</a></p>
+<p>Here&#39;s an example:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/31579126-e43a7776-b0f4-11e7-8a40-00a227f1fb90.png" alt="screen shot 2017-10-14 at 14 08 50"></p>
+<p>3) The line spacing on the captions on the following page is double what it should be. I looked in the coding and don&#39;t see the issue (this might be an issue on other pages, but I only noticed these):
+<a href="http://livingstonestage.lib.umd.edu/spectral-imaging/livingstones-1871-field-diary">http://livingstonestage.lib.umd.edu/spectral-imaging/livingstones-1871-field-diary</a></p>
+<p>Here&#39;s an example:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/31579128-ec52da66-b0f4-11e7-87e3-fd5b1fdb8bc1.png" alt="screen shot 2017-10-14 at 13 56 08"></p>
+<p>4) The table on this page is not quite rendering properly (compare against prod):
+<a href="http://livingstonestage.lib.umd.edu/spectral-imaging/terminology-and-acronyms">http://livingstonestage.lib.umd.edu/spectral-imaging/terminology-and-acronyms</a></p>
+<p>5) I noticed one small theming issue. In the overview text, when there is no table of contents, the spacing between the overview text and gray line beneath is too large:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/31579130-ffd0ef6a-b0f4-11e7-969e-21b04cb8d015.png" alt="screen shot 2017-10-14 at 13 28 10"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>P.S. If there&#39;s anything I can take care of from the issues above, just let me know. For instance, I haven&#39;t examined, but I suspect no. 1 is just to do with copies of those images not being in the relevant section page folders.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-17</time>
+          </div>
+          <div class="body"><p>All the above issues should now be sorted.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-17</time>
+          </div>
+          <div class="body"><p>Yes, everything looks fixed. Thank you very much!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

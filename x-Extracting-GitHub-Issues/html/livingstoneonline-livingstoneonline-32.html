@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Arrows and Transcription/Item Details</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#32</span>
+        </p>
+        <h1>MS Viewer: Arrows and Transcription/Item Details</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body">
+            <p>Right now, when the Transcription / Item Details pages appear the arrows at the sides of the page appear below them. The arrows should appear on top of them and should be clickable.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-19</time>
+          </div>
+          <div class="body"><p>If I understand correctly the arrows should only appear over the image viewer, and not over the transcription text or item details.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-19</time>
+          </div>
+          <div class="body"><p>That&#39;s right, though I wonder if we should also put a second set on the transcription text as an alternative way to allow users to go to the next or previous page in the transcription. If that&#39;s not difficult to add, let&#39;s try that out. Otherwise, we can take this off the list.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>Given that some text will be quite wide and so the arrows would float over that text, I think it&#39;s fine to take this off the list, so I&#39;m closing this ticket.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

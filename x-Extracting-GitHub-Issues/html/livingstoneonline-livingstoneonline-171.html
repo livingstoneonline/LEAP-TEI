@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Desktop: Section page text</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#171</span>
+        </p>
+        <h1>Desktop: Section page text</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-7-1</time>
+          </div>
+          <div class="body">
+            <p>The main section page text (and images embedded therein) is too wide on desktop. It should never be more than 716 px.</p>
+<p>Also see screen shot. The text starts to narrow prematurely. It should not get more narrow till necessary. In the width show in the screen shot, there is still plenty of room for the text to say at 716px, but it has already gone to something like 620px. In fact, as I continue to narrow the screen, it will get wider again in a moment.
+<img src="https://user-images.githubusercontent.com/12518623/27764335-96b10514-5e5c-11e7-9518-e0a49fa75e45.png" alt="screen shot 2017-07-01 at 12 55 31"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-24</time>
+          </div>
+          <div class="body"><p>Resolved. Thank you.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

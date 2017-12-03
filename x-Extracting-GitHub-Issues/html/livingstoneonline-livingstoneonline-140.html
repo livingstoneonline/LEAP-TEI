@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Item missing images</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#140</span>
+        </p>
+        <h1>Item missing images</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-6-14</time>
+          </div>
+          <div class="body">
+            <p>On prod, when I&#39;m logged in and try to see the following item, the images don&#39;t show up:</p>
+<p><a href="http://livingstoneonline.org/islandora/search/%22liv%3A001766%22?view_pid=liv%3A001766">http://livingstoneonline.org/islandora/search/%22liv%3A001766%22?view_pid=liv%3A001766</a></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-20</time>
+          </div>
+          <div class="body"><p>This appears to be sorted now (likely due to the issue with search we worked on via email last week).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-20</time>
+          </div>
+          <div class="body"><p>You&#39;re right. There it is. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

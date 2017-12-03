@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Server: Setting Backup Location</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#105</span>
+        </p>
+        <h1>Server: Setting Backup Location</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-14</time>
+          </div>
+          <div class="body">
+            <p>Currently when the Drupal database is backed up to our server it goes to: /Production-Site-Backup</p>
+<p>However, I&#39;d like it to go to a subfolder there: /Production-Site-Backup/database</p>
+<p>I tried to configure backups to that location myself, but it doesn&#39;t work. Can you double-check the configuration when you have a moment.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-3-13</time>
+          </div>
+          <div class="body"><p>Seems it&#39;s working in that the new backups are beings placed in files that are still in /Production-Site-Backup/database. </p>
+<p>I think we can delete all the backups in /Production-Site-Backup, and lots of the ones in /Production-Site-Backup/database as we probably only need to keep 1-2 months worth of backups.</p>
+<p>From searching it would seem that likely the backups that were continuously added to the old location (/Production-Site-Backup) were probably coming from the staging server, as it looks like it was setup with backups as well.</p>
+<p>So if you like I&#39;ll:</p>
+<ul>
+<li>Have only production generate backups on Agnes</li>
+<li>Remove old backups</li>
+<li>Change backup system to keep a rolling 30 day backup rather than keeping every backup indefinitely.</li>
+</ul>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-3-13</time>
+          </div>
+          <div class="body"><p>Excellent, good to know on the above points. Here&#39;s what I&#39;d like based on what you&#39;ve written:</p>
+<ol>
+<li>Have only production generate backups on Agnes</li>
+<li>Remove old backups</li>
+<li>Change backup system to keep a rolling 90 day backup rather than keeping every backup indefinitely.
+In the future, I&#39;ll probably want to change how far the backups go, but for now since we&#39;re still fairly heavily developing the site, I&#39;d like to have more backups.</li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>This is setup in a &quot;Drupal Feature&quot;, but is currently awaiting on deployment to production.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>OK, thanks for letting me know. We can close this once we go to prod.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-5</time>
+          </div>
+          <div class="body"><p>I believe this is set up and we can close this ticket. Before we do, could you tell me how I trigger a manual backup?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-11-6</time>
+          </div>
+          <div class="body"><p>Log in as the administrator and go to the page:</p>
+<p><a href="http://livingstoneonline.org/admin/config/system/backup_migrate">http://livingstoneonline.org/admin/config/system/backup_migrate</a></p>
+<p><img src="https://user-images.githubusercontent.com/487373/32430482-617bc5e4-c2c7-11e7-80a2-eda6e1d61a17.png" alt="screen shot 2017-11-06 at 07 50 49"></p>
+<p>There you can trigger backups, I wouldn&#39;t recommend triggering the file back up all too often as theres 11GB of file data on the server so that&#39;s not really practical to download. Either way the backups run every day. Also to note there are two destinations &quot;Agnes&quot; and &quot;Agnes Files&quot; the first is the location of the database, the second is the location of the files directory please select the appropriate one for the type of backup you wish to perform.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-6</time>
+          </div>
+          <div class="body"><p>OK, perfect. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

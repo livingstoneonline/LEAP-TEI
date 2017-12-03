@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalgoue: Viewing restricted items as admin</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#67</span>
+        </p>
+        <h1>Browse by Catalgoue: Viewing restricted items as admin</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-23</time>
+          </div>
+          <div class="body">
+            <p>It turns out that, contrary to what was supposed to be implemented, when logged in as an admin I cannot view restricted items. The camera icon appears (rather than the crossed out red circle) but when I click on the given item, rather than images, I get an error page. See screen shot attached.
+<img src="https://cloud.githubusercontent.com/assets/12518623/16327630/ebed9696-3996-11e6-843e-df6b4120a9ee.png" alt="screen shot 2016-06-24 at 0 05 06"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>This has been sorted, and fixes have been applied to stage and production. </p>
+<p>There is a side note though, due to the way that the Fedora Drupal Filter (handles authentication), if a users password is changed they will get this notice (<strong>ONLY ON STAGE</strong>). This is because <em>stage</em> is accessing the <em>production</em> Fedora (which doesn&#39;t share the same authentication system across servers; each has it&#39;s own). In the case of the user <strong>admin</strong> whose password is reset on startup, users logged in as <strong>admin</strong> on stage will see this warning. Other users such as <em>awisnicki</em> or <em>kappaluppa</em> will not (that is unless you change your password).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>This is fixed (thank you!), and I&#39;m closing this ticket. However, I&#39;m not certain if I understand your side note completely. Could you explain this in a different way?</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

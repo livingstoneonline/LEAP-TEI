@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Multitext Viewer: Total width and height of panes</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#185</span>
+        </p>
+        <h1>Multitext Viewer: Total width and height of panes</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-7-29</time>
+          </div>
+          <div class="body">
+            <p>The window panes, as a whole, are too wide and too high. </p>
+<p>For width, compare to prod and make them that width or a touch wider, but no more, please.</p>
+<p>For height, height should match height on prod exactly.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-4</time>
+          </div>
+          <div class="body"><p>Height looks good. Width is a bit too narrow. See screen shot. Right now the width of the text field is 483px on each pane. Let&#39;s make it 500px and we can call it a wrap.
+<img src="https://user-images.githubusercontent.com/12518623/28992471-b328300c-7962-11e7-8929-45ef4c3c2891.png" alt="screen shot 2017-08-04 at 22 16 51"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-6</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

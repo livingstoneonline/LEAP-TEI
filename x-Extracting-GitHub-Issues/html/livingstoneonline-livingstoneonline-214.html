@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Overview gray lines</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#214</span>
+        </p>
+        <h1>Overview gray lines</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-14</time>
+          </div>
+          <div class="body">
+            <p>See screen shot. This issue appears to be present on all pages with a TOC.
+<img src="https://user-images.githubusercontent.com/12518623/30443401-f4fe5f68-9944-11e7-8a11-5277f2dea528.png" alt="screen shot 2017-09-14 at 12 03 03"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>Gotta edit all those pages to move it into the overview field.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>So you&#39;re suggesting taking all the TOCs and moving them into the overview section? </p>
+<p>I&#39;m wondering if it wouldn&#39;t be easier to leave things as is here, so the following would be needed:</p>
+<ol>
+<li>In-text &lt;hr/&gt;s need to be made darker. This is true regardless of whether we make other changes, as I believe we might occasionally use &lt;hr&gt;s elsewhere in the site.</li>
+<li>The overview section as a rule should not have a gray line below. That&#39;s how it was set up before, so to compensate we always started the main text with an &lt;hr&gt;.</li>
+</ol>
+<p>I think this is all that is needed to get around the issue of moving all the TOCs (of which there are many). But happy to hear your thoughts on how to approach this.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>I&#39;m gonna move them into the overview section, it won&#39;t take too long and it&#39;s the less hacky of the two solutions. I&#39;ll change the styling of the hr to match that of the overview as well (the overview doesn&#39;t actually use hr tag it just uses border property.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>Agreed that it&#39;s less hacky! I just didn&#39;t want to add extra work. I&#39;ll leave it with you then. Just let me know when you want me to review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-21</time>
+          </div>
+          <div class="body"><p>All the pages affected have now been changed.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-21</time>
+          </div>
+          <div class="body"><p>This looks good. Thank you very much for doing this. </p>
+<p>Could you please make the following minor theming adjustments. Also see screen shots.</p>
+<p>The overview section contains black text. Please increase the margin bottom on this to 16px.
+<img src="https://user-images.githubusercontent.com/12518623/30706705-d6e8f7c0-9ebe-11e7-958e-15d96a9fa23c.png" alt="screen shot 2017-09-21 at 11 03 41"></p>
+<p>The overview section also contains blue (hyperlinked) text -- the TOCs you just moved. Please reduce the margin botton on this to 6px and increase the line height to 1.6
+<img src="https://user-images.githubusercontent.com/12518623/30706771-1676d2d6-9ebf-11e7-90b8-b00287f8078e.png" alt="screen shot 2017-09-21 at 11 00 41">
+<img src="https://user-images.githubusercontent.com/12518623/30706772-1693efb0-9ebf-11e7-894d-661f9482394d.png" alt="screen shot 2017-09-21 at 11 01 17"></p>
+<p>Finally, this is unrelated to the above but is a similar kind of theming change. Please increase the margin-bottom on the critical ed dropdown to 26px.
+<img src="https://user-images.githubusercontent.com/12518623/30706836-3d2826aa-9ebf-11e7-839f-8cdd514cbe4c.png" alt="screen shot 2017-09-21 at 11 09 22"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-24</time>
+          </div>
+          <div class="body"><p>K other changes are now pushed</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-25</time>
+          </div>
+          <div class="body"><p>All changes on this look good, except the space below the hyperlinked table still needs slightly to be reduced. See screen shot.
+<img src="https://user-images.githubusercontent.com/12518623/30813650-9f0ed834-a1d3-11e7-915e-feff59dcb39b.png" alt="screen shot 2017-09-25 at 09 24 32"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-25</time>
+          </div>
+          <div class="body"><p>Also note small erroneous space introduced on this page: <a href="http://livingstonestage.lib.umd.edu/spectral-imaging/the-diary-across-hands-space-and-time-3">http://livingstonestage.lib.umd.edu/spectral-imaging/the-diary-across-hands-space-and-time-3</a></p>
+<p><img src="https://user-images.githubusercontent.com/12518623/30813760-e8981fa6-a1d3-11e7-9486-16ef69b6efa6.png" alt="screen shot 2017-09-25 at 09 27 27"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>Should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>All looks great. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

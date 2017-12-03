@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Multi-Viewer: Mobile</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#110</span>
+        </p>
+        <h1>Multi-Viewer: Mobile</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-21</time>
+          </div>
+          <div class="body">
+            <p>The multi-viewer is wonky on mobile. You can not slide side to side to see text when it goes out of the pane, and text than should all be the same size renders at multiple sizes. For the latter, see the attached screen shot, where the text shifts from big to small on one page.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/12518623/20502779/99472390-b037-11e6-8fdd-23b2f2eb9530.PNG" alt="img_4411"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-28</time>
+          </div>
+          <div class="body"><p>The CSS issues can largely be handled by a reset style sheet to remove the quirks between browsers. I&#39;ve added this to the LEAP repository.</p>
+<p><a href="https://github.com/livingstoneonline/LEAP-XSLT/blob/gh-pages/reset.css">https://github.com/livingstoneonline/LEAP-XSLT/blob/gh-pages/reset.css</a></p>
+<p>But this is only the first step, in looking at the various stylesheets in the repo, they were depending on some browser defaults common to Firefox and others for example.</p>
+<p><code>&lt;strong&gt;Date of composition:&lt;/strong&gt;</code></p>
+<p>Would look like this in Firefox:</p>
+<p>&lt;img width=&quot;248&quot; alt=&quot;firefox&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/20673314/89650358-b57c-11e6-8ed1-fa3d0933794e.png&quot;&gt;</p>
+<p>But will look like this when the reset is applied:</p>
+<p>&lt;img width=&quot;440&quot; alt=&quot;reset&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/20673335/9dcf906a-b57c-11e6-8cbe-64bcb75a2a99.png&quot;&gt;</p>
+<p>Because by default Firefox provides the style:</p>
+<pre><code class="lang-css">strong, b {
+    font-weight: bold;
+}
+</code></pre>
+<p>So now some of those defaults must be added back in explicitly so they apply to all browsers.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-29</time>
+          </div>
+          <div class="body"><p>OK, thank for doing this and letting me know about this issue. What would be the next step in tackling this?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-29</time>
+          </div>
+          <div class="body"><p>I&#39;m testing some fixes at the moment.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-12-18</time>
+          </div>
+          <div class="body"><p>This has been reworked and deployed to stage &amp; prod for review, I made some more changes to the LEAP-XSLT module to achieve this:</p>
+<p><a href="https://github.com/livingstoneonline/LEAP-XSLT/compare/b461df12d5931e873a2e7c343d6966e8f104c195...dd3d7f1b44d93689e1c0c426a59708b15cbb8bee">https://github.com/livingstoneonline/LEAP-XSLT/compare/b461df12d5931e873a2e7c343d6966e8f104c195...dd3d7f1b44d93689e1c0c426a59708b15cbb8bee</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-12-20</time>
+          </div>
+          <div class="body"><p>The size of text issue on this is now fixed, but on my iPhone 5, at least, when I look at the pages in portrait or landscape I still cannot scroll side to side when the text goes out of the pane. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-12-20</time>
+          </div>
+          <div class="body"><p>I&#39;ve realized that the side-to-side issue is also present in mobile in the manuscript viewer, not just on the multi-viewer page.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-1-9</time>
+          </div>
+          <div class="body"><p>This should be sorted on production now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-1-12</time>
+          </div>
+          <div class="body"><p>I think the side to side issue cited here is the same one that I just described in #107 so I&#39;m going to close this ticket. Everything else here seems resolved.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

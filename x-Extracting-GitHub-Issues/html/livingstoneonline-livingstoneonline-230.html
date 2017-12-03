@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Question re: Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#230</span>
+        </p>
+        <h1>Question re: Menu</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-28</time>
+          </div>
+          <div class="body">
+            <p>The &quot;Management&quot; menu appears to mirror the structure of things available from the back end of the Drupal site, but it&#39;s not quite matched up. For instance, there are some things missing here (e.g., fixed header menu and menus for all the critical editions but one) that do appear from the dropdown menus on the back end site. How does this work? What is the relationship of these two things to one another? Just to confirm, I&#39;m talking about this: <a href="http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/management">http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/management</a> plus that which is indicated in the screen shot below:
+<img src="https://user-images.githubusercontent.com/12518623/30987907-3784498c-a45e-11e7-9790-55c6c3e20906.png" alt="screen shot 2017-09-28 at 15 03 08"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-28</time>
+          </div>
+          <div class="body"><p>Also, can you clarify why home and site guide appear in both the Fixed Header Menu (<a href="http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/menu-fixed-header-menu">http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/menu-fixed-header-menu</a>) and in the Secondary Menu (<a href="http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/menu-secondary">http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/menu-secondary</a>) pages?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-13</time>
+          </div>
+          <div class="body"><p>The management menu is created by Drupal and populated by Drupal and many &quot;contrib&quot; modules it is not display anywhere publicly on the site.</p>
+<p>This is the secondary menu (Front page and elsewhere):</p>
+<p>&lt;img width=&quot;1313&quot; alt=&quot;secondary_menu_front&quot; src=&quot;https://user-images.githubusercontent.com/487373/31554113-7bbee8a0-b034-11e7-9ca2-1777310bf711.png&quot;&gt;
+&lt;img width=&quot;1182&quot; alt=&quot;secondary_menu&quot; src=&quot;https://user-images.githubusercontent.com/487373/31554121-807e5b96-b034-11e7-9862-d25844db7139.png&quot;&gt;</p>
+<p>And the fixed menu appears on the fixed header shown here:</p>
+<p>&lt;img width=&quot;1206&quot; alt=&quot;fixed_header&quot; src=&quot;https://user-images.githubusercontent.com/487373/31554126-83ed7154-b034-11e7-9c63-06a6874b2948.png&quot;&gt;</p>
+<blockquote>
+<p>Also, can you clarify why home and site guide appear in both the Fixed Header Menu (<a href="http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/menu-fixed-header-menu">http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/menu-fixed-header-menu</a>) and in the Secondary Menu (<a href="http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/menu-secondary">http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/menu-secondary</a>) pages?</p>
+</blockquote>
+<p>Because they appear in both menus.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-13</time>
+          </div>
+          <div class="body"><p>Ok, that clears all this up. Thanks again.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

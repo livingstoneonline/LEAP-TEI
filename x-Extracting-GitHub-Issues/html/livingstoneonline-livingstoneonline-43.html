@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: For mobile devices add &quot;please rotate&quot; pop-up.</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#43</span>
+        </p>
+        <h1>MS Viewer: For mobile devices add &quot;please rotate&quot; pop-up.</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-5-24</time>
+          </div>
+          <div class="body">
+            <i>No body given.</i>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>In playing around with this, it&#39;s nice to be able to use both orientations, in particular looking at the image looks better in portrait mode, and reading from item details / transcription looks better in landscape.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>The latest is up on stage, try it with your phone and let me know if you find use in having access to both orientations.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>So I agree with your assessment that portrait allows good viewing of image, while landscape is better for text. So here&#39;s a question. It occurs to me that one thing that might improve portrait mobile viewing of text is to reducing the padding on both sides. 
+<img src="https://cloud.githubusercontent.com/assets/12518623/15843462/eebc5da2-2c27-11e6-945c-cfee1cafc591.PNG" alt="img_3246"> In this view, Item Details could certainly be give more space at left and right. It doesn&#39;t have to be in such a narrow column. Alternately, we could do what we&#39;ve done with the transcriptions and make it wider than the window -- not too wide but certainly so that more text could go on each horizontal line.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>P.S. I would also suggest that, rather than flush left, each line of the icons at this level would look better centered.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-8</time>
+          </div>
+          <div class="body"><ul>
+<li>In portrait and landscape mode decrease margins for item details and transcription.</li>
+<li>In portrait and landscape mode have item details and transcription 100% wide.</li>
+</ul>
+<p>Only on phone</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-14</time>
+          </div>
+          <div class="body"><p>Closing this ticket to combined mobile feedback to a single ticket =&gt; #55</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

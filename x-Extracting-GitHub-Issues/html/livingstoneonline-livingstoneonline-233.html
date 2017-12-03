@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Prod Migration Cleanup</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#233</span>
+        </p>
+        <h1>Prod Migration Cleanup</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-10-31</time>
+          </div>
+          <div class="body">
+            <p>I caught some minor issues on prod:</p>
+<p>1) When you access home page slides via the Content page (<a href="http://livingstoneonline.org/admin/content">http://livingstoneonline.org/admin/content</a>) and select &quot;edit,&quot; you are given a screen where you have the option of adding alt text and a title: </p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32259035-da2eaf50-be8b-11e7-87d2-84bac2024cbc.png" alt="screen shot 2017-10-31 at 22 34 23"></p>
+<p>If you add something here and save it, then come back to the edit page, the text you added is not saved. Rather you have to select the image, then navigate to the Files view (<a href="http://livingstoneonline.org/admin/content/file">http://livingstoneonline.org/admin/content/file</a>), find the image, then add alt text and title that way:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32259048-e50b39de-be8b-11e7-8713-bb474f221d55.png" alt="screen shot 2017-10-31 at 22 35 05"></p>
+<p>This works and then populates this text to the edit view from Content. In short, I can do it this way (and document that it needs to be done this way), but to avoid confusion in the future, it&#39;s probably best to remove the title and alt text boxes from the content edit view show in the first screen shot above. Also, is it possible to turn off the limit of how much title and alt text you can add? I hit a limit and couldn&#39;t add characters past a certain point.</p>
+<p>2) On the Repository page and the Catalogue, words with accents have an extra space in the middle. See screen shots. This is a single problem, I&#39;m just showing you a few examples.</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32258801-bbf4ba12-be8a-11e7-9e76-a52e7194daef.png" alt="screen shot 2017-09-18 at 10 55 10">
+<img src="https://user-images.githubusercontent.com/12518623/32258802-bc123308-be8a-11e7-8d3e-4dee6b59e38b.png" alt="screen shot 2017-09-18 at 10 55 19">
+<img src="https://user-images.githubusercontent.com/12518623/32258803-bc2fe1d2-be8a-11e7-8031-ffef3bcc1ab3.png" alt="screen shot 2017-09-18 at 10 55 27">
+<img src="https://user-images.githubusercontent.com/12518623/32258804-bc5dc41c-be8a-11e7-9396-965353895229.png" alt="screen shot 2017-09-18 at 10 55 36"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-1</time>
+          </div>
+          <div class="body"><p>Two more minor things:</p>
+<ol>
+<li><p>The main search box doesn&#39;t quite work right on first click. On first click it opens the dropdown, but doesn&#39;t present the cursor, so users have to click a second time to actually type in the box. This wasn&#39;t an issue before.</p>
+</li>
+<li><p>Odd rendering with some of the transcriptions in the manuscript viewer. See screen shot. This is liv_000019.</p>
+</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/12518623/32278988-5efe209a-bee5-11e7-8934-fe0d3ec1baae.png" alt="screen shot 2017-11-01 at 07 28 14"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-11-5</time>
+          </div>
+          <div class="body"><blockquote>
+<p>When you access home page slides via the Content page (<a href="http://livingstoneonline.org/admin/content">http://livingstoneonline.org/admin/content</a>) and select &quot;edit,&quot; you are given a screen where you have the option of adding alt text and a title:</p>
+</blockquote>
+<p>Looks like this was a bug introduced into the module recently:</p>
+<p><a href="https://www.drupal.org/node/2075745#comment-12313887">https://www.drupal.org/node/2075745#comment-12313887</a></p>
+<p>I&#39;ve disabled the fields for now.</p>
+<blockquote>
+<p>Also, is it possible to turn off the limit of how much title and alt text you can add? I hit a limit and couldn&#39;t add characters past a certain point.</p>
+</blockquote>
+<p>Unfortunately not its not a setting the module exposes to be configured.</p>
+<blockquote>
+<p>On the Repository page and the Catalogue, words with accents have an extra space in the middle. See screen shots. This is a single problem, I&#39;m just showing you a few examples.</p>
+</blockquote>
+<p>This took a while to dig into but it appears to be a bug in Firefox when rendering ext-latin characters using a Google font. I changed the characters manually to an equivalent looking character but one not in ext-latin and that appears to work for all the browsers.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-11-5</time>
+          </div>
+          <div class="body"><blockquote>
+<p>The main search box doesn&#39;t quite work right on first click. On first click it opens the dropdown, but doesn&#39;t present the cursor, so users have to click a second time to actually type in the box. This wasn&#39;t an issue before.</p>
+<p>Odd rendering with some of the transcriptions in the manuscript viewer. See screen shot. This is liv_000019.</p>
+</blockquote>
+<p>These should be sorted</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-5</time>
+          </div>
+          <div class="body"><p>Great. Thank you on all of these. Bummer about the limit on alt text/title. Otherwise, everything looks great.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

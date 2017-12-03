@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Edition URLs</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#217</span>
+        </p>
+        <h1>Edition URLs</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-14</time>
+          </div>
+          <div class="body">
+            <p>Each of the editions in the site have some common pages, among them the following:</p>
+<p>Edition Guide
+1871 FD: <a href="http://livingstoneonline.org/spectral-imaging/edition-guide-1">http://livingstoneonline.org/spectral-imaging/edition-guide-1</a>
+1870 FD: <a href="http://livingstoneonline.org/spectral-imaging/edition-guide">http://livingstoneonline.org/spectral-imaging/edition-guide</a>
+Bambarre: <a href="http://livingstoneonline.org/spectral-imaging/edition-guide-0">http://livingstoneonline.org/spectral-imaging/edition-guide-0</a></p>
+<p>Project Team
+1871 FD: <a href="http://livingstoneonline.org/spectral-imaging/project-team-1">http://livingstoneonline.org/spectral-imaging/project-team-1</a>
+1870 FD: <a href="http://livingstoneonline.org/spectral-imaging/project-team">http://livingstoneonline.org/spectral-imaging/project-team</a>
+Bambarre: <a href="http://livingstoneonline.org/spectral-imaging/project-team-0">http://livingstoneonline.org/spectral-imaging/project-team-0</a></p>
+<p>Acknowledgments
+1871 FD: <a href="http://livingstoneonline.org/spectral-imaging/acknowledgments-1">http://livingstoneonline.org/spectral-imaging/acknowledgments-1</a>
+1870 FD: <a href="http://livingstoneonline.org/spectral-imaging/acknowledgments">http://livingstoneonline.org/spectral-imaging/acknowledgments</a>
+Bambarre: <a href="http://livingstoneonline.org/spectral-imaging/acknowledgments-0">http://livingstoneonline.org/spectral-imaging/acknowledgments-0</a></p>
+<p>The URLs for these are similar, but of course not identical and point to different pages based on the given edition. I mention this because I see that some of the edition URLs throughout the editions on stage (and on the site guide page: <a href="http://livingstonestage.lib.umd.edu/about-this-site/livingstone-online-site-guide">http://livingstonestage.lib.umd.edu/about-this-site/livingstone-online-site-guide</a>) have gotten mixed up. Is there a way to compare against prod other than manually?</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>Issue #222 touches on this. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-17</time>
+          </div>
+          <div class="body"><p>I&#39;m going to have to go through them manually, the issue arised from random ordering when the alias were generated on the deployment to stage. I&#39;m gonna change them to have explicit names like:</p>
+<ul>
+<li><a href="http://livingstoneonline.org/spectral-imaging/1870-acknowledgments">http://livingstoneonline.org/spectral-imaging/1870-acknowledgments</a></li>
+<li><a href="http://livingstoneonline.org/spectral-imaging/1871-acknowledgments">http://livingstoneonline.org/spectral-imaging/1871-acknowledgments</a></li>
+<li><a href="http://livingstoneonline.org/spectral-imaging/bambarre-acknowledgments">http://livingstoneonline.org/spectral-imaging/bambarre-acknowledgments</a></li>
+</ul>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-18</time>
+          </div>
+          <div class="body"><p>Ok, let me know if I can help with this. </p>
+<p>There is also the following, in addition to the ones cited above:</p>
+<p>Project Documentation
+1871 FD: <a href="http://livingstonestage.lib.umd.edu/spectral-imaging/project-documentation-0">http://livingstonestage.lib.umd.edu/spectral-imaging/project-documentation-0</a>
+1870 FD: <a href="http://livingstonestage.lib.umd.edu/spectral-imaging/project-documentation">http://livingstonestage.lib.umd.edu/spectral-imaging/project-documentation</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>Should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>OK. Thank you. I can take it from here, once we go to prod, and change myself in case any instances are missed.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Sticky header: Critical edition label</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#101</span>
+        </p>
+        <h1>Sticky header: Critical edition label</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-11</time>
+          </div>
+          <div class="body">
+            <p>Ideally, the sticky header would have the title of the specific page on which the user is, but if that&#39;s took tricky then it should at least be the title of the main critical edition page, so in this case &quot;Livingstone&#39;s 1870 Field Diary&quot;</p>
+<p><img src="https://cloud.githubusercontent.com/assets/12518623/20221530/4978d9be-a7f7-11e6-842e-c700eb10a72b.png" alt="screen shot 2016-11-11 at 9 39 43"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-11</time>
+          </div>
+          <div class="body"><p>Also note that since there&#39;s no level 2 tile for this page (since it&#39;s part of the critical edition), &quot;Spectral Imaging&quot; in the sticky header is not purple when it should be.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-13</time>
+          </div>
+          <div class="body"><p>If you follow the instructions on ticket:</p>
+<p><a href="https://github.com/livingstoneonline/livingstoneonline/issues/99">https://github.com/livingstoneonline/livingstoneonline/issues/99</a></p>
+<p>It should work as expected.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-13</time>
+          </div>
+          <div class="body"><p>Yes, all looks sorted. thank you! closing this ticket.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Transcription Text Rendering</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#30</span>
+        </p>
+        <h1>MS Viewer: Transcription Text Rendering</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body">
+            <ol>
+<li>Text specs
+font: Source Sans Pro, sans-serif
+font-size: .9 em</li>
+<li>Please don&#39;t show the title at the top of the transcription since this is available in Item Details.</li>
+<li>The text should not wrap so soon. The left margin could be decreased slightly and we could set a right margin so that it does not go off the screen on the right, then have a slider (as you suggested) when the text of a given item is longer and would normally go off the screen.</li>
+</ol>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-28</time>
+          </div>
+          <div class="body"><p>#2 is resolved by the changes I&#39;ve made to the XSLT. For #3, I set the CSS to 100% so that takes care of the wrapping to a degree, but we still also need the slider.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>To update this ticket:</p>
+<ol>
+<li>Text specs font: Source Sans Pro, sans-serif font-size: .9 em (Note: the main text on the Item Details side should match these specs. Right now it looks like it&#39;s 1 em there, so please make sure both sides are the same size.)</li>
+<li>Slider for text that is too wide (rather than wrapping it)</li>
+<li>The last page of the transcription text is now being cut off prematurely. See attached screen shot.
+<img src="https://cloud.githubusercontent.com/assets/12518623/15697275/459884ba-277e-11e6-924c-0bf166b1f490.png" alt="screen shot 2016-05-31 at 22 22 51"></li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><blockquote>
+<ol>
+<li>Text specs font: Source Sans Pro, sans-serif font-size: .9 em (Note: the main text on the Item Details side should match these specs. Right now it looks like it&#39;s 1 em there, so please make sure both sides are the same size.)</li>
+</ol>
+</blockquote>
+<p>Set item details to use <code>0.9em</code> font (<code>em</code> is a relative size, derived from it&#39;s parent font size. Which in this case is <code>16px</code>, the default for much of the site).</p>
+<p>As for the font choices in the transcription pane you have full control to set them how ever you like, currently you have it set to:</p>
+<p><code>font-family:calibri, arial, helvetica, sans-serif;</code> <a href="https://github.com/livingstoneonline/LEAP-XSLT/blob/c2d3a823aadde84f183df72b64d784c509de67f9/style.css#L8">here</a></p>
+<blockquote>
+<ol>
+<li>Slider for text that is too wide (rather than wrapping it)</li>
+</ol>
+</blockquote>
+<p>I&#39;m not sure what you mean can you please rephrase it?</p>
+<blockquote>
+<ol>
+<li>The last page of the transcription text is now being cut off prematurely. See attached screen shot.</li>
+</ol>
+</blockquote>
+<p>Should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><ol>
+<li>Looks good. Done.</li>
+<li>What I meant is that when the text on a given line is wider that the container for the transcription side, the text wraps. What I&#39;d prefer is that the text didn&#39;t wrap and that when it was wider you got a slider at the bottom in order to scroll over. The slide would work and look (little black ball on a gray line) exactly the same as the vertical slide you already have. Currently, I can set the text to &quot;white-space: nowrap&quot; (do you want me to do that in the updated CSS?), but when I do that I don&#39;t get a horizontal slider. We would want a little padding on the right side so that there was a little white space between the edge of the visible text and the edge of the container.</li>
+<li>Looks good. Done.</li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>K I&#39;ve added the nowrap along with some code to get the horizontal scroll bar to show up (only if the text is too wide to fit).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>OK, this doesn&#39;t exactly what is needed, so that&#39;s great, but I see two issues:</p>
+<ol>
+<li>When I open this in Firefox, there is a short delay with out the slider, then the slider appears and the text moves up and to the left so that it is partially out of the screen on the left side. See this letter: <a href="http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000455&amp;view_page=0">http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000455&amp;view_page=0</a></li>
+<li>It&#39;s not quite wide enough to the right. In Firefox at least the longest line (line 20 on page 3) is still getting slightly clipped at right.</li>
+</ol>
+<p>Also, a question: is it me or does the side to side slider seem to move <em>slower</em> than the vertical one?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><blockquote>
+<p>When I open this in Firefox, there is a short delay with out the slider, then the slider appears and the text moves up and to the left so that it is partially out of the screen on the left side. See this letter: <a href="http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000455&amp;view_page=0">http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000455&amp;view_page=0</a></p>
+</blockquote>
+<p>This should be sorted now.</p>
+<blockquote>
+<p>It&#39;s not quite wide enough to the right. In Firefox at least the longest line (line 20 on page 3) is still getting slightly clipped at right.</p>
+</blockquote>
+<p>This is due to the use of <code>margin-left: 9%;</code> used in the <code>p</code> tags in <a href="https://github.com/livingstoneonline/LEAP-XSLT/blob/c2d3a823aadde84f183df72b64d784c509de67f9/style.css">style.css</a>, basically margin is not being interpreted as part of the width by the scroll bar, I&#39;m looking into a work around, but haven&#39;t found an acceptable solution yet.</p>
+<blockquote>
+<p>Also, a question: is it me or does the side to side slider seem to move slower than the vertical one? </p>
+</blockquote>
+<p>At least prospectively (the have the same settings). Likely because the horizontal scroll has much less distance to go. Since both the bars content distance are mapped onto a similarly lengthen scroll bar so each unit of horizontal scroll accounts for less movement than the vertical bar in which a single unit of scrolling accounts for a much greater distance.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>OK, in terms of the first point, doesn&#39;t move to the left anymore on opening, but still does move up, basically to hide the toggle button. This button, of course, will disappear when I provide the new XSLT. But it also seems to be that if I put enough padding at the top of the transcription in the CSS (after removing this button) then it would by default open with the first 0001 just below the top strip. Does that make sense? If so, how tall is the top strip? I believe it is 55px. Is that correct? If so, I can put that much padding plus a little more. Should I do that? We could also play around with this when we meet.</p>
+<p>In terms of the second point, I could change the margin to 0% if necessary. The only thing to note in this respect is that the small gray line numbers are -4em (or something like that).</p>
+<p>In terms of the third point, I guess that is that then unless the horizontal one can be sped up. If not, let&#39;s not worry about that further.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-2</time>
+          </div>
+          <div class="body"><blockquote>
+<p>OK, in terms of the first point, doesn&#39;t move to the left anymore on opening, but still does move up, basically to hide the toggle button. This button, of course, will disappear when I provide the new XSLT. But it also seems to be that if I put enough padding at the top of the transcription in the CSS (after removing this button) then it would by default open with the first 0001 just below the top strip. Does that make sense? If so, how tall is the top strip? I believe it is 55px. Is that correct? If so, I can put that much padding plus a little more. Should I do that? We could also play around with this when we meet.</p>
+</blockquote>
+<p>It auto scrolls to the selected page when opening, as the user can open the transcription panel on any page, this is expected behaviour.</p>
+<p>For example when the viewer is on the 3rd page:
+<a href="http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000455&amp;view_page=2">http://livingstonestage.lib.umd.edu/islandora/search?view_pid=liv%3A000455&amp;view_page=2</a> </p>
+<p>If you want the image title only to have no top margin (so no animated movement on open) you could do something like this with the css:</p>
+<pre><code>.pb-title:first-of-type {
+  margin-top: 0;
+}
+</code></pre></div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-2</time>
+          </div>
+          <div class="body"><blockquote>
+<p>In terms of the third point, I guess that is that then unless the horizontal one can be sped up. If not, let&#39;s not worry about that further.</p>
+</blockquote>
+<p>Doesn&#39;t seem to be a way to change the speed independently per plane.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-2</time>
+          </div>
+          <div class="body"><p>OK, re: first point, I&#39;ve updated the CSS to include the first of type text. We can test it out to see how it goes. Re: third point: OK.</p>
+<p>So that leaves only the second point here. One thing that occurs to me is that everything currently have a default margin on the left, but we could also put a small default margin (or padding?) on the right. Would that help?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-2</time>
+          </div>
+          <div class="body"><p>A right side margin won&#39;t affect the layout in this case. I&#39;ve spent a few
+hours looking into a solution I think we&#39;ll have to discard this scrollbar
+tool and opt for something else, I&#39;ll let you know when I sort it out.</p>
+<p>On Thu, Jun 2, 2016 at 1:21 PM, awisnicki notifications@github.com wrote:</p>
+<blockquote>
+<p>OK, re: first point, I&#39;ve updated the CSS to include the first of type
+text. We can test it out to see how it goes. Re: third point: OK.</p>
+<p>So that leaves only the second point here. One thing that occurs to me is
+that everything currently have a default margin on the left, but we could
+also put a small default margin (or padding?) on the right. Would that help?</p>
+<p>—
+You are receiving this because you were assigned.
+Reply to this email directly, view it on GitHub
+<a href="https://github.com/livingstoneonline/livingstoneonline/issues/30#issuecomment-223275168">https://github.com/livingstoneonline/livingstoneonline/issues/30#issuecomment-223275168</a>,
+or mute the thread
+<a href="https://github.com/notifications/unsubscribe/AAdvzSv9EnW0tC2fOvKdnypA1JVXR-mpks5qHsrCgaJpZM4IanoE">https://github.com/notifications/unsubscribe/AAdvzSv9EnW0tC2fOvKdnypA1JVXR-mpks5qHsrCgaJpZM4IanoE</a>
+.</p>
+</blockquote>
+<p>## </p>
+<p>Nigel Banks
+nigel.g.banks@gmail.com</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-2</time>
+          </div>
+          <div class="body"><p> blockquote, div.yahoo_quoted { margin-left: 0 !important; border-left:1px #715FFA solid !important; padding-left:1ex !important; background-color:white !important; }  Sorry to hear that. That&#39;s frustrating. Ok, let me suggest that the easiest thing is simply to cut the line numbers and make left margin 0. It&#39;s not a huge loss and I could also try putting the numbers on the right. Will that do it?</p>
+<p>On Thursday, June 2, 2016, 07:31, Nigel Banks notifications@github.com wrote:</p>
+<p>A right side margin won&#39;t affect the layout in this case. I&#39;ve spent a few
+hours looking into a solution I think we&#39;ll have to discard this scrollbar
+tool and opt for something else, I&#39;ll let you know when I sort it out.</p>
+<p>On Thu, Jun 2, 2016 at 1:21 PM, awisnicki notifications@github.com wrote:</p>
+<blockquote>
+<p>OK, re: first point, I&#39;ve updated the CSS to include the first of type
+text. We can test it out to see how it goes. Re: third point: OK.</p>
+<p>So that leaves only the second point here. One thing that occurs to me is
+that everything currently have a default margin on the left, but we could
+also put a small default margin (or padding?) on the right. Would that help?</p>
+<p>—
+You are receiving this because you were assigned.
+Reply to this email directly, view it on GitHub
+<a href="https://github.com/livingstoneonline/livingstoneonline/issues/30#issuecomment-223275168">https://github.com/livingstoneonline/livingstoneonline/issues/30#issuecomment-223275168</a>,
+or mute the thread
+<a href="https://github.com/notifications/unsubscribe/AAdvzSv9EnW0tC2fOvKdnypA1JVXR-mpks5qHsrCgaJpZM4IanoE">https://github.com/notifications/unsubscribe/AAdvzSv9EnW0tC2fOvKdnypA1JVXR-mpks5qHsrCgaJpZM4IanoE</a>
+.</p>
+</blockquote>
+<p>## </p>
+<p>Nigel Banks
+nigel.g.banks@gmail.com</p>
+<p>—
+You are receiving this because you were assigned.
+Reply to this email directly, view it on GitHub, or mute the thread.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>I was able to get it working with a combination of some css and javascript with line endings, also I&#39;ve updated stage with the latest style.css and transcription.xsl in the LEAP repo.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>This looks good. Thank you. Before we close this ticket, two questions:</p>
+<ol>
+<li>On the left, my life numbers are directly beside the edge of the window. If I bring them closer to the text (which I&#39;m planning to do after seeing how the newest css looks on the site) will they still remain beside the edge of the window? If so, could you put just a little padding to the left (a few pixels)?</li>
+<li>On the right, the longest text is also up against the edge of the window. Can you put a little padding on the right?</li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><blockquote>
+<p>On the left, my life numbers are directly beside the edge of the window. If I bring them closer to the text (which I&#39;m planning to do after seeing how the newest css looks on the site) will they still remain beside the edge of the window? If so, could you put just a little padding to the left (a few pixels)?</p>
+</blockquote>
+<p>Setting the margin or padding on the left can be done on a parent element of the content, for example this can be handled in the style.css like so:</p>
+<pre><code class="lang-css">.TEI {
+    padding-left: 1em;
+}
+</code></pre>
+<blockquote>
+<p>On the right, the longest text is also up against the edge of the window. Can you put a little padding on the right?</p>
+</blockquote>
+<p>To get padding on the right you&#39;ll have to set it on the actual <code>p</code> tags, otherwise it&#39;s not like to have any affect. For example this can be handled in the style.css like so:</p>
+<pre><code class="lang-css">.p {
+   margin-right: 1em;
+}
+</code></pre>
+<p>Since these changes should be made to <strong>style.css</strong> I&#39;ll leave them to you, so we don&#39;t end up losing changes when you make other changes to <strong>style.css</strong>.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

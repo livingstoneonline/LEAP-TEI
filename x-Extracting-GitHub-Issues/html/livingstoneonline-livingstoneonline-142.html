@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Mobile: Page header not wrapping</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#142</span>
+        </p>
+        <h1>Mobile: Page header not wrapping</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body">
+            <p>See screenshots. The items in the header are not breaking up into lines, but rather running off the screen. This seems to be happening on all levels of the site.
+<img src="https://user-images.githubusercontent.com/12518623/27430073-c494d188-570c-11e7-8ea4-547b00261ce9.PNG" alt="img_6396">
+<img src="https://user-images.githubusercontent.com/12518623/27430085-d3463ce4-570c-11e7-9e5a-6a6cdb377f7a.PNG" alt="img_6397">
+<img src="https://user-images.githubusercontent.com/12518623/27430086-d3469b6c-570c-11e7-8e0c-82361538751a.PNG" alt="img_6398"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-25</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-26</time>
+          </div>
+          <div class="body"><p>Resolved. Looks great.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

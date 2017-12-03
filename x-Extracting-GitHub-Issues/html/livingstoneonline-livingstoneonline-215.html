@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Byline width</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#215</span>
+        </p>
+        <h1>Byline width</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-14</time>
+          </div>
+          <div class="body">
+            <p>The byline needs to be made slightly wider to match prod. Note that on stage the text wraps before it does on prod.</p>
+<p>Stage:
+<img src="https://user-images.githubusercontent.com/12518623/30443882-bc9c531c-9946-11e7-91a7-8c5f52e3e5b1.png" alt="screen shot 2017-09-14 at 12 16 18"></p>
+<p>Prod:
+<img src="https://user-images.githubusercontent.com/12518623/30443866-aab11d40-9946-11e7-9343-808f214426cd.png" alt="screen shot 2017-09-14 at 12 16 18"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-17</time>
+          </div>
+          <div class="body"><p>Changed the font size so that it matches prod</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-18</time>
+          </div>
+          <div class="body"><p>Looks great! Thanks!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

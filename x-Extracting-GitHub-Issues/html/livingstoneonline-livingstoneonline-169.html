@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Desktop: Alt text in various places</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#169</span>
+        </p>
+        <h1>Desktop: Alt text in various places</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-7-1</time>
+          </div>
+          <div class="body">
+            <p>The alt text on the share icons, search box, browse, and nav tabs needs to be correct on home, grid, and section pages.</p>
+<p>Be sure to confirm on each of the three kinds of pages as it&#39;s also inconsistent page to page (i.e., home page is done differently from grid page, etc.).</p>
+<p>1) For share icons, search box, and browse, please see the alt text we already used for he manuscript viewer and implement that here.</p>
+<p>2) For nav tabs, alt text should simply say what the nav tabs say. Right now, the text is prefaced with &quot;Section pages:&quot;</p>
+<p>3) Could we have alt text on the grid boxes that simply said what appears in the grid boxes on mouseover, namely &quot;title colon tag line&quot; e.g. &quot;The Design of Livingstone Online: Creative Collaboration in Action.&quot; I think have such alt text would help visually impaired readers who may have issues with the contrast of text v. images on the grid boxes themselves.</p>
+<p>4) Since the site logo (on all levels) is an image (rather than text), it should probably also have alt text.</p>
+<p>5) The little circles that allow users to select an image on the home page should probably also have alt text: Home Page Image 1, Home Page Image 2, etc.</p>
+<p>6)  The institutional logos on the home page should also have alt text.</p>
+<p>7) The images on the carousel should have alt text. The alt text can be &quot;Image:&quot; plus the name of the page to which the image corresponds: &quot;Image: Project Team&quot;</p>
+<p>8) For the arrows at the right and left ends of the carousel, please put alt text: &quot;Scroll Left in Carousel&quot; and &quot;Scroll Right in Carousel&quot;</p>
+<p>9) To be consistent across the site, I think we should follow the pattern of capitalizing the first word on any alt text, then putting the rest of it in lower case: &quot;Enter your search terms&quot; I also think it looks better that way.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-7-24</time>
+          </div>
+          <div class="body"><blockquote>
+<ol>
+<li>For share icons, search box, and browse, please see the alt text we already used for he manuscript viewer and implement that here.</li>
+</ol>
+</blockquote>
+<p>&#39;alt&#39; text only applies to images, but I&#39;ve added &#39;title&#39; attribute to these elements.</p>
+<blockquote>
+<ol>
+<li>For nav tabs, alt text should simply say what the nav tabs say. Right now, the text is prefaced with &quot;Section pages:&quot;</li>
+</ol>
+</blockquote>
+<p>This can be controlled via the backend see the image below. I&#39;ve also changed this in the feature for the menu content.</p>
+<p>&lt;img width=&quot;1659&quot; alt=&quot;screen shot 2017-07-24 at 11 06 05&quot; src=&quot;https://user-images.githubusercontent.com/487373/28518533-1fc32106-7060-11e7-8d67-b88bb4e6a94b.png&quot;&gt;</p>
+<blockquote>
+<ol>
+<li>Could we have alt text on the grid boxes that simply said what appears in the grid boxes on mouseover, namely &quot;title colon tag line&quot; e.g. &quot;The Design of Livingstone Online: Creative Collaboration in Action.&quot; I think have such alt text would help visually impaired readers who may have issues with the contrast of text v. images on the grid boxes themselves.</li>
+</ol>
+</blockquote>
+<p>This can be set directly on the content of the section page like so (click edit):</p>
+<p>&lt;img width=&quot;466&quot; alt=&quot;screen shot 2017-07-24 at 11 01 36&quot; src=&quot;https://user-images.githubusercontent.com/487373/28518391-9e1fdba8-705f-11e7-87af-d9f3afc7e8d7.png&quot;&gt;</p>
+<p>Add either &#39;alt&#39; or &#39;title&#39; text as needed.
+&lt;img width=&quot;1391&quot; alt=&quot;screen shot 2017-07-24 at 11 01 45&quot; src=&quot;https://user-images.githubusercontent.com/487373/28518400-a31ce934-705f-11e7-89e5-8f180bb5c499.png&quot;&gt;</p>
+<blockquote>
+<ol>
+<li>Since the site logo (on all levels) is an image (rather than text), it should probably also have alt text.</li>
+</ol>
+</blockquote>
+<p>Currently the image has the alt text &quot;Home&quot; but this can be changed to be &quot;Livingstone Online: illuminating imperial exploration&quot;, though likely it would be more confusing for blind people? The link (which doesn&#39;t appear on the home page) also has the &#39;title&#39; Home, currently.</p>
+<blockquote>
+<ol>
+<li>The little circles that allow users to select an image on the home page should probably also have alt text: Home Page Image 1, Home Page Image 2, etc.</li>
+</ol>
+</blockquote>
+<p>They are not images so have no &#39;alt&#39; attribute, but I&#39;ve added a &#39;title&#39; attribute to that affect.</p>
+<blockquote>
+<ol>
+<li>The institutional logos on the home page should also have alt text.</li>
+</ol>
+</blockquote>
+<p>K.</p>
+<blockquote>
+<ol>
+<li>The images on the carousel should have alt text. The alt text can be &quot;Image:&quot; plus the name of the page to which the image corresponds: &quot;Image: Project Team&quot;</li>
+</ol>
+</blockquote>
+<p>Probably don&#39;t need the image in-front of it as it&#39;s implied by the &#39;alt&#39; attribute. This can be set in same way as 3.</p>
+<blockquote>
+<ol>
+<li><p>For the arrows at the right and left ends of the carousel, please put alt text: &quot;Scroll Left in Carousel&quot; and &quot;Scroll Right in Carousel&quot;
+K.</p>
+</li>
+<li><p>To be consistent across the site, I think we should follow the pattern of capitalizing the first word on any alt text, then putting the rest of it in lower case: &quot;Enter your search terms&quot; I also think it looks better that way.</p>
+</li>
+</ol>
+</blockquote>
+<p>K. I assume this is for &#39;title&#39; rather than &#39;alt&#39; as &#39;alt&#39; is not displayed.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-24</time>
+          </div>
+          <div class="body"><ol>
+<li>Search title should be &quot;Enter your search terms&quot;</li>
+<li>Please show me where I change this alt text.</li>
+<li>Please show me where I change this alt text.</li>
+</ol>
+<p>2/3/5/7/8/9. Resolved. Thank you.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-7-28</time>
+          </div>
+          <div class="body"><blockquote>
+<ol>
+<li>Search title should be &quot;Enter your search terms&quot;</li>
+</ol>
+</blockquote>
+<p>K</p>
+<blockquote>
+<ol>
+<li>Please show me where I change this alt text.</li>
+</ol>
+</blockquote>
+<p>For both of these just follow the breadcrumbs shown in blue at the top of the page in both images.</p>
+<p>So admin bar -&gt; Structure -&gt; Menu -&gt; (whichever menu) -&gt; (whichever link)</p>
+<p>And the field is in the fieldset &quot;Menu Link attributes&quot;, it&#39;s the first text field. Shown in the bottom of the image.</p>
+<blockquote>
+<ol>
+<li>Please show me where I change this alt text.</li>
+</ol>
+</blockquote>
+<p>Just click on edit for the Grid Image (any section page) and you&#39;ll be presented with the form shown in the image above. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-28</time>
+          </div>
+          <div class="body"><p>Everything that was on here is resolved. However, in reviewing this, I noticed that the title text for two buttons needs to be adjusted. In the spectral image viewer, for Processing Details, it shows &quot;Display Processing Details&quot; and for the Archival Packets, the title text is &quot;Download Archival Packet&quot;. In both cases, please decapitalize the 2nd and 3rd words.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><p>Should be sorted.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><p>Great. Thank you! Sorry one more small thing with these two buttons. Currently they are slightly too high so that the bottoms of them are not level with the bottom of the spectral image dropdown to the left. It&#39;s literally just a touch that&#39;s needed. Feel free to close this ticket once you done it.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-4</time>
+          </div>
+          <div class="body"><p>This one&#39;s a wrap. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Mobile: Repository page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#150</span>
+        </p>
+        <h1>Mobile: Repository page</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body">
+            <p>In the table, the first cell (which lists repositories) is too wide on mobile. At this point, the text in this cell could be wrapping to a new line and the cell needn&#39;t be wider than what&#39;s visible in the screenshot.
+<img src="https://user-images.githubusercontent.com/12518623/27430681-0d31d3f8-570f-11e7-8a87-e17eeb0432e7.PNG" alt="img_6405"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-25</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-26</time>
+          </div>
+          <div class="body"><p>This looks great, except that the first two columns now fit so perfectly on the page that users might not realize that there are additional columns to the right. Any way to signal this, perhaps by making the second column just a touch more narrow so that a sliver of the third column shows up?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><p>I&#39;ve made the change but to fit now some longer words must break with dashes.</p>
+<p><img src="https://user-images.githubusercontent.com/487373/27637090-5a2d76d4-5c06-11e7-9251-3dff273e928f.png" alt="screen shot 2017-06-28 at 13 33 12"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><p>I think that&#39;s OK. Please make the country column the same width as the state column and then you can go ahead and close this ticket. Thanks very much!</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><p>K should be sorted both &#39;country&#39;, and &#39;state&#39; are now 115px.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><p>Perfect, thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

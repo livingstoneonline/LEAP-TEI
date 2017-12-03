@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Mobile: Minor issues</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#196</span>
+        </p>
+        <h1>Mobile: Minor issues</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-8-4</time>
+          </div>
+          <div class="body">
+            <p>In looking at the site on stage on my mobile, I found four minor issues. See screen shots. The first two are taken from the following page but are not exclusive to it: <a href="http://livingstonestage.lib.umd.edu/about-this-site/leap-2013-2017-project-history-part-ii">http://livingstonestage.lib.umd.edu/about-this-site/leap-2013-2017-project-history-part-ii</a></p>
+<ol>
+<li><p>The tooltips are not the right shade of blue. They should be the same as hyperlinks. See image for the different colors. (This is not exclusively a mobile issue; I just caught it on mobile). The first screen shot below shows this.</p>
+</li>
+<li><p>The images used to illustrate section pages should of course narrow like the text. However, some images are spilling off the page. The second screen shot below shows this.</p>
+</li>
+<li><p>On the timeline, occasionally some text is being rendered off the screen. See third screen shot below, text on the left.</p>
+</li>
+<li><p>Critical edition subpages are showing the grid image. See fourth screen shot below.</p>
+</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/12518623/28992885-02106b98-796e-11e7-97d8-141e51a2391c.PNG" alt="img_6906">
+<img src="https://user-images.githubusercontent.com/12518623/28992883-020750d0-796e-11e7-91cb-c8823288213f.PNG" alt="img_6907">
+<img src="https://user-images.githubusercontent.com/12518623/28992884-020ba28e-796e-11e7-9920-fcaad627793b.PNG" alt="img_6908">
+<img src="https://user-images.githubusercontent.com/12518623/28992929-42bcc000-796f-11e7-97e3-79a454fc4252.PNG" alt="img_6909"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-6</time>
+          </div>
+          <div class="body"><blockquote>
+<ol>
+<li>The tooltips are not the right shade of blue. They should be the same as hyperlinks. See image for the different colors. (This is not exclusively a mobile issue; I just caught it on mobile). The first screen shot below shows this.</li>
+</ol>
+</blockquote>
+<p>Should be sorted now.</p>
+<blockquote>
+<ol>
+<li>The images used to illustrate section pages should of course narrow like the text. However, some images are spilling off the page. The second screen shot below shows this.</li>
+</ol>
+</blockquote>
+<p>This issue exists on production as well, it&#39;s cause you have a hard-coded width for the table in the HTML. You&#39;ll have to remove that from the nodes content.</p>
+<p>&lt;img width=&quot;1283&quot; alt=&quot;screen shot 2017-08-06 at 20 51 50&quot; src=&quot;https://user-images.githubusercontent.com/487373/29006616-330123d6-7aeb-11e7-8ebd-b45e7a28b6e4.png&quot;&gt;</p>
+<blockquote>
+<ol>
+<li>On the timeline, occasionally some text is being rendered off the screen. See third screen shot below, text on the left.</li>
+</ol>
+</blockquote>
+<p>Issue with older iPhones, should be sorted now.</p>
+<blockquote>
+<ol>
+<li>Critical edition subpages are showing the grid image. See fourth screen shot below.</li>
+</ol>
+</blockquote>
+<p>This is because the fields are filled out, if no image is placed in them then no image will appear.</p>
+<p>&lt;img width=&quot;274&quot; alt=&quot;screen shot 2017-08-06 at 15 09 10&quot; src=&quot;https://user-images.githubusercontent.com/487373/29006630-5d72c750-7aeb-11e7-8494-ab07e4a5ef12.png&quot;&gt;</p>
+<p>When I do the migration I&#39;ll remove this &#39;place holder&#39; images from the nodes content.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-6</time>
+          </div>
+          <div class="body"><p>1/3. Looks good. Thank you!</p>
+<ol>
+<li>I&#39;ll leave that with you. I&#39;ve added a note about it to ticket #159.</li>
+<li>Although what you&#39;ve indicated is correct, I don&#39;t think that&#39;s the issue. See screen shot, which shows the same image on prod (left) and stage (right). As you can see, the image on prod -- despite the fixed width -- still sizes correctly on mobile.
+<img src="https://user-images.githubusercontent.com/12518623/29007161-0bd61a78-7ac3-11e7-9128-ab35cb4b8cba.png" alt="screen shot 2017-08-06 at 16 17 48"></li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-7</time>
+          </div>
+          <div class="body"><blockquote>
+<ol>
+<li>Although what you&#39;ve indicated is correct, I don&#39;t think that&#39;s the issue. See screen shot, which shows the same image on prod (left) and stage (right). As you can see, the image on prod -- despite the fixed width -- still sizes correctly on mobile.</li>
+</ol>
+</blockquote>
+<p>If you check with Chrome (and likely other browsers) aside from Firefox / iPhone you&#39;ll see the issue exists on production. </p>
+<p>The reason it&#39;s working on Firefox, iPhone is because <code>max-width: 100%</code> is also specified for tables on production. </p>
+<p>The spec (the CSS 3 spec for CSS Intrinsic &amp; Extrinsic Sizing refers to the CSS 2.1 spec on this rule) clearly states (<a href="https://drafts.csswg.org/css-sizing-3/#width-height-keywords">https://drafts.csswg.org/css-sizing-3/#width-height-keywords</a>):</p>
+<blockquote>
+<p>all elements but non-replaced inline elements, table rows, and row groups
+which would mean it should apply to table elements.</p>
+</blockquote>
+<p>This means Chrome is in the wrong, but there&#39;s nothing we can do about that.</p>
+<p>Either way for this to work on all browsers you can&#39;t use explicit <code>width</code> on table elements, try instead to use only <code>max-width</code> when you&#39;re specifying that you want the image to be at most a certain size, which should be safe.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-7</time>
+          </div>
+          <div class="body"><p>Ok, thanks for letting me know and looking into this. Interesting to learn about this shortcoming of Chrome. Is there any way of generating a list of pages with tables/images that have a width set like this? It&#39;s easy to fix, but without list, I&#39;ll have to go through the pages one by one to find the bits to fix.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

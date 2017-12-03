@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Questions re: LEAP-XSLT repo</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#238</span>
+        </p>
+        <h1>Questions re: LEAP-XSLT repo</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-11-5</time>
+          </div>
+          <div class="body">
+            <p>I cloned the new version of the LEAP-XSLT repo, took a quick look, and see that there are a variety of structural changes to the CSS and XSL files.</p>
+<p>For instance, in the CSS files, whereas I might have had something like this before:</p>
+<p><code>.author</code></p>
+<p>I now see that there is a prefix across everything like this</p>
+<p><code>div.transcription.style-Bambarre-letter .author</code></p>
+<p>There are also some more substantial changes to <code>body</code> and <code>.div-transcription</code> at the beginning of the files.</p>
+<p>For XSL, it looks like the main changes are adding new classes to the <code>&lt;body&gt;</code> and <code>&lt;div&gt;</code> elements. In the quick spot check, I didn&#39;t see anything else of significance changed.</p>
+<p>Can you give me a quick overview of what you&#39;ve done with these two sorts of files (CSS and XSL), particularly do I need to keep the CSS files in this format now or would it be enough to carry over the <code>body</code> and <code>.div-transcription</code> changes to my CSS files that are still in the old format?</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-5</time>
+          </div>
+          <div class="body"><p>I have a quick question about files and directories in the LEAP-XSLT repo. I see the following files:</p>
+<p>leap_xslt.info
+leap_xslt.module</p>
+<p>And the following directories:</p>
+<p>fonts
+images
+javascripts
+stylesheets</p>
+<p>I&#39;m not sure what these are. I&#39;m presuming they&#39;re coming from you, but please let me know.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-11-6</time>
+          </div>
+          <div class="body"><p>I&#39;ve added </p>
+<p>leap_xslt.info
+leap_xslt.module</p>
+<p>These are required to use the files in Drupal</p>
+<p>Though these directories:</p>
+<p>fonts
+images
+javascripts
+stylesheets</p>
+<p>Have always been there.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-11-6</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Can you give me a quick overview of what you&#39;ve done with these two sorts of files (CSS and XSL), particularly do I need to keep the CSS files in this format now or would it be enough to carry over the body and .div-transcription changes to my CSS files that are still in the old format?</p>
+</blockquote>
+<p>Basically almost all elements in a style sheet need to be prefixed with:</p>
+<pre><code class="lang-css">div.transcription.STYLESHEET_ID ELEMENT
+</code></pre>
+<p>Where STYLESHEET_ID would be something like style-Bambarre-letter this means the style will only apply to children of the element with the class <code>div.transcription.style-Bambarre-letter</code></p>
+<p>For the styles at the top of the file, just copy and past change the parts in all CAPS:</p>
+<pre><code class="lang-css">body.non-embedded-transcription,
+div.transcription-viewer-content.STYLESHEET_ID {
+  background: SAME_COLOR_USED_FOR_div.transcription_Element;
+}
+</code></pre>
+<p>This is so the parent element if larger than the child has the same background color so things do not look off.</p>
+<p>For the xslt&#39;s the body element should have the class &quot;non-embedded-transcription&quot;:</p>
+<pre><code class="lang-xml">&lt;body class=&quot;non-embedded-transcription&quot;&gt;
+  &lt;xsl:apply-templates select=&quot;TEI&quot;/&gt;
+&lt;/body&gt;
+</code></pre>
+<p>And the &quot;transcription&quot; div should have the STYLESHEET_ID as a class as well:</p>
+<pre><code>&lt;div class=&quot;transcription style-1870-html&quot;&gt;
+</code></pre><p>Thats it.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-6</time>
+          </div>
+          <div class="body"><p>OK, great thanks for letting me know on all of this. Re those directories, in re-reviewing now I think they have to do with setting up the public facing version of this page that James previously created (<a href="http://livingstoneonline.github.io/LEAP-XSLT/">http://livingstoneonline.github.io/LEAP-XSLT/</a>), so I&#39;ll just leave them alone.</p>
+<p>Re: XSL &amp; CSS, great. Makes sense. Thanks for clarifying that. In terms of this change (and the others related to this):</p>
+<blockquote>
+<p>Basically almost all elements in a style sheet need to be prefixed with:</p>
+<p>div.transcription.STYLESHEET_ID ELEMENT</p>
+</blockquote>
+<p>I&#39;m guessing this has to do with not having styling of elements in the HTML files interfere with similar elements on the pages in which these files are embedded in the site. Is that correct? I&#39;ll go ahead to keep the forward momentum going and close this ticket, but please confirm.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

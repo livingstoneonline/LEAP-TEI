@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Access and Upload Options</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#206</span>
+        </p>
+        <h1>Access and Upload Options</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-7</time>
+          </div>
+          <div class="body">
+            <p>I&#39;ve been looking at stage and see that a few back end pages that are accessible from prod are no longer visible from stage. Screen shots below. These pages are helpful in that they let me add media to the site and also review content.</p>
+<p>The following pages let me add one file or many files in bulk. The functionality of these may be covered by the filebrowser that&#39;s been added, but am noting just in case:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/30175035-c1531c12-93c2-11e7-8c7d-f2cc698415d6.png" alt="screen shot 2017-09-07 at 11 46 54">
+<img src="https://user-images.githubusercontent.com/12518623/30175036-c166de00-93c2-11e7-936c-fe9afc8c472d.png" alt="screen shot 2017-09-07 at 11 46 58"></p>
+<p>However, I don&#39;t believe the filebrowser will cover the functionality of the following page:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/30175047-cd7e63ac-93c2-11e7-98db-e13467fba301.png" alt="screen shot 2017-09-07 at 11 47 09"></p>
+<p>This page lets me review and sort content in various forms, so it would be good to have it kept in the new site.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-7</time>
+          </div>
+          <div class="body"><p>From a quick glance now, I don&#39;t see anything else useful that&#39;s missing on stage, but I&#39;ll try to do a more thorough review later today.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-8</time>
+          </div>
+          <div class="body"><p>Here are a few more things that I can&#39;t currently see how to adjust on stage:</p>
+<p>Where to change the title for Search bar and Browse button.
+Where to edit text &amp; link for image credits, site guide on home page; footer text on levels 2/3.
+Where to initiate a manual backup of the database as well as where to set location.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-13</time>
+          </div>
+          <div class="body"><p>You can now access the file browsers (on stage):</p>
+<p>&lt;img width=&quot;1440&quot; alt=&quot;screen shot 2017-09-13 at 08 17 16&quot; src=&quot;https://user-images.githubusercontent.com/487373/30364601-d927d884-985c-11e7-85e9-0b189bc68b16.png&quot;&gt;</p>
+<blockquote>
+<p>This page lets me review and sort content in various forms, so it would be good to have it kept in the new site.</p>
+</blockquote>
+<p>The content page is available in its normal location.</p>
+<blockquote>
+<p>Where to change the title for Search bar and Browse button.</p>
+</blockquote>
+<p>It&#39;s hard coded.</p>
+<blockquote>
+<p>Where to edit text &amp; link for image credits, site guide on home page; footer text on levels 2/3.</p>
+</blockquote>
+<p>It&#39;s all hard coded.</p>
+<blockquote>
+<p>Where to initiate a manual backup of the database as well as where to set location.</p>
+</blockquote>
+<p>Backups are not setup for staging server (don&#39;t want to accidentally overwrite production, etc). The testing of this will have to wait for deployment to production.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>I see Filebrowser and you&#39;re right that the content page is in the normal location. Not sure how I previously missed it!</p>
+<p>For the hard-coded items, can you tell me the location of each of them in case I want to edit in the future. For instance, I plan to edit the footer text soon.</p>
+<p>Re: backups, OK, I&#39;ll revisit.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>Search:
+<a href="https://github.com/livingstoneonline/livingstone_online_theme/blob/dev/includes/alter.inc#L18-L19">https://github.com/livingstoneonline/livingstone_online_theme/blob/dev/includes/alter.inc#L18-L19</a></p>
+<p>Footer:</p>
+<p><a href="https://github.com/livingstoneonline/livingstone_online_theme/blob/dev/templates/system/page.tpl.php#L139-L141">https://github.com/livingstoneonline/livingstone_online_theme/blob/dev/templates/system/page.tpl.php#L139-L141</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>I&#39;ll create a seperate ticket to track backups on production</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>Thanks for Search and Footer links. Please note that we still need: Browse and text/link for &quot;image credits&quot; and &quot;site guide&quot; on the home page.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>Oh sorry that is here:</p>
+<p><a href="https://github.com/livingstoneonline/livingstone_online_theme/blob/dev/templates/system/page--front.tpl.php#L95-L103">https://github.com/livingstoneonline/livingstone_online_theme/blob/dev/templates/system/page--front.tpl.php#L95-L103</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>Almost there. Still need the Browse link.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-21</time>
+          </div>
+          <div class="body"><p>Browse by widget: <a href="https://github.com/livingstoneonline/livingstone_online_module/blob/dev/theme/livingstone-browse-collection-block.tpl.php">https://github.com/livingstoneonline/livingstone_online_module/blob/dev/theme/livingstone-browse-collection-block.tpl.php</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-21</time>
+          </div>
+          <div class="body"><p>Great. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

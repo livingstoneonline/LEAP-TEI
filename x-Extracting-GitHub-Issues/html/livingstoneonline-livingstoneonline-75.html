@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Issue on Prod: Level 3 Title Disappearing</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#75</span>
+        </p>
+        <h1>Issue on Prod: Level 3 Title Disappearing</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-8-15</time>
+          </div>
+          <div class="body">
+            <p>This is the same issue that came up before. The title on level 3 pages is visible, but if you click a link that&#39;s anchored to a place lower down on the page, then scroll back up, the title is gone. </p>
+<p>You of course got this close to working, it was fine, then I noticed the other day that the issue had returned. I went into the back end, fixed it exactly as you did (oddly the setting had changed since you set it up correctly), but this time changing the settings didn&#39;t work.</p>
+<p>This doesn&#39;t have to work perfectly -- if, say, the title simply moves closer to the carousel that will be OK -- but the title can&#39;t be disappearing as now.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/12518623/17679952/695dab12-6303-11e6-881d-392050843a38.png" alt="screen shot 2016-08-15 at 16 09 32">
+<img src="https://cloud.githubusercontent.com/assets/12518623/17679951/69598ee2-6303-11e6-9d1f-7707893f62fd.png" alt="screen shot 2016-08-15 at 16 09 38"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-8-26</time>
+          </div>
+          <div class="body"><p>Looks good! It looks like we&#39;re back to the original solution, which was not 100% but does the trick. Is that right? Let me know in case this issue comes up again.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-8-26</time>
+          </div>
+          <div class="body"><p>Yup same solution as before, it came back because it was in one of the features which got reapplied (reintroducing the issue again). I&#39;ve removed it from the feature so it shouldn&#39;t crop up again.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-21</time>
+          </div>
+          <div class="body"><p>Nigel, could you fix this issue on stage. It&#39;s cropped up there. Please don&#39;t just copy down the prod database to stage as we&#39;re in the process of developing new content in stage so we don&#39;t want that overwritten. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-29</time>
+          </div>
+          <div class="body"><p>I can&#39;t seem to reproduce it?</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

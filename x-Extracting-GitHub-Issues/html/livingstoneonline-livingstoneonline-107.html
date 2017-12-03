@@ -1,0 +1,401 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Drupal tooltips: Mobile</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#107</span>
+        </p>
+        <h1>Drupal tooltips: Mobile</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-17</time>
+          </div>
+          <div class="body">
+            <p>This page (and others like it) have tooltips that Kathy created:</p>
+<p><a href="http://livingstoneonline.org/spectral-imaging/project-history">http://livingstoneonline.org/spectral-imaging/project-history</a></p>
+<p>They work fine on desktop, but on mobile often popup partly off the screen with no way to move them into the screen.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-12-8</time>
+          </div>
+          <div class="body"><p>Looks to be using the QTip jQuery library, <a href="http://qtip2.com/">http://qtip2.com/</a> might be able to sort this with some overrides.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-12-9</time>
+          </div>
+          <div class="body"><p>Sounds good. Let me know if there&#39;s anything I can do to help. Also, I thought I noted this in another ticket, but now don&#39;t see it, but we did email about it. There are also tooltips in the XSLT display and these work fine on desktop but also don&#39;t work on mobile. Example page:</p>
+<p><a href="http://livingstoneonline.org/islandora/search/%221870%20Field%20Diary%22?f%5B%5D=genre_ms%3A%22spectral+color%22&amp;view_pid=liv%3A000202&amp;view_page=0">http://livingstoneonline.org/islandora/search/%221870%20Field%20Diary%22?f%5B%5D=genre_ms%3A%22spectral+color%22&amp;view_pid=liv%3A000202&amp;view_page=0</a></p>
+<p>So the issue is slightly different, but still related to tooltips.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-12-9</time>
+          </div>
+          <div class="body"><p>Hmm the tooltips aren&#39;t coming up for me on the page, should it be coming up for every bit of underlined text or just specific words?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-12-9</time>
+          </div>
+          <div class="body"><p>Only the words with dotted colored underline. See screen shot. They definitely come up for me in Firefox.
+<img src="https://cloud.githubusercontent.com/assets/12518623/21054023/83c7c0de-bdf1-11e6-9419-462674293ad9.png" alt="screen shot 2016-12-09 at 9 24 54"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-12-9</time>
+          </div>
+          <div class="body"><p>There coming up now for me (user error on my part), these are a bit different as they are using the title attribute of the elements so the display is not under our control. We&#39;d have to add the QTip Library above to get more control about how we render these as well.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-12-9</time>
+          </div>
+          <div class="body"><p>OK, then let&#39;s add these to the list. These would also be high-priority.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-12-18</time>
+          </div>
+          <div class="body"><p>They should be working in both locations now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-12-20</time>
+          </div>
+          <div class="body"><p>The tooltips on pages created by Kathy work fine on mobile now: <a href="http://livingstoneonline.org/about-site/leap-2013-2017-project-history-part-i">http://livingstoneonline.org/about-site/leap-2013-2017-project-history-part-i</a> </p>
+<p>However, could you put a touch or left/right padding on these so when they show up they&#39;re not completely against the edge of the screen?</p>
+<p>The tooltips on the pages rendered by XSLT (multi-viewer and manuscript viewer) are kind of wonky. They don&#39;t seem to be working in the multiviewer in my iPhone, while the ones on the manuscript viewer appear but are jamming the page from working, as once one appears I can no longer scroll up and down in the transcription.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-1-9</time>
+          </div>
+          <div class="body"><blockquote>
+<p>However, could you put a touch or left/right padding on these so when they show up they&#39;re not completely against the edge of the screen?</p>
+</blockquote>
+<p>Unfortunately I can&#39;t the library we&#39;re using qtip doesn&#39;t provide a way to do this consistently as it computes and positions the element, any overrides via CSS just lead to wonky behavior and it&#39;s not exposed through the javascript so that we can make modifications to the algorithm easily.</p>
+<blockquote>
+<p>The tooltips on the pages rendered by XSLT (multi-viewer and manuscript viewer) are kind of wonky. They don&#39;t seem to be working in the multiviewer in my iPhone, while the ones on the manuscript viewer appear but are jamming the page from working, as once one appears I can no longer scroll up and down in the transcription.</p>
+</blockquote>
+<p>Seems they were appearing but just unbelievably slowly. They also locked the ability to scroll until they displayed. Fixing this took the better part of day. It should now work just as fast on mobile as it does on desktop.</p>
+<p>This is now deployed to production.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-1-12</time>
+          </div>
+          <div class="body"><p>Tooltips on the multiviewer now work great. However, I also discovered that the date selection dropdown does not work. If you select a date and click on it, nothing happens on the page.</p>
+<p>Tooltips on the manuscript viewer also appear to work well. However, when I open a spectral image, selection a transcription, and then try to view it, I&#39;m not able to move in the transcription either up or down, or right to left. See attached screen shot. It&#39;s stuck like this. More oddly, when I try to scroll up and down, a small scrollbar appears at right, but it seems to be moving the catalogue page <em>behind</em> the transcription.
+<img src="https://cloud.githubusercontent.com/assets/12518623/21905895/afe57b46-d8ce-11e6-8e85-399011abb51e.PNG" alt="img_4835"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-1-12</time>
+          </div>
+          <div class="body"><p>Additional text from #119:</p>
+<p>I&#39;ve run into issue with the image viewer when looking at it on my iPhone. As I explained, sometimes when I open an image and try to move it around it &quot;skips&quot; i.e., kind of disappears off the screen and I return momentarily to the catalogue. Also, when I last use the view to look at images, select both a second page of an item or a transcription, returned an unfunctioning black screen.</p>
+<p>Since this seems to be related to the issue I cited above, I&#39;m putting the text here and closing #119.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-1-14</time>
+          </div>
+          <div class="body"><p>Most of the issues have been fixed and pushed up, one thing remains the iphone tends to zoom after using any of the form elements (such as selecting a page) which makes the experience less enjoyable, but at least everything is functioning.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-1-21</time>
+          </div>
+          <div class="body"><p>I reviewed the outstanding problems on this, and it looks like you fixed everything. So thank you very much for that. In terms of the zooming issue you cite, I&#39;m not seeing it, but I also am not sure I know what you&#39;re referring to. Can you explain a bit more?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-1-24</time>
+          </div>
+          <div class="body"><p>When clicking on the search input or any of the other elements the page zooms in a bit and messes with the layout.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-1-24</time>
+          </div>
+          <div class="body"><p>From my research it seems I can&#39;t disable this behaviour on the iphone, but if the font size on these items is 16px it won&#39;t zoom in (the feature exists to see small text, and apple prevents disabling it to prevent accessibility issues). This is what it looks like with 16px font:</p>
+<p><img src="https://cloud.githubusercontent.com/assets/487373/22267032/140a732e-e27a-11e6-88f8-acc19313bd06.png" alt="16px"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-1-24</time>
+          </div>
+          <div class="body"><p>Search the entire site no longer fits in the search bar, but otherwise it looks like safe change.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-1-24</time>
+          </div>
+          <div class="body"><p>Yes, looks good to me. Please go ahead and make it. One thing you could do is, at this size make the search bar simply say &quot;Search site&quot; and then it should fit.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>It appears that the work here was to put &quot;Search the entire site&quot; in the search bar on mobile when looking at the viewer/spectral viewer. That looks OK. </p>
+<p>However, in looking at the spectral viewer now, I see that in transcriptions words that should be underlined and have tooltips are just being rendered plain. Also, there seem to be issues with how the transcription text is displaying as a whole, as chunks of it are actually missing and most of the formatting is missing.</p>
+<p>Additionally, on pages like the LEAP history (<a href="http://livingstonestage.lib.umd.edu/about-this-site/leap-2013-2017-project-history-part-i">http://livingstonestage.lib.umd.edu/about-this-site/leap-2013-2017-project-history-part-i</a>), where we have the tooltips that Kathy added, when such pages are viewed on mobile, if one clicks on the tootip then scrolls down past where the tooltips should appear, it persists on the screen.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><blockquote>
+<p>It appears that the work here was to put &quot;Search the entire site&quot; in the search bar on mobile when looking at the viewer/spectral viewer. That looks OK.</p>
+</blockquote>
+<p>Well it was all the changes to support viewing in the iPhone correctly. Note that the text here has changed according to ticket: <a href="https://github.com/livingstoneonline/livingstoneonline/issues/102">https://github.com/livingstoneonline/livingstoneonline/issues/102</a></p>
+<blockquote>
+<p>However, in looking at the spectral viewer now, I see that in transcriptions words that should be underlined and have tooltips are just being rendered plain. Also, there seem to be issues with how the transcription text is displaying as a whole, as chunks of it are actually missing and most of the formatting is missing.</p>
+</blockquote>
+<p>This should be sorted now, looks like I had a single typo in LEAP-XSLT that only affected this particular stylesheet. </p>
+<p><a href="https://github.com/livingstoneonline/LEAP-XSLT/commit/d9c4c33dc1bfd21202b7e16127bf6e8c6c4ff10f">https://github.com/livingstoneonline/LEAP-XSLT/commit/d9c4c33dc1bfd21202b7e16127bf6e8c6c4ff10f</a></p>
+<blockquote>
+<p>Additionally, on pages like the LEAP history (<a href="http://livingstonestage.lib.umd.edu/about-this-site/leap-2013-2017-project-history-part-i">http://livingstonestage.lib.umd.edu/about-this-site/leap-2013-2017-project-history-part-i</a>), where we have the tooltips that Kathy added, when such pages are viewed on mobile, if one clicks on the tootip then scrolls down past where the tooltips should appear, it persists on the screen.</p>
+</blockquote>
+<p>This appears to be the same behaviour as on the production site? Should I assume that you want tooltips to disappear if the user continues to scroll?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>OK, so the search text is sorted, so thank you for that.</p>
+<p>Spectral transcriptions are also sorted, so thank you x 2.</p>
+<p>For tooltips, let&#39;s indeed have it that they disappear when the user starts to scroll again. Can we have it work like this on both regular pages and in the manuscript/spectral image viewer.</p>
+<p>Finally, in going back above, I see the reason why you increased the Browse and Search text to 16pt font for mobile. However, I&#39;d only like it that size for mobile. On all big sizes, please take it back to what it is on production. 16pt for iPad and Desktop is too big.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-14</time>
+          </div>
+          <div class="body"><p>Ready for review, tooltips should now disappear when the user scrolls. I&#39;ve changed the font back to 14px for all platforms, and have gotten around the zoom issue on iPhone by disabling the ability to zoom completely.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-14</time>
+          </div>
+          <div class="body"><p>Tooltips work great both on regular pages and on the viewer. Re: 14px font, excellent, but please note that the search and browse dropdowns are still showing in a larger font, so these need also be changed back.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-21</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Tooltips work great both on regular pages and on the viewer. Re: 14px font, excellent, but please note that the search and browse dropdowns are still showing in a larger font, so these need also be changed back.</p>
+</blockquote>
+<p>They seem to be 14px which is the same on production?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>Sorry, I meant something else. See attached screen shots.
+<img src="https://user-images.githubusercontent.com/12518623/27429388-819473fe-570a-11e7-83e5-6cb4b4fa9527.png" alt="screen shot 2017-06-22 at 5 19 15">
+<img src="https://user-images.githubusercontent.com/12518623/27429389-8196a3ea-570a-11e7-9d58-47987c7c7429.png" alt="screen shot 2017-06-22 at 5 19 51"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>Oh ok, it should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>Yes, looks good, but also looks like the modal function (same as the critical ed) is set up for these. That function is only needed for the TOC, not for these.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>I&#39;m not sure I understand, can you please elaborate?</p>
+<p>On Thursday, June 22, 2017, awisnicki <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#111;&#x3a;&#x6e;&#111;&#x74;&#105;&#102;&#105;&#99;&#x61;&#116;&#x69;&#x6f;&#x6e;&#x73;&#x40;&#103;&#105;&#116;&#x68;&#x75;&#x62;&#x2e;&#99;&#x6f;&#109;">&#x6e;&#111;&#x74;&#105;&#102;&#105;&#99;&#x61;&#116;&#x69;&#x6f;&#x6e;&#x73;&#x40;&#103;&#105;&#116;&#x68;&#x75;&#x62;&#x2e;&#99;&#x6f;&#109;</a> wrote:</p>
+<blockquote>
+<p>Yes, looks good, but also looks like the modal function (same as the
+critical ed) is set up for these. That function is only needed for the TOC,
+not for these.</p>
+<p>—
+You are receiving this because you were assigned.
+Reply to this email directly, view it on GitHub
+<a href="https://github.com/livingstoneonline/livingstoneonline/issues/107#issuecomment-310399676">https://github.com/livingstoneonline/livingstoneonline/issues/107#issuecomment-310399676</a>,
+or mute the thread
+<a href="https://github.com/notifications/unsubscribe-auth/AAdvzdAlH6EmJW1UHmvUP7qZX_DxtPtrks5sGnwTgaJpZM4K1zEf">https://github.com/notifications/unsubscribe-auth/AAdvzdAlH6EmJW1UHmvUP7qZX_DxtPtrks5sGnwTgaJpZM4K1zEf</a>
+.</p>
+</blockquote>
+<p>-- 
+Nigel Banks
+nigel.g.banks@gmail.com</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>Sure. These are both dropdowns. When I open either one, the whole screen goes gray behind them. That&#39;s not necessary for these. We only need that function for the critical edition table of contents, not for these minor dropdowns.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>ah whoops, should be sorted now.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

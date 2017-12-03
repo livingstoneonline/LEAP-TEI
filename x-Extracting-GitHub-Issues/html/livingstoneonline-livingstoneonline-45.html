@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Image numbering in transcription</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#45</span>
+        </p>
+        <h1>MS Viewer: Image numbering in transcription</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-24</time>
+          </div>
+          <div class="body">
+            <p>1) The image identification info for each page of the transcription is currently bold, centered, has a semi-colon after the word &quot;image&quot; and has an empty line below it. Please change this as follows:</p>
+<p>rend left
+no bold
+in square brackets
+remove semi-colon
+empty line above rather than below</p>
+<p>2) Please remove the black horizontal line that appears between pages of the transcription.</p>
+<hr>
+<p>So, in other words, going from one page of the transcription to the next would look like the following:</p>
+<p>That, the scriptures of the old and new Testaments, are a revelation of the will
+of god to fallen man, this being attested by such evidence as no one with an unbiased 
+mind can resist. That they contain a perfect rule of faith and practice. &quot;All</p>
+<p>[Image 0003]
+scripture being given by inspiration of god, and profitable for doctrines for
+reproof, for correction, for instruction in righteousness,&quot; From these we learn that </p>
+<hr>
+<p>Also a question, would it be difficult to hyperlink the [Image 0003 text] to the relevant image so that when you clicked on the hyperlinked text in the transcription it would call up the relevant image?</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-28</time>
+          </div>
+          <div class="body"><p>My changes to the XSLT have resolved all of this and so only my question at the end needs to be addressed:</p>
+<p>Would it be difficult to hyperlink the [Image 0003 text] to the relevant image so that when you clicked on the hyperlinked text in the transcription it would call up the relevant image?</p>
+<p>It&#39;s possible, I might be able to set this up via the XSLT myself.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>It&#39;s not possible via the XSLT alone, as the XSLT won&#39;t be aware of the url parameters so any added links are like to remove the users facets (Genre, etc). It can be achieved via javascript though.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>How much work would this entail?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>1-2 hours</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>Could we go ahead and do this then? I tried to take a few things off the list/close out some tickets to compensate for the added time here.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you! I&#39;ll also change the CSS to make it obvious that this is a link.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

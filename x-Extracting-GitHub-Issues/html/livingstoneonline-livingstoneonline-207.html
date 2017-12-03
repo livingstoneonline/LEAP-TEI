@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Issue with Multitext Viewer</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#207</span>
+        </p>
+        <h1>Issue with Multitext Viewer</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-12</time>
+          </div>
+          <div class="body">
+            <p>I went to access this page today: <a href="http://livingstoneonline.org/his-own-words/multiple-versions-text">http://livingstoneonline.org/his-own-words/multiple-versions-text</a></p>
+<p>And got the following error. See screen shot. I&#39;ve seen this before, but it only happens occasionally. For instance, when I accessed the page just now it was fine.</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/30349353-5a034630-97d8-11e7-961d-54e5637dbc27.png" alt="screen shot 2017-09-12 at 13 24 07"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-24</time>
+          </div>
+          <div class="body"><p>I&#39;ve added a caching layer that should hopefully cut down on the timeouts occuring.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-25</time>
+          </div>
+          <div class="body"><p>Ok, sounds good. Thanks very much. I&#39;ll keep an eye on this and let you know if it comes up again.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

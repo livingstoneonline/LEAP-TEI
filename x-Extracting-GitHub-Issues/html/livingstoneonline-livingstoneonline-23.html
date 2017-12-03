@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Side Arrows</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#23</span>
+        </p>
+        <h1>MS Viewer: Side Arrows</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body">
+            <p>The arrows at the side of the viewer should be the same as appear at the sides of the other pages on the site, for instance: <a href="http://livingstonestage.lib.umd.edu/his-own-words/his-own-words-overview">http://livingstonestage.lib.umd.edu/his-own-words/his-own-words-overview</a></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-10</time>
+          </div>
+          <div class="body"><p>I can do this, but it might be a bit confusing in that they arrows server different purposes, one moves pages within a document where as the other takes the user to a completely different page.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-10</time>
+          </div>
+          <div class="body"><p>Good point. OK, let&#39;s do the following compromise:
+Use the same arrows as on the other pages of the site, but invert their color (so that it&#39;s a grey arrow on a dark gray background -- same color you have now), and make them smaller that the other pages of the site (so similar size to what you have now). 
+So that way they&#39;ll be continuity with the other pages, but also difference.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Tried inverting it and it looked pretty ugly:</p>
+<p>&lt;img width=&quot;802&quot; alt=&quot;screen shot 2016-06-01 at 16 10 50&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/15715015/dae7814c-2814-11e6-8cf4-2138c87a5da2.png&quot;&gt;</p>
+<p>So opted for the original look.</p>
+<p>&lt;img width=&quot;776&quot; alt=&quot;screen shot 2016-06-01 at 16 21 32&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/15715048/f0f37f72-2814-11e6-866a-0fc3a3306510.png&quot;&gt;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Agreed. The original look looks better. However, the arrows are now are are too big. Can you send me the image for these and I&#39;ll reduce them to the appropriate size (I can figure out how to pull the arrows right off the site) or if you want to get them closer to the size of the arrows you originally had you can do that too and I&#39;ll review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>I scaled it to the same size as before.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>And also looks good, so closing this one! Well done. :&gt;</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

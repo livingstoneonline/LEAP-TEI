@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Date Sorting</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#7</span>
+        </p>
+        <h1>Browse by Catalogue: Date Sorting</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-4-28</time>
+          </div>
+          <div class="body">
+            <p>Sorting by the date column should always sort by year, month, day (in that order). If the date for an item is actually a range, it should sort by the beginning date.</p>
+<p>Note: the dates at the end of the table, on the last few pages, are not being sorted at all.</p>
+<p>The dates at the end are date ranges i.e.:</p>
+<p>&lt;mods:dateCreated encoding=&quot;iso8601&quot;&gt;1856/1857/mods:dateCreated</p>
+<p>Nigel: These are currently not indexed (hence why they aren’t sorted), as the system has not yet been built to support date ranges. It’s built on TrieDateField rather than DateRangeField <a href="https://cwiki.apache.org/confluence/display/solr/Working+with+Dates">https://cwiki.apache.org/confluence/display/solr/Working+with+Dates</a>. On further inspection DateRangeField was only added to solr in version 5.0 <a href="https://lucidworks.com/blog/2016/02/13/solrs-daterangefield-perform">https://lucidworks.com/blog/2016/02/13/solrs-daterangefield-perform</a>, which currently isn’t supported by GSearch and therefore islandora (only up to 4.x is supported at this time). <a href="https://issues.apache.org/jira/browse/SOLR-6103">https://issues.apache.org/jira/browse/SOLR-6103</a>.</p>
+<p>Extracting the start date in such cases now, ranged queries within the date range but after the start date will not come back in search results but there isn’t anything we can do about that.</p>
+<p><strong>Deployed to stage</strong>, but raises new issue, currently only a single date is displayed even if there is multiple</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-4-28</time>
+          </div>
+          <div class="body"><p>As discussed, we&#39;ll want to use year ranges. (1860, 1861, 1862, etc.). When will we plan on instituting this?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body"><p>This is currently deployed, but can be a bit odd when viewing due to the date data. For example many objects have a date of &quot;Date Unknown&quot; but they also set the ISO 86401 value to a date range like 1800/2000. So in these cases the object will appear in order according to their start date (1800 in this case), which can be a bit confusing as there are dates earlier than this so we see something like this.</p>
+<p>&lt;img width=&quot;720&quot; alt=&quot;dates&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/15032352/d53e093c-1257-11e6-804a-e55741a37c8a.png&quot;&gt;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body"><p>The specific issue cited here is resolved. Thank you! I take your last point, however, and have addressed it separately in this issue: <a href="https://github.com/livingstoneonline/livingstoneonline/issues/4">https://github.com/livingstoneonline/livingstoneonline/issues/4</a></p>
+<p>So I am closing this one.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

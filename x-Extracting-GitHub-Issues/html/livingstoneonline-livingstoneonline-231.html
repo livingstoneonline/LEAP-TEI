@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Spectral image viewer buttons do not match prod</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#231</span>
+        </p>
+        <h1>Spectral image viewer buttons do not match prod</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body">
+            <p>Please configure the buttons in the spectral image viewer (see image below) so that theming and behavior matches prod. It looks like this is a set of settings your forgot to carry over.
+<img src="https://user-images.githubusercontent.com/12518623/31577522-bdeaf0ce-b0d5-11e7-9f33-83b3597fd48e.PNG" alt="img_7202"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>Should be sorted now, bug was caused by a change in css precedence due to other recent fixes.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>Unfortunately, one more theming pass needed. See screen shot.</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/31578646-f7cf870e-b0ea-11e7-9605-32997baf4bab.png" alt="screen shot 2017-10-14 at 14 19 23"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-17</time>
+          </div>
+          <div class="body"><p>K I&#39;ve removed the responsive resizing.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-17</time>
+          </div>
+          <div class="body"><p>Unfortunately, I don&#39;t see that anything has changed. Color dropdown still looks like the same width. See screen shot below and compare with that above. Perhaps you didn&#39;t yet push up the change?
+<img src="https://user-images.githubusercontent.com/12518623/31688289-8f4da3b4-b351-11e7-9d74-fec81d7c63f1.png" alt="screen shot 2017-10-17 at 15 39 41"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-17</time>
+          </div>
+          <div class="body"><p>Should be sorted now, needed to clear the caches.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-17</time>
+          </div>
+          <div class="body"><p>Ah-ha! And now I know what that means ;&gt;</p>
+<p>Looks great. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

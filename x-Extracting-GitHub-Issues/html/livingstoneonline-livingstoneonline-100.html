@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Critical edition pages: Dropdown</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#100</span>
+        </p>
+        <h1>Critical edition pages: Dropdown</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-11</time>
+          </div>
+          <div class="body">
+            <p>We&#39;d like to increase the size on the dropdown slightly (text size and width of box). If it&#39;s 100% now, we&#39;d like to take it to 102%. It should only be this size on the desktop etc. Once you get down to mobile and the other dropdowns, then the critical edition dropdown would snap back to its current size so it was in line (size wise) with the other dropsdowns.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-13</time>
+          </div>
+          <div class="body"><p>Ready for review on stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-13</time>
+          </div>
+          <div class="body"><p>Too big now. Sorry. Let&#39;s make this 14px.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-14</time>
+          </div>
+          <div class="body"><p>K reverted it back to it&#39;s original size of 14px.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-14</time>
+          </div>
+          <div class="body"><p>Let&#39;s make this 14.5px and that will be a wrap. Closing...</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

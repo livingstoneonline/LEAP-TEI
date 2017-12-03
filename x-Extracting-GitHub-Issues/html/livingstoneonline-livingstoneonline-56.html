@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Add &quot;restricted item&quot; link to &quot;Browse by Catalogue&quot; table&#x27;s access column</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#56</span>
+        </p>
+        <h1>Add &quot;restricted item&quot; link to &quot;Browse by Catalogue&quot; table&#x27;s access column</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-6-14</time>
+          </div>
+          <div class="body">
+            <p>The restricted item icon will appear for those Manuscripts which do have image content, but do not allow the user to access it. Administrators when logged in will not see this icon.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-14</time>
+          </div>
+          <div class="body"><p>Here&#39;s a mockup of how I imagine the notification would appear in the viewer. Let me know if this is feasible/aligns with what you had in mind. The text would be controlled via a block (or something like that) so that I could modify it at will. Note also that the &quot;contact us&quot; bit is hyperlinked, so I&#39;d need to be able to control that.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/12518623/16053433/623b7fb8-322e-11e6-9830-e275c3443264.png" alt="restricted-item-mockup"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-14</time>
+          </div>
+          <div class="body"><p>Sounds good, the only thing I&#39;ll add is that the icons related to the image viewing (zoom, rotate, page dropdown, page arrows) will be removed from the display. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-14</time>
+          </div>
+          <div class="body"><p>No prob.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-15</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-15</time>
+          </div>
+          <div class="body"><p>This works as expected, so all looks good from that perspective. Thanks very much.</p>
+<p>In terms of the text displayed: </p>
+<p>1) Please close up the spacing above and below the gray line so that spacing matches that on the Item Details window pane.</p>
+<p>2) Add padding to the left and below, so that there is the same amount of padding on all four sides around the text. It doesn&#39;t look like that now.</p>
+<p>Once you make these adjustments, you can close this ticket.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Changes deployed to stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Sorry to reopen this ticket, but it doesn&#39;t look like the padding to left and below has been added. if you take a look at my mockup up above, you&#39;ll see that it has a lot more padding around the text in general.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>There is the same amount of padding on all sides, but it may look off in terms of an optical illusion.</p>
+<p>&lt;img width=&quot;1132&quot; alt=&quot;screen shot 2016-06-16 at 18 08 25&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/16125855/5e90b62e-33ed-11e6-9edb-cb74da2a447a.png&quot;&gt;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Done. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

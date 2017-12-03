@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Show as Overlay</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#25</span>
+        </p>
+        <h1>MS Viewer: Show as Overlay</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body">
+            <p>Please indicate that the viewer is an overlay by putting a little bit of space around its edges on the right and left hand sides and curving the corners, so that just a little of the underlying Browse by Catalogue Page is visible, as per the way Amazon has it&#39;s book viewer set up.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-23</time>
+          </div>
+          <div class="body"><p>This looks great in terms of functionality. I&#39;m still undecided on the padding issue. Right now there&#39;s definitely too much. Could you cut the padding to half all around the image? If that&#39;s still not good, then we&#39;ll go with cutting out the padding top and bottom as we discussed via email.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-25</time>
+          </div>
+          <div class="body"><p>I figured out how to test out the padding. Let&#39;s make the padding on this .5 em and that should be good.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

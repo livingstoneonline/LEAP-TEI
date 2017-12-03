@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Sticky header: remove transparency</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#89</span>
+        </p>
+        <h1>Sticky header: remove transparency</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-1</time>
+          </div>
+          <div class="body">
+            <p>When our new critical edition dropdown scrolls through the sticky header on level 3 pages, the header is transparent when it shouldn&#39;t be. See attached screen shot.
+<img src="https://cloud.githubusercontent.com/assets/12518623/19906428/bdf1f840-a048-11e6-83ad-b47d2780edd3.png" alt="screen shot 2016-11-01 at 9 48 26"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-4</time>
+          </div>
+          <div class="body"><p>Should be sorted on stage now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-4</time>
+          </div>
+          <div class="body"><p>Yes, resolved. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

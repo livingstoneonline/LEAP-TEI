@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Page Refresh</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#61</span>
+        </p>
+        <h1>Browse by Catalogue: Page Refresh</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body">
+            <p>When I&#39;m at the bottom of a given page and I select a number to take me to the next page, the page should automatically go to the top. </p>
+<p>Note: We&#39;re also planning to do lazy load on this page, which would eliminate the need for this, so please advise whether we should consider skipping this all together (or, alternately, maybe it&#39;s time to put some time estimates on the items in issue #10 -- i.e., lazy load and sticky header?).</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>Your right with issue #10 it will make this change redundant, that being said; I likely can implement this less than 1 hour. I&#39;ll have to do some research on the lazy loading header there isn&#39;t an off the self solution I know of that works with Drupal tables.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>Ok, either implementing the temporary solution (since it will take little time) or, alternately, going to the work in issue #10 would be OK with me. Please go ahead and look into all of this and let me know how you think best to proceed. Happy to discuss options with you if necessary. Just let me know.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>It was faster to implement this than to scope out #10, it&#39;s ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>Looks good on Safari &amp; Chrome but doesn&#39;t work on Firefox.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><p>Good catch, odd bug that. The fix is on stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><p>Fixed!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Pushing XSLT</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#68</span>
+        </p>
+        <h1>Pushing XSLT</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-25</time>
+          </div>
+          <div class="body">
+            <p>I&#39;ve successfully pushed updated versions of transcription.xsl to dev, stage, and prod, but despite a number of attempts on my part prod is not using the new file. I&#39;m not sure what I&#39;ve done wrong as I&#39;ve followed exactly the same procedure for stage and there the file is being recognized and is working just fine.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>It was my mistake the passcode for automated deployment I was using for stage and production was different (a copy paste error). Automated deployment for production should now be working. I&#39;m currently testing to make sure and will close the ticket after the build completes and deploys.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>Looks like all is well now.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

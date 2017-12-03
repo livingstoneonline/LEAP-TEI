@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Multitext Viewer: Stying of text in panes</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#188</span>
+        </p>
+        <h1>Multitext Viewer: Stying of text in panes</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-7-29</time>
+          </div>
+          <div class="body">
+            <p>The text in the panes, although generally styled properly, is not being fully styled per the relevant CSS. For instance, compare this page on stage and prod: <a href="http://livingstonestage.lib.umd.edu/spectral-imaging/three-versions-the-1870-field-diary">http://livingstonestage.lib.umd.edu/spectral-imaging/three-versions-the-1870-field-diary</a> and you&#39;ll see that the main title is not being properly rendered on stage.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-4</time>
+          </div>
+          <div class="body"><p>This is covered by ticket: <a href="https://github.com/livingstoneonline/livingstoneonline/issues/137">https://github.com/livingstoneonline/livingstoneonline/issues/137</a> we can&#39;t use recent changes to the XSLT until after the migration (during which we have to sort out the CSS issues of no longer rendering in an iframe).</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Error when trying to sync dev via github desktop</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#3</span>
+        </p>
+        <h1>Error when trying to sync dev via github desktop</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/kappaluppa">kappaluppa</a>
+            <time>2016-3-2</time>
+          </div>
+          <div class="body">
+            <p>Submodule Not Removed Completely
+The submodule at &quot;docker-livingstone&quot; was removed from .gitmodules, but the folder still exists in the repository. Delete the folder, commit the change, then try again.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-3-7</time>
+          </div>
+          <div class="body"><p>Looks like you added a sub-module in this commit:</p>
+<p><a href="https://github.com/livingstoneonline/livingstoneonline/commit/4e39ec2a0ba6434a560e7985ccb0d38720145fb4">https://github.com/livingstoneonline/livingstoneonline/commit/4e39ec2a0ba6434a560e7985ccb0d38720145fb4</a></p>
+<p>Along with all of your generated credentials and some other things, I think you must have used the Github Desktop application to clone the existing repository (<a href="https://github.com/livingstoneonline/docker-livingstone">https://github.com/livingstoneonline/docker-livingstone</a>) into the same folder you had this repository checked out from. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-3-7</time>
+          </div>
+          <div class="body"><p>I removed all the bad commits from the three branches and sent out an email for everyone on how to revert back to the working setup.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

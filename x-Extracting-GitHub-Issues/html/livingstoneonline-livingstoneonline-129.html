@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Viewable private files</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#129</span>
+        </p>
+        <h1>Viewable private files</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-2-3</time>
+          </div>
+          <div class="body">
+            <p>liv_000093 and liv_000094 should be private and are set up thus on our server, but both are accessible from the viewer. Any idea what&#39;s going on here? Are there other files like this?</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-2-5</time>
+          </div>
+          <div class="body"><p>They don&#39;t appear to be accessible?</p>
+<p>&lt;img width=&quot;1117&quot; alt=&quot;liv_000094&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/22626878/df4e22fa-ebae-11e6-8660-49a266e57030.png&quot;&gt;
+&lt;img width=&quot;1117&quot; alt=&quot;liv_000093&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/22626879/df4f7362-ebae-11e6-9828-0cae1abf3a0e.png&quot;&gt;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-2-5</time>
+          </div>
+          <div class="body"><p>You&#39;re right. I just realized I probably looked at these while logged in. I&#39;d forgotten that while logged in, the inaccessible is accessible.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

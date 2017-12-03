@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Site set-up documentation</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#69</span>
+        </p>
+        <h1>Site set-up documentation</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-27</time>
+          </div>
+          <div class="body">
+            <p>We need a high-level overview (circa 1 paragraph) of the overall configuration and set up of the site (using Docker, etc.) for this page: <a href="http://livingstone.lib.umd.edu/behind-scenes/practices-standards-and-arrangements">http://livingstone.lib.umd.edu/behind-scenes/practices-standards-and-arrangements</a> Let&#39;s discuss just what this paragraph would cover.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>I imagine we can re-use use much of the documentation from the Git Repo?</p>
+<p><a href="https://github.com/livingstoneonline/livingstoneonline#livingstone-online">https://github.com/livingstoneonline/livingstoneonline#livingstone-online</a>
+<a href="https://github.com/livingstoneonline/livingstoneonline/tree/master/docs">https://github.com/livingstoneonline/livingstoneonline/tree/master/docs</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>Yes, absolutely, we can reuse the documentation and even point to it from the website page I&#39;ve cited. On the website page itself, however, in keeping with the level of overview that is provided for the different aspects of the project, we need one paragraph to provide the high level description. It&#39;d be great if you could put this together, since you&#39;re most conversant in the configuration. I think the paragraph would best appear in the &quot;Hosting and Backup Arrangements&quot; section, would be placed between the &quot;Development Access&quot; and &quot;Site Versions&quot; sections, and might be called &quot;Site setup.&quot; However, feel free to offer recommendations on what it might be called and where it might be placed.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-8</time>
+          </div>
+          <div class="body"><p>How about this?</p>
+<h1 id="site-setup">Site Setup</h1>
+<p>Livingstone Online is built and deployed using a number of different tools. At the heart of the system we use <a href="https://www.docker.com/">Docker</a> for deployment of code and dependencies, and <a href="https://git-scm.com/">Git</a> for the storing / managing code and configuration. We have a number of <a href="https://github.com/livingstoneonline">Github Repositories</a> where we share our code and configuration. These repositories fall into three categories:</p>
+<ol>
+<li>Docker Related (Builds Docker image(s) that are deployed to the server: prefixed with <em>docker-</em>).</li>
+<li>Code Related (Code used by the site, to implement functionality: prefixed with _livingstone_online__)</li>
+<li>Unrelated (Not related to site setup)</li>
+</ol>
+<p>Docker images are build automatically when changes are made to the repositories identified above. This is performed by the <a href="hub.docker.com/r/livingstoneonline">Docker Hub service</a>. After Docker images are built they are automatically deployed by the <a href="https://github.com/livingstoneonline/docker-auto-deploy">auto-deploy</a> application running on the sites server.</p>
+<p>If you interested you can read more <a href="https://github.com/livingstoneonline/livingstoneonline#livingstone-online">here</a> </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-8</time>
+          </div>
+          <div class="body"><p>Perfect, thanks! Added to the site.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

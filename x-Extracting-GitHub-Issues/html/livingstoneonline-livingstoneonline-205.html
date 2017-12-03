@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>HTML/CSS issue</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#205</span>
+        </p>
+        <h1>HTML/CSS issue</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-8-23</time>
+          </div>
+          <div class="body">
+            <p>I have a small query that I&#39;ve been unable to resolve on my own despite quite a bit of researching. When I display an html file in the multitext of manuscript viewer, I&#39;d like a short bit of text to toggle an additional stylesheet on and off. </p>
+<p>So, for instance, liv_002513_TEI.xml uses transcription.xsl for its transformation to HTML. Thanks to transcription.xsl, the HTML file points to the following stylesheets:</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://livingstoneonline.github.io/LEAP-XSLT/normalize.css&quot;/&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://livingstoneonline.github.io/LEAP-XSLT/common.css&quot;/&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://livingstoneonline.github.io/LEAP-XSLT/style.css&quot;/&gt;
+</code></pre><p>I&#39;d like to add an additional stylesheet, let&#39;s say style2.css. This stylesheet would not be applied like the others (by default), but rather in the HTML there would be bit of text enclosed in <code>&lt;a&gt;</code> that said &quot;Click me&quot; (for instance) and when that text was clicked, the additional stylesheet would be applied. If the text was clicked yet again, the stylesheet would be unapplied. </p>
+<p>From what I&#39;ve seen the additional stylesheet should be given thus in the HTML file:</p>
+<p><code>&lt;link rel=&quot;stylesheet alternate&quot; type=&quot;text/css&quot; href=&quot;http://livingstoneonline.github.io/LEAP-XSLT/style2.css&quot;/&gt;</code></p>
+<p>And the click and adding the additional stylesheet might be sorted out with some jquery or javascript in a <code>&lt;script&gt;</code> in the <code>&lt;head&gt;</code> of the <code>&lt;html&gt;</code>, but beyond that I&#39;ve not been able to find the right formula or make the pieces work together since this is a bit out of my depth.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>The easiest way to do this does not require adding another css file, just the setting of a class on a top level element, and using that class to &quot;namespace&quot; elements below and change their display. This example might answer your question (Example doesn&#39;t require jQuery).</p>
+<p><a href="https://codepen.io/nbanks/pen/oGPOoX/">https://codepen.io/nbanks/pen/oGPOoX/</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>OK, thank you very much! I&#39;ll take it from here.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

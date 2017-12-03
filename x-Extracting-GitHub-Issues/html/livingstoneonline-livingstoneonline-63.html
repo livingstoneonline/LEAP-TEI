@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Manuscript Viewer: Restricted Items</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#63</span>
+        </p>
+        <h1>Manuscript Viewer: Restricted Items</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-17</time>
+          </div>
+          <div class="body">
+            <p>On prod, the restricted item display (i.e. the text box) is not working. Take a look, for instance, at the first item in the catalogue on this page:</p>
+<p>Catalogue:</p>
+<p><a href="http://livingstone.lib.umd.edu/islandora/search?f%5B%5D=dateRangeYear_mi%3A%221843%22&amp;full_record=1">http://livingstone.lib.umd.edu/islandora/search?f%5B%5D=dateRangeYear_mi%3A%221843%22&amp;full_record=1</a></p>
+<p>Actual item:</p>
+<p><a href="http://livingstone.lib.umd.edu/islandora/search?f%5B%5D=dateRangeYear_mi%3A%221843%22&amp;full_record=1&amp;view_pid=liv%3A000521&amp;view_page=0">http://livingstone.lib.umd.edu/islandora/search?f%5B%5D=dateRangeYear_mi%3A%221843%22&amp;full_record=1&amp;view_pid=liv%3A000521&amp;view_page=0</a></p>
+<p>Also, can you tell me where I modify this text?</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>Took some digging but it turns out the generate TEI, is not valid HTML and it&#39;s missing tags causing the browser to remove the section of the viewer which is responsible for displaying the images / restricted item size.</p>
+<p>Looks like it has to do with the title field.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>Currently of the XSLT is &#39;xml&#39; which outputs some tags as beings self closed (this case the empty title). This is invalid in HTML5. Changing the output to &#39;html&#39; doesn&#39;t help things either as the Saxon webapp is not generating valid output for that either.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>We won&#39;t be able to resolve this before I leave.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Also, can you tell me where I modify this text?</p>
+</blockquote>
+<p>It can be modified <a href="https://github.com/livingstoneonline/livingstone_online_module/blob/02e5648a53248e1fc53628e24764a176e71c8d55/theme/livingstone-manuscript-viewer.tpl.php#L55-L61">here</a>.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>I don&#39;t quite follow the issue here as for this restricted item (liv_000521), there is no TEI (transcription) file. </p>
+<p>That said, I suspect that the issue may be that the following bit of code in transcription.xsl needs to be commented out:</p>
+<pre><code>            &lt;title&gt;
+                &lt;xsl:value-of select=&quot;//teiHeader//title[2]&quot;/&gt;
+            &lt;/title&gt;
+</code></pre><p>In other words, change it to this:</p>
+<pre><code>            &lt;!--&lt;title&gt;
+                &lt;xsl:value-of select=&quot;//teiHeader//title[2]&quot;/&gt;
+            &lt;/title&gt;--&gt;
+</code></pre><p>Does that do the trick?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>I&#39;m not certain I follow the issue here as the given item, liv_000521, has no associated TEI file. </p>
+<p>That said, I suspect the issue you&#39;re pointing to originates in the transcription.xsl file and might be fixed by commenting out the following bit of code:</p>
+<pre><code>            &lt;title&gt;
+                &lt;xsl:value-of select=&quot;//teiHeader//title[2]&quot;/&gt;
+            &lt;/title&gt;
+</code></pre><p>In other words, modify it as follows:</p>
+<pre><code>            &lt;!--&lt;title&gt;
+                &lt;xsl:value-of select=&quot;//teiHeader//title[2]&quot;/&gt;
+            &lt;/title&gt;--&gt;
+</code></pre><p>Can you try that and tell me if that does the trick?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>Also, I&#39;ve modified the restricted view text on the php file to which you directed me and have push up the modified file. Please put this up on the site.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>liv:000521 does have a TEI file I&#39;ve attached it.</p>
+<p><a href="https://github.com/livingstoneonline/livingstoneonline/files/324138/liv_000521_TEI.xml.zip">liv_000521_TEI.xml.zip</a></p>
+<p>That change you&#39;ve recommended doesn&#39;t solve the issue (I&#39;ve tested). It just appeared in the title tag of the browser (the error is likely somewhere else in the document and there may be multiple). </p>
+<p>Likely there are many more problems in the same vein that will show up only under particular circumstances. The problem arises from invalid HTML5 being generated from the transcription and inserted into the browser. </p>
+<p>This isn&#39;t a small issue to fix, will likely take some time (could be in the range of day or more), in both the transform and the service (saxon) that provides the transformation.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>I see what the issue is. It appears that you&#39;ve pulled in some transcriptions from the wrong subdirectory. All TEI files should only come from the following subdirectory:</p>
+<p><a href="https://github.com/livingstoneonline/TEI-Files/tree/master/Legacy4-TEI-publish">https://github.com/livingstoneonline/TEI-Files/tree/master/Legacy4-TEI-publish</a></p>
+<p>You should not be pulling TEI files from any other subdirectories.</p>
+<p>The file, in question, appears in the following directory, which contains files that we are still working on and that should <em>not</em> be put up on the site as they will still have various errors, issues, as in the present case: </p>
+<p><a href="https://github.com/livingstoneonline/TEI-Files/tree/master/South-African-Letters">https://github.com/livingstoneonline/TEI-Files/tree/master/South-African-Letters</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>All TEI files not in <a href="https://github.com/livingstoneonline/TEI-Files/tree/master/Legacy4-TEI-publish">https://github.com/livingstoneonline/TEI-Files/tree/master/Legacy4-TEI-publish</a> have been removed.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>Looks like this is now sorted out. Thank you.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

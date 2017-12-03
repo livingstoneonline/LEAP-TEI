@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>iFrame manual: Grid link</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#191</span>
+        </p>
+        <h1>iFrame manual: Grid link</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-7-29</time>
+          </div>
+          <div class="body">
+            <p>Right now, the grid is linking to Github whereas it should be linking to <a href="http://livingstonestage.lib.umd.edu/resources/livingstone-online-tei-p5-encoding-guidelines">http://livingstonestage.lib.umd.edu/resources/livingstone-online-tei-p5-encoding-guidelines</a> for this. I can adjust this myself, but just wanted to draw attention to it in case it needs to manually implemented when we move to prod.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-4</time>
+          </div>
+          <div class="body"><p>And that&#39;s resolved!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Issue with publishing page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#141</span>
+        </p>
+        <h1>Issue with publishing page</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-6-20</time>
+          </div>
+          <div class="body">
+            <p>The following page is currently unpublished:</p>
+<p><a href="http://livingstoneonline.org/his-own-words/livingstones-final-manuscripts-1865-1873">http://livingstoneonline.org/his-own-words/livingstones-final-manuscripts-1865-1873</a></p>
+<p>As you&#39;ll see, it has both a level 3 (carousel) and level 2 (tile) image.</p>
+<p>I did a test of publishing the page and adding it to the nodequeue for this section (In His Own Words), but there are two issues:</p>
+<ol>
+<li>Neither the tile nor carousel images are showing up.</li>
+<li>On level 2, the tile for this page shows up in a distorted (overly tall) size.</li>
+</ol>
+<p>Is there any underlying issue here or am I doing something wrong?</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-20</time>
+          </div>
+          <div class="body"><p>Seems there is two issue:</p>
+<ol>
+<li>It wasn&#39;t added to the nodequeue:</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/487373/27333107-a50c2d12-55bc-11e7-9578-b393565220c1.png" alt="nodequeue"></p>
+<ol>
+<li>The views that power the grid and carousel only display published content, this can be changed though.</li>
+</ol>
+<p>I&#39;ve added the node, and changed the views to show unpublished content as well (users who are not logged in will still not see them though, they must login to see them).</p>
+<p>Also on a side note the image used for the carousel is way to huge: <a href="http://livingstoneonline.org/sites/default/files/liv_000010_0140-article2.jpg">http://livingstoneonline.org/sites/default/files/liv_000010_0140-article2.jpg</a> something like 65x65 would look much better.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-20</time>
+          </div>
+          <div class="body"><p>Everything is set up and I can see what I was expecting on the grid and carousel (also, not to worry about image size. That was a mistake!), so thanks very much for that. Also, I&#39;ve now set up the TOC dropdown, so that&#39;s all sorted. </p>
+<p>One final question and then please feel free to close this out. To publish the main edition page plus all the subpages, I would now go and, one by one, checked published on each page and they should show up. Is that correct?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-20</time>
+          </div>
+          <div class="body"><p>Yup you&#39;ll have to do it one by one, or by selecting several in the contents page and choosing the &quot;publish&quot; operation.</p>
+<p><img src="https://user-images.githubusercontent.com/487373/27351708-29e86990-55f6-11e7-8df0-07de96d73d46.png" alt="content"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-20</time>
+          </div>
+          <div class="body"><p>Ah-ha! Great to know about that. Thank you.</p>
+<p>It turns out I have one more question. I&#39;ve built the edition, populated the dropdown, etc. but now all the pages in the edition are showing up in the carousel, whereas only the main page should be. How do I turn that off?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-20</time>
+          </div>
+          <div class="body"><p>Ah looks like there was another bug in the view (it wasn&#39;t filtering based
+on membership to the nodequeue), it should be corrected now.</p>
+<p>On Tue, Jun 20, 2017 at 9:18 PM, awisnicki <a href="&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#110;&#111;&#116;&#x69;&#x66;&#105;&#x63;&#97;&#x74;&#105;&#111;&#110;&#115;&#64;&#x67;&#x69;&#x74;&#x68;&#117;&#x62;&#x2e;&#x63;&#111;&#x6d;">&#110;&#111;&#116;&#x69;&#x66;&#105;&#x63;&#97;&#x74;&#105;&#111;&#110;&#115;&#64;&#x67;&#x69;&#x74;&#x68;&#117;&#x62;&#x2e;&#x63;&#111;&#x6d;</a> wrote:</p>
+<blockquote>
+<p>Ah-ha! Great to know about that. Thank you.</p>
+<p>It turns out I have one more question. I&#39;ve built the edition, populated
+the dropdown, etc. but now all the pages in the edition are showing up in
+the carousel, whereas only the main page should be. How do I turn that off?</p>
+<p>—
+You are receiving this because you were assigned.
+Reply to this email directly, view it on GitHub
+<a href="https://github.com/livingstoneonline/livingstoneonline/issues/141#issuecomment-309878984">https://github.com/livingstoneonline/livingstoneonline/issues/141#issuecomment-309878984</a>,
+or mute the thread
+<a href="https://github.com/notifications/unsubscribe-auth/AAdvzWxvqJ6MaP3iVndtignDLR1gUnhhks5sGCkqgaJpZM4N_gNS">https://github.com/notifications/unsubscribe-auth/AAdvzWxvqJ6MaP3iVndtignDLR1gUnhhks5sGCkqgaJpZM4N_gNS</a>
+.</p>
+</blockquote>
+<p>-- 
+Nigel Banks
+nigel.g.banks@gmail.com</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-20</time>
+          </div>
+          <div class="body"><p>Awesome, looks good. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

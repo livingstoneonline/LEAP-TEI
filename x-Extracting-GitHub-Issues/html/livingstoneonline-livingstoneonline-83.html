@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Timeline Image Size</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#83</span>
+        </p>
+        <h1>Timeline Image Size</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-9-10</time>
+          </div>
+          <div class="body">
+            <p>The images in the timeline are now indeed 100px on longest edge (so updated), but they&#39;re still showing up on the page as 80px on longest edge, so it looks like this length is hard coded into the page. I&#39;ve tried to figure out where this is set myself, but haven&#39;t had any luck. Could you please either set it to 100px or simply turn it off so it&#39;s determined by the size of the images themselves.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-13</time>
+          </div>
+          <div class="body"><p>I took a look into this a bit on Friday and wasn&#39;t able to sort out where where the dimensions were being forcefully set. It&#39;s not occurring in the theme or the timeline module. Altering the settings for the image display in the view or system doesn&#39;t seem to have an affect either. This  is going to take some more digging. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>Looks good. Can you confirm that this is determined by the size of the images? If so, you can close this ticket.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>It was a combination of factors, but now is up to a max of 100px on the longest side for the images.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>Sorry, what I was trying to suggest is that I&#39;d prefer that it be determined by the size of the image rather than set at a specific size. Is that possible? Right now the images are all 100px on the longest edge, but I may find I want to increase this size in the future. Feel free to reopen this if necessary.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>Oh ok, I&#39;ll change it to work like that.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>K it now apply&#39;s no changes to the images displayed.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>Great, thank you! Let&#39;s chat about what you think might be the optimal image size when next we meet. It&#39;s very easy to regenerate the thumbnails</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

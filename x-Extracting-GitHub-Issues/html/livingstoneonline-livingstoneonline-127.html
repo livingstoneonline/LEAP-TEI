@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Issues with viewers</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#127</span>
+        </p>
+        <h1>Issues with viewers</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-1-31</time>
+          </div>
+          <div class="body">
+            <p>This was in an email, but I&#39;m putting it here so that it doesn&#39;t get lost.</p>
+<p>I&#39;ve noticed two odd things -- I don&#39;t know if this is related to the work you&#39;ve recently been doing. First, tooltips are flashing in an odd way, as at the top of the transcription on this page:</p>
+<p><a href="http://livingstoneonline.org/islandora/search?access=view_spectral&amp;view_pid=liv%3A002570&amp;view_page=0">http://livingstoneonline.org/islandora/search?access=view_spectral&amp;view_pid=liv%3A002570&amp;view_page=0</a></p>
+<p>Second, you&#39;ll note note in the ms viewer and in the multiviewer there&#39;s an odd additonal scrollbar that doesn&#39;t work. See attached screen shots. This appears to be tied to the height of the iframe which seems to need to be turned off.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/12518623/22488204/57d13b7c-e7d6-11e6-82c2-2eaaa9e8bacb.png" alt="screen shot 2017-01-24 at 20 26 53">
+<img src="https://cloud.githubusercontent.com/assets/12518623/22488203/57d0b1ca-e7d6-11e6-8d6d-5dfd5e067a1a.png" alt="screen shot 2017-01-24 at 20 26 56"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-3-7</time>
+          </div>
+          <div class="body"><p>Just note for self the tooltip issue has been resolved. Double scroll bars still remain, they require a significant change in rendering (no longer using iframes), they were introduced to deal with bugs in the iPhone when rendering content in iFrames.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>Should now be sorted on stage, further changes are needed to the xslt styles in LEAP-XSLT but we&#39;ll have to chat about that on Thursday.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>OK, sounds like this is related to some of the issues I raised in #107. I&#39;ll leave this open for now so we don&#39;t forget about this.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>Sounds like we&#39;ll come back to this so leaving open for now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>What we discussed on Thursday is captured in: <a href="https://github.com/livingstoneonline/livingstoneonline/issues/137">https://github.com/livingstoneonline/livingstoneonline/issues/137</a>, the issue that this ticket references has been resolved on stage. I move that we close this issue.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>Motion granted!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

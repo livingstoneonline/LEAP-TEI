@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Minor issue on Timeline page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#133</span>
+        </p>
+        <h1>Minor issue on Timeline page</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-5-25</time>
+          </div>
+          <div class="body">
+            <p>See attached, entry on the right below. &amp; is not rendering properly on Browse by Addressee.
+<img src="https://cloud.githubusercontent.com/assets/12518623/26444626/152c713e-4135-11e7-899c-30ebebf3c415.PNG" alt="img_6027"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>Should be sorted.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>This is resolved. Thank you. However, I also noticed this problem on Browse by Addressee:</p>
+<p><a href="http://livingstonestage.lib.umd.edu/in-his-own-words/addressee">http://livingstonestage.lib.umd.edu/in-his-own-words/addressee</a></p>
+<p>Take a look at the entry for:  Ancient &amp; Honourable Company of Turners, Ladies &amp; Gentlemen... (1) </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>Should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>Yes, resolved. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

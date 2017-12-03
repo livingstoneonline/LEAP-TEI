@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Migration to Production.</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#159</span>
+        </p>
+        <h1>Migration to Production.</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2017-6-27</time>
+          </div>
+          <div class="body">
+            <p>Check that all non-top level Section pages don&#39;t have the Grid / Carousel images populated.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-27</time>
+          </div>
+          <div class="body"><p>Check that the Empty section pages like &#39;Address&#39; don&#39;t have any content in their body field.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><p>From <a href="https://github.com/livingstoneonline/livingstoneonline/issues/106">https://github.com/livingstoneonline/livingstoneonline/issues/106</a></p>
+<blockquote>
+<p>Links in dropdown (p.5) also looks good, although note that you&#39;ve not brought down some of the specific configurations for links from prod -- some links are configured to open in a new window (on prod), but that formatting has been lost on stage. See, for instance, &quot;Images &amp; Transcriptions of the 1870 Field Diary&quot; in the 1870 FD dropdown. I just changed this to target=&quot;_blank&quot; to match prod, but it wasn&#39;t carried over automatically. In any case, this is minor and I can easily reimplement when the time comes, but just wanted to make you aware of this issue.</p>
+</blockquote>
+<p>Need to dbl check links when do this manual aspect of the migration.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-6</time>
+          </div>
+          <div class="body"><p>When doing the migration, remove the &#39;place holder&#39; images from the nodes content for critical edition subpages.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-10</time>
+          </div>
+          <div class="body"><p>I&#39;m going to close #196 and will note that we need to resolve the table max-width issue on section pages. You mentioned that you&#39;d take care of this, so this note is just a placeholder for that.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>There are a number of different things cited in this thread. Can you clarify what it is that I should be reviewing and confirming here?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>Nothing really for you to review they were just notes to myself to not forget certain things</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>OK, then I&#39;ll leave this open for now. When we migrate to prod, please feel free to close this when ready.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse By Catalogue: Mobile</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#42</span>
+        </p>
+        <h1>Browse By Catalogue: Mobile</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-5-24</time>
+          </div>
+          <div class="body">
+            <p>Year and Search look a bit wonky in-between media sizes.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p><img src="https://cloud.githubusercontent.com/assets/12518623/15721304/f3468c22-27fd-11e6-9b44-0107d5ec1664.png" alt="screen shot 2016-06-01 at 13 23 16">
+I think this looks great overall, except there&#39;s one small spot where the search button is way over from the search bar. See screen shot. Perhaps that this point, the search bar could be extend to the button?  Also, the distance of the downward pointing right arrows on the right side of the Year, From, and To dropdowns in not the same as on the other dropdowns and it becomes very obvious in the mobile view. Please put all of these downward arrows the same distance from the right side. Once you do those two things, then please feel free to close this ticket.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>Fixed and Deployed</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>Both changes cited here are fixed, but as a process of this you seem to have replaced the downward arrows with these big wonky looking arrows. This additional change wasn&#39;t necessary :&gt;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>Can you try clearing your cache? The change required creating a new image icon and scaling it differently if the old icon was being used but with the new css settings it would look too big.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>Yes, that did the trick. However, when reviewing this I noticed two further things:</p>
+<ol>
+<li>The title of the page (Browse by Digital Catalogue) disappears at a certain point. This should not happen rather the title should behave like the other titles on comparable pages of the site. See for example: <a href="http://livingstonestage.lib.umd.edu/about-site/livingstone-online-introduction">http://livingstonestage.lib.umd.edu/about-site/livingstone-online-introduction</a> (Note that the size stays fairly the same for a while as the browser narrows, then the size of the title gets smaller.)</li>
+<li>When the title is still there, it&#39;s wrapping sooner than it should. See attached screen shot.
+<img src="https://cloud.githubusercontent.com/assets/12518623/15828664/ce19bac4-2bd5-11e6-94f7-b94764d7e10a.png" alt="screen shot 2016-06-06 at 10 58 59"></li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>Thats part of the theme code, might I suggest you pass it on to Kathy, as it likely ties into the other mobile work she has been doing.?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>OK, will do. Closing this issue. Thanks for your work on it!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Dropdown: Widget</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#106</span>
+        </p>
+        <h1>Dropdown: Widget</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-15</time>
+          </div>
+          <div class="body">
+            <p>Placeholder for the fact that we need this widget. When you&#39;re ready, let me know and I&#39;ll tell you what I need, although I think you have a good idea already.</p>
+<p>Adrian</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-1-12</time>
+          </div>
+          <div class="body"><p>Can you elaborate more? Time as eroded my memory on this one.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-1-12</time>
+          </div>
+          <div class="body"><p>This has to do with the Dropdown on the critical edition pages, such as this one: <a href="http://livingstoneonline.org/spectral-imaging/livingstones-1870-field-diary">http://livingstoneonline.org/spectral-imaging/livingstones-1870-field-diary</a></p>
+<p>Right now, all the sections tumble down in one long list. What I wanted to be able to add are (non-clickable) headings, so as to be able to group sets of sections. In the example below, &quot;Prefatory Materials&quot; and &quot;The Manuscripts&quot; are such headings:</p>
+<p>Prefatory Materials
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to the Edition
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edition Guide
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Project Team
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acknowledgments
+The Manuscripts
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Images &amp; Transcriptions of the 1870 Field Diary
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Images &amp; Transcriptions of Select 1870-1871 Texts
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Three Versions of the 1870 Field Diary</p>
+<p>Separately -- although this may be captured in another ticket, I&#39;ll have to check -- I had also wanted to have the dropdown (at least on desktop version) be the kind of dropdown through which one scrolls (as on the Catalogue page) rather than the kind of tumbledown/show all dropdown as now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>To be discussed on Thursday.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>Ok, leaving open as reminder for now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>After our talk today, it sounds like there&#39;s a mod you need to make so continue to leave open.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>It&#39;s ready for review, just create links as you normally would for items in the table of contents, but use the value <strong>&lt;nolink&gt;</strong> for headings.</p>
+<p><img src="https://user-images.githubusercontent.com/487373/27051996-1f276e1c-4fb0-11e7-9058-319895ca21de.png" alt="screen shot 2017-06-12 at 20 42 03"></p>
+<p><img src="https://user-images.githubusercontent.com/487373/27051995-1f241a82-4fb0-11e7-9e6e-96af9caebaf8.png" alt="screen shot 2017-06-12 at 20 42 54"></p>
+<p><img src="https://user-images.githubusercontent.com/487373/27051994-1f1eb66e-4fb0-11e7-8125-cebf947c4577.png" alt="screen shot 2017-06-12 at 20 43 05"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>This looks good and works beautifully. Thank you!</p>
+<p>In returning to the ticket above, I see there&#39;s also a second part:</p>
+<p>&quot;Separately -- although this may be captured in another ticket, I&#39;ll have to check -- I had also wanted to have the dropdown (at least on desktop version) be the kind of dropdown through which one scrolls (as on the Catalogue page) rather than the kind of tumbledown/show all dropdown as now.&quot;</p>
+<p>We discussed this (way back when) and you came up with the solution that the dropdown when opened, rather than push down the text below it, would appear <em>over</em> that text, so that still needs to be implemented.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-15</time>
+          </div>
+          <div class="body"><p>This works great, but I have one question. Can we have it so that when the dropdown TOC is open, everything in the background goes slightly gray/dim. Take a look at this page and click on the book at left: <a href="https://www.amazon.com/Hamlet-Folger-Library-Shakespeare-William/dp/074347712X/ref=sr_1_1?ie=UTF8&amp;qid=1497573285&amp;sr=8-1&amp;keywords=hamlet">https://www.amazon.com/Hamlet-Folger-Library-Shakespeare-William/dp/074347712X/ref=sr_1_1?ie=UTF8&amp;qid=1497573285&amp;sr=8-1&amp;keywords=hamlet</a></p>
+<p>You&#39;ll see that when the pop up appears, the material in the background/below it dims. I think this kind of thing already happens in our MS viewer, it&#39;s just hard to see because there&#39;s so little margin around it there.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-21</time>
+          </div>
+          <div class="body"><p>It&#39;s up now let me know what you think. 
+<a href="http://livingstonestage.lib.umd.edu/spectral-imaging/livingstones-1870-field-diary">http://livingstonestage.lib.umd.edu/spectral-imaging/livingstones-1870-field-diary</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>It looks to be stuck on desktop, wherein when I open it I can scroll down to any text that appears below the screen.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>That&#39;s on purpose, it behaves the same as the amazon link, and other <a href="https://en.wikipedia.org/wiki/Modal_window">modal windows</a>.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>So how does one see the rest of the TOC? I can&#39;t figure out a way to see the rest of the content.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>Ah my bad, my screen is huge I didn&#39;t anticipate it extending beyond the
+screen. I&#39;ll fix it. I misunderstood and thought you wished to have scroll
+through the page not the table of contents.</p>
+<p>On Thu, Jun 22, 2017 at 12:10 PM, awisnicki <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#x6f;&#x3a;&#110;&#111;&#x74;&#x69;&#102;&#x69;&#x63;&#97;&#116;&#105;&#111;&#x6e;&#115;&#64;&#x67;&#x69;&#x74;&#x68;&#117;&#98;&#46;&#99;&#111;&#109;">&#110;&#111;&#x74;&#x69;&#102;&#x69;&#x63;&#97;&#116;&#105;&#111;&#x6e;&#115;&#64;&#x67;&#x69;&#x74;&#x68;&#117;&#98;&#46;&#99;&#111;&#109;</a>
+wrote:</p>
+<blockquote>
+<p>So how does one see the rest of the TOC? I can&#39;t figure out a way to see
+the rest of the content.</p>
+<p>—
+You are receiving this because you were assigned.
+Reply to this email directly, view it on GitHub
+<a href="https://github.com/livingstoneonline/livingstoneonline/issues/106#issuecomment-310349619">https://github.com/livingstoneonline/livingstoneonline/issues/106#issuecomment-310349619</a>,
+or mute the thread
+<a href="https://github.com/notifications/unsubscribe-auth/AAdvzfcxj_ACITzi_rnA41QWTStQmwnvks5sGku2gaJpZM4KzF_v">https://github.com/notifications/unsubscribe-auth/AAdvzfcxj_ACITzi_rnA41QWTStQmwnvks5sGku2gaJpZM4KzF_v</a>
+.</p>
+</blockquote>
+<p>-- 
+Nigel Banks
+nigel.g.banks@gmail.com</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-22</time>
+          </div>
+          <div class="body"><p>Should be sorted now, let me know what you think.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-26</time>
+          </div>
+          <div class="body"><p>Yes, that&#39;s fixed. Thank you very much. Could we make a few more tweaks to it as follows:</p>
+<ol>
+<li><p>When it&#39;s fully open could you put a thin black border around the whole dropdown? I think that would serve as a good boundary marker between the dropdown and the greyed-out text beyond. The gray border when closed can be left as is. The thickness of the black border when fully open should be the same as the thickness of the gray border when the dropdown is closed.</p>
+</li>
+<li><p>Can you make the arrow at right into the kind standard triangle one sees in such dropdowns?</p>
+</li>
+<li><p>A few people have pointed out that the dropdown can be hard to notice when closed. Could you make the text the following color (#428bca) only when closed. This is the same color that&#39;s used for hyperlinks on the site.  When the dropdown is fully open all the text should be black.</p>
+</li>
+<li><p>When the dropdown is closed, the white space between the text and the arrows is not clickable. Could we make it instead that clicking anywhere on the dropdown (when it is closed) opens it?</p>
+</li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-26</time>
+          </div>
+          <div class="body"><p>I also notice that on mobile links from the dropdown automatically open a new window. This should not be happening. Links should open in the same window unless, in the topmenu admin section, specifically marked to open in a new window.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-26</time>
+          </div>
+          <div class="body"><p>Finally, on mobile, if text wraps to a second line in the dropdown, I think we should indent it like the first line, as I don&#39;t think it looks good the way it&#39;s rendering now.
+<img src="https://user-images.githubusercontent.com/12518623/27542556-302507cc-5a4d-11e7-9160-f6b68abc7d25.PNG" alt="img_6498"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><blockquote>
+<ol>
+<li>When it&#39;s fully open could you put a thin black border around the whole dropdown? I think that would serve as a good boundary marker between the dropdown and the greyed-out text beyond. The gray border when closed can be left as is. The thickness of the black border when fully open should be the same as the thickness of the gray border when the dropdown is closed.</li>
+</ol>
+</blockquote>
+<p>Sure thing.</p>
+<blockquote>
+<ol>
+<li>Can you make the arrow at right into the kind standard triangle one sees in such dropdowns?</li>
+</ol>
+</blockquote>
+<p>Do you mean using a caret instead of chevron? Like the:</p>
+<p><img src="https://user-images.githubusercontent.com/487373/27636019-62888346-5c01-11e7-9c70-c825fe6e9bfe.png" alt="screen shot 2017-06-28 at 12 57 12"></p>
+<p>I assume this should apply to the mobile menu dropdown as well? Should it still turn from left to right when opened or closed, or should behave like the &quot;Browse Collection&quot; dropdown works?</p>
+<blockquote>
+<ol>
+<li>A few people have pointed out that the dropdown can be hard to notice when closed. Could you make the text the following color (#428bca) only when closed. This is the same color that&#39;s used for hyperlinks on the site. When the dropdown is fully open all the text should be black.</li>
+</ol>
+</blockquote>
+<p>Should this apply to the mobile menu as well?</p>
+<blockquote>
+<ol>
+<li>When the dropdown is closed, the white space between the text and the arrows is not clickable. Could we make it instead that clicking anywhere on the dropdown (when it is closed) opens it?</li>
+</ol>
+</blockquote>
+<p>Sure thing, I&#39;m applying this to the mobile menu as well.</p>
+<blockquote>
+<p>I also notice that on mobile links from the dropdown automatically open a new window. This should not be happening. Links should open in the same window unless, in the topmenu admin section, specifically marked to open in a new window.</p>
+</blockquote>
+<p>Ok, this will have the same behaviour on desktop as well.</p>
+<blockquote>
+<p>Finally, on mobile, if text wraps to a second line in the dropdown, I think we should indent it like the first line, as I don&#39;t think it looks good the way it&#39;s rendering now.</p>
+</blockquote>
+<p>Ok.</p>
+<p>So just the questions for 2 and 3, the others are up on stage. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><p>Thanks for all of this! Confirming that: border looks good (p.1); fully-clickable space looks good (p.4); text wrapping (p.6) looks good. </p>
+<p>Links in dropdown (p.5) also looks good, although note that you&#39;ve not brought down some of the specific configurations for links from prod -- some links are configured to open in a new window (on prod), but that formatting has been lost on stage. See, for instance, &quot;Images &amp; Transcriptions of the 1870 Field Diary&quot; in the 1870 FD dropdown. I just changed this to target=&quot;_blank&quot; to match prod, but it wasn&#39;t carried over automatically. In any case, this is minor and I can easily reimplement when the time comes, but just wanted to make you aware of this issue.</p>
+<p>Re p.2, yes using same symbol as on Browse Collection and, yes, it&#39;d be great to have it point right when closed and point down when open. Could we also have the right/down function apply to Browse Collection? Finally, yes, to be consistent we should have on the mobile dropdown menu also.</p>
+<p>Re p.3, for now let&#39;s just try it on the desktop menu. For mobile stick with black for now please.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-29</time>
+          </div>
+          <div class="body"><p>Just drawing attention to this ticket.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Links in dropdown (p.5) also looks good, although note that you&#39;ve not brought down some of the specific configurations for links from prod -- some links are configured to open in a new window (on prod), but that formatting has been lost on stage. See, for instance, &quot;Images &amp; Transcriptions of the 1870 Field Diary&quot; in the 1870 FD dropdown. I just changed this to target=&quot;_blank&quot; to match prod, but it wasn&#39;t carried over automatically. In any case, this is minor and I can easily reimplement when the time comes, but just wanted to make you aware of this issue.</p>
+</blockquote>
+<p>This needs to be done manually, and will be on hold until after the migration. I&#39;ve added a note to the appropriate ticket.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><p>Other issues should be sorted.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><p>OK, everything that was to be resolved here looks resolved (except for the one point you raised in the other ticket). So I&#39;ll close this one. Thanks very much!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Modify Search Results</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#81</span>
+        </p>
+        <h1>Modify Search Results</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-8-26</time>
+          </div>
+          <div class="body">
+            <p>Currently, if an item from the Digital Catalogue comes up in the site search results, the plain title is shown:</p>
+<p>Letter to John Kirk 2</p>
+<p>The issue is that multiple different items (i.e., from different dates) will show up with the same title, which is confusing to the user. So rather than the title field from the MODS record showing up, I would prefer that either the alternative title show up (which includes the date) or the date be show with the regular. In either case, the display will be the same: title, followed by comma, followed by date:</p>
+<p>Letter to John Kirk 2, 14 May 1871</p>
+<p>etc.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-1</time>
+          </div>
+          <div class="body"><p>And this looks good on stage also &amp; also thanks!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

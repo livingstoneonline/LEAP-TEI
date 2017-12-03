@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Top and bottom padding on image</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#22</span>
+        </p>
+        <h1>MS Viewer: Top and bottom padding on image</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body">
+            <p>Please put a little padding at the top and bottom of the image in the viewer so that there is a little space between the top of the image and the bottom of the top strip, and the bottom of the image and the hiding position of the bottom strip (the bottom strip should come over the image only when moused over). This will result in the image being a little smaller (at start) on the screen, but that&#39;s OK.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-23</time>
+          </div>
+          <div class="body"><p>The padding at the top could be cut by a third. I don&#39;t see the padding at the bottom. See attached screen shot. This is what it looks like when I land on the page and, you&#39;ll see, the bottom strip is coming up about half way over the image. Does the bottom strip open in an expanded/raised position, perhaps?
+<img src="https://cloud.githubusercontent.com/assets/12518623/15481198/11282d06-20ef-11e6-8a78-7821bfcea6cf.png" alt="screen shot 2016-05-23 at 14 01 18"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-24</time>
+          </div>
+          <div class="body"><p>Let&#39;s resolve whether we&#39;re going to have the thumbnail strip first. If so, then it may be a matter of slightly reducing the padding above and below the image and that will be that.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-25</time>
+          </div>
+          <div class="body"><p>If we remove the thumbnail strip, I think no further work on this issue is necessary, so I&#39;m closing it.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

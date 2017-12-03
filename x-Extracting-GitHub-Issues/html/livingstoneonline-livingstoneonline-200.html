@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Geolocation: Search boxes</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#200</span>
+        </p>
+        <h1>Geolocation: Search boxes</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-8-11</time>
+          </div>
+          <div class="body">
+            <p>Given the change discussed in #199 and the focus of this page, I think the first search box should be &quot;Search by geolocation&quot; rather than date. The search box could search two fields in the MODS records, those with Livingstone&#39;s locations and those with the normalized LoC location names</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-14</time>
+          </div>
+          <div class="body"><p>After further review of this with one of our collaborators, it&#39;s become clear that we&#39;d not like to have the row of search boxes on this page, so let&#39;s plan to remove it.</p>
+<p>Ideally, it&#39;d be preferable to have a series of facets here. Would it be possible to have those on this kind of page rather than the search boxes? The facets would be drawn from the MODS.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Ideally, it&#39;d be preferable to have a series of facets here</p>
+</blockquote>
+<p>It can&#39;t be driven by facets as this display is driven by Drupal Views (MySQL) rather than the Digital Catalogue which is driven by Solr which has support for facets.</p>
+<p>I have removed the various searches which allows us to use caching so I can now display all 3000+ records on the map at once with reasonable performance.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>Oh that&#39;s great. I think this works well as is. I don&#39;t see all 3,000 records currently, but I&#39;m guessing they&#39;re just not on stage (I believe you said that before).</p>
+<p>Once I add the &quot;overview&quot; text add the top, I can use that to explain how the page works, etc. </p>
+<p>When you push to prod, please leave the Geolocation page as unpublished and then I&#39;ll finalize it before it goes live.</p>
+<p>Feel free reopen the comment if there&#39;s anything else to add about this, but otherwise thank you again on this one.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

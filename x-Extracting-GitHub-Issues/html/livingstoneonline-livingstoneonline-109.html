@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Links to anchors</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#109</span>
+        </p>
+        <h1>Links to anchors</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-21</time>
+          </div>
+          <div class="body">
+            <p>I&#39;ve found that when one page points to an anchor on another page, clicking on the linking often takes you to the wrong part of the other page. When you&#39;re ready to tackle this, I can show you some examples, but there are lots of them on these pages:</p>
+<p><a href="http://livingstoneonline.org/spectral-imaging/diary-across-hands-space-and-time-1">http://livingstoneonline.org/spectral-imaging/diary-across-hands-space-and-time-1</a>
+<a href="http://livingstoneonline.org/spectral-imaging/diary-across-hands-space-and-time-2">http://livingstoneonline.org/spectral-imaging/diary-across-hands-space-and-time-2</a>
+<a href="http://livingstoneonline.org/spectral-imaging/diary-across-hands-space-and-time-3">http://livingstoneonline.org/spectral-imaging/diary-across-hands-space-and-time-3</a></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-12-8</time>
+          </div>
+          <div class="body"><p>Hmm if some are farther down the page when the fixed header appears then the fixed title bar appears and sometimes covers the heading, is that what you are referring to?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-12-8</time>
+          </div>
+          <div class="body"><p>Hmm might also have to do with the layout moving as images load in, as the browser jumps to the destination before all images are loaded, offsetting the position a bit.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-12-8</time>
+          </div>
+          <div class="body"><p>I think this can be solved with a bit of jQuery that moves the scroll position again after all the images have loaded.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-12-9</time>
+          </div>
+          <div class="body"><p>Yes, the issues you&#39;ve described. Good to know that this can be addressed.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-12-18</time>
+          </div>
+          <div class="body"><p>Should be working now. Not that this now adjusts for the header, so you may want to move some of the anchors to the <strong>exact</strong> line they are used. For example: </p>
+<p><a href="http://livingstoneonline.org/spectral-imaging/creating-1870-field-diary#link14">http://livingstoneonline.org/spectral-imaging/creating-1870-field-diary#link14</a></p>
+<p>Has the following HTML</p>
+<pre><code class="lang-html">&lt;p class=&quot;space2&quot;&gt;
+... essay (see Livingstone 1870a:[7]) so Livingstone clearly had the essay by that date.
+&lt;a id=&quot;link14&quot; name=&quot;link14&quot;&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a ...&gt;▲&lt;/a&gt;&lt;strong&gt; Annotation of one undertext.&lt;/strong&gt; ...
+</code></pre>
+<p>So it scrolls to the end of that first paragraph rather than the start of the next one which I think is the intention. So instead something like:</p>
+<pre><code class="lang-html">&lt;p class=&quot;space2&quot;&gt;
+... essay (see Livingstone 1870a:[7]) so Livingstone clearly had the essay by that date.
+
+&lt;/p&gt;
+&lt;p&gt;&lt;a id=&quot;link14&quot; ...&gt;▲&lt;/a&gt;&lt;strong&gt; Annotation of one undertext.&lt;/strong&gt; ...
+</code></pre>
+<p>Would produce the desired result.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-12-21</time>
+          </div>
+          <div class="body"><p>Yes, this looks like it&#39;s resolved. Thank you. It&#39;d probably be best to review the anchors across the site with this change now in place, so that&#39;s a project I&#39;ll have to tackle in the spring. The good news is even if the relevant line appears somewhat below the sticky header, that&#39;s still fine.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

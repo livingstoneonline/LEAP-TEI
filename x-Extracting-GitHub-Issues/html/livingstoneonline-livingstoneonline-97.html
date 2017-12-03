@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Dropdown on non-edition pages</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#97</span>
+        </p>
+        <h1>Dropdown on non-edition pages</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-6</time>
+          </div>
+          <div class="body">
+            <p>Just a reminder, the dropdown needs to be configured so that it does not appear on pages that are not in an edition, but to which the edition is pointing. For example:</p>
+<p><a href="http://livingstonestage.lib.umd.edu/spectral-imaging/notes-processed-spectral-images">http://livingstonestage.lib.umd.edu/spectral-imaging/notes-processed-spectral-images</a></p>
+<p>That page is in the &quot;Spectral Imaging&quot; section (rather than being a child of the critical edition) so should not have a dropdown at top, although the critical edition dropdown does point to it.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-13</time>
+          </div>
+          <div class="body"><p>K this should be sorted now, but it&#39;s important to note that the page must exists somewhere else in the top menu for this to take affect for  example it&#39;s still showing on <a href="http://livingstonestage.lib.umd.edu/edition-guide">edition guide</a> but that&#39;s because it&#39;s not yet been placed elsewhere in the <a href="http://livingstonestage.lib.umd.edu/admin/structure/menu/manage/menu-topmenu">topmenu</a>.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-13</time>
+          </div>
+          <div class="body"><p>OK, this looks sorted. Thank you! Closing this ticket.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

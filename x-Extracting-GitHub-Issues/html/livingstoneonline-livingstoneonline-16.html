@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Sorting by Hidden Field</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#16</span>
+        </p>
+        <h1>Browse by Catalogue: Sorting by Hidden Field</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body">
+            <p>Sorting by the header of a hidden field closes the table when it shouldn&#39;t.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body"><p>I can&#39;t seem to reproduce the behaviour. The table doesn&#39;t close for me, but does re-render, when it re-renders the user will have to scroll horizontally back to the original position, since the layout can change when this happens I can&#39;t reliable auto-scroll the user to a particular horizontal position. This is a consequence of hiding the table and making it horizontally scrollable. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body"><p>I just tested and it appears that the issue I describe is limited to Mozilla: the table both closes and rerenders. </p>
+<p>In Safari and Chrome, it just rerenders as you describe, which is fine.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body"><p>Fix has been deployed to stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

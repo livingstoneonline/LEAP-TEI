@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Mobile support for the header</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#44</span>
+        </p>
+        <h1>MS Viewer: Mobile support for the header</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-5-24</time>
+          </div>
+          <div class="body">
+            <i>No body given.</i>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>Partially done, not 100% but is functional.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>OK, thank you for this update. So should I be looking at anything (and if so, what?) or should I wait on you to bring this closer to the end?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>Wait for now, at the moment it&#39;s functional in that nothing is hidden and it resizes appropriately, but the margins between icon isn&#39;t ready yet; this also ties into issues/24.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>Pretty solid now for responsive resolutions, I paid special attention to iPad in landscape mode, so the bar fits on the entire line. With large screens it should look good as well.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>As noted in #24, we&#39;ll come back to review this after sorting out #24.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-14</time>
+          </div>
+          <div class="body"><p>Closing this ticket to combined mobile feedback to a single ticket =&gt; #55</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

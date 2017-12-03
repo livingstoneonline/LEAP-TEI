@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Repository page issue</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#211</span>
+        </p>
+        <h1>Repository page issue</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-14</time>
+          </div>
+          <div class="body">
+            <p>The font on the repository page appears to be a larger size than the font on most other pages:</p>
+<p><a href="http://livingstonestage.lib.umd.edu/in-his-own-words/repository">http://livingstonestage.lib.umd.edu/in-his-own-words/repository</a></p>
+<p>Compare it to a regular content page.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>They are both set to:
+The text in the table? It seems to be the same as the section page content.</p>
+<pre><code class="lang-css">    font-family: &#39;Source Sans Pro&#39;, sans-serif;
+    font-size: 16px;
+</code></pre>
+<p>Which text in particular?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>I figured out the issue. The text in the table on prod (<a href="http://livingstoneonline.org/his-own-words/repository">http://livingstoneonline.org/his-own-words/repository</a>) is 14px. Please set it to that same size here. Or, alternately, make the text in the repository table the same size as the text in the Browse by Catalogue table (which is smaller than what Repsitory is now on stage).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-17</time>
+          </div>
+          <div class="body"><p>I&#39;ve set it to 14px.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-18</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

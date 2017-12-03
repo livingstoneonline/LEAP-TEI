@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Tablet: Timeline text</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#174</span>
+        </p>
+        <h1>Tablet: Timeline text</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-7-1</time>
+          </div>
+          <div class="body">
+            <p>The text next to the images on the Timeline starts wrapping prematurely as the browser window narrows. See screen shot. There is still plenty of space on the screen at this width, but the text is already wrapping.
+<img src="https://user-images.githubusercontent.com/12518623/27764368-858f7418-5e5d-11e7-9a7c-40b70cd4fd4e.png" alt="screen shot 2017-07-01 at 13 01 09"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-24</time>
+          </div>
+          <div class="body"><p>This is resolved. Thank you. However, in reviewing this, I realized some more theming might be helpful. See screen shot.
+<img src="https://user-images.githubusercontent.com/12518623/28548193-39b92cf8-7098-11e7-8bf0-f4c9c04291db.png" alt="screen shot 2017-07-24 at 17 41 38"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-28</time>
+          </div>
+          <div class="body"><p>The text inside the search boxes still appears to be 16px when it should be 14px. </p>
+<p>Also could you put a little padding (about 30px) below the search boxes so that the timeline is not so close. See screen shot.
+<img src="https://user-images.githubusercontent.com/12518623/28733903-dcccef52-73a3-11e7-9171-1da4aee8114a.png" alt="screen shot 2017-07-28 at 14 48 11"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><p>K changed to 14px, and changed the padding from 20px to 30px.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><p>Unfortunately, the padding still does not look right. Make it 50px please.</p>
+<p>For the search boxes, looks good. </p>
+<p>In reviewing these, however, it occurs to me that we need to do two things to be consistent. First, inside each search box, the second word should be capitalized. The search boxes and buttons to the right need titles text. The second word in the titles, per usual practice, should not be capitalized.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-4</time>
+          </div>
+          <div class="body"><p>And a wrap on all the work here. Thanks again!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

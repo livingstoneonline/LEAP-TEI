@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Mobile: Timeline page space between search boxes</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#175</span>
+        </p>
+        <h1>Mobile: Timeline page space between search boxes</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-7-1</time>
+          </div>
+          <div class="body">
+            <p>See screen shot. The search boxes are bunched too close together vertically. Please put some space between them.
+<img src="https://user-images.githubusercontent.com/12518623/27764379-b49d3d80-5e5d-11e7-8246-86a4de4a8991.png" alt="screen shot 2017-07-01 at 13 02 57"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-24</time>
+          </div>
+          <div class="body"><p>OK, but see screen shot. I don&#39;t think the search boxes need to be this wide at this resolution. Rather, we could have it so that two were in the first row (and the row still need not be so wide) and in the second row, we could have one on the left and and the search/reset boxes on the right. See mockup. Also, although I&#39;ve not done it in the mock up, the research/reset buttons could each be made wider so that together they were as wide as the search box above and the whole thing looked symmetrical.
+<img src="https://user-images.githubusercontent.com/12518623/28548414-7d97c730-7099-11e7-850d-aacc42b807c0.png" alt="screen shot 2017-07-24 at 17 50 31"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-28</time>
+          </div>
+          <div class="body"><p>Very nice. I really like how you&#39;ve done this. Thank you.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Issue with CSS in MS Viewer</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge open">open</span>
+          <span class="url">livingstoneonline/livingstoneonline#239</span>
+        </p>
+        <h1>Issue with CSS in MS Viewer</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-11-6</time>
+          </div>
+          <div class="body">
+            <p>I&#39;ve discovered an issue with how CSS in the MS viewer is rendering certain text. I&#39;ve been looking at this file: <a href="http://livingstoneonline.org/in-his-own-words/catalogue?query=liv_000019&amp;view_pid=liv%3A000019&amp;view_page=0">http://livingstoneonline.org/in-his-own-words/catalogue?query=liv_000019&amp;view_pid=liv%3A000019&amp;view_page=0</a></p>
+<p>Please also see attached for a standalone HTML version of the transcription that is working with the same XSL and CSS as the file in the MS Viewer. <a href="https://github.com/livingstoneonline/livingstoneonline/files/1448722/liv_000019_TEI.html.zip">liv_000019_TEI.html.zip</a></p>
+<p>In particular please compare pages 380-395. In the standalone file, note that all text is properly aligned on the right:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32477501-50485544-c344-11e7-8508-cfb261f49528.png" alt="screen shot 2017-11-06 at 22 45 44"></p>
+<p>In the viewer, the text on the right is getting bunched up:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32477528-8df54c4e-c344-11e7-8c96-fef10845608a.png" alt="screen shot 2017-11-06 at 22 45 24"></p>
+<p>Also, take a look at the bottom of page 736. In the standalone, the text (from a table) is presented line after line: </p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32477623-461e1026-c345-11e7-97cf-feec32774d3a.png" alt="screen shot 2017-11-06 at 22 51 04"></p>
+<p>In the viewer, the text is getting extra space added between lines:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32477627-50831c8c-c345-11e7-8ff0-dd771f9899a0.png" alt="screen shot 2017-11-06 at 22 51 06"></p>
+<p>These same problems crop up when the file appears in the multitext viewer:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32477725-c006394a-c345-11e7-91db-ac1e87710ff5.png" alt="screen shot 2017-11-06 at 22 55 47"></p>
+<p>I did some amount of work on the CSS and XSL files today and updated prod with the new versions. That&#39;s not the cause of this issue, I don&#39;t believe. Stage is still using the older versions of these files and the problems are there to, so it appears they were there before I did any work.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-6</time>
+          </div>
+          <div class="body"><p>It looks like the table spacing issue is also appear in other files:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32478038-f27d689c-c347-11e7-92af-9fc27d90ef1e.png" alt="screen shot 2017-11-06 at 23 10 51"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-9</time>
+          </div>
+          <div class="body"><p>I found another exmaple of this issue. Here some margin is being added above the horizontal lines. As you can see from the code, in this case it&#39;s being pulled in from one of your CSS files.</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32627402-ea80a278-c557-11e7-8035-6a8efcd54b2d.png" alt="screen shot 2017-11-09 at 14 11 01"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-9</time>
+          </div>
+          <div class="body"><p>And here&#39;s another similar example. In this case, the h4 font is coming from your stylesheet:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32627562-7aaced3e-c558-11e7-9a0b-54f8a6866295.png" alt="screen shot 2017-11-09 at 14 13 11"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-11-23</time>
+          </div>
+          <div class="body"><p>I&#39;ve handle all the issues except for the h4 I don&#39;t want to override your style sheets globally in that case, it makes more sense for your to explicitly set the font sizes, etc for those elements in your css files for each xslt. </p>
+<p>Most of the issues stemmed from the user of a css reset sheet on the site (except for the h4 issue), of which there is non being used in your HTML page generated from the xslt. Theres really no way around it, there will be differences because they do different things, my recommendation is when you encounter a problem a difference just add a new rule to your xslt stylesheets to have it render the way you would like.</p>
+<p>Using a css reset sheet like the one we use on livingstoneonline.org (<a href="https://github.com/necolas/normalize.css/blob/3.0.3/normalize.css">https://github.com/necolas/normalize.css/blob/3.0.3/normalize.css</a>) is recommend since its goal is to ensure the default styles on elements cause them to be rendered roughly equivalent regardless of what browser the user is using.</p>
+<p>On a side note the &quot;Unyanyembe Journal&quot; will likely never look &quot;correct&quot; either embedded in the site or as a stand alone HTML file. Setting widths and margins on elements like that explicitly runs counter to how HTML and CSS is meant to work. Inline content like text is meant to flow relative to the amount of space and the users choice in fonts (families, size, and zoom level). And given that no width information is really built into the TEI the XSLTs will never know exactly how much space something needs to be placed to match the layout in the original document, so something will always be spaced too far out or too close as rules for each element applied can&#39;t know the required details.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-25</time>
+          </div>
+          <div class="body"><p>OK, thanks for taking care of this. I&#39;ll investigate in more detail (and so get back to you if I have any questions about what you&#39;ve written above) and follow your advice going forward. For now, please note that re: horizontal lines, you&#39;ve fixed the issue for double-lines, but for single lines it is still there.</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/33231160-2e9413ae-d1b6-11e7-8fe0-5130cadb6c14.png" alt="screen shot 2017-11-25 at 07 53 58"></p>
+<p><img src="https://user-images.githubusercontent.com/12518623/33231187-a508e5c8-d1b6-11e7-8c25-67e7a60d02f7.png" alt="screen shot 2017-11-25 at 07 59 20"></p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

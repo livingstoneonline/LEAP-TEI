@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Minor modifications</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#38</span>
+        </p>
+        <h1>Browse by Catalogue: Minor modifications</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-17</time>
+          </div>
+          <div class="body">
+            <p>Two small things:</p>
+<ol>
+<li>For the &quot;Full Record&quot; checkbox, please lower the &quot;Full Record&quot; text slightly so that the bottom of the text is flush with the bottom of the checkbox. (Right now it&#39;s higher)</li>
+<li>When the Full Record box is checked, the table drops down a bit. It should not drop down, but rather stay where it is.</li>
+</ol>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-18</time>
+          </div>
+          <div class="body"><p>#2 is done.
+For #1, please drop the text still a touch more then you can close this issue.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-19</time>
+          </div>
+          <div class="body"><p>It&#39;s a bit lower now, deployed on stage &amp; prod.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-19</time>
+          </div>
+          <div class="body"><p>Unfortunately, the bottom of the check box and the bottom of the words &quot;Full Record&quot; still do not look flush. &quot;Full Record&quot; looks like it&#39;s higher.</p>
+<p>Also sticking two items here, as this seems the best place for them:</p>
+<ol>
+<li>Please alphabetize the items in the genre column in the table as you have in the creator and addressee fields.</li>
+<li>Can you add a final column (i.e., all the way on the right) in the full table view called &quot;Project ID&quot; that would simply given the liv number from the MODS? This is the mods:identifier type=&#39;local&#39; displayLabel=&#39;master_id&#39;</li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-27</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Please alphabetize the items in the genre column in the table as you have in the creator and addressee fields.</p>
+</blockquote>
+<p>The genre column seems to be alphabetical order?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-28</time>
+          </div>
+          <div class="body"><p>I don&#39;t think it is. Open to full view from the default landing page and take a look at the second item, for instance:</p>
+<p>signatures (names);
+books;
+autographs (manuscripts);
+publications</p>
+<p>It should be in the following order:</p>
+<p>autographs (manuscripts);
+books;
+publications;
+signatures (names);</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-29</time>
+          </div>
+          <div class="body"><p>Oh I misunderstood I thought you were taking about the select field.</p>
+<p>On Saturday, 28 May 2016, awisnicki notifications@github.com wrote:</p>
+<blockquote>
+<p>I don&#39;t think it is. Open to full view from the default landing page and
+take a look at the second item, for instance:</p>
+<p>signatures (names);
+books;
+autographs (manuscripts);
+publications</p>
+<p>It should be in the following order:</p>
+<p>autographs (manuscripts);
+books;
+publications;
+signatures (names);</p>
+<p>—
+You are receiving this because you were assigned.
+Reply to this email directly, view it on GitHub
+<a href="https://github.com/livingstoneonline/livingstoneonline/issues/38#issuecomment-222311214">https://github.com/livingstoneonline/livingstoneonline/issues/38#issuecomment-222311214</a>,
+or mute the thread
+<a href="https://github.com/notifications/unsubscribe/AAdvzVTzAOW_yijr2nHZ40pbf90mlz33ks5qGFB_gaJpZM4Igmbp">https://github.com/notifications/unsubscribe/AAdvzVTzAOW_yijr2nHZ40pbf90mlz33ks5qGFB_gaJpZM4Igmbp</a>
+.</p>
+</blockquote>
+<p>## </p>
+<p>Nigel Banks
+nigel.g.banks@gmail.com</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><blockquote>
+<p>In the main table, currently only one genre appears in the genre field, but there can be up to FOUR, so all these should be <strong>listed as relevant</strong>, but separated by a ;  So if the MODS record says:</p>
+</blockquote>
+<p><a href="https://docs.google.com/document/d/14lKUnmSN45E5uCBDbwGdVQoadR3zseSlo4oy5hpnYz8/edit">https://docs.google.com/document/d/14lKUnmSN45E5uCBDbwGdVQoadR3zseSlo4oy5hpnYz8/edit</a></p>
+<p>Just to confirm we want to change genre fields within an single cell to be sorted by Alphanumerically?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>Odd! I thought I answered this one. Yes, that&#39;s correct alphanumerically, just like currently happens in the creator and addressee fields.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>K that&#39;ll have to wait a bit as I need to rebuild to the solr index to do so.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Index has been rebuilt.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>This looks good. However, please put each individual genre on its own line, per the model of the creator/addressee columns.</p>
+<p>Separately, I&#39;ll just throw this small bit in here rather than creating a new ticket, but I noticed when reviewing this that in the viewer, in the Item Details section, when there are two creators, they are separated by a comma rather than semi-colon. Please make it semi-colon. Example:
+<a href="http://livingstonestage.lib.umd.edu/islandora/search?full_record=1&amp;sort=desc&amp;order=Title&amp;view_pid=liv%3A000214&amp;view_page=0">http://livingstonestage.lib.umd.edu/islandora/search?full_record=1&amp;sort=desc&amp;order=Title&amp;view_pid=liv%3A000214&amp;view_page=0</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Fixed as for</p>
+<blockquote>
+<p>Separately, I&#39;ll just throw this small bit in here rather than creating a new ticket, but I noticed when reviewing this that in the viewer, in the Item Details section, when there are two creators, they are separated by a comma rather than semi-colon. Please make it semi-colon. Example:
+<a href="http://livingstonestage.lib.umd.edu/islandora/search?full_record=1&amp;sort=desc&amp;order=Title&amp;view_pid=liv%3A000214&amp;view_page=0">http://livingstonestage.lib.umd.edu/islandora/search?full_record=1&amp;sort=desc&amp;order=Title&amp;view_pid=liv%3A000214&amp;view_page=0</a></p>
+</blockquote>
+<p>It&#39;s now in it&#39;s own ticket <a href="https://github.com/livingstoneonline/livingstoneonline/issues/50">https://github.com/livingstoneonline/livingstoneonline/issues/50</a>, don&#39;t worry about creating small tickets, small single purpose tickets are easier to deal with rather than large tickets with unrelated issues.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Genre, looks good. I&#39;m closing this one! Also, duly noted on small tickets. I&#39;ll do that going forward.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

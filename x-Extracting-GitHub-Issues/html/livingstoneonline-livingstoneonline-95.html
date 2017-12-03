@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Spectral image viewer: adjustments</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#95</span>
+        </p>
+        <h1>Spectral image viewer: adjustments</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-2</time>
+          </div>
+          <div class="body">
+            <p>See attached for adjustments, but in short here is the list:</p>
+<ol>
+<li>Remove all caps in spectral image dropdowns.</li>
+<li>Have the image dropdown say &quot;Select spectral image type&quot; by default</li>
+<li>Please put a thin white line down the middle to separate the two panes.</li>
+<li>Put spectral images in the order given. &quot;spectral_ratio&quot; should be the default on the right.</li>
+<li>Put the lightning flash (in black) after the word &quot;Compare&quot; in that button for a little clarity as to what the button does.</li>
+</ol>
+<p><img src="https://cloud.githubusercontent.com/assets/12518623/19941356/d5738be0-a0fd-11e6-8aac-4d9d6314062f.png" alt="screen shot 2016-11-02 at 12 43 15"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-2</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Have the image dropdown say &quot;Select spectral image type&quot; by default</p>
+</blockquote>
+<p>Are you sure you wish to have that dropdown say that? As a selection is presented automatically and it&#39;s not possible to show a non-selection?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-2</time>
+          </div>
+          <div class="body"><p>The concern is that user are not going to know what they spectral image name is/means. What about some text that appears on hover, as we have already set up for when the transcription button is not clickable? We could do the same thing, working/looking the exact same way, and the hover would say &quot;Select a spectral image type&quot;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-2</time>
+          </div>
+          <div class="body"><p>Yup I can add that.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-4</time>
+          </div>
+          <div class="body"><p>Added a tooltip, ready for review on stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-4</time>
+          </div>
+          <div class="body"><p>Still some adjustments needed. See two attachments.
+<img src="https://cloud.githubusercontent.com/assets/12518623/20025549/56af1eac-a2bd-11e6-8e23-ec265e12a91f.png" alt="screen shot 2016-11-04 at 18 25 29">
+<img src="https://cloud.githubusercontent.com/assets/12518623/20025550/585ce0fe-a2bd-11e6-970c-31eb844c1716.png" alt="screen shot 2016-11-04 at 18 14 34"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-8</time>
+          </div>
+          <div class="body"><p>Even without the padding, and the new text the tooltip is larger than the select field.</p>
+<p>&lt;img width=&quot;617&quot; alt=&quot;screen shot 2016-11-08 at 14 23 39&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/20102711/fecbf89a-a5be-11e6-8240-5e7181cff77a.png&quot;&gt;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-8</time>
+          </div>
+          <div class="body"><p>What about just slightly widening the spectral image dropdown? That would also allow you to put a touch of left-right padding on the tooltip.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-8</time>
+          </div>
+          <div class="body"><p>Doing so causes the button row to break to the next line.</p>
+<p>&lt;img width=&quot;621&quot; alt=&quot;screen shot 2016-11-08 at 15 57 04&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/20106146/0f0c975c-a5cc-11e6-84cb-f95fbd2efe4e.png&quot;&gt;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-8</time>
+          </div>
+          <div class="body"><p>What about reducing the size of the text in the tooltip one notch? Also, please de-capitalize the first &quot;S&quot; in the tooltip.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-11</time>
+          </div>
+          <div class="body"><p>Ready for review on stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-11</time>
+          </div>
+          <div class="body"><p>I think you resolved everything here, so I&#39;m closing this ticket. Thank you.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

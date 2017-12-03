@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Mobile: Critical edition sub-pages</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#156</span>
+        </p>
+        <h1>Mobile: Critical edition sub-pages</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-6-26</time>
+          </div>
+          <div class="body">
+            <p>Critical edition subpages should not get a level 2/grid image on at the top. Only the main critical edition page should have this.
+<img src="https://user-images.githubusercontent.com/12518623/27544393-9d914dc0-5a52-11e7-8e5f-a510ad294e1c.PNG" alt="img_6502"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-27</time>
+          </div>
+          <div class="body"><p>This is due to the content having a &#39;fake&#39; image for both it&#39;s Carousel and Grid image, rather than no image at all. If one removes the image(s) like so:</p>
+<p><img src="https://user-images.githubusercontent.com/487373/27605725-7444246e-5b75-11e7-863a-70a12c4d7941.png" alt="screen shot 2017-06-27 at 20 15 40"></p>
+<p>Then nothing is displayed, I&#39;ll add a reminder to remove all cases of this when we do the final migration.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-27</time>
+          </div>
+          <div class="body"><p>Sounds good. Right now prod is config&#39;d in such a way that each page must have these images, hence me adding the gray boxes.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

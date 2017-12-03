@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: ZIP download access</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#57</span>
+        </p>
+        <h1>Browse by Catalogue: ZIP download access</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body">
+            <p>Please add access to zip downloads per the attached mockup. (No need to provide time estimate, since you said this would be quick job.)
+<img src="https://cloud.githubusercontent.com/assets/12518623/16130581/92b1b174-33cf-11e6-855b-d1b94a61db38.png" alt="screen shot 2016-06-16 at 13 59 23"></p>
+<p>The relevant URLs are:</p>
+<p>PDF
+<a href="http://livingstone.lib.umd.edu/sites/default/files/Livingstone-Online-Complete-PDF-transcriptions.zip">http://livingstone.lib.umd.edu/sites/default/files/Livingstone-Online-Complete-PDF-transcriptions.zip</a></p>
+<p>TEI
+<a href="http://livingstone.lib.umd.edu/sites/default/files/Livingstone-Online-Complete-TEI-transcriptions.zip">http://livingstone.lib.umd.edu/sites/default/files/Livingstone-Online-Complete-TEI-transcriptions.zip</a></p>
+<p>MODS
+<a href="http://livingstone.lib.umd.edu/sites/default/files/Livingstone-Online-Complete-MODS-records.zip">http://livingstone.lib.umd.edu/sites/default/files/Livingstone-Online-Complete-MODS-records.zip</a></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-8</time>
+          </div>
+          <div class="body"><p>This looks right except it&#39;s too narrow so that text is wrapping when it shouldn&#39;t (note how in my mock up above everything fits on three separate lines). See attached screen shot for what I&#39;m seeing now.</p>
+<p>Also, the links don&#39;t work, but I&#39;m guessing this will be resolved when this is pushed up to prod and links are pointing to prod.
+<img src="https://cloud.githubusercontent.com/assets/12518623/16697969/a6349894-4511-11e6-8643-b65d2f4c4f4d.png" alt="screen shot 2016-07-08 at 13 39 32"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>I had to decrease the font size to keep those proportions across all resolutions. The download links will only work on Production, as it&#39;s the only server with those files on it.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>Unfortunately, this is still problematic for the following reasons:</p>
+<ol>
+<li>I was looking for all the lines of text to be centered on the area below the dropdown, but the latter two lines seem left justified (PDF transcriptions (general users) / TEI transcriptions MODS Records). All lines should be continuously centered.</li>
+<li>&quot;PDF transcriptions (general users)&quot; is one bit of text but it looks like you&#39;ve put extra spacing between &quot;PDF transcriptions&quot; and &quot;general users&quot; as if these were two items.</li>
+<li>Lines are still breaking in two at some resolutions. See attached screen shots. 
+<img src="https://cloud.githubusercontent.com/assets/12518623/16745169/eb958542-47b4-11e6-83ec-97a68120b75a.png" alt="screen shot 2016-07-11 at 22 13 37"> 
+<img src="https://cloud.githubusercontent.com/assets/12518623/16745225/2e969cbe-47b5-11e6-9d80-9641010f7cbc.png" alt="screen shot 2016-07-11 at 22 15 48"></li>
+</ol>
+<p>Finally, note that on stage, this page has padding at the sides added by Kathy in preparation for adding arrows at the sides. So search boxes look a little wonky at narrower resolutions because of the extra padding. However, once Kathy adds and configures the arrows, full width should be restored at narrow resolutions because the arrows disappear by the time you get to iPad width and the catalogue then goes full width again. I hope that make sense.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>Also, one way we could address the issue of the line breaking and having to make the text smaller is to break this up vertically as follows:</p>
+<p>Download complete:
+PDF transcriptions (all users)
+TEI transcriptions (specialists)
+MODS Records (specialists)</p>
+<p>Perhaps that would be better and help?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><p>That helps, I&#39;ve pushed it up to stage. As you said in the previous comment the padding on the sides does mess with this at lower resolutions (iPhone, etc).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><p>This looks good. Kathy should fix the padding problem. Two questions:
+1) Is there only one space after the hyperlinked text? It looks like two.
+2) Could not the size on the text be increased slightly? It looks like there&#39;s some scope for this even for lower widths (try removing the padding that&#39;s still there to see what I mean).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-15</time>
+          </div>
+          <div class="body"><blockquote>
+<p>1) Is there only one space after the hyperlinked text? It looks like two.</p>
+</blockquote>
+<p>There isn&#39;t any space characters but there is a padding of 0.5em approx 5.6 pixels.</p>
+<blockquote>
+<p>2) Could not the size on the text be increased slightly? It looks like there&#39;s some scope for this even for lower widths (try removing the padding that&#39;s still there to see what I mean).</p>
+</blockquote>
+<p>When the paddings removed I can get it to 0.9em at the lower resolutions. It&#39;s now on stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-15</time>
+          </div>
+          <div class="body"><p>For 2), looks good.
+For 1), please reduce to 0.3em and then feel free to close out this ticket.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

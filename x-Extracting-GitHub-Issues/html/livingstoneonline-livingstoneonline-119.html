@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Mobile: bug with iPhone</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#119</span>
+        </p>
+        <h1>Mobile: bug with iPhone</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-12-6</time>
+          </div>
+          <div class="body">
+            <p>I&#39;ve run into issue with the image viewer when looking at it on my iPhone. As I explained, sometimes when I open an image and try to move it around it &quot;skips&quot; i.e., kind of disappears off the screen and I return momentarily to the catalogue. Also, when I last use the view to look at images, select both a second page of an item or a transcription, returned an unfunctioning black screen.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-1-12</time>
+          </div>
+          <div class="body"><p>I&#39;ve combined this with #107. See my comment there.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

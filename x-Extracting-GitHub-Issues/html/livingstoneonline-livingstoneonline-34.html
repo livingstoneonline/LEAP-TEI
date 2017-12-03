@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Digital Edition Text</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#34</span>
+        </p>
+        <h1>MS Viewer: Digital Edition Text</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body">
+            <p>Please use this text for the Digital Edition section of the item details:</p>
+<p><strong>Publisher:</strong> Livingstone Online
+<strong>Directors:</strong> Adrian S. Wisnicki, Christopher Lawrence (emeritus), Megan Ward, Anne Martin
+<strong>Project Host:</strong> University of Maryland Libraries
+<strong>Publication Date:</strong> 2016
+<strong>Transcription Team:</strong> [Taken from TEI. We need to review how this is done. Should only be shown if there is a transcription.]
+<strong>Cite item (MLA):</strong> [creators separated by semi-colons if necessary followed by period]. [title type=&quot;alternative&quot; in quotation marks with period before closing quotation mark]. Livingstone Online. Adrian S. Wisnicki, Christopher Lawrence, Megan Ward, and Anne Martin, dirs. University of Maryland Libraries, 2016. Web. [Auto-generated access date: day/month/year in written form followed by a period, e.g. 9 May 2016].</p>
+<p>Notes: 
+1) So all fields are static, except &quot;Transcription Team&quot; which will be taken from the TEI (if available) and &quot;Cite Item&quot; which will come partly from the MODS and be partly auto-generated.
+2) Here&#39;s an example of a citation:</p>
+<p>Livingstone, David, 1813-1873. &quot;Letter to Parents and Sisters, 29 September 1841.&quot; Livingstone Online. Adrian S. Wisnicki, Christopher Lawrence, Megan Ward, and Anne Martin, dirs. University of Maryland Libraries, 2016. Web. 9 May 2016.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-23</time>
+          </div>
+          <div class="body"><p>Ready for review (although Transcription Team isn&#39;t implemented yet, we can do that as a separate ticket once we have the details about what we want to render there.)</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-23</time>
+          </div>
+          <div class="body"><p>A few small changes are still necessary:
+1) Please change the Directors line to the following:
+Leadership: Adrian S. Wisnicki (director), Christopher Lawrence (director emeritus), Megan Ward (associate director), Anne Martin (associate director)
+2) In the Cite Item section, 
+a) I asked for: [title type=&quot;alternative&quot; in quotation marks with period before closing quotation mark] but you&#39;ve put the period outside of the closing quotation mark.
+b) Please put Livingstone Online in italics.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>Closing this ticket, since I&#39;ve combined it with #33.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

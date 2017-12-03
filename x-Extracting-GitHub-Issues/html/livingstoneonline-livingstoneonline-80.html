@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Search Widget</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#80</span>
+        </p>
+        <h1>Search Widget</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-8-26</time>
+          </div>
+          <div class="body">
+            <p>Here are the options that I suggest for the widget:</p>
+<p>Search web pages
+Search digital catalogue
+Search transcriptions</p>
+<p>So take out the &quot;only.&quot; Replace the circle &amp; dot with a box &amp; checkmark. When you first click in the search bar, the dropdown appears and all three options are checked by default. If users want to narrow their search, they can then uncheck one or more of the boxes, etc.</p>
+<p>In terms of theming, a ) I&#39;d like the the dropdown from the Browse Collection button to match the search widget and b) I&#39;d like to make a few changes to the Search Widget.</p>
+<h2 id="browse-collection-dropdown-theming">Browse Collection dropdown theming</h2>
+<p>1) border-radius: 8px;
+2) border: 1px solid rgb(208, 208, 208);
+3) anything else needed to get it to look like the search widget dropdown (it&#39;s possible nothing else is needed)</p>
+<p>Search Widget dropdown theming
+1) Put a little space to the right of the check boxes, so there&#39;s a little space between the check boxes and the text to the right
+2) margin-top: 32px;  [so that the dropdown appears right below the search box]
+3) font-size: 0.85em;  [so that the text sizes matches that in the Browse Collection dropdown]
+4) padding left: 1.5em [so that the text is slightly more centered in the dropdown]</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-1</time>
+          </div>
+          <div class="body"><p>Used a different padding, as the margin added to the checkboxes affected alignment, now the text should align with the text in the search box when empty.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-1</time>
+          </div>
+          <div class="body"><p>This looks fantastic! Thank you. Just one quick small issue. The font inside of the search widget looks different from that inside of the Browse Collection dropdown. 1) Looks like different fonts and 2) Browse collection font is gray (or slightly muted black). </p>
+<p>I prefer what&#39;s on the Browse Collection button re: font. Could you make sure the search widget matches that?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-1</time>
+          </div>
+          <div class="body"><p>Should be the same color and size, now deployed to both stage and prod.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-1</time>
+          </div>
+          <div class="body"><p>Looks good, but appears not to be present on any of the level 3 pages. Also not working well in the manuscript viewer.</p>
+<p>Only levels 1 (home page) and 2 (tiles pages) look OK.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-4</time>
+          </div>
+          <div class="body"><p>It&#39;s deployed to stage / prod now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-4</time>
+          </div>
+          <div class="body"><p>Resolved. Thank you very much.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Manuscript Viewer: Download current item</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#60</span>
+        </p>
+        <h1>Manuscript Viewer: Download current item</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body">
+            <p>On the &quot;Item Details&quot; page, in the &quot;Digital Edition&quot; section, after the &quot;Date&quot; line, please put a new line that says:</p>
+<p>Download item: [down-arrow] [size of item]</p>
+<p>So, in other words, the last two things should look just like they do in the catalogue.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>Looks good, except you put it after the Date in the &quot;Item Details&quot; section, but you&#39;ll note above that I said it should go after the Date in the &quot;Digital Edition&quot; section.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><p>Whoops, it&#39;s on stage now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><p>Looks great. Push to prod. Thanks!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

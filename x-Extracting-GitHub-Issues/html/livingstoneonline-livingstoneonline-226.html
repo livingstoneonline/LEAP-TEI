@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Tables with fixed widths</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#226</span>
+        </p>
+        <h1>Tables with fixed widths</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-21</time>
+          </div>
+          <div class="body">
+            <p>This goes back to ticket #155. We need to address images in tables with fixed widths. As you&#39;ve noted, there shouldn&#39;t be any use of fixed width elements anywhere on the page as it prevents responsive design. You also indicated that you would search and remove these tables and replace them with the proper html / css.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-24</time>
+          </div>
+          <div class="body"><p>Should now be sorted on stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-25</time>
+          </div>
+          <div class="body"><p>Yes, I&#39;ve spot checked this and it looks fixed. Thank you very much. I&#39;ll also keep an eye out for this when I do a full review of the site just prior to it&#39;s going up to prod.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Questions re: Back end menus</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#228</span>
+        </p>
+        <h1>Questions re: Back end menus</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-27</time>
+          </div>
+          <div class="body">
+            <p>The LO (icon) menu on the back end of the site has options for the &quot;Index&quot; and for &quot;Flush all caches.&quot; </p>
+<p>The &quot;Index&quot; option takes one to a page called &quot;Administration&quot; which has a fairly self-evident purpose. It looks like this latter page is not one I&#39;d normally be using. Could you confirm that and also sum up for me (for the site guide I&#39;m developing) in a sentence what this page is for?</p>
+<p>Re: &quot;Flush all caches&quot; would I ever use this? And, again, could you some in a sentence what this is for?</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-13</time>
+          </div>
+          <div class="body"><p>The index page just lists all the accessible links in the administration section of the site.</p>
+<p>Flush all caches, clears the various server side caches (these are used to speed up the site but if changes are made the site may display &quot;old&quot; cached content rather than the latest changes). The sub menus are specific caches which you can clear, but if you just click on the link itself rather than a sub menu it will clear all the caches. This is something you may want to do from time to time if the content of the site looks out of date after you change something.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-13</time>
+          </div>
+          <div class="body"><p>Ok, great. Both of these answers are quite helpful. Thank you.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

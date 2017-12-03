@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Revisions Tab</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#220</span>
+        </p>
+        <h1>Revisions Tab</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body">
+            <p>Please restore the &quot;revisions&quot; tab to the back end view of section pages. Here is where it appears on Prod:</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/30494313-36e733f0-9a0d-11e7-953b-0e519429aa99.png" alt="screen shot 2017-09-15 at 11 57 39"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>It will appear on pages that have multiple version since the site is freshly imported most pages won&#39;t show the revisions tab since there is only one version, after edits they will appear. For example on this page:</p>
+<p><a href="http://livingstonestage.lib.umd.edu/spectral-imaging/creating-the-1870-field-diary">http://livingstonestage.lib.umd.edu/spectral-imaging/creating-the-1870-field-diary</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>OK, great. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

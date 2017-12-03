@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Item Details/Digital Edition Rendering</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#33</span>
+        </p>
+        <h1>MS Viewer: Item Details/Digital Edition Rendering</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body">
+            <p>1) Text Sizes</p>
+<p><strong>Main title</strong>
+font-family: Crimson Text, serif
+font-size: 2.3 em
+font-weight: 600
+margin-bottom: 10px
+Note: should be flush left with the rest of the text, not hanging out into the margin, so I think margin-left: 10px</p>
+<p><strong>Main text</strong>
+font: Source Sans Pro, sans-serif
+font-size: .9 em</p>
+<p>2) Combine &quot;Publication&quot; and &quot;Digital Edition&quot; into a single section called &quot;Digital Edition&quot; that begins before the line for &quot;Directors&quot;. I&#39;ll provide the text for this section in a separate Github ticket.</p>
+<p>3) <strong>Section title for Digital Edition</strong>
+font-family: Crimson Text, serif
+font-size: 1.5 em
+Note: should be flush left with the rest of the text, not hanging out into the margin, so I think margin-left: 10px
+Note: there should not be an empty line after this title. The text can be right below it.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-23</time>
+          </div>
+          <div class="body"><p>All looks good except please adjust further as follows:</p>
+<p>1) Text sizes
+<strong>Main title</strong>
+font-size: 1.75 em
+margin-bottom: it appears that the solution I proposed (10em) does not work. The point is that right now there is an extra amount of space between the title and the items below it. The space below the title should be the same as the space between the different lines of this section.
+Also, let&#39;s put a horizontal line below the title that runs end to end (left to right) and is gray. See how we do it on any page of the site, for instance: <a href="http://livingstone.lib.umd.edu/about-site/livingstone-online-introduction">http://livingstone.lib.umd.edu/about-site/livingstone-online-introduction</a></p>
+<p>3) <strong>Section Title for Digital Edition</strong>
+font-size: 1.75 em
+font-weight: 600
+Also, let&#39;s put a horizontal line below the title that runs end to end (left to right) and is gray. See how we do it on any page of the site, for instance: <a href="http://livingstone.lib.umd.edu/about-site/livingstone-online-introduction">http://livingstone.lib.umd.edu/about-site/livingstone-online-introduction</a>
+Finally, we need an empty line above this to set off this section from the previous one. Please make the empty line the size of a regular line in the section (rather than the size of the title).</p>
+<p>In other words, I&#39;d like to do the same thing for the Item Details and Digital Edition titles.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>I&#39;m closing out section #34 and combining it with one since it all goes together.</p>
+<p>Still a touch of tweaking left on the Item Details and Digital Edition sections left as follows:</p>
+<ol>
+<li>The vertical space between Item Details/Digital Edition and the gray line beneath is too large in each case and needs to be reduced. The vertical distance from these titles to the gray line, should be the same as from the gray line to the first line of text below.</li>
+<li>We still need some vertical space about &quot;Digital Edition&quot; so that the &quot;Digital Edition&quot; section is clearly set off from the &quot;Item Details&quot; section.</li>
+<li>The &quot;Image Credits&quot; section seems to have the word &quot;Images&quot; hard coded, so each version of this starts off with the word &quot;Images&quot; unnecessarily duplicated:
+<strong>Image Credits:</strong> Images Images [...]</li>
+<li>In the &quot;Directors&quot; line, I meant for you to use &quot;Leadership:&quot; instead of &quot;Directors&quot;, but I see now that &quot;Directors&quot; works just fine, so please just remove the word &quot;Leadership:&quot; (including the semi-colon that follows that word. In other words, the &quot;Directors&quot; line should read:
+<strong>Directors:</strong> Adrian S. Wisnicki (director), Christopher Lawrence (director emeritus), Megan Ward (associate director), Anne Martin (associate director)</li>
+<li>The &quot;Cite Item (MLA)&quot; section needs to end with a final period (after the auto-generated date). Currently that period is missing.</li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><blockquote>
+<p>The vertical space between Item Details/Digital Edition and the gray line beneath is too large in each case and needs to be reduced. The vertical distance from these titles to the gray line, should be the same as from the gray line to the first line of text below.</p>
+</blockquote>
+<p>Done.</p>
+<blockquote>
+<p>We still need some vertical space about &quot;Digital Edition&quot; so that the &quot;Digital Edition&quot; section is clearly set off from the &quot;Item Details&quot; section.</p>
+</blockquote>
+<p>Margin is now set to 2em (was 0.5em).</p>
+<blockquote>
+<p>The &quot;Image Credits&quot; section seems to have the word &quot;Images&quot; hard coded, so each version of this starts off with the word &quot;Images&quot; unnecessarily duplicated: Image Credits: Images Images [...]</p>
+</blockquote>
+<p>Hard coding of &quot;Images&quot; has been removed.</p>
+<blockquote>
+<p>In the &quot;Directors&quot; line, I meant for you to use &quot;Leadership:&quot; instead of &quot;Directors&quot;, but I see now that &quot;Directors&quot; works just fine, so please just remove the word &quot;Leadership:&quot; (including the semi-colon that follows that word. In other words, the &quot;Directors&quot; line should read: Directors: Adrian S. Wisnicki (director), Christopher Lawrence (director emeritus), Megan Ward (associate director), Anne Martin (associate director)</p>
+</blockquote>
+<p>Done.</p>
+<blockquote>
+<p>The &quot;Cite Item (MLA)&quot; section needs to end with a final period (after the auto-generated date). Currently that period is missing.</p>
+</blockquote>
+<p>Done.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Everything looks great (thank you!), except please make one final change. Please change margin above &quot;Digital Edition&quot; to 1.5em and then please feel free to close this ticket.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Deployed to stage</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Perfect. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

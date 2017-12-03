@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Sorting by Hidden Fields</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#5</span>
+        </p>
+        <h1>Browse by Catalogue: Sorting by Hidden Fields</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-4-28</time>
+          </div>
+          <div class="body">
+            <p>If you sort on a field that is not displayed by default (one that only appears when full record is selected), the order of the columns does not display correctly on the page refresh.</p>
+<p>Nigel: Has to do with the split table issue (header is a separate table, I think this should be done from scratch, will take awhile though).</p>
+<p>Will be done as part of the re-write of the Browse by Catalogue page.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body"><p>Deployed to stage, ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body"><p>This appears to be resolved. Thank you for your work on this!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

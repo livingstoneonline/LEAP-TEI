@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Discussion on hover used in the grid pages.</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#132</span>
+        </p>
+        <h1>Discussion on hover used in the grid pages.</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2017-5-11</time>
+          </div>
+          <div class="body">
+            <p>In working on the grid pages it came to my attention we have no reliable to detect if a device supports hovering / touch or not. Currently we&#39;re doing this based on resolution of the screen, but that leads to odd edge cases in which the user might be using a large iPad (which has a screen resolution higher than some laptops), currently in this case the text on the grid page is not visible to them. </p>
+<p>Also it occurred to me that the users can&#39;t see the categories of pages until they individually mouse over each one, which doesn&#39;t seem that user friendly as it obstructs useful information for navigating the site. </p>
+<p>I suggest we drop the hover functionality and display text at all times, what do you think?</p>
+<p>&lt;img width=&quot;1007&quot; alt=&quot;hover&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/25948286/b3cf8452-364a-11e7-936f-4b7ab3ebff19.png&quot;&gt;</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-5-11</time>
+          </div>
+          <div class="body"><p>I&#39;ve just emailed the individual (Angela Aliff, you haven&#39;t met her) who led site design, so hope to discuss this with her soon. This is only an issue on desktop as, once the site goes to mobile variants, the titles are display as an overlay, which may be a good solution for desktop as well. The one issue is that the subtitles (which are useful) are lost in how it&#39;s currently set up.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-5-11</time>
+          </div>
+          <div class="body"><p>How about something like this?</p>
+<p>Large:
+&lt;img width=&quot;1188&quot; alt=&quot;screen shot 2017-05-11 at 19 17 01&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/25964970/81059cb2-367e-11e7-959f-d6d57ff9c234.png&quot;&gt;</p>
+<p>Medium:
+&lt;img width=&quot;976&quot; alt=&quot;screen shot 2017-05-11 at 19 18 27&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/25965039/b157d416-367e-11e7-98ba-b7056b059e52.png&quot;&gt;</p>
+<p>Small:
+&lt;img width=&quot;304&quot; alt=&quot;screen shot 2017-05-11 at 19 18 44&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/25965042/b458be46-367e-11e7-85cd-8f3d8ca48890.png&quot;&gt;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-5-11</time>
+          </div>
+          <div class="body"><p>The issue with this is we lose all the color from the images. The 1/4 overlay option may be the best. I&#39;ll be back in touch about this soon.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-5-21</time>
+          </div>
+          <div class="body"><p>We&#39;ve looked into this and would like to stay with the set up as is since it took quite a bit of work to arrive at this. Our designer will research more into this going forward (she actually sent me quite a few things on which she&#39;ll be following up), but this is also something we could revisit down the road as part of a more elaborate redesign through another grant, the one we&#39;re currently developing and will discuss with you later this week. </p>
+<p>Also, our designer and I take your point about the edge cases, but this actually translates to only a small percentage of our users (see screen shot). Only about 6% of our users use tablet and only some percentage of those would be edge cases, maybe 1% or so. So it would be nice to address all scenarios, but in this case it has rather complex implications for the overall integrated design. </p>
+<p>In terms of the hovering, would it be possible to alt text to the grid tiles that would have title: subtitle?</p>
+<p><img src="https://cloud.githubusercontent.com/assets/12518623/26286689/82f8624c-3e63-11e7-843f-0132b171b94c.png" alt="screen shot 2017-05-21 at 20 24 11"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-1</time>
+          </div>
+          <div class="body"><p>How about if we always show it below and then do a more detailed display when hovered? This way the image isn&#39;t covered, and the link text is visible. People really shouldn&#39;t have to hover over every image in a page to see what links are available.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/487373/26689393/6a8cfbf4-46ed-11e7-951c-057484308557.png" alt="grid"></p>
+<blockquote>
+<p>In terms of the hovering, would it be possible to alt text to the grid tiles that would have title: subtitle?</p>
+</blockquote>
+<p>No real point to adding alt text when the text is already displayed on hover?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>Reverted to the old behaviour.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>Almost. See screen shot. At this size, the tiles simply get too big. Could you check against prod and use the same sizes as there?
+<img src="https://user-images.githubusercontent.com/12518623/26952208-0af2d448-4c6a-11e7-8c40-e46084cd7d3d.png" alt="screen shot 2017-06-08 at 16 46 02"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>Should be sorted out now (was a bug in Firefox according to the css spec).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>You&#39;ve restored the spacing between tiles (that was another issue that I hadn&#39;t gotten around to ticketing yet). But this issue is still persisting. Here&#39;s a screen shot of prod at, relatively speaking, the same screen width. Note that the tiles here are three across and smaller, whereas above they&#39;re two across and much larger.
+<img src="https://user-images.githubusercontent.com/12518623/27086607-4de3b5a4-5018-11e7-918d-8ab1492739d0.png" alt="screen shot 2017-06-13 at 9 10 56"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>And looks good on this one. I think this takes care of it. Thank you.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

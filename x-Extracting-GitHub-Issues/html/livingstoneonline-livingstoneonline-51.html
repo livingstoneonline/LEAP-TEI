@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Show file size for archival packages</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#51</span>
+        </p>
+        <h1>Browse by Catalogue: Show file size for archival packages</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-6-7</time>
+          </div>
+          <div class="body">
+            <blockquote>
+<p>In terms of downloading the packets, the sizes range from two that are just over a GB, a handful between 100 and 700 MB, and the rest below 100 MB, so I wonder if next to the download icon we couldn&#39;t put/auto-generate the file size in parenthesis just so people know what they&#39;re getting into before they download. Could you do that? So in the access column it would look like this 
+[eye icon] [download icon] (135 MB)</p>
+</blockquote>
+<p>Should take &lt; 1hr.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-15</time>
+          </div>
+          <div class="body"><p>Since the icons are sort of related to this issue, I&#39;ll just put this here, but feel free to move it to a new issue if you prefer:</p>
+<ol>
+<li>Please replace the eye icon with the camera icon: <a href="http://fontawesome.io/icon/camera/">http://fontawesome.io/icon/camera/</a></li>
+<li>Please replace the download icon with the arrow-down icon: <a href="http://fontawesome.io/icon/arrow-down/">http://fontawesome.io/icon/arrow-down/</a></li>
+<li>Please make the restricted icon muted red (better) or gray. The bright red you&#39;ve chosen stands out too much and overshadows the blue icons. Also, the tooltip on this should read &quot;Restricted&quot; only.</li>
+</ol>
+<p>Finally, when you add the download size, you might put just a touch of padding to the right of the camera icon so that the down-arrow and the file size group together in a way that indicates that they go together.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Deployed to stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Set colour of text to #808080, font-size 0.8 em, and vertically center.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Deployed to stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body"><p>Looks good. You may push to prod when ready!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

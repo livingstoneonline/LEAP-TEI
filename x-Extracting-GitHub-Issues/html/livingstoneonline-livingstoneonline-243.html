@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Small theming issue on images</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#243</span>
+        </p>
+        <h1>Small theming issue on images</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-11-13</time>
+          </div>
+          <div class="body">
+            <p>I&#39;ve come across a small theming issue on images. When two images are side by side, they look fine, but when the move to mobile version, they&#39;re piled on top of each other and on top of the caption. When in mobile, the images should each get a touch of padding below them. See screen shots.</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32755450-ff1d0e42-c89a-11e7-8b5d-3cc36a71b40a.png" alt="screen shot 2017-11-13 at 17 45 58">
+<img src="https://user-images.githubusercontent.com/12518623/32755451-ff409e66-c89a-11e7-8bad-6908e8fc968b.png" alt="screen shot 2017-11-13 at 17 46 07">
+<img src="https://user-images.githubusercontent.com/12518623/32755452-ff5d8418-c89a-11e7-9c34-79f47f461fa7.png" alt="screen shot 2017-11-13 at 17 46 09"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-11-23</time>
+          </div>
+          <div class="body"><p>should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-25</time>
+          </div>
+          <div class="body"><p>Yes, all sorted on this. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

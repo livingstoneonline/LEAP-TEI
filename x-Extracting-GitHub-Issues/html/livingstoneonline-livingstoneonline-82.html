@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Full Record</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#82</span>
+        </p>
+        <h1>Browse by Catalogue: Full Record</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-9-3</time>
+          </div>
+          <div class="body">
+            <p>I&#39;ve discovered that from the desktop version of the site, it&#39;s not possible to move left and right in the catalogue when Full Record is checked without using the arrow keys. We may implement the Ext JS table down the road, so this could be resolved, but that&#39;s some time away. So in the meantime could you please do the following:</p>
+<ol>
+<li>Make the words &quot;Full Record&quot; on the left side look like a hyperlink.</li>
+<li>Once clicked, please make it so that a tooltip appears, exactly like the one you just added for the viewer. The tooltip should say:</li>
+</ol>
+<p>On desktop computers, use the &lt;- left and right -&gt; arrows keys (or the slider at the bottom of the table) to scroll right and left in the table.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-3</time>
+          </div>
+          <div class="body"><p>Alternately, just above the table, on the same line and in the same font as the line that says:</p>
+<pre><code>1 2 3 4 5 … next › last »
+</code></pre><p>we could put on the left side</p>
+<p>&lt;- Left arrow key to scroll left</p>
+<p>and on the right side</p>
+<p>Right arrow key to scroll right -&gt;</p>
+<p>We&#39;d just have to work out that these two moved to their own line once the table began to narrow for mobile.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-4</time>
+          </div>
+          <div class="body"><p>I&#39;ve been thinking about the table layout and I think it might be best if we make each row appear as a table, see the example below:</p>
+<p>This:
+<img src="https://cloud.githubusercontent.com/assets/487373/18230259/5e9790be-728d-11e6-9b42-97010e3bc2fa.png" alt="css-screen-1"></p>
+<p>Becomes:
+<img src="https://cloud.githubusercontent.com/assets/487373/18230263/69e246d0-728d-11e6-987c-6409bee6db19.png" alt="css-mobile-1"></p>
+<p>This way we wouldn&#39;t need any side scrolling, and it has the nice benefit of showing more data from a single row at a time. As I think people reading the site will be more interested in viewing the content of a single row rather than comparing values between two or more rows. Adopting this method would also save us the hastle of rebuilding the table to work with extjs.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-4</time>
+          </div>
+          <div class="body"><p><strong>Desktop Large:</strong>
+<img src="https://cloud.githubusercontent.com/assets/487373/18233018/948e279a-72d4-11e6-9294-e87f6faa66f3.png" alt="screen shot 2016-09-04 at 19 11 49"></p>
+<p><strong>Desktop Small:</strong>
+<img src="https://cloud.githubusercontent.com/assets/487373/18233019/96b9d3a2-72d4-11e6-9d5b-ce0340823f3e.png" alt="screen shot 2016-09-04 at 19 18 53"></p>
+<p><strong>Mobile:</strong>
+<img src="https://cloud.githubusercontent.com/assets/487373/18233026/c89ebd24-72d4-11e6-9121-b7315e0d37d0.png" alt="screen shot 2016-09-04 at 19 20 52"></p>
+<p>The tool tip is a bit problematic in that the Full Record is togglable, and users can be linked to the page with it enabled so they wouldn&#39;t see the tooltip on first visit.</p>
+<p>Does the screen shots look acceptable? Alternatively we could also just place the descriptive text below the Full Record option?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-4</time>
+          </div>
+          <div class="body"><p>This should be OK. For now, just put in on stage and I can check it out there. I would like to have some right padding for the text on the left and, alternately, left padding for the text on the right so that it&#39;s a) not so bunched next to the numbers on desktop and b) has a bit of space between the two sides it goes to smaller sizes and goes on its own line. Also note that this can probably disappear on the phone versions of the site, no? It&#39;s mainly needed for laptop and desktop computers.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-6</time>
+          </div>
+          <div class="body"><p>It&#39;s deployed to stage, for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-6</time>
+          </div>
+          <div class="body"><p>Overall this looks good, but please make the following modifications:</p>
+<ol>
+<li>Change the text as follows (note the dashes added next to the arrows):</li>
+</ol>
+<p>‹-- scroll in table: left arrow key</p>
+<p>scroll in table: right arrow key --›</p>
+<ol>
+<li>When the text goes to its own line above the numbers, bring the two sides in so they are centered (rather than float left and right), but put a little padding between them so that users can tell these are two separate things</li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-6</time>
+          </div>
+          <div class="body"><p>Also, when the scroll text goes to its own line, can we put it below the numbers line rather than above?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-13</time>
+          </div>
+          <div class="body"><p>Deployed to stage and ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-13</time>
+          </div>
+          <div class="body"><p>This looks great. Please make two small changes in the wording as follows:</p>
+<p>Replace &quot;scroll&quot; in both cases with &quot;click&quot;
+Replace the colon with a comma</p>
+<p>So....</p>
+<p>← click in table, left arrow key</p>
+<p>click in table, right arrow key →</p>
+<p>Also, question: would it be possible to hide this text until 1) someone checks the full record or 2) the width of the screen narrows to the point where part of the table starts to be hidden?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-14</time>
+          </div>
+          <div class="body"><p>K it&#39;s deployed to stage, now it will only display the text if the table can&#39;t fit into the display, except of course when it&#39;s lower resolution like mobile in which case it doesn&#39;t display.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-14</time>
+          </div>
+          <div class="body"><p>Works perfectly! Thank you! Please push to prod ASAP!</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-14</time>
+          </div>
+          <div class="body"><p>K, Deployed to prod.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

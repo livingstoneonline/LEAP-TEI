@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalgoue: Link in Other Verisons Column</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#64</span>
+        </p>
+        <h1>Browse by Catalgoue: Link in Other Verisons Column</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-17</time>
+          </div>
+          <div class="body">
+            <p>On Prod, some of the URLs in the Other Versions column as coming up as URLs rather than as the word &quot;link&quot;. Take a look here for example:</p>
+<p><a href="http://livingstone.lib.umd.edu/islandora/search?f%5B%5D=dateRangeYear_mi%3A%221873%22&amp;full_record=1">http://livingstone.lib.umd.edu/islandora/search?f%5B%5D=dateRangeYear_mi%3A%221873%22&amp;full_record=1</a></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-19</time>
+          </div>
+          <div class="body"><p>The examples on the page I gave above appear to have resolved themselves, but there are still other examples where the issue persists:</p>
+<p>Top few records:
+<a href="http://livingstone.lib.umd.edu/islandora/search?full_record=1&amp;order=Other+Version%28s%29&amp;page=27">http://livingstone.lib.umd.edu/islandora/search?full_record=1&amp;order=Other+Version%28s%29&amp;page=27</a></p>
+<p>Random examples on this page:
+<a href="http://livingstone.lib.umd.edu/islandora/search?full_record=1&amp;order=Other+Version%28s%29&amp;page=26">http://livingstone.lib.umd.edu/islandora/search?full_record=1&amp;order=Other+Version%28s%29&amp;page=26</a></p>
+<p>etc.</p>
+<p>Also see the column on this page (where it actually runs out of the box): 
+<a href="http://livingstone.lib.umd.edu/islandora/search?f%5B%5D=genre_ms%3A%22lantern+slides%22&amp;full_record=1">http://livingstone.lib.umd.edu/islandora/search?f%5B%5D=genre_ms%3A%22lantern+slides%22&amp;full_record=1</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>I can&#39;t seem to reproduce it for any of the links.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>OK, oddly when you link directly to the URLs I provided above, the issue is fixed. However, if you start at the default Catalogue landing page then, for example, narrow by genre to &quot;lantern slides&quot;, then look at Other Versions, you&#39;ll see the issue. See screen shot. I&#39;m doing this in Firefox.
+<img src="https://cloud.githubusercontent.com/assets/12518623/16207054/e3d375fa-36f0-11e6-83d1-906aca6668f1.png" alt="screen shot 2016-06-20 at 14 10 24"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>Fixed</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>And indeed this looks fixed too. Thanks as well. One more close.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Access Column Width</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#62</span>
+        </p>
+        <h1>Browse by Catalogue: Access Column Width</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-17</time>
+          </div>
+          <div class="body">
+            <p>On prod, the access column width is correct on Chrome for default view. In the majority of cases, the camera icon, the download icon, and the download size all appear on one line and do not wrap to a second line.</p>
+<p>However, the access column in the full record view on Chrome and both the default and full record views on Firefox are too narrow. You might also check other browsers on this.</p>
+<p>See attached screen shots. 
+<img src="https://cloud.githubusercontent.com/assets/12518623/16151959/187e9d9a-3465-11e6-8989-c04a81e7ef7c.png" alt="screen shot 2016-06-17 at 8 23 53">
+<img src="https://cloud.githubusercontent.com/assets/12518623/16151957/18796fc8-3465-11e6-9245-577388fa3f86.png" alt="screen shot 2016-06-17 at 8 23 56">
+<img src="https://cloud.githubusercontent.com/assets/12518623/16151958/187e034e-3465-11e6-8185-2ce4bfa8826c.png" alt="screen shot 2016-06-17 at 8 24 04">
+<img src="https://cloud.githubusercontent.com/assets/12518623/16151960/18800522-3465-11e6-94ba-71c17b8a2809.png" alt="screen shot 2016-06-17 at 8 25 31"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-19</time>
+          </div>
+          <div class="body"><p>This issue has partly resolved on the landing pages, but when opened to Full Record, the issue persists. In short, we need to set the Access column at a fixed width, just wide enough that it accommodates  camera/arrows/download size in one row, and this width should be fixed in short and full view on all versions of the site (Desktop, iPad, iPhone, etc).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>Should be good now, you&#39;ll need to clear your cache when viewing so you don&#39;t get the old css.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-20</time>
+          </div>
+          <div class="body"><p>Yes, looks good. Thanks for sorting this out. Closing.....</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

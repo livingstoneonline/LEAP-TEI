@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Geolocation: Display configuration</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#199</span>
+        </p>
+        <h1>Geolocation: Display configuration</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-8-11</time>
+          </div>
+          <div class="body">
+            <p>Originally, the idea had been to display the whole digital collection on the map at one go, but I understand that this turned out to be too slow or somehow otherwise not functional. I don&#39;t think that having the numbered pages at the bottom works well, so we need another, more obvious way to divide up the content so only chunks of it are shown at one time.</p>
+<p>So I suggest divisions by date. Would the following be feasible:</p>
+<p>Before 1840
+1840-1849
+1850-1859
+1860-1869
+After 1870</p>
+<p>These would then be offered as a series of radial button options below the search boxes. See screen shot. The numbered pages of additional would not appear below the map because we wouldn&#39;t ever have &quot;additional&quot; pages.</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/29234564-d99b9dba-7ec5-11e7-8b0e-2a9ecee1d371.png" alt="screen shot 2017-08-11 at 18 38 36"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-11</time>
+          </div>
+          <div class="body"><p>Also, note that it would actually be most logical to divide by specific dates so, for instance, something like 6 June 1852 - 11 March 1856, so that&#39;s another option. This way we could link to specific phases of Livingstone&#39;s career.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-12</time>
+          </div>
+          <div class="body"><p>One more point: What I was getting at in the last point is that the most logical way to do this would be by periods of DL&#39;s life, so on the page the range option might look something like this:</p>
+<p>Origins (-1841)
+Early years in Africa (1841-52)
+Transcontinental expedition (1852-56)
+First return to UK (1856-58)
+Zambezi expedition (1858-64)
+Second return to UK (1864-65)
+Final expedition (1865-73)
+Afterlife (1873-)</p>
+<p>However, the underlying divisions for each of these would be based on specific dates rather than a kind of 1 Jan - 31 Dec schema for each year. Would that be feasible. This kind of division would be ideal and, moreover, the amount of items for any given period would not be that large and so possible to display all at once.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>There really isn&#39;t support via the Google Maps Views module to do these things without significant work (essentially building the display our selves and discarding the contrib module, it&#39;s at least several days work).</p>
+<p>Though since ticket #200 mentioned removing the search boxes that allowed me to implement caching for the display so now we can have reasonable performance, and display all 3000+ records simultaneously. </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>Yes, I think this is fine. We can always come back to this on a new project and do more work, but I think it works well the way you&#39;ve set it up now. Thank you again.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Tweaks to Item Details Rendering</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#35</span>
+        </p>
+        <h1>MS Viewer: Tweaks to Item Details Rendering</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body">
+            <p>1) Repository field is currently showing creator
+2) Image Credits should show all fields as one continuous block of text that starts on the same line as &quot;Image Credits:&quot;</p>
+<p>Image Credits: Images © National Library of Scotland. Creative Commons Share-alike 2.5 UK: Scotland (<a href="https://creativecommons.org/licenses/by-nc-sa/2.5/scotland/">https://creativecommons.org/licenses/by-nc-sa/2.5/scotland/</a>). As relevant, © Dr. Neil Imray Livingstone Wilson. Creative Commons Attribution-NonCommercial 3.0 Unported (<a href="https://creativecommons.org/licenses/by-nc/3.0/">https://creativecommons.org/licenses/by-nc/3.0/</a>).</p>
+<p>3) In image credits, rather than showing the URLs (as above), could we have the foregoing Creative Commons text hyperlinked (to open in new tabs) with the URLs?</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-23</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-23</time>
+          </div>
+          <div class="body"><p>Still wonky as follows:</p>
+<ol>
+<li>Multiple instances of creator should be separated by a semi-colon, not comma</li>
+<li>Please change &quot;Authors&quot; to &quot;Creator(s)&quot;</li>
+<li>Repository field is showing Addressee plus repository.</li>
+<li>Image credits field appears to be static and exactly the same for each item, whereas it should be pulled dynamically from the MODS like the other field here.</li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>I can&#39;t pull the image credits from the MODS <em>and</em> replace text with a URL as the text is <strong>not</strong> <a href="https://en.wikipedia.org/wiki/Regular_language">regular</a>. So I&#39;m currently just pulling whats in the MODS. If you are guaranteed to have only a certain set of copyright types I could match explicitly against those (but cases in which there is a spelling mistake or some such it won&#39;t work), alternatively you could alter the data such the the links and the text that represent them by extending the <code>mods</code> to make use of the <a href="http://www.cdlib.org/groups/rmg/">CDL Copyright schema </a> for more info <a href="https://www.loc.gov/standards/mods/userguide/accesscondition.html">MODS Documentation</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>OK, I think there are two easier solutions here:</p>
+<ol>
+<li>You could take a URL that appears in the MODS Access Condition field and simply hyperlink it. I believe that would be straightforward, no?</li>
+<li>I could modify the MODS records so that the access condition field has an &quot;a href&quot; tag with proper URL around any item that should be hyperlinked. I just tested this out and the MODS schema seems to accept it. This change would be easy to make and appears to achieve what we need. Should I go ahead and do it?</li>
+</ol>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>I&#39;ve implemented number 1. So it will appear like so:</p>
+<blockquote>
+<p>Images © David Livingstone Centre. Object images used by permission. May not be reproduced without the express written consent of the National Trust for Scotland, on behalf of the Scottish National Memorial to David Livingstone Trust. Images of the objects from the David Livingstone Centre are © Roddy Simpson. Creative Commons Attribution-NonCommercial 3.0 Unported (<a href="https://creativecommons.org/licenses/by-nc/3.0/">https://creativecommons.org/licenses/by-nc/3.0/</a>).</p>
+</blockquote>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Excellent. Looks good! Closing this issue.....</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,14 @@
+https://github.com/jlord/offline-issues
+
+Navigate to directory where you want to see issues
+
+Extract all Github issues to computer
+offline-issues -s all livingstoneonline/livingstoneonline
+
+You will get a JSON file and md and html directories of the issues
+
+Add the following to the HTML CSS
+img {
+  max-width:100%;
+}
+

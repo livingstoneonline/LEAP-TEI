@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Date Facets</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#4</span>
+        </p>
+        <h1>Browse by Catalogue: Date Facets</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-4-28</time>
+          </div>
+          <div class="body">
+            <p>We need a date facet on the left side with only the year list. Years should be given in chronological order based on the following MODS field:</p>
+<p>mods:dateCreated encoding=&#39;iso8601&#39;</p>
+<p>Note: sometimes the date can be a range:</p>
+<pre><code>&lt;mods:dateCreated encoding=&#39;iso8601&#39;&gt;1866-12-26/1867-03-01&lt;/mods:dateCreated&gt;
+</code></pre><p>Note: sometimes the date is wholly unknown and although a made up value is provided for mods:dateCreated encoding=&#39;iso8601&#39;, a different MODS field says “date unknown”:</p>
+<pre><code>&lt;mods:dateCreated&gt;Date unknown&lt;/mods:dateCreated&gt;
+</code></pre><p>Is there anything we could do so that if the mods:dateCreated field says “Dake unknown” it trumps mods:dateCreated encoding=&#39;iso8601&#39; field and in the facet all such dates would appear under a “Date unknown” category?</p>
+<p>Also see the mockups I sent. </p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-4-28</time>
+          </div>
+          <div class="body"><p>Looked into it, and have some code incoming.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-4-28</time>
+          </div>
+          <div class="body"><p>Will be done as part of the re-write of the Browse by Catalogue page.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body"><p>We now create a ranged facet for date values:</p>
+<ol>
+<li>Single dates (i.e. 1874) have a single date value (1874).</li>
+<li>Range dates (i.e 1800/2000) have many date values one for each year (1800, 1801, 1802).</li>
+</ol>
+<p>This allows us to search for ranges, though some objects have huge ranges (i.e. 1800/2000) which causes them to show up in most ranged searches.</p>
+<p>Deployed to stage and ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body"><p>This looks good. Thank you!</p>
+<p>For huge date ranges, I could try to at least narrow down these ranges in the MODS. So that&#39;s one option to improve this element. However, before I do something like that, here are two questions:</p>
+<p>For dates, could we do something like 1) automatic sorting where if the MODS field that gives the text version of the date says &quot;Date Unknown&quot;, those items are automatically sorted <em>last</em> in the relevant table column, and then behind the scenes sorting by the beginning date in the ISO date ranges happens as a second priorty? and then separately 2) these items would appear under &quot;Date unknown&quot; in the date facet rather than under a specific year?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body"><p>The sort is being performed by a Solr Date field (we can&#39;t sort on mixed fields, like Strings and Dates, we can only sort on either String or Dates). We can force a record to appear lower or higher by giving it a date, that&#39;s either earlier or later relative to all the others. </p>
+<p>The only work around for this would be to choose some date that&#39;s way off in the future say 9999-01-01 or whatever the limit would be, and forcing &quot;Unknown Dates&quot; to have that as their date value, in total I think there are currently 57 records which have &quot;Unknown Dates&quot;, some of them have small date ranges like 1838/1873, so information would be lost. </p>
+<p>That being said we can&#39;t really have both, so it&#39;s either objects show up in a single date (which we can label &quot;Unknown Date&quot;, or they can exist in a range, say 1838 to 1873.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body"><p>OK, I&#39;ll investigate this, make a decision on how to handle it, and be back in touch.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-10</time>
+          </div>
+          <div class="body"><p>I&#39;ve resolved this. There were 50 odd records with &quot;Date unknown&quot; in the MODS, so for the ISO field of those records I, first, changed all unknown Livingstone items to the single date of 1873, so they would display after all his items for which dates are known and, second, for all other Livingstone-related items I made an educated guess in terms of a single date. Please resync the MODS records from Github, and you&#39;ll get the newest files.</p>
+<p>There are still Livingstone items that have a definitive date range, for instance a journal that we know he wrote between 1866 and 1872, so those date ranges I&#39;ve left (in all cases, those ranges will only be a few years). For those items, I would be happy in showing them for <em>each relevant year</em>, so the example journal could show up under 1866, 1867, 1868, 1869, 1870, 1871, 1872. And so forth.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-17</time>
+          </div>
+          <div class="body"><p>I&#39;ve updated the MODS records on production, stage is no longer pointing to production though (as the index changed significantly for other recent issues).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-17</time>
+          </div>
+          <div class="body"><p>This will have to wait for a checking when we deploy to production.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-19</time>
+          </div>
+          <div class="body"><p>Having seen this on prod, I think it&#39;s better that for remaining date ranges, we just go with the first date in the range for sorting, etc.</p>
+<p>Also, selecting the year is producing a wonky result in the dropdown. See attached screen shot. I think we&#39;d better set it so that once a date is selected, in the dropdown it&#39;s truncated only to the date itself (not going into number of results).
+<img src="https://cloud.githubusercontent.com/assets/12518623/15395055/d9687b7e-1d9b-11e6-8296-622db8cfe34c.png" alt="screen shot 2016-05-19 at 8 13 31"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-24</time>
+          </div>
+          <div class="body"><p>The second item in my last comment (remove number of results) is duplicated by another ticket, so please ignore what&#39;s written in this ticket on that point and let&#39;s use this ticket only for the following:</p>
+<p>Having seen this on prod, I think it&#39;s better that for remaining date ranges, we just go with the first date in the range for sorting, etc.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>We&#39;re currently going with the first date in the range for sorting, shall we close this ticket?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>Yes, good thank you! Closing this ticket, but one question: When it sorts by the ISO date field, what is the next field by which it sorts, and after that, etc? Is there a way for me to control the order?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-31</time>
+          </div>
+          <div class="body"><p>It&#39;s sorts by &quot;score&quot; second which roughly translates to whatever closest
+matches against the search terms, we can change it to a particular field if
+you like though like title (if so create a new ticket).</p>
+<p>On Tue, May 31, 2016 at 8:10 PM, awisnicki notifications@github.com wrote:</p>
+<blockquote>
+<p>Closed #4
+<a href="https://github.com/livingstoneonline/livingstoneonline/issues/4">https://github.com/livingstoneonline/livingstoneonline/issues/4</a>.</p>
+<p>—
+You are receiving this because you were assigned.
+Reply to this email directly, view it on GitHub
+<a href="https://github.com/livingstoneonline/livingstoneonline/issues/4#event-677470423">https://github.com/livingstoneonline/livingstoneonline/issues/4#event-677470423</a>,
+or mute the thread
+<a href="https://github.com/notifications/unsubscribe/AAdvzdLgrgO-tOpImGm_ho-GznVgxIeyks5qHIeqgaJpZM4ISN6m">https://github.com/notifications/unsubscribe/AAdvzdLgrgO-tOpImGm_ho-GznVgxIeyks5qHIeqgaJpZM4ISN6m</a>
+.</p>
+</blockquote>
+<p>## </p>
+<p>Nigel Banks
+nigel.g.banks@gmail.com</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Tablet: Catalogue facets</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#180</span>
+        </p>
+        <h1>Tablet: Catalogue facets</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-7-1</time>
+          </div>
+          <div class="body">
+            <p>See screen shots. At this resolution, rather than making the last three lines very long. Let&#39;s instead make the search bar very long and then all the rest of the facets can be half a line long.
+<img src="https://user-images.githubusercontent.com/12518623/27764482-1aa327e6-5e60-11e7-88be-07fb64f22288.png" alt="screen shot 2017-07-01 at 13 19 55"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-7-24</time>
+          </div>
+          <div class="body"><p>Making this changes is at least &gt;5 hours if it&#39;s to maintain the look it currently has at larger resolutions. The grouping of elements <strong>can&#39;t</strong> be the same at the different resolutions if we&#39;re to achieve this and the appropriate ordering:</p>
+<p>&lt;img width=&quot;765&quot; alt=&quot;screen shot 2017-07-24 at 20 38 55&quot; src=&quot;https://user-images.githubusercontent.com/487373/28541231-26d5ea0a-70b0-11e7-9e34-8a411a804e8c.png&quot;&gt;</p>
+<p>So to achieve it I&#39;ll have to add duplicate elements and the logic for them, etc. There is no clean way to do this unfortunately.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-24</time>
+          </div>
+          <div class="body"><p>Yargh! OK, let&#39;s table this for a bit and concentrate on the other issues outstanding. We can come back to this and discuss options.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-28</time>
+          </div>
+          <div class="body"><p>I think we need to come up with a solution for this before we push to prod. Perhaps we can discuss this along with the logo issue mentioned in #164?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-4</time>
+          </div>
+          <div class="body"><p>We forgot to discuss this today. But in any case, I think I&#39;ve come up with a solution. See the screen shots below with what I&#39;ve called break points 1, 2, and 3. Basically, I think break point 1 is fine and break point 3 is also fine, so it&#39;s only break point 2 that needs to be fixed. Here are two options, Either is fine with me:</p>
+<ol>
+<li>Skip the rendering of facets on break point 2, and go right from 1 to 3 (probably the easiest solution).</li>
+<li>On break point 2, <em>also</em> extend creator and the three year dropdowns across one line (like break point 3), thereby leaving only four boxes at the two distributed over two rows: search/search catalouge/access/clear (slightly more work to implement this, but probably the better solution?)
+So I&#39;m going to remove the &quot;on hold&quot; label here.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/12518623/28992420-9a3eda8e-7960-11e7-9b88-1b4eb18a0feb.png" alt="screen shot 2017-08-04 at 21 59 45">
+<img src="https://user-images.githubusercontent.com/12518623/28992421-9a3f1e90-7960-11e7-904e-4ee059371787.png" alt="screen shot 2017-08-04 at 21 59 50">
+<img src="https://user-images.githubusercontent.com/12518623/28992419-9a3dcb94-7960-11e7-8d88-2368d37c4b82.png" alt="screen shot 2017-08-04 at 21 59 58"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-6</time>
+          </div>
+          <div class="body"><p>Had to go with option 1. because option 2 has the same essential problem as stated before.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-6</time>
+          </div>
+          <div class="body"><p>I think that&#39;s fine, and I&#39;m happy that there turned out to be an easy solution for this. Thanks again.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

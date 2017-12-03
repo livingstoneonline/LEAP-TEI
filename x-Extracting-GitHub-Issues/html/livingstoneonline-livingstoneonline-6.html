@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Text in Table Headers</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#6</span>
+        </p>
+        <h1>Browse by Catalogue: Text in Table Headers</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-4-28</time>
+          </div>
+          <div class="body">
+            <p>Please adjust the headers on the table as follows:</p>
+<p>Change “Date” to “Date(s)”
+Change “Creator” to “Creator(s)”
+Change “Addressee” to “Addressee(s)”
+Change “Place Created” to “Place(s) Created”
+Change “Genre” to “Genre(s)”
+Change “Other Versions” to “Other Version(s)”</p>
+<p>Nigel: Using parenthesis in title fields causes the search module to fail to return results, outstanding bug in core islandora it would seem. Can be sorted out when rebuilding this page.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body"><p>Deployed to stage, ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-4</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

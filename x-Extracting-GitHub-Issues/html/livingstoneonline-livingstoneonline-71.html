@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Sitewide Search: Non-viewable items</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#71</span>
+        </p>
+        <h1>Sitewide Search: Non-viewable items</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-29</time>
+          </div>
+          <div class="body">
+            <p>In the specs for sitewide search you have: </p>
+<p>&quot;To have the Sitewide Search link back to the appropriate page for Manuscript items we’ll be using Drupal Node Redirects. This will rewrite the URLs for matching manuscript items such that it will take the user to Browse by Catalogue page, and display the Manuscript in the viewer when appropriate. Nonviewable Manuscripts will still link to the Browse by Catalogue page, but they will not launch the Manuscript viewer.&quot;</p>
+<p>However, it appears that nonviewable items are in fact launching the viewer and showing the &quot;restricted image&quot; text. Take a look at this example:</p>
+<p><a href="http://livingstoneonline.org/search/node/james%20gray">http://livingstoneonline.org/search/node/james%20gray</a></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-29</time>
+          </div>
+          <div class="body"><p>Also, this is now working in views, according to Kathy. She tried constructing the correct url in the view but the PID in the content is delivered with an underscore, i.e., liv_0122025, and the url wants a colon, i.e., liv%3A0122025
+(<a href="http://livingstonestage.lib.umd.edu/islandora/search/%2522liv:012025%2522?view_pid=liv:012025">http://livingstonestage.lib.umd.edu/islandora/search/%2522liv:012025%2522?view_pid=liv:012025</a>)</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>This has been resolved by adding a few new fields to the Drupal nodes:</p>
+<ul>
+<li>Viewable</li>
+<li>Hidden</li>
+<li>Downloadable</li>
+</ul>
+<blockquote>
+<p>using Drupal Node Redirects</p>
+</blockquote>
+<p>The implementation for this is different than from the original description as Drupal redirects can&#39;t handle this kind of logic (generating different urls based on the presence of boolean: yes or no, values). It&#39;s now implemented as a theme function override.</p>
+<p>I&#39;m currently re-importing the nodes so it&#39;s not ready for testing quite yet though.</p>
+<blockquote>
+<p>Also, this is now working in views, according to Kathy. She tried constructing the correct url in the view but the PID in the content is delivered with an underscore, i.e., liv_0122025, and the url wants a colon, i.e., liv%3A0122025</p>
+</blockquote>
+<p>I&#39;m not sure I understand, is this for the timeline? In which case there is a field &quot;PID&quot; which contains the semicolon.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>Re-index has completed and it&#39;s ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>It looks like this works now as expected. I tested items that are viewable, downloadable only, restricted, and not viewable (because we don&#39;t have images), and all came up as expected. Kathy&#39;s question has also bee resolved so I&#39;m closing this ticket. Thanks very much.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

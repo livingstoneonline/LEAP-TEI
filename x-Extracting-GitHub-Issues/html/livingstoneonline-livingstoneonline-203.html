@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Geolocation: Buttons in upper-left</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#203</span>
+        </p>
+        <h1>Geolocation: Buttons in upper-left</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-8-11</time>
+          </div>
+          <div class="body">
+            <p>Right now there are two options: Map and Satellite and one checkbox for each of them. What are the possibilities for what we could have here?</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-14</time>
+          </div>
+          <div class="body"><p>Can we make the default display to be Satellite view (rather than Map) but with both &quot;labels&quot; for Satellite and &quot;terrain&quot; for Map checked. See screen shot for the desired view, although note that it shouldn&#39;t be zoomed in like in the screen shot.</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/29283067-bd6c86d2-80ea-11e7-9d2e-f7eb8bbe4262.png" alt="screen shot 2017-08-14 at 12 18 29"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Right now there are two options: Map and Satellite and one checkbox for each of them. What are the possibilities for what we could have here?</p>
+</blockquote>
+<p>These are all the possibilities.</p>
+<blockquote>
+<p>Can we make the default display to be Satellite view (rather than Map) but with both &quot;labels&quot; for Satellite and &quot;terrain&quot; for Map checked</p>
+</blockquote>
+<p>Done except there isn&#39;t a &quot;labels&quot; for Map.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>OK, this looks great. Thank you.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

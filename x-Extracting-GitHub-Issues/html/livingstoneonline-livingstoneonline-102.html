@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Tooltips</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#102</span>
+        </p>
+        <h1>Tooltips</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-11-13</time>
+          </div>
+          <div class="body">
+            <p>One additional question, the viewer (both in spectral mode and not) has a lot of buttons. Could we put titles on these so that a tooltip poped up when someone mouseover them. The buttons would be:</p>
+<p>(left to right, top row):
+menu
+home
+email
+facebook
+twitter
+pintrest
+zoom in
+slider
+zoom out
+rotate
+page no.
+item details
+transcription
+compare spectral images
+search</p>
+<p>(left to right, second row)
+spectral image type
+processing details
+download</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-13</time>
+          </div>
+          <div class="body"><p>Hmm seems like it would be clucky to have tooltips that repeat the text for their icons verbatim? Same goes for icons which are obvious like facebook, or the standard zoom buttons. Also pages don&#39;t have to be page numbers, maybe something else would suit better?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-13</time>
+          </div>
+          <div class="body"><p>No, it&#39;s fine. This is for those audiences that don&#39;t understand the icons or are otherwise somehow impaired (this is something that is important to the NEH these days).</p>
+<p>Adding these kinds of icons across the site is something I&#39;d like to do in the next phase (there won&#39;t be as much as you might think, however). For now, however, let&#39;s take care of those that I&#39;ve listed at top.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>Looks good on both the normal and spectral image page viewers. However, could you please modify the texts for the following:</p>
+<p>Search box (both viewers): &quot;Enter Your Search Terms&quot; (no period at end; plus this new text)</p>
+<p>Zoom (both viewers): &quot;Zoom In/Out&quot;</p>
+<p>Select page (both viewers): &quot;Select Image&quot;</p>
+<p>Spectral Image Type (spectral): &quot;Select Spectral Image Type&quot; (add &quot;Select&quot;)</p>
+<p>View Processing Details (spectral): &quot;Display Processing Details&quot; (change &quot;View&quot; to &quot;Display&quot;)</p>
+<p>Download Page Archive (spectral): &quot;Download Archival Packet&quot; (change &quot;Page Archive&quot; to &quot;Archival Packet&quot;)</p>
+<p>Arrows at the sides: &quot;View Next Image&quot; &quot;View Previous Image&quot;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you. Closing out this ticket.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Browse by Catalogue: Search limiting</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#59</span>
+        </p>
+        <h1>Browse by Catalogue: Search limiting</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-16</time>
+          </div>
+          <div class="body">
+            <p>1) Please make the Catalogue search box white and please fill it with the following text:
+&quot;Search full catalogue and transcriptions&quot;
+If this is slightly too long, you can replace &quot;and&quot; with &quot;&amp;&quot;</p>
+<p>2) Please add a new dropdown, right below the search bar (and so right above the Full Record box) that says &quot;Limit search&quot;. The options, once this is selected, should be: 
+Search catalogue only
+Search transcriptions only
+Search catalogue &amp; transcriptions</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>Item 1) is pretty straight forward and will be less than 15 mins. 2) will be in the range of about 2 hrs.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>OK, please feel free to take both forward.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-8</time>
+          </div>
+          <div class="body"><p>&quot;Search full catalogue and transcriptions&quot; doesn&#39;t fit, &quot;Search full catalogue &amp; transcriptions&quot; does at some resolutions. <del>Also I think it&#39;s worth noting that transcriptions are not searched from this field (they used to, but at one point you asked to have it only search the columns being displayed). So perhaps &quot;Search full catalogue&quot; would work best?</del> Never mind the above point 2) indicates that functionality should be added.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-8</time>
+          </div>
+          <div class="body"><p>OK, how about &quot;Search catalogue &amp; transcriptions&quot; (without the &quot;full&quot;) or &quot;Search catalogue / transcriptions&quot; (note the space before an after the slash). As a last resort, we could do &quot;Search digital catalogue&quot; (just like the page title) and we&#39;d assume this encompassed both catalogue and transcriptions</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-8</time>
+          </div>
+          <div class="body"><p>Only &quot;Search digital catalogue&quot; fit for all resolutions.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-8</time>
+          </div>
+          <div class="body"><p>Functioning looks good, thank you! 
+1) Please increase the space between the search box and the new search dropdown so that this space is the same as between the other dropdowns (currently it&#39;s a bit too narrow).
+2) Please slightly close up the space between the new search dropdown and and the &quot;Full Record&quot; checkbox line. The space is slightly too big now. It should be the same as bewteen the Full Record line and the Date dropdowns.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>Ready for re-review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>Looks good. Push to prod. Thanks!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

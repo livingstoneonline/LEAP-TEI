@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Item Details </title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#50</span>
+        </p>
+        <h1>Item Details </h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body">
+            <blockquote>
+<p>Separately, I&#39;ll just throw this small bit in here rather than creating a new ticket, but I noticed when reviewing this that in the viewer, in the Item Details section, when there are two creators, they are separated by a comma rather than semi-colon. Please make it semi-colon. Example:
+<a href="http://livingstonestage.lib.umd.edu/islandora/search?full_record=1&amp;sort=desc&amp;order=Title&amp;view_pid=liv%3A000214&amp;view_page=0">http://livingstonestage.lib.umd.edu/islandora/search?full_record=1&amp;sort=desc&amp;order=Title&amp;view_pid=liv%3A000214&amp;view_page=0</a></p>
+</blockquote>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you!</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Sorry, I have to reopen this ticket. Take a look at this item:
+<a href="http://livingstonestage.lib.umd.edu/islandora/search?f[]=repository_ms%3A%22National+Library+of+Scotland%22&amp;f[]=genre_ms%3A%22color+slides%22&amp;view_pid=liv%3A014073&amp;view_page=0">http://livingstonestage.lib.umd.edu/islandora/search?f[]=repository_ms%3A%22National+Library+of+Scotland%22&amp;f[]=genre_ms%3A%22color+slides%22&amp;view_pid=liv%3A014073&amp;view_page=0</a></p>
+<p>And others like it, here: 
+<a href="http://livingstonestage.lib.umd.edu/islandora/search?f[]=repository_ms%3A%22National+Library+of+Scotland%22&amp;f[]=genre_ms%3A%22color+slides%22">http://livingstonestage.lib.umd.edu/islandora/search?f[]=repository_ms%3A%22National+Library+of+Scotland%22&amp;f[]=genre_ms%3A%22color+slides%22</a></p>
+<p>Item details should include John Murray <em>and</em> Unknown Creator but the Unknown Creator is missing.</p>
+<p>(Also, I don&#39;t know if this is just a temporary glitch, but the first two items available the Browse link above are not coming up in the viewer).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>Should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-6-1</time>
+          </div>
+          <div class="body"><p>OK, looks good re: Unknown Creator, so I&#39;m closing this. The first two items are still not coming up, however: </p>
+<p><a href="http://livingstonestage.lib.umd.edu/islandora/search?f[]=repository_ms%3A%22National+Library+of+Scotland%22&amp;f[]=genre_ms%3A%22color+slides%22&amp;view_pid=liv%3A014071&amp;view_page=0">http://livingstonestage.lib.umd.edu/islandora/search?f[]=repository_ms%3A%22National+Library+of+Scotland%22&amp;f[]=genre_ms%3A%22color+slides%22&amp;view_pid=liv%3A014071&amp;view_page=0</a></p>
+<p><a href="http://livingstonestage.lib.umd.edu/islandora/search?f[]=repository_ms%3A%22National+Library+of+Scotland%22&amp;f[]=genre_ms%3A%22color+slides%22&amp;view_pid=liv%3A014069&amp;view_page=0">http://livingstonestage.lib.umd.edu/islandora/search?f[]=repository_ms%3A%22National+Library+of+Scotland%22&amp;f[]=genre_ms%3A%22color+slides%22&amp;view_pid=liv%3A014069&amp;view_page=0</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-2</time>
+          </div>
+          <div class="body"><p>Fixed a small mathy issue with openseadragon (only affected really large images) they both should appear at all zoom levels now.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

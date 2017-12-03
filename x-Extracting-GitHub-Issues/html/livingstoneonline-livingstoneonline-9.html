@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Tomcat is crashing on dev/stage</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#9</span>
+        </p>
+        <h1>Tomcat is crashing on dev/stage</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-4-29</time>
+          </div>
+          <div class="body">
+            <p>Tomcat is crashing on dev/stage, causing the application to stop. This seems to be related to memory issues.</p>
+<p><a href="https://github.com/livingstoneonline/livingstoneonline/files/243036/livingstone_stage.2016-04-29.out.txt">livingstone_stage.2016-04-29.out.txt</a>
+<a href="https://github.com/livingstoneonline/livingstoneonline/files/243037/livingstone_stage.2016-04-29.error.txt">livingstone_stage.2016-04-29.error.txt</a>
+<a href="https://github.com/livingstoneonline/livingstoneonline/files/243035/livingstone_dev.2016-04-29.out.txt">livingstone_dev.2016-04-29.out.txt</a>
+<a href="https://github.com/livingstoneonline/livingstoneonline/files/243038/livingstone_dev.2016-04-29.error.txt">livingstone_dev.2016-04-29.error.txt</a></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-6-6</time>
+          </div>
+          <div class="body"><p>Set it up to auto restart, the crashing is due to running out of memory which we can&#39;t really fix.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

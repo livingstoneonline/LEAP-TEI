@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Mobile: Home page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#79</span>
+        </p>
+        <h1>Mobile: Home page</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-8-26</time>
+          </div>
+          <div class="body">
+            <p>When the home page first comes up on iPhone5 (and maybe other small sizes?), the black text at the bottom comes up too high and covers the area of the page where it says &quot;Image Credits/Site Guide&quot;. The black text should be lowered.</p>
+<p>Correct:
+<img src="https://cloud.githubusercontent.com/assets/12518623/18005969/d832202e-6b62-11e6-940d-d7b7cfc6daaf.png" alt="correct"></p>
+<p>iPhone5:
+<img src="https://cloud.githubusercontent.com/assets/12518623/18005973/de2d133a-6b62-11e6-9cb3-233543d1284b.png" alt="iphone5"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-1</time>
+          </div>
+          <div class="body"><p>Looks good on stage. Thank you! Please push up to prod.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-3</time>
+          </div>
+          <div class="body"><p>Reopening this, since we have the loading issue on iPhone 5.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-9-4</time>
+          </div>
+          <div class="body"><p>The issue arises when the images are loaded slower than the when the theme alters the bottom-margin of the body to account for the height of the sticky footer. </p>
+<p>This occurred on all browsers, but was only noticeable on the iPhone due to it&#39;s narrow view and the images being stacked on top of one another (so load times means the heights will be off noticeably more than for example in a desktop where they all align horizontally).</p>
+<p>This issue has been present before the previous issue of this ticket. It&#39;s just a bit more obvious as the text floats over main image when the height is off, where as before the links were under the footer.</p>
+<p>To reproduce all the caches on the phone must be cleared out, this can be done by visiting Settings &gt; Safari and choosing to clear the caches. </p>
+<p>A fix has been deployed to stage and prod, in which we detect when images are loaded and update the margin with the new height.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-9-4</time>
+          </div>
+          <div class="body"><p>Thanks for explaining this and sorting it out. It makes sense and sounds like it will also resolve minor issues I saw when the home page was loaded on laptop browser etc. It also works fine on iPhone now.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

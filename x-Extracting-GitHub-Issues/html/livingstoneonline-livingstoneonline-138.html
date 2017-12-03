@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>RDF NINES</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#138</span>
+        </p>
+        <h1>RDF NINES</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body">
+            <p>Export UUID, Title, Byline, and Date created. so that Adrian can then update a csv and then nigel can write a script to update those pages.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>Also, I&#39;ve now reviewed the NINES page and for dc:type would like to add the following categories by default:</p>
+<p>Illustration
+Still Image
+Dataset</p>
+<p>The following could also be added, but only for those MODS records that had the corresponding fields in the genre category:</p>
+<p>Map
+Page Proofs<br>Typescript<br>Drawing</p>
+<p> Any way to do that without much trouble? If not, then we can ignore these four.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>For collex:discipline, please add the following:</p>
+<p>Political Science
+Religious Studies</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>For collex:genre, please add the following:</p>
+<p>Catalog
+Collection<br>Correspondence
+Ephemera 
+Essay
+Political Statement<br>Religion
+Visual Art </p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>For dc:title, we&#39;d better add &lt;title type=&quot;alternative&quot;&gt; from the MODS also. (Right now you just have &lt;title&gt;)</p>
+<p>For &lt;role:PBL&gt;Livingstone Online&lt;/role:PBL&gt;, perhaps we should make it &lt;role:PBL&gt;Livingstone Online (livignstoneonline.org)&lt;/role:PBL&gt; ?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><p>All the other aspects have been taken care of except for populating generating the csv file which will wait for when we do the final move to production (as content is likely to continue to change).</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-28</time>
+          </div>
+          <div class="body"><p>I think you need to restore some permissions on the back end, as I again can&#39;t see where to export the NINES files and don&#39;t have access to the FTP and dev update sections.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-30</time>
+          </div>
+          <div class="body"><p>Could you go ahead before you go and restore the relevant permissions so I can review this?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-30</time>
+          </div>
+          <div class="body"><p>You should have access now?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-30</time>
+          </div>
+          <div class="body"><p>Yep, all good. Thank you!</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-28</time>
+          </div>
+          <div class="body"><p>I&#39;ve reviewed the MODS and of the suggested changes above, I don&#39;t see that the following two have been addressed:</p>
+<ol>
+<li>The following could also be added, but only for those MODS records that had the corresponding fields in the genre category:</li>
+</ol>
+<p>Map
+Page Proofs
+Typescript
+Drawing</p>
+<p>Any way to do that without much trouble? If not, then we can ignore these four.</p>
+<ol>
+<li>For role:PBLLivingstone Online&lt;/role:PBL&gt;, perhaps we should make it role:PBLLivingstone Online (livignstoneonline.org)&lt;/role:PBL&gt; ?</li>
+</ol>
+<hr>
+<p>It&#39;s possible that after you previously reviewed these two requests, you decided that shouldn&#39;t be implemented (which is fine), but please confirm.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><blockquote>
+<ol>
+<li>The following could also be added, but only for those MODS records that had the corresponding fields in the genre category:
+Map
+Page Proofs
+Typescript
+Drawing
+Any way to do that without much trouble? If not, then we can ignore these four.</li>
+</ol>
+</blockquote>
+<p>Seems to be working? </p>
+<ul>
+<li><code>liv_002681.rdf</code> has <strong>Map</strong> as a <code>&lt;dc:type&gt;</code> </li>
+<li><code>liv_003011.rdf</code> has <strong>Page Proofs</strong> as a <code>&lt;dc:type&gt;</code></li>
+<li><code>liv_003098.rdf</code> has <strong>Typescript</strong> as a <code>&lt;dc:type&gt;</code></li>
+<li><code>liv_002819.rdf</code> has <strong>Drawing</strong> as a <code>&lt;dc:type&gt;</code></li>
+</ul>
+<blockquote>
+<p>For role:PBLLivingstone Online&lt;/role:PBL&gt;, perhaps we should make it role:PBLLivingstone Online (livignstoneonline.org)&lt;/role:PBL&gt; ?</p>
+</blockquote>
+<p>Sure thing just changed it.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><p>Re: URL in publisher, great. Thank you!</p>
+<p>Re: Map, Page Proofs, etc., you&#39;re correct. My apologies for missing this. Closing the ticket.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

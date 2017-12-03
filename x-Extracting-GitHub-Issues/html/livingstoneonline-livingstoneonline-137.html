@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>For LEAP-XSLT Repo</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#137</span>
+        </p>
+        <h1>For LEAP-XSLT Repo</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body">
+            <p>Update and add some documentation won&#39;t be using less going forward.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>As a reminder I&#39;ve moved my code to the branch theme-rewrite (so the use of update script won&#39;t deploy what was on the dev branch). This ticket can&#39;t be completed until we are ready to move to production.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-28</time>
+          </div>
+          <div class="body"><p>Just a reminder that this is something that needs to be adjusted when we move to prod. Like #155, should this remain on hold?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-8-3</time>
+          </div>
+          <div class="body"><p>Yes we can&#39;t do this until after we&#39;ve done the migration.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-13</time>
+          </div>
+          <div class="body"><p>Currently deployed to stage</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-14</time>
+          </div>
+          <div class="body"><p>This had to do with rendering of <code>&lt;body&gt;</code> around transcriptions? I believe that the place to review this is on the multi-text viewer:</p>
+<p><a href="http://livingstonestage.lib.umd.edu/spectral-imaging/three-versions-the-1870-field-diary">http://livingstonestage.lib.umd.edu/spectral-imaging/three-versions-the-1870-field-diary</a>
+<a href="http://livingstonestage.lib.umd.edu/spectral-imaging/three-versions-the-1871-field-diary">http://livingstonestage.lib.umd.edu/spectral-imaging/three-versions-the-1871-field-diary</a></p>
+<p>Is that correct? If so, then it looks good to me and we can close this ticket, unless there&#39;s additional explanation needed for how I now update XSLT files?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-14</time>
+          </div>
+          <div class="body"><p>Actually, I see an issue in the MS viewer. Here&#39;s one example:</p>
+<p><a href="http://livingstonestage.lib.umd.edu/in-his-own-words/catalogue?access=view_transcription&amp;view_pid=liv%3A002647&amp;view_page=0">http://livingstonestage.lib.umd.edu/in-his-own-words/catalogue?access=view_transcription&amp;view_pid=liv%3A002647&amp;view_page=0</a></p>
+<p>On this page, first, the transcription is being rendered at too small a size. Second, you&#39;ll see in the screen shot, that a white space appears below the transcription.
+<img src="https://user-images.githubusercontent.com/12518623/30439949-c76a5cbe-993a-11e7-861c-914045e22941.png" alt="screen shot 2017-09-14 at 10 52 11"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-14</time>
+          </div>
+          <div class="body"><p>Also, when you open a longer transcription, the first page number is appearing under the sticky header whereas it should appear right below it.
+<img src="https://user-images.githubusercontent.com/12518623/30439993-f86f2006-993a-11e7-8f2e-914132384dea.png" alt="screen shot 2017-09-14 at 10 53 01"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>These two issues should be sorted now.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Is that correct? If so, then it looks good to me and we can close this ticket, unless there&#39;s additional explanation needed for how I now update XSLT files?</p>
+</blockquote>
+<p>You can just edit the css files like before.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-15</time>
+          </div>
+          <div class="body"><p>Yep, it looks like both issues have been resolved. </p>
+<p>However, the text is still rendering too small. Compare the following page (transcription view) on prod: <a href="http://livingstoneonline.org/islandora/search?view_pid=liv%3A000504&amp;view_page=0">http://livingstoneonline.org/islandora/search?view_pid=liv%3A000504&amp;view_page=0</a> and on stage: <a href="http://livingstonestage.lib.umd.edu/in-his-own-words/catalogue?access=view_transcription&amp;view_pid=liv%3A000504&amp;view_page=0">http://livingstonestage.lib.umd.edu/in-his-own-words/catalogue?access=view_transcription&amp;view_pid=liv%3A000504&amp;view_page=0</a> and you&#39;ll see that the stage text is smaller. It should be the size it is on prod.</p>
+<p>Re: updating CSS/XSL via the old process sounds good. However, when I modify in dev branch, then run update_github command (so as to push to the stage and prod branches), I get the following error:</p>
+<p>awisnicki2@ENGL-0B5E4A:~$ /Users/awisnicki2/GitHub/LEAP-XSLT/update_github.command ; exit;
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...4 completed.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-17</time>
+          </div>
+          <div class="body"><blockquote>
+<p>However, the text is still rendering too small. Compare the following page (transcription view) on prod: <a href="http://livingstoneonline.org/islandora/search?view_pid=liv%3A000504&amp;view_page=0">http://livingstoneonline.org/islandora/search?view_pid=liv%3A000504&amp;view_page=0</a> and on stage: <a href="http://livingstonestage.lib.umd.edu/in-his-own-words/catalogue?access=view_transcription&amp;view_pid=liv%3A000504&amp;view_page=0">http://livingstonestage.lib.umd.edu/in-his-own-words/catalogue?access=view_transcription&amp;view_pid=liv%3A000504&amp;view_page=0</a> and you&#39;ll see that the stage text is smaller. It should be the size it is on prod.</p>
+</blockquote>
+<p>The fonts are actually different, on production the css used with the xslt&#39;s references fonts like &quot;Crimson Text&quot; but doesn&#39;t actually load them so it defaults to one of the browser provided fonts. On stage it&#39;s actually using those fonts since the theme is loading them. </p>
+<blockquote>
+<p>Re: updating CSS/XSL via the old process sounds good. However, when I modify in dev branch, then run update_github command (so as to push to the stage and prod branches), I get the following error:</p>
+</blockquote>
+<p>Please don&#39;t make changes till after the move to production. </p>
+<p>The error would indicated that you have some issue with your installation of osx developer tools.</p>
+<p>Try this:
+<a href="https://apple.stackexchange.com/questions/254380/macos-sierra-invalid-active-developer-path">https://apple.stackexchange.com/questions/254380/macos-sierra-invalid-active-developer-path</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-18</time>
+          </div>
+          <div class="body"><p>OK, thanks! I&#39;ll leave this ticket open because I&#39;d like to review the small text issue when we go up to prod. Also, no problem: I wont&#39; make any changes to XSLT/CSS. I am applying the solution you&#39;ve provided to the terminal error I had (thanks very much for that), but I&#39;ll wait to test it out till we&#39;re on prod.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-30</time>
+          </div>
+          <div class="body"><p>I&#39;ve reviewed the small font issue and it looks like I&#39;m going to have to increase font size to 1.1 em and adjust other bits accordingly. Am I now able to push up changes in the LEAP-XSLT repo as per the previous workflow?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-31</time>
+          </div>
+          <div class="body"><p>Yup feel free</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-31</time>
+          </div>
+          <div class="body"><p>I&#39;ve looked slightly further into this and think something else may be causing the small font size, other than change in font. See screen shots. When I change the font, the font size remains small.</p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32222128-0d8aeb74-be06-11e7-90f2-8f392289eff3.png" alt="screen shot 2017-10-31 at 06 33 35"></p>
+<p><img src="https://user-images.githubusercontent.com/12518623/32222136-1254131a-be06-11e7-90cf-3a8bb62c6a95.png" alt="screen shot 2017-10-31 at 06 33 44"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-1</time>
+          </div>
+          <div class="body"><p>I&#39;ve also found that manuscripts in the multitext viewer are rendering at the right size (e.g., <a href="http://livingstoneonline.org/spectral-imaging/three-versions-the-1871-field-diary">http://livingstoneonline.org/spectral-imaging/three-versions-the-1871-field-diary</a>), so I do think this issue is small text issue is arising from the ms. viewer.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-11-5</time>
+          </div>
+          <div class="body"><p>For the example you give: </p>
+<p><a href="http://livingstoneonline.org/in-his-own-words/catalogue?query=liv_000478&amp;view_pid=liv%3A000478&amp;view_page=0">http://livingstoneonline.org/in-his-own-words/catalogue?query=liv_000478&amp;view_pid=liv%3A000478&amp;view_page=0</a></p>
+<p>It&#39;s using the style sheet: 
+LEAP-XSLT/style.css</p>
+<p>Which has this bit of css in it:</p>
+<pre><code class="lang-css">/* 1. Textual divisions */
+div.transcription.style {
+  ...
+  font-family: &quot;source sans pro&quot;, calibri, arial, helvetica, sans-serif;
+  font-size: 1em;
+  ...
+}
+</code></pre>
+<p>Now 1em is a relative font size so the font will be scaled against it&#39;s parent setting which is 14px. So the font will be 14px.</p>
+<p>In the multitext viewer the 1871 field diary is using the stylesheet: 
+LEAP-XSLT/style-1871-html.css</p>
+<p>It also is using a relative font size:</p>
+<pre><code class="lang-css">div.transcription.style-1871-html {
+  ...
+  font-family: &quot;source sans pro&quot;, calibri, arial, helvetica, sans-serif;
+  font-size: 1em;
+  ...
+}
+</code></pre>
+<p>The difference is the parent element from which it is scaled relatively to is 16px.</p>
+<p>If you wish to have exactly 16px in both places use that rather than relative font sizes. So for both of these files you would use:</p>
+<pre><code class="lang-css">  font-family: &quot;source sans pro&quot;, calibri, arial, helvetica, sans-serif;
+  font-size: 16px;
+</code></pre>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-11-5</time>
+          </div>
+          <div class="body"><p>Thank you. Makes total sense. I just updated the CSS files and all seems resolved now.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

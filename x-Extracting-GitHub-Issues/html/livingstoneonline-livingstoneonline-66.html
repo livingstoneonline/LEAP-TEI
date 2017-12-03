@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Manuscript Content Type: Geo-coordinates</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#66</span>
+        </p>
+        <h1>Manuscript Content Type: Geo-coordinates</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-6-23</time>
+          </div>
+          <div class="body">
+            <p>Geo-coordinates (mods:coordinates) need to be included in this new content type as they will be needed for the Browse by Geolocation page.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-6</time>
+          </div>
+          <div class="body"><p>It looks like it might not be a bad idea to also add the ISO date and alternate title fields.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-8</time>
+          </div>
+          <div class="body"><p>ISO date is already covered in <strong>Date Range Start</strong> and <strong>Date Range End</strong> respectively for the other fields.</p>
+<ul>
+<li>mods:coordinates</li>
+<li>mods:titleInfo[@type=&quot;alternative&quot;]/mods:title</li>
+</ul>
+<p>We&#39;ll have to rebuild the solr index.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>Solr index has been rebuild and content has been updated on stage.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-11</time>
+          </div>
+          <div class="body"><p>Alternative title looks good. </p>
+<p>Coordinates sometimes has two or three sets of coordinates, but in all cases I see only one displayed. It would be good for each set to be displayed and separated by a ;</p>
+<p>Also, in looking at the listing of things for the manuscript content type, I see that alternative title and coordinates appear all the way at the end of the list (see screen shot)
+<img src="https://cloud.githubusercontent.com/assets/12518623/16743021/b0a31544-47aa-11e6-80fb-bdf833301152.png" alt="screen shot 2016-07-11 at 21 01 41"></p>
+<p>It would be better (and more logical) to have them appear in the order in which they appear in the MODS record itself, so alternative title would appear right after title, and coordinates would appear right after place(s) created.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><blockquote>
+<p>Coordinates sometimes has two or three sets of coordinates, but in all cases I see only one displayed. It would be good for each set to be displayed and separated by a ;</p>
+</blockquote>
+<p>I&#39;ve created a multi-value field to hold them rather than putting them all into a single one, as it&#39;s more likely to work with Drupal contrib modules.</p>
+<blockquote>
+<p>Also, in looking at the listing of things for the manuscript content type, I see that alternative title and coordinates appear all the way at the end of the list (see screen shot)</p>
+<p>It would be better (and more logical) to have them appear in the order in which they appear in the MODS record itself, so alternative title would appear right after title, and coordinates would appear right after place(s) created.</p>
+</blockquote>
+<p>The fields are never shown to end users in this way, so the order isn&#39;t of any particular importance. That being said you can set the ordering to whatever you like:</p>
+<p><a href="http://livingstonestage.lib.umd.edu/admin/structure/types/manage/manuscript/fields">http://livingstonestage.lib.umd.edu/admin/structure/types/manage/manuscript/fields</a></p>
+<p>&lt;img width=&quot;1244&quot; alt=&quot;fields&quot; src=&quot;https://cloud.githubusercontent.com/assets/487373/16835251/b441c4dc-49af-11e6-8144-ad9b658ff9d6.png&quot;&gt;</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><p>Currently rebuilding solr index.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-14</time>
+          </div>
+          <div class="body"><p>Oddly the link above does not work for me (I am logged in) and I can&#39;t otherwise get to the page shown in your screen shot where the various tabs appear in the upper right.
+<img src="https://cloud.githubusercontent.com/assets/12518623/16853958/1d618f56-4a0f-11e6-85ec-557b3e00673a.png" alt="screen shot 2016-07-14 at 21 55 00"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-7-15</time>
+          </div>
+          <div class="body"><p>Should work for you now, just had to add permissions though the interface.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-7-15</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

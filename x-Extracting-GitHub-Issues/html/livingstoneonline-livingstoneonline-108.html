@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Critical edition dropdown: Title</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#108</span>
+        </p>
+        <h1>Critical edition dropdown: Title</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-17</time>
+          </div>
+          <div class="body">
+            <p>There&#39;s an issue with putting text into the Critical Edition dropdown. Right now, it&#39;s labeled exactly how we want: &quot;Critical Edition - Table of Contents&quot; but the issue is that when you go to the main site dropdown on mobile, in the list of site pages under the &quot;Spectral Imaging&quot; section, rather than &quot;1870 Field Diary,&quot; what shows up is &quot;Critical Edition - Table of Contents.&quot;</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>The way we build the table of contents has now changed, we&#39;ll chat about it a bit more on Thursday</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>OK, sounds good. I see that right now on mobile, in the TOC, we only have the six main sections, not any of the pages below them.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-8</time>
+          </div>
+          <div class="body"><p>Sounds like this is still in progress, so will leave open, but feel free to close it if I&#39;ve misunderstood.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>This part of the issue has been handled, I&#39;ve also updated the main menu. Other issues related to the table of contents, are handled in <a href="https://github.com/livingstoneonline/livingstoneonline/issues/106">https://github.com/livingstoneonline/livingstoneonline/issues/106</a>.</p>
+<p><img src="https://user-images.githubusercontent.com/487373/27052122-8d31436a-4fb0-11e7-8b02-82acdd48efab.png" alt="screen shot 2017-06-12 at 20 48 38"></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-12</time>
+          </div>
+          <div class="body"><p>I see that the main menu has been updated and that the text (for editions) in that menu, no longer says &quot;Critical edition&quot; etc. but rather gives the appropriate title, so all good &amp; thank you! However, before we close this ticket, could you please explain:</p>
+<p>1) How I add items to the main menu so that I know when I add editions, etc. in the future.
+2) How I change the lead text in the critical edition dropdown. For instance, for the 1870 Field Diary it currently says &quot;Critical Edition - Table of Contents.&quot; What do I do if I want to change that wording?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><blockquote>
+<p>How I add items to the main menu so that I know when I add editions, etc. in the future.</p>
+</blockquote>
+<p>It&#39;s 100% the same as adding links to the 1870&#39;s field diary menu like we did on Thursday, except you choose the &quot;main menu&quot; instead to add links.</p>
+<blockquote>
+<p>How I change the lead text in the critical edition dropdown. For instance, for the 1870 Field Diary it currently says &quot;Critical Edition - Table of Contents.&quot; What do I do if I want to change that wording?</p>
+</blockquote>
+<p>It&#39;s currently hard coded here: <a href="https://github.com/livingstoneonline/livingstone_online_theme/blob/dev/js/custom.js#L102">https://github.com/livingstoneonline/livingstone_online_theme/blob/dev/js/custom.js#L102</a> </p>
+<p>You can just ping me if you want to change the text, it applies to all the places where the table of contents is displayed.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>OK, thanks. All good to know. One follow up question re: menus. For regular pages, I see that the path is straightforward and what I would expect. However, I looked at the critical editions and see the path is something like follows:</p>
+<p>uuid/node/75c25c6c-c491-4059-b446-3562d7518c95</p>
+<p>In this case, I would have normally put in:</p>
+<p>spectral-imaging/livingstones-1871-field-diary-0</p>
+<p>Would that still be OK? The question here seems to apply only to critical editions, I would guess, because of the issue of how these were previously rendering in the mobile menu.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>Yup you can use either style of path, I tend to use &quot;uuid&#39;s&quot; as they are more portable, but you don&#39;t need to worry about that.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-13</time>
+          </div>
+          <div class="body"><p>OK, perfect. I think it&#39;s a wrap on this.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

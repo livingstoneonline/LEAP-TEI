@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Add LEAP-XSLT to deployment form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#90</span>
+        </p>
+        <h1>Add LEAP-XSLT to deployment form</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">nigelgbanks</a>
+            <time>2016-11-1</time>
+          </div>
+          <div class="body">
+            <p>Alter:
+<a href="https://github.com/livingstoneonline/LEAP-XSLT">https://github.com/livingstoneonline/LEAP-XSLT</a></p>
+<p>To have three branches (dev,stage,prod) and add it&#39;s deployment to the deployment form in the admin section of the site.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-2</time>
+          </div>
+          <div class="body"><p>Should be sorted now, branches added and deployment setup.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-2</time>
+          </div>
+          <div class="body"><p>Great thank you. Does this mean that the way I tried to update them yesterday on the site by using <a href="http://livingstonestage.lib.umd.edu/admin/config/development/livingstone">http://livingstonestage.lib.umd.edu/admin/config/development/livingstone</a> (which didn&#39;t work, ) will now work?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-2</time>
+          </div>
+          <div class="body"><p>Yup</p>
+<p>On Wed, Nov 2, 2016 at 6:30 PM, awisnicki notifications@github.com wrote:</p>
+<blockquote>
+<p>Great thank you. Does this mean that the way I tried to update them
+yesterday on the site by using <a href="http://livingstonestage.lib">http://livingstonestage.lib</a>.
+umd.edu/admin/config/development/livingstone (which didn&#39;t work, ) will
+now work?</p>
+<p>—
+You are receiving this because you modified the open/close state.
+Reply to this email directly, view it on GitHub
+<a href="https://github.com/livingstoneonline/livingstoneonline/issues/90#issuecomment-257957392">https://github.com/livingstoneonline/livingstoneonline/issues/90#issuecomment-257957392</a>,
+or mute the thread
+<a href="https://github.com/notifications/unsubscribe-auth/AAdvzWfOXGNBSPPw-AVZEzVjb8x-L8qDks5q6NbJgaJpZM4Kmm-e">https://github.com/notifications/unsubscribe-auth/AAdvzWfOXGNBSPPw-AVZEzVjb8x-L8qDks5q6NbJgaJpZM4Kmm-e</a>
+.</p>
+</blockquote>
+<p>## </p>
+<p>Nigel Banks
+nigel.g.banks@gmail.com</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-11-2</time>
+          </div>
+          <div class="body"><p>OK, so two quick question as there are now six branchs to this repo. First, it looks like gh-pages are now in sync with dev/stage/prod. Is that correct? Second, henceforth we are only using dev/stage/prod, so I should ignore gh-pages. Is that correct?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-3</time>
+          </div>
+          <div class="body"><p>We should always make <code>gh-pages</code> match <code>prod</code>, as the downloaded TEI documents themselves will point to the <code>gh-pages</code> branch.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2016-11-3</time>
+          </div>
+          <div class="body"><p><code>gh-pages</code> is a special branch provided by github for hosting webpages.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

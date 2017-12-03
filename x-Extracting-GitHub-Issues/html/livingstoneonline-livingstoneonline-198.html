@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Geolocation: height of window</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#198</span>
+        </p>
+        <h1>Geolocation: height of window</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-8-11</time>
+          </div>
+          <div class="body">
+            <p>Please make the height of the window map the same size as the panes in the multitext viewer and the iFrame for the coding manual</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>Sorted.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-14</time>
+          </div>
+          <div class="body"><p>Yes, this looks great. Thank you.</p>
+<p>Can you tell me where this height is controlled (and also those of the multitext viewer and coding manual) in case I&#39;d like to edit in the future?</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-10-17</time>
+          </div>
+          <div class="body"><p><strong>Google Map settings</strong>
+Configured via settings:
+<img src="https://user-images.githubusercontent.com/487373/31685173-fe45d4da-b379-11e7-98c1-d1e2d69e4183.png" alt="google_map_settings"></p>
+<p><img src="https://user-images.githubusercontent.com/487373/31685176-013461de-b37a-11e7-9d86-5519aea525ec.png" alt="google_map_height"></p>
+<p><strong>Multi-text viewer</strong>
+Hard coded in this <a href="https://github.com/livingstoneonline/livingstone_online_module/blob/dev/modules/transcript/less/livingstone-transcript.less">less file</a>. This file needs to be processed by <a href="http://lesscss.org/">lessc</a> to generate the <a href="https://github.com/livingstoneonline/livingstone_online_module/blob/dev/modules/transcript/css/livingstone-transcript.css">css file</a>.</p>
+<p><strong>Coding Manual</strong>
+Hard coded:
+<a href="https://github.com/livingstoneonline/livingstone_online_theme/blob/dev/templates/node/node--section-page-encoding-guidelines.tpl.php#L113">livingstone_online_theme/templates/node/node--section-page-encoding-guidelines.tpl.php</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-10-17</time>
+          </div>
+          <div class="body"><p>All looks good. Thanks for addressing these questions. </p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

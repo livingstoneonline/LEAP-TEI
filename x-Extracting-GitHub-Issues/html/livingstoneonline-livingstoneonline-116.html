@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Coding manual: iFrame</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#116</span>
+        </p>
+        <h1>Coding manual: iFrame</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-11-28</time>
+          </div>
+          <div class="body">
+            <p>Right now, the link to the coding manual (last one on the this page: <a href="http://livingstoneonline.github.io/LEAP-ODD/leap.html">http://livingstoneonline.github.io/LEAP-ODD/leap.html</a>) is forced to redirect from the site and open in a new window. I&#39;d prefer for it to open in one of the site pages, in an iFrame, like we&#39;ve done for the Mulit-Text viewer: <a href="http://livingstoneonline.org/spectral-imaging/three-versions-1870-field-diary">http://livingstoneonline.org/spectral-imaging/three-versions-1870-field-diary</a></p>
+<p>So, in other words, we&#39;d have the title/overview text/arrows at the sides/icons at the bottom all generated per normal, but the center of the page would have an iFrame into which the Github page would be flown in or something like that. I could also upload the relevant HTML page right into our site if necessary.</p>
+<p>This might be a bigger task and need to be part of our next contract, but if not I thought I&#39;d note it here.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-6</time>
+          </div>
+          <div class="body"><p>Currently embedded in an iframe:</p>
+<p><a href="http://livingstonestage.lib.umd.edu/resources/livingstone-online-tei-p5-encoding-guidelines">http://livingstonestage.lib.umd.edu/resources/livingstone-online-tei-p5-encoding-guidelines</a></p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-7</time>
+          </div>
+          <div class="body"><p>Looks good. Thank you. I&#39;d like to do a little bit of theming revision on the iFrame so I&#39;ll leave this ticket open now so we can come back to it.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-1</time>
+          </div>
+          <div class="body"><p>Also noting here that I need to review the location page.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-24</time>
+          </div>
+          <div class="body"><p>And that we together need to review the multi-viewer page.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-7-28</time>
+          </div>
+          <div class="body"><p>I&#39;ll be creating separate pages for the needed iFrame-coding-manual, multi-text viewer, and geolocation page tweaks, so am closing this ticket which was only serving as a placeholder.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

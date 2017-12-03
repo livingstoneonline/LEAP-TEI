@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Critical edition theming</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#213</span>
+        </p>
+        <h1>Critical edition theming</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-9-14</time>
+          </div>
+          <div class="body">
+            <p>The theming at the top of a given critical edition page does not match prod. See screen shots below. Specifically:</p>
+<ol>
+<li>Reduce spacing below critical ed dropdown and the main title</li>
+<li>Reduce spacing below the small byline and the gray line that follows.</li>
+</ol>
+<p>Prod:
+<img src="https://user-images.githubusercontent.com/12518623/30442949-94a86b5a-9943-11e7-9a6b-07ce28689972.png" alt="screen shot 2017-09-14 at 11 53 19"></p>
+<p>Stage:
+<img src="https://user-images.githubusercontent.com/12518623/30442960-993acf5a-9943-11e7-8a4a-aae8e27a64b4.png" alt="screen shot 2017-09-14 at 11 53 22"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-9-17</time>
+          </div>
+          <div class="body"><p>Ready for review.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-9-18</time>
+          </div>
+          <div class="body"><p>Looks great. Thank you!</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Out of date local objects</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#130</span>
+        </p>
+        <h1>Out of date local objects</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-3-21</time>
+          </div>
+          <div class="body">
+            <p>There are a few objects that have been out of date for a while on the Fedora server. I&#39;ve tried various things to update them, but nothing has worked.
+<img src="https://cloud.githubusercontent.com/assets/12518623/24162477/a659fe3e-0e35-11e7-8b6c-a10c7ce13c86.png" alt="screen shot 2017-03-21 at 12 39 46"></p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-6-1</time>
+          </div>
+          <div class="body"><p>Two of the three have been sorted, but it looks like the .tif and .txt file for liv_001219_005 is missing from the FTP server?</p>
+<p>/Livingstone-Directors/0_Core-Data/manuscripts/public/liv_001219</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-6-2</time>
+          </div>
+          <div class="body"><p>I think that the file in question here was left over by accident. It&#39;s now deleted and this is resolved.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

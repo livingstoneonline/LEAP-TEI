@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Free Disk Space Running Low</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#125</span>
+        </p>
+        <h1>Free Disk Space Running Low</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-1-15</time>
+          </div>
+          <div class="body">
+            <p>Free disk space on the site appears to be running low. In addition, I&#39;m just now importing some new content so it&#39;s going to run even lower. Is there are anything that can be cleared out to give us more space? </p>
+<p>There have been a few times in the past when I try to add things to the site, they failed to update, but I noted that disk space dropped meaning that, I believe, they were download for our server to the site but not added, so I&#39;m guessing some of those kinds of files could go and give us space.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-1-16</time>
+          </div>
+          <div class="body"><p>Doesn&#39;t appear to be anything we can get rid of. The content is what&#39;s taking up 94% of the 95% of allocated space. That other 1% is necessary for the operation of the site. We shouldn&#39;t push the box above 95% allocation. Seems like it&#39;s time to purchase the extra 500 GB of space to bring it up to 2 TB.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-1-17</time>
+          </div>
+          <div class="body"><p>OK, I&#39;ll look into this, but just to confirm here&#39;s what happened:</p>
+<ol>
+<li>Over the holidays, I used my Ubuntu 16.04 computer via Filezilla (where I have set the default file type to be Binary, as instructed) to upload a bunch of images to our server.</li>
+<li>I then tried to transfer them to the UMD site via the normal process. When I started (to make up a figure) we had 130 GB left, but I ran the update and it failed. Then we had 120 GB left. I ran it again, same result, now 110 GB left.</li>
+<li>Then I reuploaded everything from my PC and this time it worked, but now we dropped down to 100 GB. </li>
+</ol>
+<p>I haven&#39;t looked into (or raised with you) why it doesn&#39;t work from my Ubuntu computer because sorting that out isn&#39;t a priority, but the point is that I only uploaded some small amount of data but because it failed twice it ended up taking much more space then necessary. So I would think that that 20 GB could be recovered. There were probably some similar instances in the past, when we ran into sync failures before.</p>
+<p>So that&#39;s the space I was hoping we could recover somehow.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/nigelgbanks">
+              nigelgbanks
+            </a>
+            <time>2017-1-17</time>
+          </div>
+          <div class="body"><p>There wasn&#39;t any temp files or uploaded files that weren&#39;t ingested into fedora lying around on the system, but I removed all our logs and some old backups, to give up 20GB just to get us under the warning size of 95%.</p>
+<p>So we currently have 108GB left on the /data directory:</p>
+<pre><code class="lang-bash">df -h
+/dev/mapper/vg_livingstone-lv_data  1.5T  1.3T  108G  93% /data
+</code></pre>
+<p>This is broken out across these folders</p>
+<pre><code class="lang-bash">du -hd1 /data
+24G    /data/docker
+4.0K    /data/ftp
+26M    /data/drupal-solr
+16K    /data/lost+found
+268M    /data/solr
+8.6G    /data/drupal
+1.3T    /data/fedora
+6.9G    /data/mysql
+1.3T    /data
+</code></pre>
+<p>We can&#39;t go any lower than this unfortunately.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-1-17</time>
+          </div>
+          <div class="body"><p>Thanks for sorting this out. This creates at least a tad of breathing space, particularly useful as I have a GB or two of images still coming. I&#39;ll look into getting the additional GB soon, but will go ahead and close this ticket now.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>

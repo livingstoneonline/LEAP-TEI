@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>MS Viewer: Bottom Popup Spacing and Formatting.</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#26</span>
+        </p>
+        <h1>MS Viewer: Bottom Popup Spacing and Formatting.</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2016-5-9</time>
+          </div>
+          <div class="body">
+            <ol>
+<li>The items in the bottom popup can be spaced closer together. I suggest a distance that is about half of what it is now. </li>
+<li>Also, can we put a little padding above and below the thumbnails, so that they pop up a bit more into the image when you scroll over them?</li>
+<li>The page number on the bottom popup should not be bold.</li>
+<li>The background on the bottom popup is currently black. Can we make it white so it&#39;s more visible that it&#39;s there in the first place?</li>
+</ol>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-24</time>
+          </div>
+          <div class="body"><p>Let&#39;s discuss this. If we decide to remove the bottom strip, then we can close this ticket as the work won&#39;t need to be done.</p>
+</div>
+        </div>
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2016-5-25</time>
+          </div>
+          <div class="body"><p>Closing this, since we&#39;re going to hide the thumbnail strip for now.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>
