@@ -1,6 +1,6 @@
 # [NINES RDF](https://github.com/livingstoneonline/livingstoneonline/issues/242)
 
-> state: **open** opened by: **awisnicki** on: **2017-11-10**
+> state: **closed** opened by: **awisnicki** on: **2017-11-10**
 
 I filled out the author and editor fields for all section pages this week, but when I generated the NINES RDF just now, I found that this author/editor info was not being added to the files.
 
@@ -39,3 +39,11 @@ http://livingstoneonline.org/in-his-own-words/field-diary-iv-overview
 http://livingstoneonline.org/life-and-times/livingstone-s-posthumous-reputation
 
 http://livingstoneonline.org/spectral-imaging/the-diary-across-hands-space-and-time-1
+---
+> from: [**nigelgbanks**](https://github.com/livingstoneonline/livingstoneonline/issues/242#issuecomment-350097030) on: **2017-12-7**
+
+Should be sorted now.
+---
+> from: [**awisnicki**](https://github.com/livingstoneonline/livingstoneonline/issues/242#issuecomment-350129058) on: **2017-12-7**
+
+Yes, looks great. Thanks for taking care of this!

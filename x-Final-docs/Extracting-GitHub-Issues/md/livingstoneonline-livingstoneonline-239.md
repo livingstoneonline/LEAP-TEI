@@ -1,6 +1,6 @@
 # [Issue with CSS in MS Viewer](https://github.com/livingstoneonline/livingstoneonline/issues/239)
 
-> state: **open** opened by: **awisnicki** on: **2017-11-6**
+> state: **closed** opened by: **awisnicki** on: **2017-11-6**
 
 I&#x27;ve discovered an issue with how CSS in the MS viewer is rendering certain text. I&#x27;ve been looking at this file: http://livingstoneonline.org/in-his-own-words/catalogue?query&#x3D;liv_000019&amp;view_pid&#x3D;liv%3A000019&amp;view_page&#x3D;0
 
@@ -70,3 +70,13 @@ OK, thanks for taking care of this. I&#x27;ll investigate in more detail (and so
 
 ![screen shot 2017-11-25 at 07 59 20](https://user-images.githubusercontent.com/12518623/33231187-a508e5c8-d1b6-11e7-8c25-67e7a60d02f7.png)
 
+---
+> from: [**nigelgbanks**](https://github.com/livingstoneonline/livingstoneonline/issues/239#issuecomment-350097554) on: **2017-12-7**
+
+I didn&#x27;t make any changes to the horizontal lines. The same as I&#x27;ve stated for h4 would apply to hr as well.
+
+&gt; I don&#x27;t want to override your style sheets globally in that case, it makes more sense for your to explicitly set the font sizes, etc for those elements in your css files for each xslt.
+---
+> from: [**awisnicki**](https://github.com/livingstoneonline/livingstoneonline/issues/239#issuecomment-350120354) on: **2017-12-7**
+
+Ok, thanks for clarifying this. I&#x27;ll take it from here.

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.emoji.js"></script>
+    <title>Small bug in Resources section</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>
+          <span class="badge closed">closed</span>
+          <span class="url">livingstoneonline/livingstoneonline#244</span>
+        </p>
+        <h1>Small bug in Resources section</h1>
+      </header>
+      <div class="comments">
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">awisnicki</a>
+            <time>2017-12-8</time>
+          </div>
+          <div class="body">
+            <p>For section pages in the Resources section, the arrows at the side of the page are missing.</p>
+
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="meta">
+            <a class="person" href="https://github.com/awisnicki">
+              awisnicki
+            </a>
+            <time>2017-12-10</time>
+          </div>
+          <div class="body"><p>I managed to figure this one out by going to <a href="http://livingstoneonline.org/admin/structure/block/manage/nodequeue_pager/6/configure">http://livingstoneonline.org/admin/structure/block/manage/nodequeue_pager/6/configure</a> so that&#39;s one off the list.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.comment').each(function(i, d){
+          $(d).emoji()
+        })
+      })
+    </script>
+
+  </body>
+</html>
