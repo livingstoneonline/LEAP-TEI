@@ -40,7 +40,7 @@
       <!--XPATH OF WHAT WE ARE TRYING TO FIND: CHANGE THIS!-->
 	  <!-- Attribute and value = geogName[@type='forest'] -->
 	  <!-- without attributes: $docs//region[not(@*)] -->
-            <xsl:variable name="xpath" select="$docs//bibl"/>      
+            <xsl:variable name="xpath" select="$docs//settlement[not(@type='repository')]"/>      
       
 			<!-- 
 				Run for these:
@@ -54,7 +54,7 @@
 					persName
 					placeName[not(@type)]
 					region
-					settlement
+					settlement[not(@type='repository')]
 					term
 			 -->
 
