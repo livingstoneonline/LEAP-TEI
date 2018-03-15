@@ -47,7 +47,7 @@
 
 					bibl[not(@type)]
 					bloc
-					country
+					country[not(@type='repository')]
 					foreign
 					geogName
 					orgName
