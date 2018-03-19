@@ -36,7 +36,7 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-mt-published.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+				<link rel="stylesheet" type="text/css" href="style-mt-published.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[1]"/>
 				</title>
@@ -998,16 +998,18 @@
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
 			><xsl:apply-templates/></span>
 	</xsl:template>
+	
+	<xsl:template match="note[child::table]|note[child::p]">
+		<xsl:apply-templates/>
+	</xsl:template>
 
-	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">
+	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="9">
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="p/note" priority="8">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
-	</xsl:template>
+
 
 	<xsl:template match="opener">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
@@ -1042,6 +1044,14 @@
 		<span class="orgName" title="{$title}">
 			<xsl:apply-templates/>
 		</span>
+	</xsl:template>
+
+	<xsl:template match="p/note" priority="8">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="p[parent::note]" priority="10">
+		<span class="{concat(name(), ' ', note, ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<!-- Not sure what this does. AW -->
@@ -1344,6 +1354,10 @@
 			<xsl:apply-templates/>
 			<!-- select="@*|node()" -->
 		</table>
+	</xsl:template>
+
+	<xsl:template match="table[parent::note]">
+		<table class="note"><xsl:apply-templates/></table>
 	</xsl:template>
 
 	<xsl:template match="row">
