@@ -303,17 +303,21 @@ div.transcription.style-mt-published .third-line {
 div.transcription.style-mt-published p {
 	/*margin-right: 2em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 }
-div.transcription.style-mt-published .p,
+div.transcription.style-mt-published .p {
+	display:inline-block;
+	text-indent:25px;
+	margin-top:0;
+	margin-bottom:0;
+}
 div.transcription.style-mt-published .note/*LLJ*/ {
 	display:inline-block;
 	text-indent:25px;
 	margin-top:0;
-	margin-bottom:0;	
-}
-div.transcription.style-mt-published .note/*LLJ*/ {
-	margin-top:1.5em;
-	text-indent:0px !important;
+	margin-bottom:0;
 	font-size:.9em;
+}
+div.transcription.style-mt-published .note.no-indent/*LLJ*/ {
+	text-indent:0px !important;
 }
 div.transcription.style-mt-published .p.noindent {
 	text-indent:0 !important;
@@ -329,7 +333,7 @@ div.transcription.style-mt-published .ab {
 	text-indent: -1.5em;/*This and previous together create a hanging indent for LLJ*/
 	margin-left:2em;/*LLJ*/
 	margin-top:0;
-	margin-bottom:0;
+	margin-bottom:1em;
 	font-size:.9em;/*LLJ*/
 }
 div.transcription.style-mt-published .ab.center {
