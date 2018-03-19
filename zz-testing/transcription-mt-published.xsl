@@ -1050,8 +1050,8 @@
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
 	</xsl:template>
 
-	<xsl:template match="p[parent::note]" priority="10">
-		<span class="{concat(name(), ' ', note, ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
+	<xsl:template match="p">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<!-- Not sure what this does. AW -->
