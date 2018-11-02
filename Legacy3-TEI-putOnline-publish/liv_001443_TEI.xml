@@ -73,6 +73,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2018-11-02" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#MB">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-12-17" who="#AW">Coding review</change>
@@ -103,7 +105,7 @@
 <lb/>in a mountainous country
 <lb/>and the observations<metamark/><add place="marginright">Enclosure <choice><abbr>N<hi rend="sup underline">o</hi></abbr><expan>Number</expan></choice> 1.</add><!-- Livingstone writes "Enclosure No 1." in the margin, then uses a long line to connect "observation" with marginalia. MB --><!-- OK. AW --> of the
 <lb/>Aneroid Barometer registered
-<lb/>by <persName>D<hi rend="sup underline">r</hi> Kirk</persName> show that we</p>
+<lb/>by <persName>D<hi rend="sup underline">r</hi> Kirk</persName> <choice><orig>shew</orig><reg>show</reg></choice> that we</p>
 
 	<pb facs="liv_001443_0003" n="0003"/>
 <cb rend="left vertical"/>
@@ -303,9 +305,9 @@
 <lb/>we see the general correctness
 <lb/>so far, of information 
 <lb/>collected by the <persName><choice><abbr>Rev<hi rend="sup underline">d</hi></abbr><expan>Reverend</expan></choice> Erkhardt</persName>
-<lb/>of the <orgName><choice><orig>church</orig><corr>Church</corr></choice> <term type="occupation"><choice><sic>missionary</sic><corr>Missionary</corr></choice></term>
+<lb/>of the <orgName><choice><sic>church</sic><corr>Church</corr></choice> <term type="occupation"><choice><sic>missionary</sic><corr>Missionary</corr></choice></term>
 <lb/>Society</orgName>. <placeName><geogName type="lake">Nyinyesi</geogName></placeName> is also
-<lb/>called the <placeName><geogName type="lake">Nyanja</geogName></placeName>, 
+<lb/>called the <placeName><geogName type="lake">Great Nyanja</geogName></placeName>, 
 <lb/>but this word is applied
 <lb/>to any collection of water, and
 <lb/>even to rivers; <placeName><geogName type="lake"><foreign xml:lang="und">Nyinyesi</foreign></geogName></placeName><!-- Here, he seems to be talking about the word. Encode as foreign lang? MB --><!-- Yes. AW -->=
@@ -314,7 +316,7 @@
 <lb/>well, though not densely peopled
 <lb/>with <term type="tribe">Mang-anja</term> who inhabit
 <lb/>both banks of the <placeName><geogName type="river">Shire</geogName></placeName> from
-<lb/><placeName><settlement type="village">Morambala</settlement></placeName> up to <placeName><settlement type="village">Ihibisa</settlement></placeName><!-- This could be referring to Chibisa's village and so should be encoded as a person's name, but I am not sure. JM -->; 
+<lb/><placeName><settlement type="village">Morambala</settlement></placeName> up to <placeName><settlement type="village"><persName>Chibisa</persName></settlement></placeName><!-- This could be referring to Chibisa's village and so should be encoded as a person's name, but I am not sure. JM --><!-- I put it in. AW -->; 
 <lb/>but the Eastern bank and 
 <lb/>adjacent mountains beyond</p>
 
@@ -432,11 +434,11 @@
 <lb/>the spindle and bag which serves
 <lb/>as a distaff, and the process of
 <lb/>manufacture is the most tedious
-<lb/>and crude that can be conceived - the
+<lb/>and rude that can be conceived - the
 <lb/><term type="plant">cotton</term> undergoes five processes
 <lb/>before if comes to the loom - time 
 <lb/>is of no value - They have two 
-<lb/>varieties of the plant= one indigenous-
+<lb/>varieties of the plant - one indigenous -
 <lb/>yields <term type="plant">cotton</term> more like wool than
 <lb/>that of other countries - It is very
 <lb/>strong and rough in the hand - The
@@ -511,7 +513,7 @@
 <lb/>shut the doors in terror -</p>
 <lb/><p>When at <placeName><geogName type="lake">Lake Shirwa</geogName></placeName> the
 <lb/>people pointed out a pass in the 
-<lb/>end of the mountain range <placeName><geogName type="range"><choice><orig>Milange</orig><reg>Mulanje</reg></choice></geogName></placeName>
+<lb/>end of the mountain range <placeName><geogName type="range"><choice><orig>Milanji</orig><reg>Mulanje</reg></choice></geogName></placeName>
 <lb/>through which a tribe called <term type="tribe">Anguru</term>, 
 <lb/>came to attack them with guns.
 <lb/>The <term type="tribe">Manganja</term> have no fire-arms
@@ -531,7 +533,7 @@
 <lb/>told the <term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> that <term type="tribe">Bajana</term>
 <lb/>said that <term type="people">English</term> would stop their
 <lb/>trade and no more foreign cloth
-<lb/>be brought into the country The
+<lb/>be brought into the country. The
 <lb/><term type="occupation">chiefs</term> tried to justify their
 <lb/>cooperation in the traffic by 
 <lb/>saying "only crimminals were
@@ -550,15 +552,15 @@
 <lb/>of a <choice><orig>despatch</orig><reg>dispatch</reg></choice> giving an account of the discovery
 <lb/>of a magnificent Lake called <placeName><geogName type="lake">Shirwa</geogName></placeName> - I have
 <lb/>written on all my paper - so if you are not
-<lb/>please with a mutilation you must <w>sen<gap agent="fading" extent="1" unit="chars"/><supplied cert="high">d</supplied></w>
+<lb/>please with a mutilation you must send
 <lb/>it back and I shall write it over again. <placeName><geogName type="lake">Shirwa</geogName></placeName>
 <lb/>has no known outlet and it has only five
-<lb/>or six miles of partition between it and <placeName><geogName type="lake"><w>Nyanj<gap agent="fading" extent="1" unit="chars"/><supplied cert="high">a</supplied></w></geogName></placeName>
+<lb/>or six miles of partition between it and <placeName><geogName type="lake">Nyanja</geogName></placeName>
 <lb/>or <placeName><geogName type="lake">Nyinyesi</geogName></placeName>= The stars which reaches pretty
 <lb/>well up to the equator - The Southern portion
 <lb/>of <placeName><geogName type="lake">Shirwa</geogName></placeName> is only about <measure>30 miles</measure> distant
 <lb/>from the navigable <placeName><geogName type="river">Shire</geogName></placeName>= The <term type="people">Portuguese</term>
-<lb/>know nothing about it - We have had <w>som<gap agent="fading" extent="1" unit="chars"/><supplied cert="high">e</supplied></w>
+<lb/>know nothing about it - We have had some
 <lb/><term type="ailment">fever</term> but very mild <!-- This is the closer. MB --><persName>David Livingstone</persName></p>
  
 	<pb facs="liv_001443_0017" n="0017"/>
@@ -583,7 +585,7 @@
 <lb/><persName>Baptista</persName> &amp; <persName>Jose</persName> coming to <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> - <orgName>black
 <lb/>men</orgName> with the wool dressed <placeName><region><term type="tribe"><choice><orig>Londa</orig><reg>Lunda</reg></choice></term></region></placeName> <w>fashi<gap agent="hole" extent="2" unit="chars"/></w>
 <lb/>and Lond swords on their shoulders I<gap agent="hole" extent="4" unit="chars"/>
-<lb/>must know farther cousequently failed
+<lb/>must know farther consequently failed
 <lb/>by <hi rend="underline">some</hi> <measure>400 miles</measure> of going across
 <lb/><placeName><bloc>Africa</bloc></placeName>-But they want all to appear 
 <lb/>theirs so we <choice><sic>dont</sic><corr>don't</corr></choice> tell them how near
