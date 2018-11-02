@@ -30,6 +30,10 @@
                     <name>Mary Borgo</name><!-- Change -->
                     <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
+				<respStmt xml:id="KS">
+                    <name>Kate Simpson</name><!-- Change -->
+                    <resp>Proofing</resp><!-- Change -->
+                </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -75,6 +79,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2018-11-02" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#KS">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2016-03-17" who="#AW">Coding review</change>
@@ -159,7 +165,7 @@
 <lb/>same language to you as I do in trying to convey
 <lb/>an idea of the thing to some of my friends native
 <lb/>of the island called <placeName><geogName type="island">Anglia</geogName></placeName> - If we imagine the <placeName><geogName type="river">Thames</geogName></placeName>
-<lb/>filled with low <choice><sic>tree covered</sic><corr>tree-covered</corr></choice> hills from the <w>Tunne<supplied>l</supplied></w>
+<lb/>filled with low <choice><sic>tree covered</sic><corr>tree-covered</corr></choice> hills from the <w>Tunne<gap extent="1" unit="chars"/><supplied>l</supplied></w>
 <lb/>to <placeName><settlement type="town">Gravesend</settlement></placeName> - the bed of hard basaltic rock instead
 <lb/>of <placeName><settlement type="city">London</settlement></placeName> mud and a rent or <choice><orig>fizzure</orig><reg>fissure</reg></choice> made therein
 <lb/>from one end of the tunnel to the other down through
@@ -175,7 +181,7 @@
 <lb/>something of what takes place with the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName>.
 <lb/>When it emerges <measure>30 or 40 miles distant</measure> from its place
 <lb/>of confinement it flows broad and placid again
-<lb/>away to the <choice><abbr>N.N.E.</abbr><expan>North-northeast</expan></choice> or <unclear><choice><abbr>N = E.</abbr><expan>Northeast</expan></choice></unclear> till it reaches the
+<lb/>away to the <choice><abbr>N.N.E.</abbr><expan>North-northeast</expan></choice> or <unclear><choice><abbr>N - E.</abbr><expan>Northeast</expan></choice></unclear> till it reaches the
 <lb/><measure>Latitude of 15° 37' South</measure> - I have said <measure>100 feet
 <lb/>deep</measure> but this requires explanation - When looking
 <lb/>at the perpendicular walls of the <choice><orig>fizzure</orig><reg>fissure</reg></choice> we see
