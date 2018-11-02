@@ -24,12 +24,16 @@
                 <respStmt xml:id="AW">
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
-					<resp>Formatting review</resp>
+					<resp>Implement corrections</resp>
                 </respStmt>
 				<respStmt xml:id="MB">
                     <name>Mary Borgo</name><!-- Change -->
                     <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
+				<respStmt xml:id="HB">
+					<name>Heather Ball</name>
+					<resp>Proofing</resp>
+				</respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -72,6 +76,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2018-11-02" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#HB">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-05-26" who="#AW">Coding review</change>
@@ -92,13 +98,13 @@
 <lb/><space extent="1" unit="chars"/><add place="inspace" rend="gray small" hand="#U1">5-6-9</add><!-- diagonal --> <dateline><space extent="4" unit="chars"/> <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice> River</geogName></placeName> <date when="1858-10-05">5<hi rend="sup underline">th</hi> <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice>
 <lb/><space extent="5" unit="words"/><space extent="2" unit="chars"/>1858</date></dateline>
 <lb/>    
-<lb/><salute>My Dear <persName>M<hi rend="sup underline">r</hi> Conyngham</persName></salute>
+<lb/><salute>My Dear <persName>M<hi rend="sup underline">r</hi> <choice><sic>Conyingham</sic><corr>Conyngham</corr></choice></persName></salute>
 </opener>
 <lb/><p><space extent="1" unit="words"/><space extent="2" unit="chars"/>We have an opportunity
 <lb/>of writing home again sooner than
 <lb/>we expected and I have had the
 <lb/>most unpleasant letter to write I
-<lb/>ever penned. The <term type="occupation">naval officer</term>
+<lb/>ever penned. The <term type="occupation">Naval officer</term>
 <lb/><persName>Commander Bedingfeld</persName> who came
 <lb/>with us got to <placeName>Loggerheads</placeName> with
 <lb/>the <term type="occupation">captain</term> of the Pearl and I knowing	
@@ -110,7 +116,7 @@
 <lb/>no more of these public alterations"</p>
  
 <cb rend="vertical"/><ab>           	    	
-<lb/>Would you be kind enough to send from
+<lb/>Would you be kind enough to send from your
 <lb/><term type="occupation">stationer</term> a supply of proper official paper &amp; envelopes
 <lb/>with the newspapers at your convenience</ab>
 
@@ -119,7 +125,7 @@
 <lb/>evidently of opinion that I could not move
 <lb/>mile without him - and tendered his 
 <lb/>resignation several times. At last I mounted
-<lb/>the paddle box myself and to my no small
+<lb/>the Paddle box myself and to my no small
 <lb/>wonder found out I was a <term type="occupation">skipper</term>
 <lb/>and have been howling out "Ease her, stop her
 <lb/>&amp;c<!--Adrian, I think this is that and-cetera mark I saw once before, but I can't find the way to code it. If it's not in the manual, could we add it? -AA --><!-- I have encoded this as it should be, I think. JM --><!-- Correct. AW --> ever since - <persName><choice><abbr>B.</abbr><expan>Bedingfeld</expan></choice></persName> - was very much disgusted
@@ -144,7 +150,7 @@
 <lb/>In one point I expect abuse and that
 <lb/>is working on Sundays. The <orgName>Great Niger
 <lb/>Expedition</orgName> you may remember lost
-<lb/>nearly all the new <term type="occupation">officers</term>. They 
+<lb/>nearly all the <term type="occupation"><orgName>crew</orgName></term> &amp; <term type="occupation">officers</term>. They 
 <lb/>kept Sundays and had prayers three
 <lb/>times a day even while in the <term type="plant">Mangrove</term>
 <lb/>swamps - but when I came into
@@ -169,12 +175,12 @@
 <lb/>coal and no end of the finest iron
 <lb/>ore surely something will be done
 <lb/>for the civilization of <placeName><bloc>Africa</bloc></placeName>
-<lb/>My men were overjoyed in receiving
+<lb/>My men were overjoyed in <choice><sic>recieving</sic><corr>receiving</corr></choice>
 <lb/>me back again - Thirty of them
 <lb/>had died of <term type="ailment">small pox</term> and six
 <lb/>were killed by a rebel chief
 <lb/>but all the rest are ready to return
-<lb/>to their won land with me -</p>	
+<lb/>to their own land with me -</p>	
 <lb/><p>I beg leave to trouble
 <lb/>you again with a packet of
 <lb/>letters and am ever yours</p>
