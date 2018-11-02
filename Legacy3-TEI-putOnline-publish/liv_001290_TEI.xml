@@ -30,6 +30,10 @@
                     <name>Mary Borgo</name><!-- Change -->
                     <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
+				<respStmt xml:id="KS">
+                    <name>Kate Simpson</name><!-- Change -->
+                    <resp>Proofing</resp><!-- Change -->
+                </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -74,6 +78,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2018-11-02" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#KS">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-12-17" who="#AW">Coding review</change>
@@ -105,7 +111,7 @@
 <lb/>and mineral and agricultural
 <lb/>resources of <placeName><region>Eastern and
 <lb/>Central <bloc>Africa</bloc></region></placeName><!-- Should Eastern/Central be marked as 'Regions' in this case? EM--><!-- Yes. AW -->, to improve 
-<lb/>our acquaitance with the 
+<lb/>our acquaintance with the 
 <lb/><orgName>inhabitants</orgName>, and to engage
 <lb/>them to apply their energies
 
@@ -124,8 +130,8 @@
 <lb/>a considerable advance may
 <lb/>be made towards the extinction
 <lb/>of the slave trade, as the
-<lb/><orgName>natives</orgName> will not be long
-<lb/>in discovering that the former
+<lb/><orgName>natives</orgName> will not be long in
+<lb/>discovering that the former
 <lb/>will eventually become a
 <lb/>more certain source of profit
 <lb/>than the latter.</p>
@@ -155,10 +161,10 @@
 <lb/>to and beyond <unclear cert="medium"><placeName><settlement type="town"><choice><sic>Tett</sic><corr>Tete</corr></choice></settlement></placeName></unclear><!-- Not sure what this is. Tete? EM --><!-- Yes, Tete. JM --> the most
 
 	<pb facs="liv_001290_0004" n="0004"/>
-<lb/>advanced part of civilization
+<lb/>advanced post of civilization
 <lb/>but the <term type="occupation">chief</term> power in the
 <lb/>country adjacent being in the
-<lb/>hands of two or three <unclear cert="high"><w>influenc<gap extent="3" unit="chars" agent="blot"/><supplied>ing</supplied></w></unclear> 
+<lb/>hands of two or three <unclear cert="high"><w>influent<gap extent="3" unit="chars" agent="blot"/><supplied>ial</supplied></w></unclear> 
 <lb/><term type="occupation">chiefs</term>, it will be our duty to
 <lb/>visit them and invite them
 <lb/>to turn the attention of their
@@ -173,7 +179,7 @@
 <lb/><bloc>Africa</bloc> as Ivory, <term type="plant">cotton</term>, <unclear cert="medium">oil</unclear><supplied>,</supplied>
 <lb/>beeswax, <unclear><term type="plant"><choice><sic>Cauze</sic><corr>Buaze</corr></choice></term></unclear><!-- Should this be Buaze? To which he refers to later? EM --><!-- OK. AW --> &amp;c - for the
 <lb/>manufactures of <bloc>Europe</bloc>, and
-<lb/>generally to hold our every
+<lb/>generally to hold out every
 <lb/>encouragement in order to
 <lb/>induce them to give up <unclear cert="medium">the</unclear>
 <lb/>warlike and predatory <unclear cert="high">habit</unclear>
@@ -236,7 +242,7 @@
 <lb/>equal, and requesting,
 <lb/>for this part of our travels 
 <lb/>at least, your earnest and
-<lb/>exclusive attention to the same
+<lb/>exclusive attention to the same,
 <lb/>other objects of interest will
 <lb/>no doubt press on your
 <lb/>notice, but considering that
@@ -283,7 +289,7 @@
 <lb/>will be unadvisable to make
 <lb/>any distant excursions - Our
 <lb/>energies must be bent to
-<lb/><choice><sic>to</sic><corr/></choice> the establishment of a depot
+<lb/><choice><sic>to</sic><corr/></choice> the establishment of a depôt
 <lb/>at some eligible spot beyond
 <lb/>the confluence of the <placeName><geogName type="river">Kafue</geogName></placeName> 
 <lb/>and <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> - Having
@@ -311,13 +317,13 @@
 <lb/>another small spot at a lower
 <lb/>level may be planted with
 <lb/><term type="plant">cotton</term> and <term type="plant">sugar cane</term>, and
-<lb/>given in charge to the headaman
+<lb/>given in charge to the headman
 <lb/>of any village adjacent in
 <lb/>order to induce the <orgName>natives</orgName>
 <lb/>to take an interest in the
 <lb/>Result.</p>
 <lb/><p rend="no-indent"><add place="inspace">6.</add> <space extent="5" unit="chars"/>The central depot once
-<lb/>established and and intercourse with
+<lb/>established and intercourse with
 <lb/>the <orgName>natives</orgName> set on foot, a more
 <lb/>extended range of scientific <w>observa-
 <lb break="no"/>-tion</w> will then be <w>advis<del type="strikethrough">e</del>able</w> -
@@ -379,7 +385,7 @@
 
 	<pb facs="liv_001290_0013" n="0013"/>
 <lb/><space extent="3" unit="words"/><add place="inspace" rend="small">(4)</add>
-<lb/>In order to this slight complaint,
+<lb/>In order to this slight complaints,
 <lb/>except among the very poor,
 <lb/>ought to be referred to their 
 <lb/>care, and severe cases before
@@ -484,7 +490,7 @@
 <lb/>that the terms be well <w>under<supplied>-</supplied>
 <lb break="no"/>-stood</w> and a little patience
 <lb/>in settling the amount of
-<lb/>remunertation in the presence 
+<lb/>remuneration in the presence 
 <lb/>of witnesses and the exact
 <lb/>number of persons 
 <lb/>engaged will prevent that
@@ -515,7 +521,7 @@
 <lb/>great respect and nothing
 <lb/>should be done to weaken their
 <lb/>authority - Any present of
-<lb/>food whould be accepted
+<lb/>food should be accepted
 <lb/>frankly - It is <unclear cert="high">impolite</unclear> to 
 <lb/>allow the ancient custom
 <lb/>of feeding strangers to go into
