@@ -27,6 +27,7 @@
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
 					<resp>Formatting review</resp>
+					<resp>Implement corrections</resp>
                 </respStmt>
 				<respStmt xml:id="MB">
                     <name>Mary Borgo</name><!-- Change -->
@@ -39,6 +40,10 @@
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
                 </respStmt>
+				<respStmt xml:id="HB">
+					<name>Heather Ball</name>
+					<resp>Proofing</resp>
+				</respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -110,6 +115,8 @@
 			<!-- Note that @who initials are taken from <respStmt> above -->
 			<!-- Add new <change> elements below as needed. -->
 			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2018-11-02" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#HB">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2016-03-30" who="#AW">Integrating duplicate versions</change>
@@ -140,8 +147,8 @@
 
 <lb/><p><space extent="1" unit="words"/>We left the
 <lb/><placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> on <date when="1866-02-15">15<hi rend="sup underline">th</hi></date> <choice><abbr>ult.</abbr><expan>ultimo</expan></choice><!--I'm not sure of date/ abbreviation. -AA -EM --><!-- 15th ultimo, meaning 15 February. JM -->
-<lb/>The Ariel taking the
-<lb/>Lady Nyassa and 
+<lb/>The Ariel taking
+<lb/>the Lady Nyassa and 
 <lb/>the Orestes the Pioneer
 <lb/>in tow. We had a
 <lb/>gale on the <date when="1866-02-16">16<hi rend="sup underline">th</hi></date> &amp; <date when="1866-02-17">17<hi rend="sup">th</hi></date> <!--Uncertain on dates...see previous comment. -AA -EM--><!-- OK. AW -->
@@ -177,7 +184,7 @@
 <lb/><placeName><country>England</country></placeName> and I
 <lb/>shall be very sorry
 <lb/>to find you gone
-<lb/>and write this to
+<lb/>and write <space extent="1" unit="chars"/>this to
 <lb/>say which I hardly
 <lb/>need how glad
 <lb/>I should be to see you
@@ -193,7 +200,7 @@
 <lb/>attached to the <orgName>Mission</orgName>
 <lb/>by <persName><term type="occupation">Bishop</term> Mackenzie</persName>
 <lb/>we did not think
-<lb/>it honourable to
+<lb/>it honourable <space extent="2" unit="chars"/>to
 <lb/>abandon - They would
 <lb/>inevitably have been
 <lb/>sold or taken into
@@ -201,8 +208,8 @@
 <lb/>good <term type="nationality">English</term> name
 <lb/>been dishonoured
 <lb/>thereby - We wish to
-<lb/>send them to the <placeName><region>Cape</region></placeName>
-<lb/>where possibly the
+<lb/>send them to the <placeName><region>Cape</region></placeName>,
+<lb/><choice><sic>Where</sic><corr>where</corr></choice> possibly the
 <lb/>Orestes has taken
 <lb/>25 orphan boys who
 <lb/>were in similar plight
@@ -213,7 +220,7 @@
 <lb/>The <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName>
 <lb/>unfortunately diminished
 <lb/>by three are in the
-<lb/>Pioneer under <persName>Cap<hi rend="sup underline">tain</hi>
+<lb/>Pioneer under <persName><choice><orig>Cap<hi rend="sup underline">n</hi></orig><reg>Captain</reg></choice>
 <lb/>Gardner</persName>'s care - He
 <lb/>will no doubt see
 <lb/>them safely to <placeName><geogName type="island">Johanna</geogName></placeName> -
@@ -252,7 +259,7 @@
 <lb/>of the conduct of the <add place="above" rend="gray" hand="#U1">7</add>
 <lb/>rest than what you
 <lb/>gave of the <orgName>Johannese</orgName>
-<lb/>generally to the <orgName><term type="occupation"><w>mission<supplied>-</supplied>
+<lb/>generally to the <orgName><term type="occupation"><w>Mission<supplied>-</supplied>
 <lb break="no"/>-ary</w></term> society</orgName> -</p>
 <lb/><p>We are going South
 <lb/>probably to <placeName><settlement type="city">Bombay</settlement></placeName>
@@ -271,20 +278,20 @@
 <lb/>proclivities as
 
 	<pb facs="liv_002005_0008" n="0008"/>
-<lb/><space extent="3" unit="words"/><add place="inspace" rend="small brown">March 4'</add>
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small italic">March 4'</add>
 <lb/><add place="above" rend="left gray small" hand="#U1">8</add> unwittingly <w>communi<supplied>-</supplied>
 <lb break="no"/>-cated</w> to me by his
 <lb/>brother at <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> - He
-<lb/><space extent="3" unit="words"/><add place="inspace" rend="small brown">Livingstone</add>
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small italic">Livingstone</add>
 <lb/>certainly never expected
-<lb/><space extent="3" unit="words"/><add place="inspace" rend="small brown"><choice><abbr>Rec<hi rend="sup">d</hi></abbr><expan>Received</expan></choice> 11 March 1864</add>
+<lb/><space extent="3" unit="words"/><add place="inspace" rend="small italic"><choice><abbr>Rec<hi rend="sup">d</hi></abbr><expan>Received</expan></choice> 11 March 1864</add>
 <lb/>his brother to blab &amp;
-<lb/>shew up his big brother
+<lb/><choice><orig>shew</orig><reg>show</reg></choice> up his big brother
 <lb/>as the very antipodes
 <lb/>of what he professed
 <lb/>himself to be to the cruizer's
 <lb/>the late <term type="occupation">Governor</term> of
-<lb/><placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg> </choice></settlement></placeName> died 20 
+<lb/><placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg> </choice></settlement></placeName> died 20 -
 <lb/>days after landing in 
 <lb/><placeName><settlement type="city">Lisbon</settlement></placeName> - <persName><term type="occupation">Bishop</term> Tozer</persName>
 <lb/>was at <placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg> </choice></settlement></placeName> when
