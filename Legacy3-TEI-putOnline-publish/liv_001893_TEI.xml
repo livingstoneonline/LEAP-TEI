@@ -20,11 +20,16 @@
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
 					<resp>Formatting review</resp>
+					<resp>Implement corrections</resp>
                 </respStmt>
 				<respStmt xml:id="MB">
                     <name>Mary Borgo</name><!-- Change -->
                     <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
+				<respStmt xml:id="KS">
+					<name>Kate Simpson</name>
+					<resp>Proofing</resp>
+				</respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -70,6 +75,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2018-11-05" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#KS">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
         	<change when="2017-03-18" who="#AW">Proofing</change>
@@ -96,7 +103,7 @@
 <lb/>from the <placeName><region>Cape</region></placeName> by the late <persName><term type="occupation">Bishop</term> <choice><orig>MacKenzie</orig><reg>Mackenzie</reg></choice></persName> to
 <lb/>assist the <orgName>Universities' Mission</orgName> are now sent back
 <lb/>to their homes - they were brought up the
-<lb/>Courtesy of the <persName><term type="occupation">Admiral</term></persName> in a man of war, and
+<lb/>Courtesy of the <persName><term type="occupation">Admiral</term></persName> in a man-of-war, and
 <lb/>if you can give them a passage down I am <w>au-
 <lb break="no"/>thorized</w> by the <term type="occupation">Missionaries</term> to say that all expenses
 <lb/>will cheerfully be paid to your <term type="occupation">Paymaster</term> by the
@@ -117,7 +124,7 @@
     <pb facs="liv_001893_0002" n="0002"/>
 <lb/><p rend="no-indent">obliged to return to the <placeName><geogName type="river">Kongone</geogName></placeName> - <placeName><settlement type="town"><choice><orig>Quilimane</orig><reg>Quelimane</reg></choice></settlement></placeName> or
 <lb/><placeName><country>Mozambique</country></placeName> for Stores Sooner than we anticipated, 
-<lb/>if you can leave any forces at either of these
+<lb/>if you can leave any for us at either of these
 <lb/>Ports you will confer a very great favour
 <lb/>and render us essential Service; as it will
 <lb/>be unwise for us to venture to <placeName><geogName type="island">Johanna</geogName></placeName> at
@@ -127,9 +134,9 @@
 <lb/><p><space extent="2" unit="chars"/>The <placeName><geogName type="river">Shire</geogName></placeName> has not risen as much
 <lb/>as usual this Year, and we have found <w>con<choice><sic>=</sic><corr>-</corr></choice>
 <lb break="no"/>siderable</w> difficulty in getting the two vessels
-<lb/>up through the <placeName><geogName type="swamp"><term type="animal">Elephant</term> Swamp</geogName></placeName>, but we
+<lb/>up through the <placeName><geogName type="swamp"><term type="animal">Elephant</term> Swamp</geogName></placeName><choice><sic>;</sic><corr>,</corr></choice> but we
 <lb/>hope Soon to reach the <placeName><geogName type="cataract">Cataracts</geogName></placeName></p> <!-- I am not sure how to code "cataracts". JM -->
-<lb/><p>Our <term type="occupation">Blacksmith</term> <persName>William Mcleod</persName> is
+<lb/><p>Our <term type="occupation">Blacksmith</term> <persName>William Mcleod</persName><choice><sic>,</sic><corr/></choice> is
 <lb/>obliged by <term type="ailment">disease of the Kidneys</term> to leave us -
 <lb/>he is a very good man; - we got him from the 
 <lb/>"Gorgon" on his passage to the <placeName><region>Cape</region></placeName>.</p>
