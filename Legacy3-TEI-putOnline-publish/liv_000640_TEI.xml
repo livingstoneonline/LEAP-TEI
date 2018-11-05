@@ -20,6 +20,7 @@
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
 					<resp>Formatting review</resp>
+					<resp>Implement corrections</resp>
                 </respStmt>
 				<respStmt xml:id="MB">
                     <name>Mary E. Borgo</name>
@@ -27,7 +28,6 @@
                     <resp>Encoding</resp>
 					<resp>Tagging Corrections</resp>
                 </respStmt>
-
 				<respStmt xml:id="JM">
                     <name>Jared McDonald</name><!-- Change -->
                     <resp>Transcription</resp><!-- Change -->
@@ -38,6 +38,10 @@
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
                     <resp>Proofing</resp>     
+                </respStmt>
+				<respStmt xml:id="KS">
+                    <name>Kate Simpson</name><!-- Change -->
+                    <resp>Proofing</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -86,6 +90,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2018-11-05" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#KS">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2016-03-31" who="#AM">Final proofing</change>
@@ -113,7 +119,7 @@
 <lb/>quantity an equivalent. Let this <bibl>large sheet</bibl><!-- Correct Identifier? EM--><!-- Yes. AW --> be added to the <bibl>former</bibl> and leave quality out of the question
 <lb/>and you will never again be able to utter your complaint about "return letters" The circumstances
 <lb/>in which I am at present placed and the object I have in view in writing at present are the following
-<lb/>The water of <placeName><settlement type="village">Chonuane</settlement></placeName><!-- Or is this a river? EM --><!-- OK as is. AW --><!-- I've left it as it is but I think it's a village AM --><!--changed to village in coding review. MB--> being scanty and bad, and it being impossible for us to revise the Staff of life in
+<lb/>The water of <placeName><settlement type="village">Chonuane</settlement></placeName><!-- Or is this a river? EM --><!-- OK as is. AW --><!-- I've left it as it is but I think it's a village AM --><!--changed to village in coding review. MB--> being scanty and bad, and it being impossible for us to revise the staff of life in
 <lb/>that locality we felt it to be our duty to propose removal to a more salubrious situation. Many of the
 <lb/><term type="tribe"><choice><orig>Bakwains</orig><reg>Bakwena</reg><reg>Kwena</reg></choice></term> were opposed to it because <placeName><settlement type="village">Chonuane</settlement></placeName> afforded good garden ground for <orgName>native</orgName>
 <lb/><term type="plant_foodstuff">corn</term> <term type="plant_foodstuff">pumpkins</term><!-- add foodstuffs --> &amp;c. But <persName>Sechele</persName> declared he would cleave to us wherever we went and having
@@ -125,7 +131,7 @@
 <lb/>others are engaged in building - <persName>Mary</persName> feels her situation among the ruins a little dreary &amp; 
 <lb/>no wonder for she writes me <date when="1847-08-12">yesterday</date> that the <term type="animal">lions</term> are resuming possession &amp; walk around our
 <lb/>house at night - <placeName><settlement type="village">Kolobeng</settlement></placeName> means the haunt<!-- This word appears a few times and I am not sure on it. EM --><!-- Fixed. AW --> of the wild <term type="animal">boar</term> but it seems to have been
-<lb/>the haunt of everything wild. <term type="animal"><choice><orig>Hyaeanas</orig><reg>Hyaenas</reg><reg>Hyena</reg></choice></term> abound exceedingly. <term type="animal">buffaloes</term> in immense herds - and
+<lb/>the haunt of everything wild. <term type="animal"><choice><orig>Hyaeanas</orig><reg>Hyaenas</reg><reg>Hyena</reg></choice></term> abound exceedingly, <term type="animal">buffaloes</term> in immense herds - and
 <lb/><term type="animal">zebras</term> quite tame in the thickly wooded country around - <term type="animal">Elephants</term> too have left their
 <lb/>traces on what will we hope for the future only contain marks of the "pleasant haunts
 <lb/>of men" <space extent="1" unit="chars"/>The evenings afford me a little time for writing &amp;c - and as you express a wish to
@@ -139,7 +145,7 @@
 <lb/>they had acquired a knowledge of it yet using the English idiom they could only be understood
 <lb/>by <orgName>natives</orgName> who being accustomed to <orgName>Europeans</orgName> knew what was intended as well as the 
 <lb/>speakers themselves. Had they come to the <term type="tribe"><choice><orig>Bakwains</orig><reg>Bakwena</reg><reg>Kwena</reg></choice></term> or to any of the<!--ink spatter above. MB--> <placeName><region>interior</region></placeName> tribes they
-<lb/>would not be understood by a single individual - The Enlgish idioms here would be <choice><sic>unintelligble</sic><corr>unintelligible</corr></choice>
+<lb/>would not be understood by a single individual - The English idioms here would be <choice><sic>unintelligble</sic><corr>unintelligible</corr></choice>
 <lb/>gibberish <space extent="1" unit="chars"/>In the following remarks I shall not attempt to follow <term type="occupation"><choice><sic><w>gr<del>i</del><add place="over-text">a</add>mmareans</w></sic><corr>grammarians</corr></choice></term> - The endeavours  
 <lb/>of some to reduce the <choice><orig>Sicuana</orig><reg>Setswana</reg></choice> to the grammatical forms of Latin &amp; Greek &amp;c seem to me to have
 <lb/>been complete failures - <space extent="1" unit="chars"/> I shall attempt an analysis only and should I stick fast in the middle
@@ -148,9 +154,9 @@
 <lb/><space extent="6" unit="chars"/>Phonetic Table of the <choice><orig>Sicuana</orig><reg>Setswana</reg></choice>
 <lb/>A is sounded as in Fāther <persName>Māmmă</persName> or <term type="nationality"><choice><orig>scotch</orig><reg>Scotch</reg></choice></term> way of pronouncing <choice><orig>latin</orig><reg>Latin</reg></choice> <del type="strikethrough">Arabic</del> example <foreign xml:lang="tn">bathu</foreign>, men<!-- foregin tag? MB --><!-- Yes. AW -->
 <lb/><foreign xml:lang="tn">mālā</foreign> bowels - <foreign xml:lang="tn">mālă</foreign> cold <foreign xml:lang="tn">gonă</foreign> there <foreign xml:lang="tn">ñāpǎ</foreign> (verb) pinch <foreign xml:lang="tn">lithāko</foreign> walls. <foreign xml:lang="tn">logonă</foreign> a <term type="plant">hedge</term>
-<lb/><!-- He draws two pear forms here. EM --><!-- I think this is the letter "E" rather than a drawing AM --><app><rdg>E</rdg><rdg><figure><figDesc>Two pears one above the other.</figDesc></figure></rdg></app> as in <term type="plant_foodstuff">Pear</term>, Were, their, ex, <foreign xml:lang="tn"><w>s<hi rend="underline">e</hi>pha</w></foreign> brittle - <foreign xml:lang="tn">s<hi rend="underline">e</hi>nya</foreign> (<choice><abbr>v.</abbr><expan>verb</expan></choice>) destroy. <foreign xml:lang="tn">Abeta</foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> pass, <foreign xml:lang="tn">beta</foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> wait <add place="below">(or watch)</add>
-<lb/><app><rdg>E</rdg><rdg><figure><figDesc>Two pears one above the other.</figDesc></figure></rdg></app>' with accent as in <term type="plant_foodstuff"><w>L<hi rend="underline">e</hi>mon</w></term> <w>cl<hi rend="underline">e</hi>rk</w>. <w>Fr<hi rend="underline">ie</hi>nd</w>, <w>d<hi rend="underline">e</hi>ad</w> <foreign xml:lang="tn"><w>s<hi rend="underline">é</hi>ka</w></foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> judge - <foreign xml:lang="tn"><w><hi rend="underline">é</hi>tã</w></foreign> travel
-<lb/><foreign xml:lang="tn"><w>r<hi rend="underline">é</hi>ka</w></foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> buy.  <foreign xml:lang="tn"><w>mas<hi rend="underline">é</hi>ka</w></foreign> leglets - <foreign xml:lang="tn"><w>s<hi rend="underline">é</hi>ba</w></foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> <unclear cert="medium">backleite</unclear><!-- unsure too. MB --><!-- ? AW --><!-- backbite? AM --></p>
+<lb/><!-- He draws two pear forms here. EM --><!-- I think this is the letter "E" rather than a drawing AM --><app><rdg>E</rdg><rdg><figure><figDesc>Two pears one above the other.</figDesc></figure></rdg></app> as in <term type="plant_foodstuff">Pear</term>, Were, their, ex, <foreign xml:lang="tn"><w>s<hi rend="underline">e</hi>pha</w></foreign> brittle - <foreign xml:lang="tn">s<hi rend="underline">e</hi>nya</foreign> (<choice><abbr>v.</abbr><expan>verb</expan></choice>) destroy. <foreign xml:lang="tn">Abeta</foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> pass, <foreign xml:lang="tn">leta</foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> wait <add place="below">(or watch)</add>
+<lb/><app><rdg>E</rdg><rdg><figure><figDesc>Two pears one above the other.</figDesc></figure></rdg></app>' with accent as in <term type="plant_foodstuff"><w>L<hi rend="underline">e</hi>mon</w></term> <w>cl<hi rend="underline">e</hi>rk</w>. <w>Fr<hi rend="underline">ie</hi>nd</w>, <w>D<hi rend="underline">e</hi>ad</w> <foreign xml:lang="tn"><w>s<hi rend="underline">é</hi>ka</w></foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> judge - <foreign xml:lang="tn"><w><hi rend="underline">é</hi>tã</w></foreign> travel
+<lb/><foreign xml:lang="tn"><w>r<hi rend="underline">é</hi>ka</w></foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> buy.  <foreign xml:lang="tn"><w>mas<hi rend="underline">é</hi>ka</w></foreign> leglets - <foreign xml:lang="tn"><w>s<hi rend="underline">é</hi>ba</w></foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> <unclear cert="medium">backbite</unclear><!-- unsure too. MB --><!-- ? AW --><!-- backbite? AM --></p>
 <lb/><p rend="no-indent">I as in <term type="nationality"><choice><orig>scotch</orig><reg>Scotch</reg></choice></term><!--orgName or nationality? MB--><!-- Nationality --> Latin or English <w>dim<hi rend="underline">i</hi>nish</w> <w>bel<hi rend="underline">ie</hi>ve</w> or as seek peep seam.  <foreign xml:lang="tn">Kika a</foreign>
 <lb/><term type="plant_foodstuff">corn</term> mortar <foreign xml:lang="tn"><w>Th<hi rend="underline">i</hi>pa</w></foreign> a knife. <unclear cert="medium"><foreign xml:lang="tn"><w>Cos<hi rend="underline">i</hi>go</w></foreign></unclear> night <foreign xml:lang="tn"><w>Jur<hi rend="underline">ĭ</hi></w></foreign><!-- unsure since there is no J listed in the alphabet. MB --> a <term type="animal_foodstuff">goat</term>: <foreign xml:lang="tn"><w>Letsals<hi rend="underline">i</hi></w></foreign> <add place="below"><metamark/>-</add> <!-- Not sure what this mark is. EM --> the Sun -
 <lb/>O as in <term type="animal">Mole</term>, <term type="animal">Toad</term>, <space extent="1" unit="chars"/><foreign xml:lang="tn">Tlotla</foreign> to honour. <foreign xml:lang="tn">shotla</foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> mock <foreign xml:lang="tn">kopa</foreign> <choice><abbr>v.</abbr><expan>verb</expan></choice> beg <del type="strikethrough"><unclear cert="medium"><foreign xml:lang="tn">lopa</foreign></unclear> <choice><abbr>v.</abbr><expan>verb</expan></choice> ask</del>
@@ -163,7 +169,7 @@
 	<pb facs="liv_000640_0002" n="0002"/>
 <lb/><p rend="no-indent">Oe dipthong as in -que or <w><hi rend="underline">wi</hi>g</w> <unclear cert="low">we</unclear> is nearly the same in sound but scarcely so full
 <lb/>in sound as <unclear cert="low">be</unclear>. <term type="tribe"><choice><orig>Bakwena</orig><reg>Kwena</reg></choice></term> can be spelled so or <term type="tribe"><choice><orig>Bakoena</orig><reg>Bakwena</reg><reg>Kwena</reg></choice></term> or <term type="tribe"><choice><orig>Bakwaina</orig><reg>Bakwena</reg><reg>Kwena</reg></choice></term> or
-<lb/><term type="tribe"><choice><orig>Baquana</orig><reg>Bakwena</reg><reg>Kwena</reg></choice></term><!-- Should these be coded differently? EM --><!-- Done. AW --> - <space extent="1" unit="chars"/><foreign xml:lang="tn">gague</foreign> is pronounced as if spelled <del type="strikethrough">with</del> <foreign xml:lang="tn">gagure</foreign> (his) <foreign xml:lang="tn">Leshue</foreign> filthy, <foreign xml:lang="tn">Sebegoe</foreign>
+<lb/><term type="tribe"><choice><orig>Baquana</orig><reg>Bakwena</reg><reg>Kwena</reg></choice></term><!-- Should these be coded differently? EM --><!-- Done. AW --> - <space extent="1" unit="chars"/><foreign xml:lang="tn">gague</foreign> is pronounced as if spelled <del type="strikethrough">with</del> <foreign xml:lang="tn">gagwe</foreign> (his) <foreign xml:lang="tn">Leshue</foreign> filthy, <foreign xml:lang="tn">Sebegoe</foreign>
 <lb/>a thing found in the field</p>
 <lb/><p rend=" no-indent">Sh. as in <w>di<hi rend="underline">sh</hi></w> <w>fi<hi rend="underline">sh</hi></w> <w><hi rend="underline">sh</hi>all</w> <del type="strikethrough"><unclear cert="low"><persName><term type="occupation"><choice><abbr>Fr.</abbr><expan>Father</expan></choice></term> J.</persName> in <placeName>Jour</placeName></unclear></del><!-- deleted persName? MB --><!-- Fixed. AW --> <foreign xml:lang="tn"><w>ma<hi rend="underline">sh</hi>i</w></foreign> milk <foreign xml:lang="tn">sesheshe</foreign> a blossom or flower
 <lb/><foreign xml:lang="tn">Leshashe</foreign> a coward. <foreign xml:lang="tn">Shoñkoe</foreign> a plant (asclepias?)</p>
@@ -182,11 +188,11 @@
 <lb/><p rend="no-indent"><app><rdg>H</rdg><rdg>It</rdg></app> is always an aspirate except in combination with s as sh. <foreign xml:lang="tn">Phiri</foreign> a <unclear cert="high"><term type="animal"><choice><orig>hyeana</orig><reg>hyaena</reg><reg>hyena</reg></choice></term></unclear>
 <lb/>the p is pronounced distinctly &amp; followed by the rough breathing <space extent="1" unit="chars"/> Ph is never f as in English</p>
 <lb/><p>Of the sounds which occur less frequently in <choice><orig>Sitchuana</orig><reg>Setswana</reg></choice> we have <hi rend="underline">e</hi> like
-<lb/><choice><orig>dutch</orig><reg>Dutch</reg></choice><hi rend="underline">ou</hi> or <choice><orig>scotch</orig><reg>Scotch</reg></choice> way of pronouncing upsilon <foreign xml:lang="tn"><w>serum<hi rend="underline">e</hi>ri</w></foreign> a <choice><sic>chrystal</sic><corr>crystal</corr></choice> <foreign xml:lang="tn"><w>motsek<hi rend="underline">e</hi>ri</w></foreign> a
+<lb/><choice><orig>dutch</orig><reg>Dutch</reg></choice> <hi rend="underline">ou</hi> or <choice><orig>scotch</orig><reg>Scotch</reg></choice> way of pronouncing upsilon <foreign xml:lang="tn"><w>serum<hi rend="underline">e</hi>ri</w></foreign> a <choice><sic>chrystal</sic><corr>crystal</corr></choice> <foreign xml:lang="tn"><w>motsek<hi rend="underline">e</hi>ri</w></foreign> a
 <lb/>sling - <space extent="4" unit="chars"/>The <orgName><choice><orig>Bakalihari</orig><reg>Bakalahari</reg></choice></orgName> have the dipthong we possess in <w>reb<hi rend="underline">u</hi>ke</w> they <add place="above"><choice><abbr>pron</abbr><expan>pronounce</expan></choice></add> <del type="strikethrough">say</del> <foreign xml:lang="tn">bathu</foreign>
 <lb/>as if spelled <foreign xml:lang="tn">batheu</foreign> - <space extent="3" unit="chars"/>Several letters interchange in different tribes and these constitute
 <lb/>the chief diversities of dialect - T interchanges with R. <foreign xml:lang="tn">Rara Thatha</foreign> father
-<lb/>the <term type="tribe">Bamapela</term> or <term type="tribe"><choice><sic>bagalaka</sic><corr>Bagalaka</corr></choice></term><!-- Tribes, yes? EM --><!-- Yes. AW --> say Papa. <unclear cert="medium">M</unclear> interchanges with <choice><abbr>v.</abbr><expan>verb</expan></choice> &amp; v is used too
+<lb/>the <term type="tribe">Bamapela</term> or <term type="tribe"><choice><sic>bagalaka</sic><corr>Bagalaka</corr></choice></term><!-- Tribes, yes? EM --><!-- Yes. AW --> say Papa. <unclear cert="medium">H</unclear> interchanges with <choice><abbr>v.</abbr><expan>verb</expan></choice> &amp; v is used too
 <lb/>instead of sh <space extent="1" unit="chars"/> <foreign xml:lang="tn">M tla shua</foreign> <space extent="1" unit="chars"/><foreign xml:lang="tn">M tla vua</foreign> <space extent="1" unit="chars"/>thou shalt die <foreign xml:lang="tn">lehatse levatsi</foreign> - L
 <lb/>&amp; N. interchange &amp; the l is <choice><sic>ommitted</sic><corr>omitted</corr></choice> in some words by certain tribes in which
 <lb/>it is used by others.  <foreign xml:lang="tn">Ki tla tla Ki tā tā</foreign> I shall come</p>
@@ -253,7 +259,7 @@
 <lb/>following statement &amp; it was reiterated on subsequent occasions although I pointed it out to the
 <lb/>individual by asking the meaning of the word of a <orgName>native</orgName> in his presence - "<persName>Jesus</persName> <hi rend="underline">cleaved</hi> to our
 <lb/>sins" the word cleaved gives but an imperfect idea of the force of the word <foreign xml:lang="tn">shurelelela</foreign>.  It means
-<lb/>adhere to or refuse to give up. As a man to his wife who having left him he follows and perserveres
+<lb/>adhere to or refuse to give up. As a man to his wife who having left him he follows and perseveres
 <lb/>in attempting to bring back. He meant to say "died for." I mention this for your own instruction
 <lb/>I often think of it as a spur to myself to attain a better knowledge of the language</p>
 <lb/><p><space extent="2" unit="chars"/>After the orthography which I <choice><sic>concieve</sic><corr>conceive</corr></choice> to be nearly perfect as a means of reducing
@@ -289,7 +295,7 @@
 <lb/>the word with its sign twice over - Examples might
 <lb/>easily be cited in which it is much more fequently
 <lb/>used than in this but in these it is quite <w>untrans<supplied>-</supplied><!-- add extra dash? MB -->
-<lb break="no"/>-lateable</w> into the English* <note place="marginleft" rend="vertical">except by a multiplication of particles an extent which would prevent most <term type="people">Englishmen</term><!-- or nationality? MB--> <lb/>from understanding their own tongue</note>- <foreign xml:lang="tn">Ga go e si go ko go <unclear cert="low">utlualo</unclear></foreign>
+<lb break="no"/>-lateable</w> into the English* <add place="marginleft"><note rend="vertical">except by a multiplication of particles an extent which would prevent most <term type="people">Englishmen</term><!-- or nationality? MB--> <lb/>from understanding their own tongue</note></add> - <foreign xml:lang="tn">Ga go e si go ko go <unclear cert="low">utlualo</unclear></foreign>
 <lb/>contains negatives and signs mixed together which
 	
 	<cb rend="left"/>
@@ -299,7 +305,7 @@
 <lb/>a faint idea of the sweat of brain he must have endured in picking &amp; dissecting these
 <lb/>particles</p>
 <lb/><p>All nouns beginning with C.E.K.J.P.T.U. <space extent="2" unit="chars"/>have e as their sign - <unclear cert="medium"><app><rdg>x</rdg><rdg><choice><abbr>ex</abbr><expan>examples</expan></choice></rdg></app></unclear>. <foreign xml:lang="tn">Cakae</foreign> a
-<lb/>battleaxe <foreign xml:lang="tn">Eñkho</foreign> a pitcher <foreign xml:lang="tn">Kañkashi e</foreign> an oar. <foreign xml:lang="tn">Tolo</foreign>. a <term type="animal"><choice><orig>khoodoo</orig><reg>kudu</reg></choice></term> <foreign xml:lang="tn">Pitse</foreign> a <term type="animal">zebra</term> - <foreign xml:lang="tn">hita</foreign> a
+<lb/>battleaxe <foreign xml:lang="tn">Eñkho</foreign> a pitcher <foreign xml:lang="tn">Kañkashi e</foreign> an oar. <foreign xml:lang="tn">Tolo</foreign>. a <term type="animal"><choice><orig>khoidoo</orig><reg>kudu</reg></choice></term> <foreign xml:lang="tn">Pitse</foreign> a <term type="animal">zebra</term> - <foreign xml:lang="tn">hita</foreign> a
 <lb/>wingless insect of domestic habits yet not respected <foreign xml:lang="tn">Uñkoe</foreign> <term type="animal">tiger</term> - you may make the above
 <lb/>into a <unclear cert="high">rule</unclear> to assist memory. <space extent="2" unit="chars"/>Initial <foreign xml:lang="tn">Cektipu</foreign> hath e. or any other cabalistic word
 <lb/>you like to manufacture</p>
@@ -312,7 +318,7 @@
 <lb/><p>Initial mo has o <space extent="2" unit="chars"/><foreign xml:lang="tn">molao o</foreign> <space extent="1" unit="chars"/>a law. <foreign xml:lang="tn">mosho o</foreign>, morning <del type="strikethrough"><gap extent="4" unit="chars" agent="illegible"/></del> <add place="above"><foreign xml:lang="tn">monyo</foreign> dew</add> <del type="strikethrough"><gap extent="6" unit="chars" agent="illegible"/></del> <add place="above"><foreign xml:lang="tn">mõko</foreign> chaff</add> <del type="strikethrough"><gap extent="5" unit="chars" agent="illegible"/></del>
 <lb/><del type="strikethrough"><gap extent="5" unit="chars" agent="illegible"/></del>. - <space extent="2" unit="chars"/>But <foreign xml:lang="tn">mila</foreign> a street mele the body have also O - probably in some of the dialects
 <lb/>a street is called <foreign xml:lang="tn">mola</foreign> - &amp; the body <foreign xml:lang="tn">mole</foreign> - Setibele has <foreign xml:id="und">Motsila</foreign><!-- no iso code for Setibele. MB --> a street <foreign xml:lang="tn">mo'mbila</foreign> 
-<lb/>Mo inital forms the plural by changing into e<foreign xml:lang="tn">melao</foreign> <foreign xml:lang="tn">mesho</foreign> <del type="strikethrough"><gap extent="5" unit="chars" agent="illegible"/></del> <foreign xml:lang="tn">mila</foreign>, <add place="above"><choice><abbr>pl</abbr><expan>plural</expan></choice></add> <foreign xml:lang="tn">mebila</foreign> - <foreign xml:lang="tn">mele</foreign> <add place="above"><choice><abbr>pl</abbr><expan>plural</expan></choice></add> <foreign xml:lang="tn">mebele</foreign>
+<lb/>Mo inital forms the plural by changing into <foreign xml:lang="tn">e melao</foreign> <foreign xml:lang="tn">mesho</foreign> <del type="strikethrough"><gap extent="5" unit="chars" agent="illegible"/></del> <foreign xml:lang="tn">mila</foreign>, <add place="above"><choice><abbr>pl</abbr><expan>plural</expan></choice></add> <foreign xml:lang="tn">mebila</foreign> - <foreign xml:lang="tn">mele</foreign> <add place="above"><choice><abbr>pl</abbr><expan>plural</expan></choice></add> <foreign xml:lang="tn">mebele</foreign>
 
 	<pb facs="liv_000640_0004" n="0004"/>
 <lb/>Under this head may come <gap extent="2" unit="chars" agent="illegible"/> proper nouns or nouns expressing indiviuality - their signs are eo o
@@ -324,16 +330,17 @@
 <lb/><p>1 Any verb may be individualized by prefixing - <foreign xml:lang="tn">mo</foreign> &amp; <foreign xml:lang="tn">ba</foreign> - and using these as the signs of the
 <lb/>singular &amp; plural respectively; or 2 by the word <foreign xml:lang="tn">mothu</foreign> with the sign in the genitive <del type="strikethrough">a <gap extent="4" unit="chars" agent="illegible"/></del> <add place="above">preceding</add> 
 <lb/><unclear>Rx 1</unclear> <foreign xml:lang="tn">molosi</foreign>, a <term type="occupation">fighter</term>, <foreign xml:lang="tn">balosi</foreign> <term type="occupation">fighters</term>, <foreign xml:lang="tn">mothu oa tōo</foreign>, a person of fighting - <foreign xml:lang="tn">morisi</foreign> a herd --
-<lb/><foreign xml:lang="tn">barisi, mothu oa tisho</foreign>, a person of herding - <foreign xml:lang="tn">mopi</foreign> from <foreign xml:lang="tn">bopa</foreign> to form or create <foreign xml:lang="tn">babopi</foreign> - <foreign xml:lang="tn"><w>mothu<supplied>-</supplied>
-<lb break="no"/>-ness</w></foreign> (<foreign xml:lang="tn">mahumo</foreign> <choice><abbr>pl</abbr><expan>plural</expan></choice> - riches) <space extent="1" unit="chars"/><foreign xml:lang="tn">moloi</foreign> a <orgName>witch</orgName> <foreign xml:lang="tn">baloi mothu ou tōo, morōka</foreign> a <term type="occupation">rain doctor</term>
+<lb/><foreign xml:lang="tn">barisi, mothu oa tisho</foreign>, a person of herding - <foreign xml:lang="tn">mopi</foreign> from <foreign xml:lang="tn">bopa</foreign> to form or create <foreign xml:lang="tn">babopi</foreign> - <foreign xml:lang="tn">mothu
+<lb/>oa popo</foreign>, <foreign xml:lang="tn">mohumi bahumi</foreign> from <foreign xml:lang="tn">huma</foreign> to be rich or become rich <foreign xml:lang="tn">mothu oa khumo</foreign>, a man of <w>rich<del type="strikethrough">es</del>
+<lb break="no"/>-ness</w> (<foreign xml:lang="tn">mahumo</foreign> <choice><abbr>pl</abbr><expan>plural</expan></choice> - riches) <space extent="1" unit="chars"/><foreign xml:lang="tn">moloi</foreign> a <orgName>witch</orgName> <foreign xml:lang="tn">baloi mothu ou tōo, morōka</foreign> a <term type="occupation">rain doctor</term>
 <lb/><foreign xml:lang="tn">barōka, moroki</foreign> a sewer <foreign xml:lang="tn">baroki</foreign> sewers &amp;c &amp;c.</p>
-<lb/><p>The sign of the plural "me" is e. but <foreign xml:lang="tn">metoe</foreign>, water, has a, the <orgName><choice><orig>bakalahari</orig><reg>Bakalahari</reg></choice></orgName> say <foreign xml:lang="tn">mãdze a</foreign> &amp;
+<lb/><p>The sign of the plural "me" is e. but <foreign xml:lang="tn">metse</foreign>, water, has a, the <orgName><choice><orig>bakalahari</orig><reg>Bakalahari</reg></choice></orgName> say <foreign xml:lang="tn">mãdze a</foreign> &amp;
 <lb/>that probably was the original form of the word. But I must now put a period to this and
 <lb/>whether I ever resume or not will depend on circumstance -</p>
 <lb/><p><date when="1847-09"><choice><abbr>Sept.</abbr><expan>September</expan></choice></date> We have now got into our hut on the <placeName><geogName type="stream">Kolobeng</geogName></placeName> - The town has as <persName>D<hi rend="sup">r</hi> Hamilton</persName> of <placeName><settlement type="city">Leeds</settlement></placeName>
 <lb/>would say an <unclear cert="medium">oppidal</unclear> appearance though still in process of building. Our corner although
 <lb/>we are attempting only temporary buildings has assumed a touch of the <orgName>European</orgName> style <persName>Mebaloe</persName>
-<lb/><persName>Paul</persName> <persName>Isaac</persName> &amp; our man <persName>Friday</persName> (<persName>Morukanelo</persName>) have for the first time - in their lives got up square
+<lb/><persName>Paul</persName> <persName>Isaac</persName> &amp; our man <persName>Friday</persName> (<persName>Morukanelo</persName>) have for the first time in their lives got up square
 <lb/>huts of poles &amp; reed - the <term type="occupation">chief</term> without any suggestion from me - determined to erect the
 <lb/>school. I desire said he that you be at no expense whatever, I wish to build a house for God
 <lb/>who is the defence of my town, I shall call upon all the people to <add place="below">^</add> <add place="above">cut</add> wood &amp;c it <del type="strikethrough"><unclear cert="medium">must</unclear></del> <add place="above">will</add>  be my work</p>
@@ -378,7 +385,7 @@
 <lb/>in <persName>Jesus</persName>, to whom their state is known. <space extent="1" unit="chars"/>A lady in the excess of her simplicity wrote
 <lb/>to me requesting me to tell more of our success in order to stimulate her prayers, Poor
 <lb/>ignoramus that I was I had told of the degradation into which so many precious <w>immor<supplied>-</supplied>
-<lb break="no"/>-tals</w> had sunk and that the gospel had little or no effect in the <placeName><region>interior</region></placeName> even when preached
+<lb break="no"/>-tals</w> had sunk and that the gospel had little or no effect in the <placeName><region>Interior</region></placeName> even when preached
 <lb/>again &amp; again, I thought this stimulus enough to <choice><sic>any one</sic><corr>anyone</corr></choice> who longed <del type="strikethrough">for</del> <add place="above">that</add> the glory of Jehovah
 <lb/>should dispel the clouds of darkness &amp; death which cover the earth. But the longer one lives the
 <lb/>more one learns, All the success in <placeName><region><term type="tribe"><choice><orig>Bechuana</orig><reg>Batswana</reg></choice></term> land</region></placeName> belongs through the Divine favour to those
