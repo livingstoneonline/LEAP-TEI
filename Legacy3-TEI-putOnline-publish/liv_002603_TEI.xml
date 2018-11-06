@@ -20,6 +20,7 @@
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
 					<resp>Formatting review</resp>
+					<resp>Implement corrections</resp>
                 </respStmt>
 				<respStmt xml:id="JM">
                     <name>Jared McDonald</name>
@@ -40,6 +41,10 @@
 					<resp>Proofing</resp>
 					<resp>Quality Control and Integration</resp>
                 </respStmt>
+				<respStmt xml:id="KS">
+					<name>Kate Simpson</name>
+					<resp>Proofing</resp>
+				</respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -83,6 +88,8 @@
         </profileDesc>
         <revisionDesc>
 			<!-- Finalization -->
+			<change when="2018-11-06" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#KS">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 
@@ -115,7 +122,7 @@
                
 	<pb facs="liv_002603_0001" n="0001"/>
 <opener>
-<lb/><add place="inspace" rend="gray small" hand="#U1">5-6-9</add><!-- diagonal --> <dateline><space extent="4" unit="chars"/><placeName><region>South Eastern Central <placeName><bloc>Africa</bloc></placeName></region></placeName> <date when="1872-02"><choice><abbr>Feby</abbr><expan>February</expan></choice> 1872</date>
+<lb/><add place="inspace" rend="gray small" hand="#U1"><app><rdg>5</rdg><rdg>8</rdg></app>-6-9</add><!-- diagonal --> <dateline><space extent="4" unit="chars"/><placeName><region>South Eastern Central <placeName><bloc>Africa</bloc></placeName></region></placeName> <date when="1872-02"><choice><abbr>Feby</abbr><expan>February</expan></choice> 1872</date>
 <lb/><space extent="4" unit="words"/>(1) <space extent="5" unit="words"/><space extent="3" unit="chars"/><add place="inspace" rend="gray small" hand="#U1">MS 8/15</add>
 <lb/><space extent="3" unit="words"/><persName>James Gordon Bennet <choice><abbr>Esq</abbr><expan>Esquire</expan></choice></persName> -</dateline>
 <lb/><space extent="5" unit="words"/><space extent="2" unit="chars"/><salute>My Dear Sir</salute></opener>
@@ -128,14 +135,14 @@
 <lb/>good racy bloody murders - I am however far
 <lb/>from fond of the horrible - often wish I could
 <lb/>forget the scenes I have seen and certainly never
-<lb/>by to inflict on others the sorrow which
+<lb/>try to inflict on others the sorrow which
 <lb/>being a witness of man's inhumanity to man
 <lb/>has often entailed on myself - <orgName>Some of your
 <lb/>readers</orgName> know that <date when="1867">about five years ago</date>
 <lb/>I undertook at the instigation of my very dear
-<lb/>old friend <persName>Sir Roderick Murchison <choice><abbr>Bart</abbr><expan>Baronet</expan></choice></persName> - The
-<lb/>task of examining <unclear cert="high">the</unclear><!-- There is a tear in the paper here. EM --> <placeName><geogName type="watershed">Watershed</geogName></placeName><!-- Correct? EM --><!-- OK. AW --> of 
-<lb/><placeName><region>South Central <placeName><bloc>Africa</bloc></placeName></region></placeName> - The work had a charm for my mind
+<lb/>old friend <persName>Sir Roderick Murchison <choice><abbr>Bart</abbr><expan>Baronet</expan></choice></persName> - the
+<lb/>task of examining <unclear cert="high">the</unclear><!-- There is a tear in the paper here. EM --> <placeName><geogName type="watershed">Watershed</geogName></placeName><!-- Correct? EM --><!-- OK. AW --> of <placeName><region>South Central  
+<lb/><placeName><bloc>Africa</bloc></placeName></region></placeName> - The work had a charm for my mind
 <lb/>because the dividing line between <placeName><region>North</region></placeName> &amp; <placeName><region>South</region></placeName>
 <lb/>was unknown and a fit object for exploration
 <lb/>Having <del type="strikethrough">another</del> work in hand I at first <w>recom-
@@ -146,7 +153,7 @@
 <lb/>his warm jovial manner "you will be
 <lb/>the real <term type="occupation">discoverer</term> of the <placeName><geogName type="source">sources of the <placeName><geogName type="river">Nile</geogName></placeName></geogName></placeName> -"
 <lb/>I thought that two years would be sufficient
-<lb/>to go from the <placeName><region>coast</region></placeName> in land across the head
+<lb/>to go from the <placeName><region>coast</region></placeName> inland across the head
 <lb/>of <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName> to the <placeName><geogName type="watershed">Watershed</geogName></placeName> wherever
 <lb/>that might be and after examination try to
 <lb/>begin a benevolent <orgName>mission</orgName> with some
@@ -183,7 +190,7 @@
 <lb/>as <orgName>slave trading</orgName> is now - But as it
 <lb/>became <w>thorough<subst><del>y</del><add place="over-text">l</add></subst>y</w> known the whole
 <lb/>civilized world rose against it - In now
-<lb/>trying to make the <orgName><placeName><region>Eastern <placeName><bloc>Africa</bloc></placeName></region></placeName>
+<lb/>trying to make the <orgName><placeName><region>Eastern <placeName><bloc>African</bloc></placeName></region></placeName>
 <lb/><orgName><orgName>slave</orgName> trade</orgName></orgName> better known to <term type="people">Americans</term>
 <lb/>I indulge the hope that I am aiding on,
 <lb/>though in a small degree, the good
@@ -210,9 +217,9 @@
 <lb/>unhealthy climate - These have told most
 <lb/>injuriously on their physical frames
 <lb/>while fraud and trade <term type="foodstuff">Rum</term> have ruined
-<lb/>their moral natures - <add place="below">^</add> <add place="above">Not to discriminate the difference</add> is monstrous <w>in-
+<lb/>their moral natures - <add place="below">^</add> <add place="above">Not to discriminate the difference</add> it is monstrous <w>in-
 <lb break="no"/>justice</w> <add place="below">^</add> <add place="above">to</add> the main body of the population
-<lb/>living free in <placeName><region>the interior</region></placeName> under their own
+<lb/>living free in <placeName><region>the Interior</region></placeName> under their own
 <lb/><term type="occupation">chiefs</term> and laws - cultivating their own
 <lb/>farms - catching the <term type="animal_foodstuff">fish</term> of their own rivers
 <lb/>or fighting bravely with the grand old
@@ -220,7 +227,7 @@
 <lb/>recent continents can only be reached in
 <lb/>rocky strata or under perennial ice -
 <lb/><persName><choice><orig>Winwoode</orig><reg>Winwoode</reg></choice> Reade</persName> hit the truth when he said
-<lb/>The <term type="person">Ancient Egyptian</term> with his large round
+<lb/>the <term type="person">Ancient Egyptian</term> with his large round
 <lb/>black eyes - full luscious lips and <w>some-
 <lb break="no"/>=what</w> depressed nose is far nearer the
 <lb/>typical <orgName>Negro</orgName><!-- Still unsure on identifier. EM --><!-- OK. AW --> than the <orgName><placeName><region>West Coast</region></placeName> African</orgName><!-- Not sure here, either. EM --><!-- Fixed. AW -->
@@ -248,7 +255,7 @@
 <lb/><choice><sic>a</sic><corr/></choice> <add place="above" rend="gray" hand="#U"><unclear>Nis</unclear></add> syllable <add place="above"><del type="strikethrough">(3)</del> (4)</add> calculated to press down either
 <lb/>class more deeply in the mire in which
 <lb/>they are already sunk - But I wish to point
-<lb/>and that these are not typical <orgName>Africans</orgName>
+<lb/>out that these are not typical <orgName>Africans</orgName>
 <lb/><add place="below">^</add> <add place="inspace" rend="small">any more than typical <term type="people">Englishmen</term> -</add> 
 <lb/>and that the <orgName>natives</orgName> of nearly all the
 <lb/>high lands of the <placeName><region>Interior of the <placeName><bloc>Continent</bloc></placeName></region></placeName>
@@ -269,8 +276,8 @@
 <lb/>younger days, was exactly like the
 <lb/><orgName>ancient Assyrians</orgName> sculptured on
 <lb/>the <placeName><settlement type="city">Nineveh</settlement></placeName> <!-- Adrian, Nineveh misspell DL or transcription? HB --><!-- Fixed. AW --> marbles as <persName><choice><sic>Nimroad</sic><corr>Nimrod</corr></choice></persName><!-- I strongly suspect this is a reference to Nimrod, who is credited with building Ninevah. JM-->
-<lb/>and others - and he <choice><orig>shewed</orig><reg>showed</reg></choice> himself
-<lb/>to be one of ourselves by habitually
+<lb/>and others - and he <choice><orig>shewed</orig><reg>showed</reg></choice> himself to
+<lb/>be one of ourselves by habitually
 <lb/>indulging in copious potations of
 <lb/><term type="foodstuff">beer</term> called <term type="foodstuff"><foreign xml:lang="und"><hi rend="underline">pombe</hi></foreign></term> and had become
 <lb/>what <persName>Nathaniel Hawthorne</persName> called
@@ -289,12 +296,12 @@
 <lb/><p>Many of the <add place="above">(5)</add> women were very pretty and
 <lb/>like all ladies would have been much ~
 <lb/>prettier if they had only let themselves alone -
-<lb/>fortunatley the Dears could not change
+<lb/>fortunately the Dears could not change
 <lb/>their charming black eyes - beautiful <w>fore<supplied>-</supplied>
 <lb break="no"/>heads</w> - nicely rounded limbs - well shaped
 <lb/>forms and small hands and feet - But <!-- Adrian, is this 0 (should be - ) a typo on DL or transcription part? HB -->
 <lb/>they must adorn themselves - and this they
-<lb/>do (oh! the Hussies) by filing their splendid
+<lb/>do (Oh! the Hussies) by filing their splendid
 <lb/>teeth to points like cats teeth - It was <w>dis-
 <lb break="no"/>-tressing</w>, for it made their smile which has
 <lb/>so much power over us great <hi rend="underline">he</hi> <term type="animal">donkeys</term>
@@ -314,7 +321,7 @@
 <lb/>through the cartilage of the nose so as to
 <lb/>bulge out the - <foreign xml:lang="und"><hi rend="underline">alaz nasi</hi></foreign> - wings of the
 <lb/>nose of anatomists - <persName><choice><orig>Cazembe</orig><reg>Kazembe</reg></choice></persName>'s queen
-<lb/><persName>Moari a ngombe</persName> by name would be esteeemed
+<lb/><persName>Moari a ngombe</persName> by name would be esteemed
 <lb/>a real beauty either in <placeName><settlement type="city">London</settlement></placeName> <placeName><settlement type="city">Paris</settlement></placeName>
 <lb/>or <placeName><settlement type="city">New York</settlement></placeName> and yet she had a small
 <lb/>hole through the cartilage near the tip of her 
@@ -329,7 +336,7 @@
     <!-- mb, aw, jm, aw -->
 
 	<pb facs="liv_002603_0011" n="0011"/>
-<lb/><!-- What do I do about the pencil marks in the top right hand corner? MB -->Let those <add place="over-text" rend="gray" hand="#U"><gap extent="1" unit="words" agent="illegible"/></add> who wish <add place="above">(6)</add> to know go &amp; her
+<lb/><!-- What do I do about the pencil marks in the top right hand corner? MB -->Let those <add place="over-text" rend="gray" hand="#U"><gap extent="1" unit="words" agent="illegible"/></add> who wish <add place="above">(6)</add> to know go &amp; see her
 <lb/>carried <add place="below">^</add> <anchor xml:id="reorder-2"/> in her <term type="animal"><w>pon<retrace>y</retrace></w></term> <!-- suggestions? MB --><!-- Fixed. AW --> phaeton <metamark function="reorder" spanTo="#meta-2"/> <seg corresp="#reorder-2">to her farm</seg><anchor xml:id="meta-2"/><!-- Livingstone writes "to her farm" at the end of the line, then uses a long arrow to indicate it should be placed. MB -->
 <lb/>which is a sort of throne fastened on two 
 <lb/>very long poles, and carried by twelve
@@ -378,7 +385,7 @@
 <lb/>crime of which the <choice><sic>eldes</sic><corr>eldest</corr></choice> brother was guilty
 <lb/>and who had been led to avenge it - It is 
 <lb/>very likely that they would stipulate that no
-<lb/>other should be punished but the actual <w>Per-
+<lb/>other should be punished but the actual <w>per-
 <lb break="no"/>-petrator</w> - Domestic <orgName>slaves</orgName> acting under his orders
 <lb/>would be considered free from blame - I know
 <lb/>of nothing that distinguishes the <w>uncon-
@@ -395,13 +402,13 @@
 <lb/>wooden yokes - I came near the <orgName>party of <persName>Syde
 <lb/><choice><orig>-bin</orig><reg>bin</reg></choice> Habib</persName></orgName> close <add place="below">^</add> <add place="above">to</add> the point where a huge
 <lb/>rent in the <placeName><geogName type="mountain">mountains of <placeName><region><choice><orig>Rua</orig><reg>Lubaland</reg></choice></region></placeName></geogName></placeName> allows the 
-<lb/>escape of the great river <placeName><geogName type="river">Lualaba</geogName></placeName> <del type="strikethrough">to ensue</del>
+<lb/>escape of the great river <placeName><geogName type="river">Lualaba</geogName></placeName> <del type="strikethrough">to issue</del>
 <lb/>out of <placeName><geogName type="lake">Lake Moero</geogName></placeName> - and here I had for 
 <lb/>the first time an opportunity of observing 
 <lb/>the difference between <orgName>slaves</orgName> - and <orgName>freemen</orgName>
 <lb/>made <orgName>captives</orgName> - When fairly across <placeName><geogName type="river">Lualaba</geogName></placeName> 
 <lb/><persName>Syde</persName> thought his <orgName>captives</orgName> safe and got rid of 
-<lb/>the trouble of attending to &amp; matching the chained
+<lb/>the trouble of attending to &amp; watching the chained
 <lb/>gangs by taking off both chains and yokes
 
 	<pb facs="liv_002603_0014" n="0014"/>
@@ -421,7 +428,7 @@
 <lb/>the top of the sternum or breast bone - This
 <lb/>to me was the most startling death I ever saw.
 <lb/>They evidently died of broken heartedness,
-<lb/>and the <orgName>Arab</orgName> wondered, "seeing they had plenty
+<lb/>and the <orgName>Arabs</orgName> wondered, "seeing they had plenty
 <lb/>to <w><hi rend="underline">e</hi>at</w>"- I saw others perish particularly a very
 <lb/>fine boy of ten or twelve years of age - When
 <lb/>asked where he felt ill he put his <w>h<del>eart</del><add place="over-text">and</add></w> correctly
@@ -451,7 +458,7 @@
 	<pb facs="liv_002603_0017" n="0017"/>
 <lb/><p>I once saw a <orgName><add place="above">(9)</add> party <add place="below">^</add> <add place="above">of</add> twelve</orgName> <add place="above" rend="gray">Clunire</add> <!-- unsure how to encode this. MB --><!-- Fixed. AW --> who had been <orgName>slaves</orgName>
 <lb/>in their own country <placeName><region>Lunda</region></placeName> or <placeName><region>Lõnda</region></placeName> of 
-<lb/>which <persName><choice><orig>Cazembe</orig><reg>Kazembe</reg></choice></persName> is <term type="occupation">chief</term> <w><gap extent="1" unit="chars"/><supplied cert="high">o</supplied>r</w> <term type="occupation">General</term> - they were traded
+<lb/>which <persName><choice><orig>Cazembe</orig><reg>Kazembe</reg></choice></persName> is <term type="occupation">chief</term> <w><gap extent="1" unit="chars"/><supplied cert="high">o</supplied>r</w> <term type="occupation">General</term> - they were loaded
 <lb/>with large heavy wooden yokes which are forked
 <lb/>trees about three inches in diameter and seven
 <lb/>or eight feet long - the neck is inserted in the 
@@ -484,7 +491,7 @@
 <lb/>means to fly or to leap - they were using it to 
 <lb/>express the idea of haunting as a ghost and inflicting
 <lb/>disease and death, and the song was "yes we
-<lb/>are going away to <foreign xml:lang="und">Mañga</foreign> (abroad or <placeName>plute<!-- uncertain about this word. MB --><!-- Also the best I can do. AW -->man's land</placeName>
+<lb/>are going away to <foreign xml:lang="und">Mañga</foreign> (abroad or <placeName>White<!-- uncertain about this word. MB --><!-- Also the best I can do. AW -->man's land</placeName>
 <lb/>with yokes on our necks but we shall have
 <lb/>no yokes in death and we shall return
 <lb/>and haunt and kill you" - the chorus
@@ -500,7 +507,7 @@
 <lb/>of at least 104 years had been one of the 
 <lb/><term type="occupation">sellers</term> - In accordance with <orgName>African</orgName> belief
 <lb/>they had no doubt of being soon able by 
-<lb/>ghost power to kill even him - their
+<lb/>ghost power to kill even him - Their
 <lb/>refrain as if "Oh Oh Oh" Bird of <choice><orig>fredum</orig><reg>freedom</reg></choice>"<!-- Do I need to correct the spelling of this since Livingstone is trying to represent pronunciation here? MB --><!-- See what I've done. AW -->
 <lb/>Oh - You sold me Oh Oh Oh I shall haunt
 <lb/>you Oh Oh Oh" the laughter told not of mirth
@@ -513,7 +520,7 @@
 <lb/>It is but recently known - the reputation
 <lb/>which the <orgName><choice><orig><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orig><reg>Maniema</reg></choice></orgName> enjoyed of being
 <lb/><orgName>cannibals</orgName><!--any tags for cannibals? MB--><!-- OK. AW --> prevented the <orgName><orgName>half caste Arab</orgName> <term type="occupation">traders</term></orgName>
-<lb/>from venturing among the - the circumstantial 
+<lb/>from venturing among them - the circumstantial 
 <lb/>details of the practices of the <orgName>men eaters</orgName> given
 <lb/>by neighbouring tribes were confirmed by two
 <lb/><orgName>Arabs</orgName> who <date when="1870">two years ago</date> went as far as 
@@ -527,7 +534,7 @@
 <lb/><placeName><region><choice><orig><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orig><reg>Maniema</reg></choice></region></placeName>, but fortunately my mother never
 <lb/>frightened me in infancy with "Bogie" and stuff
 <lb/>of that sort and I am not liable to fits of 
-<lb/><term type="ailment">Bogie phobia</term><!-- code as disease? MB --><!-- Sure. AW --> in which disease the poor patient
+<lb/><term type="ailment">Bogiephobia</term><!-- code as disease? MB --><!-- Sure. AW --> in which disease the poor patient
 <lb/>believes every thing awful if only it is attributed
 <lb/>to the owner of a black skin - I have heard that
 <lb/>the complaint was epidemic lately in <placeName><country>Jamaica</country></placeName>
@@ -560,7 +567,7 @@
 <lb/>lifetime to count them - these springs
 <lb/>join each other and form brooks which
 <lb/>again converge and become rivers or
-<lb/>say streams of <measure>20, 40 or 60 yards</measure> that never
+<lb/>say streams of <measure>20, 40 or 80 yards</measure> that never
 <lb/>dry - All flow towards the centre of an immense
 <lb/>valley which I believe to be the <placeName><geogName type="valley">valley of
 <lb/>the <placeName><geogName type="river">Nile</geogName></placeName></geogName></placeName> - In this <unclear cert="medium">trough</unclear> we have at first
@@ -581,7 +588,7 @@
 <lb/><!-- There seems to be some sore of mark to the left -->It is supplied by a <add place="above">(12)</add> river called <placeName><geogName type="river"><choice><orig><w>Chambe<subst><del>s</del><add place="over-text">z</add></subst>e</w></orig><reg>Chambezi</reg></choice></geogName></placeName><!-- Second opinion? EM --><!-- OK as is. AW -->
 <lb/>and several others shich may be considered
 <lb/>sources - and out of it flows the large river
-<lb/><placeName><geogName type="river"><choice><sic>luapula</sic><corr>Luapula</corr></choice></geogName></placeName> (<placeName><geogName type="river">Luapula</geogName></placeName>) which enters <placeName><geogName type="lake">Lake
+<lb/><placeName><geogName type="river">Luapula</geogName></placeName> (<placeName><geogName type="river">Luapula</geogName></placeName>) which enters <placeName><geogName type="lake">Lake
 <lb/>Moero</geogName></placeName> and comes out as the great lake
 <lb/>river <placeName><geogName type="river">Lualaba</geogName></placeName> to form <placeName><geogName type="lake">Lake Kamolondo</geogName></placeName>. 
 <lb/>West of <placeName><geogName type="lake">Kamolondo</geogName></placeName> but still in the great
@@ -616,8 +623,8 @@
 <!-- Blank Page. EM -->
 
 	<pb facs="liv_002603_0025" n="0025"/>
-<lb/><add place="above marginleft" rend="gray" hand="#U"><gap extent="3" unit="chars"/></add><!-- Not sure on this. EM --><!-- Someone's initials but I can't read them. AW --> But though I <add place="above">(13)</add> friend the <placeName><geogName type="watershed">Watershed</geogName></placeName> <measure>between
-<lb/>10° - 20° South</measure>, that is, a long way further up
+<lb/><add place="above marginleft" rend="gray" hand="#U"><gap extent="3" unit="chars"/></add><!-- Not sure on this. EM --><!-- Someone's initials but I can't read them. AW --> But though I <add place="above">(13)</add> found the <placeName><geogName type="watershed">Watershed</geogName></placeName> <measure>between
+<lb/>10° - 12° South</measure>, that is, a long way further up
 <lb/>the valley than any one had dreamed - and
 <lb/>saw the streams of some <measure>600 miles</measure> of it <w>con-
 <lb break="no"/>verging</w> into the centre of the great valley, no one
@@ -627,12 +634,12 @@
 <lb/>must run uphill - others imagined that it
 <lb/>might flow into the <placeName><geogName type="ocean">Atlantic</geogName></placeName><!-- Correct? EM --><!-- Yes. AW --> - It was to find
 <lb/>out where it actually did go that took me
-<lb/>into <placeName><region><choice><orig>Manyema</orig><reg>Maniema</reg></choice></region></placeName> - I could get no <w>inform<supplied>-</supplied>
+<lb/>into <placeName><region><choice><orig>Manyema</orig><reg>Maniema</reg></choice></region></placeName> - I could get no <w>inform-
 <lb break="no"/><supplied>-</supplied>ation</w> from <term type="occupation">traders</term> outside, and no light
-<lb/>could be obtained from the <orgName><choice><orig>Manyema</orig><reg>Maniema</reg></choice></orgName>
+<lb/>could be obtained from the <orgName><choice><orig>Manyuema</orig><reg>Maniema</reg></choice></orgName>
 <lb/>within - They never travel and it was so
 <lb/>of old - They consist of petty headmanships
-<lb/>and each <unclear cert="medium">brings</unclear> his grievance from some
+<lb/>and each <unclear cert="medium">hugs</unclear> his grievance from some
 <lb/>old feud, and is worse than our old <orgName><placeName><region>Highland</region></placeName>
 <lb/>ancestors</orgName> - Every <term type="occupation">headman</term> of a hamlet
 <lb/>would like to see every other ruling blockhead
@@ -640,14 +647,14 @@
 <lb/>and though terrible fellows among <w>them<supplied>-</supplied>
 <lb break="no"/>selves</w> with their large spears and huge
 <lb/>wooden shields they were never known
-<lb/>to injure <orgName>foreigners</orgName> till <orgName>slaves</orgName> tried the
+<lb/>to injure <orgName>foreigners</orgName> till <orgName><choice><sic>slaves</sic><corr>slavers</corr></choice></orgName> tried the
 <lb/>effects of gunshot upon them and captured
 <lb/>their women and children - As I could get
 <lb/>no geographical information from them
 <lb/>I had to feel my way and grope in the
 <lb/>interminable forests and prairies and
 <lb/>three times took the wrong direction - going
-<lb/>Southerly not knowing that the great
+<lb/>Northerly not knowing that the great
 <lb/>river makes immense sweeps to the <!-- geog: Nile, I think. HB -->
 <lb/>West and South West - It felt as if I
 <lb/>were running my head against 
@@ -662,13 +669,13 @@
 <lb/>had serious doubts but stuck to it like a <term type="person">Briton</term>
 <lb/>and at last found that the mighty river left its <!-- geog: Nile, I think. HB -->
 <lb/>Westing and flowed right away to the North
-<lb/>the two great Western draws the <placeName><geogName type="river">Lufira</geogName></placeName>
+<lb/>the two great Western drains the <placeName><geogName type="river">Lufira</geogName></placeName>
 <lb/>and <placeName><geogName type="river">Lomame</geogName></placeName> running North East before
 <lb/>joining the central line or main = <placeName><geogName type="river"><persName>Webb</persName>'s
 <lb/>Lualaba</geogName></placeName> - told that the Western side of the
 <lb/>Great Valley was high like the Eastern
 <lb/>and as this main is reported to go into
-<lb/>large <term type="plant">reedy</term> Lakes it can scarcely be ought
+<lb/>large <term type="plant">reedy</term> Lakes it can scarcely be aught
 <lb/>else but the Western arm of the <placeName><geogName type="river">Nile</geogName></placeName> -
 <lb/>But besides all this in which it is
 <lb/>quite possible I may be mistaken, we have
@@ -682,7 +689,6 @@
 <lb/>flow as we have seen to the North -
 <lb/>These four full grown gushing fountains
 <lb/>rising so near each other, and giving
-<lb/>origin so near each other, and giving
 <lb/>origin to four large rivers answer in <!-- geog: Liambai, Kafue, Lufira, Lomame. HB -->
 <lb/>a certain degree to the description given of
 <lb/>the unfathomable <placeName><geogName type="fountain">fountains of the <placeName><geogName type="river">Nile</geogName></placeName></geogName></placeName>
@@ -700,7 +706,7 @@
 	<pb facs="liv_002603_0029" n="0029"/>
 <lb/><choice><sic>of</sic><corr/></choice> <add place="above" rend="gray" hand="#U"><metamark/><!-- Not sure what this symbol is. EM --><!-- Yes, some sort of metmark. AW --></add> reading the ancient <add place="above">(15)</add> <term type="occupation">historian</term> in boyhood - the
 <lb/>waters were said to well up from an <w>unfathom-
-<lb break="no"/>-able</w> depth another part half North to <placeName><country>Egypt</country></placeName>
+<lb break="no"/>-able</w> depth and then part, half North to <placeName><country>Egypt</country></placeName>
 <lb/>and half South to <placeName><region>Inner <placeName><country>Ethiopia</country></placeName></region></placeName> - Now
 <lb/>I have heard of the fountains aforementioned <!-- geog: fountains of the Nile -->
 <lb/>so often I cannot doubt their existence and
@@ -720,7 +726,7 @@
 <lb/>protected <term type="nationality">English</term> subjects and by their money
 <lb/>their muskets their ammunition the <orgName><placeName><region>East 
 <lb/><placeName><bloc>Africa</bloc></placeName></region></placeName> <term type="faith">Moslem</term> <orgName><orgName>Slave</orgName> Trade</orgName></orgName> is mainly carried <!-- This is a lot of orgNames I know haha, but thought it was the fullest way to code - let me know if you'd like to eliminate some? HB -->
-<lb/>on - the cunning <orgName><placeName><region>East</region></placeName> <term type="people">Indians</term></orgName> secure
+<lb/>on - The cunning <orgName><placeName><region>East</region></placeName> <term type="people">Indians</term></orgName> secure
 <lb/>most of the profits of the <orgName>slave trade</orgName> and
 <lb/>adroitly let the odium rest on their <orgName><orgName>Arab</orgName>
 <lb/><term type="occupation">agents</term></orgName> - The <orgName>Banians</orgName> will not harm a <term type="insect">flea</term>
@@ -752,14 +758,14 @@
 <lb/><add place="below">^</add> <add place="above">half</add> a supply <del type="strikethrough">was recieved</del> which I despatched
 <lb/>from <placeName><geogName type="island">Zanzibar</geogName></placeName> in <date when="1866">1866</date> has been from
 <lb/><persName>M<hi rend="sup underline">r</hi> Stanley</persName> your travelling <term type="occupation">correspondent</term>
-<lb/>and cetain remains of stores which I
+<lb/>and certain remains of stores which I
 <lb/>seized from the <orgName>slaves</orgName> sent from <placeName><geogName type="island">Zanzibar</geogName></placeName> <!-- Again, can we check spelling on seized as DL tends to misspell? HB -->
 <lb/><date when="1870-09">seventeen months ago</date> - and I had to come
 <lb/>back <measure>300 miles</measure> to effect the seizure - I wait
 <lb/>here <placeName><settlement type="town">Unyanyembe</settlement></placeName> only till <persName>M<hi rend="sup">r</hi> Stanley</persName>
-<lb/>can send one me fifty <orgName>free men</orgName> from the
+<lb/>can send me fifty <orgName>free men</orgName> from the
 <lb/><placeName><region>coast</region></placeName> and then I proceed to finish up
-<lb/>the geographical part of my <orgName>Mission</orgName>
+<lb/>the geographical part of my <orgName>Mission</orgName> -
 <lb/>I come back to the <orgName>slaving</orgName> question
 <lb/>and if I am permitted in any way to promote
 <lb/>its suppression I shall not grudge the toil
@@ -772,7 +778,7 @@
 <lb/>guns and kegs of gunpowder - If they
 <lb/>have 200 or 300 muskets and ammunition
 <lb/>in proportion they think success is 
-<lb/>cetain - No <term type="occupation">traders</term> having even before
+<lb/>certain - No <term type="occupation">traders</term> having ever before
 <lb/>entered <placeName><region><choice><orig>Manyema</orig><reg>Maniema</reg></choice></region></placeName> the value of ivory
 <lb/>was quite unknown - Indeed the tusks
 <lb/>were left in the forests with the other
@@ -786,7 +792,7 @@
 	<pb facs="liv_002603_0033" n="0033"/>
 <lb/>to sharpen his teeth <add place="above">(17th)</add> as <placeName><settlement type="city">London</settlement></placeName> <term type="animal">rats</term> do on leaden
 <lb/>pipes - If civilly treated the people went into
-<lb/>the forest to spots where they know <term type="animal">elephants</term>
+<lb/>the forest to spots where they knew <term type="animal">elephants</term>
 <lb/>had been killed either by traps or spears and
 <lb/>brought the tusks for a few copper bracelets
 <lb/>I have seen <orgName>parties</orgName> return with so much ivory
@@ -833,12 +839,12 @@
 <lb/>them in kilts of grass cloth I should like to take
 <lb/>my place alongside the <orgName><choice><orig>Manyema</orig><reg>Maniema</reg></choice></orgName> on the principle
 <lb/>of preferring the companion of my betters - the
-<lb/>philosophies would look woefully scrappy -
+<lb/>philosophers would look woefully scraggy -
 <lb/>But though the "<orgName>inferior race</orgName>"  as we <w>com-
 <lb break="no"/>-passionately</w> call them have finely formed
 <lb/>heads and often handsome features they
 <lb/>are undoubtedly <orgName>cannibals</orgName> - It was more
-<lb/>difficult to ascertain this than may be <w>imag<supplied>-</supplied>
+<lb/>difficult to ascertain this than may be <w>imagi<supplied>-</supplied>
 <lb break="no"/>-ned</w> - some think that they can detect the
 <lb/>gnawings of the canine teeth of our <orgName>cannibal
 <lb/>ancestry</orgName> on fossil bones though the canine
@@ -855,14 +861,14 @@
 <lb/>it to be the skull of a <term type="animal"><choice><orig>gorillah</orig><reg>gorilla</reg></choice></term> here called
 <lb/><foreign xml:lang="und"><term type="animal">Soko</term></foreign> and for the first time became
 <lb/>aware of existence of the animal there -
-<lb/>the country abounds in food of all
+<lb/>The country abounds in food of all
 <lb/>kinds and the rich soil raises everything
 <lb/>planted in great luxuriance - A friend
 <lb/>of mine tried <term type="plant_foodstuff">rice</term> and in between three
 <lb/>and four months one hundred &amp; twenty
 <lb/>fold - Three measures of seed yielded
 <lb/>three hundred and sixty measures -
-<lb/><term type="plant_foodstuff">maize</term> is so abundant that I have <retrace>seen</retrace> <!-- I think he just rewrote 'seen' over 'seen.' EM --> <w>forty
+<lb/><term type="plant_foodstuff">Maize</term> is so abundant that I have <retrace>seen</retrace> <!-- I think he just rewrote 'seen' over 'seen.' EM --> <w>forty
 <lb break="no"/>-five</w> loads each about 60 lbs given for a
 <lb/>single <term type="animal_foodstuff">goat</term> - The <term type="plant_foodstuff">maize</term> = "<term type="plant_foodstuff">dura</term>" or <hi rend="underline"><term type="plant_foodstuff">hokus
 <lb/>sorghum</term></hi> - <hi rend="underline"><term type="plant_foodstuff">Pennisetum</term></hi> -<!-- Unsure about this. EM --><!-- Fixed. AW --> <term type="foodstuff">cassava</term>
@@ -878,7 +884,7 @@
 <lb/><term type="plant_foodstuff">bananas</term> &amp; <term type="plant_foodstuff">plaintains</term> in great profusion
 <lb/>and the <term type="plant_foodstuff">sugar cane</term> the saccharine - the
 <lb/><term type="foodstuff"><term type="plant">Palm</term> toddy</term> - <term type="foodstuff">beer of <term type="plant_foodstuff">bananas</term></term> - <term type="plant">Tobacco</term>
-<lb/>and <term type="plant">Bange</term> <term type="plant"><hi rend="underline">cannabis sativa</hi></term> <add place="below" rend="gray" hand="#U">^</add> <add place="above" rend="gray" hand="#U"><unclear cert="medium">soon</unclear></add> The luxuries
+<lb/>and <term type="plant">Bange</term> <term type="plant"><hi rend="underline">cannabis sativa</hi></term> <add place="below" rend="gray" hand="#U">^</add> <add place="above" rend="gray" hand="#U"><unclear cert="medium">form</unclear></add> The luxuries
 <lb/>of life - and the villages swarm with
 <lb/><term type="animal_foodstuff">goats</term> <term type="animal_foodstuff">sheep</term> <term type="animal">dogs</term> <del type="strikethrough">and</del> <term type="animal_foodstuff">pigs</term> and <term type="animal_foodstuff">fowls</term> -
 <lb/>while the <term type="animal">elephants</term> <term type="animal">buffaloes</term> <term type="animal">zebras</term>
@@ -888,7 +894,7 @@
 <lb/>why they should be <orgName>cannibals</orgName> - <term type="people"><placeName><country>New Zealand</country></placeName>ers</term><!-- Not sure whats at the end of this. EM --><!-- Fixed. AW -->
 <lb/>we were told were <orgName>cannibals</orgName> because they
 <lb/>had killed all their gigantic <term type="animal">birds</term> (<term type="animal">Moa</term> &amp;c)
-<lb/>and they were connected from the man
+<lb/>and they were converted from the man
 <lb/>eating persuasion by the introduction of
 <lb/><term type="animal_foodstuff">pigs</term> - But the <orgName><choice><orig><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orig><reg>Maniema</reg></choice></orgName> have plenty of
 <lb/><term type="animal_foodstuff">pigs</term> &amp; other domestic animals and yet
@@ -916,7 +922,7 @@
 <lb/>world than most <add place="above">)20/</add> people imagine, and whose
 <lb/>votaries of whatever name are better men than
 <lb/>any outside the pale - We have no doubt grievous
-<lb/>faults but these <unclear cert="low"><subst><del>as</del><add place="over-text">are<!-- Not sure what the overtect is. EM --><!-- Fixed. AW --></add></subst></unclear> in <placeName><settlement type="city">Paris</settlement></placeName> are owing to the
+<lb/>faults but these <unclear cert="low"><subst><del>are</del><add place="over-text">as<!-- Not sure what the overtect is. EM --><!-- Fixed. AW --></add></subst></unclear> in <placeName><settlement type="city">Paris</settlement></placeName> are owing to the
 <lb/>want of religion - <orgName>Christians</orgName> generally are
 <lb/>better than the <orgName>Heathen</orgName> but often <choice><sic>dont</sic><corr>don't</corr></choice> know
 <lb/>it and they are all immeasurably better
@@ -929,7 +935,7 @@
 <lb/>are established about <measure>10 or 15 miles apart</measure>
 <lb/>there those who <add place="below" rend="gray" hand="#U">^</add> <add place="above" rend="gray" hand="#U">raise</add> <term type="plant_foodstuff">cassava</term> - <term type="plant_foodstuff">maize</term> - <term type="plant_foodstuff">grain</term>
 <lb/><term type="plant_foodstuff">sweet potatoes</term> exchange them for <term type="foodstuff">oil</term> <term type="foodstuff">salt</term> &amp; <term type="plant_foodstuff">pepper</term>
-<lb/><term type="animal_foodstuff">fish</term> and other <term type="foodstuff">relishes</term> - From <term type="animal_foodstuff">fowls</term>, <add place="below" rend="gray" hand="#U">^</add> <add place="above" rend="gray" hand="#U">also</add> <term type="animal_foodstuff">pigs</term> <term type="animal_foodstuff">goats</term>
+<lb/><term type="animal_foodstuff">fish</term> and other <term type="foodstuff">relishes</term> - <del type="cancelled">From</del> <term type="animal_foodstuff"><subst><del>f</del><add place="over-text" rend="gray">F</add></subst>owls</term>, <add place="below" rend="gray" hand="#U">^</add> <add place="above" rend="gray" hand="#U">also</add> <term type="animal_foodstuff">pigs</term> <term type="animal_foodstuff">goats</term>
 <lb/>grass cloth mats and other articles change
 <lb/>hands - All are dressed in their best - gaudy
 <lb/>coloured many folded kilts that reach from
@@ -979,11 +985,11 @@
 <lb/>write - It is the <orgName>Banians</orgName> our protected
 <lb/><orgName><term type="nationality">Indian</term> fellow subjects</orgName> that indirectly
 <lb/>do it all - We have conceded to the
-<lb/><term type="occupation">Sultan of <placeName><geogName type="island">Zanzibar</geogName></placeName></term> the night, which at
+<lb/><term type="occupation">Sultan of <placeName><geogName type="island">Zanzibar</geogName></placeName></term> the right, which it
 <lb/>was <add place="below">^</add> <add place="above">not</add> own to give, of a certain amount
 <lb/>of <orgName>slave trading</orgName> and that amount
 <lb/>has been from 12,000 to 20,000 a year
-<lb/><add place="marginleft" rend="gray" hand="#U">[</add>As we have seen these are not Traded
+<lb/><add place="marginleft" rend="gray" hand="#U">[</add>As we have seen these are not traded
 <lb/><add place="marginleft" rend="gray" hand="#U">Will</add>for but murdered for - They are not
 <lb/><orgName>slaves</orgName> but <orgName>free people</orgName> made <orgName>captive</orgName>
 <lb/>A <term type="occupation">Sultan</term> with a sense of Justice would
@@ -1000,7 +1006,7 @@
 <lb/>trust His <term type="faith"><choice><orig>Muhamadan</orig><reg>Mohammedan</reg></choice></term><!-- Not sure how to indentify. EM --><!-- Faith. AW --> subjects even of the
 <lb/>better class to farm his income - because as
 <lb/>they themselves say he would get nothing
-<lb/>in return but a crop of his - the <orgName>Banians</orgName>
+<lb/>in return but a crop of lies - the <orgName>Banians</orgName>
 <lb/>naturally work the <orgName><choice><sic>custom</sic><corr>Custom</corr></choice> <choice><sic>house</sic><corr>House</corr></choice></orgName> so as to
 <lb/>screen their own <term type="occupation"><orgName>slaving</orgName> agents</term> and
 <lb/>so long as they have the power to promote
