@@ -20,12 +20,17 @@
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
 					<resp>Formatting review</resp>
+					<resp>Implement corrections</resp>
                 </respStmt>
 				<respStmt xml:id="MB">
                     <name>Mary E. Borgo</name>
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
 					<resp>Tagging Corrections</resp>
+                </respStmt>
+				<respStmt xml:id="KS">
+                    <name>Kate Simpson</name><!-- Change -->
+                    <resp>Proofing</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -71,6 +76,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2018-11-06" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#KS">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2016-02-02" who="#AW">Coding review</change>
@@ -89,7 +96,7 @@
 <lb/><p><space extent="3" unit="words"/><space extent="4" unit="chars"/><add place="inspace" rend="red large" hand="#U2">60</add></p>
 <lb/><p rend="no-indent">My Dear Kirk</p>
 <lb/><p><space extent="3" unit="words"/><persName>D<hi rend="sup underline">r</hi> Birdwood</persName>
-<lb/>The <term type="occupation">curator</term> of the <placeName>Botanical <choice><sic>garden</sic><corr>Garden</corr></choice>
+<lb/>the <term type="occupation">curator</term> of the <placeName>Botanical <choice><sic>garden</sic><corr>Garden</corr></choice>
 <lb/>and Museum</placeName> here told me <w>yester-<!-- dash at the end of this line? MB --><!-- Fixed. AW -->
 <lb break="no"/>day</w> that he would recommend
 <lb/>you to the <term type="occupation">Governor</term> as a fit
@@ -101,7 +108,7 @@
 <lb/>may get an offer I shall try to
 <lb/>give you as clear an idea of the
 <lb/>affair as possible - The salary is
-<lb/>300 Rupees a month say £500 or
+<lb/>300 Rupees a month say <choice><sic>£50</sic><corr>£500</corr></choice> or
 <lb/>£600 a year with a good house
 <lb/>which as rents have risen
 <lb/>enormously is as much more 
@@ -111,7 +118,7 @@
 <lb/>much as it looks like <unclear cert="medium">owing</unclear> to the
 <lb/>high price of living now in <placeName><settlement type="city"><w>Bom-<!-- dash at the end of this line? MB --><!-- Fixed. AW -->
 <lb break="no"/>bay</w></settlement></placeName> - A <term type="animal">horse</term> &amp; phaeton with <term type="animal">horse</term>
-<lb/><term type="occupation">boy servants</term> would cost you
+<lb/>boy &amp; <term type="occupation">servants</term> would cost you
 <lb/>in your free house 300 <choice><abbr>R</abbr><expan>Rupees</expan></choice> or £300</p>
 
 <cb rend="vertical"/>
@@ -125,7 +132,7 @@
 <lb/>you would have £20 &amp; £40 over
 <lb/><add place="inspace" rend="small">say £240 or £480 to same <space extent="1" unit="words"/>yearly</add> <!-- Is it necessary to add a <space> here in the 'above' note? EM --><!-- Yes. AW -->
 <lb/>the cost of <term type="animal">horse</term> &amp; phaeton would
-<lb/>be £150 - In house is in the <placeName>Botanic
+<lb/>be £150 - The house is in the <placeName>Botanic
 <lb/>Garden</placeName> - and that is new - The
 <lb/><placeName>Museum</placeName> is only building - and
 <lb/>is rather a fine building at the
@@ -161,12 +168,12 @@
 
 	<pb facs="liv_002443_0003" n="0003"/>
 <lb/><p rend="no-indent">and you would have a fair share
-<lb/>in <unclear cert="high">home</unclear> probably a large one - of the
+<lb/>in <unclear cert="high">time</unclear> probably a large one - of the
 <lb/>practice - <persName>D<hi rend="sup underline">r</hi> Birdwood</persName> devotes
 <lb/>his time more to literary pursuits
-<lb/>than practice, hence &amp; guess his duties
+<lb/>than practice, hence I guess his duties
 <lb/>do not occupy a large portion of
-<lb/>his time - He is <term type="occupation"><choice><abbr>Gov</abbr><expan>Governor</expan></choice> Secretary</term> to the
+<lb/>his time - He is <term type="occupation"><choice><abbr>Hon</abbr><expan>Honourable</expan></choice> Secretary</term> to the
 <lb/><orgName><placeName><settlement type="city">Bombay</settlement></placeName> Asiatic <choice><sic>society</sic><corr>Society</corr></choice></orgName> &amp; something
 <lb/>else which bring honour &amp; bother
 <lb/>only - My impression is that if
@@ -184,14 +191,14 @@
 <lb/>they are clannish but all making
 <lb/>money &amp; eager to go home - The
 <lb/>climate is not good but with care
-<lb/>one may enjoy good health - whether
+<lb/>one may enjoy good health - Whether
 <lb/>you ought to take this when offered
 <lb/>as a stepping stone to something
 <lb/>else or decline it as likely to shelve
 <lb/>you into <term type="nationality">Indian</term> ways I <choice><sic>cant</sic><corr>can't</corr></choice> say
 <lb/>It is an important step in life and
 <lb/>with more risk than at home - <!-- encode an extra mark? MB --><!-- Looks like a stray mark. AW -->I
-<lb/>would run the risk of a <unclear cert="high">higher</unclear></p>
+<lb/>would run the risk for a <unclear cert="high">higher</unclear></p>
 
 <cb rend="vertical"/>
 	<ab><!-- follows from vertical passage on page 2 -->
@@ -201,7 +208,7 @@
 	</ab>
 
 	<pb facs="liv_002443_0004" n="0004"/>
-<lb/><p rend="no-indent">stake than usually offers a shove
+<lb/><p rend="no-indent">stake than usually offers at home
 <lb/>but you must decide &amp; I trust
 <lb/>that God will give wisdom
 <lb/>to act for the best -</p>
@@ -226,7 +233,7 @@
 <lb/>my men are ready - I am not
 <lb/>to wait for a man of war but go
 <lb/>in one of <unclear cert="medium">Sherow</unclear> <choice><sic><persName>Osborne</persName>s</sic><corr><persName>Osborne</persName>'s</corr></choice><!-- Way to correct this while omitting the apostrophe --><!-- Fixed. AW --> fleet
-<lb/>called Mule a present <unclear cert="low">of</unclear> the <term type="occupation">Sultan</term>
+<lb/>called Thule a present <unclear cert="low">of</unclear> the <term type="occupation">Sultan</term>
 <lb/>of <placeName><geogName type="island">Zanzibar</geogName></placeName><!-- or country? MB --> - <persName>Seward</persName> is acting
 <lb/>there - no appointment has been
 <lb/>made Affectionably yours
