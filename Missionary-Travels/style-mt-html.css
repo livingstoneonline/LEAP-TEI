@@ -9,7 +9,7 @@ Table of Contents
 4. Milestone and lines 
 5. p, ab, note, fw 
 6. Additions and Deletions 
-7. Unclear, gap, space
+7. Unclear, app, gap, space
 8. Editorial 
 9. @rend classes (except lines, page placement, colors) 
 10. Page placement 
@@ -488,11 +488,14 @@ div.transcription.style-mt-html .retrace.DL .metamark {
 /*end of items added for MT */
 
 
-/* 7. Unclear, gap, space */
+/* 7. Unclear, app, gap, space */
 
 div.transcription.style-mt-html .unclear {
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
+}
+div.transcription.style-mt-html .app {
+border-bottom: 1px dotted #706f6a;
 }
 div.transcription.style-mt-html .gap {
 	border-bottom:1px dotted black;
@@ -782,20 +785,9 @@ div.transcription.style-mt-html .U5 {
 div.transcription.style-mt-html .dashed {
     border-bottom:2px dashed;
 }
-div.transcription.style-mt-html .dashed-red {
-    border-bottom:2px #B33B24 dashed;
-}
-div.transcription.style-mt-html .dashed-gray {
-    border-bottom:2px gray dashed;
-}
-div.transcription.style-mt-html .dashed-red .metamark {
-font-size:1em !important;
-}
-div.transcription.style-mt-html .dashed-gray .metamark {
-font-size:1em !important;
-}
-div.transcription.style-mt-html .dashed .metamark {
-font-size:1em !important;
+div.transcription.style-mt-html .dashed.red {
+    color:black;
+	border-bottom:2px #B33B24 dashed;
 }
 div.transcription.style-mt-html .metamark {
 	font-style:italic;
