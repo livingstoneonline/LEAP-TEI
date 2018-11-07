@@ -24,6 +24,7 @@
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
 					<resp>Formatting review</resp>
+					<resp>Implement corrections</resp>
                 </respStmt>
                 <respStmt xml:id="JM">
 					<!-- Change name below -->
@@ -31,6 +32,10 @@
 					<!-- Change, remove, or add more <resp> as appropriate below -->
                     <resp>Transcription</resp>
                     <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="KS">
+                    <name>Kate Simpson</name><!-- Change -->
+                    <resp>Proofing</resp><!-- Change -->
                 </respStmt>
             </titleStmt>	
             <publicationStmt>
@@ -103,6 +108,8 @@
 			<!-- Note that @who initials are taken from <respStmt> above -->
 			<!-- Add new <change> elements below as needed. -->
 			<!-- Note that the most recent <change> should always be placed first, at the top -->
+			<change when="2018-11-06" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#KS">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-12-11" who="#AW">Coding review</change>
@@ -143,7 +150,7 @@
 <lb/>tribe to attack another, and <choice><sic>recieved</sic><corr>received</corr></choice> good
 <lb/>payment for the arms &amp; ammunition
 <lb/>supplied in captives - A panic seized
-<lb/>the whole country South East of the cataracts,<!-- How would I encode this geographic feature? --><!-- geog: Murchison's cataracts -->
+<lb/>the whole country North East of the cataracts,<!-- How would I encode this geographic feature? --><!-- geog: Murchison's cataracts -->
 <lb/>and thousands fled to this river in<!-- geog: Shire --> 
 <lb/>hopes of its proving a defence - all their
 <lb/>grain was left behind - droughts &amp; famine
@@ -185,7 +192,7 @@
 <lb/>men are retained while the women and children
 <lb/>are sent up the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> to buy ivory.
 <lb/>When an opportunity occurs either at 
-<lb/><placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg></choice></settlement></placeName>, <placeName><settlement type="village">Sofala</settlement></placeName>, or <placeName><settlement type="village"><w>Mbamba<gap agent="blot" extent="1" unit="chars"/><supplied cert="medium">n</supplied>e</w></settlement></placeName>, these
+<lb/><placeName><settlement type="town"><choice><orig>Quillimane</orig><reg>Quelimane</reg></choice></settlement></placeName>, <placeName><settlement type="village">Sofala</settlement></placeName>, or <placeName><settlement type="village">Mhambare</settlement></placeName>, these
 <lb/>men are speedily sent to the coast. We
 <lb/>saw very little of the system which has
 <lb/>made the country between <placeName><geogName type="cape">Cape Delgado</geogName></placeName>
@@ -201,7 +208,7 @@
 <lb/>from which and the adjacent highlands
 <lb/><persName><term type="occupation">Captain</term> Wilson</persName> of H.M.S. Gorgon, conjectured
 <lb/>that one hundred tons of cotton might be
-<lb/>collected -, <!-- or a semicolon? MB --><!-- What you see. AW --> is converted into a desert - This
+<lb/>collected, <!-- or a semicolon? MB --><!-- What you see. AW --> is converted into a desert - This
 <lb/>is the more grievous inasmuch as the
 <lb/><orgName><term type="occupation">statesmen</term> of <country>Portugal</country></orgName> seem really anxious
 <lb/>to have another state of things, and we find that
@@ -241,20 +248,20 @@
 <lb/>to turn the remarkable prosperity of the 
 <lb/><orgName>natives</orgName> to barter to good account, but 
 <lb/>if they are to be allowed to follow in our
-<lb/>footsteps the scamps will spoil every thing
+<lb/>footsteps the scamps will spoil everything
 <lb/>My only hope now lies in the <placeName><region>Lake districts</region></placeName>
 <lb/>and there  I <w><subst><del><gap agent="overwriting" extent="3" unit="chars"/>pt</del><add place="over-text">trust</add></subst></w> these <orgName><term type="occupation"><orgName>slave</orgName> hunters</term></orgName> will
 <lb/>not follow us. <space extent="2" unit="chars"/>Firearms are so much
 <lb/>superior to the native Bows &amp; Arrows
 <lb/>that any one may become <term type="occupation"><orgName>slave</orgName> hunter</term>
-<lb/>who chooses. <space extent="1" unit="chars"/>There are no few than 
+<lb/>who chooses. <space extent="1" unit="chars"/>There are no fewer than 
 <lb/>five of these <term type="occupation">private marauders</term> and no 
 <lb/>notice whatever is taken of their deeds till
 <lb/>the culprit has collected property enough
 <lb/>to stand a good mulcting<!-- unclear MB --><!-- Fixed. AW -->.</p>
 <lb/><p>If I am not mistaken this country
 <lb/>was acknowledged to be <term type="nationality">Portuguese</term> on the 
-<lb/>understanding that <term type="occupation"><orgName><choice><orig>slaveing</orig><reg>slaving</reg></choice></orgName></term> should be put
+<lb/>understanding that <term type="occupation"><orgName>slaving</orgName></term> should be put
 <lb/>down. As no effort to that has ever
 <lb/>seriously been made, and indeed none
 <lb/>of them I have seen feels like us that the 
