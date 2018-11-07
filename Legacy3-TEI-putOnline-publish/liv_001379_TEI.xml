@@ -20,11 +20,16 @@
                     <name>Adrian S. Wisnicki</name>
                     <resp>Coding review</resp>
 					<resp>Formatting review</resp>
+					<resp>Implement corrections</resp>
                 </respStmt>
 				<respStmt xml:id="MB">
                     <name>Mary Borgo</name><!-- Change -->
                     <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
+				<respStmt xml:id="HB">
+					<name>Heather Ball</name>
+					<resp>Proofing</resp>
+				</respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -68,6 +73,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2018-11-06" who="#AW">Implement corrections</change>
+			<change when="2018-10" who="#HB">Proofing</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-09-17" who="#AW">Proofing and coding review</change>
@@ -84,21 +91,21 @@
 	<pb facs="liv_001379_0001" n="0001"/>
 <opener>
 <lb/><dateline><placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Kongone</geogName></placeName>; <placeName>Steamer Ma Robert</placeName>, 
-<lb/><space extent="3" unit="words"/><add rend="gray" hand="#U"><metamark/><!-- The 8 is circled. AW -->8</add> <space extent="2" unit="words"/><date when="1858-10-07">7 <choice><abbr>Oct<hi rend="sup underline">r</hi></abbr></choice> 1858</date></dateline>
+<lb/><space extent="3" unit="words"/><add rend="gray" hand="#U"><metamark/><!-- The 8 is circled. AW -->8</add> <space extent="2" unit="words"/><date when="1858-10-07">7 <choice><abbr>Oct<hi rend="sup">r</hi></abbr></choice> 1858</date></dateline>
 <lb/>    
-<lb/><salute>My Very Dear friend,</salute>
+<lb/><salute>My Very Dear Friend,</salute>
 </opener>
 
 <lb/><p><space extent="1" unit="words"/>I cannot forgive
 <lb/>you because I was never
-<lb/>offended having recieved from
+<lb/>offended having <choice><sic>recieved</sic><corr>received</corr></choice> from
 <lb/><persName>M<hi rend="sup underline">r</hi> Brand</persName> the assurances
 <lb/>you expected him to give
 <lb/>and even though I had not
 <lb/><unclear><metamark/></unclear><!-- Looks like just a squiggle. AW --> a poor friendship that
 <lb/>vanishes at a far - The Lynx
 <lb/>came into the <placeName><geogName type="river">Kongone river</geogName></placeName>
-<lb/>and sent up to me. I came
+<lb/>and sent up for me. I came
 <lb/>down at once and during
 <lb/>the time they have been
 <lb/>making some repairs I
@@ -131,16 +138,16 @@
 <lb/>and accused me of slighting him
 <lb/>injuring his professional reputation
 <lb/>by consulting the other <term type="occupation">Captain</term> more than
-<lb/>him &amp;c &amp;c <space extent="2" unit="chars"/>I explained and assured him
+<lb/>him &amp;c &amp;c. <space extent="2" unit="chars"/>I explained and assured him
 <lb/>it was an entire mistake and allowed
-<lb/>him to withdraw the letter. But he <w>wou<supplied>ld</supplied></w>
+<lb/>him to withdraw the letter. But he <w>wou<gap extent="2" unit="chars"/><supplied>ld</supplied></w>
 <lb/>quarrel again - gave in a second
 
 	<pb facs="liv_001379_0003" n="0003"/>
 <lb/>resignation from an idea that we
 <lb/>could not move a mule without
-<lb/>him - and then commenced a series of 
-<lb/>slanders, carping, complainings, 
+<lb/>him - and then commenced a series 
+<lb/>of slanders, carping, complainings, 
 <lb/>and raising objections, which
 <lb/>the medical officer &amp; I looked
 <lb/>upon as the effects of irritable
@@ -149,14 +156,14 @@
 <lb/>unbearable especially from
 <lb/>the untruthfulness which I am 
 <lb/>sorry to say he indulged in
-<lb/>that - <space extent="1" unit="chars"/>I at last accepted his
-<lb/>resignation and sent him
-<lb/>to <placeName><settlement type="town"><choice><orig>Kilimane</orig><reg>Quelimane</reg></choice></settlement></placeName> to wait for a
-<lb/>passage to <placeName><country>England</country></placeName> - <w><subst><del>o</del><add place="over-text">Y</add></subst>ou</w> will
+<lb/>that <space extent="1" unit="chars"/>I at <space extent="2" unit="chars"/>last accepted his
+<lb/>2<hi rend="sup">d</hi> resignation and sent him
+<lb/>off to <placeName><settlement type="town"><choice><orig>Kilimane</orig><reg>Quelimane</reg></choice></settlement></placeName> to wait for a
+<lb/>passage to <placeName><country>England</country></placeName> - You will
 <lb/>I have no doubt <unclear>find</unclear> it difficult 
 <lb/>to credit it of him and I would
 <lb/>not wonder in the least but
-<lb/>he recieved <subst><del>its</del><add place="over-text">this</add></subst> letter containing 
+<lb/>he <choice><sic>recieved</sic><corr>received</corr></choice> <subst><del>its</del><add place="over-text">this</add></subst> letter containing 
 <lb/>my acceptance of his resignation
 <lb/>with dancing and singing -
 <lb/>And when I took charge of the
@@ -164,9 +171,9 @@
 
 <cb rend="vertical"/>
 <ab>
-<lb/>I believe I forgot to tell you that I visited <persName>M<hi rend="sup underline">s</hi> <unclear cert="high">Horsfall</unclear></persName> at <placeName>Bellamon Hall</placeName>
+<lb/>I believe I forgot to tell you that I visited <persName>M<hi rend="sup underline">r</hi> <unclear cert="high">Horsfall</unclear></persName> at <placeName>Bellamon Hall</placeName>
 <lb/>near <placeName><settlement type="town"><unclear cert="high">Rugeley</unclear></settlement></placeName> <placeName><region><choice><abbr><choice><abbr>Staff<hi rend="sup">d</hi></abbr><expan>Stafford</expan></choice></abbr><expan>Staffordshire</expan></choice></region></placeName> &amp; saw a <unclear cert="medium">scheer</unclear> <w>te<subst><del>r</del><add place="over-text">s</add></subst>timonial</w> which is to be given to  
-<lb/><persName>M<hi rend="sup underline">rs</hi> Gabriel</persName> when you get to her!  He desired me to say so - Hope
+<lb/><persName>M<hi rend="sup underline">rs</hi> Gabriel</persName> when you get her!  He desired me to say so - Hope
 <lb/><w>who<add place="inline">e</add>ver</w> she is she may be a good one
 </ab> 
 
@@ -193,9 +200,9 @@
 <lb/>to get rid of him by persecution, I was
 <lb/>writing highly of him to <persName>Lord Malmesbury</persName>
 <lb/>and <persName>Sir George Grey</persName>, and the latter
-<lb/>published my letter.  This subject
+<lb/>published my letter. <space extent="2" unit="chars"/>This subject
 <lb/>has occupied my time of late
-<lb/>and is the most disagreeable I ever attempted -</p>
+<lb/>and is the most <choice><sic>disagreable</sic><corr>disagreeable</corr></choice> I ever attempted -</p>
 <lb/><p>Well I tried to come in to <placeName><settlement type="city"><choice><orig>Loanda</orig><reg>Luanda</reg></choice></settlement></placeName>
 <lb/>but could not honestly do it - as
 <lb/>you will have heard from 
@@ -213,19 +220,19 @@
 <lb/>men waiting in anxious expectation
 <lb/>of my return but <term type="ailment">small pox</term> had
 <lb/>cut off thirty of them and six had
-<lb/>been killed by a neighbouring rebel
+<lb/>been <space extent="2" unit="chars"/>killed by a neighbouring rebel
 <lb/><term type="occupation">chief</term> - <space extent="1" unit="chars"/>Poor <persName><unclear><app><rdg>Sekneeben</rdg><rdg>Sekweben</rdg><rdg>Sekwebin</rdg><rdg>Sekweber</rdg></app></unclear></persName>'s death
 <lb/>was a sad blow and though they
-<lb/>recieved me with screams of joy
+<lb/><choice><sic>recieved</sic><corr>received</corr></choice> me with screams of joy
 <lb/>and grasping me convulsively
 <lb/>The team came whether I would or
 <lb/>not. <space extent="2" unit="chars"/>Some time will be required
 <lb/>to bring up all our 25 tons of
 <lb/>luggage - for poor <persName>Bedingfeld</persName>'s
-<lb/>untruthfullness began in <placeName><country>England</country></placeName>
+<lb/>untruthfulness began in <placeName><country>England</country></placeName>
 <lb/>We got a steamer called the Ban drawing
 <lb/>only <measure>three feet</measure> which would have
-<lb/>sailed on the river the whole year, but<!-- geog: Shire -->
+<lb/>sailed on the <choice><sic>rive</sic><corr>river</corr></choice> the whole year, but<!-- geog: Shire -->
 <lb/>when <persName><choice><abbr>B.</abbr><expan>Bedingfeld</expan></choice></persName> heard he was to navigate
 <lb/>her out he wished me to apply for a 
 <lb/>second master and on my declining
@@ -238,7 +245,7 @@
 </ab> 
 
 	<pb facs="liv_001379_0006" n="0006"/>
-<lb/><p rend="no-indent">he knew what we learned afterward
+<lb/><p rend="no-indent">he knew what we learned afterwards
 <lb/>that he could not from <term type="ailment">seasickness</term>
 <lb/>navigate her out - He reported to me
 <lb/>also that this was an admirable vessel
@@ -255,11 +262,11 @@
 <lb/>than any other though what we got had
 <lb/>been exposed to the floods of the
 <lb/><placeName><geogName type="stream">Muatize</geogName></placeName> for ages - With abundance of
-<lb/>iron ore and coal surely the
+<lb/>iron ore and coal surely <space extent="3" unit="chars"/>the
 <lb/>Great <term type="occupation">Architect</term> designed &amp; will
 <lb/>work out something better for
 <lb/><placeName><bloc>Africa</bloc></placeName> that <choice><sic>that</sic><corr/></choice> she should always 
-<lb/>be a <orgName>slave</orgName> market - The <term type="people">Portuguese</term> have
+<lb/>be a <orgName>slave</orgName> market - the <term type="people">Portuguese</term> have
 <lb/>been as kind as ever and especially
 <lb/><persName>Major <choice><orig>Secard</orig><reg>Sicard</reg></choice></persName> - <space extent="1" unit="chars"/>they were fighting <unclear>when</unclear> 
 <lb/>we came but we went from one park
@@ -273,13 +280,13 @@
 <lb/>grumpy with me for leaving them
 <lb/>and they snarl considerably since my
 <lb/>departure for <placeName><bloc>Africa</bloc></placeName> because I have
-<lb/>turned <term type="occupation">consul</term> - <placeName><geogName type="rapid"><choice><orig>Kebra-basa</orig><reg>Cahora Bassa</reg></choice></geogName></placeName> is said
+<lb/>turned <term type="occupation">consul</term> - <space extent="2" unit="chars"/><placeName><geogName type="rapid"><choice><orig>Kebra-basa</orig><reg>Cahora Bassa</reg></choice></geogName></placeName> is said
 <lb/>to be rocks jutting out of the stream
 <lb/>and rendering the deep channel tortuous
 <lb/>and dangerous but if half a years
 <lb/><unclear>slashing</unclear> will make an open way
 <lb/>for a steamer then what will
-<lb/>they say if I turn <term type="occupation">quarrymen</term> too.</p>
+<lb/>they say if I turn <term type="occupation">quarryman</term> too.</p>
 <lb/><p>You recommended the
 <lb/><term type="nationality">German</term> <choice><abbr>D<hi rend="sup underline">r</hi></abbr><expan>Doctor</expan></choice> but they are not
 <lb/>in much <unclear cert="medium">favour</unclear> as home on
@@ -289,15 +296,15 @@
 <lb/>though paid by <placeName><country>England</country></placeName> published
 <lb/>the results in <placeName><country>Germany</country></placeName> &amp; kept
 <lb/>the instruments - But if you befriend
-<lb/>them you will won the <choice><sic><term type="occupation"><persName>Prince 
+<lb/>them you will win the <choice><sic><term type="occupation"><persName>Prince 
 <lb/>Consort</persName></term>s</sic><corr><term type="occupation"><persName>Prince Consort</persName></term>'s</corr></choice> heart - From what I have
 <lb/>seen and heard I am become so 
 <lb/>bigotted that I prefer an <term type="person">Englishman</term>
-<lb/><supplied cert="high">out</supplied> &amp; out to any one of the <term type="people"><choice><abbr>Wel</abbr><expan>Welsh</expan></choice></term>
+<lb/><unclear cert="medium">out</unclear> &amp; out to any one of the <term type="people"><choice><abbr>Wel</abbr><expan>Welsh</expan></choice></term>
 
 	<pb facs="liv_001379_0008" n="0008"/>
 <lb/>I think <placeName><country>England</country></placeName> ought to buy <placeName><country>Angola</country></placeName>
-<lb/>on this side but the <unclear cert="medium">Villa da Fleur</unclear>
+<lb/>on this side but the <unclear cert="medium">Villa da Flor</unclear>
 <lb/>was sent out to survey the <placeName><geogName type="river">Luabo</geogName></placeName>
 <lb/>and build a fort &amp; custom house
 <lb/>but they did not know where it
@@ -308,15 +315,15 @@
 <lb/>per annum -</p> 
 <lb/><p>We have had no <term type="ailment">fever</term> properly
 <lb/>so called though we have had illness
-<lb/>the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> maybe called a sand
+<lb/>The <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> maybe called a sand
 <lb/>river and not a muddy one like
 <lb/>those in the West - We have lots of
 <lb/>lignum vital &amp; ebony on its banks 
 <lb/>but full reports will be made by
 <lb/>my companions - My wife met
-<lb/>her father &amp; mother at <placeName><settlement type="town">Cape Town</settlement></placeName>
+<lb/>her father &amp; mother at <placeName><settlement type="town">Cape <choice><sic>town</sic><corr>Town</corr></choice></settlement></placeName>
 <lb/>and went with them to be confined
-<lb/>at <placeName><settlement type="village">Kuruman</settlement></placeName> <space extent="1" unit="chars"/>When we left
+<lb/>at <placeName><settlement type="village">Kuruman</settlement></placeName> - <space extent="1" unit="chars"/>When we left
 <lb/><placeName><country>England</country></placeName> we expected to come here
 <lb/>together - Three of our children are at
 <lb/>school <unclear>&amp;</unclear> one with his Mamma.  My 
