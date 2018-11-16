@@ -25,6 +25,11 @@
                     <name>Mary Borgo</name><!-- Change -->
                     <resp>Tagging Corrections</resp><!-- Change -->
                 </respStmt>
+				<respStmt xml:id="AM">
+                    <name>Anne Martin</name><!-- Change -->
+					<resp>Proofing</resp>
+                    <resp>Applying Corrections</resp><!-- Change -->
+                </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -75,6 +80,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2018-11-15" who="#AM">Apply corrections resulting from post-implementation review</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
         	<change when="2017-03-18" who="#AW">Proofing</change>
@@ -93,14 +99,14 @@
 <lb/><p rend="no-indent"><add place="over-text" hand="#U2" rend="gray small">List of things <choice><abbr>req<hi rend="sup">d</hi></abbr><expan>required</expan></choice></add></p> 
 <lb/><p rend="no-indent"><add place="inspace" rend="small"><hi rend="underline">of <date when="1862">1862</date><space extent="3" unit="words"/></hi></add> <space extent="1" unit="chars"/><placeName><geogName type="river">River <choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> <date when="1862-02-17">17<hi rend="sup underline">th</hi> <choice><abbr>Feby</abbr><expan>February</expan></choice>
 <lb/><add place="over-text" hand="#U2" rend="gray small">by <persName>D<hi rend="sup">r</hi> Livingstone</persName></add> <space extent="4" unit="words"/><date when="1862-02-17">1862</date>.</date></p>
-<lb/><p><add place="inspace" hand="#U2" rend="gray"><choice><abbr>req<hi rend="sup">d</hi></abbr><expan>required</expan></choice></add> <space extent="3" unit="chars"/><figure><figDesc>Calculation[?] initialed B.I.[?]</figDesc></figure> <space extent="1" unit="chars"/><add place="inspace" rend="brown small" hand="#U3"><choice><abbr>Rec<hi rend="sup">d</hi></abbr><expan>Received</expan></choice> <date when="1862-03-25">25 April 1862</date> per Gorgon</add></p>
-<lb/><p><term type="occupation">Admiral</term> <space extent="4" unit="words"/><add hand="#U4"><hi rend="underline small brown">A.E. 314.</hi></add></p>
+<lb/><p><add place="inspace" hand="#U2" rend="gray"><choice><abbr>req<hi rend="sup">d</hi></abbr><expan>required</expan></choice></add> <space extent="3" unit="chars"/><figure><figDesc>Calculation[?] initialed B.I.[?]</figDesc></figure> <space extent="1" unit="chars"/><add place="inspace" rend="brown small" hand="#U3">Received <date when="1862-03-25">25 April 1862</date>. per Gorgon</add></p>
+<lb/><p><term type="occupation">Admiral</term> <space extent="4" unit="words"/><add hand="#U4"><hi rend="underline small">A.E. 314.</hi></add></p>
 <lb/><p rend="no-indent"><space extent="3" unit="words"/><persName>Sir Baldwin Walker</persName></p>
 <lb/><p rend="no-indent"><space extent="4" unit="words"/><add hand="#U2" rend="gray">√</add> Sir</p>    
 <lb/><p rend="no-indent"><space extent="5" unit="words"/><space extent="1" unit="chars"/>I take the liberty
 <lb/>of placing before you a short account
 <lb/>of our proceedings since I last
-<lb/>addressed your predecessor <persName><term type="occupation">Admiral</term>
+<lb/>addressed your <choice><sic>predescessor</sic><corr>predecessor</corr></choice> <persName><term type="occupation">Admiral</term>
 <lb/>Sir Henry Keppel</persName>, and of thanking
 <lb/>you for most important services
 <lb/>rendered to us by your direction
@@ -123,7 +129,7 @@
 <lb/>mission</orgName> without introducing him
 <lb/>to the people, we accompanied him
 <lb/>by a few days march up to the
-<lb/><placeName><geogName type="highlands"><term type="tribe">Maganja</term> highlands</geogName></placeName> <!-- I coded this as a geographical feature. Please check that this is correct. JM --> East of the
+<lb/><placeName><geogName type="highlands"><term type="tribe">Manganja</term> highlands</geogName></placeName> <!-- I coded this as a geographical feature. Please check that this is correct. JM --> East of the
 <lb/><placeName><geogName type="cataract"><placeName><geogName type="river">Shire</geogName></placeName> cataracts</geogName></placeName> - <space extent="1" unit="chars"/>When we had just
 <lb/>passed over the brow of the first
 <lb/>plateau we met a party of <orgName><placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName>
@@ -138,13 +144,13 @@
 <lb/>they had no previous knowledge,
 <lb/>by employing one tribe called
 <lb/><term type="tribe">Ajawa</term> to attack another named
-<lb/><term type="tribe">Maganja</term> - kill the men and
+<lb/><term type="tribe">Manganja</term> - kill the men and
 <lb/>sell the women and children to
 <lb/>them - <space extent="2" unit="chars"/>I was doubtful how to
 <lb/>act at first, but while making
 <lb/>enquiries among the <orgName>captives</orgName>,
-<lb/><orgName><term type="nationality">Portuguese</term> <orgName>slaves</orgName></orgName> decamped
-<lb/>into the forest. We handed the
+<lb/>the <orgName><term type="nationality">Portuguese</term> <orgName>slaves</orgName></orgName> decamped
+<lb/>into the forest - We handed the
 <lb/><orgName>captives of this and three other
 <lb/>parties</orgName> over to the <term type="occupation">bishop</term> - For
 <lb/>one of these we went several
@@ -161,23 +167,23 @@
 <lb/><term type="nationality">Portuguese</term></orgName> from <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName>, was deterred
 <lb/>from joining the <term type="tribe">Ajawa</term> by hearing
 <lb/>of <persName>D<hi rend="sup underline">r</hi> Kirk</persName>'s return to the ship -</p>
-<lb/><p>We found the <term type="tribe">Maganja</term> all
+<lb/><p>We found the <term type="tribe">Manganja</term> all
 <lb/>fleeing from the <term type="tribe">Ajawa</term>, and believing
 <lb/>that we could induce them to
-<lb/>desist from murdering the <term type="tribe">Maganja</term>
-<lb/>we went to hold a conference -
+<lb/>desist from murdering the <term type="tribe">Manganja</term>
+<lb/>we went to hold a <w><hi rend="underline">c</hi>onference</w> -
 <lb/>We reached them about <measure>12 miles</measure>
 <lb/>from the <orgName>mission station</orgName>, and 
 <lb/>found them in the act of burning
 <lb/>three villages - Unfortunately our
 <lb/>professions of having come
 <lb/>peaceably were neutralized by
-<lb/>some <term type="tribe">Maganja</term> followers calling
+<lb/>some <term type="tribe">Manganja</term> followers calling
 <lb/>out "our <foreign xml:lang="und">chibisa</foreign> is come" - This
-<lb/><foreign xml:lang="und">chibisa</foreign> is believed to have <unclear cert="medium">audiences</unclear>
+<lb/><foreign xml:lang="und">chibisa</foreign> is believed to have medicines
     
     <pb facs="liv_001730_0005" n="0005"/>
-<lb/><add place="above">2/</add> capable of ensuring victory. I heard
+<lb/><add place="above">2/</add> capable of ensuring victory - I heard
 <lb/>the words distinctly but it never
 <lb/>struck my mind till afterwards that
 <lb/>they were neutralizing our professions
@@ -191,8 +197,8 @@
 <lb/>never had a hostile encounter
 <lb/>with the natives before -</p>
 <lb/><p>We then left - returned to
-<lb/>the ship and carried a boat
-<lb/>past the <placeName><geogName type="cataract">cataracts of the <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName>
+<lb/>the ship - and carried a boat
+<lb/>past the <placeName><geogName type="cataract">cataracts of the <placeName><geogName type="river">Shire</geogName></placeName></geogName></placeName> -
 <lb/>there are five cataracts in 35'
 <lb/>of Latitude of <measure>100 or 150 feet</measure>
 <lb/>each - the whole descent amounts
@@ -201,10 +207,10 @@
     <pb facs="liv_001730_0006" n="0006"/>
 <lb/>launched the boat above the <w>upper<supplied>-</supplied>
 <lb break="no"/>-most</w> cataract we were virtually
-<lb/>on the <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName> or <placeName><geogName type="lake">Nyinyesi</geogName></placeName>
+<lb/>on the <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName> or <placeName><geogName type="lake">Nyinyesi</geogName></placeName>,
 <lb/>because the <placeName><geogName type="river">upper Shire</geogName></placeName> is all
 <lb/>smooth and deep - There are <measure>sixty
-<lb/>miles</measure> of five gently flowing <unclear cert="medium">river</unclear>
+<lb/>miles</measure> of fine gently flowing <unclear cert="medium">river</unclear>
 <lb/>above the cataracts, and a lakelet
 <lb/><measure>10 or 12 miles</measure> long and <measure>5 or 6</measure> broad.
 <lb/>We sailed into the Lake on the
@@ -212,7 +218,7 @@
 <lb/>Western Shore - <space extent="1" unit="chars"/>It is a very deep
 <lb/>body of water - <space extent="1" unit="chars"/> our sounding line
 <lb/>of <measure>35 fathoms</measure> often <choice><orig>shewed</orig><reg>showed</reg></choice> no
-<lb/>bottom at a mile from the shore
+<lb/>bottom at a mile from the shore,
 <lb/>and in the North no bottom
 <lb/>was found at <measure>116 fathoms</measure> - The
 <lb/>Lake is from <measure>18 or 20 to 50 or 60<!-- geog: Lake Nyassa -->
@@ -233,7 +239,7 @@
 <lb/>Northern end - War had raged
 <lb/>there and the country was
 <lb/>depopulated by a tribe of <term type="tribe">Zulus</term>
-<lb/>originally from the South,
+<lb/>originally from the South -
 <lb/>so we were obliged to come
 <lb/>back without finding out
 <lb/>about the <placeName><geogName type="river">Rovuma</geogName></placeName> - The 
@@ -241,19 +247,19 @@
 <lb/>on the western shore one man
 <lb/>would tell us that we might
 <lb/>sail out of the Lake into the<!-- geog: Lake Nyassa -->
-<lb/>river. Another that we must
+<lb/>river - Another that we must
     
     <pb facs="liv_001730_0008" n="0008"/>
 <lb/><add place="below">^</add> <add place="above">carry</add> the boat a few yards - another
 <lb/>would declare that she must be
-<lb/>carried <measure>fifty miles</measure> or a <measure>hundred</measure>
-<lb/>on one point alone did all agree
+<lb/>carried <measure>fifty miles</measure> or a <measure>hundred</measure>.
+<lb/>on one point alone did all agree,
 <lb/>namely, that <placeName><geogName type="river">Rovuma</geogName></placeName> is a very
 <lb/>large river - We must confess
 <lb/>however that we returned just
-<lb/>about as wise as we went after
+<lb/>about as wise as we went - after
 <lb/>a three months absence from the
-<lb/>ship.</p>
+<lb/>ship -</p>
 <lb/><p>I beg leave to call your attention
 <lb/>to the opinion of <persName><term type="occupation">Colonel</term> Rigby</persName> that
 <lb/>of 19,000 <orgName>slaves</orgName> which pass annually
@@ -280,7 +286,7 @@
 <lb/>beyond <term type="nationality">Portuguese</term> claims, and
 <lb/><placeName><geogName type="river">Rovuma</geogName></placeName> seems to be best adapted
 <lb/>for the object - The <term type="people">Portuguese</term> 
-<lb/>watch every step we take and the
+<lb/>watch every step we take, and the
 <lb/><orgName>Government</orgName> by lately building
 <lb/>a port at the mouth of the <placeName><geogName type="river">Shire</geogName></placeName>
 <lb/>intends to enrich itself by dues
@@ -288,7 +294,7 @@
 <lb/>the <placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> <term type="occupation">merchants</term> headed by
 <lb/>the <term type="occupation">Governor</term> depopulates the
 <lb/>country from which the trade is
-<lb/>to come by <term type="occupation"><orgName>slave</orgName> hunting</term>.</p>
+<lb/>to come by <term type="occupation"><orgName>slave</orgName> hunting</term> -</p>
     
     <pb facs="liv_001730_0010" n="0010"/>
 <lb/><p rend="no-indent">The movement of the <term type="occupation">Governor
@@ -342,7 +348,7 @@
 <lb/>very anxious that the latter object
 <lb/>should be secured while we are
 <lb/>busy with the former I hope you
-<lb/>excuse me in saying so much</p>
+<lb/>will excuse me in saying so much</p>
 <lb/><p>I have now to thank you
 <lb/>for your kind consideration in
 <lb/>instructing <persName><term type="occupation">Captain</term> Wilson</persName> to render
@@ -351,7 +357,7 @@
 <lb/>grateful for his services than I
 <lb/>can express - He brought the Brig
 <lb/>having the steamer "Lady of the Lake"
-<lb/>on board from <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> to <placeName><geogName type="harbor">Kongone</geogName></placeName>
+<lb/>on board from <placeName><country><choice><orig>Mosambique</orig><reg>Mozambique</reg></choice></country></placeName> to <placeName><geogName type="harbor">Kongone</geogName></placeName> -
 <lb/>and put the principal pieces into the
 <lb/>Pioneer in a week - a work that
 <lb/>would have cost us a month if
@@ -359,7 +365,7 @@
 <lb/>at all - I feel very thankful for
     
     <pb facs="liv_001730_0013" n="0013"/>
-<lb/><add place="above">4/</add> he has done everthing he could
+<lb/><add place="above">4/</add> he has done everything he could
 <lb/>in the most frank &amp; obliging
 <lb/>manner possible -</p>
 <lb/><p>On another point I feel inclined
@@ -371,7 +377,7 @@
 <lb/>our absence at <placeName><geogName type="lake">Lake <choice><orig>Nyassa</orig><reg>Nyasa</reg></choice></geogName></placeName>
 <lb/>he had gone about <measure>15 miles</measure>
 <lb/>and attacked another tribe
-<lb/>of <term type="tribe">Ajawas</term> - burned their
+<lb/>of <term type="tribe">Ajawa's</term> - burned their
 <lb/>town and drove them away
 <lb/>He took <orgName>2 men of war's men</orgName>
 <lb/>and our <term type="occupation">Engineer</term> whom
@@ -379,11 +385,11 @@
 <lb/>of change of air after being
     
     <pb facs="liv_001730_0014" n="0014"/>
-<lb/>much reduced by <term type="ailment">fever</term>. They remembered
+<lb/>much reduced by <term type="ailment">fever</term> - They remembered
 <lb/>after they had gone that I had given
 <lb/>no orders to them to fight and I
 <lb/>excuse them on account of the
-<lb/>portion of the gentlemen who
+<lb/>position of the gentleman who
 <lb/>asked them to go - I never
 <lb/>contemplated the <term type="occupation">missionaries</term>
 <lb/>doing anything in the offensive
@@ -423,9 +429,9 @@
     <pb facs="liv_001730_0016" n="0016"/>
 <lb/><p>We shall come down to the <placeName><geogName type="harbor">Kongone</geogName></placeName>
 <lb/>sometime in <date when="1863-03">March</date> and again
-<lb/>in <date when="1863-04">April next</date>.</p>
+<lb/>in <date when="1863-04">April next</date> -</p>
 <lb/><p rend="no-indent"><space extent="2" unit="words"/>I am Sir
-<lb/><space extent="3" unit="words"/>Your most obedient servant
+<lb/><space extent="3" unit="words"/>Your most <choice><abbr>obed<hi rend="sup underline">t</hi></abbr><expan>obedient</expan></choice> servant
 <lb/><space extent="3" unit="words"/><persName>David Livingstone</persName></p>
    
     
