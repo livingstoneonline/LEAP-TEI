@@ -27,6 +27,11 @@
                     <resp>Coding review</resp>
 					<resp>Formatting review</resp>
                 </respStmt>
+				<respStmt xml:id="AM">
+                    <name>Anne Martin</name><!-- Change -->
+					<resp>Proofing</resp>
+                    <resp>Applying Corrections</resp><!-- Change -->
+                </respStmt>
             </titleStmt>	
             <publicationStmt>
                 <authority>Livingstone Online</authority>
@@ -68,6 +73,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+			<change when="2018-11-08" who="#AM">Apply corrections resulting from post-implementation review</change>
 			<change when="2017-04-26" who="#AW">Formatting review</change>
 			<change when="2017-04-21" who="#MB">Tagging corrections</change>
 			<change when="2015-11-13" who="#AW">Coding review</change>
@@ -83,8 +89,8 @@
 	<pb facs="liv_001431_0001" n="0001"/><!-- Change both @facs and @n -->
 	
 <opener>
-<lb/><space extent="9" unit="words"/><add place="inspace" rend="gray small" hand="#U">MS 1011</add> 
-<lb/><dateline><space extent="5" unit="words"/><placeName><geogName type="river">River <choice><orig>Zambesi</orig><reg>Zambezi</reg></choice> </geogName><region>East <bloc>Africa</bloc></region></placeName> 
+<lb/><space extent="9" unit="words"/><add place="inspace" rend="gray small" hand="#U">MS 10/1</add> 
+<lb/><dateline><space extent="5" unit="words"/><placeName><geogName type="river">River <choice><orig>Zambesi</orig><reg>Zambezi</reg></choice> - </geogName><region>East <bloc>Africa</bloc></region></placeName> 
 <lb/><space extent="6" unit="words"/><date when="1859-05-27">27 May 1859</date></dateline>    
 <lb/><persName>Professor <choice><orig>Sedgewick</orig><reg>Sedgwick</reg></choice></persName>
 <lb/>
@@ -107,19 +113,19 @@
 <lb/>soon as possible - in order that you
 <lb/>may sympathize in the emotions which
 <lb/>it calls forth in connection with the
-<lb/>great object we have in view - </p>
+<lb/>great objects we have in view - </p>
 <lb/><p>We visited the <placeName><geogName type="river">Shire</geogName></placeName> about the beginning<!-- "Shire" had been tagged as type="shire" throughout. I changed these to river- is this correct? MB--><!-- Yes! AW -->
 <lb/>of the present year and our presence
 <lb/>caused considerable alarm among the people
 <lb/>who had never seen white vistors before
 <lb/>We ascended in our little steamer about
-<lb/>a <measure>hundred miles</measure> of Latitute - the <term type="people">Portuguese</term><!-- Should Portuguese be tagged with orgName and term? MB -->
+<lb/>a <measure>hundred miles</measure> of Latitude - the <term type="people">Portuguese</term><!-- Should Portuguese be tagged with orgName and term? MB -->
 <lb/>never went more than about <measure>25 miles</measure>
 <lb/>and having been beaten back had no
 <lb/>good word to say for those who had
 <lb/>drubbed them - <space extent="2" unit="chars"/>The <term type="tribe">Manganja</term> as
 <lb/>the people are called are brave and can
-<lb/>use well their &amp; poisoned arrows.</p>
+<lb/>use well their bows &amp; poisoned arrows.</p>
 
 <cb rend="right vertical"/>
 <ab>
@@ -146,7 +152,7 @@
 <lb/>was found flowing in a mountainous region.
 <lb/>and though our marches were but short we
 <lb/>each day gained <measure>200 or 300 feet</measure> of elevation;
-<lb/>In about <measure>10 days</measure> we were <measure>1500 feet</measure> above the
+<lb/>In about <measure>ten days</measure> we were <measure>1500 feet</measure> above the
 <lb/>ship and in sight of a mountain - <geogName type="mountain">Dzomba</geogName> -
 <lb/>or as people near it call it <geogName type="mountain">Zomba</geogName>, over <measure>6000
 <lb/>feet</measure> high - A marsh prevented our following 
@@ -158,11 +164,11 @@
 <lb/>its shores, and thanked the Great Father of All,
 <lb/>for permitting us the honour of first seeing its
 <lb/>broad blue waters - A grand sight it is for it
-<lb/>his among bold mountain scenery - and
-<lb/>all the mountains are clothed with vegetation
+<lb/>lies among bold mountain scenery - and
+<lb/>all the mountains are clothed with vegetation,
 <lb/>and several are inhabited even on their tops
 <lb/>We went some distance up a mountain and
-<lb/>could see <measure>26°</measure> of watery horizon in the <choice><abbr>N.</abbr><expan>North</expan></choice> <choice><abbr>N.</abbr><expan>North</expan></choice>, <choice><abbr>N.E.</abbr><expan>North-Northeast</expan></choice>
+<lb/>could see <measure>26°</measure> of watery horizon in the <choice><abbr>N.N.E.</abbr><expan>North-Northeast</expan></choice>
 <lb/>only, two mountain tops rose in the blue
 <lb/>distance like little islands <measure>fifty or sixty miles</measure>
 <lb/>away. the Lake is of a pear shape or were it <!-- geog: Shirwa -->
@@ -170,10 +176,10 @@
 
 	<pb facs="liv_001431_0003" n="0003"/>
 <lb/>shape - It is from <measure>25 to 30 miles</measure> wide in the
-<lb/>broad part but a narrow prologation stretches
+<lb/>broad part but a narrow prolongation stretches
 <lb/>south of where we stood some <measure>30 miles</measure>. No outlet
-<lb/>is known - its water is bitter but drinkable
-<lb/>and it contains plenty of <term type="animal_foodstuff">fish</term> <term type="animal">alligator</term>, and
+<lb/>is known - its water is bitter but drinkable,
+<lb/>and it contains plenty of <term type="animal_foodstuff">fish</term> <term type="animal">alligators</term>, and
 <lb/><term type="animal">hippopotami</term> - <term type="animal">Leeches</term> too as we found in
 <lb/>wading through a piece of marsh to get a
 <lb/>meridian observation of the Sun with the natural
@@ -181,8 +187,8 @@
 <lb/>It cannot come out of this for <hi rend="underline">its</hi> water is sweet.
 <lb/>We could obtain no information about <persName>Burton</persName>'s
 <lb/>party - but returning down the <placeName><geogName type="valley">valley of the 
-<lb/><geogName type="lake">Shirwa</geogName></geogName></placeName> - we as certained that there is one
-<lb/>point in which only which about <measure>30 miles</measure> of
+<lb/><geogName type="lake">Shirwa</geogName></geogName></placeName> - we ascertained that there is one
+<lb/>point in which only about <measure>30 miles</measure> of
 <lb/>land travel will be necessary between a
 <lb/>branch of the <placeName><geogName type="river">Shire</geogName></placeName>, and the southern end
 <lb/>of <placeName><geogName type="lake">Shirwa</geogName></placeName> - We have got no news from <placeName><country>England</country></placeName>
@@ -203,14 +209,14 @@
 <lb/>cultivate <term type="plant">cotton</term> very extensively - we never
 <lb/>saw so much anywhere and this is the
 <lb/>region I have pointed out as capable of becoming
-<lb/>a counter poise to <orgName><term type="nationality">American</term> <orgName>slave</orgName> labour</orgName><!-- Tag American with term? MB -->
+<lb/>a counterpoise to <orgName><term type="nationality">American</term> <orgName>slave</orgName> labour</orgName><!-- Tag American with term? MB -->
 <lb/>The farther we went the more important did this
 <lb/>crop appear and every one spins &amp; weaves it.
 
 	<pb facs="liv_001431_0004" n="0004"/>
 <lb/>Now the <term type="people">Portuguese</term> knew nothing of this Lake<!-- Does Portugues need a term tag too? MB -->
-<lb/>being so near - <choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 15 23'. <choice><abbr>S.</abbr><expan>South</expan></choice> the point we reached
-<lb/><choice><abbr>Long.</abbr><expan>Longitude</expan></choice> 35° 35' &amp; 36° <choice><abbr>E.</abbr><expan>East</expan></choice> and we tell them very little -
+<lb/>being so near <choice><abbr>Lat</abbr><expan>Latitude</expan></choice> 15 23'. <choice><abbr>S.</abbr><expan>South</expan></choice> the point we reached
+<lb/><choice><abbr>Long-</abbr><expan>Longitude</expan></choice> 35° 35' &amp; 36° <choice><abbr>E.</abbr><expan>East</expan></choice> and we tell them very little -
 <lb/>we allow <orgName>our own Government</orgName> to do that
 <lb/>(tell them) for when I crossed the continent the <term type="people">Portuguese</term>
 <lb/><term type="occupation">minister</term> claimed the honour for two black men
@@ -226,7 +232,8 @@
 <lb/>will thus see that I cannot have much
 <lb/>heart to open up a country for a parcel of
 <lb/><orgName><term type="nationality">Portuguese</term> <orgName><term type="occupation">pedlars in <choice><sic>mens</sic><corr>men's</corr></choice> bodies &amp; souls</term></orgName></orgName>,
-<lb/>but I trust in Providence to turn all round to the
+<lb/>but I trust in Providence - a merciful 
+<lb/>and kind Providence to turn all round to the
 <lb/>glory of God - We were obliged to wait for a
 <lb/>stronger vessel to take us up the rapids above
 <lb/><placeName><settlement type="town"><choice><orig>Tette</orig><reg>Tete</reg></choice></settlement></placeName> - I would rather have gone up to make our
@@ -241,9 +248,9 @@
 <lb/>return from <placeName><geogName type="lake">Nyinyesi</geogName></placeName> - Our <term type="occupation">naval officer</term>
 <lb/>did not suit - Said he had not "his proper position
 <lb/>as second in command" so I had to become both
-<lb/>first &amp; second and you know stand upon a paddle 
+<lb/>first &amp; second and you know standing on a paddle 
 <lb/>box in a hot sun is not favourable to literary labour
-<lb/>Blessing be on you. Ever Yours Affectionately<!-- Change as appropriate -->
+<lb/>Blessings be on you. Ever Yours Affectionately<!-- Change as appropriate -->
 <lb/><space extent="8" unit="words"/><persName>David Livingstone</persName></p><!-- Change as appropriate --> 
 
 
