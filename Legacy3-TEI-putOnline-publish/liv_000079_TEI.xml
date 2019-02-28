@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-alt-new.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000079"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+				<!-- Change title below -->
+                <title>The Divinity of the Holy Spirit, and His Operation on the Human Heart</title>
+ 				<title type="alternative">The Divinity of the Holy Spirit, and His Operation on the Human Heart, [1837?]</title><!-- Change -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Megan Ward</principal>
+				<respStmt xml:id="AM">
+                    <name>Anne Martin</name><!-- Change -->
+					<resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change -->
+                    <resp>Proofing</resp><!-- Change -->
+                </respStmt>
+				<respStmt xml:id="HB">
+                    <name>Heather F. Ball</name><!-- Change -->
+					<resp>Transcription</resp><!-- Change -->
+                    <resp>Encoding</resp><!-- Change -->
+                    <resp>Proofing</resp><!-- Change -->
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name><!-- Change -->
+                    <resp>Coding review</resp><!-- Change, remove, or add more <resp> as appropriate -->
+					<resp>Formatting review</resp>
+                </respStmt>
+				<!-- Add here a new full <respStmt>, format as above, for each person who works on the file. -->
+            </titleStmt>
+            <publicationStmt>
+				<authority>Livingstone Online</authority>
+                <publisher>University of Nebraska-Lincoln</publisher>
+                <pubPlace>Lincoln, NE, USA</pubPlace>
+                <date>2019</date><!-- Change if necessary -->
+				<idno type="LEAP-ID">liv_000079</idno>
+				<!-- Change the license below if necessart -->
+			    <availability>
+        			<licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+            			All materials are licensed for use under the 
+            			<ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                		Creative Commons Attribution-Noncommercial 3.0 Unported License
+            			</ref>. (c) Dr. Neil Imray Livingstone Wilson, 2011
+        			</licence>
+    			</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country><!-- Change country as needed -->
+                        <settlement>London</settlement><!-- Change settlement as needed -->
+                        <repository>University of London. School of Oriental and African Studies</repository><!-- Change repository as needed -->
+				        <idno type="shelfmark">CWM/LMS/Livingstone Wooden Box, item 5</idno><!-- Change shelfmark as needed -->
+                        <altIdentifier>
+                            <idno type="ccnumber">Papers and Reports, 01</idno><!-- Change CC number as needed -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+							<!-- Add additional <handNote> elements below as needed. -->
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">The Divinity of the Holy Spirit, and His Operation on the Human Heart, [1837?]</title><!-- Change title -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1837">[1837?]</date><!-- Change @when and date -->
+                    <placeName type="compositionPlace">[Scotland]</placeName><!-- Change place -->
+                    <!--<persName type="addressee"></persName>--><!-- Change addressee -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+				<!-- See LEAP encoding manual sect. 19 for language abbreviations. English should be first,
+				then add all other languages, as appropriate, in alphabetical order. -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<change when="2019-02-28" who="#AW">Coding and formatting review</change>
+            <change when="2019-02-27" who="#HB">Proofing and XML encoding</change>
+            <change when="2019-02-06" who="#AM">Initial transcription and XML encoding</change>
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Most recent <change> should always be placed first -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+    
+	<!-- Start each page with a <pb> formatted as below -->           
+	<pb facs="liv_000079_0001" n="0001"/><!-- Change both @facs and @n -->
+<lb/><p rend="no-indent"><add place="marginleft">5</add>The subject of This essay is, <space extent="2" unit="chars"/>The Divinity of The Holy Spirit, and
+<lb/>his operation on The human heart.</p>
+<lb/><p>The first enquiry which ought To engage the attention of
+<lb/>every candid searcher after Truth, in coming To the <bibl>Bible</bibl>, ought
+<lb/>To be; Is This The word of God? Let him ascertain that it is
+<lb/>so, and Then every statement contained Therein ought To be
+<lb/>received with perfect confidence; although it may not
+<lb/>coincide with what he should have expected to find in a
+<lb/>revelation of The will of God; <space extent="2" unit="chars"/>And every precept it enjoins
+<lb/>ought to be received with ready obedience, although it may
+<lb/>not accord with <add place="below"><seg type="metamark">^</seg></add> <add place="above">his</add> preconceived ideas of right and wrong; And Though
+<lb/>he cannot understand its mysteries, or compass them within
+<lb/>The limited grasp of his reasoning faculties, all ought to
+<lb/>be received on the ground of The divine Testimony, and relied
+<lb/>on with implicit confidence. <space extent="3" unit="chars"/>The doctrine I am To prove
+<lb/>is one of the mysteries of the <bibl>Bible</bibl>, and is susceptible of no other
+<lb/>proof except what is deducible from <space extent="2" unit="chars"/>that source. In <choice><sic><w>conseque-<add place="below">-ce</add></w></sic><corr>consequence</corr></choice>
+<lb/>of The imperfection of our nature, and our limited capacities
+<lb/>we cannot understand the <hi rend="underline">manner</hi> of The existence of The
+<lb/>Trinity, abstractedly considered, but all that is necessary To
+<lb/>guide our <del type="cancelled">prattice</del> practice is level To the capacity of any
+<lb/>ordinary mind, and we ground our faith in those things which are
+<lb/>above our reason, on The divine faithfulness.- The Terms <w>employ<add place="above">(ed</add></w>
+<lb/>in scripture concerning the Holy Spirit clearly convey
+<lb/>To us The ideas of personality and divinity – He is <w>descri<seg type="hyphen">-</seg> 
+<lb break="no"/><seg type="hyphen">-</seg>bed</w> as being <hi rend="underline">sent</hi>, as <hi rend="underline">Teaching</hi>. “whom the Father will
+<lb/>send in my name, <hi rend="underline">he</hi> shall Teach you" &amp;c. <bibl>John XIV.. 26</bibl>
+    	
+	<pb facs="liv_000079_0002" n="0002"/>
+<lb/>and Christ said “<hi rend="underline">He</hi> shall Testify of me”. <bibl>John XV.. 26</bibl> - As “<hi rend="underline">descending</hi>
+<lb/>like a <term type="animal">dove</term>”. <bibl><choice><abbr>Matth</abbr><expan>Matthew</expan></choice> III .. 16</bibl> – As <hi rend="underline">searching</hi>, <hi rend="underline">striving</hi>, <hi rend="underline">dwelling</hi> in;
+<lb/>The bodies of <choice><sic>beleivers</sic><corr>believers</corr></choice> are said To be The Temples of the Holy Spirit</p>
+<lb/><p>The same attributes being ascribed and homage paid
+<lb/>as To the Father and Son indicate his divinity – He is <w>denomi<seg type="hyphen">-</seg>
+<lb break="no"/>-nated</w> God, “<persName>Peter</persName> said, why hath <persName>Satan</persName> filled thine heart
+<lb/>To lie. To the Holy Spirit – Thou hast not lied unto men
+<lb/>but God” == “Holy men of old <choice><orig>spake</orig><reg>spoke</reg></choice> as They were moved by
+<lb/>The Holy Spirit,” – He <choice><orig>spake</orig><reg>spoke</reg></choice> by the mouth of <persName>David</persName>, ”and by
+<lb/><persName><choice><sic>Isaias</sic><corr>Isaiah</corr></choice></persName> The <term type="occupation">prophet</term>.” Now, “all scripture is given by inspiration
+<lb/>Of God” And God <choice><orig>spake</orig><reg>spoke</reg></choice> in sundry Times and <choice><sic>divers</sic><corr>diverse</corr></choice> manner
+<lb/>In Times past unto. The fathers by the <term type="occupation">prophets</term>” – He is the
+<lb/>instrument in the new creation, &amp; none can create but deity
+<lb/>The same worship, Thus, “The grace of our Lord <persName>Jesus Christ</persName>, The
+<lb/>love of god The Father and the communion of the Holy spirit
+<lb/>be with you all,” “Baptizing them in the <hi rend="underline">name</hi> of The Father and
+<lb/>of the Son, and of the Holy Spirit.” “And there are three that
+<lb/>bear record in heaven, the Father, the Word, and the Holy
+<lb/>spirit &amp; these three are one,” <space extent="2" unit="chars"/>These passages prove The Holy
+<lb/>spirit to be a divine person, otherwise we must admit
+<lb/>the <bibl>Bible</bibl> contains <choice><sic>superflous</sic><corr>superfluous</corr></choice> matter, some of these passages
+<lb/>having no meaning on any other supposition</p>
+<lb/><p>The united Testimony of both scripture and experience
+<lb/>prove man To be a sinful, guilty and polluted creature – “His
+<lb/>heart is at enmity with God.” and all the principles arising
+<lb/>Therefrom are in direct opposition to the holy feast, and
+<lb/>good law of God, His affections are vitiated his <w>underst<seg type="hyphen">-</seg>
+<lb break="no"/><seg type="hyphen">-</seg>anding</w> darkened, and his will perverted, The <bibl>Bible</bibl>
+<lb/>Treats him as a moral and accountable <term type="occupation">agent</term>. Salvation
+
+	<pb facs="liv_000079_0003" n="0003"/>
+<lb/>is freely offered to him, <choice><sic>Beleive</sic><corr>Believe</corr></choice> on The Lord <persName>Jesus Christ</persName>, and thou
+<lb/>shalt be saved,- faith in the work of <persName>Jesus Christ</persName> is all That is required
+<lb/>To <choice><sic>sheild</sic><corr>shield</corr></choice> him from everlasting punishment, Yet he will not
+<lb/><choice><sic>beleive</sic><corr>believe</corr></choice> it, unless The Holy Spirit exerts his influence over his will
+<lb/>by convincing him of sin, <choice><orig>shewing</orig><reg>showing</reg></choice> him the <choice><orig>deceitfullness</orig><reg>deceit</reg></choice><!-- not sure about this correction - "deceitfullness" does not exist in current dictionary, but did it once exist? AM --> and
+<lb/>desperate wickedness of his own heart; <space extent="2" unit="chars"/>The folly and danger of living
+<lb/>in sin; exhibits To his view the beauty of holiness; <choice><orig>shews</orig><reg>shows</reg></choice> him
+<lb/>The perfect consistency of The plan of Mercy Through <persName>Christ</persName>, with the
+<lb/>claims of Justice – <space extent="2" unit="chars"/>Its complete adaptation To all his wants
+<lb/>sheds abroad The Love of <persName>Christ</persName> in his heart, a new motive to
+<lb/>obedience To The Law of god. The principles which The Holy
+<lb/>Spirit imparts cause him to view the world and the Things of the
+<lb/>world in a Totally different Light than formerly. The change
+<lb/>is so great and wonderful that it is denominated the new
+<lb/>creation, the new birth &amp;c. <space extent="4" unit="chars"/>While it is the fact that the
+<lb/>operation of the Holy Spirit is absolutely required in this change,
+<lb/>yet man is Treated as a moral and accountable <term type="occupation">agent</term> <w>throug<supplied>-</supplied>
+<lb break="no"/><seg type="hyphen">-</seg>hout</w> – The Holy Spirit does not communicate any new
+<lb/>faculties to the soul, the sinner is as capable of <hi rend="underline"><choice><sic>beleiving</sic><corr>believing</corr></choice></hi>,
+<lb/><hi rend="underline">Loving</hi>, <hi rend="underline">rejoicing</hi>, <hi rend="underline">hating</hi> &amp;c. in a state of nature as in a
+<lb/>state of grace, and though he is described as naturally unable
+<lb/>To Love and serve God, yet the reason Lies in the fact that
+<lb/>he <hi rend="underline">will</hi> not; His inability is moral not physical, Our Lord says
+<lb/>“ye <hi rend="underline">will</hi> not come unto me That ye might have Life.” “and if
+<lb/>any man <hi rend="underline">will</hi> do his will he shall know of this doctrine
+<lb/>whether it be of god.” <space extent="2" unit="chars"/>And on this principle, I apprehend
+<lb/>are those condemned, who choose to reject this salvation
+<lb/>“this is the condemnation that light has come into the
+<lb/>World, and men <hi rend="underline">loved</hi> darkness rather than light because
+<lb/>their deeds were evil, some object to this view of the subject
+<lb/>because they find such declarations in the scriptures as
+      
+	<pb facs="liv_000079_0004" n="0004"/>
+<lb/><seg type="catch">as</seg> these “No man <hi rend="underline">can</hi> come unto me except the father who
+<lb/>hath sent me draw him”, “Without me ye <hi rend="underline">can do</hi> nothing”.
+<lb/>These expressions may be explained by a similar one relating
+<lb/>To a different thing; <space extent="2" unit="chars"/>It is said, the <choice><sic>bretheren</sic><corr>brethren</corr></choice> of <persName>Joseph</persName> <hi rend="underline">could</hi>
+<lb/>not speak peacably to him, Now every one knows there
+<lb/>was no physical impossibility existing here they were quite
+<lb/>capable of it had they been so inclined. <space extent="2" unit="chars"/>The <bibl>gospel</bibl> is
+<lb/>likewise addressed to the will, “Whosoever will let him
+<lb/>come and take of the <term type="foodstuff">water</term> of life freely.” There is no <w>imped<seg type="hyphen">-</seg>
+<lb break="no"/><seg type="hyphen">-</seg>iment</w> in the way of any sinner obtaining salvation except
+<lb/>his own moral depravity; <space extent="2" unit="chars"/>the Holy Spirit is promised
+<lb/>to all who ask it, “If ye then being evil know how
+<lb/>To give good gifts unto your children, how much
+<lb/>more shall your heavenly father give the Holy Spirit to them
+<lb/>that ask him <space extent="2" unit="chars"/>Hence the error of those who think, because
+<lb/>His influence is essential to the right reception of the Truth into the
+<lb/>heart, they are justified in continuing in sin, waiting for an
+<lb/>effect to be produced within them on the grounds of which
+<lb/>they imagine <add place="below"><seg type="metamark">^</seg></add> <add place="above">they</add> shall be Justified before god, and thus they continue
+<lb/>To reject <persName>Christ</persName> and resist his Spirit. <space extent="7" unit="chars"/>The Spirit is
+<lb/>the grand <term type="occupation">agent</term> in the sinner’s sanctification, though by faith
+<lb/>in <persName>Christ</persName> he is Justified in the sight of god, yet the seeds
+<lb/>of depravity still remain, the power of sin is broken, but its pollution
+<lb/>still exists, The <choice><sic>beleiver</sic><corr>believer</corr></choice> is commanded <add place="below"><seg type="metamark">^</seg></add> <add place="above">To strive</add> against sin,, “To work
+<lb/>out his own salvation from its pollution, He is commanded
+<lb/>as if he could do it all himself, and at the same Time To Trust
+<lb/>To the Holy Spirit as if he could do nothing, <space extent="2" unit="chars"/>for it is God
+<lb/>who worketh in you both To will and To do of his good pleasure</p>
+<lb/><p>Through sanctification of the spirit and <choice><sic>beleif</sic><corr>belief</corr></choice> of the Truth the
+<lb/>sinner is saved from all sin and pollution and made meet
+<lb/>for The inheritance of The Saints in Light.</p>
+<lb/><p><space extent="8" unit="words"/><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>	
+            </div>
+        </body>
+    </text>
+
+</TEI>
