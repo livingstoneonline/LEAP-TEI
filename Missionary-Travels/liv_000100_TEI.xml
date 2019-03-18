@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-mt.xsl"?>
+<?xml-stylesheet type="text/xsl" href="transcription-mt.xsl"?>
+<!--http://livingstoneonline.github.io/LEAP-XSLT/-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000100">
     <teiHeader>
         <fileDesc>
@@ -84,6 +85,7 @@
                 <language ident="pt">Portuguese</language>
                 <language ident="en-scotland">Scottish Standard English</language>
                 <language ident="tn">Tswana</language>
+                <language ident="st">Southern Sotho</language>
                 <language ident="und">Undetermined</language> 
             </langUsage>
         </profileDesc>
@@ -246,7 +248,7 @@
 <pb facs="liv_000100_0001" n="0001"/><!-- beginning of Chapter VIII in published MT.JL -->    
 <lb/><p><fw><add place="inspace" hand="#U1" rend="gray right">1</add></fw>
 <lb/><add place="marginleft" rend="gray" hand="#U2"><note>113</note></add> The <term type="tribe">Bakalahari</term> who live
-<lb/>at <placeName><geogName type="well">Motlatsa wells</geogName></placeName> have
+<lb/>at <placeName><geogName type="spring">Motlatsa</geogName></placeName> wells have
 <lb/>always been very friendly <add place="below" rend="red" hand="#U3">^</add> <add place="above" rend="red" hand="#U3">to us</add> and
 <lb/>listen attentively to the introduction
 <lb/>conveyed to them in their
@@ -459,9 +461,9 @@ before they
     <pb facs="liv_000100_0006" n="0006"/>
 <lb/><p><fw><add place="inspace" hand="#U2" rend="gray center">2</add> <add place="inspace" rend="gray right" hand="#U1">6</add></fw>
 <lb/><lb/><lb/><lb/><lb/><lb/> 
-<lb/>Leaving <placeName><geogName type="well">Motlatsa</geogName></placeName> on the <date when="1853-01-08">8<hi rend="sup">th</hi>
+<lb/>Leaving <placeName><geogName type="spring">Motlatsa</geogName></placeName> on the <date when="1853-01-08">8<hi rend="sup">th</hi>
 <lb/>January</date> we passed away
-<lb/>down the <placeName><geogName type="stream">Mokoko</geogName></placeName> which 
+<lb/>down the <placeName><geogName type="river">Mokoko</geogName></placeName> which 
 <lb/>in the memory of persons
 <lb/>now living was a flowing
 <lb/>stream - We ourselves once
@@ -470,13 +472,13 @@ before they
 <lb/>appearance of running to the
     <lb/>North - Between <placeName><settlement type="village" ref="settlement.xml#sett0066">Lotlakani</settlement></placeName> &amp;
 <lb/><placeName><geogName type="pan">Nchokotsa</geogName></placeName> we pass the small
-<lb/>well named <del type="strikethrough"><placeName><geogName type="well">Orapa</geogName></placeName> <placeName><geogName type="well">Thutsa</geogName></placeName></del>
-<lb/><placeName><geogName type="well">Orapa</geogName></placeName> &amp; another <w><subst><del>n</del><add place="over-text">c</add></subst>alled</w> <placeName><geogName type="well">Thutsa</geogName></placeName>
+<lb/>well named <del type="strikethrough"><placeName><geogName type="spring">Orapa</geogName></placeName> <placeName><geogName type="spring">Thutsa</geogName></placeName></del>
+<lb/><placeName><geogName type="spring">Orapa</geogName></placeName> &amp; another <w><subst><del>n</del><add place="over-text">c</add></subst>alled</w> <placeName><geogName type="spring">Thutsa</geogName></placeName>
 <lb/>the water is <term type="foodstuff">salt</term> and purgative
 <lb/>The salt pan <placeName><geogName type="pan">Chuantsa</geogName></placeName> having
 <lb/><add place="marginleft">a cake</add> <add place="below" hand="#U3" rend="red">˄</add> <add place="above" hand="#U3" rend="red">of <term type="foodstuff">salt</term></add> 1<choice><orig>₁/₂</orig><reg>1/2</reg></choice> inches in <add place="above" hand="#U3" rend="red">thickness</add> <del type="strikethrough" rend="red" hand="#U3">diameter of <term type="foodstuff">salt</term></del>
 <lb/>is about <measure>10 miles</measure> to the <choice><abbr>N- E-</abbr><expan>North East</expan></choice> of
-<lb/><placeName><geogName type="well">Orapa</geogName></placeName> <space extent="3" unit="chars"/>This <subst><del type="cancelled" hand="#U3" rend="red"><term type="foodstuff">salt</term></del><add place="above" hand="#U3" rend="red">deposit</add></subst> contains
+<lb/><placeName><geogName type="spring">Orapa</geogName></placeName> <space extent="3" unit="chars"/>This <subst><del type="cancelled" hand="#U3" rend="red"><term type="foodstuff">salt</term></del><add place="above" hand="#U3" rend="red">deposit</add></subst> contains
 <lb/>a bitter, <term type="foodstuff">salt</term> in addition<add place="inline" rend="red" hand="#U3">,</add>
 <lb/>probably the <del type="cancelled">sulphate</del> <add place="below">˄</add> <add place="above">nitrate</add> of
 <lb/>lime the <orgName>natives</orgName> in order
@@ -592,7 +594,7 @@ before they
 <lb/>slake their thirst thoroughly
 <lb/>as far as that could be done
 <lb/>before starting, <add place="above" rend="red" hand="#U3">-</add> our progress
-<lb/>was <add place="below" hand="#U3" rend="red">˄</add> <add place="above" hand="#U3" rend="red">but</add> slow - <space extent="2" unit="chars"/>At <placeName><geogName type="well">Koobe</geogName></placeName> there
+<lb/>was <add place="below" hand="#U3" rend="red">˄</add> <add place="above" hand="#U3" rend="red">but</add> slow - <space extent="2" unit="chars"/>At <placeName><geogName type="spring">Koobe</geogName></placeName> there
 <lb/>was such a mass of mud
 <lb/><add place="below">^</add> <add place="marginleft">in the pond
     <lb/>worked up by
@@ -681,7 +683,7 @@ that only by great labour
 <lb/>fight - <space extent="2" unit="chars"/>The hole <del type="cancelled">in this case</del>
 <lb/>as I have often observed is
 <lb/>actually a cavity but that
-<lb/><add place="marginleft" hand="#U3" rend="red"><del type="cancelled" hand="#U3" rend="red"><note><metamark function="query"><choice><abbr>Qu:</abbr><expan>Query</expan></choice></metamark> this word?</note></del></add> which is <add place="above" rend="red" hand="#U3">wanting</add> <metamark function="let-stand" spanTo="#meta-137"/><del type="cancelled" hand="#U3" rend="red">awanting</del><anchor xml:id="meta-137"/> in all
+<lb/><add place="marginleft" hand="#U3" rend="red"><del type="cancelled" hand="#U3" rend="red"><note><metamark function="query"><choice><abbr>Qu:</abbr><expan>Query</expan></choice></metamark> this word?</note></del></add> which is <add place="above" rend="red" hand="#U3">wanting</add> <metamark function="let-stand" spanTo="#meta-137"/><seg type="let-stand" rend="dashed"><del type="cancelled" hand="#U3" rend="red">awanting</del></seg><anchor xml:id="meta-137"/> in all
 <lb/>the pictures <del type="cancelled">of it</del>, is a wall
 <lb/><add place="marginleft">of stones <add place="below">^</add></add> surmounted by a hedge of
 <lb/>"<term type="plant">wait a bit</term>" thorns through
@@ -950,7 +952,7 @@ detached from the parts
 
     <pb facs="liv_000100_0019" n="0019"/>
 <lb/><fw><add place="inspace" hand="#U2" rend="gray center">15</add> <add place="inspace" rend="gray right" hand="#U2">15</add> <add place="inspace" rend="gray right" hand="#U1">19</add></fw> 
-<lb/><p>At <placeName><geogName type="well">Rapesh</geogName></placeName> we came among
+<lb/><p>At <placeName><geogName type="spring">Rapesh</geogName></placeName> we came among
 <lb/>our old friends the <orgName ref="orgName.xml#org0041">Bushmen</orgName>
     <lb/><add place="marginleft" hand="#U3" rend="red"><del type="strikethrough" hand="#DL"><note><metamark function="ed-mark">X</metamark> <metamark function="query"><choice><abbr>Qu</abbr><expan>Query</expan></choice></metamark> meaning
     <lb/>who?</note></del></add>       
@@ -1113,7 +1115,7 @@ detached from the parts
 <lb/>up to seed and the flowers
 <lb/>of the forest were in full <subst><del type="cancelled" hand="#U3" rend="red">blow</del><add place="above" hand="#U3" rend="red">bloom</add></subst>
 <lb/>Instead of the cheery prospect
-<lb/>around <placeName><geogName type="well">Koobe</geogName></placeName> &amp; <placeName><geogName type="pan">Nchokotsa</geogName></placeName>
+<lb/>around <placeName><geogName type="spring">Koobe</geogName></placeName> &amp; <placeName><geogName type="pan">Nchokotsa</geogName></placeName>
 <lb/>we had now a delightful
 <lb/>scene - all the ponds full
 <lb/>of water - &amp; the birds twittering
@@ -1846,7 +1848,7 @@ in the hope of reaching some
 <lb/>all sides by the same <w>impen<supplied>-</supplied>
 <lb break="no"/>-etrable</w> <del type="cancelled"><gap extent="1" unit="chars"/></del> belt of <term type="plant">reeds</term> - This
 <lb/>is the broad part named
-<lb/><placeName><geogName type="river">Zabesa</geogName></placeName> - Two tree <metamark function="ed-mark" rend="gray" resp="#U2">[</metamark><!-- pencil bracket connects to marginal number.JL -->covered <add place="marginright" hand="#U2" rend="gray"><note>113</note></add><!-- number within a circle, sh -->
+<lb/><placeName><geogName type="lake">Zabesa</geogName></placeName> - Two tree <metamark function="ed-mark" rend="gray" resp="#U2">[</metamark><!-- pencil bracket connects to marginal number.JL -->covered <add place="marginright" hand="#U2" rend="gray"><note>113</note></add><!-- number within a circle, sh -->
 <lb/>islands seemed to be much
 <lb/>nearer to the water than
 <lb/>the shore on which we were
@@ -2313,7 +2315,7 @@ among the tall grass
 <lb/>In this respect the expressions
 <lb/><del type="strikethrough" rend="red" hand="#U3">of strong desire</del> of both the
     <lb/><term type="tribe">Makololo</term> and <orgName ref="orgName.xml#org0038">Boers</orgName> of
-<lb/>the <placeName><geogName type="mountain"><choice><orig>Cashan</orig><reg>Magaliesberg</reg></choice></geogName></placeName> mountains
+<lb/>the <placeName><geogName type="mountain">Cashan</geogName></placeName> mountains
 <lb/>who are perpetually making
 <lb/>forays are identical - Indeed
     <lb/><choice><sic>M<hi rend="sup underline">s</hi>ers</sic><corr>Messrs.</corr></choice> <persName ref="people.xml#pers0481">Hendrick Potgeiter</persName> &amp;
@@ -2937,7 +2939,7 @@ but they are
     <lb/>the general
     <lb/>name <term type="tribe">Makalaka</term><anchor xml:id="meta-153"/></add> 
 <del type="strikethrough" rend="red" hand="#U3">and</del> <del type="cancelled">these</del> <add place="below" rend="red" hand="#U3">^</add> <add place="above" rend="red" hand="#U3">who</add>
-<lb/><metamark function="let-stand" spanTo="#meta-154"/><del type="cancelled">must</del><anchor xml:id="meta-154"/> <add place="below" rend="red" hand="#U3">^</add> <add place="above" rend="red" hand="#U3"><del type="strikethrough">must</del> are forced to</add> render <del type="cancelled">their</del> certain
+<lb/><metamark function="let-stand" spanTo="#meta-154"/><seg type="let-stand" rend="dashed"><del type="cancelled">must</del></seg><anchor xml:id="meta-154"/> <add place="below" rend="red" hand="#U3">^</add> <add place="above" rend="red" hand="#U3"><del type="strikethrough">must</del> are forced to</add> render <del type="cancelled">their</del> certain
 <lb/>services - <add place="below" rend="red" hand="#U3">^</add> <add place="above" rend="red" hand="#U3">and</add> <del type="strikethrough" rend="red" hand="#U3">They</del> <del type="strikethrough">must</del> <add place="above"><del type="strikethrough" hand="#U3" rend="red">are obliged</del> to</add>
 <lb/>aid in tilling the soil<add place="inline" rend="red" hand="#U3">;</add>
 <lb/>but <del type="strikethrough" hand="#U3" rend="red">have</del> each <add place="below" rend="red" hand="#U3">^</add> <add place="above" rend="red" hand="#U3">has</add> his own
@@ -4522,7 +4524,7 @@ in order
 <lb/><fw><add place="inspace" hand="#U2" rend="gray left">104</add> <subst><del hand="#U1"><add place="inspace" hand="#U2" rend="gray right">12</add></del><add place="over-text" hand="#U1" rend="gray">108</add></subst></fw>
 <lb/><p>The <term type="tribe">Matibele</term> of <persName ref="people.xml#pers0446"><choice><orig>Mosilikatze</orig><reg>Mosilikatse</reg></choice></persName>
 <lb/>living a short distance <placeName><region>South
-<lb/>of the <placeName><geogName type="river">Zambesi</geogName></placeName></region></placeName>, and other
+<lb/>of the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName></region></placeName>, and other
 <lb/>tribes living a little South
     <lb/>of <metamark function="insertion"/><anchor xml:id="reorder-66"/> <placeName><settlement type="town" ref="settlement.xml#sett0085"><choice><orig>Senna</orig><reg>Sena</reg></choice></settlement></placeName> and <metamark function="reorder" spanTo="#meta-165"/><seg corresp="#reorder-66"><placeName><settlement type="town" ref="settlement.xml#sett0091">Tete</settlement></placeName></seg><anchor xml:id="meta-165"/> are
 <lb/>members of this same family
@@ -4555,8 +4557,8 @@ and some <term type="occupation">mountaineers</term>
 <lb/>odious practice of entrapping
     <lb/>human prey to <persName ref="people.xml#pers0426">Moshesh</persName>
 <lb/>having given them <term type="animal">cattle</term>
-<lb/>They are <del type="cancelled">d</del> called <term type="tribe">Marimo</term>
-<lb/>and <term type="tribe">Maya bathu</term> = men eaters
+<lb/>They are <del type="cancelled">d</del> called <foreign xml:lang="st">Marimo</foreign>
+<lb/>and <foreign xml:lang="st">Maya bathu</foreign> = men eaters
 <lb/>by the rest of the <term type="tribe"><choice><orig>Basutu<del type="cancelled">s</del></orig><reg>Basuto</reg></choice></term>
 <lb/>with various subdivisions
 <lb/>as <term type="tribe">Makatla</term>, <term type="tribe">Bamakakana</term>
@@ -5223,7 +5225,7 @@ with their
 <lb/>means "the large river" or
 <lb/>the river <foreign xml:lang="fr"><hi rend="underline">par excellence</hi></foreign> - 
 <lb/><placeName><geogName type="river">Luambeji</geogName></placeName> <placeName><geogName type="river">Luambesi</geogName></placeName> -- 
-<lb/><placeName><geogName type="river">Ambezi</geogName></placeName> - <placeName><geogName type="river">Ojimbesi</geogName></placeName> <add place="above">&amp; <placeName><geogName type="river">Zambesi</geogName></placeName></add> &amp;c - all
+<lb/><placeName><geogName type="river">Ambezi</geogName></placeName> - <placeName><geogName type="river">Ojimbesi</geogName></placeName> <add place="above">&amp; <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName></add> &amp;c - all
 <lb/>possess a similar signification
 <lb/>and express the <orgName>native</orgName>
 <lb/>idea of this magnificent
@@ -5596,7 +5598,7 @@ speaking
 <lb/>at low water</del> at each
 <lb/>of these is between <measure>four and
 <lb/>six feet</measure> - <subst><del>And</del><add place="over-text">But</add></subst> the falls of
-<lb/><placeName><geogName type="cataracts">Go<subst><del>y</del><add place="over-text">n</add></subst>ye</geogName></placeName> present a much more
+<lb/><placeName><geogName type="waterfall">Go<subst><del>y</del><add place="over-text">n</add></subst>ye</geogName></placeName> present a much more
 <lb/>serious obstacle - There we
 <lb/>were obliged to take the canoes
 <lb/>out of the water and carry
@@ -5728,8 +5730,8 @@ is the true
 <lb/>also occur but more <add place="below">^</add> <add place="above">comes</add> from
 <lb/>the North and North East
 <lb/>along the bed of the <placeName><geogName type="river">Leambye</geogName></placeName>
-<lb/>itself - <space extent="1" unit="chars"/><metamark function="let-stand" spanTo="#meta-177"/><del type="cancelled">There are but few<!-- p215 Missionary, sh -->
-<lb/>trees <del type="cancelled" rend="red" hand="#U3">in this</del></del><anchor xml:id="meta-177"/> in this valley
+<lb/>itself - <space extent="1" unit="chars"/><metamark function="let-stand" spanTo="#meta-177"/><seg type="let-stand" rend="dashed"><del type="cancelled">There are but few<!-- p215 Missionary, sh -->
+<lb/>trees <del type="cancelled" rend="red" hand="#U3">in this</del></del></seg><anchor xml:id="meta-177"/> in this valley
 <lb/>those which stand on the
 <lb/>mounds were nearly all
     <lb/>transplanted by <persName ref="people.xml#pers0441">Santuru</persName> for
@@ -5946,7 +5948,7 @@ as
 <lb/>which from the swarms of <term type="animal">mice</term>
 <lb/>we stood in great need - </p>
 <lb/><p>On making enquiries to ascertain
-    <lb/>whether <persName ref="people.xml#pers0441">Santuru</persName> <add place="marginleft"><metamark function="insertion"/> the <term type="tribe">Molŭiana</term></add> had ever been
+<lb/>whether <persName ref="people.xml#pers0441">Santuru</persName> <add place="marginleft"><metamark function="insertion"/> the <foreign xml:lang="loz">Molŭiana</foreign></add> had ever been
 <lb/>visited by white men I could
 <lb/>find no vestige of any such
 <lb/>visit - The <term type="tribe">Barotse</term> call themselves
@@ -6498,7 +6500,7 @@ I imagined
 <lb/><metamark function="flag" rend="gray" resp="#U2" spanTo="#meta-254"/>they had fled my approach
     <lb/>to <placeName><settlement type="town" ref="settlement.xml#sett0071">Linyanti</settlement></placeName> they let me know
 <lb/>that they had a vivid idea of
-<lb/><add place="marginleft">the customs of</add> <metamark function="let-stand" spanTo="#meta-331"/><del type="cancelled">the</del><anchor xml:id="meta-331"/> <term type="nationality">English</term> <choice><sic>cruizers</sic><corr>cruisers</corr></choice> on the coast - <anchor xml:id="meta-254"/>
+<lb/><add place="marginleft">the customs of</add> <metamark function="let-stand" spanTo="#meta-331"/><seg type="let-stand" rend="dashed"><del type="cancelled">the</del></seg><anchor xml:id="meta-331"/> <term type="nationality">English</term> <choice><sic>cruizers</sic><corr>cruisers</corr></choice> on the coast - <anchor xml:id="meta-254"/>
 
         <pb facs="liv_000100_0158" n="0158"/>                           
 <lb/><fw><add place="inspace" hand="#U2" rend="gray left">153</add> <add place="inspace" hand="#U1" rend="gray right">157</add></fw>
@@ -7092,7 +7094,7 @@ customs eat alone he is
 <lb/>the <term type="occupation">chief</term> to witness the agreement
 <lb/>made between them that
 <lb/>whoever <del type="cancelled">of the</del> two should
-<lb/>kill a <term type="tribe">Matabele</term> <term type="occupation">warrior</term> first
+<lb/>kill a <term type="tribe">Matibele</term> <term type="occupation">warrior</term> first
 <lb/>in defence of the waggon
 <lb/>should possess both
 <lb/>the <term type="animal">calves</term>
@@ -7106,7 +7108,7 @@ customs eat alone he is
 <lb/>barrelled smooth bore for myself
 <lb/>and having seen such <del type="cancelled">a</del>
 <lb/>great abundance of game
-<lb/>in my visit to the <term type="tribe">Leeba</term>
+<lb/>in my visit to the <placeName><geogName type="river">Leeba</geogName></placeName>
 <lb/>I imagined that I could easily
 <lb/>supply the wants of my
 <lb/>party - Wishing also to avoid
@@ -7128,7 +7130,7 @@ customs eat alone he is
 
                 <pb facs="liv_000100_0175" n="0175"/>    
 <lb/><fw><add place="inspace" hand="#U1" rend="gray right">17<subst><del>3</del><add place="over-text">4</add></subst></add></fw>
-<lb/>one small <metamark function="let-stand" spanTo="#meta-332"/><del type="cancelled">tin</del><anchor xml:id="meta-332"/> <w>cannister<del type="strikethrough">s</del></w> about
+<lb/>one small <metamark function="let-stand" spanTo="#meta-332"/><seg type="let-stand" rend="dashed"><del type="cancelled">tin</del></seg><anchor xml:id="meta-332"/> <w>cannister<del type="strikethrough">s</del></w> about
 <lb/>fifteen inches square containing
 <lb/>spare shirting <choice><orig>trowsers</orig><reg>trousers</reg></choice> &amp; shoes
 <lb/>to be used when we reached
@@ -7247,7 +7249,7 @@ As I had always
 <lb/>The spot of embarkation was
 <lb/>the identical island where we
 <lb/>met <persName ref="people.xml#pers0515">Sebituane</persName> first known
-<lb/>as the island of <placeName><geogName type="island">Maunku</geogName></placeName> - one 
+<lb/>as the <placeName><geogName type="island">island of <persName ref="people.xml#pers0406">Maunku</persName></geogName></placeName> - one 
 <lb/>of his wives - <space extent="1" unit="chars"/>The <term type="occupation">chief</term> lent
 <lb/>me his own canoe and
 <lb/>as it was broader than usual 
@@ -7317,7 +7319,7 @@ As I had always
                 <pb facs="liv_000100_0179" n="0179"/>    
 <lb/><fw><add place="inspace" hand="#U1" rend="gray right">178</add></fw>
 <lb/><p>The part of the river called
-<lb/><placeName><geogName type="river">Zabesa</geogName></placeName> or <placeName><geogName type="river">Zabenza</geogName></placeName> is spread
+<lb/><placeName><geogName type="lake">Zabesa</geogName></placeName> or <placeName><geogName type="lake">Zabenza</geogName></placeName> is spread
 <lb/>out like a little lake surrounded
 <lb/>on all sides by dense masses
 <lb/>of <add place="below">^</add> <add place="marginleft">tall</add> <term type="plant">reed</term> - <space extent="2" unit="chars"/>The river below that
@@ -7470,8 +7472,8 @@ As I had always
 <lb/>East</measure> of the junction are
 <lb/>main land or not - <add place="marginleft"><metamark function="insertion"/>During a<!-- p234, Missionary, sh -->
     <lb/>flight</add>  
-<metamark function="let-stand" spanTo="#meta-26"/><del type="cancelled">In former
-<lb/>years the</del><anchor xml:id="meta-26"/><!-- the dotted underlining of the preceding words indicates that DL wants them to stand. JL --> <term type="tribe">Bamang-wato</term> men
+<metamark function="let-stand" spanTo="#meta-26"/><seg type="let-stand" rend="dashed"><del type="cancelled">In former
+<lb/>years the</del></seg><anchor xml:id="meta-26"/><!-- the dotted underlining of the preceding words indicates that DL wants them to stand. JL --> <term type="tribe">Bamang-wato</term> men
     <lb/><del type="cancelled"><add place="marginleft">with</add> carrying <persName ref="people.xml#pers0520">Sekomi</persName> as a child
 <lb/><add place="marginleft">in his mother's
     <lb/>arms</add>
@@ -10619,7 +10621,7 @@ and
 <lb/>seems to be man - <space extent="1" unit="chars"/>They
 <lb/>are more savage 
 <lb/>and commit more mischief
-<lb/>in the <del type="cancelled"><placeName><geogName type="river">Zambesi</geogName></placeName></del> <add place="below">^</add> <add place="marginleft"><placeName><geogName type="river">Leeambye</geogName></placeName></add> than in
+<lb/>in the <del type="cancelled"><placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName></del> <add place="below">^</add> <add place="marginleft"><placeName><geogName type="river">Leeambye</geogName></placeName></add> than in
 <lb/>any other river - After
 <lb/>dancing young men run
 <lb/>down to the water to wash
@@ -10940,7 +10942,7 @@ all the <term type="animal">zebras</term> are in these
 <lb/>of <subst><del>wh</del><add place="over-text">our</add></subst> manufactures produces
 <lb/>the expression "Say, ye are gods!"</p>
 <lb/><p>When about to leave the
-<lb/><term type="tribe">Makondo</term> - one of my men had
+<lb/><geogName><placeName type="river">Makondo</placeName></geogName> - one of my men had
     <lb/>dreamed that <persName ref="people.xml#pers0425">Mosantu</persName> was
 <lb/>shut up in a stockade <del type="cancelled">and
 <lb/>unable to</del> a prisoner - <space extent="1" unit="chars"/>This
@@ -12033,7 +12035,7 @@ to keep one foot apart from
 <lb/>sea on <placeName><geogName type="mountain">Table Mountain</geogName></placeName>
     <lb/>at the <placeName><region ref="region.xml#region0024">Cape</region></placeName> - and again
 <lb/>on the Northern slope
-<lb/>of the <placeName><geogName type="mountain"><choice><orig>Cashan</orig><reg>Magaliesberg</reg></choice> Mountains</geogName></placeName>
+<lb/>of the <placeName><geogName type="mountain">Cashan Mountains</geogName></placeName>
 <lb/>and here, at similar heights
 <lb/>it may be considered
 <lb/><add place="marginleft">as <add place="below">^</add></add> affording an approximation
@@ -12732,13 +12734,13 @@ and <term type="plant_foodstuff">bananas</term>
     <lb/>arrows over
     <lb/>their shoulders</add> 
 <space extent="1" unit="chars"/><del type="cancelled">As we entered
-<lb/>the <foreign xml:lang="tn">kotla</foreign> the party of <term type="tribe">Manenko</term> clapped
+<lb/>the <foreign xml:lang="tn">kotla</foreign> the party of <persName ref="people.xml#pers0388">Manenko</persName> clapped
 <lb/>their hands vigorously as a
     <lb/>salutation to <persName ref="people.xml#pers0532">Shinte</persName></del></p>
 <lb/><p><del type="cancelled">Behind him sat eighty or one
 <lb/>hundred women</del></p>
 <lb/><p>When we entered the <foreign xml:lang="tn">kotla</foreign> <subst><del><unclear cert="medium">we</unclear></del><add place="over-text">the</add></subst>
-<lb/>whole party of <term type="tribe">Manenko</term> saluted
+<lb/>whole party of <persName ref="people.xml#pers0388">Manenko</persName> saluted
     <lb/><add place="marginleft"><persName ref="people.xml#pers0532">Shinte</persName></add> <del type="cancelled">him</del> by clapping their hands &amp;
     <lb/><persName ref="people.xml#pers0506">Sambanza</persName> did obeisance by
 <lb/>rubbing his chest &amp; arms 
@@ -13651,11 +13653,11 @@ a string
 <lb/>into them are planted pieces
 <lb/>of the <term type="plant_foodstuff">Manioc</term> stalk - at four
 <lb/>feet apart - <space extent="1" unit="chars"/>a crop of
-<lb/><term type="plant_foodstuff">beans</term> or <term type="plant_foodstuff">earth nuts</term> <metamark function="let-stand" spanTo="#meta-197"/><del type="cancelled" rend="gray" hand="#U2">is</del><anchor xml:id="meta-197"/> <del type="cancelled"><add place="inline" rend="gray" hand="#U2">are</add></del>
+<lb/><term type="plant_foodstuff">beans</term> or <term type="plant_foodstuff">earth nuts</term> <metamark function="let-stand" spanTo="#meta-197"/><seg type="let-stand" rend="dashed"><del type="cancelled" rend="gray" hand="#U2">is</del></seg><anchor xml:id="meta-197"/> <del type="cancelled"><add place="inline" rend="gray" hand="#U2">are</add></del>
 <lb/>planted between and when
 <lb/>these are reaped the
 <lb/>ground around the <term type="plant_foodstuff">manioc</term>
-<lb/><add place="marginleft" rend="gray" hand="#U2"><note>cleared</note></add> is <metamark function="let-stand" spanTo="#meta-198"/><del type="cancelled" rend="gray" hand="#U2"><w>clea<subst><del hand="#DL">n</del><add place="over-text" hand="#DL">r</add></subst>ed</w></del><anchor xml:id="meta-198"/> of weeds  - In
+<lb/><add place="marginleft" rend="gray" hand="#U2"><note>cleared</note></add> is <metamark function="let-stand" spanTo="#meta-198"/><seg type="let-stand" rend="dashed"><del type="cancelled" rend="gray" hand="#U2"><w>clea<subst><del hand="#DL">n</del><add place="over-text" hand="#DL">r</add></subst>ed</w></del></seg><anchor xml:id="meta-198"/> of weeds  - In
 <lb/>from ten to eighteen months
 <lb/>after planting according
 <lb/>to the quality of the soil
@@ -14772,7 +14774,7 @@ grass
     <lb/><add place="marginleft" rend="gray" hand="#U2"><note><persName ref="people.xml#pers0568">Wheeler</persName> <metamark function="placeMark"/></note></add> We came to the village of
     <lb/><persName ref="people.xml#pers0547">Soana <choice><sic>m</sic><corr>M</corr></choice>olopo</persName><add place="inline" rend="gray" hand="#U2">,</add> a half brother
 <lb/>of <persName ref="people.xml#pers0348">Katema</persName><add place="inline" rend="gray" hand="#U2">,</add> a <measure>few miles</measure>
-<lb/>beyond the <placeName><geogName type="river"><choice><orig>Lokalu<metamark function="let-stand" spanTo="#meta-201"/><del type="strikethrough">e</del><anchor xml:id="meta-201"/>je</orig><reg>Lokalueje</reg></choice></geogName></placeName><add place="inline" rend="gray" hand="#U2">,</add> on the
+<lb/>beyond the <placeName><geogName type="river"><choice><orig>Lokalu<metamark function="let-stand" spanTo="#meta-201"/><seg type="let-stand" rend="dashed"><del type="strikethrough">e</del></seg><anchor xml:id="meta-201"/>je</orig><reg>Lokalueje</reg></choice></geogName></placeName><add place="inline" rend="gray" hand="#U2">,</add> on the
 <lb/><date when="1854-02-07">7<hi rend="sup underline">th</hi></date> and<add place="inline" rend="gray" hand="#U2">,</add> when we went
 <lb/>to visit him<add place="inline" rend="gray" hand="#U2">,</add> <del type="strikethrough">he was</del> found<add place="inline" rend="gray" hand="#U2">,</add>
 <lb/>him sitting<add place="inline" rend="gray" hand="#U2">,</add> with about one
@@ -14842,7 +14844,7 @@ grass
 <lb/>and he <subst><del>is</del><add place="over-text">was</add></subst> always asked
 <lb/>if we <w>had<del type="cancelled">e</del></w> behaved <w>our<supplied>-</supplied>
 <lb break="no"/>-selves</w> like men in the
-<lb/>way - <space extent="1" unit="chars"/>The <term type="tribe">Malokolo</term> are
+<lb/>way - <space extent="1" unit="chars"/>The <term type="tribe">Makololo</term> are
 
     <pb facs="liv_000100_0370" n="0370"/>               
 <lb/><fw><add place="inspace" hand="#U1" rend="gray right">369</add></fw>
@@ -15207,7 +15209,7 @@ grass
 <lb/>guilty of witchcraft or theft
 <lb/>These men were very much
 <lb/><add place="marginleft" rend="gray" hand="#U2"><note>45</note></add> astonished at the liberty enjoyed
-<lb/>by the <term type="tribe">Mokololo</term> and when
+<lb/>by the <term type="tribe">Makololo</term> and when
 <lb/>they found that all my people
 <lb/>held <term type="animal">cattle</term> we were told that
     <lb/><persName ref="people.xml#pers0444">Matiamvo</persName> alone had a herd -
@@ -16326,7 +16328,7 @@ taunted
 <lb/>of the <term type="occupation">chief</term> named <persName ref="people.xml#pers0349">Katende</persName><add place="inline" rend="gray" hand="#U2">,</add>
 <lb/>and we discovered also
 <lb/>to our surprise that <del type="strikethrough">an</del>
-<lb/><add place="marginleft"><del type="cancelled">an</del> <metamark function="let-stand" spanTo="#meta-207"/><del type="strikethrough">the</del><anchor xml:id="meta-207"/></add> <subst><del type="cancelled">pl</del><add place="over-text">al</add></subst>most level plain
+<lb/><add place="marginleft"><del type="cancelled">an</del> <metamark function="let-stand" spanTo="#meta-207"/><seg type="let-stand" rend="dashed"><del type="strikethrough">the</del></seg><anchor xml:id="meta-207"/></add> <subst><del type="cancelled">pl</del><add place="over-text">al</add></subst>most level plain
 <lb/><add place="marginleft">we had <subst><del type="strikethrough">crossed</del><add place="below">passed</add></subst></add> <w>form<subst><del>ed</del><add place="over-text">s</add></subst></w> the watershed
 <lb/>between the <del type="cancelled"><placeName><geogName type="river">Leeambye</geogName></placeName>
 <lb/>an</del> Southern and Northern 
@@ -16381,7 +16383,7 @@ taunted
 <lb/>sun, but as these <del type="strikethrough">were</del>
 <lb/>here <del type="cancelled"><unclear cert="medium">b</unclear></del><!-- DL has begun to form the letter 'b'.JL --> were <del type="strikethrough">but</del> branches
 <lb/>of that in which the
-<lb/><placeName><geogName type="river"><choice><orig>Casai</orig><reg>Kasai</reg></choice></geogName></placeName> or <placeName><geogName type="river">Loke</geogName></placeName> flows
+<lb/><placeName><geogName type="river">Casai</geogName></placeName> or <placeName><geogName type="river">Loke</geogName></placeName> flows
 <lb/>and <add place="below">^</add> <add place="marginleft">both</add> that river <subst><del type="strikethrough">with</del><add place="above">and</add></subst> its
 <lb/>feeders derive their water
 <lb/>in a singular manner
@@ -16583,7 +16585,7 @@ taunted
 <lb break="no"/>-ished</w> <term type="occupation">guides</term> this morning
 <lb/>so we went briskly on a
 <lb/>short distance and came
-<lb/>to a part of the <placeName><geogName type="river">Kasye</geogName></placeName>, <placeName><geogName type="river"><choice><orig>Casai</orig><reg>Kasai</reg></choice></geogName></placeName>, or
+<lb/>to a part of the <placeName><geogName type="river">Kasye</geogName></placeName>, <placeName><geogName type="river">Casai</geogName></placeName>, or
 <lb/><placeName><geogName type="river">Loke</geogName></placeName> where he had appointed
 <lb/>two canoes to convey us
 <lb/>across - <space extent="1" unit="chars"/>This is a most
@@ -16971,7 +16973,7 @@ we often saw the boys
 <lb/>go on without <w>the<del type="strikethrough">m</del></w> <add place="below">^</add> <add place="above"><term type="occupation">guides</term></add> and
 <lb/><del type="cancelled">tha</del> we should<!-- possible letters under 'sh' but they are illegible.JL --> choose
 <lb/>the path which <del type="cancelled">would</del>
-<lb/><add place="marginleft"><note><metamark function="stet"><choice><abbr>St</abbr><expan>Stet</expan></choice>/</metamark></note></add> <add place="marginleft"><del type="cancelled"><add place="above" rend="gray" hand="#U2">might</add></del> <metamark function="let-stand" spanTo="#meta-210"/><del type="strikethrough" rend="gray" hand="#U2">would seem to</del><anchor xml:id="meta-210"/></add> lead us in the direction
+<lb/><add place="marginleft"><note><metamark function="stet"><choice><abbr>St</abbr><expan>Stet</expan></choice>/</metamark></note></add> <add place="marginleft"><del type="cancelled"><add place="above" rend="gray" hand="#U2">might</add></del> <metamark function="let-stand" spanTo="#meta-210"/><seg type="let-stand" rend="dashed"><del type="strikethrough" rend="gray" hand="#U2">would seem to</del></seg><anchor xml:id="meta-210"/></add> lead us in the direction
 <lb/>we had always followed
     <lb/>But <persName ref="people.xml#pers0393">Mashauana</persName> fearing <retrace hand="#DL"><add place="inline" rend="gray" hand="#U2">lest</add></retrace>
 <lb/><add place="marginleft">we</add> <del type="cancelled">we should</del> <add place="below">˅</add> <add place="above">might</add> wander asked
@@ -17875,7 +17877,7 @@ We would not
 <lb/>know the difficulties
 <lb/>of taking <add place="below">^</add> <add place="above">altitudes</add> <del type="strikethrough">and</del> times and
 <lb/>distances and committing
-<lb/><add place="marginleft">all of</add> <metamark function="let-stand" spanTo="#meta-211"/><del type="strikethrough">them</del><anchor xml:id="meta-211"/> to paper will
+<lb/><add place="marginleft">all of</add> <metamark function="let-stand" spanTo="#meta-211"/><seg type="let-stand" rend="dashed"><del type="strikethrough">them</del></seg><anchor xml:id="meta-211"/> to paper will
 <lb/>sympathize with me
 <lb/>in this and many
 <lb/>other similar instances   
@@ -18265,7 +18267,7 @@ where a <term type="plant">fern</term>
 <lb/>to a stand by the severity
 <lb/>of my <term type="ailment">fever</term> on the
 <lb/>banks <supplied cert="high">of</supplied> <add place="below">^</add> <add place="marginleft">a branch of</add> <del type="cancelled">of</del> the <placeName><geogName type="river">Loajima</geogName></placeName> another
-<lb/>tributary of the <placeName><geogName type="river"><choice><orig>Casai</orig><reg>Kasai</reg></choice></geogName></placeName>
+<lb/>tributary of the <placeName><geogName type="river">Casai</geogName></placeName>
 <lb/>I was in a state of partial
 <lb/><term type="ailment">coma</term> <choice><sic>untill</sic><corr>until</corr></choice> late at night
 
@@ -18547,7 +18549,7 @@ where a <term type="plant">fern</term>
 <lb/>ammunition - others called
 <lb/>out that all <term type="occupation">traders</term> came
 <lb/>to them and we must
-<lb/>do <add place="below">^</add> <add place="marginleft">the same - </add> <del type="strikethrough">so too</del> <metamark function="let-stand" spanTo="#meta-213"/><del type="cancelled">As</del><anchor xml:id="meta-213"/> <add place="above">As</add> <w><choice><sic>the<add place="inline">ese</add></sic><corr>these</corr></choice></w> people
+<lb/>do <add place="below">^</add> <add place="marginleft">the same - </add> <del type="strikethrough">so too</del> <metamark function="let-stand" spanTo="#meta-213"/><seg type="let-stand" rend="dashed"><del type="cancelled">As</del></seg><anchor xml:id="meta-213"/> <add place="above">As</add> <w><choice><sic>the<add place="inline">ese</add></sic><corr>these</corr></choice></w> people
 <lb/><add place="marginleft">had <del type="strikethrough">having</del> <add place="below">^</add></add> <del type="cancelled">had</del> plenty of iron headed
 <lb/>arrows <del type="cancelled">as well as</del>
 <lb/><add place="marginleft">and some <add place="below">^</add></add> guns, <del type="cancelled">as soon as we</del>
@@ -18901,7 +18903,7 @@ proceed, a few years
 <lb/>yet</del> directed to Him who
 <lb/>hears the sighing of the
 <lb/>soul - and was followed
-<lb/>by the head of <term type="tribe">Mohorisi</term>
+<lb/>by the head of <persName ref="people.xml#pers0413">Mohorisi</persName>
 <lb/>saying "we will 
 <lb/>never leave you - Do 
 <lb/>not be disheartened - <del type="cancelled">W</del>
