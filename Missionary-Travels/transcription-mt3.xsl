@@ -17,12 +17,17 @@
 		</xd:desc>
 		<xd:desc>
 			<xd:p><xd:b>Author:</xd:b> Justin Livingstone</xd:p>
-			<xd:p>Revisions for Missionary Travles</xd:p>
+			<xd:p>Revisions for Missionary Travels</xd:p>
 			<xd:p>Updated in Mar 2017.</xd:p>
+		</xd:desc>
+		<xd:desc>
+			<xd:p><xd:b>Author:</xd:b> Justin Livingstone</xd:p>
+			<xd:p>Revisions for Missionary Travels</xd:p>
+			<xd:p>Updated in May 2019.</xd:p>
 		</xd:desc>
 	</xd:doc>
 	
-	<xsl:output method="xml" indent="no"/>
+	<xsl:output method="xml" encoding="utf-8" indent="no"/>
 	<!-- It's necessary that this be "no" or otherwise extra space is kicked in when there are two <span>s in a row. It also appearst to solve other minor formatting issues -->
 
 	<!-- Incoming parameters -->
@@ -1066,6 +1071,94 @@
 
 	<xsl:variable name="geogName" select="doc('geogName.xml')"/>
 
+	<xsl:template match="placeName/geogName[@type='bay']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A bay.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName bay" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="placeName/geogName[@type='cape']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A Cape.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName cape" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="placeName/geogName[@type='cataracts']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>Cataracts.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName cataracts" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+	
+	<xsl:template match="placeName/geogName[@type='cave']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A cave.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName cave" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+	
 	<xsl:template match="placeName/geogName[@type='desert']">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
@@ -1150,6 +1243,28 @@
 		</xsl:variable>
 		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
 		<span class="geogName garden" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+	
+	<xsl:template match="placeName/geogName[@type='headland']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A headland.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName headland" title="{$title}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -1241,6 +1356,50 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+	
+	<xsl:template match="placeName/geogName[@type='pan']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A pan.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName pan" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="placeName/geogName[@type='pass']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A pass.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName pass" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
 
 	<xsl:template match="placeName/geogName[@type='plain']">
 		<!-- Make the output of the @title attribute in a variable -->
@@ -1260,6 +1419,28 @@
 		</xsl:variable>
 		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
 		<span class="geogName plain" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+	
+	<xsl:template match="placeName/geogName[@type='plateau']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A plateau.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName plateau" title="{$title}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -1395,6 +1576,28 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+	
+	<xsl:template match="placeName/geogName[@type='waterfall']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A waterfall.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName waterfall" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
 
 	<!-- geogName ends -->
 
@@ -1499,18 +1702,18 @@
 	<!-- Metamarks alphabetized by @function -->
 
 	<xsl:template match="metamark[@function='close-space']" priority="8">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to indicate that the space between words should be reduced">︹<xsl:text> </xsl:text>
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to indicate that the space between words should be reduced">&#65081;<xsl:text> </xsl:text>
 		</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='deletion']" priority="10">
 		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to mark a deletion"
-			>&#x20B0;<xsl:text> </xsl:text>
+			>&#8368;<xsl:text> </xsl:text>
 		</span>
 	</xsl:template>
 
 <xsl:template match="metamark[@function='dele-abbr']" priority="8">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial notation instructing that a portion of text should be deleted">
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial annotation instructing that a portion of text should be deleted">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -1521,18 +1724,18 @@
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='insertion']" priority="10">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to mark an insertion from another place on the page">&#x21aa;<xsl:text> </xsl:text>
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to mark an insertion from another place on the page">&#8618;<xsl:text> </xsl:text>
 		</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='newParagraph']" priority="8">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to indicate a new paragraph">
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial instruction to begin a new paragraph">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='no-newParagraph']" priority="10">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to close the space between paragraphs">&#x285;<xsl:text> </xsl:text>
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to close the space between paragraphs">&#645;<xsl:text> </xsl:text>
 		</span>
 	</xsl:template>
 	
@@ -1541,12 +1744,12 @@
 		</span>
 	</xsl:template>
 	
-	<xsl:template match="metamark[@function='query']" priority="8"><span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial notation querying a portion of text"><xsl:apply-templates/>
+	<xsl:template match="metamark[@function='query']" priority="8"><span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial annotation querying a portion of text"><xsl:apply-templates/>
 	</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='stet']" priority="8">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial notation instructing that a deleted portion of text should be retained"><xsl:apply-templates/>
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial annotation instructing that a deleted portion of text should be retained"><xsl:apply-templates/>
 		</span>
 	</xsl:template>
 	
@@ -1561,7 +1764,7 @@
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='unknown']" priority="10">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol with an unknown function">#<xsl:text> </xsl:text>
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol with an unknown function">&#10023;<xsl:text> </xsl:text>
 		</span>
 	</xsl:template>
 
@@ -1591,19 +1794,19 @@
 	<xsl:template match="metamark
 		[contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle, or bracket used to flag a portion of text">&#9136;</span>
 	</xsl:template>	
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'gray') and contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle, or bracket used to flag a portion of text">&#9136;</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'red') and contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle, or bracket used to flag a portion of text">&#9136;</span>
 	</xsl:template>
 	
 	<!-- @function let-stand -->
@@ -1650,19 +1853,19 @@
 	<xsl:template match="metamark
 		[contains(@function, 'reorder')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="9">
-		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#9136;</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'gray') and contains(@function, 'reorder')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#9136;</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'red') and contains(@function, 'reorder')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#9136;</span>
 	</xsl:template>
 	
 	<!-- The following anchor templates adde for MT: to work with metamarks using @spanTo, @function 'flag' and 'reorder' -->
@@ -1679,11 +1882,11 @@
 		</xsl:variable>--> <!--  add {$meta-edits} to span class-->
 		<xsl:variable name="metamarkText">
 			<xsl:choose>
-				<xsl:when test="preceding::metamark[concat('#', $id)=@spanTo][1][contains(@function, 'flag')]"><xsl:text>Editorial line, circle or bracket used to flag a portion of text</xsl:text></xsl:when>
+				<xsl:when test="preceding::metamark[concat('#', $id)=@spanTo][1][contains(@function, 'flag')]"><xsl:text>Editorial line, circle, or bracket used to flag a portion of text</xsl:text></xsl:when>
 				<xsl:when test="preceding::metamark[concat('#', $id)=@spanTo][1][contains(@function, 'reorder')]"><xsl:text>Editorial symbol used to transpose a portion of text from one place to another</xsl:text></xsl:when>
 			</xsl:choose>
 		</xsl:variable>
-		<span class="metamark {$metamark/@rend} {$metamark/@n} {$metamark}" title="{$metamarkText}">&#x23b1;</span>
+		<span class="metamark {$metamark/@rend} {$metamark/@n} {$metamark}" title="{$metamarkText}">&#9137;</span>
 	</xsl:template>
 
 	<!-- anchor: to work with metamark using @spanTo, @function 'let-stand'. -->
@@ -1952,17 +2155,17 @@
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#DL']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'DL')}" title="Text added in another colour, retraced in black by Livingstone.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'DL')}" title="Text retraced by David Livingstone.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#CL']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'CL')}" title="Text added in another colour, retraced by Charles Livingstone.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'CL')}" title="Text retraced by Charles Livingstone.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#U5']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', 'U5')}" title="Text added in another colour, retraced in brown by Livingstone's amanuensis.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', 'U5')}" title="Text retraced by David Livingstone's amanuensis.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 
@@ -1982,7 +2185,15 @@
 	</xsl:template>
 
 	<xsl:template match="seg">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''))}"><xsl:apply-templates/></span>	
+	<xsl:choose>
+		<xsl:when test='@type="let-stand"'>
+			<xsl:variable name="let-stand">Editorial symbol used to indicate that a deleted word or phrase should be retained</xsl:variable>
+			<span title="{$let-stand}" class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', translate(@type, '-', ''), ' ', translate(@n, '-', ''))}"><xsl:apply-templates/></span>
+		</xsl:when>
+		<xsl:otherwise>
+			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', translate(@type, '-', ''), ' ', translate(@n, '-', ''))}"><xsl:apply-templates/></span>
+		</xsl:otherwise>	
+	</xsl:choose>
 	</xsl:template>
 
 	<xsl:variable name="settlement" select="doc('settlement.xml')"/>
