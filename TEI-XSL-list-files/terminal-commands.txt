@@ -1,11 +1,11 @@
-list elements, attributes, values -- single file for Mac
---------------------------------------------------------
-for file in *.xml; do java -jar saxon9he.jar -it:main -s:liv_000019_TEI.xml -xsl:listelements.xsl -o:`basename $file .xml`.xml.html; done
-
 list elements, attributes, values -- multiple files for Mac
 -----------------------------------------------------------
 for file in *.xml; do java -jar saxon9he.jar -it:main -s:$file -xsl:listelements.xsl -o:0_element-attribute-value.html; done
 java -jar saxon9he.jar -it:main -s:$file -xsl:listelements.xsl -o:0_element-attribute-value.html
+
+list elements, attributes, values -- single file for Mac
+--------------------------------------------------------
+for file in *.xml; do java -jar saxon9he.jar -it:main -s:liv_000019_TEI.xml -xsl:listelements.xsl -o:`basename $file .xml`.xml.html; done
 
 list elements, attributes, values -- single or multiple files for PC
 --------------------------------------------------------------------
