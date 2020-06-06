@@ -64,14 +64,14 @@
                         </span>
                         <span class="count"> (<xsl:value-of select="$currElemCount"/>) </span>
                         <!-- if there is a namespace -->
-                        <xsl:if test="not(substring-after($currElem, '#')='')">
+                        <!--<xsl:if test="not(substring-after($currElem, '#')='')">
                             <span class="attrName"> xmlns</span>
                             <span class="punc">="</span>
                             <span class="attrVal">
                                 <xsl:value-of select="substring-after($currElem, '#')"/>
                             </span>
                             <span class="punc">"</span>
-                        </xsl:if>
+                        </xsl:if>-->
                         <!-- if it has attributes -->
                         <xsl:if
                             test="$doc//*[concat(local-name(), '#', namespace-uri())=$currElem]/@*">
