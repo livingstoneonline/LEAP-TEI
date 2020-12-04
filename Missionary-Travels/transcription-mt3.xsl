@@ -172,6 +172,8 @@
 		</div>
 	</xsl:template>-->
 
+
+
 	<xsl:template match="div">
 		<div class="vertical-line">
 			<div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@resp, '-', ''), ' ', translate(@n, '-', ''))}"><!-- Added @resp and @n for MT -->
@@ -500,6 +502,10 @@
 	</xsl:template>
 
 	<!-- For "back" see above -->
+
+	<xsl:template match="bibl">
+		<xsl:apply-templates/>
+	</xsl:template>
 
 	<!-- For "body" see above -->
 
@@ -1037,8 +1043,11 @@
 	</xsl:template>-->
 	<!-- Removed the above. If it doesn't mess up anything, remove completely -->
 
+	<xsl:template match="fw" priority="1">
+		<xsl:apply-templates/>
+	</xsl:template>
 
-	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
+	<xsl:template match="fw[@type='catch']|fw[@type='pageno']" priority="2">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
 			<xsl:apply-templates/>
 		</span>
@@ -1071,7 +1080,7 @@
 
 	<xsl:variable name="geogName" select="doc('geogName.xml')"/>
 
-	<xsl:template match="placeName/geogName[@type='bay']">
+	<xsl:template match="placeName/geogName[@type='bay']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1093,7 +1102,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='cape']">
+	<xsl:template match="placeName/geogName[@type='cape']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1115,7 +1124,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='cataracts']">
+	<xsl:template match="placeName/geogName[@type='cataracts']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1137,7 +1146,7 @@
 		</span>
 	</xsl:template>
 	
-	<xsl:template match="placeName/geogName[@type='cave']">
+	<xsl:template match="placeName/geogName[@type='cave']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1159,7 +1168,7 @@
 		</span>
 	</xsl:template>
 	
-	<xsl:template match="placeName/geogName[@type='desert']">
+	<xsl:template match="placeName/geogName[@type='desert']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1181,7 +1190,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='drainage']">
+	<xsl:template match="placeName/geogName[@type='drainage']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1203,7 +1212,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='forest']">
+	<xsl:template match="placeName/geogName[@type='forest']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1225,7 +1234,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='garden']">
+	<xsl:template match="placeName/geogName[@type='garden']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1247,7 +1256,7 @@
 		</span>
 	</xsl:template>
 	
-	<xsl:template match="placeName/geogName[@type='headland']">
+	<xsl:template match="placeName/geogName[@type='headland']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1269,7 +1278,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='hill']">
+	<xsl:template match="placeName/geogName[@type='hill']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1291,7 +1300,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='island']">
+	<xsl:template match="placeName/geogName[@type='island']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1313,7 +1322,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='lake']">
+	<xsl:template match="placeName/geogName[@type='lake']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1335,7 +1344,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='mountain']">
+	<xsl:template match="placeName/geogName[@type='mountain']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1357,7 +1366,7 @@
 		</span>
 	</xsl:template>
 	
-	<xsl:template match="placeName/geogName[@type='pan']">
+	<xsl:template match="placeName/geogName[@type='pan']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1379,7 +1388,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='pass']">
+	<xsl:template match="placeName/geogName[@type='pass']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1401,7 +1410,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='plain']">
+	<xsl:template match="placeName/geogName[@type='plain']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1423,7 +1432,7 @@
 		</span>
 	</xsl:template>
 	
-	<xsl:template match="placeName/geogName[@type='plateau']">
+	<xsl:template match="placeName/geogName[@type='plateau']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1445,7 +1454,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='river']">
+	<xsl:template match="placeName/geogName[@type='river']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1467,7 +1476,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='rivulet']">
+	<xsl:template match="placeName/geogName[@type='rivulet']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1489,7 +1498,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='sea']">
+	<xsl:template match="placeName/geogName[@type='sea']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1511,7 +1520,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='source']">
+	<xsl:template match="placeName/geogName[@type='source']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1533,7 +1542,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='spring']">
+	<xsl:template match="placeName/geogName[@type='spring']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1555,7 +1564,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/geogName[@type='valley']">
+	<xsl:template match="placeName/geogName[@type='valley']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1577,7 +1586,7 @@
 		</span>
 	</xsl:template>
 	
-	<xsl:template match="placeName/geogName[@type='waterfall']">
+	<xsl:template match="placeName/geogName[@type='waterfall']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -1595,6 +1604,28 @@
 		</xsl:variable>
 		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
 		<span class="geogName waterfall" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="placeName/geogName" priority="1">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A geographical name</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName" title="{$title}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -1871,7 +1902,7 @@
 	<!-- The following anchor templates adde for MT: to work with metamarks using @spanTo, @function 'flag' and 'reorder' -->
 	<xsl:template match="anchor
 		[@xml:id]
-		[preceding::metamark/@spanTo = concat('#', @xml:id)]">
+		[preceding::metamark/@spanTo = concat('#', @xml:id)]" priority="2">
 		<xsl:variable name="id" select="@xml:id"/>
 		<xsl:variable name="metamark" select="preceding::metamark[concat('#', $id)=@spanTo][1]"/>
 		<!--  <xsl:variable name="meta-edits">
@@ -1902,9 +1933,16 @@
 		</xsl:variable>
 		<span class="metamark {$metamark/@rend} {$metamark/@n}" title="{$metamarkText}"><xsl:comment>Comment needed to make this work.</xsl:comment></span><!--<xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text><xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>-->
 	</xsl:template>
+
+	<xsl:template match="anchor" priority="1">
+		<xsl:apply-templates/>
+	</xsl:template>	
 	
 	<!-- End of MT metamarks using @spanTo -->
 
+	<xsl:template match="measure">
+		<xsl:apply-templates/>
+	</xsl:template>
 
 	<xsl:template match="milestone">
 		<xsl:choose>
@@ -2201,7 +2239,7 @@
 	</xsl:template>
 
 	<xsl:variable name="settlement" select="doc('settlement.xml')"/>
-	<xsl:template match="placeName/settlement[not(@*)]">
+	<xsl:template match="placeName/settlement[not(@*)]" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -2223,7 +2261,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/settlement[@type='city']">
+	<xsl:template match="placeName/settlement[@type='city']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -2245,7 +2283,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/settlement[@type='town']">
+	<xsl:template match="placeName/settlement[@type='town']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -2267,7 +2305,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/settlement[@type='state']">
+	<xsl:template match="placeName/settlement[@type='state']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -2289,7 +2327,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="placeName/settlement[@type='village']">
+	<xsl:template match="placeName/settlement[@type='village']" priority="2">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
@@ -2311,6 +2349,31 @@
 		</span>
 	</xsl:template>
 
+	<xsl:template match="placeName/settlement" priority="1">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisSettlement" select="$settlement//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisSettlement/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisSettlement/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A settlement.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the settlement in a html:span element with whatever is now in the $title variable -->
+		<span class="settlement" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="settlement">
+		<xsl:apply-templates/>
+	</xsl:template>
 
 	<!-- For "sic" see above -->
 
