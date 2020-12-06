@@ -679,28 +679,34 @@ div.transcription.style-UJ-complete .altitudesRight .right {
 div.transcription.style-UJ-complete .rightFloatRain{
 	position: relative;
 }
+div.transcription.style-UJ-complete .rightFloatRain .center,
+div.transcription.style-UJ-complete .rightFloatRain .right,
+div.transcription.style-UJ-complete .rightFloatRain .center.right,
+div.transcription.style-UJ-complete .rightFloatRainMod .center,
+div.transcription.style-UJ-complete .rightFloatRainMod .right{
+	float: unset !important;
+	min-width: unset !important;
+	margin: unset !important;
+}
 div.transcription.style-UJ-complete .rightFloatRain .center{
-	float: unset;
-	min-width: unset;
-	margin: unset;
-	left: 10em;
+	right: 3em;
+	position: absolute;
+}
+div.transcription.style-UJ-complete .rightFloatRain .center.right{
+	right: 9em;
 	position: absolute;
 }
 div.transcription.style-UJ-complete .rightFloatRain .right {
-	float:right;
-	text-align:right;
-	margin:-1.4em 8em;
-	min-width:9em;
-	max-width:4em;
-	padding:0 2em 0 7em;
+	right: -9em;
+	position: absolute;
+}
+div.transcription.style-UJ-complete .rightFloatRainMod .center{
+	right: 6em;
+	position: absolute;
 }
 div.transcription.style-UJ-complete .rightFloatRainMod .right {
-	float:right;
-	text-align:right;
-	margin:-1.4em 11em;
-	min-width:11em;
-	max-width:4em;
-	padding:0 2em 0 7em;
+	right: 3em;
+	position: absolute;
 }
 div.transcription.style-UJ-complete .rightFloatTOC .right {
 	float:right;
