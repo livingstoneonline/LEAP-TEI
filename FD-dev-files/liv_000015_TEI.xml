@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+<?xml-stylesheet href="transcription-fds.xsl" type="text/xsl"?><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000015">
     <teiHeader>
         <fileDesc>
@@ -819,8 +819,7 @@
 <lb/><item n="53"><seg rend="gray">53 <persName>Nyasperi</persName> <add place="above">- gun</add> Beads Tu<add place="above">u</add></seg></item></list></p>
 			</div><!-- end of division here to mark change in predominant colour AM -->
 
-			<div rend="gray">
-
+			<div rend="gray" n="liv_000015 div1">
 	<pb facs="liv_000015_0035" n="0035"/>
 <lb/><p rend="no-indent"><list><item><seg rend="black brown"><space extent="2" unit="chars"/><persName><choice><sic>coley</sic><corr>Coley</corr></choice></persName> = <space extent="1" unit="words"/><foreign xml:lang="und">Bubu</foreign> <!-- no idea if these are foreign words or names AM --><!-- bubu is a long sleeved floeing garment worn by men and women in west Africa --><!-- Daaamn, Kate - you just know everything!! HB --><!-- But this is East or Central Africa, so may not apply here... AW --></seg></item>
 <lb/><item><seg rend="black brown"><metamark/><!-- gray curly bracket in left margin groups this with next item on list AM --><persName>Masanga</persName> = cart - long box</seg></item>
@@ -2438,7 +2437,7 @@
 <lb/>tree</term> on the <subst><del>Chua</del> <add place="inline">Katanta</add></subst></p>
 			</div>
 
-			<div rend="upside-down gray"> <!-- The content of this page should follow the next page. -->
+			<div rend="upside-down gray" n="liv_000015 div1"> <!-- The content of this page should follow the next page. -->
 <!-- page starts with continuation of a quote from p.105, therefore the first 2 tags on this page would not normally exist AM -->
 <lb/><p rend="no-indent black brown">I feel as if I must
 <lb/>have it some time"
@@ -2460,7 +2459,7 @@
 <lb/><item><placeName>Chitapaousia</placeName> <seg rend="right"><choice><abbr>SW</abbr><expan>South-West</expan></choice></seg></item>
 <lb/><item><persName>Chiwe</persName> on <placeName><geogName type="river">Luvu</geogName></placeName> <seg rend="right"><choice><abbr>SW</abbr><expan>South-West</expan></choice></seg></item>
 <lb/><item>3 on 4<hi rend="sup underline">th</hi> <placeName>Kafimbi</placeName></item>
-<lb/><item><placeName>Chama</placeName> <choice><abbr>SW</abbr><expan>South-West</expan></choice> -</item> <item><space extent="3" unit="words"/><choice><abbr>SW</abbr><expan>South-West</expan></choice>
+<lb/><item><placeName>Chama</placeName> <space extent="2" unit="chars"/><choice><abbr>SW</abbr><expan>South-West</expan></choice> - <seg rend="right"><choice><abbr>SW</abbr><expan>South-West</expan></choice></seg>
 <lb/>to <placeName><geogName type="river"><choice><orig>Chambeze</orig><reg>Chambezi</reg></choice></geogName></placeName> -</item></list></p>
 <lb/>
 <lb/><p rend="no-indent">The <term type="tribe"><choice><orig>Baurungu</orig><reg>Balungu</reg></choice></term> are very
@@ -3029,7 +3028,7 @@
 <lb/><unclear cert="low">tossed</unclear> into <unclear cert="low">other</unclear> hands</p>
 			</div>
 		
-       		<div rend="black brown gray"><!-- Overtext from here to 133, mainly. AW -->
+       		<div rend="black brown gray" n="liv_000015 div1"><!-- Overtext from here to 133, mainly. AW -->
 	<pb facs="liv_000015_0127" n="0127"/><!-- The content of this page should precede the previous page. -->
 <!-- continues from the foot of p.128 AM -->
 <!-- Livingstone has written over a gray undertext here - no attempt to transcribe undertext but I can see that it is not the same as the overtext but is similar, as though re-worded AM --><!-- I concur I can read about half of it and it does seem to be the same words in a different order, ks --><!-- Yes, this is tough, but I've normalized it so that when there's text and undertext present, the rend is brown gray, otherwise it's one or the other. There's clearly undertext that's different here, but it's way too much of a labor to transcribe it as is. Of course, spectral imaging would make this a piece of cake! Well, we've not the grounds for another project..... AW -->
@@ -3417,7 +3416,7 @@
 <lb/>months as a year
 <lb/><seg type="weather">Three months of rain -
 <lb/>two of dry weather and
-<lb/>then rain again</seg> <add rend="orange large right" hand="#U" place="inline">√</add></p>
+<lb/>then rain again</seg> <space extent="1" unit="words"/><add rend="orange large" hand="#U" place="inline">√</add></p>
 <lb/><milestone unit="section" rend="double-line"/><!-- used nearest value but in this case it is actually a broken line with separate portions applied to right & left sides of page AM --><!-- Looks like we need dotted-double-line! AW -->
 <lb/><p>In many parts one
 <lb/>is struck by the fewness
