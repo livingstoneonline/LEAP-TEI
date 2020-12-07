@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+<?xml-stylesheet href="LEAP-XSLT/transcription-fds.xsl" type="text/xsl"?><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000016">
     <teiHeader>
         <fileDesc>
@@ -149,7 +149,7 @@
 <lb/>coming out of its clay
 <lb/>house and a good
 <lb/>relish for food -
-<lb/>course <choice><abbr>W</abbr><expan>West</expan></choice> &amp; <choice><abbr>SW</abbr><expan>South-West</expan></choice>. - <measure><seg rend="right"><hi rend="double-underline">4<choice><orig>½</orig><reg>1/2</reg></choice></hi></seg></measure>
+<lb/>course <choice><abbr>W</abbr><expan>West</expan></choice> &amp; <choice><abbr>SW</abbr><expan>South-West</expan></choice>. - <space extent="1" unit="words"/> <measure><hi rend="double-underline">4<choice><orig>½</orig><reg>1/2</reg></choice></hi></measure>
 <lb/>no food to be got
 <lb/>The effect of <persName>Motoka</persName>'s
 <lb/>raid &amp; of <orgName><persName>Tipotipo</persName>'s
@@ -3595,7 +3595,8 @@
 <lb/><placeName><geogName type="river"><choice><orig>Chambeze</orig><reg>Chambezi</reg></choice></geogName></placeName> 3 <choice><abbr>ft</abbr><expan>feet</expan></choice> 3 <choice><abbr>in.</abbr><expan>inches</expan></choice> in length
 <lb/>- bought a fat <term type="animal">cow</term> for 2<choice><orig>½</orig><reg>1/2</reg></choice> <foreign xml:lang="und">dotis</foreign>
 <lb/>to give the party a feast ere we
-<lb/>start <metamark/><add place="inline" rend="right small">pass a few <lb/><unclear cert="low"><app><rdg><term type="animal">pups</term></rdg><rdg>paps</rdg></app></unclear></add></p>
+<lb/>start <space extent="4" unit="words"/><metamark/><add place="inline" rend="small">pass a few 
+<lb/><space extent="6" unit="words"/><space extent="2" unit="chars"/><unclear cert="low"><app><rdg><term type="animal">pups</term></rdg><rdg>paps</rdg></app></unclear></add></p>
 <lb/><milestone unit="section" rend="line"/>
 			</div>
 
