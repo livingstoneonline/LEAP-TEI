@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet href="transcription-UJ-complete.xsl" type="text/xsl"?>
-<!--<?xml-stylesheet href="transcription-UJ-complete.xsl" type="text/xsl"?>-->
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription-UJ-complete.xsl" type="text/xsl"?>
+<!--<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/" type="text/xsl"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000019">
 
 
@@ -596,7 +596,8 @@
 <lb/>I am deficient in the trading instinct</p>
 			
 	<pb facs="liv_000019_0018" n="0018"/>	
-<lb/><fw n="12"><add place="inspace" rend="gray left" hand="#U">12</add></fw> <fw n="heading_IV">IV</fw>
+<lb/><fw n="12"><add place="inspace" rend="gray left" hand="#U">12</add></fw> 
+<lb/><fw n="heading_IV">IV</fw>
 <lb/><p>The explorations pointed out in
 <lb/>your <choice><sic>Lordships</sic><corr>Lordship's</corr></choice> Instructions and in
 <lb/>those of the <orgName>Royal Geographical 
@@ -1323,6 +1324,7 @@
 <lb/>and will give it</p>
 <lb/><!--center--><p rend="no-indent"><note place="marginleft">a true <lb/>copy <lb/><persName><choice><abbr>DL.</abbr><expan>David Livingstone</expan></choice></persName></note> <space extent="2" unit="words"/>Your sincere friend
 <lb/><!--center--><space extent="3" unit="words"/><persName>Majid bin Said</persName> -</p> <!-- Not sure if I'm coding the indentations correctly over the last few pages (p's vs spaces), so pls advise. HB --><!-- Fixed. AW-->
+<lb/>
 <lb/><p rend="no-indent">Dated <date when="1866-02-18">2<hi rend="sup">nd</hi> Shaul 1282</date><!-- here the date is given in the Islamic calender, how should I code it? ks --><!-- Good question, one thing to do is to add the Western when in @when. We can ask James for more help. AW -->
 <lb/><space extent="1" unit="words"/><date when="1866-02-18">18 February 1866</date></p>
 <lb/>
@@ -2517,7 +2519,7 @@
 <lb/><p><note place="marginleft"><date when="1866-05-02">May <lb/><supplied>18</supplied>66</date></note> Mountains again approach us and we <!-- Adrian, the date is again obstructed by the preceding verso being in the way, and happens throughout my section- not sure if I am coding properly. HB --><!-- I'm going to leave this as is from here on. Ultimately, I think, we need to have Anne check all dates against the original. AW -->
 <lb/>pass one which was noticed in our first
 <lb/>ascent as like a table mountain - It is <measure>600 or 800
-<lb/>feet</measure> high<figure><figDesc>Drawing of the table mountain.</figDesc></figure> and called <placeName><geogName type="mountain">Liparu</geogName></placeName> - It is the plateau
+<lb/>feet</measure> high <figure><figDesc>Drawing of the table mountain.</figDesc></figure> and called <placeName><geogName type="mountain">Liparu</geogName></placeName> - It is the plateau
 <lb/>now become mountainous - A perennial stream
 <lb/>comes down from its western base and forms
 <lb/>a lagoon in the meadow land which flanks the
@@ -2525,7 +2527,13 @@
 <lb/>streams spread their roots all over the surface
 <lb/>of the boggy banks &amp; form a firm surface
 <lb/>but at spots one may sink <measure>a yard</measure> deep
-<lb/><metamark/>We had to fill up these deep ditches with branches <!-- Adrian, there are notes here in the left margin that I cannot make out. HB 2014-06-25 --><!-- We'll need Anne's help with this. AW -->
+<lb/><note place="marginleft" rend="small">pages
+<lb/>we
+<lb/><w><gap extent="3" unit="chars"/>d</w> <unclear cert="medium">is</unclear>
+<lb/><w><gap extent="3" unit="chars"/>led</w>
+<lb/><w><gap extent="3" unit="chars"/>onga</w>
+</note>
+<metamark/>We had to fill up these deep ditches with branches <!-- Adrian, there are notes here in the left margin that I cannot make out. HB 2014-06-25 --><!-- We'll need Anne's help with this. AW -->
 <lb/>and leaves - unload the animals &amp; lead them
 <lb/>across - spent night on the banks of the 
 <lb/><placeName><geogName type="river">Liparu</geogName></placeName> and then proceeded on our way -</p>
@@ -4497,7 +4505,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
 	<pb facs="liv_000019_0115" n="0115"/>
 <lb/><fw n="109"><add place="inspace" rend="gray right" hand="#U">109</add></fw>
-<lb/><p><note place="marginleft"><date when="1866-07-16">16<hi rend="sup">th</hi> <lb/><w><supplied>Ju</supplied>ly</w> <lb/><w><supplied>18</supplied>66</w></date> <lb/><placeName><w><supplied>To</supplied>wn</w> of<lb/><persName><w><supplied>Mat</supplied>aka</w></persName> <lb/><placeName><settlement type="town"><w><supplied>Mo</supplied>embe</w></settlement></placeName></placeName></note> I was accidentally spectator of the party going back
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1866-07-16">16<hi rend="sup">th</hi> <lb/><w><supplied>Ju</supplied>ly</w> <lb/><w><supplied>18</supplied>66</w></date> <lb/><placeName><w><supplied>To</supplied>wn</w> of<lb/><persName><w><supplied>Mat</supplied>aka</w></persName> <lb/><placeName><settlement type="town"><w><supplied>Mo</supplied>embe</w></settlement></placeName></placeName></note> I was accidentally spectator of the party going back
 <lb/>for on going out of town I saw a <term type="foodstuff">meat</term> market
 <lb/>opened and people buying with <term type="plant_foodstuff">maize</term> &amp; <term type="foodstuff">meal</term> -
 <lb/>on enquiring, I was told that the people &amp; <term type="animal">cattle</term> there
@@ -8074,7 +8082,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0207" n="0207"/>
 <lb/><fw n="201"><add place="inspace" rend="gray right" hand="#U">201</add></fw>
-<lb/><p><note place="marginleft"><date when="1866-10-30">30<hi rend="sup underline">th</hi> <lb/><choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> <lb/><hi rend="underline">1866</hi></date></note> It is remarkable that no mention is made of
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1866-10-30">30<hi rend="sup underline">th</hi> <lb/><choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> <lb/><hi rend="underline">1866</hi></date></note> It is remarkable that no mention is made of
 <lb/>the <term type="occupation">chief</term> <persName>Undi</persName> the <term type="occupation">paramount chief</term> of <placeName><settlement type="village">Senga</settlement></placeName>
 <lb/>which district extends far to the North - His
 <lb/>father was their greatest &amp; most powerful
@@ -8798,7 +8806,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><note place="marginleft">at <lb/><placeName><geogName type="river">Katette</geogName></placeName></note> inhabited it - spent a miserable night
 <lb/><seg type="weather">wetted by heavy thunder shower which
 <lb/>lasted a good while - Morning Muggy
-<lb/><note place="marginleft"><date when="1866-12-05">5<hi rend="sup underline"></hi></date></note> clouded all over &amp; rolling thunder in distance</seg></p>
+<lb/><note place="marginleft"><date when="1866-12-05">5<hi rend="sup underline">th</hi></date></note> clouded all over &amp; rolling thunder in distance</seg></p>
 
     <pb facs="liv_000019_0225" n="0225"/>
 <lb/><fw n="219"><add place="inspace" rend="gray right" hand="#U">219</add></fw>
@@ -9487,7 +9495,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
 	<pb facs="liv_000019_0242" n="0242"/>
 <lb/><fw n="236"><add place="inspace" rend="gray left" hand="#U">236</add></fw>
-<lb/><p><note place="marginleft"><date when="1867-01-05">5<hi rend="sup underline">th</hi> <lb/><choice><abbr>Jany</abbr><expan>January</expan></choice> <lb/><w>186<subst><del>6</del><add place="over-text">7</add></subst></w></date></note> <seg type="weather">Still storm stayed - rains heavy</seg> - we shall 
+<lb/><p><note place="marginleft"><date when="1867-01-05">5<hi rend="sup underline">th</hi> <choice><abbr>Jany</abbr><expan>January</expan></choice> <lb/><w>186<subst><del>6</del><add place="over-text">7</add></subst></w></date></note> <seg type="weather">Still storm stayed - rains heavy</seg> - we shall 
 <lb/>be off as soon as we get a fair day -</p>
 <lb/><p><note place="marginleft"><date when="1867-01-06">6<hi rend="sup">th</hi></date></note>After service two men came &amp; said that 
 <lb/>they were going to <placeName><settlement type="village">Lobemba</settlement></placeName><!--Not sure of this placename here. EC--> &amp; would guide us 
@@ -10028,7 +10036,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>and burst on the other side - yet he ran <measure>100 yards</measure> 
 <lb/>I felt very thankful to the Giver of all good for
 <lb/>this <term type="foodstuff">meat</term> -</p>
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-01-27">27<hi rend="sup underline">th</hi></date></note> <seg type="weather">Set in rain all morning</seg> but having <term type="foodstuff">meat</term>
+<lb/><p><note place="marginleft"><date when="1867-01-27">27<hi rend="sup underline">th</hi></date></note> <seg type="weather">Set in rain all morning</seg> but having <term type="foodstuff">meat</term>
 <lb/>we were comfortable in the old huts - In changing 
 <lb/>dress <date when="1867-01-27">this morning</date> I was frightened at my own 
 <lb/>emaciation</p>
@@ -10071,7 +10079,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>one washed in the margin of that river - there was <!-- geog: Chambeze -->
 <lb/>evidence of abundance of game <term type="animal">Elephants</term> &amp; <term type="animal">buffaloes</term>
 <lb/>but we saw none -</p>
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1867-01-29">29<hi rend="sup underline">th</hi></date></note> When near our next stage end we were <choice><orig>shewn</orig><reg>shown</reg></choice>
+<lb/><p><note place="marginleft"><date when="1867-01-29">29<hi rend="sup underline">th</hi></date></note> When near our next stage end we were <choice><orig>shewn</orig><reg>shown</reg></choice>
 <lb/>where <seg type="weather">lightning had struck</seg> - It ran down a <term type="plant">gum copal
 <lb/>tree</term> without damaging it - then ten yards horizontally, 
 <lb/>dividing these into two streams it went up an <term type="insect">ant</term>hill
@@ -12882,8 +12890,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0327" n="0327"/>
 <lb/><fw n="321"><add place="inspace" rend="gray right" hand="#U">321</add></fw>
-<lb/><note place="marginleft"><date when="1867-11-13">13<hi rend="sup">th</hi> <lb/><choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> <lb/>1867</date></note>
-<lb/>the <placeName><geogName type="river">Kalongosi</geogName></placeName> though at times they are more <w>abund<supplied>-</supplied>
+<lb/><note place="marginleft"><date when="1867-11-13">13<hi rend="sup">th</hi> <lb/><choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> <lb/>1867</date></note> the <placeName><geogName type="river">Kalongosi</geogName></placeName> though at times they are more <w>abund<supplied>-</supplied>
 <lb break="no"/>-ant</w> than as others.</p><!--These are species of fish, should these be tagged? -AK--><!-- Yes, see how I have done as both tags and list format. -->
 <lb/><list><item n="1"><term type="animal">Monde</term> - </item> <item n="2"><term type="animal">Mota</term> - </item><item n="3"><term type="animal">Lasa</term> - </item><item n="4"><term type="animal">Kasibe</term> - </item><item n="5"><term type="animal">Molobe</term> - </item><item n="6"><term type="animal">Lopembe</term></item>
 <lb/><item n="7"><term type="animal">Motoya</term> - </item><item n="8"><term type="animal">Clupansa</term> - </item><item n="9"><term type="animal">Mpifu</term> - </item><item n="10"><term type="animal">Manda</term> - </item><item n="11"><term type="animal">Mpala</term> - </item>
@@ -13367,7 +13374,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><!--I'm not sure how to transcribe the first part of this page. Dr. Wisnicki, can you take a look? -AK--><!-- Adrian, I took a stab at it, but for some reason I couldn't use the opener tag here - thoughts on how to fix? HB --><!-- Wow! What an bunch of coding this opening required! AW -->
 <lb/><p rend="no-indent"><space extent="1" unit="words"/><add rend="gray" hand="#U">? 8.37. <choice><abbr>So.</abbr><expan>South</expan></choice></add> <space extent="1" unit="words"/><placeName><settlement type="town">Town of <foreign xml:lang="und"><term type="occupation"><choice><orig><persName>Kasembe</persName></orig><reg><persName>Cazembe</persName></reg></choice></term></foreign></settlement></placeName> <date when="1867-12-10">10<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice> 1867.</date>
 <lb/><space extent="1" unit="words"/><add rend="gray" hand="#U">? 28.30. <choice><abbr>E.</abbr><expan>East</expan></choice></add> <space extent="1" unit="words"/><measure><choice><abbr>Lat.</abbr><expan>Latitude</expan></choice> 9°37'13" South <choice><abbr>Long.</abbr><expan>Longitude</expan></choice> 28° East.</measure>
-<lb/><note place="marginleft"><choice><abbr>N</abbr><expan>Number</expan></choice> 2 <lb/><hi rend="underline">Geographical</hi></note> <space extent="3" unit="words"/><note place="inspace" rend="orange small">This was not sent because I had no
+<note place="marginleft"><choice><abbr>N</abbr><expan>Number</expan></choice> 2 <lb/><hi rend="underline">Geographical</hi></note> 
+<lb/><space extent="3" unit="words"/><note place="inspace" rend="orange small">This was not sent because I had no
 <lb/><space extent="2" unit="chars"/>paper to copy it - another was written from near <placeName><geogName type="lake">Bangweolo</geogName></placeName> in
 <lb/><space extent="14" unit="words"/><date when="1868-07">July 1868</date>
 <lb/><space extent="12" unit="words"/><add place="above">_________________________</add></note></p>
@@ -13407,7 +13415,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0340" n="0340"/>
 <lb/><fw n="334"><add place="inspace" rend="gray left" hand="#U">334</add></fw>
-<lb/><note place="marginleft">Despatch <lb/>N<hi rend="sup">o</hi> 2</note> reposes - The descent is 2000 feet, and <unclear cert="low">still</unclear>
+<lb/><note place="marginleft">Despatch <lb/>N<hi rend="sup">o</hi> 2</note> reposes - <space extent="2" unit="chars"/>The descent is 2000 feet, and <unclear cert="low">still</unclear>
 <lb/>the surface of the water is <add place="below">^</add> <add place="above">upwards of</add> 2500 feet above
 <lb/>the level of the sea - The sides of the hollow
 <lb/>are very steep, and sometimes the rocks
@@ -14568,7 +14576,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 			    
 	<pb facs="liv_000019_0370" n="0370"/>
 <lb/><fw n="364"><add place="inspace" rend="gray left" hand="#U">364</add></fw>
-<lb/><p><note place="marginleft"><date when="1868-03-10">10<hi rend="sup">th</hi> <lb/>March <lb/>1868</date></note> the <orgName>people at <placeName><region>Katanga</region></placeName></orgName> are afraid to dig for
+<lb/><p><note place="marginleft"><date when="1868-03-10">10<hi rend="sup">th</hi> <lb/>March <lb/>1868</date></note> The <orgName>people at <placeName><region>Katanga</region></placeName></orgName> are afraid to dig for
 <lb/>the gold in their country because they believe that <!-- geog:  -->
 <lb/>it has been hidden where it is by "<foreign xml:lang="und">Ngolu</foreign>" who is
 <lb/>the owner of it. The <orgName>Arabs</orgName> translate <foreign xml:lang="und">Ngolu</foreign> by Satan
@@ -15330,7 +15338,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><item><note place="marginleft"><date when="1868-03-26">26<hi rend="sup underline">th</hi></date></note> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> during the night <seg rend="right"><measure>3.82</measure></seg></item>
 <lb/><item><note place="marginleft"><date when="1868-03-27">27<hi rend="sup underline">th</hi></date></note> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> gently now &amp; then all day <seg rend="right"><measure>.14</measure></seg></item>
 <lb/><item><note place="marginleft"><date when="1868-03-29">29<hi rend="sup underline">th</hi></date></note> <choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> early night <choice><abbr>T.</abbr><expan>Thunder</expan></choice> <seg rend="right"><measure><hi rend="underline">.69</hi></measure></seg><!-- underlining here extends leftwards about 4 characters AM --></item>
-<lb/><item><note place="marginleft"><placeName><settlement type="village">Kabuire</settlement></placeName></note> Rainfall in <date when="1868-03">March 1868</date> - (probably three inches more) 10.85</item></list></seg></p>
+<lb/><item><note place="marginleft"><placeName><settlement type="village">Kabuire</settlement></placeName></note> Rainfall in <date when="1868-03">March 1868</date> - (probably three inches more) <seg rend="right"><measure>10.85</measure></seg></item></list></seg></p>
 <lb/><milestone unit="section" rend="line"/>
 <lb/><p rend="no-indent"><seg type="weather"><list><space extent="1" unit="words"/><head><hi rend="underline">Rainfall in <date when="1868-04">April 1868</date> -</hi></head>
 <lb/><item><note place="marginleft"><date when="1868-04-01">April 1<hi rend="sup underline">st</hi></date></note> <placeName><settlement type="village">Kabwabwata</settlement></placeName> - 4-5 PM - <choice><abbr>E - T -</abbr><expan>East Thunder</expan></choice> <seg rend="right"><measure>.68</measure></seg></item>
@@ -15353,6 +15361,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><item><note place="marginleft"><date when="1868-05-20">20<hi rend="sup underline">th</hi> May</date></note> a thunder shower noon laid dust - <unclear cert="medium">say 4</unclear> East night = <measure>9</measure> = </item><item><space extent="1" unit="chars"/><seg rend="right"><hi rend="underline">9</hi></seg> <!-- underlining here extends leftwards about 3 characters AM -->
 <lb/><space extent="1" unit="chars"/><seg rend="right">4.03</seg></item>
 </list></seg></p>
+<lb/>
+<lb/>
 
     <pb facs="liv_000019_0389" n="0389"/>
 <lb/><fw n="383"><add place="inspace" rend="gray right" hand="#U">383</add></fw>  
@@ -15396,7 +15406,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>the above - the two showers at the top of
 <lb/>the list caused the grass to spring - at
 <lb/><placeName><settlement type="village">Kabuire</settlement></placeName> it has not started yet - thunder every afternoon</item></list></seg></p>
-
+<lb/>
 
     <pb facs="liv_000019_0390" n="0390"/>
 <lb/><fw n="384"><add place="inspace" rend="gray left" hand="#U">384</add></fw>  
@@ -15473,7 +15483,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><item><note place="marginleft"><date when="1869-02-05">5<hi rend="sup">th</hi></date></note> <placeName><geogName type="lake">Tanganyika</geogName></placeName> <date when="1869-02-07">7<hi rend="sup underline">th</hi></date> Noon <seg rend="right"><measure>.16</measure></seg></item>
 <lb/><item><note place="marginleft"><date when="1869-02-07">7<hi rend="sup underline">th</hi></date></note> <space extent="2" unit="chars"/><choice><abbr>D<hi rend="sup">o</hi></abbr><expan>Ditto</expan></choice> <space extent="7" unit="chars"/>night <seg rend="right"><measure>2.2</measure></seg></item>
 <lb/><item><note place="marginleft"><date when="1869-02-08">8<hi rend="sup">th</hi></date></note> <space extent="1" unit="words"/>silently <seg rend="right"><measure><w><supplied cert="high">.</supplied>16</w></measure></seg></item>
-<lb/><item><note place="marginleft"><date when="1869-02-24">24<hi rend="sup">th</hi></date></note> - <seg rend="right"><measure><hi rend="underline">.32</hi></measure></seg><!-- underlining here extends leftwards about 3 characters AM --> 
+<lb/><item><note place="marginleft"><date when="1869-02-24">24<hi rend="sup">th</hi></date> -</note> <seg rend="right"><measure><hi rend="underline">.32</hi></measure></seg><!-- underlining here extends leftwards about 3 characters AM --> 
 <lb/><space extent="1" unit="chars"/><seg rend="right"><measure>2.66</measure></seg></item>
 <lb/>
 <lb/><item><note place="marginleft"><date when="1869-03-08">March <lb/>8<hi rend="sup underline">th</hi></date></note> <space extent="1" unit="words"/>Noon <choice><abbr>NT</abbr><expan>North Thunder</expan></choice> no rain this month till now <seg rend="right"><measure>.46</measure></seg>
@@ -16437,13 +16447,13 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
         <pb facs="liv_000019_0422" n="0422"/>
 <lb/><fw n="416"><add place="inspace" rend="gray left" hand="#U">416</add></fw>
 <lb/><p rend="no-indent"><orgName>Manyema</orgName> <seg type="weather">Rainfall <date from="1870" to="1871">1870-71</date> - 0 for thunder</seg></p>
-<lb/><p><note place="marginleft"><date when="1868-08-25">25<hi rend="sup underline">th</hi><choice><abbr>Aug</abbr><expan>August</expan></choice></date></note><seg type="weather">First thunder at <placeName><settlement type="village">Bambarre</settlement></placeName> - there are
+<lb/><p><note place="marginleft"><date when="1868-08-25">25<hi rend="sup underline">th</hi> <choice><abbr>Aug</abbr><expan>August</expan></choice></date></note><seg type="weather">First thunder at <placeName><settlement type="village">Bambarre</settlement></placeName> - there are
 <lb/>usuallly only about three months in
 <lb/><placeName><region><orgName>Manyema</orgName></region></placeName> without thunder or rain</seg></p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1870-08-22">22<hi rend="sup underline">nd</hi></date></note><seg type="weather"><placeName><settlement type="village">Bambarre</settlement></placeName> Noon E. Ɵ.<!--I'm not sure what Ɵ. is an abbreviation for here so I didn't code the abbreivation for East. MW--> <seg rend="right">.12</seg>
 <lb/><note place="marginleft"><date when="1870-08-23">23<hi rend="sup">d</hi></date></note>-- 6 AM. <choice><abbr>E.</abbr><expan>East</expan></choice> <seg rend="right">.6</seg>
 <lb/><note place="marginleft"><date when="1870-08-24">24<hi rend="sup underline">th</hi></date></note>-- 3 - 4 PM E.Ɵ.<!--I'm not sure what Ɵ. is an abbreviation for here so I didn't code the abbreivation for East. MW--> <seg rend="right">.72</seg>
-<lb/><note place="marginleft"><date when="1870-10-02">2<hi rend="sup">d</hi><choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice></date></note>-- .8 == <date when="1870-10-05">5<hi rend="sup underline">th</hi></date> <choice><abbr>Eve.</abbr><expan>Evening</expan></choice> E.Ɵ.<!--I'm not sure what Ɵ. is an abbreviation for here so I didn't code the abbreivation for East. MW--> 27 + <date when="1870-10-06">6<hi rend="sup underline">th</hi></date> afternoon - 18 =  <seg rend="right">.53</seg>
+<lb/><note place="marginleft"><date when="1870-10-02">2<hi rend="sup">d</hi> <choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice></date></note>-- .8 == <date when="1870-10-05">5<hi rend="sup underline">th</hi></date> <choice><abbr>Eve.</abbr><expan>Evening</expan></choice> E.Ɵ.<!--I'm not sure what Ɵ. is an abbreviation for here so I didn't code the abbreivation for East. MW--> 27 + <date when="1870-10-06">6<hi rend="sup underline">th</hi></date> afternoon - 18 =  <seg rend="right">.53</seg>
 <lb/><note place="marginleft"><date from="1870-10-10" to="1870-10-14">10<hi rend="sup underline">th</hi> - 14<hi rend="sup">th</hi></date></note> NI showers daily = <date when="1870-10-19">19<hi rend="sup underline">th</hi></date> 3-4PM E.Ɵ.<!-- Another mysterious Ɵ. I'll just assume that you know by now that I'm not sure what to do about these and can insert a single change to correct my ignorance! MW--> <seg rend="right">1.27</seg>
 <lb/><note place="marginleft"><date when="1870-10-21">21<hi rend="sup">st</hi></date></note> -- 3-4 PM Ɵ. 15 + <date when="1870-10-26">26<hi rend="sup underline">th</hi></date> 4PM S.E.Ɵ. .5 = <seg rend="right">.20</seg>
 <lb/><note place="marginleft"><date when="1870-10-27">27<hi rend="sup underline">th</hi></date></note> 00 .14 <choice><abbr>SE</abbr><expan>South East</expan></choice> ) - <date when="1870-10-28">28<hi rend="sup underline">th</hi></date> 3 - 4 PM E.Ɵ. 2.58 - <seg rend="right">2.72</seg>
@@ -17417,7 +17427,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>blood and were thankful - the <term type="tribe">Mazitu</term> raid produced
 <lb/>lawlessness in the country - everyone was taken <!-- geog:  -->
 <lb/>as an enemy</p>
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-07-14">14<hi rend="sup underline">th</hi></date></note> We remained a day at the <placeName><settlement type="village">Stockade of <persName>Moiegge</persName></settlement></placeName> a
+<lb/><p><note place="marginleft"><date when="1868-07-14">14<hi rend="sup underline">th</hi></date></note> We remained a day at the <placeName><settlement type="village">Stockade of <persName>Moiegge</persName></settlement></placeName> a
 <lb/><orgName><term type="tribe">Banyamwezi</term></orgName> or <orgName><term type="tribe">Garaganza</term> man</orgName> settled here
 <lb/>in <placeName><region><persName>Kabaia</persName>'s district</region></placeName> and on the strong rivulet called
 <lb/><placeName><geogName type="rivulet">Mato</geogName></placeName> - We felt secure only among the strangers &amp;
@@ -17497,7 +17507,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><placeName><geogName type="lake">Bangweolo</geogName></placeName> that I at first intended - The moon
 <lb/>being in its last stage of waning - I cannot observe
 <lb/>till it is of some size</p>
-<lb/><p>Went down to <orgName><persName>Masantu</persName>'s village</orgName> which is on the
+<lb/><p><note place="marginleft"><date when="1868-07-19">19<hi rend="sup">th</hi></date></note>Went down to <orgName><persName>Masantu</persName>'s village</orgName> which is on the
 <lb/>shore of the Lake and by a spring called <placeName><geogName type="spring">Chipoka</geogName></placeName> <!-- geog: Bangweolo -->
 <lb/>which comes out of a mass of disintegrated
 <lb/>granite - It is seldom that we see a spring welling
@@ -17538,7 +17548,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>he may give orders to them to go with us - I gave a hoe &amp;
 <lb/>a string of beads instead but he insisted on the cloth &amp;
 <lb/>kept the hoe too as I could not affort the time to haggle
-<lb/><seg type="altitudesRight"><placeName><geogName type="spring">Chipoka spring</geogName></placeName> water at 9 AM <seg rend="right">75°} air 72°</seg>
+<lb/><seg type="altitudesRight1"><placeName><geogName type="spring">Chipoka spring</geogName></placeName> water at 9 AM <seg rend="right">75°} air 72°</seg>
 <lb/>Lake water at same time <!-- geog: Bangweolo --><seg rend="right">71°}</seg>
 <lb/><placeName><geogName type="spring">Chipoka spring</geogName></placeName> at 4PM <seg rend="right">74.5°} air 71°-5- Wet bulb 70°</seg>
 <lb/>Lake water at same time <!-- geog: Bangweolo --><seg rend="right">75°}</seg></seg><!-- Not quite sure how to program wide Curly Brace -EM --><!-- Curly brackets encompass their following lines as well. HB --> <!-- Adrian, I made this a separate list rend right - pls correct if wrong. HB -->
@@ -18148,7 +18158,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
 	<pb facs="liv_000019_0464" n="0464"/>
 <lb/><fw n="458"><add place="inspace" rend="gray left" hand="#U">458</add></fw>
-<lb/><note place="marginleft">Note <lb/>on the <date when="1868-10-29"><lb/>29 <choice><abbr>Oct</abbr><expan>October</expan></choice> <lb/>1868</date></note> as they are called I must try and get to <persName>Mose</persName>
+<lb/><note place="marginleft"><hi rend="underline">Note</hi> <lb/>on the <date when="1868-10-29"><lb/>29 <choice><abbr>Oct</abbr><expan>October</expan></choice> <lb/>1868</date></note> as they are called I must try and get to <persName>Mose</persName>
 <lb/>of the <placeName><settlement type="village">Baloba</settlement></placeName> of <orgName>Mkama</orgName> -</p> 
 <lb/><p><term type="animal"><placeName><country>Senegal</country></placeName> swallows</term> pair in beginning of <date when="1868-12"><choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date></p>
 <lb/>
@@ -18159,8 +18169,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>like a <term type="animal">grey linnet</term> keeps in flocks yet <add place="above"><date when="1868-12-05">5<hi rend="sup underline">th</hi> <choice><abbr>Dec<hi rend="sup underline">r</hi></abbr><expan>December</expan></choice></date> pairs not</add> - The
 <lb/><term type="animal">Kite</term> came sooner than the <term type="animal">swallows</term> I saw the first
 <lb/>at <placeName><geogName type="lake">Bangweolo</geogName></placeName> on the <date when="1868-07-20">20<hi rend="sup underline">th</hi> of July 1868</date></p>
-<lb/><p><note place="marginleft"><hi rend="double-underline">Note</hi> <lb/><w>inunda<supplied>-</supplied> <lb break="no"/>tion</w></note> The inundation which I have explained in
-<lb/>the note on the climate as owing to the sponges being
+<lb/><p>The inundation which I have explained in
+<lb/><note place="marginleft"><hi rend="double-underline">Note</hi> <lb/><w>inunda<supplied>-</supplied> <lb break="no"/>tion</w></note> the note on the climate as owing to the sponges being
 <lb/>supersaturated in <seg type="weather">the Greater Rains when the Sun
 <lb/>returns from his greatest Southern Declination</seg>,
 <lb/>the pores are then all enlarged - the sponges borne
@@ -18483,7 +18493,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><fw n="466"><add place="inspace" rend="gray left" hand="#U">466</add></fw>
 <lb/><p rend="no-indent"><date when="1868">1868</date> - date when this note was written at <placeName>Kizunga</placeName></p>
 <lb/>
-<lb/><p rend="no-indent"><note place="marginleft">copied <lb/><date when="1868-11-02">2 <choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> <lb/>1868</date></note> immense tract of previously unexplained country, 
+<lb/><p rend="no-indent"><note place="marginleft">copied <lb/><date when="1868-11-02">2 <choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> <lb/>1868</date></note> 
+<lb/>immense tract of previously unexplained country, 
 <lb/><add place="inspace" rend="small">in the firm belief they were bringing to light the head of the <placeName><geogName type="river">Nile</geogName></placeName></add> 
 <lb/>No one can appreciate the difficulties of their feat
 <lb/>unless he has gone into new country - In
@@ -18503,8 +18514,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>she sought - Had they not given their own mistaken
 <lb/>views, the <add place="below">^</add> <add place="above">wise</add> foresight by which he provided a 
 <lb/>steamer would inevitably have led her to <add place="below">^</add> <add place="above">pull</add> <del type="strikethrough">steam</del>
-<lb/><space extent="4" unit="words"/><add place="inspace" rend="small">there are cataracts in <placeName><geogName type="river">Nile</geogName></placeName></add>
-<lb/>up the <del type="strikethrough"><placeName><geogName type="river">Lualaba</geogName></placeName> - up <placeName><geogName type="lake">Lake Moero</geogName></placeName> - Up <placeName><geogName type="river">Luapula</geogName></placeName> to the</del> part of cataracts<!--Livingstone is making a lot of deletions and additions here, it's hard to follow what exactly is being said. This needs another look. EC--><!-- Looks good to me. EM -->
+<lb/><space extent="4" unit="words"/><add place="inspace" rend="small">there are cataracts in <placeName><geogName type="river">Nile</geogName></placeName></add> <add place="inspace" rend="small">part <space extent="1" unit="chars"/>of <space extent="1" unit="chars"/>cataracts</add>
+<lb/>up the <del type="strikethrough"><placeName><geogName type="river">Lualaba</geogName></placeName> - up <placeName><geogName type="lake">Lake Moero</geogName></placeName> - Up</del> <add place="below">^</add> <del type="strikethrough"><placeName><geogName type="river">Luapula</geogName></placeName> to the</del><!--Livingstone is making a lot of deletions and additions here, it's hard to follow what exactly is being said. This needs another look. EC--><!-- Looks good to me. EM -->
 <lb/>and <add place="below">^</add> <add place="above">by canoes</add> through <placeName><geogName type="lake">Lake Bangweolo</geogName></placeName> to sources full
 <lb/><measure>five hundred miles</measure> <placeName><region>South of the most southernly
 <lb/>part of <placeName><geogName type="lake"><persName>Victoria</persName> Nyanza</geogName></placeName></region></placeName> - she evidently possesses
@@ -18736,7 +18747,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>have all dried up by a change of Climate<space extent="1" unit="chars"/>
 
     <pb facs="liv_000019_0478" n="0478"/>
-<lb/><fw n="472"><add place="inspace" rend="gray left" hand="#U">472</add></fw> <space extent="1" unit="chars"/> Additional note
+<lb/><fw n="472"><add place="inspace" rend="gray left" hand="#U">472</add></fw> 
+<lb/><space extent="1" unit="chars"/> Additional note
 <lb/><note place="marginleft">copied <lb/><date when="1868-11-02">2 <choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> <lb/>1868</date></note> possibly similar &amp; contemporaneous with that which
 <lb/>has dried up the <placeName><geogName type="sea">Dead Sea</geogName></placeName></seg> -</p>
 <lb/><p>The journey of <persName>Ezra</persName> was undertaken after a fast at
@@ -18779,8 +18791,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><fw n="473"><add place="inspace"><date when="1868">1868</date></add> <add place="inspace" rend="gray right" hand="#U">473</add></fw>
 <lb/><note place="marginleft">copied <lb/><date when="1868-11-03">3 <choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice></date></note> the <placeName><region>Highland</region></placeName> between - 
 <lb/><space extent="1" unit="words"/>Again <placeName><geogName type="lake">Liemba</geogName></placeName> is <measure>3000 feet above the sea</measure> - the
-<lb/>altitude of <placeName><geogName type="lake">Nyassa</geogName></placeName> is <measure><hi rend="underline">1200</hi> <unclear cert="low">ϰ</unclear>800 feet</measure> - <placeName><geogName type="lake">Tanganyika</geogName></placeName>
-<lb/>would thus go to <space extent="8" unit="chars"/><placeName><geogName type="lake">Nyassa</geogName></placeName> down the <placeName><geogName type="river">Shire</geogName></placeName> 
+<lb/>altitude of <placeName><geogName type="lake">Nyassa</geogName></placeName> is <measure><hi rend="underline small">1200</hi> feet</measure> - <placeName><geogName type="lake">Tanganyika</geogName></placeName>
+<lb/>would thus go to <space extent="3" unit="chars"/><measure><add place="inspace above"><unclear cert="low">x</unclear> 800</add></measure> <placeName><geogName type="lake">Nyassa</geogName></placeName> down the <placeName><geogName type="river">Shire</geogName></placeName> 
 <lb/>with the <placeName><geogName type="river"><choice><orig>Zambesi</orig><reg>Zambezi</reg></choice></geogName></placeName> &amp; the sea is a passage existed 
 <lb/>even below ground - -</p>
 <lb/><p>The Large Lake said to exist to the <placeName><region>North West of <!-- geog:  -->
@@ -18838,7 +18850,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>with <term type="animal">camels</term> and <term type="animal">horses</term> - <space extent="3" unit="words"/><date when="1868-08"><choice><abbr>Aug</abbr><expan>August</expan></choice> 1868</date></p> <!-- Again, for dateline tag? HB -->
 		</div>
 		<div type="journal" n="noSpace">
-<lb/><p><space extent="1" unit="words"/><hi rend="double-underline"><bibl>Journal</bibl></hi></p>
+<p><space extent="1" unit="words"/><hi rend="double-underline"><bibl>Journal</bibl></hi></p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1868-11-09"><choice><abbr>Nov<hi rend="sup">r</hi></abbr></choice> <lb/>9<hi rend="sup">th</hi> <lb/>1868</date></note> <choice><sic>copied</sic><corr>Copied</corr></choice> several <bibl>Notes written at <placeName><settlement type="village">Kizinga</settlement></placeName> and
 <lb/>elsewhere and at <placeName><settlement type="village">Kabwabwata</settlement></placeName></bibl> resume <bibl>journal</bibl>
 <lb/>some <seg type="weather">slight showers have cooled the air a little 
@@ -19063,7 +19075,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
     
     <pb facs="liv_000019_0486" n="0486"/>
 <lb/><fw n="480"><add place="inspace" rend="gray left" hand="#U">480</add></fw>
-<lb/><note place="marginleft"><date when="1868-11-23">23<hi rend="sup underline">d</hi> <lb/><choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> <lb/>1868</date></note> allies we should certainly have suffered severely
+<lb/><note place="marginleft"><date when="1868-11-23">23<hi rend="sup underline">d</hi> <lb/><choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> <lb/>1868</date></note> 
+<lb/>allies we should certainly have suffered severely
 <lb/>if not cut off entirely -</p>
 <lb/><p><note place="marginleft"><date when="1868-11-24">24<hi rend="sup underline">th</hi></date></note> The <term type="tribe"><choice><sic>Imbozwa</sic><corr>Imbozhwa</corr></choice></term> or <term type="tribe"><choice><orig>Babemba</orig><reg>Bemba</reg></choice></term> rather came early
 <lb/><date when="1868-11-24">this morning</date> and called on <persName>Muhamad</persName> to come out of
@@ -19259,7 +19272,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>or <persName><choice><orig>Syde</orig><reg>Said</reg></choice> bin Habib</persName> - It is too glaring hypocrisy to go to the
 <lb/><bibl>Koran</bibl> for guidance while the stolen women &amp; girls &amp; <term type="animal">fish</term>
 <lb/>are in <persName>Bin Juma</persName>'s hands.</p>
-<lb/><p rend="no-indent"><note place="marginleft"><date from ="1868-12-08" to="1868-12-09">8<hi rend="sup underline">th</hi> - 9<hi rend="sup underline">th</hi></date></note> <!-- Please check this.  Not sure if I did this right since there are two dates in one line. SF --><!-- Looks good to me. EM --><!-- We use the from/to tags for this kind of case - see how I've done. HB --> Had to wait for <term type="tribe">Banyamwezi</term> preparing food. <persName>Muhamad</persName>
+<lb/><p><note place="marginleft"><date from ="1868-12-08" to="1868-12-09">8<hi rend="sup underline">th</hi> - 9<hi rend="sup underline">th</hi></date></note> <!-- Please check this.  Not sure if I did this right since there are two dates in one line. SF --><!-- Looks good to me. EM --><!-- We use the from/to tags for this kind of case - see how I've done. HB --> Had to wait for <term type="tribe">Banyamwezi</term> preparing food. <persName>Muhamad</persName>
 <lb/>has no authority over them or indeed over any one else.
 <lb/>Two <term type="tribe"><choice><orig>Babemba</orig><reg>Bemba</reg></choice></term> men came in and said that they had
 <lb/>given up fighting and begged their wives who had been
@@ -19274,7 +19287,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>who had not joined the other <term type="tribe"><choice><orig>Babemba</orig><reg>Bemba</reg></choice></term> - we go between
 <lb/>two ranges of tree covered mountains continuations 
 <lb/>those on each side of <placeName><geogName type="lake"><choice><orig>Moero</orig><reg>Mweru</reg></choice></geogName></placeName>.</p>
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1868-12-12">12<hi rend="sup underline">th</hi></date></note> The tiresome tale of <orgName>slaves</orgName> running away was repeated
+<lb/><p><note place="marginleft"><date when="1868-12-12">12<hi rend="sup underline">th</hi></date></note> The tiresome tale of <orgName>slaves</orgName> running away was repeated
 <lb/>again <date when="1868-12-11">last night</date> by two of <persName>Mpamari</persName>'s making off
 <lb/>though in the yoke and they had been with him from 
 <lb/>boyhood - <space extent="2" unit="words"/>Not one good looking <orgName>slave</orgName> woman is
@@ -20047,6 +20060,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>and then return to <placeName><geogName type="island">Zanzibar</geogName></placeName> where I hope to see
 <lb/><note place="marginleft">a true <lb/>copy <lb/><persName><choice><abbr>DL.</abbr><expan>David Livingstone</expan></choice></persName></note> <term type="occupation">Your Highness</term> in the enjoyment of health and
 <lb/>happiness <space extent="2" unit="words"/><persName>David Livingstone</persName> <term type="occupation"><orgName><choice><abbr>H M</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term></p>
+<lb/>
+<lb/>
 			</div>
 
 			<!-- Letter. --><div rend="brown" type="letter">
@@ -20106,11 +20121,11 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><p>You will have the goodness to recover and send
 <lb/>the same to <term type="occupation"><orgName>HBM</orgName><!-- unsure about this abbreviation - "Her Britannic Majesty's" --> Consul</term> and <term type="occupation">Political Agent</term> at 
 <lb/><placeName><geogName type="island">Zanzibar</geogName></placeName> <space extent="2" unit="chars"/>I am &amp;c <space extent="2" unit="chars"/><persName>David Livingstone</persName>
-<lb/><note place="marginleft"><hi rend="underline">A true</hi></note> copy <space extent="15" unit="chars"/><term type="occupation"><orgName><choice><abbr>HM</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term>, <placeName><region>Inner Africa</region></placeName></p>
+<lb/><note place="marginleft"><hi rend="underline">A true copy</hi></note> <space extent="15" unit="chars"/><term type="occupation"><orgName><choice><abbr>HM</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term>, <placeName><region>Inner Africa</region></placeName></p>
 			</div> 
 
 			<!-- Letter. --><div rend="brown" type="letter">
-<lb/><space extent="1" unit="words"/><head>Copy of engagement signed before <persName>W<hi rend="sup underline">m</hi> Sunley Esq</persName> <term type="occupation"><orgName><choice><abbr>HM</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term></head>
+<space extent="1" unit="words"/><head>Copy of engagement signed before <persName>W<hi rend="sup underline">m</hi> Sunley Esq</persName> <term type="occupation"><orgName><choice><abbr>HM</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term></head>
 <lb/><p rend="no-indent">"We engage to accompany <persName>D<hi rend="sup underline">r</hi> Livingstone</persName> into the <placeName><region>Interior
 <lb/>of <placeName><bloc>Africa</bloc></placeName></region></placeName>, and to serve him as <term type="occupation">Porters</term> <term type="occupation">Boatmen</term> or in
 <lb/>any other capacity for a period of twenty months for the
@@ -20662,7 +20677,9 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>did not see the <app><rdg>armed</rdg><rdg><choice><sic>arived</sic><corr>arrived</corr></choice></rdg></app> end of the sounding
 <lb/>lead with sand or mud on it - this is
 <lb/><measure>1965 feet</measure> -</p>
+	</div>
 
+	<div rend="brown black" type="journal" n="noSpace singleCalcs">
 	<pb facs="liv_000019_0525" n="0525"/>
 <lb/><fw n="519"><add place="inspace" rend="gray right" hand="#U">519</add></fw>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-07-15">15<hi rend="sup underline">th</hi> <lb/>July <lb/>1869</date></note> After pulling all night we arrived at some
@@ -20750,37 +20767,38 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><p><note place="marginleft"><date when="1869-08-11">11<hi rend="sup">th</hi></date></note> Came <measure>2 <choice><orig>½</orig><reg>1/2</reg></choice></measure> West and nearly all gentle
 <lb/>descent to a <placeName><settlement type="village">village of <term type="tribe"><choice><orig>Barua</orig><reg>Luba</reg></choice></term></settlement></placeName> surrounded by
 <lb/>hills of <measure>some 200 feet above the plain</measure> trees
-<lb/>sparse <figure><figDesc>List of 3 numbers (readings) bracketed together under "77° 9 AM".</figDesc></figure> <figure><figDesc>List of 3 numbers (readings) bracketed together under "80° 6 PM".</figDesc></figure> <figure><figDesc>List of 3 numbers (readings) bracketed together under "84° 3 PM".</figDesc></figure> <seg rend="left right"><hi rend="double-underline"><measure>2 <choice><orig>½</orig><reg>1/2</reg></choice></measure></hi></seg></p>
+<lb/>sparse <figure><figDesc>List of 3 numbers (readings) bracketed together under "77° 9 AM".</figDesc></figure> <figure><figDesc>List of 3 numbers (readings) bracketed together under "80° 6 PM".</figDesc></figure> <figure><figDesc>List of 3 numbers (readings) bracketed together under "84° 3 PM".</figDesc></figure> <seg rend="right"><hi rend="double-underline"><measure>2 <choice><orig>½</orig><reg>1/2</reg></choice></measure></hi></seg></p>
 <lb/><p>At <placeName><region>villages of <persName>Mekheto</persName></region></placeName> - <orgName><term type="tribe"><choice><orig>Guha</orig><reg>Baguha</reg></choice></term> people</orgName> -
 <lb/><note place="marginleft"><date from="1869-08-12" to="1869-08-13">12<hi rend="sup underline">th</hi> - 13<hi rend="sup underline">th</hi></date></note>remain to buy &amp; prepare food and because
-<lb/>many are sick = <date when="1869-08-15">15<hi rend="sup underline">th</hi></date> North <measure>1 - 30</measure> then over hills <seg rend="left right"><unclear><measure><choice><orig>¼</orig><reg>1/4</reg></choice></measure></unclear></seg></p>
-<lb/><p><note place="marginleft"><date when="1869-08-16">16<hi rend="sup underline">th</hi></date></note> West and by North - country gently undulating <seg rend="left right"><hi rend="double-underline"><measure>1<choice><orig>¾</orig><reg>3/4</reg></choice></measure></hi></seg>
+<lb/>many are sick = <date when="1869-08-15">15<hi rend="sup underline">th</hi></date> North <measure>1 - 30</measure> then over hills <seg rend="right"><unclear><measure><choice><orig>¼</orig><reg>1/4</reg></choice></measure></unclear></seg></p>
+<lb/><p><note place="marginleft"><date when="1869-08-16">16<hi rend="sup underline">th</hi></date></note> West and by North - country gently undulating <seg rend="right"><hi rend="double-underline"><measure>1<choice><orig>¾</orig><reg>3/4</reg></choice></measure></hi></seg>
 <lb/>with ranges of hills <choice><abbr>N.</abbr><expan>North</expan></choice> &amp; <choice><abbr>S.</abbr><expan>South</expan></choice> of our course and
 <lb/>much forest - reach <placeName>Kalalibebe</placeName> - <term type="animal">buffalo</term> killed</p>
-<lb/><p><note place="marginleft"><date when="1869-08-17">17<hi rend="sup underline">th</hi></date></note> <choice><sic>to</sic><corr>To</corr></choice> High mountain <placeName><geogName type="mountain">Gŏlu</geogName></placeName> or <placeName><geogName type="mountain">Gulu</geogName></placeName> and <seg rend="left right"><hi rend="double-underline"><measure>2<choice><orig>¾</orig><reg>3/4</reg></choice></measure></hi></seg>
-<lb/>sleep at its base <seg rend="left right"><hi rend="double-underline"><measure>3.50</measure></hi></seg></p>
+<lb/><p><note place="marginleft"><date when="1869-08-17">17<hi rend="sup underline">th</hi></date></note> <choice><sic>to</sic><corr>To</corr></choice> High mountain <placeName><geogName type="mountain">Gŏlu</geogName></placeName> or <placeName><geogName type="mountain">Gulu</geogName></placeName> and <seg rend="right"><hi rend="double-underline"><measure>2<choice><orig>¾</orig><reg>3/4</reg></choice></measure></hi></seg>
+<lb/>sleep at its base <seg rend="right"><hi rend="double-underline"><measure>3.50</measure></hi></seg></p>
 <lb/><p><note place="marginleft"><date when="1869-08-18">18<hi rend="sup underline">th</hi></date></note> <choice><sic>cross</sic><corr>Cross</corr></choice> two rills flowing into <placeName><geogName type="rivulet"><choice><abbr>R<hi rend="sup">t</hi></abbr><expan>Rivulet</expan></choice> Mgoluze</geogName></placeName>
 <lb/><placeName><geogName type="rivulet">Kagoya</geogName></placeName> &amp; <placeName><geogName type="rivulet">Moishe</geogName></placeName> flow into <placeName><geogName type="river">Lobumba</geogName></placeName></p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-08-19">19</date></note> <choice><sic>to</sic><corr>To</corr></choice> <space extent="1" unit="chars"/><placeName><geogName type="river"><choice><abbr>R</abbr><expan>River</expan></choice> Lobumba</geogName></placeName> <measure>45 yards</measure> thigh deep and
-<lb/>rapid current - <placeName><geogName type="river">Logumba</geogName></placeName> and <placeName><geogName type="river">Lobumba</geogName></placeName> <seg rend="left right"><hi rend="double-underline"><measure>4.30</measure></hi></seg>
+<lb/>rapid current - <placeName><geogName type="river">Logumba</geogName></placeName> and <placeName><geogName type="river">Lobumba</geogName></placeName> <seg rend="right"><hi rend="double-underline"><measure>4.30</measure></hi></seg>
 <lb/>are both from <placeName><geogName type="mountain">Kabogo <choice><abbr>M<hi rend="sup underline">ts</hi></abbr><expan>Mountains</expan></choice></geogName></placeName> - one goes into
 <lb/><placeName><geogName type="lake">Tanganyika</geogName></placeName> and the other or <placeName><geogName type="river">Lobumba</geogName></placeName> into
 <lb/>and is the <placeName><geogName type="river">Luamo</geogName></placeName> - the country <placeName><region>East of the
 <lb/><placeName><geogName type="river">Lobumba</geogName></placeName></region></placeName> is called <placeName><region>Lobanda</region></placeName> - that West of
 <lb/>it <placeName><region>Kitwa</region></placeName></p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-08-20">20<hi rend="sup underline">th</hi></date></note> <seg type="weather"><choice><sic>very</sic><corr>Very</corr></choice> windy</seg> - <placeName><geogName type="river">Lobumba</geogName></placeName> has worn itself a bed
-<lb/>in sandstone rock <seg rend="left right"><hi rend="double-underline"><measure>1 - 25</measure></hi></seg></p>
+<lb/>in sandstone rock <seg rend="right"><hi rend="double-underline"><measure>1 - 25</measure></hi></seg></p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-08-21">21<hi rend="sup underline">st</hi></date></note> Went on to <placeName><geogName type="rivulet"> <choice><abbr>Rt</abbr><expan>Rivulet</expan></choice> Loungwa</geogName></placeName> which has worn for
 <lb/>itself a rut in New red sandstone <measure><measure>20 feet deep</measure>
-<lb/>and only <measure>3 or 4 feet wide</measure></measure> at the lips - <seg rend="left right"><hi rend="double-underline"><measure>3 <choice><orig>¼</orig><reg>1/4</reg></choice></measure></hi></seg></p>
+<lb/>and only <measure>3 or 4 feet wide</measure></measure> at the lips - <seg rend="right"><hi rend="double-underline"><measure>3 <choice><orig>¼</orig><reg>1/4</reg></choice></measure></hi></seg></p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-08-25">25<hi rend="sup underline">th</hi></date></note> We rest because all are tired - travelling
 <lb/><seg type="weather">at this season is excessively fatiguing - It
 <lb/>is very hot even at 10 AM</seg> and 2 <choice><orig>½</orig><reg>1/2</reg></choice> or 3
 <lb/>hours tires the strongest - <term type="occupation">carriers</term> especially
 <lb/>so - <seg type="weather">during the rains</seg> 5 hours would not
 <lb/>have fatigued so much as 3 do now
-<lb/>We are now on the same level as <placeName><geogName type="lake"><w>Tan-
-<lb break="no"/><space extent="5" unit="words"/>-ganyika</w></geogName></placeName></p>
+<lb/>We are now on the same level as <placeName><geogName type="lake">Tan-</geogName></placeName>
+<lb break="no"/><space extent="6" unit="words"/><placeName><geogName type="lake">-ganyika</geogName></placeName></p>
+<!-- Serious coding rule violation to get to this work & appear right on screen. AW -->
 
 	<pb facs="liv_000019_0528" n="0528"/>
 <lb/><fw n="522"><add place="inspace" rend="gray left" hand="#U">522</add></fw>
@@ -20832,11 +20850,11 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>here as some have elsewhere -</p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-09-07">7<hi rend="sup">th</hi></date></note> <choice><abbr>W</abbr><expan>West</expan></choice> and <choice><abbr>N-W-</abbr><expan>Northwest</expan></choice> through forest <gap extent="1" unit="chars" agent="blot"/>immense fields
 <lb/>of <foreign xml:lang="la"><term type="plant">Cassava</term></foreign> - some three years old - roots as
-<lb/>thick as a stout <choice><sic>mans</sic><corr>man's</corr></choice> leg - <seg rend="left right"><hi rend="double-underline"><measure> 3<choice><orig>¼</orig><reg>1/4</reg></choice></measure></hi></seg></p>
+<lb/>thick as a stout <choice><sic>mans</sic><corr>man's</corr></choice> leg - <seg rend="right"><hi rend="double-underline"><measure> 3<choice><orig>¼</orig><reg>1/4</reg></choice></measure></hi></seg></p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-09-08">8<hi rend="sup underline">th</hi></date></note> Across five <choice><abbr>R<hi rend="sup underline">ts</hi></abbr><expan>Rivulets</expan></choice> and through many villages
 <lb/>country covered with <term type="plant">Ferns</term> and <term type="plant_foodstuff">gingers</term>
 <lb/>Miles and miles of <foreign xml:lang="la"><term type="plant_foodstuff">Cassava</term></foreign> on to <placeName><settlement type="village"><choice><abbr>vil.</abbr><expan>village</expan></choice> of.
-<lb/><persName>Karungamagao</persName></settlement></placeName> <seg rend="left right"><hi rend="double-underline"><measure> 3<choice><orig>½</orig><reg>1/2</reg></choice></measure></hi></seg></p>
+<lb/><persName>Karungamagao</persName></settlement></placeName> <seg rend="right"><hi rend="double-underline"><measure> 3<choice><orig>½</orig><reg>1/2</reg></choice></measure></hi></seg></p>
 <lb/><p><note place="marginleft"><date when="1869-09-09">9<hi rend="sup">th</hi></date></note> Rest again to <term type="occupation">shoot</term> <term type="foodstuff">meat</term> as <term type="animal">Elephants</term>
 <lb/>and <term type="animal">buffaloes</term> are very abundant the
 <lb/><orgName><choice><orig>Swaheli</orig><reg>Swahili</reg></choice></orgName> think that adultery is an obstacle
@@ -20846,11 +20864,11 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>the skin of his <add place="below">^</add> <add place="above">fore</add>arms</p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-09-10">10</date></note> North and <choice><orig>Nor West</orig><reg>Northwest</reg></choice> over 4 <choice><abbr>Rts</abbr><expan>Rivulets</expan></choice> and past the
 <lb/><placeName><settlement type="village">village of <persName>Makala</persName></settlement></placeName> to near <placeName><settlement type="village">that of <persName><w>Pyana-
-<lb break="no"/>-mosinde</w></persName></settlement></placeName> <seg rend="left right"><hi rend="double-underline"><measure>5</measure></hi></seg></p>
+<lb break="no"/>-mosinde</w></persName></settlement></placeName> <seg rend="right"><hi rend="double-underline"><measure>5</measure></hi></seg></p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-09-12">12</date></note> - We had wandered and now came back to our path
 <lb/>on hilly ground - <seg type="weather">days sultry and smoking</seg> -
 <lb/>came to <placeName><region>villages of <persName>Pyana mosinde</persName></region></placeName> The
-<lb/>population prodigiously large - a sword <seg rend="left right"><hi rend="double-underline"><measure>2</measure></hi></seg>
+<lb/>population prodigiously large - a sword <seg rend="right"><hi rend="double-underline"><measure>2</measure></hi></seg>
 <lb/>was left at the camp and at once picked up
 <lb/>though the man was traced to a village it was
 <lb/>refused till he accidentally cut his foot with it
@@ -20860,7 +20878,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><p><note place="marginleft"><date when="1869-09-13">13<hi rend="sup underline">th</hi></date></note> <choice><sic>along</sic><corr>Along</corr></choice> towards the <placeName>Moloni</placeName> or <placeName>Mononi</placeName> <unclear><choice><abbr>vils</abbr><expan>villages</expan></choice></unclear>
 <lb/>cross 7 rills - people seized three <orgName>slaves</orgName> who
 <lb/>lagged behind but hearing a gun fired at
-<lb/><term type="animal">guinea fowls</term> let them go - Route <choice><abbr>N</abbr><expan>North</expan></choice> - <seg rend="left right"><hi rend="double-underline"><measure>4</measure></hi></seg></p>
+<lb/><term type="animal">guinea fowls</term> let them go - Route <choice><abbr>N</abbr><expan>North</expan></choice> - <seg rend="right"><hi rend="double-underline"><measure>4</measure></hi></seg></p>
 <lb/><p><note place="marginleft"><date when="1869-09-14">14</date></note> Up and down hills perpetually - went down
 <lb/>into some deep dells filled with gigantic trees
 <lb/>measured one <measure><measure>20 feet in circumference</measure> &amp; <measure>60 or 70 <choice><abbr>ft</abbr><expan>feet</expan></choice> high</measure></measure>
@@ -20870,7 +20888,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><note place="marginleft"><date when="1869">1869</date></note> to the first branches - others seemed fit to
 <lb/>be <choice><sic>ships</sic><corr>ships'</corr></choice> spars - Large <term type="plant">Lichens</term> covered many
 <lb/>and numerous new plants appeared on the
-<lb/><note place="marginleft"><date when="1869-09-15"><choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> <lb/>15<hi rend="sup underline">th</hi></date></note> ground <seg rend="left right"><measure>3 <choice><orig>¾</orig><reg>3/4</reg></choice></measure></seg></p>
+<lb/><note place="marginleft"><date when="1869-09-15"><choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> <lb/>15<hi rend="sup underline">th</hi></date></note> ground <seg rend="right"><measure>3 <choice><orig>¾</orig><reg>3/4</reg></choice></measure></seg></p>
 <lb/><p>Got clear of the mountains after <measure>1 <choice><orig>½</orig><reg>1/2</reg></choice></measure> hours
 <lb/>and then the vast valley of <placeName><geogName type="valley">Mamba</geogName></placeName> opened
 <lb/>out before us - very beautiful and much
@@ -20894,7 +20912,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>grass fully <choice><orig>½</orig><reg>1/2</reg></choice> an inch in diameter in the
 <lb/>stalk on our route and over the top of the
 <lb/>range <add place="below">^</add> <add place="above"><placeName><geogName type="mountain">Moloni</geogName></placeName></add> we ascended - the valleys are
-<lb/>impassable - <seg rend="left right"><hi rend="double-underline"><measure>4</measure></hi></seg></p>
+<lb/>impassable - <seg rend="right"><hi rend="double-underline"><measure>4</measure></hi></seg></p>
 <lb/><p><note place="marginleft"><date when="1869-09-17">17<hi rend="sup">th</hi></date></note> Remain to buy food at <placeName><settlement type="village"><persName>Kasanga</persName>'s</settlement></placeName> and
 <lb/>rest the <term type="occupation">carriers</term> - country full of <term type="plant">palm
 <lb/>oil palms</term> and very beautiful - <orgName>our
@@ -20918,7 +20936,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>have their bodies tattooed with new &amp; full
 <lb/>moons - stars <term type="animal">crocodiles</term> and <term type="nationality">Egyptian</term> gardens</p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-09-19">19<hi rend="sup underline">th</hi></date></note> <choice><sic>crossed</sic><corr>Crossed</corr></choice> several Rivulets <measure><measure>3 <choice><abbr>yds</abbr><expan>yards</expan></choice> to 12 <choice><abbr>yds</abbr><expan>yards</expan></choice></measure> &amp; <measure>calf deep</measure></measure>
-<lb/>Mountain where we camped <placeName><geogName type="mountain">Sangomelambe</geogName></placeName> <seg rend="left right"><hi rend="double-underline"><measure>3 <choice><orig>½</orig><reg>1/2</reg></choice></measure></hi></seg></p>
+<lb/>Mountain where we camped <placeName><geogName type="mountain">Sangomelambe</geogName></placeName> <seg rend="right"><hi rend="double-underline"><measure>3 <choice><orig>½</orig><reg>1/2</reg></choice></measure></hi></seg></p>
 <lb/><p rend="no-indent"><note place="marginleft"><date when="1869-09-20">20<hi rend="sup underline">th</hi></date></note> Up to a broad range of high mountains of
 <lb/>light grey granite = deep dells on top filled with
 <lb/>gigantic trees and having running rills in them
@@ -20952,12 +20970,12 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><fw n="526"><add place="inspace" rend="gray left" hand="#U">526</add></fw>
 <lb/><note place="marginleft"><date when="1869-09-20"><choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> <lb/>20<hi rend="sup underline">th</hi> <lb/>1869</date></note> <persName>Monandenda</persName> - Houses all well filled with
 <lb/>firewood on shelves - Bed on a raised <w>plat-
-<lb break="no"/>form</w> in an inner room - <choice><abbr>NW.</abbr><expan>Northwest</expan></choice> <seg rend="left right"><hi rend="double-underline"><measure>4 <choice><orig>¼</orig><reg>1/4</reg></choice></measure></hi></seg></p>
+<lb break="no"/>form</w> in an inner room - <choice><abbr>NW.</abbr><expan>Northwest</expan></choice> <seg rend="right"><hi rend="double-underline"><measure>4 <choice><orig>¼</orig><reg>1/4</reg></choice></measure></hi></seg></p>
 <lb/><p><note place="marginleft"><date when="1869-09-21">21<hi rend="sup underline">st</hi></date></note> <choice><sic>cross</sic><corr>Cross</corr></choice> 5 or 6 Rivulets and as many villages
 <lb/>some burned and deserted or inhabited - Very
 <lb/>many people came running to see <app><rdg>these</rdg><rdg>those</rdg></app>
 <lb/>strangers - gigantic trees all about the villages
-<lb/>arrive at <placeName><settlement type="village">Bambarre</settlement></placeName> or <placeName><settlement type="village"><persName>Moenekuss</persName>'</settlement></placeName> <seg rend="left right"><hi rend="double-underline"><measure>3</measure></hi></seg></p>
+<lb/>arrive at <placeName><settlement type="village">Bambarre</settlement></placeName> or <placeName><settlement type="village"><persName>Moenekuss</persName>'</settlement></placeName> <seg rend="right"><hi rend="double-underline"><measure>3</measure></hi></seg></p>
 <lb/><p><note place="marginleft">Camps</note> 29 - <measure>about 80 hours</measure> of actual travelling
 <lb/>say at <measure>2' per hour == say 160' or 140'</measure> - Westing
 <lb/><date from="1869-08-03" to="1869-09-21">From 3<hi rend="sup underline">d</hi> August to 21<hi rend="sup">st</hi> September</date> - My strength
@@ -21027,7 +21045,9 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>screamed "Oh the <orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName> have stolen
 <lb/>my child to make <term type="foodstuff">meat</term> of him" at the top of
 <lb/>her shrill voice - Oh my child eaten "Oh" Oh"</p>
+	</div>
 
+	<div rend="brown black" type="journal" n="noSpace">
 	<pb facs="liv_000019_0534" n="0534"/>
 <lb/><fw n="528"><add place="inspace" rend="gray left" hand="#U">528</add></fw>
 <lb/><p><note place="marginleft"><date from="1869-09-26" to="1869-09-28"><choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> <lb/>26<hi rend="sup underline">th</hi> <lb/>28<hi rend="sup underline">th</hi> <lb/>1869</date></note> A <choice><sic><placeName><region>Lund</region></placeName></sic><corr><placeName><region>Lunda</region></placeName></corr></choice> <orgName>slave</orgName> girl sent off to buy a tusk but
@@ -21098,8 +21118,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>by a sudden flood of a dry river in the
 <lb/><placeName><region><term type="tribe">Obena</term> country</region></placeName> - they are great observers of
 <lb/>lucky and unlucky days</p>
-<lb/><p><note place="marginleft"><date when="1869-10"><choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> <lb/>1869</date></note></p>
-<lb/><p><note place="marginleft"><date when="1869-11"><choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date></note> Being now well rested I resolved to go West
+<lb/><p><note place="marginleft"><date when="1869-10"><choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice></date></note><space extent="1" unit="chars"/></p>
+<lb/><p><note place="marginleft"><date when="1869-11">1869 <lb/><choice><abbr>Nov<hi rend="sup underline">r</hi></abbr><expan>November</expan></choice></date></note> Being now well rested I resolved to go West
 <lb/>to <placeName><geogName type="river">Lualaba</geogName></placeName> and buy a canoe for its
 <lb/>exploration - our course was West and
 <lb/>South West through a country <w>surpass-
@@ -21313,10 +21333,10 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><!--right--><space extent="6" unit="words"/>to it -</p>
 			</div>
 
-			<div type="journal">
+			<div type="journal" n="poundCalcs">
 	<pb facs="liv_000019_0541" n="0541"/>
-<lb/><p rend="no-indent"><space extent="3" unit="words"/>A true copy <persName><choice><abbr>D.L.</abbr><expan>David Livingstone</expan></choice></persName></p> <space extent="2" unit="words"/><fw n="535"><add place="inspace" rend="gray" hand="#U">535</add></fw>
-<lb/><p rend="no-indent"><note place="marginleft">To</note> <persName>D<hi rend="sup underline">r</hi> John Kirk</persName> <term type="occupation"><orgName><choice><abbr>HM</abbr><expan>Her Majesty's</expan></choice></orgName> Consul &amp;c</term> - <space extent="2" unit="chars"/><placeName><region><orgName>Manyema</orgName></region></placeName> <date when="1871-02-05">5<hi rend="sup underline">th</hi> February 1871</date></p>
+<lb/><p rend="no-indent"><space extent="2" unit="words"/>A true copy <persName><choice><abbr>D.L.</abbr><expan>David Livingstone</expan></choice></persName></p> <space extent="2" unit="words"/><fw n="535"><add place="inspace" rend="gray" hand="#U">535</add></fw>
+<lb/><p rend="no-indent">To <persName>D<hi rend="sup underline">r</hi> John Kirk</persName> <term type="occupation"><orgName><choice><abbr>HM</abbr><expan>Her Majesty's</expan></choice></orgName> Consul &amp;c</term> - <space extent="2" unit="chars"/><placeName><region><orgName>Manyema</orgName></region></placeName> <date when="1871-02-05">5<hi rend="sup underline">th</hi> February 1871</date></p>
 <lb/><p rend="no-indent"><space extent="4" unit="words"/><add place="inspace" rend="small"><placeName><geogName type="island">Zanzibar</geogName></placeName></add></p>
 <lb/><list><head>Advances of pay and goods to be refunded by
 <lb/>the <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName> whose names and agreement
@@ -21362,7 +21382,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 		<div type="journal">
 	<pb facs="liv_000019_0542" n="0542"/>
 <lb/><fw n="536"><add place="inspace" rend="gray left" hand="#U">536</add></fw>
-<lb/><p rend="black"><note place="marginleft"><hi rend="underline">Note</hi> <lb/><date when="1871-11-14"><choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> <lb/>14<hi rend="sup">th</hi> <lb/>1871</date></note> The men in charge of my goods purchased
+<lb/><p rend="black"><note place="marginleft"><hi rend="underline">Note</hi> <lb/><lb/><date when="1871-11-14"><choice><abbr>Nov<hi rend="sup">r</hi></abbr><expan>November</expan></choice> <lb/>14<hi rend="sup">th</hi> <lb/>1871</date></note> The men in charge of my goods purchased
 <lb/>with half of a £1000 thousand pounds sent
 <lb/>me by <orgName>Government</orgName> by <persName><persName><w>M<hi rend="sup"><supplied cert="high">ess</supplied>rs</hi></w> Churchill</persName> &amp;
 <lb/>and <persName>Kirk</persName></persName><!-- Adrian/Heather please correct this as I don't think it is quite right - the "Messrs" applies to both men but they're under separate tags AM --><!-- Adrian see what I have done and see if it fits? HB --> left <placeName><geogName type="island">Zanzibar</geogName></placeName> about the end of
@@ -21375,7 +21395,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>months in the way <seg rend="black brown">and have not left it
 <lb/>in <date when="1871-12">December 1871</date> -</seg></p>
 <lb/><milestone unit="section" rend="line"/>
-<lb/><p><bibl>Copy of original agreement</bibl> of <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName> <!-- Adrian, should this be a separate div? HB -->
+<lb/><p rend="no-indent"><bibl>Copy of original agreement</bibl> of <orgName><placeName><geogName type="island">Johanna</geogName></placeName> men</orgName> <!-- Adrian, should this be a separate div? HB -->
 <lb/>"We engage to accompany <persName>D<hi rend="sup underline">r</hi> Livingstone</persName>
 <lb/>into the <placeName><region>Interior</region></placeName> of <placeName><bloc>Africa</bloc></placeName> and to serve
 <lb/>him as <term type="occupation">Porters</term>, <term type="occupation">Boatmen</term>, or in any other
@@ -21947,6 +21967,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>hoped to accomplish I trust to <term type="occupation">your
 <lb/>Lordship</term> kind consideration to
 <lb/>award me you approbation
+<lb/>
 <lb/><space extent="2" unit="chars"/>and am your most obedient servant</p>
 <lb/><p rend="no-indent"><space extent="2" unit="words"/><space extent="2" unit="chars"/><persName>David Livingstone</persName>
 <lb/><space extent="3" unit="words"/><space extent="2" unit="chars"/><term type="occupation"><orgName><choice><abbr>H M</abbr><expan>Her Majesty's</expan></choice></orgName> Consul</term>
@@ -22081,7 +22102,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><!--center--><p rend="no-indent"><space extent="4" unit="words"/><placeName><settlement type="town">Ujiji</settlement></placeName> - <date when="1871-11-01">1<hi rend="sup underline">st</hi> November 1871</date></p>
 <lb/><p rend="no-indent"><space extent="2" unit="words"/>The Right Honourable
 <lb/><!--right--><space extent="6" unit="words"/>The <persName>Earl of Clarendon</persName></p>
-<lb/><p rend="no-indent"><note place="marginleft"><choice><abbr>No</abbr><expan>Number 2</expan></choice> <lb/><w>Geograph- <lb break="no"/><hi rend="underline">-ical</hi></w></note> <space extent="9" unit="words"/><!--right-->My Lord,</p>
+<lb/><p rend="no-indent"><note place="marginleft"><choice><abbr>No</abbr><expan>Number</expan></choice> 2 <lb/><w>Geograph- <lb break="no"/><hi rend="underline">-ical</hi></w></note> <space extent="9" unit="words"/><!--right-->My Lord,</p>
 <lb/><!--right--><p rend="no-indent"><space extent="6" unit="words"/>I wrote a very hurried <bibl>letter</bibl>
 <lb/>on the <date when="1871-10-28">28<hi rend="sup underline">th</hi> <choice><abbr>Ult</abbr><expan>Ultimo</expan></choice></date> and sent it by a few men who had
 <lb/>resolved to run the risk of passing through contending
@@ -23496,8 +23517,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>bin Salem <unclear cert="low">Buraschid</unclear></persName> and his "chum"
 <lb/><persName>Shereef</persName> could scarcely have been hid from
 <lb/>them - Why employ them without character</p>
-<lb/><p rend="no-indent">P.S <space extent="2" unit="words"/><date when="1871-11-16">16<hi rend="sup">th</hi> November 1871</date> <!-- Adrian, I couldn't use the postscript tag for some reason? HB -->
-<lb/>I regret the necessity of bringing the
+<lb/><p>P.S <space extent="2" unit="words"/><date when="1871-11-16">16<hi rend="sup">th</hi> November 1871</date> <!-- Adrian, I couldn't use the postscript tag for some reason? HB -->
+<lb/><space extent="1" unit="words"/>I regret the necessity of bringing the
 <lb/>foregoing very unpleasant subject before
 <lb/>you, but I have just <choice><sic>recieved</sic><corr>received</corr></choice> <bibl>letters</bibl> and
 <lb/>information which make the matter doubly
@@ -23969,8 +23990,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>It was to be used as a charm - and
 <lb/>was of a man killed in revenge - The
 <lb/><orgName>Arabs</orgName> all took this as clear evidence
-<lb/>of <orgName>cannibalism</orgName> - I hesitated -</p>
-<lb/><p><note place="marginleft"><date from="1869-12-29" to="1869-12-31">29<hi rend="sup">th</hi> <lb/>30<hi rend="sup">th</hi> <lb/>31 <choice><abbr>Dec</abbr><expan>December</expan></choice> <lb/>1869</date></note> <seg type="weather">Heavy rains</seg> - <placeName><geogName type="river">Luamo</geogName></placeName> is called the
+<lb/><note place="marginleft"><space extent="1" unit="chars"/><date from="1869-12-30" to="1869-12-31">29<hi rend="sup">th</hi></date></note> of <orgName>cannibalism</orgName> - I hesitated -</p>
+<lb/><p><note place="marginleft"><date from="1869-12-30" to="1869-12-31">30<hi rend="sup">th</hi> <lb/>31 <choice><abbr>Dec</abbr><expan>December</expan></choice> <lb/>1869</date></note> <seg type="weather">Heavy rains</seg> - <placeName><geogName type="river">Luamo</geogName></placeName> is called the
 <lb/><placeName><geogName type="river">Luasse</geogName></placeName> above this - we crossed in
 <lb/>canoes
 
@@ -24508,7 +24529,6 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
 <pb facs="liv_000019_0620" n="0620"/>
 <lb/><fw n="614"><add place="inspace" rend="gray left" hand="#U">614</add></fw>
-<lb/><gap extent="1" unit="words"/>
 <lb/><p><note place="marginleft"><date when="1870-07-23">July <lb/>23<hi rend="sup">d</hi> <lb/>1870</date></note> The <term type="ailment">sores</term> on my feet laid me up
 <lb/>as irritable <term type="ailment">eating ulcers</term> - if the foot were
 <lb/>put to the ground a discharge of bloody <foreign xml:lang="grk">ichor</foreign>
@@ -26397,9 +26417,9 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
  
     <pb facs="liv_000019_0667" n="0667"/> 
 <lb/><fw n="667"><add place="inspace" rend="gray right" hand="#U">667</add></fw>
-<lb/><note place="marginleft"><date when="1871-04-10">1871 <lb/>April <lb/>10<hi rend="sup underline">th</hi></date></note> and carry little save their iron ware
+<lb/><note place="marginleft"><date when="1871-04-10">1871 <lb/>April <lb/>10<hi rend="sup underline">th</hi></date></note> <lb/>and carry little save their iron ware
 <lb/><term type="animal">fowls</term> grass cloth &amp; <term type="animal">pigs</term> -</p> 
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-04-12">12<hi rend="sup underline">th</hi></date></note>New ℂ <date when="1871-04-11">last night</date> - 4th <orgName>Arab</orgName> month - I am at a 
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-04-12">12<hi rend="sup underline">th</hi></date></note>  New ℂ <date when="1871-04-11">last night</date> - 4th <orgName>Arab</orgName> month - I am at a 
 <lb/>loss for the day of the month - New house 
 <lb/>finished - a great comfort for the other 
 <lb/>was foul and full of <term type="animal"><term type="insect">vermin</term></term> - Bugs 
@@ -26916,7 +26936,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0680" n="0680"/> 
 <lb/><fw n="680"><add place="inspace" rend="gray left" hand="#U">680</add></fw>
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-05">1871 <lb/>May</date></note> <date when="1871-05-20">20<hi rend="sup underline">th</hi></date> <persName>Abed</persName> called <persName>Kalenga</persName> the <term type="occupation"><w>head<supplied>-</supplied> 
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-05">1871 <lb/>May</date></note> <lb/><date when="1871-05-20">20<hi rend="sup underline">th</hi></date> <persName>Abed</persName> called <persName>Kalenga</persName> the <term type="occupation"><w>head<supplied>-</supplied> 
 <lb break="no"/>man</w></term> who beguiled him as I soon found 
 <lb/>and delivered the canoe he had bought 
 <lb/>formally to me and went off down 
@@ -27999,7 +28019,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0707" n="0707"/> 
 <lb/><fw n="707"><add place="inspace" rend="gray right" hand="#U">707</add></fw>
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-08-03">1871 <lb/>August <lb/><del>3</del></date></note> - <date when="1871-08-03">3<hi rend="sup underline">d</hi></date> <space extent="2" unit="chars"/>Three <orgName>slaves</orgName> escaped and not to 
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-08-03">1871 <lb/>August -<lb/><del>3</del></date></note> <lb/><date when="1871-08-03">3<hi rend="sup underline">d</hi></date> <space extent="2" unit="chars"/>Three <orgName>slaves</orgName> escaped and not to 
 <lb/>abandon ivory we wait a day and
 <lb/>men sent after we left <placeName><settlement type="village"><persName>Kasongo</persName></settlement></placeName> came 
 <lb/>up and filled their places -</p> 
@@ -28041,13 +28061,14 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 		<div type="journal">
     <pb facs="liv_000019_0708" n="0708"/> 
 <lb/><fw n="708"><add place="inspace" rend="gray left" hand="#U">708</add></fw>
-<lb/><p><note place="marginleft"><date when="1871-08-04">1871 - <lb/>4<hi rend="sup underline">th</hi> <lb/>August</date></note> <persName>Abdullah</persName> admitted that he had no other 
+<lb/><p><note place="marginleft"><date when="1871-08-04">1871 - <lb/>4<hi rend="sup underline">th</hi> <lb/>August</date></note> 
+<lb/><persName>Abdullah</persName> admitted that he had no other 
 <lb/>reason for burning them than the 
 <lb/>unwillingness of the people to lodge him 
 <lb/>and his <orgName>slaves</orgName> without payment &amp;
 <lb/>with the certainty of getting their food 
 <lb/>stolen and utensils destroyed -</p> 
-<lb/><p><note place="marginleft"><del><date when="1871-08-05">5<hi rend="sup">th</hi></date></del> <date when="1871-08-06">6<hi rend="sup underline">th</hi></date></note> Through <measure>many miles</measure> of <term type="plant">palm trees</term>
+<lb/><p><note place="marginleft"><date when="1871-08-05">5<hi rend="sup">th</hi></date> <date when="1871-08-06">6<hi rend="sup underline">th</hi></date></note> Through <measure>many miles</measure> of <term type="plant">palm trees</term>
 <lb/>and <term type="plant_foodstuff">plantains</term> to a <foreign xml:lang="und">Boma</foreign> or stockaded 
 <lb/>village where we slept though the 
 <lb/>people were evidently suspicious 
@@ -28121,7 +28142,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0710" n="0710"/> 
 <lb/><fw n="710"><add place="inspace" rend="gray left" hand="#U">710</add></fw>
-<lb/><note place="marginleft"><date when="1871-08-08">1871 <lb/>August <lb/>8<hi rend="sup">th</hi></date></note> had fire applied near its roots - I 
+<lb/><note place="marginleft"><date when="1871-08-08">1871 <lb/>August <lb/>8<hi rend="sup">th</hi></date></note> 
+<lb/>had fire applied near its roots - I 
 <lb/>heard a crack which told that the 
 <lb/>fire had done its work but felt no 
 <lb/>alarm till I saw it come straight 
@@ -28200,7 +28222,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0712" n="0712"/> 
 <lb/><fw n="712"><add place="inspace" rend="gray left" hand="#U">712</add></fw>
-<lb/><p><note place="marginleft"><date when="1871-08-10">1871 <lb/>August <lb/>10<hi rend="sup">th</hi> -</date></note> In connection with this affair 
+<lb/><p><note place="marginleft"><date when="1871-08-10">1871 <lb/>August -<lb/>10<hi rend="sup">th</hi> </date></note> 
+<lb/>In connection with this affair 
 <lb/>the <orgName>party that came through from 
 <lb/><placeName><settlement type="village">Mamohela</settlement></placeName></orgName> found that a great fight 
 <lb/>had taken place at <placeName><settlement type="village"><persName><choice><orig>Muanampunda</orig><reg>Moenempanda</reg></choice></persName>'s</settlement></placeName> 
@@ -28282,7 +28305,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0714" n="0714"/> 
 <lb/><fw n="714"><add place="inspace" rend="gray left" hand="#U">714</add></fw>
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-08"><choice><abbr>Aug.</abbr><expan>August</expan></choice> <lb/>? <lb/>1871 <lb/>copied</date></note> Notes <space extent="2" unit="chars"/><persName>Suleiman bin Juma</persName> lived
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-08"><choice><abbr>Aug.</abbr><expan>August</expan></choice> <lb/>? <lb/>1871 <lb/>copied</date></note> <lb/>Notes <space extent="2" unit="chars"/><persName>Suleiman bin Juma</persName> lived
 <lb/>on the main land <placeName>Mosessane</placeName> near
 <lb/><placeName><geogName type="island">Zanzibar</geogName></placeName> - seems to have had <w>remark<supplied>-</supplied> 
 <lb break="no"/>able</w> foresight of events - <supplied>"</supplied>Preeminently
@@ -28321,7 +28344,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0715" n="0715"/> 
 <lb/><fw n="715"><add place="inspace" rend="gray right" hand="#U">715</add></fw>
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-08">1871 <lb/>copied <lb/><choice><abbr>Aug.</abbr><expan>August</expan></choice></date></note> Note The <term type="animal"><hi rend="underline">Neggeri</hi></term> or <term type="animal"><hi rend="underline">Nyegeri</hi></term> a small 
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-08">1871 <lb/>copied <lb/><choice><abbr>Aug.</abbr><expan>August</expan></choice></date></note> 
+<lb/>Note The <term type="animal"><hi rend="underline">Neggeri</hi></term> or <term type="animal"><hi rend="underline">Nyegeri</hi></term> a small 
 <lb/>animal attacks the <persName>τεϬτικλες</persName> of <!-- Is this in Greek? HB --><!-- Yes, Perikles. AW -->
 <lb/>of man and beast ferociously. <term type="animal">Buffaloes</term>
 <lb/>as I long ago heard from <term type="tribe"><choice><orig>Makololo</orig><reg>Kololo</reg></choice></term> are
@@ -28521,7 +28545,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0720" n="0720"/> 
 <lb/><fw n="720"><add place="inspace" rend="gray left" hand="#U">720</add></fw>
-<lb/><p><note place="marginleft"><date when="1871-08-11">1871 <lb/>August <lb/>11<hi rend="sup">th</hi></date></note> Came on by a long march of <measure>six hours</measure> 
+<lb/><p><note place="marginleft"><date when="1871-08-11">1871 <lb/>August <lb/>11<hi rend="sup">th</hi></date></note> 
+<lb/>Came on by a long march of <measure>six hours</measure> 
 <lb/>across plains of grass and watercourses 
 <lb/>lined with beautiful trees to <placeName><settlement type="village"><persName>Kassessa</persName>'s</settlement></placeName>
 <lb/>the <term type="occupation">chief</term> of <placeName><settlement type="village">Mamohela</settlement></placeName> who has helped 
@@ -28681,7 +28706,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0724" n="0724"/> 
 <lb/><fw n="724"><add place="inspace" rend="gray left" hand="#U">724</add></fw>
-<lb/><note place="marginleft"><date when="1871-09-20">1871 <lb/><choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> <lb/>20<hi rend="sup">th</hi></date></note> <choice><sic>been</sic><corr>Been</corr></choice> ailing and fell from some 
+<lb/><note place="marginleft"><date when="1871-09-20">1871 <lb/><choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> <lb/>20<hi rend="sup">th</hi></date></note> <lb/><choice><sic>been</sic><corr>Been</corr></choice> ailing and fell from some 
 <lb/>part of his new house at <placeName><settlement type="town"><choice><orig>Darsalam</orig><reg>Dar es Salaam</reg></choice></settlement></placeName>
 <lb/>and in 3 days afterwards expired 
 <lb/>A true and warm friend to me - 
@@ -28731,7 +28756,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>
 		</div>
 	<div rend="brown" type="journal">
-<lb/><p><note place="marginleft"><date when="1871-10-08"> October <lb/>8<hi rend="sup underline">th</hi></date></note> The road covered with angular fragments 
+<lb/><p><note place="marginleft"><date when="1871-10-08"> October <lb/>8<hi rend="sup underline">th</hi></date></note> <lb/>The road covered with angular fragments 
 <lb/>of quartz very sore on the feet crammed 
 <lb/>in ill made <term type="nationality">French</term> shoes - How the 
 <lb/>bare feet of the men and women stood 
@@ -28804,7 +28829,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0727" n="0727"/> 
 <lb/><fw n="727"><add place="inspace" rend="gray right" hand="#U">727</add></fw>
-<lb/><note place="marginleft"><date when="1871-10-24">1871 <lb/><choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice> <lb/>24<hi rend="sup underline">th</hi></date></note> that could be bought with my goods 
+<lb/><note place="marginleft"><date when="1871-10-24">1871 <lb/><choice><abbr>Oct<hi rend="sup">r</hi></abbr><expan>October</expan></choice> <lb/>24<hi rend="sup underline">th</hi></date></note> 
+<lb/>that could be bought with my goods 
 <lb/>My property had been sold to <persName>Shereef</persName>'s 
 <lb/>friends at merely nominal prices - 
 <lb/><persName><choice><orig>Syed</orig><reg>Said</reg></choice> bin <choice><orig>Madjid</orig><reg>Majid</reg></choice></persName> a good man proposed 
@@ -28887,7 +28913,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
     <pb facs="liv_000019_0729" n="0729"/> 
 <lb/><fw n="729"><add place="inspace" rend="gray right" hand="#U">729</add></fw>
-<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-10-28">1871 <lb/><choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> <lb/>28<hi rend="sup underline">th</hi></date></note> of very serious obstacles - His helpmates 
+<lb/><p rend="no-indent"><note place="marginleft"><date when="1871-10-28">1871 <lb/><choice><abbr>Oct<hi rend="sup underline">r</hi></abbr><expan>October</expan></choice> <lb/>28<hi rend="sup underline">th</hi></date></note> 
+<lb/>of very serious obstacles - His helpmates 
 <lb/>turned out depraved blackguards who 
 <lb/>by their excesses at <placeName><geogName type="island">Zanzibar</geogName></placeName> &amp; elsewhere 
 <lb/>had ruined their constitutions and <w>pre-
@@ -28909,7 +28936,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>on the <date when="1871-11-14">14<hi rend="sup underline">th</hi> November</date> and a <bibl>Nautical 
 <lb/>Almanac</bibl> I discovered that I was on 
 <lb/>that date 21 days too fast in my <w>reckon<supplied>-</supplied> 
-<lb break="no"/><note place="marginleft">-</note>ing</w> - <persName>M<hi rend="sup underline">r</hi> Stanley</persName> used some very 
+<lb break="no"/>=ing</w> - <persName>M<hi rend="sup underline">r</hi> Stanley</persName> used some very 
 <lb/>strong arguments in favour of my 
 <lb/>going home - recruiting my strength 
 <lb/>getting artificial teeth, and then 
@@ -29133,7 +29160,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
 	<pb facs="liv_000019_0735" n="0735"/>
 <lb/><fw n="735"><add place="inspace" rend="gray right" hand="#U">735</add></fw>
-<lb/><note place="marginleft"><date when="1872-02-18">1872 <lb/><choice><abbr>Feby</abbr><expan>February</expan></choice> <lb/>18<hi rend="sup underline">th</hi></date></note> in a foray against the <term type="occupation">chief of <placeName><settlement type="town"><w>Un-
+<lb/><note place="marginleft"><date when="1872-02-18">1872 <lb/><choice><abbr>Feby</abbr><expan>February</expan></choice> <lb/>18<hi rend="sup underline">th</hi></date></note> 
+<lb/>in a foray against the <term type="occupation">chief of <placeName><settlement type="town"><w>Un-
 <lb break="no"/>-yanyembe</w></settlement></placeName></term> raised his exactions to
 <lb/>a mere plundering - and one <term type="occupation">trader</term>
 <lb/>he sent back after taking most of his
@@ -29202,13 +29230,15 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb break="no"/>ing</w> of which he was cognizant
 <lb/>by <persName>Saloom</persName> <add place="below">^</add> <add place="above">since killed</add> - <term type="occupation">Shereef</term> &amp; <persName>Athman</persName>.</p>
 <lb/><p>Probable loss by <term type="occupation">Governors</term> carelessness</p>
-<lb/><table n="rightFloatTOC"><row><cell>Fine double barrelled smooth bore</cell> <cell rend="right">200</cell></row>
+	<div n="rightFloatTOCa">
+<table><row><cell>Fine double barrelled smooth bore</cell> <cell rend="right">200</cell></row>
 <lb/><row><cell>Long single barrel <persName>Jacobs</persName> Rifle</cell> <cell rend="right">85</cell></row>
 <lb/><row><cell>Cartridges 500 fine <persName>Eufield</persName> Cartridges</cell> <cell rend="right">25</cell></row>
 <lb/><row><cell>Books writing paper - box -</cell> <cell rend="right">30</cell></row>
 <lb/><row><cell><space extent="4" unit="words"/><space extent="3" unit="chars"/>£68 ==</cell> <cell rend="right"><hi rend="overline">$340</hi></cell></row>
 <lb/><row><cell>For carriage from <placeName><region>coast</region></placeName> $60 =</cell> <cell rend="right">60</cell></row>
 <lb/><row><cell></cell> <cell rend="right">$<hi rend="overline">400</hi></cell></row></table><!-- The right column is a calculation/tally of monies that is totaled at the end. HB -->
+	</div>
 
 <!--<cb rend="left"/>
 <list>
@@ -29279,7 +29309,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
 	<pb facs="liv_000019_0738" n="0738"/>
 <lb/><fw n="738"><add place="inspace" rend="gray left" hand="#U">738</add></fw>
-<lb/><note place="marginleft"><date when="1872-01-20">1872 <lb/><choice><abbr>Feby</abbr><expan>February</expan></choice> <lb/>20<hi rend="sup">th</hi></date></note> is simply marauding and murdering by <unclear>the</unclear><!-- It seems that Livingstone doesn't finish this thought/sentence.  EM -->
+<lb/><note place="marginleft"><date when="1872-01-20">1872 <lb/><choice><abbr>Feby</abbr><expan>February</expan></choice> <lb/>20<hi rend="sup">th</hi></date></note> 
+<lb/>is simply marauding and murdering by <unclear>the</unclear><!-- It seems that Livingstone doesn't finish this thought/sentence.  EM -->
 <lb/>at the instigation and by the aid of <orgName>our <term type="nationality">Indian</term>
 <lb/>fellow subjects</orgName> - the cunning <term type="people">Indians</term><!-- Or OrgName? EM --><!-- When it's a specific country's people (like India), it's term type people, but if it was a group of people larger than a specific country (like Africa which is a bloc or conglomerate of countries), then it's orgName...don't worry, you'll get used to the intricacies :) HB --> secure
 <lb/>nearly all the profits of the caravans they send
@@ -29487,7 +29518,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>allow them to harm a fly very <add place="below">over</add> <add place="below">12 leaves <figure><figDesc>Drawing of hand pointing past leaves.</figDesc></figure></add></p><!-- The second addition is from the following page. HB -->
             </div>
 
-			<div rend="brown black" type="journal" n="rightFloatTOCmod1"><!-- The dates in the right column in the TOC refer to pages in the printed journal, not DL's dates, so I have removed all such <date> tags. AW -->
+			<div rend="brown black" type="journal" n="rightFloatTOC"><!-- The dates in the right column in the TOC refer to pages in the printed journal, not DL's dates, so I have removed all such <date> tags. AW -->
 	<pb facs="liv_000019_0743" n="0743"/> <!-- Adrian, should all of these be one big list? Or sep lists on sep pages? I'd vote for one big list since it's the table of contents? HB --><!-- Made into one list. AW -->
 <lb/><fw n="743"><add place="inspace" rend="gray right" hand="#U">743</add></fw>
 <lb/><list><item><space extent="1" unit="chars"/><seg rend="right"><add place="inspace" rend="small">pages</add></seg></item>
@@ -29529,9 +29560,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><orgName><term type="occupation">Sepoys</term></orgName> &amp; <orgName>Johannese</orgName> are of different sects <seg rend="right">–-</seg>
 <lb/>of <orgName>Moslems</orgName> - <persName>Bon Ali</persName> our <term type="occupation">guide</term> <seg rend="right">18 D.</seg></item> <!--Looks like someone, not livingstone, has handwritten "2 leaves" with a handdrawn hand pointing somewhere on the page -AK--><!-- I included this on the preceding page's text as it is the completion of a note from that margin. HB -->
 <lb/><item><add place="inspace" rend="brown">12 leaves <figure><figDesc>Drawing of a hand pointing to the right.</figDesc></figure></add></item></list>
-			</div>
 
-			<div rend="brown black" type="journal" n="rightFloatTOC">
 	<pb facs="liv_000019_0744" n="0744"/>
 <lb/><fw n="744"><add place="inspace" rend="gray left" hand="#U">744</add></fw>
 <lb/><list><item><space extent="1" unit="chars"/><seg rend="right"><add place="inspace"><hi rend="double-underline">January</hi></add></seg></item>
@@ -29867,9 +29896,9 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/><item>Return to <placeName><settlement type="village">Kabwabwata</settlement></placeName> - <seg rend="right">--</seg></item>
 <lb/><item>Inundation still great in North <seg rend="right">28.</seg></item>
 <lb/><item><placeName><geogName type="lake">Chowambe</geogName></placeName> &amp; springs of <placeName><geogName type="river">Nile</geogName></placeName> - <placeName><geogName type="lake">Ulenge</geogName></placeName> - <seg rend="right">--</seg></item></list>
-</div>
+		</div>
 
-<div rend="gray" type="journal" n="rightFloatTOCmod2">
+		<div rend="gray" type="journal" n="rightFloatTOC">
 <pb facs="liv_000019_0752" n="0752"/>
 <lb/><list><item><space extent="1" unit="chars"/><seg rend="right"><add place="inspace" rend="small">page</add></seg></item>
 <lb/><fw n="752"><add place="inspace" rend="gray left" hand="#U">752</add></fw> <item><space extent="1" unit="chars"/><seg rend="right"><add place="inspace">Days month</add></seg></item>
@@ -29910,9 +29939,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>by silly old men - old men numerous <seg rend="right">28<hi rend="sup">th</hi></seg>
 <lb/><foreign xml:lang="und"><term type="occupation">Cazembe</term></foreign> presents a <unclear cert="low">biut</unclear> of <term type="animal"><term type="foodstuff">white bait</term></term> <seg rend="right">=</seg>
 <lb/><term type="plant">Malumbi</term> a root somewhat like <term type="plant_foodstuff">potato</term> <seg rend="right">=</seg></item></list>
-			</div>
 
-			<div rend="gray" type="journal" n="rightFloatTOC">
 	<pb facs="liv_000019_0753" n="0753"/>
 <lb/><fw n="753"><add place="inspace" rend="gray right" hand="#U">753</add></fw>
 <lb/><list><item><space extent="1" unit="chars"/><seg rend="right"><add place="inspace" rend="small">page</add></seg></item>
@@ -30041,9 +30068,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>carried to <placeName><geogName type="confluence">confluence of <placeName><geogName type="river">Lofuko</geogName></placeName></geogName></placeName> <placeName><region>Parra</region></placeName> <seg rend="right">--</seg>
 <lb/>Extract the insect called "<hi rend="underline"><foreign xml:lang="und"><term  type="insect">Funye</term></foreign></hi> from <seg rend="right">--</seg>
 <lb/>body &amp; limbs - Embark on Lake <seg rend="right">--</seg></item></list> <!-- geog: Tanganyika, I think. HB -->
-			</div>
 
-			<div type="journal" n="rightFloatTOCmod3" rend="brown">
 	<pb facs="liv_000019_0756" n="0756"/>
 <lb/><fw n="756"><add place="inspace" rend="gray" hand="#U">756</add></fw>
 <lb/><list rend="brown black"><item><bibl>Copy of letter to <persName>Lord Stanley</persName> now <seg rend="right">August</seg>
@@ -30084,9 +30109,7 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>smoke lowering temperature <seg rend="right">13.</seg>
 <lb/><placeName><geogName type="fountain">Kibila hot fountain</geogName></placeName> - <placeName><settlement type="village"><persName>Kunde</persName>'s</settlement></placeName> <seg rend="right">--</seg>
 <lb/>at <placeName><geogName type="rivulet"><choice><abbr>Rt</abbr><expan>Rivulet</expan></choice> Katamba</geogName></placeName> - <seg rend="right">--</seg></item></list>
-			</div>
 
-			<div type="journal" n="rightFloatTOCmod4" rend="brown">
 	<pb facs="liv_000019_0757" n="0757"/>
 <lb/><fw n="757"><add place="inspace" rend="gray right" hand="#U">757</add></fw>
 <lb/><list><item><term type="tribe"><choice><orig>Suaheli</orig><reg>Swahili</reg></choice></term> superstition as to <term type="animal">elephants</term> <seg rend="right">September</seg></item>
@@ -30337,7 +30360,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 <lb/>firing women lullilooing <seg rend="right">--</seg></item>
 
 	<pb facs="liv_000019_0763" n="0763"/>
-<lb/><fw n="763"><add place="inspace" rend="gray right" hand="#U">763</add></fw> <item><space extent="1" unit="chars"/><seg rend="right"><add place="inspace" rend="small">1871</add></seg></item>
+<lb/><fw n="763"><add place="inspace" rend="gray right" hand="#U">763</add></fw> 
+<lb/><item><space extent="1" unit="chars"/><seg rend="right"><add place="inspace" rend="small">1871</add></seg></item>
 <lb/><item><space extent="1" unit="chars"/><seg rend="right"><add place="inspace">December</add></seg></item>
 <lb/><item><choice><sic><persName>Kabobos</persName></sic><corr><persName>Kabobo</persName>'s</corr></choice> old wife - 2 heads for <unclear cert="high">sale</unclear> <seg rend="right">10-</seg>
 <lb/><orgName><choice><orig>Manyuema</orig><reg>Manyema</reg></choice></orgName> <term type="occupation">chiefs</term> entreat me not to <seg rend="right">--</seg>
@@ -30424,7 +30448,8 @@ and when we came to <persName>Machemba</persName>'s <add place="below">^</add> <
 
 	<pb facs="liv_000019_0765" n="0765"/>
 <lb/><item><add place="inspace">1872</add><space extent="1" unit="chars"/><seg rend="right"><add place="inspace">1872</add></seg></item>
-<lb/><item><space extent="1" unit="chars"/><fw n="765"><add place="inspace" rend="gray right" hand="#U">765</add></fw><seg rend="right"><add place="inspace">December</add></seg></item>
+<lb/><item><space extent="1" unit="chars"/><fw n="765"><add place="inspace" rend="gray right" hand="#U">765</add></fw>
+<lb/><seg rend="right"><add place="inspace">December</add></seg></item>
 <lb/><item>Mode of walking of <unclear cert="medium"><foreign xml:lang="und"><term type="animal">Soko</term></foreign></unclear> - <seg rend="right">20 -</seg></item>
 <lb/><item>to <placeName><settlement type="village"><persName>Kassessa</persName>'s</settlement></placeName> - full fledge <unclear>kite</unclear> <seg rend="right">--</seg>
 <lb/><placeName><settlement type="village">Mamohela</settlement></placeName> - <placeName><settlement type="village">Imano</settlement></placeName> - <placeName><settlement type="village">Bambarre</settlement></placeName> <seg rend="right">21 -</seg></item>
