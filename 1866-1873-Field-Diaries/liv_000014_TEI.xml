@@ -127,7 +127,7 @@
     <text>
 		<front> </front><!-- Needed for XSLT to work -->
        	<body n="d0d1cc">
-			<div rend="gray">
+			<div rend="gray" n="liv_000014 div1">
 
 	<pb facs="liv_000014_0001" n="0001"/>
 			    
@@ -2525,7 +2525,7 @@
 <lb/><milestone unit="section" rend="double-line"/>
 <!--The rest of this page is written upside down, so technically this is now the top of the page. Not sure how to code this? EC--><!-- See how I've done below. HB -->
 			</div>
-       	    <div rend="upside-down gray"> <!-- The content of this section should follow the next page. -->
+       	    <div rend="upside-down gray" n="liv_000014 div2"> <!-- The content of this section should follow the next page. -->
 <lb/><p rend="no-indent"><date when="1872-09-01"> 1<hi rend="sup underline">st</hi> <del type="strikethrough">August</del> <choice><abbr>Sept<hi rend="sup">r</hi></abbr><expan>September</expan></choice> 1872</date>
 <lb/>A flock of small <term type="animal">swallows</term>
 <lb/>now appears = seem 
@@ -2718,11 +2718,11 @@
 <lb/>3 <del><gap extent="1" unit="chars"/></del> loads of
 <lb/>62 <choice><abbr>lbs</abbr><expan>pounds</expan></choice> &amp; 70 <choice><abbr>lbs</abbr><expan>pounds</expan></choice>
 <lb/><milestone unit="section" rend="double-line"/>
-<lb/><list><item><add place="marginleft">Beads</add> 17 + 3 Wire = <seg rend="right">20</seg>
-<lb/>20 - calico = <seg rend="right">20</seg></item>
-<lb/><item><space extent="2" unit="chars"/>sundries <seg rend="right">12</seg></item>
-<lb/><item><space extent="4" unit="chars"/>loads = <seg rend="right">52</seg></item>
-<lb/><item><milestone unit="section" rend="right quarter-line"/></item></list></note>
+<lb/><list><item><add place="marginright">Beads</add> 17 + 3 Wire = <seg>20</seg>
+<lb/>20 - calico = <seg>20</seg></item>
+<lb/><item><space extent="2" unit="chars"/>sundries <seg>12</seg></item>
+<lb/><item><milestone unit="section" rend="quarter-line"/></item>
+<lb/><item><space extent="4" unit="chars"/>loads = <seg>52</seg></item></list></note>
 
 <lb/><item>bedding</item>
 <lb/><item>bullets</item>
@@ -2911,7 +2911,7 @@
 <lb/>from sand</p>
        	    </div>
        	    
-            <div rend="blue upside-down"> <!-- Adrian, I started a new div for the blue upside-down text because I couldn't seem to get the seg tag to work. HB --><!-- OK. AW -->
+            <div rend="blue upside-down" n="liv_000014 div1"> <!-- Adrian, I started a new div for the blue upside-down text because I couldn't seem to get the seg tag to work. HB --><!-- OK. AW -->
     <pb facs="liv_000014_0109" n="0109"/><!-- The content of this page should precede the previous page. -->
 <lb/><p rend="no-indent">Paid 7 pieces to
 <lb/>own people <date when="1872-02-20">20<hi rend="sup underline">th</hi>
@@ -2953,7 +2953,7 @@
 <lb/><figure><figDesc>Calculations that continue to previous page.</figDesc></figure>
             </div>
 
-            <div rend="upside-down gray">
+            <div rend="upside-down gray" n="liv_000014 div3">
     <pb facs="liv_000014_0114" n="0114"/><!-- The content of this page should follow the next page. -->
 <lb/><p rend="no-indent"><choice><sic><persName>Stanleys</persName></sic><corr><persName>Stanley</persName>'s</corr></choice> nine bales
 <lb/>and one of mine of
@@ -3251,7 +3251,7 @@
 <lb/>empties by the <placeName><geogName type="river">Congo</geogName></placeName>.</p>
 		</div>
 			
-		<div rend="gray">
+		<div rend="gray" n="liv_000014 div1">
 	<pb facs="liv_000014_0132" n="0132"/><!-- 0132 is an image of the same page as 0131, but with the newspaper clipping removed.-->
 	<cb rend="vertical"/>
 <lb/><p rend="no-indent"><figure><figDesc>Drawing of landscape referenced in text, with additional notes of "covered at top dark forest", and "great <choice><abbr>M<hi rend="sup">t</hi></abbr><expan>Mountain</expan></choice> mass like crater".</figDesc></figure>
@@ -3398,7 +3398,7 @@
 <lb/>deep bay on East side <measure>2 miles</measure> <gap extent="1" unit="words" agent="fading"/>
 <lb/><space extent="2" unit="words"/>2 deep</note>
 <!--I'm not sure I coded this correctly. DL puts three lines of smaller text on this one line, starting halfway through the line. MW--><!-- I did a littel repair but this was a heroic job to try to code this. AW -->
-
+<lb/>
 <lb/>
 <lb/>
 <lb/></p>
