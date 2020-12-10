@@ -40,7 +40,8 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-final-MS-bonus.css"/>
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-omv.css"/>
+				<!--<link rel="stylesheet" type="text/css" href="style-omv.css"/>-->
 				<title>
 					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
@@ -80,36 +81,27 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<div class="transcription style-final-MS-bonus" style="background:#{$body-color};">
-			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
-			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
-			<!--<h2>
-        <xsl:value-of select="//teiHeader//title[2]"/>
-			</h2>-->
+		<div class="transcription style-omv" style="background:#{$body-color};">
+
 			<div class="TEI" style="background:#{$body-color};">
 				<div class="item-details">
-				<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
-				<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/>
-				<hr class="title-section"/><br/>
-				<!--<span class="project-id"><span class="bold">Title:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
-				<span class="project-id"><span class="bold">Creator(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/>-->
-				<span class="project-id"><span class="bold">Date(s) of composition:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/date[@type='composition']"/></span><br/>
-				<!-- <span class="project-id"><span class="bold">Place(s) of composition:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']"/></span><br/> -->
-				<span class="project-id"><span class="bold">Repository:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//repository"/>, <xsl:value-of select="//teiHeader//settlement"/>, <xsl:value-of select="//teiHeader//country"/></span><br/>
-				<span class="project-id"><span class="bold">Shelfmark:</span><xsl:text> </xsl:text> <xsl:value-of select="//teiHeader//idno[@type='shelfmark']"/></span><br/>
-				<span class="project-id"><span class="bold">Clendennen &amp; Cunningham number(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//idno[@type='ccnumber']"/></span><br/>
-				<span class="project-id"><span class="bold">Digital edition and date:</span><xsl:text> </xsl:text> <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
-					<span class="project-id"><span class="bold">Publisher:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/pubPlace"/></span><br/>
+				<span class="title"><!--<span class="bold">Title:</span><xsl:text> </xsl:text>--><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
+				<span class="author"><!--<span class="bold">Creator(s):</span><xsl:text> </xsl:text>--><xsl:value-of select="//teiHeader//titleStmt/author" separator="; "/></span><br/>
+				<span class="project-id"><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date"/></span><br/>
+				<span class="project-id"><span class="bold">Place of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></span><br/>
+				<!--<span class="project-id"><span class="bold">Date(s) of composition:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/date[@type='composition']"/></span><br/>
+				<span class="project-id"><span class="bold">Place(s) of composition:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']"/></span><br/>-->
+				<span class="project-id"><span class="bold">Repository:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/repository" /> (<xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/settlement" />, <xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/country" />)</span><br/>
+				<span class="project-id"><span class="bold">Shelfmark / Identifier:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/idno[@type='shelfmark']" /></span><br/>
+				<span class="project-id"><span class="bold">Digital edition and date:</span><xsl:text> </xsl:text> <a href="http://onemorevoice.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of Livingstone Online,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
 				<span class="project-id"><span class="bold">Project ID</span><xsl:text>: </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
-				<span class="project-id"><span class="bold">Critical encoding:</span><xsl:text> </xsl:text> <xsl:value-of select="//teiHeader//respStmt/name" separator=", "/></span><br/>
+				<span class="project-id"><span class="bold">Critical encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></span><br/>
 				<span class="project-id"><span class="bold">Encoding dates</span><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></span><br/>
 				<!--<xsl:value-of select="//revisionDesc/change/date[not(.=preceding::date)]" separator=", "/>-->
 				<!--<span class="project-encoding"><span class="bold">Encoding conversion</span><xsl:text>: James Cummings (2015-03-02)</xsl:text></span><br/>
 				<span class="project-encoding"><span class="bold">Encoding review</span><xsl:text>: Lauren Geiger (2016-2017)</xsl:text></span><br/>
-				<span class="encoding-standard"><span class="bold">Encoding standardization</span><xsl:text>: Adrian S. Wisnicki (2015-2017)</xsl:text></span><br/><br/>-->
-					<br/>
+				<span class="encoding-standard"><span class="bold">Encoding standardization</span><xsl:text>: Adrian S. Wisnicki (2015-2017)</xsl:text></span><br/>--><br/>
 					<hr class="title-section"/><br/>
-					<br/>
 				</div>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
@@ -181,8 +173,8 @@
 
 
 	<!-- Textual divisions -->
-	<xsl:template match="text|front|body|back">
-		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}" >
+	<xsl:template match="text|body|front|back">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
@@ -414,18 +406,6 @@
 
 	<!-- For "corr" see above -->
 
-	<xsl:template match="date[@when]" priority="10">
-		<span class="date" data-date="{@when}"><xsl:apply-templates/></span>
-	</xsl:template>
-
-	<xsl:template match="date[@from]" priority="10">
-		<span class="date" data-date="{@from} {@to}"><xsl:apply-templates/></span>
-	</xsl:template>
-
-	<xsl:template match="date">
-		<span class="date" data-date="unknown"><xsl:apply-templates/></span>
-	</xsl:template>
-
 	<xsl:template match="dateline">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
@@ -539,8 +519,8 @@
 		<!--</span>-->
 	</xsl:template>
 
-	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
-		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
+	<xsl:template match="fw|fw[@type='catch']|fw[@type='pageno']">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}" title="">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
