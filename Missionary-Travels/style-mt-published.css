@@ -626,7 +626,16 @@ div.transcription.style-mt-published .table.liv_015011_0497,
 div.transcription.style-mt-published .table.liv_015011_0498{
 	font-size: .8em;
 	color:#46381e;
+	text-align: left;
+	line-height: 100%;
 	border-collapse: collapse;
+}
+div.transcription.style-mt-published .table.liv_015011_0458 td,
+div.transcription.style-mt-published .table.liv_015011_0459 td,
+div.transcription.style-mt-published .table.liv_015011_0497 td,
+div.transcription.style-mt-published .table.liv_015011_0498 td{
+	padding: 1px;
+	border-top: unset;	
 }
 div.transcription.style-mt-published .table.liv_015011_0458{
 	margin-left: 2em;
@@ -660,6 +669,7 @@ div.transcription.style-mt-published table.table.liv_015011_0459.second:nth-chil
 }
 div.transcription.style-mt-published .table.liv_015011_0497{
 	margin-left: 1em;
+    width: calc(100% - 1em);
 }
 div.transcription.style-mt-published .table.liv_015011_0497 > tbody:nth-child(1) > tr > td{
 	width: 25%;
@@ -675,6 +685,8 @@ div.transcription.style-mt-published .table.liv_015011_0498.second{
 }
 div.transcription.style-mt-published .table.liv_015011_0498.first{
 	margin-left: -3em;
+	width: unset;
+	max-width: unset;
 }
 div.transcription.style-mt-published .table.liv_015011_0497.first > tbody:nth-child(1) > tr:nth-child(3){
 	border-top: 1px #46381e solid;
