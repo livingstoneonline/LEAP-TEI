@@ -64,9 +64,9 @@ div.transcription.style-UJ-complete .item-details {
 	white-space:normal;
 	color:#563e2b;
 }
-div.transcription.style-UJ-complete .div {
+/* div.transcription.style-UJ-complete .div {
 	margin-top:-1.2em;
-}
+} */
 div.transcription.style-UJ-complete div.text {
 	min-width:34em;
 	max-width:34em;
@@ -187,7 +187,7 @@ div.transcription.style-UJ-complete .pb-title:hover {
 	color:#AAA;
 	cursor:pointer;
 }
-div.transcription.style-UJ-complete .pb-title:first-of-type {
+div.transcription.style-UJ-complete .front > div:nth-child(1) > span:nth-child(2) {
 	margin-top:0;
 }
 div.transcription.style-UJ-complete p span.pb-title {
@@ -717,7 +717,9 @@ div.transcription.style-UJ-complete .rightFloatTOCmod1{
 }
 div.transcription.style-UJ-complete .rightFloatTOCmod1 .right {
 	position: absolute;
-	right: -3em;
+	right: 10.5em;
+	float: unset;
+	margin: unset;
 }
 div.transcription.style-UJ-complete .rightFloatTOCmod1 .left.right {
 	position: absolute;
