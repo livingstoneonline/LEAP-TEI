@@ -51,7 +51,6 @@ div.transcription.style-fds .TEI {
 	/*#d3c2a8;*/
 	/*#e7d5bd*/
 	text-align:left;
-	position: relative;
 }
 /*@media all and (max-width:768px)  {
 .TEI {	
@@ -62,9 +61,12 @@ div.transcription.style-fds .item-details {
 	min-width:29em;
 	white-space:normal;
 }
-div.transcription.style-fds .div {
-	margin-top:-1.2em;
+div.transcription.style-fds .text {
+	position: relative;
 }
+/* div.transcription.style-fds .div {
+	margin-top:-1.2em;
+} */
 div.transcription.style-fds div.body {
 	display:block;
 	padding-bottom:2.4em;
@@ -160,8 +162,9 @@ div.transcription.style-fds .pb-title {
 	color:#428bca;
 	/*text-decoration:underline;*/
 	font-size:90%;
-	margin-top:2em;
+	margin-top:3em;
 	margin-bottom:-0.9em;
+	font-style:normal;
 }
 div.transcription.style-fds .notop {
   /*needed for some .pb-titles*/
@@ -172,7 +175,8 @@ div.transcription.style-fds .pb-title:hover {
 	color:#AAA;
 	cursor:pointer;
 }
-div.transcription.style-fds .pb-title:first-of-type {
+div.transcription.style-fds .front > span:nth-child(2),
+div.transcription.style-fds div.body > div:nth-child(1) > span:nth-child(2) {
 	margin-top:0;
 }
 div.transcription.style-fds p span.pb-title {
@@ -478,6 +482,17 @@ div.transcription.style-fds .note.marginleft {
 	float:left;
 	text-align:center;
 }
+/*
+2.18, 2.83
+3.104
+4.83, 4.94
+6.103
+7.12, 7.117, 7.129
+10.134
+14.31-32, 14.100
+16.158, 16.169
+17.17, 17.25, 17.30
+*/
 div.transcription.style-fds .note.marginright {
 	position: absolute;
 	left: 12em;
@@ -778,9 +793,10 @@ div.transcription.style-fds .term-tribe {
 
 /* 14. Diary-Specific CSS */
 
-.table.liv_000005_0091 .row{
+/* also see .note.marginright, above */
+/* .table.liv_000005_0091 .row{
 	position: relative;
-}
+} */
 .table.liv_000005_0091 .right{
 	margin-left: unset !important;
 	max-width: unset !important;
@@ -792,11 +808,11 @@ div.transcription.style-fds .term-tribe {
 /* 14.div1: 82-83, 110, 137-138 */
 /* 14.div2: 100-101 */
 /* 14.div3: 117 */
-.liv_000014.div1 .item br,
+/* .liv_000014.div1 .item br,
 .liv_000014.div2 .item br,
 .liv_000014.div3 .item br{
 	position: relative;
-}
+} */
 .liv_000014.div1 .item .right,
 .liv_000014.div2 .item .right,
 .liv_000014.div3 .item .right{
@@ -814,23 +830,23 @@ div.transcription.style-fds .term-tribe {
 	float: unset !important;
 }
 .liv_000014.div1 .item .right{
-	left: 8em;
+	left: 7em;
 }
 .liv_000014.div2 .item .right{
-	right: 20em;
+	right: 19em;
 }
 .liv_000014.div2 .note.marginright{
 	margin-top: unset !important;
 }
 .liv_000014.div3 .item .right{
-	left: 13em;
+	left: 12em;
 }
 /* 15: 42-44, 46, 48, 50-52, 54-55, 64, 
 70-72, 75-76, 78-80, 85-86, 88, 91, 95, 
 105, 109, 113, 125 */
-.liv_000015.div1{
+/* .liv_000015.div1{
 	position: relative;
-}
+} */
 .liv_000015.div1 .right{
 	margin-top: unset !important;
 	margin-left: unset !important;
@@ -838,5 +854,5 @@ div.transcription.style-fds .term-tribe {
 	position: absolute;
 }
 .liv_000015.div1 .right{
-	right: 15em;
+	right: 16em;
 }
